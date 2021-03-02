@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Library:           OASIS Universal Business Language (UBL) 2.3 CSPRD01
+                     http://docs.oasis-open.org/ubl/csprd01-UBL-2.3/
+  Release Date:      07 August 2019
+  Module:            xsd/common/UBL-CommonAggregateComponents-2.3.xsd
+  Generated on:      2019-08-15 00:22z
+  Copyright (c) OASIS Open 2019. All Rights Reserved.
+-->
+<xsd:schema xmlns="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ccts="urn:un:unece:uncefact:documentation:2" targetNamespace="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.3">
+	<!-- ===== Imports ===== -->
+	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="UBL-CommonBasicComponents-2.3.xsd"/>
+	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" schemaLocation="UBL-CommonAggregateComponents-2.3.xsd"/>
+	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" schemaLocation="UBL-CommonExtensionComponents-2.3.xsd"/>
+	<xsd:import namespace="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" schemaLocation="EFORMS-ExtensionBasicComponents-2.3.xsd"/>
+	<!-- ===== Element Declarations ===== -->
+	<xsd:element name="AnswerReceptionPeriod" type="cac:PeriodType"/>
+	<xsd:element name="AppealRequestsStatistics" type="StatisticsType"/>
+	<xsd:element name="AppealStatus" type="AppealStatusType"/>
+	<xsd:element name="AppealedItem" type="AppealedItemType"/>
+	<xsd:element name="AppealProcessingParty" type="AppealProcessingPartyType"/>
+	<xsd:element name="AppealsInformation" type="AppealsInformationType"/>
+	<xsd:element name="AppealingParty" type="AppealingPartyType"/>
+	<xsd:element name="Asset" type="AssetType"/>
+	<xsd:element name="AssetsList" type="AssetsListType"/>
+	<xsd:element name="AwardCriterionStatistics" type="StatisticsType"/>
+	<xsd:element name="BuyerReviewStatistics" type="StatisticsType"/>
+	<xsd:element name="BuyingPartyReference" type="BuyingPartyReferenceType"/>
+	<xsd:element name="Change" type="ChangeType"/>
+	<xsd:element name="ChangedElement" type="ChangedElementType"/>
+	<xsd:element name="ChangeReason" type="ReasonType"/>
+	<xsd:element name="ContractAggregatedAmounts" type="ContractAggregatedAmountsType"/>
+	<xsd:element name="DurationJustification" type="DurationJustificationType"/>
+	<xsd:element name="EvaluationCriterion" type="cac:AwardingCriterionType"/>
+	<xsd:element name="InterestExpressionReceptionPeriod" type="cac:PeriodType"/>
+	<xsd:element name="ContractModification" type="ChangeType"/>
+	<xsd:element name="SelectionCriteria" type="CriterionType"/>
+	<xsd:element name="CriterionStatistics" type="StatisticsType"/>
+	<xsd:element name="FieldsPrivacy" type="FieldsPrivacyType"/>
+	<xsd:element name="Publication" type="PublicationType"/>
+	<xsd:element name="ReceivedSubmissionsStatistics" type="StatisticsType"/>
+	<xsd:element name="ReferencedDocumentPart" type="ReferencedDocumentPartType"/>
+	<xsd:element name="Statistics" type="StatisticsType"/>
+	<xsd:element name="StrategicProjectsStatistics" type="StatisticsType"/>
+	<xsd:element name="SubsidiaryClassification" type="SubsidiaryClassificationType"/>
+	<xsd:element name="SubordinateCriterion" type="CriterionType"/>
+	<xsd:element name="TenderSubcontractingRequirements" type="TenderSubcontractingRequirementsType"/>
+	<!-- ===== Type Definitions ===== -->
+	<!-- ===== Aggregate Business Information Entity Type Definitions ===== -->
+	<xsd:complexType name="AppealedItemType">
+		<xsd:sequence>
+			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AppealProcessingPartyType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:AppealProcessingPartyTypeCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:AppealProcessingPartyTypeDescription" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cac:Party" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AppealStatusType">
+		<xsd:sequence>
+			<xsd:element ref="cbc:Date" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="cbc:Title" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:Description" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:URI" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:FeeAmount" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:AppealStageCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:AppealStageID" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:AppealPreviousStageID" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:DecisionTypeCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:IrregularityTypeCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:RemedyAmount" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:RemedyTypeCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:WithdrawnAppealIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:WithdrawnAppealDate" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:WithdrawnAppealReasons" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:AppealProcessingParty" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efac:AppealedItem" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:AppealingParty" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AppealsInformationType">
+		<xsd:sequence>
+			<xsd:element ref="efac:AppealStatus" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AppealingPartyType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:AppealingPartyTypeCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:AppealingPartyTypeDescription" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cac:Party" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AssetType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:AssetDescription" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:AssetSignificance" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:AssetPredominance" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AssetsListType">
+		<xsd:sequence>
+			<xsd:element ref="efac:Asset" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="BuyingPartyReferenceType">
+		<xsd:sequence>
+			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ChangeType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:ChangedNoticeIdentifier" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ProcurementDocumentsChangeDate" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:ProcurementDocumentsChangeIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:ChangedElement" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:ChangeReason" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ChangedElementType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:ChangedSectionIdentifier" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:ChangeDescription" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ElementOldValue" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ElementNewValue" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ContractAggregatedAmountsType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:PaidAmount" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:PaidAmountDescription" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:PenaltiesAmount" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="DurationJustificationType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:ExtendedDurationIndicator" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efac:AssetsList" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="FieldsPrivacyType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:FieldIdentifierCode" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ReasonCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:ReasonDescription" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:PublicationDate" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PublicationType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:NoticePublicationID" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:GazetteID" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:PublicationDate" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ReasonType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:ReasonCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:ReasonDescription" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="CriterionType">
+		<xsd:sequence>
+			<xsd:element ref="cbc:ID" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:CriterionTypeCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:Name" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:Description" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:WeightNumeric" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:Weight" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:CalculationExpression" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:CalculationExpressionCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:SecondStageIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:MinimumQuantity" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:MaximumQuantity" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:MinimumAmount" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:MaximumAmount" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:MinimumImprovementBid" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="CriterionStatistics" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="SubordinateCriterion" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ReferencedDocumentPartType">
+		<xsd:sequence>
+			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="StatisticsType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:StatisticsCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:StatisticalNumeric" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="SubsidiaryClassificationType">
+		<xsd:sequence>
+			<xsd:element ref="cbc:ItemClassificationCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:ItemClassificationDescription" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="TenderSubcontractingRequirementsType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:TenderSubcontractingRequirementsCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:TenderSubcontractingRequirementsDescription" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
+<!-- ===== Copyright Notice ===== -->
+<!--
+  OASIS takes no position regarding the validity or scope of any 
+  intellectual property or other rights that might be claimed to pertain 
+  to the implementation or use of the technology described in this 
+  document or the extent to which any license under such rights 
+  might or might not be available; neither does it represent that it has 
+  made any effort to identify any such rights. Information on OASIS's 
+  procedures with respect to rights in OASIS specifications can be 
+  found at the OASIS website. Copies of claims of rights made 
+  available for publication and any assurances of licenses to be made 
+  available, or the result of an attempt made to obtain a general 
+  license or permission for the use of such proprietary rights by 
+  implementors or users of this specification, can be obtained from 
+  the OASIS Executive Director.
+
+  OASIS invites any interested party to bring to its attention any 
+  copyrights, patents or patent applications, or other proprietary 
+  rights which may cover technology that may be required to 
+  implement this specification. Please address the information to the 
+  OASIS Executive Director.
+  
+  This document and translations of it may be copied and furnished to 
+  others, and derivative works that comment on or otherwise explain 
+  it or assist in its implementation may be prepared, copied, 
+  published and distributed, in whole or in part, without restriction of 
+  any kind, provided that the above copyright notice and this 
+  paragraph are included on all such copies and derivative works. 
+  However, this document itself may not be modified in any way, 
+  such as by removing the copyright notice or references to OASIS, 
+  except as needed for the purpose of developing OASIS 
+  specifications, in which case the procedures for copyrights defined 
+  in the OASIS Intellectual Property Rights document must be 
+  followed, or as required to translate it into languages other than 
+  English. 
+
+  The limited permissions granted above are perpetual and will not be 
+  revoked by OASIS or its successors or assigns. 
+
+  This document and the information contained herein is provided on 
+  an "AS IS" basis and OASIS DISCLAIMS ALL WARRANTIES, 
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY 
+  WARRANTY THAT THE USE OF THE INFORMATION HEREIN 
+  WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED 
+  WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A 
+  PARTICULAR PURPOSE.    
+-->

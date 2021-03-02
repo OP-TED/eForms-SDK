@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svrl:schematron-output xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                        xmlns:can="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"
+                        xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                        xmlns:cn="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+                        xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                        xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                        xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                        xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+                        xmlns:iso="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"
+                        xmlns:saxon="http://saxon.sf.net/"
+                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:schold="http://www.ascc.net/xml/schematron"
+                        xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        schemaVersion=""
+                        title="eForms schematron rules"><!--   
+		   
+		   
+		 -->
+   <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+   <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cbc"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cac"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="ext"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efac"
+                                       uri="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efext" uri="http://data.europa.eu/p27/eforms-ubl-extensions/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efbc"
+                                       uri="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="can"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cn"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="pin"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
+   <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
+   <svrl:fired-rule context="/*[(/*/cbc:NoticeTypeCode/text()=('pmc', 'pin-only', 'pin-rtl', 'pin-cfc-standard', 'pin-cfc-social', 'qu-sy', 'cn-standard', 'cn-social', 'subco', 'cn-desg', 'veat', 'can-standard', 'can-social', 'can-desg', 'can-modif', 'cc'))]"/>
+   <svrl:fired-rule context="cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="cbc:PartyTypeCode"/>
+   <svrl:fired-rule context="cbc:ActivityTypeCode"/>
+   <svrl:fired-rule context="cbc:ProcedureCode"/>
+   <svrl:fired-rule context="cac:ProcurementProjectLot/cbc:ID"/>
+   <svrl:fired-rule context="cac:ProcurementProjectLot/cbc:ID/@schemeName"/>
+   <svrl:fired-rule context="cbc:FundingProgramCode"/>
+   <svrl:fired-rule context="cbc:AwardingCriterionTypeCode"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess/ext:UBLExtensions[/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg')]"/>
+   <svrl:fired-rule context="efbc:StatisticsCode"/>
+   <svrl:fired-rule context="cbc:ContractingSystemTypeCode"/>
+   <svrl:fired-rule context="cbc:ContractingSystemTypeCode"/>
+   <svrl:fired-rule context="cbc:TenderResultCode"/>
+   <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
+   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:TenderResult[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
+   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:TenderingProcess[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ReceivedSubmissionsStatistics[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:TenderResult[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:TenderResult/cac:AwardedTenderedProject[/*/cbc:NoticeTypeCode/text() = 'can-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"/>
+   <svrl:fired-rule context="/*/cac:TenderingProcess"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Name"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Description"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:Description"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ReceivedSubmissionsStatistics"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Name"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Description"/>
+   <svrl:fired-rule context="/*/cac:TenderResult"/>
+   <svrl:fired-rule context="/*/cac:TenderResult/cac:AwardedTenderedProject"/>
+   <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
+   <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
+   <svrl:fired-rule context="/*/cbc:CustomizationID"/>
+   <svrl:fired-rule context="/*/cbc:IssueDate"/>
+   <svrl:fired-rule context="/*/cbc:IssueTime"/>
+   <svrl:fired-rule context="/*/cbc:VersionID"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
+   <svrl:fired-rule context="/*/cbc:NoticeLanguageCode"/>
+   <svrl:fired-rule context="//cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>
+   <svrl:fired-rule context="//cbc:ActivityTypeCode/@listName"/>
+   <svrl:fired-rule context="//cac:Country/cbc:IdentificationCode"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:PostalAddress/cac:Country/cbc:IdentificationCode"
+                       test="( false() or ( contains('&#x7f;AND&#x7f;ALB&#x7f;AUT&#x7f;BIH&#x7f;BEL&#x7f;BGR&#x7f;BLR&#x7f;BYS&#x7f;CHE&#x7f;CSK&#x7f;SCG&#x7f;CYP&#x7f;CZE&#x7f;DDR&#x7f;DNK&#x7f;EST&#x7f;GRC&#x7f;ESP&#x7f;FIN&#x7f;FRO&#x7f;FRA&#x7f;GGY&#x7f;GIB&#x7f;GRL&#x7f;HRV&#x7f;HUN&#x7f;IRL&#x7f;IMN&#x7f;ISL&#x7f;ITA&#x7f;JEY&#x7f;LIE&#x7f;LTU&#x7f;LUX&#x7f;LVA&#x7f;MCO&#x7f;MDA&#x7f;MNE&#x7f;MKD&#x7f;MLT&#x7f;NLD&#x7f;NOR&#x7f;POL&#x7f;PRT&#x7f;ROU&#x7f;SRB&#x7f;RUS&#x7f;SWE&#x7f;SVN&#x7f;SVK&#x7f;SMR&#x7f;SUN&#x7f;TUR&#x7f;UKR&#x7f;GBR&#x7f;VAT&#x7f;YUG&#x7f;DEU&#x7f;ALA&#x7f;DZA&#x7f;ASM&#x7f;AGO&#x7f;AIA&#x7f;ATA&#x7f;ATG&#x7f;ARG&#x7f;ARM&#x7f;ABW&#x7f;AUS&#x7f;AZE&#x7f;BHS&#x7f;BHR&#x7f;BGD&#x7f;BRB&#x7f;BLZ&#x7f;BEN&#x7f;BMU&#x7f;BTN&#x7f;BOL&#x7f;BWA&#x7f;BVT&#x7f;BRA&#x7f;IOT&#x7f;VGB&#x7f;BRN&#x7f;BFA&#x7f;BDI&#x7f;KHM&#x7f;CMR&#x7f;CAN&#x7f;CPV&#x7f;CYM&#x7f;CAF&#x7f;TCD&#x7f;CHL&#x7f;CHN&#x7f;CXR&#x7f;CPT&#x7f;CCK&#x7f;COL&#x7f;COM&#x7f;COG&#x7f;COK&#x7f;CRI&#x7f;CIV&#x7f;CUB&#x7f;COD&#x7f;DJI&#x7f;DMA&#x7f;DOM&#x7f;TLS&#x7f;ECU&#x7f;EGY&#x7f;SLV&#x7f;GNQ&#x7f;ERI&#x7f;ETH&#x7f;FLK&#x7f;FJI&#x7f;GUF&#x7f;PYF&#x7f;ATF&#x7f;GAB&#x7f;GMB&#x7f;GEO&#x7f;GHA&#x7f;GRD&#x7f;GLP&#x7f;GUM&#x7f;GTM&#x7f;GIN&#x7f;GNB&#x7f;GUY&#x7f;HTI&#x7f;HMD&#x7f;HND&#x7f;HKG&#x7f;IND&#x7f;IDN&#x7f;IRN&#x7f;IRQ&#x7f;ISR&#x7f;JAM&#x7f;JPN&#x7f;JOR&#x7f;KAZ&#x7f;KEN&#x7f;KIR&#x7f;KWT&#x7f;KGZ&#x7f;LAO&#x7f;LBN&#x7f;LSO&#x7f;LBR&#x7f;LBY&#x7f;MAC&#x7f;MDG&#x7f;MWI&#x7f;MYS&#x7f;MDV&#x7f;MLI&#x7f;MHL&#x7f;MTQ&#x7f;MRT&#x7f;MUS&#x7f;MYT&#x7f;MEX&#x7f;FSM&#x7f;MNG&#x7f;MSR&#x7f;MAR&#x7f;MOZ&#x7f;MMR&#x7f;NAM&#x7f;NRU&#x7f;NPL&#x7f;ANT&#x7f;NCL&#x7f;NZL&#x7f;NIC&#x7f;NER&#x7f;NGA&#x7f;NIU&#x7f;NFK&#x7f;PRK&#x7f;MNP&#x7f;OMN&#x7f;PAK&#x7f;PLW&#x7f;PSE&#x7f;PAN&#x7f;PNG&#x7f;PRY&#x7f;PER&#x7f;PHL&#x7f;PCN&#x7f;PRI&#x7f;QAT&#x7f;REU&#x7f;RWA&#x7f;BLM&#x7f;SHN&#x7f;KNA&#x7f;LCA&#x7f;MAF&#x7f;SPM&#x7f;VCT&#x7f;WSM&#x7f;STP&#x7f;SAU&#x7f;SEN&#x7f;SYC&#x7f;SLE&#x7f;SGP&#x7f;SLB&#x7f;SOM&#x7f;ZAF&#x7f;SGS&#x7f;KOR&#x7f;LKA&#x7f;SDN&#x7f;SUR&#x7f;SJM&#x7f;SWZ&#x7f;SYR&#x7f;TWN&#x7f;TJK&#x7f;TZA&#x7f;THA&#x7f;TGO&#x7f;TKL&#x7f;TON&#x7f;TTO&#x7f;TUN&#x7f;TKM&#x7f;TCA&#x7f;TUV&#x7f;UGA&#x7f;ARE&#x7f;USA&#x7f;UMI&#x7f;URY&#x7f;VIR&#x7f;UZB&#x7f;VUT&#x7f;VEN&#x7f;VNM&#x7f;WLF&#x7f;ESH&#x7f;YEM&#x7f;ZMB&#x7f;ZWE&#x7f;AFG&#x7f;BUR&#x7f;1A0&#x7f;HVO&#x7f;ZR0&#x7f;AFI&#x7f;ATB&#x7f;CTE&#x7f;DHY&#x7f;ATN&#x7f;TMP&#x7f;FXX&#x7f;GEL&#x7f;JTN&#x7f;MID&#x7f;NTZ&#x7f;NHB&#x7f;PCI&#x7f;PCZ&#x7f;SKM&#x7f;RHO&#x7f;PUS&#x7f;VDR&#x7f;WAK&#x7f;FQ0&#x7f;YMD&#x7f;BES&#x7f;CUW&#x7f;SXM&#x7f;SSD&#x7f;EUR&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The specified Country is not part of the Country codelist</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:Telephone"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:Contact/cbc:Telephone"
+                       test="( matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$') ) and ( true() )">
+      <svrl:text>The encoded value is not recognized as a Phone number</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:ElectronicMail"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:Contact/cbc:ElectronicMail"
+                       test="( matches(normalize-space(.),'^(\D)+(\w)*((\.(\w)+)?)+@(\D)+(\w)*((\.(\D)+(\w)*)+)?(\.)[a-z]+$') ) and ( true() )">
+      <svrl:text>Specified eMail Address isnot conform</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:ProcedureCode"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:TenderingProcess/cbc:ProcedureCode"
+                       test="( false() or ( contains('&#x7f;open&#x7f;restricted&#x7f;neg-w-call&#x7f;neg-wo-call&#x7f;comp-dial&#x7f;innovation&#x7f;oth-single&#x7f;oth-mult&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The Procedure Type code is not conform to the Procurement Procedure Type codelist</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:ProcedureCode/@listName"/>
+   <svrl:failed-assert location=""
+                       test="( false() or ( contains('&#x7f;procurement-procedure-type&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The Procedure Code  listName attribute is not conform.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//@languageID"/>
+   <svrl:failed-assert location="Z"
+                       test="( false() or ( contains('&#x7f;ENG&#x7f;BUL&#x7f;CES&#x7f;DAN&#x7f;DEU&#x7f;ELL&#x7f;EST&#x7f;FIN&#x7f;FRA&#x7f;GLE&#x7f;HRV&#x7f;ITA&#x7f;HUN&#x7f;LAV&#x7f;LIT&#x7f;MLT&#x7f;NLD&#x7f;POL&#x7f;POR&#x7f;RON&#x7f;SLK&#x7f;SLV&#x7f;SPA&#x7f;SWE&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The value specified for the text Language is not recognized.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//@languageID"/>
+   <svrl:failed-assert location="Z"
+                       test="( false() or ( contains('&#x7f;ENG&#x7f;BUL&#x7f;CES&#x7f;DAN&#x7f;DEU&#x7f;ELL&#x7f;EST&#x7f;FIN&#x7f;FRA&#x7f;GLE&#x7f;HRV&#x7f;ITA&#x7f;HUN&#x7f;LAV&#x7f;LIT&#x7f;MLT&#x7f;NLD&#x7f;POL&#x7f;POR&#x7f;RON&#x7f;SLK&#x7f;SLV&#x7f;SPA&#x7f;SWE&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The value specified for the text Language is not recognized.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cac:ProcurementProjectLot/cbc:ID[@schemeName='Lot']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
+                       test="( matches(normalize-space(.),'^LOT-\d4$') ) and ( true() )">
+      <svrl:text>The Lot ID does not follow the LotID scheme.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:FundingProgramCode[@listName='eu-funded']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cbc:FundingProgramCode"
+                       test="( false() or ( contains('&#x7f;eu-funds&#x7f;no-eu-funds&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>Specified value is not conform, only eu-funds and no-eu-funds are accepted for EU Funds (BT-60).</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:FundingProgramCode/@listName"/>
+   <svrl:fired-rule context="//cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode"
+                       test="( false() or ( contains('&#x7f;quality&#x7f;cost&#x7f;price&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The specified value is not supported</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:AwardingCriterionTypeCode/@listName"/>
+   <svrl:fired-rule context="//@languageID"/>
+   <svrl:failed-assert location="Z"
+                       test="( false() or ( contains('&#x7f;ENG&#x7f;BUL&#x7f;CES&#x7f;DAN&#x7f;DEU&#x7f;ELL&#x7f;EST&#x7f;FIN&#x7f;FRA&#x7f;GLE&#x7f;HRV&#x7f;ITA&#x7f;HUN&#x7f;LAV&#x7f;LIT&#x7f;MLT&#x7f;NLD&#x7f;POL&#x7f;POR&#x7f;RON&#x7f;SLK&#x7f;SLV&#x7f;SPA&#x7f;SWE&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The value specified for the text Language is not recognized.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cac:Country/cbc:IdentificationCode"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PostalAddress/cac:Country/cbc:IdentificationCode"
+                       test="( false() or ( contains('&#x7f;AND&#x7f;ALB&#x7f;AUT&#x7f;BIH&#x7f;BEL&#x7f;BGR&#x7f;BLR&#x7f;BYS&#x7f;CHE&#x7f;CSK&#x7f;SCG&#x7f;CYP&#x7f;CZE&#x7f;DDR&#x7f;DNK&#x7f;EST&#x7f;GRC&#x7f;ESP&#x7f;FIN&#x7f;FRO&#x7f;FRA&#x7f;GGY&#x7f;GIB&#x7f;GRL&#x7f;HRV&#x7f;HUN&#x7f;IRL&#x7f;IMN&#x7f;ISL&#x7f;ITA&#x7f;JEY&#x7f;LIE&#x7f;LTU&#x7f;LUX&#x7f;LVA&#x7f;MCO&#x7f;MDA&#x7f;MNE&#x7f;MKD&#x7f;MLT&#x7f;NLD&#x7f;NOR&#x7f;POL&#x7f;PRT&#x7f;ROU&#x7f;SRB&#x7f;RUS&#x7f;SWE&#x7f;SVN&#x7f;SVK&#x7f;SMR&#x7f;SUN&#x7f;TUR&#x7f;UKR&#x7f;GBR&#x7f;VAT&#x7f;YUG&#x7f;DEU&#x7f;ALA&#x7f;DZA&#x7f;ASM&#x7f;AGO&#x7f;AIA&#x7f;ATA&#x7f;ATG&#x7f;ARG&#x7f;ARM&#x7f;ABW&#x7f;AUS&#x7f;AZE&#x7f;BHS&#x7f;BHR&#x7f;BGD&#x7f;BRB&#x7f;BLZ&#x7f;BEN&#x7f;BMU&#x7f;BTN&#x7f;BOL&#x7f;BWA&#x7f;BVT&#x7f;BRA&#x7f;IOT&#x7f;VGB&#x7f;BRN&#x7f;BFA&#x7f;BDI&#x7f;KHM&#x7f;CMR&#x7f;CAN&#x7f;CPV&#x7f;CYM&#x7f;CAF&#x7f;TCD&#x7f;CHL&#x7f;CHN&#x7f;CXR&#x7f;CPT&#x7f;CCK&#x7f;COL&#x7f;COM&#x7f;COG&#x7f;COK&#x7f;CRI&#x7f;CIV&#x7f;CUB&#x7f;COD&#x7f;DJI&#x7f;DMA&#x7f;DOM&#x7f;TLS&#x7f;ECU&#x7f;EGY&#x7f;SLV&#x7f;GNQ&#x7f;ERI&#x7f;ETH&#x7f;FLK&#x7f;FJI&#x7f;GUF&#x7f;PYF&#x7f;ATF&#x7f;GAB&#x7f;GMB&#x7f;GEO&#x7f;GHA&#x7f;GRD&#x7f;GLP&#x7f;GUM&#x7f;GTM&#x7f;GIN&#x7f;GNB&#x7f;GUY&#x7f;HTI&#x7f;HMD&#x7f;HND&#x7f;HKG&#x7f;IND&#x7f;IDN&#x7f;IRN&#x7f;IRQ&#x7f;ISR&#x7f;JAM&#x7f;JPN&#x7f;JOR&#x7f;KAZ&#x7f;KEN&#x7f;KIR&#x7f;KWT&#x7f;KGZ&#x7f;LAO&#x7f;LBN&#x7f;LSO&#x7f;LBR&#x7f;LBY&#x7f;MAC&#x7f;MDG&#x7f;MWI&#x7f;MYS&#x7f;MDV&#x7f;MLI&#x7f;MHL&#x7f;MTQ&#x7f;MRT&#x7f;MUS&#x7f;MYT&#x7f;MEX&#x7f;FSM&#x7f;MNG&#x7f;MSR&#x7f;MAR&#x7f;MOZ&#x7f;MMR&#x7f;NAM&#x7f;NRU&#x7f;NPL&#x7f;ANT&#x7f;NCL&#x7f;NZL&#x7f;NIC&#x7f;NER&#x7f;NGA&#x7f;NIU&#x7f;NFK&#x7f;PRK&#x7f;MNP&#x7f;OMN&#x7f;PAK&#x7f;PLW&#x7f;PSE&#x7f;PAN&#x7f;PNG&#x7f;PRY&#x7f;PER&#x7f;PHL&#x7f;PCN&#x7f;PRI&#x7f;QAT&#x7f;REU&#x7f;RWA&#x7f;BLM&#x7f;SHN&#x7f;KNA&#x7f;LCA&#x7f;MAF&#x7f;SPM&#x7f;VCT&#x7f;WSM&#x7f;STP&#x7f;SAU&#x7f;SEN&#x7f;SYC&#x7f;SLE&#x7f;SGP&#x7f;SLB&#x7f;SOM&#x7f;ZAF&#x7f;SGS&#x7f;KOR&#x7f;LKA&#x7f;SDN&#x7f;SUR&#x7f;SJM&#x7f;SWZ&#x7f;SYR&#x7f;TWN&#x7f;TJK&#x7f;TZA&#x7f;THA&#x7f;TGO&#x7f;TKL&#x7f;TON&#x7f;TTO&#x7f;TUN&#x7f;TKM&#x7f;TCA&#x7f;TUV&#x7f;UGA&#x7f;ARE&#x7f;USA&#x7f;UMI&#x7f;URY&#x7f;VIR&#x7f;UZB&#x7f;VUT&#x7f;VEN&#x7f;VNM&#x7f;WLF&#x7f;ESH&#x7f;YEM&#x7f;ZMB&#x7f;ZWE&#x7f;AFG&#x7f;BUR&#x7f;1A0&#x7f;HVO&#x7f;ZR0&#x7f;AFI&#x7f;ATB&#x7f;CTE&#x7f;DHY&#x7f;ATN&#x7f;TMP&#x7f;FXX&#x7f;GEL&#x7f;JTN&#x7f;MID&#x7f;NTZ&#x7f;NHB&#x7f;PCI&#x7f;PCZ&#x7f;SKM&#x7f;RHO&#x7f;PUS&#x7f;VDR&#x7f;WAK&#x7f;FQ0&#x7f;YMD&#x7f;BES&#x7f;CUW&#x7f;SXM&#x7f;SSD&#x7f;EUR&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The specified Country is not part of the Country codelist</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:Telephone"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:Contact/cbc:Telephone"
+                       test="( matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$') ) and ( true() )">
+      <svrl:text>The encoded value is not recognized as a Phone number</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:ElectronicMail"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:Contact/cbc:ElectronicMail"
+                       test="( matches(normalize-space(.),'^(\D)+(\w)*((\.(\w)+)?)+@(\D)+(\w)*((\.(\D)+(\w)*)+)?(\.)[a-z]+$') ) and ( true() )">
+      <svrl:text>Specified eMail Address isnot conform</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cac:Country/cbc:IdentificationCode"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PostalAddress/cac:Country/cbc:IdentificationCode"
+                       test="( false() or ( contains('&#x7f;AND&#x7f;ALB&#x7f;AUT&#x7f;BIH&#x7f;BEL&#x7f;BGR&#x7f;BLR&#x7f;BYS&#x7f;CHE&#x7f;CSK&#x7f;SCG&#x7f;CYP&#x7f;CZE&#x7f;DDR&#x7f;DNK&#x7f;EST&#x7f;GRC&#x7f;ESP&#x7f;FIN&#x7f;FRO&#x7f;FRA&#x7f;GGY&#x7f;GIB&#x7f;GRL&#x7f;HRV&#x7f;HUN&#x7f;IRL&#x7f;IMN&#x7f;ISL&#x7f;ITA&#x7f;JEY&#x7f;LIE&#x7f;LTU&#x7f;LUX&#x7f;LVA&#x7f;MCO&#x7f;MDA&#x7f;MNE&#x7f;MKD&#x7f;MLT&#x7f;NLD&#x7f;NOR&#x7f;POL&#x7f;PRT&#x7f;ROU&#x7f;SRB&#x7f;RUS&#x7f;SWE&#x7f;SVN&#x7f;SVK&#x7f;SMR&#x7f;SUN&#x7f;TUR&#x7f;UKR&#x7f;GBR&#x7f;VAT&#x7f;YUG&#x7f;DEU&#x7f;ALA&#x7f;DZA&#x7f;ASM&#x7f;AGO&#x7f;AIA&#x7f;ATA&#x7f;ATG&#x7f;ARG&#x7f;ARM&#x7f;ABW&#x7f;AUS&#x7f;AZE&#x7f;BHS&#x7f;BHR&#x7f;BGD&#x7f;BRB&#x7f;BLZ&#x7f;BEN&#x7f;BMU&#x7f;BTN&#x7f;BOL&#x7f;BWA&#x7f;BVT&#x7f;BRA&#x7f;IOT&#x7f;VGB&#x7f;BRN&#x7f;BFA&#x7f;BDI&#x7f;KHM&#x7f;CMR&#x7f;CAN&#x7f;CPV&#x7f;CYM&#x7f;CAF&#x7f;TCD&#x7f;CHL&#x7f;CHN&#x7f;CXR&#x7f;CPT&#x7f;CCK&#x7f;COL&#x7f;COM&#x7f;COG&#x7f;COK&#x7f;CRI&#x7f;CIV&#x7f;CUB&#x7f;COD&#x7f;DJI&#x7f;DMA&#x7f;DOM&#x7f;TLS&#x7f;ECU&#x7f;EGY&#x7f;SLV&#x7f;GNQ&#x7f;ERI&#x7f;ETH&#x7f;FLK&#x7f;FJI&#x7f;GUF&#x7f;PYF&#x7f;ATF&#x7f;GAB&#x7f;GMB&#x7f;GEO&#x7f;GHA&#x7f;GRD&#x7f;GLP&#x7f;GUM&#x7f;GTM&#x7f;GIN&#x7f;GNB&#x7f;GUY&#x7f;HTI&#x7f;HMD&#x7f;HND&#x7f;HKG&#x7f;IND&#x7f;IDN&#x7f;IRN&#x7f;IRQ&#x7f;ISR&#x7f;JAM&#x7f;JPN&#x7f;JOR&#x7f;KAZ&#x7f;KEN&#x7f;KIR&#x7f;KWT&#x7f;KGZ&#x7f;LAO&#x7f;LBN&#x7f;LSO&#x7f;LBR&#x7f;LBY&#x7f;MAC&#x7f;MDG&#x7f;MWI&#x7f;MYS&#x7f;MDV&#x7f;MLI&#x7f;MHL&#x7f;MTQ&#x7f;MRT&#x7f;MUS&#x7f;MYT&#x7f;MEX&#x7f;FSM&#x7f;MNG&#x7f;MSR&#x7f;MAR&#x7f;MOZ&#x7f;MMR&#x7f;NAM&#x7f;NRU&#x7f;NPL&#x7f;ANT&#x7f;NCL&#x7f;NZL&#x7f;NIC&#x7f;NER&#x7f;NGA&#x7f;NIU&#x7f;NFK&#x7f;PRK&#x7f;MNP&#x7f;OMN&#x7f;PAK&#x7f;PLW&#x7f;PSE&#x7f;PAN&#x7f;PNG&#x7f;PRY&#x7f;PER&#x7f;PHL&#x7f;PCN&#x7f;PRI&#x7f;QAT&#x7f;REU&#x7f;RWA&#x7f;BLM&#x7f;SHN&#x7f;KNA&#x7f;LCA&#x7f;MAF&#x7f;SPM&#x7f;VCT&#x7f;WSM&#x7f;STP&#x7f;SAU&#x7f;SEN&#x7f;SYC&#x7f;SLE&#x7f;SGP&#x7f;SLB&#x7f;SOM&#x7f;ZAF&#x7f;SGS&#x7f;KOR&#x7f;LKA&#x7f;SDN&#x7f;SUR&#x7f;SJM&#x7f;SWZ&#x7f;SYR&#x7f;TWN&#x7f;TJK&#x7f;TZA&#x7f;THA&#x7f;TGO&#x7f;TKL&#x7f;TON&#x7f;TTO&#x7f;TUN&#x7f;TKM&#x7f;TCA&#x7f;TUV&#x7f;UGA&#x7f;ARE&#x7f;USA&#x7f;UMI&#x7f;URY&#x7f;VIR&#x7f;UZB&#x7f;VUT&#x7f;VEN&#x7f;VNM&#x7f;WLF&#x7f;ESH&#x7f;YEM&#x7f;ZMB&#x7f;ZWE&#x7f;AFG&#x7f;BUR&#x7f;1A0&#x7f;HVO&#x7f;ZR0&#x7f;AFI&#x7f;ATB&#x7f;CTE&#x7f;DHY&#x7f;ATN&#x7f;TMP&#x7f;FXX&#x7f;GEL&#x7f;JTN&#x7f;MID&#x7f;NTZ&#x7f;NHB&#x7f;PCI&#x7f;PCZ&#x7f;SKM&#x7f;RHO&#x7f;PUS&#x7f;VDR&#x7f;WAK&#x7f;FQ0&#x7f;YMD&#x7f;BES&#x7f;CUW&#x7f;SXM&#x7f;SSD&#x7f;EUR&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The specified Country is not part of the Country codelist</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:Telephone"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:Contact/cbc:Telephone"
+                       test="( matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$') ) and ( true() )">
+      <svrl:text>The encoded value is not recognized as a Phone number</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:ElectronicMail"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:Contact/cbc:ElectronicMail"
+                       test="( matches(normalize-space(.),'^(\D)+(\w)*((\.(\w)+)?)+@(\D)+(\w)*((\.(\D)+(\w)*)+)?(\.)[a-z]+$') ) and ( true() )">
+      <svrl:text>Specified eMail Address isnot conform</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//efbc:StatisticsCode[@listName='received-submission-type']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
+                       test="( false() or ( contains('&#x7f;part-req&#x7f;tenders&#x7f;t-sme&#x7f;t-micro&#x7f;t-small&#x7f;t-med&#x7f;t-oth-eea&#x7f;t-no-eea&#x7f;t-verif-inad&#x7f;t-verif-inad-low&#x7f;t-no-verif&#x7f;t-esubm&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The code specified for receivedSubmissionTenders is unknown</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//efbc:StatisticsCode/@listName"/>
+   <svrl:fired-rule context="//cbc:GovernmentAgreementConstraintIndicator"/>
+   <svrl:fired-rule context="//cbc:AuctionConstraintIndicator"/>
+   <svrl:fired-rule context="//cbc:ContractingSystemTypeCode[@listName='framework-agreement']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[1]/cbc:ContractingSystemTypeCode"
+                       test="( false() or ( contains('&#x7f;fa-wo-rc&#x7f;fa-w-rc&#x7f;fa-mix&#x7f;none&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The FA code value specified is not allowed.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:ContractingSystemTypeCode/@listName"/>
+   <svrl:fired-rule context="//cbc:ContractingSystemTypeCode[@listName='dps-usage']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[2]/cbc:ContractingSystemTypeCode"
+                       test="( false() or ( contains('&#x7f;dps-list&#x7f;dps-nlist&#x7f;none&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The FA code value specified is not allowed.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:ContractingSystemTypeCode/@listName"/>
+   <svrl:fired-rule context="//@languageID"/>
+   <svrl:failed-assert location="Z"
+                       test="( false() or ( contains('&#x7f;ENG&#x7f;BUL&#x7f;CES&#x7f;DAN&#x7f;DEU&#x7f;ELL&#x7f;EST&#x7f;FIN&#x7f;FRA&#x7f;GLE&#x7f;HRV&#x7f;ITA&#x7f;HUN&#x7f;LAV&#x7f;LIT&#x7f;MLT&#x7f;NLD&#x7f;POL&#x7f;POR&#x7f;RON&#x7f;SLK&#x7f;SLV&#x7f;SPA&#x7f;SWE&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The value specified for the text Language is not recognized.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//@languageID"/>
+   <svrl:failed-assert location="Z"
+                       test="( false() or ( contains('&#x7f;ENG&#x7f;BUL&#x7f;CES&#x7f;DAN&#x7f;DEU&#x7f;ELL&#x7f;EST&#x7f;FIN&#x7f;FRA&#x7f;GLE&#x7f;HRV&#x7f;ITA&#x7f;HUN&#x7f;LAV&#x7f;LIT&#x7f;MLT&#x7f;NLD&#x7f;POL&#x7f;POR&#x7f;RON&#x7f;SLK&#x7f;SLV&#x7f;SPA&#x7f;SWE&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The value specified for the text Language is not recognized.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:TenderResultCode[@listName='winner-selection-status']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:TenderResult/cbc:TenderResultCode"
+                       test="( false() or ( contains('&#x7f;selec-w&#x7f;open-nw&#x7f;clos-nw&#x7f;',concat('&#x7f;',.,'&#x7f;')) ) )">
+      <svrl:text>The specified  value of TenderResultCode is not supported</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//cbc:TenderResultCode/@listName"/>
+   <svrl:fired-rule context="//cbc:AwardDate"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:TenderResult/cbc:AwardDate"
+                       test="( matches(normalize-space(.),'^(?:(?:1[6-9]|[2-9]\d)\d2)-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30)))$|^(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29)$|^(?:(?:1[6-9]|[2-9]\d)\d2)-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])$') ) and ( true() )">
+      <svrl:text>The Award Date should follow the format YYYY-MM-DD</svrl:text>
+   </svrl:failed-assert>
+   <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty"/>
+   <svrl:fired-rule context="//cac:ProcurementProject"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess"/>
+   <svrl:fired-rule context="//cac:ProcurementProject"/>
+   <svrl:fired-rule context="/*/cac:TenderResult"/>
+   <svrl:fired-rule context="/*/cac:TenderResult/cbc:AwardDate"/>
+</svrl:schematron-output>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svrl:schematron-output xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                        xmlns:can="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"
+                        xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                        xmlns:cn="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+                        xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                        xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                        xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                        xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+                        xmlns:iso="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"
+                        xmlns:saxon="http://saxon.sf.net/"
+                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:schold="http://www.ascc.net/xml/schematron"
+                        xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        schemaVersion=""
+                        title="eForms schematron rules"><!--   
+		   
+		   
+		 -->
+   <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+   <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cbc"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cac"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="ext"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efac"
+                                       uri="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efext" uri="http://data.europa.eu/p27/eforms-ubl-extensions/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efbc"
+                                       uri="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="can"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cn"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="pin"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
+   <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
+   <svrl:fired-rule context="/*[(/*/cbc:NoticeTypeCode/text()=('pmc', 'pin-only', 'pin-rtl', 'pin-cfc-standard', 'pin-cfc-social', 'qu-sy', 'cn-standard', 'cn-social', 'subco', 'cn-desg', 'veat', 'can-standard', 'can-social', 'can-desg', 'can-modif', 'cc'))]"/>
+   <svrl:fired-rule context="cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="cac:ProcurementProjectLot/cbc:ID"/>
+   <svrl:fired-rule context="cac:ProcurementProjectLot/cbc:ID/@schemeName"/>
+   <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
+   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:TenderingTerms[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
+   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="error"
+                       test="count(cbc:IssueDate) &gt; 0">
+      <svrl:text>The BT-05 Notice Dispatch Date is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="error"
+                       test="count(cbc:IssueTime) &gt; 0">
+      <svrl:text>The BT-05 Notice Dispatch Date is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice" role="error" test="count(cbc:ID) &gt; 0">
+      <svrl:text>The BT-701 Notice Identifier is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="error"
+                       test="count(cbc:NoticeLanguageCode) &gt; 0">
+      <svrl:text>The BT-702 Notice Official Language is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="error"
+                       test="count(cbc:VersionID) &gt; 0">
+      <svrl:text>The BT-757 Notice Version is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="error"
+                       test="count(cbc:UBLVersionID) &gt; 0">
+      <svrl:text>The OPT-001 UBL version ID (UBL) is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="error"
+                       test="count(cbc:CustomizationID) &gt; 0">
+      <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty"
+                       role="error"
+                       test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0">
+      <svrl:text>The BT-10 Activity Authority is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty"
+                       role="error"
+                       test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">
+      <svrl:text>The BT-11 Buyer Legal Type is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:PartyName/cbc:Name) &gt; 0">
+      <svrl:text>The BT-500 Name is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
+      <svrl:text>The BT-501 Identifier is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:Contact/cbc:Telephone) &gt; 0">
+      <svrl:text>The BT-503 Contact Telephone Number is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
+      <svrl:text>The BT-506 Contact Email Address is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
+      <svrl:text>The BT-513 City is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
+      <svrl:text>The BT-514 Country Code is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
+                       role="error"
+                       test="count(cac:Party/cac:PartyName/cbc:Name) &gt; 0">
+      <svrl:text>The BT-500 Name is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
+                       role="error"
+                       test="count(cac:Party/cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
+      <svrl:text>The BT-501 Identifier is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
+                       role="error"
+                       test="count(cbc:ServiceTypeCode) &gt; 0">
+      <svrl:text>The OPT-030 Provided Service Type is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement"
+                       role="error"
+                       test="count(cbc:TendererRequirementTypeCode[@listName='exclusion-ground']) &gt; 0">
+      <svrl:text>The BT-67 Exclusion Grounds is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement"
+                       role="error"
+                       test="count(cbc:Description) &gt; 0">
+      <svrl:text>The BT-67 Exclusion Grounds is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:TenderingProcess[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:TenderingProcess"
+                       role="error"
+                       test="count(cbc:ProcedureCode) &gt; 0">
+      <svrl:text>The BT-105 Procedure Type is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProject"
+                       role="error"
+                       test="count(cbc:Name) &gt; 0">
+      <svrl:text>The BT-21 Title is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProject"
+                       role="error"
+                       test="count(cbc:Description) &gt; 0">
+      <svrl:text>The BT-24 Description is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="error"
+                       test="count(cbc:FundingProgramCode[@listName='eu-funded']) &gt; 0">
+      <svrl:text>The BT-60 EU Funds is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="error"
+                       test="count(cac:Language/cbc:ID) &gt; 0">
+      <svrl:text>The BT-97 Submission Language is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="error"
+                       test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']) &gt; 0">
+      <svrl:text>The BT-736 Reserved Execution is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="error"
+                       test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']) &gt; 0">
+      <svrl:text>The BT-743 Electronic Invoicing is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="error"
+                       test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']) &gt; 0">
+      <svrl:text>The BT-764 Submission Electronic Catalog is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="error"
+                       test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode) &gt; 0">
+      <svrl:text>The OPT-070 Execution Requirement is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria"
+                       role="error"
+                       test="count(cbc:CriterionTypeCode[@listName='selection-criterion']) &gt; 0">
+      <svrl:text>The BT-747 Selection Criteria Type is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria"
+                       role="error"
+                       test="count(cbc:CalculationExpressionCode[@listName='usage']) &gt; 0">
+      <svrl:text>The BT-748 Selection Criteria Used is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:CallForTendersDocumentReference"
+                       role="error"
+                       test="count(cbc:DocumentType) &gt; 0">
+      <svrl:text>The BT-14 Documents Restricted is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:TendererQualificationRequest"
+                       role="error"
+                       test="count(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']) &gt; 0">
+      <svrl:text>The BT-71 Reserved Participation is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+                       role="error"
+                       test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
+      <svrl:text>The BT-501 Identifier is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+                       role="error"
+                       test="count(cac:Contact/cbc:Telephone) &gt; 0">
+      <svrl:text>The BT-503 Contact Telephone Number is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+                       role="error"
+                       test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
+      <svrl:text>The BT-506 Contact Email Address is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+                       role="error"
+                       test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
+      <svrl:text>The BT-513 City is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+                       role="error"
+                       test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
+      <svrl:text>The BT-514 Country Code is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
+                       role="error"
+                       test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
+      <svrl:text>The BT-501 Identifier is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
+                       role="error"
+                       test="count(cac:Contact/cbc:Telephone) &gt; 0">
+      <svrl:text>The BT-503 Contact Telephone Number is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
+                       role="error"
+                       test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
+      <svrl:text>The BT-506 Contact Email Address is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
+                       role="error"
+                       test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
+      <svrl:text>The BT-513 City is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
+                       role="error"
+                       test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
+      <svrl:text>The BT-514 Country Code is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:PostAwardProcess"
+                       role="error"
+                       test="count(cbc:ElectronicOrderUsageIndicator) &gt; 0">
+      <svrl:text>The BT-92 Electronic Ordering is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:PostAwardProcess"
+                       role="error"
+                       test="count(cbc:ElectronicPaymentUsageIndicator) &gt; 0">
+      <svrl:text>The BT-93 Electronic Payment is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
+                       role="error"
+                       test="count(cbc:SubmissionMethodCode[@listName='esubmission']) &gt; 0">
+      <svrl:text>The BT-17 SubmissionElectronic is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
+                       role="error"
+                       test="count(cbc:GovernmentAgreementConstraintIndicator) &gt; 0">
+      <svrl:text>The BT-115 GPA Coverage is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
+                       role="error"
+                       test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']) &gt; 0">
+      <svrl:text>The BT-765 Framework Agreement is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
+                       role="error"
+                       test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']) &gt; 0">
+      <svrl:text>The BT-766 Dynamic Purchasing System is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:AuctionTerms"
+                       role="error"
+                       test="count(cbc:AuctionConstraintIndicator) &gt; 0">
+      <svrl:text>The BT-767 Electronic Auction is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[/*/cbc:NoticeTypeCode/text() = 'cn-standard'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+                       role="error"
+                       test="count(cbc:Name) &gt; 0">
+      <svrl:text>The BT-21 Title is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+                       role="error"
+                       test="count(cbc:Description) &gt; 0">
+      <svrl:text>The BT-24 Description is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"/>
+   <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement"/>
+   <svrl:fired-rule context="/*/cac:TenderingProcess"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject"/>
+   <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
+   <svrl:fired-rule context="//cac:ProcurementProjectLot/cbc:ID[@schemeName='Lot']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cbc:ID"
+                       test="( matches(normalize-space(.),'^LOT-\d4$') ) and ( true() )">
+      <svrl:text>The Lot ID does not follow the LotID scheme.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty"/>
+   <svrl:fired-rule context="//cac:ProcurementProject"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess"/>
+   <svrl:fired-rule context="//cac:ProcurementProject"/>
+</svrl:schematron-output>

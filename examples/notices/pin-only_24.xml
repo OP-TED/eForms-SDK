@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<!-- Currently filled in with fake values.
+-->
+<PriorInformationNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-1.0</cbc:CustomizationID>
+	<cbc:ID>ID1234</cbc:ID>
+	<cbc:IssueDate>2020-05-05+01:00</cbc:IssueDate>
+	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
+	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:PlannedDate>2020-12-31</cbc:PlannedDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="planning">pin-only</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">PaTC1234</cbc:PartyTypeCode>
+			<cbc:PartyType>PaTC1234blabla</cbc:PartyType>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cbc:WebsiteURI>https://www.partywebsiteuri1234.com</cbc:WebsiteURI>
+			<cbc:EndpointID>https://endpointuri1234.com</cbc:EndpointID>
+			<cac:PartyName>
+				<cbc:Name>PartyName1234</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>PartyNameStreetName1234</cbc:StreetName>
+				<cbc:CityName>City1234</cbc:CityName>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:CompanyID>PartyLegalEntityCID1234</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+			<cac:PartyLegalEntity>
+				<cbc:CompanyID>PartyLegalEntityCID1234</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+			<cac:Contact>
+				<cbc:Name>Contactname1234</cbc:Name>
+				<cbc:Telephone>123456789</cbc:Telephone>
+				<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+			</cac:Contact>
+			<cac:ServiceProviderParty>
+				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyName>
+						<cbc:Name>eSendCorp</cbc:Name>
+					</cac:PartyName>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:ProcurementProject>
+		<cbc:ID>ProPrID1234</cbc:ID>
+		<cbc:Name languageID="ENG">ProPrName1234</cbc:Name>
+		<cbc:Description languageID="ENG">PrPrDescblabla</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="ENG">Noteblablabla</cbc:Note>
+		<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+		<cac:RequestedTenderTotal>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">100000</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="ENG">RealizedLocDesc1234</cbc:Description>
+			<cac:Address>
+				<cbc:StreetName>RealizedLocStreet1234</cbc:StreetName>
+				<cbc:Department>RealizedLocDept1234</cbc:Department>
+				<cbc:CityName>RealizedLocCity1234</cbc:CityName>
+				<cbc:PostalZone>RealizedLocPostalZone1234</cbc:PostalZone>
+				<cac:AddressLine>
+					<cbc:Line>RealizedLocAddressLine1234</cbc:Line>
+				</cac:AddressLine>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:StartDate>2020-05-10</cbc:StartDate>
+			<cbc:EndDate>2020-12-31</cbc:EndDate>
+			<cbc:DurationMeasure unitCode="MONTH">7</cbc:DurationMeasure>
+		</cac:PlannedPeriod>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Part">PAR-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<cac:AppealTerms>
+				<cac:AppealReceiverParty>
+					<cac:PartyName>
+						<cbc:Name>AppealReceiverParty Name</cbc:Name>
+					</cac:PartyName>
+					<cac:PostalAddress>
+						<cbc:StreetName>Some street</cbc:StreetName>
+						<cbc:CityName>AppealCity</cbc:CityName>
+						<cbc:PostalZone>12354</cbc:PostalZone>
+						<cac:Country>
+							<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:PostalAddress>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+					<cac:Contact>
+						<cbc:Telephone>123456789</cbc:Telephone>
+						<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+					</cac:Contact>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:ProcurementProject>
+			<cbc:Name languageID="ENG">ProPrName1234-1</cbc:Name>
+			<cbc:Description languageID="ENG">PrPrDescblabla</cbc:Description>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">03000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>		
+			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">RealizedLocDesc1234</cbc:Description>
+				<cac:Address>
+					<cbc:StreetName>RealizedLocStreet1234</cbc:StreetName>
+					<cbc:Department>RealizedLocDept1234</cbc:Department>
+					<cbc:CityName>RealizedLocCity1234</cbc:CityName>
+					<cbc:PostalZone>RealizedLocPostalZone1234</cbc:PostalZone>
+					<cac:AddressLine>
+						<cbc:Line>RealizedLocAddressLine1234</cbc:Line>
+					</cac:AddressLine>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</PriorInformationNotice>

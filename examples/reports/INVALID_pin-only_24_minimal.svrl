@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svrl:schematron-output xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                        xmlns:can="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"
+                        xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                        xmlns:cn="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+                        xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                        xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                        xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                        xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+                        xmlns:iso="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"
+                        xmlns:saxon="http://saxon.sf.net/"
+                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:schold="http://www.ascc.net/xml/schematron"
+                        xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        schemaVersion=""
+                        title="eForms schematron rules"><!--   
+		   
+		   
+		 -->
+   <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+   <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cbc"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cac"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="ext"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efac"
+                                       uri="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efext" uri="http://data.europa.eu/p27/eforms-ubl-extensions/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efbc"
+                                       uri="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="can"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cn"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="pin"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
+   <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
+   <svrl:fired-rule context="/*[(/*/cbc:NoticeTypeCode/text()=('pmc', 'pin-only', 'pin-rtl', 'pin-cfc-standard', 'pin-cfc-social', 'qu-sy', 'cn-standard', 'cn-social', 'subco', 'cn-desg', 'veat', 'can-standard', 'can-social', 'can-desg', 'can-modif', 'cc'))]"/>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       test="exists(cac:ProcurementProjectLot)">
+      <svrl:text>The mandatory child element cac:ProcurementProjectLot is missing in context /*[(/*/cbc:NoticeTypeCode/text()=('pmc', 'pin-only', 'pin-rtl', 'pin-cfc-standard', 'pin-cfc-social', 'qu-sy', 'cn-standard', 'cn-social', 'subco', 'cn-desg', 'veat', 'can-standard', 'can-social', 'can-desg', 'can-modif', 'cc'))].</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="cbc:PartyTypeCode"/>
+   <svrl:fired-rule context="cbc:ActivityTypeCode"/>
+   <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
+   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'pin-only'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       role="error"
+                       test="count(cac:ProcurementProject) &gt; 0">
+      <svrl:text>The element cac:ProcurementProject is mandatory in context /*</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       role="error"
+                       test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">
+      <svrl:text>The element cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'] is mandatory in context /*</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'pin-only'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'pin-only'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:ServiceProviderParty) &gt; 0">
+      <svrl:text>The element cac:ServiceProviderParty is mandatory in context /*/cac:ContractingParty/cac:Party</svrl:text>
+   </svrl:failed-assert>
+   <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
+   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'pin-only'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       role="error"
+                       test="count(cbc:IssueTime) &gt; 0">
+      <svrl:text>The BT-05 Notice Dispatch Date is mandatory at Notice level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       role="error"
+                       test="count(cbc:PlannedDate) &gt; 0">
+      <svrl:text>The BT-127 Future Notice is mandatory at Notice level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       role="error"
+                       test="count(cbc:UBLVersionID) &gt; 0">
+      <svrl:text>The OPT-001 UBL version ID (UBL) is mandatory at Notice level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       role="error"
+                       test="count(cbc:CustomizationID) &gt; 0">
+      <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'pin-only'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'pin-only'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:PartyName/cbc:Name) &gt; 0">
+      <svrl:text>The BT-500 Name is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
+      <svrl:text>The BT-501 Identifier is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:Contact/cbc:Telephone) &gt; 0">
+      <svrl:text>The BT-503 Contact Telephone Number is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
+      <svrl:text>The BT-506 Contact Email Address is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
+      <svrl:text>The BT-513 City is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
+                       role="error"
+                       test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
+      <svrl:text>The BT-514 Country Code is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
+   <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
+   <svrl:fired-rule context="/*/cbc:IssueDate"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cbc:IssueDate"
+                       test="( matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d2)-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d2)-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$') ) and ( true() )">
+      <svrl:text>Notice Dispatch Date must be ISO, valid and have timezone information</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cbc:VersionID"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
+   <svrl:fired-rule context="/*/cbc:NoticeLanguageCode"/>
+   <svrl:fired-rule context="//cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>
+   <svrl:fired-rule context="//cbc:ActivityTypeCode/@listName"/>
+   <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty"/>
+</svrl:schematron-output>

@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<!-- Based on https://ted.europa.eu/udl?uri=TED:NOTICE:192449-2020:TEXT:EN:HTML
+-->
+<ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-1.0</cbc:CustomizationID>
+	<cbc:ID>2020/S 081-192449</cbc:ID>
+	<cbc:ContractFolderID></cbc:ContractFolderID>
+	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
+	<cbc:IssueTime>09:22:55+01:00</cbc:IssueTime>
+	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="result">veat</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cbc:WebsiteURI>https://www.middlesbrough.gov.uk</cbc:WebsiteURI>
+			<cac:PartyName>
+				<cbc:Name>Middlesbrough Council</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>Civic Centre</cbc:StreetName>
+				<cbc:CityName>Middlesbrough</cbc:CityName>
+				<cbc:PostalZone>TS1 9FZ</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:CompanyID>buyer</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+			<cac:Contact>
+				<cbc:Name>Philip Robinson</cbc:Name>
+				<cbc:Telephone>+44 1642729177</cbc:Telephone>
+				<cbc:ElectronicMail>philip_robinson@middlesbrough.gov.uk</cbc:ElectronicMail>
+			</cac:Contact>
+			<cac:ServiceProviderParty>
+				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyName>
+						<cbc:Name>eSendCorp</cbc:Name>
+					</cac:PartyName>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID>DN140070</cbc:ID>
+		<cbc:Name languageID="ENG">Supply of Profiling Beds with Accessories, Pressure Relieving Mattresses and Cushions</cbc:Name>
+		<cbc:Description languageID="ENG">Beds are to be used in a community setting and must be electrically powered with a range of bed rails, bed rail bumpers and grab handles. Beds size to range from single to bariatric mattresses must be supplied in a range of sizes up to and including king size. Mattresses are to be supplied in the range listed below:
+		Foam Visco/Gel Hybrid (Foam/Air) Alternating Air.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="ENG">The current contract expires on 30 September 2020.
+		Due to the Covid-19 outbreak, the Council is having to delay some of its procurement activity in order to facilitate its role in dealing with the outbreak, involving some emergency measures, with staff otherwise engaged in procuring more vital services in the current climate.
+		Following the guidance of ‘Procurement Policy Note — Responding to Covid-19 (Information note PPN 01/20: March 2020)’.
+		The Council considers the above to be legal and appropriate under the current circumstances and justified under Regulation 32 of the Public Contract Regulations 2015, in that it is for reasons of extreme urgency brought about by events unforeseeable to the Council and meets the requirements as set out under Regulation 72(1) allowing for the modification of the contract without a new procurement procedure in that the following criteria are all being met:
+		(i) the need for modification has been brought about by circumstances which a diligent contracting authority could not have foreseen;
+		(ii) the modification does not alter the overall nature of the contract;
+		(iii) any increase in price does not exceed 50 % of the value of the original contract or framework agreement.
+		The Council has relied on Regulation 72(1)(c) and is extending the current contract for a period of 6 months until 31 March 2021 and anticipates re-procuring the service and a new contract being in place as from 1 April 2021.
+		The extension of 6 months has been limited to what is absolutely necessary to address the unforeseeable circumstance.</cbc:Note>
+		<cac:RequestedTenderTotal>
+			<cbc:TotalAmount currencyID="EUR">350000</cbc:TotalAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="ENG">Tees Valley</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+			</cac:Address>
+		</cac:RealizedLocation>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<cac:AppealTerms>
+				<cac:AppealInformationParty>
+					<cac:PartyName>
+						<cbc:Name>Middlesbrough Council</cbc:Name>
+					</cac:PartyName>
+					<cac:PostalAddress>
+						<cbc:StreetName>Civic Centre</cbc:StreetName>
+						<cbc:CityName>Middlesbrough</cbc:CityName>
+						<cbc:PostalZone>TS1 9FZ</cbc:PostalZone>
+						<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+						<cac:Country>
+							<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:PostalAddress>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID>court</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+					<cac:Contact>
+						<cbc:Telephone>(+12)34567890</cbc:Telephone>
+						<cbc:ElectronicMail>contractandcommissioningunit@middlesbrough.gov.uk</cbc:ElectronicMail>
+					</cac:Contact>
+				</cac:AppealInformationParty>
+				<cac:AppealReceiverParty>
+					<cac:PartyName>
+						<cbc:Name>Middlesbrough Council</cbc:Name>
+					</cac:PartyName>
+					<cac:PostalAddress>
+						<cbc:StreetName>Civic Centre</cbc:StreetName>
+						<cbc:CityName>Middlesbrough</cbc:CityName>
+						<cbc:PostalZone>TS1 9FZ</cbc:PostalZone>
+						<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+						<cac:Country>
+							<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:PostalAddress>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID>court</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+					<cac:Contact>
+						<cbc:Telephone>(+12)34567890</cbc:Telephone>
+						<cbc:ElectronicMail>contractandcommissioningunit@middlesbrough.gov.uk</cbc:ElectronicMail>
+					</cac:Contact>
+				</cac:AppealReceiverParty>
+				<cac:MediationParty>
+					<cac:PartyName>
+						<cbc:Name languageID="ENG">Example Mediator</cbc:Name>
+					</cac:PartyName>
+					<cac:PostalAddress>
+						<cbc:StreetName>Some Street</cbc:StreetName>
+						<cbc:CityName>Example City</cbc:CityName>
+						<cac:Country>
+							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:PostalAddress>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID schemeName="abc">111 111 111</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+					<cac:Contact>
+						<cbc:Telephone>+123 456 789</cbc:Telephone>
+						<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
+					</cac:Contact>
+				</cac:MediationParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:Name languageID="ENG">DN140070</cbc:Name>
+			<cbc:Description languageID="ENG">Beds are to be used in a community setting and must be electrically powered with a range of bed rails, bed rail bumpers and grab handles. Beds size to range from single to bariatric mattresses must be supplied in a range of sizes up to and including king size. Mattresses are to be supplied in the range listed below:
+			Foam Visco/Gel Hybrid (Foam/Air) Alternating Air.</cbc:Description>	
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:AwardDate>2020-04-15</cbc:AwardDate>
+		<cac:Contract>
+			<cbc:ID>DN140070</cbc:ID>
+			<cbc:Description languageID="ENG">Supply of Profiling Beds with Accessories, Pressure Relieving Mattresses and Cushions</cbc:Description>
+		</cac:Contract>
+		<cac:AwardedTenderedProject>
+			<cbc:TenderEnvelopeID>1</cbc:TenderEnvelopeID>
+			<cac:ProcurementProjectLot>
+				<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+				<cac:TenderingProcess>
+					<cac:ProcessJustification>
+						<cbc:ProcessReasonCode listName="direct-award-justification">urgency</cbc:ProcessReasonCode>
+						<cbc:ProcessReason>The procurement falls within the remit of regulation 32(2)(c) of the Public Contract Regulations 2015, namely for reasons of extreme urgency brought about by events unforeseeable by the contracting authority.
+						The current contract expires on 30 September 2020.
+						Due to the Covid-19 outbreak, the Council is having to delay some of its procurement activity in order to facilitate its role in dealing with the outbreak, involving some emergency measures, with staff otherwise engaged in procuring more vital services in the current climate.
+						Following the guidance of ‘Procurement Policy Note — Responding to Covid-19 (Information note PPN 01/20: March 2020)’
+						The Council considers the above to be legal and appropriate under the current circumstances and justified under Regulation 32 of the Public Contract Regulations 2015, in that it is for reasons of extreme urgency brought about by events unforeseeable to the Council and meets the requirements as set out under Regulation 72(1) allowing for the modification of the contract without a new procurement procedure in that the following criteria are all being met:
+						(i) the need for modification has been brought about by circumstances which a diligent contracting authority could not have foreseen;
+						(ii) the modification does not alter the overall nature of the contract;
+						(iii) any increase in price does not exceed 50 % of the value of the original contract or framework agreement.
+						The Council has relied on Regulation 72(1)(c) and is extending the current contract for a period of 6 months until 31 March 2021 and anticipates re-procuring the service and a new contract being in place as from 1 April 2021.
+						The extension of 6 months has been limited to what is absolutely necessary to address the unforeseeable circumstance.</cbc:ProcessReason>
+					</cac:ProcessJustification>
+				</cac:TenderingProcess>
+			</cac:ProcurementProjectLot>
+			<cac:LegalMonetaryTotal>
+				<cbc:PayableAmount currencyID="EUR">350000</cbc:PayableAmount>
+			</cac:LegalMonetaryTotal>
+		</cac:AwardedTenderedProject>
+		<cac:WinningParty>
+			<cbc:Rank>1</cbc:Rank>
+			<cac:Party>
+				<cbc:IndustryClassificationCode listName="economic-operator-size">small</cbc:IndustryClassificationCode>
+				<cac:PartyName>
+					<cbc:Name>Direct Healthcare Services Ltd</cbc:Name>
+				</cac:PartyName>
+				<cac:PostalAddress>
+					<cbc:CityName>Caerphilly</cbc:CityName>
+					<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:PostalAddress>
+				<cac:Contact>
+					<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+				</cac:Contact>
+			</cac:Party>
+		</cac:WinningParty>
+		<cac:WinningParty>
+			<cbc:Rank>2</cbc:Rank>
+			<cac:Party>
+				<cbc:IndustryClassificationCode listName="economic-operator-size">small</cbc:IndustryClassificationCode>
+				<cac:PartyName>
+					<cbc:Name>Harvest Healthcare Ltd</cbc:Name>
+				</cac:PartyName>
+				<cac:PostalAddress>
+					<cbc:CityName>Rotherham</cbc:CityName>
+					<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:PostalAddress>
+				<cac:Contact>
+					<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+				</cac:Contact>
+			</cac:Party>
+		</cac:WinningParty>
+		<cac:WinningParty>
+			<cbc:Rank>3</cbc:Rank>
+			<cac:Party>
+				<cbc:IndustryClassificationCode listName="economic-operator-size">non-sme</cbc:IndustryClassificationCode>
+				<cac:PartyName>
+					<cbc:Name>Invacare Ltd</cbc:Name>
+				</cac:PartyName>
+				<cac:PostalAddress>
+					<cbc:CityName>Bridgend</cbc:CityName>
+					<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:PostalAddress>
+				<cac:Contact>
+					<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+				</cac:Contact>
+			</cac:Party>
+		</cac:WinningParty>
+	</cac:TenderResult>
+</ContractAwardNotice>

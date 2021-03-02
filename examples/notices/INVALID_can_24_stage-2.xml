@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Invalid contract award notice, with just the elements to pass stage 1 and 2 of the validation.
+-->
+<ContractAwardNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-1.0</cbc:CustomizationID>
+	<cbc:ID>123465</cbc:ID>
+	<cbc:ContractFolderID>99999900</cbc:ContractFolderID>
+	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>
+	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
+	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode>FRA</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">other</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name></cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:CityName></cbc:CityName>
+				<cac:Country>
+					<cbc:IdentificationCode></cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:CompanyID></cbc:CompanyID>
+			</cac:PartyLegalEntity>
+			<cac:Contact>
+				<cbc:Telephone></cbc:Telephone>
+				<cbc:ElectronicMail></cbc:ElectronicMail>
+			</cac:Contact>
+			<cac:ServiceProviderParty>
+				<cbc:ServiceTypeCode></cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyName>
+						<cbc:Name></cbc:Name>
+					</cac:PartyName>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID></cbc:CompanyID>
+					</cac:PartyLegalEntity>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName=""></cbc:ProcedureCode>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:Name languageID="Z"></cbc:Name>
+		<cbc:Description languageID="Z"></cbc:Description>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot"></cbc:ID>
+		<cac:TenderingTerms>
+			<cbc:FundingProgramCode listName="eu-funded"></cbc:FundingProgramCode>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type"></cbc:AwardingCriterionTypeCode>
+						<cbc:Description languageID="Z"></cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AppealTerms>
+				<cac:AppealReceiverParty>
+					<cac:PartyName>
+						<cbc:Name></cbc:Name>
+					</cac:PartyName>
+					<cac:PostalAddress>
+						<cbc:CityName></cbc:CityName>
+						<cac:Country>
+							<cbc:IdentificationCode></cbc:IdentificationCode>
+						</cac:Country>
+					</cac:PostalAddress>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID></cbc:CompanyID>
+					</cac:PartyLegalEntity>
+					<cac:Contact>
+						<cbc:Telephone></cbc:Telephone>
+						<cbc:ElectronicMail></cbc:ElectronicMail>
+					</cac:Contact>
+				</cac:AppealReceiverParty>
+				<cac:MediationParty>
+					<cac:PartyName>
+						<cbc:Name></cbc:Name>
+					</cac:PartyName>
+					<cac:PostalAddress>
+						<cbc:CityName></cbc:CityName>
+						<cac:Country>
+							<cbc:IdentificationCode></cbc:IdentificationCode>
+						</cac:Country>
+					</cac:PostalAddress>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID></cbc:CompanyID>
+					</cac:PartyLegalEntity>
+					<cac:Contact>
+						<cbc:Telephone></cbc:Telephone>
+						<cbc:ElectronicMail></cbc:ElectronicMail>
+					</cac:Contact>
+				</cac:MediationParty>
+			</cac:AppealTerms>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type"></efbc:StatisticsCode>
+								<efbc:StatisticalNumeric>0</efbc:StatisticalNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement"></cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage"></cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:Name languageID="Z"></cbc:Name>
+			<cbc:Description languageID="Z"></cbc:Description>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:TenderResult>
+		<cbc:TenderResultCode listName="winner-selection-status"></cbc:TenderResultCode>
+		<cbc:AwardDate>0001-01-01</cbc:AwardDate>
+		<cac:AwardedTenderedProject>
+			<cbc:VariantID></cbc:VariantID>
+			<cbc:TenderEnvelopeID></cbc:TenderEnvelopeID>
+		</cac:AwardedTenderedProject>
+	</cac:TenderResult>
+</ContractAwardNotice>

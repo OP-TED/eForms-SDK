@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Based on https://ted.europa.eu/udl?uri=TED:NOTICE:563384-2019:TEXT:EN:HTML 
+For brevity, texts are not in 24 languages, but only in EN and FR.
+-->
+<ContractNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+				</efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-1.0</cbc:CustomizationID>
+	<cbc:ID>2424</cbc:ID>
+	<cbc:ContractFolderID>46c9ce89-5986-40d9-992f-e1a2469a48f8</cbc:ContractFolderID>
+	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
+	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
+	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listName="LanguageList" listVersionID="1.0">ENG</cbc:NoticeLanguageCode>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>BUL</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>CES</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>DAN</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>DEU</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>ELL</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>SPA</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>EST</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>FIN</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>FRA</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>GLE</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>HRV</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>HUN</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>ITA</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>LIT</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>LAV</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>MLT</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>NLD</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>POL</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>POR</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>RON</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>SLK</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>SLV</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:AdditionalNoticeLanguage>
+		<cbc:ID>SWE</cbc:ID>
+	</cac:AdditionalNoticeLanguage>
+	<cac:ContractingParty>
+		<cbc:BuyerProfileURI>http://publications.europa.eu/en/web/about-us/procurement</cbc:BuyerProfileURI>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">eu-ins-bod-ag</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cbc:WebsiteURI>https://op.europa.eu/</cbc:WebsiteURI>
+			<cac:PartyName>
+				<cbc:Name>Publications Office of the European Union</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>2, rue Mercier</cbc:StreetName>
+				<cbc:CityName>Luxembourg</cbc:CityName>
+				<cbc:PostalZone>L-2985</cbc:PostalZone>
+				<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:CompanyID schemeID="ABC">EU-PO</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+			<cac:Contact>
+				<cbc:Name>Valeria Sciarrino</cbc:Name>
+				<cbc:Telephone>+352 292944331</cbc:Telephone>
+				<cbc:ElectronicMail>op-appels-offres@publications.europa.eu</cbc:ElectronicMail>
+			</cac:Contact>
+			<cac:ServiceProviderParty>
+				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cac:Party>
+					<cac:PartyName>
+						<cbc:Name>eSendCorp</cbc:Name>
+					</cac:PartyName>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+				</cac:Party>
+			</cac:ServiceProviderParty>
+		</cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground" name="ExclusionGrounds">exclusion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID>AO 10786</cbc:ID>
+		<cbc:Name languageID="ENG">Provision of IT Services Related to OP IT Systems (EUR-Lex, N-Lex, Search Layer, and Others)</cbc:Name>
+		<cbc:Name languageID="FRA">Fourniture de services informatiques liés aux systèmes informatiques OP (EUR-Lex, N-Lex, Search Layer, etc.)</cbc:Name>
+		<cbc:Description languageID="ENG">Provision of IT services related to the information systems of the publications office (namely EUR-Lex, N-Lex, and Search Layer),
+			with the possibility to extend the provision to other information systems.</cbc:Description>
+		<cbc:Description languageID="FRA">Fourniture de services informatiques liés aux systèmes d'information de l'Office des publications (à savoir EUR-Lex, N-Lex et Search Layer),
+			avec la possibilité d'étendre cette prestation à d'autres systèmes d'information.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cac:RequestedTenderTotal>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">4500000</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72230000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="ENG">The main place of performance is the contractor's premises and the contracting authority's premises.</cbc:Description>
+			<cbc:Description languageID="FRA">Le lieu d'exécution principal correspond aux locaux du contractant et du pouvoir adjudicateur.</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">LU00</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>LUX</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:PlannedPeriod>
+			<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+		</cac:PlannedPeriod>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
+								<cbc:Description languageID="FRA">Voir dossier d'appel d'offres.</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
+								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
+								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>5629</cbc:ID>
+				<cbc:DocumentTypeCode listName="communication-justification" name="AccessRestriction">ipr-iss</cbc:DocumentTypeCode>
+				<cbc:DocumentType>restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://etendering.ted.europa.eu/cft/cft-display.html?cftId=5629</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cbc:Description languageID="ENG">Technical award criteria as stated in the procurement documents</cbc:Description>
+					<cbc:Description languageID="FRA">Critères d'attribution tels qu'énoncés dans le dossier d'appel d'offres</cbc:Description>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionStatistics>
+											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
+											<efbc:StatisticalNumeric>70</efbc:StatisticalNumeric>
+										</efac:AwardCriterionStatistics>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionStatistics>
+											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
+											<efbc:StatisticalNumeric>30</efbc:StatisticalNumeric>
+										</efac:AwardCriterionStatistics>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://etendering.ted.europa.eu/cft/cft-display.html?cftId=5629</cbc:EndpointID>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="ENG">Within 2 months of the notification to the plaintiff, or, in absence thereof, of the day on which it came to the knowledge of the plaintiff. A complaint to the European Ombudsman does not have as an effect either to suspend this period or to open a new period for lodging appeals.</cbc:Description>
+					<cbc:Description languageID="FRA">Dans les 2 mois à compter de la notification au requérant ou, à défaut, du jour où celui-ci en a eu connaissance. L'introduction d'une plainte auprès du Médiateur européen n'a pour effet ni la suspension de ce délai, ni l'ouverture d'un nouveau délai de recours.</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cbc:WebsiteURI>http://curia.europa.eu/</cbc:WebsiteURI>
+					<cac:PartyName>
+						<cbc:Name>General Court of the European Union</cbc:Name>
+					</cac:PartyName>
+					<cac:PostalAddress>
+						<cbc:StreetName>rue du Fort Niedergrünewald</cbc:StreetName>
+						<cbc:CityName>Luxembourg</cbc:CityName>
+						<cbc:PostalZone>L-2925</cbc:PostalZone>
+						<cac:Country>
+							<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:PostalAddress>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID schemeName="eu">GCEU</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+					<cac:Contact>
+						<cbc:Telephone>+352 4303-1</cbc:Telephone>
+						<cbc:Telefax>+352 4303-2100</cbc:Telefax>
+						<cbc:ElectronicMail>GeneralCourt.Registry@curia.europa.eu</cbc:ElectronicMail>
+					</cac:Contact>
+				</cac:AppealReceiverParty>
+				<cac:MediationParty>
+					<cac:PartyName>
+						<cbc:Name languageID="ENG">Example Mediator</cbc:Name>
+					</cac:PartyName>
+					<cac:PostalAddress>
+						<cbc:StreetName>Some Street</cbc:StreetName>
+						<cbc:CityName>Example City</cbc:CityName>
+						<cac:Country>
+							<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:PostalAddress>
+					<cac:PartyLegalEntity>
+						<cbc:CompanyID schemeName="abc">111 111 111</cbc:CompanyID>
+					</cac:PartyLegalEntity>
+					<cac:Contact>
+						<cbc:Telephone>+123 456 789</cbc:Telephone>
+						<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+					</cac:Contact>
+				</cac:MediationParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>BUL</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>CES</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>DAN</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>ELL</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>ENG</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>SPA</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>EST</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>FIN</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>FRA</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>GLE</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>HRV</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>HUN</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>ITA</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>LIT</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>LAV</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>MLT</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>NLD</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>POL</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>POR</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>RON</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>SLK</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>SLV</cbc:ID>
+			</cac:Language>
+			<cac:Language>
+				<cbc:ID>SWE</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:AccessToolName>e-Tendering</efbc:AccessToolName>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2020-02-03Z</cbc:EndDate>
+				<cbc:EndTime>13:00:00Z</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2020-02-04Z</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>09:00:00Z</cbc:OccurrenceTime>
+				<cbc:Description languageID="ENG">As stated in the procurement documents</cbc:Description>
+				<cbc:Description languageID="FRA">Voir dossier d'appel d'offres</cbc:Description>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="ENG">Premises of the Publications Office in LUXEMBOURG</cbc:Description>
+					<cbc:Description languageID="FRA">Locaux de l'Office des publications à Luxembourg.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>3</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="InternalID">AO 10786 Lot 1</cbc:ID>
+			<cbc:Name languageID="ENG">Provision of IT Services Related to OP IT Systems (EUR-Lex, N-Lex, Search Layer, and Others)</cbc:Name>
+			<cbc:Name languageID="FRA">Fourniture de services informatiques liés aux systèmes informatiques OP (EUR-Lex, N-Lex, Search Layer, etc.)</cbc:Name>
+			<cbc:Description languageID="ENG">Provision of IT services related to the information systems of the publications office (namely EUR-Lex, N-Lex, and Search Layer),
+			with the possibility to extend the provision to other information systems.</cbc:Description>
+			<cbc:Description languageID="FRA">Fourniture de services informatiques liés aux systèmes d'information de l'Office des publications (à savoir EUR-Lex, N-Lex et Search Layer),
+			avec la possibilité d'étendre cette prestation à d'autres systèmes d'information.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:RequestedTenderTotal>
+				<cbc:EstimatedOverallContractAmount currencyID="EUR">4500000</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72230000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">The main place of performance is the contractor's premises and the contracting authority's premises.</cbc:Description>
+				<cbc:Description languageID="FRA">Le lieu d'exécution principal correspond aux locaux du contractant et du pouvoir adjudicateur.</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">LU00</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>LUX</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>
