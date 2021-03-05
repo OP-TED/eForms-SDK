@@ -4,6 +4,8 @@ The information provided by the Publications Office on this GitHub repository is
 This project is currently under development, so everything is still subject to change.
 
 # Summary
+This project is managed by the Publications Office of the European Union to enable implementation of the European legislation for publication of notices for public procurement on the [TED website](https://ted.europa.eu/TED/). For more information, see the [DG GROW eForms](https://ec.europa.eu/growth/single-market/public-procurement/digital/eforms_en) page.
+
 This project aims to provide the necessary tools for being able to build valid eForms notices.
 It is composed of the following:
 - `schemas`: This folder contains a provisional release of the schemas. There are currently based on an interim version of Pre-Award UBL 2.3 document types and is therefore not yet ready for use.
