@@ -14,7 +14,4 @@ The adopted approach is to keep the whole set of UBL elements but only support t
 
 # Versioning
 
-Provisional releases of the eForms schema and documentation that were provided during 2020 via SIMAP had a different versioning scheme and are being replaced with this SDK that combines them into one bundle with one version number. The current version of the SDK is 0.1.1. Our basic versioning rules are:
-- the major version number changes only if the new schema or schematron files break backward-compatibility
-- the minor version number changes whenever the schema or schematron files are updated, but maintain backward-compatibility
-- the revision number changes whenever the documentation or sample files are updated
+Provisional releases of the eForms schema and documentation that were provided during 2020 via SIMAP had a different versioning scheme and are being replaced with this SDK that combines them into one bundle with one version number.
