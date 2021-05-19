@@ -7,12 +7,14 @@
   Generated on:      2020-01-28 20:53z
   Copyright (c) OASIS Open 2020. All Rights Reserved.
 -->
-<xsd:schema xmlns="http://data.europa.eu/p27/eforms-society-registration-information-notice/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://data.europa.eu/p27/eforms-society-registration-information-notice/1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.3">
+<xsd:schema xmlns="http://data.europa.eu/p27/eforms-business-registration-information-notice/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://data.europa.eu/p27/eforms-business-registration-information-notice/1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.3">
 	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" schemaLocation="../common/UBL-CommonAggregateComponents-2.3.xsd"/>
 	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="../common/UBL-CommonBasicComponents-2.3.xsd"/>
 	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" schemaLocation="../common/UBL-CommonExtensionComponents-2.3.xsd"/>
-	<xsd:element name="SocietyRegistrationInformationNotice" type="SocietyRegistrationInformationNoticeType"/>
-	<xsd:complexType name="SocietyRegistrationInformationNoticeType">
+	<xsd:import namespace="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" schemaLocation="../common/EFORMS-ExtensionAggregateComponents-2.3.xsd"/>
+	<xsd:import namespace="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" schemaLocation="../common/EFORMS-ExtensionBasicComponents-2.3.xsd"/>
+	<xsd:element name="BusinessRegistrationInformationNotice" type="BusinessRegistrationInformationNoticeType"/>
+	<xsd:complexType name="BusinessRegistrationInformationNoticeType">
 		<xsd:sequence>
 			<xsd:element ref="ext:UBLExtensions" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:UBLVersionID" minOccurs="0" maxOccurs="1"/>
@@ -39,6 +41,9 @@
 			<xsd:element ref="cac:BrochureDocumentReference" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="cac:AdditionalDocumentReference" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="cac:BusinessCapability" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:BusinessPartyGroup" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:NoticePurpose" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:NoticeSubType" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:schema>

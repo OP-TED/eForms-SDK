@@ -23,7 +23,7 @@ In order to avoid repetition of information within a Notice, the common data for
 
 To enable reporting of the mandatory nationality (and optionally other information) of the beneficiary owner of a winning organization, a new structure "UltimateBusinessOwner" has been introduced.
 
-New structure for result notices
+### New structure for result notices
 There is a complex web of information which can be recorded in a Result notice, involving numerous Lots, tenderers and contracts. Multiple tenderers may bid for a single Lot, of which there can be multiple winners. A single tenderer may bid for multiple Lots, and may be included in multiple contracts. In order to avoid duplication while recording the necessary information, a new structure for Result notices has been defined. This structure provides discrete blocks of elements for tenders, tenderers, contracts, and results for Lots. Each of these blocks is defined using a new extension element defined in the eForms schema.
 
 ### Minor changes to the eForms schema
