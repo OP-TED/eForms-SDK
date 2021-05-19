@@ -1,3 +1,6 @@
+## [Release notes](ReleaseNotes.md)
+<br>
+
 # Disclaimer
 This project is currently under development. We may update the current version and replace it with a new version at any time. In this case, we recommend you retrieve the latest version in order to ensure technical compliance. The Publications Office cannot guarantee the accuracy, adequacy, validity, reliability, availability or completeness of this information and accepts no responsibility for any use you may make of this project’s component parts.
 

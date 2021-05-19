@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Library:           OASIS Universal Business Language (UBL) 2.3 CSD03
-                     http://docs.oasis-open.org/ubl/csd03-UBL-2.3/
+  Library:           OASIS Universal Business Language (UBL) 2.3 preaward05
+                     http://docs.oasis-open.org/ubl/preaward05-UBL-2.3/
   Release Date:      19 December 2019
   Module:            UBL-CommonExtensionComponents-2.3.xsd
   Generated on:      2017-01-02 17:20(UTC)
   Copyright (c) OASIS Open 2017. All Rights Reserved.
 -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" targetNamespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.3">
-<!-- ===== Imports ===== -->
-<xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" schemaLocation="BDNDR-UnqualifiedDataTypes-1.1.xsd"/>
-<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="UBL-CommonBasicComponents-2.3.xsd"/>
-<!-- ===== Includes ===== -->
-<xsd:include schemaLocation="UBL-ExtensionContentDataType-2.3.xsd"/>
-<!-- ===== Aggregate Element and Type Declarations ===== -->
+	<!-- ===== Imports ===== -->
+	<xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" schemaLocation="BDNDR-UnqualifiedDataTypes-1.1.xsd"/>
+	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="UBL-CommonBasicComponents-2.3.xsd"/>
+	<!-- ===== Includes ===== -->
+	<xsd:include schemaLocation="UBL-ExtensionContentDataType-2.3.xsd"/>
+	<!-- ===== Aggregate Element and Type Declarations ===== -->
 	<xsd:element name="UBLExtensions" type="UBLExtensionsType">
-		<xsd:annotation>
+		<!-- xsd:annotation>
 			<xsd:documentation>
         A container for all extensions present in the document.
       </xsd:documentation>
-		</xsd:annotation>
+		</xsd:annotation -->
 	</xsd:element>
 	<xsd:complexType name="UBLExtensionsType">
-		<xsd:annotation>
+		<!-- xsd:annotation>
 			<xsd:documentation>
         A container for all extensions present in the document.
       </xsd:documentation>
-		</xsd:annotation>
+		</xsd:annotation -->
 		<xsd:sequence>
 			<xsd:element ref="UBLExtension" minOccurs="1" maxOccurs="unbounded">
-				<xsd:annotation>
+				<!-- xsd:annotation>
 					<xsd:documentation>
             A single extension for private use.
           </xsd:documentation>
-				</xsd:annotation>
+				</xsd:annotation -->
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:element name="UBLExtension" type="UBLExtensionType">
-		<xsd:annotation>
+		<!-- xsd:annotation>
 			<xsd:documentation>
         A single extension for private use.
       </xsd:documentation>
-		</xsd:annotation>
+		</xsd:annotation -->
 	</xsd:element>
 	<xsd:complexType name="UBLExtensionType">
-		<xsd:annotation>
+		<!-- xsd:annotation>
 			<xsd:documentation>
         A single extension for private use.
       </xsd:documentation>
-		</xsd:annotation>
+		</xsd:annotation -->
 		<xsd:sequence>
 			<!-- 
 		##################################
@@ -129,7 +129,7 @@
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
-<!-- ===== Basic Element and Type Declarations ===== -->
+	<!-- ===== Basic Element and Type Declarations ===== -->
 	<xsd:element name="ExtensionAgencyID" type="ExtensionAgencyIDType"/>
 	<xsd:element name="ExtensionAgencyName" type="ExtensionAgencyNameType"/>
 	<xsd:element name="ExtensionAgencyURI" type="ExtensionAgencyURIType"/>

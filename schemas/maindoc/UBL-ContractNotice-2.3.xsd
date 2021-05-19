@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Library:           OASIS Universal Business Language (UBL) 2.3 CSD03
-                     http://docs.oasis-open.org/ubl/csd03-UBL-2.3/
-  Release Date:      10 April 2020
+  Library:           OASIS Universal Business Language (UBL) 2.3 CS01
+                     http://docs.oasis-open.org/ubl/cs01-UBL-2.3/
+  Release Date:      19 January 2021
   Module:            xsdrt/maindoc/UBL-ContractNotice-2.3.xsd
-  Generated on:      2020-07-29 19:49z
-  Copyright (c) OASIS Open 2020. All Rights Reserved.
+  Generated on:      2021-02-02 20:44z
+  Copyright (c) OASIS Open 2021. All Rights Reserved.
 -->
 <xsd:schema xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
             xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
