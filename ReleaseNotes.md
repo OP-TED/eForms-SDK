@@ -26,6 +26,10 @@ To enable reporting of the mandatory nationality (and optionally other informati
 ### New structure for result notices
 There is a complex web of information which can be recorded in a Result notice, involving numerous Lots, tenderers and contracts. Multiple tenderers may bid for a single Lot, of which there can be multiple winners. A single tenderer may bid for multiple Lots, and may be included in multiple contracts. In order to avoid duplication while recording the necessary information, a new structure for Result notices has been defined. This structure provides discrete blocks of elements for tenders, tenderers, contracts, and results for Lots. Each of these blocks is defined using a new extension element defined in the eForms schema.
 
+
+<br>
+<br>
+
 ### Minor changes to the eForms schema
 #### Elements renamed
 Following a review of the naming of elements in the previous version of the eForms schema, two elements have been renamed to more accurately reflect their purpose.
@@ -63,12 +67,28 @@ The version of UBL used has been updated to version 2.3 OASIS Committee Specific
 - Addition of new codelists and values ( BT-769, BT-09, BT-01, BT-67, BT-761, BT-763, BT-578)
 - Change of codelist used (BT-79, BT-751)
 
+### Removed unused UBL schema files
+Several UBL schema files in the /common folder were included in the last release of the eForms SDK that are not used in eForms schema. These files, listed below, have been removed from this release.
+
+- UBL-CommonSignatureComponents-2.3.xsd
+- UBL-SignatureAggregateComponents-2.3.xsd
+- UBL-SignatureBasicComponents-2.3.xsd
+- UBL-XAdES01903v132-201601-2.3.xsd
+- UBL-XAdES01903v141-201601-2.3.xsd
+- UBL-xmldsig-core-schema-2.3.xsd
+- UBL-xmldsig1-schema-2.3.xsd
+- UBL-xmldsig11-schema-2.3.xsd
+
+#### Replaced schema for Society Registration Information Notice with BusinessRegistration Information Notice.
+
+This change is to maintain alignment with developments in UBL, and does not affect the standard eForms Notices.
+
 
 ## Other changes
 ### Example Notices
 The example notices in the "examples" folder have been updated to incorporate the schema changes listed above.
 
-Two new example notices for the Regulation No 1370/2007  (public passenger transport services) have been added: [ PD this part to be corrected/completed ]
+Two new example notices for the Regulation No 1370/2007  (public passenger transport services) have been added:
 
 - `MOVE_T01.xml` - "Prior information notice for public service contract"
 - `MOVE_T02.xml` - "Information notice for award of public service contract"
