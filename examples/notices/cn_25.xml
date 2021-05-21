@@ -2,10 +2,119 @@
 <!-- Based on https://ted.europa.eu/udl?uri=TED:NOTICE:181161-2020:TEXT:EN:HTML
 -->
 <ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode>17</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://www.scottishwater.co.uk/</cbc:WebsiteURI>
+								<cbc:EndpointID>https://www.delta-esourcing.com/tenders/UK-title/Z9Q7MGAEA8</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">Scottish Water</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
+									<cbc:CityName>Glasgow</cbc:CityName>
+									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKM</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="999">123 456 789</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Tom MacLeod</cbc:Name>
+									<cbc:Telephone>+44 7875879507</cbc:Telephone>
+									<cbc:ElectronicMail>tom.macleod@scottishwater.co.uk</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+							<efac:TouchPoint>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">Procurement Team</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
+									<cbc:CityName>Glasgow</cbc:CityName>
+									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:Contact>
+									<cbc:Telephone>+44 8000778778</cbc:Telephone>
+									<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:TouchPoint>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">Glasgow Sheriff Court</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Glasgow</cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>(+12)34567890</cbc:Telephone>
+									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				</efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.1</cbc:CustomizationID>
-	<cbc:ID>2020/S 076-181161</cbc:ID>
-	<cbc:ContractFolderID></cbc:ContractFolderID>
+	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:ID>39d68def-a6aa-4e85-aa8d-97f0600ea41e</cbc:ID>
+	<cbc:ContractFolderID>027f7db6-596d-4395-87b9-d8a7b0e4b269</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-15+01:00</cbc:IssueDate>
 	<cbc:IssueTime>03:23:02+01:00</cbc:IssueTime>
 	<cbc:VersionID>1</cbc:VersionID>
@@ -20,37 +129,15 @@
 			<cbc:ActivityTypeCode listName="entity-activity">water</cbc:ActivityTypeCode>
 		</cac:ContractingActivity>
 		<cac:Party>
-			<cbc:WebsiteURI>https://www.scottishwater.co.uk/</cbc:WebsiteURI>
-			<cbc:EndpointID>https://www.delta-esourcing.com/tenders/UK-title/Z9Q7MGAEA8</cbc:EndpointID>
-			<cac:PartyName>
-				<cbc:Name>Scottish Water</cbc:Name>
-			</cac:PartyName>
-			<cac:PostalAddress>
-				<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
-				<cbc:CityName>Glasgow</cbc:CityName>
-				<cbc:PostalZone>G33 6FB</cbc:PostalZone>
-				<cbc:CountrySubentityCode listName="nuts">UKM</cbc:CountrySubentityCode>
-				<cac:Country>
-					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
-				</cac:Country>
-			</cac:PostalAddress>
-			<cac:PartyLegalEntity>
-				<cbc:CompanyID schemeID="999">123 456 789</cbc:CompanyID>
-			</cac:PartyLegalEntity>
-			<cac:Contact>
-				<cbc:Name>Tom MacLeod</cbc:Name>
-				<cbc:Telephone>+44 7875879507</cbc:Telephone>
-				<cbc:ElectronicMail>tom.macleod@scottishwater.co.uk</cbc:ElectronicMail>
-			</cac:Contact>
+			<cac:PartyIdentification>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
 				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
 				<cac:Party>
-					<cac:PartyName>
-						<cbc:Name>eSendCorp</cbc:Name>
-					</cac:PartyName>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-					</cac:PartyLegalEntity>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:Party>
 			</cac:ServiceProviderParty>
 		</cac:Party>
@@ -84,7 +171,7 @@
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
-		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
 			<ext:UBLExtensions>
 				<ext:UBLExtension>
@@ -107,7 +194,7 @@
 			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cac:RequiredFinancialGuarantee>
-				<cbc:GuaranteeTypeCode listName="required-guarantee">provisional</cbc:GuaranteeTypeCode>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">provisional</cbc:GuaranteeTypeCode>
 				<cbc:Description languageID="ENG">Scottish Water reserves the right to require deposits, guarantees, bonds or other forms of appropriate security.</cbc:Description>
 			</cac:RequiredFinancialGuarantee>
 			<cac:CallForTendersDocumentReference>
@@ -155,43 +242,14 @@
 			</cac:TenderValidityPeriod>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
-					<cac:PartyName>
-						<cbc:Name>Glasgow Sheriff Court</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:CityName>Glasgow</cbc:CityName>
-						<cac:Country>
-							<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone>(+12)34567890</cbc:Telephone>
-						<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>
-					<cac:PartyName>
-						<cbc:Name>Scottish Water</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
-						<cbc:CityName>Glasgow</cbc:CityName>
-						<cbc:PostalZone>G33 6FB</cbc:PostalZone>
-						<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
-						<cac:Country>
-							<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone>+44 8000778778</cbc:Telephone>
-						<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:MediationParty>
 			</cac:AppealTerms>
 			<cac:Language>

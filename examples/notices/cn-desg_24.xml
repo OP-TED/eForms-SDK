@@ -2,10 +2,155 @@
 <!-- Based on https://ted.europa.eu/udl?uri=TED:NOTICE:176972-2020:TEXT:EN:HTML
 -->
 <ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode>23</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://cc-vallee-doller.fr</cbc:WebsiteURI>
+								<cbc:EndpointID>https://marchespublics-amhr.omnikles.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="FRA">Communauté de Communes de la Vallée de la Doller et du Soultzbach</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>9 place des Alliés</cbc:StreetName>
+									<cbc:CityName>Masevaux-Niederbruck</cbc:CityName>
+									<cbc:PostalZone>68290</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FRF12</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>24680067600016</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>T. Ciavarella</cbc:Name>
+									<cbc:Telephone> +33 389388175</cbc:Telephone>
+									<cbc:ElectronicMail>t.ciavarella@cc-vallee-doller.fr</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://tout-un-programme.com</cbc:WebsiteURI>
+								<cbc:EndpointID>https://marchespublics-amhr.omnikles.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="FRA">Tout un programme (assistant à maîtrise d'ouvrage)</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>16 rue de la Sinne</cbc:StreetName>
+									<cbc:CityName>Mulhouse</cbc:CityName>
+									<cbc:PostalZone>68100</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FRF12</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>83044938500012</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Matthieu Fortin</cbc:Name>
+									<cbc:Telephone>+33 680800655</cbc:Telephone>
+									<cbc:ElectronicMail>matthieu@t1prog.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>https://strasbourg.tribunal-administratif.fr</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="FRA">Tribunal administratif de Strasbourg</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>31 avenue de la Paix</cbc:StreetName>
+									<cbc:CityName>Strasbourg</cbc:CityName>
+									<cbc:PostalZone>67000</cbc:PostalZone>
+									<cac:Country>
+										<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+33 388212323</cbc:Telephone>
+									<cbc:ElectronicMail>contact@strasbourg.tribunal-administratif.fr</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="FRA">Comité consultatif interrégional de règlement amiable des différends relatifs aux marchés publics de Nancy</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>1 rue du Préfet Claude Érignac</cbc:StreetName>
+									<cbc:CityName>Nancy</cbc:CityName>
+									<cbc:PostalZone>54038</cbc:PostalZone>
+									<cac:Country>
+										<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+33 383342565</cbc:Telephone>
+									<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				</efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.1</cbc:CustomizationID>
-	<cbc:ID>Design contest notice</cbc:ID>
-	<cbc:ContractFolderID></cbc:ContractFolderID>
+	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:ID>f37b9a55-0684-4d4b-a98f-0ba819d6d6f2</cbc:ID>
+	<cbc:ContractFolderID>8655f8a5-b5e9-4d6e-9dee-a360f820ecbe</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-11+01:00</cbc:IssueDate>
 	<cbc:IssueTime>09:09:09+01:00</cbc:IssueTime>
 	<cbc:VersionID>1</cbc:VersionID>
@@ -20,37 +165,15 @@
 			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
 		</cac:ContractingActivity>
 		<cac:Party>
-			<cbc:WebsiteURI>https://cc-vallee-doller.fr</cbc:WebsiteURI>
-			<cbc:EndpointID>https://marchespublics-amhr.omnikles.com</cbc:EndpointID>
-			<cac:PartyName>
-				<cbc:Name>Communauté de Communes de la Vallée de la Doller et du Soultzbach</cbc:Name>
-			</cac:PartyName>
-			<cac:PostalAddress>
-				<cbc:StreetName>9 place des Alliés</cbc:StreetName>
-				<cbc:CityName>Masevaux-Niederbruck</cbc:CityName>
-				<cbc:PostalZone>68290</cbc:PostalZone>
-				<cbc:CountrySubentityCode listName="nuts">FRF12</cbc:CountrySubentityCode>
-				<cac:Country>
-					<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
-				</cac:Country>
-			</cac:PostalAddress>
-			<cac:PartyLegalEntity>
-				<cbc:CompanyID>24680067600016</cbc:CompanyID>
-			</cac:PartyLegalEntity>
-			<cac:Contact>
-				<cbc:Name>T. Ciavarella</cbc:Name>
-				<cbc:Telephone> +33 389388175</cbc:Telephone>
-				<cbc:ElectronicMail>t.ciavarella@cc-vallee-doller.fr</cbc:ElectronicMail>
-			</cac:Contact>
+			<cac:PartyIdentification>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
 				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
 				<cac:Party>
-					<cac:PartyName>
-						<cbc:Name>eSendCorp</cbc:Name>
-					</cac:PartyName>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-					</cac:PartyLegalEntity>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:Party>
 			</cac:ServiceProviderParty>
 		</cac:Party>
@@ -76,7 +199,7 @@
 		</cac:AdditionalCommodityClassification>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
-		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
 			<ext:UBLExtensions>
 				<ext:UBLExtension>
@@ -159,70 +282,20 @@
 				</cac:Prize>
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
-				<cbc:WebsiteURI>https://tout-un-programme.com</cbc:WebsiteURI>
-				<cbc:EndpointID>https://marchespublics-amhr.omnikles.com</cbc:EndpointID>
-				<cac:PartyName>
-					<cbc:Name>Tout un programme (assistant à maîtrise d'ouvrage)</cbc:Name>
-				</cac:PartyName>
-				<cac:PostalAddress>
-					<cbc:StreetName>16 rue de la Sinne</cbc:StreetName>
-					<cbc:CityName>Mulhouse</cbc:CityName>
-					<cbc:PostalZone>68100</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">FRF12</cbc:CountrySubentityCode>
-					<cac:Country>
-						<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<cbc:CompanyID>83044938500012</cbc:CompanyID>
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<cbc:Name>Matthieu Fortin</cbc:Name>
-					<cbc:Telephone>+33 680800655</cbc:Telephone>
-					<cbc:ElectronicMail>matthieu@t1prog.com</cbc:ElectronicMail>
-				</cac:Contact>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
-					<cbc:WebsiteURI>https://strasbourg.tribunal-administratif.fr</cbc:WebsiteURI>
-					<cac:PartyName>
-						<cbc:Name>Tribunal administratif de Strasbourg</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:StreetName>31 avenue de la Paix</cbc:StreetName>
-						<cbc:CityName>Strasbourg</cbc:CityName>
-						<cbc:PostalZone>67000</cbc:PostalZone>
-						<cac:Country>
-							<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone>+33 388212323</cbc:Telephone>
-						<cbc:ElectronicMail>contact@strasbourg.tribunal-administratif.fr</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>
-					<cac:PartyName>
-						<cbc:Name>Comité consultatif interrégional de règlement amiable des différends relatifs aux marchés publics de Nancy</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:StreetName>1 rue du Préfet Claude Érignac</cbc:StreetName>
-						<cbc:CityName>Nancy</cbc:CityName>
-						<cbc:PostalZone>54038</cbc:PostalZone>
-						<cac:Country>
-							<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone>+33 383342565</cbc:Telephone>
-						<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:MediationParty>
 			</cac:AppealTerms>
 			<cac:Language>

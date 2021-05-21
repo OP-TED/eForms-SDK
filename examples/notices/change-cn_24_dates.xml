@@ -6,19 +6,123 @@
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode>16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.renfrewshire.gov.uk</cbc:WebsiteURI>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">Renfrewshire Council</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName> Renfrewshire House, Cotton Street</cbc:StreetName>
+									<cbc:CityName>Paisley</cbc:CityName>
+									<cbc:PostalZone>PA1 1JB</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKM83</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>not available</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>(+12)34567890</cbc:Telephone>
+									<cbc:ElectronicMail>douglas.mcewan@renfrewshire.gov.uk</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">Sheriff Court</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Sheriff Street</cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>(+12)34567890</cbc:Telephone>
+									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">Example Mediator</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Some Street</cbc:StreetName>
+									<cbc:CityName>Example City</cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeName="abc">111 111 111</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+123 456 789</cbc:Telephone>
+									<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				</efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
 					<efac:Change>
 						<efbc:ChangedNoticeIdentifier>2020/S 045-107628</efbc:ChangedNoticeIdentifier>
 						<efac:ChangedElement>
-							<efbc:ChangedSectionIdentifier> IV.2.2)</efbc:ChangedSectionIdentifier>
+							<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
 							<efbc:ChangeDescription languageID="ENG">Time limit for receipt of tenders or requests to participate</efbc:ChangeDescription>
-							<efbc:ElementOldValue>Date: 01/05/2020 Local time: 12:00</efbc:ElementOldValue>
-							<efbc:ElementNewValue>Date: 12/06/2020 Local time: 12:00</efbc:ElementNewValue>
 						</efac:ChangedElement>
 						<efac:ChangedElement>
-							<efbc:ChangedSectionIdentifier>IV.2.7)</efbc:ChangedSectionIdentifier>
-							<efbc:ChangeDescription languageID="ENG">Conditions for opening of tenders Instead of: </efbc:ChangeDescription>
-							<efbc:ElementOldValue>Date: 01/05/2020 Local time: 14:00</efbc:ElementOldValue>
-							<efbc:ElementNewValue>Date: 12/06/2020 Local time: 14:00</efbc:ElementNewValue>
+							<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
+							<efbc:ChangeDescription languageID="ENG">Conditions for opening of tenders</efbc:ChangeDescription>
 						</efac:ChangedElement>
 						<efac:ChangeReason>
 							<efbc:ReasonCode listName="change-corrig-justification">update-add</efbc:ReasonCode>
@@ -30,9 +134,9 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.1</cbc:CustomizationID>
-	<cbc:ID>2020/S 078-185568</cbc:ID>
-	<cbc:ContractFolderID></cbc:ContractFolderID>
+	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:ID>71397268-6c47-4f2f-8ab0-f41a26138f81</cbc:ID>
+	<cbc:ContractFolderID>3bc82337-b5e3-4f72-845f-94541f9f5210</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-17+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:34:56+01:00</cbc:IssueTime>
 	<cbc:VersionID>1</cbc:VersionID>
@@ -48,35 +152,15 @@
 			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
 		</cac:ContractingActivity>
 		<cac:Party>
-			<cbc:WebsiteURI>http://www.renfrewshire.gov.uk</cbc:WebsiteURI>
-			<cac:PartyName>
-				<cbc:Name>Renfrewshire Council</cbc:Name>
-			</cac:PartyName>
-			<cac:PostalAddress>
-				<cbc:StreetName> Renfrewshire House, Cotton Street</cbc:StreetName>
-				<cbc:CityName>Paisley</cbc:CityName>
-				<cbc:PostalZone>PA1 1JB</cbc:PostalZone>
-				<cbc:CountrySubentityCode listName="nuts">UKM83</cbc:CountrySubentityCode>
-				<cac:Country>
-					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
-				</cac:Country>
-			</cac:PostalAddress>
-			<cac:PartyLegalEntity>
-				<cbc:CompanyID>not available</cbc:CompanyID>
-			</cac:PartyLegalEntity>
-			<cac:Contact>
-				<cbc:Telephone>(+12)34567890</cbc:Telephone>
-				<cbc:ElectronicMail>douglas.mcewan@renfrewshire.gov.uk</cbc:ElectronicMail>
-			</cac:Contact>
+			<cac:PartyIdentification>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
 				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
 				<cac:Party>
-					<cac:PartyName>
-						<cbc:Name>eSendCorp</cbc:Name>
-					</cac:PartyName>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-					</cac:PartyLegalEntity>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:Party>
 			</cac:ServiceProviderParty>
 		</cac:Party>
@@ -141,7 +225,7 @@
 		</cac:ContractExtension>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
-		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
 			<ext:UBLExtensions>
 				<ext:UBLExtension>
@@ -198,10 +282,10 @@
 							<ext:UBLExtension>
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
-										<efac:AwardCriterionStatistics>
-											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
-											<efbc:StatisticalNumeric>15</efbc:StatisticalNumeric>
-										</efac:AwardCriterionStatistics>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -214,10 +298,10 @@
 							<ext:UBLExtension>
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
-										<efac:AwardCriterionStatistics>
-											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
-											<efbc:StatisticalNumeric>5</efbc:StatisticalNumeric>
-										</efac:AwardCriterionStatistics>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -230,10 +314,10 @@
 							<ext:UBLExtension>
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
-										<efac:AwardCriterionStatistics>
-											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
-											<efbc:StatisticalNumeric>3</efbc:StatisticalNumeric>
-										</efac:AwardCriterionStatistics>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -246,10 +330,10 @@
 							<ext:UBLExtension>
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
-										<efac:AwardCriterionStatistics>
-											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
-											<efbc:StatisticalNumeric>2</efbc:StatisticalNumeric>
-										</efac:AwardCriterionStatistics>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>2</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -262,10 +346,10 @@
 							<ext:UBLExtension>
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
-										<efac:AwardCriterionStatistics>
-											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
-											<efbc:StatisticalNumeric>75</efbc:StatisticalNumeric>
-										</efac:AwardCriterionStatistics>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>75</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -283,41 +367,14 @@
 					<cbc:Description languageID="ENG">Precise information on deadline(s) for review procedures:   An economic operator that suffers or risks suffering, loss or damage attributable to a breach of duty under the Public Contracts (Scotland) Regulations 2015 (SSI 2015/446) may bring proceedings in the Sheriff Court or the Court of Session, provided that it has informed the contracting authority of the breach or apprehended breach of its duties and of its intention to bring proceedings relating to that breach. Proceedings must be brought within the timescales set out in the regulations.</cbc:Description>
 				</cac:PresentationPeriod>
 				<cac:AppealReceiverParty>
-					<cac:PartyName>
-						<cbc:Name>Sheriff Court</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:CityName>Sheriff Street</cbc:CityName>
-						<cac:Country>
-							<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone>(+12)34567890</cbc:Telephone>
-						<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>
-					<cac:PartyName>
-						<cbc:Name languageID="ENG">Example Mediator</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:StreetName>Some Street</cbc:StreetName>
-						<cbc:CityName>Example City</cbc:CityName>
-						<cac:Country>
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeName="abc">111 111 111</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone>+123 456 789</cbc:Telephone>
-						<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:MediationParty>
 			</cac:AppealTerms>
 			<cac:Language>

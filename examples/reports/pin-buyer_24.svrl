@@ -41,61 +41,61 @@
    <svrl:ns-prefix-in-attribute-values prefix="pin"
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
    <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
+   <svrl:fired-rule context="/"/>
    <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text()='pin-buyer']"/>
+   <svrl:fired-rule context="cbc:CountrySubentityCode"/>
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
    <svrl:fired-rule context="cbc:PartyTypeCode"/>
    <svrl:fired-rule context="cbc:ActivityTypeCode"/>
-   <svrl:fired-rule context="cbc:CountrySubentityCode"/>
    <svrl:fired-rule context="cbc:ProcurementTypeCode"/>
    <svrl:fired-rule context="cbc:ItemClassificationCode"/>
    <svrl:fired-rule context="cbc:CountrySubentityCode"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
-   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
-   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
    <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Name"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Description"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Note"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address"/>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
-   <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
-   <svrl:fired-rule context="/*/cbc:CustomizationID"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telefax"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:IssueTime"/>
-   <svrl:fired-rule context="/*/cbc:VersionID"/>
-   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
-   <svrl:fired-rule context="/*/cbc:NoticeLanguageCode"/>
-   <svrl:fired-rule context="//cbc:BuyerProfileURI"/>
-   <svrl:fired-rule context="//cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>
-   <svrl:fired-rule context="//cbc:ActivityTypeCode/@listName"/>
-   <svrl:fired-rule context="//cbc:WebsiteURI"/>
-   <svrl:fired-rule context="//cbc:CountrySubentityCode"/>
-   <svrl:fired-rule context="//cac:Country/cbc:IdentificationCode"/>
-   <svrl:fired-rule context="//cbc:Telephone"/>
-   <svrl:fired-rule context="//cbc:Telefax"/>
-   <svrl:fired-rule context="//cbc:ElectronicMail"/>
-   <svrl:fired-rule context="//@languageID"/>
-   <svrl:fired-rule context="//@languageID"/>
-   <svrl:fired-rule context="//cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']"/>
-   <svrl:fired-rule context="//@languageID"/>
-   <svrl:fired-rule context="//cbc:ItemClassificationCode[@listName='cpv']"/>
-   <svrl:fired-rule context="//cbc:ItemClassificationCode/@listName"/>
-   <svrl:fired-rule context="//cbc:CountrySubentityCode"/>
-   <svrl:fired-rule context="//cac:Country/cbc:IdentificationCode"/>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
