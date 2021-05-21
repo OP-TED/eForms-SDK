@@ -4,7 +4,7 @@ Below is a list of the major updates made to the SDK in this release. Further de
 ## Changes to the eForms schema
 
 ### Notice and procedure identifiers as UUID
-Notice and procedure identifiers are used to associate different notices for a single procedure together. There will be a single unique procedure identifier common to all notices related to a procedure. Notice identifiers are used to relate a change cotice or a modification notice with the exact notice that is being changed or modified. Both these identifiers need to be globally unique. We have decided to use [UUID version 4](https://en.wikipedia.org/wiki/Universally_unique_identifier) for notice and procedure identifiers.
+Notice and procedure identifiers are used to associate different notices for a single procedure together. There will be a single unique procedure identifier common to all notices related to a procedure. Notice identifiers are used to relate a change notice or a modification notice with the exact notice that is being changed or modified. Both these identifiers need to be globally unique. We have decided to use [UUID version 4](https://en.wikipedia.org/wiki/Universally_unique_identifier) for notice and procedure identifiers.
 
 ### Notice subtype
 The "Notice Subtype" concept has been introduced to provide an identification of the exact type of a notice, in order to precisely determine the information requirements of the notice and the rules which need to be applied. The values to be used are those in the second row of the table in Annex II of Regulation (EU) 2019/1780 ("1" to "40"; "E1" to "E5", etc.) 
@@ -36,11 +36,11 @@ A new repeatable element efac:TenderSubcontractingRequirements, and a non-repeat
 ### UBL version used
 The version of UBL used has been updated to version 2.3 OASIS Committee Specification 1 (2.3 CS01) to reflect the fact that UBL version 2.3 has now been adopted by OASIS as a Committee Specification. This change of UBL version does not impact any elements within the eForms schema.
 
-[ Do we want to include the following changes to the documentation (no schema changes required)? If so I will write them better ]
+### Change of elements used (BT-65, BT-755, BT-777)
 
-- Change of elements used (BT-65, BT-755, BT-777)
-- Addition of new codelists and values ( BT-769, BT-09, BT-01, BT-67, BT-761, BT-763, BT-578)
-- Change of codelist used (BT-79, BT-751)
+- BT-651 "Subcontracting Tender Indication": changed element used from cac:TenderPreparation/cbc:Description to efac:TenderSubcontractingRequirements/efbc:TenderSubcontractingRequirementsCode
+- BT-755 "Accessibility Justification": changed from cbc:Description to cac:ProcurementAdditionalType/cbc:ProcurementType
+- BT-777 "Strategic Procurement Description": changed from cbc:Description to cac:ProcurementAdditionalType/cbc:ProcurementType
 
 ### Removed unused UBL schema files
 Several UBL schema files in the /common folder related to digital signatures were included in the last release of the eForms SDK. These files are not used in eForms, so they have been removed from this release.
@@ -54,7 +54,7 @@ The schema for "Society Registration Information Notice" is replaced with "Busin
 ### Updated schematron rules
 The schematron rules have been updated to reflect the schema changes listed above, along with numerous improvements and corrections.
 
-In stage-3.sch, rules checking that a values is part of a code list have been temporarily removed. We are currently working on them and they will be added back in the next release.
+In stage-3.sch, rules checking that a value is part of a code list have been temporarily removed. We are currently working on them and they will be added back in the next release.
 
 In stage-4.sch, some rules related to result notices have been temporarily removed. We are working on them, and they will be added back in a future release.
 
