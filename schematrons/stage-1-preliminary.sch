@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pattern id="EFORMS-stage-1-preliminary" xmlns="http://purl.oclc.org/dsdl/schematron">
+	<rule context="/">
+		<assert role="error" test="count(*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode) &gt; 0">The OPP-070 Notice Subtype is mandatory.</assert>
+	</rule>
 	<rule context="/*[(/*/cbc:NoticeTypeCode/text()=('pmc', 'pin-only', 'pin-rtl', 'pin-cfc-standard', 'pin-cfc-social', 'qu-sy', 'cn-standard', 'cn-social', 'subco', 'cn-desg', 'veat', 'can-standard', 'can-social', 'can-desg', 'can-modif', 'cc'))]">
 		<assert test="exists(cac:ProcurementProjectLot)">The mandatory child element cac:ProcurementProjectLot is missing in context /*[(/*/cbc:NoticeTypeCode/text()=('pmc', 'pin-only', 'pin-rtl', 'pin-cfc-standard', 'pin-cfc-social', 'qu-sy', 'cn-standard', 'cn-social', 'subco', 'cn-desg', 'veat', 'can-standard', 'can-social', 'can-desg', 'can-modif', 'cc'))].</assert>
 	</rule>
@@ -12,22 +15,8 @@
 	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess[/*/cac:TenderingProcess/cbc:ProcedureCode/text() = ('oth-single', 'neg-wo-call', 'open')]">
 		<assert test="count(cac:EconomicOperatorShortList) = 0">The prohibited child element cac:EconomicOperatorShortList is present in context /*/cac:ProcurementProjectLot/cac:TenderingProcess[/*/cac:TenderingProcess/cbc:ProcedureCode/text() = ('oth-single', 'neg-wo-call', 'open')].</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess/ext:UBLExtensions[/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg')]">
-		<assert test="exists(ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ReceivedSubmissionsStatistics)">The mandatory information on received submissions is missing.</assert>
-	</rule>
-	<rule context="/*/cac:TenderResult[((cbc:TenderResultCode/text()='selec-w') and (/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg')) and (/*/cbc:RegulatoryDomain/text()=('32014L0023', '32014L0024', '32014L0025')))]">
-		<assert test="exists(cac:AwardedTenderedProject)">The mandatory child element cac:AwardedTenderedProject is missing in context /*/cac:TenderResult[((cbc:TenderResultCode/text()='selec-w') and (/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg')))].</assert>
-		<assert test="exists(cac:Contract)">The mandatory child element cac:Contract is missing in context /*/cac:TenderResult[((cbc:TenderResultCode/text()='selec-w') and (/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg')))].</assert>
-		<assert test="exists(cac:WinningParty)">The mandatory child element cac:WinningParty is missing in context /*/cac:TenderResult[((cbc:TenderResultCode/text()='selec-w') and (/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg')))].</assert>
-	</rule>
-	<rule context="/*/cac:TenderResult[((cbc:TenderResultCode/text()='selec-w') and (/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg'))) or (/*/cbc:NoticeTypeCode/text()=('can-modif'))]">
-		<assert test="exists(cac:AwardedTenderedProject)">The mandatory child element cac:AwardedTenderedProject is missing in context /*/cac:TenderResult[((cbc:TenderResultCode/text()='selec-w') and (/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg'))) or (/*/cbc:NoticeTypeCode/text()=('can-modif'))].</assert>
-		<assert test="exists(cac:Contract)">The mandatory child element cac:Contract is missing in context /*/cac:TenderResult[((cbc:TenderResultCode/text()='selec-w') and (/*/cbc:NoticeTypeCode/text()=('can-standard', 'can-social', 'can-desg'))) or (/*/cbc:NoticeTypeCode/text()=('can-modif'))].</assert>
-	</rule>
-	<rule context="/*/cac:TenderResult[cbc:TenderResultCode/text() = ('clos-nw','open-nw')]">
-		<assert test="count(cac:AwardedTenderedProject) = 0">The prohibited child element cac:AwardedTenderedProject is present in context /*/cac:TenderResult[cbc:TenderResultCode/text() = ('clos-nw','open-nw'))]</assert>
-		<assert test="count(cac:Contract) = 0">The prohibited child element cac:Contract is present in context /*/cac:TenderResult[cbc:TenderResultCode/text() = ('clos-nw','open-nw'))]</assert>
-		<assert test="count(cac:WinningParty) = 0">The prohibited child element cac:WinningParty is present in context /*/cac:TenderResult[cbc:TenderResultCode/text() = ('clos-nw','open-nw'))]</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = ('29', '30', '31', '32', '33', '34', '35', '36', '37')]">
+		<assert test="exists(efac:ReceivedSubmissionsStatistics)">The mandatory information on received submissions is missing.</assert>
 	</rule>
 	<rule context="cac:ProcurementProjectLot/cbc:ID">
 		<assert test="@schemeName">The mandatory attribute @schemeName is missing.</assert>
