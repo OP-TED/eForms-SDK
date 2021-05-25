@@ -3,14 +3,1157 @@
 	 Values used are fictitious, and may be redundant or inconsistent.
 -->
 <ContractAwardNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeResult>
+						<efac:GroupFramework>
+							<!--BT-156-->
+							<efbc:GroupFrameworkValueAmount currencyID="EUR">9999999.99</efbc:GroupFrameworkValueAmount>
+							<efac:TenderLot>
+								<!--BT-556-->
+								<cbc:ID schemeName="LotsGroup">GLO-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:GroupFramework>
+						<efac:LotResult>
+							<!--BT-711-->
+							<cbc:HigherTenderAmount currencyID="EUR">9999999.99</cbc:HigherTenderAmount>
+							<!--BT-710-->
+							<cbc:LowerTenderAmount currencyID="EUR">999999.99</cbc:LowerTenderAmount>
+							<!--BT-142-->
+							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+							<efac:AppealRequestsStatistics>
+								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
+								<!--BT-712-->
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:AppealRequestsStatistics>
+							<efac:AppealRequestsStatistics>
+								<!--BT-636-->
+								<efbc:StatisticsCode listName="irregularity-type">tl-ext-fail</efbc:StatisticsCode>
+								<!--BT-635-->
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:AppealRequestsStatistics>
+							<efac:LotTender>
+								<!--OPT-320-->
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
+							<efac:FrameworkAgreementValues>
+								<!--BT-660-->
+								<cbc:EstimatedMaximumValueAmount currencyID="EUR">9999999.99</cbc:EstimatedMaximumValueAmount>
+								<!--BT-709-->
+								<cbc:MaximumValueAmount currencyID="EUR">9999999.99</cbc:MaximumValueAmount>
+							</efac:FrameworkAgreementValues>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--BT-760-->
+								<efbc:StatisticsCode listName="received-submission-type">eu</efbc:StatisticsCode>
+								<!--BT-759-->
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--BT-760-->
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<!--BT-759-->
+								<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--BT-760-->
+								<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+								<!--BT-759-->
+								<efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--BT-760-->
+								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+								<!--BT-759-->
+								<efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<!--OPT-315-->
+								<cbc:ID schemeName="contract">CON-0002</cbc:ID>
+							</efac:SettledContract>
+							<efac:StrategicProcurementStatistics>
+								<!--OPT-155-->
+								<efbc:StatisticsCode listName="green-procurement">vehicles</efbc:StatisticsCode>
+								<!--BT-715 OPT-156-->
+								<efbc:StatisticsNumeric>45</efbc:StatisticsNumeric>
+							</efac:StrategicProcurementStatistics>
+							<efac:StrategicProcurementStatistics>
+								<!--OPT-155-->
+								<efbc:StatisticsCode listName="green-procurement">vehicles-zero-emission</efbc:StatisticsCode>
+								<!--BT-725 OPT-156-->
+								<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+							</efac:StrategicProcurementStatistics>
+							<efac:StrategicProcurementStatistics>
+								<!--OPT-155-->
+								<efbc:StatisticsCode listName="green-procurement">vehicles-clean</efbc:StatisticsCode>
+								<!--BT-716 OPT-156-->
+								<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
+							</efac:StrategicProcurementStatistics>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotResult>
+							<!--BT-711-->
+							<cbc:HigherTenderAmount currencyID="EUR">9999999.99</cbc:HigherTenderAmount>
+							<!--BT-710-->
+							<cbc:LowerTenderAmount currencyID="EUR">999999.99</cbc:LowerTenderAmount>
+							<!--BT-144-->
+							<cbc:TenderResultCode listName="non-award-justification">all-rej</cbc:TenderResultCode>
+							<efac:AppealRequestsStatistics>
+								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
+								<!--BT-712-->
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:AppealRequestsStatistics>
+							<efac:AppealRequestsStatistics>
+								<!--BT-636-->
+								<efbc:StatisticsCode listName="irregularity-type">tl-ext-fail</efbc:StatisticsCode>
+								<!--BT-635-->
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:AppealRequestsStatistics>
+							<efac:LotTender>
+								<!--OPT-320-->
+								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+							</efac:LotTender>
+							<efac:FrameworkAgreementValues>
+								<!--BT-660-->
+								<cbc:EstimatedMaximumValueAmount currencyID="EUR">9999999.99</cbc:EstimatedMaximumValueAmount>
+								<!--BT-709-->
+								<cbc:MaximumValueAmount currencyID="EUR">9999999.99</cbc:MaximumValueAmount>
+							</efac:FrameworkAgreementValues>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--BT-760-->
+								<efbc:StatisticsCode listName="received-submission-type">eu</efbc:StatisticsCode>
+								<!--BT-759-->
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--BT-760-->
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<!--BT-759-->
+								<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--BT-760-->
+								<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+								<!--BT-759-->
+								<efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--BT-760-->
+								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+								<!--BT-759-->
+								<efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<!--OPT-315-->
+								<cbc:ID schemeName="contract">CON-0002</cbc:ID>
+							</efac:SettledContract>
+							<efac:StrategicProcurementStatistics>
+								<!--OPT-155-->
+								<efbc:StatisticsCode listName="green-procurement">vehicles</efbc:StatisticsCode>
+								<!--BT-715 OPT-156-->
+								<efbc:StatisticsNumeric>45</efbc:StatisticsNumeric>
+							</efac:StrategicProcurementStatistics>
+							<efac:StrategicProcurementStatistics>
+								<!--OPT-155-->
+								<efbc:StatisticsCode listName="green-procurement">vehicles-zero-emission</efbc:StatisticsCode>
+								<!--BT-725 OPT-156-->
+								<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+							</efac:StrategicProcurementStatistics>
+							<efac:StrategicProcurementStatistics>
+								<!--OPT-155-->
+								<efbc:StatisticsCode listName="green-procurement">vehicles-clean</efbc:StatisticsCode>
+								<!--BT-716 OPT-156-->
+								<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
+							</efac:StrategicProcurementStatistics>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<!--BT-171-->
+							<cbc:RankCode>3</cbc:RankCode>
+							<!--BT-193-->
+							<efbc:TenderVariantIndicator>true</efbc:TenderVariantIndicator>
+							<cac:LegalMonetaryTotal>
+								<!--BT-720-->
+								<cbc:PayableAmount currencyID="EUR">9999999.99</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:SubcontractingTerm>
+								<!--BT-553-->
+								<efbc:TermAmount currencyID="EUR">9999999.99</efbc:TermAmount>
+								<!--BT-554-->
+								<efbc:TermDescription languageID="ENG">Subcontracting Description ---</efbc:TermDescription>
+								<!--BT-555-->
+								<efbc:TermPercent>30</efbc:TermPercent>
+								<!--BT-773-->
+								<efbc:TermCode listName="applicability">true</efbc:TermCode>
+								<!--BT-731-->
+								<efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+								<!--BT-730-->
+								<efbc:ValueKnownIndicator>true</efbc:ValueKnownIndicator>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							</efac:TenderingParty>
+						</efac:LotTender>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+							<!--BT-171-->
+							<cbc:RankCode>3</cbc:RankCode>
+							<!--BT-193-->
+							<efbc:TenderVariantIndicator>true</efbc:TenderVariantIndicator>
+							<cac:LegalMonetaryTotal>
+								<!--BT-720-->
+								<cbc:PayableAmount currencyID="EUR">9999999.99</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:SubcontractingTerm>
+								<!--BT-553-->
+								<efbc:TermAmount currencyID="EUR">9999999.99</efbc:TermAmount>
+								<!--BT-554-->
+								<efbc:TermDescription languageID="ENG">Subcontracting Description ---</efbc:TermDescription>
+								<!--BT-555-->
+								<efbc:TermPercent>30</efbc:TermPercent>
+								<!--BT-773-->
+								<efbc:TermCode listName="applicability">true</efbc:TermCode>
+								<!--BT-731-->
+								<efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+								<!--BT-730-->
+								<efbc:ValueKnownIndicator>true</efbc:ValueKnownIndicator>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+							</efac:TenderingParty>
+						</efac:LotTender>
+						<efac:SettledContract>
+							<!--BT-150-->
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							<!--BT-1451-->
+							<cbc:AwardDate>2023-03-23</cbc:AwardDate>
+							<!--BT-145-->
+							<cbc:IssueDate>2023-03-24</cbc:IssueDate>
+							<!--BT-721-->
+							<cbc:Title languageID="ENG">This is the title of the contract ---</cbc:Title>
+							<!--BT-151-->
+							<cbc:URI>https://wheretofindcontract.com/ctr123</cbc:URI>
+							<efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
+							<cac:NoticeDocumentReference>
+								<!--OPT-100-->
+								<cbc:ID>12345678-2023</cbc:ID>
+								<!--OPT-101-->
+								<cbc:VersionID>2</cbc:VersionID>
+							</cac:NoticeDocumentReference>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<!--OPT-300-->
+									<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<efac:LotTender>
+								<!--BT-3202-->
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
+							<efac:Funding>
+								<!--BT-5011-->
+								<cbc:FundingProgramCode listName="eu-funded">C-EU-123</cbc:FundingProgramCode>
+								<!--BT-722-->
+								<cbc:FundingProgram languageID="ENG">Recovery Fund</cbc:FundingProgram>
+							</efac:Funding>
+						</efac:SettledContract>
+						<efac:SettledContract>
+							<!--BT-150-->
+							<cbc:ID schemeName="contract">CON-0002</cbc:ID>
+							<!--BT-1451-->
+							<cbc:AwardDate>2023-03-23</cbc:AwardDate>
+							<!--BT-145-->
+							<cbc:IssueDate>2023-03-24</cbc:IssueDate>
+							<!--BT-721-->
+							<cbc:Title languageID="ENG">Title of second contract ---</cbc:Title>
+							<!--BT-151-->
+							<cbc:URI>https://wheretofindcontract.com/ctr222</cbc:URI>
+							<efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
+							<cac:NoticeDocumentReference>
+								<!--OPT-100-->
+								<cbc:ID>12345678-2023</cbc:ID>
+								<!--OPT-101-->
+								<cbc:VersionID>2</cbc:VersionID>
+							</cac:NoticeDocumentReference>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<!--OPT-300-->
+									<cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<efac:LotTender>
+								<!--BT-3202-->
+								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+							</efac:LotTender>
+							<efac:Funding>
+								<!--BT-5011-->
+								<cbc:FundingProgramCode listName="eu-funded">C-EU-222</cbc:FundingProgramCode>
+								<!--BT-722-->
+								<cbc:FundingProgram languageID="ENG">Recovery Fund</cbc:FundingProgram>
+							</efac:Funding>
+						</efac:SettledContract>
+						<efac:TenderingParty>
+							<!--OPT-210-->
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							<efac:Tenderer>
+								<!--OPT-300-->
+								<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
+								<!--OPT-170-->
+								<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<!--OPT-300-->
+								<cbc:ID schemeName="organization">ORG-0012</cbc:ID>
+								<!--OPT-170-->
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:SubContractor>
+								<!--OPT-301-->
+								<cbc:ID schemeName="organization">ORG-0013</cbc:ID>
+								<efac:MainContractor>
+									<!--OPT-301-->
+									<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
+								</efac:MainContractor>
+							</efac:SubContractor>
+						</efac:TenderingParty>
+						<efac:TenderingParty>
+							<!--OPT-210-->
+							<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+							<efac:Tenderer>
+								<!--OPT-300-->
+								<cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+								<!--OPT-170-->
+								<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:Tenderer>
+								<!--OPT-300-->
+								<cbc:ID schemeName="organization">ORG-0015</cbc:ID>
+								<!--OPT-170-->
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+							</efac:Tenderer>
+							<efac:SubContractor>
+								<!--OPT-301-->
+								<cbc:ID schemeName="organization">ORG-0016</cbc:ID>
+								<efac:MainContractor>
+									<!--OPT-301-->
+									<cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+								</efac:MainContractor>
+							</efac:SubContractor>
+						</efac:TenderingParty>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode>29</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<!--OPT-200-->
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<!--BT-500-->
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">Buyer Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<!--BT-514-->
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<!--BT-633-->
+							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">TaxInfo Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<!--BT-633-->
+							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">EnvironmentalInfo Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<!--BT-633-->
+							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">EmploymentInfo Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<!--BT-633-->
+							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">AdditionalInformation Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<!--BT-633-->
+							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">DocumentProvider Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<!--BT-633-->
+							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">AppealInformation Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<!--BT-633-->
+							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">AppealReceiver Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<!--BT-633-->
+							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">Mediator Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<!--BT-165-->
+								<efbc:CompanySizeCode listName="economic-operator-size">non-sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">Winner1 Leader Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">winner-ID-111</cbc:CompanyID>
+									<cac:ShareholderParty>
+										<cac:Party>
+											<cac:Person>
+												<!--BT-706-->
+												<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
+											</cac:Person>
+										</cac:Party>
+									</cac:ShareholderParty>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<!--BT-165-->
+								<efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0012</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">Group1 Member Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">group-member-ID-001</cbc:CompanyID>
+									<cac:ShareholderParty>
+										<cac:Party>
+											<cac:Person>
+												<!--BT-706-->
+												<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
+											</cac:Person>
+										</cac:Party>
+									</cac:ShareholderParty>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<!--BT-165-->
+								<efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0013</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">Subcontractor1 Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">subcontractor-ID-001</cbc:CompanyID>
+									<cac:ShareholderParty>
+										<cac:Party>
+											<cac:Person>
+												<!--BT-706-->
+												<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
+											</cac:Person>
+										</cac:Party>
+									</cac:ShareholderParty>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<!--BT-165-->
+								<efbc:CompanySizeCode listName="economic-operator-size">non-sme</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0014</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">Winner2 Leader Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">winner-ID-222</cbc:CompanyID>
+									<cac:ShareholderParty>
+										<cac:Party>
+											<cac:Person>
+												<!--BT-706-->
+												<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
+											</cac:Person>
+										</cac:Party>
+									</cac:ShareholderParty>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<!--BT-165-->
+								<efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0015</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">Group2 Member Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">group-member-ID-002</cbc:CompanyID>
+									<cac:ShareholderParty>
+										<cac:Party>
+											<cac:Person>
+												<!--BT-706-->
+												<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
+											</cac:Person>
+										</cac:Party>
+									</cac:ShareholderParty>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<!--BT-505-->
+								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
+								<!--BT-509-->
+								<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
+								<!--BT-165-->
+								<efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0016</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<!--BT-500-->
+									<cbc:Name languageID="ENG">Subcontractor2 Name</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<!--BT-510-->
+									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
+									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
+									<!--BT-16-->
+									<cbc:Department>Finance</cbc:Department>
+									<!--BT-513-->
+									<cbc:CityName>London</cbc:CityName>
+									<!--BT-512-->
+									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<!--BT-507-->
+									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cac:Country>
+										<!--BT-514-->
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<!--BT-501-->
+									<cbc:CompanyID schemeID="002">subcontractor-ID-2222</cbc:CompanyID>
+									<cac:ShareholderParty>
+										<cac:Party>
+											<cac:Person>
+												<!--BT-706-->
+												<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
+											</cac:Person>
+										</cac:Party>
+									</cac:ShareholderParty>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<!--BT-502-->
+									<cbc:Name>Info desk</cbc:Name>
+									<!--BT-503-->
+									<cbc:Telephone>+44 123456780</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 123456789</cbc:Telefax>
+									<!--BT-506-->
+									<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				</efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
 	<!--BT-701-->
-	<cbc:ID>33333333</cbc:ID>
+	<cbc:ID>f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
 	<!--BT-04-->
-	<cbc:ContractFolderID>88888888</cbc:ContractFolderID>
+	<cbc:ContractFolderID>2d2d24a2-df84-449e-8695-fb66ef504a5a</cbc:ContractFolderID>
 	<!--BT-05-->
-	<cbc:IssueDate>2023-05-23+01:00</cbc:IssueDate>
+	<cbc:IssueDate>2023-04-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>20:59:32+01:00</cbc:IssueTime>
 	<!--BT-757-->
 	<cbc:VersionID>3</cbc:VersionID>
@@ -32,54 +1175,15 @@
 			<cbc:ActivityTypeCode listName="authority-activity">econ-aff</cbc:ActivityTypeCode>
 		</cac:ContractingActivity>
 		<cac:Party>
-			<!--BT-505-->
-			<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-			<!--BT-509-->
-			<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-			<!--BT-500-->
-			<cac:PartyName>
-				<cbc:Name>Buyer Name</cbc:Name>
-			</cac:PartyName>
-			<cac:PostalAddress>
-				<!--BT-510-->
-				<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-				<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-				<!--BT-16-->
-				<cbc:Department>Finance</cbc:Department>
-				<!--BT-513-->
-				<cbc:CityName>London</cbc:CityName>
-				<!--BT-512-->
-				<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-				<!--BT-507-->
-				<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-				<!--BT-514-->
-				<cac:Country>
-					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-				</cac:Country>
-			</cac:PostalAddress>
-			<cac:PartyLegalEntity>
-				<!--BT-501-->
-				<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-			</cac:PartyLegalEntity>
-			<cac:Contact>
-				<!--BT-502-->
-				<cbc:Name>Info desk</cbc:Name>
-				<!--BT-503-->
-				<cbc:Telephone>+44 123456780</cbc:Telephone>
-				<!--BT-739-->
-				<cbc:Telefax>+44 123456789</cbc:Telefax>
-				<!--BT-506-->
-				<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-			</cac:Contact>
+			<cac:PartyIdentification>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
 				<cbc:ServiceTypeCode listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
 				<cac:Party>
-					<cac:PartyName>
-						<cbc:Name>eSendCorp</cbc:Name>
-					</cac:PartyName>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-					</cac:PartyLegalEntity>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:Party>
 			</cac:ServiceProviderParty>
 		</cac:Party>
@@ -98,9 +1202,17 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
 		<cac:ProcessJustification>
 			<!--BT-106-->
-			<cbc:ProcessReasonCode listName="accelerated-procedure-justification">urgent</cbc:ProcessReasonCode>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">urgent</cbc:ProcessReasonCode>
 			<!--BT-1351-->
 			<cbc:ProcessReason languageID="ENG">Procedure Accelerated Justification ---</cbc:ProcessReason>
+		</cac:ProcessJustification>
+		<cac:ProcessJustification>
+			<!--BT-136-->
+			<cbc:ProcessReasonCode listName="direct-award-justification">artistic</cbc:ProcessReasonCode>
+			<!--BT-135-->
+			<cbc:ProcessReason languageID="ENG">Direct Award Justification ---</cbc:ProcessReason>
+			<!--BT-1252-->
+			<cbc:Description>12345678</cbc:Description>
 		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
@@ -198,12 +1310,12 @@
 							<ext:UBLExtension>
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
-										<efac:AwardCriterionStatistics>
+										<efac:AwardCriterionParameter>
 											<!--BT-5421-->
-											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
 											<!--BT-541-->
-											<efbc:StatisticalNumeric>60</efbc:StatisticalNumeric>
-										</efac:AwardCriterionStatistics>
+											<efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -219,75 +1331,6 @@
 			</cac:AwardingTerms>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:ReceivedSubmissionsStatistics>
-								<!--BT-760-->
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
-								<!--BT-759-->
-								<efbc:StatisticalNumeric>3</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<!--BT-634-->
-							<efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:BuyerReviewStatistics>
-								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
-								<!--BT-712-->
-								<efbc:StatisticalNumeric>3</efbc:StatisticalNumeric>
-							</efac:BuyerReviewStatistics>
-							<efac:BuyerReviewStatistics>
-								<!--BT-636-->
-								<efbc:StatisticsCode listName="irregularity-type">tl-ext-fail</efbc:StatisticsCode>
-								<!--BT-635-->
-								<efbc:StatisticalNumeric>3</efbc:StatisticalNumeric>
-							</efac:BuyerReviewStatistics>
-							<efac:ReceivedSubmissionsStatistics>
-								<!--BT-760-->
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
-								<!--BT-759-->
-								<efbc:StatisticalNumeric>10</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-							<efac:ReceivedSubmissionsStatistics>
-								<!--BT-760-->
-								<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
-								<!--BT-759-->
-								<efbc:StatisticalNumeric>9</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-							<efac:ReceivedSubmissionsStatistics>
-								<!--BT-760-->
-								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
-								<!--BT-759-->
-								<efbc:StatisticalNumeric>4</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<!--BT-710-->
-						<cbc:LowerTenderAmount currencyID="EUR">999999.99</cbc:LowerTenderAmount>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<!--BT-711-->
-						<cbc:HigherTenderAmount currencyID="EUR">9999999.99</cbc:HigherTenderAmount>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<!--BT-115-->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
 			<!--BT-124-->
@@ -413,139 +1456,25 @@
 			<cac:FiscalLegislationDocumentReference>
 				<cbc:ID>FiscalDocID1</cbc:ID>
 				<cac:IssuerParty>
-					<!--BT-505-->
-					<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-					<!--BT-509-->
-					<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-					<!--BT-633-->
-					<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-					<cac:PartyName>
-						<!--BT-500-->
-						<cbc:Name>TaxInfo Name</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<!--BT-510-->
-						<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-						<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-						<!--BT-16-->
-						<cbc:Department>Finance</cbc:Department>
-						<!--BT-513-->
-						<cbc:CityName>London</cbc:CityName>
-						<!--BT-512-->
-						<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-						<!--BT-507-->
-						<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-						<cac:Country>
-							<!--BT-514-->
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<!--BT-501-->
-						<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<!--BT-502-->
-						<cbc:Name>Info desk</cbc:Name>
-						<!--BT-503-->
-						<cbc:Telephone>+44 123456780</cbc:Telephone>
-						<!--BT-739-->
-						<cbc:Telefax>+44 123456789</cbc:Telefax>
-						<!--BT-506-->
-						<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:FiscalLegislationDocumentReference>
 			<cac:EnvironmentalLegislationDocumentReference>
 				<cbc:ID>EnvDocID1</cbc:ID>
 				<cac:IssuerParty>
-					<!--BT-505-->
-					<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-					<!--BT-509-->
-					<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-					<!--BT-633-->
-					<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-					<cac:PartyName>
-						<!--BT-500-->
-						<cbc:Name>EnvironmentalInfo Name</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<!--BT-510-->
-						<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-						<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-						<!--BT-16-->
-						<cbc:Department>Finance</cbc:Department>
-						<!--BT-513-->
-						<cbc:CityName>London</cbc:CityName>
-						<!--BT-512-->
-						<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-						<!--BT-507-->
-						<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-						<cac:Country>
-							<!--BT-514-->
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<!--BT-501-->
-						<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<!--BT-502-->
-						<cbc:Name>Info desk</cbc:Name>
-						<!--BT-503-->
-						<cbc:Telephone>+44 123456780</cbc:Telephone>
-						<!--BT-739-->
-						<cbc:Telefax>+44 123456789</cbc:Telefax>
-						<!--BT-506-->
-						<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:EnvironmentalLegislationDocumentReference>
 			<cac:EmploymentLegislationDocumentReference>
 				<cbc:ID>EmplDocID1</cbc:ID>
 				<cac:IssuerParty>
-					<!--BT-505-->
-					<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-					<!--BT-509-->
-					<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-					<!--BT-633-->
-					<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-					<cac:PartyName>
-						<!--BT-500-->
-						<cbc:Name>EmploymentInfo Name</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<!--BT-510-->
-						<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-						<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-						<!--BT-16-->
-						<cbc:Department>Finance</cbc:Department>
-						<!--BT-513-->
-						<cbc:CityName>London</cbc:CityName>
-						<!--BT-512-->
-						<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-						<!--BT-507-->
-						<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-						<cac:Country>
-							<!--BT-514-->
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<!--BT-501-->
-						<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<!--BT-502-->
-						<cbc:Name>Info desk</cbc:Name>
-						<!--BT-503-->
-						<cbc:Telephone>+44 123456780</cbc:Telephone>
-						<!--BT-739-->
-						<cbc:Telefax>+44 123456789</cbc:Telefax>
-						<!--BT-506-->
-						<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:EmploymentLegislationDocumentReference>
 			<cac:AwardingTerms>
@@ -559,12 +1488,12 @@
 							<ext:UBLExtension>
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
-										<efac:AwardCriterionStatistics>
+										<efac:AwardCriterionParameter>
 											<!--BT-5421-->
-											<efbc:StatisticsCode listName="number-weight">per-exa</efbc:StatisticsCode>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
 											<!--BT-541-->
-											<efbc:StatisticalNumeric>60</efbc:StatisticalNumeric>
-										</efac:AwardCriterionStatistics>
+											<efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -579,90 +1508,14 @@
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
-				<!--BT-505-->
-				<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-				<!--BT-509-->
-				<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-				<!--BT-633-->
-				<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-				<cac:PartyName>
-					<!--BT-500-->
-					<cbc:Name>AdditionalInformation Name</cbc:Name>
-				</cac:PartyName>
-				<cac:PostalAddress>
-					<!--BT-510-->
-					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-					<!--BT-16-->
-					<cbc:Department>Finance</cbc:Department>
-					<!--BT-513-->
-					<cbc:CityName>London</cbc:CityName>
-					<!--BT-512-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<!--BT-507-->
-					<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-					<cac:Country>
-						<!--BT-514-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<!--BT-501-->
-					<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<!--BT-502-->
-					<cbc:Name>Info desk</cbc:Name>
-					<!--BT-503-->
-					<cbc:Telephone>+44 123456780</cbc:Telephone>
-					<!--BT-739-->
-					<cbc:Telefax>+44 123456789</cbc:Telefax>
-					<!--BT-506-->
-					<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-				</cac:Contact>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
-				<!--BT-505-->
-				<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-				<!--BT-509-->
-				<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-				<!--BT-633-->
-				<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-				<cac:PartyName>
-					<!--BT-500-->
-					<cbc:Name>DocumentProvider Name</cbc:Name>
-				</cac:PartyName>
-				<cac:PostalAddress>
-					<!--BT-510-->
-					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-					<!--BT-16-->
-					<cbc:Department>Finance</cbc:Department>
-					<!--BT-513-->
-					<cbc:CityName>London</cbc:CityName>
-					<!--BT-512-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<!--BT-507-->
-					<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-					<cac:Country>
-						<!--BT-514-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<!--BT-501-->
-					<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<!--BT-502-->
-					<cbc:Name>Info desk</cbc:Name>
-					<!--BT-503-->
-					<cbc:Telephone>+44 123456780</cbc:Telephone>
-					<!--BT-739-->
-					<cbc:Telefax>+44 123456789</cbc:Telefax>
-					<!--BT-506-->
-					<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-				</cac:Contact>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
@@ -670,133 +1523,19 @@
 					<cbc:Description languageID="ENG">Review Deadline Description ---</cbc:Description>
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
-					<!--BT-505-->
-					<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-					<!--BT-509-->
-					<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-					<!--BT-633-->
-					<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-					<cac:PartyName>
-						<!--BT-500-->
-						<cbc:Name>AppealInformation Name</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<!--BT-510-->
-						<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-						<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-						<!--BT-16-->
-						<cbc:Department>Finance</cbc:Department>
-						<!--BT-513-->
-						<cbc:CityName>London</cbc:CityName>
-						<!--BT-512-->
-						<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-						<!--BT-507-->
-						<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-						<cac:Country>
-							<!--BT-514-->
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<!--BT-501-->
-						<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<!--BT-502-->
-						<cbc:Name>Info desk</cbc:Name>
-						<!--BT-503-->
-						<cbc:Telephone>+44 123456780</cbc:Telephone>
-						<!--BT-739-->
-						<cbc:Telefax>+44 123456789</cbc:Telefax>
-						<!--BT-506-->
-						<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
-					<!--BT-505-->
-					<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-					<!--BT-509-->
-					<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-					<!--BT-633-->
-					<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-					<cac:PartyName>
-						<!--BT-500-->
-						<cbc:Name>AppealReceiver Name</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<!--BT-510-->
-						<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-						<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-						<!--BT-16-->
-						<cbc:Department>Finance</cbc:Department>
-						<!--BT-513-->
-						<cbc:CityName>London</cbc:CityName>
-						<!--BT-512-->
-						<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-						<!--BT-507-->
-						<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-						<cac:Country>
-							<!--BT-514-->
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<!--BT-501-->
-						<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<!--BT-502-->
-						<cbc:Name>Info desk</cbc:Name>
-						<!--BT-503-->
-						<cbc:Telephone>+44 123456780</cbc:Telephone>
-						<!--BT-739-->
-						<cbc:Telefax>+44 123456789</cbc:Telefax>
-						<!--BT-506-->
-						<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>
-					<!--BT-505-->
-					<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-					<!--BT-509-->
-					<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-					<!--BT-633-->
-					<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-					<cac:PartyName>
-						<!--BT-500-->
-						<cbc:Name>Mediator Name</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<!--BT-510-->
-						<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-						<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-						<!--BT-16-->
-						<cbc:Department>Finance</cbc:Department>
-						<!--BT-513-->
-						<cbc:CityName>London</cbc:CityName>
-						<!--BT-512-->
-						<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-						<!--BT-507-->
-						<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-						<cac:Country>
-							<!--BT-514-->
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<!--BT-501-->
-						<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<!--BT-502-->
-						<cbc:Name>Info desk</cbc:Name>
-						<!--BT-503-->
-						<cbc:Telephone>+44 123456780</cbc:Telephone>
-						<!--BT-739-->
-						<cbc:Telefax>+44 123456789</cbc:Telefax>
-						<!--BT-506-->
-						<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:MediationParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
@@ -805,68 +1544,9 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
-							<efac:ReceivedSubmissionsStatistics>
-								<!--BT-760-->
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
-								<!--BT-759-->
-								<efbc:StatisticalNumeric>3</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
 							<!--BT-634-->
 							<efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
 						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:BuyerReviewStatistics>
-								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
-								<!--BT-712-->
-								<efbc:StatisticalNumeric>3</efbc:StatisticalNumeric>
-							</efac:BuyerReviewStatistics>
-							<efac:BuyerReviewStatistics>
-								<!--BT-636-->
-								<efbc:StatisticsCode listName="irregularity-type">tl-ext-fail</efbc:StatisticsCode>
-								<!--BT-635-->
-								<efbc:StatisticalNumeric>3</efbc:StatisticalNumeric>
-							</efac:BuyerReviewStatistics>
-							<efac:ReceivedSubmissionsStatistics>
-								<!--BT-760-->
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
-								<!--BT-759-->
-								<efbc:StatisticalNumeric>10</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-							<efac:ReceivedSubmissionsStatistics>
-								<!--BT-760-->
-								<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
-								<!--BT-759-->
-								<efbc:StatisticalNumeric>9</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-							<efac:ReceivedSubmissionsStatistics>
-								<!--BT-760-->
-								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
-								<!--BT-759-->
-								<efbc:StatisticalNumeric>4</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<!--BT-710-->
-						<cbc:LowerTenderAmount currencyID="EUR">999999.99</cbc:LowerTenderAmount>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<!--BT-711-->
-						<cbc:HigherTenderAmount currencyID="EUR">9999999.99</cbc:HigherTenderAmount>
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
@@ -938,13 +1618,13 @@
 				<!--BT-06-->
 				<cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
 				<!--BT-777-->
-				<cbc:ProcurementType>Strategic procurement description ---</cbc:ProcurementType>
+				<cbc:ProcurementType languageID="ENG">Strategic procurement description ---</cbc:ProcurementType>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-754-->
 				<cbc:ProcurementTypeCode listName="accessibility">inc</cbc:ProcurementTypeCode>
 				<!--BT-755-->
-				<cbc:ProcurementType>Accessibility Justification ---</cbc:ProcurementType>
+				<cbc:ProcurementType languageID="ENG">Accessibility Justification ---</cbc:ProcurementType>
 			</cac:ProcurementAdditionalType>
 			<cac:RequestedTenderTotal>
 				<!--BT-27-->
@@ -1011,621 +1691,6 @@
 		</cac:ProcurementProject>
     </cac:ProcurementProjectLot>
     <cac:TenderResult>
-		<!--BT-142-->
-		<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
-		<!--BT-1451-->
 		<cbc:AwardDate>2023-03-23</cbc:AwardDate>
-		<cac:Contract>
-			<!--BT-150-->
-			<cbc:ID>CONTRACT-001</cbc:ID>
-			<!--BT-145-->
-			<cbc:IssueDate>2023-03-24</cbc:IssueDate>
-			<!--BT-721-->
-			<cbc:Description languageID="ENG">This is the title of the contract ---</cbc:Description>
-			<cac:ContractDocumentReference>
-				<!--OPT-100-->
-				<cbc:ID>12345678-2023</cbc:ID>
-				<!--BT-768-->
-				<cbc:DocumentTypeCode listName="document-category">fa-setting-notice</cbc:DocumentTypeCode>
-			</cac:ContractDocumentReference>
-			<cac:ContractDocumentReference>
-				<cbc:ID>CONTRACT-001-123</cbc:ID>
-				<cac:Attachment>
-					<cac:ExternalReference>
-						<!--BT-151-->
-						<cbc:URI>https://wheretofindcontract.com/ctr123</cbc:URI>
-					</cac:ExternalReference>
-				</cac:Attachment>
-				<cac:ResultOfVerification>
-					<cac:SignatoryParty>
-						<!--BT-505-->
-						<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-						<!--BT-509-->
-						<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-						<!--BT-633-->
-						<cbc:IndustryClassificationCode listName="legal-person">natural-person</cbc:IndustryClassificationCode>
-						<!--BT-500-->
-						<cac:PartyName>
-							<cbc:Name>Signatory Name</cbc:Name>
-						</cac:PartyName>
-						<cac:PostalAddress>
-							<!--BT-510-->
-							<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-							<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-							<!--BT-16-->
-							<cbc:Department>Finance</cbc:Department>
-							<!--BT-513-->
-							<cbc:CityName>London</cbc:CityName>
-							<!--BT-512-->
-							<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-							<!--BT-507-->
-							<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-							<!--BT-514-->
-							<cac:Country>
-								<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-							</cac:Country>
-						</cac:PostalAddress>
-						<cac:PartyLegalEntity>
-							<!--BT-501-->
-							<cbc:CompanyID schemeID="002">tva12345</cbc:CompanyID>
-						</cac:PartyLegalEntity>
-						<cac:Contact>
-							<!--BT-502-->
-							<cbc:Name>Info desk</cbc:Name>
-							<!--BT-503-->
-							<cbc:Telephone>+44 123456780</cbc:Telephone>
-							<!--BT-739-->
-							<cbc:Telefax>+44 123456789</cbc:Telefax>
-							<!--BT-506-->
-							<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-						</cac:Contact>
-					</cac:SignatoryParty>
-				</cac:ResultOfVerification>
-			</cac:ContractDocumentReference>
-			<cac:ContractualDelivery>
-				<cac:DeliveryTerms>
-					<!--Paying Organisation ???-->
-					<!--Financing Organisation ???-->
-				</cac:DeliveryTerms>
-			</cac:ContractualDelivery>
-		</cac:Contract>
-		<cac:AwardedTenderedProject>
-			<!--BT-3201-->
-			<cbc:VariantID>AA</cbc:VariantID>
-			<!--BT-3201-->
-			<cbc:TenderEnvelopeID>T-20X3-21B</cbc:TenderEnvelopeID>
-			<!--BT-193-->
-			<cbc:TenderEnvelopeTypeCode>variant-tender</cbc:TenderEnvelopeTypeCode>
-			<!--BT-13714-->
-			<cac:ProcurementProjectLot>
-				<cbc:ID schemeName="Lot">GLO-0001</cbc:ID>
-				<cac:TenderingTerms>
-					<!--BT-5011-->
-					<cbc:FundingProgramCode>C-EU-123</cbc:FundingProgramCode>
-					<!--BT-722-->
-					<cbc:FundingProgram>Recovery Fund</cbc:FundingProgram>
-				</cac:TenderingTerms>
-				<cac:TenderingProcess>
-					<cac:ProcessJustification>
-						<!--BT-136-->
-						<cbc:ProcessReasonCode listName="direct-award-justification">artistic</cbc:ProcessReasonCode>
-						<!--BT-135-->
-						<cbc:ProcessReason languageID="ENG">Direct Award Justification ---</cbc:ProcessReason>
-						<!--BT-1252-->
-						<cbc:Description>12345678</cbc:Description>
-					</cac:ProcessJustification>
-					<cac:FrameworkAgreement>
-						<!--BT-156-->
-						<cbc:MaximumValueAmount currencyID="EUR">9999999.99</cbc:MaximumValueAmount>
-					</cac:FrameworkAgreement>
-				</cac:TenderingProcess>
-				<cac:ProcurementProject>
-					<ext:UBLExtensions>
-						<ext:UBLExtension>
-							<ext:ExtensionContent>
-								<efext:EformsExtension>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles</efbc:StatisticsCode>
-										<!--BT-715-->
-										<efbc:StatisticalNumeric>45</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles-zero-emission</efbc:StatisticsCode>
-										<!--BT-725-->
-										<efbc:StatisticalNumeric>2</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles-clean</efbc:StatisticsCode>
-										<!--BT-716-->
-										<efbc:StatisticalNumeric>10</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-								</efext:EformsExtension>
-							</ext:ExtensionContent>
-						</ext:UBLExtension>
-					</ext:UBLExtensions>
-				</cac:ProcurementProject>
-			</cac:ProcurementProjectLot>
-			<cac:ProcurementProjectLot>
-				<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
-				<cac:TenderingProcess>
-					<cac:ProcessJustification>
-						<!--BT-136-->
-						<cbc:ProcessReasonCode listName="direct-award-justification">artistic</cbc:ProcessReasonCode>
-						<!--BT-135-->
-						<cbc:ProcessReason languageID="ENG">Direct Award Justification ---</cbc:ProcessReason>
-						<!--BT-1252-->
-						<cbc:Description>12345678</cbc:Description>
-					</cac:ProcessJustification>
-					<cac:FrameworkAgreement>
-						<!--BT-660-->
-						<cbc:EstimatedMaximumValueAmount currencyID="EUR">9999999.99</cbc:EstimatedMaximumValueAmount>
-						<!--BT-709-->
-						<cbc:MaximumValueAmount currencyID="EUR">9999999.99</cbc:MaximumValueAmount>
-					</cac:FrameworkAgreement>
-				</cac:TenderingProcess>
-				<cac:ProcurementProject>
-					<ext:UBLExtensions>
-						<ext:UBLExtension>
-							<ext:ExtensionContent>
-								<efext:EformsExtension>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles</efbc:StatisticsCode>
-										<!--BT-715-->
-										<efbc:StatisticalNumeric>45</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles-zero-emission</efbc:StatisticsCode>
-										<!--BT-725-->
-										<efbc:StatisticalNumeric>2</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles-clean</efbc:StatisticsCode>
-										<!--BT-716-->
-										<efbc:StatisticalNumeric>10</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-								</efext:EformsExtension>
-							</ext:ExtensionContent>
-						</ext:UBLExtension>
-					</ext:UBLExtensions>
-				</cac:ProcurementProject>
-			</cac:ProcurementProjectLot>
-			<!-- BT-720-->
-			<cac:LegalMonetaryTotal>
-				<cbc:PayableAmount currencyID="EUR">9999999.99</cbc:PayableAmount>
-			</cac:LegalMonetaryTotal>
-		</cac:AwardedTenderedProject>
-		<cac:SubcontractTerms>
-			<!--BT-555-->
-			<cbc:Rate>0.30</cbc:Rate>
-			<!--BT-554-->
-			<cbc:Description languageID="ENG">Subcontracting Description ---</cbc:Description>
-			<!--BT-553-->
-			<cbc:Amount currencyID="EUR">9999999.99</cbc:Amount>
-			<!--BT-773-->
-			<cbc:SubcontractingConditionsCode listName="applicability">yes</cbc:SubcontractingConditionsCode>
-			<!--BT-731 ???-->
-		</cac:SubcontractTerms>
-		<cac:WinningParty>
-			<!--BT-171-->
-			<cbc:Rank>3</cbc:Rank>
-			<cac:Party>
-				<!--BT-505-->
-				<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-				<!--BT-509-->
-				<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-				<!--BT-165-->
-				<cbc:IndustryClassificationCode listName="economic-operator-size">non-sme</cbc:IndustryClassificationCode>
-				<cac:PartyName>
-					<!--BT-500-->
-					<cbc:Name>Winner Name</cbc:Name>
-				</cac:PartyName>
-				<cac:PostalAddress>
-					<!--BT-510-->
-					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-					<!--BT-16-->
-					<cbc:Department>Finance</cbc:Department>
-					<!--BT-513-->
-					<cbc:CityName>London</cbc:CityName>
-					<!--BT-512-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<!--BT-507-->
-					<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-					<cac:Country>
-						<!--BT-514-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<!--BT-501-->
-					<cbc:CompanyID schemeID="002">winner-ID-111</cbc:CompanyID>
-					<cac:ShareholderParty>
-						<cac:Party>
-							<cac:Person>
-								<!--BT-706-->
-								<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
-							</cac:Person>
-						</cac:Party>
-					</cac:ShareholderParty>
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<!--BT-502-->
-					<cbc:Name>Info desk</cbc:Name>
-					<!--BT-503-->
-					<cbc:Telephone>+44 123456780</cbc:Telephone>
-					<!--BT-739-->
-					<cbc:Telefax>+44 123456789</cbc:Telefax>
-					<!--BT-506-->
-					<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-				</cac:Contact>
-				<cac:AgentParty>
-					<!--BT-505-->
-					<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-					<!--BT-509-->
-					<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-					<!--BT-165-->
-					<cbc:IndustryClassificationCode listName="economic-operator-size">micro</cbc:IndustryClassificationCode>
-					<cac:PartyName>
-						<!--BT-500-->
-						<cbc:Name>Group Leader Name</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<!--BT-510-->
-						<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-						<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-						<!--BT-16-->
-						<cbc:Department>Finance</cbc:Department>
-						<!--BT-513-->
-						<cbc:CityName>London</cbc:CityName>
-						<!--BT-512-->
-						<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-						<!--BT-507-->
-						<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-						<cac:Country>
-							<!--BT-514-->
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<!--BT-501-->
-						<cbc:CompanyID schemeID="002">group-leader-ID-001</cbc:CompanyID>
-						<cac:ShareholderParty>
-							<cac:Party>
-								<cac:Person>
-									<!--BT-706-->
-									<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
-								</cac:Person>
-							</cac:Party>
-						</cac:ShareholderParty>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<!--BT-502-->
-						<cbc:Name>Info desk</cbc:Name>
-						<!--BT-503-->
-						<cbc:Telephone>+44 123456780</cbc:Telephone>
-						<!--BT-739-->
-						<cbc:Telefax>+44 123456789</cbc:Telefax>
-						<!--BT-506-->
-						<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-					</cac:Contact>
-				</cac:AgentParty>
-				<cac:ServiceProviderParty>
-					<cbc:ServiceTypeCode listName="organisation-subrole">subcontractor</cbc:ServiceTypeCode>
-					<cac:Party>
-						<!--BT-505-->
-						<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-						<!--BT-509-->
-						<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-						<!--BT-165-->
-						<cbc:IndustryClassificationCode listName="economic-operator-size">medium</cbc:IndustryClassificationCode>
-						<cac:PartyName>
-							<!--BT-500-->
-							<cbc:Name>Subcontractor Name</cbc:Name>
-						</cac:PartyName>
-						<cac:PostalAddress>
-							<!--BT-510-->
-							<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-							<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-							<!--BT-16-->
-							<cbc:Department>Finance</cbc:Department>
-							<!--BT-513-->
-							<cbc:CityName>London</cbc:CityName>
-							<!--BT-512-->
-							<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-							<!--BT-507-->
-							<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-							<cac:Country>
-								<!--BT-514-->
-								<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-							</cac:Country>
-						</cac:PostalAddress>
-						<cac:PartyLegalEntity>
-							<!--BT-501-->
-							<cbc:CompanyID schemeID="002">subcontractor-ID-001</cbc:CompanyID>
-							<cac:ShareholderParty>
-								<cac:Party>
-									<cac:Person>
-										<!--BT-706-->
-										<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
-									</cac:Person>
-								</cac:Party>
-							</cac:ShareholderParty>
-						</cac:PartyLegalEntity>
-						<cac:Contact>
-							<!--BT-502-->
-							<cbc:Name>Info desk</cbc:Name>
-							<!--BT-503-->
-							<cbc:Telephone>+44 123456780</cbc:Telephone>
-							<!--BT-739-->
-							<cbc:Telefax>+44 123456789</cbc:Telefax>
-							<!--BT-506-->
-							<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-						</cac:Contact>
-					</cac:Party>
-				</cac:ServiceProviderParty>
-			</cac:Party>
-		</cac:WinningParty>
-	</cac:TenderResult>
-	<cac:TenderResult>
-		<!--BT-144-->
-		<cbc:TenderResultCode listName="non-award-justification">all-rej</cbc:TenderResultCode>
-		<!--BT-1451 ???-->
-		<cbc:AwardDate>2023-03-23</cbc:AwardDate>
-		<cac:AwardedTenderedProject>
-			<!--BT-3201-->
-			<cbc:VariantID>YY</cbc:VariantID>
-			<!--BT-3201-->
-			<cbc:TenderEnvelopeID>T-XXX-XX</cbc:TenderEnvelopeID>
-			<!--BT-193-->
-			<cbc:TenderEnvelopeTypeCode>variant-tender</cbc:TenderEnvelopeTypeCode>
-			<cac:ProcurementProjectLot>
-				<!--BT-13714-->
-				<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
-				<cac:ProcurementProject>
-					<ext:UBLExtensions>
-						<ext:UBLExtension>
-							<ext:ExtensionContent>
-								<efext:EformsExtension>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles</efbc:StatisticsCode>
-										<!--BT-715-->
-										<efbc:StatisticalNumeric>45</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles-zero-emission</efbc:StatisticsCode>
-										<!--BT-725-->
-										<efbc:StatisticalNumeric>2</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles-clean</efbc:StatisticsCode>
-										<!--BT-716-->
-										<efbc:StatisticalNumeric>10</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-								</efext:EformsExtension>
-							</ext:ExtensionContent>
-						</ext:UBLExtension>
-					</ext:UBLExtensions>
-				</cac:ProcurementProject>
-			</cac:ProcurementProjectLot>
-			<cac:ProcurementProjectLot>
-				<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
-				<cac:TenderingProcess>
-					<cac:ProcessJustification>
-						<!--BT-136-->
-						<cbc:ProcessReasonCode listName="direct-award-justification">artistic</cbc:ProcessReasonCode>
-						<!--BT-135-->
-						<cbc:ProcessReason languageID="ENG">Direct Award Justification ---</cbc:ProcessReason>
-						<!--BT-1252-->
-						<cbc:Description>12345678</cbc:Description>
-					</cac:ProcessJustification>
-					<cac:FrameworkAgreement>
-						<!--BT-660-->
-						<cbc:EstimatedMaximumValueAmount currencyID="EUR">9999999.99</cbc:EstimatedMaximumValueAmount>
-						<!--BT-709-->
-						<cbc:MaximumValueAmount currencyID="EUR">9999999.99</cbc:MaximumValueAmount>
-					</cac:FrameworkAgreement>
-				</cac:TenderingProcess>
-				<cac:ProcurementProject>
-					<ext:UBLExtensions>
-						<ext:UBLExtension>
-							<ext:ExtensionContent>
-								<efext:EformsExtension>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles</efbc:StatisticsCode>
-										<!--BT-715-->
-										<efbc:StatisticalNumeric>45</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles-zero-emission</efbc:StatisticsCode>
-										<!--BT-725-->
-										<efbc:StatisticalNumeric>2</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-									<efac:StrategicProjectsStatistics>
-										<efbc:StatisticsCode listName="green-procurement">vehicles-clean</efbc:StatisticsCode>
-										<!--BT-716-->
-										<efbc:StatisticalNumeric>10</efbc:StatisticalNumeric>
-									</efac:StrategicProjectsStatistics>
-								</efext:EformsExtension>
-							</ext:ExtensionContent>
-						</ext:UBLExtension>
-					</ext:UBLExtensions>
-				</cac:ProcurementProject>
-			</cac:ProcurementProjectLot>
-			<!-- BT-720-->
-			<cac:LegalMonetaryTotal>
-				<cbc:PayableAmount currencyID="EUR">9999999.99</cbc:PayableAmount>
-			</cac:LegalMonetaryTotal>
-		</cac:AwardedTenderedProject>
-		<cac:SubcontractTerms>
-			<!--BT-555-->
-			<cbc:Rate>0.30</cbc:Rate>
-			<!--BT-554-->
-			<cbc:Description languageID="ENG">Subcontracting Description ---</cbc:Description>
-			<!--BT-553-->
-			<cbc:Amount currencyID="EUR">9999999.99</cbc:Amount>
-			<!--BT-773-->
-			<cbc:SubcontractingConditionsCode listName="applicability">yes</cbc:SubcontractingConditionsCode>
-			<!--BT-731 ???-->
-		</cac:SubcontractTerms>
-		<cac:WinningParty>
-			<!--BT-171-->
-			<cbc:Rank>3</cbc:Rank>
-			<cac:Party>
-				<!--BT-505-->
-				<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-				<!--BT-509-->
-				<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-				<!--BT-165-->
-				<cbc:IndustryClassificationCode listName="economic-operator-size">non-sme</cbc:IndustryClassificationCode>
-				<cac:PartyName>
-					<!--BT-500-->
-					<cbc:Name>Winner Name</cbc:Name>
-				</cac:PartyName>
-				<cac:PostalAddress>
-					<!--BT-510-->
-					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-					<!--BT-16-->
-					<cbc:Department>Finance</cbc:Department>
-					<!--BT-513-->
-					<cbc:CityName>London</cbc:CityName>
-					<!--BT-512-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<!--BT-507-->
-					<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-					<cac:Country>
-						<!--BT-514-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<!--BT-501-->
-					<cbc:CompanyID schemeID="002">winner-ID-111</cbc:CompanyID>
-					<cac:ShareholderParty>
-						<cac:Party>
-							<cac:Person>
-								<!--BT-706-->
-								<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
-							</cac:Person>
-						</cac:Party>
-					</cac:ShareholderParty>
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<!--BT-502-->
-					<cbc:Name>Info desk</cbc:Name>
-					<!--BT-503-->
-					<cbc:Telephone>+44 123456780</cbc:Telephone>
-					<!--BT-739-->
-					<cbc:Telefax>+44 123456789</cbc:Telefax>
-					<!--BT-506-->
-					<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-				</cac:Contact>
-				<cac:AgentParty>
-					<!--BT-505-->
-					<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-					<!--BT-509-->
-					<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-					<!--BT-165-->
-					<cbc:IndustryClassificationCode listName="economic-operator-size">micro</cbc:IndustryClassificationCode>
-					<cac:PartyName>
-						<!--BT-500-->
-						<cbc:Name>Group Leader Name</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<!--BT-510-->
-						<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-						<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-						<!--BT-16-->
-						<cbc:Department>Finance</cbc:Department>
-						<!--BT-513-->
-						<cbc:CityName>London</cbc:CityName>
-						<!--BT-512-->
-						<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-						<!--BT-507-->
-						<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-						<cac:Country>
-							<!--BT-514-->
-							<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<!--BT-501-->
-						<cbc:CompanyID schemeID="002">group-leader-ID-001</cbc:CompanyID>
-						<cac:ShareholderParty>
-							<cac:Party>
-								<cac:Person>
-									<!--BT-706-->
-									<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
-								</cac:Person>
-							</cac:Party>
-						</cac:ShareholderParty>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<!--BT-502-->
-						<cbc:Name>Info desk</cbc:Name>
-						<!--BT-503-->
-						<cbc:Telephone>+44 123456780</cbc:Telephone>
-						<!--BT-739-->
-						<cbc:Telefax>+44 123456789</cbc:Telefax>
-						<!--BT-506-->
-						<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-					</cac:Contact>
-				</cac:AgentParty>
-				<cac:ServiceProviderParty>
-					<cbc:ServiceTypeCode listName="organisation-subrole">subcontractor</cbc:ServiceTypeCode>
-					<cac:Party>
-						<!--BT-505-->
-						<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
-						<!--BT-509-->
-						<cbc:EndpointID>https://endpoint.example.com</cbc:EndpointID>
-						<!--BT-165-->
-						<cbc:IndustryClassificationCode listName="economic-operator-size">medium</cbc:IndustryClassificationCode>
-						<cac:PartyName>
-							<!--BT-500-->
-							<cbc:Name>Subcontractor Name</cbc:Name>
-						</cac:PartyName>
-						<cac:PostalAddress>
-							<!--BT-510-->
-							<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
-							<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
-							<!--BT-16-->
-							<cbc:Department>Finance</cbc:Department>
-							<!--BT-513-->
-							<cbc:CityName>London</cbc:CityName>
-							<!--BT-512-->
-							<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-							<!--BT-507-->
-							<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
-							<cac:Country>
-								<!--BT-514-->
-								<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-							</cac:Country>
-						</cac:PostalAddress>
-						<cac:PartyLegalEntity>
-							<!--BT-501-->
-							<cbc:CompanyID schemeID="002">subcontractor-ID-001</cbc:CompanyID>
-							<cac:ShareholderParty>
-								<cac:Party>
-									<cac:Person>
-										<!--BT-706-->
-										<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
-									</cac:Person>
-								</cac:Party>
-							</cac:ShareholderParty>
-						</cac:PartyLegalEntity>
-						<cac:Contact>
-							<!--BT-502-->
-							<cbc:Name>Info desk</cbc:Name>
-							<!--BT-503-->
-							<cbc:Telephone>+44 123456780</cbc:Telephone>
-							<!--BT-739-->
-							<cbc:Telefax>+44 123456789</cbc:Telefax>
-							<!--BT-506-->
-							<cbc:ElectronicMail>info@example.com</cbc:ElectronicMail>
-						</cac:Contact>
-					</cac:Party>
-				</cac:ServiceProviderParty>
-			</cac:Party>
-		</cac:WinningParty>
 	</cac:TenderResult>
 </ContractAwardNotice>

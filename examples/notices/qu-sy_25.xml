@@ -2,10 +2,121 @@
 <!-- Based on https://ted.europa.eu/udl?uri=TED:NOTICE:165297-2020:TEXT:EN:HTML
 -->
 <PriorInformationNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode>15</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<cbc:WebsiteURI>http://www.acquebresciane.it</cbc:WebsiteURI>
+								<cbc:EndpointID>https://acquebresciane.acquistitelematici.it/</cbc:EndpointID>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ITA">Acque Bresciane srl</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>via XXV Aprile 18</cbc:StreetName>
+									<cbc:Department>Acquisti e appalti</cbc:Department>
+									<cbc:CityName>Rovato</cbc:CityName>
+									<cbc:PostalZone>25038</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>SQASF2020</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Name>Franca Filini</cbc:Name>
+									<cbc:Telephone>+39 03077141</cbc:Telephone>
+									<cbc:Telefax>+39 0307714529</cbc:Telefax>
+									<cbc:ElectronicMail>acquistiegare@acquebresciane.it</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+							<efac:TouchPoint>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ITA">Responsabile del Procedimento</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>via XXV Aprile 18</cbc:StreetName>
+									<cbc:CityName>Rovato</cbc:CityName>
+									<cbc:PostalZone>25038</cbc:PostalZone>
+									<cac:Country>
+										<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:Contact>
+									<cbc:Telephone>+39 03077199</cbc:Telephone>
+									<cbc:ElectronicMail>contact@acquebresciane.it</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:TouchPoint>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ITA">TAR per la Lombardia — sez. di Brescia</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Brescia</cbc:CityName>
+									<cbc:PostalZone>25121</cbc:PostalZone>
+									<cac:Country>
+										<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>Tribunale Amministrativo Regionale</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>(+12)34567890</cbc:Telephone>
+									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				</efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.1</cbc:CustomizationID>
-	<cbc:ID>2020/S 069-165297</cbc:ID>
-	<cbc:ContractFolderID>ProcedureID1234</cbc:ContractFolderID>
+	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:ID>8439f5f1-ad52-46a0-b363-533779a02e4b</cbc:ID>
+	<cbc:ContractFolderID>0bc9e721-7916-4b3d-bbd0-2350efc3f00e</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-03+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:30:00+01:00</cbc:IssueTime>
 	<cbc:VersionID>1</cbc:VersionID>
@@ -21,39 +132,15 @@
 			<cbc:ActivityTypeCode listName="entity-activity">water</cbc:ActivityTypeCode>
 		</cac:ContractingActivity>
 		<cac:Party>
-			<cbc:WebsiteURI>http://www.acquebresciane.it</cbc:WebsiteURI>
-			<cbc:EndpointID>https://acquebresciane.acquistitelematici.it/</cbc:EndpointID>
-			<cac:PartyName>
-				<cbc:Name>Acque Bresciane srl</cbc:Name>
-			</cac:PartyName>
-			<cac:PostalAddress>
-				<cbc:StreetName>via XXV Aprile 18</cbc:StreetName>
-				<cbc:Department>Acquisti e appalti</cbc:Department>
-				<cbc:CityName>Rovato</cbc:CityName>
-				<cbc:PostalZone>25038</cbc:PostalZone>
-				<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
-				<cac:Country>
-					<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
-				</cac:Country>
-			</cac:PostalAddress>
-			<cac:PartyLegalEntity>
-				<cbc:CompanyID>SQASF2020</cbc:CompanyID>
-			</cac:PartyLegalEntity>
-			<cac:Contact>
-				<cbc:Name>Franca Filini</cbc:Name>
-				<cbc:Telephone>+39 03077141</cbc:Telephone>
-				<cbc:Telefax>+39 0307714529</cbc:Telefax>
-				<cbc:ElectronicMail>acquistiegare@acquebresciane.it</cbc:ElectronicMail>
-			</cac:Contact>
+			<cac:PartyIdentification>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
 				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
 				<cac:Party>
-					<cac:PartyName>
-						<cbc:Name>eSendCorp</cbc:Name>
-					</cac:PartyName>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-					</cac:PartyLegalEntity>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:Party>
 			</cac:ServiceProviderParty>
 		</cac:Party>
@@ -79,7 +166,7 @@
 		</cac:PlannedPeriod>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
-		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
 			<ext:UBLExtensions>
 				<ext:UBLExtension>
@@ -112,62 +199,19 @@
 			</cac:AwardingTerms>
 			<cac:AppealTerms>
 				<cac:AppealInformationParty>
-					<cac:PartyName>
-						<cbc:Name languageID="ITA">Responsabile del Procedimento</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:StreetName>via XXV Aprile 18</cbc:StreetName>
-						<cbc:CityName>Rovato</cbc:CityName>
-						<cbc:PostalZone>25038</cbc:PostalZone>
-						<cac:Country>
-							<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
-					<cac:PartyName>
-						<cbc:Name languageID="ITA">TAR per la Lombardia — sez. di Brescia</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:CityName>Brescia</cbc:CityName>
-						<cbc:PostalZone>25121</cbc:PostalZone>
-						<cac:Country>
-							<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID>Tribunale Amministrativo Regionale</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone>(+12)34567890</cbc:Telephone>
-						<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>
-					<cac:PartyName>
-						<cbc:Name languageID="ITA">Responsabile del Procedimento</cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:StreetName>via XXV Aprile 18</cbc:StreetName>
-						<cbc:CityName>Rovato</cbc:CityName>
-						<cbc:PostalZone>25038</cbc:PostalZone>
-						<cac:Country>
-							<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone>(+12)34567890</cbc:Telephone>
-						<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:MediationParty>
 			</cac:AppealTerms>
 			<cac:Language>

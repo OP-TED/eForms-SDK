@@ -41,14 +41,21 @@
    <svrl:ns-prefix-in-attribute-values prefix="pin"
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
    <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
+   <svrl:fired-rule context="/"/>
    <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text()='pin-buyer']"/>
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
-   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
-   <svrl:fired-rule context="/*[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
    <svrl:failed-assert location="/PriorInformationNotice"
                        role="error"
                        test="count(cbc:IssueTime) &gt; 0">
@@ -79,7 +86,40 @@
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="error"
+                       test="count(cac:PartyName/cbc:Name) &gt; 0">
+      <svrl:text>The BT-500 Name is mandatory at Organization level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="error"
+                       test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
+      <svrl:text>The BT-501 Identifier is mandatory at Organization level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="error"
+                       test="count(cac:Contact/cbc:Telephone) &gt; 0">
+      <svrl:text>The BT-503 Contact Telephone Number is mandatory at Organization level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="error"
+                       test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
+      <svrl:text>The BT-506 Contact Email Address is mandatory at Organization level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="error"
+                       test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
+      <svrl:text>The BT-513 City is mandatory at Organization level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="error"
+                       test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
+      <svrl:text>The BT-514 Country Code is mandatory at Organization level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty"
                        role="error"
                        test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0">
@@ -95,54 +135,24 @@
                        test="count(cbc:BuyerProfileURI) &gt; 0">
       <svrl:text>The BT-508 Buyer Profile URI is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
                        role="error"
-                       test="count(cac:PartyName/cbc:Name) &gt; 0">
-      <svrl:text>The BT-500 Name is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
-                       role="error"
-                       test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
-      <svrl:text>The BT-501 Identifier is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
-                       role="error"
-                       test="count(cac:Contact/cbc:Telephone) &gt; 0">
-      <svrl:text>The BT-503 Contact Telephone Number is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
-                       role="error"
-                       test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
-      <svrl:text>The BT-506 Contact Email Address is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
-                       role="error"
-                       test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
-      <svrl:text>The BT-513 City is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
-                       role="error"
-                       test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
-      <svrl:text>The BT-514 Country Code is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
-                       role="error"
-                       test="count(cac:Party/cac:PartyName/cbc:Name) &gt; 0">
-      <svrl:text>The BT-500 Name is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
-                       role="error"
-                       test="count(cac:Party/cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
-      <svrl:text>The BT-501 Identifier is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
                        role="error"
                        test="count(cbc:ServiceTypeCode) &gt; 0">
       <svrl:text>The OPT-030 Provided Service Type is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/cbc:NoticeTypeCode/text() = 'pin-buyer'][/*/cbc:RegulatoryDomain/text() = '32014L0024']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
+                       role="error"
+                       test="count(cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>The OPT-300 Service Provider Technical Identifier Reference is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '1']"/>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProject"
                        role="error"
                        test="count(cbc:Name) &gt; 0">
@@ -155,15 +165,13 @@
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
    <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
-   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>

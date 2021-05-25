@@ -2,10 +2,80 @@
 <!-- Invalid contract award notice, with just the elements to pass stage 1 and 2 of the validation.
 -->
 <ContractAwardNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeResult>
+						<efac:LotResult>
+							<cbc:TenderResultCode listName="winner-selection-status"></cbc:TenderResultCode>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type"></efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+							</efac:TenderLot>
+						</efac:LotResult>
+						<efac:LotTender>
+							<cbc:ID></cbc:ID>
+							<efac:SubcontractingTerm>
+								<efbc:TermCode></efbc:TermCode>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID></cbc:ID>
+							</efac:TenderingParty>
+						</efac:LotTender>
+						<efac:SettledContract>
+							<cbc:ID></cbc:ID>
+							<efac:LotTender>
+								<cbc:ID></cbc:ID>
+							</efac:LotTender>
+						</efac:SettledContract>
+						<efac:TenderingParty>
+							<cbc:ID></cbc:ID>
+							<efac:Tenderer>
+								<cbc:ID></cbc:ID>
+							</efac:Tenderer>
+						</efac:TenderingParty>
+					</efac:NoticeResult>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode>29</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efac:Company>
+								<efbc:CompanySizeCode></efbc:CompanySizeCode>
+								<cac:PartyIdentification>
+									<cbc:ID></cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="ENG"></cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:CityName></cbc:CityName>
+									<cac:Country>
+										<cbc:IdentificationCode></cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID></cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone></cbc:Telephone>
+									<cbc:ElectronicMail></cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					</efac:Organizations>
+				</efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.1</cbc:CustomizationID>
-	<cbc:ID>123465</cbc:ID>
-	<cbc:ContractFolderID>99999900</cbc:ContractFolderID>
+	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:ID></cbc:ID>
+	<cbc:ContractFolderID></cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
 	<cbc:VersionID>1</cbc:VersionID>
@@ -20,31 +90,15 @@
 			<cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
 		</cac:ContractingActivity>
 		<cac:Party>
-			<cac:PartyName>
-				<cbc:Name></cbc:Name>
-			</cac:PartyName>
-			<cac:PostalAddress>
-				<cbc:CityName></cbc:CityName>
-				<cac:Country>
-					<cbc:IdentificationCode></cbc:IdentificationCode>
-				</cac:Country>
-			</cac:PostalAddress>
-			<cac:PartyLegalEntity>
-				<cbc:CompanyID></cbc:CompanyID>
-			</cac:PartyLegalEntity>
-			<cac:Contact>
-				<cbc:Telephone></cbc:Telephone>
-				<cbc:ElectronicMail></cbc:ElectronicMail>
-			</cac:Contact>
+			<cac:PartyIdentification>
+				<cbc:ID></cbc:ID>
+			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
 				<cbc:ServiceTypeCode></cbc:ServiceTypeCode>
 				<cac:Party>
-					<cac:PartyName>
-						<cbc:Name></cbc:Name>
-					</cac:PartyName>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID></cbc:CompanyID>
-					</cac:PartyLegalEntity>
+					<cac:PartyIdentification>
+						<cbc:ID></cbc:ID>
+					</cac:PartyIdentification>
 				</cac:Party>
 			</cac:ServiceProviderParty>
 		</cac:Party>
@@ -70,56 +124,18 @@
 			</cac:AwardingTerms>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
-					<cac:PartyName>
-						<cbc:Name></cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:CityName></cbc:CityName>
-						<cac:Country>
-							<cbc:IdentificationCode></cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID></cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone></cbc:Telephone>
-						<cbc:ElectronicMail></cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID></cbc:ID>
+					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>
-					<cac:PartyName>
-						<cbc:Name></cbc:Name>
-					</cac:PartyName>
-					<cac:PostalAddress>
-						<cbc:CityName></cbc:CityName>
-						<cac:Country>
-							<cbc:IdentificationCode></cbc:IdentificationCode>
-						</cac:Country>
-					</cac:PostalAddress>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID></cbc:CompanyID>
-					</cac:PartyLegalEntity>
-					<cac:Contact>
-						<cbc:Telephone></cbc:Telephone>
-						<cbc:ElectronicMail></cbc:ElectronicMail>
-					</cac:Contact>
+					<cac:PartyIdentification>
+						<cbc:ID></cbc:ID>
+					</cac:PartyIdentification>
 				</cac:MediationParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:ReceivedSubmissionsStatistics>
-								<efbc:StatisticsCode listName="received-submission-type"></efbc:StatisticsCode>
-								<efbc:StatisticalNumeric>0</efbc:StatisticalNumeric>
-							</efac:ReceivedSubmissionsStatistics>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
@@ -137,7 +153,6 @@
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
-		<cbc:TenderResultCode listName="winner-selection-status"></cbc:TenderResultCode>
 		<cbc:AwardDate>0001-01-01</cbc:AwardDate>
 		<cac:AwardedTenderedProject>
 			<cbc:VariantID></cbc:VariantID>
