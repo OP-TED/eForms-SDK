@@ -80,7 +80,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+123 456 789</cbc:Telephone>
-									<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
+									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
@@ -136,7 +136,7 @@
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
 	<cbc:ID>71397268-6c47-4f2f-8ab0-f41a26138f81</cbc:ID>
-	<cbc:ContractFolderID>3bc82337-b5e3-4f72-845f-94541f9f5210</cbc:ContractFolderID>
+	<cbc:ContractFolderID>31f258b6-5eb2-4875-8997-affa3cdce27c</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-17+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:34:56+01:00</cbc:IssueTime>
 	<cbc:VersionID>1</cbc:VersionID>
