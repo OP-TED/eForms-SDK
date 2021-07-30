@@ -1,0 +1,522 @@
+:xrefstyle: short
+
+[[identifiersAndReferencesSection]]
+= Identifiers and References
+
+In the sections below, the different identifiers are listed.
+
+[[identifiersSection]]
+== Identifiers
+
+[[identifiersTable]]
+.Identifiers
+[width="100%",cols="<.^10%,<.^20%,<.^40%,<.^10%,<.^20%",options="header",]
+|===
+^|*Field* ^|*Name of the field* ^|*Description* ^|*schemeName* ^|*ID format*
+|BT-01 |Procedure Legal Basis (ELI - celex) | a|
+ELI,
+
+celex
+
+|Pattern matching / codes
+
+|BT-04 |Procedure Identifier |Generated & assigned by OP/eSender |NA
+|UUID v4
+
+|BT-09 |Cross Border Law | |NA |CrossBoderLaw
+
+|BT-137 |Purpose Lot Identifier |Encoded by the Contracting Authority in
+accordance with the prescribed format. a|
+Lot
+
+Part
+
+LotsGroup
+
+|- LOT-XXXX,  +
+- PAR-XXXX,  +
+- GLO-XXXX
+
+|BT-150 |Contract Identifier |Defined and encoded by the Contracting
+Authority. Should be unique between all Contract Identifiers of the
+procedure |contract |CON-XXXX
+
+|BT-22 |Internal Identifier |CAs define it. No restriction besides
+string length. |NA |100 characters max.
+
+|BT-3201 |Tender Identifier |Defined and encoded by the Contracting
+Authority. Should be unique between all Tender Identifiers of the
+procedure |tender |TEN-XXXX
+
+|BT-501 |Organisation Identifier |Discussions ongoing. It will be
+encoded by the Contracting Authority | |No restriction yet
+
+|BT-5011 |Contract EU Funds Identifier |Values defined in a codelist of
+EU funding programs | |(cf.
+https://op.europa.eu/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eu-programme[eu-programme])
+
+|BT-701 |Notice Identifier |Generated & assigned by OP/eSender |NA |UUID
+v4
+
+|BT-757 |Notice Version |01 for initial version, assigned by the User
+Interface, any new version should have a higher version number than any
+previous one. |NA |2 digits.
+
+|OPP-010 |Notice Publication ID |Information added by OP prior to
+publication |ojs-notice-id |XXXXXXXXXX-YYYY
+
+|OPP-011 |OJEU Identifier |Information added by OP prior to publication
+|ojs-id |XXX/YYYY
+
+|OPT-001 |UBL version ID (UBL) |Currently based on version 2.3 of the
+standard. |NA |2.3
+
+|OPT-002 |Customization ID (UBL) |Customization ID based on the SDK
+versioning |NA |eforms-sdk-x.y
+
+|OPT-111 |Fiscal Legislation Document ID |Technical ID required by the
+standard | |No restriction
+
+|OPT-112 |Environmental Legislation Document ID |Technical ID required
+by the standard | |No restriction
+
+|OPT-113 |Employment Legislation Document ID |Technical ID required by
+the standard | |No restriction
+
+|OPT-140 |Procurement Documents ID |Technical ID required by the
+standard | |No restriction
+
+|OPT-200 |Company Technical Identifier |Identifier used in the notice to
+refer to the Organization |organization |ORG-XXXX
+
+|OPT-201 |TouchPoint Technical Identifier |Identifier used in the notice
+to refer to the alternate contact details associated to a specific
+role/subrole |touchpoint |TPO-XXXX
+
+|OPT-202 |Beneficial Owner Technical Identifier |Identifier used in the
+notice to refer to the Ultimate Beneficial Owner |ubo |UBO-XXXX
+
+|OPT-210 |Tendering Party ID |Technical ID allowing reference from the
+LotResult (or from the the LotTender) to the Tendering Party with its
+composition (Tenderers and sucontractors). |Tendering-party |TPA-XXXX
+|===
+
+[[IDsReferencesSection]]
+== IDs &amp; References
+
+=== Referring to objects
+
+[[referencesTable]]
+.References
+[width="100%",cols="<.^10%,<.^20%,<.^40%,<.^10%,<.^20%",options="header",]
+|===
+^|*Field* ^|*Name of the field* ^|*Defined by* ^|*schemeName* ^|*ID format*
+.2+|BT-125 .2+|Previous Planning Identifier |A combination of the Notice 
+Identifier (BT-701) and the Notice Version (BT-757) of the previous
+planning notice |notice-id-ref |UUID-XX
+
+|Publication ID of the previous planning notice |ojs-notice-id
+|XXXXXXXX-YYYY
+
+|BT-1251 |Previous Planning Part Identifier |Purpose Lot Identifier of
+the previous planning notice Part | |PAR-XXXX
+
+|BT-1252 |Direct Award Justification Previous Procedure Identifier
+|Procedure Identifier (BT-04) | |UUID v4
+
+|BT-13713 |Result Lot Identifier |Points to the Lot (BT-137, LOT-XXXX)
+the result is about |Lot |LOT-XXXX
+
+|BT-13714 |Tender Lot Identifier |Reference to the Lot or Group of lots
+the LotTender applies to. a|
+Lot,
+
+LotsGroup
+
+a|
+LOT-XXXX,
+
+GLO-XXXX
+
+|BT-13716 |Change Previous Notice Section Identifier |NB: points to the
+section of the current notice | a|
+For eForms notices:
+
+Cf. <<sectionsIDsTable>>
+
+|BT-1375 |Group Lot Identifier |Reference to individual lots that
+constitute a Group of lot |Lot |LOT-XXXX
+
+.2+|BT-1501(n) .2+|Modification Previous Notice Section Identifier |Reference
+to the CAN (eforms notice only) that announced the contract now subject
+to modification, using a combination of the Notice Identifier (BT-701) 
+and the Notice Version (BT-757) |notice-id-ref a|UUID-vv
+
+|Reference to the CAN (eforms or TEDXML) that announced the contract
+now subject to modification, using the Publication Number |ojs-notice-id 
+|XXXXXXXXXX-YYYY
+
+|BT-1501(s) |Modification Previous Notice Section Identifier a|
+NB: points to the section of the current notice
+
+A single contract modification per notice
+
+| |RESULT
+
+|BT-195 |Unpublished Identifier |Values defined in a codelist of
+Unpublished Business Terms Codes | |Cf. <<withheldPublicationOfInformationSection>>.
+
+|BT-3202 |Contract Tender Identifier |Points to one of the existing
+(Lot-) Tenders (BT-3201) |tender |TEN-XXXX
+
+|BT-330 |Group Identifier |Points to a defined Group of lots (BT-137,
+GLO-XXXX) |LotsGroup |GLO-XXXX
+
+|BT-556 |Group Framework Value Lot Identifier |Reference to the Group of
+lots the Framework applies to. |LotsGroup |GLO-XXXX
+
+.2+|BT-758 .2+|Change Notice Version Identifier |eForms notices only
+|notice-id-ref |UUID-vv
+
+|Publication ID of the notice to be amended. eForms or TEDXML
+notices. |ojs-notice-id |XXXXXXXX-YYYY
+
+.2+a|
+OPT-100
+
+.2+a|
+Framework Notice Identifier
+
+|A combination of the Notice Identifier (BT-701) and the Notice Version 
+(BT-757) of the notice that announced the Framework Agreement
+(eForms notices only) |notice-id-ref |UUID-vv
+
+|Publication ID of the notice that announced the Framework
+Agreement (eForms or TEDXML notices). |ojs-notice-id |XXXXXXXX-YYYY
+
+|OPT-300 |Buyer Technical Identifier Reference |Points to the
+Organization acting as a Buyer |organization |ORG-XXXX
+
+|OPT-300 |Service Provider Technical Identifier Reference |Points to the
+Organization acting as a Service Provider |organization |ORG-XXXX
+
+|OPT-300 |Signatory Identifier Reference |Points to the Organization who
+signed the contract |organization |ORG-XXXX
+
+|OPT-300 |Tenderer ID Reference |Points to an Organization tendering
+alone, or jointly as part of a consortium or equivalent arrangement.
+|organization |ORG-XXXX
+
+|OPT-301 |Additional Info Provider Technical Identifier Reference
+|Points to the Organization, or its alternate contact details, from
+where additional information about the procurement procedure may be
+obtained. a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Document Provider Technical Identifier Reference |Points to
+the Organization, or its alternate address, from where documents may be
+consulted offline. a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Employment Legislation Organization Technical Identifier
+Reference |Points to the Organization, or its alternate contact details,
+from where additional information about the employment legislation may
+be obtained. a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Environmental Legislation Organization Technical Identifier
+Reference |Points to the Organization, or its alternate contact details,
+from where additional information about the environmental legislation
+may be obtained. a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Fiscal Legislation Organization Technical Identifier Reference
+|Points to the Organization, or its alternate contact details, from
+where additional information about the fiscal legislation may be
+obtained. a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Financing Party (ID reference) |Points to the Organization
+whose Budget is used to pay the contract |organization |ORG-XXXX
+
+|OPT-301 |Main Contractor ID Reference |For a given Sub-contractor,
+points to the tenderer of the same tendering Party to which it is
+providing services |organization |ORG-XXXX
+
+|OPT-301 |Mediator Technical Identifier Reference |Points to the
+organization, or one of its alternate contact details, dealing with
+mediation. a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Payer Party (ID reference) |Points to the organization
+executing the payments |organization |ORG-XXXX
+
+|OPT-301 |Review Info Provider Technical Identifier Reference |Points to
+the Organization, or one of its alternate contact details, where more
+information on the time limits for review procedures may be obtained. a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Review Organization Technical Identifier Reference |Points to
+the Organization, or one of its alternate contact details, dealing with
+reviews. a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Subcontractor ID Reference |Points to the sub-contractor of a
+Tendering Party |organization |ORG-XXXX
+
+|OPT-301 |Tender Evaluator Technical Identifier Reference |Points to the
+Organization, or one of its alternate contact details, processing
+tenders or requests to participate a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-301 |Tender Recipient Technical Identifier Reference |Points to the
+Organization, or one of its alternate contact details, receiving tenders
+or requests to participate a|
+organization,
+
+touchpoint
+
+a|
+ORG-XXXX,
+
+TPO-XXXX
+
+|OPT-302 |Beneficial Owner Reference |For an economic operator acting as
+a tenderer or subcontractor, points to the Ultimate Beneficial Owner.
+|ubo |UBO-XXXX
+
+|OPT-310 |Tendering Party ID Reference |From a LotResult or from a
+LotTender, points to the associated TenderingParty |tendering-party
+|TPA-XXXX
+
+|OPT-315 |Contract Identifier Reference |From a LotResult, points to a
+contract |contract |CON-XXXX
+
+|OPT-320 |Tender Identifier Reference |From a Contract points to a
+related tender and from a LotResult to a tender that applies to the lot
+(or a group of lots containing it) |tender |TEN-XXXX
+|===
+
+=== Referring to sections of a notice
+
+When creating a change, an author has to identify the notice sections
+involved. The section references will be extracted from the Change
+notice itself (i.e. the technical identifiers will exist and be known).
+The following table lists the usable identifiers available to refer to
+the different sections. Section for which the text is in grey italic
+can't be modified with a Change notice and there is therefore no code
+associated (_NA_).
+
+[[sectionsIDsTable]]
+.Sections IDs
+[width="100%",cols="34%,33%,33%",]
+|===
+|*ID* |*Object* |*Information*
+
+|*BUYER* |Buyers |
+
+|*PROCEDURE* |Procedure a|
+* Purpose
+
+* Place of performance
+
+* Value
+
+* General information
+
+* Procurement terms
+
+* Exclusion grounds
+
+|*PAR-XXXX* |N^th^ part a|
+* Purpose
+
+* Place of performance
+
+* Duration (planned period)
+
+* Value
+
+* General information
+
+* Procurement documents
+
+* Techniques
+
+* Organisations
+
+|*GLO-XXXX* |N^th^ Group of lots a|
+* Value
+
+* General information
+
+* Award criteria
+
+|*LOT-XXXX* |Lot N a|
+* Purpose
+
+* Place of performance
+
+* Duration (planned period)
+
+* Renewal
+
+* Value
+
+* General information
+
+* Strategic procurement
+
+* Accessibility criteria
+
+* Selection criteria
+
+* Award criteria
+
+* Procurement documents
+
+* Procurement terms
+
+* Techniques
+
+* Organisations
+
+|*RESULT* |Notice Result a|
+* Framework Group of Lots Frameworks values
+
+* Notice value
+
+|*RES-XXXX* |Result for Lot N a|
+* Winner(s)
+
+* Tenderer(s)
+
+* Statistical information
+
+|*_NA_* |_Contract modification_ |_A "change" on a "Contract
+Modification" will act on the other sections of the parent "Contract
+Modification" notice_
+
+|*ORG-XXXX* |Organizations a|* Any organization other than buyer
+
+|*_NA_* |_Changes_ |_A "change" on a "Change" will act on the other
+sections of the parent "Change" notice_
+
+|*_NA_* |_Notice information_ |_Notice metadata can not be modified
+with a "Change"._
+|===
+
+[[pointlessDueToDesignSection]]
+== Pointless due to design
+
+[[pointlessBTsDueToTechnicalDesignTable]]
+.Pointless BTs due to technical design
+[cols=",,",options="header",]
+|===
+|*Field* |*Name of the field* |*Explanation*
+|BT-557 |Group Framework Estimated Maximum Value Lot Identifier |BT-137
+
+|BT-1371 |Previous Planning Lot Identifier |BT-137
+
+|BT-1372 |Place Performance Lot Identifier |BT-137
+
+|BT-1373 |Duration Lot Identifier |BT-137
+
+|BT-1374 |Funds Lot Identifier |BT-137
+
+|BT-330 |Group Identifier |BT-137
+
+|BT-1375 |Group Lot Identifier |BT-137
+
+|BT-1376 |Second Stage Lot Identifier |BT-137
+
+|BT-1377 |Rewards Lot Identifier |BT-137
+
+|BT-1378 |Selection Lot Identifier |BT-137
+
+|BT-1379 |Requirements Lot Identifier |BT-137
+
+|BT-13717 |Terms Lot Identifier |BT-137
+
+|BT-13710 |Award Criteria Lot Identifier |BT-137
+
+|BT-13711 |Techniques Lot Identifier |BT-137
+
+|BT-13712 |Communication Lot Identifier |BT-137
+
+|BT-13718 |Documents Lot Identifier |BT-137
+
+|BT-13719 |Submission Lot Identifier |BT-137
+
+|BT-13720 |Organisation Notice Section Identifier |Links conveyed by UBL
+elements at dedicated places within the XML (cf. <<linkingRolesSubrolesToOrganizationsSection>>)
+
+|BT-13721 |Strategic Procurement Notice Section Identifier |BT-137
+
+|BT-13722 |Buyer Review Lot Identifier |BT-137
+
+|BT-13715 |Additional Information Lot Identifier |BT-137
+|===

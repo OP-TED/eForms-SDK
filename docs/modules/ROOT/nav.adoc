@@ -1,0 +1,71 @@
+:imagesdir: images
+
+// * <<index.adoc#, Welcome>>
+////
+* <<disclaimer.adoc#, Disclaimer>>
+* <<acronyms-and-abbreviations.adoc#, Acronyms & abbreviations>>
+* <<audience.adoc#, Audience>>
+* <<introduction.adoc#, Introduction>>
+* <<documents-forms-and-notices.adoc#, Documents, forms & notices>>
+* <<notice-content.adoc#, Notice content>>
+* <<elements.adoc#, Elements>>
+** <<schemas.adoc#, Schemas>>
+** <<notices-xml-structure.adoc#, Notices XML structure>>
+** <<notice-information.adoc#, Notice information>>
+** <<procedure-lot-part-information.adoc#, Procedure, Group of Lots, Lot & Part related information>>
+** <<competition-results.adoc#, Competition Results>>
+** <<parties.adoc#, Parties>>
+* <<change-notice.adoc#, Change notice>>
+* <<contract-modification-notice.adoc#, Contract Modification Notice>>
+* <<withheld-publication.adoc#, Withheld publication of information>>
+* <<codelists-and-fields.adoc#, Codelists and Fields>>
+* <<identifiers.adoc#, Identifiers>>
+* <<terms-and-definitions.adoc#, Terms & definitions>>
+* <<references.adoc#, References>>
+* <<other-resources.adoc#, Other Resources>>
+////
+* <<all-in-one.adoc#, eForms Schema Usage>>
+** <<all-in-one.adoc#disclaimerSection, Disclaimer>>
+** <<all-in-one.adoc#acronymsAbbreviationsSection, Acronyms & abbreviations>>
+** <<all-in-one.adoc#listOfFiguresSection, List of figures>>
+** <<all-in-one.adoc#listOfTablesSection, List of tables>>
+** <<all-in-one.adoc#audienceSection, Audience>>
+** <<all-in-one.adoc#introductionSection, Introduction>>
+*** <<all-in-one.adoc#objectiveAndScopeSection, Objective and scope>>
+*** <<all-in-one.adoc#theRegulationSection, The Regulation>>
+*** <<all-in-one.adoc#backgroundInformationSection, Background information>>
+*** <<all-in-one.adoc#aboutThisDocumentSection, About this document>>
+** <<all-in-one.adoc#documentsFormsNotices, Documents, forms & notices>>
+*** <<all-in-one.adoc#documentAndDocumentTypeSection, Document and Document Type>>
+*** <<all-in-one.adoc#formAndFormTypesSection, Form and Form Types>>
+*** <<all-in-one.adoc#noticeNoticeTypesAndSubtypesSection, Notice, Notice Types and Subtypes>>
+** <<all-in-one.adoc#noticeContentSection, Notice content>>
+*** <<all-in-one.adoc#noticesContentSection, Notices content>>
+*** <<all-in-one.adoc#theMajorComponentsSection, The major components>>
+** <<all-in-one.adoc#elementsSection, Elements>>
+*** <<all-in-one.adoc#schemasSection, Schemas>>
+*** <<all-in-one.adoc#noticesXmlStructureSection, Notices XML structure>>
+*** <<all-in-one.adoc#noticeInformationSection, Notice information>>
+*** <<all-in-one.adoc#procedureGroupOfLotsLotPartRelatedInformationSection, Procedure, Group of ots, Lot & Part related information>>
+*** <<all-in-one.adoc#competitionResultsSection, Competition Results>>
+*** <<all-in-one.adoc#partiesSection, Parties>>
+** <<all-in-one.adoc#changeNoticeSection, Change Notice>>
+*** <<all-in-one.adoc#changedNoticeSection, Changed Notice>>
+*** <<all-in-one.adoc#changeSection, Change>>
+*** <<all-in-one.adoc#changeReasonSection, Change Reason>>
+*** <<all-in-one.adoc#changesElementsSection, Changes elements>>
+*** <<all-in-one.adoc#sampleChangesSection, Sample changes>>
+** <<all-in-one.adoc#contractModificationNoticeSection, Contract Modification Notice>>
+** <<all-in-one.adoc#withheldPublicationOfInformationSection, Withheld publication of information>>
+*** <<all-in-one.adoc#allDirectivesSection, All directives>>
+*** <<all-in-one.adoc#sectoralDirectiveOnlySection, Sectoral directive only>>
+** <<all-in-one.adoc#codelistsAndFieldsSection, Codelists and Fields>>
+** <<all-in-one.adoc#identifiersAndReferencesSection, Identifiers>>
+*** <<all-in-one.adoc#identifiersSection, Identifiers>>
+*** <<all-in-one.adoc#IDsReferencesSection, References>>
+*** <<all-in-one.adoc#pointlessDueToDesignSection, Pointless due to design>>
+** <<all-in-one.adoc#termsDefinitionsSection, Terms & definitions>>
+** <<all-in-one.adoc#referencesSection, References>>
+** <<all-in-one.adoc#otherResourcesSection, Other resources>>
+
+* image:OP-Logo.png[width=75] 

@@ -1,0 +1,13 @@
+site:
+  title: eForms SDK // Documentation
+  start_page: eforms-docs::all-in-one.adoc
+content:
+  sources:
+  - url: ../
+    start_path: docs
+    branches: master
+ui:
+  bundle:
+    url: ./ui-bundle/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental-ui

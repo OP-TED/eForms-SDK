@@ -1,0 +1,171 @@
+:xrefstyle: short
+
+= Notice content
+
+For a given procurement procedure, the content of the successively
+published notices varies.
+
+[[noticesContentSection]]
+== Notices content
+
+<<noticeMajorComponentsFigure>> provides a schematic representation of a notice content. The
+different sections are presented in detail in section 4.
+
+
+[[noticeMajorComponentsFigure]]
+.Major components of a notice
+image::image007.png[image,width=576,height=354]
+
+_(*) The "Contract Award" section and "Direct award justification" only
+occur in CAN notices._
+
+[[theMajorComponentsSection]]
+== The major components
+
+=== The notice information
+
+The notice information covers information like:
+
+[cols="35%,65%"]
+|===
+h| Procedure Legal Basis |_To indicate the legal regime that
+applies to the procedure as a whole (e.g. "Directive 23" ...)._
+
+h| Notice Type |_To specify the type of notice (e.g. "PIN
+only")._
+
+h| Notice SubType |_To identify precisely the SubType of a
+Notice (e.g. any value from 1 to 40 for the eForms Regulation annex, E1
+to E5 for extended forms ...)_
+
+h| Form Type |_To indicate the Form Type (i.e. major "phase"
+before, or during, the procurement procedure)._
+
+h| Procedure Type |_To provide the type of procedure (e.g.
+"Competitive dialog" ...)._
+
+h| Dispatch Date |_The date and time (with time zone), the
+notice is sent to OP for publication. This information will be
+controlled by the Publications Office after receipt of the notice._
+
+h| Procedure Identifier |_For any notice Form Type (besides
+"Planning"), the Identifier of the procedure to which the notice
+belongs._
+
+h| Notice & Notice Version Identifiers |_Notice and notice
+version identifiers help differentiate notices along with their
+versions._
+
+h| Preferred Notice Publication Date |_Preferred date for
+publication that the contracting authority may specify to ensure respect
+of the existing restrictions between national and European publication
+dates._
+
+h| Notice Official Languages |_The official EU languages in
+which the whole notice is available_
+|===
+
+=== Buyer information
+
+The buyer information covers key Contracting Authority/Entity related
+information such as:
+
+[cols="35%,65%"]
+|===
+h| Identification of the buyer |_Covers official name, National
+ID, postal address, contact details, Website and Buyer profile._
+
+h| Joint initiative |_Whether a Joint Procurement and/or a
+Central Purchasing Body are involved._
+
+h| Means of communication |_Addresses (URL, e-mail, postal) to
+access procurement documents, request additional information, submit
+tenders or a Request for Participation._
+
+h| Type of CA / CE |_Whether the buyer is a Contracting Entity
+or a Contracting Authority and its type (e.g. "Regional or local
+agency/office")._
+
+h| Buyer's main activity |_The specific sector the contracting
+authority or entity is active in._
+|===
+
+=== Procurement object(s)
+
+For each object, this refers to the purpose of the procurement and its
+subcomponents, composed as follows:
+
+[cols="35%,65%"]
+|===
+h| Procurement scope |_Internal reference number, title, main CPV
+codes, main and additional nature (e.g. Works), a short description,
+estimated value and information about Lots._
+
+h| Lot/Part description |_Lot identifier, title, additional main CPV
+codes, place of performance, description, awarding criteria, estimated
+value, duration (also for FA & DPS), variants, options, EU funds and
+additional information._
+
+h| Foreseen CN publication date |_Only for PINs that are not
+calls for competition. Foreseen date of publication of the contract
+notice._
+|===
+
+=== Selection criteria
+
+[cols="35%,65%"]
+|===
+h| Conditions for participation |_Professional suitability,
+financial standing, technical ability, reserved contract information._
+
+h| Contract conditions |_Reserved to a particular profession,
+contract performance conditions, names and qualifications of assigned
+staff._
+|===
+
+=== Procedure
+
+[cols="35%,65%"]
+|===
+h| Description |_Procedure type, information on FA or DPS,
+eAuction, GPA coverage_
+
+h| Administrative information |_Reception time limits, tendering
+accepted languages, award procedure start date._
+|===
+
+=== Contract award
+
+Per contract for awarded and per Lot/Group of Lots for non-awarded
+
+[cols="35%,65%"]
+|===
+h| Non-award information |_Justification for not awarding, and
+statistics on tenders and tenderers._
+
+h| Contract award |_Contract conclusion date, statistics about
+tenders, tenderers, winner identification (name & address), Contract
+value, Subcontract information_
+|===
+
+=== Further information
+
+[cols="35%,65%"]
+|===
+h| Recurring information |_Whether the notice is a recurring
+one._
+
+h| Electronic workflows |_About the use of such workflows (e.g.
+for ordering, invoicing, payment) during contract execution._
+
+h| Additional information |_Any other additional information._
+
+h| Review procedures |_Review Body, Mediation Body, information
+& deadlines._
+
+h| Procedure justification |_Direct Award justification._
+
+h| Additional contacts |_Further contact details for: additional
+information, specifications & additional documents, submission of
+tenders/request for participation, delegating CA/CE._
+|===

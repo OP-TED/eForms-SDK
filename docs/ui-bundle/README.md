@@ -1,0 +1,1 @@
+The default Antora UI bundle has been added here for convenience to workaround EC proxy limitations. A custom UI bundle will be developed to replace this.
