@@ -3,7 +3,7 @@ name: eForms SDK documentation
 on:
   push:
     branches: 
-      - master
+      - main
 env:
   SITE_DIR: 'site'
 jobs:
