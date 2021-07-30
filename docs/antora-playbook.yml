@@ -5,7 +5,7 @@ content:
   sources:
   - url: ../
     start_path: docs
-    branches: master
+    branches: main
 ui:
   bundle:
     url: ./ui-bundle/ui-bundle.zip
