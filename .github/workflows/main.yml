@@ -48,3 +48,4 @@ jobs:
         FOLDER: "${{ env.SITE_DIR }}"
         BRANCH: 'gh-pages'
         COMMIT_MESSAGE: "[CI] Publish Documentation for ${{ github.sha }}"
+        
