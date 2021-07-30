@@ -3,7 +3,7 @@ site:
   start_page: eforms-docs::all-in-one.adoc
 content:
   sources:
-  - url: ../
+  - url: https://github.com/rousso/efsdk.git
     start_path: docs
     branches: main
 ui:
