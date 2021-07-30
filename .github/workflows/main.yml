@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v1.0.0
         with:
           name: site
-          path: "${{ github.workspace }}/build/${{ env.SITE_DIR }}"
+          path: "${{ github.workspace }}/docs/build/${{ env.SITE_DIR }}"
   deploy_site:
     runs-on: [ubuntu-latest]
     needs: [build_site]
