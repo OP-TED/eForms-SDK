@@ -8,7 +8,7 @@ This project is managed by the Publications Office of the European Union to enab
 
 This project aims to provide the necessary tools for being able to build valid eForms notices.
 It is composed of the following:
-- `schemas`: This folder contains a provisional release of the schemas. There are currently based on an interim version of Pre-Award UBL 2.3 document types and is therefore not yet ready for use.
+- `schemas`: This folder contains a provisional release of the schemas. There are based on Pre-Award document types of the [UBL 2.3 standard](https://docs.oasis-open.org/ubl/UBL-2.3.html).
 The adopted approach is to keep the whole set of UBL elements but only support the use of a subset. It provides the advantage of having the rules outside of the schema. Adding extra fields for which a UBL element already exists will not require the definition of a new schema.
 - `docs`: This folder contains documentation in English which provides explanations and snippets in addition to the schema.
 - `schematrons`: This folder contains Schematron rules which are used to check the validity of notices as per the eForms regulation. Any kind of rule or constraint is implemented in Schematron.
