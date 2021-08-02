@@ -1,0 +1,47 @@
+:xrefstyle: short
+
+= Contract Modification Notice
+
+A contract modification follows the same structure as a change, it
+however appears during contract execution and applies to a CAN only.
+
+[[modificationComponentsTable]]
+.Modification components
+[cols="<.^,<.^,^.^,<.^",]
+|===
+^|*eForms BT* ^|*Description* |*Cardin.* ^|*XSD element*
+
+|*Modification Previous Section Identifier (BT-1501)* |Identification of
+the modified sections |*+*
+a|
+[source,xpath]
+----
+efac:Change/efbc:ChangedSectionIdentifier
+---- 
+
+|*Modification Description (BT-202)* |Description of the modification
+|*1* a|
+[source,xpath]
+----
+efac:Change/efbc:ChangeDescription
+---- 
+
+|*Modification Reason Code (BT-200)* |Code to express the modification
+background reasons |*1* a|
+[source,xpath]
+----
+efac:ChangeReason/cbc:ReasonCode
+---- 
+
+|*Modification Reason Description (BT-201)* |Modification background
+reasons expressed as text |*1* a|
+[source,xpath]
+----
+efac:ChangeReason/efbc:ReasonDescription
+----
+
+|===
+
+The possible Modification reason code values are referenced in the
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/modification-justification[modification-justification]
+codelist.

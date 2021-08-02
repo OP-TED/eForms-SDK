@@ -1,0 +1,1167 @@
+:xrefstyle: short
+
+= Withheld publication of information
+
+Some information required by eForms may remain non-public
+("unpublished") for a defined periodfootnote:[as reminded in the "eForms Implementation Handbook" p. 27. Also see Dir 24 Art. 50(4), Dir 25 Art. 70(3),].
+This feature may be used for Result, Contract Modification and Contract
+Completion notices only.
+
+For some fields, the "unpublish" feature is available independently from
+the directive, while for some others, it is exclusively accessible for
+the sectoral directive (i.e. directive 25).
+
+The reason for keeping the information private shall be specified using
+a code from the codelist
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/non-publication-justification[non-publication-justification]
+and a description. The field whose information publication shall be
+withhold is identified using a code as specified in the following
+subsections.
+
+To activate the mechanism, four elements have to be used:
+
+* Unpublished Identifier (BT-195)
+
+* Unpublished Justification Code (BT-197)
+
+* Unpublished Justification Description (BT-196)
+
+* Unpublished Accessibility Date (BT-198)
+
+The information is encoded using dedicated elements:
+
+[source,xml]
+----
+<efac:FieldsPrivacy>
+    <efbc:FieldIdentifierCode listName="non-publication-identifier">not-val</efbc:FieldIdentifierCode>
+    <cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+    <efbc:ReasonDescription languageID="ENG">Information delayed publication because of ...</efbc:ReasonDescription>
+    <efbc:ReasonDescription languageID="FRA">Publication de l'information ajournée parce que ...</efbc:ReasonDescription>
+    <efbc:PublicationDate>2025-03-31</efbc:PublicationDate>
+</efac:FieldsPrivacy>
+----
+
+This should be indicated using the extension mechanism, under the direct
+parent of the element containing the information whose publication is
+delayed.
+
+"efac:FieldsPrivacy" is sibling to the field to be "unpublished"; it
+appears in an extension when the targeted field is not itself in an
+extension or shares directly the same parent as the field to
+"unpublish".
+
+:xrefstyle: short
+
+[[allDirectivesSection]]
+== All directives
+
+=== Notice Result level
+
+This covers the withhold publication of:
+
+* Notice Value (BT-161),
+
+* Notice Maximum Value (BT-118),
+
+* Group Maximum Value Lot Identifier (BT-556),
+
+* Group Maximum Value (BT-156).
+
+The codes to be used to identify the field and the location where the
+unpublish components are to be found are given in <<codesForUnpublishedFieldsAtNoticeResultLevelTable>>.
+
+:eFormsExt: /*/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}
+:NoticeResult: {eformsext}/efac:NoticeResult{zwsp}
+:LotResult: {NoticeResult}/efac:LotResult{zwsp}
+:LotTender: {NoticeResult}/efac:LotTender{zwsp}
+:LotAwardCriterion: /*/cac:ProcurementProjectLot{zwsp}[cbc:ID/@schemeName='Lot']{zwsp}/cac:TenderingTerms{zwsp}/cac:AwardingTerms{zwsp}/cac:AwardingCriterion{zwsp}
+:LotsGroupAwardCriterion: /*/cac:ProcurementProjectLot{zwsp}[cbc:ID/@schemeName='LotsGroup']{zwsp}/cac:TenderingTerms{zwsp}/cac:AwardingTerms{zwsp}/cac:AwardingCriterion{zwsp}
+:DirectAwardJustification: /*/cac:TenderingProcess{zwsp}/cac:ProcessJustification{zwsp}[cbc:ProcessReasonCode/@listName='direct-award-justification']{zwsp}/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}
+:FieldsPrivacy: ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:FieldsPrivacy{zwsp}
+:SubordinateAwardingCriterion: cac:SubordinateAwardingCriterion{zwsp}/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}
+
+[[codesForUnpublishedFieldsAtNoticeResultLevelTable]]
+.Codes for "unpublished" fields at NoticeResult level
+[cols="1h,2,3",options="header"]
+|===
+|*Code* |*What is to be covered* ^|*XPATH to "unpublish"
+components*
+|*not-val* |Notice Value (BT-161)
+a|
+[source,xpath,subs=attributes]
+----
+{noticeresult}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='not-val']
+----
+
+|*not-max-val* |Notice Maximum Value (BT-118)
+a|
+[source,xpath,subs=attributes]
+----
+{noticeresult}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='not-max-val']
+----
+
+|*gro-max-ide* |Group Maximum Value Lot Identifier (BT-556)
+a|
+[source,xpath,subs=attributes]
+----
+{noticeresult}/efac:GroupFramework{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='gro-max-ide']
+----
+
+|*gro-max-val* |Group Maximum Value (BT-156)
+a|
+[source,xpath,subs=attributes]
+----
+{noticeresult}/efac:GroupFramework{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='gro-max-val']
+----
+
+|===
+
+A mark-up sample is provided below to illustrate the use of the
+"unpublish" fields with their targeted information. Comments are used
+to highlight the relation between the "unpublish" and "unpublished"
+fields.
+
+[source,xml]
+----
+<ContractAwardNotice>
+    <!-- Interrupted mark-up -->
+    <ext:UBLExtension>
+        <ext:ExtensionContent>
+            <efext:EformsExtension>
+                <efac:NoticeResult>
+                    <efac:FieldsPrivacy>
+                        <!-- # UNPUB-01 : The Notice Value (BT-161) will not be published until March 2nd, 2022 -->
+                        <efbc:FieldIdentifierCode listName="non-publication-identifier">not-val</efbc:FieldIdentifierCode>
+                        <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+                        <efbc:ReasonDescription languageID="ENG">Because ...</efbc:ReasonDescription>
+                        <efbc:ReasonDescription languageID="FRA">Parce que ...</efbc:ReasonDescription>
+                        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                    </efac:FieldsPrivacy>
+                    <efac:FieldsPrivacy>
+                        <!-- # UNPUB-02 : The Notice Maximum Value (BT-118) will not be published until March 2nd, 2022 -->
+                        <efbc:FieldIdentifierCode listName="non-publication-identifier">not-max-val</efbc:FieldIdentifierCode>
+                        <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+                        <efbc:ReasonDescription languageID="ENG">...</efbc:ReasonDescription>
+                        <efbc:ReasonDescription languageID="FRA">...</efbc:ReasonDescription>
+                        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                    </efac:FieldsPrivacy>
+                    <!-- # UNPUB-01 : Notice Value (BT-161) publication will be delayed -->
+                    <cbc:TotalAmount currencyID="EUR">123456.00</cbc:TotalAmount>
+                    <!-- # UNPUB-02 : The Notice Maximum Value (BT-118) publication will be delayed -->
+                    <cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">6000</cbc:EstimatedOverallFrameworkContractsAmount>
+                    <efac:GroupFramework>
+                        <efac:FieldsPrivacy>
+                            <!-- # UNPUB-03 : The Group Maximum Value (BT-156) will not be published until March 2nd, 2022 -->
+                            <efbc:FieldIdentifierCode listName="non-publication-identifier">gro-max-val</efbc:FieldIdentifierCode>
+                            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="ENG">The following ...</efbc:ReasonDescription>
+                            <efbc:ReasonDescription languageID="FRA">L'information suivante ...</efbc:ReasonDescription>
+                            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                        </efac:FieldsPrivacy>
+                        <efac:FieldsPrivacy>
+                            <!-- # UNPUB-04 : The Group Maximum Value Lot Identifier (BT-556) will not be published until March 2nd, 2022 -->
+                            <efbc:FieldIdentifierCode listName="non-publication-identifier">gro-max-ide</efbc:FieldIdentifierCode>
+                            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="ENG">...</efbc:ReasonDescription>
+                            <efbc:ReasonDescription languageID="FRA">...</efbc:ReasonDescription>
+                            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                        </efac:FieldsPrivacy>
+                        <!-- # UNPUB-03 : Group Maximum Value (BT-156) publication will be delayed -->
+                        <efbc:GroupFrameworkValueAmount currencyID="EUR">1200000</efbc:GroupFrameworkValueAmount>
+                        <!-- # UNPUB-04 : Group Maximum Value Lot Identifier (BT-556) publication will be delayed -->
+                        <efac:TenderLot>
+                            <cbc:IDcschemeName="LotsGroup">GLO-0001</cbc:ID>
+                        </efac:TenderLot>
+                    </efac:GroupFramework>
+                    <!-- Interrupted mark-up -->
+                </efac:NoticeResult>
+            </efext:EformsExtension>
+        </ext:ExtensionContent>
+    </ext:UBLExtension>
+    <!-- Interrupted mark-up -->
+</ContractAwardNotice>
+----
+
+[[lotResultLevelSection]]
+=== LotResult level
+
+This covers the withheld publication of:
+
+* Winner Chosen (BT-142),
+
+* Not Awarded Reason (BT-144),
+
+* Maximum Value (BT-709),
+
+* Received Submissions Count (BT-759),
+
+* Received Submissions Type (BT-760),
+
+* Tender Value Lowest (BT-710),
+
+* Tender Value Highest (BT-711),
+
+* Review Requests (BT-712).
+
+The codes to be used to identify the field and the location where the
+unpublish components are to be found are given in <<codesForUnpublishedFieldsAtLotResultLevelTable>>.
+
+[[codesForUnpublishedFieldsAtLotResultLevelTable]]
+.Codes for "unpublished" fields at LotResult level
+[cols="1h,2,3",options="header"]
+|===
+|*Code* |*What is to be covered* ^|*XPATH to "unpublish" components*
+|*win-cho* |Winner Chosen (BT-142)
+a|
+[source,xpath,subs=attributes]
+----
+{LotResult}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='win-cho']
+----
+
+|*no-awa-rea* |Not Awarded Reason (BT-144)
+a|
+[source,xpath,subs=attributes]
+----
+{LotResult}/efac:DecisionReason/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='no-awa-rea']
+----
+
+|*max-val* |Maximum Value (BT-709)
+a|
+[source,xpath,subs=attributes]
+----
+{LotResult}/efac:FrameworkAgreementValues{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='max-val']
+----
+
+|*rec-sub-cou* |Received Submissions Count (BT-759)
+a|
+[source,xpath,subs=attributes]
+----
+{LotResult}/efac:ReceivedSubmissionsStatistics{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='rec-sub-cou']
+----
+
+|*rec-sub-typ* |Received Submissions Type (BT-760)
+a|
+[source,xpath,subs=attributes]
+----
+{LotResult}/efac:ReceivedSubmissionsStatistics{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='rec-sub-typ']
+----
+
+|*ten-val-low* |Tender Value Lowest (BT-710)
+a|
+[source,xpath,subs=attributes]
+----
+{LotResult}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='ten-val-low']
+----
+
+|*ten-val-hig* |Tender Value Highest (BT-711)
+a|
+[source,xpath,subs=attributes]
+----
+{LotResult}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='ten-val-hig']
+----
+
+|**re**v**-req** |Review Requests (BT-712)
+a|
+[source,xpath,subs=attributes]
+----
+{LotResult}/efac:AppealRequestsStatistics{zwsp}[efbc:StatisticsCode/@listName='review-type']{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='rev-req']
+----
+
+|*buy-rev-cou* |Buyer Review Requests Count (BT-635) |
+
+|*buy-rev-typ* |Buyer Review Requests Irregularity Type (BT-636) |
+|===
+
+A mark-up sample is provided below to illustrate the use of the
+"unpublish" fields with their targeted information. Comments are used
+to highlight the relation between the "unpublish" and "unpublished"
+fields.
+
+[source,xml]
+----
+<efac:LotResult>
+    <efac:FieldsPrivacy>
+        <!-- # UNPUB-10 : Tender Value Highest (BT-711) will not be published until March 2nd, 2022 -->
+        <efbc:FieldIdentifierCode listName="non-publication-identifier">ten-val-hig
+        </efbc:FieldIdentifierCode>
+        <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+        <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+        <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+    </efac:FieldsPrivacy>
+    <efac:FieldsPrivacy>
+        <!-- # UNPUB-11 : Tender Value Lowest (BT-710) will not be published until March 2nd, 2022 -->
+        <efbc:FieldIdentifierCode listName="non-publication-identifier">ten-val-low</efbc:FieldIdentifierCode>
+        <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+        <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+        <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+    </efac:FieldsPrivacy>
+    <efac:FieldsPrivacy>
+        <!-- # UNPUB-12 : Winner Chosen (BT-142) will not be published until March 2nd, 2022 -->
+        <efbc:FieldIdentifierCode listName="non-publication-identifier">win-cho</efbc:FieldIdentifierCode>
+        <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+        <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+        <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+    </efac:FieldsPrivacy>
+    <!-- # UNPUB-10 : Tender Value Highest (BT-711) publication will be delayed -->
+    <cbc:HigherTenderAmount currencyID="EUR">456</cbc:HigherTenderAmount>
+    <!-- # UNPUB-11 : Tender Value Lowest (BT-710) publication will be delayed -->
+    <cbc:LowerTenderAmount currencyID="EUR">123</cbc:LowerTenderAmount>
+    <!-- # UNPUB-12 : Winner Chosen (BT-142) publication will be delayed -->
+    <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+    <cac:FinancingParty>
+        <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+        </cac:PartyIdentification>
+    </cac:FinancingParty>
+    <cac:FinancingParty>
+        <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+        </cac:PartyIdentification>
+    </cac:FinancingParty>
+    <cac:PayerParty>
+        <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+    </cac:PayerParty>
+    <cac:PayerParty>
+        <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+        </cac:PartyIdentification>
+    </cac:PayerParty>
+    <efac:AppealRequestsStatistics>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-13 : Review Requests (BT-712) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">rev-req</efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efbc:StatisticsCode listName="..">..</efbc:StatisticsCode>
+        <!-- # UNPUB-13 : Review Requests (BT-712) publication will be delayed -->
+        <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+    </efac:AppealRequestsStatistics>
+    <efac:AppealRequestsStatistics>
+        <!-- Interrupted Mark-up -->
+    </efac:AppealRequestsStatistics>
+    <efac:DecisionReason>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-14 : Not Awarded Reason (BT-144) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">no-awa-rea</efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <!-- # UNPUB-14 : Not Awarded Reason (BT-144) publication will be delayed -->
+        <efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
+    </efac:DecisionReason>
+    <efac:LotTender>
+        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+    </efac:LotTender>
+    <efac:LotTender>
+        <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+    </efac:LotTender>
+    <efac:LotTender>
+        <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+    </efac:LotTender>
+    <efac:FrameworkAgreementValues>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-15 : Maximum Value (BT-709) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">max-val</efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <cbc:EstimatedMaximumValueAmount currencyID="EUR">123</cbc:EstimatedMaximumValueAmount>
+        <!-- # UNPUB-15 : Maximum Value (BT-709) publication will be delayed -->
+        <cbc:MaximumValueAmount currencyID="EUR">12345</cbc:MaximumValueAmount>
+    </efac:FrameworkAgreementValues>
+    <efac:ReceivedSubmissionsStatistics>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-16 : Received Submissions Type (BT-760) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-typ</efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-17 : Received Submissions Count (BT-759) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-cou</efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <!-- # UNPUB-16 : Received Submissions Type (BT-760) publication will be delayed -->
+        <efbc:StatisticsCode>sme</efbc:StatisticsCode>
+        <!-- # UNPUB-17 : Received Submissions Count (BT-759) publication will be delayed -->
+        <efbc:StatisticsNumeric>12</efbc:StatisticsNumeric>
+    </efac:ReceivedSubmissionsStatistics>
+    <efac:ReceivedSubmissionsStatistics>
+        <!-- Interrupted Mark-up -->
+    </efac:ReceivedSubmissionsStatistics>
+    <efac:SettledContract>
+        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+    </efac:SettledContract>
+    <efac:SettledContract>
+        <cbc:ID schemeName="contract">CON-0003</cbc:ID>
+    </efac:SettledContract>
+    <efac:StrategicProcurementStatistics>
+        <efbc:StatisticsCode listName="vehicles">vehicles</efbc:StatisticsCode>
+        <efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+    </efac:StrategicProcurementStatistics>
+    <efac:StrategicProcurementStatistics>
+        <efbc:StatisticsCode listName="vehicles">vehicles-zero-emission</efbc:StatisticsCode>
+        <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+    </efac:StrategicProcurementStatistics>
+    <efac:TenderLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    </efac:TenderLot>
+</efac:LotResult>
+----
+
+[[lotTenderLevelSection]]
+=== LotTender level
+
+This covers the withheld publication of:
+
+* Concession Revenue User (BT-162),
+
+* Concession Revenue Buyer (BT-160),
+
+* Value Concession Description (BT-163),
+
+* Country Origin (BT-191),
+
+* __Winner Organisation Identifier (BT-1701),__
+
+* Winning Tender Value (BT-720),
+
+* Tender Rank (BT-171),
+
+* Winning Tender Variant (BT-193),
+
+* Subcontracting Value Known (BT-730),
+
+* Subcontracting Percentage Known (BT-731),
+
+* Subcontracting Value (BT-553),
+
+* Subcontracting Percentage (BT-555),
+
+* Subcontracting Description (BT-554),
+
+* Subcontracting (BT-773).
+
+The codes to be used to identify the field and the location where the
+unpublish components are to be found are given in <<codesForUnpublishedFieldsAtLotTenderLevelTable>>.
+
+[[codesForUnpublishedFieldsAtLotTenderLevelTable]]
+.Codes for "unpublished" fields at LotTender level
+[cols="1h,2,3",options="header"]
+|===
+|*Code* |*What is to be covered* ^|*XPATH to "unpublish" components*
+|*con-rev-use* |Concession Revenue User (BT-162)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:ConcessionRevenue{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='con-rev-use']
+----
+
+|*con-rev-buy* |Concession Revenue Buyer (BT-160)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:ConcessionRevenue{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='con-rev-buy']
+----
+
+|*val-con-des* |Value Concession Description (BT-163)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:ConcessionRevenue{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='val-con-des']
+----
+
+|*cou-ori* |Country Origin (BT-191)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:Origin{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='cou-ori']
+----
+
+|[line-through]*win-org-ide* |Winner Organisation Identifier (BT-1701)
+|Remains to be identified!
+
+|*win-ten-val* |Winning Tender Value (BT-720)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='win-ten-val']
+----
+
+|*ten-ran* |Tender Rank (BT-171)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='ten-ran']
+----
+
+|*win-ten-var* |Winning Tender Variant (BT-193)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:FieldsPrivacy{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='win-ten-var']
+----
+
+|*sub-val-kno* |Subcontracting Value Known (BT-730)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:SubcontractingTerm{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='sub-val-kno']
+----
+
+|*sub-per-kno* |Subcontracting Percentage Known (BT-731)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:SubcontractingTerm{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='sub-per-kno']
+----
+
+|*sub-val* |Subcontracting Value (BT-553)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:SubcontractingTerm{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='sub-val']
+----
+
+|*sub-per* |Subcontracting Percentage (BT-555)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:SubcontractingTerm{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='sub-per']
+----
+
+|*sub-des* |Subcontracting Description (BT-554)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:SubcontractingTerm{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='sub-des']
+----
+
+|*sub-con* |Subcontracting (BT-773)
+a|
+[source,xpath,subs=attributes]
+----
+{LotTender}/efac:SubcontractingTerm{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='sub-con']
+----
+
+|===
+
+A mark-up sample is provided below to illustrate the use of the
+"unpublish" fields with their targeted information. Comments are used
+to highlight the relation between the "unpublish" and "unpublished"
+fields.
+
+[source,xml]
+----
+<efac:LotTender>
+    <efac:FieldsPrivacy>
+        <!-- # UNPUB-20 : Tender Rank (BT-171) will not be published until March 2nd, 2022 -->
+        <efbc:FieldIdentifierCode listName="non-publication-identifier">ten-ran
+        </efbc:FieldIdentifierCode>
+        <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+        <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+        <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+    </efac:FieldsPrivacy>
+    <efac:FieldsPrivacy>
+        <!-- # UNPUB-21 : Winning Tender Value (BT-720) will not be published until March 2nd, 2022 -->
+        <efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-val
+        </efbc:FieldIdentifierCode>
+        <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+        <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+        <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+    </efac:FieldsPrivacy>
+    <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+    <!-- # UNPUB-20 : Tender Rank (BT-171) publication will be delayed -->
+    <cbc:RankCode>1</cbc:RankCode>
+    <efbc:TenderVariantIndicator>true</efbc:TenderVariantIndicator>
+    <!-- # UNPUB-21 : Winning Tender Value (BT-720) publication will be delayed -->
+    <cac:LegalMonetaryTotal>
+        <cbc:PayableAmount currencyID="EUR">500</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <efac:AggregatedAmounts>
+        <!-- For Contract completion only -->
+        <cbc:PaidAmount currencyID="EUR">480</cbc:PaidAmount>
+        <efbc:PaidAmountDescription languageID="ENG">An amount of ...</efbc:PaidAmountDescription>
+        <efbc:PenaltiesAmount currencyID="EUR">23</efbc:PenaltiesAmount>
+    </efac:AggregatedAmounts>
+    <efac:ConcessionRevenue>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-22 : Concession Revenue User (BT-162) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">con-rev-use
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-23 : Concession Revenue Buyer (BT-160) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">con-rev-buy
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-24 : Value Concession Description (BT-163) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">val-con-des
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <!-- # UNPUB-23 : Concession Revenue Buyer (BT-160) publication will be delayed -->
+        <efbc:RevenueBuyerAmount currencyID="EUR">350</efbc:RevenueBuyerAmount>
+        <!-- # UNPUB-22 : Concession Revenue User (BT-162) publication will be delayed -->
+        <efbc:RevenueUserAmount currencyID="EUR">350</efbc:RevenueUserAmount>
+        <!-- # UNPUB-24 : Value Concession Description (BT-163) publication will be delayed -->
+        <efbc:ValueDescription>Bla bla bla ...</efbc:ValueDescription>
+    </efac:ConcessionRevenue>
+    <efac:ContractTerm>
+        <!-- For T02 only -->
+        <efbc:TermCode/>
+        <efbc:TermDescription/>
+        <efbc:TermIndicator>true</efbc:TermIndicator>
+    </efac:ContractTerm>
+    <efac:ContractTerm>
+        <!-- For T02 only -->
+        <efbc:TermCode/>
+        <efbc:TermDescription/>
+        <efbc:TermIndicator>true</efbc:TermIndicator>
+    </efac:ContractTerm>
+    <efac:Origin>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-25 : Country Origin (BT-191) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">cou-ori
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <!-- # UNPUB-25 : Country Origin (BT-191) publication will be delayed -->
+        <efbc:AreaCode listName="country">FRA</efbc:AreaCode>
+    </efac:Origin>
+    <efac:Origin>
+        <efbc:AreaCode listName="country">ITA</efbc:AreaCode>
+    </efac:Origin>
+    <!-- Associated tenderer -->
+    <efac:SubcontractingTerm>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-26 : Subcontracting Value Known (BT-730) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">sub-val-kno
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-27 : Subcontracting Percentage Known (BT-731) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">sub-per-kno
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-28 : Subcontracting Value (BT-553) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">sub-val
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-29 : Subcontracting Percentage (BT-555) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">sub-per
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-30 : Subcontracting Description (BT-554) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">sub-des
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <efac:FieldsPrivacy>
+            <!-- # UNPUB-31 : Subcontracting (BT-773) will not be published until March 2nd, 2022 -->
+            <efbc:FieldIdentifierCode listName="non-publication-identifier">sub-con
+            </efbc:FieldIdentifierCode>
+            <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
+            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        </efac:FieldsPrivacy>
+        <!-- # UNPUB-28 : Subcontracting Value (BT-553) publication will be delayed -->
+        <efbc:TermAmount currencyID="EUR">5667</efbc:TermAmount>
+        <!-- # UNPUB-30 : Subcontracting Description (BT-554) publication will be delayed -->
+        <efbc:TermDescription languageID="ENG">Bla bli bla bli ...</efbc:TermDescription>
+        <!-- # UNPUB-29 : Subcontracting Percentage (BT-555) publication will be delayed -->
+        <efbc:TermPercent>20</efbc:TermPercent>
+        <!-- # UNPUB-31 : Subcontracting (BT-773) publication will be delayed -->
+        <efbc:TermCode listName="applicability">..</efbc:TermCode>
+        <!-- # UNPUB-27 : Subcontracting Percentage Known (BT-731) publication will be delayed -->
+        <efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+        <!-- # UNPUB-26 : Subcontracting Value Known (BT-730) publication will be delayed -->
+        <efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
+    </efac:SubcontractingTerm>
+    <efac:TenderingParty>
+        <cbc:ID/>
+    </efac:TenderingParty>
+    <efac:TenderLot>
+        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    </efac:TenderLot>
+</efac:LotTender>
+----
+
+[[sectoralDirectiveOnlySection]]
+== Sectoral directive only
+
+[[procedureLevelSection]]
+=== Procedure level
+
+This covers the withheld publication of:
+
+* Cross Border Law (BT-09),
+
+* Procedure Type (BT-105),
+
+* Procedure Features (BT-88),
+
+* Procedure Accelerated (BT-106),
+
+* Procedure Accelerated Justification (BT-1351),
+
+* Direct Award Justification Code (BT-136),
+
+* Direct Award Justification Previous (BT-1252),
+
+* Direct Award Justification Text (BT-135).
+
+The codes to be used to identify the field and the location where the
+unpublish components are to be found are given in <<codesForUnpublishedFieldsAtProcedureLevelTable>>.
+
+[[codesForUnpublishedFieldsAtProcedureLevelTable]]
+.Codes for "unpublished" fields at Procedure level
+[cols="1h,2,3",options="header"]
+|===
+|*Code* |*What is to be covered* ^|*XPATH to "unpublish" components*
+|*cro-bor-law* |Cross Border Law (BT-09)
+a|
+[source,xpath,subs=attributes]
+----
+/*/cac:TenderingTerms{zwsp}/cac:ProcurementLegislationDocumentReference{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='cro-bor-law']
+----
+
+|*pro-typ* |Procedure Type (BT-105)
+a|
+[source,xpath,subs=attributes]
+----
+/*/cac:TenderingProcess{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='pro-typ']
+----
+
+
+|*pro-fea* |Procedure Features (BT-88)
+a|
+[source,xpath,subs=attributes]
+----
+/*/cac:TenderingProcess{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='pro-fea']
+----
+
+
+|*pro-acc* |Procedure Accelerated (BT-106)
+a|
+[source,xpath,subs=attributes]
+----
+/*/cac:TenderingProcess{zwsp}/cac:ProcessJustification{zwsp}[cbc:ProcessReasonCode/@listName='accelerated-procedure-justification']{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='pro-acc']
+----
+
+
+|*pro-acc-jus* |Procedure Accelerated Justification (BT-1351)
+a|
+[source,xpath,subs=attributes]
+----
+/*/cac:TenderingProcess{zwsp}/cac:ProcessJustification{zwsp}[cbc:ProcessReasonCode/@listName='accelerated-procedure-justification']{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='pro-acc-jus']
+----
+
+
+|*dir-awa-jus* |Direct Award Justification Code (BT-136)
+a|
+[source,xpath,subs=attributes]
+----
+{DirectAwardJustification}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='dir-awa-jus']{zwsp}
+----
+
+
+|*dir-awa-pre* |Direct Award Justification Previous (BT-1252)
+a|
+[source,xpath,subs=attributes]
+----
+{DirectAwardJustification}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='dir-awa-pre']{zwsp}
+----
+
+
+|*dir-awa-tex* |Direct Award Justification Text (BT-135)
+a|
+[source,xpath,subs=attributes]
+----
+{DirectAwardJustification}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='dir-awa-tex']{zwsp}
+----
+
+|===
+
+A mark-up sample is provided below to illustrate the use of the
+"unpublish" fields with their targeted information. Comments are used
+to highlight the relation between the "unpublish" and "unpublished"
+fields.
+
+[source,xml]
+----
+<ContractAwardNotice>
+    <!-- interrupted mark-up -->
+    <cac:TenderingTerms>
+        <!-- interrupted mark-up -->
+        <cac:ProcurementLegislationDocumentReference>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:FieldsPrivacy>
+                                <!-- # UNPUB-40 : Cross Border Law (BT-09) will not be published until March 2nd, 2022 -->
+                                <efbc:FieldIdentifierCode listName="non-publication-identifier">cro-bor-law</efbc:FieldIdentifierCode>
+                                <cbc:ReasonCode listName="non-publication-justification"> ...</cbc:ReasonCode>
+                                <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                                <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                                <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                            </efac:FieldsPrivacy>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <!-- # UNPUB-40 : Cross Border Law (BT-09) publication will be delayed -->
+            <cbc:ID schemeName="abc">CrossBorderLaw</cbc:ID>
+            <cbc:DocumentDescription languageID="ENG">Bilateral agreement ...</cbc:DocumentDescription>
+            <cbc:DocumentDescription languageID="FRA">Accord bilatéral ...</cbc:DocumentDescription>
+        </cac:ProcurementLegislationDocumentReference>
+        <!-- interrupted mark-up -->
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <ext:UBLExtensions>
+            <ext:UBLExtension>
+                <ext:ExtensionContent>
+                    <efext:EformsExtension>
+                        <efac:FieldsPrivacy>
+                            <!-- # UNPUB-41 : Procedure Type (BT-105) will not be published until March 2nd, 2022 -->
+                            <efbc:FieldIdentifierCode listName="non-publication-identifier">pro-typ</efbc:FieldIdentifierCode>
+                            <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                        </efac:FieldsPrivacy>
+                        <efac:FieldsPrivacy>
+                            <!-- # UNPUB-42 : Procedure Features (BT-88) will not be published until March 2nd, 2022 -->
+                            <efbc:FieldIdentifierCode listName="non-publication-identifier">pro-fea</efbc:FieldIdentifierCode>
+                            <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                        </efac:FieldsPrivacy>
+                    </efext:EformsExtension>
+                </ext:ExtensionContent>
+            </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <!-- # UNPUB-42 : Procedure Features (BT-88) publication will be delayed -->
+        <cbc:Description languageID="ENG">This procedure ....</cbc:Description>
+        <cbc:Description languageID="FRA">Cette procédure ....</cbc:Description>
+        <!-- # UNPUB-41 : Procedure Type (BT-105) publication will be delayed -->
+        <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+        <cac:ProcessJustification>
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                            <efac:FieldsPrivacy>
+                                <!-- # UNPUB-43 : Procedure Accelerated (BT-106) will not be published until March 2nd, 2022 -->
+                                <efbc:FieldIdentifierCode listName="non-publication-identifier">pro-acc</efbc:FieldIdentifierCode>
+                                <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
+                                <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                                <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                                <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                            </efac:FieldsPrivacy>
+                            <efac:FieldsPrivacy>
+                                <!-- # UNPUB-44 : Procedure Accelerated Justification (BT-1351) will not be published until March 2nd, 2022 -->
+                                <efbc:FieldIdentifierCode listName="non-publication-identifier">pro-acc-jus</efbc:FieldIdentifierCode>
+                                <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
+                                <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                                <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                                <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                            </efac:FieldsPrivacy>
+                        </efext:EformsExtension>
+                    </ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <!-- # UNPUB-43 : Procedure Accelerated (BT-106) publication will be delayed -->
+            <cbc:ProcessReasonCode listName="accelerated-procedure-justification">..</cbc:ProcessReasonCode>
+            <!-- # UNPUB-44 : Procedure Accelerated Justification (BT-1351) publication will be delayed -->
+            <cbc:ProcessReason languageID="ENG">Due to ....</cbc:ProcessReason>
+            <cbc:ProcessReason languageID="FRA">Du fait de ....</cbc:ProcessReason>
+        </cac:ProcessJustification>
+    </cac:TenderingProcess>
+    <!-- interrupted mark-up -->
+</ContractAwardNotice>
+----
+
+[[lotsGroupOfLotsLevelSection]]
+=== Lot/Group of lots level
+
+This covers the withheld publication of:
+
+* Award Criterion Type (BT-539),
+
+* Award Criterion Name (BT-734),
+
+* Award Criterion Description (BT-540),
+
+* Award Criterion Number Weight (BT-5421),
+
+* Award Criterion Number Fixed (BT-5422),
+
+* Award Criterion Number Threshold (BT-5423),
+
+* Award Criterion Number (BT-541),
+
+* Award Criteria Complicated (BT-543),
+
+* Award Criteria Order Justification (BT-733).
+
+The codes to be used to identify the field and the location where the
+unpublish components are to be found are given in <<codesForUnpublishedFieldsAtLotGroupOfLotsLevelTable>>.
+
+[[codesForUnpublishedFieldsAtLotGroupOfLotsLevelTable]]
+.Codes for "unpublished" fields at Lot/Group of lots level
+[cols="1h,2,3",options="header"]
+|===
+|*Code* |*What is to be covered* ^|*XPATH to "unpublish" components*/*
+|*awa-cri-typ* |Award Criterion Type (BT-539) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/cac:SubordinateAwardingCriterion{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-typ']
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/cac:SubordinateAwardingCriterion{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-typ']
+----
+
+|*awa-cri-nam* |Award Criterion Name (BT-734) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/cac:SubordinateAwardingCriterion{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-nam']
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/cac:SubordinateAwardingCriterion{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-nam']
+----
+
+|*awa-cri-des* |Award Criterion Description (BT-540) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/cac:SubordinateAwardingCriterion{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-des']
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/cac:SubordinateAwardingCriterion{zwsp}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-des']
+----
+
+|*awa-cri-wei* |Award Criterion Number Weight (BT-5421) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/{SubordinateAwardingCriterion}/efac:AwardCriterionParameter{zwsp}[efbc:ParameterCode/@listName='number-weight']{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='awa-cri-wei']
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/{SubordinateAwardingCriterion}/efac:AwardCriterionParameter{zwsp}[efbc:ParameterCode/@listName='number-weight']{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='awa-cri-wei']
+----
+
+|*awa-cri-fix* |Award Criterion Number Fixed (BT-5422) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/{SubordinateAwardingCriterion}/efac:AwardCriterionParameter{zwsp}[efbc:ParameterCode/@listName='number-fixed']{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='awa-cri-fix']
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/{SubordinateAwardingCriterion}/efac:AwardCriterionParameter{zwsp}[efbc:ParameterCode/@listName='number-fixed']{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='awa-cri-fix']
+----
+
+|*awa-cri-thr* |Award Criterion Number Threshold (BT-5423) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/{SubordinateAwardingCriterion}/efac:AwardCriterionParameter{zwsp}[efbc:ParameterCode/@listName='number-threshold']{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='awa-cri-thr']
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/{SubordinateAwardingCriterion}/efac:AwardCriterionParameter{zwsp}[efbc:ParameterCode/@listName='number-threshold']{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='awa-cri-thr']
+----
+
+|*awa-cri-num* |Award Criterion Number (BT-541) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/{SubordinateAwardingCriterion}/efac:AwardCriterionParameter{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='awa-cri-num']{zwsp}
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/{SubordinateAwardingCriterion}/efac:AwardCriterionParameter{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='awa-cri-num']
+----
+
+|*awa-cri-com* |Award Criteria Complicated (BT-543) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-com']
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-com']
+----
+
+|*awa-cri-ord* |Award Criteria Order Justification (BT-733) a|
+[source,xpath,subs=attributes]
+----
+{LotsGroupAwardCriterion}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-ord']
+----
+
+Or
+
+[source,xpath,subs=attributes]
+----
+{LotAwardCriterion}/{FieldsPrivacy}[efbc:FieldIdentifierCode/text()='awa-cri-ord']
+----
+
+|===
+
+A mark-up sample is provided below to illustrate the use of the
+"unpublish" fields with their targeted information. Comments are used
+to highlight the relation between the "unpublish" and "unpublished"
+fields.
+
+[source,xml]
+----
+<cac:AwardingCriterion>
+    <cbc:Description languageID="ENG">Each criterion is evaluated separately ...</cbc:Description>
+    <cbc:Description languageID="FRA">Chaque critère est évalué individuellement ...</cbc:Description>
+    <cac:SubordinateAwardingCriterion>
+        <ext:UBLExtensions>
+            <ext:UBLExtension>
+                <ext:ExtensionContent>
+                    <efext:EformsExtension>
+                        <efac:FieldsPrivacy>
+                            <!-- # UNPUB-50 : Award Criterion Type (BT-539) will not be published until March 2nd, 2022 -->
+                            <efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-typ</efbc:FieldIdentifierCode>
+                            <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                            <efbc:PublicationDate>2022-04-01</efbc:PublicationDate>
+                        </efac:FieldsPrivacy>
+                        <efac:FieldsPrivacy>
+                            <!-- # UNPUB-51 : Award Criterion Name (BT-734) will not be published until March 2nd, 2022 -->
+                            <efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-nam</efbc:FieldIdentifierCode>
+                            <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                            <efbc:PublicationDate>2022-04-01</efbc:PublicationDate>
+                        </efac:FieldsPrivacy>
+                        <efac:FieldsPrivacy>
+                            <!-- # UNPUB-52 : Award Criterion Description (BT-540) will not be published until March 2nd, 2022 -->
+                            <efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-des</efbc:FieldIdentifierCode>
+                            <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                            <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                            <efbc:PublicationDate>2022-04-01</efbc:PublicationDate>
+                        </efac:FieldsPrivacy>
+                    </efext:EformsExtension>
+                </ext:ExtensionContent>
+            </ext:UBLExtension>
+            <ext:UBLExtension>
+                <ext:ExtensionContent>
+                    <efext:EformsExtension>
+                        <efac:AwardCriterionParameter>
+                            <efac:FieldsPrivacy>
+                                <!-- # UNPUB-53 : Award Criterion Number Threshold (BT-5423) will not be published until March 2nd, 2022 -->
+                                <efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-thr</efbc:FieldIdentifierCode>
+                                <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
+                                <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
+                                <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
+                                <efbc:PublicationDate>2022-04-01</efbc:PublicationDate>
+                            </efac:FieldsPrivacy>
+                            <!-- # UNPUB-53 : Award Criterion Number Threshold (BT-5423) publication will be delayed -->
+                            <efbc:ParameterCode listName="number-threshold">min-pass</efbc:ParameterCode>
+                            <efbc:ParameterNumeric>50</efbc:ParameterNumeric>
+                        </efac:AwardCriterionParameter>
+                    </efext:EformsExtension>
+                </ext:ExtensionContent>
+            </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <!-- # UNPUB-50 : Award Criterion Type (BT-539) publication will be delayed -->
+        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+        <!-- # UNPUB-51 : Award Criterion Name (BT-734) publication will be delayed -->
+        <cbc:Name languageID="ENG">Fair &amp; realistic price</cbc:Name>
+        <cbc:Name languageID="FRA">Prix équitable et réaliste</cbc:Name>
+        <!-- # UNPUB-52 : Award Criterion Description (BT-540) publication will be delayed -->
+        <cbc:Description languageID="ENG">Tenders with a price score lower than 50 ...</cbc:Description>
+        <cbc:Description languageID="FRA">Les offres avec un score sur les prix inférieur à ...</cbc:Description>
+    </cac:SubordinateAwardingCriterion>
+    <!-- Interrupted mark-up -->
+</cac:AwardingCriterion>
+----

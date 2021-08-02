@@ -1,0 +1,56 @@
+:xrefstyle: short
+
+[[codelistsAndFieldsSection]]
+= Codelists and Fields
+
+This section provides further details on some fields and codelists only. It is not foreseen to
+be exhaustive and gives information necessary for clarification.
+
+[[technicalCodelistsSection]]
+== Technical codelists
+
+This section refers to codelists not published on EU vocabularies. Most of them are for
+validation purposes and required by the implemented technical solution.
+
+[[exclusionGroundsCodelistSection]]
+===	Exclusion grounds codelist
+
+This codelist covers all possible codes for exclusion grounds.
+
+The list is the one defined for the ESPD.
+
+The codes are reported in the table below; the ones in bold are highly recommended. 
+From the EU legislation perspective, these are mandatory, however derogations are 
+possible (cf. <<dir24>> – art. 57). To identify precisely which value to use, 
+the contracting authority shall also consider local legislation.
+
+[[exclusionGroundCodesTable]]
+.Exclusion ground codes
+[width="100%",cols="<.^40%,<.^60%",options="header",]
+|===
+^|*Code* ^|*Value* 
+|*CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION* |Participation in a criminal organisation
+|*CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION* |Corruption
+|*CRITERION.EXCLUSION.CONVICTIONS.FRAUD* |Fraud
+|*CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES* |Terrorist offences or offences linked to terrorist activities
+|*CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING* |Money laundering or terrorist financing
+|*CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING* |Child labour and other forms of trafficking in human beings
+|*CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES* |Payment of taxes
+|*CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY* |Payment of social security contributions
+|*CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW* |Breaching of obligations in the fields of environmental law
+|*CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW* |Breaching of obligations in the fields of social law
+|*CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW* |Breaching of obligations in the fields of labour law
+|CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY |Bankruptcy
+|CRITERION.EXCLUSION.BUSINESS.INSOLVENCY |Insolvency
+|CRITERION.EXCLUSION.BUSINESS.CREDITORS_ARRANGEMENT |Arrangement with creditors
+|CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY_ANALOGOUS |Analogous situation like bankruptcy under national law
+|CRITERION.EXCLUSION.BUSINESS.LIQUIDATOR_ADMINISTERED |Assets being administered by liquidator
+|CRITERION.EXCLUSION.BUSINESS.ACTIVITIES_SUSPENDED |Business activities are suspended
+|CRITERION.EXCLUSION.MISCONDUCT.MC_PROFESSIONAL |Guilty of grave professional misconduct
+|CRITERION.EXCLUSION.MISCONDUCT.MARKET_DISTORTION |Agreements with other economic operators aimed at distorting competition
+|CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PARTICIPATION |Conflict of interest due to its participation in the procurement procedure
+|CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PREPARATION |Direct or indirect involvement in the preparation of this procurement procedure
+|CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.EARLY_TERMINATION |Early termination, damages or other comparable sanctions
+|CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.MISINTERPRETATION |Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+|CRITERION.EXCLUSION.NATIONAL.OTHER |Purely national exclusion grounds
+|===

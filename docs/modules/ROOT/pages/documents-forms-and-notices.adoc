@@ -1,0 +1,217 @@
+:xrefstyle: short
+
+= Documents, forms & notices
+
+For a common understanding, it is necessary to state what is meant by
+"document", "form" and "notice".
+
+[[documentAndDocumentTypeSection]]
+== Document and Document Type
+
+The eProcurement Ontology workgroup defined a "document" as:
+
+[quote, ePO workgroup]
+____
+A set of interrelated Business Information representing the business
+facts.
+____
+
+With the additional information:
+
+[quote, ePO workgroup]
+____
+Documents may convey information in any language, medium or form,
+including textual, numerical, graphic, cartographic, audio-visual forms,
+etc.
+____
+
+We will use the "document" term mainly to refer to the XML document
+(i.e. XML instance) containing all information of a given notice.
+
+For eForms we may distinguish three different document types:
+
+* Prior Information Notice,
+
+* Contract Notice, and
+
+* Contract Award Notice.
+
+While most notices belonging to these categories are expected to have
+UBL XSD schemas as normative representations, some (e.g. change notices)
+may involve non-UBL elements and require the use of extensions.
+
+[[formAndFormTypesSection]]
+== Form and Form Types
+
+The eForms Regulation defines a set of forms and their associated fields
+foreseen for the edition of procurement notices. A form is an interim
+means that assists the contracting authority in the encoding of the
+required information.
+
+There are different form types. It is common to use the "form type" name
+as a notice attribute to specify its belonging to a specific form type
+family (e.g. "Planning Notice" is commonly used to refer to a Notice
+that has the "Planning" form type).
+
+The Regulation identifies different form types:
+
+* Planning,
+* Competition,
+* Direct Award Pre-notification (DAP),
+* Result,
+* Contract Modification,
+* Change.
+
+<<formTypesFigure>> below provides an indicative time-based representation of the
+different Form Types. This gives an overview of the potential
+successions or coexistence of the different types of forms.
+
+[[formTypesFigure]]
+.The different Form Types
+image::image006.jpg[image,744,370]
+
+=== Planning forms
+
+Planning forms group notices published before the start of the "Call for
+Competition"; these are often qualified as "Planning Notices". Although
+"Planning Notices" are not associated to any Procedure and do not have
+any EU Procedure Identifier assigned, the buyer may already define and
+use an internal Procedure identifier.
+
+=== Competition forms
+
+Competition forms lead to the generation of notices initiating the "Call
+for Competition".
+
+=== DAP forms
+
+Direct Award Pre-notification (DAP) forms generate notices stating the
+intention to award a contract directly (i.e. without prior call for
+competition) to one or more Economic Operators. In contrast to the
+Result notices generated from the Result formsfootnote:[For a CAN, when awarded, the contract is signed shortly before; when not awarded, the contract is not signed.]
+the DAP notices are published prior to signing the contract. Such
+notices should also refer to the existing Procedure and notices that
+enable this awarding method.
+
+=== Result forms
+
+Result forms are used to produce result notices, which are published
+shortly after contract signature. They refer to the contract notice and
+provide award process information like award of contract, winner, etc.
+
+=== Contract Modification forms
+
+During the contract execution, a contract may need modification. If the
+start of a new procurement procedure is not needed, then the Contract
+Modification forms are used to produce a modification notice reporting
+the modifications applied to the contract.
+
+=== Change forms
+
+Change forms are used to produce change notices. The purpose of change
+notices is multifold:
+
+* Correct information reported in a previous version of the same
+notice (also often referred as "_Corrigenda_"),
+
+* Inform about changes to information not inside the notice
+(e.g. changed procurement documents),
+
+Changes may apply to notices of any form type. A Change notice contains
+all the information from the initial notice with integrated changes
+(i.e. consolidated text), as well as information on applied changes.
+When a change is applied to a previous change notice, it must aggregate
+all changes from previous versions, and only have the latest changes
+described in the change section.
+
+When applying changes, it is essential to ensure that the changes do not
+require the buyer to start a new procedure. It is the duty of the buyer
+to check that applied changes do not:
+
+* impact the applicable time limits;
+* advantage some economic operators at the expense of others;
+* require a procedure restart.
+
+[[noticeNoticeTypesAndSubtypesSection]]
+== Notice, Notice Types and Subtypes
+
+The ePO workgroup provided the following definition of a "notice":
+
+[quote, ePO workgroup]
+_____
+Document published by the buyer about market opportunities and results.
+_____
+
+As clearly stated in the definition, a document may only be considered
+as a notice after publication; however, at business level, it is common
+to use the "notice" keyword for notice candidate documents (i.e.
+document submitted for publication), even before their validation.
+
+Any notice has an identifier that may be referred to, for change or for
+search purpose.
+
+Speaking about "notice" may designate the XML instance or other related
+by-products (e.g.: PDF manifestations); in this document, we will mainly
+refer to the XML instance.
+
+Regarding notices, shortened expressions are commonly used. As
+illustrations, the two following examples may be provided with
+expressions like:
+
+* "Planning notice" to refer to a notice of form type
+"Planning",
+
+* "PIN profile" or "PIN profile notice" for a notice of notice
+type "PIN profile"
+
+A given form type groups multiple notice types as shown on <<noticeTypesSubtypesTable>> in
+which form types, document types, notice types, a reference to the
+column number of Annex II of Regulation (EU) 2019/1780, and a short
+description, are provided.
+
+The concept of Notice Subtype has also been introduded for a quick, easy
+and univocal reference to a specific context allowing the identification
+of the applicable rules set. For the eForms Regulation annex, the
+subtype value corresponds to the column number.
+
+[[noticeTypesSubtypesTable]]
+.Notice types & subtypes
+[cols="^.^15%,^.^15%,^.^15%,^.^15%,<.^40%",options="header",]
+|===
+|Form Type |Document Type |Notice Type |Regulation Annex Table 2 column (Subtype) ^|Description
+
+.3+|Planning .3+|PIN |PIN profile |1-3 <|Notice of the publication of a prior information notice (or a periodic indicative notice) on a buyer profile
+
+|PIN only |4-6 <|Prior information notice, or periodic indicative notice, used only for information
+
+|PIN time limit |7-9 <|Prior information notice, or periodic indicative notice, used to shorten time limits for receipt of tenders
+
+.7+|Competition .3+|PIN |PIN CFC general |10-11 <|Prior information notice, or periodic indicative notice, used as a call for competition -- standard regime
+
+|PIN CFC social |12-14 <|Prior information notice, or periodic indicative notice, used as a call for competition -- light regime
+
+|QS |15 <|Notice on the existence of a qualification system
+
+.4+|CN |CN general |16-19 <|Contract, or concession, notice -- standard regime
+
+|CN social |20-21 <|Contract notice -- light regime
+
+|CN subco |22 <|Subcontracting notice
+
+|CN design |23-24 <|Design contest notice
+
+|DAP .5+|CAN |CAN VEAT |25-28 <|Voluntary ex-ante transparency notice
+
+.3+|Result |CAN general |29-32 <|Contract, or concession, award notice --
+standard regime
+
+|CAN social |33-35 <|Contract, or concession, award notice -- light
+regime
+
+|CAN design |36-37 <|Design contest result notice
+
+|CM |Contract modification |38-40 <|Contract modification notice
+
+|Change |* |Change notice |1-40 <|Change associated to any of the
+above notice type
+|===

@@ -1,0 +1,13 @@
+site:
+  title: eForms SDK // Documentation
+  start_page: eforms-docs::all-in-one.adoc
+content:
+  sources:
+  - url: https://github.com/OP-TED/eForms-SDK.git
+    start_path: docs
+    branches: main
+ui:
+  bundle:
+    url: ./ui-bundle/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental-ui

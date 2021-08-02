@@ -1,0 +1,1308 @@
+:xrefstyle: short
+:page-toclevels: -1
+
+= Competition Results
+
+Competition results are shared using result notices. Such notices have a
+single "_efac:NoticeResult_" element containing information about the
+latest award decisions and potentially about the lots still to be
+awarded.
+
+== Notice Result
+
+The Notice Result section of a Result notice contains different
+information (cf. <<noticeResultStructureFigure>>):
+
+* The result for a lot for which the decision was recently made
+or is still pending,
+
+* The tenders received for the lots about which a decision has
+been made and is shared with the notice,
+
+* The contracts that have been signed following the award of
+lots,
+
+* The parties that submitted tenders for the lots of the notice
+whose awarding decision has been made and is shared in the notice.
+
+* The aggregated amounts covering all awarded lots of the
+notice.
+
+All these elements will be further detailed in the following sections.
+
+[[noticeResultStructureFigure]]
+.Overall structure of the Notice Result section
+image::image013.jpg[image,width=455,height=298]
+
+
+It should also be considered that this structure differs from the one
+defined by the Standard and to comply with it,
+cac:TenderResult/cbc:AwardDate must be present in the XML instance. It
+is sufficient to have only one such occurence and the associated
+value shall be "2000-01-01".
+
+== Notice aggregated amounts
+
+Notice Value is about the aggregated value of all awarded lots of the
+notice.
+
+Notice Framework Value is about the the aggregated Maximum Framework
+Value, estimated or actual, for all awarded lots of the noticefootnote:[When a group of lots with a Framework is awarded, the computation should be based on the Framework associated value instead of the ones of the individual lots it is composed of.].
+
+For any group of lots of the notice having a group framework agreement,
+the reference to the Group of lots as well as the Group Framework Value
+shall be specified. Group Framework Value and its associated reference
+to the lot may be "unpublished"; when done so, the dates of publication
+for both elements shall be the same.
+
+All these amounts have to be expressed using elements of the
+https://op.europa.eu/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/currency[Currency]
+codelist to designate the currency as "currencyID" attribute and decimal
+numbers.
+
+Further details on the fields may be found in the following table and an
+overview of the structure as well as a mark-up excerpt are provided
+later on.
+
+[[noticeAggregatedAmountsComponentsTable]]
+.Notice aggregated amounts components
+[width="100%",cols="<.^15%,<.^50%,^.^5%,<.^30%",]
+|===
+^|*eForms BT* ^|*Description* |*Cardin.* ^|*XSD element*
+
+4+^|*Notice Result associated amounts (+++*+++)* 
+
+|*Notice Value (BT-161)* |The value of all contracts awarded in this
+notice, including options and renewals. |*1* a|
+[source,xpath,subs=attributes]
+----
+cbc:TotalAmount
+---- 
+
+|*Notice Framework Value (BT-118)* |The maximum or estimated value which
+can be spent within the framework agreement(s) announced in this notice
+over its whole duration, in all lots, including options and renewals.
+|*1* a|
+[source,xpath,subs=attributes]
+----
+cbc:EstimatedOverallFrameworkContractsAmount
+---- 
+
+4+^|*Group Framework Value (+++**+++)* 
+
+|*_Unpublish fields_* | | |
+
+|*Group Framework Value Lot Identifier (BT-556)* |Identifier of the
+group of lots within this procedure. |*1* a|
+[source,xpath,subs=attributes]
+----
+efac:TenderLot/cbc:ID
+---- 
+
+|*Group Framework Value (BT-156)* |The maximum or estimated value which
+can be spent in a framework agreement within a group of lots. It covers
+all contracts to be awarded within a framework agreement over its whole
+duration, including options and renewals. |*1*
+a|
+[source,xpath,subs=attributes]
+----
+efbc:GroupFrameworkValueAmount
+---- 
+
+4+a|
+
+*Context:*
+
+(+++*+++)
+[source,xpath,subs=attributes]
+----
+/ContractAwardNotice{zwsp}/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:NoticeResult/
+----
+
+(+++**+++)
+[source,xpath,subs=attributes]
+----
+/ContractAwardNotice{zwsp}/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:NoticeResult{zwsp}/efac:GroupFramework/
+----
+
+|===
+
+[source,xml]
+----
+<efac:NoticeResult>
+    <cbc:TotalAmount currencyID="EUR">123456.00</cbc:TotalAmount>
+    <cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">6000</cbc:EstimatedOverallFrameworkContractsAmount>
+    <efac:GroupFramework>
+        <efbc:GroupFrameworkValueAmount currencyID="EUR">1200000</efbc:GroupFrameworkValueAmount>
+        <efac:TenderLot>
+            <cbc:ID schemeName="LotsGroup">GLO-0001</cbc:ID>
+        </efac:TenderLot>
+    </efac:GroupFramework>
+    <efac:GroupFramework>
+        <efbc:GroupFrameworkValueAmount currencyID="EUR">800000</efbc:GroupFrameworkValueAmount>
+        <efac:TenderLot>
+            <cbc:ID schemeName="LotsGroup">GLO-0002</cbc:ID>
+        </efac:TenderLot>
+    </efac:GroupFramework>
+    <!-- Interrupted Mark-up -->
+</efac:NoticeResult>
+----
+
+[[noticeResultAggregatedAmountsFigure]]
+.Aggregated amounts of the Notice Result
+image::image014.jpg[image,width=433,height=234]
+
+== Lot Result
+
+A Notice Result shall contain at least one LotResult with a made
+decisionfootnote:[i.e. for which "_cbc:TenderResultCode_" is either "close-nw" or "selec-w".].
+
+LotResult applies exclusively to a single lot. This element contains
+various information (cf. table below and against figure):
+
+* Statistics on received submissions (highest & lowest value
+tenders, received quantity per submission type),
+
+* Procurement procedure outcome, and when not awarded the
+background reason,
+
+* Termination of a DPS,
+
+* Financing and Paying Parties,
+
+* Review requests statistics,
+
+* References to the received tenders for the lot covered by this
+result,
+
+* Framework Agreement Values associated to the lot (estimated
+and maximal),
+
+* Reference(s) to the contract(s) settled as a result of the
+made decision,
+
+* Statistical results for some strategic procurement projects
+(e.g. green vehicles),
+
+* Reference to the lot the result applies to.
+
+[[lotResultStructureFigure]]
+.Lot Result structure
+image::image015.jpg[image,327,494]
+
+
+For each lot, there may not exist more than one LotResult within the
+same notice.
+
+[[lotResultComponentsTable]]
+.LotResult components
+[width="100%",cols="<.^15%,<.^50%,^.^5%,<.^30%",]
+|===
+^|*eForms BT* ^|*Description* |*Cardin.* ^|*XSD element* 
+
+4+^|*Lot Result (+++*+++)* 
+
+|*_"Unpublish" fields_* a|
+_(BT-710, BT-711, BT-142)_
+
+_Cf. <<lotResultLevelSection>>_
+
+| |
+
+|*Tender Value highest (BT-711)* |Value of the admissible tender with
+the highest value. A tender shall be considered admissible where it has
+been submitted by a tenderer, who has not been excluded and who meets
+the selection criteria, and when it is in conformity with the technical
+specifications without being irregular (e.g. received late, having an
+abnormally low price or cost) or unacceptable or unsuitable. Only
+tenders for which it has been verified that they are admissible can be
+taken into account. |*1* a|
+[source,xpath,subs=attributes]
+----
+cbc:HigherTenderAmount
+---- 
+
+|*Tender Value Lowest (BT-710)* |Value of the admissible tender with the
+lowest value. A tender shall be considered admissible where it has been
+submitted by a tenderer, who has not been excluded and who meets the
+selection criteria, and when it is in conformity with the technical
+specifications without being irregular (e.g. received late, having an
+abnormally low price or cost) or unacceptable or unsuitable. Only
+tenders for which it has been verified that they are admissible or can
+be taken into account. |*1* a|
+[source,xpath,subs=attributes]
+----
+cbc:LowerTenderAmount
+---- 
+
+|*Winner Chosen (BT-142)* a|
+Whether a winner was chosen.
+
+(Code from the
+https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/winner-selection-status[Winner
+Selection Status] codelist)
+
+|*1* a|
+[source,xpath,subs=attributes]
+----
+cbc:TenderResultCode
+---- 
+
+|*Dynamic Purchasing System Termination (BT-119)* |The dynamic
+purchasing system is terminated. No further contracts, besides those
+published in this notice, will be awarded in the dynamic purchasing
+system. This field can be used even if no contracts are awarded in the
+contract award notice. |*?* a|
+[source,xpath,subs=attributes]
+----
+efbc:DPSTerminationIndicator
+---- 
+
+|*_Financing Party_* |_Organisation whose budget is used to pay for the
+contract_ |*_*_* a|
+[source,xpath,subs=attributes]
+----
+cac:FinancingParty{zwsp}/cac:PartyIdentification{zwsp}/cbc:ID
+---- 
+
+|*_Payer Party_* |_Organisation executing the payment_ |*_*_*
+a|
+[source,xpath,subs=attributes]
+----
+cac:PayerParty{zwsp}/cac:PartyIdentification{zwsp}/cbc:ID
+---- 
+
+|*_"Unpublish" fields_* a|
+_BT-712_
+
+Cf. <<lotResultLevelSection>>
+
+| | 
+
+|*Buyer Review Complainants (BT-712)* |The number of organisations that
+requested the buyer to review any of its decisions (e.g. the technical
+specifications, award decision). |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:AppealRequestsStatistics[efbc:StatisticsCode{zwsp}/@listName='review-type']{zwsp}/efbc:StatisticsNumeric
+----
+
+
+|*Buyer Review Requests Irregularity Type (BT-636)* a|
+The type of irregularity alleged in the review requests.
+
+(Code from the
+https://op.europa.eu/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/irregularity-type[Irregularity
+Type] codelist)
+
+|***
+a|
+[source,xpath,subs=attributes]
+----
+efac:AppealRequestsStatistics[efbc:StatisticsCode{zwsp}/@listName='irregularity-type']{zwsp}/efbc:StatisticsCode
+----
+
+
+|*Buyer Review Requests Count (BT-635)* |The number of requests the
+buyer received to review any of its decisions. |***
+a|
+[source,xpath,subs=attributes]
+----
+efac:AppealRequestsStatistics[efbc:StatisticsCode{zwsp}/@listName='irregularity-type']{zwsp}/efbc:StatisticsNumeric
+----
+
+
+|*_"Unpublish" fields_* a|
+_BT-144_
+
+Cf. <<lotResultLevelSection>>
+
+|*?* | 
+
+|*Not Awarded Reason (BT-144)* a|
+The reason for not choosing a winner.
+
+(Code from the
+https://op.europa.eu/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/non-award-justification[Non
+Award Justification] codelist)
+
+|*1* a|
+[source,xpath,subs=attributes]
+----
+efac:DecisionReason{zwsp}/efbc:DecisionReasonCode
+---- 
+
+|*_Tender Identifier Reference (OPT-320)_* a|
+_Identifier to refer to the appropriate Tender object._
+
+_Shall follow the "TEN-XXXX" scheme._
+
+|*_*_* a|
+[source,xpath,subs=attributes]
+----
+efac:LotTender{zwsp}/cbc:ID
+---- 
+
+|*_"Unpublish" fields (Framework)_* a|
+_BT-709, BT-660_
+
+Cf. <<lotResultLevelSection>>
+
+| | 
+
+|*Framework Estimated Value (BT-660)* |The estimated value which can be
+spent within a framework agreement over its whole duration, including
+options and renewals. |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:FrameworkAgreementValues{zwsp}/cbc:EstimatedMaximumValueAmount
+---- 
+
+|*Framework Maximum Value (BT-709)* |The maximum value which can be
+spent within a framework agreement over its whole duration, including
+options and renewals. |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:FrameworkAgreementValues{zwsp}/cbc:MaximumValueAmount
+---- 
+
+|*_"Unpublish" fields_* a|
+(BT-759, BT-760)
+
+Cf. <<lotResultLevelSection>>
+
+|*** | 
+
+|*Received Submissions Type (BT-760)* |The type of tenders or requests
+to participate received. The total number of tenders received must be
+given. When a notice does not fall under Directive 2009/81/EC and is not
+about social or other specific services, the number of tenders received
+from micro, small and medium enterprises; the number of tenders received
+from tenderers registered in other European Economic Area countries and
+the number of tenders received from tenderers registered in countries
+outside of the European Economic Area must also be given. All tenders
+must be counted, regardless of whether they are admissible or
+inadmissible. For tenders submitted by a group of tenderers (e.g. a
+consortium), the tender must be counted in the relevant category (e.g.
+SME) if the majority of the work is expected to be done by tenderers
+which fall within this category (e.g. they are SMEs). |***
+a|
+[source,xpath,subs=attributes]
+----
+efac:ReceivedSubmissionsStatistics{zwsp}/efbc:StatisticsCode
+---- 
+
+|*Received Submissions Count (BT-759)* |Number of tenders or requests to
+participate received. Tenders including variants or multiple tenders
+submitted (for one lot) by the same tenderer should be counted as one
+tenderfootnote:[When referring to "tender", it should be understood "LotTender". When a
+received tender applies for multiple lots and groups of lots, there will
+be as many LotTenders as the number of lots and group of lots tendered.
+For groups of lots, the same LotTender will be counted as many times as
+the number of lots (once for every LotTender relative to the lots it is
+composed of).].
+|*** a|
+[source,xpath,subs=attributes]
+----
+efac:ReceivedSubmissionsStatistics{zwsp}/efbc:StatisticsNumeric
+---- 
+
+|*_Contract Identifier Reference (OPT-315)_* a|
+_Identifier to refer to the appropriate settled contract. +
+If the lot has been awarded (i.e. "selec-w" result code), then there
+shall be at least one of such element._
+
+_Shall follow the scheme "CON-XXXX"_
+
+|*_*_* a|
+[source,xpath,subs=attributes]
+----
+efac:SettledContract{zwsp}/cbc:ID
+---- 
+
+|*Vehicle Type (OPT-155)* |"labels" for types of vehicles (BT-715, BT-716 &
+BT-725) |*** a|
+[source,xpath,subs=attributes]
+----
+efac:StrategicProcurementStatistics{zwsp}/efbc:StatisticsCode
+---- 
+
+|*Vehicle Numeric (OPT-156)* |"values" for types of vehicles (BT-715,
+BT-716 & BT-725) |***
+a|
+[source,xpath,subs=attributes]
+----
+efac:StrategicProcurementStatistics{zwsp}/efbc:StatisticsNumeric
+---- 
+
+|*_Result Lot Identifier (BT-13713)_* a|
+_Reference to the lot this result is about._
+
+_Shall follow the scheme "LOT-XXXX" (LotResult only applies to lots)._
+
+|*_1_* a|[source,xpath,subs=attributes]
+----
+efac:TenderLot{zwsp}/cbc:ID
+----
+
+4+a|
+
+*Context:*
+
+(*)
+[source,xpath,subs=attributes]
+----
+/ContractAwardNotice{zwsp}/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:NoticeResult{zwsp}/efac:LotResult
+----
+
+|===
+
+An XML instance excerpt is provided below for illustration:
+
+[source,xml]
+----
+<efac:NoticeResult>
+    <!-- Interrupted Mark-up -->
+    <efac:LotResult>
+        <cbc:HigherTenderAmount currencyID="EUR">4560000</cbc:HigherTenderAmount>
+        <cbc:LowerTenderAmount currencyID="EUR">1230000</cbc:LowerTenderAmount>
+        <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+        <cac:FinancingParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:FinancingParty>
+        <cac:FinancingParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:FinancingParty>
+        <cac:PayerParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:PayerParty>
+        <cac:PayerParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:PayerParty>
+        <efac:AppealRequestsStatistics>
+            <efbc:StatisticsCode listName="irregularity-type">insuf-timl</efbc:StatisticsCode>
+            <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+        </efac:AppealRequestsStatistics>
+        <efac:AppealRequestsStatistics>
+            <efbc:StatisticsCode listName="irregularity-type">unj-lim-subc</efbc:StatisticsCode>
+            <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+        </efac:AppealRequestsStatistics>
+        <!-- Interrupted MarkUp -->
+        <efac:DecisionReason>
+            <efbc:DecisionReasonCode listName="non-award-justification">no-rece
+            </efbc:DecisionReasonCode>
+        </efac:DecisionReason>
+        <efac:LotTender>
+            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+        </efac:LotTender>
+        <efac:LotTender>
+            <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+        </efac:LotTender>
+        <efac:LotTender>
+            <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+        </efac:LotTender>
+        <efac:FrameworkAgreementValues>
+            <cbc:EstimatedMaximumValueAmount currencyID="EUR">123</cbc:EstimatedMaximumValueAmount>
+            <cbc:MaximumValueAmount currencyID="EUR">12345</cbc:MaximumValueAmount>
+        </efac:FrameworkAgreementValues>
+        <efac:ReceivedSubmissionsStatistics>
+            <efbc:StatisticsCode>sme</efbc:StatisticsCode>
+            <efbc:StatisticsNumeric>12</efbc:StatisticsNumeric>
+        </efac:ReceivedSubmissionsStatistics>
+        <efac:ReceivedSubmissionsStatistics>
+            <efbc:StatisticsCode>eu</efbc:StatisticsCode>
+            <efbc:StatisticsNumeric>6</efbc:StatisticsNumeric>
+        </efac:ReceivedSubmissionsStatistics>
+        <efac:SettledContract>
+            <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+        </efac:SettledContract>
+        <efac:SettledContract>
+            <cbc:ID schemeName="contract">CON-0003</cbc:ID>
+        </efac:SettledContract>
+        <efac:StrategicProcurementStatistics>
+            <efbc:StatisticsCode listName="vehicles">vehicles</efbc:StatisticsCode>
+            <efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+        </efac:StrategicProcurementStatistics>
+        <efac:StrategicProcurementStatistics>
+            <efbc:StatisticsCode listName="vehicles">vehicles-zero-emission</efbc:StatisticsCode>
+            <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+        </efac:StrategicProcurementStatistics>
+        <!-- Interrupted Markup -->
+        <efac:TenderLot>
+            <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        </efac:TenderLot>
+    </efac:LotResult>
+    <!-- Interrupted Mark-up -->
+</efac:NoticeResult>
+----
+
+[[lotTenderSection]]
+== Lot Tender
+
+LotTenders are the results of the decomposition of a received tender
+into fragments, each corresponding to a lot or group of lots.
+
+Multiple information items may be found in a LotTender:
+
+* The LotTender ID,
+
+* The Tender Rank,
+
+* The Public transportation cumulated distance (for T02 form
+only),
+
+* Whether the tender is a variant or not,
+
+* The tender value,
+
+* Paid & penalties amounts (for _"Contract Completion_" only),
+
+* Concession revenues,
+
+* Contract terms,
+
+* Origin of goods or service,
+
+* Subcontracting terms,
+
+* Reference to the "Contracting Party" that submitted the
+tender,
+
+* Reference to the Lot or Group of lots the tender is about
+
+[[lotTenderInformationFigure]]
+.Lot Tender information
+image::image016.jpg[image,width=317,height=407]
+
+
+[[lotTenderComponentsTable]]
+.LotTender components
+[width="100%",cols="<.^15%,<.^50%,^.^5%,<.^30%",]
+|===
+^|*eForms BT* ^|*Description* |*Cardin.* ^|*XSD element* 
+
+
+4+^|*Lot Tender (+++*+++)* 
+
+|*_"Unpublish" fields_* a|
+_(BT-171, BT-193, BT-720)_
+
+_Cf. <<lotTenderLevelSection>>_
+
+| | 
+
+|*Tender Identifier (BT-3201)* |An identifier of a tender. The
+information in the tender section refers to this tender. |*1* a|
+[source,xpath,subs=attributes]
+----
+cbc:ID
+---- 
+
+|*Tender Rank (BT-171)* |The position of the tender (i.e. whether the
+tender ended up first, second, third, etc.) in a design contest, some
+framework agreements with multiple winners (e.g. cascades) or an
+innovation partnership. |*?* a|
+[source,xpath,subs=attributes]
+----
+cbc:RankCode
+---- 
+
+|*Kilometers Public Transport (OPP-080)* |Aggregated number of public
+transportation kilometers over the whole duration of the contract (T02
+form only) |*1* a|
+[source,xpath,subs=attributes]
+----
+efbc:PublicTransportationCumulatedDistance
+---- 
+
+|*Tender Variant (BT-193)* |The tender is a variant. |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efbc:TenderVariantIndicator
+---- 
+
+|*_"Unpublish" fields_* a|
+_(BT-160, BT-162, BT-163)_
+
+_Cf. <<lotTenderLevelSection>>_
+
+| |
+
+|*Concession Revenue Buyer (BT-160)* |The estimated revenue coming from
+the buyer who granted the concession (e.g. prizes and payments). |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:ConcessionRevenue{zwsp}/efbc:RevenueBuyerAmount
+---- 
+
+|*Concession Revenue User (BT-162)* |The estimated revenue coming from
+the users of the concession (e.g. fees and fines). |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:ConcessionRevenue{zwsp}/efbc:RevenueUserAmount
+---- 
+
+|*Concession Value Description (BT-163)* |The description of the method
+used for calculating the estimated value of the concession and any other
+relevant information concerning the value of the concession. |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:ConcessionRevenue{zwsp}/efbc:ValueDescription
+---- 
+
+|*Tender Value (BT-720)* |The value of the tender or another result;
+including options and renewals. In case of the modification notice, the
+value of the modification. |*?*
+a|
+[source,xpath,subs=attributes]
+----
+cac:LegalMonetaryTotal{zwsp}/cbc:PayableAmount
+---- 
+
+|*_"Unpublish" fields_* a|
+_(BT-191)_
+
+_Cf. <<lotTenderLevelSection>>_
+
+| |
+
+|*Country Origin (BT-191)* |A country of origin of the product or the
+service. |*?* a|
+[source,xpath,subs=attributes]
+----
+efac:Origin{zwsp}/efbc:AreaCode
+---- 
+
+|*Tender Payment Value (BT-779)* |The value of all payments executed for
+the tender or another result, including options and renewals. (E5 only)
+|*?* a|
+[source,xpath,subs=attributes]
+----
+efac:AggregatedAmounts{zwsp}/cbc:PaidAmount
+---- 
+
+|*Tender Payment Value Additional Information (BT-780)* |Additional
+information about the value of all payments executed for the tender or
+another result, including options and renewals (e.g. justification for
+the actual value being different from the value given in the initial
+contract). (E5 only) |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:AggregatedAmounts{zwsp}/efbc:PaidAmountDescription
+---- 
+
+|*Tender Penalties (BT-782)* |The value of all penalties paid by the
+winner as a result of late or insufficient implementation of the tender
+or another result. (E5 only) |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:AggregatedAmounts{zwsp}/efbc:PenaltiesAmount
+---- 
+
+|*Penalties and Rewards Code (OPP-033)* |Code for "_Information on
+rewards & penalties_" (T02 only) |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:ContractTerm{zwsp}/efbc:TermCode[@listName='rewards-penalties']
+---- 
+
+|*Penalties and Rewards Description (OPP-034)* |Description for
+"_Information on rewards & penalties_" (T02 only) |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:ContractTerm[efbc:TermCode{zwsp}/@listName='rewards-penalties']{zwsp}/efbc:TermDescription
+----
+
+|*Contract conditions Code (OPP-030)* |Code for the contract conditions
+(T02 only) |***
+a|
+[source,xpath,subs=attributes]
+----
+efac:ContractTerm{zwsp}/efbc:TermCode[@listName='contract-term']
+---- 
+
+|*Contract conditions Description (other than revenue allocation)
+(OPP-031)* |Description for the contract conditions other than
+"_Allocation of revenue of sales from tickets_" (T02 only) |***
+a|
+[source,xpath,subs=attributes]
+----
+efac:ContractTerm[not(efbc:TermCode{zwsp}/text()='all-rev-tic')][efbc:TermCode{zwsp}/@listName='contract-term']{zwsp}/efbc:TermDescription
+----
+
+
+|*Revenues Allocation (OPP-032)* |Percentage for the "_Allocation of
+revenue of sales from tickets_" (contract conditions -- T02 only) |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:ContractTerm[efbc:TermCode{zwsp}/text()='all-rev-tic']{zwsp}/efbc:TermPercent
+----
+
+
+|*_"Unpublish" fields_* a|
+_subcontract terms (BT-553, BT-554, BT-555, BT-730, BT-731, BT-773)_
+
+_Cf. <<lotTenderLevelSection>>_
+
+| |
+
+|*Subcontracting Value (BT-553)* |The estimated value of the part of the
+contract that the contractor will subcontract to third parties. |*1*
+a|
+[source,xpath,subs=attributes]
+----
+efac:SubcontractingTerm{zwsp}/efbc:TermAmount
+---- 
+
+|*Subcontracting Description (BT-554)* |The description of the part of
+the contract that the contractor will subcontract to third parties. |*1*
+a|
+[source,xpath,subs=attributes]
+----
+efac:SubcontractingTerm{zwsp}/efbc:TermDescription
+---- 
+
+|*Subcontracting Percentage (BT-555)* |The estimated percentage of the
+contract that the contractor will subcontract to third parties compared
+to the whole contract. |*1* a|
+[source,xpath,subs=attributes]
+----
+efac:SubcontractingTerm{zwsp}/efbc:TermPercent
+---- 
+
+|*Subcontracting (BT-773)* |Whether at least a part of the contract will
+be subcontracted |*?* a|
+[source,xpath,subs=attributes]
+----
+efac:SubcontractingTerm{zwsp}/efbc:TermCode
+---- 
+
+|*Subcontracting Percentage Known (BT-731)* |The buyer knows at least
+the estimated percentage of the contract that the contractor will
+subcontract to third parties compared to the whole contract. |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:SubcontractingTerm{zwsp}/efbc:PercentageKnownIndicator
+---- 
+
+|*Subcontracting Value Known (BT-730)* |The buyer knows at least the
+estimated value of the part of the contract that the contractor will
+subcontract to third parties. |*?*
+a|
+[source,xpath,subs=attributes]
+----
+efac:SubcontractingTerm{zwsp}/efbc:ValueKnownIndicator
+---- 
+
+|*Tendering Party ID Reference (OPT-310)* a|
+Reference to the Tendering Party that submitted the LotTender.
+
+Shall follow the scheme "TPA-XXXX"
+
+|*1* a|
+[source,xpath,subs=attributes]
+----
+efac:TenderingParty{zwsp}/cbc:ID
+---- 
+
+|*Tender Lot Identifier (BT-13714)* a|
+An identifier of a lot or a group of lots for which the tender was
+submitted. The information in the tender section refers to this lot.
+
+Shall follow the appropriate scheme "LOT-XXXX" or "GLO-XXXX"
+
+|*1* a|[source,xpath,subs=attributes]
+----
+efac:TenderLot{zwsp}/cbc:ID 
+----
+
+4+a|
+
+*Context:*
+
+(+++*+++)
+[source,xpath,subs=attributes]
+----
+/ContractAwardNotice{zwsp}/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:NoticeResult{zwsp}/efac:LotTender
+----
+
+|===
+
+An XML instance excerpt is provided below for illustration:
+
+[source,xml]
+----
+<efac:NoticeResult>
+    <!-- Interrupted Mark-up -->
+    <efac:LotTender>
+        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+        <cbc:RankCode>1</cbc:RankCode>
+        <efbc:TenderVariantIndicator>true</efbc:TenderVariantIndicator>
+        <cac:LegalMonetaryTotal>
+            <cbc:PayableAmount currencyID="EUR">500</cbc:PayableAmount>
+        </cac:LegalMonetaryTotal>
+        <efac:AggregatedAmounts>
+            <cbc:PaidAmount currencyID="EUR">480</cbc:PaidAmount>
+            <efbc:PaidAmountDescription languageID="ENG">An amount of ...</efbc:PaidAmountDescription>
+            <efbc:PenaltiesAmount currencyID="EUR">23</efbc:PenaltiesAmount>
+        </efac:AggregatedAmounts>
+        <efac:ConcessionRevenue>
+            <efbc:RevenueBuyerAmount currencyID="EUR">350</efbc:RevenueBuyerAmount>
+            <efbc:RevenueUserAmount currencyID="EUR">350</efbc:RevenueUserAmount>
+            <efbc:ValueDescription>Bla bla bla ...</efbc:ValueDescription>
+        </efac:ConcessionRevenue>
+        <efac:Origin>
+            <efbc:AreaCode listName="country">FRA</efbc:AreaCode>
+        </efac:Origin>
+        <efac:Origin>
+            <efbc:AreaCode listName="country">ITA</efbc:AreaCode>
+        </efac:Origin>
+        <efac:SubcontractingTerm>
+            <efbc:TermDescription languageID="ENG">Bla bli bla bli ...</efbc:TermDescription>
+            <efbc:TermPercent>20</efbc:TermPercent>
+            <efbc:TermCode listName="applicability">yes</efbc:TermCode>
+            <efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+            <efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
+        </efac:SubcontractingTerm>
+        <efac:TenderingParty>
+            <cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+        </efac:TenderingParty>
+        <efac:TenderLot>
+            <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+        </efac:TenderLot>
+    </efac:LotTender>
+    <efac:LotTender>
+        <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+        <!-- Interrupted MarkUp -->
+    </efac:LotTender>
+    <efac:LotTender>
+        <cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+        <!-- Interrupted MarkUp -->
+    </efac:LotTender>
+    <!-- Interrupted MarkUp -->
+</efac:NoticeResult>
+----
+
+[[settledContractSection]]
+== Settled Contract
+
+SettledContract covers the following information:
+
+* The Contract identifier,
+
+* The award date,
+
+* The issue date,
+
+* The contract title,
+
+* The URL where the contract could be found,
+
+* Whether the contract is awarded within a Framework Agreement,
+
+* The reference to the notice (ID & version) relative to the
+Framework Agreement when applicable,
+
+* References to the signatories,
+
+* Contract Duration Justification (for T02 only),
+
+* References to the Lot Tenders that, combined together, lead to
+the contract,
+
+* EU funds names & IDs.
+
+[[lotResultFigure]]
+.Settled Contract information
+image::image017.jpg[image,width=306,height=358]
+
+[[settledContractComponentsTable]]
+.Settled Contract components
+[width="100%",cols="<.^15%,<.^50%,^.^5%,<.^30%",]
+|===
+^|*eForms BT* ^|*Description* |*Cardin.* ^|*XSD element*
+
+4+^|*Settled Contract (+++*+++)* 
+
+|*_Contract Modification_* | | |
+
+|*Contract Identifier (BT-150)* |An identifier of the contract or, in
+case of voluntary-ex ante transparency notices and design contest result
+notices, of the decision. The information in the contract section refers
+to this contract or decision. |*1* a|
+[source,xpath,subs=attributes]
+----
+cbc:ID
+---- 
+
+|*Winner Decision Date (BT-1451)* |The date of the official decision
+choosing the winning tender. |*?* a|
+[source,xpath,subs=attributes]
+----
+cbc:AwardDate
+---- 
+
+|*Contract Conclusion Date (BT-145)* |The date when the contract was
+concluded. Typically, this is the date when the last contractual party
+signed the contract. However, if no contract is signed, then the date of
+contract conclusion may correspond to other dates (e.g. the date when
+the buyer notified the winning tenderer). The date of contract
+conclusion is always later than the end of the standstill period and
+only once any evidence submitted by the winner has been verified. |*?*
+a|
+[source,xpath,subs=attributes]
+----
+cbc:IssueDate
+---- 
+
+|*Contract Title (BT-721)* |The name of the contract or, in case of
+voluntary-ex ante transparency notices and design contest result
+notices, of the decision. |*?* a|
+[source,xpath,subs=attributes]
+----
+cbc:Title
+---- 
+
+|*Contract URL (BT-151)* |The uniform resource locator (e.g. the web
+address) of the contract. |*?* a|
+[source,xpath,subs=attributes]
+----
+cbc:URI
+---- 
+
+|*Contract Framework Agreement (BT-768)* |The contract is awarded within
+a framework agreement. |*?* a|
+[source,xpath,subs=attributes]
+----
+efbc:ContractFrameworkIndicator
+---- 
+
+|*Framework Notice Identifier (OPT-100)* |ID of the notice related to
+the Framework Contract under which the current contract takes place |*?*
+a|
+[source,xpath,subs=attributes]
+----
+cac:NoticeDocumentReference/cbc:ID
+---- 
+
+|*Signatory Identifier Reference (OPT-300)* a|
+
+Organisation signing the contract
+
+|*_+_* a|
+[source,xpath,subs=attributes]
+----
+cac:SignatoryParty{zwsp}/cac:PartyIdentification{zwsp}/cbc:ID
+---- 
+
+|*Contract Tender ID (Reference, BT-3202)* |An identifier of the tender
+or another result that led to this contract. |*+* a|
+[source,xpath,subs=attributes]
+----
+efac:LotTender{zwsp}/cbc:ID
+----
+
+
+|*_Assets related contract extension indicator (OPP-020)_* |Extended
+contract duration due to essential assets necessary for the provision of
+the service (T02 only) |*1*
+a|
+[source,xpath,subs=attributes]
+----
+efac:DurationJustification{zwsp}/efbc:ExtendedDurationIndicator
+---- 
+
+|*_Used asset (OPP-021)_* |List of assets used for the provision of the
+public transportation services: (T02 only) |***
+a|
+[source,xpath,subs=attributes]
+----
+efac:DurationJustification{zwsp}/efac:AssetsList{zwsp}/efac:Asset{zwsp}/efbc:AssetDescription
+----
+
+
+|*_Significance (%) (OPP-022)_* |Significance of the essential assets
+provided in relation to the overall assets needed for the provision of
+the public services (estimated % share of assets provided in overall
+assets used to provide services under contract): (T02 only) |***
+a|
+[source,xpath,subs=attributes]
+----
+efac:DurationJustification{zwsp}/efac:AssetsList{zwsp}/efac:Asset{zwsp}/efbc:AssetSignificance
+----
+
+
+|*_Predominance (%) (OPP-023)_* |Predominant use of assets (estimated
+% share of assets provided compared to assets used for activities other
+than the public services): (T02 only) |***
+a|
+[source,xpath,subs=attributes]
+----
+efac:DurationJustification{zwsp}/efac:AssetsList{zwsp}/efac:Asset{zwsp}/efbc:AssetPredominance
+----
+
+
+|*Contract EU Funds Identifier (BT-5011)* |An identifier of the European
+Union funds used to at least partially finance the contract. The most
+concrete information must be given (e.g. about concrete projects, not
+just operational programs.) |*?* a|
+[source,xpath,subs=attributes]
+----
+efac:Funding{zwsp}/cbc:FundingProgramCode
+---- 
+
+|*Contract EU Funds Name (BT-722)* |The name of the European Union funds
+used to at least partially finance the contract. The most concrete
+information must be given (e.g. about concrete projects, not just
+operational programs.) |*?* |efac:Funding{zwsp}/cbc:FundingProgram 
+
+4+a|
+
+*Context:*
+
+(+++*+++)
+[source,xpath,subs=attributes]
+----
+/ContractAwardNotice{zwsp}/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:NoticeResult{zwsp}/efac:SettledContract
+----
+
+|===
+
+An XML instance excerpt is provided below for illustration:
+
+[source,xml]
+----
+<efac:NoticeResult>
+    <!-- Interrupted MarkUp -->
+    <efac:SettledContract>
+        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+        <cbc:AwardDate>2021-02-19</cbc:AwardDate>
+        <cbc:IssueDate>2021-02-21</cbc:IssueDate>
+        <cbc:Title languageID="ENG">My contract title</cbc:Title>
+        <cbc:URI>http://mycontract.acme.com/1234/</cbc:URI>
+        <efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
+        <cac:NoticeDocumentReference>
+            <cbc:ID schemeName="ojs-notice-id">62783-2020</cbc:ID>
+            <cbc:ReferencedDocumentInternalAddress>RES-OOO3</cbc:ReferencedDocumentInternalAddress>
+        </cac:NoticeDocumentReference>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:SignatoryParty>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+            </cac:PartyIdentification>
+        </cac:SignatoryParty>
+        <efac:LotTender>
+            <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+        </efac:LotTender>
+        <efac:LotTender>
+            <cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+        </efac:LotTender>
+        <efac:Funding>
+            <cbc:FundingProgramCode listName="eu-programme">ABC123</cbc:FundingProgramCode>
+            <cbc:FundingProgram>Program for the development ...</cbc:FundingProgram>
+        </efac:Funding>
+    </efac:SettledContract>
+    <efac:SettledContract>
+        <!-- Contract Identifier (BT-150) -->
+        <cbc:ID schemeName="contract">CON-0002</cbc:ID>
+        <!-- Interrupted MarkUp -->
+    </efac:SettledContract>
+    <!-- Interrupted MarkUp -->
+</efac:NoticeResult>
+----
+
+[[tenderingPartySection]]
+== Tendering Party
+
+The Tendering Party is about the tenderer who submitted alone, or group
+of tenderers who submitted together, a tender.
+
+This party has various information associated to it as shown on Figure
+1:
+
+* A technical identifier,
+
+* References to tenderers (at least one) who submitted a given
+tender,
+
+* When multiple tenderers tender together, an indicator to
+identify the group leader,
+
+* References to all subcontractors with a reference for each of
+them to the main contractor(s) they are providing services to.
+
+[[tenderingPartyFigure]]
+.Tendering Party information
+image::image018.jpg[image,width=422,height=223]
+
+<<tenderingPartyComponentsTable>> provides further details on the Tendering Party components.
+
+[[tenderingPartyComponentsTable]]
+.Tendering Party components
+[width="100%",cols="<.^15%,<.^50%,^.^5%,<.^30%",]
+|===
+^|*eForms BT* ^|*Description* |*Cardin.* ^|*XSD element* 
+
+4+^|*Tendering Party (+++*+++)* 
+
+a|
+*Tendering Party ID*
+
+*(OPT-210)*
+
+a|
+Unique Tendering Party technical identifier.
+
+Shall follow the scheme TPA-XXXX
+
+Reference to the Tendering Party will be made from the Tender
+
+|*1* a|
+[source,xpath,subs=attributes]
+----
+cbc:ID
+---- 
+
+a|
+*Tenderer ID Reference*
+
+*(OPT-300)*
+
+a|
+Reference to the principal Organization(s) belonging to the Tendering
+Party.
+
+Shall be of the form ORG-XXXX and exist at the level of the
+Organizations.
+
+|*+* a|
+[source,xpath,subs=attributes]
+----
+efac:Tenderer{zwsp}/cbc:ID
+---- 
+
+a|
+*Tendering Party Leader*
+
+*(OPT-170)*
+
+a|
+Indicator used to specify whether the tenderer has the lead in the case
+of a consortium or equivalent.
+
+Only required when at least two Tenderers are listed. For a given
+Tendering Party with multiple tenderers, there should be one and only
+one leader.
+
+|*** a|
+[source,xpath,subs=attributes]
+----
+efac:Tenderer{zwsp}/efbc:GroupLeadIndicator
+---- 
+
+a|
+*Subcontractor ID Reference*
+
+*(OPT-301)*
+
+a|
+Reference to the Organization(s) acting as a subcontractor for one of
+the tenderers.
+
+Shall be of the form ORG-XXXX and exist at the level of the
+Organizations.
+
+|*** a|
+[source,xpath,subs=attributes]
+----
+efac:SubContractor{zwsp}/cbc:ID
+---- 
+
+a|
+*Main Contractor ID Reference*
+
+*(OPT-301)*
+
+a|
+Reference to the Organization the subcontractor is providing services
+to.
+
+The reference ID shall be of the form ORG-XXXX, this ID shall exist at
+the level of the Organizations and this Organization shall be one of the
+tenderers listed as member of the Tendering Party.
+
+|*** |efac:SubContractor{zwsp}/efac:MainContractor{zwsp}/cbc:ID 
+
+4+a|
+*Context:*
+
+(+++*+++)
+[source,xpath,subs=attributes]
+----
+/ContractAwardNotice{zwsp}/ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:NoticeResult{zwsp}/efac:TenderingParty
+----
+
+|===
+
+A sample mark-up is provided below for illustration purpose. It deals
+with the situation where two tenderers (ORG-0005 and ORG-0008) submitted
+a common tender. The tenderers are involving subcontractors (ORG-0012
+and ORG-0015):
+
+[source,xml]
+----
+<efac:NoticeResult>
+    <!-- Interrupted Mark-up -->
+    <efac:TenderingParty>
+        <cbc:ID schemeName="tendering-party">TPA-0003</cbc:ID>
+        <efac:Tenderer>
+            <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+            <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+        </efac:Tenderer>
+        <efac:Tenderer>
+            <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+            <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+        </efac:Tenderer>
+        <efac:SubContractor>
+            <cbc:ID schemeName="organization">ORG-0012</cbc:ID>
+            <efac:MainContractor>
+                <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+            </efac:MainContractor>
+            <efac:MainContractor>
+                <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+            </efac:MainContractor>
+        </efac:SubContractor>
+        <efac:SubContractor>
+            <cbc:ID schemeName="organization">ORG-0015</cbc:ID>
+            <efac:MainContractor>
+                <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+            </efac:MainContractor>
+        </efac:SubContractor>
+    </efac:TenderingParty>
+</efac:NoticeResult>
+----

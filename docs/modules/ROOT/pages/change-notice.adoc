@@ -1,0 +1,185 @@
+:xrefstyle: short
+
+= Change Notice
+
+As indicated previously, the purpose of change notices is multifold:
+
+* Correct a value reported in a previous version of the same
+notice (also often referred to as Corrigenda),
+
+* Inform about changes to information not inside the notice
+(e.g. changed procurement documents),
+
+Changes may apply to notices of any form type. A change notice may only
+concern a single notice and  contains all the information from that
+initial notice with applied changes in addition to the information on
+those changes.
+
+When a change is applied to a previous change notice, the consolidated
+text must integrate all changes from previous versions, and only the
+latest changes are described in the changes section. This section will
+allow to report:
+
+* The identifier of the changed notice,
+
+* The changes that may individually apply to one or more sections,
+concern procurement documents and other information,
+
+* The main reason that led to the Change Notice creation.
+
+A change notice will have its own identifier and version; its identifier
+will differ from the one of the changed notice.
+
+When applying changes, it is essential to ensure that the variations do
+not need the start of a new procedure instead.
+
+The changes are indicated using the dedicated extension elements at the
+root of the notice.
+
+[[changedNoticeSection]]
+== Changed Notice
+
+To identify the changed notice, the following business term is used:
+
+* Change Notice Version Identifier (BT-758)
+
+[[changeSection]]
+== Change
+
+A change may contain all the following elements:
+
+* Change Previous Section Identifier (BT-13716)
+
+* Procurement Documents Change Date (BT-719)
+
+* Procurement Documents Change Indicator (BT-718)
+
+* Change Description (BT-141)
+
+There must exist at least one “efac:Change” element in the Change Notice.
+
+A change may cover one or more sections of a notice and the element used to
+reference sections (i.e. BT-13716) is repeatable.
+
+The procurement documents-related elements indicate whether these
+documents have changed and when. For the indicator, both values “true”
+and “false” are allowed; when the value is set to “true”, the date the
+procurement documents have been changed must be specified, else the
+specification of this date is not allowed. 
+
+The decription is there for further information in a textual form.
+
+[[changeReasonSection]]
+== Change Reason
+
+Reason for a change shall be expressed using a code from the
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/change-corrig-justification[change-corrig-justification]
+codelist and additional information in the description:
+
+* Change Reason Code (BT-140)
+
+* Change Reason Description (BT-762)
+
+The use of the code is mandatory while the provision of the description
+is optional.
+
+[[changesElementsSection]]
+== Changes elements
+
+In <<changesAssociatedElementsTable>> are referenced the different business terms relative to
+changes and their corresponding elements.
+
+[[changesAssociatedElementsTable]]
+.Changes associated elements
+[cols="<.^20%,<.^40%,^.^10%,<.^30%",]
+|===
+^|*eForms BT* ^|*Description* |*Cardin.* ^|*XSD element* 
+
+|*Change Notice Version Identifier (BT-758)* |Reference to the Changed
+Notice Version |*1* a|
+[source,xpath]
+----
+efbc:ChangedNoticeIdentifier
+---- 
+
+|*Procurement Documents Change Date (BT-719)* |Date of procurement
+documents changes |*?* a|
+[source,xpath]
+----
+efac:Change/efbc:ProcurementDocumentsChangeDate
+---- 
+
+|*Procurement Documents Change Indicator (BT-718)* |Indication that
+procurement documents have changed |*?*
+a|
+[source,xpath]
+----
+efac:Change/efbc:ProcurementDocumentsChangeIndicator
+---- 
+
+|*Change Previous Section Identifier (BT-13716)* |Identification of the
+changed sections |*** a|
+[source,xpath]
+----
+efac:Change/efbc:ChangedSectionIdentifier
+----
+
+|*Change Description (BT-141)* |Description of the changes |***
+a|
+[source,xpath]
+----
+efac:Change/efbc:ChangeDescription
+---- 
+
+|*Change Reason Code (BT-140)* |Code to express the background
+reasons for the change |*1* a|
+[source,xpath]
+----
+efac:ChangeReason/cbc:ReasonCode
+---- 
+
+|*Change Reason Description (BT-762)* |The background reasons
+for the change expressed as text |*** a|
+[source,xpath]
+----
+efac:ChangeReason/efbc:ReasonDescription
+---- 
+|===
+
+[[sampleChangesSection]]
+== Sample changes
+
+A sample change mark-up is proposed below. It covers a text update as
+well as information about changes to procurement documents:
+
+[source,xml]
+----
+<ContractNotice>
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <efext:EformsExtension>
+                    <efac:Changes>
+                        <efbc:ChangedNoticeIdentifier schemeName="notice-id-ref">755db7f6-6aa1-453b-9087-1df5f7725112-02</efbc:ChangedNoticeIdentifier>
+                        <efac:Change>
+                            <efbc:ChangedSectionIdentifier>LOT-0001</efbc:ChangedSectionIdentifier>
+                            <efbc:ChangeDescription languageID="EN">The changes have been applied to ...</efbc:ChangeDescription>
+                        </efac:Change>
+                        <efac:Change>
+                            <efbc:ChangedSectionIdentifier>LOT-0002</efbc:ChangedSectionIdentifier>
+                            <efbc:ProcurementDocumentsChangeDate>2019-10-24</efbc:ProcurementDocumentsChangeDate>    
+                            <efbc:ProcurementDocumentsChangeIndicator>true</efbc:ProcurementDocumentsChangeIndicator>
+                            <efbc:ChangeDescription languageID="EN">Updated procurement documents</efbc:ChangeDescription>
+                        </efac:Change>
+                        <efac:ChangeReason>
+                            <efbc:ReasonCode listName="change-corrig-justification">update-add </efbc:ReasonCode>
+                            <efbc:ReasonDescription languageID="EN">Clerical corrections of ...</efbc:ReasonDescription>
+                        </efac:ChangeReason>
+                    </efac:Changes>
+                </efext:EformsExtension>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <!-- interrupted mark-up -->
+</ContractNotice>
+----
