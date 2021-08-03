@@ -2,7 +2,7 @@
 This release is a minor release affecting only the documentation.
 
 The documentation has been converted from a single Microsoft Word document to separate Asciidoc files, one per section.
-The [eForms SDK Documentation](https://op-ted.github.io/eForms-SDK) website is generated from this source using [Antora[(https://antora.org/).
+The [eForms SDK Documentation](https://op-ted.github.io/eForms-SDK) website is generated from this source using [Antora](https://antora.org/).
 
 Please note: in this release, the website is a single HTML page containing all the documentation.
 In the next release, the website will have separate HTML pages for each major section of the documentation.
