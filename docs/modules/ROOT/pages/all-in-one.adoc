@@ -25,17 +25,6 @@
 = eForms Schema Usage
 [[homeSection]]
 
-////
-// Cover Page not needed for the site.
-image:OP-Logo.png[image,width=150,height=127] 
-image:image002.png[image,width=722,height=128]
-image:image003.png[,scaledwidth=94.0%]
-image:image004.png[Abstract
-This document provides the required business insights as well as the
-technical guidance needed for an appropriate implementation of the eForms schemas.,scaledwidth=94.0%]
-image:image005.png[EFORMS SCHEMAS USAGE Version {revision} / {date},scaledwidth=94.0%]
-////
-
 [[disclaimerSection]]
 include::disclaimer.adoc[leveloffset=+1]
 
