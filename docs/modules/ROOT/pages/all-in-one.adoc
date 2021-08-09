@@ -25,37 +25,6 @@
 = eForms Schema Usage
 [[homeSection]]
 
-////
-// Cover Page not needed for the site.
-image:OP-Logo.png[image,width=150,height=127] 
-image:image002.png[image,width=722,height=128]
-image:image003.png[,scaledwidth=94.0%]
-image:image004.png[Abstract
-This document provides the required business insights as well as the
-technical guidance needed for an appropriate implementation of the eForms schemas.,scaledwidth=94.0%]
-image:image005.png[EFORMS SCHEMAS USAGE Version {revision} / {date},scaledwidth=94.0%]
-////
-
-*List of distributions*
-
-[cols="^.^5%,^.^10%,<.^35%,<.^50%",]
-|===
-|*Version* |*Date* ^.^|*Recipients* ^.^|*Purpose*
-|1.0 |06/03/2020 |eSenders |Initial release
-|1.1 |20/05/2020 |eSenders |2^nd^ release
-|1.2 |19/05/2021 |eSenders |3^rd^ release
-|===
-
-*Revision*
-
-[cols="^.^5%,^.^10%,<.^35%,<.^50%",]
-|===
-|*Version* |*Date* ^.^|*Author* ^.^|*Description*
-|1.0 |24/02/2020 |YJO |Initial
-|1.1 |20/05/2020 |YJO |XPATHs and associated text updates
-|1.2 |19/05/2021 |YJO |...
-|===
-
 [[disclaimerSection]]
 include::disclaimer.adoc[leveloffset=+1]
 

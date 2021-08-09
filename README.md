@@ -10,7 +10,7 @@ This project aims to provide the necessary tools for being able to build valid e
 It is composed of the following:
 - `schemas`: This folder contains a provisional release of the schemas. There are based on Pre-Award document types of the [UBL 2.3 standard](https://docs.oasis-open.org/ubl/UBL-2.3.html).
 The adopted approach is to keep the whole set of UBL elements but only support the use of a subset. It provides the advantage of having the rules outside of the schema. Adding extra fields for which a UBL element already exists will not require the definition of a new schema.
-- `docs`: This folder contains documentation in English which provides explanations and snippets in addition to the schema.
+- `docs`: This folder contains source files in Asciidoc format for the eForms documentation. The documentation is in English and provides explanations and snippets in addition to the schema. The documentation is available in readable HTML format at https://op-ted.github.io/eForms-SDK.
 - `schematrons`: This folder contains Schematron rules which are used to check the validity of notices as per the eForms regulation. Any kind of rule or constraint is implemented in Schematron.
 - `examples`: This folder contains some notice examples together with their validation report in SVRL.
 
