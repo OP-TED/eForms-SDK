@@ -37,7 +37,7 @@ The information is encoded using dedicated elements:
     <cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
     <efbc:ReasonDescription languageID="ENG">Information delayed publication because of ...</efbc:ReasonDescription>
     <efbc:ReasonDescription languageID="FRA">Publication de l'information ajournée parce que ...</efbc:ReasonDescription>
-    <efbc:PublicationDate>2025-03-31</efbc:PublicationDate>
+    <efbc:PublicationDate>2025-03-31+01:00</efbc:PublicationDate>
 </efac:FieldsPrivacy>
 ----
 
@@ -135,7 +135,7 @@ fields.
                         <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
                         <efbc:ReasonDescription languageID="ENG">Because ...</efbc:ReasonDescription>
                         <efbc:ReasonDescription languageID="FRA">Parce que ...</efbc:ReasonDescription>
-                        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                        <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                     </efac:FieldsPrivacy>
                     <efac:FieldsPrivacy>
                         <!-- # UNPUB-02 : The Notice Maximum Value (BT-118) will not be published until March 2nd, 2022 -->
@@ -143,7 +143,7 @@ fields.
                         <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
                         <efbc:ReasonDescription languageID="ENG">...</efbc:ReasonDescription>
                         <efbc:ReasonDescription languageID="FRA">...</efbc:ReasonDescription>
-                        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                        <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                     </efac:FieldsPrivacy>
                     <!-- # UNPUB-01 : Notice Value (BT-161) publication will be delayed -->
                     <cbc:TotalAmount currencyID="EUR">123456.00</cbc:TotalAmount>
@@ -156,7 +156,7 @@ fields.
                             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
                             <efbc:ReasonDescription languageID="ENG">The following ...</efbc:ReasonDescription>
                             <efbc:ReasonDescription languageID="FRA">L'information suivante ...</efbc:ReasonDescription>
-                            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                         </efac:FieldsPrivacy>
                         <efac:FieldsPrivacy>
                             <!-- # UNPUB-04 : The Group Maximum Value Lot Identifier (BT-556) will not be published until March 2nd, 2022 -->
@@ -164,7 +164,7 @@ fields.
                             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
                             <efbc:ReasonDescription languageID="ENG">...</efbc:ReasonDescription>
                             <efbc:ReasonDescription languageID="FRA">...</efbc:ReasonDescription>
-                            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                         </efac:FieldsPrivacy>
                         <!-- # UNPUB-03 : Group Maximum Value (BT-156) publication will be delayed -->
                         <efbc:GroupFrameworkValueAmount currencyID="EUR">1200000</efbc:GroupFrameworkValueAmount>
@@ -287,7 +287,7 @@ fields.
         <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
         <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
         <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
     </efac:FieldsPrivacy>
     <efac:FieldsPrivacy>
         <!-- # UNPUB-11 : Tender Value Lowest (BT-710) will not be published until March 2nd, 2022 -->
@@ -295,7 +295,7 @@ fields.
         <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
         <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
         <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
     </efac:FieldsPrivacy>
     <efac:FieldsPrivacy>
         <!-- # UNPUB-12 : Winner Chosen (BT-142) will not be published until March 2nd, 2022 -->
@@ -303,7 +303,7 @@ fields.
         <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
         <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
         <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
     </efac:FieldsPrivacy>
     <!-- # UNPUB-10 : Tender Value Highest (BT-711) publication will be delayed -->
     <cbc:HigherTenderAmount currencyID="EUR">456</cbc:HigherTenderAmount>
@@ -338,7 +338,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efbc:StatisticsCode listName="..">..</efbc:StatisticsCode>
         <!-- # UNPUB-13 : Review Requests (BT-712) publication will be delayed -->
@@ -354,7 +354,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <!-- # UNPUB-14 : Not Awarded Reason (BT-144) publication will be delayed -->
         <efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
@@ -375,7 +375,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <cbc:EstimatedMaximumValueAmount currencyID="EUR">123</cbc:EstimatedMaximumValueAmount>
         <!-- # UNPUB-15 : Maximum Value (BT-709) publication will be delayed -->
@@ -388,7 +388,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efac:FieldsPrivacy>
             <!-- # UNPUB-17 : Received Submissions Count (BT-759) will not be published until March 2nd, 2022 -->
@@ -396,7 +396,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification"></cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <!-- # UNPUB-16 : Received Submissions Type (BT-760) publication will be delayed -->
         <efbc:StatisticsCode>sme</efbc:StatisticsCode>
@@ -578,7 +578,7 @@ fields.
         <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
         <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
         <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
     </efac:FieldsPrivacy>
     <efac:FieldsPrivacy>
         <!-- # UNPUB-21 : Winning Tender Value (BT-720) will not be published until March 2nd, 2022 -->
@@ -587,7 +587,7 @@ fields.
         <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
         <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
         <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-        <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+        <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
     </efac:FieldsPrivacy>
     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
     <!-- # UNPUB-20 : Tender Rank (BT-171) publication will be delayed -->
@@ -611,7 +611,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efac:FieldsPrivacy>
             <!-- # UNPUB-23 : Concession Revenue Buyer (BT-160) will not be published until March 2nd, 2022 -->
@@ -620,7 +620,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efac:FieldsPrivacy>
             <!-- # UNPUB-24 : Value Concession Description (BT-163) will not be published until March 2nd, 2022 -->
@@ -629,7 +629,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <!-- # UNPUB-23 : Concession Revenue Buyer (BT-160) publication will be delayed -->
         <efbc:RevenueBuyerAmount currencyID="EUR">350</efbc:RevenueBuyerAmount>
@@ -658,7 +658,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <!-- # UNPUB-25 : Country Origin (BT-191) publication will be delayed -->
         <efbc:AreaCode listName="country">FRA</efbc:AreaCode>
@@ -675,7 +675,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efac:FieldsPrivacy>
             <!-- # UNPUB-27 : Subcontracting Percentage Known (BT-731) will not be published until March 2nd, 2022 -->
@@ -684,7 +684,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efac:FieldsPrivacy>
             <!-- # UNPUB-28 : Subcontracting Value (BT-553) will not be published until March 2nd, 2022 -->
@@ -693,7 +693,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efac:FieldsPrivacy>
             <!-- # UNPUB-29 : Subcontracting Percentage (BT-555) will not be published until March 2nd, 2022 -->
@@ -702,7 +702,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efac:FieldsPrivacy>
             <!-- # UNPUB-30 : Subcontracting Description (BT-554) will not be published until March 2nd, 2022 -->
@@ -711,7 +711,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <efac:FieldsPrivacy>
             <!-- # UNPUB-31 : Subcontracting (BT-773) will not be published until March 2nd, 2022 -->
@@ -720,7 +720,7 @@ fields.
             <cbc:ReasonCode listName="non-publication-justification">...</cbc:ReasonCode>
             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
         </efac:FieldsPrivacy>
         <!-- # UNPUB-28 : Subcontracting Value (BT-553) publication will be delayed -->
         <efbc:TermAmount currencyID="EUR">5667</efbc:TermAmount>
@@ -862,7 +862,7 @@ fields.
                                 <cbc:ReasonCode listName="non-publication-justification"> ...</cbc:ReasonCode>
                                 <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                                 <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                                <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                                <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                             </efac:FieldsPrivacy>
                         </efext:EformsExtension>
                     </ext:ExtensionContent>
@@ -886,7 +886,7 @@ fields.
                             <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
                             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                         </efac:FieldsPrivacy>
                         <efac:FieldsPrivacy>
                             <!-- # UNPUB-42 : Procedure Features (BT-88) will not be published until March 2nd, 2022 -->
@@ -894,7 +894,7 @@ fields.
                             <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
                             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                            <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                            <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                         </efac:FieldsPrivacy>
                     </efext:EformsExtension>
                 </ext:ExtensionContent>
@@ -916,7 +916,7 @@ fields.
                                 <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
                                 <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                                 <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                                <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                                <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                             </efac:FieldsPrivacy>
                             <efac:FieldsPrivacy>
                                 <!-- # UNPUB-44 : Procedure Accelerated Justification (BT-1351) will not be published until March 2nd, 2022 -->
@@ -924,7 +924,7 @@ fields.
                                 <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
                                 <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                                 <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                                <efbc:PublicationDate>2022-03-02</efbc:PublicationDate>
+                                <efbc:PublicationDate>2022-03-02+01:00</efbc:PublicationDate>
                             </efac:FieldsPrivacy>
                         </efext:EformsExtension>
                     </ext:ExtensionContent>
@@ -1112,7 +1112,7 @@ fields.
                             <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
                             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                            <efbc:PublicationDate>2022-04-01</efbc:PublicationDate>
+                            <efbc:PublicationDate>2022-04-01+01:00</efbc:PublicationDate>
                         </efac:FieldsPrivacy>
                         <efac:FieldsPrivacy>
                             <!-- # UNPUB-51 : Award Criterion Name (BT-734) will not be published until March 2nd, 2022 -->
@@ -1120,7 +1120,7 @@ fields.
                             <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
                             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                            <efbc:PublicationDate>2022-04-01</efbc:PublicationDate>
+                            <efbc:PublicationDate>2022-04-01+01:00</efbc:PublicationDate>
                         </efac:FieldsPrivacy>
                         <efac:FieldsPrivacy>
                             <!-- # UNPUB-52 : Award Criterion Description (BT-540) will not be published until March 2nd, 2022 -->
@@ -1128,7 +1128,7 @@ fields.
                             <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
                             <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                             <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                            <efbc:PublicationDate>2022-04-01</efbc:PublicationDate>
+                            <efbc:PublicationDate>2022-04-01+01:00</efbc:PublicationDate>
                         </efac:FieldsPrivacy>
                     </efext:EformsExtension>
                 </ext:ExtensionContent>
@@ -1143,7 +1143,7 @@ fields.
                                 <cbc:ReasonCode listName="non-publication-justification">..</cbc:ReasonCode>
                                 <efbc:ReasonDescription languageID="ENG">..</efbc:ReasonDescription>
                                 <efbc:ReasonDescription languageID="FRA">..</efbc:ReasonDescription>
-                                <efbc:PublicationDate>2022-04-01</efbc:PublicationDate>
+                                <efbc:PublicationDate>2022-04-01+01:00</efbc:PublicationDate>
                             </efac:FieldsPrivacy>
                             <!-- # UNPUB-53 : Award Criterion Number Threshold (BT-5423) publication will be delayed -->
                             <efbc:ParameterCode listName="number-threshold">min-pass</efbc:ParameterCode>

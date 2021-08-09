@@ -39,7 +39,7 @@ It should also be considered that this structure differs from the one
 defined by the Standard and to comply with it,
 cac:TenderResult/cbc:AwardDate must be present in the XML instance. It
 is sufficient to have only one such occurence and the associated
-value shall be "2000-01-01".
+value shall be "2000-01-01Z".
 
 == Notice aggregated amounts
 
@@ -1097,8 +1097,8 @@ An XML instance excerpt is provided below for illustration:
     <!-- Interrupted MarkUp -->
     <efac:SettledContract>
         <cbc:ID schemeName="contract">CON-0001</cbc:ID>
-        <cbc:AwardDate>2021-02-19</cbc:AwardDate>
-        <cbc:IssueDate>2021-02-21</cbc:IssueDate>
+        <cbc:AwardDate>2021-02-19+01:00</cbc:AwardDate>
+        <cbc:IssueDate>2021-02-21+01:00</cbc:IssueDate>
         <cbc:Title languageID="ENG">My contract title</cbc:Title>
         <cbc:URI>http://mycontract.acme.com/1234/</cbc:URI>
         <efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
