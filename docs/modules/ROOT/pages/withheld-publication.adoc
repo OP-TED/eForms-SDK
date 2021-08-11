@@ -516,7 +516,7 @@ a|
 a|
 [source,xpath,subs=attributes]
 ----
-{LotTender}/efac:FieldsPrivacy{zwsp}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='win-ten-var']
+{LotTender}/efac:FieldsPrivacy{zwsp}[efbc:FieldIdentifierCode/text()='win-ten-var']
 ----
 
 |*sub-val-kno* |Subcontracting Value Known (BT-730)
