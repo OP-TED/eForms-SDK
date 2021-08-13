@@ -314,7 +314,7 @@ ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:
 a|
 [source,xpath,subs=attributes]
 ----
-ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:SelectionCriteria{zwsp}[*]/efac:CriterionParameter{zwsp}/efbc:ParameterCode{zwsp}[@listName="number-weight"]
+ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:SelectionCriteria[*]{zwsp}/efac:CriterionParameter{zwsp}/efbc:ParameterCode{zwsp}[@listName="number-weight"]
 ----
 
 
@@ -322,7 +322,7 @@ ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:
 a|
 [source,xpath,subs=attributes]
 ----
-ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:SelectionCriteria{zwsp}[*]/efac:CriterionParameter{zwsp}/efbc:ParameterCode{zwsp}[@listName="number-threshold"]
+ext:UBLExtensions{zwsp}/ext:UBLExtension{zwsp}/ext:ExtensionContent{zwsp}/efext:EformsExtension{zwsp}/efac:SelectionCriteria[*]{zwsp}/efac:CriterionParameter{zwsp}/efbc:ParameterCode{zwsp}[@listName="number-threshold"]
 ----
 
 
@@ -405,7 +405,7 @@ cac:RequiredFinancialGuarantee{zwsp}/cbc:Description
 a|
 [source,xpath,subs=attributes]
 ----
-cac:CallForTendersDocumentReference{zwsp}[cbc:DocumentType/text()='restricted-document']/cbc:DocumentTypeCode{zwsp}[@listName='communication-justification']
+cac:CallForTendersDocumentReference{zwsp}[cbc:DocumentType/text()='restricted-document']{zwsp}/cbc:DocumentTypeCode{zwsp}[@listName='communication-justification']
 ----
 
 
@@ -445,7 +445,7 @@ cac:CallForTendersDocumentReference{zwsp}/cac:Attachment{zwsp}/cac:ExternalRefer
 a|
 [source,xpath,subs=attributes]
 ----
-cac:CallForTendersDocumentReference{zwsp}[cbc:DocumentType/text()='restricted-document']/cac:Attachment/cac:ExternalReference/cbc:URI
+cac:CallForTendersDocumentReference{zwsp}[cbc:DocumentType/text()='restricted-document']{zwsp}/cac:Attachment{zwsp}/cac:ExternalReference{zwsp}/cbc:URI
 ----
 
 
@@ -2068,7 +2068,7 @@ cac:ProcessJustification{zwsp}/cbc:ProcessReasonCode{zwsp}[@listName='no-esubmis
 a|
 [source,xpath,subs=attributes]
 ----
-cac:ProcessJustification{zwsp}[cbc:ProcessReasonCode/@listName='no-esubmission-justification']/cbc:Description
+cac:ProcessJustification{zwsp}[cbc:ProcessReasonCode{zwsp}/@listName='no-esubmission-justification']{zwsp}/cbc:Description
 ----
 
 
