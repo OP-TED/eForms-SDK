@@ -1097,7 +1097,7 @@ Clearance Deadline (BT-78) and marked with the element
 
 [source,xml]
 ----
-<cbc:LatestSecurityClearanceDate>2019-11-15</cbc:LatestSecurityClearanceDate>
+<cbc:LatestSecurityClearanceDate>2019-11-15+01:00</cbc:LatestSecurityClearanceDate>
 ----
 
 [[multipleTendersSection]]
@@ -2484,7 +2484,7 @@ dispatching of the invitation to tender is encoded using a
 [source,xml]
 ----
 <cac:InvitationSubmissionPeriod>
-    <cbc:StartDate>2019-11-15</cbc:StartDate>
+    <cbc:StartDate>2019-11-15+01:00</cbc:StartDate>
 </cac:InvitationSubmissionPeriod>
 ----
 
@@ -2498,7 +2498,7 @@ the invitations to confirm interest is encoded using
 [source,xml]
 ----
 <cac:ParticipationInvitationPeriod>
-    <cbc:StartDate>2019-11-15</cbc:StartDate>
+    <cbc:StartDate>2019-11-15+01:00</cbc:StartDate>
 </cac:ParticipationInvitationPeriod>
 ----
 
@@ -3554,8 +3554,8 @@ These dates shall be reported as follows:
 [source,xml]
 ----
 <cac:PlannedPeriod>
-    <cbc:StartDate>2019-11-15</cbc:StartDate>
-    <cbc:EndDate>2019-11-19</cbc:EndDate>
+    <cbc:StartDate>2019-11-15+01:00</cbc:StartDate>
+    <cbc:EndDate>2019-11-19+01:00</cbc:EndDate>
 </cac:PlannedPeriod>
 ----
 

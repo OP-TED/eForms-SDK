@@ -167,7 +167,7 @@ well as information about changes to procurement documents:
                         </efac:Change>
                         <efac:Change>
                             <efbc:ChangedSectionIdentifier>LOT-0002</efbc:ChangedSectionIdentifier>
-                            <efbc:ProcurementDocumentsChangeDate>2019-10-24</efbc:ProcurementDocumentsChangeDate>    
+                            <efbc:ProcurementDocumentsChangeDate>2019-10-24+01:00</efbc:ProcurementDocumentsChangeDate>    
                             <efbc:ProcurementDocumentsChangeIndicator>true</efbc:ProcurementDocumentsChangeIndicator>
                             <efbc:ChangeDescription languageID="EN">Updated procurement documents</efbc:ChangeDescription>
                         </efac:Change>
