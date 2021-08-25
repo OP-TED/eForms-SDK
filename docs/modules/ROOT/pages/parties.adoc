@@ -1183,7 +1183,7 @@ a|[source,xpath,subs=attributes]
 receiving requests to participate (+++*+++)
 a|[source,xpath,subs=attributes]
 ----
-/*/TenderingTerms{zwsp}/cac:TenderRecepientParty 
+/*/TenderingTerms{zwsp}/cac:TenderRecipientParty 
 ----
 
 |*Requests to participate processing Organization* |Organization
@@ -1196,7 +1196,7 @@ a|[source,xpath,subs=attributes]
 |*Tender Recipient Organization* |Organization receiving tenders (+++*+++)
 a|[source,xpath,subs=attributes]
 ----
-/*/TenderingTerms{zwsp}/cac:TenderRecepientParty 
+/*/TenderingTerms{zwsp}/cac:TenderRecipientParty 
 ----
 
 |*Tender Evaluation Organization* |Organization processing tenders (+++*+++)
