@@ -1,0 +1,91 @@
+= Procurement labels
+
+== Introduction
+Beginning with version X.X.X, the eForms SDK contains all procurement labels. (why).  
+
+What are procurement labels?
+(...)
+
+== Folder organisation
+The labels are included in several files under the "labels" folder. Each file contains a specific type of label as identified by the file name (see <<File naming conventions>> below).
+
+== File naming conventions
+
+The file name is composed of two parts: `<asset-type>_<language-identifier>.xml`.
+
+The <language-identifier> is used in lower case.
+
+.Example
+----
+field_en.xml
+----
+
+The <asset-type> indicates the type of element the labels in the file are associated with.
+
+[#asset-types]
+The possible asset types are:
+
+* business_term: business term as defined in the eForms regulation
+* field: 
+* notice:
+* code:
+* rule:
+* decoration: visual elements that are useful to display information from an eForms notices, but are not related directly to any of the above type of elements.
+
+The language identifier used is the standard 2 letter code in lowercase.
+
+== File format
+
+The file format used is XML, with the structure used for https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Properties.html[Java Properties], with UTF-8 encoding.
+
+Each label is represented by an `entry` XML element. Each `entry` element has a
+`key` attribute which identifies the specific label. The label text for the
+specific language is encoded the element's text content.
+
+.Example
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> <!--1-->
+<properties>
+  <comment>field in English. File generated from metadata database version 0.0.3 created on the 2021-08-17T10:27:27</comment>
+  <entry key="field.name.BT-01-notice"> <!--2-->
+    Legal basis of the procedure <!--3-->
+  </entry>
+  <entry key="field.name.BT-13(d)-Part">Deadline for requesting additional information</entry>
+  <entry key="field.name.BT-531-Part">Additional nature of the contract</entry>
+  <entry key="field.name.BT-632-Lot">Name</entry>
+</properties>
+----
+<1> Document type definition
+<2> Label key
+<3> Label text
+
+Each label key is composed of three parts separated by a dot:
+
+----
+<asset-type>.<label-type>.<asset-id>
+----
+
+=== Asset Type
+
+The asset type is the same as the one indicated in the filename (see the
+<<asset-types, list of available asset types>> above).
+
+=== Label Type
+
+The label-type is a convention that we use to allow the same asset to have multiple labels (for different uses) associated with it.
+
+Label types currently in use include:
+
+* name: (...)
+
+In the future we plan to include additional label types such as:
+
+* description: (...)
+* tooltips: (...)
+* placeholder: (...)
+
+=== Asset Id
+
+(...)
