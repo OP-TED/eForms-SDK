@@ -8,6 +8,6 @@ content:
     branches: main
 ui:
   bundle:
-    url: ./ui-bundle/ui-bundle.zip
+    url: https://github.com/OP-TED/antora-eui/releases/download/ui-bundle/master/ui-bundle.zip
     snapshot: true
   supplemental_files: ./supplemental-ui
