@@ -10,13 +10,24 @@ jobs:
   build_site:
     name: "Build site with Antora"
     runs-on: [ubuntu-latest]
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     steps:
+      - name: Setup Node.js for use with actions
+        uses: actions/setup-node@v1.1.0
+        with:
+          version: 12.x
+      - name: Install antora-lunr
+        run: npm i antora-lunr        
       - name: Checkout
         uses: actions/checkout@v2
-      - name: "Generate site using antora site action"
-        uses: kameshsampath/antora-site-action@master
+      - name: Generate Antora Site with Lunr Search
+        uses: ghost-420/antora-lunr-site-action@v1.0
         with:
          antora_playbook: docs/antora-playbook.yml
+        env:
+          DOCSEARCH_ENABLED: true
+          DOCSEARCH_ENGINE: lunr
       - name: "Upload generated site"
         uses: actions/upload-artifact@v1.0.0
         with:
