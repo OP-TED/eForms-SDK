@@ -4,25 +4,26 @@
 
 The https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R1780[eForms
 Regulation] defines, in table 2 of its annex, a set of business terms (BT) for
-the various pieces of information that are in a notice. But the level of
-granularity of those BT is not sufficient for representation of the information
-in XML notice.
+the various pieces of information that are in a notice.
+
+But the level of granularity of those BTs is not sufficient to accurately
+reflect the structure of the information in the XML notices.
 
 For example, there is a single business term, BT-27, for the estimated value of
-the procurement procedure or a lot. But the estimated value of a lot is in a
-different location in the XML, and will be subject to different rules than the
+the procurement procedure or lot. But the estimated value of a lot is in a
+different location in the XML, and will be subject to different rules, than the
 estimated value of the whole procedure.
 
 To resolve those ambiguities we added the notion of fields. Each field is
 related to one single business term, and corresponds to a more precise
 definition of the information it contains. The identifier of a field always
-starts with the identifier of the business term.
+starts with the identifier of the corresponding business term.
 
 For the example above, the fields defined for BT-27 are:
 
 * BT-27-Procedure : estimated value of the procedure
 * BT-27-Lot : estimated value of a lot
-* BT-27-Part : estimated value of part
+* BT-27-Part : estimated value of a part
 * BT-27-LotsGroup : estimated value of a group of lots 
 
 == The field repository
@@ -33,42 +34,40 @@ The structure and content of the field repository described below are driven by
 the specific needs of our various applications.
 
 As we think it can be useful for others, we are sharing it publicly, and you are
-welcome to make any use of it. But we currently do not guarantee the stability
-of the structure or content.
+welcome to make use of it. But we currently do not guarantee the stability
+of the structure or content described here.
 ====
 
 The field repository is a JSON file that contains all relevant information for
 each field we have defined, in a structured and reusable form.
 
 We are using this file to provide the definition of all fields to our
-form-filling application (eNotices). Each form is then made of a specific subset
-of those fields.
+form-filling application (eNotices2). Each form is then made of a specific
+subset of those fields.
 
 The field repository is mainly a list of fields, preceded by some version information:
 
 [source,json]
 ----
 {
-  "version": "1", // <1>
-  "ublVersion": "2.3", // <2>
-  "xsdVersion": "eForms-0.3.0", // <3>
-  "metadataDatabase": { // <4>
+  "ublVersion": "2.3", // <1>
+  "sdkVersion" : "eforms-sdk-0.4.1", // <2>
+  "metadataDatabase": { // <3>
     "version": "0.0.4",
     "createdOn": "2021-08-20T16:46:39"
   },
-  "fields": [ // <5>
+  "fields": [ // <4>
     { ... },
 	...
   ]
 }
 ----
-<1> TODO
-<2> version of the UBL standard used
-<3> TODO
-<4> version number and date of data used to create this file
-<5> list of fields
+<1> version of the UBL standard used
+<2> version of the eForms SDK the file belongs to
+<3> version number and date of the data used to create this file
+<4> list of fields
 
-== Field information
+== Field characteristics
 
 For each field, various characteristics of the field are indicated.
 
@@ -100,26 +99,130 @@ Applicable only for fields of type "code" or "internal-code"
 
 === Field data types
 
-The possible data type for a field are:
+The possible technical data types for a field are:
 
-* `id` : string representing an identifier
-* `id-ref` : string representing a reference to an identifier
-* `indicator` : boolean (true or false)
-* `integer`
-* `number` : TODO
-* `amount` : monetary amount, comprised of a numerical value and a currency
-* `measure` : numerical value associated with a measurement unit
-* `code` : string representing concept in a code list
-* `internal-code` : string representing concept in a code list
-* `zoned-date` : date with timezone
-* `zoned-time` : time with timezone
-* `email` : string representing a e-mail address
-* `phone` : string representing a phone number
-* `url` : string representing an URL
-* `text` : language independent string
-* `text-multilingual` : string that can be translated in multiple languages
+* `id`: string representing an identifier
+* `id-ref`: string representing a reference to an identifier
+* `indicator`: boolean (true or false)
+* `integer`: whole-valued positive number
+* `number`: numerical value, with optional decimal places.
+* `amount`: monetary amount, comprised of a numerical value and a currency
+* `measure`: numerical value associated with a measurement unit
+* `code`: string representing a concept in a code list
+* `internal-code`: string representing a concept in an internal code list
+* `zoned-date`: date with timezone
+* `zoned-time`: time with timezone
+* `email`: string representing an e-mail address
+* `phone`: string representing a phone number
+* `url`: string representing an URL
+* `text`: language independent string
+* `text-multilingual`: string that can be translated in multiple languages
 
-=== Field constraints
+== Field constraints
 
-TODO
+In addition to the information described above, constraints that apply to a
+field are also indicated.
 
+Those constraints correspond to a subset of the validation rules of an eForms
+notice.
+
+=== Presence constraints
+
+Presence constraints indicate for which notice types the field is mandatory or
+not allowed (forbidden).
+
+If no specific presence constraint exists for a notice type, the field is
+considered optional: it can be present but is not required.
+
+Please note that valid UBL XML documents must not contain empty elements or
+attributes. So a field being mandatory means that it must contain a value.
+
+.Simple presence constraints
+[source,json]
+----
+    {
+      "id": "BT-11-Procedure-Buyer",
+      ...
+      "constraints": [
+        {
+          "presence": "FORBIDDEN",
+          "noticeTypes": [ "38", "39", "40" ]
+        },
+        {
+          "presence": "MANDATORY",
+          "noticeTypes": [ "1", "4" ]
+        }
+      ]
+    }
+----
+
+The presence constraint of a field can also depend on more complex conditions:
+the presence or value of another field, etc.
+
+.Constraint with a condition
+[source,json]
+----
+    {
+      "condition" : "field('BT-740-Procedure-Buyer') == 'not-cont-ent'", // <1>
+      "presence" : "MANDATORY",
+      "noticeTypes" : [ "2", "5" ]
+    }
+----
+<1> This field must be present if the field BT-740-Procedure-Buyer
+contains 'not-cont-ent'.
+
+For more details on the syntax of conditions, see <<Syntax for conditions>> below.
+
+=== Value constraints
+
+If the value of a field must follow a specific format, it is indicated as a
+regular expression.
+
+.Regular expression constraint
+[source,json]
+----
+    {
+      "id" : "BT-137-Lot",
+      ...
+      "constraints" : [
+        {
+          "regex" : "^LOT-\\d{4}$" // <1>
+        }
+      ]
+    }
+----
+<1> The value of this field must be "LOT-" followed by 4 digits.
+
+In the regular expression, the backslash character "\"" is escaped as "\\".
+
+=== Interval constraints
+
+For numerical fields, the minimum and maximum allowed value can be specified as
+a constraint.
+
+.Regular expression constraint
+[source,json]
+----
+    {
+      "id" : "BT-31-Procedure",
+      "type" : "number",
+      ...
+      "constraints" : [
+        {
+          "minNumber" : "1",
+          "maxNumber" : "999999" // <1>
+        }
+      ]
+    }
+----
+<1> The value of this field must be between 1 and 999999.
+
+=== Syntax for conditions
+
+A condition must be a boolean expression.
+
+The syntax is based on the
+https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions[Spring
+Expression Language (SpEL)], limited to a small number of boolean and comparison operators.
+
+A field can be referenced using its identifier: `field('BT-31-Procedure')`.
