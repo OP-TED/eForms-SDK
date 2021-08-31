@@ -4,7 +4,7 @@
 
 We use the term "procurement label" to refer to all natural language text (names, descriptions, tooltips etc.) associated with any business term or related entity that is defined in the eForms Regulation. The Publications Office is compiling and will continue to maintain a list of all procurement labels and their translations in all official EU languages. 
 
-In order to help implementors in the localization/internationalization of their applications, beginning with version 0.3.0, the eForms SDK will contain the latest update of all procurement labels maintained by the Publications Office in all Official EU languages.
+In order to help implementors in the localization/internationalization of their applications, the eForms SDK contains the latest update of all procurement labels maintained by the Publications Office, in all official EU languages.
 
 The labels are distributed in several files under the "labels" folder. Each file contains a specific type of label as identified by its filename (see <<File naming conventions>> below).
 
@@ -25,7 +25,7 @@ The possible asset types are:
 * `business_term`: business terms as defined in the eForms regulation
 * `field`: fields are used to identify business terms under different contexts
 * `notice`: a type of notice as defined in the eForms regulation
-* `code`: an item in a list of codes (Codelist)
+* `code`: an item in a list of codes (codelist)
 * `rule`: a business rule
 * `decoration`: visual elements that are useful to display information in eForms notices, but are not related directly to any of the above type of elements.
 
@@ -71,7 +71,7 @@ The same as the one indicated in the filename (see the
 <<asset-types, list of available asset types>> above).
 
 `<label&#8209;type>`::
-+
+
 Allows the same asset to have different labels associated with it for different use cases (i.e. name, description etc.).
 +
 Label types currently in use include:
