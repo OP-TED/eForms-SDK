@@ -7,6 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="EUR">60000000</cbc:TotalAmount>
 						<efac:LotResult>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
@@ -35,7 +36,7 @@
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2020-04-09</cbc:AwardDate>
+							<cbc:AwardDate>2020-04-09+02:00</cbc:AwardDate>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
@@ -147,7 +148,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
-								<efbc:CompanySizeCode listName="economic-operator-size">non-sme</efbc:CompanySizeCode>
+								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
@@ -178,12 +179,12 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>75b70657-c146-4b5c-8d66-1ded90cdcd1d</cbc:ID>
 	<cbc:ContractFolderID>7b400e9a-0469-440b-8d64-9a68d4677806</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-14+01:00</cbc:IssueDate>
 	<cbc:IssueTime>01:01:01+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
@@ -199,7 +200,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -220,7 +221,6 @@
 		<cbc:Note languageID="ENG">All submissions will be assessed in accordance with the Public Contracts Regulations 2015, for procurement values that exceed Regulation 5 (Threshold amounts). This procurement will be managed electronically via the Crown Commercial Service's eSourcing Suite. To participate in this procurement, participants shall first be registered on the eSourcing Suite, this can be done online at https://gpsesourcing.cabinetoffice.gov.uk/emptorisby following the link ‘Supplier eSourcing Registration’. Please note that, to register, bidders must have a valid DUNS number (as provided by Dun and Bradstreet) for the organisation which you are registering, who will be entering into a contract if invited to do so. Note: registration may take some time please ensure that you allow a sufficient amount of time to register. Full instructions for registrations and use of the system can be found at https://www.gov.uk/government/publications/becomea-crown-commercial-service-supplier registered user can express an interest for a specific procurement.This is done by emailingExpressionOfInterest@crowncommercial.gov.uk Your email must clearly state: the name and reference for the procurement you wish to register for; your organisations full name as a registered supplier; the name and contact details for the registered individual sending the email. Crown Commercial Service (CCS) will process the email and then enable the bidder to access the procurement online via the e-Sourcing Suite. The registered user will receive a notification email to alert them once this has been done. As a user of the e-Sourcing Suite you will have access to Emptoris email messaging service which facilitates all messages sent to you and from you in relation to any specific RFX event. Please note it is your responsibility to access these emails on a regular basis to ensure you have sight of all relevant information applicable to this opportunity. For technical assistance on use of the e-Sourcing Suite please contact Crown Commercial Service(CCS) Helpdesk (Not UK SBS Ltd): Freephone: 0345010 3503 email: eenablement@crowncommercial.gov.uk The Contracting Authority expressly reserves the right: (i) not to award any contract as a result of the procurement process commenced by publication of this notice; and (ii) to make whatever changes it may see fit to the content and structure of the procurement; and in no circumstances will the contracting authority be liable for any costs incurred by any supplier. If the contracting authority decides to enter into a contract with the successful supplier, this does not mean that there is any guarantee of subsequent contracts being awarded. Any expenditure, work or effort undertaken prior to contract award is accordingly a matter solely for the commercial judgement of bidders. The sourcing documents can be accessed at: https://gpsesourcing.cabinetoffice.gov.uk using the instructions detailed in I.3</cbc:Note>
 		<cac:RequestedTenderTotal>
 			<cbc:EstimatedOverallContractAmount currencyID="EUR">60000000</cbc:EstimatedOverallContractAmount>
-			<cbc:TotalAmount currencyID="EUR">60000000</cbc:TotalAmount>
 		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
@@ -411,6 +411,6 @@
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
-		<cbc:AwardDate>2020-04-09</cbc:AwardDate>
+		<cbc:AwardDate>2020-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
 </ContractAwardNotice>

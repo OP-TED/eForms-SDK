@@ -420,16 +420,16 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID>9fe2b9d7-c32a-4dcb-af3f-35bf584d0abb</cbc:ID>
 	<!--BT-05-->
 	<cbc:IssueDate>2023-05-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>20:59:32+01:00</cbc:IssueTime>
 	<!--BT-757-->
-    <cbc:VersionID>3</cbc:VersionID>
+    <cbc:VersionID>03</cbc:VersionID>
     <!--BT-127-->
-    <cbc:PlannedDate>2023-09-01</cbc:PlannedDate>
+    <cbc:PlannedDate>2023-09-01+02:00</cbc:PlannedDate>
 	<!--BT-01-->
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<!--BT-03--> <!--BT-02-->
@@ -452,7 +452,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0009</cbc:ID>
@@ -483,32 +483,12 @@
 		<cac:MainCommodityClassification>
 			<!--BT-26-->
 			<!--BT-262-->
-			<cbc:ItemClassificationCode listName="cpv">79710000</cbc:ItemClassificationCode>
-		</cac:MainCommodityClassification>
-		<cac:MainCommodityClassification>
-			<!--BT-26-->
-			<!--BT-262-->
-			<cbc:ItemClassificationCode listName="supplementary-cpv">UB08</cbc:ItemClassificationCode>
-		</cac:MainCommodityClassification>
-		<cac:MainCommodityClassification>
-			<!--BT-26-->
-			<!--BT-262-->
-			<cbc:ItemClassificationCode listName="supplementary-cpv">UB07</cbc:ItemClassificationCode>
+			<cbc:ItemClassificationCode listName="cpv">79622000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
 		<cac:AdditionalCommodityClassification>
 			<!--BT-26-->
 			<!--BT-263-->
-			<cbc:ItemClassificationCode listName="cpv">79720000</cbc:ItemClassificationCode>
-		</cac:AdditionalCommodityClassification>
-		<cac:AdditionalCommodityClassification>
-			<!--BT-26-->
-			<!--BT-263-->
-			<cbc:ItemClassificationCode listName="supplementary-cpv">UB04</cbc:ItemClassificationCode>
-		</cac:AdditionalCommodityClassification>
-		<cac:AdditionalCommodityClassification>
-			<!--BT-26-->
-			<!--BT-263-->
-			<cbc:ItemClassificationCode listName="supplementary-cpv">UB05</cbc:ItemClassificationCode>
+			<cbc:ItemClassificationCode listName="cpv">79624000</cbc:ItemClassificationCode>
 		</cac:AdditionalCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
@@ -810,11 +790,11 @@
 			</cac:AdditionalInformationRequestPeriod>
 			<cac:NoticeDocumentReference>
 				<!--BT-125-->
-				<cbc:ID>12345678</cbc:ID>
+				<cbc:ID>12345678-2020</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>PAR-010</cbc:ReferencedDocumentInternalAddress>
 				<!--BT-125-->
-				<cbc:VersionID>3</cbc:VersionID>
+				<cbc:VersionID>03</cbc:VersionID>
 			</cac:NoticeDocumentReference>
 			<cac:EconomicOperatorShortList>
 				<!--BT-661-->
@@ -853,16 +833,8 @@
 			<cac:MainCommodityClassification>
 				<!--BT-26-->
 				<!--BT-262-->
-				<cbc:ItemClassificationCode listName="cpv">79710000</cbc:ItemClassificationCode>
+				<cbc:ItemClassificationCode listName="cpv">79622000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
-			<cac:AdditionalCommodityClassification>
-				<!--BT-262-->
-				<cbc:ItemClassificationCode listName="supplementary-cpv">UB08</cbc:ItemClassificationCode>
-			</cac:AdditionalCommodityClassification>
-			<cac:AdditionalCommodityClassification>
-				<!--BT-262-->
-				<cbc:ItemClassificationCode listName="supplementary-cpv">UB07</cbc:ItemClassificationCode>
-			</cac:AdditionalCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
 					<!--BT-5101-->
@@ -890,9 +862,9 @@
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
 				<!--BT-536-->
-				<cbc:StartDate>2024-03-01</cbc:StartDate>
+				<cbc:StartDate>2024-03-01+01:00</cbc:StartDate>
 				<!--BT-537-->
-				<cbc:EndDate>2024-09-01</cbc:EndDate>
+				<cbc:EndDate>2024-09-01+02:00</cbc:EndDate>
 				<!--BT-36-->
 				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
 			</cac:PlannedPeriod>

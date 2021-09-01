@@ -7,6 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="EUR">4000000</cbc:TotalAmount>
 						<efac:LotResult>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
@@ -50,7 +51,7 @@
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2020-04-02</cbc:AwardDate>
+							<cbc:AwardDate>2020-04-02+02:00</cbc:AwardDate>
 							<cbc:Title languageID="ITA">Servizio di prove funzionali finalizzate all’attivazione / riconfigurazione di tratte su linee AV/AC e/o tradizionali oggetto di upgrade tecnologico tramite l’utilizzo di treni idonei</cbc:Title>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -74,7 +75,7 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG">Rete Ferroviaria italiana</cbc:Name>
+									<cbc:Name languageID="ITA">Rete Ferroviaria italiana</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:StreetName>via dello Scalo Prenestino 25</cbc:StreetName>
@@ -128,7 +129,7 @@
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG">Example Mediator</cbc:Name>
+									<cbc:Name languageID="ITA">Example Mediator</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:StreetName>Some Street</cbc:StreetName>
@@ -152,7 +153,7 @@
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+									<cbc:Name languageID="ITA">eSendCorp</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
@@ -171,7 +172,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
-								<efbc:CompanySizeCode listName="economic-operator-size">non-sme</efbc:CompanySizeCode>
+								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
 								</cac:PartyIdentification>
@@ -202,12 +203,12 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>904890c7-9743-410c-b75c-8c60d9930633</cbc:ID>
 	<cbc:ContractFolderID>5a695dd9-076c-419f-98f0-dc42d31ae277</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-15+01:00</cbc:IssueDate>
 	<cbc:IssueTime>07:07:07+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ITA</cbc:NoticeLanguageCode>
@@ -223,7 +224,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
@@ -245,9 +246,6 @@
 		<cbc:Description languageID="ITA">Servizio di prove funzionali finalizzate all’attivazione / riconfigurazione di tratte su linee AV/AC e/o tradizionali oggetto di upgrade tecnologico tramite l’utilizzo di treni idonei a circolare a velocità massima non inferiore a 250 km/h e attrezzati con sottosistemi di bordo Alstom ed Hitachi, con relativo personale di condotta</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="ITA">Servizio di prove funzionali finalizzate all’attivazione / riconfigurazione di tratte su linee AV/AC e/o tradizionali oggetto di upgrade tecnologico tramite l’utilizzo di treni idonei a circolare a velocità massima non inferiore a 250 km/h e attrezzati con sottosistemi di bordo Alstom ed Hitachi, con relativo personale di condotta</cbc:Note>
-		<cac:RequestedTenderTotal>
-			<cbc:TotalAmount currencyID="EUR">4000000</cbc:TotalAmount>
-		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">60210000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
@@ -327,6 +325,6 @@
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
-		<cbc:AwardDate>2020-04-02</cbc:AwardDate>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
 </ContractAwardNotice>

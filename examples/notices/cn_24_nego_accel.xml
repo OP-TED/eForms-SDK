@@ -115,12 +115,12 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>d1a2e651-b32f-4606-a5dd-d180bab20be1</cbc:ID>
 	<cbc:ContractFolderID>e3cdabf1-e057-47a5-9210-b1f6fc757228</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-30+01:00</cbc:IssueDate>
 	<cbc:IssueTime>09:10:40+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
@@ -138,7 +138,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -159,7 +159,7 @@
 		</ext:UBLExtensions>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground" name="ExclusionGrounds">exclusion</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Tenderers will be excluded if...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
@@ -173,14 +173,14 @@
 			<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
 		</cac:TenderSubmissionDeadlinePeriod>
 		<cac:InvitationSubmissionPeriod>
-			<cbc:StartDate>2020-05-22</cbc:StartDate>
+			<cbc:StartDate>2020-05-22+02:00</cbc:StartDate>
 		</cac:InvitationSubmissionPeriod>
 		<cac:NoticeDocumentReference>
 			<cbc:ID>CO591</cbc:ID>
 			<cbc:ReferencedDocumentInternalAddress>ref123</cbc:ReferencedDocumentInternalAddress>
 		</cac:NoticeDocumentReference>
 		<cac:ProcessJustification>
-			<cbc:ProcessReasonCode listName="accelerated-procedure">urgent</cbc:ProcessReasonCode>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">true</cbc:ProcessReasonCode>
 			<cbc:ProcessReason languageID="ENG">The needs of the contracting authority cannot be met without adaptation of ready available solutions.</cbc:ProcessReason>
 		</cac:ProcessJustification>
 		<cac:ContractingSystem></cac:ContractingSystem>

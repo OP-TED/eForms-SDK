@@ -50,7 +50,7 @@
 									<cbc:ID></cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG"></cbc:Name>
+									<cbc:Name languageID="FRA"></cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName></cbc:CityName>
@@ -73,18 +73,18 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID></cbc:ID>
 	<cbc:ContractFolderID></cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>FRA</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">other</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">eu-ins-bod-ag</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
@@ -107,8 +107,8 @@
 		<cbc:ProcedureCode listName=""></cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:Name languageID="Z"></cbc:Name>
-		<cbc:Description languageID="Z"></cbc:Description>
+		<cbc:Name languageID="FRA"></cbc:Name>
+		<cbc:Description languageID="FRA"></cbc:Description>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot"></cbc:ID>
@@ -118,7 +118,7 @@
 				<cac:AwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type"></cbc:AwardingCriterionTypeCode>
-						<cbc:Description languageID="Z"></cbc:Description>
+						<cbc:Description languageID="FRA"></cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
@@ -148,12 +148,12 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:Name languageID="Z"></cbc:Name>
-			<cbc:Description languageID="Z"></cbc:Description>
+			<cbc:Name languageID="FRA"></cbc:Name>
+			<cbc:Description languageID="FRA"></cbc:Description>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
-		<cbc:AwardDate>0001-01-01</cbc:AwardDate>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 		<cac:AwardedTenderedProject>
 			<cbc:VariantID></cbc:VariantID>
 			<cbc:TenderEnvelopeID></cbc:TenderEnvelopeID>

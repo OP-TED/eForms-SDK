@@ -6,7 +6,23 @@
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
+					<efac:ContractModification>
+						<efbc:ChangedNoticeIdentifier>268231-2010</efbc:ChangedNoticeIdentifier>
+						<efac:Change>
+							<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
+							<efbc:ChangeDescription languageID="ENG">Extension of six (6) months</efbc:ChangeDescription>
+						</efac:Change>
+						<efac:Change>
+							<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
+							<efbc:ChangeDescription languageID="ENG">Updated total contract value before the modifications (taking into account possible earlier contract modifications and price adaptions and, in the case of Directive 2014/23/EU, average inflation in the Member State concerned) Value excluding VAT: 95 000 000.00 GBP Total contract value after the modifications Value excluding VAT: 105 000 000.00 GBP</efbc:ChangeDescription>
+						</efac:Change>
+						<efac:ChangeReason>
+							<cbc:ReasonCode listName="modification-justification">mod-cir</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="ENG">The above contract is due to expire between 1 May 2020 and 31 December 2020. Due to the on-going COVID-19 outbreak and associated restrictions we are unable to implement the new ALMS Contract as anticipated. In line with Regulation 72(1)(c) of the PCR 2015 it is proposed to extend the above contract based on the following trust specific dates: Belfast Health &amp; Social Care Trust – 31 October 2020 Western Health &amp; Social Care Trust – 31 January 2021 Southern Health &amp; Social Care Trust – 31 January 2021 Northern Health &amp; Social Care Trust – 30 June 2021 (prices, terms &amp; conditions to remain the same).</efbc:ReasonDescription>
+						</efac:ChangeReason>
+					</efac:ContractModification>
 					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="GBP">105000000</cbc:TotalAmount>
 						<efac:LotResult>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -29,24 +45,9 @@
 							</efac:TenderingParty>
 						</efac:LotTender>
 						<efac:SettledContract>
-							<efac:ContractModification>
-								<efbc:ChangedNoticeIdentifier>2010/S 176-268231</efbc:ChangedNoticeIdentifier>
-								<efac:ChangedElement>
-									<efbc:ChangedSectionIdentifier>contract duration</efbc:ChangedSectionIdentifier>
-									<efbc:ChangeDescription languageID="ENG">Extension of six (6) months</efbc:ChangeDescription>
-								</efac:ChangedElement>
-								<efac:ChangedElement>
-									<efbc:ChangedSectionIdentifier>total amount</efbc:ChangedSectionIdentifier>
-									<efbc:ChangeDescription languageID="ENG">Updated total contract value before the modifications (taking into account possible earlier contract modifications and price adaptions and, in the case of Directive 2014/23/EU, average inflation in the Member State concerned) Value excluding VAT: 95 000 000.00 GBP Total contract value after the modifications Value excluding VAT: 105 000 000.00 GBP</efbc:ChangeDescription>
-								</efac:ChangedElement>
-								<efac:ChangeReason>
-									<efbc:ReasonCode listName="modification-justification">mod-cir</efbc:ReasonCode>
-									<efbc:ReasonDescription languageID="ENG">The above contract is due to expire between 1 May 2020 and 31 December 2020. Due to the on-going COVID-19 outbreak and associated restrictions we are unable to implement the new ALMS Contract as anticipated. In line with Regulation 72(1)(c) of the PCR 2015 it is proposed to extend the above contract based on the following trust specific dates: Belfast Health &amp; Social Care Trust – 31 October 2020 Western Health &amp; Social Care Trust – 31 January 2021 Southern Health &amp; Social Care Trust – 31 January 2021 Northern Health &amp; Social Care Trust – 30 June 2021 (prices, terms &amp; conditions to remain the same).</efbc:ReasonDescription>
-								</efac:ChangeReason>
-							</efac:ContractModification>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2010-07-22</cbc:AwardDate>
-							<cbc:IssueDate>2010-09-07</cbc:IssueDate>
+							<cbc:AwardDate>2010-07-22+02:00</cbc:AwardDate>
+							<cbc:IssueDate>2010-09-07+02:00</cbc:IssueDate>
 							<cbc:Title languageID="ENG">Automated Laboratory Medicine Systems.</cbc:Title>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -194,12 +195,12 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>1f8687c9-8cca-493a-b0ee-553ed23d8402</cbc:ID>
 	<cbc:ContractFolderID>b492c659-4893-4796-b7db-4e511d85e0c8</cbc:ContractFolderID>
 	<cbc:IssueDate>2010-10-07+01:00</cbc:IssueDate>
 	<cbc:IssueTime>06:06:06+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="cont-modif">can-modif</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
@@ -209,7 +210,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
@@ -223,9 +224,6 @@
 		<cbc:Name languageID="ENG">Automated Laboratory Medicine Systems</cbc:Name>
 		<cbc:Description languageID="ENG">Automated laboratory medicine systems incorporating clinical chemistry, haematology, immunology and blood bank.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
-		<cac:RequestedTenderTotal>
-			<cbc:TotalAmount currencyID="GBP">105000000</cbc:TotalAmount>
-		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">33159000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
@@ -282,6 +280,6 @@
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
-		<cbc:AwardDate>2010-07-22</cbc:AwardDate>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
 </ContractAwardNotice>

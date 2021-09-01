@@ -117,26 +117,26 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>76c82dad-10b1-4e6a-9326-9312b4bf9baf</cbc:ID>
 	<cbc:ContractFolderID>1adea6cf-8780-4298-a915-55f6796bf847</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-25+01:00</cbc:IssueDate>
 	<cbc:IssueTime>11:11:11+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="competition">cn-social</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cbc:BuyerProfileURI>https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA10383</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">cpb</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:Party>
 			<cac:PartyIdentification>
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
@@ -202,7 +202,7 @@
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
 			<cac:RequiredFinancialGuarantee>
-				<cbc:GuaranteeTypeCode listName="required-guarantee">provisional</cbc:GuaranteeTypeCode>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
 				<cbc:Description languageID="ENG">It is a requirement of this contract that bidders hold, or can commit to obtain prior to the commencement of any subsequently awarded contract, the types and levels of insurance indicated below: — employers’ liability (compulsory insurance): to a minimum indemnity limit of 5 000 000 GBP , — public liability insurance including treatment risk and/or administration of medicines: minimum 20 000 000 GBP in respect of any one. Incident: — medical malpractice insurance: minimum of 10 000 000 GBP in respect of any 1 incident and in the aggregate, — motor vehicle insurance: minimum of 5 000 000 GBP in respect of any 1 incident in respect of third party liability, — professional indemnity insurance: minimum of 2 000 000 GBP in respect of any 1 incident or in the aggregate and where in the aggregate a minimum of 1 automatic reinstatement of the sum insured to apply in any 1 period.</cbc:Description>
 			</cac:RequiredFinancialGuarantee>
 			<cac:TendererQualificationRequest>
