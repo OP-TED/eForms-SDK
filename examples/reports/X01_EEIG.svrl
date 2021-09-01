@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svrl:schematron-output xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                        xmlns:can="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"
+                        xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                        xmlns:cn="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+                        xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                        xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                        xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                        xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+                        xmlns:iso="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"
+                        xmlns:saxon="http://saxon.sf.net/"
+                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:schold="http://www.ascc.net/xml/schematron"
+                        xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        schemaVersion=""
+                        title="eForms schematron rules"><!--   
+		   
+		   
+		 -->
+   <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+   <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cbc"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cac"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="ext"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efac"
+                                       uri="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efext" uri="http://data.europa.eu/p27/eforms-ubl-extensions/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="efbc"
+                                       uri="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"/>
+   <svrl:ns-prefix-in-attribute-values prefix="can"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="cn"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="pin"
+                                       uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
+   <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="cbc:NoticeTypeCode"/>
+   <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
+   <svrl:fired-rule context="/*[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme[$noticeSubType = 'X01']"/>
+   <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
+   <svrl:fired-rule context="/*[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/cac:AdditionalDocumentReference[$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/efac:NoticePurpose[$noticeSubType = 'X01']"/>
+   <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:fired-rule context="/*/cbc:Note"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress"/>
+   <svrl:fired-rule context="/*/cac:AdditionalDocumentReference"/>
+   <svrl:fired-rule context="/*/efac:NoticePurpose"/>
+   <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
+   <svrl:fired-rule context="/*/cbc:CustomizationID"/>
+   <svrl:fired-rule context="/*/cbc:ID"/>
+   <svrl:fired-rule context="/*/cbc:IssueDate"/>
+   <svrl:fired-rule context="/*/cbc:IssueTime"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
+   <svrl:fired-rule context="/*/cbc:NoticeLanguageCode"/>
+   <svrl:fired-rule context="/*/cbc:Note"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cbc:RegistrationName"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cbc:RegistrationDate"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:CityName"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:PostalZone"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cac:Country/cbc:IdentificationCode"/>
+   <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:IssueDate"/>
+   <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:ReferencedDocumentInternalAddress"/>
+   <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:DocumentDescription"/>
+   <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI"/>
+   <svrl:fired-rule context="/*/efac:NoticePurpose/cbc:PurposeCode"/>
+   <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:fired-rule context="/*"/>
+</svrl:schematron-output>
