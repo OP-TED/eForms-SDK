@@ -238,8 +238,6 @@
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
-							<!--BT-633 Organization Natural Person-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505 Organization Internet Address-->
 								<cbc:WebsiteURI>http://www.marches-publics.info/accueil.htm</cbc:WebsiteURI>

@@ -41,7 +41,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organisation">ORG-0002</cbc:ID>

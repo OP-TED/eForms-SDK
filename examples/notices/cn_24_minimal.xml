@@ -12,7 +12,6 @@ But with the minimal amount of information while still valid
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>

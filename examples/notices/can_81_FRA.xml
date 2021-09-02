@@ -133,8 +133,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -199,8 +197,6 @@
 							</efac:TouchPoint>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>

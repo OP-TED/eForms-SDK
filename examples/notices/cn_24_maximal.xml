@@ -59,8 +59,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>true</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -108,8 +106,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -157,8 +153,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -206,8 +200,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -255,8 +247,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -304,8 +294,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -351,8 +339,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -400,8 +386,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -449,8 +433,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -498,8 +480,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<!--BT-633-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.example.com</cbc:WebsiteURI>
@@ -636,7 +616,7 @@
 		</cac:TendererQualificationRequest>
 		<cac:LotDistribution>
 			<!--BT-33-->
-			<cbc:MaximumLotsAwardedNumeric>1</cbc:MaximumLotsAwardedNumeric>
+			<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
 			<!--BT-31-->
 			<cbc:MaximumLotsSubmittedNumeric>1</cbc:MaximumLotsSubmittedNumeric>
 			<cac:LotsGroup>
