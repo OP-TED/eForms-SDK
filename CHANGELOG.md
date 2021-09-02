@@ -10,7 +10,7 @@ In the next release, the website will have separate HTML pages for each major se
 ## Changes to the eForms schema
 
 ### Elements used to describe changes in a Change Notice and a Contract Modification Notice
-The elements in a Change Notice and a Contract Modification Notice were remodeled to better reflect the usage of Change Notices.
+The elements in a Change Notice and a Contract Modification Notice were remodelled to better reflect the usage of Change Notices.
 * Element efac:Change was renamed to efac:Changes, and its cardinality restricted to "0 or 1".
 * Element efac:ChangedElement was renamed to efac:Change.
 * The cardinality of element efbc:ChangedSectionIdentifier was expanded to "0 to many".
@@ -30,13 +30,13 @@ All dates or times specified in Notices must now include time zones. This is to 
 Many elements are used to define indicators or codes. The content of these elements should be limited to one of a set of values in each case. Code lists, taken from or derived from those published in [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/e-procurement/tables), define the acceptable values. New schematron rules have been added to restrict the content of many elements to the values in the relevant code lists. Please note this work is incomplete; more such rules will be implemented in future releases of this SDK.
 
 ### New pattern-matching rules
-New schematron rules have been implemented which check that the content of some elements match specific patterns. These elements and patterns are listed in Section 9. Identifiers and References in the schema documentation.
+New schematron rules have been implemented which check that the content of some elements match specific patterns. These elements and patterns are listed in section "9. Identifiers and References" in the schema documentation.
 * Elements within the Notice Information section at the beginning of a Notice, identifying the UBL and Customization versions, the Notice Identifier, and the publication identifiers.
 * Elements identifying sections within a Notice, and elements which link to those sections.
 * Elements referencing previous Notices must use either the Publication Identifier or a combination of the Notice Identifier plus the Notice Version of the Notice being referred to.
 
 ### New length restrictions
-New schematron rules have been added which restrict the maximum length of the content of most elements. The limits chosen have been generous, and should not hinder Notice creators from including sufficient details. 
+New schematron rules have been added which restrict the maximum length of the content of most elements. The limits chosen have been generous, and should not hinder notice creators from including sufficient details. 
 
 ## Example Notices
 The XML notices in the "examples" folder have been updated to incorporate the schema changes listed above, and the updated schematron rules.
@@ -46,7 +46,6 @@ The code list for Exclusion Grounds used in ESPD has been adopted into eForms. T
 
 New Notice examples were added for:
 * PIN, Contract Notice and Contract Award Notice under Directive 2009/81/EC
-* Contract Completion notice
 
 ## Validation Reports
 The existing validation reports have been regenerated, incorporating all the changes listed above.
