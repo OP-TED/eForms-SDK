@@ -47,10 +47,6 @@ The code list for Exclusion Grounds used in ESPD has been adopted into eForms. T
 New Notice examples were added for:
 * PIN, Contract Notice and Contract Award Notice under Directive 2009/81/EC
 * Contract Completion notice
-* Preliminary Market Consultation
-* Call for Expressions of Interest
-* Information notice about European Economic Interest Grouping
-* Business Registration Information Notice
 
 ## Validation Reports
 The existing validation reports have been regenerated, incorporating all the changes listed above.
