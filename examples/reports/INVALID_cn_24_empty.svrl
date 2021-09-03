@@ -41,119 +41,102 @@
    <svrl:ns-prefix-in-attribute-values prefix="pin"
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
    <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
-   <svrl:fired-rule context="/"/>
-   <svrl:fired-rule context="/*[(/*/cbc:NoticeTypeCode/text()=('pmc', 'pin-only', 'pin-rtl', 'pin-cfc-standard', 'pin-cfc-social', 'qu-sy', 'cn-standard', 'cn-social', 'subco', 'cn-desg', 'veat', 'can-standard', 'can-social', 'can-desg', 'can-modif', 'cc'))]"/>
-   <svrl:fired-rule context="cbc:NoticeTypeCode"/>
-   <svrl:fired-rule context="cac:ProcurementProjectLot/cbc:ID"/>
-   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cbc:ID"
-                       test="@schemeName">
-      <svrl:text>The mandatory attribute @schemeName is missing.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
-   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*"/>
    <svrl:failed-assert location="/ContractNotice"
-                       role="error"
+                       role="ERROR"
+                       test="(cbc:NoticeTypeCode/text() = ('pin-buyer', 'brin-eeig', 'brin-ecs') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('pin-buyer', 'brin-eeig', 'brin-ecs')) and count(cac:ProcurementProjectLot) &gt; 0)">
+      <svrl:text>The element cac:ProcurementProjectLot must not be present in 'pin-buyer', 'brin-eeig' and 'brin-ecs' notices, and is mandatory in other notices.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="cbc:NoticeTypeCode"/>
+   <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '16']"/>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
                        test="count(cac:TenderingProcess) &gt; 0">
       <svrl:text>The element cac:TenderingProcess is mandatory in context /*</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice"
-                       role="error"
+                       role="ERROR"
                        test="count(cac:TenderingTerms) &gt; 0">
       <svrl:text>The element cac:TenderingTerms is mandatory in context /*</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
-                       role="error"
+                       role="ERROR"
                        test="count(efac:Organizations) &gt; 0">
       <svrl:text>The element efac:Organizations is mandatory in context /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
-                       role="error"
+                       role="ERROR"
                        test="count(cac:ServiceProviderParty) &gt; 0">
       <svrl:text>The element cac:ServiceProviderParty is mandatory in context /*/cac:ContractingParty/cac:Party</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
-   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot"
-                       role="error"
-                       test="count(cac:ProcurementProject) &gt; 0">
-      <svrl:text>The element cac:ProcurementProject is mandatory in context /*/cac:ProcurementProjectLot</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot"
-                       role="error"
-                       test="count(cac:TenderingProcess) &gt; 0">
-      <svrl:text>The element cac:TenderingProcess is mandatory in context /*/cac:ProcurementProjectLot</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot"
-                       role="error"
-                       test="count(cac:TenderingTerms) &gt; 0">
-      <svrl:text>The element cac:TenderingTerms is mandatory in context /*/cac:ProcurementProjectLot</svrl:text>
-   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
-   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice"
-                       role="error"
+                       role="ERROR"
                        test="count(cbc:IssueDate) &gt; 0">
       <svrl:text>The BT-05 Notice Dispatch Date is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice"
-                       role="error"
+                       role="ERROR"
                        test="count(cbc:IssueTime) &gt; 0">
       <svrl:text>The BT-05 Notice Dispatch Date is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractNotice" role="error" test="count(cbc:ID) &gt; 0">
+   <svrl:failed-assert location="/ContractNotice" role="ERROR" test="count(cbc:ID) &gt; 0">
       <svrl:text>The BT-701 Notice Identifier is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice"
-                       role="error"
+                       role="ERROR"
                        test="count(cbc:NoticeLanguageCode) &gt; 0">
       <svrl:text>The BT-702 Notice Official Language is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice"
-                       role="error"
+                       role="ERROR"
                        test="count(cbc:VersionID) &gt; 0">
       <svrl:text>The BT-757 Notice Version is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice"
-                       role="error"
+                       role="ERROR"
                        test="count(cbc:UBLVersionID) &gt; 0">
       <svrl:text>The OPT-001 UBL version ID (UBL) is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice"
-                       role="error"
+                       role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ContractingParty"
-                       role="error"
+                       role="ERROR"
                        test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0">
       <svrl:text>The BT-10 Activity Authority is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice/cac:ContractingParty"
-                       role="error"
+                       role="ERROR"
                        test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">
       <svrl:text>The BT-11 Buyer Legal Type is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
-                       role="error"
+                       role="ERROR"
                        test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProject"
-                       role="error"
+                       role="ERROR"
                        test="count(cbc:Name) &gt; 0">
       <svrl:text>The BT-21 Title is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProject"
-                       role="error"
+                       role="ERROR"
                        test="count(cbc:Description) &gt; 0">
       <svrl:text>The BT-24 Description is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
@@ -163,9 +146,18 @@
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '16']"/>
+   <svrl:failed-assert location="/ContractNotice/cbc:ContractFolderID"
+                       role="ERROR"
+                       test="matches(normalize-space(.),'^[a-f0-9]8-[a-f0-9]4-4[a-f0-9]3-[89ab][a-f0-9]3-[a-f0-9]12$')">
+      <svrl:text>The BT-04 Procedure Identifier must match the 'ProcedureOrNoticeID' pattern at notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="//cac:ProcurementProject"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot"/>
 </svrl:schematron-output>

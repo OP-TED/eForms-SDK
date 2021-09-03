@@ -18,7 +18,7 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ITA">Flughafen Stuttgart GmbH</cbc:Name>
+									<cbc:Name languageID="DEU">Flughafen Stuttgart GmbH</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:StreetName>Flughafenstraße 32</cbc:StreetName>
@@ -74,7 +74,7 @@
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG">Example Mediator</cbc:Name>
+									<cbc:Name languageID="DEU">Example Mediator</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:StreetName>Some Street</cbc:StreetName>
@@ -98,7 +98,7 @@
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+									<cbc:Name languageID="DEU">eSendCorp</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
@@ -121,12 +121,12 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>c48d000f-2598-47b3-856e-de93bf654518</cbc:ID>
 	<cbc:ContractFolderID>c2a0dcd1-4d17-4072-9252-38de16ead921</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="planning">pin-cfc-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
@@ -143,7 +143,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
@@ -162,7 +162,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
 		<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
 		<cac:InvitationSubmissionPeriod>
-			<cbc:StartDate>2020-05-18</cbc:StartDate>
+			<cbc:StartDate>2020-05-18+01:00</cbc:StartDate>
 		</cac:InvitationSubmissionPeriod>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>

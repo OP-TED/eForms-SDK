@@ -97,7 +97,7 @@
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+									<cbc:Name languageID="FRA">eSendCorp</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
@@ -120,7 +120,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
 	<cbc:ID>da4d46e9-490b-41ff-a2ae-8166d356a619</cbc:ID>
 	<!--BT-04 Procedure Identifier-->
@@ -130,7 +130,7 @@
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
 	<!-- Notive Version number, to distinguish versions of a same notice within a same procedure -->
 	<!--BT-757 Version Identifier-->
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<!--BT-01 Procedure Legal Basis -->
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<!--BT-03 Form Type / BT-02 Notice Type-->
@@ -143,7 +143,7 @@
 		<cbc:BuyerProfileURI>http://www.marches-publics.info/accueil.htm</cbc:BuyerProfileURI>
 		<!--BT-11 Buyer Legal Type (see http://publications.europa.eu/resource/authority/buyer-legal-type)-->
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">other</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
 			<!--if other than Buyer Legal type codes -->
 			<cbc:PartyType languageID="FRA">OPH</cbc:PartyType>
 		</cac:ContractingPartyType>
@@ -156,7 +156,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-subrole">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -169,7 +169,51 @@
 		<!--BT-67 Exclusion Grounds-->
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground" name="ExclusionGrounds">exclusion</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.FRAUD</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="FRA">Les critères d'exclusion sont...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
@@ -220,14 +264,12 @@
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
@@ -275,7 +317,6 @@
 				<!--Award Criteria (BT-539, BT-540, BT-541, BT-543, BT-733, BT-734, BT-5421, BT-5422, BT-5423) -->
 				<cac:AwardingCriterion>
 					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -453,7 +494,6 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 			<!--BT-767 - Electronic Auction-->
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
-				<cbc:Description languageID="ENG">The online auction solution …</cbc:Description>
 				<cbc:Description languageID="FRA">La solution d’enchères en ligne …</cbc:Description>
 				<cbc:AuctionURI>https://my-online-eauction.eu/</cbc:AuctionURI>
 			</cac:AuctionTerms>
@@ -496,9 +536,9 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
 				<!-- BT-536 Lot - Duration Start Date -->
-				<cbc:StartDate>2019-09-01</cbc:StartDate>
+				<cbc:StartDate>2019-09-01+02:00</cbc:StartDate>
 				<!-- BT-537 Lot - Duration Start Date -->
-				<cbc:EndDate>2020-12-31</cbc:EndDate>
+				<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<!--BT-57 Lot - Renewal Description-->
@@ -519,14 +559,12 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
@@ -574,7 +612,6 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 				<!-- Award Criteria (BT-539, BT-540, BT-541, BT-543, BT-733, BT-734, BT-5421, BT-5422, BT-5423) -->
 				<cac:AwardingCriterion>
 					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -753,7 +790,6 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 			<!--BT-767 - Electronic Auction-->
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
-				<cbc:Description languageID="ENG">The online auction solution …</cbc:Description>
 				<cbc:Description languageID="FRA">La solution d’enchères en ligne …</cbc:Description>
 				<cbc:AuctionURI>https://my-online-eauction.eu/</cbc:AuctionURI>
 			</cac:AuctionTerms>
@@ -796,9 +832,9 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
 				<!-- BT-536 Lot - Duration Start Date -->
-				<cbc:StartDate>2019-09-01</cbc:StartDate>
+				<cbc:StartDate>2019-09-01+02:00</cbc:StartDate>
 				<!-- BT-537 Lot - Duration Start Date -->
-				<cbc:EndDate>2020-12-31</cbc:EndDate>
+				<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<!--BT-57 Lot - Renewal Description-->

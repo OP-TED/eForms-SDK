@@ -23,10 +23,10 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:ID></cbc:ID>
-	<cbc:IssueDate>2020-04-08</cbc:IssueDate>
+	<cbc:IssueDate>2020-04-08Z</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00Z</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
-	<cbc:PlannedDate>2020-12-31</cbc:PlannedDate>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:PlannedDate>2020-12-31+01:00</cbc:PlannedDate>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="planning">pin-only</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>

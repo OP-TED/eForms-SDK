@@ -14,7 +14,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:ContractFolderID></cbc:ContractFolderID>
-	<cbc:IssueDate>0001-02-02</cbc:IssueDate>
+	<cbc:IssueDate>2015-02-02+01:00</cbc:IssueDate>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
 	<cac:ContractingParty>
@@ -22,6 +22,6 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderResult>
-		<cbc:AwardDate>0001-01-01</cbc:AwardDate>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
 </ContractAwardNotice>

@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
-<!-- Based on https://ted.europa.eu/udl?uri=TED:NOTICE:192534-2020:TEXT:EN:HTML
+<!-- Based on https://ted.europa.eu/udl?uri=TED:NOTICE:192534-2020:TEXT:EN:HTML (like "can_25_ENG")
+	 But with all possible fields indicated as "unpublished" (withheld publication)
 -->
 <ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ext:UBLExtensions>
@@ -7,8 +8,27 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<efac:FieldsPrivacy>
+							<efbc:FieldIdentifierCode listName="non-publication-identifier">not-val</efbc:FieldIdentifierCode>
+							<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+							<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+						</efac:FieldsPrivacy>
+						<efac:FieldsPrivacy>
+							<efbc:FieldIdentifierCode listName="non-publication-identifier">not-max-val</efbc:FieldIdentifierCode>
+							<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+							<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+						</efac:FieldsPrivacy>
 						<cbc:TotalAmount currencyID="EUR">9.99</cbc:TotalAmount>
+						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">100</cbc:EstimatedOverallFrameworkContractsAmount>
 						<efac:LotResult>
+							<efac:FieldsPrivacy>
+								<efbc:FieldIdentifierCode listName="non-publication-identifier">win-cho</efbc:FieldIdentifierCode>
+								<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+								<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+								<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+							</efac:FieldsPrivacy>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -25,13 +45,37 @@
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotTender>
+							<efac:FieldsPrivacy>
+								<efbc:FieldIdentifierCode listName="non-publication-identifier">ten-ran</efbc:FieldIdentifierCode>
+								<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+								<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+								<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+							</efac:FieldsPrivacy>
+							<efac:FieldsPrivacy>
+								<efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-var</efbc:FieldIdentifierCode>
+								<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+								<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+								<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+							</efac:FieldsPrivacy>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<cbc:RankCode>1</cbc:RankCode>
 							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
 							<efac:Origin>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">cou-ori</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
 								<efbc:AreaCode listName="country">GBR</efbc:AreaCode>
 							</efac:Origin>
 							<efac:SubcontractingTerm>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">sub-con</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
 								<efbc:TermCode listName="applicability">not-known</efbc:TermCode>
 							</efac:SubcontractingTerm>
 							<efac:TenderingParty>
@@ -40,7 +84,7 @@
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2020-02-12+01:00</cbc:AwardDate>
+							<cbc:AwardDate>2020-02-12Z</cbc:AwardDate>
 							<cbc:Title languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Title>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -213,7 +257,48 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:ProcurementLegislationDocumentReference>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:FieldsPrivacy>
+								<efbc:FieldIdentifierCode listName="non-publication-identifier">cro-bor-law</efbc:FieldIdentifierCode>
+								<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+								<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+								<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+							</efac:FieldsPrivacy>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:ID>CrossBorderLaw</cbc:ID>
+			<cbc:DocumentDescription languageID="ENG">Cross border law description ---</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+	</cac:TenderingTerms>
 	<cac:TenderingProcess>
+		<ext:UBLExtensions>
+			<ext:UBLExtension>
+				<ext:ExtensionContent>
+					<efext:EformsExtension>
+						<efac:FieldsPrivacy>
+							<efbc:FieldIdentifierCode listName="non-publication-identifier">pro-typ</efbc:FieldIdentifierCode>
+							<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+							<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+						</efac:FieldsPrivacy>
+						<efac:FieldsPrivacy>
+							<efbc:FieldIdentifierCode listName="non-publication-identifier">pro-fea</efbc:FieldIdentifierCode>
+							<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+							<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+						</efac:FieldsPrivacy>
+					</efext:EformsExtension>
+				</ext:ExtensionContent>
+			</ext:UBLExtension>
+		</ext:UBLExtensions>
+		<cbc:Description languageID="ENG">This procedure has a lot of not public information...</cbc:Description>
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
@@ -242,9 +327,33 @@
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
 										<efac:AwardCriterionParameter>
+											<efac:FieldsPrivacy>
+												<efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-wei</efbc:FieldIdentifierCode>
+												<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+												<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+												<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+											</efac:FieldsPrivacy>
+											<efac:FieldsPrivacy>
+												<efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-num</efbc:FieldIdentifierCode>
+												<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+												<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+												<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+											</efac:FieldsPrivacy>
 											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
 											<efbc:ParameterNumeric>75</efbc:ParameterNumeric>
 										</efac:AwardCriterionParameter>
+										<efac:FieldsPrivacy>
+											<efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-typ</efbc:FieldIdentifierCode>
+											<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+											<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+											<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+										</efac:FieldsPrivacy>
+										<efac:FieldsPrivacy>
+											<efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-nam</efbc:FieldIdentifierCode>
+											<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+											<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+											<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+										</efac:FieldsPrivacy>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -258,9 +367,33 @@
 								<ext:ExtensionContent>
 									<efext:EformsExtension>
 										<efac:AwardCriterionParameter>
+											<efac:FieldsPrivacy>
+												<efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-wei</efbc:FieldIdentifierCode>
+												<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+												<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+												<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+											</efac:FieldsPrivacy>
+											<efac:FieldsPrivacy>
+												<efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-num</efbc:FieldIdentifierCode>
+												<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+												<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+												<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+											</efac:FieldsPrivacy>
 											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
 											<efbc:ParameterNumeric>25</efbc:ParameterNumeric>
 										</efac:AwardCriterionParameter>
+										<efac:FieldsPrivacy>
+											<efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-typ</efbc:FieldIdentifierCode>
+											<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+											<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+											<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+										</efac:FieldsPrivacy>
+										<efac:FieldsPrivacy>
+											<efbc:FieldIdentifierCode listName="non-publication-identifier">awa-cri-nam</efbc:FieldIdentifierCode>
+											<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+											<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+											<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+										</efac:FieldsPrivacy>
 									</efext:EformsExtension>
 								</ext:ExtensionContent>
 							</ext:UBLExtension>
@@ -315,6 +448,6 @@
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
-		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+		<cbc:AwardDate>2020-02-12</cbc:AwardDate>
 	</cac:TenderResult>
 </ContractAwardNotice>
