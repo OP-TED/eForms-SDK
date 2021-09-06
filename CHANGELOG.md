@@ -1,4 +1,7 @@
 # SDK 0.3.0 Release Notes
+
+*Update: An older version of the schematron rules was included by mistake in version 0.3.0. Version 0.3.1 includes the latest version of the schematron rules.*
+
 Below is a list of the major updates made to the SDK in this release.
 
 The documentation is available as separate Asciidoc files, one per section.
