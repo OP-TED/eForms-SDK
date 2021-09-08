@@ -88,4 +88,11 @@ In the future we plan to include additional label types such as (non-exhaustive 
 
 Indicates the identifier of the asset (i.e. business term, field etc.). The asset identifiers are indicated in the <<fields:index.adoc, field metadata repository>> (JSON).
 
-To resolve a label you will need the label identifier which you can construct from the current context of your application using the appropriate `<asset-type>`, `<asset-id>` and `<label-type>`.
+The asset type and label type do not contain a dot, but the asset id can contain
+a dot to denote a structure among assets. In particular, the asset id for items
+in a code list is `<codelist>.<code>`. For example the complete identifier of
+the label for the Euro currency is `code.name.currency.EUR`.
+
+To resolve a label you will need the label identifier which you can construct
+from the current context of your application using the appropriate
+`<asset-type>`, `<label-type>` and `<asset-id>`.
