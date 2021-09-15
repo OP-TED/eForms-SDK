@@ -74,7 +74,7 @@ standard. |NA |2.3
 |OPT-002 |Customization ID (UBL) |Customization ID based on the SDK
 versioning |NA |eforms-sdk-x.y
 
-|OPT-111 |Fiscal Legislation Document ID |Technical ID required by the
+|OPT-111 |Tax Legislation Document ID |Technical ID required by the
 standard | |No restriction
 
 |OPT-112 |Environmental Legislation Document ID |Technical ID required
@@ -258,9 +258,9 @@ ORG-XXXX,
 
 TPO-XXXX
 
-|OPT-301 |Fiscal Legislation Organization Technical Identifier Reference
+|OPT-301 |Tax Legislation Information Provider Technical Identifier Reference
 |Points to the Organization, or its alternate contact details, from
-where additional information about the fiscal legislation may be
+where additional information about the tax legislation may be
 obtained. a|
 organization,
 
@@ -293,7 +293,7 @@ TPO-XXXX
 |OPT-301 |Payer Party (ID reference) |Points to the organization
 executing the payments |organization |ORG-XXXX
 
-|OPT-301 |Review Info Provider Technical Identifier Reference |Points to
+|OPT-301 |Review Information Providing Organization Technical Identifier Reference |Points to
 the Organization, or one of its alternate contact details, where more
 information on the time limits for review procedures may be obtained. a|
 organization,
