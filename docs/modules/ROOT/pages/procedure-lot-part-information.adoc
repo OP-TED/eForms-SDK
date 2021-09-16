@@ -972,10 +972,13 @@ criteria/criterion is "not yet known", is only allowed for "PIN time
 limit" and "PIN CFC" notices. Further information is marked with the
 "_cbc:Description_" element.
 
-When the criteria/criterion is used for selection of candidates for a
-second stage ("_efbc:SecondStageIndicator_" set to "_true_", BT-40),
-then details about the criteria/criterion associated numbers must be
-provided (BT-7531, BT-7532, BT-752).
+The indication that the criteria/criterion is used for 
+selection of candidates for a second stage is the presence of the 
+element "_efbc:SecondStageIndicator_" (BT-40), with its value set to 
+"true". This element should be omitted when the criteria/criterion is 
+not used for selection of candidates for a second stage. If the element
+is present, then details about the criteria/criterion associated numbers 
+must be provided (BT-7531, BT-7532, BT-752).
 
 These details are reported in the efac:CriterionParameter element. The 
 type of criterion is indicated by the efbc:ParameterCode element, with 
@@ -1089,7 +1092,10 @@ For QS and CN Notices (design excluded), the Recurrence (BT-94) may be
 used to identify a Procurement whose purpose is likely to also be
 included in another procedure in the foreseeable future. Any additional
 information about recurrence (e.g. estimated timing) may be reported
-using the Recurrence Description (BT-95).
+using the Recurrence Description (BT-95). The 
+"_cbc:RecurringProcurementIndicator_" element may be used with the value 
+"false" to indicate that the Procurement will not be included in another 
+Procedure.
 
 [source,xml]
 ----
@@ -1563,6 +1569,9 @@ Shall be respectively marked using the indicators:
 <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
 ----
 
+To indicate that a particular awarding consequence does not apply, the 
+respective element should be omitted.
+
 [[awardCriteriaSection]]
 === Award Criteria (BT-539, BT-540, BT-541, BT-543, BT-733, BT-734, BT-5421, BT-5422, BT-5423)
 
@@ -1868,6 +1877,10 @@ execution is specified by two indicators:
 </cac:PostAwardProcess>
 ----
 
+To indicate that  _Electronic Ordering (BT-92)_ or _Electronic Payment (BT-93)_
+shall not be used, the respective element should be used with the value 
+"false".
+
 [[shortlistSection]]
 === Economic Operator Shortlist
 
@@ -1901,7 +1914,9 @@ The Security Clearance description is marked with the
 associated Lot. It covers information like the required level and
 period, and the people concerned. When Security Clearance is required
 ("true" value for "_cbc:Code_"), then information may be specified using
-the "_cbc:Description_" element.
+the "_cbc:Description_" element. When Security Clearance is not required,
+The element "_cac:SecurityClearanceTerm_" may be omitted, or used with the 
+value "false" in the "_cbc:Code_" element.
 
 [source,xml]
 ----
@@ -2402,6 +2417,8 @@ object. Applied at the Procedure level, it does not however mark the end
 of notice publications since Change notices and Contract Modifications
 could still be created.
 
+The indicator should not be used with the value "false".
+
 [[allLotsSection]]
 === Lots All Required (BT-763)
 
@@ -2455,7 +2472,9 @@ Only two values are possible, "true" and "false":
 === GPA Coverage (BT-115)
 
 An indicator may be used to specify whether a procurement associated to
-a Lot is covered by a Government Procurement Agreement or not.
+a Lot is covered by a Government Procurement Agreement or not. Where the
+indicator is mandated by the regulation, the element 
+"_cbc:GovernmentAgreementConstraintIndicator_" must be present.
 
 [source,xml]
 ----
