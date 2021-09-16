@@ -977,12 +977,23 @@ second stage ("_efbc:SecondStageIndicator_" set to "_true_", BT-40),
 then details about the criteria/criterion associated numbers must be
 provided (BT-7531, BT-7532, BT-752).
 
+These details are reported in the efac:CriterionParameter element. The 
+type of criterion is indicated by the efbc:ParameterCode element, with 
+BT-7531 Selection Criteria Second Stage Invite Number Weight using one 
+of the values from the 
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight[number-weight]
+codelist, and BT-7532 Selection Criteria Second Stage Invite Number 
+Threshold using one of the values from the 
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold[number-threshold]
+codelist. The efbc:ParameterNumeric element shall hold the value 
+associated with the criterion. 
+
 When shall second stage information be reported?
 
 1. When this is applicable, also information is mandatory for CN
 General under Directive 24
 
-2. If Procedure Type (BT-107) isfootnote:[Possible Procedure codes are from the https://op.europa.eu/web/eu-vocabularies/dataset/-/resource/dataset/procurement-procedure-type[Procurement Procedure Type] codelist: "open", "oth-single", "neg-wo-call", "restricted", "neg-w-call", "comp-dial", "innovation", "oth-mult".]:
+2. If Procedure Type (BT-107) isfootnote:[Possible Procedure codes are from the https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type[Procurement Procedure Type] codelist: "open", "oth-single", "neg-wo-call", "restricted", "neg-w-call", "comp-dial", "innovation", "oth-mult".]:
 
 * _"open"_, _"other single stage procedure"_ or _"negotiated without
 prior call for competition"_, then the 2^nd^ stage information is not
@@ -1068,7 +1079,7 @@ follows:
 ----
 
 Allowed values are those listed in the
-http://publications.europa.eu/resource/dataset/requirement-stage[requirement-stage]
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/requirement-stage[requirement-stage]
 codelist.
 
 [[recurrenceSection]]
@@ -1108,7 +1119,7 @@ whether a tenderer may submit more than one tender ("allowed") or not
 ("not-allowed"). This information is marked using the
 "_cbc:MultipleTendersCode_" for which only the two previous values of
 the
-https://op.europa.eu/web/eu-vocabularies/dataset/-/resource/dataset/permission[permission]
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/permission[permission]
 codelist are accepted.
 
 [source,xml]
@@ -1156,13 +1167,13 @@ _cbc:DocumentTypeCode_ shall not be used.
 
 When there is a need to specify the linguistic version, then the
 cbc:LanguageID element has to be used with values from the
-https://op.europa.eu/web/eu-vocabularies/dataset/-/resource/dataset/language[language]
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/language[language]
 codelist. This element is not repeatable and when multiple linguistic
 versions have to be referenced, the whole block
 "_cac:CallForTendersDocumentReference_" has to be repeated.
 
 The status of a given linguistic version may also be specified using the
-"_cbc:DocumentStatusCode_" element with any of the two values: "official"
+"_cbc:DocumentStatusCode_" element with either of the two values: "official"
 and "non-official".
 
 [source,xml]
@@ -1290,7 +1301,7 @@ Participation" requirement shall be specified.
 
 The existence of a constraint on a legal form that a group of tenderers
 awarded a contract has to take (BT-761), is marked with the
-"_cbc:CompanyLegalFormCode_" element. It is expressed using any of the
+"_cbc:CompanyLegalFormCode_" element. It is expressed using either of the
 two values "_true_" or "_false_" and specifying "required" as a listName
 attribute. When the value is "true", the _Tenderer Legal Form
 Description_ (BT-76) is provided and marked using the
@@ -1624,23 +1635,25 @@ optional. The type of award criterion shall be one of the
 https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/award-criterion-type[award-criterion-type]
 codelist.
 
-Associated to this criterion may be specified one or more numbers
-(BT-541), each with its associated dimension (BT-5421, BT-5422 or
-BT-5423). For a given number, only one dimension shall be defined.
+This criterion may be quantified in one or more dimensions, each within 
+an efac:AwardCriterionParameter element. The dimension is specified with 
+the efbc:ParameterCode element, and the efbc:ParameterNumeric element 
+shall hold the value associated with that dimension.
+
 
 The number dimension shall be:
 
-* for weights, elements from the
+* for weights (BT-5421), elements from the
 https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight[number-weight]
 codelist;
 
-* for fixed values, elements from the
+* for fixed values (BT-5422), elements from the
 https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/number-fixed[number-fixed]
-list; and
+codelist; and
 
-* for threshold values, elements from the
+* for threshold values (BT-5423), elements from the
 https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold[number-threshold]
-list.
+codelist.
 
 [source,xml]
 ----
@@ -2431,7 +2444,7 @@ This term is an indicator used to specify per Lot whether the procedure
 is a multi-stages one or not; At each stage, participants may be
 eliminated.
 
-Only two values are possible "true" and "false":
+Only two values are possible, "true" and "false":
 
 [source,xml]
 ----
@@ -2607,7 +2620,7 @@ justification is encoded with the ProcessReason element:
 [source,xml]
 ----
 <cac:ProcessJustification>
-    <cbc:ProcessReasonCode listName="procedure-accelerated">true</cbc:ProcessReasonCode>
+    <cbc:ProcessReasonCode listName="accelerated-procedure">true</cbc:ProcessReasonCode>
     <cbc:ProcessReason languageID="ENG">The urgent aspect of ...</cbc:ProcessReason>
     <cbc:ProcessReason languageID="FRA">Le caractère urgent de ...</cbc:ProcessReason>
 </cac:ProcessJustification>
@@ -2916,25 +2929,41 @@ cbc:ProcurementTypeCode
 cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementTypeCode
 ----
 
+
+11+^|*Strategic Procurement (+++*+++)* 
+
+|*Strategic Procurement (BT-06)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- |*** |-- |-- |*** |-- |*** 
+a|
+[source,xpath,subs=attributes]
+----
+cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementTypeCode{zwsp}[@listName='strategic-procurement']
+----
+
+|*Strategic Procurement Description (BT-777)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- |*** |-- |-- |*** |-- |*** 
+a|
+[source,xpath,subs=attributes]
+----
+cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementType
+----
+
+
 11+^|*Procurement type (+++*+++)*
 
-|*Green Procurement (BT-774)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
+|*Green Procurement (BT-774)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- |*** |-- |-- |*** |-- |*** 
 a|
 [source,xpath,subs=attributes]
 ----
 cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementTypeCode{zwsp}[@listName='environmental-impact']
 ----
 
-
-|*Social Procurement (BT-775)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
+|*Social Procurement (BT-775)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- |*** |-- |-- |*** |-- |*** 
 a|
 [source,xpath,subs=attributes]
 ----
 cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementTypeCode{zwsp}[@listName='social-procurement']
 ----
 
-
-|*Innovative Procurement (BT-776)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
+|*Innovative Procurement (BT-776)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- |*** |-- |-- |*** |-- |*** 
 a|
 [source,xpath,subs=attributes]
 ----
@@ -2942,32 +2971,16 @@ cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementTypeCode{zwsp}[@listName='inn
 ----
 
 
-11+^|*Strategic Procurement (+++*+++)* 
-
-|*Strategic Procurement Description (BT-777)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
-a|
-[source,xpath,subs=attributes]
-----
-cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementType
-----
-
-|*Strategic Procurement (BT-06)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
-a|
-[source,xpath,subs=attributes]
-----
-cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementTypeCode{zwsp}[@listName='strategic-procurement']
-----
-
 
 11+^|*Accessibility* 
 
-|*Accessibility Justification (BT-755)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? a|
+|*Accessibility Justification (BT-755)* |xref:accessibilitySection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? a|
 [source,xpath,subs=attributes]
 ----
 cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementType
 ----
 
-|*Accessibility (BT-754)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? a|
+|*Accessibility (BT-754)* |xref:accessibilitySection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? a|
 [source,xpath,subs=attributes]
 ----
 cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementTypeCode
@@ -2976,14 +2989,14 @@ cac:ProcurementAdditionalType{zwsp}/cbc:ProcurementTypeCode
 
 11+^|*Quantity (+++*+++)* 
 
-|*Quantity (BT-25)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
+|*Quantity (BT-25)* |xref:quantitySection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
 a|
 [source,xpath,subs=attributes]
 ----
 cbc:EstimatedOverallContractQuantity
 ----
 
-|*Unit (BT-625)* |xref:strategicProcurementSection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
+|*Unit (BT-625)* |xref:quantitySection[xrefstyle=short] |-- |-- h|? |-- |-- h|? |-- h|? 
 a|
 [source,xpath,subs=attributes]
 ----
@@ -2992,7 +3005,7 @@ cbc:EstimatedOverallContractQuantity{zwsp}/@unitCode
 
 11+^|*Aggregated amounts & additional information* 
 
-|*Suitable for SMEs (BT-726)* |xref:quantitySection[xrefstyle=short] |-- h|? h|? h|? h|? h|? |-- |-- a|
+|*Suitable for SMEs (BT-726)* |xref:suitableSMESection[xrefstyle=short] |-- h|? h|? h|? h|? h|? |-- |-- a|
 [source,xpath,subs=attributes]
 ----
 cbc:SMESuitableIndicator
@@ -3225,8 +3238,18 @@ For each linguistic version, these shall exist only once.
 <cbc:Description languageID="FRA">Procédure pour la fourniture de ...</cbc:Description>
 ----
 
+[[procurementTypeSection]]
+=== Main & Additional Nature (BT-23, BT-531), Strategic Procurement (BT-06, BT-774, BT-775, BT-776, BT-777), and Accessibility (BT-754, BT-755)
+
+Main Nature (BT-23) is specified using the element 
+"_cbc:ProcurementTypeCode_" directly within the "_cac:ProcurementProject​_"
+ element. All the other business terms  use the 
+ "_cbc:ProcurementTypeCode_" element within a 
+"_cac:ProcurementAdditionalType_" element. This may also contain a 
+multilingual text description in a "_cbc:ProcurementType_" element.
+
 [[natureSection]]
-=== Main & Additional Nature (BT-23, BT-531)
+==== Main & Additional Nature (BT-23, BT-531)
 
 The possible values are listed in the https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature[contract-nature] codelistfootnote:[The use of the "combined" code is restricted to "TEDXML" and is not a valid one for "eForms".].
 
@@ -3246,10 +3269,50 @@ Additional Natures,
 
 ** Additional Natures must differ from the Main Nature,
 
-** Additional Natures must must not be duplicated,
+** Additional Natures must not be duplicated,
 
 then, for a given Procedure, Lot or Part, there may be up-to two
 Additional Natures only.
+
+[[strategicProcurementSection]]
+==== Strategic Procurement (BT-06, BT-774, BT-775, BT-776, BT-777)
+
+For a given Lot, strategic projects are identified using the "listName"
+attribute of the "_cbc:ProcurementTypeCode_" element. The value of the
+listName attribute shall refer to the appropriate codelist
+(https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/strategic-procurement[strategic-procurement]
+for strategic procurement BT-06,
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/environmental-impact[environmental-impact]
+for Green Procurement BT-774,
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/innovative-acquisition[innovative-acquisition]
+for Innovative Procurement BT-776,
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/social-objective[social-objective]
+for Social Procurement BT-775).
+
+Multiple "_cac:ProcurementAdditionalType_" elements may be used to
+highlight the different aspects of the procurement (e.g. for an
+innovative procurement aiming at reducing environmental impacts as
+illustrated in the example below).
+
+The Strategic Procurement description (BT-777) shall be marked 
+using the "_cbc:ProcurementType_" element.
+
+[[accessibilitySection]]
+==== Accessibility (BT-754, BT-755)
+
+Whether accessibility criteria for persons with disabilities are included
+(BT-754) for a lot may be indicated with a "_cbc:ProcurementTypeCode_" element, with the "listName" 
+attribute set to "accessibility", and a value from the
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/accessibility[accessibility]
+codelist. BT-754 is not repeatable, as the values in the codelist are 
+mutually exclusive. If the procurement is intended for natural persons, 
+but no accessibility criteria are given, then the value "n-inc-just" shall be used, 
+and the Accessibility Justification (BT-755) shall be given using the 
+"_cbc:ProcurementType_" element. 
+
+The below example illustrates the expression of one Main and two Additional 
+Natures, two strategic projects, and a code and justification for the 
+absence of accessibility criteria.
 
 [source,xml]
 ----
@@ -3261,46 +3324,35 @@ Additional Natures only.
 <cac:ProcurementAdditionalType>
     <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
 </cac:ProcurementAdditionalType>
-----
 
-[[strategicProcurementSection]]
-=== Strategic Procurement (BT-06, BT-754, BT-755, BT-774, BT-775, BT-776, BT-777)
+<cac:ProcurementAdditionalType>
+    <cbc:ProcurementTypeCode listName="strategic-procurement">inn-pur</cbc:ProcurementTypeCode>
+    <cbc:ProcurementType languageID="ENG">This is a strategic procurement involving the innovative use of ...</cbc:ProcurementType>
+    <cbc:ProcurementType languageID="FRA">Il s'agit d'une fourniture stratégique impliquant l'utilisation innovante de...</cbc:ProcurementType>
+</cac:ProcurementAdditionalType>
 
-For a given Lot, strategic projects are identified using the "listName"
-attribute of the "_cbc:ProcurementTypeCode_" element. The value of the
-listName attribute shall refer to the appropriate codelist
-(https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/environmental-impact[environmental-impact]
-for Green Procurement BT-774,
-https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/innovative-acquisition[innovative-acquisition]
-for Innovative Procurement BT-776,
-https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/social-objective[social-objective]
-for Social Procurement BT-775,
-https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/strategic-procurement[strategic-procurement]
-for strategic procurement BT-06,
-https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/accessibility[accessibility]
-for accessibility related procurement BT-754)
+<cac:ProcurementAdditionalType>
+    <cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+    <cbc:ProcurementType languageID="ENG">Compliance with EMAS ...</cbc:ProcurementType>
+    <cbc:ProcurementType languageID="FRA">Conformité à l'EMAS ...</cbc:ProcurementType>
+</cac:ProcurementAdditionalType>
 
-Multiple "_cac:ProcurementAdditionalType_" elements may be used to
-highlight the different aspects of the procurement (e.g. for an
-innovative procurement aiming at reducing environmental impacts as
-illustrated in the below example).
-
-The Strategic Procurement description (BT-777) or the Accessibility
-justification (BT-755) shall be marked using the "_cbc:ProcurementType_"
-element as shown below:
-
-[source,xml]
-----
 <cac:ProcurementAdditionalType>
     <cbc:ProcurementTypeCode listName="innovative-acquisition">mar-nov</cbc:ProcurementTypeCode>
-    <cbc:ProcurementType languageID="ENG">This is a strategic procurement on ...</cbc:ProcurementType>
-    <cbc:ProcurementType languageID="FRA">Il s'agit d'une fourniture stratégique ...</cbc:ProcurementType>
+</cac:ProcurementAdditionalType>
+
+<cac:ProcurementAdditionalType>
+    <cbc:ProcurementTypeCode listName="innovative-acquisition">buy-eff</cbc:ProcurementTypeCode>
 </cac:ProcurementAdditionalType>
 
 <cac:ProcurementAdditionalType>
     <cbc:ProcurementTypeCode listName="environmental-impact">emas-com</cbc:ProcurementTypeCode>
-    <cbc:ProcurementType languageID="ENG">The selection criteria ...</cbc:ProcurementType>
-    <cbc:ProcurementType languageID="FRA">Les critères de sélection ...</cbc:ProcurementType>
+</cac:ProcurementAdditionalType>
+
+<cac:ProcurementAdditionalType>
+    <cbc:ProcurementTypeCode listName="accessibility">n-inc-just</cbc:ProcurementTypeCode>
+    <cbc:ProcurementType languageID="ENG">Accessibility criteria are not included ...</cbc:ProcurementType>
+    <cbc:ProcurementType languageID="FRA">Les critères d'accessibilité ne sont pas inclus ...</cbc:ProcurementType>
 </cac:ProcurementAdditionalType>
 ----
 
@@ -3588,9 +3640,15 @@ illustrated below:
 
 Considerations:
 
-* cbc:MaximumNumberNumeric shall be a positive integer (when no
-extension is foreseen, the element shouldn't be used,
+* cbc:MaximumNumberNumeric is mandatory for form subtypes 15
+(Notice on the existence of a qualification system), 17 
+and 18 (Contract, or concession, notice — standard regime, 
+Directives 2014/25/EU and 2009/81/EC)
+
+* cbc:MaximumNumberNumeric shall be a whole number (when no
+extension is foreseen, the element shouldn't be used, except for
+form subtypes 15, 17 and 18, where it should have the value 0)
 
 * cbc:MaximumNumberNumeric refers to the number of possible
 renewals; an encoded value of "3" involves an initial contract followed
-by up-to 3 renewals,
+by up to 3 renewals
