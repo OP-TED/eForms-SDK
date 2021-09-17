@@ -1093,9 +1093,10 @@ used to identify a Procurement whose purpose is likely to also be
 included in another procedure in the foreseeable future. Any additional
 information about recurrence (e.g. estimated timing) may be reported
 using the Recurrence Description (BT-95). The 
-"_cbc:RecurringProcurementIndicator_" element may be used with the value 
-"false" to indicate that the Procurement will not be included in another 
-Procedure.
+"_cbc:RecurringProcurementIndicator_" has 2 possible values "true" and 
+"false" to indicate that this respectively is or is not a recurring 
+procurement (i.e. a procurement that is likely to be included later in 
+another procedure).
 
 [source,xml]
 ----
@@ -1877,9 +1878,13 @@ execution is specified by two indicators:
 </cac:PostAwardProcess>
 ----
 
-To indicate that  _Electronic Ordering (BT-92)_ or _Electronic Payment (BT-93)_
-shall not be used, the respective element should be used with the value 
-"false".
+To indicate that Electronic Ordering (BT-92) or Electronic Payment (BT-93) 
+shall be used, the respective element should be used with the value "true".
+These indicators are mandatory for Notice subtype 16 (Contract, or 
+concession, notice — standard regime, Directive 2014/24/EU). For this Notice 
+subtype, to indicate that  _Electronic Ordering (BT-92)_ or _Electronic 
+Payment (BT-93)_ shall not be used, the respective element should be used 
+with the value "false". 
 
 [[shortlistSection]]
 === Economic Operator Shortlist
@@ -1907,19 +1912,24 @@ specify the limitations that will be applied to establish a short list.
 ----
 
 [[securityClearanceSection]]
-=== Security Clearance (BT-578) & Description (BT-732)
+=== Security Clearance (BT-578), Deadline (BT-78) & Description (BT-732)
 
 The Security Clearance description is marked with the
 "_cbc:Description_" element of the "_cac:SecurityClearanceTerm_" for the
 associated Lot. It covers information like the required level and
-period, and the people concerned. When Security Clearance is required
-("true" value for "_cbc:Code_"), then information may be specified using
-the "_cbc:Description_" element. When Security Clearance is not required,
-The element "_cac:SecurityClearanceTerm_" may be omitted, or used with the 
-value "false" in the "_cbc:Code_" element.
+period, and the people concerned. When Security Clearance is required, 
+Security Clearance (BT-578) shall be specified using the "true" value for 
+"_cbc:Code_", and Security Clearance Deadline (BT-78) and Security 
+Clearance Description (BT-732) shall be specified. When Security Clearance 
+is not required, the element "_cac:SecurityClearanceTerm_" may be omitted, 
+or used with the value "false" in the "_cbc:Code_" element, and Security 
+Clearance Deadline (BT-78) and Security Clearance Description (BT-732) are 
+not allowed.
 
 [source,xml]
 ----
+<cbc:LatestSecurityClearanceDate>2019-11-15+01:00</cbc:LatestSecurityClearanceDate>
+<!--Interrupted Mark-up -->
 <cac:SecurityClearanceTerm>
     <cbc:Code listName="required">true</cbc:Code>
     <cbc:Description languageID="ENG">"EU Confidential" security clearance of Key Management Personnel must be achieved before access to procurement documents be granted</cbc:Description>
@@ -2417,7 +2427,17 @@ object. Applied at the Procedure level, it does not however mark the end
 of notice publications since Change notices and Contract Modifications
 could still be created.
 
-The indicator should not be used with the value "false".
+The field is mandatory for Notice subtypes 29 and 30 (Contract, or concession, 
+award notice — standard regime, Directives 2014/24/EU and 2014/25/EU) when 
+started with a Call For Competition. The value may be:
+
+* true when "No further contracts, besides those published in this notice, 
+will be awarded following the prior information notice used as a call for 
+competition. This field can be used even if no contracts are awarded in the 
+contract award notice."
+* false when "further contracts, besides those published in this notice, 
+may be awarded following the prior information notice used as a call for 
+competition."
 
 [[allLotsSection]]
 === Lots All Required (BT-763)
@@ -2471,10 +2491,9 @@ Only two values are possible, "true" and "false":
 [[GPASection]]
 === GPA Coverage (BT-115)
 
-An indicator may be used to specify whether a procurement associated to
-a Lot is covered by a Government Procurement Agreement or not. Where the
-indicator is mandated by the regulation, the element 
-"_cbc:GovernmentAgreementConstraintIndicator_" must be present.
+An indicator with only two acceptable values ("true" and "false") may be 
+used to specify whether a procurement associated to a Lot is covered by a 
+Government Procurement Agreement or not. 
 
 [source,xml]
 ----
@@ -3659,14 +3678,14 @@ illustrated below:
 
 Considerations:
 
-* cbc:MaximumNumberNumeric is mandatory for form subtypes 15
+* cbc:MaximumNumberNumeric is mandatory for Notice subtypes 15
 (Notice on the existence of a qualification system), 17 
 and 18 (Contract, or concession, notice — standard regime, 
 Directives 2014/25/EU and 2009/81/EC)
 
 * cbc:MaximumNumberNumeric shall be a whole number (when no
 extension is foreseen, the element shouldn't be used, except for
-form subtypes 15, 17 and 18, where it should have the value 0)
+Notice subtypes 15, 17 and 18, where it should have the value 0)
 
 * cbc:MaximumNumberNumeric refers to the number of possible
 renewals; an encoded value of "3" involves an initial contract followed

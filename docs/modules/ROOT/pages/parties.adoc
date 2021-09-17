@@ -263,8 +263,8 @@ to specify whether the legal person is a natural person or not (BT-633).
 
 The element "_efbc:NaturalPersonIndicator_" must either
 be omitted for all Non-Tenderer, Non-Buyer organizations, or included 
-for all Non-Tenderer, Non-Buyer organizations. It is not allowed for 
-an organization that has the BT-746 Winner Listed 
+for all Non-Tenderer, Non-Buyer organizations. It is not allowed with 
+the value "true" for an organization that has the BT-746 Winner Listed 
 "_efbc:ListedOnRegulatedMarketIndicator_" element with value "true".
 
 The "_efac:Company_" element groups all the elements relative to the legal
@@ -341,12 +341,14 @@ image::image023.png[image,width=233,height=220]
 This section refers to economic operators that submitted a tender.
 
 An indicator may be used to specify whether the legal person is a
-natural person or not (BT-633).
+natural person or not (BT-633). The value "true" specifies that 
+the organization is a Natural Person and the value "false" 
+specifies that the organization is a juridical person.
 
 The element "_efbc:NaturalPersonIndicator_" must either
 be omitted for all Tenderers and subcontractors, or included 
-for all Tenderers and subcontractors. It is not allowed for 
-an organization that has the BT-746 Winner Listed 
+for all Tenderers and subcontractors. It is not allowed with the 
+value "true" for an organization that has the BT-746 Winner Listed 
 "_efbc:ListedOnRegulatedMarketIndicator_" element with value "true".
 
 Another indicator may be used to specify whether this organization is
@@ -355,9 +357,10 @@ Ultimate Business Owners shall be specified.
 
 The element "_efbc:ListedOnRegulatedMarketIndicator_" must either
 be omitted for all Tenderers and subcontractors, or included 
-for all Tenderers and subcontractors. It is not allowed for 
-an organization that has the BT-633 Organisation Natural Person 
-"_efbc:NaturalPersonIndicator_" element with value "true".
+for all Tenderers and subcontractors. It is not allowed with the 
+value "true" for an organization that has the BT-633 Organisation 
+Natural Person "_efbc:NaturalPersonIndicator_" element with value 
+"true".
 
 [[winnerTendererElementsFigure]]
 .Winner/tenderer elements
