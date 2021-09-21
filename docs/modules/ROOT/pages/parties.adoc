@@ -163,9 +163,10 @@ For a buyer, there may be a need to identify whether it is:
 
 * an acquiring CPB.
 
-For Group Leader, the element "_efbc:GroupLeadIndicator_" is 
-not allowed if there is only one Buyer, but mandatory for all Buyers
-if there are more than one. Only one Buyer can have the value "true".
+For Group Leader, the element "_efbc:GroupLeadIndicator_" is
+not allowed if there is only one Buyer. If there is more than one
+Buyer, then "_efbc:GroupLeadIndicator_" is mandatory for all Buyers,
+and one Buyer shall have the value "true".
 
 For Awarding CPB, the element "_efbc:AwardingCPBIndicator_" must either
 be omitted for all Buyers, or included for all Buyers, at least one of

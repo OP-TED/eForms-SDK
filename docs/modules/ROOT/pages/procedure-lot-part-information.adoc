@@ -1570,8 +1570,10 @@ Shall be respectively marked using the indicators:
 <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
 ----
 
-To indicate that a particular awarding consequence does not apply, the 
-respective element should be omitted.
+The elements must be specified everywhere mandated by the Regulation. To 
+indicate that a particular awarding consequence does not apply, the 
+respective element should have the value "false".
+
 
 [[awardCriteriaSection]]
 === Award Criteria (BT-539, BT-540, BT-541, BT-543, BT-733, BT-734, BT-5421, BT-5422, BT-5423)
