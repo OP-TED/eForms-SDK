@@ -33,8 +33,8 @@ For the example above, the fields defined for BT-27 are:
 The structure and content of the field repository described below are driven by
 the specific needs of our various applications.
 
-As we think it can be useful for others, we are sharing it publicly, and you are
-welcome to make use of it. But we currently do not guarantee the stability
+As we think it could be useful for others, we are sharing it publicly, and you are
+free to make use of it. However we currently do not guarantee the stability
 of the structure or content described here.
 ====
 
@@ -45,7 +45,7 @@ We are using this file to provide the definition of all fields to our
 form-filling application (eNotices2). Each form is then made of a specific
 subset of those fields.
 
-The field repository is mainly a list of fields, preceded by some version information:
+The field repository is an array of fields, preceded by some version information:
 
 [source,json]
 ----
@@ -94,7 +94,7 @@ For each field, various characteristics of the field are indicated.
 <6> Data type of the business term, as indicated in the eForms Regulation.
 <7> Description of the field (currently not used).
 <8> Indicates if the field can appear more than once inside its container
-<9> Identifier of the code list from which the field takes its values.
+<9> Identifier of the code list from which the field value must belong.
 Applicable only for fields of type "code" or "internal-code"
 
 === Field data types
@@ -114,7 +114,7 @@ The possible technical data types for a field are:
 * `zoned-time`: time with timezone
 * `email`: string representing an e-mail address
 * `phone`: string representing a phone number
-* `url`: string representing an URL
+* `url`: string representing a URL
 * `text`: language independent string
 * `text-multilingual`: string that can be translated in multiple languages
 
