@@ -209,8 +209,8 @@ a constraint.
       ...
       "constraints" : [
         {
-          "minNumber" : "1",
-          "maxNumber" : "999999" // <1>
+          "minNumber" : 1,
+          "maxNumber" : 999999 // <1>
         }
       ]
     }
