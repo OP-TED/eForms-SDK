@@ -13,6 +13,8 @@
 	<ns prefix="pin" uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" />
 	<title>eForms schematron rules</title>
 	
+	<let name="noticeSubType" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text()"/>
+	
 	<include href="stage-1-preliminary.sch"/>
 	<include href="stage-1.sch"/>
 	<include href="stage-2.sch"/>

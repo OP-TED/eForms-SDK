@@ -7,49 +7,32 @@
   Generated on:      2017-01-02 17:20(UTC)
   Copyright (c) OASIS Open 2017. All Rights Reserved.
 -->
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" targetNamespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.3">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" 
+xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" 
+xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" 
+targetNamespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" 
+            elementFormDefault="qualified" attributeFormDefault="unqualified" 
+            version="2.3">
 	<!-- ===== Imports ===== -->
-	<xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" schemaLocation="BDNDR-UnqualifiedDataTypes-1.1.xsd"/>
-	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="UBL-CommonBasicComponents-2.3.xsd"/>
+	<xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" 
+	schemaLocation="BDNDR-UnqualifiedDataTypes-1.1.xsd"/>
+	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" 
+	schemaLocation="UBL-CommonBasicComponents-2.3.xsd"/>
 	<!-- ===== Includes ===== -->
 	<xsd:include schemaLocation="UBL-ExtensionContentDataType-2.3.xsd"/>
 	<!-- ===== Aggregate Element and Type Declarations ===== -->
 	<xsd:element name="UBLExtensions" type="UBLExtensionsType">
-		<!-- xsd:annotation>
-			<xsd:documentation>
-        A container for all extensions present in the document.
-      </xsd:documentation>
-		</xsd:annotation -->
 	</xsd:element>
 	<xsd:complexType name="UBLExtensionsType">
-		<!-- xsd:annotation>
-			<xsd:documentation>
-        A container for all extensions present in the document.
-      </xsd:documentation>
-		</xsd:annotation -->
 		<xsd:sequence>
 			<xsd:element ref="UBLExtension" minOccurs="1" maxOccurs="unbounded">
-				<!-- xsd:annotation>
-					<xsd:documentation>
-            A single extension for private use.
-          </xsd:documentation>
-				</xsd:annotation -->
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:element name="UBLExtension" type="UBLExtensionType">
-		<!-- xsd:annotation>
-			<xsd:documentation>
-        A single extension for private use.
-      </xsd:documentation>
-		</xsd:annotation -->
 	</xsd:element>
 	<xsd:complexType name="UBLExtensionType">
-		<!-- xsd:annotation>
-			<xsd:documentation>
-        A single extension for private use.
-      </xsd:documentation>
-		</xsd:annotation -->
 		<xsd:sequence>
 			<!-- 
 		##################################

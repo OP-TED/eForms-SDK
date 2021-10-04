@@ -1,0 +1,228 @@
+= Field metadata
+
+== What is a field
+
+The https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R1780[eForms
+Regulation] defines, in table 2 of its annex, a set of business terms (BT) for
+the various pieces of information that are in a notice.
+
+But the level of granularity of those BTs is not sufficient to accurately
+reflect the structure of the information in the XML notices.
+
+For example, there is a single business term, BT-27, for the estimated value of
+the procurement procedure or lot. But the estimated value of a lot is in a
+different location in the XML, and will be subject to different rules, than the
+estimated value of the whole procedure.
+
+The notion of fields was added to resolve those ambiguities. Each field is
+related to one single business term, and corresponds to a more precise
+definition of the information it contains. The identifier of a field always
+starts with the identifier of the corresponding business term.
+
+For the example above, the fields defined for BT-27 are:
+
+* BT-27-Procedure : estimated value of the procedure
+* BT-27-Lot : estimated value of a lot
+* BT-27-Part : estimated value of a part
+* BT-27-LotsGroup : estimated value of a group of lots 
+
+== The field repository
+
+[WARNING]
+====
+The structure and content of the field repository described below are driven by
+the specific needs of our various applications.
+
+As we think it could be useful for others, we are sharing it publicly, and you are
+free to make use of it. However we currently do not guarantee the stability
+of the structure or content described here.
+====
+
+The field repository is a JSON file that contains all relevant information for
+each field we have defined, in a structured and reusable form.
+
+We are using this file to provide the definition of all fields to our
+form-filling application (eNotices2). Each form is then made of a specific
+subset of those fields.
+
+The field repository is an array of fields, preceded by some version information:
+
+[source,json]
+----
+{
+  "ublVersion": "2.3", // <1>
+  "sdkVersion" : "eforms-sdk-0.4.1", // <2>
+  "metadataDatabase": { // <3>
+    "version": "0.0.4",
+    "createdOn": "2021-08-20T16:46:39"
+  },
+  "fields": [ // <4>
+    { ... },
+	...
+  ]
+}
+----
+<1> version of the UBL standard used
+<2> version of the eForms SDK the file belongs to
+<3> version number and date of the data used to create this file
+<4> list of fields
+
+== Field characteristics
+
+For each field, various characteristics of the field are indicated.
+
+[source,json]
+----
+    {
+      "id": "BT-01-notice", // <1>
+      "name": "Procedure Legal Basis", // <2>
+      "btId": "BT-01", // <3>
+      "xpath": "/*/cbc:RegulatoryDomain", // <4>
+      "type": "internal-code", // <5>
+      "legalType": "CODE", // <6>
+      "description": "", // <7>
+      "repeatable": false, // <8>
+      "codeList": "legal-basis" // <9>
+	  ...
+    }
+----
+<1> Identifier of the field.
+<2> Short name of the field.
+<3> Identifier of the business term to which the field corresponds.
+<4> Location of the field in an XML notice, as an XPath.
+<5> Technical data type of the field.
+<6> Data type of the business term, as indicated in the eForms Regulation.
+<7> Description of the field (currently not used).
+<8> Indicates if the field can appear more than once inside its container
+<9> Identifier of the code list from which the field value must belong.
+Applicable only for fields of type "code" or "internal-code"
+
+=== Field data types
+
+The possible technical data types for a field are:
+
+* `id`: string representing an identifier
+* `id-ref`: string representing a reference to an identifier
+* `indicator`: boolean (true or false)
+* `integer`: whole-valued positive number
+* `number`: numerical value, with optional decimal places.
+* `amount`: monetary amount, comprised of a numerical value and a currency
+* `measure`: numerical value associated with a measurement unit
+* `code`: string representing a concept in a code list
+* `internal-code`: string representing a concept in an internal code list
+* `zoned-date`: date with timezone
+* `zoned-time`: time with timezone
+* `email`: string representing an e-mail address
+* `phone`: string representing a phone number
+* `url`: string representing a URL
+* `text`: language independent string
+* `text-multilingual`: string that can be translated in multiple languages
+
+== Field constraints
+
+In addition to the information described above, constraints that apply to a
+field are also indicated.
+
+Those constraints correspond to a subset of the validation rules of an eForms
+notice.
+
+=== Presence constraints
+
+Presence constraints indicate for which notice types the field is mandatory or
+not allowed (forbidden).
+
+If no specific presence constraint exists for a notice type, the field is
+considered optional: it can be present but is not required.
+
+Please note that the UBL specification does not permit XML documents
+to contain empty elements or attributes. So a field being mandatory means that it must contain a value.
+
+.Simple presence constraints
+[source,json]
+----
+    {
+      "id": "BT-11-Procedure-Buyer",
+      ...
+      "constraints": [
+        {
+          "presence": "FORBIDDEN",
+          "noticeTypes": [ "38", "39", "40" ]
+        },
+        {
+          "presence": "MANDATORY",
+          "noticeTypes": [ "1", "4" ]
+        }
+      ]
+    }
+----
+
+The presence constraint of a field can also depend on more complex conditions:
+the presence or value of another field, etc.
+
+.Constraint with a condition
+[source,json]
+----
+    {
+      "condition" : "field('BT-740-Procedure-Buyer') == 'not-cont-ent'", // <1>
+      "presence" : "MANDATORY",
+      "noticeTypes" : [ "2", "5" ]
+    }
+----
+<1> This field must be present if the field BT-740-Procedure-Buyer
+contains 'not-cont-ent'.
+
+For more details on the syntax of conditions, see <<Syntax for conditions>> below.
+
+=== Value constraints
+
+If the value of a field must follow a specific format, it is indicated as a
+regular expression.
+
+.Regular expression constraint
+[source,json]
+----
+    {
+      "id" : "BT-137-Lot",
+      ...
+      "constraints" : [
+        {
+          "regex" : "^LOT-\\d{4}$" // <1>
+        }
+      ]
+    }
+----
+<1> The value of this field must be "LOT-" followed by 4 digits.
+
+In the regular expression, the backslash character "\" is escaped as "\\".
+
+=== Interval constraints
+
+For numerical fields, the minimum and maximum allowed value can be specified as
+a constraint.
+
+.Regular expression constraint
+[source,json]
+----
+    {
+      "id" : "BT-31-Procedure",
+      "type" : "number",
+      ...
+      "constraints" : [
+        {
+          "minNumber" : 1,
+          "maxNumber" : 999999 // <1>
+        }
+      ]
+    }
+----
+<1> The value of this field must be between 1 and 999999.
+
+=== Syntax for conditions
+
+A condition must be a boolean expression.
+
+The syntax is based on the
+https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions[Spring
+Expression Language (SpEL)], limited to a small number of boolean and comparison operators.
+
+A field can be referenced using its identifier: `field('BT-31-Procedure')`.

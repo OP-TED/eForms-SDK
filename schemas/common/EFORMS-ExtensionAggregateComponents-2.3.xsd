@@ -28,12 +28,12 @@
 	<xsd:element name="BusinessPartyGroup" type="BusinessPartyGroupType"/>
 	<xsd:element name="BuyingPartyReference" type="BuyingPartyReferenceType"/>
 	<xsd:element name="Change" type="ChangeType"/>
-	<xsd:element name="ChangedElement" type="ChangedElementType"/>
+	<xsd:element name="Changes" type="ChangesType"/>
 	<xsd:element name="ChangeReason" type="ReasonType"/>
 	<xsd:element name="Company" type="CompanyType"/>
 	<xsd:element name="ConcessionRevenue" type="ConcessionRevenueType"/>
 	<xsd:element name="ContractAggregatedAmounts" type="ContractAggregatedAmountsType"/>
-	<xsd:element name="ContractModification" type="ChangeType"/>
+	<xsd:element name="ContractModification" type="ChangesType"/>
 	<xsd:element name="ContractTerm" type="ContractTermType"/>
 	<xsd:element name="CriterionParameter" type="ParameterType"/>
 	<xsd:element name="DecisionReason" type="DecisionReasonType"/>
@@ -55,7 +55,7 @@
 	<xsd:element name="Organizations" type="OrganizationsType"/>
 	<xsd:element name="Origin" type="OriginType"/>
 	<xsd:element name="Publication" type="PublicationType"/>
-	<xsd:element name="ReceivedSubmissionsStatistics" type="StatisticsType"/>
+	<xsd:element name="ReceivedSubmissionsStatistics" type="ReceivedSubmissionsStatisticsType"/>
 	<xsd:element name="ReferencedDocumentPart" type="ReferencedDocumentPartType"/>
 	<xsd:element name="SelectionCriteria" type="CriterionType"/>
 	<xsd:element name="SettledContract" type="SettledContractType"/>
@@ -75,7 +75,7 @@
 	<!-- ===== Aggregate Business Information Entity Type Definitions ===== -->
 	<xsd:complexType name="AggregatedAmountsType">
 		<xsd:sequence>
-			<xsd:element ref="efbc:PaidAmount" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="cbc:PaidAmount" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:PaidAmountDescription" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:PenaltiesAmount" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
@@ -166,17 +166,17 @@
 	</xsd:complexType>
 	<xsd:complexType name="ChangeType">
 		<xsd:sequence>
-			<xsd:element ref="efbc:ChangedNoticeIdentifier" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ChangedSectionIdentifier" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ChangeDescription" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:ProcurementDocumentsChangeDate" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:ProcurementDocumentsChangeIndicator" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="efac:ChangedElement" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efac:ChangeReason" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
-	<xsd:complexType name="ChangedElementType">
+	<xsd:complexType name="ChangesType">
 		<xsd:sequence>
-			<xsd:element ref="efbc:ChangedSectionIdentifier" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="efbc:ChangeDescription" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ChangedNoticeIdentifier" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:Change" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:ChangeReason" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="CompanyType">
@@ -202,7 +202,7 @@
 	</xsd:complexType>
 	<xsd:complexType name="ContractAggregatedAmountsType">
 		<xsd:sequence>
-			<xsd:element ref="efbc:PaidAmount" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="cbc:PaidAmount" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:PaidAmountDescription" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:PenaltiesAmount" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
@@ -250,7 +250,7 @@
 	<xsd:complexType name="FieldsPrivacyType">
 		<xsd:sequence>
 			<xsd:element ref="efbc:FieldIdentifierCode" minOccurs="1" maxOccurs="unbounded"/>
-			<xsd:element ref="efbc:ReasonCode" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="cbc:ReasonCode" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:ReasonDescription" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:PublicationDate" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
@@ -390,8 +390,15 @@
 	</xsd:complexType>
 	<xsd:complexType name="ReasonType">
 		<xsd:sequence>
-			<xsd:element ref="efbc:ReasonCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:ReasonCode" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:ReasonDescription" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ReceivedSubmissionsStatisticsType">
+		<xsd:sequence>
+			<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:StatisticsCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:StatisticsNumeric" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="ReferencedDocumentPartType">

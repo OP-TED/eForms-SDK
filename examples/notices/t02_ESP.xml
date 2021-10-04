@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Based on https://ted.europa.eu/udl?uri=TED:NOTICE:177511-2020:TEXT:EN:HTML
+<!-- Currently filled in with fake values.
 -->
 <ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ext:UBLExtensions>
@@ -72,8 +72,8 @@
 						<efac:SettledContract>
 							<!--<cbc:ID>CONTRACT 627836</cbc:ID>-->
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2020-02-12</cbc:AwardDate>
-							<cbc:IssueDate>2020-04-09</cbc:IssueDate>
+							<cbc:AwardDate>2020-02-12+01:00</cbc:AwardDate>
+							<cbc:IssueDate>2020-04-09+02:00</cbc:IssueDate>
 							<efac:DurationJustification>
 								<efbc:ExtendedDurationIndicator>true</efbc:ExtendedDurationIndicator>
 								<efac:AssetsList>
@@ -117,7 +117,7 @@
 									<cbc:StreetName>Paseo Castellana, 67</cbc:StreetName>
 									<cbc:CityName>Madrid</cbc:CityName>
 									<cbc:PostalZone>28071</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">ES</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">ES3</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
 									</cac:Country>
@@ -138,7 +138,7 @@
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+									<cbc:Name languageID="SPA">eSendCorp</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
@@ -177,7 +177,7 @@
 									<cbc:StreetName>Avenida Pío XII, 110</cbc:StreetName>
 									<cbc:CityName>Madrid</cbc:CityName>
 									<cbc:PostalZone>2836</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">SP</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">ES3</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
 									</cac:Country>
@@ -203,44 +203,44 @@
 								<cbc:StreetName>Calle hancha, 78</cbc:StreetName>
 								<cbc:CityName>Madrid</cbc:CityName>
 								<cbc:PostalZone>2836</cbc:PostalZone>
-								<cbc:CountrySubentityCode listName="nuts">SP</cbc:CountrySubentityCode>
+								<cbc:CountrySubentityCode listName="nuts">ES3</cbc:CountrySubentityCode>
 								<cac:Country>
 									<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
 								</cac:Country>
 							</cac:ResidenceAddress>
 							<!-- Winner Owner Nationality (BT-706) -->
 							<efac:Nationality>
-								<cbc:NationalityID>DFH</cbc:NationalityID>
+								<cbc:NationalityID>ESP</cbc:NationalityID>
 							</efac:Nationality>
 							<efac:Nationality>
-								<cbc:NationalityID>AJZ</cbc:NationalityID>
+								<cbc:NationalityID>FRA</cbc:NationalityID>
 							</efac:Nationality>
 						</efac:UltimateBeneficialOwner>
 					</efac:Organizations>
 					<efac:Publication>
-						<efbc:NoticePublicationID schemeName="ojs-notice-number">2020/S 199-483706</efbc:NoticePublicationID>
-						<efbc:GazetteID schemeName="ojs-number">199</efbc:GazetteID>
-						<efbc:PublicationDate>2020-10-13</efbc:PublicationDate>
+						<efbc:NoticePublicationID schemeName="ojs-notice-id">483706-2020</efbc:NoticePublicationID>
+						<efbc:GazetteID schemeName="ojs-id">199/2020</efbc:GazetteID>
+						<efbc:PublicationDate>2020-10-13+01:00</efbc:PublicationDate>
 					</efac:Publication>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
-	<cbc:ID>2020/S 074-177511</cbc:ID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:ID>17f00f55-7178-4597-822a-545d2f55a150</cbc:ID>
 	<!-- element required for this doctype -->
-	<cbc:ContractFolderID>7aad40c7-9ddc-4177-9af9-cfe0b19b57bf</cbc:ContractFolderID>
+	<cbc:ContractFolderID>00000000-0000-0000-0000-000000000000</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-05-08+01:00</cbc:IssueDate>
 	<cbc:IssueTime>01:01:01+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
-	<!--<cbc:PlannedDate>22020-10-08</cbc:PlannedDate>-->
+	<!--<cbc:PlannedDate>2020-10-08+01:00</cbc:PlannedDate>-->
 	<cbc:RegulatoryDomain>32007R1370</cbc:RegulatoryDomain>
-	<cbc:NoticeTypeCode listName="result">can-social</cbc:NoticeTypeCode>
+	<cbc:NoticeTypeCode listName="result">can-tran</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>SPA</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-contracting-type">cont-aut</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
@@ -253,7 +253,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode listName="service-provider-type">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="service-provider-type">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
@@ -274,11 +274,11 @@
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>77635</cbc:ID>
-		<cbc:Name languageID="ENG">Public transport services by railways</cbc:Name>
+		<cbc:Name languageID="SPA">Public transport services by railways</cbc:Name>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="SPA">Any additional information blabla ...</cbc:Note>
 		<cac:ProcurementAdditionalType>
-			<cbc:ProcurementTypeCode listName="transport-service">T-01</cbc:ProcurementTypeCode>
+			<cbc:ProcurementTypeCode listName="transport-service">other</cbc:ProcurementTypeCode>
 		</cac:ProcurementAdditionalType>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">60210000</cbc:ItemClassificationCode>
@@ -287,9 +287,6 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
-			<cac:AllowedSubcontractTerms>
-				<cbc:SubcontractingConditionsCode listName="subcontracting-allowed">false</cbc:SubcontractingConditionsCode>
-			</cac:AllowedSubcontractTerms>
 			<cac:ContractExecutionRequirement>
 				<cbc:ExecutionRequirementCode listName="customer-service">ticket</cbc:ExecutionRequirementCode>
 				<cbc:Description languageID="SPA">Quality target description for information and tickets</cbc:Description>
@@ -345,13 +342,13 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
-				<cbc:StartDate>2018-01-01</cbc:StartDate>
+				<cbc:StartDate>2018-01-01+01:00</cbc:StartDate>
 				<cbc:DurationMeasure unitCode="MONTH">120</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
 		<!-- information required by XSD but not in form -->
-		<cbc:AwardDate>2018-12-18</cbc:AwardDate>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
 </ContractAwardNotice>

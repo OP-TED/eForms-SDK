@@ -46,7 +46,6 @@
 	<xsd:element name="NaturalPersonIndicator" type="NaturalPersonIndicatorType"/>
 	<xsd:element name="NonAwardJustificationCode" type="NonAwardJustificationCodeType"/>
 	<xsd:element name="NoticePublicationID" type="NoticePublicationIDType"/>
-	<xsd:element name="PaidAmount" type="PaidAmountType"/>
 	<xsd:element name="PaidAmountDescription" type="PaidAmountDescriptionType"/>
 	<xsd:element name="ParameterNumeric" type="ParameterNumericType"/>
 	<xsd:element name="ParameterCode" type="ParameterCodeType"/>
@@ -57,7 +56,6 @@
 	<xsd:element name="ProcedureRelaunchIndicator" type="ProcedureRelaunchIndicatorType"/>
 	<xsd:element name="ProcurementDocumentsChangeDate" type="ProcurementDocumentsChangeDateType"/>
 	<xsd:element name="ProcurementDocumentsChangeIndicator" type="ProcurementDocumentsChangeIndicatorType"/>
-	<xsd:element name="ReasonCode" type="ReasonCodeType"/>
 	<xsd:element name="ReasonDescription" type="ReasonDescriptionType"/>
 	<xsd:element name="RemedyAmount" type="RemedyAmountType"/>
 	<xsd:element name="RemedyTypeCode" type="RemedyTypeCodeType"/>
@@ -262,11 +260,6 @@
 			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
-	<xsd:complexType name="PaidAmountType">
-		<xsd:simpleContent>
-			<xsd:restriction base="udt:AmountType"/>
-		</xsd:simpleContent>
-	</xsd:complexType>
 	<xsd:complexType name="PaidAmountDescriptionType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:TextType"/>
@@ -315,11 +308,6 @@
 	<xsd:complexType name="PublicTransportationCumulatedDistanceType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:MeasureType"/>
-		</xsd:simpleContent>
-	</xsd:complexType>
-	<xsd:complexType name="ReasonCodeType">
-		<xsd:simpleContent>
-			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="ReasonDescriptionType">

@@ -112,12 +112,12 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>39d68def-a6aa-4e85-aa8d-97f0600ea41e</cbc:ID>
 	<cbc:ContractFolderID>027f7db6-596d-4395-87b9-d8a7b0e4b269</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-15+01:00</cbc:IssueDate>
 	<cbc:IssueTime>03:23:02+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
@@ -133,7 +133,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -194,7 +194,7 @@
 			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cac:RequiredFinancialGuarantee>
-				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">provisional</cbc:GuaranteeTypeCode>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
 				<cbc:Description languageID="ENG">Scottish Water reserves the right to require deposits, guarantees, bonds or other forms of appropriate security.</cbc:Description>
 			</cac:RequiredFinancialGuarantee>
 			<cac:CallForTendersDocumentReference>

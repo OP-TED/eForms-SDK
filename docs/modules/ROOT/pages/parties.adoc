@@ -163,6 +163,20 @@ For a buyer, there may be a need to identify whether it is:
 
 * an acquiring CPB.
 
+For Group Leader, the element "_efbc:GroupLeadIndicator_" is
+not allowed if there is only one Buyer. If there is more than one
+Buyer, then "_efbc:GroupLeadIndicator_" is mandatory for all Buyers,
+and one Buyer shall have the value "true".
+
+For Awarding CPB, the element "_efbc:AwardingCPBIndicator_" must either
+be omitted for all Buyers, or included for all Buyers, at least one of
+which should have the value "true".
+
+For Acquiring CPB, the element "_efbc:AcquiringCPBIndicator_" must either
+be omitted for all Buyers, or included for all Buyers, at least one of
+which should have the value "true".
+
+
 In addition to the usual Organization information, a unique technical
 identifier shall be associated to the legal Organization. The value of
 this identifier shall follow the rules reported in <<technicalIdentifiersSchemesTable>>.
@@ -246,7 +260,13 @@ This section refers to organizations active during the Public
 Procurement Procedure neither being a buyer nor a tenderer.
 
 When the organization is an economic operator, an indicator may be used
-to specify whether the legal person is a natural person or not.
+to specify whether the legal person is a natural person or not (BT-633).
+
+The element "_efbc:NaturalPersonIndicator_" must either
+be omitted for all Non-Tenderer, Non-Buyer organizations, or included 
+for all Non-Tenderer, Non-Buyer organizations. It is not allowed with 
+the value "true" for an organization that has the BT-746 Winner Listed 
+"_efbc:ListedOnRegulatedMarketIndicator_" element with value "true".
 
 The "_efac:Company_" element groups all the elements relative to the legal
 organization and the "_efac:TouchPoint_" element groups the contact
@@ -322,11 +342,26 @@ image::image023.png[image,width=233,height=220]
 This section refers to economic operators that submitted a tender.
 
 An indicator may be used to specify whether the legal person is a
-natural person or not.
+natural person or not (BT-633). The value "true" specifies that 
+the organization is a Natural Person and the value "false" 
+specifies that the organization is a juridical person.
+
+The element "_efbc:NaturalPersonIndicator_" must either
+be omitted for all Tenderers and subcontractors, or included 
+for all Tenderers and subcontractors. It is not allowed with the 
+value "true" for an organization that has the BT-746 Winner Listed 
+"_efbc:ListedOnRegulatedMarketIndicator_" element with value "true".
 
 Another indicator may be used to specify whether this organization is
 listed on a regulated market. When not listed, then links to the
 Ultimate Business Owners shall be specified.
+
+The element "_efbc:ListedOnRegulatedMarketIndicator_" must either
+be omitted for all Tenderers and subcontractors, or included 
+for all Tenderers and subcontractors. It is not allowed with the 
+value "true" for an organization that has the BT-633 Organisation 
+Natural Person "_efbc:NaturalPersonIndicator_" element with value 
+"true".
 
 [[winnerTendererElementsFigure]]
 .Winner/tenderer elements
@@ -1134,7 +1169,7 @@ these subroles.
 |*Group leader (Buyer)* a|
 To be used when:
 
-* there are multiple buyers and one act as a group leader
+* there are multiple buyers and one acts as a group leader
 
 a|
 For joint procurement:
@@ -1172,7 +1207,7 @@ a|[source,xpath,subs=attributes]
 /*/cac:TenderingTerms{zwsp}/cac:DocumentProviderParty
 ----
 
-|*Appeal Information Providing Organization* |Organization providing
+|*Review Information Providing Organization* |Organization providing
 more information on the time limits for review procedures
 a|[source,xpath,subs=attributes]
 ----

@@ -7,6 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="EUR">9.99</cbc:TotalAmount>
 						<efac:LotResult>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
@@ -39,7 +40,7 @@
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2020-02-12</cbc:AwardDate>
+							<cbc:AwardDate>2020-02-12+01:00</cbc:AwardDate>
 							<cbc:Title languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Title>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -151,7 +152,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
-								<efbc:CompanySizeCode listName="economic-operator-size">non-sme</efbc:CompanySizeCode>
+								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
@@ -182,12 +183,12 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>359f3b87-c2ec-4c6a-b279-58c843551e7c</cbc:ID>
 	<cbc:ContractFolderID>18d27a53-0109-4f93-9231-6659d931bce0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>09:07:07+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
@@ -203,7 +204,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -221,9 +222,6 @@
 		<cbc:Description languageID="ENG">NI Water is required to comply with UK tax legislation and views tax compliance as an integral part of the Finance function. NI Water's key tax objectives are published within our Group Tax Strategy. Making Tax Digital is a key part of the government's plans to make it easier for businesses to get their tax right and keep on top of their tax affairs.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="ENG">NI Water is required to comply with UK tax legislation and views tax compliance as an integral part of the Finance function. NI Water's key tax objectives are published within our Group Tax Strategy. Making Tax Digital is a key part of the government's plans to make it easier for businesses to get their tax right and keep on top of their tax affairs.</cbc:Note>
-		<cac:RequestedTenderTotal>
-			<cbc:TotalAmount currencyID="EUR">9.99</cbc:TotalAmount>
-		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">72260000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
@@ -317,6 +315,6 @@
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
-		<cbc:AwardDate>2020-02-12</cbc:AwardDate>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
 </ContractAwardNotice>

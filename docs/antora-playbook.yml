@@ -1,6 +1,6 @@
 site:
-  title: eForms SDK // Documentation
-  start_page: eForms::all-in-one.adoc
+  title: eForms SDK
+  start_page: eforms::index.adoc
 content:
   edit_url: false
   sources:

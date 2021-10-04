@@ -6,6 +6,25 @@
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
+					<efac:Changes>
+						<efbc:ChangedNoticeIdentifier>170000-2020</efbc:ChangedNoticeIdentifier>
+						<efac:Change>
+							<efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
+							<efbc:ChangeDescription languageID="ENG">Short description modified</efbc:ChangeDescription>
+							<efbc:ProcurementDocumentsChangeDate>2020-04-14+02:00</efbc:ProcurementDocumentsChangeDate>
+							<efbc:ProcurementDocumentsChangeIndicator>true</efbc:ProcurementDocumentsChangeIndicator>
+						</efac:Change>
+						<efac:Change>
+							<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
+							<efbc:ChangeDescription languageID="ENG">Description of the procurement modified</efbc:ChangeDescription>
+							<efbc:ProcurementDocumentsChangeDate>2020-04-14+02:00</efbc:ProcurementDocumentsChangeDate>
+							<efbc:ProcurementDocumentsChangeIndicator>true</efbc:ProcurementDocumentsChangeIndicator>
+						</efac:Change>
+						<efac:ChangeReason>
+							<cbc:ReasonCode listName="change-corrig-justification">cor-buy</cbc:ReasonCode>
+							<efbc:ReasonDescription languageID="ENG">Change number of suppliers envisaged.</efbc:ReasonDescription>
+						</efac:ChangeReason>
+					</efac:Changes>
 					<efac:NoticeSubType>
 						<cbc:SubTypeCode>16</cbc:SubTypeCode>
 					</efac:NoticeSubType>
@@ -113,37 +132,14 @@
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
-		<ext:UBLExtension>
-			<ext:ExtensionContent>
-				<efext:EformsExtension>
-					<efac:Change>
-						<efbc:ChangedNoticeIdentifier>2020/S 071-170000</efbc:ChangedNoticeIdentifier>
-						<efbc:ProcurementDocumentsChangeDate>2020-04-14</efbc:ProcurementDocumentsChangeDate>
-						<efbc:ProcurementDocumentsChangeIndicator>true</efbc:ProcurementDocumentsChangeIndicator>
-						<efac:ChangedElement>
-							<efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
-							<efbc:ChangeDescription languageID="ENG">Short description modified</efbc:ChangeDescription>
-						</efac:ChangedElement>
-						<efac:ChangedElement>
-							<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
-							<efbc:ChangeDescription languageID="ENG">Description of the procurement modified</efbc:ChangeDescription>
-						</efac:ChangedElement>
-						<efac:ChangeReason>
-							<efbc:ReasonCode listName="change-corrig-justification">cor-buy</efbc:ReasonCode>
-							<efbc:ReasonDescription languageID="ENG">Change number of suppliers envisaged.</efbc:ReasonDescription>
-						</efac:ChangeReason>
-					</efac:Change>
-				</efext:EformsExtension>
-			</ext:ExtensionContent>
-		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<cbc:ID>92521e66-3cd5-4a5f-bea1-51991d5871ea</cbc:ID>
 	<cbc:ContractFolderID>9af3b735-9d6c-45c8-8c39-d58fb9fa824b</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-09+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
-	<cbc:VersionID>1</cbc:VersionID>
+	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="change">cn-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
@@ -159,7 +155,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
@@ -171,7 +167,51 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground" name="ExclusionGrounds">exclusion</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.FRAUD</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Applicants not satisfying...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
@@ -231,7 +271,7 @@
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
 			<cac:RequiredFinancialGuarantee>
-				<cbc:GuaranteeTypeCode listName="required-guarantee">none</cbc:GuaranteeTypeCode>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
 			</cac:RequiredFinancialGuarantee>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>SomeDocID1</cbc:ID>
@@ -344,8 +384,8 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
-				<cbc:StartDate>2020-11-01</cbc:StartDate>
-				<cbc:EndDate>2024-03-30</cbc:EndDate>
+				<cbc:StartDate>2020-11-01+01:00</cbc:StartDate>
+				<cbc:EndDate>2024-03-30+02:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>

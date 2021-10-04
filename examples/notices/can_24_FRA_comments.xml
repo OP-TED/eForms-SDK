@@ -7,6 +7,9 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<!--CAN related values-->
+						<!--BT-161 Notice Value-->
+						<cbc:TotalAmount currencyID="EUR">390697.84</cbc:TotalAmount>
 						<efac:LotResult>
 							<!--BT-711 Tender Value Highest-->
 							<cbc:HigherTenderAmount currencyID="EUR">95414</cbc:HigherTenderAmount>
@@ -150,7 +153,7 @@
 							</cac:LegalMonetaryTotal>
 							<efac:SubcontractingTerm>
 								<!--BT-773 Subcontracting-->
-								<efbc:TermCode listName="applicability">false</efbc:TermCode>
+								<efbc:TermCode listName="applicability">no</efbc:TermCode>
 							</efac:SubcontractingTerm>
 							<efac:TenderingParty>
 								<!--OPT-310 Tendering Party ID Reference-->
@@ -174,7 +177,7 @@
 							</cac:LegalMonetaryTotal>
 							<efac:SubcontractingTerm>
 								<!--BT-773 Subcontracting-->
-								<efbc:TermCode listName="applicability">false</efbc:TermCode>
+								<efbc:TermCode listName="applicability">no</efbc:TermCode>
 							</efac:SubcontractingTerm>
 							<efac:TenderingParty>
 								<!--OPT-310 Tendering Party ID Reference-->
@@ -189,9 +192,9 @@
 							<!--BT-150 Contract Identifier-->
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<!--BT-1451 Winner Decision Date -->
-							<cbc:AwardDate>2019-09-02</cbc:AwardDate>
+							<cbc:AwardDate>2019-09-02+02:00</cbc:AwardDate>
 							<!--BT-145 Contract Conclusion Date-->
-							<cbc:IssueDate>2019-09-03</cbc:IssueDate>
+							<cbc:IssueDate>2019-09-03+02:00</cbc:IssueDate>
 							<!--BT-721 Contract Title-->
 							<cbc:Title languageID="FRA">Agence Centre</cbc:Title>
 							<efac:LotTender>
@@ -203,9 +206,9 @@
 							<!--BT-150 Contract Identifier-->
 							<cbc:ID schemeName="contract">CON-0002</cbc:ID>
 							<!--BT-1451 Winner Decision Date -->
-							<cbc:AwardDate>2019-09-02</cbc:AwardDate>
+							<cbc:AwardDate>2019-09-02+02:00</cbc:AwardDate>
 							<!--BT-145 Contract Conclusion Date-->
-							<cbc:IssueDate>2019-09-03</cbc:IssueDate>
+							<cbc:IssueDate>2019-09-03+02:00</cbc:IssueDate>
 							<!--BT-721 Contract Title-->
 							<cbc:Title languageID="FRA">Agence Hauts de Rouen</cbc:Title>
 							<efac:LotTender>
@@ -235,8 +238,6 @@
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
-							<!--BT-633 Organization Natural Person-->
-							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:Company>
 								<!--BT-505 Organization Internet Address-->
 								<cbc:WebsiteURI>http://www.marches-publics.info/accueil.htm</cbc:WebsiteURI>
@@ -323,7 +324,7 @@
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
+									<cbc:Name languageID="FRA">eSendCorp</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
@@ -423,7 +424,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
 	<cbc:ID>df45f4d1-2208-47cb-bc7a-9c7edcf8d2b8</cbc:ID>
 	<!--BT-04 Procedure Identifier-->
@@ -433,8 +434,8 @@
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
 	<!-- Notive Version number, to distinguish versions of a same notice within a same procedure -->
 	<!--BT-757 Version Identifier-->
-	<cbc:VersionID>1</cbc:VersionID>
-	<cbc:RequestedPublicationDate>2020-01-28</cbc:RequestedPublicationDate>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2020-01-28+01:00</cbc:RequestedPublicationDate>
 	<!--BT-01 Procedure Legal Basis -->
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<!--BT-03 Form Type / BT-02 Notice Type-->
@@ -446,7 +447,7 @@
 		<cbc:BuyerProfileURI>http://www.marches-publics.info/accueil.htm</cbc:BuyerProfileURI>
 		<!--BT-11 Buyer Legal Type (see http://publications.europa.eu/resource/authority/buyer-legal-type)-->
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">other</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
 			<!--if other than Buyer Legal type codes -->
 			<cbc:PartyType languageID="FRA">OPH</cbc:PartyType>
 		</cac:ContractingPartyType>
@@ -459,7 +460,7 @@
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode  listName="organisation-subrole">ted-esn</cbc:ServiceTypeCode>
+				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -481,11 +482,6 @@
 		<cbc:Description languageID="FRA">Service d'entretien de remise en état et de nettoyage des espaces verts.</cbc:Description>
 		<!--BT-23 Procedure Main Nature (Goods, Works, Supplies)-->
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
-		<!--CAN related values-->
-		<cac:RequestedTenderTotal>
-			<!--BT-161 Notice Value-->
-			<cbc:TotalAmount currencyID="EUR">390697.84</cbc:TotalAmount>
-		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
 			<!--BT-26 Classification Type (e.g. CPV) -->
 			<!--BT-262 Procedure Main Classification Code-->
@@ -509,7 +505,6 @@
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
 					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -574,7 +569,7 @@
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
 			<!--BT-125 Previous Planning Identifier-->
 			<cac:NoticeDocumentReference>
-				<cbc:ID>2019/S 091-219497</cbc:ID>
+				<cbc:ID>219497-2019</cbc:ID>
 			</cac:NoticeDocumentReference>
 			<!--BT-767 - Electronic Auction-->
 			<cac:AuctionTerms>
@@ -619,9 +614,9 @@
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
 				<!--BT-536 Lot - Duration Start Date -->
-				<cbc:StartDate>2019-09-01</cbc:StartDate>
+				<cbc:StartDate>2019-09-01+02:00</cbc:StartDate>
 				<!--BT-537 Lot - Duration Start Date -->
-				<cbc:EndDate>2020-12-31</cbc:EndDate>
+				<cbc:EndDate>2020-12-31+02:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<!--BT-57 Lot - Renewal Description-->
@@ -640,7 +635,6 @@
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
 					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -706,7 +700,7 @@
 			<!--BT-767 - Electronic Auction-->
 			<!--BT-125 Previous Planning Identifier-->
 			<cac:NoticeDocumentReference>
-				<cbc:ID>2019/S 091-219497</cbc:ID>
+				<cbc:ID>219497-2019</cbc:ID>
 			</cac:NoticeDocumentReference>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
@@ -750,9 +744,9 @@
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
 				<!--BT-536 Lot - Duration Start Date -->
-				<cbc:StartDate>2019-09-01</cbc:StartDate>
+				<cbc:StartDate>2019-09-01+02:00</cbc:StartDate>
 				<!--BT-537 Lot - Duration Start Date -->
-				<cbc:EndDate>2020-12-31</cbc:EndDate>
+				<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<!--BT-58 - Renewal Maximum-->
@@ -767,6 +761,6 @@
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
-		<cbc:AwardDate>2019-09-02</cbc:AwardDate>
+		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
 </ContractAwardNotice>
