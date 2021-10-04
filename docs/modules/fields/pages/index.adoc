@@ -14,7 +14,7 @@ the procurement procedure or lot. But the estimated value of a lot is in a
 different location in the XML, and will be subject to different rules, than the
 estimated value of the whole procedure.
 
-To resolve those ambiguities we added the notion of fields. Each field is
+The notion of fields was added to resolve those ambiguities. Each field is
 related to one single business term, and corresponds to a more precise
 definition of the information it contains. The identifier of a field always
 starts with the identifier of the corresponding business term.
@@ -134,8 +134,8 @@ not allowed (forbidden).
 If no specific presence constraint exists for a notice type, the field is
 considered optional: it can be present but is not required.
 
-Please note that valid UBL XML documents must not contain empty elements or
-attributes. So a field being mandatory means that it must contain a value.
+Please note that the UBL specification does not permit XML documents
+to contain empty elements or attributes. So a field being mandatory means that it must contain a value.
 
 .Simple presence constraints
 [source,json]
@@ -193,7 +193,7 @@ regular expression.
 ----
 <1> The value of this field must be "LOT-" followed by 4 digits.
 
-In the regular expression, the backslash character "\"" is escaped as "\\".
+In the regular expression, the backslash character "\" is escaped as "\\".
 
 === Interval constraints
 
