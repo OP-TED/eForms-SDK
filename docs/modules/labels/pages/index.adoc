@@ -1,0 +1,93 @@
+= Procurement labels
+
+== Introduction
+
+We use the term "procurement label" to refer to all natural language text (names, descriptions, tooltips etc.) associated with any business term or related entity that is defined in the eForms Regulation. The Publications Office is compiling and will continue to maintain a list of all procurement labels and their translations in all official EU languages. 
+
+In order to help implementors in the localization/internationalization of their applications, the eForms SDK contains the latest update of all procurement labels maintained by the Publications Office, in all official EU languages.
+
+The labels are distributed in several files under the "labels" folder. Each file contains a specific type of label as identified by its filename (see <<File naming conventions>> below).
+
+== File naming conventions
+
+The file name is composed of two parts: `<asset-type>_<language-identifier>.xml`. The filename is always in lower case.
+
+.Example
+----
+field_en.xml
+----
+
+The `<asset-type>` indicates the type of element the labels in the file are associated with.
+
+[#asset-types]
+The possible asset types are:
+
+* `business_term`: business terms as defined in the eForms regulation
+* `field`: fields are used to identify business terms under different contexts
+* `notice`: a type of notice as defined in the eForms regulation
+* `code`: an item in a list of codes (codelist)
+* `rule`: a business rule
+* `decoration`: visual elements that are useful to display information in eForms notices, but are not related directly to any of the above type of elements.
+
+The language identifier used is the standard 2 letter code in lowercase.
+
+== File format
+
+The file format used is XML, with the structure used for https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Properties.html[Java Properties], with UTF-8 encoding.
+
+Each label is represented by an `entry` XML element. Each `entry` element has a
+`key` attribute which identifies the specific label. The label text for the
+specific language is encoded the element's text content.
+
+.Example
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> <!--1-->
+<properties>
+  <comment>Source: EMD-0.0.3</comment>
+  <entry key="field|name|BT-01-notice"> <!--2-->
+    Legal basis of the procedure <!--3-->
+  </entry>
+  <entry key="field|name|BT-13(d)-Part">Deadline for requesting additional information</entry>
+  <entry key="field|name|BT-531-Part">Additional nature of the contract</entry>
+  <entry key="field|name|BT-632-Lot">Name</entry>
+</properties>
+----
+<1> Document type definition
+<2> Label key
+<3> Label text
+
+Each label key is composed of three parts separated by a pipe character "|":
+
+----
+<asset-type>|<label-type>|<asset-id>
+----
+
+[horizontal]
+`<asset&#8209;type>`::
+
+The same as the one indicated in the filename (see the
+<<asset-types, list of available asset types>> above).
+
+`<label&#8209;type>`::
+
+Allows the same asset to have different labels associated with it for different use cases (i.e. name, description etc.).
++
+Label types currently in use include:
++
+* name: The formal name of the element (i.e. as defined by the eForms regulation). 
+
++
+In the future we plan to include additional label types such as (non-exhaustive list):
+
+* description: to explain the role or function of the element.
+* tooltip: to provide information on how the user should interact with the element (i.e. enter information).
+
+`<asset&#8209;id>`::
+
+Indicates the identifier of the asset (i.e. business term, field etc.). The asset identifiers are indicated in the <<fields:index.adoc, field metadata repository>> (JSON).
+
+To resolve a label you will need the label identifier which you can construct
+from the current context of your application using the appropriate
+`<asset-type>`, `<label-type>` and `<asset-id>`.
