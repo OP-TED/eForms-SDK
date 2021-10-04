@@ -46,22 +46,22 @@ specific language is encoded the element's text content.
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> <!--1-->
 <properties>
   <comment>Source: EMD-0.0.3</comment>
-  <entry key="field.name.BT-01-notice"> <!--2-->
+  <entry key="field|name|BT-01-notice"> <!--2-->
     Legal basis of the procedure <!--3-->
   </entry>
-  <entry key="field.name.BT-13(d)-Part">Deadline for requesting additional information</entry>
-  <entry key="field.name.BT-531-Part">Additional nature of the contract</entry>
-  <entry key="field.name.BT-632-Lot">Name</entry>
+  <entry key="field|name|BT-13(d)-Part">Deadline for requesting additional information</entry>
+  <entry key="field|name|BT-531-Part">Additional nature of the contract</entry>
+  <entry key="field|name|BT-632-Lot">Name</entry>
 </properties>
 ----
 <1> Document type definition
 <2> Label key
 <3> Label text
 
-Each label key is composed of three parts separated by a dot:
+Each label key is composed of three parts separated by a pipe character "|":
 
 ----
-<asset-type>.<label-type>.<asset-id>
+<asset-type>|<label-type>|<asset-id>
 ----
 
 [horizontal]
@@ -87,11 +87,6 @@ In the future we plan to include additional label types such as (non-exhaustive 
 `<asset&#8209;id>`::
 
 Indicates the identifier of the asset (i.e. business term, field etc.). The asset identifiers are indicated in the <<fields:index.adoc, field metadata repository>> (JSON).
-
-The asset type and label type do not contain a dot, but the asset id can contain
-a dot to denote a structure among assets. In particular, the asset id for items
-in a code list is `<codelist>.<code>`. For example the complete identifier of
-the label for the Euro currency is `code.name.currency.EUR`.
 
 To resolve a label you will need the label identifier which you can construct
 from the current context of your application using the appropriate
