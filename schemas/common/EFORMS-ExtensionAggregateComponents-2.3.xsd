@@ -34,6 +34,7 @@
 	<xsd:element name="ConcessionRevenue" type="ConcessionRevenueType"/>
 	<xsd:element name="ContractAggregatedAmounts" type="ContractAggregatedAmountsType"/>
 	<xsd:element name="ContractModification" type="ChangesType"/>
+	<xsd:element name="ContractReference" type="ContractReferenceType"/>
 	<xsd:element name="ContractTerm" type="ContractTermType"/>
 	<xsd:element name="CriterionParameter" type="ParameterType"/>
 	<xsd:element name="DecisionReason" type="DecisionReasonType"/>
@@ -68,6 +69,7 @@
 	<xsd:element name="Tenderer" type="TendererType"/>
 	<xsd:element name="TenderingParty" type="TenderingPartyType"/>
 	<xsd:element name="TenderLot" type="TenderLotType"/>
+	<xsd:element name="TenderReference" type="TenderReferenceType"/>
 	<xsd:element name="TenderSubcontractingRequirements" type="TenderSubcontractingRequirementsType"/>
 	<xsd:element name="TouchPoint" type="TouchPointType"/>
 	<xsd:element name="UltimateBeneficialOwner" type="UltimateBeneficialOwnerType"/>
@@ -207,6 +209,11 @@
 			<xsd:element ref="efbc:PenaltiesAmount" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
+	<xsd:complexType name="ContractReferenceType">
+		<xsd:sequence>
+			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
 	<xsd:complexType name="ContractTermType">
 		<xsd:sequence>
 			<xsd:element ref="efbc:TermCode" minOccurs="1" maxOccurs="1"/>
@@ -309,6 +316,7 @@
 			<xsd:element ref="efac:SubcontractingTerm" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:TenderingParty" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:TenderLot" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:TenderReference" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="MainContractorType">
@@ -412,11 +420,12 @@
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="cbc:AwardDate" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:IssueDate" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="cbc:Title" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:Title" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:URI" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:ContractFrameworkIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cac:NoticeDocumentReference" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cac:SignatoryParty" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:ContractReference" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:DurationJustification" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:LotTender" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:Funding" minOccurs="0" maxOccurs="unbounded"/>
@@ -465,6 +474,11 @@
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TenderLotType">
+		<xsd:sequence>
+			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="TenderReferenceType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
