@@ -1,8 +1,5 @@
 # eForms SDK Documentation
-The [eForms SDK Documentation](https://docs.ted.europa.eu/eforms/0.3.0/index.html) is now available in HTML format.
 
-The documentation is maintained in AsciiDoc. The documentation website is 
-generated from this source using [Antora](https://antora.org/).
+Please use the [**TED Developer Docs**](https://docs.ted.europa.eu/) portal if you want to read the eForms SDK Documentation.
 
-This folder contains the source code of the eForms SDK Documentation, 
-including AsciiDoc files and the Antora configuration and template files. 
+The eForms SDK Documentation is written in AsciiDoc, following the **docs-as-code** paradigm. If you want to contribute to the eForms SDK Documentation, you can do so through the [eforms-docs](https://github.com/OP-TED/eforms-docs) Github repository where we maintain our asciidoc sources.
