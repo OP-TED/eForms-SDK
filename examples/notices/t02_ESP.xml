@@ -68,12 +68,18 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderReference>
+								<cbc:ID>TDR ABC:2020-01</cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<!--<cbc:ID>CONTRACT 627836</cbc:ID>-->
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:AwardDate>2020-02-12+01:00</cbc:AwardDate>
 							<cbc:IssueDate>2020-04-09+02:00</cbc:IssueDate>
+							<efac:ContractReference>
+								<cbc:ID>RN CON:2020-02/SC</cbc:ID>
+							</efac:ContractReference>
 							<efac:DurationJustification>
 								<efbc:ExtendedDurationIndicator>true</efbc:ExtendedDurationIndicator>
 								<efac:AssetsList>
@@ -227,7 +233,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>17f00f55-7178-4597-822a-545d2f55a150</cbc:ID>
 	<!-- element required for this doctype -->
 	<cbc:ContractFolderID>00000000-0000-0000-0000-000000000000</cbc:ContractFolderID>
@@ -342,7 +348,6 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
-				<cbc:StartDate>2018-01-01+01:00</cbc:StartDate>
 				<cbc:DurationMeasure unitCode="MONTH">120</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 		</cac:ProcurementProject>

@@ -33,36 +33,13 @@
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
-						<efac:Organization>
-							<efac:Company>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
-								</cac:PartyIdentification>
-								<cac:PartyName>
-									<cbc:Name languageID="ITA">eSendCorp</cbc:Name>
-								</cac:PartyName>
-								<cac:PostalAddress>
-									<cbc:CityName>Luxembourg</cbc:CityName>
-									<cac:Country>
-										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
-									</cac:Country>
-								</cac:PostalAddress>
-								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+352 123456789</cbc:Telephone>
-									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
-								</cac:Contact>
-							</efac:Company>
-						</efac:Organization>
 					</efac:Organizations>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>e45d1409-9944-4fb0-84c5-f41ce774d37f</cbc:ID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
 	<cbc:IssueTime>03:57:07+01:00</cbc:IssueTime>
@@ -82,18 +59,14 @@
 			<cac:PartyIdentification>
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
-			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
-				<cac:Party>
-					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
-					</cac:PartyIdentification>
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ITA">Avviso consultazione preliminare mat. dedicato a ventilatore polmonare mod. Monnal T75</cbc:Name>
 		<cbc:Description languageID="ITA">Oggetto: Consultazione preliminare di mercato volta all’eventuale acquisizione, mediante procedura negoziata senza previa pubblicazione di un bando di gara, ex art. 63, comma 2, lett. b), del decreto legislativo del 18.4.2016, n. 50, per la fornitura di materiale dedicato a ventilatore polmonare mod. Monnal T75. Motivazione della pubblicazione: con il presente avviso si intende avviare una consultazione preliminare di mercato al fine di conoscere se, diversamente dalle informazioni in possesso di questa stazione appaltante, altri operatori economici oltre a Medival srl, possano fornire i prodotti di seguito indicati: — valvola espiratoria per ventilatori Monnal T75 autoclavabile blu, n. 50 pezzi, — sensore di flusso per ventilatori Monnal T75 autoclavabile blu, n. 50 pezzi, — valvola espiratoria per ventilator Monnal T75, n. 350 pezzi, — sensore di flusso per ventilatori Monnal T75, n. 350 pezzi.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">33157000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 </PriorInformationNotice>

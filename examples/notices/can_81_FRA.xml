@@ -10,6 +10,8 @@
 						<!--BT-161-->
 						<cbc:TotalAmount currencyID="EUR">375950.00</cbc:TotalAmount>
 						<efac:LotResult>
+							<cbc:HigherTenderAmount currencyID="EUR">400000</cbc:HigherTenderAmount>
+							<cbc:LowerTenderAmount currencyID="EUR">300000</cbc:LowerTenderAmount>
 							<!--BT-142-->
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
@@ -38,6 +40,9 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="EUR">375950</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
 							<!--BT-193-->
 							<efac:SubcontractingTerm>
 								<!--BT-773-->
@@ -46,9 +51,11 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderReference>
+								<cbc:ID>BID-012-2010-01</cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
-							<!--BT-150-->
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<!--BT-1451-->
 							<cbc:AwardDate>2021-04-20+02:00</cbc:AwardDate>
@@ -63,6 +70,10 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
+							<!--BT-150-->
+							<efac:ContractReference>
+								<cbc:ID>CRN - 2010/02</cbc:ID>
+							</efac:ContractReference>
 							<efac:LotTender>
 								<!--BT-3202-->
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -262,7 +273,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID>f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
 	<!--BT-04-->

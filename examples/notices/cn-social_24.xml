@@ -117,7 +117,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>76c82dad-10b1-4e6a-9326-9312b4bf9baf</cbc:ID>
 	<cbc:ContractFolderID>1adea6cf-8780-4298-a915-55f6796bf847</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-25+01:00</cbc:IssueDate>
@@ -148,10 +148,6 @@
 	<cac:TenderingProcess>
 		<cbc:Description languageID="ENG">Procedure involving negotiations</cbc:Description>
 		<cbc:ProcedureCode listName="procurement-procedure-type">oth-single</cbc:ProcedureCode>
-		<cac:ParticipationRequestReceptionPeriod>
-			<cbc:EndDate>2020-01-06+01:00</cbc:EndDate>
-			<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
-		</cac:ParticipationRequestReceptionPeriod>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>0219</cbc:ID>
@@ -247,7 +243,12 @@
 				<cbc:ID>ENG</cbc:ID>
 			</cac:Language>
 		</cac:TenderingTerms>
-		<cac:TenderingProcess></cac:TenderingProcess>
+		<cac:TenderingProcess>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2020-01-06+01:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
+		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<cbc:ID>0219</cbc:ID>
 			<cbc:Name languageID="ENG">Secure Care Services</cbc:Name>

@@ -119,7 +119,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>4039abd1-af19-42cf-bce0-7c55806601e8</cbc:ID>
 	<cbc:ContractFolderID>fe181e9c-327f-4a7c-8669-ef0774c9a749</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-14+01:00</cbc:IssueDate>
@@ -132,6 +132,9 @@
 		<cbc:BuyerProfileURI>http://www.pro-marchespublics.com</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
@@ -158,10 +161,6 @@
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
-		<cac:TenderSubmissionDeadlinePeriod>
-			<cbc:EndDate>2020-07-01+01:00</cbc:EndDate>
-			<cbc:EndTime>16:30:00+01:00</cbc:EndTime>
-		</cac:TenderSubmissionDeadlinePeriod>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>Dsp crèches</cbc:ID>
@@ -220,7 +219,21 @@
 					<cbc:Description languageID="FRA">Montant de la compensation financière, et part variable de la redevance d'occupation du domaine public</cbc:Description>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
-				<cac:AppealTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>http://www.pro-marchespublics.com</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="FRA">Un appel...</cbc:Description>
+				</cac:PresentationPeriod>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
@@ -236,7 +249,13 @@
 				<cbc:ID>FRA</cbc:ID>
 			</cac:Language>
 		</cac:TenderingTerms>
-		<cac:TenderingProcess></cac:TenderingProcess>
+		<cac:TenderingProcess>
+			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2020-07-01+01:00</cbc:EndDate>
+				<cbc:EndTime>16:30:00+01:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>	
+		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<cbc:ID> Dsp crèches</cbc:ID>
 			<cbc:Name languageID="FRA">Concession de service public pour la gestion des équipements d'accueil collectif de la petite enfance — secteur nord-est Loches et Tauxigny-Saint-Bauld</cbc:Name>
