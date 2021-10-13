@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.1.0 created on the 2021-08-31T18:00.-->
+<!--File generated from metadata database version 0.2.0 created on the 2021-10-13T16:00.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
+	
+	<!-- CODE LIST RULES. -->
 	<rule context="/*/cbc:RegulatoryDomain">
 		<assert role="ERROR" test="normalize-space(.) = ('31985R2137', '31992L0013', '31994D0001', '31994D0800', '32001R2157', '32002D0309', '32002R2342', '32003R1435', '32004L0017', '32004L0018', '32005D0015', '32007D0005_01', '32007L0066', '32007R0718', '32007R1370', '32008E0124', '32008R1008', '32009L0081', '32012R0966', '32012R1268', '32013L0016', '32014D0115', '32014D0486', '32014D0691', '32014L0023', '32014L0024', '32014L0025', '32014R0230', '32014R0231', '32014R0232', '32014R0233', '32014R0236', '32014R0237', '32015R0323', '32016D0002', '32017D2263', '32018R1046', '32019D0312', 'other')">The BT-01-notice Procedure Legal Basis must contain one of the values of the code list legal-basis.</assert>
 	</rule>
@@ -598,6 +600,24 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='innovative-acquisition']">
 		<assert role="ERROR" test="normalize-space(.) = ('buy-eff', 'fp-requ', 'mar-nov', 'org-nov', 'other', 'rd-act')">The BT-776-Lot Innovative Procurement must contain one of the values of the code list innovative-acquisition.</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageCode">
+		<assert role="ERROR" test="normalize-space(.) = ('decided', 'requested')">BT-783-Review must contain one of the values of the code list review-status.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:DecisionTypeCode">
+		<assert role="ERROR" test="normalize-space(.) = ('accepted', 'other', 'rej-dl-passed', 'rej-ncomp', 'rej-nirreg', 'rej-npaid', 'rej-other', 'rej-resolv', 'rej-signed')">BT-790-Review must contain one of the values of the code list review-decision-type.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:IrregularityTypeCode">
+		<assert role="ERROR" test="normalize-space(.) = ('ab-low', 'ar-split', 'bid-rigging', 'change-eval', 'conf-int', 'cp-mod-cond', 'elem-mod', 'eva-add-crit', 'eva-diff-crit', 'formal', 'ins-audit', 'insuf-timl', 'irr-involv', 'mod-inco', 'nc-proc-eap', 'nc-timl', 'ncompl-awcrit', 'ncompl-cn', 'ncompl-com', 'ncompl-sub', 'no-notice', 'noex-addinfo', 'noex-timl', 'nojust-nolots', 'npub-limit', 'other', 'restr-not-tlim', 'unj-comp-pro', 'unj-excl', 'unj-lim-subc', 'unj-na-ppr', 'unj-nrl', 'unj-nrl-other')">BT-791-Review must contain one of the values of the code list irregularity-type.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:RemedyTypeCode">
+		<assert role="ERROR" test="normalize-space(.) = ('Ineffectiveness', 'Interim', 'alt-penalty', 'damage', 'set-aside')">BT-792-Review must contain one of the values of the code list remedy-type.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealIndicator">
+		<assert role="ERROR" test="normalize-space(.) = ('false', 'true')">BT-796-Review must contain one of the values of the code list indicator.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode">
+		<assert role="ERROR" test="normalize-space(.) = ('1-inst', '2-inst', '3-inst', '4-inst', '5-inst', 'buyer', 'other')">BT-799-ReviewBody must contain one of the values of the code list review-body-type.</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:Funding/cbc:FundingProgramCode">
 		<assert role="ERROR" test="normalize-space(.) = ('AFIS2020', 'AGR', 'AGRNET', 'AMF', 'AMIF', 'ANTIFRAUD', 'BMVI', 'CCEI', 'CDF2020', 'CEF', 'CEF_2021', 'CF', 'CFSP2020', 'CFSP_2021', 'CF_2021', 'CF_DET', 'CIFP_07_13', 'CIT2020', 'COMPREG', 'CONS', 'COPERNICUS', 'COSME', 'CPM_H3', 'CPM_H4', 'CREA', 'CREATIVEEU', 'CUST2020', 'CUSTOMS', 'DCI2020', 'DIGITALEU', 'E4A', 'EAFRD', 'EAFRD2020', 'EAFRD_2021', 'EAGF2020', 'EAGF_2021', 'EAR2020', 'EDF', 'EDIDP', 'EERP', 'EFSD', 'EFSI', 'EGF2020', 'EGF_2021', 'EIDHR2020', 'EINS', 'EMFF2020', 'EMFF_2021', 'ENI', 'EPF', 'ERASMUS_PLUS', 'ERDF', 'ERDF_2021', 'ESC', 'ESC_2021', 'ESF', 'ESF_PLUS', 'ESI_2021', 'ESP2017', 'ESP2020', 'EU4HEALTH', 'EUAV', 'EURATOM', 'EURATOM_07_13', 'EURATOM_19_20', 'EURATOM_21_27', 'EURI', 'EURODAC2020', 'EUSF2020', 'EUSF_2021', 'EUSF_H3', 'EUSF_H4', 'FEAD', 'FF2020', 'FINSER2020', 'FISC2020', 'FISCALIS', 'FP6', 'FP7', 'GAL2014', 'GRLD2020', 'H2020', 'HEALTH', 'HERC3', 'HFR2015', 'HFR_09_11', 'HFR_16_19', 'HFR_20_23', 'HORIZONEU', 'HUMA2020', 'HUMA_2021', 'ICFS', 'IES', 'IF', 'IFS2020', 'INSC2020', 'INVESTEU', 'IPA2', 'IPAIII', 'ISA2015', 'ISA2020', 'ISF', 'ISF_2021', 'ITER', 'ITER_19_20', 'ITER_2021', 'JTF', 'JUST', 'JUSTICE', 'LIFE2020', 'LIFE_2021', 'LOAN2020', 'MFA', 'MM_2021', 'ND', 'NDICI', 'ND_LITH', 'ND_OTHER', 'OCT', 'OUTREG', 'PERI2020', 'PERICLES', 'PI', 'PSCI', 'PSLF_JTM2021', 'REGCONV', 'RESCEU', 'RFMOs', 'RIGHTS_2021', 'RRF', 'SEAR_2021', 'SFAs', 'SINGLEMKT', 'SIS2020', 'SPACE', 'TA_IA', 'TCC', 'TCC_2021', 'TERRCOOP', 'TRANSREG', 'VIS2020', 'YEI')">The BT-5011-Contract Contract EU Funds Identifier must contain one of the values of the code list eu-programme.</assert>
 	</rule>
@@ -682,12 +702,17 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name">
 		<assert role="ERROR" test="normalize-space(.) = ('buyer-categories')">The OPT-090-Lot Buyer Categories must contain one of the values of the code list buyer-categories.</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/efbc:AppealingPartyTypeCode">
+		<assert role="ERROR" test="normalize-space(.) = ('serv-prov', 'ted-esen')">OPT-091-ReviewReq must contain one of the values of the code list organisation-role.</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-allowed']/cbc:SubcontractingConditionsCode">
 		<assert role="ERROR" test="normalize-space(.) = ('false', 'true')">The OPT-150-Lot Subcontracting Allowed must contain one of the values of the code list indicator.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics/efbc:StatisticsCode">
 		<assert role="ERROR" test="normalize-space(.) = ('vehicles', 'vehicles-clean', 'vehicles-zero-emission')">The OPT-155-LotResult Vehicule Type must contain one of the values of the code list vehicles.</assert>
 	</rule>
+
+  <!-- PATTERN MATCHING RULES (REGEX). -->
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-01 Procedure Legal Basis must not exceed the limit of 400 characters at Procedure level.</assert>
 	</rule>
@@ -856,36 +881,6 @@
 	<rule context="/*/cac:ProcurementProject/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-24 Description must not exceed the limit of 6000 characters at Procedure level.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:EstimatedOverallContractQuantity">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-25 Quantity must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-27 Estimated Value must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-27 Estimated Value must not exceed the limit of 30 characters at LotsGroup level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-27 Estimated Value must not exceed the limit of 30 characters at Part level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-27 Estimated Value must not exceed the limit of 30 characters at Procedure level.</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-31 Lots Max Allowed must not exceed the limit of 30 characters at Procedure level.</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-33 Lots Max Awarded must not exceed the limit of 30 characters at Procedure level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-36 Duration Period must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-36 Duration Period must not exceed the limit of 30 characters at Part level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:RankCode">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-44 Prize Rank must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-45 Rewards Other must not exceed the limit of 6000 characters at Lot level.</assert>
 	</rule>
@@ -895,23 +890,11 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:EconomicOperatorShortList/cac:PreSelectedParty/cac:PartyName/cbc:Name">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-47 Participant Name must not exceed the limit of 400 characters at Lot level.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:MinimumQuantity">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-50 Minimum Candidates must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:MaximumQuantity">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-51 Maximum Candidates Number must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cbc:OptionsDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-54 Options Description must not exceed the limit of 6000 characters at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cac:Renewal/cac:Period/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-57 Renewal Description must not exceed the limit of 6000 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cbc:MaximumNumberNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-58 Renewal Maximum must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms/cbc:MinimumPercent">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-64 Subcontracting Obligation Minimum must not exceed the limit of 30 characters at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-67 Exclusion Grounds must not exceed the limit of 6000 characters at Procedure level.</assert>
@@ -937,9 +920,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:RecurringProcurementDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-95 Recurrence Description must not exceed the limit of 6000 characters at Lot level.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-98 Tender Validity Deadline must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-99 Review Deadline Description must not exceed the limit of 6000 characters at Lot level.</assert>
 	</rule>
@@ -948,12 +928,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-111 Framework Buyer Categories must not exceed the limit of 6000 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:MaximumOperatorQuantity">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-113 Framework Maximum Participants Number must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:EstimatedOverallFrameworkContractsAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-118 Notice Framework Value must not exceed the limit of 30 characters at NoticeResult level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-122 Electronic Auction Description must not exceed the limit of 6000 characters at Lot level.</assert>
@@ -1015,32 +989,11 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:IssueDate">
 		<assert role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">The BT-145 Contract Conclusion Date must match the 'date' pattern at Contract level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID">
-		<assert role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">The BT-150 Contract Identifier must match the 'ContractID' pattern at Contract level.</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:URI">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-151 Contract URL must not exceed the limit of 400 characters at Contract level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkValueAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-156 Group Framework Value must not exceed the limit of 30 characters at NoticeResult level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:EstimatedMaximumValueAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-157 Group Framework Estimated Maximum Value must not exceed the limit of 30 characters at LotsGroup level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueBuyerAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-160 Concession Revenue Buyer must not exceed the limit of 30 characters at Tender level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:TotalAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-161 Notice Value must not exceed the limit of 30 characters at NoticeResult level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueUserAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-162 Concession Revenue User must not exceed the limit of 30 characters at Tender level.</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:ValueDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-163 Concession Value Description must not exceed the limit of 6000 characters at Tender level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:RankCode">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-171 Tender Rank must not exceed the limit of 30 characters at Tender level.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law']/efbc:ReasonDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-196 Unpublished Justification Description must not exceed the limit of 6000 characters at Procedure level.</assert>
@@ -1534,26 +1487,14 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-540 Award Criterion Description must not exceed the limit of 6000 characters at LotsGroup level.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-541 Award Criterion Number must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-541 Award Criterion Number must not exceed the limit of 30 characters at LotsGroup level.</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cbc:CalculationExpression">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,1000}$')">The content of BT-543 Award Criteria Complicated must not exceed the limit of 1000 characters at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cbc:CalculationExpression">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,1000}$')">The content of BT-543 Award Criteria Complicated must not exceed the limit of 1000 characters at LotsGroup level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-553 Subcontracting Value must not exceed the limit of 30 characters at Tender level.</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-554 Subcontracting Description must not exceed the limit of 6000 characters at Tender level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermPercent">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-555 Subcontracting Percentage must not exceed the limit of 30 characters at Tender level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:TenderLot/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^GLO-\d{4}$')">The BT-556 Group Framework Value Lot Identifier must match the 'GroupID' pattern at NoticeResult level.</assert>
@@ -1579,35 +1520,11 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:AccessToolName">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-632 Tool Name must not exceed the limit of 400 characters at Part level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efbc:StatisticsNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-635 Buyer Review Requests Count must not exceed the limit of 30 characters at LotResult level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-644 Prize Value must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/cbc:EstimatedMaximumValueAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-660 Framework Estimated Value must not exceed the limit of 30 characters at LotResult level.</assert>
-	</rule>
 	<rule context="/*/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$')">The BT-701 Notice Identifier must match the 'ProcedureOrNoticeID' pattern at notice level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-709 Framework Maximum Value must not exceed the limit of 30 characters at LotResult level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:LowerTenderAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-710 Tender Value Lowest must not exceed the limit of 30 characters at LotResult level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:HigherTenderAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-711 Tender Value Highest must not exceed the limit of 30 characters at LotResult level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efbc:StatisticsNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-712 Buyer Review Complainants must not exceed the limit of 30 characters at LotResult level.</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ProcurementDocumentsChangeDate">
 		<assert role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">The BT-719 Change Procurement Documents Date must match the 'date' pattern at Notice level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cac:LegalMonetaryTotal/cbc:PayableAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-720 Tender Value must not exceed the limit of 30 characters at Tender level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:Title">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-721 Contract Title must not exceed the limit of 400 characters at Contract level.</assert>
@@ -1623,9 +1540,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-728 Place Performance Additional Information must not exceed the limit of 6000 characters at Procedure level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms/cbc:MaximumPercent">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-729 Subcontracting Obligation Maximum must not exceed the limit of 30 characters at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:SecurityClearanceTerm/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-732 Security Clearance Description must not exceed the limit of 6000 characters at Lot level.</assert>
@@ -1678,9 +1592,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-750 Selection Criteria Description must not exceed the limit of 6000 characters at Lot level.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter/efbc:ParameterNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-752 Selection Criteria Second Stage Invite Number must not exceed the limit of 30 characters at Lot level.</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']/cbc:ProcurementType">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-755 Accessibility Justification must not exceed the limit of 6000 characters at Lot level.</assert>
 	</rule>
@@ -1689,9 +1600,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efbc:ChangedNoticeIdentifier">
 		<assert role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">The BT-758 Change Notice Version Identifier must match the 'ProcedureVersionIDOrPublicationNumber' pattern at notice level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-759 Received Submissions Count must not exceed the limit of 30 characters at LotResult level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason/efbc:ReasonDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-762 Change Reason Description must not exceed the limit of 6000 characters at notice level.</assert>
@@ -1702,14 +1610,23 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='strategic-procurement']/cbc:ProcurementType">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-777 Strategic Procurement Description must not exceed the limit of 6000 characters at Lot level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/cbc:PaidAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-779 Tender Payment Value must not exceed the limit of 30 characters at Tender level.</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PaidAmountDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-780 Tender Payment Value Additional Information must not exceed the limit of 6000 characters at Tender level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PenaltiesAmount">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-782 Tender Penalties must not exceed the limit of 30 characters at Tender level.</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealedItem/cbc:ID">
+		<assert role="ERROR" test="matches(normalize-space(.),'^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG)-\d{4}))$')">BT-786-Review must match the 'AnySectionIdentifier' pattern at review level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Date">
+		<assert role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">BT-787-Review must match the 'zoned date' pattern at Review level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealDate">
+		<assert role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">The BT-797-Review Review Request Withdrawn Date must match the 'date' pattern at Notice level.</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AnswerReceptionPeriod/cbc:EndDate">
+		<assert role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">BT-800(d)-Lot must match the 'zoned date' pattern at Review level.</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AnswerReceptionPeriod/cbc:EndTime">
+		<assert role="ERROR" test="matches(normalize-space(.),'^(([01]\d|2[0-3])((:[0-5]\d){1,2}(\.\d+)?)?)(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">BT-800(t)-Lot must match the 'time' pattern at Review level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-1251 Previous Planning Part Identifier must not exceed the limit of 30 characters at Lot level.</assert>
@@ -1743,9 +1660,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangedSectionIdentifier">
 		<assert role="ERROR" test="matches(normalize-space(.),'^RESULT$')">The BT-1501 Modification Previous Notice Section Identifier must match the 'ResultSectionIdentifier' pattern at Contract level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
-		<assert role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">The BT-3201 Tender Identifier must match the 'TenderID' pattern at Tender level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">The BT-3202 Contract Tender Identifier must match the 'TenderID' pattern at Contract level.</assert>
@@ -1825,14 +1739,8 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[not(efbc:TermCode/text()='all-rev-tic')][efbc:TermCode/@listName='contract-detail']/efbc:TermDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of OPP-031 Contract conditions Decription (other than revenue allocation) must not exceed the limit of 6000 characters at Tender level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/text()='all-rev-tic']/efbc:TermPercent">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of OPP-032 Revenues Allocation must not exceed the limit of 30 characters at Tender level.</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']/efbc:TermDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of OPP-034 Penalties and Rewards Description must not exceed the limit of 6000 characters at Tender level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:PublicTransportationCumulatedDistance">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of OPP-080 Kilometers Public Transport must not exceed the limit of 30 characters at Tender level.</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:CityName">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPP-110 Place of registration - Town must not exceed the limit of 400 characters at Business level.</assert>
@@ -1890,9 +1798,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-130 URL to Employment Legislation must not exceed the limit of 400 characters at Part level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics/efbc:StatisticsNumeric">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of OPT-156 Vehicule Numeric must not exceed the limit of 30 characters at LotResult level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cbc:FirstName">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-160 First Name must not exceed the limit of 400 characters at UBO level.</assert>
@@ -1996,6 +1901,12 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrganizationID' pattern at Tenderer level.</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID">
+		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">OPT-301-ReviewBody must match the 'OrganizationID' pattern at Organization level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID">
+		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">OPT-301-ReviewReq must match the 'OrganizationID' pattern at Organization level.</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:UltimateBeneficialOwner/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^UBO-\d{4}$')">The OPT-302 Beneficial Owner Reference must match the 'BeneficialOwnerID' pattern at UBO level.</assert>
 	</rule>
@@ -2005,7 +1916,16 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">The OPT-315 Contract Identifier Reference must match the 'ContractID' pattern at LotResult level.</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID">
+		<assert role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">The OPT-316 Contract technical Identifier must match the 'ContractID' pattern at Contract level.</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:LotTender/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">The OPT-320 Tender Identifier Reference must match the 'TenderID' pattern at LotResult level.</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
+		<assert role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">The OPT-321 Tender Technical Identifier must match the 'TenderID' pattern at Tender level.</assert>
+	</rule>
+	
+	<!-- INTERVAL RULES. -->
+	
 </pattern>
