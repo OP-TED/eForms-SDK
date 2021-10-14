@@ -13,6 +13,7 @@ The adopted approach is to keep the whole set of UBL elements but only support t
 - `docs`: This folder contains source files in Asciidoc format for the eForms documentation. The documentation is in English and provides explanations and snippets in addition to the schema. The documentation is available in readable HTML format from https://docs.ted.europa.eu.
 - `schematrons`: This folder contains Schematron rules which are used to check the validity of notices as per the eForms regulation. Any kind of rule or constraint is implemented in Schematron.
 - `examples`: This folder contains some notice examples together with their validation report in SVRL.
+- `notice-types`: This folder contains a JSON definition of each notice type.
 
 # Versioning
 
