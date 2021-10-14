@@ -52,7 +52,6 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '1']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '1']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
    <svrl:fired-rule context="/*[$noticeSubType = '1']"/>
    <svrl:failed-assert location="/PriorInformationNotice"
@@ -84,6 +83,11 @@
                        role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       role="ERROR"
+                       test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '1']"/>
@@ -134,28 +138,22 @@
                        test="count(cbc:BuyerProfileURI) &gt; 0">
       <svrl:text>The BT-508 Buyer Profile URI is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '1']"/>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
-                       role="ERROR"
-                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '1']"/>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
                        role="ERROR"
                        test="count(cbc:ServiceTypeCode) &gt; 0">
       <svrl:text>The OPT-030 Provided Service Type is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
-                       role="ERROR"
-                       test="count(cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-300 Service Provider Technical Identifier Reference is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '1']"/>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
       <svrl:text>The BT-21 Title is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cbc:ProcurementTypeCode) &gt; 0">
+      <svrl:text>BT-23 Main Nature is mandatory at Procedure level for a notice of type Notice of the publication of a prior information notice on a buyer profile - general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProject"
                        role="ERROR"
@@ -182,6 +180,7 @@
    <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
    <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="//cac:ProcurementProject"/>

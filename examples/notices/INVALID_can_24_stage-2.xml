@@ -13,6 +13,9 @@
 								<efbc:StatisticsCode listName="received-submission-type"></efbc:StatisticsCode>
 								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<cbc:ID></cbc:ID>
+							</efac:SettledContract>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 							</efac:TenderLot>
@@ -25,9 +28,15 @@
 							<efac:TenderingParty>
 								<cbc:ID></cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderReference>
+								<cbc:ID></cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID></cbc:ID>
+							<efac:ContractReference>
+								<cbc:ID></cbc:ID>
+							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID></cbc:ID>
 							</efac:LotTender>
@@ -73,7 +82,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID></cbc:ID>
 	<cbc:ContractFolderID></cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>
@@ -109,6 +118,7 @@
 	<cac:ProcurementProject>
 		<cbc:Name languageID="FRA"></cbc:Name>
 		<cbc:Description languageID="FRA"></cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature"></cbc:ProcurementTypeCode>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot"></cbc:ID>
@@ -123,6 +133,9 @@
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="FRA"></cbc:Description>
+				</cac:PresentationPeriod>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
 						<cbc:ID></cbc:ID>
@@ -150,6 +163,7 @@
 		<cac:ProcurementProject>
 			<cbc:Name languageID="FRA"></cbc:Name>
 			<cbc:Description languageID="FRA"></cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature"></cbc:ProcurementTypeCode>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>

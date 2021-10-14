@@ -37,29 +37,6 @@ But with the minimal amount of information while still valid
 						<efac:Organization>
 							<efac:Company>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
-								</cac:PartyIdentification>
-								<cac:PartyName>
-									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
-								</cac:PartyName>
-								<cac:PostalAddress>
-									<cbc:CityName>Luxembourg</cbc:CityName>
-									<cac:Country>
-										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
-									</cac:Country>
-								</cac:PostalAddress>
-								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+352 123456789</cbc:Telephone>
-									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
-								</cac:Contact>
-							</efac:Company>
-						</efac:Organization>
-						<efac:Organization>
-							<efac:Company>
-								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
@@ -109,7 +86,7 @@ But with the minimal amount of information while still valid
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>f42be27e-09cf-4f0e-a745-63ec689631e6</cbc:ID>
 	<cbc:ContractFolderID>4805c409-5939-4be9-8abd-837f7a5fee23</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
@@ -129,62 +106,10 @@ But with the minimal amount of information while still valid
 			<cac:PartyIdentification>
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
-			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
-				<cac:Party>
-					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
-					</cac:PartyIdentification>
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.FRAUD</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
@@ -198,6 +123,10 @@ But with the minimal amount of information while still valid
 		<cbc:Name languageID="ENG">Provision of IT Services Related to OP IT Systems (EUR-Lex, N-Lex, Search Layer, and Others)</cbc:Name>
 		<cbc:Description languageID="ENG">Provision of IT services related to the information systems of the publications office (namely EUR-Lex, N-Lex, and Search Layer),
 			with the possibility to extend the provision to other information systems.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">72230000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
@@ -208,6 +137,7 @@ But with the minimal amount of information while still valid
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
@@ -218,6 +148,11 @@ But with the minimal amount of information while still valid
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>5629</cbc:ID>
 				<cbc:DocumentType>restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://etendering.ted.europa.eu/cft/cft-display.html?cftId=5629</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
@@ -233,7 +168,18 @@ But with the minimal amount of information while still valid
 			<cac:ContractExecutionRequirement>
 				<cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
+			<cac:TenderRecipientParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
+			<cac:TenderValidityPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+			</cac:TenderValidityPeriod>
 			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="ENG">Within 2 months of the notification to the plaintiff, or, in absence thereof, of the day on which it came to the knowledge of the plaintiff. A complaint to the European Ombudsman does not have as an effect either to suspend this period or to open a new period for lodging appeals.</cbc:Description>
+				</cac:PresentationPeriod>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -256,6 +202,10 @@ But with the minimal amount of information while still valid
 		<cac:TenderingProcess>
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2020-02-04+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>
@@ -270,6 +220,10 @@ But with the minimal amount of information while still valid
 			<cbc:Name languageID="ENG">Provision of IT Services Related to OP IT Systems (EUR-Lex, N-Lex, Search Layer, and Others)</cbc:Name>
 			<cbc:Description languageID="ENG">Provision of IT services related to the information systems of the publications office (namely EUR-Lex, N-Lex, and Search Layer),
 			with the possibility to extend the provision to other information systems.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">72230000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 </cac:ProcurementProjectLot>
 </ContractNotice>

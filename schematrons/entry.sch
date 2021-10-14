@@ -21,4 +21,5 @@
 	<include href="stage-2-repeatable.sch"/>
 	<include href="stage-3.sch"/>
 	<include href="stage-4.sch"/>
+	<include href="stage-4-custom.sch"/>
 </schema>

@@ -67,12 +67,6 @@
       <svrl:text>The element efac:Organizations is mandatory in context /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '4']"/>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
-                       role="ERROR"
-                       test="count(cac:ServiceProviderParty) &gt; 0">
-      <svrl:text>The element cac:ServiceProviderParty is mandatory in context /*/cac:ContractingParty/cac:Party</svrl:text>
-   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
    <svrl:fired-rule context="/*[$noticeSubType = '4']"/>
    <svrl:failed-assert location="/PriorInformationNotice"
@@ -95,14 +89,13 @@
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '4']"/>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
+   <svrl:failed-assert location="/PriorInformationNotice"
                        role="ERROR"
-                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
+                       test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
@@ -124,6 +117,7 @@
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
 </svrl:schematron-output>

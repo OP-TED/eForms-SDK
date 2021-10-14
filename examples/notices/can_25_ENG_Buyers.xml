@@ -9,6 +9,8 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">9.99</cbc:TotalAmount>
 						<efac:LotResult>
+							<cbc:HigherTenderAmount currencyID="EUR">9999999</cbc:HigherTenderAmount>
+							<cbc:LowerTenderAmount currencyID="EUR">1</cbc:LowerTenderAmount>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -40,11 +42,17 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderReference>
+							<cbc:ID>BID-ABC-2020/003-01</cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:AwardDate>2020-02-12+01:00</cbc:AwardDate>
 							<cbc:Title languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Title>
+							<efac:ContractReference>
+								<cbc:ID>SCR/ABC-2020/003-01</cbc:ID>
+							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
@@ -217,7 +225,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>359f3b87-c2ec-4c6a-b279-58c843551e7c</cbc:ID>
 	<cbc:ContractFolderID>18d27a53-0109-4f93-9231-6659d931bce0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
