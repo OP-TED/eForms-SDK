@@ -15,7 +15,7 @@ The adopted approach is to keep the whole set of UBL elements but only support t
 - `fields`: This folder contains information on the fields that compose an eForms notice.
 - `translations`: This folder contains translations of various labels and short texts used in eForms notices.
 
-The documentation is available in readable HTML format from https://docs.ted.europa.eu.
+The documentation is available at https://docs.ted.europa.eu.
 
 # Versioning
 
