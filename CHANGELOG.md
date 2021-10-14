@@ -1,57 +1,61 @@
-# SDK 0.3.0 Release Notes
-
-*Update: An older version of the schematron rules was included by mistake in version 0.3.0. Version 0.3.1 includes the latest version of the schematron rules.*
+# SDK 0.4.0 Release Notes
 
 Below is a list of the major updates made to the SDK in this release.
 
-The documentation is available as separate Asciidoc files, one per section.
-The [eForms SDK Documentation](https://op-ted.github.io/eForms-SDK) website is generated from this source using [Antora](https://antora.org/).
+The documentation for the SDK is available at https://docs.ted.europa.eu.
 
-Please note: in this release, the website is a single HTML page containing all the documentation.
-In the next release, the website will have separate HTML pages for each major section of the documentation.
+The source for this documentation is now maintained in a separate repository: [eforms-doc](https://github.com/OP-TED/eforms-docs).
 
-## Changes to the eForms schema
 
-### Elements used to describe changes in a Change Notice and a Contract Modification Notice
-The elements in a Change Notice and a Contract Modification Notice were remodelled to better reflect the usage of Change Notices.
-* Element efac:Change was renamed to efac:Changes, and its cardinality restricted to "0 or 1".
-* Element efac:ChangedElement was renamed to efac:Change.
-* The cardinality of element efbc:ChangedSectionIdentifier was expanded to "0 to many".
-* The elements efbc:ProcurementDocumentChangeIndicator and efbc:ProcurementDocumentChangeDate were moved to occur inside element efac:Change.
-* The cardinality of element efac:ChangeReason was restricted to "0 or 1".
+## eForms schema
 
-### Removed unused elements
-The elements efbc:PaidAmount and efbc:ReasonCode were removed from the schema as they were not being used.
+* Add new elements for the identifiers of contracts and tenders used by the buyer (efac:ContractReference and efac:TenderReference).
+* Add missing efac:FieldsPrivacy​ under efac:ReceivedSubmissionsStatistics, to allow indicating that this information is not public.
+* Allow multiple occurrences of the contract title, so that it can be indicated in multiple languages.
 
-## Changes to the schematron rules
+
+## Schematron rules
 The schematron rules have been updated to reflect the schema changes listed above, along with numerous improvements and corrections.
 
-### Requiring use of time zones
-All dates or times specified in Notices must now include time zones. This is to ensure consistency, understanding and fairness in the published Notices.
+### Addition of conditional rules
+New rules have been added for information that must be present under certain conditions. These rules corresponding to the indication "CM" in the extended annex to the eForms Regulation.
 
-## New rules enforcing use of code lists
-Many elements are used to define indicators or codes. The content of these elements should be limited to one of a set of values in each case. Code lists, taken from or derived from those published in [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/e-procurement/tables), define the acceptable values. New schematron rules have been added to restrict the content of many elements to the values in the relevant code lists. Please note this work is incomplete; more such rules will be implemented in future releases of this SDK.
+In an upcoming version we will also add rules for information that must not be present under certain conditions.
 
-### New pattern-matching rules
-New schematron rules have been implemented which check that the content of some elements match specific patterns. These elements and patterns are listed in section "9. Identifiers and References" in the schema documentation.
-* Elements within the Notice Information section at the beginning of a Notice, identifying the UBL and Customization versions, the Notice Identifier, and the publication identifiers.
-* Elements identifying sections within a Notice, and elements which link to those sections.
-* Elements referencing previous Notices must use either the Publication Identifier or a combination of the Notice Identifier plus the Notice Version of the Notice being referred to.
+### Addition of warnings
+For information that must be present if it exists, we've added rules that will indicate a warning (with `role="WARN"`) if the information is not present. These rules corresponding to the indication "EM" in the extended annex to the eForms Regulation.
 
-### New length restrictions
-New schematron rules have been added which restrict the maximum length of the content of most elements. The limits chosen have been generous, and should not hinder notice creators from including sufficient details. 
+### New rules enforcing consistency between values
+New rules have been added to check the consistency of the values indicated for:
+* dates for various steps in the procurement process
+* contract duration
+* number of lots allowed and awarded
+* highest and lowest tender value
+
+### New rules on languages used
+For textual information that can be indicated in multiple languages, new rules check the consistency of the languages used with the notice official languages (BT-702).
+
+### Length restrictions on numerical values
+Rules that limit the number of characters for numerical values have been removed. They will be re-added in the future in the form of minimum and maximum allowed values.
+
+### Corrections
+Several rules requiring the indication of specific parties (mediator, eSender, etc.) have been corrected.
 
 ## Example Notices
 The XML notices in the "examples" folder have been updated to incorporate the schema changes listed above, and the updated schematron rules.
 
-### Codes used for Exclusion Grounds
-The code list for Exclusion Grounds used in ESPD has been adopted into eForms. The notice examples have been updated to use these codes.
+A new notice example was added for a Contract Award Notice with multiple buyers.
 
-New Notice examples were added for:
-* PIN, Contract Notice and Contract Award Notice under Directive 2009/81/EC
+The validation reports have been regenerated, incorporating all the changes listed above.
 
-## Validation Reports
-The existing validation reports have been regenerated, incorporating all the changes listed above.
 
-New validation reports have been generated for the new example notices listed above.
+## Fields
+The SDK now includes information on the fields that compose an eForms notice, in a structured format (JSON).
 
+You can find more information about this in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.4.0/fields/).
+
+
+## Translations
+The SDK now includes the translations of various labels and short texts used in eForms notices.
+
+You can find more information about this in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.4.0/translations/).
