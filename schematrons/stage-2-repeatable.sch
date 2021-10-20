@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.2.0 created on the 2021-10-13T16:00.-->
+<!--File generated from metadata database version 0.2.9 created on the 2021-10-19T17:48:17.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">The BT-01 Procedure Legal Basis is not repeatable at Notice level.</assert>
@@ -759,9 +759,9 @@
 		<assert role="ERROR" test="count(efbc:PublicationDate) &lt; 2">The BT-198 Unpublished Accessibility Date is not repeatable at Procedure level.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms">
-		<assert role="ERROR" test="count(cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">The BT-01 - Procedure Legal Basis can only be present once for each language.</assert>
-		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription/@languageID = $lg) or count(cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription) = 0">BT-01 - Procedure Legal Basis must be indicated in all notice official languages.</assert>
-		<assert role="ERROR" test="(every $lg in (cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription) = 0">BT-01 - Procedure Legal Basis can only be indicated in a language that is part of the notice official languages.</assert>
+		<assert role="ERROR" test="count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">The BT-01 - Procedure Legal Basis can only be present once for each language.</assert>
+		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription/@languageID = $lg) or count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription) = 0">BT-01 - Procedure Legal Basis must be indicated in all notice official languages.</assert>
+		<assert role="ERROR" test="(every $lg in (cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription) = 0">BT-01 - Procedure Legal Basis can only be indicated in a language that is part of the notice official languages.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution">
 		<assert role="ERROR" test="count(cbc:MaximumLotsSubmittedNumeric) &lt; 2">The BT-31 Lots Max Allowed is not repeatable at Procedure level.</assert>
@@ -1243,7 +1243,7 @@
 		<assert role="ERROR" test="count(cbc:FirstName) &lt; 2">The OPT-160 First Name is not repeatable at UBO level.</assert>
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-202 Beneficial Owner Technical Identifier is not repeatable at UBO level.</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription">
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription">
 		<assert role="ERROR" test="@languageID">The BT-01 Procedure Legal Basis (text) must be translated at Procedure level.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription">
