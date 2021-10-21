@@ -577,6 +577,7 @@
 			<cbc:ItemClassificationCode listName="cpv">79720000</cbc:ItemClassificationCode>
 		</cac:AdditionalCommodityClassification>
 		<cac:RealizedLocation>
+			<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 			<cac:Address>
 				<!--BT-5101-->
 				<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -594,6 +595,7 @@
 			</cac:Address>
 		</cac:RealizedLocation>
 		<cac:RealizedLocation>
+			<!-- This location represents a large area without a specific address, in this case "Anywhere in the European Economic Area" -->
 			<!--BT-728-->
 			<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 			<cac:Address>
@@ -1110,6 +1112,7 @@
 				<cbc:ItemClassificationCode listName="cpv">75121000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 				<cac:Address>
 					<!--BT-5101-->
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -1127,11 +1130,16 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:RealizedLocation>
+				<!-- This location represents a large area without a specific address, in this case "Anywhere in the given country" -->
 				<!--BT-728-->
 				<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 				<cac:Address>
 					<!--BT-727-->
-					<cbc:Region>anyw-eea</cbc:Region>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<!--BT-5141-->
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
@@ -1601,6 +1609,7 @@
 				<cbc:ItemClassificationCode listName="cpv">75121000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 				<cac:Address>
 					<!--BT-5101-->
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -1618,11 +1627,16 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:RealizedLocation>
+				<!-- This location represents a large area without a specific address, in this case "Anywhere in the given country" -->
 				<!--BT-728-->
 				<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 				<cac:Address>
 					<!--BT-727-->
-					<cbc:Region>anyw-eea</cbc:Region>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<!--BT-5141-->
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
