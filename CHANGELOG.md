@@ -1,3 +1,12 @@
+# SDK 0.4.1 Release Notes
+
+The following issues were corrected in version 0.4.1:
+
+* The translation files field_*.xml included by mistake labels for business terms. They have now been corrected and contain a label for each field.
+* Incorrect references to some notice subtypes have been removed from fields.json.
+* The XPaths for fields BT-01(c)-Procedure and BT-01(d)-Procedure have been corrected, removing the 'or' clause in the predicate.
+
+
 # SDK 0.4.0 Release Notes
 
 Below is a list of the major updates made to the SDK in this release.
