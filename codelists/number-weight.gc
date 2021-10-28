@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NumberWeight</ShortName>
+      <LongName>number-weight</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/number-weight</LongName>
+      <Version>20190918-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/number-weight</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>dec-exa</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{Weight (decimal, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>{Тегло (десетична дроб, точна величина)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>{Váha (desetiny, přesně)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Vægtning (decimaltal, præcis)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Gewichtung (dezimal, genau)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>{Στάθμιση (δεκαδικό ψηφίο, ακριβές)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{Weight (decimal, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>{Ponderación (decimal, exacto)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Kaal (kümnendkoht, täpne)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>{Painotus (desimaaleina, tarkka)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Pondération (décimal, valeur exacte)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>{Ualú (deachúil, beacht)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>{Ponder (decimalni broj, točan)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{Súlyozás (tizedes, pontos)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>{Ponderazione (decimale, esatta)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Lyginamasis svoris (dešimtainė sistema, tikslus skaičius)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Svērums (precīzs decimāldaļskaitlis)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Fattur ta’ ponderazzjoni (deċimali, eżatt)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{Gewicht (decimaal, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>{Waga (wartość dziesiętna, dokładna)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{Ponderação (decimal, valor exato)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>{Ponderare (zecimal, valoare exactă)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Váha (desatiny, presne)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>{Ponder (decimalno število, točno)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>{Viktning (decimaltal, exakt)}</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>dec-mid</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{Weight (decimal, middle of a range)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>{Тегло (десетична дроб, средна величина за диапазон)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>{Váha (desetiny, střed rozmezí)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Vægtning (decimaltal, midt i intervallet)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Gewichtung (dezimal, Mittelwert)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>{Στάθμιση (δεκαδικό ψηφίο, μέση τιμή)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{Weight (decimal, middle of a range)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>{Ponderación (decimal, centro de un intervalo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Kaal (kümnendkoht, vahemiku keskmine)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>{Painotus (desimaaleina, vaihteluvälin puoliväli)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Pondération (décimal, milieu d’une fourchette)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>{Ualú (deachúil, lár raoin)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>{Ponder (decimalni broj, srednja vrijednost)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{Súlyozás (tizedes, a skála közepe)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>{Ponderazione (decimale, valore centrale dell'intervallo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Lyginamasis svoris (dešimtainė sistema, intervalo vidurys)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Svērums (decimāldaļskaitlis, diapazona vidējā vērtība)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Fattur ta’ ponderazzjoni (deċimali, fin-nofs ta’ firxa)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{Gewicht (decimaal, midden van bereik)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>{Waga (wartość dziesiętna, środek zakresu)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{Ponderação (decimal, a meio de um intervalo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>{Ponderare (zecimal, mijlocul unui interval)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Váha (desatiny, stred rozmedzia)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>{Ponder (decimalno število, srednja vrednost)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>{Viktning (decimaltal, mitt i intervallet)}</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ord-imp</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Order of importance</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ред на значимост</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pořadí důležitosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Prioriteret rækkefølge</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Rangfolge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σειρά σπουδαιότητας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Order of importance</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Orden de prioridad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tähtsuse järjekord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ensisijaisuusjärjestys</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ordre d’importance</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ord tábhachta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Redoslijed važnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Fontossági sorrend</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ordine di importanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Eilės tvarka pagal svarbą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Secība pēc nozīmīguma</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ordni ta’ importanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Volgorde van belang</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kolejność według ważności</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ordem de importância</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ordinea importanței</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Poradie dôležitosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrstni red glede na pomembnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Prioritetsordning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>per-exa</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{Weight (percentage, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>{Тегло (процентен дял, точна величина)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>{Váha (procenta, přesně)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Vægtning (procentdel, præcis)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Gewichtung (Prozentanteil, genau)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>{Στάθμιση (ποσοστό, ακριβές)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{Weight (percentage, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>{Ponderación (porcentaje, exacto)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Kaal (protsentides, täpne)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>{Painotus (prosentteina, tarkka)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Pondération (pourcentage, valeur exacte)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>{Ualú (céatadán, beacht)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>{Ponder (postotak, točan)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{Súlyozás (százalék, pontos)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>{Ponderazione (percentuale, esatta)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Lyginamasis svoris (procentinė dalis, tikslus skaičius)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Svērums (precīza procentuālā attiecība)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Fattur ta’ ponderazzjoni (persentaġġ, eżatt)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{Gewicht (percentage, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>{Waga (wartość procentowa, dokładna)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{Ponderação (percentagem, valor exato)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>{Ponderare (procentaj, valoare exactă)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Váha (percentá, presne)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>{Ponder (odstotek, točen)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>{Viktning (procentandel, exakt)}</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>per-mid</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{Weight (percentage, middle of a range)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>{Тегло (процентен дял, средна величина за диапазон)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>{Váha (procenta, střed rozmezí)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Vægtning (procentdel, midt i intervallet)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Gewichtung (Prozentanteil, Mittelwert)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>{Στάθμιση (ποσοστό, μέση τιμή)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{Weight (percentage, middle of a range)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>{Ponderación (porcentaje, centro de un intervalo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Kaal (protsentides, vahemiku keskmine)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>{Painotus (prosentteina, vaihteluvälin puoliväli)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Pondération (pourcentage, milieu d’une fourchette)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>{Ualú (céatadán, lár raoin)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>{Ponder (postotak, srednja vrijednost)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{Súlyozás (százalék, a skála közepe)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>{Ponderazione (percentuale, valore centrale dell'intervallo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Lyginamasis svoris (procentinė dalis, intervalo vidurys)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Svērums (procentuālā attiecība, diapazona vidējā vērtība)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Fattur ta’ ponderazzjoni (persentaġġ, fin-nofs ta’ firxa)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{Gewicht (percentage, midden van bereik)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>{Waga (wartość procentowa, środek zakresu)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{Ponderação (percentagem, a meio de um intervalo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>{Ponderare (procentaj, mijlocul unui interval)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Váha (percentá, stred rozmedzia)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>{Ponder (odstotek, srednja vrednost)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>{Viktning (procentandel, mitt i intervallet)}</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>poi-exa</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{Weight (points, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>{Тегло (точки, точна величина)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>{Váha (body, přesně)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Vægtning (pointantal, præcis)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Gewichtung (Punkte, genau)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>{Στάθμιση (μόρια, ακριβές)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{Weight (points, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>{Ponderación (puntos, exacto)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Kaal (punktid, täpne)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>{Painotus (pisteinä, tarkka)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Pondération (points, valeur exacte)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>{Ualú (pointí, beacht)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>{Ponder (točke, točan)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{Súlyozás (pontok, pontos)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>{Ponderazione (punti, esatta)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Lyginamasis svoris (balai, tikslus skaičius)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Svērums (precīzs punktu skaits)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Fattur ta’ ponderazzjoni (punti, eżatt)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{Gewicht (punten, exact)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>{Waga (wartość punktowa, dokładna)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{Ponderação (pontos, valor exato)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>{Ponderare (puncte, valoare exactă)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Váha (body, presne)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>{Ponder (točke, točno)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>{Viktning (poängtal, exakt)}</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>poi-mid</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{Weight (points, middle of a range)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>{Тегло (точки, средна величина за диапазон)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>{Váha (body, střed rozmezí)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Vægtning (pointantal, midt i intervallet)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Gewichtung (Punkte, Mittelwert)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>{Στάθμιση (μόρια, μέση τιμή)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{Weight (points, middle of a range)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>{Ponderación (puntos, centro de un intervalo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Kaal (punktid, vahemiku keskmine)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>{Painotus (pisteinä, vaihteluvälin puoliväli)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Pondération (points, milieu d’une fourchette)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>{Ualú (pointí, lár raoin)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>{Ponder (točke, srednja vrijednost)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{Súlyozás (pontok, a skála közepe)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>{Ponderazione (punti, valore centrale dell'intervallo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Lyginamasis svoris (balų sistema, intervalo vidurys)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Svērums (punktu skaits, diapazona vidējā vērtība)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Fattur ta’ ponderazzjoni (punti, fin-nofs ta’ firxa)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{Gewicht (punten, midden van bereik)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>{Waga (wartość punktowa, środek zakresu)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{Ponderação (pontos, a meio de um intervalo)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>{Ponderare (puncte, mijlocul unui interval)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Váha (body, stred rozmedzia)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>{Ponder (točke, srednja vrednost)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>{Viktning (poängtal, mitt i intervallet)}</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

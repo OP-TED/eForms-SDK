@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>OrganisationRole</ShortName>
+      <LongName>organisation-role</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/organisation-role</LongName>
+      <Version>20210616-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/organisation-role</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ben-own</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Beneficial owner</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Действителен собственик</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Skutečný majitel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Begunstiget ejer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wirtschaftlicher Eigentümer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πραγματικός δικαιούχος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Beneficial owner</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Propietario beneficiario</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tegelik tulusaaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Taloudellinen omistaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Bénéficiaire effectif</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Úinéir tairbhiúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Stvarni vlasnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kedvezményezett</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Titolare effettivo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tikrasis savininkas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Faktiskais īpašnieks</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sid benefiċjarju</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Uiteindelijke begunstigde</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Faktyczny właściciel</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Beneficiário efetivo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Beneficiar efectiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oprávnený vlastník</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dejanski lastnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Verklig ägare</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>buyer</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Buyer</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Купувач</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kupující</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Køber</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Beschaffer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αγοραστής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Buyer</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Comprador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ostaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Acheteur</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ceannaitheoir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kupac</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Vevő</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Committente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircējs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Xerrej</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Koper</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nabywca</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Adquirente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cumpărător</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kupujúci</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kupec</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Upphandlare</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cpb-acq</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Central purchasing body acquiring supplies and/or services intended for other buyers</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Централен орган за покупки, придобиващ доставки и/или услуги, предназначени за други купувачи</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Centrální zadavatel pořizující dodávky a/nebo služby určené pro jiné kupující</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser for andre købere</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κεντρική αρχή προμηθειών η οποία αγοράζει αγαθά και/ή υπηρεσίες που προορίζονται για άλλους αγοραστές</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Central purchasing body acquiring supplies and/or services intended for other buyers</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organismo comprador central que adquiere suministros o servicios destinados a otros compradores</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Comhlacht lárnach ceannaigh a fhaigheann soláthairtí agus/nó seirbhísí ar son ceannaitheoirí eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Središnje tijelo za nabavu koje nabavlja robu i/ili usluge namijenjene drugim kupcima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Centrale di committenza per l'acquisizione di forniture e/o servizi destinati ad altri committenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Centrinė perkančioji organizacija, įsigyjanti kitiems pirkėjams skirtas prekes ir (arba) paslaugas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Korp ċentrali għall-akkwisti li jakkwista provvisti u/jew servizzi maħsuba għal xerrejja oħra</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankoopcentrale die voor andere kopers bestemde goederen en/of diensten koopt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Centralna jednostka zakupująca nabywająca dostawy i/lub usługi przeznaczone dla innych nabywców</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Central de compras que adquire fornecimentos e/ou serviços destinados a outros adquirentes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organism central de achiziție care achiziționează bunuri și/sau servicii destinate altor cumpărători</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Centrálna obstarávacia organizácia, ktorá obstaráva dodávky tovaru a/alebo služby určené pre iných kupujúcich</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Osrednji nabavni organ, ki nabavlja blago in/ali storitve za druge kupce</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cpb-awa</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Централен орган за покупки, възлагащ обществени поръчки или сключващ рамкови споразумения за строителство, доставки или услуги, предназначени за други купувачи</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Centrální zadavatel zadávající veřejné zakázky nebo uzavírající rámcové dohody na stavební práce, dodávky nebo služby určené pro jiné kupující</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Indkøbscentral, der tildeler offentlige kontrakter eller indgår rammeaftaler om bygge- og anlægsarbejder, vareindkøb eller tjenesteydelser for andre købere</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zentrale Beschaffungsstelle, die öffentliche Aufträge oder Rahmenvereinbarungen im Zusammenhang mit für andere Beschaffer bestimmten Bauleistungen, Lieferungen oder Dienstleistungen vergibt/abschließt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κεντρική αρχή προμηθειών η οποία αναθέτει δημόσιες συμβάσεις ή συνάπτει συμφωνίες-πλαίσια για έργα, προμήθειες ή υπηρεσίες που προορίζονται για άλλους αγοραστές</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organismo comprador central que adjudica contratos públicos o celebra acuerdos marco de obras, suministros o servicios destinados a otros compradores</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskne hankija, kes sõlmib teiste hankijate jaoks ette nähtud ehitustööde, asjade või teenuste riigihankelepinguid või raamlepinguid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muille ostajille tarkoitettuja julkisia urakoita sekä tavara- ja palveluhankintoja koskevia sopimuksia tai puitejärjestelyjä tekevä yhteishankintayksikkö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Centrale d’achat qui passe des marchés publics ou conclut des accords-cadres de travaux, de fournitures ou de services destinés à d’autres acheteurs</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Comhlacht lárnach ceannaigh a dhámhann conarthaí poiblí nó a thugann i gcrích creat-chomhaontuithe maidir le hoibreacha, soláthairtí nó seirbhísí ar son ceannaitheoirí eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Središnje tijelo za nabavu koje dodjeljuje javne ugovore ili sklapa okvirne sporazume za radove, robu ili usluge namijenjene drugim kupcima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb vevőknek szánt építési beruházásra, árubeszerzésre vagy szolgáltatásra irányuló szerződéseket odaítélő vagy ilyen keretmegállapodásokat kötő központi beszerző szerv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Centrale di committenza per l'aggiudicazione di appalti o la conclusione di accordi quadro per lavori, forniture o servizi destinati ad altri committenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Centrinė perkančioji organizacija, skirianti viešojo pirkimo sutartis arba sudaranti preliminariąsias sutartis dėl kitiems pirkėjams skirtų darbų, prekių ar paslaugų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Centralizēto iepirkumu struktūra, kas piešķir publiskā iepirkuma līgumus vai slēdz pamatnolīgumus par citiem pircējiem paredzētiem būvdarbiem, piegādēm vai pakalpojumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Korp ċentrali għall-akkwisti li jagħti l-kuntratti pubbliċi jew li jikkonkludi ftehimiet qafas għal xogħlijiet, provvisti jew servizzi maħsuba għal xerrejja oħra</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankoopcentrale die overheidsopdrachten gunt of raamovereenkomsten sluit voor werken, leveringen of diensten die voor andere kopers bestemd zijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Centralna jednostka zakupująca udzielająca zamówień publicznych lub zawierająca umowy ramowe w zakresie robót budowlanych, dostaw lub usług przeznaczonych dla innych nabywców</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Central de compras que adjudica contratos públicos ou celebra acordos-quadro para trabalhos de obras, fornecimentos ou serviços destinados a outros adquirentes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organism central de achiziție care atribuie contracte de achiziții publice sau încheie acorduri-cadru pentru lucrări, bunuri sau servicii destinate altor cumpărători</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Centrálna obstarávacia organizácia, ktorá zadáva verejné zákazky alebo uzatvára rámcové dohody na stavebné práce, dodávky tovaru alebo služby určené pre iných kupujúcich</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Osrednji nabavni organ, ki oddaja javna naročila ali sklepa okvirne sporazume za gradnje, blago ali storitve za druge kupce</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inköpscentral som tilldelar offentliga kontrakt eller ingår ramavtal om byggentreprenader, varor eller tjänster som är avsedda för andra upphandlare</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>info-emp</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация, която предоставя информация за общата нормативна уредба за защитата на заетостта и условията на труд, приложима на мястото, където ще се изпълнява поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace poskytující informace o obecném právním rámci pro ochranu zaměstnanců a pracovní podmínky, který se použije v místě, kde má být zakázka plněna</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation, der leverer oplysninger om den generelle lovgivningsramme på det sted, hvor kontrakten skal udføres, hvad angår sikkerhed på arbejdspladsen og arbejdsvilkår</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden Rechtsrahmen für Arbeitsschutz und Arbeitsbedingungen bereitstellt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με το γενικό κανονιστικό πλαίσιο για την προστασία της απασχόλησης και τους όρους εργασίας το οποίο ισχύει στον τόπο εκτέλεσης της σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización que proporciona información sobre el marco normativo general en materia de protección de los trabajadores y las condiciones de trabajo aplicable en el lugar en que deba ejecutarse el contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Organisatsioon, mis annab teavet tööhõivekaitset ja töötingimusi käsitleva üldise õigusliku raamistiku kohta, mida kohaldatakse lepingu täitmise kohas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista työsuojelua ja työehtoja koskevista yleisistä säännöksistä tietoja antava organisaatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection du travail et de conditions de travail, est applicable au lieu où la prestation doit être réalisée</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta don chosaint fostaíochta agus do dhálaí oibre is infheidhme san áit ina bhfuil an conradh le cur i gcrích</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija koja pruža informacije o općem regulatornom okviru u vezi sa zaštitom radnog mjesta i radnih uvjeta primjenjivom u mjestu u kojem se ugovor treba izvršiti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szerződés teljesítésének helye szerinti országban alkalmazandó általános munkavédelmi és foglalkoztatási feltételekkel kapcsolatos szabályozási kerettel kapcsolatban tájékoztatást nyújtó szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione presso la quale possono essere richieste informazioni sul quadro normativo generale vigente in materia di tutela dei lavoratori e condizioni di lavoro nel luogo in cui l'appalto deve essere eseguito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją užimtumo apsaugos ir darbo sąlygų reglamentavimo sistemą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Organizācija, kas sniedz informāciju par darba aizsardzības un darba apstākļu vispārējo tiesisko regulējumu, kas piemērojams līguma izpildes vietā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għall-protezzjoni tal-impjiegi u għall-kundizzjonijiet tax-xogħol applikabbli fil-post fejn irid jitwettaq il-kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake de bescherming van de werknemers en arbeidsvoorwaarden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie ochrony zatrudnienia i warunków pracy, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização que fornece informações sobre o quadro normativo geral em matéria de proteção do trabalho e de condições de trabalho aplicável no local em que o contrato vai ser executado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția muncii aplicabil în locul în care urmează să fie executat contractul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre ochranu zamestnanosti a pracovné podmienky uplatňovaného v mieste plnenia zákazky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacija, ki daje informacije o splošnem regulativnem okviru glede zaščite delovnega mesta in pogojev za delo, ki se uporablja v kraju izvajanja naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Organisation som tillhandahåller information om det allmänna regelverk för anställningsskydd och arbetsvillkor som ska tillämpas på den plats där kontraktet ska genomföras</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>info-envir</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация, която предоставя информация за общата нормативна уредба за опазването на околната среда, приложима на мястото, където ще се изпълнява поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace poskytující informace o obecném právním rámci pro ochranu životního prostředí, který se použije v místě, kde má být zakázka plněna</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation, der leverer oplysninger om den generelle lovgivningsramme på det sted, hvor kontrakten skal udføres, hvad angår miljøbeskyttelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden umweltrechtlichen Rahmen bereitstellt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με το γενικό κανονιστικό πλαίσιο για την προστασία του περιβάλλοντος το οποίο ισχύει στον τόπο εκτέλεσης της σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización que proporciona información sobre el marco normativo general por lo que se refiere a la protección del medio ambiente aplicable en el lugar en que deba ejecutarse el contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Organisatsioon, mis annab teavet keskkonnakaitset käsitleva üldise õigusliku raamistiku kohta, mida kohaldatakse lepingu täitmise kohas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista ympäristönsuojelua koskevista yleisistä säännöksistä tietoja antava organisaatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection de l’environnement, est applicable au lieu où la prestation doit être réalisée</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do chosaint an chomhshaoil is infheidhme san áit ina bhfuil an conradh le cur i gcrích</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija koja pruža informacije o općem regulatornom okviru u vezi sa zaštitom okoliša primjenjivom u mjestu u kojem se ugovor treba izvršiti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szerződés teljesítésének helye szerinti országban alkalmazandó általános környezetvédelmi szabályozási kerettel kapcsolatban tájékoztatást nyújtó szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione presso la quale possono essere richieste informazioni sul quadro normativo generale vigente in materia di protezione dell'ambiente nel luogo in cui l'appalto deve essere eseguito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją aplinkosaugos reglamentavimo sistemą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Organizācija, kas sniedz informāciju par vides aizsardzības jomas vispārējo tiesisko regulējumu, kas piemērojams līguma izpildes vietā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għall-protezzjoni ambjentali applikabbli fil-post fejn irid jitwettaq il-kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake milieubescherming</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie ochrony środowiska, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização que fornece informações sobre o quadro normativo geral em matéria de proteção do ambiente que vigora no local de realização da prestação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția mediului aplicabil în locul în care urmează să fie executat contractul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre ochranu životného prostredia uplatňovaného v mieste plnenia zákazky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacija, ki daje informacije o splošnem regulativnem okviru glede varstva okolja, ki se uporablja v kraju izvajanja naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Organisation som tillhandahåller information om det allmänna regelverk för miljöskydd som ska tillämpas på den plats där kontraktet ska genomföras</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>info-tax</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация, която предоставя информация за общата нормативна уредба за данъците, приложима на мястото, където ще се изпълнява поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace poskytující informace o obecném právním rámci pro daně, který se použije v místě, kde má být zakázka plněna</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation, der leverer oplysninger om den generelle lovgivningsramme på det sted, hvor kontrakten skal udføres, hvad angår skatter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden steuerrechtlichen Rahmen bereitstellt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με το γενικό κανονιστικό πλαίσιο για τους φόρους το οποίο ισχύει στον τόπο εκτέλεσης της σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización que proporciona información sobre el marco normativo general por lo que se refiere a la fiscalidad aplicable en el lugar en que deba ejecutarse el contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Organisatsioon, mis annab teavet makse käsitleva üldise õigusliku raamistiku kohta, mida kohaldatakse lepingu täitmise kohas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista verotusta koskevista yleisistä säännöksistä tietoja antava organisaatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de fiscalité, est applicable au lieu où la prestation doit être réalisée</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do na cánacha is infheidhme san áit ina bhfuil an conradh le cur i gcrích</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija koja pruža informacije o općem regulatornom okviru u vezi s porezima primjenjivom u mjestu u kojem se ugovor treba izvršiti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szerződés teljesítésének helye szerinti országban alkalmazandó adók általános szabályozási keretével kapcsolatban tájékoztatást nyújtó szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione presso la quale possono essere richieste informazioni sul quadro normativo generale vigente in materia di fiscalità nel luogo in cui l'appalto deve essere eseguito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją mokesčių reglamentavimo sistemą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Organizācija, kas sniedz informāciju par vispārējo tiesisko regulējumu attiecībā uz nodokļiem, kas piemērojami līguma izpildes vietā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għat-taxxi applikabbli fil-post fejn irid jitwettaq il-kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake belasting</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie podatków, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização que fornece informações sobre o quadro normativo geral em matéria de fiscalidade que vigora no local de realização da prestação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizația care furnizează informații referitoare la cadrul legislativ general privind impozitarea aplicabil în locul în care urmează să fie executat contractul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre dane uplatňovaného v mieste plnenia zákazky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacija, ki daje informacije o splošnem regulativnem okviru glede davkov, ki se uporablja v kraju izvajanja naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Organisation som tillhandahåller information om det allmänna regelverk för skatter som ska tillämpas på den plats där kontraktet ska genomföras</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mediator</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mediation organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Медиаторска организация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace příslušná pro mediační řízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation med ansvar for mægling</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Schlichtungsstelle</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός διαμεσολάβησης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mediation organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización de mediación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vahendusorganisatsioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Välityselin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation chargée des procédures de médiation</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht idirghabhála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija za postupke mirenja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Közvetítő szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione di mediazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tarpininkavimo organizacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Starpniecības jeb mediācijas organizācija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni tal-medjazzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bemiddelingsorganisatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organ mediacyjny</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização de mediação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizație de mediere</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Sprostredkovateľská organizácia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacija za mediacijo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Medlingsorganisation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rev-req</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация (или лице), искаща преразглеждане (обжалване), която има или е имала интерес по отношение на поръчката и която е понесла или има опасност да понесе щети при предполагаемо нарушение</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace (nebo osoba) žádající o přezkum, která má nebo měla na zakázce zájem a které v důsledku domnělého protiprávního jednání vznikla nebo hrozí škoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Klagende organisation (eller person), der har eller har haft interesse i en kontrakt, og som har lidt eller risikerer at lide skade som følge af en påstået overtrædelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die den Antrag auf Überprüfung stellende Einrichtung (oder Person), die ein Interesse an einem Auftrag hat oder hatte und der durch einen behaupteten Verstoß ein Schaden entstanden ist bzw. zu entstehen droht</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός (ή πρόσωπο) που ασκεί προσφυγή και έχει ή είχε συμφέρον σε μια σύμβαση και που υπέστη ή κινδυνεύει να υποστεί ζημία από κατ’ ισχυρισμόν παράβαση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización (o persona) que interpone un recurso, que tiene o ha tenido un interés en un contrato y que se ha visto o corre el riesgo de verse perjudicada por una presunta infracción</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Läbivaatamist taotlev organisatsioon (või isik), kellel on või on olnud huvi lepingu vastu ja kes on väidetava rikkumise tõttu kahju kannatanud või võib kahju kannatada</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muutoksenhakua pyytävä organisaatio (tai henkilö), joka on tai on ollut tavoittelemassa tiettyä sopimusta ja jonka etua väitetty virheellinen menettely on loukannut tai saattaa loukata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation (ou personne) introduisant une demande de recours qui est ou a été intéressée par un marché et a été ou risque d’être lésée par une violation alléguée</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht (nó duine) a iarrann athbhreithniú a bhfuil nó a raibh leas acu i gconradh agus ar ndearnadh díobháil dóibh nó a bhfuil riosca ann go ndéanfaí díobháil dóibh mar gheall ar shárú líomhnaithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija (ili osoba) koja traži pravnu zaštitu (preispitivanje), koja ima ili je imala interes za dobivanje ugovora i koja je pretrpjela ili bi mogla pretrpjeti štetu zbog navodnog kršenja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jogorvoslatot kérő szervezet (vagy személy), amelynek (akinek) érdeke fűződik vagy fűződött egy szerződéshez, és amelynek (akinek) az állítólagos jogsértés kárt okozhat vagy okozhatott</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione (o persona) che presenta ricorso, che abbia o abbia avuto interesse a ottenere l'aggiudicazione di un appalto e sia stata o rischi di essere lesa a causa di una presunta violazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Peržiūros prašanti organizacija (arba asmuo), turinti ar turėjusi interesą sudaryti sutartį ir dėl įtariamo pažeidimo galėjusi arba galinti patirti žalą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasītāja organizācija (vai persona), kura ir vai ir bijusi ieinteresēta kādā līgumā un kurai ir nodarīts vai draud kaitējums aizdomu par pārkāpumu dēļ</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni (jew persuna) li titlob għal rieżami, li jkollha jew kellha interess f’kuntratt, u li ġarrbet jew qed tissogra li ġġarrab danni minħabba ksur allegat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie (of persoon) die beroep instelt en die belang heeft of heeft gehad bij een opdracht en door een beweerde inbreuk is of dreigt te worden geschaad</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja (lub osoba) składająca odwołanie, która ma lub miała interes w uzyskaniu zamówienia i która poniósła szkodę lub może ponieść szkodę w wyniku domniemanego naruszenia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização (ou pessoa) que interpõe um recurso, que esteja ou tenha estado interessada num contrato e que tenha sido ou possa vir a ser lesada por uma alegada violação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizația (sau persoana) care depune cererea de soluționare a căilor de atac, care are sau a avut un interes în obținerea unui contract și care a fost prejudiciată sau riscă să fie prejudiciată printr-o presupusă încălcare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia (alebo osoba) požadujúca preskúmanie, ktorá má alebo mala záujem o zákazku a ktorá je alebo by mohla byť poškodená údajným porušením právnych predpisov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacija (ali oseba), ki zahteva revizijo in ki ima ali je imela pogodbeni interes ter bi ji domnevna kršitev lahko škodovala</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>En organisation (eller person) som begär omprövning, har ett intresse i ett avtal och har blivit skadad eller kan skadas av en påstådd överträdelse</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>reviewer</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Review organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Oрганизация, отговаряща за преразглеждането (обжалването)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace příslušná pro přezkum</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation med ansvar for klager</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Überprüfungsstelle</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός προσφυγής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Review organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización de encargada de los procedimientos de recurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Läbivaatav organisatsioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muutoksenhakuelin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation chargée des procédures de recours</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht athbhreithniúcháin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija za preispitivanje (pravnu zaštitu)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Felülvizsgálati szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione competente per i ricorsi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Peržiūros organizacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas organizācija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni tar-rieżami</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie voor beroepsprocedures</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organ odwoławczy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Instância de recurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizația responsabilă cu căile de atac</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia pre preskúmanie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacija za revizijo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Prövningsorganisation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>serv-prov</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Procurement service provider</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доставчик на услуги в областта на обществените поръчки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Poskytovatel služeb v oblasti zadávání zakázek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Indkøbsleverandør</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Beschaffungsdienstleister</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πάροχος υπηρεσιών προμηθειών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Procurement service provider</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Proveedor de servicios de contratación pública</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tugiteenuse osutaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintapalvelujen tarjoaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Prestataire de services de passation de marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Soláthraí seirbhísí an tsoláthair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pružatelj usluga javne nabave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Közbeszerzési szolgáltató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Prestatore di servizi in materia di appalti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkimo paslaugų teikėjas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirkuma pakalpojumu sniedzējs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Fornitur ta’ servizzi tal-akkwist</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aanbieder van aanbestedingsdiensten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podmiot świadczący usługi w zakresie zamówień</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Prestador de serviços no domínio da contratação pública</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Furnizor de servicii de achiziție</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Poskytovateľ obstarávacích služieb</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Izvajalec storitev javnega naročanja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Upphandlingstjänsteleverantör</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subcont</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontractor</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Подизпълнител</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Subdodavatel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Underleverandør</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Unterauftragnehmer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπεργολάβος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Subcontractor</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Subcontratista</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Alltöövõtja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alihankkija</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sous-traitant</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fochonraitheoir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Podugovaratelj (podizvođač radova)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Alvállalkozó</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Subappaltatore</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Subrangovas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Apakšuzņēmējs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sottokuntrattur</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onderaannemer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podwykonawca</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Subcontratante</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Subcontractant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Subdodávateľ</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Podizvajalec</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Underentreprenör</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ted-esen</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Електронен подател в платформата eSender към Електронния ежедневник за поръчките (TED)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Elektronický odesílatel TED</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>TED-eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>TED eKüldő</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>TED e. formų siuntėjas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>TED rīks eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Sistemul TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>TED eSender</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>tenderer</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tenderer</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Оферент</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Uchazeč</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilbudsgiver</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bieter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προσφέρων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tenderer</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Licitador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkuja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjoaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Soumissionnaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tairgeoir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ponuditelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlattevő</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Offerente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Dalyvis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pretendents</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Offerent</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Inschrijver</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Oferent</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Proponente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ofertant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Uchádzač</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ponudnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Anbudsgivare</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>winner</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Winner</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Победител</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Vítěz</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Vinder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wettbewerbsgewinner</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Νικητής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Winner</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ganador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Edukas pakkuja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Voittaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Lauréat</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Buaiteoir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pobjednik natječaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nyertes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Vincitore</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Laimėtojas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Uzvarētājs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rebbieħ</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Winnaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zwycięzca</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Vencedor</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Câștigător</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Víťaz</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zmagovalec</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Verklig ägare</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

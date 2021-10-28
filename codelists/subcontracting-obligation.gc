@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>SubcontractingObligation</ShortName>
+      <LongName>subcontracting-obligation</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/subcontracting-obligation</LongName>
+      <Version>20190918-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/subcontracting-obligation</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>none</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>None</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Няма</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Žádná z možností</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Entfällt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Καμία</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>None</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ninguna</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ei kohaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ei sovelleta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sans objet</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ceann ar bith</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ne primjenjuje se</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nincs</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nulla</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Netaikoma</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-ebda</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Nenhum</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Niciuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Žiadna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ne obstaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subc-chng</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The contractor must indicate any change of subcontractors during the execution of the contract.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изпълнителят трябва да посочи всякакви промени на подизпълнителите по време на изпълнението на договора.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zhotovitel, dodavatel nebo poskytovatel musí uvést veškeré změny týkající se subdodavatelů, k nimž dojde během plnění zakázky.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Entreprenøren skal angive eventuelle udskiftninger af underentreprenører i løbet af kontraktens udførelse.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Auftragnehmer muss alle Änderungen der Unterauftragnehmer angeben, die sich während der Auftragsausführung ergeben.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο αντισυμβαλλόμενος πρέπει να αναφέρει οποιαδήποτε αλλαγή υπεργολάβων κατά την εκτέλεση της σύμβασης.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The contractor must indicate any change of subcontractors during the execution of the contract.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El contratista debe indicar cualquier cambio de subcontratistas durante la ejecución del contrato.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Töövõtja peab andma teada alltöövõtjatega seotud igast muudatusest lepingu täitmise ajal.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Toimeksisaajan on ilmoitettava alihankkijoiden vaihtumisesta sopimuksen täytäntöönpanon aikana.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Le contractant doit indiquer tout changement de sous-traitant(s) au cours de l’exécution du marché.}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ní mór don chonraitheoir aon athrú fochonraitheoirí le linn chur i ngníomh an chonartha a chur in iúl</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>{Ugovaratelj (izvođač radova) mora navesti sve promjene podugovaratelja tijekom izvršenja ugovora.}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vállalkozónak jeleznie kell az alvállalkozókkal kapcsolatban a szerződés végrehajtása során felmerülő változásokat.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'appaltatore deve indicare qualsiasi modifica a livello dei subappaltatori durante l'esecuzione dell'appalto.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rangovas privalo nurodyti visus sutarties vykdymo metu pasikeitusius subrangovus.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Darbuzņēmējam līguma izpildes laikā jānorāda visas izmaiņas attiecībā uz apakšuzņēmējiem.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-kuntrattur irid jindika kwalunkwe bidla ta’ sottokuntratturi matul it-twettiq tal-kuntratt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De contractant moet elke verandering van onderaannemer tijdens de uitvoering van de opdracht aangeven.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wykonawca musi wskazać wszelkie zmiany podwykonawców w trakcie wykonywania zamówienia.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O contratante tem de indicar qualquer mudança de subcontratantes durante a execução do contrato.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Contractantul trebuie să indice orice schimbare a subcontractanților pe durata executării contractului.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dodávateľ musí uviesť každú zmenu subdodávateľov počas plnenia zákazky.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Izvajalec mora navesti vsako spremembo podizvajalcev med izvajanjem naročila.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Uppdragstagaren ska ange eventuella byten av underentreprenörer under kontraktets genomförande.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subc-min</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изпълнителят трябва да възложи на подизпълнители минимален процентен дял от поръчката по процедурата, предвидена в глава ІІІ от Директива 2009/81/ЕО.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zhotovitel, dodavatel nebo poskytovatel musí minimální procentní podíl zakázky zadat třetím osobám prostřednictvím zadávacího řízení stanoveného v hlavě III směrnice 2009/81/ES.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Entreprenøren skal give en mindsteprocentdel af kontrakten i underentreprise ved anvendelse af den procedure, der er fastsat i afsnit III i direktiv 2009/81/EF.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Auftragnehmer ist verpflichtet, einen Mindestprozentsatz des Auftrags gemäß dem Verfahren in Titel III der Richtlinie 2009/81/EG als Unterauftrag zu vergeben.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο αντισυμβαλλόμενος πρέπει να αναθέσει σε υπεργολάβο ένα ελάχιστο ποσοστό της σύμβασης μέσω της διαδικασίας που προβλέπεται στον τίτλο III της οδηγίας 2009/81/ΕΚ.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El contratista debe subcontratar un porcentaje mínimo del contrato utilizando el procedimiento establecido en el título III de la Directiva 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Töövõtja peab lepingu teatud protsentuaalse miinimumosa suhtes sõlmima allhankelepingu, kasutades direktiivi 2009/81/EÜ III jaotises sätestatud menetlust.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Toimeksisaajan on teetettävä tietty vähimmäisprosenttiosuus sopimuksesta direktiivin 2009/81/EY III osastossa säädettyä menettelyä noudattaen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Le contractant doit sous-traiter un pourcentage minimal du marché selon la procédure prévue au titre III de la directive 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ní mór don chonraitheoir céatadán íosta den chonradh a ligean ar fochonradh tríd an nós imeachta a leagtar amach i dTeideal III de Threoir 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>{Ugovaratelj (izvođač radova) mora dati u podugovor minimalni postotak vrijednosti ugovora u okviru postupka iz glave III. Direktive 2009/81/EZ.}</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vállalkozónak a szerződés bizonyos százalékát a 2009/81/EK irányelv III. címében foglalt eljáráson keresztül kell alvállalkozásba adnia.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'appaltatore deve subappaltare una percentuale minima dell'appalto applicando la procedura di cui al titolo III della direttiva 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rangovas privalo sudaryti subrangos sutartį dėl mažiausios visos sutarties procentinės dalies pagal Direktyvos 2009/81/EB III antraštinėje dalyje nustatytą procedūrą.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Darbuzņēmējam ir pienākums līguma minimālo procentuālo daļu nodot izpildei apakšuzņēmumam, izmantojot Direktīvas 2009/81/EK III sadaļā noteikto procedūru.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-kuntrattur irid jissottokuntratta persentaġġ minimu tal-kuntratt billi juża l-proċedura stabbilita fit-Titolu III tad-Direttiva 2009/81/KE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De contractant moet een minimumpercentage van de opdracht in onderaanneming geven aan de hand van de in titel III van Richtlijn 2009/81/EG beschreven procedure.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wykonawca musi zlecić podwykonawstwo minimalnej wartości procentowej zamówienia z zastosowaniem procedury określonej w tytule III dyrektywy 2009/81/WE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O contratante tem de subcontratar uma percentagem mínima do contrato utilizando o procedimento estabelecido no título III da Diretiva 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Contractantul trebuie să subcontracteze un procentaj minim din contract utilizând procedura prevăzută la titlul III din Directiva 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dodávateľ musí zadať minimálny percentuálny podiel zákazky subdodávateľom s použitím postupu stanoveného v hlave III smernice 2009/81/ES.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Izvajalec mora oddati podizvajalcem najnižji odstotek naročila po postopku iz naslova III Direktive 2009/81/ES.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Uppdragstagaren ska lägga ut en lägsta procentandel av upphandlingen på underentreprenörer enligt det förfarande som fastställs i avdelning III i direktiv 2009/81/EG.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subc-oblig-2009-81</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The buyer may oblige the contractor to award all or certain subcontracts through the procedure set out in Title III of Directive 2009/81/EC.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Купувачът може да задължи изпълнителя да възложи всички или някои подизпълнения по процедурата, предвидена в глава ІІІ от Директива 2009/81/ЕО.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kupující může pro zhotovitele, dodavatele nebo poskytovatele stanovit povinnost zadat všechny nebo některé subdodávky prostřednictvím řízení stanoveného v hlavě III směrnice 2009/81/ES.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Køber kan forpligte entreprenøren til at tildele alle eller visse underentrepriser i henhold til den procedure, der er fastsat i afsnit III i direktiv 2009/81/EF.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Beschaffer kann den Auftragnehmer dazu verpflichten, alle oder bestimmte Unteraufträge gemäß dem Verfahren in Titel III der Richtlinie 2009/81/EG zu vergeben.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο αγοραστής μπορεί να υποχρεώσει τον αντισυμβαλλόμενο να αναθέσει όλες ή ορισμένες συμβάσεις υπεργολαβίας μέσω της διαδικασίας που προβλέπεται στον τίτλο III της οδηγίας 2009/81/ΕΚ.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The buyer may oblige the contractor to award all or certain subcontracts through the procedure set out in Title III of Directive 2009/81/EC.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El comprador puede obligar al contratista a adjudicar todos o determinados subcontratos mediante el procedimiento establecido en el título III de la Directiva 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija võib nõuda, et töövõtja sõlmiks kõik või teatavad allhankelepingud direktiivi 2009/81/EÜ III jaotises sätestatud korras.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ostaja voi velvoittaa toimeksisaajan tekemään kaikki tai tietyt alihankintasopimukset direktiivin 2009/81/EY III osastossa säädettyä menettelyä noudattaen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L’acheteur peut obliger le contractant à passer tout ou partie des contrats de sous-traitance selon la procédure prévue au titre III de la directive 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Féadfaidh an ceannaitheoir iallach a chur ar an gconraitheoir gach fochonradh nó fochonarthaí áirithe a dhámhachtain tríd an nós imeachta a leagtar amach i dTeideal III de Threoir 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kupac može obvezati ugovaratelja na dodjelu svih ili određenih podugovora u okviru postupka iz glave III. Direktive 2009/81/EZ.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vevő kötelezheti arra a vállalkozót, hogy alvállalkozói szerződések egy részét vagy egészét a 2009/81/EK irányelv III. címében foglalt eljáráson keresztül ítélje oda.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il committente può obbligare l'appaltatore ad aggiudicare tutti o determinati subappalti mediante la procedura di cui al titolo III della direttiva 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjas gali įpareigoti rangovą visas arba tam tikras subrangos sutartis skirti pagal Direktyvos 2009/81/EB III antraštinėje dalyje nustatytą procedūrą.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircējs var likt darbuzņēmējam visus vai dažus apakšuzņēmuma līgumus piešķirt saskaņā ar Direktīvas 2009/81/EK III sadaļā noteikto procedūru.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xerrej jista’ jobbliga lill-kuntrattur jagħti s-sottokuntratti kollha jew uħud minnhom permezz tal-proċedura stabbilita fit-Titolu III tad-Direttiva 2009/81/KE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De koper kan de contractant verplichten alle of bepaalde opdrachten in onderaanneming te geven aan de hand van de in titel III van Richtlijn 2009/81/EG beschreven procedure.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nabywca może zobowiązać wykonawcę do udzielenia wszystkich lub niektórych zleceń podwykonawstwa w drodze procedury określonej w tytule III dyrektywy 2009/81/WE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O adquirente pode obrigar o contratante a adjudicar todos ou parte dos subcontratos através do procedimento estabelecido no título III da Diretiva 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cumpărătorul poate obliga contractantul să atribuie toate subcontractele sau anumite subcontracte prin procedura prevăzută la titlul III din Directiva 2009/81/CE.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kupujúci môže pre dodávateľa stanoviť povinnosť, aby všetky alebo niektoré subdodávky zadal postupom stanoveným v hlave III smernice 2009/81/ES.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kupec lahko izvajalcu naloži, da odda vsa ali nekatera naročila podizvajalcem po postopku iz naslova III Direktive 2009/81/ES.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Upphandlaren kan kräva att uppdragstagaren ska tilldela alla eller vissa underentreprenader enligt det förfarande som fastställs i avdelning III i direktiv 2009/81/EG.</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

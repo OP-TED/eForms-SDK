@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NonAwardJustification</ShortName>
+      <LongName>non-award-justification</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/non-award-justification</LongName>
+      <Version>20200318-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/non-award-justification</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>all-rej</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>All tenders, requests to participate or projects were withdrawn or found inadmissible</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Всички оферти, заявления за участие или проекти са били оттеглени или определени като недопустими.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Všechny nabídky, žádosti o účast nebo projekty byly staženy nebo shledány nepřijatelnými</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Alle tilbud, ansøgninger om deltagelse eller projekter blev trukket tilbage eller eller ikke fundet antagelige</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Alle Angebote, Teilnahmeanträge oder Projekte wurden zurückgezogen oder als unzulässig abgelehnt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Όλες οι προσφορές, οι αιτήσεις συμμετοχής ή τα έργα αποσύρθηκαν ή κρίθηκαν μη αποδεκτά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>All tenders, requests to participate or projects were withdrawn or found inadmissible</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Todas las ofertas, solicitudes de participación y proyectos han sido retirados o se han considerado inadmisibles</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kõik pakkumused, osalemistaotlused ja kavandid võeti või lükati tagasi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjoukset, osallistumishakemukset tai hankkeet peruttiin tai hylättiin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Toutes les offres, toutes les demandes de participation ou tous les projets ont été retiré(e)s ou jugé(e)s irrecevables</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Maidir leis na tairiscintí, na hiarratais ar rannpháirtíocht agus na tionscadail uile, tarraingíodh siar iad nó cinneadh go raibh siad neamh-inghlactha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sve ponude, zahtjevi za sudjelovanje ili projekti su povučeni ili nisu prihvatljivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Valamennyi beérkezett ajánlatot, részvételi jelentkezést vagy projektet visszavonták vagy elfogadhatatlannak találták</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tutte le offerte, tutte le domande di partecipazione e tutti i progetti sono stati ritirati o ritenuti non ammissibili</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Visi pasiūlymai, dalyvavimo prašymai ar projektai atšaukti arba nepriimtini</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Visi piedāvājumi, dalības pieprasījumi vai projekti atsaukti vai atzīti par nepieņemamiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-offerti, it-talbiet għall-parteċipazzjoni jew il-proġetti kollha ġew irtirati jew instab li kienu inammissibbli</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Alle inschrijvingen, verzoeken tot deelname of projecten zijn ingetrokken of niet-ontvankelijk bevonden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wszystkie oferty, wnioski o dopuszczenie do udziału lub projekty zostały wycofane lub uznane za niedopuszczalne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Todas as propostas, pedidos de participação ou projetos foram retirados ou considerados inadmissíveis</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Toate ofertele, cererile de participare sau proiectele au fost retrase sau au fost considerate inadmisibile</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Všetky ponuky, žiadosti o účasť alebo projekty boli stiahnuté alebo vyhlásené za neprípustné</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vse ponudbe, prijave za sodelovanje ali projekti so bili umaknjeni ali je bilo ugotovljeno, da ne izpolnjujejo pogojev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Alla anbud, anbudsansökningar eller projekt avslogs eller befanns ogiltiga</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>chan-need</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Decision of the buyer, because of a change in needs</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Решение на купувача поради промяна на потребностите</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Rozhodnutí kupujícího z důvodu změny potřeb</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afgørelse truffet af køber på grund af ændrede behov</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Entscheidung des Beschaffers aufgrund geänderter Anforderungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απόφαση του αγοραστή λόγω μεταβολής των αναγκών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Decision of the buyer, because of a change in needs</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Decisión del comprador, debido a un cambio en las necesidades</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija otsus muutunud vajaduste tõttu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarpeiden muuttumisesta johtuva ostajan päätös</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Décision de l’acheteur, en raison d’un changement des besoins</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cinneadh an cheannaitheora, mar gheall ar athrú ar riachtanais</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odluka kupca, zbog promjene potreba</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vevő döntése az igények megváltozása miatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Decisione del committente per sopravvenuti cambiamenti delle esigenze</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjo sprendimas dėl pasikeitusių poreikių</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircēja lēmums mainījušos vajadzību dēļ</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Deċiżjoni tax-xerrej, minħabba bidla fil-ħtiġijiet</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Besluit van de koper, wegens gewijzigde behoeften</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Decyzja nabywcy z powodu zmiany w zakresie potrzeb</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Decisão do adquirente devido a uma alteração das necessidades</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Decizie a cumpărătorului din cauza schimbării nevoilor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rozhodnutie kupujúceho z dôvodu zmeny potrieb</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kupčeva odločitev zaradi spremembe potreb</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Upphandlarens beslut på grund av ändrade behov</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ins-fund</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Decision of the buyer, because of insufficient funds</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Решение на купувача поради недостатъчни средства</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Rozhodnutí kupujícího z důvodu nedostatečných prostředků</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afgørelse truffet af køber på grund af utilstrækkelige midler</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Entscheidung des Beschaffers aufgrund unzureichender Mittel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απόφαση του αγοραστή λόγω ανεπάρκειας πόρων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Decision of the buyer, because of insufficient funds</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Decisión del comprador, debido a la insuficiencia de fondos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija otsus ebapiisavate vahendite tõttu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Riittämättömistä varoista johtuva ostajan päätös</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Décision de l’acheteur, faute de fonds suffisants</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cinneadh an cheannaitheora, mar gheall ar easpa airgid</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odluka kupca, zbog nedovoljno sredstava</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vevő döntése a nem elegendő finanszírozás miatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Decisione del committente dovuta a insufficiente disponibilità finanziaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjo sprendimas dėl nepakankamų lėšų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircēja lēmums nepietiekamu līdzekļu dēļ</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Deċiżjoni tax-xerrej, minħabba fondi insuffiċjenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Besluit van de koper, wegens ontoereikende middelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Decyzja nabywcy z powodu niewystarczających środków</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Decisão do adquirente devido à insuficiência de fundos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Decizie a cumpărătorului din cauza insuficienței fondurilor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rozhodnutie kupujúceho z dôvodu nedostatku finančných prostriedkov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kupčeva odločitev zaradi pomanjkanja sredstev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Upphandlarens beslut på grund av otillräckliga medel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>no-rece</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>No tenders, requests to participate or projects were received</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Не са получени оферти, заявления за участие или проекти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nebyly obdrženy žádné nabídky, žádosti o účast ani projekty</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Der er ikke modtaget nogen tilbud, ansøgninger om deltagelse eller projekter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Es sind keine Angebote, Teilnahmeanträge oder Projekte eingegangen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δεν ελήφθησαν προσφορές, αιτήσεις συμμετοχής ή έργα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>No tenders, requests to participate or projects were received</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No se recibieron ofertas, solicitudes de participación ni proyectos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ei saadud ühtegi pakkumust, osalemistaotlust ega kavandit</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjouksia, osallistumishakemuksia tai hankkeita ei saatu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Aucune offre, aucune demande de participation, ni aucun projet n’a été reçu</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ní bhfuarthas aon tairiscintí, iarratais ar rannpháirtíocht ná tionscadail</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nisu zaprimljene ponude, zahtjevi za sudjelovanje ili projekti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nem érkeztek be ajánlatok, részvételi jelentkezések vagy projektek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Non sono pervenuti offerte, domande di partecipazione o progetti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pasiūlymų, dalyvavimo prašymų ar projektų negauta</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Netika saņemts neviens piedāvājums, dalības pieprasījums vai projekts</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ma waslet l-ebda offerta jew talba għall-parteċipazzjoni u ma wasal l-ebda proġett</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Er zijn geen inschrijvingen, verzoeken tot deelname of projecten ontvangen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nie otrzymano żadnych ofert, wniosków o dopuszczenie do udziału lub projektów</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não foram recebidas propostas, pedidos de participação ou projetos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nu a fost primit(ă) nicio ofertă, nicio cerere de participare și niciun proiect</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neboli prijaté žiadne ponuky, žiadosti o účasť ani projekty</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ni bilo ponudb, prijav za sodelovanje ali projektov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inga anbud, anbudsansökningar eller projekt mottogs</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>no-signed</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The highest ranked tenderer(s) refused to sign the contract.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Класираният най-напред оферент (оференти) е отказал да подпише договора.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nejvýše ohodnocený uchazeč nebo uchazeči odmítli podepsat smlouvu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Den/de bedst placerede tilbudsgiver(e) afviste at underskrive kontrakten.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der (die) am höchsten platzierte(n) Bieter lehnte(n) es (ab), den Auftrag zu unterschreiben.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο/οι προσφέρων/-οντες με την υψηλότερη κατάταξη αρνήθηκε/-αν να υπογράψει/-ουν τη σύμβαση.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The highest ranked tenderer(s) refused to sign the contract.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El licitador / los licitadores con mejor posición se negó / se negaron a firmar el contrato.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Paremusjärjestuses esikohal olev(ad) pakkuja(d) keeldus(id) lepingule alla kirjutamast.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Parhaimmiksi arvioidut tarjoajat kieltäytyivät allekirjoittamasta sopimusta.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Le(s) soumissionnaire(s) le(s) mieux classé(s) a (ont) refusé de signer le marché.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dhiúltaigh an tairgeoir nó na tairgeoirí ab airde rangú an conradh a shíniú.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ponuditelj ili ponuditelji s najviše bodova odbili su potpisati ugovor.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A legmagasabb pontszámmal rendelkező ajánlattevő(k) elutasította (elutasították) a szerződés aláírását.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'offerente o gli offerenti meglio classificati hanno rifiutato di firmare il contratto.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Geriausiai įvertintas dalyvis (-iai) atsisakė pasirašyti sutartį.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Visaugstāk novērtētais(-ie) pretendents(-i) atteicies parakstīt līgumu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{L-offerent(i) bl-ogħla punteġġ irrifjuta(w) li jiffirma(w} (i)l-kuntratt.)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De hoogst gerangschikte inschrijver(s) weigerde(n) het contract te ondertekenen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Najwyżej oceniony oferent (ocenieni oferenci) odmówił(-li) podpisania umowy.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O(s) proponente(s) com a classificação mais elevada recusaram-se a assinar o contrato.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ofertantul sau ofertanții cel mai bine clasați au refuzat să semneze contractul.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Uchádzač(-i) sa najvyšším počtom bodov odmietol(-tli) podpísať zmluvu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ponudniki z največjim doseženim številom točk so odklonili podpis pogodbe.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Den eller de högst rankade anbudsgivarna vägrade att underteckna kontraktet.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>one-admis</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Only one admissible tender, request to participate or project was received.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Получена е само една допустима оферта, искане за участие или проект.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Byla obdržena pouze jedna přijatelná nabídka, žádost o účast nebo projekt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Der er kun modtaget ét antageligt tilbud, én ansøgning om deltagelse eller ét projekt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Es ist nur ein Angebot, Teilnahmeantrag oder Projekt eingegangen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υποβλήθηκε μόνο μία αποδεκτή προσφορά, αίτηση συμμετοχής ή έργο.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Only one admissible tender, request to participate or project was received.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Solo se recibió una oferta, solicitud de participación o proyecto admisible.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Esitatud on ainult üks vastuvõetav pakkumus, osalemistaotlus või kavand.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hyväksyttävissä olevia tarjouksia, osallistumishakemuksia tai hankkeita saatiin vain yksi.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Une seule offre, une seule demande de participation ou un seul projet recevable a été reçu(e).</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ní bhfuarthas ach aon tairiscint amháin, aon iarraidh amháin ar rannpháirtíocht nó aon tionscadal amháin a bhí inghlactha.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zaprimljena je samo jedna prihvatljiva ponuda, zahtjev za sudjelovanje ili projekt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csak egy elfogadható ajánlat, részvételi jelentkezés vagy projekt érkezett.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>È stato ricevuto un solo progetto, una sola offerta o una sola domanda di partecipazione ammissibile.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Gautas tik vienas priimtinas pasiūlymas, dalyvavimo prašymas ar projektas.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tika saņemts tikai viens pieņemams piedāvājums, dalības pieprasījums vai projekts.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Waslet offerta jew talba għall-parteċipazzjoni waħda biss, jew wasal proġett wieħed biss.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Er is slechts één ontvankelijk(e) inschrijving, verzoek tot deelname of project ontvangen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Otrzymano tylko jedną dopuszczalną ofertę, jeden wniosek o dopuszczenie do udziału lub jeden projekt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Só foi recebida uma proposta, pedido de participação ou projeto admissível.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>A fost primită o singură ofertă admisibilă sau o singură cerere de participare sau un singur proiect.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prijatá bola len jedna prípustná ponuka, žiadosť o účasť alebo projekt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Prejeta je bila samo ena sprejemljiva ponudba, prijava za sodelovanje ali projekt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Endast ett godtagbart anbud, en anbudsansökan eller ett projekt mottogs.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Друго</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jiné</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstiges</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otros</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostalo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kita</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Oħrajn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outros</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Altele</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Iný</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Drugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Annat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rev-body</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Decision of a review body or another judicial body</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Решение на орган за преразглеждане (обжалване) или друг съдебен орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Rozhodnutí orgánu příslušného k přezkumu nebo jiného justičního orgánu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afgørelse truffet af en klageinstans eller anden retlig myndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Entscheidung eines Überprüfungsgremiums oder eines anderen Rechtsorgans</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απόφαση φορέα επανεξέτασης ή άλλου δικαστικού οργάνου</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Decision of a review body or another judicial body</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Decisión de un órgano competente para los procedimientos de recurso u otro órgano judicial</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Läbivaatamisasutuse või muu õigusasutuse otsus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muutoksenhakuelimen tai muun lainkäyttöelimen päätös</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Décision d’une instance chargée des procédures de recours ou d’une autre instance judiciaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cinneadh comhlachta athbhreithnithe nó comhlachta breithiúnaigh eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odluka tijela za preispitivanje (pravnu zaštitu) ili drugog sudskog tijela</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A felülvizsgálati szerv vagy egyéb igazságügyi szerv döntése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Decisione dell'organismo competente per i ricorsi o di altra autorità giudiziaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Peržiūros institucijos arba kitos teisminės institucijos sprendimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas struktūras vai citas tiesu iestādes lēmums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Deċiżjoni ta’ korp ta’ rieżami jew ta’ korp ġudizzjarju ieħor</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Besluit van een beroepsinstantie of een andere rechterlijke instantie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Decyzja organu odwoławczego lub innego organu sądowego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Decisão de uma instância de recurso ou de outro órgão judicial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Decizie a unei autorități însărcinate cu soluționarea căilor de atac sau a unei alte autorități judiciare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rozhodnutie orgánu pre preskúmanie alebo iného justičného orgánu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Odločitev revizijskega organa ali drugega sodnega organa</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Beslut fattat av ett prövningsorgan eller en annan rättslig myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rev-buyer</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Decision of the buyer following a tenderer's request to review the award</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Решение на купувача вследствие на искане на оферента за преразглеждане на възлагането</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Rozhodnutí kupujícího, které je založeno na žádosti uchazeče o přezkoumání rozhodnutí o zadání</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afgørelse truffet af køber om at imødekomme en tilbudsgivers klage over tildelingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Entscheidung des Beschaffers im Anschluss an den Antrag des Bieters auf Überprüfung der Vergabeentscheidung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απόφαση του αγοραστή, κατόπιν αιτήματος προσφέροντος για επανεξέταση της ανάθεσης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Decision of the buyer following a tenderer's request to review the award</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Decisión del comprador a raíz de una petición de revisión de la adjudicación por el licitador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija otsus rahuldada pakkuja taotlus vaadata leping läbi tehniliste või menetlusvigade tõttu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ostajan päätös, joka perustuu tarjoajan muutoksenhakupyyntöön</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Décision de l’acheteur consécutive à une demande de réexamen de l’attribution par un soumissionnaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cinneadh an cheannaitheora a leanann iarraidh ó thairgeoir an dámhachtain a athbhreithniú</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odluka kupca, koja jest posljedica zahtjeva ponuditelja da se preispita dodjela</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vevő döntése az ajánlattevőnek az odaítélés felülvizsgálatára vonatkozó kérelmét követően</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Decisione del committente correlata a una richiesta dell'offerente di rivedere l'aggiudicazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjo sprendimas, gavus dalyvio prašymą peržiūrėti sprendimą dėl sutarties skyrimo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircēja lēmums pēc pretendenta pieprasījuma pārskatīt lēmumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Deċiżjoni tax-xerrej, wara talba ta’ offerent li jsir rieżami tal-għotja</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Besluit van de koper, volgend op een verzoek van een inschrijver tot herziening van de gunning</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Decyzja nabywcy będąca następstwem wniosku oferenta o rewizję rozstrzygnięcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Decisão do adquirente na sequência do pedido de reexame da adjudicação apresentado por um proponente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Decizie a cumpărătorului în urma unei cereri a ofertantului de soluționare a căilor de atac privind atribuirea</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rozhodnutie kupujúceho, ktoré je založené na žiadosti uchádzača o preskúmanie zadania zákazky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kupčeva odločitev, da ugodi ponudnikovi zahtevi za pregled oddaje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Upphandlarens beslut att tillmötesgå en anbudsgivares begäran om omprövning av tilldelning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>tch-pr-error</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Decision of the buyer, not following a tenderer's request to review the award, because of technical or procedural errors</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Решение на купувача, което не е вследствие на искане на оферента за преразглеждане на възлагането, поради технически или процедурни грешки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Rozhodnutí kupujícího, které není založeno na žádosti uchazeče o přezkoumání rozhodnutí o zadání, z důvodů technických nebo procedurálních chyb</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afgørelse truffet af køber om ikke at imødekomme en tilbudsgivers klage over tildelingen på grund af tekniske eller proceduremæssige fejl</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Entscheidung des Beschaffers: Der Antrag eines Bieters auf Überprüfung der Vergabeentscheidung wurde aufgrund technischer oder verfahrenstechnischer Fehler abgelehnt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απόφαση του αγοραστή, κατόπιν αιτήματος προσφέροντος για επανεξέταση της ανάθεσης, λόγω τεχνικών ή διαδικαστικών σφαλμάτων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Decision of the buyer, not following a tenderer's request to review the award, because of technical or procedural errors</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Decisión del comprador, no a raíz de una petición de revisión de la adjudicación por el licitador, debido a errores técnicos o de procedimiento</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija otsus mitte rahuldada pakkuja taotlust leping läbi vaadata tehniliste või menetlusvigade tõttu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ostajan teknisten tai menettelyvirheiden vuoksi tekemä päätös, joka ei perustu tarjoajan muutoksenhakupyyntöön</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Décision de l’acheteur, non consécutive à une demande de réexamen de l’attribution par un soumissionnaire, en raison d’erreurs techniques ou de procédure</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cinneadh an cheannaitheora, nach leanann iarraidh ó thairgeoir an dámhachtain a athbhreithniú, mar gheall ar earráidí teicniúla nó earráidí nós imeachta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odluka kupca, koja nije posljedica zahtjeva ponuditelja da se preispita dodjela zbog tehničkih ili postupovnih pogrešaka</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vevő döntése technikai vagy eljárási problémák miatt, nem az ajánlattevőnek az odaítélés felülvizsgálatára vonatkozó kérelmét követően</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Decisione del committente non correlata a una richiesta dell'offerente di rivedere l'aggiudicazione a causa di errori tecnici o procedurali</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjo sprendimas ne dėl to, kad gautas dalyvio prašymas peržiūrėti sprendimą dėl sutarties skyrimo, o dėl techninių ar procedūrinių klaidų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircēja lēmums, kas nav saistīts ar pretendenta pieprasījumu pārskatīt lēmumu, tehnisku vai procesuālu kļūdu dēļ</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Deċiżjoni tax-xerrej, mhux wara talba ta’ offerent li jsir rieżami tal-għotja, minħabba żbalji tekniċi jew proċedurali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Besluit van de koper, niet volgend op een verzoek van een inschrijver tot herziening van de gunning, vanwege technische of procedurele fouten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Decyzja nabywcy nie będąca następstwem wniosku oferenta o rewizję rozstrzygnięcia, z powodu błędów technicznych lub proceduralnych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Decisão do adquirente que não segue o pedido de reexame da adjudicação apresentado por um proponente, devido a erros técnicos ou processuais</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Decizie a cumpărătorului, nu în urma unei cereri a ofertantului de soluționare a căilor de atac privind atribuirea, datorată unor erori tehnice sau procedurale</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rozhodnutie kupujúceho, ktoré nie je založené na žiadosti uchádzača o preskúmanie zadania zákazky, z dôvodu technických alebo procesných chýb</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kupčeva odločitev, ki ni posledica ponudnikove zahteve za pregled oddaje, zaradi tehničnih ali postopkovnih napak</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Upphandlarens beslut att inte tillmötesgå en anbudsgivares begäran om omprövning av tilldelning på grund av tekniska fel eller fel i förfarandet</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

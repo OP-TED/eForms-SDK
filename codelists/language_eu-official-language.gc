@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.12 created on the 2021-10-25T12:02:31-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>EuOfficialLanguage</ShortName>
+      <LongName>eu-official-language</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/language</LongName>
+      <LongName Identifier="eFormsParentId">language</LongName>
+      <Version>0.2.12</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>BUL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bulgarian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>български</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>bulharština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>bulgarsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bulgarisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>βουλγαρικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bulgarian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>búlgaro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>bulgaaria keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>bulgaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>bulgare</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bulgáiris</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>bugarski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>bolgár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>bulgaro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>bulgarų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>bulgāru valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Bulgaru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bulgaars</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>bułgarski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>búlgaro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>bulgară</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>bulharčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>bolgarščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>bulgariska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CES</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Czech</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>чешки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>čeština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tjekkisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Tschechisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τσεχικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Czech</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>checo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>tšehhi keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tšekki</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>tchèque</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seicis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>češki</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>cseh</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>ceco</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>čekų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>čehu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ċek</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Tsjechisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>czeski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>checo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>cehă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>čeština</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>češčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>tjeckiska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DAN</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Danish</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>датски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>dánština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>dansk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Dänisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>δανικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Danish</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>danés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>taani keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tanska</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>danois</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Danmhairgis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>danski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>dán</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>danese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>danų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>dāņu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Daniż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Deens</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>duński</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>dinamarquês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>daneză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>dánčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>danščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>danska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEU</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>German</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>немски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>němčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tysk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Deutsch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>γερμανικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>German</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>alemán</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>saksa keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>saksa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>allemand</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gearmáinis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>njemački</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>német</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>tedesco</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>vokiečių kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>vācu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ġermaniż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Duits</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>niemiecki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>alemão</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>germană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nemčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>nemščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>tyska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ELL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Greek</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>гръцки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>řečtina</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>græsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Griechisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ελληνικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Greek</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>griego</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kreeka keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kreikka</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>grec</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gréigis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>grčki</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>görög</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>greco</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>graikų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>grieķu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Grieg</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Grieks</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>grecki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>grego</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>greacă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>gréčtina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>grščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>grekiska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ENG</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>English</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>английски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>angličtina</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>engelsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Englisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>αγγλικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>English</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>inglés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>inglise keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>englanti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>anglais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Béarla</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>engleski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>angol</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>inglese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>anglų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>angļu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ingliż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Engels</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>angielski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>inglês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>engleză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>angličtina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>angleščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>engelska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EST</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Estonian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>естонски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>estonština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>estisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Estnisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>εσθονικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Estonian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>estonio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>eesti keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>viro</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>estonien</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eastóinis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>estonski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>észt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>estone</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>estų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>igauņu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Eston</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Estisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>estoński</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>estónio</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>estonă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>estónčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>estonščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>estniska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FIN</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Finnish</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>фински</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>finština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>finsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Finnisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>φινλανδικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Finnish</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>finés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>soome keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>suomi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>finnois</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fionlainnis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>finski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>finn</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>finlandese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>suomių kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>somu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Finlandiż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Fins</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>fiński</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>finlandês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>finlandeză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>fínčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>finščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>finska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRA</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>French</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>френски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>francouzština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>fransk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Französisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>γαλλικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>French</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>francés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>prantsuse keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>ranska</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>français</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fraincis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>francuski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>francia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>francese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>prancūzų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>franču valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Franċiż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Frans</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>francuski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>francês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>franceză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>francúzština</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>francoščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>franska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>GLE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Irish</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>ирландски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>irština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>irsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Irisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ιρλανδικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Irish</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>irlandés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>iiri keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>iiri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>irlandais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gaeilge</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>irski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>ír</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>irlandese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>airių kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>īru valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Irlandiż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Iers</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>irlandzki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>irlandês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>irlandeză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>írčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>irščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>iriska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>HRV</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Croatian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>хърватски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>chorvatština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kroatisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kroatisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>κροατικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Croatian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>croata</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>horvaadi keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kroatia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>croate</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cróitis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>hrvatski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>horvát</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>croato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kroatų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>horvātu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kroat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Kroatisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>chorwacki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>croata</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>croată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>chorvátčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>hrvaščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kroatiska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>HUN</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hungarian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>унгарски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>maďarština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>ungarsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ungarisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ουγγρικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Hungarian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>húngaro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>ungari keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>unkari</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>hongrois</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ungáiris</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>mađarski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>magyar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>ungherese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>vengrų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>ungāru valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ungeriż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Hongaars</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>węgierski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>húngaro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>maghiară</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>maďarčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>madžarščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ungerska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITA</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Italian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>италиански</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>italština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>italiensk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Italienisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ιταλικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Italian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>italiano</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>itaalia keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>italia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>italien</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Iodáilis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>talijanski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>olasz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>italiano</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>italų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>itāļu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Taljan</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Italiaans</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>włoski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>italiano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>italiană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>taliančina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>italijanščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>italienska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>LAV</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Latvian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>латвийски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>lotyština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>lettisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Lettisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>λετονικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Latvian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>letón</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>läti keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>latvia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>letton</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Laitvis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>latvijski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>lett</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>lettone</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>latvių kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>latviešu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Latvjan</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lets</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>łotewski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>letão</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>letonă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>lotyština</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>latvijščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>lettiska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>LIT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lithuanian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>литовски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>litevština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>litauisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Litauisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>λιθουανικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lithuanian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>lituano</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>leedu keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>liettua</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>lituanien</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Liotuáinis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>litavski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>litván</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>lituano</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>lietuvių kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>lietuviešu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Litwan</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Litouws</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>litewski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>lituano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>lituaniană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>litovčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>litovščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>litauiska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MLT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Maltese</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>малтийски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>maltština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>maltesisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Maltesisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μαλτέζικα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Maltese</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>maltés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>malta keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>malta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>maltais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Máltais</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>malteški</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>máltai</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>maltese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>maltiečių kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>maltiešu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Malti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Maltees</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>maltański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>maltês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>malteză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>maltčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>malteščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>maltesiska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NLD</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dutch</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>нидерландски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>nizozemština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>nederlandsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Niederländisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ολλανδικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Dutch</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>neerlandés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>hollandi keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>hollanti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>néerlandais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ollainnis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>nizozemski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>neerlandese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>nyderlandų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>holandiešu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Olandiż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Nederlands</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>niderlandzki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>neerlandês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>neerlandeză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>holandčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>nizozemščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>nederländska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>POL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Polish</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>полски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>polština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>polsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Polnisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>πολωνικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Polish</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>polaco</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>poola keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>puola</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>polonais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Polainnis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>poljski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>lengyel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>polacco</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>lenkų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>poļu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Pollakk</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Pools</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>polski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>polaco</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>polonă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>poľština</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>poljščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>polska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>POR</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Portuguese</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>португалски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>portugalština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>portugisisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Portugiesisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>πορτογαλικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Portuguese</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>portugués</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>portugali keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>portugali</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>portugais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Portaingéilis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>portugalski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>portugál</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>portoghese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>portugalų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>portugāļu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Portugiż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Portugees</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>portugalski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>português</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>portugheză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>portugalčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>portugalščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>portugisiska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RON</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Romanian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>румънски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>rumunština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>rumænsk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Rumänisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ρουμανικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Romanian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>rumano</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>rumeenia keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>romania</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>roumain</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rómáinis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>rumunjski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>román</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>rumeno</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>rumunų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>rumāņu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rumen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Roemeens</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>rumuński</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>romeno</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>română</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>rumunčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>romunščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>rumänska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>SLK</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Slovak</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>словашки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>slovenština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>slovakisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Slowakisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>σλοβακικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Slovak</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>eslovaco</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>slovaki keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>slovakki</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>slovaque</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Slóvaicis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>slovački</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>szlovák</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>slovacco</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>slovakų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>slovāku valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Slovakk</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Slowaaks</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>słowacki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>eslovaco</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>slovacă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>slovenčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>slovaščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>slovakiska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>SLV</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Slovenian</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>словенски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>slovinština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>slovensk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Slowenisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>σλοβενικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Slovenian</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>esloveno</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>sloveenia keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>sloveeni</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>slovène</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Slóivéinis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>slovenski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>szlovén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>sloveno</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>slovėnų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>slovēņu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sloven</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Sloveens</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>słoweński</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>esloveno</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>slovenă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>slovinčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>slovenščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>slovenska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>SPA</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Spanish</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>испански</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>španělština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>spansk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Spanisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ισπανικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Spanish</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>español</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>hispaania keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>espanja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>espagnol</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Spáinnis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>španjolski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>spanyol</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>spagnolo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>ispanų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>spāņu valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Spanjol</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Spaans</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>hiszpański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>espanhol</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>spaniolă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>španielčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>španščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>spanska</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>SWE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Swedish</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>шведски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>švédština</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>svensk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Schwedisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>σουηδικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Swedish</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>sueco</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>rootsi keel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>ruotsi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>suédois</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sualainnis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>švedski</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>svéd</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>svedese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>švedų kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>zviedru valoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Svediż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zweeds</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>szwedzki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>sueco</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>suedeză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>švédčina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>švedščina</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>svenska</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

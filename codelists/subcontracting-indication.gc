@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>SubcontractingIndication</ShortName>
+      <LongName>subcontracting-indication</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/subcontracting-indication</LongName>
+      <Version>20190918-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/subcontracting-indication</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>none</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>None</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Няма</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Žádná z možností</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Entfällt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κανένα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>None</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ninguno</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ei kohaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ei sovelleta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sans objet</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ceann ar bith</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ne primjenjuje se</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nincs</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nulla</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Netaikoma</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-ebda</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Nenhum</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Niciunul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Žiadne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ne obstaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>shar-subc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The share of the contract that the tenderer intends to subcontract</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Делът от поръчката, за който оферентът възнамерява да използва подизпълнители</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jakou část zakázky zamýšlí uchazeč zadat třetí osobě</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Den del af kontrakten, som tilbudsgiver har til hensigt at give i underentreprise</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anteil des Auftrags, den der Bieter im Wege von Unteraufträgen zu vergeben gedenkt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Το τμήμα της σύμβασης που ο προσφέρων προτίθεται να αναθέσει σε υπεργολάβους</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The share of the contract that the tenderer intends to subcontract</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>La parte del contrato que el licitador tiene intención de subcontratar</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu osa, mille kohta pakkuja kavatseb sõlmida allhankelepinguid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Se osuus sopimuksesta, jonka tarjoaja aikoo teettää alihankintana</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La part du marché que le soumissionnaire a l’intention de sous-traiter</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An cion den chonradh atá sé beartaithe ag an tairgeoir a ligean ar fochonradh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Udio ugovora koji ponuditelj namjerava dati u podugovor</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szerződés azon aránya, amelyet az ajánlattevő alvállalkozásba kíván adni</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Quota dell'appalto che l'offerente intende subappaltare</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties dalis, dėl kurios dalyvis ketina sudaryti su subrangos sutartį</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Līguma daļa, kuru pretendents plāno nodot izpildei apakšuzņēmējiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Is-sehem tal-kuntratt li l-offerent biħsiebu jissottokuntratta</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Het gedeelte van de opdracht dat de inschrijver voornemens is in onderaanneming te geven</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Część zamówienia, której realizację oferent zamierza zlecić podwykonawcom</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A parte do contrato que o proponente tenciona subcontratar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Partea din contract pe care ofertantul intenționează să o subcontracteze</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Podiel zákazky, ktorý má uchádzač v úmysle zadať subdodávateľom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Delež naročila, ki ga ponudnik namerava oddati podizvajalcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Den del av kontraktet som anbudsgivaren har för avsikt att lägga ut på underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subc-noblig</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Предложените подизпълнител или подизпълнители в превишение над задължението за използване на подизпълнители за минимален процентен дял от поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Navrhovaný subdodavatel nebo subdodavatelé nad rámec povinnosti zadat minimální procentní podíl zakázky třetí osobě</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Den/de foreslåede underentreprenør(er), der ligger over forpligtelsen til at give en mindsteprocentdel af kontrakten i underentreprise}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Der/die vorgeschlagene(n) Unterauftragnehmer, zusätzlich zu der Verpflichtung, einen Mindestprozentsatz des Auftrags als Unterauftrag zu vergeben}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο/οι προτεινόμενος/-οι υπεργολάβος/-οι για επιπλέον τυχόν υποχρέωση ανάθεσης ελάχιστου ποσοστού της σύμβασης σε υπεργολάβο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El subcontratista o subcontratistas propuestos aparte de la obligación de subcontratar un porcentaje mínimo del contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Kavandatav(ad) alltöövõtja(d), kes ületavad allhanke osas kehtestatud protsentuaalse miinimummäärad nõude}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ehdotetut alihankkijat, jotka ylittävät sopimuksen vähimmäisprosenttiosuuden alihankintana teettämistä koskevan velvoitteen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Le(s) sous-traitant(s) proposé(s) au-delà de l’obligation de sous-traiter un pourcentage minimal du marché}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An fochonraitheoir nó na fochonraitheoirí atá beartaithe os cionn aon oibleagáide céatadán íosta den chonradh a ligean ar fochonradh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Podugovaratelj ili podugovaratelji koji su predloženi povrh onih potrebnih za ispunjavanje obveze u pogledu davanja u podugovor minimalnog postotka ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{A szerződés bizonyos százalékának alvállalkozásba adására vonatkozó kötelezettséget meghaladó, javasolt alvállalkozó(k)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Subappaltatori proposti in eccesso rispetto all'obbligo di subappaltare una percentuale minima dell'appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Pasiūlytas (-i) subrangovas (-ai), nesusijęs su prievole dėl visos sutarties mažiausios procentinės dalies subrangos}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Piedāvātais(-ie) apakšuzņēmējs(-i) virs pienākuma līguma minimālo procentuālo daļu nodot apakšuzņēmējiem}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Is-sottokuntrattur(i) propost(i) mingħajr l-ebda obbligu li jissottokuntrattaw persentaġġ minimu tal-kuntratt}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{De voorgestelde onderaannemer(s) boven de eventuele verplichting een minimumpercentage van de opdracht in onderaanneming te geven}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Proponowani podwykonawcy dla części przewyższającej obowiązek zlecenia podwykonawstwa minimalnej wartości procentowej zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{O(s) subcontratante(s) proposto(s) acima de qualquer obrigação de subcontratar uma percentagem mínima do contrato}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Subcontractantul sau subcontractanții peste obligația de a subcontracta un procentaj minim din contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Navrhovaný(-í) subdodávateľ(-lia) nad rámec povinnosti zadať minimálny percentuálny podiel zákazky subdodávateľom}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predlagani podizvajalci, ki presegajo obveznost oddaje najmanjšega odstotka naročil podizvajalcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Den eller de föreslagna underentreprenörer som ligger över skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subc-oblig</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Предложените подизпълнител или подизпълнители, необходими за спазване на задължението за използване на подизпълнители за минимален процентен дял от поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Navrhovaný subdodavatel nebo subdodavatelé, aby byla splněna povinnost zadání minimálního procentního podílu zakázky třetí osobě</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Den/de foreslåede underentreprenør(er), der er nødvendig(e) for at opfylde forpligtelsen til at give en mindsteprocentdel af kontrakten i underentreprise}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Der/die vorgeschlagene(n) Unterauftragnehmer, der/die zur Erfüllung der Verpflichtung, einen Mindestprozentsatz des Auftrags als Unterauftrag zu vergeben, erforderlich ist/sind}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο/οι προτεινόμενος/-οι υπεργολάβος/-οι που απαιτείται/-ούνται να τηρεί/-ούν την υποχρέωση ανάθεσης ελάχιστου ποσοστού της σύμβασης σε υπεργολάβο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El subcontratista o subcontratistas propuestos necesarios para cumplir la obligación de subcontratar un porcentaje mínimo del contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Kavandatav(ad) alltöövõtja(d), kes on vajalik(ud) allhanke osas kehtestatud protsentuaalse miinimummäära nõude täitmiseks}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ehdotetut alihankkijat, jotka tarvitaan sopimuksen vähimmäisprosenttiosuuden alihankintana teettämistä koskevan velvoitteen täyttämiseen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{Le(s) sous-traitant(s) proposé(s) nécessaire(s) pour s’acquitter de l’obligation de sous-traiter un pourcentage minimal du marché}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An fochonraitheoir nó na fochonraitheoirí atá beartaithe is gá chun an oibleagáid a chomhlíonadh céatadán íosta den chonradh a ligean ar fochonradh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Predloženi podugovaratelj ili podugovaratelji koji su potrebni za ispunjavanje obveze u pogledu davanja u podugovor minimalnog postotka ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{A szerződés bizonyos százalékának alvállalkozásba adására vonatkozó kötelezettség teljesítéséhez szükséges, javasolt alvállalkozó(k)}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Subappaltatori proposti la cui indicazione è necessaria per adempiere l'obbligo di subappaltare una percentuale minima dell'appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Pasiūlytas (-i) subrangovas (-ai), reikalingas (-i) siekiant įvykdyti prievolę dėl mažiausios visos sutarties procentinės dalies subrangos}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Piedāvātais(-ie) apakšuzņēmējs(-i), kas ir nepieciešams(-i), lai izpildītu pienākumu līguma minimālo procentuālo daļu nodot apakšuzņēmējiem}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Is-sottokuntrattur(i) propost(i) meħtieġ(a) biex jiġi ssodisfat l-obbligu li jiġi ssottokuntrattat persentaġġ minimu tal-kuntratt}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{De voorgestelde onderaannemer(s) die nodig is/zijn om te voldoen aan de verplichting een minimumpercentage van de opdracht in onderaanneming te geven}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Proponowani podwykonawcy niezbędni do wypełnienia obowiązku zlecenia podwykonawstwa minimalnej wartości procentowej zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{O(s) subcontratante(s) proposto(s) necessário(s) para cumprir a obrigação de subcontratar uma percentagem mínima do contrato}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Subcontractantul sau subcontractanții propuși necesari pentru îndeplinirea obligației de a subcontracta un procentaj minim din contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Navrhovaný(-í) subdodávateľ(-lia), aby sa splnila povinnosť zadať minimálny percentuálny podiel zákazky subdodávateľom}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predlagani podizvajalci, ki so potrebni za izpolnitev obveznosti oddaje najmanjšega odstotka naročil podizvajalcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Den eller de föreslagna underentreprenörer som krävs för att fullgöra skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subj-noblig</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Предметът на предложените подизпълнение или подизпълнения в превишение над задължението за използване на подизпълнители за минимален процентен дял от поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předmět subdodávky nebo subdodávek nad rámec povinnosti zadat minimální procentní podíl zakázky třetí osobě</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Genstanden for den underentreprise eller de underentrepriser, der ligger over forpligtelsen til at give en mindsteprocentdel af kontrakten i underentreprise</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Der Gegenstand des Unterauftrags (der Unteraufträge), der/die zusätzlich zu der Verpflichtung, einen Mindestprozentsatz des Auftrags als Unterauftrag zu vergeben, vergeben wird/werden}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Το αντικείμενο της σύμβασης/των συμβάσεων υπεργολαβίας επιπλέον τυχόν υποχρέωσης ανάθεσης ελάχιστου ποσοστού της σύμβασης σε υπεργολάβο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El objeto del subcontrato o subcontratos aparte de la obligación de subcontratar un porcentaje mínimo del contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Nende alltöövõtulepingu(te) ese, mis ületavad allhanke osas kehtestatud protsentuaalse miinimummäära nõude}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kohteet alihankintasopimuksille, jotka ylittävät sopimuksen vähimmäisprosenttiosuuden alihankintana teettämistä koskevan velvoitteen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{L’objet du (des) contrat(s) de sous-traitance excédant l’obligation de sous-traiter un pourcentage minimal du marché}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ábhar an fhochonartha nó na bhfochonarthaí os cionn aon oibleagáide céatadán íosta den chonradh a ligean ar fochonradh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Predmet jednog ili više podugovora povrh onih potrebnih za ispunjavanje obveze u pogledu davanja u podugovor minimalnog postotka ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{A szerződés bizonyos százalékának alvállalkozásba adására vonatkozó kötelezettséget meghaladó alvállalkozói szerződés(ek) tárgya}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Oggetto dei subappalti in eccesso rispetto all'obbligo di subappaltare una percentuale minima dell'appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Subrangos, nesusijusios su prievole dėl visos sutarties mažiausios procentinės dalies subrangos, sutarties (-čių) objektas}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Tā (to) apakšuzņēmuma līguma(-u) priekšmets, kas pārsniedz pienākumu līguma minimālo procentuālo daļu nodot apakšuzņēmējiem}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Is-suġġett tas-sottokuntratt(i) mingħajr l-ebda obbligu li jiġi ssottokuntrattat persentaġġ minimu tal-kuntratt}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{Het voorwerp van de onderaannemingsovereenkomst(en) boven de eventuele verplichting een minimumpercentage van de opdracht in onderaanneming te geven}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przedmiot umów w sprawie podwykonawstwa dla części przewyższającej obowiązek zlecenia podwykonawstwa minimalnej wartości procentowej zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{O objeto do(s) subcontrato(s) acima de qualquer obrigação de subcontratar uma percentagem mínima do contrato}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Obiectul subcontractului sau subcontractelor necesare peste orice obligație de a subcontracta un procentaj minim din contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Predmet subdodávky(-ok) nad rámec povinnosti zadať minimálny percentuálny podiel zákazky subdodávateľom}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predmet naročil, oddanih podizvajalcem, ki presegajo obveznost oddaje najmanjšega odstotka naročil podizvajalcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Syftet för den eller de underentreprenörer som ligger över skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subj-oblig</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>{The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract}</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Предметът на предложените подизпълнение или подизпълнения, необходими за спазване на задължението за използване на подизпълнители за минимален процентен дял от поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předmět subdodávky nebo subdodávek, aby byla splněna povinnost zadání minimálního procentního podílu zakázky třetí osobě</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>{Genstanden for den underentreprise eller de underentrepriser, der er nødvendig(e) for at opfylde forpligtelsen til at give en mindsteprocentdel af kontrakten i underentreprise}</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>{Der Gegenstand des Unterauftrags (der Unteraufträge) zur Erfüllung der Verpflichtung, einen Mindestprozentsatz des Auftrags als Unterauftrag zu vergeben}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Το αντικείμενο της σύμβασης/των συμβάσεων υπεργολαβίας που απαιτείται για την εκπλήρωση της υποχρέωσης ανάθεσης ελάχιστου ποσοστού της σύμβασης σε υπεργολάβο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>{The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract}</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El objeto del subcontrato o subcontratos necesarios para cumplir la obligación de subcontratar un porcentaje mínimo del contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>{Nende alltöövõtulepingu(te) ese, mis on vajalik(ud) allhanke osas kehtestatud protsentuaalse miinimummäära nõude täitmiseks}</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kohteet alihankintasopimuksille, jotka tarvitaan sopimuksen vähimmäisprosenttiosuuden alihankintana teettämistä koskevan velvoitteen täyttämiseen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>{L’objet du (des) contrat(s) de sous-traitance nécessaire(s) à l’exécution de l’obligation de sous-traiter un pourcentage minimal du marché}</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ábhar an fhochonartha nó na bhfochonarthaí is gá chun an oibleagáid a chomhlíonadh céatadán íosta den chonradh a ligean ar fochonradh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Predmet jednog ili više podugovora potrebnih za ispunjavanje obveze u pogledu davanja u podugovor minimalnog postotka ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>{A szerződés bizonyos százalékának alvállalkozásba adására vonatkozó kötelezettség teljesítéséhez szükséges alvállalkozói szerződés(ek) tárgya}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Oggetto dei subappalti la cui indicazione è necessaria per adempiere l'obbligo di subappaltare una percentuale minima dell'appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>{Subrangos, reikalingos siekiant įvykdyti prievolę dėl visos sutarties mažiausios procentinės dalies subrangos, sutarties (-čių) objektas}</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>{Tā (to) apakšuzņēmuma līguma(-u) priekšmets, kas ir vajadzīgs(-i), lai izpildītu pienākumu līguma minimālo procentuālo daļu nodot izpildei apakšuzņēmējiem}</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>{Is-suġġett tas-sottokuntratt(i) meħtieġ(a) biex jiġi ssodisfat l-obbligu li jiġi ssottokuntrattat persentaġġ minimu tal-kuntratt}</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>{Het voorwerp van de onderaannemingsovereenkomst(en) die nodig is/zijn om te voldoen aan de verplichting een minimumpercentage van de opdracht in onderaanneming te geven}</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przedmiot umów w sprawie podwykonawstwa niezbędnych do wypełnienia obowiązku zlecenia podwykonawstwa minimalnej wartości procentowej zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>{O objeto do(s) subcontrato(s) necessário(s) para cumprir a obrigação de subcontratar uma percentagem mínima do contrato}</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Obiectul subcontractului sau subcontractelor necesare pentru îndeplinirea obligației de a subcontracta un procentaj minim din contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>{Predmet subdodávky(-ok), aby sa splnila povinnosť zadať minimálny percentuálny podiel zákazky subdodávateľom}</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predmet naročil, oddanih podizvajalcem, ki so potrebna za izpolnitev obveznosti oddaje najmanjšega odstotka naročil podizvajalcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Syftet för den eller de underentreprenörer som krävs för att fullgöra skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

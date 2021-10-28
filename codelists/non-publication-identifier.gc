@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NonPublicationIdentifier</ShortName>
+      <LongName>non-publication-identifier</LongName>
+      <Version>1.0</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-com</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criteria Complicated (BT-543)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-des</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criterion Description (BT-540)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-fix</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criterion Number Fixed (BT-5422)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-nam</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criterion Name (BT-734)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-num</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criterion Number (BT-541)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-ord</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criteria Order Justification (BT-733)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-thr</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criterion Number Threshold (BT-5423)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-typ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criterion Type (BT-539)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>awa-cri-wei</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Award Criterion Number Weight (BT-5421)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>con-rev-buy</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Concession Revenue Buyer (BT-160)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>con-rev-use</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Concession Revenue User (BT-162)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cou-ori</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Country Origin (BT-191)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cro-bor-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cross Border Law (BT-09)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>dir-awa-jus</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Direct Award Justification Code (BT-136)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>dir-awa-pre</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Direct Award Justification Previous (BT-1252)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>dir-awa-tex</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Direct Award Justification Text (BT-135)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>gro-max-ide</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Group Maximum Value Lot Identifier (BT-556)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>gro-max-val</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Group Maximum Value (BT-156)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>max-val</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Maximum Value (BT-709)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>no-awa-rea</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Not Awarded Reason (BT-144)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>not-dis-dat</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Notice Dispatch Date (BT-05)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>not-max-val</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Notice Maximum Value (BT-118)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>not-pub-dat</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Notice Publication Date Preferred (BT-738)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>not-val</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Notice Value (BT-161)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pro-acc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Procedure Accelerated (BT-106)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pro-acc-jus</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Procedure Accelerated Justification (BT-1351)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pro-fea</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Procedure Features (BT-88)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pro-typ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Procedure Type (BT-105)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rec-sub-cou</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Received Submissions Count (BT-759)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rec-sub-typ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Received Submissions Type (BT-760)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rev-req</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Review Requests (BT-712)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-con</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting (BT-773)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-des</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting Description (BT-554)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-per</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting Percentage (BT-555)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-per-kno</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting Percentage Known (BT-731)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-val</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting Value (BT-553)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-val-kno</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting Value Known (BT-730)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ten-ran</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tender Rank (BT-171)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ten-val-hig</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tender Value Highest (BT-711)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ten-val-low</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tender Value Lowest (BT-710)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>val-con-des</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Value Concession Description (BT-163)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>win-cho</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Winner Chosen (BT-142)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>win-ten-val</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Winning Tender Value (BT-720)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>win-ten-var</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Winning Tender Variant (BT-193)</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
