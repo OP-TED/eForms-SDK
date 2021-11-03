@@ -9726,7 +9726,7 @@
     "type" : "code",
     "repeatable" : true,
     "codeList" : {
-      "id" : "organisation-role-service",
+      "id" : "organisation-role",
       "type" : "flat"
     },
     "constraints" : [ {
