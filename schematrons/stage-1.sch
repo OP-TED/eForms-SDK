@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.2.0 created on the 2021-10-13T16:00.-->
+<!--File generated from metadata database version 0.2.14 created on the 2021-11-03T13:49:32.-->
 <pattern id="EFORMS-stage-1" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">The element cac:AdditionalDocumentReference is not allowed in context /*</assert>
@@ -615,10 +615,6 @@
 	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'T02']">
 		<assert role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">The element cbc:ItemClassificationCode is mandatory in context /*/cac:ProcurementProject/cac:MainCommodityClassification</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '1']">
-		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '10']">
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
@@ -668,10 +664,6 @@
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '2']">
-		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '20']">
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
@@ -717,10 +709,6 @@
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '3']">
-		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '30']">
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
@@ -762,21 +750,9 @@
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '4']">
-		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '40']">
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '5']">
-		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '6']">
-		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '7']">
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
@@ -808,22 +784,6 @@
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'X01']">
-		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'X02']">
-		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '1']">
-		<assert role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">The element cac:AdditionalCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:MainCommodityClassification) = 0">The element cac:MainCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RealizedLocation) = 0">The element cac:RealizedLocation is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '15']">
 		<assert role="ERROR" test="count(cac:ContractExtension) &gt; 0">The element cac:ContractExtension is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
@@ -834,20 +794,14 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '18']">
 		<assert role="ERROR" test="count(cac:ContractExtension) &gt; 0">The element cac:ContractExtension is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '2']">
-		<assert role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">The element cac:AdditionalCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:MainCommodityClassification) = 0">The element cac:MainCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RealizedLocation) = 0">The element cac:RealizedLocation is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '23']">
 		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
+		<assert role="ERROR" test="count(cac:PlannedPeriod) = 0">The element cac:PlannedPeriod is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '24']">
 		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
+		<assert role="ERROR" test="count(cac:PlannedPeriod) = 0">The element cac:PlannedPeriod is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '25']">
@@ -862,20 +816,14 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '28']">
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '3']">
-		<assert role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">The element cac:AdditionalCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:MainCommodityClassification) = 0">The element cac:MainCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RealizedLocation) = 0">The element cac:RealizedLocation is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '36']">
 		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
+		<assert role="ERROR" test="count(cac:PlannedPeriod) = 0">The element cac:PlannedPeriod is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '37']">
 		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
+		<assert role="ERROR" test="count(cac:PlannedPeriod) = 0">The element cac:PlannedPeriod is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '38']">
@@ -884,31 +832,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '39']">
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '4']">
-		<assert role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">The element cac:AdditionalCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:MainCommodityClassification) = 0">The element cac:MainCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RealizedLocation) = 0">The element cac:RealizedLocation is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '40']">
-		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '5']">
-		<assert role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">The element cac:AdditionalCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:MainCommodityClassification) = 0">The element cac:MainCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RealizedLocation) = 0">The element cac:RealizedLocation is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '6']">
-		<assert role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">The element cac:AdditionalCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:MainCommodityClassification) = 0">The element cac:MainCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RealizedLocation) = 0">The element cac:RealizedLocation is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'CEI']">
@@ -923,22 +847,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T02']">
 		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'X01']">
-		<assert role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">The element cac:AdditionalCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:MainCommodityClassification) = 0">The element cac:MainCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RealizedLocation) = 0">The element cac:RealizedLocation is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'X02']">
-		<assert role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">The element cac:AdditionalCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ContractExtension) = 0">The element cac:ContractExtension is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:MainCommodityClassification) = 0">The element cac:MainCommodityClassification is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:ProcurementAdditionalType) = 0">The element cac:ProcurementAdditionalType is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
-		<assert role="ERROR" test="count(cac:RealizedLocation) = 0">The element cac:RealizedLocation is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 		<assert role="ERROR" test="count(cac:RequestedTenderTotal) = 0">The element cac:RequestedTenderTotal is not allowed in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '10']">
