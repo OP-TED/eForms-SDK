@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-0.5.0",
   "metadataDatabase" : {
-    "version" : "0.2.14",
-    "createdOn" : "2021-11-03T13:49:32"
+    "version" : "0.2.15",
+    "createdOn" : "2021-11-04T11:37:25"
   },
   "fields" : [ {
     "id" : "BT-01(c)-Procedure",
@@ -9725,6 +9725,21 @@
       "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "CEI", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ]
     } ]
   }, {
+    "id" : "OPT-050-Lot",
+    "name" : "Document Status",
+    "btId" : "OPT-050",
+    "xpath" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentStatusCode",
+    "type" : "code",
+    "repeatable" : true,
+    "codeList" : {
+      "id" : "document-status",
+      "type" : "flat"
+    },
+    "constraints" : [ {
+      "presence" : "FORBIDDEN",
+      "noticeTypes" : [ "X01", "X02", "1", "2", "3", "4", "5", "6", "T01", "CEI", "25", "26", "27", "28", "29", "30", "31", "32", "T02", "33", "34", "35", "36", "37", "38", "39", "40" ]
+    } ]
+  }, {
     "id" : "OPT-050-Part",
     "name" : "Document Status",
     "btId" : "OPT-050",
@@ -9738,21 +9753,6 @@
     "constraints" : [ {
       "presence" : "FORBIDDEN",
       "noticeTypes" : [ "X01", "X02", "1", "2", "3", "T01", "7", "8", "9", "10", "11", "CEI", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "T02", "33", "34", "35", "36", "37", "38", "39", "40" ]
-    } ]
-  }, {
-    "id" : "OPT-050-lot",
-    "name" : "Document Status",
-    "btId" : "OPT-050",
-    "xpath" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentStatusCode",
-    "type" : "code",
-    "repeatable" : true,
-    "codeList" : {
-      "id" : "document-status",
-      "type" : "flat"
-    },
-    "constraints" : [ {
-      "presence" : "FORBIDDEN",
-      "noticeTypes" : [ "X01", "X02", "1", "2", "3", "4", "5", "6", "T01", "CEI", "25", "26", "27", "28", "29", "30", "31", "32", "T02", "33", "34", "35", "36", "37", "38", "39", "40" ]
     } ]
   }, {
     "id" : "OPT-070-Lot",
