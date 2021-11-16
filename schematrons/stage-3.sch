@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.2.19 created on the 2021-11-11T09:45:05.-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--File generated from metadata database version 0.2.22 created on the 2021-11-15T11:10:12.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
-	
+
 	<!-- CODE LIST RULES. -->
 	<rule context="/*/cbc:RegulatoryDomain">
 		<assert role="ERROR" test="normalize-space(.) = ('31985R2137', '31992L0013', '31994D0001', '31994D0800', '32001R2157', '32002D0309', '32002R2342', '32003R1435', '32004L0017', '32004L0018', '32005D0015', '32007D0005_01', '32007L0066', '32007R0718', '32007R1370', '32008E0124', '32008R1008', '32009L0081', '32012R0966', '32012R1268', '32013L0016', '32014D0115', '32014D0486', '32014D0691', '32014L0023', '32014L0024', '32014L0025', '32014R0230', '32014R0231', '32014R0232', '32014R0233', '32014R0236', '32014R0237', '32015R0323', '32016D0002', '32017D2263', '32018R1046', '32019D0312', 'other')">The BT-01-notice Procedure Legal Basis must contain one of the values of the code list legal-basis.</assert>
@@ -712,7 +712,7 @@
 		<assert role="ERROR" test="normalize-space(.) = ('vehicles', 'vehicles-clean', 'vehicles-zero-emission')">The OPT-155-LotResult Vehicule Type must contain one of the values of the code list vehicles.</assert>
 	</rule>
 
-  <!-- PATTERN MATCHING RULES (REGEX). -->
+	<!-- PATTERN MATCHING RULES (REGEX). -->
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-01 Procedure Legal Basis must not exceed the limit of 400 characters at Procedure level.</assert>
 	</rule>
@@ -1336,27 +1336,19 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone">
 		<assert role="ERROR" test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">The BT-503 Contact Telephone Number must match the 'phone' pattern at Organization level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-503 Organisation Contact Telephone Number must not exceed the limit of 30 characters at Organization level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:Telephone">
 		<assert role="ERROR" test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">The BT-503 Contact Telephone Number must match the 'phone' pattern at Organization level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-503 Organisation Contact Telephone Number must not exceed the limit of 30 characters at Organization level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:Telephone">
 		<assert role="ERROR" test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">The BT-503 Contact Telephone Number must match the 'phone' pattern at UBO level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-503 Organisation Contact Telephone Number must not exceed the limit of 30 characters at UBO level.</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:Telephone">
 		<assert role="ERROR" test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">The BT-503 Telephone must match the 'phone' pattern at Business level.</assert>
-	</rule>
-	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:Telephone">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-503 Organisation Contact Telephone Number must not exceed the limit of 30 characters at Business level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-503 Organisation Contact Telephone Number must not exceed the limit of 30 characters at Organization level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:Telephone">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-503 Organisation Contact Telephone Number must not exceed the limit of 30 characters at Organization level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:Telephone">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-503 Organisation Contact Telephone Number must not exceed the limit of 30 characters at UBO level.</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cbc:WebsiteURI">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-505 Organisation Internet Address must not exceed the limit of 400 characters at Business level.</assert>
@@ -1369,27 +1361,19 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail">
 		<assert role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}$')">The BT-506 Contact Email Address must match the 'email' pattern at Organization level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-506 Organisation Contact Email Address must not exceed the limit of 400 characters at Organization level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:ElectronicMail">
 		<assert role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}$')">The BT-506 Contact Email Address must match the 'email' pattern at Organization level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-506 Organisation Contact Email Address must not exceed the limit of 400 characters at Organization level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:ElectronicMail">
 		<assert role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}$')">The BT-506 Contact Email Address must match the 'email' pattern at UBO level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-506 Organisation Contact Email Address must not exceed the limit of 400 characters at UBO level.</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:ElectronicMail">
 		<assert role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}$')">The BT-506 e-mail must match the 'email' pattern at Business level.</assert>
-	</rule>
-	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:ElectronicMail">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-506 Organisation Contact Email Address must not exceed the limit of 400 characters at Business level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-506 Organisation Contact Email Address must not exceed the limit of 400 characters at Organization level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:ElectronicMail">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-506 Organisation Contact Email Address must not exceed the limit of 400 characters at Organization level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:ElectronicMail">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-506 Organisation Contact Email Address must not exceed the limit of 400 characters at UBO level.</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cbc:BuyerProfileURI">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-508 Buyer Profile URL must not exceed the limit of 400 characters at Procedure level.</assert>
@@ -1552,27 +1536,19 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telefax">
 		<assert role="ERROR" test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">The BT-739 Contact Fax must match the 'phone' pattern at Organization level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-739 Organisation Contact Fax must not exceed the limit of 30 characters at Organization level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:Telefax">
 		<assert role="ERROR" test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">The BT-739 Contact Fax must match the 'phone' pattern at Organization level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-739 Organisation Contact Fax must not exceed the limit of 30 characters at Organization level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:Telefax">
 		<assert role="ERROR" test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">The BT-739 Contact Fax must match the 'phone' pattern at UBO level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-739 Organisation Contact Fax must not exceed the limit of 30 characters at UBO level.</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:Telefax">
 		<assert role="ERROR" test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">The BT-739 Fax must match the 'phone' pattern at Business level.</assert>
-	</rule>
-	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:Telefax">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-739 Organisation Contact Fax must not exceed the limit of 30 characters at Business level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telefax">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-739 Organisation Contact Fax must not exceed the limit of 30 characters at Organization level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:Telefax">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-739 Organisation Contact Fax must not exceed the limit of 30 characters at Organization level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:Telefax">
-		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-739 Organisation Contact Fax must not exceed the limit of 30 characters at UBO level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification']/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-745 Submission Nonelectronic Description must not exceed the limit of 6000 characters at Lot level.</assert>
@@ -1627,8 +1603,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$')">The BT-1252 Direct Award Justification Previous Procedure Identifier must match the 'ProcedureOrNoticeID' pattern at Procedure level.</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/cbc:Description">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,30}$')">The content of BT-1252 Direct Award Justification Previous Procedure Identifier must not exceed the limit of 30 characters at Procedure level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate">
@@ -1846,8 +1820,10 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cac:FinancingParty/cac:PartyIdentification/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrganizationID' pattern at LotResult level.</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrganizationID' pattern at LotResult level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cac:PayerParty/cac:PartyIdentification/cbc:ID">
+		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrganizationID' pattern at LotResult level.</assert>
 		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrganizationID' pattern at LotResult level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID">
@@ -1880,12 +1856,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrgOrTouchPointID' pattern at Part level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cac:FinancingParty/cac:PartyIdentification/cbc:ID">
-		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrganizationID' pattern at LotResult level.</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cac:PayerParty/cac:PartyIdentification/cbc:ID">
-		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrganizationID' pattern at LotResult level.</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/efac:MainContractor/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">The OPT-301 Financing Party (ID reference) must match the 'OrganizationID' pattern at Tenderer level.</assert>
 	</rule>
@@ -1916,7 +1886,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
 		<assert role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">The OPT-321 Tender Technical Identifier must match the 'TenderID' pattern at Tender level.</assert>
 	</rule>
-	
+
 	<!-- INTERVAL RULES. -->
-	
+
 </pattern>
