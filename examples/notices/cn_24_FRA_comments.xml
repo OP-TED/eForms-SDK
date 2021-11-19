@@ -120,7 +120,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
 	<cbc:ID>da4d46e9-490b-41ff-a2ae-8166d356a619</cbc:ID>
 	<!--BT-04 Procedure Identifier-->
@@ -354,85 +354,16 @@
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
-				<!-- covers Organization Role = "Organization providing additional information about the procurement procedure" -->
-				<!--BT-505 Organization Internet Address-->
-				<cbc:WebsiteURI>http://www.marches-publics.info/accueil.htm</cbc:WebsiteURI>
-				<!--BT-509 Organization eDelivery Gateway or BT-18 Submission URL-->
-				<cbc:EndpointID>https://www.marches-publics.info/accueil.htm</cbc:EndpointID>
-				<cac:PostalAddress>
-					<!--BT-510 Organization Street (Line 1)-->
-					<cbc:StreetName>5 place du Général de Gaulle</cbc:StreetName>
-					<!--BT-513 Organization City-->
-					<cbc:CityName>Rouen Cedex 1</cbc:CityName>
-					<!--BT-512 Organization Post Code-->
-					<cbc:PostalZone>76001</cbc:PostalZone>
-					<!--BT-507 Organization Country Subdivision-->
-					<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
-					<!--BT-514 Organization Country Code-->
-					<cac:Country>
-						<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<!--BT-500 Organisation Name-->
-					<cbc:RegistrationName>Rouen Habitat</cbc:RegistrationName>
-					<!-- Use of PEPPOL codelist :
-SchemeID ICD, PEPPOL, UNECE3155;
-SchemeName: System Information et Repertoire des Entreprise et des Etablissements: SIRENE, Organisationsnumme, SIRET-CODE, LY-tunnus ...-->
-					<!-- using ISO ICD list - Peppol codelist -->
-					<!--<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>-->
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
-					<!--<cbc:Name>?</cbc:Name>-->
-					<!--BT-503 Organization Contact Telephone Number-->
-					<cbc:Telephone>+33 235156161</cbc:Telephone>
-					<!--BT-739 Organization Contact Fax-->
-					<!--<cbc:Telefax>?</cbc:Telefax>-->
-					<!--BT-506 Organization Contact Email Address-->
-					<cbc:ElectronicMail>contact@rouenhabitat.fr</cbc:ElectronicMail>
-				</cac:Contact>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
-				<!-- covers Organization Role = "Organization Receiving Requests to participate" -->
-				<!-- covers Organization Role = "Organization Receiving Tenders" -->
-				<!--BT-505 Organization Internet Address-->
-				<cbc:WebsiteURI>http://www.marches-publics.info/accueil.htm</cbc:WebsiteURI>
 				<!--BT-509 Organization eDelivery Gateway or BT-18 Submission URL-->
 				<cbc:EndpointID>https://www.marches-publics.info/accueil.htm</cbc:EndpointID>
-				<cac:PostalAddress>
-					<!--BT-510 Organization Street (Line 1)-->
-					<cbc:StreetName>5 place du Général de Gaulle</cbc:StreetName>
-					<!--BT-513 Organization City-->
-					<cbc:CityName>Rouen Cedex 1</cbc:CityName>
-					<!--BT-512 Organization Post Code-->
-					<cbc:PostalZone>76001</cbc:PostalZone>
-					<!--BT-507 Organization Country Subdivision-->
-					<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
-					<!--BT-514 Organization Country Code-->
-					<cac:Country>
-						<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<!--BT-500 Organisation Name-->
-					<cbc:RegistrationName>Rouen Habitat</cbc:RegistrationName>
-					<!-- Use of PEPPOL codelist :
-SchemeID ICD, PEPPOL, UNECE3155;
-SchemeName: System Information et Repertoire des Entreprise et des Etablissements: SIRENE, Organisationsnumme, SIRET-CODE, LY-tunnus ...-->
-					<!-- using ISO ICD list - Peppol codelist -->
-					<!--<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>-->
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
-					<!--<cbc:Name>?</cbc:Name>-->
-					<!--BT-503 Organization Contact Telephone Number-->
-					<cbc:Telephone>+33 235156161</cbc:Telephone>
-					<!--BT-739 Organization Contact Fax-->
-					<!--<cbc:Telefax>?</cbc:Telefax>-->
-					<!--BT-506 Organization Contact Email Address-->
-					<cbc:ElectronicMail>contact@rouenhabitat.fr</cbc:ElectronicMail>
-				</cac:Contact>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderValidityPeriod>
 				<!-- BT-98 Tender Validity Deadline -->
@@ -490,6 +421,9 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 				<!-- BT-132 Public Opening Date -->
 				<cbc:OccurrenceDate>2019-06-25Z</cbc:OccurrenceDate>
 				<cbc:OccurrenceTime>09:00:00Z</cbc:OccurrenceTime>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="FRA">Locaux de Rouen Habitat.</cbc:Description>
+				</cac:OccurenceLocation>
 			</cac:OpenTenderEvent>
 			<!--BT-767 - Electronic Auction-->
 			<cac:AuctionTerms>
@@ -649,85 +583,16 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
-				<!-- covers Organization Role = "Organization providing additional information about the procurement procedure" -->
-				<!--BT-505 Organization Internet Address-->
-				<cbc:WebsiteURI>http://www.marches-publics.info/accueil.htm</cbc:WebsiteURI>
-				<!--BT-509 Organization eDelivery Gateway or BT-18 Submission URL-->
-				<cbc:EndpointID>https://www.marches-publics.info/accueil.htm</cbc:EndpointID>
-				<cac:PostalAddress>
-					<!--BT-510 Organization Street (Line 1)-->
-					<cbc:StreetName>5 place du Général de Gaulle</cbc:StreetName>
-					<!--BT-513 Organization City-->
-					<cbc:CityName>Rouen Cedex 1</cbc:CityName>
-					<!--BT-512 Organization Post Code-->
-					<cbc:PostalZone>76001</cbc:PostalZone>
-					<!--BT-507 Organization Country Subdivision-->
-					<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
-					<!--BT-514 Organization Country Code-->
-					<cac:Country>
-						<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<!--BT-500 Organisation Name-->
-					<cbc:RegistrationName>Rouen Habitat</cbc:RegistrationName>
-					<!-- Use of PEPPOL codelist :
-SchemeID ICD, PEPPOL, UNECE3155;
-SchemeName: System Information et Repertoire des Entreprise et des Etablissements: SIRENE, Organisationsnumme, SIRET-CODE, LY-tunnus ...-->
-					<!-- using ISO ICD list - Peppol codelist -->
-					<!--<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>-->
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
-					<!--<cbc:Name>?</cbc:Name>-->
-					<!--BT-503 Organization Contact Telephone Number-->
-					<cbc:Telephone>+33 235156161</cbc:Telephone>
-					<!--BT-739 Organization Contact Fax-->
-					<!--<cbc:Telefax>?</cbc:Telefax>-->
-					<!--BT-506 Organization Contact Email Address-->
-					<cbc:ElectronicMail>contact@rouenhabitat.fr</cbc:ElectronicMail>
-				</cac:Contact>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
-				<!-- covers Organization Role = "Organization Receiving Requests to participate" -->
-				<!-- covers Organization Role = "Organization Receiving Tenders" -->
-				<!--BT-505 Organization Internet Address-->
-				<cbc:WebsiteURI>http://www.marches-publics.info/accueil.htm</cbc:WebsiteURI>
 				<!--BT-509 Organization eDelivery Gateway or BT-18 Submission URL-->
 				<cbc:EndpointID>https://www.marches-publics.info/accueil.htm</cbc:EndpointID>
-				<cac:PostalAddress>
-					<!--BT-510 Organization Street (Line 1)-->
-					<cbc:StreetName>5 place du Général de Gaulle</cbc:StreetName>
-					<!--BT-513 Organization City-->
-					<cbc:CityName>Rouen Cedex 1</cbc:CityName>
-					<!--BT-512 Organization Post Code-->
-					<cbc:PostalZone>76001</cbc:PostalZone>
-					<!--BT-507 Organization Country Subdivision-->
-					<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
-					<!--BT-514 Organization Country Code-->
-					<cac:Country>
-						<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:PostalAddress>
-				<cac:PartyLegalEntity>
-					<!--BT-500 Organisation Name-->
-					<cbc:RegistrationName>Rouen Habitat</cbc:RegistrationName>
-					<!-- Use of PEPPOL codelist :
-SchemeID ICD, PEPPOL, UNECE3155;
-SchemeName: System Information et Repertoire des Entreprise et des Etablissements: SIRENE, Organisationsnumme, SIRET-CODE, LY-tunnus ...-->
-					<!-- using ISO ICD list - Peppol codelist -->
-					<!--<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>-->
-				</cac:PartyLegalEntity>
-				<cac:Contact>
-					<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
-					<!--<cbc:Name>?</cbc:Name>-->
-					<!--BT-503 Organization Contact Telephone Number-->
-					<cbc:Telephone>+33 235156161</cbc:Telephone>
-					<!--BT-739 Organization Contact Fax-->
-					<!--<cbc:Telefax>?</cbc:Telefax>-->
-					<!--BT-506 Organization Contact Email Address-->
-					<cbc:ElectronicMail>contact@rouenhabitat.fr</cbc:ElectronicMail>
-				</cac:Contact>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderValidityPeriod>
 				<!-- BT-98 Tender Validity Deadline -->
@@ -786,6 +651,9 @@ SchemeName: System Information et Repertoire des Entreprise et des Etablissement
 				<!-- BT-132 Public Opening Date -->
 				<cbc:OccurrenceDate>2019-06-25Z</cbc:OccurrenceDate>
 				<cbc:OccurrenceTime>09:00:00Z</cbc:OccurrenceTime>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="FRA">Locaux de Rouen Habitat.</cbc:Description>
+				</cac:OccurenceLocation>
 			</cac:OpenTenderEvent>
 			<!--BT-767 - Electronic Auction-->
 			<cac:AuctionTerms>

@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>ModificationJustification</ShortName>
+      <LongName>modification-justification</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/modification-justification</LongName>
+      <Version>20200624-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/modification-justification</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>add-wss</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Need for additional works, services or supplies by the original contractor.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Потребност от допълнително строителство, услуги или доставки от първоначалния изпълнител.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Potřeba dodatečných stavebních prací, služeb nebo dodávek od původního zhotovitele, dodavatele nebo poskytovatele.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Behov for supplerende bygge- og anlægsarbejder, vareindkøb eller tjenesteydelser fra den oprindelige kontrahent.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bedarf an zusätzlichen Bauleistungen, Dienstleistungen oder Lieferungen durch den ursprünglichen Auftragnehmer.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανάγκη για συμπληρωματικά έργα, υπηρεσίες ή προμήθειες από τον αρχικό αντισυμβαλλόμενο.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Need for additional works, services or supplies by the original contractor.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Necesidad de obras, servicios o suministros adicionales por parte del contratista original.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vajadus täiendavate ehitustööde, teenuste või asjade järele esialgselt töövõtjalt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarve alkuperäiseltä toimeksisaajalta hankittaviin lisäurakoihin, -palveluihin tai -tavaroihin.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Besoin de travaux, de services ou de fournitures supplémentaires de la part du contractant initial.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gá le breis oibreacha, seirbhísí nó le soláthairtí ón gconraitheoir bunaidh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Potreba za dodatnim radovima, uslugama ili robom prvotnog ugovaratelja.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az eredeti vállalkozó által nyújtott további építési beruházásra, árukra vagy szolgáltatásokra van szükség.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Necessità di ulteriori lavori, forniture e servizi eseguiti dall'appaltatore originale.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Poreikis įsigyti papildomų darbų, paslaugų ar prekių iš pirminio rangovo.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nepieciešamība pēc sākotnējā darbuzņēmēja veiktiem papildu būvdarbiem, pakalpojumiem vai piegādēm.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ħtieġa għal xogħlijiet, servizzi jew provvisti addizzjonali mill-kuntrattur oriġinali.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Noodzaak van aanvullende werken, diensten of leveringen door de oorspronkelijke contractant.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Potrzeba realizacji dodatkowych robót budowlanych, usług lub dostaw przez pierwotnego wykonawcę.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Necessidade de obras, serviços ou fornecimentos complementares por parte do contratante original.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Necesitatea furnizării de lucrări, de servicii sau de bunuri suplimentare de către contractantul inițial.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Potreba dodatočných stavebných prác, služieb alebo dodávok tovaru od pôvodného dodávateľa.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Potreba po dodatnih gradnjah, blagu ali storitvah prvotnega izvajalca.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Behov av ytterligare byggentreprenader, tjänster eller varor från den ursprungliga uppdragstagaren.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mod-cir</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Need for modifications because of circumstances which a diligent buyer could not predict.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Потребност от изменения поради обстоятелства, които добросъвестен купувач не би могъл да предвиди.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Potřeba změny z důvodu okolností, které pečlivý kupující nemohl předvídat.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Behov for ændringer på grund af omstændigheder, som en omhyggelig køber ikke kunne forudse.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Änderungen aufgrund von Umständen, die bei aller Umsicht vom Beschaffer nicht vorhergesehen werden konnten, erforderlich.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανάγκη τροποποιήσεων λόγω περιστάσεων που δεν θα ήταν δυνατό να προβλέψει ένας επιμελής αγοραστής.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Need for modifications because of circumstances which a diligent buyer could not predict.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Necesidad de modificaciones debido a circunstancias que un comprador diligente no podía predecir.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vajadus muudatuste järele nende asjaolude tõttu, mida hoolas hankija ei suutnud ette näha.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muutosten tarve sellaisten olosuhteiden vuoksi, joita ostaja ei ole asianmukaista huolellisuutta noudattaen voinut ennakoida.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Modifications nécessaires en raison de circonstances imprévisibles pour un acheteur diligent.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gá le mionathruithe mar gheall ar na himthosca nach bhféadfadh ceannaitheoir dúthrachtach a thuar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Potreba za izmjenama zbog okolnosti koje pažljiv kupac nije mogao predvidjeti.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A módosítások olyan körülmények miatt szükségesek, amelyet a kellően gondos vevő előre nem láthatott.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Necessità di modifiche dovute a circostante non prevedibili da un committente diligente.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Poreikis keisti sutartį dėl aplinkybių, kurių apdairus pirkėjas negalėjo numatyti.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ir vajadzīgi grozījumi tādu apstākļu dēļ, kurus rūpīgs pircējs nevarēja paredzēt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ħtieġa għal modifiki minħabba ċirkostanzi li xerrej diliġenti ma setax jipprevedi.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Noodzaak van wijzigingen vanwege omstandigheden die een zorgvuldige koper niet kon voorzien.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Potrzeba wprowadzenia modyfikacji ze względu na okoliczności, których nabywca działający z należytą starannością nie mógł przewidzieć.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Necessidade de modificações devido a circunstâncias que não podiam ter sido previstas por um adquirente diligente.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Modificări necesare din cauza unor circumstanțe imprevizibile pentru un cumpărător diligent.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Potreba úprav z dôvodu okolností, ktoré nemohol svedomitý kupujúci predvídať.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Potreba po spremembah zaradi okoliščin, ki jih skrben kupec ne bi mogel predvideti.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Behov av ändringar på grund av omständigheter som en omdömesgill upphandlare inte kunnat förutse.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mod-minv</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Modifications under a minimal value ("de minimis").</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изменения с минимална стойност („de minimis“).</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Změny pod minimální hodnotou („de minimis“).</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ændringer under en vis værdi ("de minimis").</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Änderungen unterhalb eines bestimmten Mindestwertes.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τροποποιήσεις ήσσονος σημασίας («de minimis»).</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Modifications under a minimal value ("de minimis").</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Modificaciones cuyo valor es inferior a un valor mínimo.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muudatused allapoole teatavat miinimumväärtust ("vähese tähtsusega").</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muutoksen arvo ei ylitä vähimmäisarvoa ("de minimis").</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Modifications inférieures à une valeur minimale.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Mionathruithe faoi bhun luach íosta (“de minimis”).</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Izmjene ispod minimalne vrijednosti („de minimis”).</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Olyan módosítások, amelyek nem érik el a minimális értéket ("de minimis" szabály).</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Modifiche inferiori a una soglia minima ("de minimis").</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pakeitimai, neviršijantys minimalios vertės („de minimis“).</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Grozījumu vērtība nepārsniedz minimālo vērtību ("de minimis").</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Modifiki taħt valur minimu (“de minimis”).</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Wijzigingen onder een minimale waarde (“de minimis”).</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Modyfikacje poniżej minimalnej wartości („de minimis”).</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Modificações abaixo de um valor mínimo ("de minimis").</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Modificări sub o valoare minimă („de minimis”).</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zmeny pod minimálnou hodnotou („de minimis“).</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Spremembe pod minimalno vrednostjo ("de minimis").</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ändringar under ett minimivärde (försumbart värde).</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mod-nons</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Modifications that are not substantial.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изменения,които не са съществени.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Změny, které nejsou podstatné.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ændringer, der ikke er væsentlige.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nicht wesentliche Änderungen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τροποποιήσεις που δεν είναι ουσιαστικής σημασίας.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Modifications that are not substantial.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Modificaciones que no son sustanciales.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muudatused, mis ei ole olulised.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muutokset eivät ole merkittäviä.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Modifications qui ne sont pas substantielles.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Mionathruithe nach bhfuil substaintiúil.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Izmjene koje nisu znatne.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nem jelentős módosítások.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Le modifiche non sono sostanziali.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Neesminiai pakeitimai.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nebūtiski grozījumi.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Modifiki li mhumiex sostanzjali.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Wijzigingen die niet wezenlijk zijn.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Modyfikacje, które są nieistotne.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Modificações que não são substanciais.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Modificări care nu sunt substanțiale.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zmeny, ktoré nie sú podstatné.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Spremembe, ki niso bistvene.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ändringar som inte är väsentliga.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mod-repl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Modifications where a new contractor replaces an old contractor because of succession or when the buyer assumes the contractor’s obligations towards its subcontractors.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изменения в случаите, когато нов изпълнител заменя стар изпълнител поради правоприемство или когато купувачът поема задълженията на изпълнителя към подизпълнителите му.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Změny, pokud nový dodavatel nahrazuje starého dodavatele v důsledku právního nástupnictví nebo pokud kupující plní povinnosti dodavatele vůči subdodavatelům.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ændringer, som følge af at en ny kontrahent efterfølger en gammel kontrahent, eller hvis køberen selv påtager sig kontrahentens forpligtelser for underkontrahenterne.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Änderungen, bei denen ein neuer Auftragnehmer an die Stelle des ursprünglichen tritt oder der Beschaffer selbst die Verpflichtungen des Auftragnehmers gegenüber seinen Unterauftragnehmern übernimmt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τροποποιήσεις όταν νέος ανάδοχος αντικαθιστά παλαιό ανάδοχο λόγω διαδοχής ή όταν ο αγοραστής αναλαμβάνει τις υποχρεώσεις του αναδόχου έναντι των υπεργολάβων του.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Modifications where a new contractor replaces an old contractor because of succession or when the buyer assumes the contractor’s obligations towards its subcontractors.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Modificaciones en las que un nuevo contratista sustituye al anterior debido a una sucesión o a la asunción por el comprador de las obligaciones del contratista para con sus subcontratistas.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muudatused juhul, kui kui uus töövõtja astub endise töövõtja asemele või kui hankija võtab üle töövõtja kohustused tema alltöövõtjate suhtes.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muutokset silloin, kun sopimuskumppani korvataan uudella sopimuskumppanilla edellisen aseman siirryttyä toiselle tai ostaja täyttää itse sopimuskumppanin velvoitteet alihankkijoitaan kohtaan.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Modifications quand un nouveau contractant remplace un ancien à la suite d’une succession ou quand l’acheteur assume les obligations du contractant à l’égard de ses sous-traitants.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Mionathruithe lena gcuirtear conraitheoir nua in ionad seanchonraitheora de thairbhe comharbais nó i gcás ina nglacann an ceannaitheoir air féin oibleagáidí an chonraitheora i leith a chuid fochonraitheoirí.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Izmjene ako novi ugovaratelj zamijeni prethodnog ugovaratelja zbog nasljeđivanja ili ako kupac preuzme obveze ugovaratelja u odnosu na njegove podugovaratelje.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Olyan módosítások, amikor új szerződő fél lép az eredeti helyébe jogutódlás révén vagy amikor az ajánlatkérő szerv átvállalja a fővállalkozónak az alvállalkozókkal szemben fennálló kötelezettségeit.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Modifiche dovute al fatto che un nuovo contraente sostituisce l'aggiudicatario iniziale perché gli succede o perché il committente si assume gli obblighi del contraente principale nei confronti dei suoi subappaltatori.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pekeitimai, jeigu rangovas pakeičiamas nauju rangovu dėl teisių perėmimo arba kai perkančioji organizacija prisiima rangovo pareigas jo subrangovų atžvilgiu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Grozījums situācijā, kad tiesību pārņemšanas rezultātā sākotnējā darbuzņēmēja vietā stājas cits darbuzņēmējs vai kad pircējs uzņemas darbuzņēmēja saistības pret tā apakšuzņēmējiem.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Modifiki fejn kuntrattur ġdid jissostitwixxi kuntrattur antik minħabba suċċessjoni jew meta xerrej jassumi l-obbligi tal-kuntrattur fir-rigward tas-sottokuntratturi tiegħu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Wijzigingen waarbij een nieuwe aannemer een oude aannemer vervangt door rechtsopvolging of wanneer de koper de verplichtingen van de hoofdaannemer ten aanzien van diens onderaannemers opneemt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Modyfikacje w przypadkach, gdy nowy wykonawca zastępuje wykonawcę, któremu instytucja zamawiająca pierwotnie udzieliła zamówienia, w wyniku sukcesji, lub gdy nabywca przyjmuje zobowiązania wykonawcy względem jego podwykonawców.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Modificações em que um contratante novo substitui um contratante antigo por motivo de sucessão ou em que o adquirente assume as obrigações do contratante para com os seus subcontratantes.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Modificări în cazul cărora un nou contractant înlocuiește un contractant vechi din cauza succesiunii sau a obligațiilor contractantului către subcontractanții săi.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zmeny, pri ktorých pôvodného dodávateľa nahradí z dôvodu nástupníctva nový dodávateľ alebo keď obstarávateľ prevezme povinnosti dodávateľa voči jeho subdodávateľom.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Spremembe, pri katerih novi izvajalec nadomesti starega izvajalca zaradi nasledstva ali pri katerih kupec prevzame obveznosti izvajalca do njegovih podizvajalcev.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ändringar där en ny uppdragstagare ersätter en gammal uppdragstagare på grund av succession eller när köparen tar på sig uppdragstagarens skyldigheter gentemot underleverantörerna.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mod-rev</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Modifications based on review clauses or options.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изменения въз основа на клаузи за преразглеждане (обжалване) или опции.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Změny na základě ustanovení o změnách nebo opčních právech.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ændringer baseret på revisionsklausuler eller -muligheder.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Änderungen aufgrund von Überprüfungsklauseln oder Optionen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τροποποιήσεις με βάση λόγους ή εναλλακτικές επιλογές προσφυγής.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Modifications based on review clauses or options.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Modificaciones basadas en cláusulas de revisión u opciones.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muudatused läbivaatamise või täiendavate hankevõimaluste alusel.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarkistuslausekkeisiin tai vaihtoehtoihin perustuva muutos.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Modifications fondées sur des clauses de réexamen ou options.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Mionathruithe atá bunaithe ar chúiseanna athbhreithnithe nó roghanna.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Izmjene zbog razloga pravne zaštite (preispitivanja) ili opcija.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Felülvizsgálati záradékokon vagy választási lehetőségeken alapuló módosítások.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Modifiche basate su clausole di revisione dei prezzi o opzioni.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pakeitimai, numatyti peržiūros nuostatose arba pasirinkimo galimybėse.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Grozījumu pamatā ir pārskatīšanas iemesli vai fakultatīvas iespējas.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Modifiki bbażati fuq kawżi jew opzjonijiet ta’ rieżami.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Wijzigingen op basis van herzieningsbepalingen of opties.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Modyfikacje oparte na klauzulach przeglądowych lub opcjach.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Modificações baseadas em cláusulas ou opções de modificação.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Modificări bazate pe cauze sau pe opțiuni legate de căile de atac.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zmeny na základe doložiek o preskúmaní alebo opcií.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Spremembe na podlagi vzrokov za revizijo ali opcij.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ändringar som grundar sig på orsaker eller optioner som följer av en översyn.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Друго</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jiné</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstiges</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλη</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otros</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostalo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kita</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Oħrajn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outros</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Altele</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Iné</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Drugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Annat</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

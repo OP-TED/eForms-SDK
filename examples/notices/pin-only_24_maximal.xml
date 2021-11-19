@@ -406,7 +406,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID>9fe2b9d7-c32a-4dcb-af3f-35bf584d0abb</cbc:ID>
 	<!--BT-05-->
@@ -477,6 +477,7 @@
 			<cbc:ItemClassificationCode listName="cpv">79624000</cbc:ItemClassificationCode>
 		</cac:AdditionalCommodityClassification>
 		<cac:RealizedLocation>
+			<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 			<cac:Address>
 				<!--BT-5101-->
 				<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -494,6 +495,7 @@
 			</cac:Address>
 		</cac:RealizedLocation>
 		<cac:RealizedLocation>
+			<!-- This location represents a large area without a specific address, in this case "Anywhere in the European Economic Area" -->
 			<!--BT-728-->
 			<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 			<cac:Address>
@@ -822,6 +824,7 @@
 				<cbc:ItemClassificationCode listName="cpv">79622000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 				<cac:Address>
 					<!--BT-5101-->
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -839,11 +842,16 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:RealizedLocation>
+				<!-- This location represents a large area without a specific address, in this case "Anywhere in the given country" -->
 				<!--BT-728-->
 				<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 				<cac:Address>
 					<!--BT-727-->
-					<cbc:Region>anyw-eea</cbc:Region>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<!--BT-5141-->
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

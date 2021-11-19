@@ -21,7 +21,6 @@
 							<efac:AppealRequestsStatistics>
 								<!--BT-712 Buyer Review Complainants -->
 								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
-								<!--BT-635 Buyer Review Requests Count -->
 								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:AppealRequestsStatistics>
 							<!--number of review requests per type of irregularity suspicions-->
@@ -86,7 +85,6 @@
 							<efac:AppealRequestsStatistics>
 								<!--BT-712 Buyer Review Complainants -->
 								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
-								<!--BT-635 Buyer Review Requests Count -->
 								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:AppealRequestsStatistics>
 							<!--number of review requests per type of irregularity suspicions-->
@@ -141,7 +139,6 @@
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotTender>
-							<!--BT-3201 Tender Identifier-->
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<!--BT-171 Tender Rank-->
 							<cbc:RankCode>1</cbc:RankCode>
@@ -163,6 +160,10 @@
 								<!--BT-13714 Tender Lot Identifier-->
 								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
+							<!--BT-3201 Tender Identifier-->
+							<efac:TenderReference>
+								<cbc:ID>BID/ABC/2020-003</cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:LotTender>
 							<!--BT-3201 Tender Identifier-->
@@ -187,9 +188,12 @@
 								<!--BT-13714 Tender Lot Identifier-->
 								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>BID/EFG/2020-001</cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
-							<!--BT-150 Contract Identifier-->
+							<!--OPT-316 Contract Technical Identifier-->
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<!--BT-1451 Winner Decision Date -->
 							<cbc:AwardDate>2019-09-02+02:00</cbc:AwardDate>
@@ -197,13 +201,27 @@
 							<cbc:IssueDate>2019-09-03+02:00</cbc:IssueDate>
 							<!--BT-721 Contract Title-->
 							<cbc:Title languageID="FRA">Agence Centre</cbc:Title>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organisation">ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<efac:ContractReference>
+								<!--BT-150 Contract Identifier-->
+								<cbc:ID>SC/ABC/234/01</cbc:ID>
+							</efac:ContractReference>
 							<efac:LotTender>
 								<!--BT-3202 Tender Identifier Reference-->
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
 						</efac:SettledContract>
 						<efac:SettledContract>
-							<!--BT-150 Contract Identifier-->
+							<!--OPT-316 Contract Technical Identifier-->
 							<cbc:ID schemeName="contract">CON-0002</cbc:ID>
 							<!--BT-1451 Winner Decision Date -->
 							<cbc:AwardDate>2019-09-02+02:00</cbc:AwardDate>
@@ -211,6 +229,20 @@
 							<cbc:IssueDate>2019-09-03+02:00</cbc:IssueDate>
 							<!--BT-721 Contract Title-->
 							<cbc:Title languageID="FRA">Agence Hauts de Rouen</cbc:Title>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organisation">ORG-0005</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<efac:ContractReference>
+								<!--BT-150 Contract Identifier-->
+								<cbc:ID>SC/DEF/124/01</cbc:ID>
+							</efac:ContractReference>
 							<efac:LotTender>
 								<!--BT-3202 Tender Identifier Reference-->
 								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
@@ -424,7 +456,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
 	<cbc:ID>df45f4d1-2208-47cb-bc7a-9c7edcf8d2b8</cbc:ID>
 	<!--BT-04 Procedure Identifier-->
@@ -542,8 +574,10 @@
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AppealTerms>
-				<!--BT-99 review  Deadline description-->
-				<!--<cac:PresentationPeriod><cbc:Description/></cac:PresentationPeriod>-->
+				<cac:PresentationPeriod>
+					<!--BT-99 review deadline description-->
+					<cbc:Description languageID="FRA">Un appel ...</cbc:Description>
+				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<!-- covers Organization sub-role = "Organization providing more information on the time limits for review" -->
 					<cac:PartyIdentification>
@@ -672,8 +706,10 @@
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AppealTerms>
-				<!--BT-99 review  Deadline description-->
-				<!--<cac:PresentationPeriod><cbc:Description/></cac:PresentationPeriod>-->
+				<cac:PresentationPeriod>
+					<!--BT-99 review deadline description-->
+					<cbc:Description languageID="FRA">Un appel ...</cbc:Description>
+				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<!-- covers Organization subr-ole = "Organization providing more information on the time limits for review" -->
 					<cac:PartyIdentification>

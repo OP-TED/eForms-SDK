@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>ReservedProcurement</ShortName>
+      <LongName>reserved-procurement</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/reserved-procurement</LongName>
+      <Version>20190918-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/reserved-procurement</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>none</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>None</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Няма</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Žádná z možností</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Entfällt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κανένα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>None</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ninguna</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ei kohaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ei sovelleta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sans objet</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ceann ar bith</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ne primjenjuje se</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nincs</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nulla</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Netaikoma</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-ebda</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Nenhum</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Niciuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Žiadne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ne obstaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inget</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>res-pub-ser</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Участието е запазено за организации, изпълняващи задачи по предоставяне на обществени услуги и отговарящи на другите относими условия в законодателството.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Účast je vyhrazena organizacím plnícím úkoly veřejné služby a splňujícím další relevantní podmínky stanovené v právních předpisech.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Deltagelse er forbeholdt organisationer, der varetager offentlige tjenesteydelsesopgaver, og som opfylder andre relevante lovkrav.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die Teilnahme ist Organisationen vorbehalten, die zur Erfüllung von Gemeinwohlaufgaben tätig werden und andere einschlägige Bestimmungen der Rechtsvorschriften erfüllen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η συμμετοχή παραχωρείται μόνο σε οργανισμούς που εκτελούν αποστολή δημόσιας υπηρεσίας και πληρούν τους λοιπούς σχετικούς όρους της νομοθεσίας.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Participación reservada a organizaciones que desempeñan una misión de servicio público y cumplen otras condiciones pertinentes de la legislación.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Osalemine on reserveeritud organisatsioonidele, kes tegelevad avalike teenuste osutamisega ja täidavad muid asjakohastes õigusaktides sätestatud tingimusi.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Osallistuminen on varattu julkisen palvelun tehtäviä suorittaville organisaatioille, jotka täyttävät lainsäädännön muut asiaan liittyvät edellytykset.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La participation est réservée à des organisations qui poursuivent une mission de service public et respectent d’autres conditions pertinentes énoncées dans la législation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Forchoimeádtar an rannpháirtíocht d'eagraíochtaí atá ag saothrú misean seirbhíse poiblí agus a chomhlíonann coinníollacha ábhartha eile atá sa reachtaíocht.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sudjelovanje je rezervirano za organizacije koje pružaju javne usluge i ispunjavaju druge relevantne uvjete prema zakonodavstvu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A részvétel olyan szervezetek számára van fenntartva, amelyek közszolgálati tevékenységet végeznek vagy megfelelnek a jogszabályokban foglalt egyéb vonatkozó feltételeknek.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Partecipazione riservata a organizzazioni aventi per scopo una missione di servizio pubblico e che soddisfano altre condizioni di legge pertinenti.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Dalyvavimas rezervuotas organizacijoms, kurios siekia teikti viešąsias paslaugas ir atitinka kitas teisės aktuose nustatytas taikytinas sąlygas.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dalība ir paredzēta organizācijām, kuras īsteno valsts pārvaldes uzdevumu un atbilst citiem attiecīgiem tiesību aktu nosacījumiem.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-parteċipazzjoni tkun riżervata għal organizzazzjonijiet li jwettqu missjoni ta’ servizz pubbliku u li jissodisfaw kundizzjonijiet rilevanti oħra fil-leġiżlazzjoni.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Deelname is voorbehouden aan organisaties die een openbaredienstverleningstaak vervullen en aan andere relevante voorwaarden in de wetgeving voldoen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Udział jest zastrzeżony dla organizacji realizujących misję publiczną i spełniających inne odpowiednie warunki określone w przepisach.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A participação está reservada às organizações com uma missão de serviço público e que preencham outras condições pertinentes da legislação.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Participarea este rezervată organizațiilor care desfășoară o misiune de serviciu public și care îndeplinesc alte condiții relevante prevăzute în legislație.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Účasť je vyhradená pre organizácie vykonávajúce verejnú službu a spĺňajú ďalšie príslušné podmienky v právnych predpisoch.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Udeležba je pridržana za organizacije, ki opravljajo javne storitve in izpolnjujejo druge ustrezne zakonske pogoje.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Deltagande förbehålls organisationer som anförtrotts offentliga förvaltningsuppgifter och som uppfyller andra relevanta villkor i lagstiftningen.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>res-ws</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Participation is reserved to sheltered workshops and economic operators aiming at the social and professional integration of disabled or disadvantaged persons.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Участието е запазено за защитени предприятия и икономически оператори, чиято цел е социално и професионално включване на лицата с увреждания и лицата в неравностойно положение.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Účast je vyhrazena chráněným dílnám a hospodářským subjektům, jejichž cílem je sociální a profesní začlenění osob s postižením nebo osob znevýhodněných.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Deltagelse er forbeholdt beskyttede værksteder og økonomiske aktører, hvis mål er social og faglig integration af handicappede eller dårligt stillede personer.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die Teilnahme ist geschützten Werkstätten und Wirtschaftsteilnehmern, die auf die soziale und berufliche Integration von Menschen mit Behinderungen oder benachteiligten Personen abzielen, vorbehalten.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η συμμετοχή παραχωρείται μόνο σε προστατευόμενα εργαστήρια και οικονομικούς φορείς που στοχεύουν στην κοινωνική και επαγγελματική ενσωμάτωση ατόμων με αναπηρία ή μειονεκτούντων ατόμων.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Participation is reserved to sheltered workshops and economic operators aiming at the social and professional integration of disabled or disadvantaged persons.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Participación reservada a talleres protegidos y operadores económicos que persiguen la integración profesional y social de las personas con discapacidad o desfavorecidas.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Osalemine on reserveeritud kaitstud töö keskustele ja ettevõtjatele, kelle eesmärk on puudega või ebasoodsas olukorras olevate isikute sotsiaalne ja kutsealane integreerimine.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Osallistuminen on varattu suojatyökeskuksille ja talouden toimijoille, joiden tavoitteena on vammaisten tai muita heikommassa asemassa olevien henkilöiden integroiminen yhteiskuntaan ja työelämään.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La participation est réservée à des ateliers protégés et à des opérateurs économiques dont l’objet principal est l’intégration sociale et professionnelle de personnes handicapées ou défavorisées.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Forchoimeádtar an rannpháirtíocht do cheardlanna dídeanacha agus d'oibreoirí eacnamaíocha atá dírithe ar lánpháirtiú sóisialta agus gairmiúil daoine faoi mhíchumas nó faoi mhíbhuntáiste</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sudjelovanje je rezervirano za zaštitne radionice i gospodarske subjekte u svrhu društvene i profesionalne integracije osoba s invaliditetom ili osoba u nepovoljnom položaju.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A részvétel védett műhelyek és olyan gazdasági szereplők számára van fenntartva, amelyek célja a fogyatékossággal élő vagy hátrányos helyzetű személyek társadalmi és szakmai integrációja.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Partecipazione riservata a laboratori protetti e ad operatori economici aventi per scopo l'integrazione sociale e professionale delle persone con disabilità o svantaggiate.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Dalyvavimas yra rezervuotas neįgaliųjų socialinėms įmonėms ir ekonominės veiklos vykdytojams, siekiantiems socialinės ir profesinės neįgaliųjų ar palankių sąlygų neturinčių asmenų integracijos.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Līdzdalība ir paredzēta aizsargātām darbnīcām un ekonomikas dalībniekiem, kuru mērķis ir personu ar invaliditāti vai nelabvēlīgā situācijā esošu personu sociālā un profesionālā integrācija.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-parteċipazzjoni tkun riżervata għal workshops protetti u għal operaturi ekonomiċi li jimmiraw lejn l-integrazzjoni soċjali u professjonali ta’ persuni żvantaġġati jew b’diżabbiltà.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Deelname is voorbehouden aan beschutte werkplaatsen en ondernemers die de maatschappelijke en professionele integratie van gehandicapten of kansarmen tot doel hebben.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Udział jest zastrzeżony dla zakładów pracy chronionej oraz podmiotów gospodarczych mających na celu społeczną i zawodową integrację osób niepełnosprawnych lub znajdujących się w niekorzystnej sytuacji.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A participação está reservada a oficinas protegidas e a operadores económicos que visem a integração social e profissional de pessoas com deficiência ou desfavorecidas.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Participarea este rezervată atelierelor protejate și operatorilor economici care vizează integrarea socială și profesională a persoanelor cu handicap sau defavorizate.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Účasť je vyhradená pre chránené pracoviská a hospodárske subjekty, ktoré sa zameriavajú na sociálne a profesionálne začlenenie osôb so zdravotným postihnutím alebo znevýhodnených osôb.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Udeležba je pridržana za invalidska podjetja in gospodarske subjekte, katerih cilj je družbeno in poklicno vključevanje invalidnih ali prikrajšanih oseb.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Deltagande förbehålls skyddade verkstäder och ekonomiska aktörer vars mål är social och yrkesmässig integration av personer med funktionsnedsättning eller personer som är missgynnade.</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

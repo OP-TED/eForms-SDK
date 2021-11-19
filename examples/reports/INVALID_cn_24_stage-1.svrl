@@ -54,7 +54,6 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '16']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '16']"/>
@@ -63,7 +62,6 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
    <svrl:fired-rule context="/*[$noticeSubType = '16']"/>
@@ -99,6 +97,11 @@
                        role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '16']"/>
@@ -144,22 +147,11 @@
                        test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">
       <svrl:text>The BT-11 Buyer Legal Type is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '16']"/>
-   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party"
-                       role="ERROR"
-                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
                        role="ERROR"
                        test="count(cbc:ServiceTypeCode) &gt; 0">
       <svrl:text>The OPT-030 Provided Service Type is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
-                       role="ERROR"
-                       test="count(cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-300 Service Provider Technical Identifier Reference is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement"
@@ -183,6 +175,11 @@
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
       <svrl:text>The BT-21 Title is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cbc:ProcurementTypeCode) &gt; 0">
+      <svrl:text>BT-23 Main Nature is mandatory at Procedure level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProject"
                        role="ERROR"
@@ -215,6 +212,11 @@
                        test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']) &gt; 0">
       <svrl:text>The BT-764 Submission Electronic Catalog is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="ERROR"
+                       test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>the OPT-301 Tender Recipient Technical Identifier Reference is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria"
                        role="ERROR"
@@ -238,17 +240,21 @@
                        test="count(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']) &gt; 0">
       <svrl:text>The BT-71 Reserved Participation is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty[$noticeSubType = '16']"/>
-   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '16']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
-                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
+                       test="count(cac:PresentationPeriod/cbc:Description) &gt; 0">
+      <svrl:text>BT-99 Review Deadline Description is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+                       role="ERROR"
+                       test="count(cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>The OPT-301 Review Organization Technical Identifier Reference is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty[$noticeSubType = '16']"/>
-   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
-                       role="ERROR"
-                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-301 Mediator Technical Identifier Reference is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+                       role="WARN"
+                       test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>When it exists, OPT-301 Mediator Technical Identifier Reference is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess[$noticeSubType = '16']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:PostAwardProcess"
@@ -293,6 +299,11 @@
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
       <svrl:text>The BT-21 Title is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) &gt; 0">
+      <svrl:text>BT-23 Main Nature is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
@@ -343,6 +354,11 @@
       <svrl:text>The BT-137 Purpose Lot Identifier must match the 'LotID' pattern at Lot level.</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')][$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
+   <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="//cac:ProcurementProject"/>

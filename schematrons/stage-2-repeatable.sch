@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.1.0 created on the 2021-08-31T18:00.-->
+<!--File generated from metadata database version 0.2.19 created on the 2021-11-11T09:45:05.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">The BT-01 Procedure Legal Basis is not repeatable at Notice level.</assert>
@@ -18,6 +18,7 @@
 		<assert role="ERROR" test="(every $lg in (cbc:Note/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Note) = 0">OPP-130 - Additional information can only be indicated in a language that is part of the notice official languages.</assert>
 		<assert role="ERROR" test="count(cbc:UBLVersionID) &lt; 2">The OPT-001 UBL version ID (UBL) is not repeatable at Notice level.</assert>
 		<assert role="ERROR" test="count(cbc:CustomizationID) &lt; 2">The OPT-002 Customization ID (UBL) is not repeatable at Notice level.</assert>
+		<assert role="ERROR" test="count(cac:TenderResult/cbc:AwardDate) &lt; 2">The OPT-999 Dummy Tender Award Date is not repeatable at Organization level.</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference">
 		<assert role="ERROR" test="count(cbc:DocumentDescription) &lt; 2">The OPP-120 Name of Publication is not repeatable at Business level.</assert>
@@ -122,14 +123,19 @@
 		<assert role="ERROR" test="count(cbc:MaximumNumberNumeric) &lt; 2">The BT-58 Renewal maximum is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification">
-		<assert role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:ItemClassificationCode) &lt; 2">The BT-262 Main Classification Code is not repeatable at Lot level.</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode">
+		<assert role="ERROR" test="count(@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod">
 		<assert role="ERROR" test="count(cbc:DurationMeasure) &lt; 2">The BT-36 Duration Period is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:StartDate) &lt; 2">The BT-536 Duration Start Date is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:EndDate) &lt; 2">The BT-537 Duration End Date is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:DescriptionCode) &lt; 2">The BT-538 Duration Other is not repeatable at Lot level.</assert>
+		<assert role="ERROR" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-781 - Duration Additional Information can only be present once for each language.</assert>
+		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">BT-781 - Duration Additional Information must be indicated in all notice official languages.</assert>
+		<assert role="ERROR" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">BT-781 - Duration Additional Information can only be indicated in a language that is part of the notice official languages.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']">
 		<assert role="ERROR" test="count(cbc:ProcurementType[@languageID = preceding-sibling::cbc:ProcurementType/@languageID]) = 0">The BT-755 - Accessibility Justification can only be present once for each language.</assert>
@@ -223,6 +229,10 @@
 		<assert role="ERROR" test="count(efbc:AccessToolName) &lt; 2">The BT-632 Tool Name is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(efbc:ProcedureRelaunchIndicator) &lt; 2">The BT-634 Procurement Relaunch is not repeatable at Lot level.</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AnswerReceptionPeriod">
+		<assert role="ERROR" test="count(cbc:EndDate) &lt; 2">BT-800(d)-Lot is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(cbc:EndTime) &lt; 2">BT-800(t)-Lot is not repeatable at Review level.</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod">
 		<assert role="ERROR" test="count(cbc:EndDate) &lt; 2">The BT-630 Deadline Receipt Expressions is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:EndTime) &lt; 2">The BT-630 Deadline Receipt Expressions is not repeatable at Lot level.</assert>
@@ -250,6 +260,10 @@
 		<assert role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode) &lt; 2">The BT-761 Tenderer Legal Form is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']) &lt; 2">The BT-764 Submission Electronic Catalog is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:MultipleTendersCode) &lt; 2">The BT-769 Multiple Tenders is not repeatable at Lot level.</assert>
+		<assert role="ERROR" test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Lot-AddInfo is not repeatable at the Lot level</assert>
+		<assert role="ERROR" test="count(cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Lot-DocProvider is not repeatable at the Lot level.</assert>
+		<assert role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Lot-TenderReceipt is not repeatable at the Lot level</assert>
+		<assert role="ERROR" test="count(cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Lot-TenderEval is not repeatable at the Lot level</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms">
 		<assert role="ERROR" test="count(cbc:MinimumPercent) &lt; 2">The BT-64 Subcontracting Obligation Minimum is not repeatable at Lot level.</assert>
@@ -399,14 +413,17 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference">
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-113 Employment Legislation Document ID is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &lt; 2">The OPT-130 URL to Employment Legislation is not repeatable at Lot level.</assert>
+		<assert role="ERROR" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Lot-EmployLegis is not repeatable at Employment Legislation Document Reference level</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference">
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-112 Environmental Legislation Document ID is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &lt; 2">The OPT-120 URL to Environmental Legislation is not repeatable at Lot level.</assert>
+		<assert role="ERROR" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Lot-EnvironLegis is not repeatable at Environmental Legislation Document Reference level</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference">
 		<assert role="ERROR" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &lt; 2">The OPT-110 URL to Fiscal Legislation is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-111 Fiscal Legislation Document ID is not repeatable at Lot level.</assert>
+		<assert role="ERROR" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Lot-FiscalLegis is not repeatable at Fiscal Legislation Document Reference level</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PaymentTerms">
 		<assert role="ERROR" test="count(cbc:Note[@languageID = preceding-sibling::cbc:Note/@languageID]) = 0">The BT-77 - Terms Financial can only be present once for each language.</assert>
@@ -423,7 +440,7 @@
 		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">BT-732 - Security Clearance Description must be indicated in all notice official languages.</assert>
 		<assert role="ERROR" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">BT-732 - Security Clearance Description can only be indicated in a language that is part of the notice official languages.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(descendant::cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]">
 		<assert role="ERROR" test="count(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission']) &lt; 2">The BT-771 Late Tenderer Information is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-772 - Late Tenderer Information Description can only be present once for each language.</assert>
 		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description/@languageID = $lg) or count(cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description) = 0">BT-772 - Late Tenderer Information Description must be indicated in all notice official languages.</assert>
@@ -584,8 +601,10 @@
 		<assert role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Part level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification">
-		<assert role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Part level.</assert>
 		<assert role="ERROR" test="count(cbc:ItemClassificationCode) &lt; 2">The BT-262 Main Classification Code is not repeatable at Part level.</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode">
+		<assert role="ERROR" test="count(@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Part level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod">
 		<assert role="ERROR" test="count(cbc:DurationMeasure) &lt; 2">The BT-36 Duration Period is not repeatable at Part level.</assert>
@@ -623,18 +642,15 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms">
 		<assert role="ERROR" test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']) &lt; 2">The BT-736 Reserved Execution is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Additional Info Provider Technical Identifier Reference is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Document Provider Technical Identifier Reference is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Tender Recipient Technical Identifier Reference is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Tender Evaluator Technical Identifier Reference is not repeatable at Part level.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AdditionalInformationParty">
-		<assert role="ERROR" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Additional Info Provider Technical Identifier Reference is not repeatable at Part level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealInformationParty">
-		<assert role="ERROR" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Review Info Provider Technical Identifier Reference is not repeatable at Part level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty">
-		<assert role="ERROR" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Review Organization Technical Identifier Reference is not repeatable at Part level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty">
-		<assert role="ERROR" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Mediator Technical Identifier Reference is not repeatable at Part level.</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms">
+		<assert role="ERROR" test="count(cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Review Organization Technical Identifier Reference is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Review Info Provider Technical Identifier Reference is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Mediator Technical Identifier Reference is not repeatable at Part level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference">
 		<assert role="ERROR" test="count(cbc:DocumentType) &lt; 2">The BT-14 Documents Restricted is not repeatable at Part level.</assert>
@@ -647,26 +663,20 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]">
 		<assert role="ERROR" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &lt; 2">The BT-15 Documents URL is not repeatable at Part level.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:DocumentProviderParty">
-		<assert role="ERROR" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Document Provider Technical Identifier Reference is not repeatable at Part level.</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference">
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-113 Employment Legislation Document ID is not repeatable at Part level.</assert>
 		<assert role="ERROR" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &lt; 2">The OPT-130 URL to Employment Legislation is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Part-EmployLegis is not repeatable at Employment Legislation Document Reference level</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference">
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-112 Environmental Legislation Document ID is not repeatable at Part level.</assert>
 		<assert role="ERROR" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &lt; 2">The OPT-120 URL to Environmental Legislation is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Part-EnvironLegis is not repeatable at Environmental Legislation Document Reference level</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference">
 		<assert role="ERROR" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &lt; 2">The OPT-110 URL to Fiscal Legislation is not repeatable at Part level.</assert>
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-111 Fiscal Legislation Document ID is not repeatable at Part level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderEvaluationParty">
-		<assert role="ERROR" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Tender Evaluator Technical Identifier Reference is not repeatable at Part level.</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderRecipientParty">
-		<assert role="ERROR" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">The OPT-301 Tender Recipient Technical Identifier Reference is not repeatable at Part level.</assert>
+		<assert role="ERROR" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-Part-FiscalLegis is not repeatable at Fiscal Legislation Document Reference level</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess">
 		<assert role="ERROR" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-88 - Procedure Features can only be present once for each language.</assert>
@@ -749,9 +759,9 @@
 		<assert role="ERROR" test="count(efbc:PublicationDate) &lt; 2">The BT-198 Unpublished Accessibility Date is not repeatable at Procedure level.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms">
-		<assert role="ERROR" test="count(cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">The BT-01 - Procedure Legal Basis can only be present once for each language.</assert>
-		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription/@languageID = $lg) or count(cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription) = 0">BT-01 - Procedure Legal Basis must be indicated in all notice official languages.</assert>
-		<assert role="ERROR" test="(every $lg in (cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription) = 0">BT-01 - Procedure Legal Basis can only be indicated in a language that is part of the notice official languages.</assert>
+		<assert role="ERROR" test="count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">The BT-01 - Procedure Legal Basis can only be present once for each language.</assert>
+		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription/@languageID = $lg) or count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription) = 0">BT-01 - Procedure Legal Basis must be indicated in all notice official languages.</assert>
+		<assert role="ERROR" test="(every $lg in (cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription) = 0">BT-01 - Procedure Legal Basis can only be indicated in a language that is part of the notice official languages.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution">
 		<assert role="ERROR" test="count(cbc:MaximumLotsSubmittedNumeric) &lt; 2">The BT-31 Lots Max Allowed is not repeatable at Procedure level.</assert>
@@ -788,6 +798,35 @@
 		<assert role="ERROR" test="count(efac:Publication/efbc:GazetteID[@schemeName='ojs-id']) &lt; 2">The OPP-011 OJEU Identifier is not repeatable at Notice level.</assert>
 		<assert role="ERROR" test="count(efac:Publication/efbc:PublicationDate) &lt; 2">The OPP-012 OJEU Publication Date is not repeatable at Notice level.</assert>
 		<assert role="ERROR" test="count(efac:NoticeSubType/cbc:SubTypeCode) &lt; 2">The OPP-070 Notice Subtype is not repeatable at Notice level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus">
+		<assert role="ERROR" test="count(efbc:AppealStageCode) &lt; 2">BT-783-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(efbc:AppealStageID) &lt; 2">BT-784-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(efbc:AppealPreviousStageID) &lt; 2">BT-785-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(cbc:Date) &lt; 2">BT-787-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(cbc:Title[@languageID = preceding-sibling::cbc:Title/@languageID]) = 0">The BT-788 - Review Title can only be present once for each language.</assert>
+		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Title/@languageID = $lg) or count(cbc:Title) = 0">BT-788 - Review Title must be indicated in all notice official languages.</assert>
+		<assert role="ERROR" test="(every $lg in (cbc:Title/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Title) = 0">BT-788 - Review Title can only be indicated in a language that is part of the notice official languages.</assert>
+		<assert role="ERROR" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-789 - Review Description can only be present once for each language.</assert>
+		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">BT-789 - Review Description must be indicated in all notice official languages.</assert>
+		<assert role="ERROR" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">BT-789 - Review Description can only be indicated in a language that is part of the notice official languages.</assert>
+		<assert role="ERROR" test="count(efbc:RemedyAmount) &lt; 2">BT-793-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(cbc:URI) &lt; 2">BT-794-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(cbc:FeeAmount) &lt; 2">BT-795-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(efbc:WithdrawnAppealIndicator) &lt; 2">BT-796-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(efbc:WithdrawnAppealDate) &lt; 2">BT-797-Review is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(efbc:WithdrawnAppealReasons[@languageID = preceding-sibling::efbc:WithdrawnAppealReasons/@languageID]) = 0">The BT-798 - Review Request Withdrawn Reasons can only be present once for each language.</assert>
+		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:WithdrawnAppealReasons/@languageID = $lg) or count(efbc:WithdrawnAppealReasons) = 0">BT-798 - Review Request Withdrawn Reasons must be indicated in all notice official languages.</assert>
+		<assert role="ERROR" test="(every $lg in (efbc:WithdrawnAppealReasons/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:WithdrawnAppealReasons) = 0">BT-798 - Review Request Withdrawn Reasons can only be indicated in a language that is part of the notice official languages.</assert>
+		<assert role="ERROR" test="count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode) &lt; 2">BT-799-ReviewBody is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(efac:AppealingParty/efbc:AppealingPartyTypeCode) &lt; 2">OPT-091-ReviewReq is not repeatable at Review level.</assert>
+		<assert role="ERROR" test="count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealProcessingPartyTypeDescription/@languageID]) = 0">The OPT-092 - Party Type Description can only be present once for each language.</assert>
+		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription/@languageID = $lg) or count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription) = 0">OPT-092 - Party Type Description must be indicated in all notice official languages.</assert>
+		<assert role="ERROR" test="(every $lg in (efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription) = 0">OPT-092 - Party Type Description can only be indicated in a language that is part of the notice official languages.</assert>
+		<assert role="ERROR" test="count(efac:AppealingParty/efbc:AppealingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealingPartyTypeDescription/@languageID]) = 0">The OPT-092 - Party Type Description can only be present once for each language.</assert>
+		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efac:AppealingParty/efbc:AppealingPartyTypeDescription/@languageID = $lg) or count(efac:AppealingParty/efbc:AppealingPartyTypeDescription) = 0">OPT-092 - Party Type Description must be indicated in all notice official languages.</assert>
+		<assert role="ERROR" test="(every $lg in (efac:AppealingParty/efbc:AppealingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efac:AppealingParty/efbc:AppealingPartyTypeDescription) = 0">OPT-092 - Party Type Description can only be indicated in a language that is part of the notice official languages.</assert>
+		<assert role="ERROR" test="count(efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID) &lt; 2">OPT-301-ReviewBody is not repeatable at Review level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes">
 		<assert role="ERROR" test="count(efbc:ChangedNoticeIdentifier) &lt; 2">The BT-758 Change Notice Version Identifier is not repeatable at Notice level.</assert>
@@ -956,10 +995,11 @@
 		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efac:AggregatedAmounts/efbc:PaidAmountDescription/@languageID = $lg) or count(efac:AggregatedAmounts/efbc:PaidAmountDescription) = 0">BT-780 - Tender Payment Value Additional Information must be indicated in all notice official languages.</assert>
 		<assert role="ERROR" test="(every $lg in (efac:AggregatedAmounts/efbc:PaidAmountDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efac:AggregatedAmounts/efbc:PaidAmountDescription) = 0">BT-780 - Tender Payment Value Additional Information can only be indicated in a language that is part of the notice official languages.</assert>
 		<assert role="ERROR" test="count(efac:AggregatedAmounts/efbc:PenaltiesAmount) &lt; 2">The BT-782 Tender Penalties is not repeatable at Tender level.</assert>
-		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The BT-3201 Tender Identifier is not repeatable at Tender level.</assert>
+		<assert role="ERROR" test="count(efac:TenderReference/cbc:ID) &lt; 2">The BT-3201 Tender Identifier is not repeatable at Tender level.</assert>
 		<assert role="ERROR" test="count(efac:TenderLot/cbc:ID) &lt; 2">The BT-13714 Tender Lot Identifier is not repeatable at Tender level.</assert>
 		<assert role="ERROR" test="count(efbc:PublicTransportationCumulatedDistance) &lt; 2">The OPP-080 Kilometers Public Transport is not repeatable at Tender level.</assert>
 		<assert role="ERROR" test="count(efac:TenderingParty/cbc:ID) &lt; 2">The OPT-310 Tendering Party ID Reference is not repeatable at Tender level.</assert>
+		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-321 Tender Technical Identifier is not repeatable at Tender level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue">
 		<assert role="ERROR" test="count(efbc:RevenueBuyerAmount) &lt; 2">The BT-160 Concession Revenue Buyer is not repeatable at Tender level.</assert>
@@ -1103,7 +1143,7 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract">
 		<assert role="ERROR" test="count(cbc:IssueDate) &lt; 2">The BT-145 Contract Conclusion Date is not repeatable at Contract level.</assert>
-		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The BT-150 Contract Identifier is not repeatable at Contract level.</assert>
+		<assert role="ERROR" test="count(efac:ContractReference/cbc:ID) &lt; 2">The BT-150 Contract Identifier is not repeatable at Contract level.</assert>
 		<assert role="ERROR" test="count(cbc:URI) &lt; 2">The BT-151 Contract URL is not repeatable at Contract level.</assert>
 		<assert role="ERROR" test="count(cbc:Title[@languageID = preceding-sibling::cbc:Title/@languageID]) = 0">The BT-721 - Contract Title can only be present once for each language.</assert>
 		<assert role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Title/@languageID = $lg) or count(cbc:Title) = 0">BT-721 - Contract Title must be indicated in all notice official languages.</assert>
@@ -1111,6 +1151,7 @@
 		<assert role="ERROR" test="count(efbc:ContractFrameworkIndicator) &lt; 2">The BT-768 Contract Framework Agreement is not repeatable at Contract level.</assert>
 		<assert role="ERROR" test="count(cbc:AwardDate) &lt; 2">The BT-1451 Winner Decision Date is not repeatable at Contract level.</assert>
 		<assert role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ID) &lt; 2">The OPT-100 Framework Notice Identifier is not repeatable at Contract level.</assert>
+		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-316 Contract technical Identifier is not repeatable at Contract level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification">
 		<assert role="ERROR" test="count(efbc:ExtendedDurationIndicator) &lt; 2">The OPP-020 Assets related contract extension indicator is not repeatable at Contract level.</assert>
@@ -1135,15 +1176,15 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty">
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-210 Tendering Party ID is not repeatable at Tenderer level.</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor">
-		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-301 Subcontractor ID Reference is not repeatable at Tenderer level.</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer">
 		<assert role="ERROR" test="count(efbc:GroupLeadIndicator) &lt; 2">The OPT-170 Tendering Party Leader  is not repeatable at Tenderer level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization">
 		<assert role="ERROR" test="count(efbc:NaturalPersonIndicator) &lt; 2">The BT-633 Organization Natural Person is not repeatable at Organization level.</assert>
 		<assert role="ERROR" test="count(efbc:ListedOnRegulatedMarketIndicator) &lt; 2">The BT-746 Winner Listed is not repeatable at Organization level.</assert>
+		<assert role="ERROR" test="count(efbc:GroupLeadIndicator) &lt; 2">The OPP-050 Buyers Group Lead Indicator is not repeatable at Organization level.</assert>
+		<assert role="ERROR" test="count(efbc:AwardingCPBIndicator) &lt; 2">The OPP-051 Awarding CPB Buyer Indicator is not repeatable at Organization level.</assert>
+		<assert role="ERROR" test="count(efbc:AcquiringCPBIndicator) &lt; 2">The OPP-052 Acquiring CPB Buyer Indicator is not repeatable at Organization level.</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company">
 		<assert role="ERROR" test="count(cac:PostalAddress/cbc:Department) &lt; 2">The BT-16 Part Name is not repeatable at Organization level.</assert>
@@ -1202,7 +1243,7 @@
 		<assert role="ERROR" test="count(cbc:FirstName) &lt; 2">The OPT-160 First Name is not repeatable at UBO level.</assert>
 		<assert role="ERROR" test="count(cbc:ID) &lt; 2">The OPT-202 Beneficial Owner Technical Identifier is not repeatable at UBO level.</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[(cbc:ID/@schemeName='celex') or (cbc:ID/@schemeName='ELI') or (cbc:ID/text()='LocalLegalBasis')]/cbc:DocumentDescription">
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription">
 		<assert role="ERROR" test="@languageID">The BT-01 Procedure Legal Basis (text) must be translated at Procedure level.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription">
@@ -1526,7 +1567,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason/efbc:ReasonDescription">
 		<assert role="ERROR" test="@languageID">The BT-762 Change Reason Description must be translated at Notice level.</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(descendant::cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description">
 		<assert role="ERROR" test="@languageID">The BT-772 Late Tenderer Information Description must be translated at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='strategic-procurement']/cbc:ProcurementType">
@@ -1534,6 +1575,18 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PaidAmountDescription">
 		<assert role="ERROR" test="@languageID">The BT-780 Tender Payment Value Additional Information must be translated at Tender level.</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:Description">
+		<assert role="ERROR" test="@languageID">BT-781-Lot must be translated at Review level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Title">
+		<assert role="ERROR" test="@languageID">BT-788-Review must be translated at Review level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Description">
+		<assert role="ERROR" test="@languageID">BT-789-Review must be translated at Review level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealReasons">
+		<assert role="ERROR" test="@languageID">BT-798-Review must be translated at Review level.</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReason">
 		<assert role="ERROR" test="@languageID">The BT-1351 Procedure Accelerated Justification must be translated at Procedure level.</assert>
@@ -1561,5 +1614,11 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='customer-service']/cbc:Description">
 		<assert role="ERROR" test="@languageID">The OPT-072 Quality Target Description must be translated at Lot level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription">
+		<assert role="ERROR" test="@languageID">OPT-092-ReviewBody must be translated at Review level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/efbc:AppealingPartyTypeDescription">
+		<assert role="ERROR" test="@languageID">OPT-092-ReviewReq must be translated at Review level.</assert>
 	</rule>
 </pattern>

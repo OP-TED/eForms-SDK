@@ -60,6 +60,9 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderReference>
+								<cbc:ID>ABC DEF-2020-01</cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
@@ -75,11 +78,27 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderReference>
+								<cbc:ID>ABC DEF/2020-07</cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:AwardDate>2020-02-19+01:00</cbc:AwardDate>
 							<cbc:Title languageID="ENG">Concession Contract for the Supply of Enforcement Agency Services (Call-off from the YPO Enforcement Services DPS — 774)</cbc:Title>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organisation">ORG-0003</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<efac:ContractReference>
+								<cbc:ID>DF JDHF/2020-05</cbc:ID>
+							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
@@ -88,6 +107,19 @@
 							<cbc:ID schemeName="contract">CON-0002</cbc:ID>
 							<cbc:AwardDate>2020-02-19+01:00</cbc:AwardDate>
 							<cbc:Title languageID="ENG">Concession Contract for the Supply of Enforcement Agency Services (Call-off from the YPO Enforcement Services DPS — 774)</cbc:Title>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<cac:SignatoryParty>
+								<cac:PartyIdentification>
+									<cbc:ID schemeName="organisation">ORG-0004</cbc:ID>
+								</cac:PartyIdentification>
+							</cac:SignatoryParty>
+							<efac:ContractReference>
+								<cbc:ID>DF DFGH/2020-07</cbc:ID>
+							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							</efac:LotTender>
@@ -236,7 +268,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>f4308a76-5393-477c-ba91-f4c9fb8818a6</cbc:ID>
 	<cbc:ContractFolderID>37f6106b-c2e1-45f1-b88a-14888693ee36</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-10+01:00</cbc:IssueDate>
@@ -249,6 +281,9 @@
 		<cbc:BuyerProfileURI>https://tendering.ypo.co.uk/procontract/ypo/supplier.nsf/frm_home?ReadForm</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
@@ -317,6 +352,11 @@
 					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="ENG">The Council will incorporate a minimum 10 calendar day standstill period at the point when information on the award of the contract is communicated to tenderers. If an appeal regarding the award of a contract has not been successfully resolved the Concession Contracts Regulations 2016 provide for aggrieved parties who have been harmed or are at risk of harm by a breach of the rules to take action in the High Court (England, Wales and Northern Ireland).</cbc:Description>
@@ -342,6 +382,7 @@
 			<cbc:ID>DPS — 774</cbc:ID>
 			<cbc:Name languageID="ENG">Concession Contract for the Supply of Enforcement Agency Services (Call-off from the YPO Enforcement Services DPS — 774)</cbc:Name>
 			<cbc:Description languageID="ENG">Wakefield Council is looking to award two services concession contracts under this call-off from the YPO Enforcement Services DPS – 774 in compliance with CCR 16. Under the concession contracts the Council will entrust the provision of the enforcement agency services to concessionaires in relation to debts accruing regarding non-payment of the following: • Council, • Tax Business Rates, • BID Levy, • civil parking enforcement, • overpaid housing benefits debt recovery, • Sundry Income Debt Recovery including High Court Enforcement, • Miscellaneous Debt Recovery together with the following ancillary services, • tracing service. The Council is looking to appoint one supplier for first line referrals and a different supplier for second line referrals under services concession contracts. Successful suppliers must be able to provide all of the above-mentioned services which will be described in more detail in the tender documents to be published under the call for competition. All first line referrals will be awarded to the highest scoring bidder following the evaluation. All second line referrals will be awarded to the 2nd highest scoring bidder.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 			<cbc:Note languageID="ENG">Pricing is as set out in the Taking Control of Goods (Fees) Regulations 2014. Prices for ancillary service requirements are as stated in the tender documents. Terms and conditions: the Council has opted to use its own terms and conditions. The terms and conditions are as stated in the tender documents.</cbc:Note>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">75242110</cbc:ItemClassificationCode>

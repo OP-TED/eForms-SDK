@@ -115,7 +115,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>d1a2e651-b32f-4606-a5dd-d180bab20be1</cbc:ID>
 	<cbc:ContractFolderID>e3cdabf1-e057-47a5-9210-b1f6fc757228</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-30+01:00</cbc:IssueDate>
@@ -210,24 +210,10 @@
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
-		<cbc:UrgencyCode>urgent</cbc:UrgencyCode>
-		<cbc:AccessToolsURI>https://hmlandregistry.force.com</cbc:AccessToolsURI>
-		<cac:TenderSubmissionDeadlinePeriod>
-			<cbc:EndDate>2020-04-29+01:00</cbc:EndDate>
-			<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
-		</cac:TenderSubmissionDeadlinePeriod>
-		<cac:InvitationSubmissionPeriod>
-			<cbc:StartDate>2020-05-22+02:00</cbc:StartDate>
-		</cac:InvitationSubmissionPeriod>
-		<cac:NoticeDocumentReference>
-			<cbc:ID>CO591</cbc:ID>
-			<cbc:ReferencedDocumentInternalAddress>ref123</cbc:ReferencedDocumentInternalAddress>
-		</cac:NoticeDocumentReference>
 		<cac:ProcessJustification>
 			<cbc:ProcessReasonCode listName="accelerated-procedure">true</cbc:ProcessReasonCode>
 			<cbc:ProcessReason languageID="ENG">The needs of the contracting authority cannot be met without adaptation of ready available solutions.</cbc:ProcessReason>
 		</cac:ProcessJustification>
-		<cac:ContractingSystem></cac:ContractingSystem>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>CO591</cbc:ID>
@@ -306,6 +292,17 @@
 					<cbc:Description languageID="ENG">Price is not the only award criterion and all criteria are stated only in the procurement documents</cbc:Description>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://hmlandregistry.force.com</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
 			<cac:TenderValidityPeriod>
 				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
 			</cac:TenderValidityPeriod>
@@ -336,6 +333,14 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://hmlandregistry.force.com</cbc:AccessToolsURI>
+			<cac:InvitationSubmissionPeriod>
+				<cbc:StartDate>2020-04-22+02:00</cbc:StartDate>
+			</cac:InvitationSubmissionPeriod>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2020-04-29+01:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>10</cbc:MaximumQuantity>

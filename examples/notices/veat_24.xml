@@ -25,11 +25,17 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderReference>
+								<cbc:ID>FGH ABC-2020-02</cbc:ID>
+							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:AwardDate>2020-04-15+02:00</cbc:AwardDate>
 							<cbc:Title languageID="ENG">Supply of Profiling Beds with Accessories, Pressure Relieving Mattresses and Cushions</cbc:Title>
+							<efac:ContractReference>
+								<cbc:ID>RN AAT-345/02/SC</cbc:ID>
+							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
@@ -38,12 +44,15 @@
 							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							<efac:Tenderer>
 								<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
 							</efac:Tenderer>
 							<efac:Tenderer>
 								<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
 							</efac:Tenderer>
 							<efac:Tenderer>
 								<cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+								<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>
@@ -219,7 +228,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>6ea164b2-228c-4ae8-b3b5-26f3946b8300</cbc:ID>
 	<cbc:ContractFolderID>da39bc05-2d42-4d37-aa4f-2dc9937911a0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
@@ -321,6 +330,7 @@
 			<cbc:Name languageID="ENG">DN140070</cbc:Name>
 			<cbc:Description languageID="ENG">Beds are to be used in a community setting and must be electrically powered with a range of bed rails, bed rail bumpers and grab handles. Beds size to range from single to bariatric mattresses must be supplied in a range of sizes up to and including king size. Mattresses are to be supplied in the range listed below:
 			Foam Visco/Gel Hybrid (Foam/Air) Alternating Air.</cbc:Description>	
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>

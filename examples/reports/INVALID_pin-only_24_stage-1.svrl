@@ -56,10 +56,8 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms[$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
    <svrl:fired-rule context="/*[$noticeSubType = '4']"/>
    <svrl:failed-assert location="/PriorInformationNotice"
@@ -71,6 +69,11 @@
                        role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice"
+                       role="ERROR"
+                       test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '4']"/>
@@ -106,22 +109,11 @@
       <svrl:text>The BT-514 Country Code is mandatory at Organization level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '4']"/>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
-                       role="ERROR"
-                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '4']"/>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
                        role="ERROR"
                        test="count(cbc:ServiceTypeCode) &gt; 0">
       <svrl:text>The OPT-030 Provided Service Type is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
-                       role="ERROR"
-                       test="count(cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-300 Service Provider Technical Identifier Reference is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '4']"/>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProject"
@@ -131,20 +123,40 @@
    </svrl:failed-assert>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProject"
                        role="ERROR"
+                       test="count(cbc:ProcurementTypeCode) &gt; 0">
+      <svrl:text>BT-23 Main Nature is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProject"
+                       role="ERROR"
                        test="count(cbc:Description) &gt; 0">
       <svrl:text>The BT-24 Description is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty[$noticeSubType = '4']"/>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms[$noticeSubType = '4']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
-                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
+                       test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>the OPT-301 Additional Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="WARN"
+                       test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>When it exists, the OPT-301 Tender Recipient Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '4']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+                       role="ERROR"
+                       test="count(cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>The OPT-301 Review Organization Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty[$noticeSubType = '4']"/>
-   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
-                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
+                       test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>the OPT-301 Review Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+                       role="ERROR"
+                       test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>The OPT-301 Mediator Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '4']"/>
@@ -152,6 +164,11 @@
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
       <svrl:text>The BT-21 Title is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) &gt; 0">
+      <svrl:text>BT-23 Main Nature is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
@@ -167,8 +184,7 @@
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject"/>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
@@ -201,6 +217,7 @@
       <svrl:text>The BT-137 Purpose Lot Identifier must match the 'PartID' pattern at Part level.</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="//cac:ProcurementProject"/>

@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NoticeType</ShortName>
+      <LongName>notice-type</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
+      <Version>20210929-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/notice-type</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>brin-ecs</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>European Company / European Cooperative Society notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>European Company / European Cooperative Society notice</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>brin-eeig</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>European Economic Interest Grouping notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>European Economic Interest Grouping notice</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>can-desg</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Design contest result notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за резултата от конкурс за проект</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o výsledku soutěže o návrh</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om resultater af projektkonkurrence</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung der Wettbewerbsergebnisse</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση αποτελεσμάτων διαγωνισμού μελετών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Design contest result notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de concurso de proyectos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ideekonkursi tulemuse teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus suunnittelukilpailun tuloksista</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de résultats de concours</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faoi thorthaí an chomórtais dearaidh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o rezultatima projektnog natječaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tervpályázat eredményéről szóló hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Comunicazione dei risultati di un concorso di progettazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie projekto konkurso rezultatus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par metu konkursa rezultātiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-konkors tad-disinn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van de uitslag van een prijsvraag voor ontwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o wynikach konkursu</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio dos resultados do concurso de conceção</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind rezultatul concursului de proiecte</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o výsledku súťaže návrhov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o rezultatih projektnega natečaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om resultat av projekttävling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>can-modif</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Contract modification notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за изменение на договор</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o změně smlouvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om kontraktændring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung der Auftragsänderungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση τροποποίησης σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Contract modification notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de modificación de contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu muutmise teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintasopimuksen muuttamista koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de modification de marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le mionathrú conartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o izmjeni ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szerződésmódosításról szóló hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di modifica di un appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie sutarties keitimą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līguma grozījumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-modifika fil-kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van wijziging contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o modyfikacji umowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de modificação do contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de modificare a contractului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o úprave zmluvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o spremembi naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om ändring av kontrakt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>can-social</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Contract or concession award notice – light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за възложена поръчка или концесия – облекчен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o výsledku zadávacího nebo koncesního řízení – zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om indgåede kontrakter eller koncessionstildeling – den lempelige ordning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung vergebener Aufträge oder Zuschlagsbekanntmachung – Sonderregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση συναφθείσας σύμβασης ή σύμβασης παραχώρησης — απλουστευμένο καθεστώς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Contract or concession award notice – light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de adjudicación de contrato o concesión. Régimen simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise või kontsessiooni andmise teade – lihtsustatud kord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoitus tai käyttöoikeussopimusta koskeva ilmoitus – kevennetty järjestely</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis d’attribution de marché ou de concession – régime assoupli</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le dámhachtain conartha nó lamháltais — an córas éadrom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o dodjeli ugovora ili koncesije – blagi režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tájékoztató az eljárás eredményéről vagy koncesszió odaítéléséről – enyhébb szabályozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di aggiudicazione di un appalto o di una concessione – regime alleggerito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie sutarties arba koncesijos skyrimą. Paprastesnis režimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līguma slēgšanas tiesību vai koncesijas piešķiršanu — atvieglotais režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-għoti tal-kuntratt jew tal-konċessjoni – reġim ħafif</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een gegunde opdracht of concessie – lichte regeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o udzieleniu zamówienia lub ogłoszenie o udzieleniu koncesji – tryb uproszczony</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de adjudicação de contrato ou de concessão — regime simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de atribuire a contractului sau a concesiunii - regim simplificat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o výsledku verejného obstarávania alebo oznámenie o udelení koncesie – zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o podelitvi koncesije ali oddaji naročila – enostavnejša ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om upphandlings- eller koncessionstilldelning – förenklat system</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>can-standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Contract or concession award notice – standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за възложена поръчка или концесия – стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o výsledku zadávacího nebo koncesního řízení – standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om indgåede kontrakter eller koncessionstildeling – standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung vergebener Aufträge oder Zuschlagsbekanntmachung – Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση ανάθεσης σύμβασης ή ανάθεσης σύμβασης παραχώρησης — τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Contract or concession award notice – standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de adjudicación de contrato o concesión. Régimen normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise või kontsessiooni andmise teade – üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jälki-ilmoitus tai käyttöoikeussopimusta koskeva jälki-ilmoitus – vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis d’attribution de marché ou de concession – régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le dámhachtain conartha nó lamháltais — an gnáthchóras</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o dodjeli ugovora ili koncesije – standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tájékoztató az eljárás eredményéről vagy koncesszió odaítéléséről – klasszikus ajánlatkérőkre vonatkozó szabályok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di aggiudicazione di un appalto o di una concessione – regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie sutarties arba koncesijos skyrimą. Įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līguma slēgšanas tiesību vai koncesijas piešķiršanu — standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-għoti tal-kuntratt jew tal-konċessjoni – reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een gegunde opdracht of concessie – standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o udzieleniu zamówienia lub ogłoszenie o udzieleniu koncesji – tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de adjudicação de contrato ou de concessão — regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de atribuire a contractului sau a concesiunii - regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o výsledku verejného obstarávania alebo oznámenie o udelení koncesie – štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o podelitvi koncesije ali oddaji naročila – standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om upphandlings- eller koncessionstilldelning – standardsystem</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>can-tran</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Contract award notice for public passenger transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Contract award notice for public passenger transport services</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cei</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Call for expressions of interest</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cn-desg</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Design contest notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за конкурс за проект</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o soutěži o návrh</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om projektkonkurrence</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wettbewerbsbekanntmachung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη διαγωνισμού μελετών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Design contest notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de concurso de proyectos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ideekonkursi kutse</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Suunnittelukilpailua koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de concours</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faoi chomórtas dearaidh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o projektnom natječaju</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tervpályázati hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso o bando di concorso di progettazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie projekto konkursą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par metu konkursu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-konkors tad-disinn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een prijsvraag voor ontwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o konkursie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concurso para trabalhos de conceção</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de concurs de proiecte</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o vyhlásení súťaže návrhov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o projektnem natečaju</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om projekttävling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cn-social</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Contract notice – light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за поръчка – облекчен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zahájení zadávacího řízení – zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbudsbekendtgørelse – den lempelige ordning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Auftragsbekanntmachung – Sonderregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη σύμβασης — απλουστευμένο καθεστώς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Contract notice – light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de contrato. Régimen simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanketeade – lihtsustatud kord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoitus – kevennetty järjestely</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de marché – régime assoupli</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra conartha – an córas éadrom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o nadmetanju – blagi režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Eljárást megindító hirdetmény – enyhébb szabályozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bando di gara – regime alleggerito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie pirkimą. Paprastesnis režimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līgumu — atvieglotais režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-kuntratt – reġim ħafif</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een opdracht – lichte regeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o zamówieniu – tryb uproszczony</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concurso — regime simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de participare - regim simplificat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o vyhlásení verejného obstarávania – zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o naročilu – enostavnejša ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om upphandling – förenklat system</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cn-standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Contract or concession notice – standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за поръчка или концесия – стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zahájení zadávacího nebo koncesního řízení – standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbuds- eller koncessionsbekendtgørelse – standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Auftrags- oder Konzessionsbekanntmachung – Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη σύμβασης ή σύμβασης παραχώρησης — τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Contract or concession notice – standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de contrato o de concesión. Régimen normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanketeade või kontsessiooniteade – üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoitus tai käyttöoikeussopimusta koskeva ilmoitus – vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de marché ou de concession – régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le conradh nó lamháltas — an gnáthchóras</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o nadmetanju ili koncesiji – standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Eljárást megindító vagy koncessziós hirdetmény – klasszikus ajánlatkérőkre vonatkozó szabályok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bando di gara o di concessione – regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie pirkimą arba koncesiją. Įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līgumu vai paziņojums par koncesiju — standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-kuntratt jew tal-konċessjoni – reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een opdracht of concessie – standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o zamówieniu lub ogłoszenie o koncesji – tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de adjudicação de contrato ou de concessão — regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de participare sau de concesionare - regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o vyhlásení verejného obstarávania alebo oznámenie o koncesii – štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o koncesiji ali naročilu – standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om upphandling eller koncession – standardsystem</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>corr</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Change notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за промяна</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení oprav</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Meddelelse om ændring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Änderungsbekanntmachung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση αλλαγών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Change notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de cambios</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Paranduse teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoituksen muutos</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de changement</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le hathrú</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o promjeni</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Változtatásról szóló hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di rettifica</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie pakeitimą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Izmaiņu paziņojums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-bidla</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bericht van wijziging van een aankondiging</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o zmianie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de alteração</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de schimbare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o zmene</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o spremembi obvestila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om ändring</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-buyer</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Notice of the publication of a prior information notice or a periodic information notice on a buyer profile</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за публикуването на обявление за предварителна информация или периодично индикативно обявление в профил на купувача</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o uveřejnění předběžného oznámení nebo pravidelného předběžného oznámení na profilu kupujícího</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om offentliggørelse af en forhåndsmeddelelse eller en vejledende periodisk bekendtgørelse i en køberprofil</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung der Veröffentlichung einer Vorinformation oder einer regelmäßigen nicht verbindlichen Bekanntmachung in einem Beschafferprofil</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση της δημοσίευσης προκαταρκτικής προκήρυξης ή περιοδικής ενημερωτικής προκήρυξης για προφίλ αγοραστή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Notice of the publication of a prior information notice or a periodic information notice on a buyer profile</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de la publicación de un anuncio de información previa o de un anuncio periódico indicativo en un perfil de comprador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teade eelteate või perioodilise eelteate avaldamise kohta hankija profiilis</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus ennakkoilmoituksen tai ohjeellisen kausi-ilmoituksen julkaisemisesta hankkijaprofiilissa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis annonçant la publication d’un avis de préinformation ou d’un avis périodique indicatif sur un profil d’acheteur</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le foilsiú fógra faisnéise roimh ré nó fógra faisnéise tréimhsiúil i dtaobh próifíl cheannaitheora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o objavi prethodne informacijske obavijesti ili periodične informativne obavijesti na profilu kupca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Előzetes tájékoztató vagy időszakos előzetes tájékoztató felhasználói oldalon történő közzétételéről szóló hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di pubblicazione di un avviso di preinformazione o di un avviso periodico indicativo relativo al profilo di committente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pranešimas apie skelbiamą išankstinį informacinį skelbimą arba reguliarų orientacinį skelbimą pirkėjo profilyje</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par iepriekšējā informatīvā paziņojuma vai periodiskā informatīvā paziņojuma publicēšanu pircēja profilā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-pubblikazzjoni ta’ avviż informattiv minn qabel jew ta’ avviż informattiv perjodiku fuq profil ta’ xerrej</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van de bekendmaking van een vooraankondiging of een periodieke indicatieve aankondiging via een kopersprofiel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o publikacji wstępnego ogłoszenia informacyjnego lub okresowego ogłoszenia informacyjnego na profilu nabywcy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de publicação de um anúncio de pré-informação ou de um anúncio periódico indicativo sobre um perfil de adquirente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind publicarea unui anunț de intenție sau a unui anunț periodic de informare privind profilul unui cumpărător</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o uverejnení predbežného oznámenia a pravidelného informatívneho oznámenia v profile kupujúceho</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o objavi predhodnega informativnega obvestila ali periodičnega informativnega obvestila v profilu kupca</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om offentliggörande av ett förhandsmeddelande på upphandlarprofil</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-cfc-social</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prior information notice or a periodic indicative notice used as a call for competition – light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация или периодично индикативно обявление, използвани като покана за участие в състезателна процедура – облекчен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení nebo pravidelné předběžné oznámení použité jako výzva k účasti v soutěži – zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt som indkaldelser af tilbud – den lempelige ordning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung als Aufruf zum Wettbewerb – Sonderregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για προκήρυξη διαγωνισμού – απλουστευμένο καθεστώς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Prior information notice or a periodic indicative notice used as a call for competition – light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa o anuncio periódico indicativo usado como convocatoria de licitación. Régimen simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke väljakuulutamiseks kasutatav eelteade või perioodiline eelteade – lihtsustatud kord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjouskilpailukutsuna käytettävä ennakkoilmoitus tai ohjeellinen kausi-ilmoitus – kevennetty järjestely</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation ou avis périodique indicatif utilisé comme appel à la concurrence – régime assoupli</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise nó fógra táscach tréimhsiúil lena ndéantar glao ar iomaíocht – an córas éadrom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena kao poziv na nadmetanje – blagi režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlati/részvételi felhívásként használt előzetes tájékoztató vagy időszakos előzetes tájékoztató – enyhébb szabályozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione o avviso periodico indicativo utilizzato come avviso di indizione di gara – regime alleggerito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas kaip kvietimas dalyvauti konkurse. Paprastesnis režimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto iepirkuma izsludināšanai — atvieglotais režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat għal sejħa għall-kompetizzjoni – reġim ħafif</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging of periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – lichte regeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – tryb uproszczony</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação ou anúncio periódico indicativo utilizado como anúncio de concurso — regime simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție sau anunț orientativ periodic utilizat ca procedură concurențială de ofertare - regim simplificat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predbežné oznámenie alebo pravidelné informatívne oznámenie použité ako výzva na súťaž – zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja kot javni razpis – enostavnejša ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används som anbudsinfordran – förenklat system</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-cfc-standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prior information notice or a periodic indicative notice used as a call for competition – standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация или периодично индикативно обявление, използвани като покана за участие в състезателна процедура – стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení nebo pravidelné předběžné oznámení použité jako výzva k účasti v soutěži – standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt som indkaldelser af tilbud – standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung als Aufruf zum Wettbewerb – Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για προκήρυξη διαγωνισμού – τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Prior information notice or a periodic indicative notice used as a call for competition – standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa o anuncio periódico indicativo usado como convocatoria de licitación. Régimen normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke väljakuulutamiseks kasutatav eelteade või perioodiline eelteade – üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjouskilpailukutsuna käytettävä ennakkoilmoitus tai ohjeellinen kausi-ilmoitus – vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation ou avis périodique indicatif utilisé comme appel à la concurrence – régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil lena ndéantar glao ar iomaíocht – an gnáthchóras</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena kao poziv na nadmetanje – standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlati/részvételi felhívásként használt előzetes tájékoztató vagy időszakos előzetes tájékoztató – klasszikus ajánlatkérőkre vonatkozó szabályok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione o avviso periodico indicativo utilizzato come avviso di indizione di gara – regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas kaip kvietimas dalyvauti konkurse. Įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto iepirkuma izsludināšanai — standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat għal sejħa għall-kompetizzjoni – reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging of periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação ou anúncio periódico indicativo utilizado como anúncio de concurso — regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție sau anunț orientativ periodic utilizat ca procedură concurențială de ofertare - regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predbežné oznámenie a pravidelné informatívne oznámenie použité ako výzva na súťaž – štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja kot javni razpis – standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används som anbudsinfordran – standardsystem</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-only</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prior information notice or a periodic indicative notice used only for information</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация или периодично индикативно обявление, използвани само за информация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení nebo pravidelné předběžné oznámení použité pouze pro informační účely</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der kun er anvendt til informationsformål</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung nur zu Informationszwecken</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για ενημέρωση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Prior information notice or a periodic indicative notice used only for information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa o anuncio periódico indicativo usado únicamente para información</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ainult teavitamise eesmärgil kasutatav eelteade või perioodiline eelteade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus tai ohjeellinen kausi-ilmoitus vain tietotarkoituksiin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation ou avis périodique indicatif utilisé uniquement à titre d’information</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil ar mhaithe le faisnéis amháin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena samo u informativne svrhe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kizárólag tájékoztatás céljából használt előzetes tájékoztató vagy időszakos előzetes tájékoztató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione o avviso periodico indicativo a fini unicamente informativi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, skirtas tik informavimui</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto tikai informācijai</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biss għall-informazzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging of periodieke indicatieve aankondiging die alleen ter informatie wordt gebruikt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane wyłącznie do celów informacyjnych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação ou anúncio periódico indicativo utilizado apenas a título informativo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție sau anunț orientativ periodic utilizat numai pentru informare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predbežné oznámenie a pravidelné informatívne oznámenie použité len na informačné účely</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja samo za obveščanje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som endast används i informationssyfte</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-rtl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация или периодично индикативно обявление, използвани за съкращаване на сроковете за получаване на офертите</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení nebo pravidelné předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt til at afkorte tidsfrister for modtagelse af tilbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung zum Zweck der Verkürzung der Frist für den Eingang der Angebote</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική διακήρυξη που χρησιμοποιείται για τη συντόμευση των προθεσμιών παραλαβής των προσφορών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa o anuncio periódico indicativo usado para reducir los plazos de recepción de las ofertas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Eelteade või perioodiline eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus tai ohjeellinen kausi-ilmoitus tarjousaikojen lyhentämistä varten</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation ou avis périodique indicatif utilisé pour raccourcir les délais de réception des offres</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil lena ngearrtar na teorainneacha ama le tairiscintí a fháil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena za skraćivanje rokova za zaprimanje ponuda</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló előzetes tájékoztató vagy időszakos előzetes tájékoztató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione o avviso periodico indicativo utilizzato per abbreviare i termini per la ricezione delle offerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas siekiant sutrumpinti pasiūlymų priėmimo terminą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto, lai saīsinātu piedāvājumu saņemšanas termiņus</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biex jitqassru l-limiti ta’ żmien għall-wasla tal-offerti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging of periodieke indicatieve aankondiging gebruikt om termijnen voor de ontvangst van inschrijvingen in te korten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane do skrócenia terminu składania ofert</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação ou anúncio periódico indicativo utilizado para encurtar os prazos de receção das propostas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție sau anunț orientativ periodic utilizat pentru scurtarea termenelor de primire a ofertelor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predbežné oznámenie a pravidelné informatívne oznámenie použité na skrátenie lehôt na prijímanie ponúk</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predhodno informativno obvestilo ali periodično informativno obvestilo, predhodno informativno obvestilo kot sredstvo za skrajšanje rokov za prejem ponudb</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-tran</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prior information notice for public passenger transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Prior information notice for public passenger transport services</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>qu-sy</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Notice on the existence of a qualification system</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за съществуването на квалификационна система</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zavedení systému kvalifikace</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om anvendelse af en kvalifikationsordning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung über das Bestehen eines Prüfungssystems</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση για την ύπαρξη συστήματος προεπιλογής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Notice on the existence of a qualification system</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de la existencia de un sistema de calificación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kvalifitseerimissüsteemi teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kelpuuttamisjärjestelmää koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis sur l’existence d’un système de qualification</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le córas cáiliúcháin a bheith ann</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o postojanju kvalifikacijskog sustava</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Előminősítési rendszer meglétéről szóló hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso sull'esistenza di un sistema di qualificazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie kvalifikacijos vertinimo sistemą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par kvalifikācijas sistēmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż dwar l-eżistenza ta’ sistema ta’ kwalifika</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging inzake het bestaan van een erkenningsregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o istnieniu systemu kwalifikowania</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio relativo à existência de um sistema de qualificação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind existența unui sistem de calificare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o existencii kvalifikačného systému</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o vzpostavitvi kvalifikacijskega sistema</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om att det finns ett kvalificeringssystem</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subco</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за поръчка за подизпълнение</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o subdodávkách</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om underentreprise</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung der Vergabe von Unteraufträgen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη υπεργολαβίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Subcontracting notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de subcontratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Allhanke teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alihankintaa koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de sous-traitance</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le fochonrú</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Poziv na podugovaranje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Alvállalkozói hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di subappalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie subrangą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par apakšuzņēmuma līgumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tas-sottokuntrattar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een opdracht in onderaanneming</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o podwykonawstwie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de subcontratação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de subcontractare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o zadaní subdodávok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o oddaji naročil podizvajalcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>veat</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Voluntary ex-ante transparency notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за доброволна прозрачност ex ante</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o dobrovolné průhlednosti ex ante</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse med henblik på frivillig forudgående gennemsigtighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Ex-ante-Transparenzbekanntmachung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη για εκούσια εκ των προτέρων διαφάνεια</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Voluntary ex-ante transparency notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de transparencia previa voluntaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik eelnev avalikustamisteade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoista ex ante -avoimuutta koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis en cas de transparence ex ante volontaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra trédhearcachta ex ante deonach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest za dobrovoljnu ex ante transparentnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario per la trasparenza ex ante</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas ex-ante skelbimas skaidrumo sumetimais</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgas ex ante pārskatāmības paziņojums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tat-trasparenza ex ante volontarju</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging in geval van vrijwillige transparantie vooraf</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o dobrowolnej przejrzystości ex ante</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de transparência ex ante</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de transparență ex ante voluntară</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie pre dobrovoľnú transparentnosť ex-ante</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Prostovoljno obvestilo za predhodno transparentnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om frivillig förhandsinsyn</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

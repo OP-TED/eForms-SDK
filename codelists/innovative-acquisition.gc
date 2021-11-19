@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>InnovativeAcquisition</ShortName>
+      <LongName>innovative-acquisition</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/innovative-acquisition</LongName>
+      <Version>20190918-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/innovative-acquisition</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>buy-eff</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The procured works, supplies or services are likely to make the work of the buyer more effective.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Строителството, доставките или услугите, които са предмет на поръчката, вероятно ще повишат ефективността на работата на купувача.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pořizované stavební práce, dodávky nebo služby mohou zefektivnit práci kupujícího.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De indkøbte bygge- og anlægsarbejder, vareleverancer eller tjenesteydelser vil sandsynligvis gøre købers arbejde mere effektivt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die in Auftrag gegebenen Bauleistungen, Lieferungen oder Dienstleistungen dürften die Wirksamkeit der Arbeit des Beschaffers erhöhen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τα έργα, τα αγαθά ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης είναι πιθανό να καταστήσουν το έργο του αγοραστή πιο αποτελεσματικό.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The procured works, supplies or services are likely to make the work of the buyer more effective.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las obras, suministros o servicios contratados pueden hacer que el trabajo del comprador sea más eficaz.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hangitud ehitustööd, asjad või teenused muudavad tõenäoliselt hankija töö tõhusamaks.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankitut urakat, tavarat tai palvelut todennäköisesti tehostavat ostajan työtä.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Les travaux, fournitures ou services acquis sont susceptibles de rendre le travail de l’acheteur plus efficace.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is dócha go bhfágfaidh na hoibreacha, na soláthairtí nó na seirbhísí atáthar a sholáthar go mbeidh obair an cheannaitheora níos éifeachtaí.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zbog radova, robe ili usluga koji se nabavljaju kupac će vjerojatno biti učinkovitiji.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beszerzett építési beruházás, áruk vagy szolgáltatások valószínűleg hatékonyabbá fogják tenni a vevő munkáját.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>I lavori, le forniture o i servizi oggetto dell'appalto renderanno probabilmente più efficace il lavoro del committente.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tikėtina, kad dėl perkamų darbų, prekių ar paslaugų pirkėjo darbas taps veiksmingesnis.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirktie būvdarbi, piegādes vai pakalpojumi, visticamāk, uzlabos pircēja darbu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xogħlijiet, il-provvisti jew is-servizzi akkwistati x’aktarx li jwasslu biex ix-xogħol tax-xerrej ikun iktar effettiv.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De aanbestede werken, leveringen of diensten zullen de werkzaamheden van de koper waarschijnlijk doeltreffender maken.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamawiane roboty budowlane, dostawy lub usługi mogą zwiększyć skuteczność działania nabywcy.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>As obras, fornecimentos ou serviços adjudicados são suscetíveis de tornar o trabalho do adquirente mais eficaz.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Este probabil ca lucrările, bunurile sau serviciile achiziționate să îmbunătățească eficacitatea activității cumpărătorului.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Obstarávané stavebné práce, dodávky tovaru alebo služby pravdepodobne zvýšia efektívnosť práce kupujúceho.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zaradi gradnje, blaga ali storitev, ki so predmet javnega naročila, bo kupec verjetno učinkovitejši.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De upphandlade byggentreprenaderna, varorna eller tjänsterna kommer sannolikt att göra upphandlarens arbete mer effektivt.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>fp-requ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The technical specifications are primarily based on functional and performance requirements, not on describing the technical solution.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Техническите спецификации се основават главно на функционални изисквания и изисквания за работните характеристики, а не на описание на.техническото решение.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Technické specifikace jsou založeny především na funkčních požadavcích a požadavcích na výkon, nikoli na popisu technického řešení.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De tekniske specifikationer er hovedsaglig baseret på funktionelle krav og præstationskrav og ikke på at beskrive den tekniske løsning.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die technischen Spezifikationen beruhen in erster Linie auf den Funktions- und Leistungsanforderungen und nicht auf der Beschreibung der technischen Lösung.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οι τεχνικές προδιαγραφές βασίζονται κατά κύριο λόγο σε λειτουργικές απαιτήσεις και απαιτήσεις επιδόσεων και όχι στην περιγραφή της τεχνικής λύσης.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The technical specifications are primarily based on functional and performance requirements, not on describing the technical solution.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las especificaciones técnicas se basan principalmente en requisitos funcionales y de rendimiento, no en la descripción de la solución técnica.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tehnilised kirjeldused põhinevad eelkõige funktsionaalsetel nõuetel ja kasutusomadustel, mitte tehnilise lahenduse kirjeldusel.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tekniset eritelmät perustuvat ensisijaisesti toiminnallisiin ja suorituskykyvaatimuksiin, ei teknisen ratkaisun kuvaamiseen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Les spécifications techniques sont principalement basées sur des exigences fonctionnelles et de performance, et non sur la description de la solution technique.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is ar riachtanais fheidhmiúla agus feidhmíochta atá na sonraíochtaí teicniúla bunaithe go príomha, seachas ar chur síos ar an réiteach teicniúil.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tehničke specifikacije prvenstveno se temelje na funkcionalnim zahtjevima i zahtjevima učinkovitosti, a ne na opisu tehničkog rješenja.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A műszaki előírások elsősorban a funkcionális és teljesítménybeli követelményeken alapulnak, nem a műszaki megoldás leírásán.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Le specifiche tecniche sono basate principalmente su requisiti funzionali e prestazionali, non sulla descrizione della soluzione tecnica.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Techninės specifikacijos visų pirma grindžiamos funkciniais ir veiksmingumo reikalavimais, o ne techninių sprendimų aprašymu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tehnisko specifikāciju pamatā galvenokārt ir funkcionālās un veiktspējas prasības, nevis tehniskā risinājuma apraksts.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-ispeċifikazzjonijiet tekniċi jkunu prinċipalment ibbażati fuq rekwiżiti funzjonali u ta’ prestazzjoni, mhux fuq id-deskrizzjoni tas-soluzzjoni teknika.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De technische specificaties zijn hoofdzakelijk gebaseerd op functionele en prestatie-eisen, niet op een beschrijving van de technische oplossing.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Specyfikacje techniczne opierają się w głównej mierze na wymogach funkcjonalnych i wydajnościowych, a nie na opisie rozwiązania technicznego.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>As especificações técnicas baseiam-se essencialmente em requisitos funcionais e de desempenho e não na descrição da solução técnica.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Specificațiile tehnice se bazează în principal pe cerințe funcționale și de performanță, nu pe descrierea soluției tehnice.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Technické špecifikácie predovšetkým vychádzajú z funkčných a výkonnostných požiadaviek, nie z opisu technického riešenia.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tehnične specifikacije temeljijo predvsem na funkcionalnih zahtevah in zahtevah glede učinkovitosti, ne na opisu tehnične rešitve.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De tekniska specifikationerna grundar sig i första hand på funktions- och prestandakrav och inte på en beskrivning av den tekniska lösningen.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mar-nov</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The procured works, supplies or services are novel for the whole market.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Строителството, доставките или услугите, които са предмет на поръчката, са новост за целия пазар.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pořizované stavební práce, dodávky nebo služby jsou pro celý trh nové.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De indkøbte bygge- og anlægsarbejder, vareleverancer eller tjenesteydelser er nye for hele markedet.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der in Auftrag gegebenen Bauleistungen, Lieferungen oder Dienstleistungen sind innovativ für den gesamten Markt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης είναι καινοφανή για το σύνολο της αγοράς.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The procured works, supplies or services are novel for the whole market.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las obras, suministros o servicios contratados son nuevos para todo el mercado.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hangitud ehitustööd, asjad või teenused on kogu turu jaoks uudsed.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankitut urakat, tavarat tai palvelut ovat koko markkinalle uusia.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Les travaux, fournitures ou services acquis sont innovants pour l’ensemble du marché.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá na hoibreacha, na soláthairtí nó na seirbhísí atáthar a sholáthar nua don mhargadh ina iomláine.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Radovi, roba ili usluge koji se nabavljaju su novitet za cijelo tržište.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beszerzett építési beruházás, áruk vagy szolgáltatások újdonságnak számítanak az egész piacon.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>I lavori, le forniture o i servizi oggetto dell'appalto sono nuovi per l'intero mercato.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Perkami darbai, prekės ar paslaugos yra novatoriški visoje rinkoje.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirktie būvdarbi, piegādes vai pakalpojumi ir jauni visam tirgum.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xogħlijiet, il-provvisti jew is-servizzi jkunu ġodda għas-suq kollu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De aanbestede werken, leveringen of diensten zijn nieuw voor de markt als geheel.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamawiane roboty budowlane, dostawy lub usługi stanowią nowatorskie rozwiązanie w skali całego rynku.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>As obras, fornecimentos ou serviços adjudicados são novos para todo o mercado.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lucrările, bunurile sau serviciile achiziționate sunt inovatoare pentru întreaga piață.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Obstarávané stavebné práce, dodávky tovaru alebo služby sú nové pre celý trh.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Gradnja, blago ali storitve, ki so predmet javnega naročila, so novost na celotnem trgu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De upphandlade byggentreprenaderna, varorna eller tjänsterna är nya för hela marknaden.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>org-nov</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The procured works, supplies or services are novel for the organisation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Строителството, доставките или услугите, които са предмет на поръчката, са новост за организацията.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pořizované stavební práce, dodávky nebo služby jsou pro organizaci nové.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De indkøbte bygge- og anlægsarbejder, vareleverancer eller tjenesteydelser er nye for organisationen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der in Auftrag gegebenen Bauleistungen, Lieferungen oder Dienstleistungen sind innovativ für die Organisation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τα έργα, τα αγαθά ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης είναι καινοφανή για τον οργανισμό.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The procured works, supplies or services are novel for the organisation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las obras, suministros o servicios contratados son nuevos para la organización.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hangitud ehitustööd, asjad või teenused on organisatsiooni jaoks uudsed.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankitut urakat, tavarat tai palvelut ovat organisaatiolle uusia.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Les travaux, fournitures ou services acquis sont innovants pour l’organisation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá na hoibreacha, na soláthairtí nó na seirbhísí atáthar a sholáthar nua don eagraíocht</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Radovi, roba ili usluge koji se nabavljaju su novitet za organizaciju.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beszerzett építési beruházás, áruk vagy szolgáltatások újdonságnak számítanak a szervezet számára.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>I lavori, le forniture o i servizi oggetto dell'appalto sono nuovi per l'organizzazione.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Perkami darbai, prekės ar paslaugos yra novatoriški organizacijai.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirktie būvdarbi, piegādes vai pakalpojumi organizācijai ir jauni.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xogħlijiet, il-provvisti jew is-servizzi jkunu ġodda għall-organizzazzjoni.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De aanbestede werken, leveringen of diensten zijn nieuw voor de organisatie.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamawiane roboty budowlane, dostawy lub usługi stanowią nowatorskie rozwiązanie dla organizacji.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>As obras, fornecimentos ou serviços adjudicados são novos para a organização.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lucrările, bunurile sau serviciile achiziționate sunt inovatoare pentru organizație.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Obstarávané stavebné práce, dodávky tovaru alebo služby sú pre organizáciu nové.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Gradnja, blago ali storitve, ki so predmet javnega naročila, so novost za organizacijo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De upphandlade byggentreprenaderna, varorna eller tjänsterna är nya för organisationen.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Друго</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jiné</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstiges</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλη</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otros</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostalo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kita</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Oħrajn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outros</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Altele</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Iné</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Drugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Annat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rd-act</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The procured works, supplies or services involve research and development activities.</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Строителството, доставките или услугите, които са предмет на поръчката, включват научноизследователски и развойни дейности.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pořizované stavební práce, dodávky nebo služby zahrnují výzkumné a vývojové činnosti.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De indkøbte bygge- og anlægsarbejder, vareleverancer eller tjenesteydelser involverer forsknings- og udviklingsaktiviteter.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die in Auftrag gegebenen Bauleistungen, Lieferungen oder Dienstleistungen umfassen Forschungs- und Entwicklungstätigkeiten.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τα έργα, τα αγαθά ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης αφορούν δραστηριότητες έρευνας και ανάπτυξης.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The procured works, supplies or services involve research and development activities.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las obras, suministros o servicios contratados incluyen actividades de investigación y desarrollo.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hangitud ehitustööd, asjad või teenused hõlmavad teadus- ja arendustegevust.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankitut urakat, tavarat tai palvelut käsittävät tutkimus- ja kehittämistoimintaa.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Les travaux, fournitures ou services acquis impliquent des activités de recherche et de développement.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Baineann gníomhaíochtaí taighde agus forbartha leis na hoibreacha, na soláthairtí nó na seirbhísí atáthar a sholáthar.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Radovi, roba ili usluge koji se nabavljaju povezani su s aktivnostima istraživanja i razvoja.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beszerzett építési beruházás, áruk vagy szolgáltatások kutatási és fejlesztési tevékenységekkel járnak.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>I lavori, le forniture o i servizi oggetto dell'appalto comportano attività di ricerca e sviluppo.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Perkami darbai, prekės ar paslaugos yra susiję su mokslinių tyrimų ir plėtros veikla.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirktie būvdarbi, piegādes vai pakalpojumi ietver pētniecības un izstrādes darbības.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xogħlijiet, il-provvisti jew is-servizzi akkwistati jkunu jinvolvu attivitajiet ta’ riċerka u ta’ żvilupp.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De aanbestede werken, leveringen of diensten brengen activiteiten op het gebied van onderzoek en ontwikkeling met zich mee.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamawiane roboty budowlane, dostawy lub usługi obejmują działania badawczo-rozwojowe.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>As obras, fornecimentos ou serviços adjudicados envolvem atividades de investigação e desenvolvimento.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lucrările, bunurile sau serviciile achiziționate implică activități de cercetare și dezvoltare.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Obstarávané stavebné práce, dodávky tovaru alebo služby zahŕňajú činnosti v oblasti výskumu a vývoja.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Gradnja, blago ali storitve, ki so predmet javnega naročila, vključujejo dejavnosti raziskav in razvoja.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De upphandlade byggentreprenaderna, varorna eller tjänsterna inbegriper forsknings- och utvecklingsverksamhet.</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.12 created on the 2021-10-25T12:02:31-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>Planning</ShortName>
+      <LongName>planning</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
+      <LongName Identifier="eFormsParentId">notice-type</LongName>
+      <Version>0.2.12</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-buyer</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Notice of the publication of a prior information notice or a periodic information notice on a buyer profile</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за публикуването на обявление за предварителна информация или периодично индикативно обявление в профил на купувача</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o uveřejnění předběžného oznámení nebo pravidelného předběžného oznámení na profilu kupujícího</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om offentliggørelse af en forhåndsmeddelelse eller en vejledende periodisk bekendtgørelse i en køberprofil</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung der Veröffentlichung einer Vorinformation oder einer regelmäßigen nicht verbindlichen Bekanntmachung in einem Beschafferprofil</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση της δημοσίευσης προκαταρκτικής προκήρυξης ή περιοδικής ενημερωτικής προκήρυξης για προφίλ αγοραστή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Notice of the publication of a prior information notice or a periodic information notice on a buyer profile</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de la publicación de un anuncio de información previa o de un anuncio periódico indicativo en un perfil de comprador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teade eelteate või perioodilise eelteate avaldamise kohta hankija profiilis</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus ennakkoilmoituksen tai ohjeellisen kausi-ilmoituksen julkaisemisesta hankkijaprofiilissa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis annonçant la publication d’un avis de préinformation ou d’un avis périodique indicatif sur un profil d’acheteur</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le foilsiú fógra faisnéise roimh ré nó fógra faisnéise tréimhsiúil i dtaobh próifíl cheannaitheora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o objavi prethodne informacijske obavijesti ili periodične informativne obavijesti na profilu kupca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Előzetes tájékoztató vagy időszakos előzetes tájékoztató felhasználói oldalon történő közzétételéről szóló hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di pubblicazione di un avviso di preinformazione o di un avviso periodico indicativo relativo al profilo di committente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pranešimas apie skelbiamą išankstinį informacinį skelbimą arba reguliarų orientacinį skelbimą pirkėjo profilyje</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par iepriekšējā informatīvā paziņojuma vai periodiskā informatīvā paziņojuma publicēšanu pircēja profilā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-pubblikazzjoni ta’ avviż informattiv minn qabel jew ta’ avviż informattiv perjodiku fuq profil ta’ xerrej</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van de bekendmaking van een vooraankondiging of een periodieke indicatieve aankondiging via een kopersprofiel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o publikacji wstępnego ogłoszenia informacyjnego lub okresowego ogłoszenia informacyjnego na profilu nabywcy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de publicação de um anúncio de pré-informação ou de um anúncio periódico indicativo sobre um perfil de adquirente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind publicarea unui anunț de intenție sau a unui anunț periodic de informare privind profilul unui cumpărător</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o uverejnení predbežného oznámenia a pravidelného informatívneho oznámenia v profile kupujúceho</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o objavi predhodnega informativnega obvestila ali periodičnega informativnega obvestila v profilu kupca</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om offentliggörande av ett förhandsmeddelande på upphandlarprofil</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-only</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prior information notice or a periodic indicative notice used only for information</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация или периодично индикативно обявление, използвани само за информация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení nebo pravidelné předběžné oznámení použité pouze pro informační účely</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der kun er anvendt til informationsformål</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung nur zu Informationszwecken</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για ενημέρωση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Prior information notice or a periodic indicative notice used only for information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa o anuncio periódico indicativo usado únicamente para información</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ainult teavitamise eesmärgil kasutatav eelteade või perioodiline eelteade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus tai ohjeellinen kausi-ilmoitus vain tietotarkoituksiin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation ou avis périodique indicatif utilisé uniquement à titre d’information</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil ar mhaithe le faisnéis amháin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena samo u informativne svrhe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kizárólag tájékoztatás céljából használt előzetes tájékoztató vagy időszakos előzetes tájékoztató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione o avviso periodico indicativo a fini unicamente informativi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, skirtas tik informavimui</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto tikai informācijai</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biss għall-informazzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging of periodieke indicatieve aankondiging die alleen ter informatie wordt gebruikt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane wyłącznie do celów informacyjnych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação ou anúncio periódico indicativo utilizado apenas a título informativo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție sau anunț orientativ periodic utilizat numai pentru informare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predbežné oznámenie a pravidelné informatívne oznámenie použité len na informačné účely</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja samo za obveščanje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som endast används i informationssyfte</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-rtl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация или периодично индикативно обявление, използвани за съкращаване на сроковете за получаване на офертите</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení nebo pravidelné předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt til at afkorte tidsfrister for modtagelse af tilbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung zum Zweck der Verkürzung der Frist für den Eingang der Angebote</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική διακήρυξη που χρησιμοποιείται για τη συντόμευση των προθεσμιών παραλαβής των προσφορών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa o anuncio periódico indicativo usado para reducir los plazos de recepción de las ofertas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Eelteade või perioodiline eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus tai ohjeellinen kausi-ilmoitus tarjousaikojen lyhentämistä varten</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation ou avis périodique indicatif utilisé pour raccourcir les délais de réception des offres</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil lena ngearrtar na teorainneacha ama le tairiscintí a fháil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena za skraćivanje rokova za zaprimanje ponuda</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló előzetes tájékoztató vagy időszakos előzetes tájékoztató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione o avviso periodico indicativo utilizzato per abbreviare i termini per la ricezione delle offerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas siekiant sutrumpinti pasiūlymų priėmimo terminą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto, lai saīsinātu piedāvājumu saņemšanas termiņus</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biex jitqassru l-limiti ta’ żmien għall-wasla tal-offerti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging of periodieke indicatieve aankondiging gebruikt om termijnen voor de ontvangst van inschrijvingen in te korten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane do skrócenia terminu składania ofert</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação ou anúncio periódico indicativo utilizado para encurtar os prazos de receção das propostas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție sau anunț orientativ periodic utilizat pentru scurtarea termenelor de primire a ofertelor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predbežné oznámenie a pravidelné informatívne oznámenie použité na skrátenie lehôt na prijímanie ponúk</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predhodno informativno obvestilo ali periodično informativno obvestilo, predhodno informativno obvestilo kot sredstvo za skrajšanje rokov za prejem ponudb</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pin-tran</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prior information notice for public passenger transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Prior information notice for public passenger transport services</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -73,7 +73,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.3</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
 	<cbc:ID>468ad654-621e-43f2-bc58-e774eb03926b</cbc:ID>
 	<cbc:IssueDate>2018-06-20+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
@@ -148,7 +148,6 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
-				<cbc:StartDate>2019-12-03+01:00</cbc:StartDate>
 				<cbc:DurationMeasure unitCode="MONTH">60</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 		</cac:ProcurementProject>

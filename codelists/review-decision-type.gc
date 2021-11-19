@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>ReviewDecisionType</ShortName>
+      <LongName>review-decision-type</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/review-decision-type</LongName>
+      <Version>20200624-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/review-decision-type</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>accepted</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Accepted</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Прието</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přijat</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Accepteret</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zugelassen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Έγινε αποδεκτή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Accepted</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Aceptado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vastu võetud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hyväksytty</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Accepté</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Glactar leis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prihvaćeno</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Elfogadva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Accolto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Priimtas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasījums pieņemts</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Aċċettata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gegrond</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Uwzględniono</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Aceite</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Acceptată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prijaté</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sprejeto</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bifall</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Друго</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jiné</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstiges</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otros</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostalo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kita</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Oħrajn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Altul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Iné</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Drugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Annat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rej-dl-passed</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rejected, because the complainant does not have legal standing, as the deadline for submitting a review request has already passed</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Отхвърлено, защото жалбоподателят няма право да иска преразглеждане (да обжалва), тъй като срокът за подаване на искане за преразглеждане е изтекъл</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zamítnut, protože žadatel neměl aktivní legitimaci, protože lhůta pro podání žádosti o přezkum již vypršela</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afvist, fordi klageren ikke har søgsmålskompetence, fordi klagefristen er overskredet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Abgewiesen - Beschwerdeführer nicht klagebefugt, da die Frist für die Einreichung von Anträgen auf Nachprüfung verstrichen ist</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απορρίφθηκε επειδή ο καταγγέλλων δεν νομιμοποιείται, λόγω παρέλευσης της προθεσμίας υποβολής αιτήματος προσφυγής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rejected, because the complainant does not have legal standing, as the deadline for submitting a review request has already passed</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rechazado por falta de legitimación del recurrente debido a que ya ha vencido el plazo para presentar una solicitud de recurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tagasi lükatud, sest kaebuse esitajal puudub kaebeõigus, sest läbivaatamistaotluse esitamise tähtaeg on juba läbi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hylätty, koska muutoksenhakijalla ei ole asiavaltuutta muutoksenhakupyyntöjen määräajan päättymisen vuoksi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Rejeté: le plaignant n’a pas la possibilité d’agir parce que le délai d’introduction d’une demande de réexamen est déjà expiré</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Diúltaítear dó, ar an ábhar nach bhfuil seasamh dlí ag an ngearánach, ar an ábhar go bhfuil an sprioc-am chun iarratas ar athbhreithniú a chur isteach thart</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odbijeno jer podnositelj nije imao pravo podnijeti pritužbu zbog isteka roka za podnošenje zahtjeva za pravnu zaštitu (preispitivanje)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Elutasítva, mert a panaszosnak nincs kereshetőségi joga, mert már lejárt a jogorvoslat iránti kérelem benyújtásának határideje</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Respinto per difetto di legittimità ad agire del richiedente, per superamento del termine di presentazione del ricorso</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atmestas, nes prašymo pateikėjas neturėjo teisės jo pateikti dėl to, kad baigėsi peržiūros prašymo pateikimo laikotarpis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasījums noraidīts: iesniedzējam nebija juridiskā pamata, jo pārskatīšanas pieprasījumu iesniegšanas termiņš ir beidzies</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Irrifjutata, peress li l-ilmentatur ma għandux status ġuridiku, minħabba li l-iskadenza għall-preżentazzjoni ta’ talba għal rieżami diġà skorriet</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verworpen, omdat de klager geen procesbevoegdheid heeft aangezien de termijn om beroep in te stellen reeds verstreken is</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odrzucono, ponieważ odwołujący nie ma legitymacji procesowej, gdyż upłynął już termin do wniesienia odwołania</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rejeitada, porque o queixoso não tem legitimidade processual, porque o prazo para a interposição de um recurso já terminou</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Respinsă, deoarece reclamantul nu are calitate procesuală activă, întrucât termenul de depunere a cererilor de soluționare a căilor de atac a expirat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zamietnuté, pretože sťažovateľ nemá aktívnu legitimáciu keďže lehota na predloženie žiadosti o preskúmanie už uplynula</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zavrnjeno, ker pritožnik nima procesne upravičenosti, saj se je rok za vložitev zahtevka za revizijo že iztekel</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bifalles inte, eftersom klaganden inte har talerätt då klagofristen redan har löpt ut</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rej-ncomp</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rejected, because the review body does not have the competence to conduct the review</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Отхвърлено, защото органът за преразглеждане (обжалване) не е компетентен да извърши преразглеждането</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zamítnut, protože orgán příslušný k přezkumu nemá pravomoc provést přezkum</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afvist, fordi klageinstansen ikke har kompetence til at behandle klagen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Abgewiesen - die Nachprüfungsstelle ist nicht befugt, die Nachprüfung durchzuführen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απορρίφθηκε επειδή το όργανο προσφυγής δεν είναι αρμόδιο για την εξέταση της προσφυγής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rejected, because the review body does not have the competence to conduct the review</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rechazado porque el órgano de recurso no tiene competencia para llevar el recurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tagasi lükatud, sest läbivaatamisasutusel puudub läbivaatamiseks pädevus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hylätty, koska muutoksenhakuelimellä ei ole toimivaltaa muutoksenhaun käsittelyyn</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Rejeté parce que l’instance de recours n’a pas compétence pour examiner le recours</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Diúltaítear dó, ar an ábhar nach bhfuil sé d’inniúlacht ag an gcomhlacht athbhreithnithe an t-athbhreithniú a dhéanamh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odbijeno jer tijelo za pravnu zaštitu (preispitivanje) nema nadležnost za njezinu (njegovu) provedbu</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Elutasítva, mert a jogorvoslati szerv nem illetékes a jogorvoslati eljárás lefolytatására</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Respinto perché l'organo di ricorso non è competente per esaminare tale ricorso</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atmestas, nes peržiūros institucija neturi kompetencijos atlikti peržiūrą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasījums noraidīts, jo pārskatīšanas struktūra nav kompetenta veikt pārskatīšanu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Irrifjutata, peress li l-korp tar-rieżami ma għandux l-kompetenza li jwettaq ir-rieżami</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verworpen, omdat de beroepsinstantie niet bevoegd is om het beroep te behandelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odrzucono, ponieważ organ odwoławczy nie jest właściwy do rozpatrzenia odwołania</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rejeitada, porque o órgão de recurso não tem competência para analisar o recurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Respinsă, deoarece autoritatea de soluționare a căilor de atac nu are competența să soluționeze căile de atac</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zamietnuté, pretože orgán zodpovedný za preskúmanie nemá právomoc vykonať preskúmanie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zavrnjeno, ker revizijski organ nima pristojnosti za izvedbo revizije</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bifalles inte, eftersom prövningsorganet inte är behörigt att pröva ärendet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rej-nirreg</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rejected for no irregularities</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Отхвърлено поради липса на нередности</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zamítnut z důvodu neexistence nesrovnalostí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afvist, fordi der ikke var nogen uregelmæssigheder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Abgelehnt – keine Unregelmäßigkeiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απορρίφθηκε λόγω μη ύπαρξης παρατυπιών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rejected for no irregularities</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rechazado por inexistencia de irregularidades</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tagasi lükatud, sest rikkumist ei tuvastatud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hylätty, koska sääntöjenvastaisuuksia ei havaittu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Rejeté en l’absence d'irrégularités</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Diúltaithe ar an ábhar nach bhfuil neamhrialtachtaí ann</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odbijeno jer nije bilo nepravilnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szabálytalanság hiányában elutasítva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Respinto per assenza di irregolarità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atmesta, nes nenustatyta jokių trūkumų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Noraidīts pārkāpumu neesības dēļ</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Irrifjutata, peress li ma kien hemm l-ebda irregolarità</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verworpen wegens ontbreken van onregelmatigheden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odrzucono z powodu braku nieprawidłowości</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rejeitada por ausência de irregularidades</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Respinsă pentru că nu există nereguli</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zamietnuté, pretože nedošlo k žiadnym nezrovnalostiam</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zavrnjeno, ker ni bilo nepravilnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bifalles inte, eftersom ingen oriktighet konstaterats</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rej-npaid</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rejected, because the fee was not paid</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Отхвърлено, защото не е платена таксата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zamítnut, protože nebyl zaplacen poplatek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afvist, fordi gebyret ikke var betalt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Abgewiesen - Gebühr wurde nicht bezahlt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απορρίφθηκε επειδή δεν καταβλήθηκε το τέλος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rejected, because the fee was not paid</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rechazado porque no se ha pagado la tasa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tagasi lükatud, sest tasu oli maksmata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hylätty, koska maksua ei ole maksettu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Rejeté parce que les honoraires n’ont pas été acquittés</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Diúltaítear dó, ar an ábhar nár íocadh an táille</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odbijeno zbog neplaćanja naknade</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Elutasítva, a díjfizetés elmaradása miatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Respinto per mancato pagamento della tassa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atmestas, nes nesumokėtas mokestis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasījums noraidīts, jo nodeva netika samaksāta</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Irrifjutata, peress li t-tariffa ma tħallsitx</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verworpen, omdat de vergoeding niet is betaald</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odrzucono, ponieważ opłata nie została uiszczona</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rejeitada, porque a taxa não foi paga</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Respinsă, deoarece taxa nu a fost achitată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zamietnuté, pretože nebol zaplatený poplatok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zavrnjeno, ker pristojbina ni bila plačana</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bifalles inte, eftersom avgiften inte betalats</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rej-other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rejected, because the complainant does not have legal standing, for other reasons than the deadline for submitting a review request has already passed</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Отхвърлено, защото жалбоподателят няма право да иска преразглеждане (да обжалва) поради друга причина, различна от изтичането на срока за подаване на искане за преразглеждане</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zamítnut, protože žadatel neměl aktivní legitimaci, z jiných důvodů, než je vypršení lhůty pro podání žádosti o přezkum</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afvist, fordi klageren ikke har søgsmålskompetence af andre årsager, end fordi klagefristen er overskredet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Abgewiesen - Beschwerdeführer nicht klagebefugt, aus anderen Gründen als der Verstreichung der Frist für die Einreichung von Anträgen auf Nachprüfung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απορρίφθηκε επειδή ο καταγγέλλων δεν νομιμοποιείται, για άλλους λόγους πέραν της παρέλευσης της προθεσμίας υποβολής αιτήματος προσφυγής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rejected, because the complainant does not have legal standing, for other reasons than the deadline for submitting a review request has already passed</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rechazado por falta de legitimación del recurrente debido a razones distintas del vencimiento del plazo para presentar una solicitud de recurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tagasi lükatud, sest kaebuse esitajal puudub kaebeõigus muudel põhjustel kui läbivaatamistaotluse esitamise tähtaja möödumine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hylätty, koska muutoksenhakijalla ei ole asiavaltuutta muusta syystä kuin muutoksenhakupyyntöjen määräajan päättymisen vuoksi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Rejeté: le plaignant n’a pas la possibilité d’agir pour des raisons autres que l’expiration du délai d’introduction d’une demande de réexamen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Diúltaítear dó, ar an ábhar nach bhfuil seasamh dlí ag an ngearánach, ar chúiseanna eile seachas an sprioc-am chun iarratas ar athbhreithniú a chur isteach a bheith thart</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odbijeno jer podnositelj nije imao pravo podnijeti pritužbu iz razloga koji nije taj da je istekao rok za podnošenje zahtjeva za pravnu zaštitu (preispitivanje)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Elutasítva, mert a panaszosnak nincs kereshetőségi joga, a jogorvoslat iránti kérelem benyújtása határidejének lejártától eltérő okból</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Respinto per difetto di legittimità ad agire del richiedente, per motivo diverso dal superamento del termine di presentazione del ricorso</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atmestas, nes prašymo pateikėjas neturėjo teisės jo pateikti dėl kitų, nei pasibaigęs peržiūros prašymo pateikimo laikotarpis, priežasčių</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasījums noraidīts: iesniedzējam nebija juridiskā pamata, jo bija citi iemesli, kas nav saistīti ar pārskatīšanas pieprasījumu iesniegšanas termiņa beigām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Irrifjutata, peress li l-ilmentatur ma għandux status ġuridiku, minħabba raġunijiet oħra għajr li l-iskadenza għall-preżentazzjoni ta’ talba għal rieżami diġà skorriet</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verworpen, omdat de klager geen procesbevoegdheid heeft om andere redenen dan het verstrijken van de termijn om beroep in te stellen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odrzucono, ponieważ odwołujący nie ma legitymacji procesowej, z powodów innych niż upływ terminu do wniesienia odwołania</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rejeitada, porque o queixoso não tem legitimidade processual, por outras razões que não o fim do prazo para a interposição de um recurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Respinsă, deoarece reclamantul nu are calitate procesuală activă din alte motive decât faptul că termenul de depunere a unei cereri de soluționare a căilor de atac a expirat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zamietnuté, pretože sťažovateľ nemá aktívnu legitimáciu z iných dôvodov ako z dôvodu, že lehota na predloženie žiadosti o preskúmanie už uplynula</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zavrnjeno, ker pritožnik nima procesne upravičenosti, iz drugih razlogov kot je iztek roka za vložitev zahtevka za revizijo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bifalles inte, eftersom klaganden inte har talerätt av annan anledning än att klagofristen löpt ut</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rej-resolv</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rejected, because the problem has already been resolved</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Отхвърлено, защото проблемът вече е разрешен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zamítnut, protože problém již byl vyřešen</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afvist, fordi problemet allerede er løst</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Abgewiesen - das Problem wurde bereits behoben</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απορρίφθηκε επειδή το πρόβλημα έχει ήδη επιλυθεί</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rejected, because the problem has already been resolved</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rechazado porque el problema ya ha sido resuelto</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tagasi lükatud, sest probleem on juba lahendatud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hylätty, koska ongelma on jo ratkaistu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Rejeté parce que le problème a déjà été résolu</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Diúltaítear dó, ar an ábhar go bhfuil an fhadhb réitithe cheana féin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odbijeno jer je problem već riješen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Elutasítva, mert a kérdést már megoldották</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Respinto perché il problema è già stato risolto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atmestas, nes problema jau išspręsta</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasījums noraidīts, jo problēma jau ir atrisināta</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Irrifjutata, peress li l-problema diġà ġiet solvuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verworpen, omdat het probleem reeds is opgelost</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odrzucono, ponieważ problem został już rozwiązany</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rejeitada, porque o problema já foi resolvido</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Respinsă, deoarece problema a fost deja rezolvată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zamietnuté, pretože problém bol už vyriešený</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zavrnjeno, ker je bila težava že rešena</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bifalles inte, eftersom problemet redan har lösts</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rej-signed</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rejected, because the contract has already been signed</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Отхвърлено, защото договорът вече е подписан</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zamítnut, protože smlouva již byla podepsána</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afvist, fordi kontrakten allerede er underskrevet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Abgewiesen - der Auftrag wurde bereits unterzeichnet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απορρίφθηκε επειδή η σύμβαση έχει ήδη υπογραφεί</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rejected, because the contract has already been signed</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rechazado porque el contrato ya ha sido firmado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tagasi lükatud, sest leping on juba sõlmitud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hylätty, koska sopimus on jo allekirjoitettu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Rejeté parce que le marché a déjà été signé</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Diúltaítear dó, ar an ábhar go bhfuil an conradh sínithe cheana féin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Odbijeno jer je ugovor već potpisan</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Elutasítva, mert a szerződést már aláírták</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Respinto perché il contratto è già stato firmato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atmestas, nes sutartis jau pasirašyta</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasījums noraidīts, jo līgums jau ir parakstīts</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Irrifjutata, peress li l-kuntratt diġà ġie ffirmat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verworpen, omdat het contract reeds is ondertekend</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odrzucono, ponieważ umowa została już podpisana</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rejeitada, porque o contrato já foi assinado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Respinsă, deoarece contractul a fost deja semnat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zamietnuté, pretože zmluva sa už podpísala</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zavrnjeno, ker je bila pogodba že podpisana</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bifalles inte, eftersom avtalet redan har undertecknats</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

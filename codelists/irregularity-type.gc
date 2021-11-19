@@ -1,0 +1,2764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>IrregularityType</ShortName>
+      <LongName>irregularity-type</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/irregularity-type</LongName>
+      <Version>20200624-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/irregularity-type</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ab-low</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unjustified rejection of abnormally low tenders</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Необосновано отхвърляне на необичайно ниските оферти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neoprávněné odmítnutí mimořádně nízkých nabídek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ubegrundet afvisning af unormalt lave tilbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ungerechtfertigte Ablehnung ungewöhnlich niedriger Angebote</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη αιτιολογημένη απόρριψη ασυνήθιστα χαμηλών προσφορών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Unjustified rejection of abnormally low tenders</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rechazo injustificado de ofertas anormalmente bajas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ebaharilikult madala hinnaga pakkumuste põhjendamatu tagasilükkamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Poikkeuksellisen alhaisten tarjousten perusteeton hylkääminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Rejet injustifié d’offres anormalement basses</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Diúltaíodh gan bonn cirt do thairiscintí a bhí mínormálta íseal</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neopravdano odbijanje neobično niskih ponuda</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kirívóan alacsony összegű ajánlatok indokolatlan elutasítása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Rigetto ingiustificato di offerte anormalmente basse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepagrįstas neįprastai mažos kainos pasiūlymų atmetimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nepamatoti lētu piedāvājumu nepamatota noraidīšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rifjut mhux ġustifikat ta’ offerti baxxi b’mod abnormali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ongerechtvaardigde afwijzing van abnormaal lage inschrijvingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieuzasadnione odrzucenie rażąco niskich ofert</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rejeição injustificada de propostas anormalmente baixas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Respingere nejustificată a ofertelor anormal de scăzute</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neodôvodnené zamietnutie ponúk s neobvykle nízkou cenou</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neupravičena zavrnitev neobičajno nizkih ponudb</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Omotiverat avvisande av onormalt låga anbud</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ar-split</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Artificial splitting of contracts</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изкуствено разделяне на поръчките</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Umělé rozdělení veřejných zakázek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Kunstig opdeling af kontrakter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Künstliche Aufteilung von Verträgen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τεχνητή κατάτμηση των συμβάσεων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Artificial splitting of contracts</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Fraccionamiento artificial de contratos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingute kunstlik osadeks jagamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimusten keinotekoinen osittaminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Partage artificiel des marchés</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Conarthaí á roinnt go saorga</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Umjetna podjela ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szerződések mesterséges felosztása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Frazionamento artificioso degli appalti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Dirbtinis sutarties suskaidymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Līgumu mākslīga sadalīšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Qsim artifiċjali ta’ kuntratti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Kunstmatige opsplitsing van opdrachten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Sztuczne dzielenie zamówień</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Fracionamento artificial dos contratos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Divizarea artificială a contractelor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Umelé rozdelenie zákaziek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Umetna delitev pogodb</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Artificiell uppdelning av kontrakt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>bid-rigging</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bid-rigging (established by a competition / anti-cartel office, a court or other competent body)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Съглашателство при офериране (установено от служба за защита на конкуренцията / противодействие на картелите, съд или друг компетентен орган)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kartelové dohody mezi uchazeči o veřejnou zakázku (zjištěné úřadem pro hospodářskou soutěž / protikartelovým úřadem, soudem či jiným příslušným orgánem)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Samordning af tilbudsgivning (fastslået af en konkurrence-/antikartelmyndighed, en domstol eller et andet kompetent organ)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Angebotsabprache (festgestellt von einer Wettbewerbs-/Kartellbehörde, einem Gericht oder einer anderen zuständigen Stelle)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Νόθευση διαγωνισμού (διαπιστωμένη από υπηρεσία ανταγωνισμού / καταπολέμησης των συμπράξεων, δικαστήριο ή άλλο αρμόδιο φορέα)</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bid-rigging (established by a competition / anti-cartel office, a court or other competent body)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Licitación fraudulenta (detectada por una oficina de competencia o anticártel, u otro organismo competente)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kokkumängitud pakkumine (selle tuvastab konkurentsiamet, kohus või muu pädev asutus)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjouskeinottelu (kilpailuviranomaisen/kartelliviraston, tuomioistuimen tai muun toimivaltaisen elimen vahvistama)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Manipulation de la procédure d'appel d'offres (établie par un office de la concurrence/anticartellisation, un tribunal ou tout autre organisme compétent)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Camastaíl tairiscintí (de réir cinneadh ó oifig iomaíochta/frithchairtéil, ó chúirt nó ó chomhlacht inniúil eile)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Namještanje ponuda (koje je utvrdio ured za zaštitu tržišnog natjecanja/borbu protiv kartela, sud ili drugo nadležno tijelo)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlattételi összejátszás (versenyhivatal/kartellellenes iroda, bíróság vagy más illetékes szerv által megállapítva)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Turbativa d'asta (accertata da un'autorità anticartello o garante della concorrenza, da un organo giurisdizionale o da un altro organismo competente)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Viešojo pirkimo klastojimas (kurį nustatė konkurencijos / kovos su karteliais tarnyba, teismas arba kita kompetentinga įstaiga)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Aizliegta vienošanās (ko konstatējusi konkurences iestāde vai karteļu apkarošanas birojs, tiesa vai cita kompetentā struktūra)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Immanuvrar tal-offerti (stabbilit minn uffiċċju tal-kompetizzjoni / ta’ kontra l-kartelli, qorti jew korp kompetenti ieħor)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Offertevervalsing (vastgesteld door een mededingingsautoriteit, antikartelbureau, rechtbank of andere bevoegde instantie)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zmowa przetargowa (stwierdzona przez urząd ochrony konkurencji / urząd antykartelowy, sąd lub inny właściwy organ)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Manipulação fraudulenta de concursos (estabelecida por um organismo responsável por concursos, por um órgão de luta contra a cartelização, por um tribunal ou por outro órgão competente)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Manipularea procedurilor de cereri de oferte (identificată de un oficiu pentru concurență/un oficiu anticartel, de o instanță sau de un alt organism competent)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kolúzia vo verejnom obstarávaní (zistená úradom pre hospodársku súťaž/protimonopolným úradom, súdom alebo iným príslušným orgánom)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dogovorjeno oddajanje ponudb (ki ga ugotovi urrd za varstvo konkurence, sodišče ali drug pristojni organ)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Uppgjord anbudsgivning (som konstaterats av en konkurrensmyndighet/kartellmyndighet, en domstol eller ett annat behörigt organ)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>change-eval</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Negotiation during the award procedure, including modification of the winning tender during evaluation</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Договаряне по време на процедурата за възлагане, включващо изменение на спечелилата оферта по време на оценяването</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jednání během zadávacího řízení včetně změny vítězné nabídky během hodnocení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhandling under tildelingsproceduren, herunder ændring af det vindende tilbud under evalueringen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verhandlungen während des Vergabeverfahrens, einschließlich Änderung des den Zuschlag erhaltenden Angebots während der Bewertung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Διαπραγμάτευση κατά τη διάρκεια της διαδικασίας ανάθεσης, συμπεριλαμβανομένης της τροποποίησης της επιλεγείσας προσφοράς κατά την αξιολόγηση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Negotiation during the award procedure, including modification of the winning tender during evaluation</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Negociación durante el procedimiento de adjudicación, con modificación de la oferta ganadora durante la evaluación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Läbirääkimised hankemenetluse ajal, sealhulgas edukaks tunnistatud pakkumuse muutmine hindamise ajal</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Neuvottelu myöntämismenettelyn aikana, esim. valitun tarjouksen muuttaminen arvioinnin aikana</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Négociation pendant la procédure d’attribution, et modification de l’offre retenue au cours de l’évaluation</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Caibidlíocht le linn an nós imeachta dámhachtana, athrú ar an tairiscint bhuaiteach le linn na meastóireachta san áireamh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pregovori tijekom postupka dodjele, uključujući izmjenu uspješne ponude tijekom ocjenjivanja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tárgyalás az odaítélési eljárás során, beleértve a nyertes ajánlatnak az értékelés során történő módosítását</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Negoziazione nel corso della procedura di aggiudicazione, comprese modifiche dell'offerta vincitrice durante la valutazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Derybos per skyrimo procedūrą, įskaitant laimėjusio pasiūlymo keitimą vertinimo metu</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas procedūras laikā notikušas sarunas, vērtēšanas laikā grozīts uzvarējušais piedāvājums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Negozjar waqt il-proċedura tal-għoti, inkluż modifika tal-offerta rebbieħa waqt l-evalwazzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onderhandelingen tijdens de gunningsprocedure, met inbegrip van wijziging van de winnende inschrijving tijdens de beoordeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Negocjacje w toku postępowania o udzielenie zamówienia, w tym modyfikacja zwycięskiej oferty podczas oceny</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Negociação durante o processo de adjudicação, incluindo modificação da proposta vencedora durante a avaliação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Negocierea pe durata procedurii de atribuire, inclusiv modificarea ofertei câștigătoare pe parcursul evaluării</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rokovanie počas postupu zadávania zákazky vrátane zmien víťaznej ponuky počas hodnotenia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Pogajanja med postopkom oddaje, vključno s spremembo zmagovalne ponudbe med oceno</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandling under tilldelningsförfarandet, inklusive ändring av det vinnande anbudet under utvärderingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>conf-int</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Conflict of interest with impact on the outcome of the procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Конфликт на интереси, който влияе върху резултата от процедурата за възлагане</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Střet zájmů s dopadem na výsledek zadávacího řízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Interessekonflikt med indvirkning på udfaldet af udbudsproceduren</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Interessenkonflikt mit Auswirkungen auf das Ergebnis des Vergabeverfahrens</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σύγκρουση συμφερόντων με αντίκτυπο στο αποτέλεσμα της διαδικασίας σύναψης της δημόσιας σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Conflict of interest with impact on the outcome of the procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Conflicto de intereses que afecta al resultado del procedimiento de contratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Huvide konflikt, mis mõjutab hankemenetluse tulemust</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintamenettelyn tulokseen vaikuttava eturistiriita</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Conflit d'intérêts influençant l’issue de la procédure de passation de marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Coinbhleacht leasa a bhfuil tionchar aige ar thoradh an nós imeachta soláthair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sukob interesa koji utječe na ishod postupka javne nabave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A közbeszerzési eljárás eredményére hatást gyakorló összeférhetetlenség</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Conflitto di interessi con incidenza sul risultato della procedura di appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Interesų konfliktas, turintis poveikį pirkimo procedūros rezultatui</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirkuma procedūras iznākumu ietekmē interešu konflikts</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kunflitt tal-interessi b’impatt fuq l-eżitu tal-proċedura tal-akkwist</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Belangenconflict met invloed op de uitkomst van de aanbestedingsprocedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Konflikt interesów wpływający na wynik postępowania o udzielenie zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Conflito de interesses com impacto no resultado do processo de adjudicação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Conflict de interese cu impact asupra rezultatului procedurii de achiziții publice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Konflikt záujmov s vplyvom na výsledok verejného obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nasprotje interesov vpliva na rezultate postopka za oddajo javnega naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Intressekonflikt som påverkar resultatet av upphandlingsförfarandet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cp-mod-cond</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Competitive procedure with negotiation, with substantial modification of the conditions set out in the contract notice or tender specifications</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Състезателна процедура с договаряне, със съществено изменение на условията, представени в обявлението за поръчката или тръжните спецификации</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jednací řízení s významnou změnou podmínek stanovených v oznámení o zahájení zadávacího řízení nebo ve specifikacích pro nabídky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbudsprocedure med forhandling med væsentlig ændring af betingelserne fastsat i udbudsbekendtgørelsen eller tilbuddets specifikationer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vergabeverfahren mit Verhandlung mit wesentlichen Änderungen der in der Bekanntmachung oder den Spezifikationen der Ausschreibung genannten Bedingungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανταγωνιστική διαδικασία με διαπραγμάτευση, με ουσιαστική τροποποίηση των όρων που καθορίζονται στην προκήρυξη του διαγωνισμού ή στη συγγραφή υποχρεώσεων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Competitive procedure with negotiation, with substantial modification of the conditions set out in the contract notice or tender specifications</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Procedimiento de licitación con negociación, con modificación sustancial de las condiciones que figuran en el anuncio de contrato o en el pliego de condiciones</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Konkurentsipõhine läbirääkimistega hankemenetlus, mille käigus muudetakse oluliselt hanketeates või tehnilises kirjelduses sätestatud tingimusi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Huomattavasti muutettu tarjousperusteinen neuvottelumenettely ehdoista hankintailmoituksessa tai tarjouseritelmissä esitettyjä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Procédure concurrentielle avec négociation, avec modification substantielle des conditions fixées dans l’avis de marché ou le cahier des charges de l’offre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Nós imeachta iomaíoch maille le caibidlíocht, dar lean athrú mór ar na coinníollacha a bhí leagtha amach san fhógra conartha nó sna sonraíochtaí tairisceana</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Postupak nadmetanja uz pregovore, sa znatnim izmjenama uvjeta navedenih u obavijesti o nadmetanju ili natječajnim specifikacijama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tárgyalásos eljárás, jelentős módosítással</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Procedura competitiva con negoziazione, con modifica sostanziale delle condizioni fissate nel bando di gara o nel capitolato d'oneri</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Konkurso procedūra su derybomis, kai daromi esminiai pakeitimai sutarties sąlygų, nustatytų skelbime apie pirkimą arba konkurso specifikacijose</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Konkursa procedūrā ar sarunām būtiski izmainīti nosacījumi, kas izklāstīti paziņojumā par līgumu vai iepirkuma specifikācijās</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Proċedura kompetittiva fin-negozjar, b’modifika sostanzjali tal-kundizzjonijiet stabbiliti fl-avviż tal-kuntratt jew fl-ispeċifikazzjonijiet tal-offerta</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Mededingingsprocedure met onderhandeling, met wezenlijke wijziging van de in de aankondiging van de opdracht of het bestek vermelde voorwaarden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Procedura konkurencyjna z negocjacjami przy istotnej zmianie warunków przedstawionych w ogłoszeniu o zamówieniu lub specyfikacji istotnych warunków zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Procedimento concorrencial com negociação, com alteração substancial das condições definidas no anúncio de concurso ou no caderno de encargos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Procedura competitivă cu negociere, cu modificări substanțiale ale condițiilor stabilite în anunțul de participare sau în caietul de sarcini</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Súťažné konanie s rokovaním s podstatnou zmenou podmienok stanovených v oznámení o vyhlásení verejného obstarávania alebo v špecifikáciách obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Konkurečni postopek s pogajanji z znatno spremembo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandlat förfarande under konkurrens, med väsentliga ändringar av villkoren i meddelandet om upphandling eller kravspecifikationen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>elem-mod</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Modifications of the contract elements set out in the contract notice or tender specifications, not in compliance with the relevant rules</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изменения на елементите от поръчката, представени в обявлението за поръчката или тръжните спецификации, които изменения не са в съответствие с относимите разпоредби</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Změny prvků veřejné zakázky uvedených v oznámení o zahájení zadávacího řízení nebo ve specifikacích pro nabídky, v nesouladu s příslušnými pravidly</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ændringer af de elementer i kontrakten, der er fastsat i udbudsbekendtgørelsen eller tilbuddets specifikationer, og som ikke er i overensstemmelse med de relevante regler</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die Änderungen der in der Auftragsbekanntmachung oder den Spezifikationen festgelegten Bedingungen nicht mit den geltenden Vorschriften vereinbar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τροποποίηση των στοιχείων της σύμβασης που αναφέρονται στην προκήρυξη της σύμβασης ή στη συγγραφή υποχρεώσεων, κατά παράβαση των σχετικών κανόνων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Modifications of the contract elements set out in the contract notice or tender specifications, not in compliance with the relevant rules</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Modificaciones de los elementos del contrato establecidos en el anuncio de contrato o en el pliego de condiciones incumpliendo las normas pertinentes</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Selliste hanketeates või tehnilises kirjelduses esitatud lepinguelementide muutmine, mis ei ole asjaomaste õigusnormidega kooskõlas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoituksessa tai tarjouseritelmissä esitettyjä sopimuksen osia on muutettu asiaa koskevien sääntöjen vastaisesti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Modifications des éléments du marché énoncés dans l'avis de marché ou dans le cahier des charges de l’offre, en violation des règles applicables</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Modhnuithe ar ghnéithe an chonartha a leagtar amach san fhógra conartha nó sna sonraíochtaí tairisceana, gan na rialacha ábhartha a chomhlíonadh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Izmjene elemenata ugovora utvrđenih u obavijesti o nadmetanju ili specifikacijama za dostavljanje ponuda neusklađene s relevantnim pravilima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az eljárást megindító hirdetményben vagy az ajánlattételhez szükséges dokumentációban meghatározott szerződési elemeknek a vonatkozó szabályokat figyelmen kívül hagyó módosítása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Modifica degli elementi dell'appalto stabiliti nel bando di gara o nel capitolato d'oneri in maniera non conforme alle norme pertinenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties elementų, nustatytų skelbime apie pirkimą arba konkurso specifikacijose, pakeitimai neatitinka galiojančių taisyklių</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojumā par līgumu vai piedāvājuma specifikācijās noteikto līguma elementu pārveidojumi, kas neatbilst attiecīgajiem noteikumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Modifika tal-elementi tal-kuntratt stabbiliti fl-avviż tal-kuntratt jew fl-ispeċifikazzjonijiet tekniċi, li mhumiex konformi mar-regoli rilevanti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Wijziging van elementen van de opdracht zoals beschreven in de aankondiging van de opdracht of het bestek, niet conform de toepasselijke voorschriften</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Modyfikacje elementów zamówienia określonych w ogłoszeniu o zamówieniu lub w specyfikacji istotnych warunków zamówienia niezgodne z odpowiednimi przepisami</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Modificação dos elementos do contrato estabelecidos no anúncio de concurso ou no caderno de encargos, em desrespeito das regras vigentes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Modificări ale elementelor contractuale prevăzute în anunțul de participare sau în caietul de sarcini, efectuate fără respectarea normelor relevante</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zmeny prvkov zákazky stanovených v oznámení o vyhlásení verejného obstarávania alebo v špecifikáciách obstarávania, ktoré nie sú v súlade s príslušnými pravidlami</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Spremembe elementov naročila, navedenih v obvestilu o javnem naročilu ali razpisnih zahtevah, ki niso v skladu z ustreznimi pravili</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ändringar av delar i ett kontrakt som anges i meddelandet om upphandling eller förfrågningsunderlaget, i strid med reglerna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>eva-add-crit</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Evaluation using additional award criteria that were not published</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Оценяване с използване на допълнителни критерии за възлагане, които не са били публикувани</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hodnocení s použitím dodatečných kritérií pro zadání, která nebyla uveřejněna</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Evaluering ved hjælp af yderligere tildelingskriterier, der ikke blev offentliggjort</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bewertung unter Rückgriff auf zusätzliche Zuschlagskriterien, die nicht veröffentlicht worden waren</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αξιολόγηση βάσει πρόσθετων κριτηρίων ανάθεσης τα οποία δεν είχαν δημοσιευτεί</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Evaluation using additional award criteria that were not published</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Evaluación utilizando criterios de adjudicación adicionales que no han sido publicados</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumuste hindamine täiendavate hindamiskriteeriumide alusel, mida ei avaldatud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkaisemattomien lisäperusteiden käyttö arvioinnissa sopimuksen myöntämiseksi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Évaluation des offres au moyen de critères d’attribution supplémentaires non publiés</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Meastóireacht de réir critéir dhámhachtana bhreise nár foilsíodh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ocjenjivanje primjenom dodatnih kriterija za odabir koji nisu objavljeni</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>További, nem közzétett értékelési szempontok alapján történő értékelés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valutazione secondo ulteriori criteri di aggiudicazione che non sono stati pubblicati</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vertinimas taikant papildomus nepaskelbtus sutarties sudarymo kriterijus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vērtēšanā izmantoti papildu piešķiršanas kritēriji, kas nebija publicēti</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Evalwazzjoni bl-użu ta’ kriterji tal-għoti addizzjonali li ma kinux ġew ippubblikati</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Beoordeling aan de hand van aanvullende gunningscriteria die niet zijn bekendgemaakt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ocena na podstawie dodatkowych kryteriów udzielenia zamówienia, których nie opublikowano</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Avaliação efetuada com critérios de adjudicação adicionais que não foram publicados</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Evaluarea în baza unor criterii de atribuire suplimentare care nu au fost publicate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hodnotenie s použitím dodatočných kritérií na vyhodnotenie ponúk, ktoré neboli uverejnené</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ocena z uporabo dodatnih meril za oddajo, ki niso bila objavljena</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Utvärdering med användning av ytterligare tilldelningskriterier som inte offentliggjorts</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>eva-diff-crit</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Evaluation of tenders using award criteria that are different from the ones stated in the contract notice or tender specifications</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Оценяване на офертите по критерии за възлагане, които са различни от посочените в обявлението за поръчката или в тръжните спецификации</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hodnocení nabídek s použitím kritérií pro zadání, jež se liší od kritérií uvedených v oznámení o zahájení zadávacího řízení nebo ve specifikacích pro nabídky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Evaluering af tilbud ved anvendelse af tildelingskriterier, der adskiller sig fra dem, der er angivet i udbudsbekendtgørelsen eller udbudsbetingelserne</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bewertung der Angebote mit anderen Zuschlagskriterien als in der Vergabebekanntmachung oder den Verdingungsunterlagen ausgeführt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αξιολόγηση των προσφορών βάσει κριτηρίων ανάθεσης διαφορετικών από εκείνα που αναφέρονται στην προκήρυξη της σύμβασης ή στη συγγραφή υποχρεώσεων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Evaluation of tenders using award criteria that are different from the ones stated in the contract notice or tender specifications</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Evaluación de las ofertas utilizando criterios de adjudicación diferentes de los que figuran en el anuncio de contrato o en el pliego de condiciones</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumuste hindamine hindamiskriteeriumide alusel, mis erinevad hanketeates või tehnilises kirjelduses avaldatud kriteeriumidest</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjousten arvioiminen hankinta-ilmoituksesta tai tarjouseritelmästä poikkeavilla sopimuksen myöntämisperusteilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Évaluation des offres au moyen de critères d’attribution différents de ceux figurant dans l’avis de marché ou le cahier des charges de l’offre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Meastóireacht ar thairiscintí de réir critéir nach ionann iad agus na critéir atá sonraithe san fhógra conartha nó sna sonraíochtaí tairisceana</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ocjenjivanje ponuda primjenom kriterija za odabir koji se razlikuju od kriterija navedenih u obavijesti o nadmetanju ili natječajnim specifikacijama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az ajánlatoknak a szerződésről szóló hirdetményben vagy az ajánlattételhez szükséges dokumentációban foglaltaktól eltérő értékelési szempontok alapján való értékelése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valutazione delle offerte in base a criteri di aggiudicazione differenti da quelli pubblicati nel bando di gara o nel capitolato d'oneri</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pasiūlymų vertinimas taikant kitus, nei nurodyti skelbime apie pirkimą arba pirkimo specifikacijose, sutarties sudarymo kriterijus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piedāvājumu vērtēšanā izmantoti piešķiršanas kritēriji, kas ir atšķirīgi no līguma paziņojumā vai iepirkuma specifikācijās norādītajiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Evalwazzjoni tal-offerti bl-użu ta’ kriterji tal-għoti li jkunu differenti minn dawk iddikjarati fl-avviż tal-kuntratt jew fl-ispeċifikazzjonijiet tal-offerti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Beoordeling van inschrijvingen aan de hand van gunningscriteria die verschillen van de criteria in de aankondiging van de opdracht of het bestek</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ocena ofert na podstawie kryteriów udzielenia zamówienia różniących się od kryteriów określonych w ogłoszeniu o zamówieniu lub specyfikacji istotnych warunków zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Avaliação das propostas com critérios de adjudicação diferentes dos indicados no anúncio de concurso ou no caderno de encargos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Evaluarea ofertelor în baza unor criterii de atribuire diferite de cele indicate în anunțul de participare sau în caietul de sarcini</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hodnotenie ponúk s použitím kritérií na vyhodnotenie ponúk, ktoré sa líšia od tých, ktoré sa uvádzajú v oznámení o vyhlásení verejného obstarávania alebo v špecifikáciách obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ocena ponudb z merili za oddajo, ki se razlikujejo od meril v obvestilu o javnem naročilu ali razpisnih specifikacijah</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Utvärdering av anbud med användning av tilldelningskriterier som skiljer sig från de tilldelningskriterier som anges i meddelandet om upphandling eller i förfrågningsunderlaget</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>formal</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Formal</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Формална</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Formání</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Formel</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Formale Gründe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τυπική</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Formal</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Formal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ametlik</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muodollinen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Forme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Foirmiúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Formalni razlozi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Formai</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Formale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Formalus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Formāls pārkāpums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Formali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Formeel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Błąd formalny</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Formal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Formală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Formálna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Formalno</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Formfel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ins-audit</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Insufficient audit trail for the award of the contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Недостатъчна одитна следа за възлагането на поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nedostatečná auditní stopa pro zadání veřejné zakázky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Utilstrækkeligt kontrolspor for tildeling af kontrakten</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Unzureichender Prüfpfad für die Auftragsvergabe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανεπαρκής διαδρομή ελέγχου για την ανάθεση της σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Insufficient audit trail for the award of the contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Pista de auditoria insuficiente para la adjudicación del contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ebapiisav kontrolljälg lepingu sõlmimise kohta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimuksen myöntämiseen liittyvä jäljitysketju on riittämätön</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Piste d’audit insuffisante pour l’attribution du marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rian iniúchóireachta neamhleor chun an conradh a dhámhachtain</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nedostatan revizijski trag za dodjelu ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szerződés odaítélésének nem megfelelő ellenőrzési nyomvonala</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Pista di controllo insufficiente in relazione all'aggiudicazione dell'appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepakankama sutarties sudarymo audito seka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Revīzijas liecības nav pietiekamas līgumslēgšanas tiesību piešķiršanai</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rekord tal-awditjar insuffiċjenti għall-għoti tal-kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ontoereikend auditspoor voor de gunning van de opdracht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Niewystarczająca ścieżka audytu na potrzeby udzielenia zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Pista de auditoria insuficiente para a adjudicação do contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Pistă de audit insuficientă pentru atribuirea contractului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nedostatočný audítorský záznam týkajúci sa zadania zákazky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nezadostna revizijska sled za oddajo javnega naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Otillräcklig verifieringskedja för kontraktstilldelning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>insuf-timl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Insufficient time for potential tenderers/candidates to obtain the procurement documents</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Недостатъчно време, предоставено на потенциалните оференти/кандидати за получаване на документацията за поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nedostatečná lhůta poskytnutá potenciálním uchazečům/zájemcům pro získání zadávací dokumentace</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ikke nok tid for potentielle tilbudsgivere/ansøgere til at indhente udbudsdokumenterne</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nicht genug Zeit für potenzielle Bieter/Bewerber, um die Auftragsunterlagen zu erhalten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανεπαρκής χρόνος για την παραλαβή των εγγράφων της δημόσιας σύμβασης από τους δυνητικούς προσφέροντες/υποψήφιους</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Insufficient time for potential tenderers/candidates to obtain the procurement documents</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Tiempo insuficiente para que los posibles licitadores/candidatos obtengan los documentos de contratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ebapiisav aeg potentsiaalsetele pakkujatele/taotlejatele hankedokumentide omandamiseks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Mahdollisilla tarjoajilla/ehdokkailla ei ole riittävästi aikaa hankinta-asiakirjojen hankkimiseen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Délai d’obtention des documents de marché insuffisant pour les soumissionnaires/candidats éventuels</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan go leor ama ag tairgeoirí/iarrthóirí ionchasacha chun na doiciméid soláthair a fháil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nedovoljno vremena koje potencijalni ponuditelji/natjecatelji imaju za dobivanje dokumentacije o nabavi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A potenciális ajánlattevőknek/részvételre jelentkezőknek nem áll rendelkezésre elegendő idő a közbeszerzési dokumentumok beszerzésére</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tempo insufficiente affinché i potenziali offerenti o candidati ottengano la documentazione di gara</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Galimi konkurso dalyviai ir (arba) kandidatai neturėjo pakankamai laiko gauti pirkimo dokumentus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nepietiekams laiks potenciālajiem pretendentiem/kandidātiem iepirkuma procedūras dokumentu saņemšanai</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Żmien insuffiċjenti biex l-offerenti/il-kandidati jiksbu d-dokumenti tal-akkwist</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onvoldoende tijd voor potentiële inschrijvers/kandidaten om de aanbestedingsstukken te verkrijgen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Niezapewnienie potencjalnym oferentom/kandydatom wystarczającego czasu na uzyskanie dokumentów zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Tempo insuficiente para os potenciais proponentes/candidatos obterem os documentos do concurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Potențialii ofertanți/candidați nu dispun de suficient timp pentru a obține documentele de achiziție</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nedostatočný čas pre potenciálnych uchádzačov/záujemcov na získanie súťažných podkladov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Premalo časa, da bi možni ponudniki/kandidati pridobili dokumentacijo v zvezi z oddajo javnega naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Otillräckligt med tid för potentiella anbudsgivare/anbudssökande att erhålla upphandlingsdokumenten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>irr-involv</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Irregular prior involvement of candidates or tenderers with the buyer</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нередно предварително участие на кандидати или оференти в отношения с купувача</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neoprávněná předchozí účast zájemců nebo uchazečů ve vztahu ke kupujícímu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Uregelmæssig forudgående involvering af kandidater eller tilbudsgivere i forhold til køberen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Unregelmäßige vorherige Einbeziehung der Bewerber oder Bieter seitens des Beschaffers</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παράτυπη προηγούμενη εμπλοκή υποψηφίων ή προσφερόντων με τον αγοραστή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Irregular prior involvement of candidates or tenderers with the buyer</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Vinculación previa irregular de candidatos o licitadores con el comprador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kandidaatide või pakkujate varasemad ebaseaduslikud suhted hankijaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ehdokkaiden tai tarjoajien sääntöjenvastaiset yhteydet ostajaan</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Participation préalable irrégulière de candidats ou de soumissionnaires auprès de l’acheteur</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Baint neamhrialta ag iarrthóirí nó ag tairgeoirí leis an gceannaitheoir roimh ré</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nepravilna prethodna suradnja natjecatelja ili ponuditelja s kupcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A részvételre jelentkezők vagy ajánlattevők szabálytalan előzetes részvétele az ajánlatkérőnél</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Precedenti relazioni irregolari di candidati o offerenti con il committente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Neteisėtas išankstinis kandidatų ir arba konkurso dalyvių dalyvavimas pirkėjo veikloje</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kandidātu vai pretendentu nelikumīga iepriekšēja iesaiste</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Involviment irregolari minn qabel tal-kandidati jew tal-offerenti max-xerrej</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onregelmatige voorafgaande betrokkenheid van gegadigden of inschrijvers met de koper</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Niezgodne z przepisami wcześniejsze związki kandydatów lub oferentów z nabywcą</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Envolvimento prévio irregular dos candidatos ou proponentes com o adquirente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Interacțiunea prealabilă ilegală a candidaților sau a ofertanților cu cumpărătorul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neregulárne predchádzajúce vzťahy medzi záujemcami alebo uchádzačmi a kupujúcim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neregularno predhodno sodelovanje kandidatov ali ponudnikov s kupcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Oriktigt tidigare involvering av anbudssökande eller anbudsgivare med köparen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mod-inco</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Selection criteria or technical specifications were modified after opening of tenders or were incorrectly applied</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критериите за подбор или техническите спецификации са били изменени след отварянето на офертите или са били неправилно приложени</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritéria pro výběr nebo technické specifikace byly ve fázi výběru pozměněny nebo byly během fáze výběru uplatněny nesprávně</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udvælgelseskriterier eller tekniske specifikationer blev modificeret efter åbning af tilbud eller blev anvendt forkert</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die Eignungskriterien oder technischen Spezifikationen wurden nach Öffnung der Angebote geändert oder nicht korrekt angewendet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τα κριτήρια επιλογής ή οι τεχνικές προδιαγραφές τροποποιήθηκαν μετά την αποσφράγιση των προσφορών ή εφαρμόστηκαν εσφαλμένα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Selection criteria or technical specifications were modified after opening of tenders or were incorrectly applied</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterios de selección o especificaciones técnicas modificados después de la apertura de las ofertas o aplicados incorrectamente</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kvalifitseerimistingimusi (või tehnilist kirjeldust) on pärast pakkumuste avamist muudetud või valesti kohaldatud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Valintaperusteiden tai teknisten eritelmien muuttaminen tarjousten avaamisen jälkeen tai niiden virheellinen soveltaminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critères de sélection ou spécifications techniques modifiés après l’ouverture des offfres ou appliqués de manière incorrecte</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rinneadh na critéir roghnúcháin nó na sonraíochtaí teicniúla a athrú tar éis oscailt na tréimhse tairisceana nó cuireadh i bhfeidhm go mícheart iad</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriteriji za odabir ili tehničke specifikacije izmijenjeni su nakon otvaranja ponuda ili su nepravilno primijenjeni</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az alkalmassági követelményeket vagy a műszaki leírásokat az ajánlatok felbontása után módosították, vagy azokat nem megfelelően alkalmazták</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criteri di selezione o specifiche tecniche sottoposti a modifica dopo l'apertura delle offerte oppure applicati in modo scorretto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atrankos kriterijų arba techninių specifikacijų pakeitimas atplėšus vokus su pasiūlymais arba netinkamas taikymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Atlases kritēriji vai tehniskās specifikācijas tikušas grozītas pēc piedāvājumu atvēršanas vai tikušas piemērotas nepareizi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-kriterji tal-għażla jew l-ispeċifikazzjonijiet tekniċi ġew modifikati wara l-ftuħ tas-sejħa għall-offerti jew ma ġewx applikati b’mod korrett</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De selectiecriteria of de technische specificaties zijn na de opening van de inschrijvingen gewijzigd of zijn onjuist toegepast</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryteria kwalifikacji lub specyfikacje techniczne zostały zmienione po otwarciu ofert lub były nieprawidłowo stosowane</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Os critérios de seleção ou as especificações técnicas foram modificados após a abertura das propostas ou foram incorretamente aplicados</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criteriile de selecție sau specificațiile tehnice au fost modificate după deschiderea ofertelor sau au fost aplicate incorect</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Podmienky účasti alebo technické špecifikácie boli zmenené po otvorení ponúk alebo sa nesprávne uplatnili</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Pogoj za sodelovanje ali tehnične specifikacije so bili odpiranju ponudb ali so bili nepravilni uporabljeni</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Urvalskriterierna eller de tekniska specifikationerna ändrades efter att anbuden öppnades eller tillämpades felaktigt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>nc-proc-eap</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Non-compliance with the procedure established in the Directive for electronic and aggregated procurement</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Неспазване на процедурата за електронните и комбинираните поръчки, установена в Директивата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nedodržení postupu stanoveného ve směrnici pro elektronické a souhrnné zadávání veřejných zakázek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende overholdelse af proceduren i direktivet om elektronisk og aggregeret indkøb</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verstoß gegen das Vefahren, das in der Richtlinie für die elektronische Auftragsvergabe und für Sammelbeschaffungen vorgesehen ist</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη συμμόρφωση με τη διαδικασία που προβλέπει η οδηγία για τις ηλεκτρονικές και συγκεντρωτικές διαδικασίες σύναψης συμβάσεων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Non-compliance with the procedure established in the Directive for electronic and aggregated procurement</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No conformidad con el procedimiento establecido en la Directiva para la contratación electrónica y agregada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Direktiiviga kehtestatud elektroonilise või koondhankemenetluse rikkumine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sähköisiä ja yhdistettyjä hankintoja koskevassa direktiivissä vahvistetun menettelyn noudattamatta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-respect de la procédure établie dans la directive pour les marchés électroniques et aggrégés</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Neamhchomhlíonadh an nós imeachta a leagtar síos sa Treoir maidir leis an soláthar leictreonach agus comhiomlánaithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nesukladnost s postupkom utvrđenim u Direktivi za elektroničku i zbirnu nabavu</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az elektronikus és az összetett beszerzésre vonatkozóan az irányelvben meghatározott eljárás be nem tartása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Inosservanza della procedura stabilita nella direttiva per gli appalti elettronici e aggregati</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Direktyvoje nustatytos elektroninių ir grupinių pirkimų procedūros nesilaikymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Neatbilstība procedūrai, kas direktīvā noteikta attiecībā uz elektronisko un apvienoto iepirkumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ konformità mal-proċedura stabbilita fid-Direttiva dwar l-akkwist elettroniku u aggregat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet-naleving van de in de richtlijn vastgestelde procedure voor elektronische en samengestelde aanbesteding</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieprzestrzeganie procedury ustanowionej w dyrektywie w odniesieniu do zamówień elektronicznych i zagregowanych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não cumprimento do procedimento estabelecido na diretiva sobre a contratação pública eletrónica e agregada</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nerespectarea procedurii stabilite în Directiva privind achizițiile electronice și agregate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nedodržanie postupu stanoveného v smernici o elektronickom a hromadnom obstarávaní</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neupoštevanje postopka, določenega v direktivi za elektronska in skupna javna naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förfarandet i direktivet för elektronisk och gemensam upphandling har inte följts</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>nc-timl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Non-compliance with time limits for receipt of tenders or time limits for receipt of requests to participate</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Неспазване на сроковете за получаване на офертите или заявленията за участие</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nedodržení lhůt pro podání nabídek nebo lhůt pro podání žádostí o účast</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende overholdelse af frister for modtagelse af tilbud eller frister for modtagelse af anmodninger om deltagelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nichteinhaltung der Fristen für den Eingang der Angebote oder der Fristeen für den Eingang der Anträge auf Teilnahme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη συμμόρφωση με τις προθεσμίες παραλαβής των προσφορών ή με τις προσθεσμίες για την παραλαβή των αιτήσεων συμμετοχής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Non-compliance with time limits for receipt of tenders or time limits for receipt of requests to participate</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Incumplimiento de los plazos para la recepción de ofertas o de solicitudes de participación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumuste või osalemistaotluste laekumise tähtaja rikkumine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjousten tai osallistumishakemusten jättämismääräaikojen noudattamatta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-respect des délais de réception des offres ou des demandes de participation</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Neamhchomhlíonadh na dteorainneacha ama chun tairiscintí a fháil nó na dteorainneacha ama chun hiarratais ar rannpháirtíocht a fháil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nesukladnost s rokovima za zaprimanje ponuda ili rokovima za zaprimanje zahtjeva za sudjelovanje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az ajánlatok beérkezésére vonatkozó határidő vagy a részvételi jelentkezések beérkezésére vonatkozó határidő megsértése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Inosservanza dei termini per la ricezione delle offerte o dei termini per la ricezione delle domande di partecipazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pasiūlymų arba prašymų leisti dalyvauti priėmimo terminų nesilaikymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Neatbilstība piedāvājumu vai dalības pieprasījumu saņemšanas termiņiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ konformità mal-limiti ta’ żmien għall-wasla tal-offerti jew mal-limiti ta’ żmien għall-wasla tat-talbiet għall-parteċipazzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet-naleving van de termijnen voor de ontvangst van inschrijvingen of termijnen voor de ontvangst van verzoeken tot deelname</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieprzestrzeganie terminów składania ofert lub terminów składania wniosków o dopuszczenie do udziału</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não cumprimento dos prazos para a receção das propostas ou para a receção dos pedidos de participação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nerespectarea termenelor pentru primirea ofertelor sau a termenelor pentru primirea cererilor de participare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nedodržanie lehôt na predkladanie ponúk alebo žiadostí o účasť</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neupoštevanje rokov za prejem ponudb ali prijav za sodelovanje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Överträdelse av tidsfrister för mottagande av anbudsansökningar eller tidsfrister för mottagande av anbudsansökningar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ncompl-awcrit</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Failure to describe in sufficient detail the award criteria and their weighting</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Липса на достатъчно подробно описание на критериите за възлагане и техните тегла</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neuvedení dostatečně podrobného popisu kritérií pro zadání a jejich váhy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende beskrivelse af tildelingskriterierne og deres vægtning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Keine ausreichend detaillierte Beschreibung der Zuschlagskriterien und ihrer Gewichtung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη παροχή επαρκώς αναλυτικής περιγραφής των κριτηρίων ανάθεσης και της αντίστοιχης στάθμισης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Failure to describe in sufficient detail the award criteria and their weighting</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ausencia de descripción suficientemente detallada de los criterios de adjudicación y su ponderación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise kriteeriumide ja nende osakaalu kirjeldamata jätmine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimuksen myöntämisperusteita ja niiden painotusta ei ole täsmennetty riittävästi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Énoncé insuffisamment détaillé des critères d’attribution et de leur pondération</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Easpa grinnis sa tuairisc ar na critéir dhámhachtana agus ar an ualú a ghabhann leo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriteriji za dodjelu ugovora i njihovi ponderi nisu dovoljno detaljno opisani</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az értékelési szempontok és azok súlyozásának megfelelő részletességgel történő ismertetésének elmulasztása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Descrizione non sufficientemente dettagliata dei criteri di aggiudicazione e della relativa ponderazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepakankamai išsamus skyrimo kriterijų ir jų lyginamųjų svorių aprašymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas kritēriji un to svērums nav aprakstīti pietiekami detalizēti</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ deskrizzjoni tal-kriterji tal-għoti u tal-ponderazzjoni tagħhom b’dettall suffiċjenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet voldoende gedetailleerd beschrijven van de gunningscriteria en de weging ervan</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak przedstawienia wystarczająco szczegółowego opisu kryteriów udzielenia zamówienia i ich wagi</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não descrição, com nível de pormenor suficiente, dos critérios de adjudicação e respetiva ponderação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lipsa unei descrieri suficient de detaliate a criteriilor de atribuire și a ponderii acestora</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nedostatočne podrobný opis kritérií na vyhodnotenie ponúk a ich váhy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nezadostno podroben opis meril za oddajo naročila in njihovih ponderjev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Underlåtenhet att beskriva tilldelningskriterierna och viktningen av dem tillräckligt detaljerat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ncompl-cn</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Failure to publish in the contract notice the technical specifications, selection criteria, award criteria (and their weighing), or contract performance conditions</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Непубликуване в обявлението за поръчка на техническите спецификации, критериите за подбор, критериите за възлагане (и техните тегла) или условията за изпълнение на поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neuveřejnění technických specifikací, kvalifikačních kritérií pro výběr, kritérií pro zadání (a jejich vah) nebo podmínek plnění veřejné zakázky v oznámení o zahájení zadávacího řízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende offentliggørelse i udbudsbekendtgørelsen af de tekniske specifikationer, udvælgelseskriterierne, tildelingskriterierne (og vægtningen heraf) eller bestemmelserne om kontraktens opfyldelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nichtveröffentlichung der technischen Spezifikationen, der Eignungs- und/oder Zuschlagskriterien (und ihrer Gewichtung) oder der Bedingungen für die Auftragsausführung in der Auftragsbekanntmachung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη δημοσίευση στην προκήρυξη διαγωνισμού των τεχνικών προδιαγραφών, των κριτηρίων επιλογής, των κριτηρίων ανάθεσης (και της στάθμισής τους) ή των όρων εκτέλεσης της σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Failure to publish in the contract notice the technical specifications, selection criteria, award criteria (and their weighing), or contract performance conditions</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No publicación en el anuncio de contrato de las especificaciones técnicas, los criterios de selección, los criterios de adjudicación (y su ponderación) o las condiciones de ejecución del contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tehniliste kirjelduste, kvalifitseerimistingimuste, pakkumuste hindamise kriteeriumide (ja nende osakaalude) või lepingu täitmise tingimuste hanketeates avaldamata jätmine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoituksessa ei ole julkistettu teknisiä eritelmiä, valintaperusteita, sopimuksen myöntämisperusteita (ja niiden painotusta) tai sopimuksen täytäntöönpanoehtoja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-publication dans l’avis de marché des spécifications techniques, des critères de sélection, des critères d’attribution (et de leur pondération) ou des conditions d’exécution du marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan na sonraíochtaí teicniúla, na critéir roghnúcháin, na critéir dhámhachtana (agus an t-ualú a ghabhann leo), nó coinníollacha feidhmíochta an chonartha a fhoilsiú san fhógra conartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tehničke specifikacije, kriteriji za odabir, kriteriji za dodjelu (i njihovi ponderi) ili uvjeti za izvršenje ugovora nisu objavljeni u obavijesti o nadmetanju</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A műszaki leírásoknak, az alkalmassági követelményeknek, az értékelési szempontoknak (és azok súlyának) illetve a szerződésteljesítés feltételeinek a szerződésről szóló hirdetményben való közzétételének elmaradása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mancata pubblicazione nel bando di gara delle specifiche tecniche, dei criteri di selezione, dei criteri di aggiudicazione (e della relativa ponderazione) o delle condizioni di esecuzione dell'appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Techninių specifikacijų, atrankos kriterijų, skyrimo kriterijų (ir jų lygynamųjų svorių) arba sutarties vykdymo sąlygų nepaskelbimas skelbime apie pirkimą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojumā par līgumu nav publicētas tehniskās specifikācijas, atlases kritēriji, piešķiršanas kritēriji (un to svērums ) vai līguma izpildes nosacījumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ pubblikazzjoni tal-ispeċifikazzjonijiet tekniċi, tal-kriterji tal-għażla, tal-kriterji tal-għoti (u tal-ponderazzjoni tagħhom), jew tal-kundizzjonijiet tat-twettiq tal-kuntratt, fl-avviż tal-kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Het niet in de aankondiging van de opdracht bekendmaken van de technische specificaties, de selectiecriteria, de gunningscriteria (en de weging ervan) of de uitvoeringsvoorwaarden van de opdracht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieopublikowanie w ogłoszeniu o zamówieniu specyfikacji technicznych, kryteriów kwalifikacji, kryteriów udzielenia zamówienia (i ich wagi) lub warunków realizacji zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não publicação, no anúncio de concurso, das especificações técnicas, dos critérios de seleção, dos critérios de adjudicação (e respetiva ponderação) e das condições de execução do contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nepublicarea în anunțul de participare a specificațiilor tehnice, a criteriilor de selecție, a criteriilor de atribuire (și a ponderării acestora) sau a condițiilor de executare a contractului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neuverejnenie technických špecifikácií, podmienok účasti, kritérií na vyhodnotenie ponúk (a ich váhy) alebo podmienok plnenia zmluvy v oznámení o vyhlásení verejného obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neobjava tehničnih specifikacij, meril za izbor, meril za oddajo naročila (in njihovih ponderjev) ali pogojev za izvedbo naročila v obvestilu o javnem naročilu</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Underlåtenhet att i meddelandet om upphandling offentliggöra de tekniska specifikationerna, selekteringskriterierna, tilldelningskriterierna (och deras vägning) eller villkoren för fullgörande av kontraktet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ncompl-com</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Failure to communicate and/or publish clarifications and/or additional information</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Несъобщаване и/или непубликуване на разяснения и/или допълнителна информация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nesdělení a/nebo neuveřejnění objasnění a/nebo dodatečných informací</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende meddelelse og/eller offentliggørelse af præciseringer og/eller supplerende oplysninger</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Fehlende Mitteilung/Bekanntgabe von Klarstellungen und/oder zusätzlichen Informationen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη κοινοποίηση και/ή μη δημοσίευση διευκρινίσεων και/ή πρόσθετων πληροφοριών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Failure to communicate and/or publish clarifications and/or additional information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No comunicación o no publicación de aclaraciones o información adicional</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Selgituste ja/või lisateabe edastamata ja/või avaldamata jätmine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Täsmennyksistä ja/tai lisätiedoista ei ole tiedotettu ja/tai niitä ei ole julkaistu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-communication et/ou non-publication de clarifications et/ou d'informations complémentaires</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan soiléirithe agus/nó faisnéis bhreise a chur in iúl nó a fhoilsiú</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nisu dostavljena i/ili objavljena pojašnjenja i/ili dodatne informacije</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Pontosításokra és/vagy további információkra vonatkozó tájékoztatás és/vagy közzététel elmaradása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mancata comunicazione e/o pubblicazione di chiarimenti e/o informazioni supplementari</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepranešimas apie paaiškinimus ir (arba) papildomą informaciją ir (arba) jų nepaskelbimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav paziņoti un/vai publicēti skaidrojumi un/vai papildu informācija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ komunikazzjoni u/jew ta’ pubblikazzjoni ta’ kjarifiki u/jew ta’ informazzjoni addizzjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet meedelen en/of bekendmaken van verduidelijkingen en/of aanvullende informatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak przekazania i/lub publikacji wyjaśnień i/lub dodatkowych informacji</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não comunicação e/ou não publicação de esclarecimentos e/ou informações adicionais</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Necomunicarea și/sau nepublicarea de clarificări și/sau informații suplimentare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neoznámenie a/alebo neuverejnenie vysvetlení a/alebo dodatočných informácií</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nesporočanje in/ali neobjava pojasnil in/ali dodatnih informacij</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Underlåtenhet att meddela eller offentliggöra klargöranden eller ytterligare information</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ncompl-sub</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Insufficient or imprecise definition of the subject matter of the contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Недостатъчно или неточно определение на предмета на поръчката</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nedostatečné či nepřesné vymezení předmětu veřejné zakázky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Utilstrækkelig eller upræcis afgrænsning af kontraktens genstand</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Unzureichende oder ungenaue Definition des Auftragsgegenstands</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανεπαρκής ή ανακριβής ορισμός του αντικειμένου της σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Insufficient or imprecise definition of the subject matter of the contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Definición insuficiente o imprecisa del objeto del contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu eseme ebapiisav või ebatäpne määratlemine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimuksen kohteen määrittäminen on riittämätöntä tai epätarkkaa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Définition insuffisante ou imprécise de l’objet du marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Easpa grinnis nó cruinnis maidir le sainiú ábhar an chonartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nedostatna ili neprecizna definicija predmeta ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szerződés tárgyának nem megfelelő vagy pontatlan meghatározása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Definizione insufficiente o imprecisa dell'oggetto dell'appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepakankamas arba netikslus sutarties dalyko apibrėžimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Līguma priekšmets nav pietiekami vai precīzi definēts</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Definizzjoni insuffiċjenti jew mhux preċiża tas-suġġett tal-kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onvoldoende of onduidelijke omschrijving van het voorwerp van de opdracht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Niewystarczająca lub nieprecyzyjna definicja przedmiotu zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Definição insuficiente ou imprecisa do objeto do contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Definirea insuficientă sau imprecisă a obiectului contractului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nedostatočné alebo nepresné vymedzenie predmetu zákazky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nezadostna ali nenatančna opredelitev predmeta naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Otillräcklig eller otydlig definition av kontraktsföremålet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>no-notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lack of publication of contract notice or unjustified direct award</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Непубликуване на обявление за поръчка или необосновано пряко възлагане</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nezveřejnění oznámení o zahájení zadávacího řízení nebo neoprávněné přímé zadání veřejné zakázky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende offentliggørelse af udbudsbekendtgørelse eller uberettiget direkte tildeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Auftragsbekanntmachung nicht veröffentlicht oder ungerechtfertigte direkte Auftragsvergabe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη δημοσίευση προκήρυξης διαγωνισμού ή αδικαιολόγητη απευθείας ανάθεση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lack of publication of contract notice or unjustified direct award</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No publicación de anuncio de contrato o adjudicación directa injustificada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanketeate avaldamata jätmine või põhjendamatu lepingu sõlmimine pakkumismenetlust korraldamata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoituksen julkaisematta jättäminen tai perusteeton suorahankinta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-publication de l’avis de marché ou attribution directe injustifiée</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan fógra conartha a bheith foilsithe nó dámhachtain dhíreach gan bonn cirt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neobjavljivanje obavijesti o nadmetanju ili neopravdana izravna dodjela</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az eljárást megindító hirdetmény közzétételének elmulasztása vagy indokolatlan közvetlen odaítélés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mancata pubblicazione del bando di gara o assegnazione diretta ingiustificata</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Apie pirkimą nebuvo paskelbta arba sutartis nepagrįstai sudaryta tiesiogiai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojuma par līgumu nepublicēšana vai nepamatota tieša līgumslēgšanas tiesību piešķiršana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ pubblikazzjoni ta’ avviż ta’ kuntratt jew ta' għoti dirett mhux ġustifikat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet-bekendmaking aankondiging van opdracht of ongerechtvaardigde onderhandse gunning</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak publikacji ogłoszenia o zamówieniu lub nieuzasadnione bezpośrednie udzielenie zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não publicação do anúncio de concurso ou adjudicação direta injustificada</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lipsa publicării anunțului de participare sau atribuire directă nejustificată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neuverejnenie oznámenia o vyhlásení verejného obstarávania alebo neodôvodnené uzavretie zmluvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neobjava obvestila o javnem naročilu ali neupravičena neposredna dodelitev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Avsaknad av offentliggörande av meddelande om upphandling eller omotiverad direkt tilldelning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>noex-addinfo</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Failure to extend time limits for receipt of tenders or requests to participate where additional information, although requested by the economic operator in good time, is not supplied at the latest six days before the time limit</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Неудължаване на сроковете за получаване на офертите или исканията за участие, когато допълнителната информация – макар че е поискана своевременно от икономическия оператор – не е предоставена най-късно шест дни преди крайния срок</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neprodloužení lhůt pro podání nabídek nebo žádostí o informace, nejsou-li poskytnuty dodatečné informace, ačkoliv si je hospodářský subjekt včas vyžádal, nejpozději šest dnů před uplynutím lhůty</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende forlængelse af frister for modtagelse af tilbud eller ansøgninger om deltagelse, hvis der ikke foreligger supplerende oplysninger mindst seks dage før fristen, skønt den økonomiske operatør i god tid har annmodet herom</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nichtverlängerung der Fristen für den Eingang der Angebote oder der Teilnahmeanträge, wenn vom Wirtschaftsteilnehmer rechtzeitig angeforderte Zusatzinformationen nicht spätestens sechs Tage vor der festgesetzten Frist zur Verfügung gestellt werden</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη παράταση των προθεσμιών παραλαβής των προσφορών ή των αιτήσεων συμμετοχής όταν οι πρόσθετες πληροφορίες, αν και ζητήθηκαν από τον οικονομικό φορέα σε εύθετο χρόνο, δεν έχουν παρασχεθεί το αργότερο έξι ημέρες πριν από την προθεσμία</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Failure to extend time limits for receipt of tenders or requests to participate where additional information, although requested by the economic operator in good time, is not supplied at the latest six days before the time limit</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No ampliación de los plazos para la recepción de ofertas o de solicitudes de participación en caso de que no se haya proporcionado información adicional al menos seis meses antes de la fecha límite, a pesar de haber sido solicitada por el operador económico a su debido tiempo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumuste või osalemistaotluste laekumise tähtaja pikendamata jätmine juhul, kui ei edastatud lisateavet hiljemalt kuus päeva enne pakkumuste laekumiseks kehtestatud tähtaega, kuigi ettevõtjad taotlesid lisateavet õigeaegselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjousten tai osallistumishakemusten määräaikojen jatkamatta jättäminen lisätietoja varten, kun lisätietoja ei anneta viimeistään kuusi päivää ennen määräaikaa, vaikka talouden toimija on pyytänyt niitä hyvissä ajoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-prolongation des délais de réception des offres ou des demandes d'information, alors que les informations complémentaires, demandées à temps par l’opérateur économique, n’ont pas été fournies au moins six jours avant l'expiration du délai</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan síneadh a chur leis na teorainneacha ama chun tairiscintí nó iarratais ar rannpháirtíocht a fháil i gcás nár soláthraíodh faisnéis bhreise sé lá ar a dhéanaí roimh an teorainn ama, d’ainneoin í a bheith iarrtha in am trátha ag an oibreoir eacnamaíoch</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neproduljenje rokova za zaprimanje ponuda ili zahtjeva za sudjelovanje ako dodatne informacije, iako ih je gospodarski subjekt pravodobno zatražio, nisu dostavljene najkasnije šest dana prije roka</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az ajánlatok vagy a részvételi jelenkezések beérkezésére vonatkozó határidő meghosszabbításának elmulasztása, ha a gazdasági szereplő által időben kért további információt a határidő előtt legkésőbb hat nappal nem biztosítják</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mancata proroga dei termini per la ricezione delle offerte o delle domande di partecipazione nel caso in cui le informazioni supplementari, seppur richieste in tempo utile dall'operatore economico, non sono fornite al più tardi sei giorni prima del termine stabilito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pasiūlymų arba informacijos prašymų priėmimo termino nepratęsimas, kai likus ne daugiau kaip šešioms dienoms iki termino ekonominės veiklos vykdytojui nepateikta jo laiku paprašyta papildoma informacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav pagarināts piedāvājumu vai dalības pieprasījumu saņemšanas termiņš, lai gan papildu informācija, ko ekonomikas dalībnieks pieprasījis laikus, nav sniegta, vēlākais, 6 dienas pirms saņemšanas termiņa</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ estensjoni tal-limiti ta’ żmien għall-wasla tal-offerti jew tat-talbiet għall-parteċipazzjoni, fejn l-informazzjoni addizzjonali, minkejja li tkun intalbet minn ferm qabel mill-operatur ekonomiku, ma tiġix ipprovduta sa mhux iktar tard minn sitt ijiem qabel il-limitu ta’ żmien</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Het niet verlengen van de termijnen voor de ontvangst van inschrijvingen of verzoeken tot deelname in gevallen waarin aanvullende informatie, hoewel tijdig aangevraagd door de ondernemer, niet uiterlijk zes dagen voor het verstrijken van de termijn is verstrekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieprzedłużenie terminów składania ofert lub wniosków o dopuszczenie do udziału, w przypadku gdy nie dostarczono dodatkowych informacji najpóźniej sześć dni przed terminem, pomimo że wykonawca zwrócił się o nie w odpowiednim czasie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não alargamento dos prazos para a receção das propostas ou dos pedidos de participação nos casos em que informações adicionais, embora pedidas a tempo pelo operador económico, não foram fornecidas no máximo 6 dias antes do prazo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Neprelungirea termenelor pentru primirea ofertelor sau a cererilor de participare în cazul în care informațiile suplimentare, cu toate că au fost solicitate de operatorul economic în timp util, nu au fost furnizate cu cel puțin șase zile înaintea termenului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nepredĺženie lehôt na predkladanie ponúk alebo žiadostí o účasť, ak došlo k tomu, že hoci hospodársky subjekt požiadal o dodatočné informácie včas, tieto informácie neboli poskytnuté najneskôr šesť dní pred uplynutím lehoty</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nepodaljšanje roka za prejem ponudb ali prijav za sodelovanje, kadar dodatne informacije, ki jih je gospodarski subjekt sicer pravočasno zahteval, niso predložene najpozneje šest dni pred rokom</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tidsfristerna för mottagande av anbud eller anbudsansökningar förlängdes inte, när kompletterande information som av den ekonomiska aktören begärts i god tid av något skäl inte lämnas senast sex dagar före tidsfristen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>noex-timl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Failure to extend time limits for receipt of tenders or requests to participate where significant changes are made to the procurement documents</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Неудължаване на сроковете за получаване на офертите или заявленията за участие, когато в документацията за поръчката са направени значителни промени</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neprodloužení lhůt pro podání nabídek nebo lhůt pro podání žádostí o účast, pokud byly v zadávací dokumentaci provedeny významné změny</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende forlængelse af frister for modtagelse af tilbud eller ansøgninger om deltagelse, hvor der foretages væsentlige ændringer i udbudsdokumenterne</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nichtverlängerung der Fristen für den Eingang der Angebote, wenn an den Auftragsunterlagen wesentliche Änderungen vorgenommen werden</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη παράταση των προθεσμιών παραλαβής των προσφορών ή των αιτήσεων συμμετοχής σε περίπτωση σημαντικών αλλαγών στα έγγραφα της δημόσιας σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Failure to extend time limits for receipt of tenders or requests to participate where significant changes are made to the procurement documents</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No ampliación de los plazos para la recepción de ofertas o de solicitudes de participación en caso de cambios importantes en los documentos de contratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumuste või osalemistaotluste laekumise tähtaja pikendamata jätmine hankedokumentides oluliste muudatuste tegemisel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjousten tai osallistumishakemusten määräaikojen jatkamatta jättäminen, kun hankinta-asiakirjoihin on tehty suuria muutoksia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-prolongation des délais de réception des offres ou des demandes de participation, alors que des changements importants sont apportés aux documents de marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan síneadh a chur leis na teorainneacha ama chun tairiscintí nó iarratais ar rannpháirtíocht a fháil i gcás athruithe móra ar na doiciméid soláthair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neproduljenje rokova za zaprimanje ponuda ili zahtjeva za sudjelovanje ako je dokumentacija o nabavi znatno promijenjena</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az ajánlatok vagy a részvételi jelentkezések beérkezésére vonatkozó határidők meghosszabbításának elmulasztása a közbeszerzési dokumentumok jelentős változtatása esetén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mancata proroga dei termini per la ricezione delle offerte o delle domande di partecipazione qualora siano state apportate modifiche significative alla documentazione di gara</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pasiūlymų arba dalyvavimo prašymų priėmimo termino nepratęsimas, kai pirkimo dokumentuose padaroma esminių pakeitimų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav pagarināts piedāvājumu vai dalības pieprasījumu saņemšanas termiņš, lai gan iepirkuma dokumentos veiktas būtiskas izmaiņas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ estensjoni tal-limiti ta’ żmien għall-wasla tal-offerti jew tal-limiti ta’ żmien għall-wasla tat-talbiet għall-parteċipazzjoni fejn ikunu saru bidliet sinifikanti fid-dokumenti tal-akkwist</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Het niet verlengen van de termijnen voor de ontvangst van inschrijvingen of verzoeken tot deelname wanneer aanzienlijke wijzigingen in de aanbestedingsstukken zijn aangebracht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieprzedłużenie terminów składania ofert lub wniosków o dopuszczenie do udziału w przypadku dokonania istotnych zmian w dokumentach zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não alargamento dos prazos para a receção das propostas ou dos pedidos de participação nos casos em que foram introduzidas alterações significativas nos documentos do concurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Neprelungirea termenelor pentru primirea ofertelor sau a cererilor de participare în cazul unor modificări semnificative aduse documentelor achiziției</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nepredĺženie lehôt na predkladanie ponúk alebo žiadostí o účasť, ak sa vykonali významné zmeny v súťažných podkladoch</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nepodaljšanje roka za prejem ponudb ali prijav za sodelovanje v primeru večjih sprememb javnega naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Underlåtenhet att förlänga tidsfristerna för mottagande av anbud eller anbudsansökningar när betydande ändringar görs i upphandlingsdokumenten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>nojust-nolots</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lack of justification for not subdividing contract into lots</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Липса на обосновка за неразделяне на поръчката на обособени позиции</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nedostatečné odůvodnění nerozdělení veřejné zakázky na části</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende begrundelse for ikke at opdele en kontrakt i delkontrakter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Fehlende Begründung der Entscheidung, keine Unterteilung in Lose vorzunehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Έλλειψη αιτιολόγησης για τη μη διαίρεση σύμβασης σε τμήματα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lack of justification for not subdividing contract into lots</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ausencia de justificación por no subdividir un contrato en lotes</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankelepingu osadeks jagamata jätmise põhjendamatus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ei perusteita sopimuksen eriin jakamatta jättämiselle</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Absence de justification de la non-subdivision du marché en lots</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Easpa boinn cirt maidir le gan conradh a fhoroinnt ina luchtóga</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nepostojanje opravdanja za to što ugovor nije razdijeljen u grupe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szerződés részekre bontásának elmaradására vonatkozó indoklás hiánya</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mancanza di giustificazione dell'omessa suddivisione di un appalto in lotti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties nesuskirstymo į dalis nepagrindimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Trūkst pamatojuma tam, kāpēc līgums nav sadalīts daļās</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ ġustifikazzjoni għan-nuqqas ta’ sottodiviżjoni tal-kuntratt f’lottijiet</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ontbreken van motivering voor het niet in percelen verdelen van een opdracht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak uzasadnienia powodu, dla którego zamówienia nie podzielono na części</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Falta de justificação para a não subdivisão do contrato em lotes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lipsa unei justificări pentru neîmpărțirea unui contract în loturi</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nedostatočné odôvodnenie nerozdelenia zákazky na časti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Manjka utemeljitev za razdelitev naročila na sklope</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Avsaknad av skäl att inte dela in ett kontrakt i delar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>npub-limit</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lack of publication of extended time limits for receipt of tenders or requests to participate</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Непубликуване на сведения за удължените срокове за получаване на офертите или заявленията за участие</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neuveřejnění prodloužených lhůt pro podání nabídek nebo žádostí o účast</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Manglende offentliggørelse af forlænge frister for modtagelse af tilbud eller ansøgninger om deltagelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nichtveröffentlichung der verlängerten Fristen für den Eingang der Angebote oder der Anträge auf Teilnahme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μη δημοσίευση της παράτασης προθεσμιών για την παραλαβή των προσφορών ή των αιτήσεων συμμετοχής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lack of publication of extended time limits for receipt of tenders or requests to participate</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No publicación de plazos ampliados para la recepción de ofertas o de solicitudes de participación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumuste või osalemistaotluste laekumise pikendatud tähtaja avaldamata jätmine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjousten tai osallistumishakemusten määräaikojen jatkamisen julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-publication de la prolongation des délais de réception des offres ou demandes de participation</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan na teorainneacha ama sínithe chun tairiscintí nó iarratais ar rannpháirtíocht a fháil a fhoilsiú</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neobjavljivanje produljenih rokova za zaprimanje ponuda ili zahtjeva za sudjelovanje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az ajánlatok vagy részvételi jelentkezések beérkezésére vonatkozó meghosszabbított határidő közzétételének elmulasztása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mancata pubblicazione della proroga dei termini per la ricezione delle offerte o delle domande di partecipazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepaskelbimas apie pratęstą pasiūlymų arba dalyvavimo prašymų priėmimo terminą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav publicēts piedāvājumu vai dalības pieprasījumu saņemšanas termiņa pagarinājums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta’ pubblikazzjoni tal-limiti ta’ żmien estiżi għall-wasla tal-offerti jew tat-talbiet għall-parteċipazzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet-bekendmaking van verlengde termijnen voor de ontvangst van inschrijvingen of verzoeken tot deelname</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak publikacji przedłużonych terminów składania ofert lub wniosków o dopuszczenie do udziału</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não publicação dos prazos alargados para a receção das propostas e dos pedidos de participação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nepublicarea termelor prelungite pentru primirea ofertelor sau a cererilor de participare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neuverejnenie informácií o predĺžených lehotách na predkladanie ponúk alebo žiadostí o účasť</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Manjka objava podaljšanih rokov za prejem ponudb ali prijav za sodelovanje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inget offentliggörande av förlängda tidsfrister för mottagande av anbud eller anbudsansökningar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Друго</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jiný</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstiges</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλη</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otros</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostalo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kita</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Oħrajn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outros</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Altele</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Iná</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Drugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Annat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>restr-not-tlim</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Restrictions to obtaining the procurement documents, other than insufficient time</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ограничения за получаването на документацията за поръчката, различни от недостатъчното време</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Omezení týkající se získání zadávací dokumentace, jiné než nedostatečná lhůta</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andre hindringer for at tilvejebringe udbudsdokumenterne end utilstrækkelig tid</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Andere Beschränkungen bei der Einholung von Ausschreibungsunterlagen als unzureichende Zeit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Περιορισμοί για την παραλαβή των εγγράφων της δημόσιας σύμβασης, άλλοι από τον ανεπαρκή χρόνο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Restrictions to obtaining the procurement documents, other than insufficient time</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Restricciones para obtener los documentos de contratación distintas del tiempo insuficiente</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankedokumentide saamise piirangud muul põhjusel kui ebapiisav aeg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muita kuin liian lyhyeen aikaan liittyviä rajoituksia hankinta-asiakirjojen hankkimisessa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Entraves à l'obtention des documents de marché autres que le délai insuffisant</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Srianta ar an rochtain ar na doiciméid soláthair, seachas easpa ama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ograničenja za dobivanja dokumentacije o nabavi koja nisu povezana s nedovoljno vremena</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A közbeszerzési dokumentumok beszerzésére vonatkozó korlátozások, a nem elegendő időn kívül</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Restrizioni all'accesso alla documentazione di gara diverse dal tempo insufficiente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kiti, nei nepakankamas laikotarpis, pirkimo dokumentų gavimo apribojimai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ierobežojumi iepirkuma dokumentu saņemšanai, kas nav nepietiekams laikposms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Restrizzjonijiet għall-ksib tad-dokumenti tal-akkwist, għajr żmien insuffiċjenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Beperkingen voor het verkrijgen van de aanbestedingsstukken, anders dan onvoldoende tijd</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ograniczenia w zakresie uzyskania dokumentów zamówienia, inne niż niewystarczający czas</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Restrições à obtenção dos documentos do concurso, para além de tempo insuficiente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Restricții la obținerea documentelor achiziției, în afară de timpul insuficient</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Obmedzenia pri získavaní súťažných podkladov iné než nedostatok času</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Omejitve pri pridobivanju razpisne dokumentacije, razen nezadostnega časa</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Begränsningar av erhållandet av upphandlingsdokumenten, andra än otillräcklig tid</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>unj-comp-pro</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unjustified use of competitive procedure with negotiation, competitive dialogue or innovative partnership</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Необосновано използване на състезателната процедура с договаряне, състезателния диалог или партньорството за иновации</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neodůvodněné použití jednacího řízení, soutěžního dialogu nebo inovačního partnerství</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Uberettiget brug af udbud med forhandling, konkurrencepræget dialog eller innovationspartnerskab</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Fälle, in denen die Anwendung des Vergabeverfahrens mit Verhandlung, des wettbewerblichen Dialogs oder einer innovativen Partnerschaft nicht gerechtfertigt ist</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αδικαιολόγητη χρήση ανταγωνιστικής διαδικασίας με διαπραγμάτευση, ανταγωνιστικού διαλόγου ή σύμπραξης καινοτομίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Unjustified use of competitive procedure with negotiation, competitive dialogue or innovative partnership</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Uso injustificado de un procedimiento de licitación con negociación, un diálogo competitivo o una asociación para la innovación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Konkurentsipõhise läbirääkimistega hankemenetluse, võistleva dialoogi või innovatsioonipartnerluse põhjendamata kasutamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjousperusteisen neuvottelumenettelyn, kilpailullisen neuvottelumenettelyn tai innovatiivisen kumppanuuden perusteeton käyttö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Recours injustifié à une procédure concurrentielle avec négociation, dialogue compétitif ou partenariat innovant</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Úsáideadh gan bonn cirt nós imeachta iomaíoch maille le caibidlíocht, idirphlé iomaíoch nó comhpháirtíocht nuálach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neopravdana uporaba postupka nadmetanja uz pregovore, natjecateljskog dijaloga ili partnerstva za inovacije</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A tárgyalásos eljárás, a versenypárbeszéd vagy az innovációs partnerség indokolatlan alkalmazása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ricorso senza giustificazione a una procedura competitiva con negoziazione, a un dialogo competitivo o a un partenariato per l'innovazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepagrįsta konkurso procedūra su derybomis, konkurencinis dialogas arba inovacijų partnerystė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Konkursa procedūra ar sarunām, konkursa dialogs vai inovācijas partnerība izmantota nepamatoti</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Użu mhux ġustifikat tal-proċedura kompetittiva fin-negozjar, fid-djalogu kompetittiv jew fi sħubija innovattiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ongerechtvaardigd gebruik van mededingingsprocedure met onderhandeling, concurrentiegerichte dialoog of innovatiepartnerschap</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieuzasadnione zastosowanie procedury konkurencyjnej z negocjacjami, dialogu konkurencyjnego lub partnerstwa innowacyjnego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Utilização injustificada de procedimento concorrencial com negociação, diálogo concorrencial ou parceria para a inovação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Utilizarea nejustificată a procedurii competitive cu negociere, a dialogului competitiv sau a parteneriatului pentru inovare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neodôvodnené použitie súťažného konania s rokovaním, súťažného dialógu alebo inovatívneho partnerstva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neupravičena uporaba konkurenčnega postopka s pogajanji, konkurenčnega dialoga ali inovativnega partnerstva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Omotiverad användning av förhandlade förfaranden under konkurrens, konkurrenspräglad dialog eller innovativt partnerskap</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>unj-excl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unjustified exclusion of tenderers or candidates</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Необосновано изключване на оференти или кандидати</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neoprávněné vyloučení uchazečů nebo zájemců</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Uberettiget udelukkelse af tilbudsgivere eller kandidater</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ungerechtfertigte Ausgrenzung von Bietern oder Bewerbern</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αδικαιολόγητος αποκλεισμός προσφερόντων ή υποψηφίων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Unjustified exclusion of tenderers or candidates</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Exclusión injustificada de licitadores o candidatos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkujate või kandidaatide põhjendamatu kõrvaldamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjoajien tai ehdokkaiden perusteeton poissulkeminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Exclusion injustifiée de soumissionnaires ou candidats</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eisiamh tairgeoirí nó iarrthóirí, gan bonn cirt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neopravdano isključenje ponuditelja ili natjecatelja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlattevők vagy pályázók indokolatlan kizárása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Esclusione ingiustificata di offerenti o candidati</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepagrįstas dalyvių arba kandidatų pašalinimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pretendentu vai kandidātu nepamatota izslēgšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Esklużjoni mhux ġustifikata ta’ offerenti jew ta’ kandidati</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ongerechtvaardigde uitsluiting van inschrijvers of gegadigden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieuzasadnione wykluczenie oferentów lub kandydatów</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Exclusão injustificada de proponentes ou candidatos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Excluderea nejustificată a ofertanților sau a candidaților</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neodôvodnené vylúčenie uchádzačov alebo záujemcov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neupravičena izključitev ponudnikov ali kandidatov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Omotiverad uteslutning av anbudsgivare eller anbudssökande</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>unj-lim-subc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unjustified limitation of subcontracting</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Необосновано ограничение на използването на подизпълнители</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neodůvodněné omezení subdodávek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Uberettiget begrænsning af underentreprise</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ungerechtfertigte Beschränkung der Unterbeauftragung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αδικαιολόγητος περιορισμός της υπεργολαβίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Unjustified limitation of subcontracting</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Limitación injustificada de la subcontratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Allhanke põhjendamatu piiramine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alihankinnan perusteeton rajoittaminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Limitation injustifiée de la sous-traitance</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Teorannú an fhochonraithe, gan bonn cirt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neopravdano ograničenje podugovaranja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az alvállalkozók igénybevételének indokolatlan korlátozása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Limitazione ingiustificata dei subappalti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepagrįstas subrangos ribojimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Apakšuzņēmuma līgumu izmantošana nepamatoti ierobežota</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Limitazzjoni mhux ġustifikata tas-sottokuntrattar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ongerechtvaardigde beperking van onderaanneming</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieuzasadnione ograniczenie podwykonawstwa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Limitação injustificada da subcontratação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Limitarea nejustificată a subcontractării</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neodôvodnené obmedzenie subdodávok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neupravičena omejitev oddaje naročil podizvajalcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Omotiverad begränsning av underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>unj-na-ppr</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unjustified non-application of public procurement rules</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Необосновано неприлагане на разпоредбите за обществените поръчки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neoprávněné neuplatnění pravidel týkajících se veřejných zakázek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Uberettiget manglende anvendelse af reglerne om offentlige udbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ungerechtfertigte Nichtanwendung geltender Vorschriften zur öffentlichen Auftragsvergabe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αδικαιολόγητη μη εφαρμογή των κανόνων για τις δημόσιες συμβάσεις</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Unjustified non-application of public procurement rules</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Inaplicación injustificada de las normas de contratación pública</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Riigihanke-eeskirjade põhjendamatu kohaldamata jätmine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkisia hankintoja koskevien sääntöjen perusteeton soveltamatta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Non-application injustifiée des règles de passation des marchés publics</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan rialacha soláthair phoiblí a chur i bhfeidhm gan bonn cirt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neopravdano neprimjenjivanje pravila o javnoj nabavi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A közbeszerzési szabályok alkalmazásának indokolatlan elmulasztása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mancato rispetto ingiustificato delle norme in materia di appalti pubblici</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepagrįstas viešųjų pirkimų taisyklių netaikymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publiskā iepirkuma noteikumu nepamatota nepiemērošana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nuqqas ta' applikazzjoni mhux ġustifikata tar-regoli dwar l-akkwist pubbliku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ongerechtvaardigde niet-toepassing van voorschriften inzake overheidsopdrachten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nieuzasadnione niestosowanie przepisów dotyczących zamówień publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Não aplicação injustificada das regras em matéria de contratação pública</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Neaplicarea, în mod nejustificat, a regulilor privind achizițiile publice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neodôvodnené neuplatňovanie pravidiel verejného obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neupravičena neuporaba pravil o javnih naročilih</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Omotiverad underlåtenhet att tillämpa reglerna för offentlig upphandling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>unj-nrl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Use of technical specification, selection criterion, award criterion, exclusion criterion, or contract performance condition that are discriminatory because of unjustified national, regional or local preferences</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Използване на техническа спецификация, критерий за подбор, критерий за възлагане, критерий за изключване или условие за изпълнение на поръчката, които са дискриминационни поради необосновани национални, регионални или местни предпочитания</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Použití technických specifikací, kritérií pro výběr, kritérií pro zadání, kritérií pro vyloučení nebo podmínek plnění, jež jsou diskriminační na základě neodůvodněných celostátních, regionálních nebo místních preferencí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anvendelse af tekniske specifikationer, udvælgelseskriterier, tildelingskriterier, udelukkelseskriterier eller bestemmelser om kontraktens opfyldelse, der er diskriminerende på grund af uberettigede nationale, regionale eller lokale præferencer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anwendung von technischen Spezifikationen, Auswahl-, Zuschlags-, Ausschlusskriterien oder Bedingungen für die Auftragsausführung, die wegen ungerechtfertigter nationaler, regionaler oder lokaler Präferenzen diskriminierend sind</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Χρησιμοποίηση τεχνικής προδιαγραφής, κριτηρίου επιλογής, κριτηρίου ανάθεσης, κριτηρίου αποκλεισμού ή όρου εκτέλεσης της σύμβασης που εισάγουν διακρίσεις λόγω αδικαιολόγητων εθνικών, περιφερειακών ή τοπικών προτιμήσεων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Use of technical specification, selection criterion, award criterion, exclusion criterion, or contract performance condition that are discriminatory because of unjustified national, regional or local preferences</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Uso de especificaciones técnicas, criterios de selección, criterios de adjudicación o condiciones de ejecución del contrato que son discriminatorios debido a preferencias nacionales, regionales o locales injustificadas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sellise tehnilise kirjelduse, valikukriteeriumi, pakkumuste hindamise kriteeriumi, menetlusest kõrvalejätmise kriteeriumi või lepingu täitmise tingimuse kasutamine, mis on põhjendamatute siseriiklike, piirkondlike või kohalike eelistuste tõttu diskrimineeriv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sellaisen teknisen eritelmän, valintaperusteen, sopimuksentekoperusteen, poissulkemisperusteen tai hankintasopimuksen täytäntöönpanoehdon käyttö, joka on syrjivä perusteettomien kansallisten, alueellisten tai paikallisten preferenssien vuoksi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Recours à des spécifications techniques, critères de sélection, critères d’attribution, critères d'exclusion ou conditions d’exécution du marché discriminatoires à cause de préférences nationales, régionales ou locales injustifiées</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Úsáid bainte as sonraíocht theicniúil, critéar roghnúcháin, critéar dámhachtana, critéir eisiaimh nó coinníoll comhlíonta conartha atá idirdhealaitheach de dheasca tosaíochtaí náisiúnta, réigiúnacha nó áitiúla nach bhfuil bonn cirt leo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Diskriminirajuće tehničke specifikacije, kriterij za odabir, kriterij za dodjelu, kriterij za isključenje ili uvjet za izvršenje ugovora zbog neopravdanih nacionalnih, regionalnih ili lokalnih povlastica</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Olyan műszaki leírás, alkalmassági követelmény, értékelési szempont, kizárási kritérium vagy szerződésteljesítési feltétel alkalmazása, amely indokolatlan nemzeti, regionális vagy helyi preferenciákból fakadóan nem megkülönböztetésmentes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Applicazione di specifiche tecniche, criterio di selezione, criterio di aggiudicazione, criterio di esclusione o condizione di esecuzione dell'appalto che sono discriminatori in ragione di ingiustificate preferenze nazionali, regionali o locali</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Naudojamos techninės specifikacijos, atrankos kriterijai, sutarties skyrimo kriterijai, pašalinimo iš konkurso kriterijai arba sutarties vykdymo sąlygos yra diskriminaciniai dėl nepagrįstų nacionalinių, regioninių ar vietos prioritetų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tādas tehniskās specifikācijas, atlases kritērija, līgumslēgšanas tiesību piešķiršanas kritērija, izslēgšanas kritērija vai līguma izpildes nosacījuma izmantošana, kas ir diskriminatīvs tāpēc, ka priekšroka nepamatoti tiek dota piedāvājumiem no noteiktas valsts, reģiona vai pašvaldības</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Użu ta’ speċifikazzjonijiet tekniċi, kriterji tal-għażla, kriterji tal-għoti, kriterji tal-esklużjoni, jew kundizzjonijiet tat-twettiq tal-kuntratt li jkunu diskriminatorji minħabba preferenzi nazzjonali, reġjonali jew lokali mhux ġustifikati</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gebruik van technische specificaties, selectiecriteria, gunningscriteria, uitsluitingscriteria of uitvoeringsvoorwaarden die discriminerend zijn als gevolg van ongerechtvaardigde nationale, regionale of lokale voorkeuren</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zastosowanie specyfikacji technicznej, kryterium kwalifikacji, kryterium udzielenia zamówienia, kryterium wykluczenia lub warunku realizacji zamówienia, które są dyskryminujące ze względu na nieuzasadnione preferencje krajowe, regionalne lub lokalne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Utilização de especificações técnicas, critérios de seleção, critérios de adjudicação, critérios de exclusão ou condições de execução do contrato que são discriminatórios devido a preferências nacionais, regionais ou locais injustificadas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Utilizarea unei specificații tehnice, a unui criteriu de selecție, a unui criteriu de atribuire, a unui criteriu de excludere sau a unei condiții de executare a contractului care sunt discriminatorii din cauza unor preferințe nejustificate la nivel național, regional sau local</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Uplatnenie technickej špecifikácie, podmienky účasti, kritéria na vyhodnotenie ponúk, vylučovacieho kritéria alebo podmienky plnenia zmluvy, ktoré sú diskriminačné z dôvodu neodôvodnených vnútroštátnych, regionálnych alebo miestnych preferencií</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Uporaba tehničnih specifikacij, pogoja za sodelovanje, merila za oddajo naročila, merila za izključitev ali pogoja za izvedbo naročila, ki so diskriminatorni, ker dajejo prednost na nacionalni, regionalni ali lokalni podlagi</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Användning av tekniska specifikationer, selekteringskriterium, tilldelningskriterium eller villkor för fullgörande av kontraktet som är diskriminerande på grund av omotiverade nationella, regionala eller lokala preferenser</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>unj-nrl-other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Use of technical specifications, selection criteria, award criteria, exclusion criteria, or contract performance conditions that are discriminatory (i.e. restrict access for economic operators) for other reasons than unjustified national, regional or local preferences</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Използване на технически спецификации, критерии за подбор, критерии за възлагане, критерии за изключване или условия за изпълнение на поръчката, които са дискриминационни (т.е. ограничават достъпа на икономически оператори) по причини, различни от необосновани национални, регионални или местни предпочитания</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Použití technických specifikací, kritérií pro výběr, kritérií pro zadání, kritérií pro vyloučení nebo podmínek plnění, jež jsou diskriminační (tj. omezují přístup hospodářských subjektů) z jiných důvodů než na základě neodůvodněných celostátních, regionálních nebo místních preferencí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anvendelse af tekniske specifikationer, udvælgelseskriterier, tildelingskriterier, udelukkelseskriterier eller bestemmelser om kontraktens opfyldelse, der er diskriminerende (f.eks. begrænset adgang for økonomiske operatører) af andre grunde end uberettigede nationale, regionale eller lokale præferencer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anwendung von technischen Spezifikationen, Auswahl-, Zuschlags-, Ausschlusskriterien oder Bedingungen für die Auftragsausführung, die aus anderen Gründen als ungerechtfertigte nationale, regionale oder lokale Präferenzen diskriminierend sind (d. h. den Zugang von Wirtschaftsteilnehmern beschränken)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Χρησιμοποίηση τεχνικών προδιαγραφών, κριτηρίων επιλογής, κριτηρίων ανάθεσης, κριτηρίων αποκλεισμού ή όρων εκτέλεσης της σύμβασης που εισάγουν διακρίσεις (δηλαδή περιορίζουν την πρόσβαση των οικονομικών φορέων) για άλλους λόγους πέραν των αδικαιολόγητων εθνικών, περιφερειακών ή τοπικών προτιμήσεων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Use of technical specifications, selection criteria, award criteria, exclusion criteria, or contract performance conditions that are discriminatory (i.e. restrict access for economic operators) for other reasons than unjustified national, regional or local preferences</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Uso de especificaciones técnicas, criterios de selección, criterios de adjudicación o condiciones de ejecución del contrato que son discriminatorios (es decir, que restringen el acceso de los operadores económicos) por motivos distintos de las preferencias nacionales, regionales o locales injustificadas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Selliste tehniliste kirjelduste, valikukriteeriumide, pakkumuste hindamise kriteeriumide, menetlusest kõrvalejätmise kriteeriumide või lepingu täitmise tingimuste kasutamine, mis on diskrimineerivad (st ettevõtjate juurdepääsu piiravad) muudel põhjustel kui põhjendamatute siseriiklike, piirkondlike või kohalike eelistuste tõttu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sellaisten teknisten eritelmien, valintaperusteiden, sopimuksentekoperusteiden, poissulkemisperusteiden tai hankintasopimuksen täytäntöönpanoehtojen käyttö, jotka ovat syrjiviä (eli rajoittavat talouden toimijoiden osallistumista) muiden kuin perusteettomien kansallisten, alueellisten tai paikallisten preferenssien vuoksi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Recours à des spécifications techniques, critères de sélection, critères d’attribution, critères d'exclusion ou conditions d’exécution du marché discriminatoires (restriction d’accès pour certains opérateurs économiques) pour des raisons autres que des préférences nationales, régionales ou locales injustifiées</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Úsáid bainte as sonraíochtaí teicniúla, critéir roghnúcháin, critéir dhámhachtana, critéir eisiaimh nó coinníollacha comhlíonta conartha atá idirdhealaitheach (i.e. cuirtear srian leis an rochtain atá ag oibreoirí eacnamaíocha) ar chúiseanna eile seachas tosaíochtaí náisiúnta, réigiúnacha nó áitiúla nach bhfuil bonn cirt leo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Diskriminirajuće tehničke specifikacije, kriteriji za odabir, kriteriji za dodjelu, kriteriji za isključenje ili uvjeti za izvršenje ugovora (npr. ograničen pristup za gospodarske subjekte) iz razloga koji nisu neopravdane nacionalne, regionalne ili lokalne povlastice</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Olyan műszaki leírások, alkalmassági követelmények, értékelési szempontok, kizárási kritériumok vagy szerződésteljesítési feltételek alkalmazása, amelyek indokolatlan nemzeti, regionális vagy helyi preferenciáktól eltérő okokból (pl. a gazdasági szereplők hozzáférésének korlátozása) nem megkülönböztetésmentesek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Applicazione di specifiche tecniche, criteri di selezione, criteri di aggiudicazione, criteri di esclusione o condizioni di esecuzione dell'appalto che sono discriminatori (vale a dire limitano l'accesso di operatori economici) per motivi diversi da ingiustificate preferenze nazionali, regionali o locali</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Naudojamos techninės specifikacijos, atrankos kriterijai, sutarties skyrimo kriterijai, pašalinimo iš konkurso kriterijai arba sutarties vykdymo sąlygos yra diskriminaciniai (t. y. apribojantys ekonominės veiklos vykdytojų galimybes dalyvauti) dėl kitų, nei nepagrįsti nacionaliniai, regioniniai ar vietos prioritetai, priežasčių</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tādu tehnisko specifikāciju, atlases kritēriju, līgumslēgšanas tiesību piešķiršanas kritēriju, izslēgšanas kritēriju vai līguma izpildes nosacījumu izmantošana, kas ir diskriminatīvi (t. i., ierobežo ekonomikas dalībnieku piekļuvi) tādu iemeslu dēļ, kuri nav nepamatota priekšroka piedāvājumiem no noteiktas valsts, reģiona vai pašvaldības</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Użu ta’ speċifikazzjonijiet tekniċi, kriterji tal-għażla, kriterji tal-għoti, kriterji tal-esklużjoni, jew kundizzjonijiet tat-twettiq tal-kuntratt li jkunu diskriminatorji (jiġifieri jirrestrinġu l-aċċess għall-operaturi ekonomiċi) għal raġunijiet oħra li mhumiex il-preferenzi nazzjonali, reġjonali jew lokali mhux ġustifikati</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gebruik van technische specificaties, selectiecriteria, gunningscriteria, uitsluitingscriteria of uitvoeringsvoorwaarden die discriminerend zijn (d.w.z. de toegang voor ondernemers beperken) om andere redenen dan ongerechtvaardigde nationale, regionale of lokale voorkeuren</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zastosowanie specyfikacji technicznych, kryteriów kwalifikacji, kryteriów udzielenia zamówienia, kryteriów wykluczenia lub warunków realizacji zamówienia, które są dyskryminujące (tj. ograniczają dostęp podmiotów gospodarczych) z powodów innych niż nieuzasadnione preferencje krajowe, regionalne lub lokalne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Utilização de especificações técnicas, critérios de seleção, critérios de adjudicação, critérios de exclusão ou condições de execução do contrato que são discriminatórios (de acesso restrito para os operadores económicos) por outras razões que não preferências nacionais, regionais ou locais injustificadas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Utilizarea unei specificații tehnice, a unui criteriu de selecție, a unui criteriu de atribuire sau de excludere sau a unei condiții de executare a contractului care sunt discriminatorii (de exemplu, restricţie de acces pentru operatorii economici) din alte motive decât preferințele naționale, regionale sau locale nejustificate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Uplatnenie technických špecifikácií, podmienky účasti, kritéria na vyhodnotenie ponúk, vylučovacieho kritéria alebo podmienok plnenia zmluvy, ktoré sú diskriminačné (t. j. obmedzujú prístup hospodárskych subjektov) z iných dôvodov než sú vnútroštátne, regionálne alebo miestne preferencie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Uporaba tehničnih specifikacij, pogoja za sodelovanje, merila za oddajo naročila, merila za izključitev ali pogoja za izvedbo naročila, ki so diskriminatorni (tj. omejujejo dostop gospodarskim subjektom) iz razlogov, pri katerih ne gre za nacionalno, regionalno ali lokalno podlago</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Användning av tekniska specifikationer, selekteringskriterier, tilldelningskriterier eller villkor för fullgörande av kontraktet som är diskriminerande (dvs. begränsar tillträdet för ekonomiska aktörer) av andra skäl än omotiverade nationella, regionala eller lokala preferenser</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>Accessibility</ShortName>
+      <LongName>accessibility</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/accessibility</LongName>
+      <Version>20201216-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/accessibility</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>inc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Accessibility criteria for persons with disabilities are included</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Включени са критерии за достъпността за лицата с увреждания</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritéria přístupnosti pro osoby s postižením jsou zahrnuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Der er anvendt kriterier vedrørende adgangsmuligheder for personer med handicap</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zugänglichkeitskriterien für Menschen mit Behinderungen wurden berücksichtigt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Συμπεριλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Accessibility criteria for persons with disabilities are included</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Se incluyen criterios de accesibilidad para las personas con discapacidad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lisatud on puuetega inimeste juurdepääsukriteeriumid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vammaisia koskevat esteettömyysvaatimukset on otettu huomioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Des critères d’accessibilité pour les personnes handicapées sont appliqués</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>U obzir su uzeti uvjeti pristupačnosti za osobe s invaliditetom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok be vannak építve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sono compresi criteri di accessibilità per le persone con disabilità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prieinamumo neįgaliesiems kriterijai įtraukti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ir iekļauti kritēriji par pieejamību personām ar invaliditāti</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà huma inklużi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Er zijn criteria opgenomen inzake de toegankelijkheid voor personen met een handicap</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryteria dostępności dla osób niepełnosprawnych zostały uwzględnione</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Os critérios de acessibilidade para as pessoas com deficiência estão incluídos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Sunt incluse criterii de accesibilitate pentru persoanele cu handicap</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritériá prístupnosti pre osoby so zdravotným postihnutím sú zahrnuté</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vključeni so pogoji dostopnosti za invalidne osebe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tillgänglighetskriterier för personer med funktionsnedsättning ingår</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>n-inc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерии за достъпността за лицата с увреждания не са включени, защото поръчката не е предназначена за използване от физически лица</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritéria přístupnosti pro osoby s postižením nejsou zahrnuta, neboť zakázka není určena k použití fyzickými osobami</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Der er ikke anvendt kriterier vedrørende adgangsmuligheder for personer med handicap, fordi udbuddet ikke er beregnet til at blive anvendt af fysiske personer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kriterien für die Zugänglichkeit für Menschen mit Behinderungen wurden nicht berücksichtigt, da die Beschaffung nicht für die Nutzung durch natürliche Personen vorgesehen ist</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δεν περιλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες επειδή η προμήθεια δεν προορίζεται για χρήση από φυσικά πρόσωπα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No se incluyen criterios de accesibilidad para las personas con discapacidad porque la contratación no está destinada a ser utilizada por personas físicas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Puuetega inimeste juurdepääsukriteeriume pole lisatud, sest hange ei ole mõeldud kasutamiseks füüsilistele isikutele</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vammaisia koskevia esteettömyysvaatimuksia ei ole otettu huomioon, koska hankintaa ei ole tarkoitettu luonnollisten henkilöiden käyttöön</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Des critères d’accessibilité pour les personnes handicapées ne sont pas appliqués parce que le marché n’est pas destiné aux personnes physiques</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Níl critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh mar níl an soláthar beartaithe lena úsáid ag daoine nádúrtha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Uvjeti pristupačnosti za osobe s invaliditetom nisu uzeti u obzir jer javna nabava nije namijenjena fizičkim osobama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok nincsenek beépítve, mivel a beszerzést nem fogják természetes személyek használni</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Non sono compresi criteri di accessibilità per le persone con disabilità perché l'oggetto dell'appalto non è destinato all'uso da parte di persone fisiche</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prieinamumo neįgaliesiems kriterijai neįtraukti, nes nenumatyta, kad pirkimo objektas bus naudojamas fizinių asmenų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kritēriji par pieejamību personām ar invaliditāti nav iekļauti, jo iepirkums nav paredzēts fiziskām personām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà ma jkunux inklużi minħabba li l-akkwist ma jkunx maħsub għall-użu minn persuni fiżiċi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Er zijn geen criteria opgenomen inzake de toegankelijkheid voor personen met een handicap, omdat de aanbesteding niet bestemd is voor gebruik door natuurlijke personen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryteria dostępności dla osób niepełnosprawnych nie zostały uwzględnione, ponieważ przedmiot zamówienia nie jest przeznaczony dla osób fizycznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Os critérios de acessibilidade para as pessoas com deficiência não estão incluídos porque o contrato não se destina a pessoas singulares</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nu sunt incluse criterii de accesibilitate pentru persoanele cu handicap, deoarece achizițiile nu sunt destinate a fi utilizate de către persoane fizice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritériá prístupnosti pre osoby so zdravotným postihnutím nie sú zahrnuté, keďže zákazka nie je určená na použitie fyzickými osobami</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Pogoji dostopnosti za invalidne osebe niso vključeni, ker predmet javnega naročila ni namenjen temu, da bi ga uporabljale fizične osebe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tillgänglighetskriterier för personer med funktionsnedsättning ingår inte eftersom upphandlingen inte är avsedd att användas av fysiska personer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>n-inc-just</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Accessibility criteria for persons with disabilities are not included with the following justification</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерии за достъпността за лицата с увреждания не са включени, а обосновката е следната</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritéria přístupnosti pro osoby s postižením nejsou zahrnuta s následujícím odůvodněním</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Der er ikke anvendt kriterier vedrørende adgangsmuligheder for personer med handicap med følgende begrundelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zugänglichkeitskriterien für Menschen mit Behinderungen wurden mit folgender Begründung nicht berücksichtigt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δεν περιλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες με την ακόλουθη αιτιολόγηση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Accessibility criteria for persons with disabilities are not included with the following justification</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No se incluyen criterios de accesibilidad para las personas con discapacidad por la siguiente justificación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Puuetega inimeste juurdepääsukriteeriume ei ole lisatud järgmise põhjendusega</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vammaisia koskevia esteettömyysvaatimuksia ei ole otettu huomioon seuraavin perustein</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Des critères d’accessibilité pour les personnes handicapées ne sont pas appliqués avec la justification suivante</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Níl critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh ar na cúiseanna seo a leanas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Uvjeti pristupačnosti za osobe s invaliditetom nisu uzeti u obzir zbog sljedećeg obrazloženja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok nincsenek beépítve az alábbi indoklás szerint</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Non sono compresi criteri di accessibilità per le persone con disabilità con la giustificazione seguente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prieinamumo neįgaliesiems kriterijai neįtraukti dėl šių priežasčių</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kritēriji par pieejamību personām ar invaliditāti nav iekļauti ar šādu pamatojumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà ma jkunux inklużi bil-ġustifikazzjoni li ġejja</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Er zijn geen criteria opgenomen inzake de toegankelijkheid voor personen met een handicap, om de volgende reden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryteria dostępności dla osób niepełnosprawnych nie zostały uwzględnione z uwagi na poniższe uzasadnienie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Os critérios de acessibilidade para as pessoas com deficiência não estão incluídos, com a seguinte justificação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nu sunt incluse criterii de accesibilitate pentru persoanele cu handicap, din următorul motiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritériá prístupnosti pre osoby so zdravotným postihnutím nie sú zahrnuté s nasledujúcim odôvodnením</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Pogoji dostopnosti za invalidne osebe niso vključeni iz naslednjih razlogov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tillgänglighetskriterier för personer med funktionsnedsättning ingår inte med följande motivering</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

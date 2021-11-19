@@ -1,0 +1,4044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>MeasurementUnit</ShortName>
+      <LongName>measurement-unit</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/measurement-unit</LongName>
+      <Version>20190918-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/measurement-unit</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2N</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>децибел</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Dezibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ντεσιμπέλ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>decibelio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>detsibell</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>desibeli</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>décibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>deicibeil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>decibelas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>decibeli</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>decybel</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>decibel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>3C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>manmonth</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>човекомесец</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>člověkoměsíc</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>mandmåned</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Mannmonat</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ανθρωπομήνας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>manmonth</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>hombre-mes</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>inimkuu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>henkilötyökuukausi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>mois-homme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>daonmí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>čovjek-mjesec</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>emberhónap</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>uomo-mese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>asmens darbo mė́nuo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>cilvēkmēnesis</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>xhur ta’ xogħol</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>manmaand</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>osobomiesiąc</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>homem-mês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>luni-om</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>človekomesiac</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>človek-mesec</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>manmånad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AD</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>байт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>bajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μπάιτ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>bait</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tavu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>bheart</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>bajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>baitas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>baits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>bajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>bajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>bajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>byte</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AMP</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>ampere</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>ампер</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>ampér</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>ampere</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ampere</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>αμπέρ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>ampere</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>amperio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>amper</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>ampeeri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>ampère</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>aimpéar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>amper</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>amper</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>ampère</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>amperas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>ampēri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>ampere</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>ampère</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>amper</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>ampere</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>amper</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>ampér</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>amper</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ampere</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>BAR</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>бар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μπαρ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>baar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>baari</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>baras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>bārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>bar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>BIT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>бит</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μπιτ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>bitt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>bitti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>giotán</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>bitas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>bits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>bit</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>BQL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>бекерел</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μπεκερέλ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>bekrell</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>beicireil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>bekerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>bekerelis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>bekerels</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>bekerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>bekerel</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>becquerel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>C34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>mole</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>мол</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μολ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>mole</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>mool</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>mooli</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>mole</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>mól</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>mól</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>mole</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>molis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>mols</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>mole</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>mol</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>C45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>nanometre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>нанометър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>nanometr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>nanometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nanometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>νανόμετρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>nanometre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>nanómetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>nanomeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>nanometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>nanomètre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>nanaiméadar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>nanometar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>nanométer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>nanometro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>nanometras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>nanometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>nanometru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>nanometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nanometr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>nanometro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>nanometru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nanometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>nanometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>nanometer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CDL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>кандела</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>καντέλα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>caindéile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kandela</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>candela</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CEL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>degree Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>градус по Целзий</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>stupeň Celsia</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>grad celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Grad Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>βαθμός Κελσίου</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>degree Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>grado Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Celsiuse kraad</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>celsiusaste</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>degré Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>céim Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Celzijev stupanj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Celsius-fok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>grado centigrado</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Celsijaus laipsnis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Celsija grādi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>grad Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>graad Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>stopień Celsjusza</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>graus centígrados</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>grad Celsius</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>stupeň Celzia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>stopinja Celzija</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>grad Celsius</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CMK</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>square centimetre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>квадратен сантиметър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>centimetr čtvereční</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kvadratcentimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Quadratzentimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τετραγωνικό εκατοστό</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>square centimetre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>centímetro cuadrado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>ruutsentimeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>neliösenttimetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>centimètre carré</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>ceintiméadar cearnach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kvadratni centimetar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>négyzetcentiméter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>centimetro quadrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kvadratinis centimetras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kvadrātcentimetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>ċentimetru kwadru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>vierkante centimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>centymetr kwadratowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>centímetro quadrado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>centimetru pătrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>centimeter štvorcový</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kvadratni centimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kvadratcentimeter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CMQ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>cubic centimetre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>кубичен сантиметър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>centimetr krychlový</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kubikcentimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kubikzentimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>κυβικό εκατοστό</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>cubic centimetre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>centímetro cúbico</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kuupsentimeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kuutiosenttimetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>centimètre cube</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>ceintiméadar ciúbach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kubični centimetar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>köbcentiméter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>centimetro cubo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kubinis centimetras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kubikcentimetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>ċentimetru kubiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>kubieke centimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>centymetr sześcienny</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>centímetro cúbico</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>centimetru cub</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>centimeter kubický</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kubični centimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kubikcentimeter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CMT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>centimetre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>сантиметър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>centimetr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>centimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zentimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>εκατοστόμετρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>centimetre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>centímetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>sentimeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>senttimetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>centimètre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>ceintiméadar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>centimetar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>centiméter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>centimetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>centimetras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>centimetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>ċentimetru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>centimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>centymetr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>centímetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>centimetru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>centimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>centimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>centimeter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>D30</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>тераджаул</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τερατζάουλ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>terajulio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>teradžaul</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>térajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>teirigiúl</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>teradžul</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>teradžaulis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>teradžouli</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>teradżul</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>terajoule</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>E34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>гигабайт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>gigabajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>γιγαμπάιτ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>gigabait</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>gigatavu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>gigibheart</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>gibibajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>gigabaitas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>gigabaits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>gigabajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>gibibyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>gigabajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>gigabajt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>gigabyte</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>GRM</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>грам</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>γραμμάριο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>gramo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>gramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>gramma</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>gramme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>gramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>grammo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>gramas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>grami</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>gramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>grama</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>gram</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>GTE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>gross tonnage</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>брутна товароносимост</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>hrubá prostornost</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>bruttotonnage</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bruttoraumzahl</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ολική χωρητικότητα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>gross tonnage</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>arqueo bruto</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kogumahutavus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>bruttovetoisuus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>jauge brute</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>olltonnáiste</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>bruto tonaža</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>bruttó űrtartalom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>stazza lorda</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>bendrąją talpą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>bruto tilpība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>tunnellaġġ gross</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>brutotonnage</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>pojemność brutto</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>arqueação bruta</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>tonaj brut</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>hrubá tonáž</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>bruto tonaža</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>bruttodräktighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>GWH</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>gigawatt-hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>гигаватчас</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>gigawatthodina</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>gigawatt-time</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gigawattstunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>γιγάβατώρα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>gigawatt-hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>gigavatio-hora</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>gigavatt-tund</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>gigawattitunti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>gigawattheure</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>gigeavatuair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>gigavat sat</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>gigawattóra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>gigawattora</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>gigavatvalandė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>gigavatstundas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>gigawatt is-siegħa</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>gigawattuur</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>gigawatogodzina</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>gigawatt‑hora</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>gigawatt‑oră</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>gigawatthodina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>gigavatna ura</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>gigawattimme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>HAR</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>hectare</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>хектар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>hektar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>hektar</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Hektar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>εκτάριο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>hectare</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>hectárea</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>hektar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>hehtaari</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>hectare</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>heicteár</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>hektar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>hektár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>ettaro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>hektaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>hektāri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>ettaru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>hectare</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>hektar</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>hectare</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>hectar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>hektár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>hektar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>hektar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>HLT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>hectolitre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>хектолитър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>hektolitr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>hektoliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Hektoliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>εκατόλιτρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>hectolitre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>hectolitro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>hektoliiter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>hehtolitra</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>hectolitre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>heictilítear</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>hektolitar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>hektoliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>ettolitro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>hektolitras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>hektolitri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>ettolitru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>hectoliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>hektolitr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>hectolitro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>hectolitru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>hektoliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>hektoliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>hektoliter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>HTZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>херц</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>χερτζ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>hertzio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>herts</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>hertsi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>heirts</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>herc</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>hercas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>herci</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>herc</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>hertz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>HUR</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>час</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>hodina</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>time</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Stunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ώρα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>hora</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>tund</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tunti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>heure</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>uair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>sat</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>óra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>ora</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>valanda</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>stundas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>siegħa</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>uur</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>godziną</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>hora</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>oră</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>hodina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>ura</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>timme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>JOU</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>джаул</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τζάουλ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>julio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>džaul</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>giúl</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>džul</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>džaulis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>džouli</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>dżul</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>joule</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>KEL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>градус Келвин</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>κέλβιν</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>ceilvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kelvinas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kelvini</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>kelwin</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kelvin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>KGM</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>килограм</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kilogramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>χιλιόγραμμο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>kilogramo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kilogramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kilogramma</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>kilogramme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>cileagram</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>kilogramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>chilogrammo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kilogramas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kilogrami</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>kilogramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>quilograma</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kilogram</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>KMH</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>kilometre per hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>километър в час</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>kilometr za hodinu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kilometer pr. time</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kilometer pro Stunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>χιλιόμετρο ανά ώρα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>kilometre per hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>kilómetro por hora</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kilomeeter tunnis</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kilometri tunnissa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>kilomètre par heure</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>ciliméadar san uair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kilometar na sat</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>kilométer/óra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>chilometro orario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kilometras per valandą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kilometri stundā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>kilometru fis-siegħa</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>kilometer per uur</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>kilometr na godzinę</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>quilómetro por hora</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>kilometru pe oră</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>kilometer za hodinu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kilometer na uro</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kilometer per timme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>KMK</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>square kilometre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>квадратен километър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>kilometr čtvereční</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kvadratkilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Quadratkilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τετραγωνικό χιλιόμετρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>square kilometre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>kilómetro cuadrado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>ruutkilomeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>neliökilometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>kilomètre carré</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>ciliméadar cearnach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kvadratni kilometar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>négyzetkilométer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>chilometro quadrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kvadratinis kilometras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kvadrātkilometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>kilometru kwadru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>vierkante kilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>kilometr kwadratowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>quilómetro quadrado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>kilometru pătrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>kilometer štvorcový</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kvadratni kilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kvadratkilometer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>KTM</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>kilometre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>километър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>kilometr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>χιλιόμετρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>kilometre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>kilómetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kilomeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kilometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>kilomètre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>ciliméadar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kilometar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>kilométer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>chilometro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kilometras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kilometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>kilometru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>kilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>kilometr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>quilómetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>kilometru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>kilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kilometer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>KWH</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>kilowatt-hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>киловатчас</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>kilowatthodina</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kilowatt-time</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kilowattstunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>κιλοβατώρα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>kilowatt-hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>kilovatio-hora</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kilovatt-tund</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kilowattitunti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>kilowattheure</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>cileavatuair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kilovatsat</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>kilowattóra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>chilowattora</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kilovatvalandė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kilovatstundas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>kilowatt is-siegħa</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>kilowattuur</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>kilowatogodzina</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>quilowatt-hora</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>kilowatt-oră</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>kilowatthodina</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kilovatna ura</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kilowattimme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>KWT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>киловат</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>κιλοβάτ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>kilovatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kilovatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kilowatti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>cileavata</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kilovat</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>chilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kilovatas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kilovati</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>kilowat</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>quilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kilovat</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kilowatt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>LH</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>labour hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>работни час</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>pracovní hodina</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>arbejdstime</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arbeitsstunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>εργατοώρα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>labour hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>hora de trabajo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>töötund</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>työtunti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>heure de travail</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>uair an tsaothair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>radni sat</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>munkaóra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>ora lavorativa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>dirbta valanda</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>darba stunda</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>sigħat ta' xogħol</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>arbeidsuur</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>godziną pracy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>hora de trabalho</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>oră de muncă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>hodina prácu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>delovna ura</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>arbetstimme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>LTR</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>litre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>литър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>litr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>liter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Liter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>λίτρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>litre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>litro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>liiter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>litra</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>litre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>lítear</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>litra</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>liter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>litro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>litras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>litri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>litru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>liter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>litr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>litro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>litru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>liter</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>liter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>liter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MAW</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>мегават</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μεγαβάτ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>megavatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>megavatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>megawatti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>mégawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>meigeavata</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>megavat</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>megavatas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>megavati</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>megawat</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>megavat</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>megawatt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MGM</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>milligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>милиграм</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>miligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>milligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Milligramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>χιλιοστόγραμμο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>milligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>miligramo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>milligramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>milligramma</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>milligramme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>milleagram</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>miligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>milligramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>milligrammo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>miligramas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>miligrami</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>milligramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>milligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>miligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>miligrama</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>miligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>miligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>miligram</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>milligram</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MIN</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>minute</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>минута</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>minuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>minut</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Minute</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>λεπτό</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>minute</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>minuto</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>minut</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>minuutti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>minute</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>nóiméad</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>minuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>perc</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>minuto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>minutė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>minūtes</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>minuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>minuut</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>minuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>minuto</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>minut</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>minúta</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>minuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>minut</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MLT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>millilitre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>милилитър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>mililitr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>milliliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Milliliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>χιλιοστόλιτρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>millilitre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>mililitro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>milliliiter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>millilitra</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>millilitre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>millilítear</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>mililitar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>milliliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>millilitro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>mililitras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>mililitri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>millilitru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>milliliter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>mililitr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>mililitro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>mililitru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>mililiter</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>mililiter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>milliliter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MMT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>millimetre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>милиметър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>milimetr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>millimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Millimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>χιλιοστόμετρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>millimetre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>milímetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>millimeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>millimetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>millimètre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>milliméadar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>milimetar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>milliméter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>millimetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>milimetras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>milimetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>millimetru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>millimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>milimetr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>milímetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>milimetru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>milimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>milimeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>millimeter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MTK</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>square metre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>квадратен метър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>metr čtvereční</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>kvadratmeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Quadratmeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τετραγωνικό μέτρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>square metre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>metro cuadrado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>ruutmeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>neliömetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>mètre carré</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>méadar cearnach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>kvadratni metar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>négyzetméter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>metro quadrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>kvadratinis metras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>kvadrātmetri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>metru kwadru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>vierkante meter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>metr kwadratowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>metro quadrado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>metru pătrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>meter štvorcový</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>kvadratni meter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>kvadratmeter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MTR</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>metre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>метър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>metr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>meter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Meter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μέτρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>metre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>metro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>meeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>metri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>mètre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>méadar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>metar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>méter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>metro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>metras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>metri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>metru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>meter</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>metr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>metro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>metru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>meter</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>meter</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>meter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MTS</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>metre per second</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>метър в секунда</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>metr za sekundu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>meter pr. sekund</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Meter pro Sekunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μέτρο ανά δευτερόλεπτο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>metre per second</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>metro por segundo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>meeter sekundis</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>metri sekunnissa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>mètre par seconde</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>méadar sa soicind</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>metar u sekundi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>méter/szekundum</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>metro al secondo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>metras per sekundę</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>metri sekundē</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>metru fis-sekonda</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>meter per seconde</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>metr na sekundę</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>metro por segundo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>metru pe secundă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>meter za sekundu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>meter na sekundo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>meter per sekund</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NEW</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>нютон</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>νιούτον</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>njuuton</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>niútan</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>njutn</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>niutonas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>ņūtoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>niuton</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>newton</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>PAL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>паскал</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>πασκάλ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>paskal</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>paskalis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>paskāli</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>paskal</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>pascal</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>SEC</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>second</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>секунда</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>sekunda</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>sekund</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sekunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>δευτερόλεπτο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>second</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>segundo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>sekund</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>sekunti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>seconde</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>soicind</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>sekunda</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>másodperc</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>secondo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>sekundė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>sekundes</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>sekonda</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>seconde</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>sekunda</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>segundo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>secundă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>sekunda</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>sekunda</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>sekund</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TKM</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>tonne-kilometre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>тон-километър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>tunokilometr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tonkilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Tonnenkilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τoνοχιλιόμετρο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>tonne-kilometre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>tonelada-kilómetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>tonnkilomeeter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tonnikilometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>tonne-kilomètre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>tona-chiliméadar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>tonski kilometar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>tonnakilométer</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>tonnellata-chilometro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>tonkilometras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>tonnkilometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>tunnellata metrika f'kilometru</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>tonkilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>tonokilometr</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>tonelada-quilómetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>tonă-kilometru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>tonokilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>tonski kilometer</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>tonkilometer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TNE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>tonne</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>тон</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>tuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>ton</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Tonne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τόνος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>tonne</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>tonelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>tonn</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tonni</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>tonne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>tona</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>tona</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>tonna</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>tonnellata</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>tona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>tonnas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>tunnellata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>ton</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>tona</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>tonelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>tonă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>tona</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>tona</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ton</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TOE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>tonne of oil equivalent</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>тонът нефтен еквивалент</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>tuna ropného ekvivalent</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>ton mineralolieækvivalent</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Tonne Rohöleinheiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>τόνος ισοδύναμου πετρελαίου</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>tonne of oil equivalent</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>tonelada equivalente de petróleo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>naftaekvivalenttonn</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>öljyekvivalenttitonni</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>tonne d’équivalent pétrole</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>coibhéis tona ola</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>ekvivalentom tone nafte</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>tonnában számított olajegyenérték</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>tonnellata equivalente petrolio</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>tona naftos ekvivalento</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>naftas ekvivalenta tonnas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>tunnellata tal-ekwivalenti taż-żejt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>eenheid ton olie-equivalent</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>tona oleju ekwiwalentnego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>tonelada de equivalente de petróleo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>tona echivalent petrol</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>tona ropného ekvivalentu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>tona ekvivalenta nafte</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ton oljeekvivalenter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>VLT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>волт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>βολτ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>voltio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>voltti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>volta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>voltas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>volti</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>wolt</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>volt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>WTT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>ват</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>βατ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>vatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>vatt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>watti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>vata</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>vat</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>vatas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>vati</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>wat</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>vat</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>watt</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
