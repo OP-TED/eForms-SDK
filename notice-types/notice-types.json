@@ -1,0 +1,350 @@
+{
+  "ublVersion" : "2.3",
+  "sdkVersion" : "eforms-sdk-0.5.0",
+  "metadataDatabase" : {
+    "version" : "0.2.16",
+    "createdOn" : "2021-11-04T11:11:11"
+  },
+  "noticeTypes" : [ {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0024",
+    "formType" : "planning",
+    "type" : "pin-buyer",
+    "description" : "Notice of the publication of a prior information notice on a buyer profile - general directive",
+    "subTypeId" : "1"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0024",
+    "formType" : "competition",
+    "type" : "pin-cfc-standard",
+    "description" : "Prior information notice used as a call for competition - general directive, standard regime",
+    "subTypeId" : "10"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0025",
+    "formType" : "competition",
+    "type" : "pin-cfc-standard",
+    "description" : "Periodic indicative notice used as a call for competition - sectoral directive, standard regime",
+    "subTypeId" : "11"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0024",
+    "formType" : "competition",
+    "type" : "pin-cfc-social",
+    "description" : "Prior information notice used as a call for competition - general directive, light regime",
+    "subTypeId" : "12"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0025",
+    "formType" : "competition",
+    "type" : "pin-cfc-social",
+    "description" : "Periodic indicative notice used as a call for competition - sectoral directive, light regime",
+    "subTypeId" : "13"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0023",
+    "formType" : "competition",
+    "type" : "pin-cfc-social",
+    "description" : "Prior information notice used as a call for competition - concessions directive, light regime",
+    "subTypeId" : "14"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32014L0025",
+    "formType" : "competition",
+    "type" : "qu-sy",
+    "description" : "Notice on the existence of a qualification system – sectoral directive",
+    "subTypeId" : "15"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32014L0024",
+    "formType" : "competition",
+    "type" : "cn-standard",
+    "description" : "Contract notice – general directive, standard regime",
+    "subTypeId" : "16"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32014L0025",
+    "formType" : "competition",
+    "type" : "cn-standard",
+    "description" : "Contract notice – sectoral directive, standard regime",
+    "subTypeId" : "17"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32009L0081",
+    "formType" : "competition",
+    "type" : "cn-standard",
+    "description" : "Contract notice – defence directive, standard regime ",
+    "subTypeId" : "18"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32014L0023",
+    "formType" : "competition",
+    "type" : "cn-standard",
+    "description" : "Concession notice – concessions directive, standard regime",
+    "subTypeId" : "19"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0025",
+    "formType" : "planning",
+    "type" : "pin-buyer",
+    "description" : "Notice of the publication of a periodic indicative notice on a buyer profile - sectoral directive",
+    "subTypeId" : "2"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32014L0024",
+    "formType" : "competition",
+    "type" : "cn-social",
+    "description" : "Contract notice – general directive, light regime",
+    "subTypeId" : "20"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32014L0025",
+    "formType" : "competition",
+    "type" : "cn-social",
+    "description" : "Contract notice – sectoral directive, light regime",
+    "subTypeId" : "21"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32009L0081",
+    "formType" : "competition",
+    "type" : "subco",
+    "description" : "Subcontract notice – defence directive",
+    "subTypeId" : "22"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32014L0024",
+    "formType" : "competition",
+    "type" : "cn-desg",
+    "description" : "Design contest notice – general directive, design",
+    "subTypeId" : "23"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "32014L0025",
+    "formType" : "competition",
+    "type" : "cn-desg",
+    "description" : "Design contest notice – sectoral directive, design",
+    "subTypeId" : "24"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0024",
+    "formType" : "dir-awa-pre",
+    "type" : "veat",
+    "description" : "Voluntary ex-ante transparency notice – general directive",
+    "subTypeId" : "25"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0025",
+    "formType" : "dir-awa-pre",
+    "type" : "veat",
+    "description" : "Voluntary ex-ante transparency notice – sectoral directive",
+    "subTypeId" : "26"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32009L0081",
+    "formType" : "dir-awa-pre",
+    "type" : "veat",
+    "description" : "Voluntary ex-ante transparency notice – defence directive",
+    "subTypeId" : "27"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0023",
+    "formType" : "dir-awa-pre",
+    "type" : "veat",
+    "description" : "Voluntary ex-ante transparency notice – concession directive",
+    "subTypeId" : "28"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0024",
+    "formType" : "result",
+    "type" : "can-standard",
+    "description" : "Contract award notice – general directive, standard regime",
+    "subTypeId" : "29"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32009L0081",
+    "formType" : "planning",
+    "type" : "pin-buyer",
+    "description" : "Notice of the publication of a prior information notice on a buyer profile - defence directive",
+    "subTypeId" : "3"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0025",
+    "formType" : "result",
+    "type" : "can-standard",
+    "description" : "Contract award notice – sectoral directive, standard regime",
+    "subTypeId" : "30"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32009L0081",
+    "formType" : "result",
+    "type" : "can-standard",
+    "description" : "Contract award notice – defence directive, standard regime",
+    "subTypeId" : "31"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0023",
+    "formType" : "result",
+    "type" : "can-standard",
+    "description" : "Concession award notice – concession directive, standard regime",
+    "subTypeId" : "32"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0024",
+    "formType" : "result",
+    "type" : "can-social",
+    "description" : "Contract award notice – general directive, light regime",
+    "subTypeId" : "33"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0025",
+    "formType" : "result",
+    "type" : "can-social",
+    "description" : "Contract award notice – sectoral directive, light regime",
+    "subTypeId" : "34"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0023",
+    "formType" : "result",
+    "type" : "can-social",
+    "description" : "Concession award notice – concessions directive, light regime",
+    "subTypeId" : "35"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0024",
+    "formType" : "result",
+    "type" : "can-desg",
+    "description" : "Design contest result notice – general directive, design",
+    "subTypeId" : "36"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0025",
+    "formType" : "result",
+    "type" : "can-desg",
+    "description" : "Design contest result notice – sectoral directive, design",
+    "subTypeId" : "37"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0024",
+    "formType" : "cont-modif",
+    "type" : "can-modif",
+    "description" : "Contract modification notice – general directive",
+    "subTypeId" : "38"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0025",
+    "formType" : "cont-modif",
+    "type" : "can-modif",
+    "description" : "Contract modification notice – sectoral directive",
+    "subTypeId" : "39"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0024",
+    "formType" : "planning",
+    "type" : "pin-only",
+    "description" : "Prior information notice used only for information – general directive",
+    "subTypeId" : "4"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32014L0023",
+    "formType" : "cont-modif",
+    "type" : "can-modif",
+    "description" : "Contract modification notice – concessions directive",
+    "subTypeId" : "40"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0025",
+    "formType" : "planning",
+    "type" : "pin-only",
+    "description" : "Periodic indicative notice used only for information – sectoral directive",
+    "subTypeId" : "5"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32009L0081",
+    "formType" : "planning",
+    "type" : "pin-only",
+    "description" : "Prior information notice used only for information – defence directive",
+    "subTypeId" : "6"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0024",
+    "formType" : "planning",
+    "type" : "pin-rtl",
+    "description" : "Prior information notice used to shorten time limits for receipt of tenders – general directive",
+    "subTypeId" : "7"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32014L0025",
+    "formType" : "planning",
+    "type" : "pin-rtl",
+    "description" : "Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive",
+    "subTypeId" : "8"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32009L0081",
+    "formType" : "planning",
+    "type" : "pin-rtl",
+    "description" : "Prior information notice used to shorten time limits for receipt of tenders – defence directive",
+    "subTypeId" : "9"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32018R1046",
+    "formType" : "competition",
+    "type" : "unknown",
+    "description" : "Call for expressions of interest",
+    "subTypeId" : "CEI"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "unknown",
+    "formType" : "planning",
+    "type" : "unknown",
+    "subTypeId" : "E1"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "unknown",
+    "formType" : "planning",
+    "type" : "pin-only",
+    "subTypeId" : "E2"
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "unknown",
+    "formType" : "competition",
+    "type" : "cn-standard",
+    "subTypeId" : "E3"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "unknown",
+    "formType" : "result",
+    "type" : "can-standard",
+    "subTypeId" : "E4"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "unknown",
+    "formType" : "completion",
+    "type" : "unknown",
+    "subTypeId" : "E5"
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "32007R1370",
+    "formType" : "planning",
+    "type" : "unknown",
+    "subTypeId" : "T01"
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32007R1370",
+    "formType" : "result",
+    "type" : "unknown",
+    "subTypeId" : "T02"
+  }, {
+    "documentType" : "BRIN",
+    "legalBasis" : "31985R2137",
+    "formType" : "bsri",
+    "type" : "unknown",
+    "subTypeId" : "X01"
+  }, {
+    "documentType" : "BRIN",
+    "legalBasis" : "31985R2137",
+    "formType" : "bsri",
+    "type" : "unknown",
+    "subTypeId" : "X02"
+  } ]
+}
