@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.2.12 created on the 2021-10-25T12:02:31-->
+<!--File generated from metadata database version 0.2.30 created on the 2021-11-22T09:43:48-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>OrganisationRoleService</ShortName>
       <LongName>organisation-role-service</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/organisation-role</LongName>
       <LongName Identifier="eFormsParentId">organisation-role</LongName>
-      <Version>0.2.12</Version>
+      <Version>0.2.30</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
