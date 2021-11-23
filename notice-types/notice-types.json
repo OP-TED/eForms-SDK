@@ -5,7 +5,7 @@
     "version" : "0.2.16",
     "createdOn" : "2021-11-04T11:11:11"
   },
-  "noticeTypes" : [ {
+  "noticeSubTypes" : [ {
     "documentType" : "PIN",
     "legalBasis" : "32014L0024",
     "formType" : "planning",
@@ -346,5 +346,22 @@
     "formType" : "bsri",
     "type" : "unknown",
     "subTypeId" : "X02"
+  } ],
+  "documentTypes" : [ {
+    "id" : "BRIN",
+    "namespace" : "http://data.europa.eu/p27/eforms-business-registration-information-notice/1",
+    "rootElement" : "BusinessRegistrationInformationNotice"
+  }, {
+    "id" : "CAN",
+    "namespace" : "urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2",
+    "rootElement" : "ContractAwardNotice"
+  }, {
+    "id" : "CN",
+    "namespace" : "urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2",
+    "rootElement" : "ContractNotice"
+  }, {
+    "id" : "PIN",
+    "namespace" : "urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2",
+    "rootElement" : "PriorInformationNotice"
   } ]
 }
