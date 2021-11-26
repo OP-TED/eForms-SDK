@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.2.14 created on the 2021-11-03T13:49:32.-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--File generated from metadata database version 0.2.37 created on the 2021-11-25T17:54:06.-->
 <pattern id="EFORMS-stage-1" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">The element cac:AdditionalDocumentReference is not allowed in context /*</assert>
@@ -7,6 +7,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -17,6 +18,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -27,6 +29,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -37,6 +40,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -47,6 +51,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -57,6 +62,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -66,6 +72,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -75,6 +82,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
@@ -86,6 +94,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -96,6 +105,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -106,6 +116,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -115,6 +126,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -125,6 +137,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -135,6 +148,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -145,6 +159,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -154,6 +169,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -164,6 +180,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -174,6 +191,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -184,6 +202,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -194,6 +213,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -204,6 +224,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -214,6 +235,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -224,6 +246,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -234,6 +257,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -244,6 +268,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -254,6 +279,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -263,6 +289,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -272,6 +299,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -281,6 +309,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -290,6 +319,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -300,6 +330,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -310,6 +341,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -320,6 +352,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -330,6 +363,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -340,6 +374,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -350,6 +385,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -360,6 +396,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -370,6 +407,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -379,6 +417,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -388,6 +427,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
 	</rule>
@@ -397,6 +437,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
@@ -408,6 +449,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(ext:UBLExtensions) &gt; 0">The element ext:UBLExtensions is mandatory in context /*</assert>
@@ -418,6 +460,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) = 0">The element cac:BusinessParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) &gt; 0">The element cac:ContractingParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) &gt; 0">The element cac:ProcurementProject is mandatory in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) = 0">The element cac:SenderParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) &gt; 0">The element cac:TenderingProcess is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) &gt; 0">The element cac:TenderingTerms is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) = 0">The element efac:NoticePurpose is not allowed in context /*</assert>
@@ -429,6 +472,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) &gt; 0">The element cac:BusinessParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) = 0">The element cac:ContractingParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) = 0">The element cac:ProcurementProject is not allowed in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) &gt; 0">The element cac:SenderParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) &gt; 0">The element efac:NoticePurpose is mandatory in context /*</assert>
@@ -440,6 +484,7 @@
 		<assert role="ERROR" test="count(cac:BusinessParty) &gt; 0">The element cac:BusinessParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:ContractingParty) = 0">The element cac:ContractingParty is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:ProcurementProject) = 0">The element cac:ProcurementProject is not allowed in context /*</assert>
+		<assert role="ERROR" test="count(cac:SenderParty) &gt; 0">The element cac:SenderParty is mandatory in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingProcess) = 0">The element cac:TenderingProcess is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(cac:TenderingTerms) = 0">The element cac:TenderingTerms is not allowed in context /*</assert>
 		<assert role="ERROR" test="count(efac:NoticePurpose) &gt; 0">The element efac:NoticePurpose is mandatory in context /*</assert>
@@ -2626,6 +2671,12 @@
 		<assert role="ERROR" test="count(cac:EmploymentLegislationDocumentReference) &gt; 0">The element cac:EmploymentLegislationDocumentReference is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms</assert>
 		<assert role="ERROR" test="count(cac:EnvironmentalLegislationDocumentReference) &gt; 0">The element cac:EnvironmentalLegislationDocumentReference is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms</assert>
 		<assert role="ERROR" test="count(cac:FiscalLegislationDocumentReference) &gt; 0">The element cac:FiscalLegislationDocumentReference is mandatory in context /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms</assert>
+	</rule>
+	<rule context="/*/cac:SenderParty[$noticeSubType = 'X01']">
+		<assert role="ERROR" test="count(cac:Contact) &gt; 0">The element cac:Contact is mandatory in context /*/cac:SenderParty</assert>
+	</rule>
+	<rule context="/*/cac:SenderParty[$noticeSubType = 'X02']">
+		<assert role="ERROR" test="count(cac:Contact) &gt; 0">The element cac:Contact is mandatory in context /*/cac:SenderParty</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '10']">
 		<assert role="ERROR" test="count(cac:ProcessJustification) = 0">The element cac:ProcessJustification is not allowed in context /*/cac:TenderingProcess</assert>
