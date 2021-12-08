@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.2.19 created on the 2021-11-11T09:45:05-->
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Nuts</ShortName>
@@ -120,14 +120,6 @@
       </Column>
    </ColumnSet>
    <SimpleCodeList>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AL</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Shqipëria</SimpleValue>
-         </Value>
-      </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AL0</SimpleValue>
@@ -278,14 +270,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Österreich</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -686,14 +670,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Belgique/België</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1186,14 +1162,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BG</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>България (Bulgaria)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BG3</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1506,14 +1474,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CH</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Schweiz/Suisse/Svizzera</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CH0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1810,14 +1770,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CY</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Κύπρος (Kýpros)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CY0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1862,14 +1814,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Česko</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2078,14 +2022,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Deutschland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5754,14 +5690,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DK</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Danmark</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DK0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -5922,14 +5850,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Eesti</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EE0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6006,14 +5926,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ελλάδα (Elláda)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6590,14 +6502,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>España</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7306,14 +7210,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FI</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Suomi/Finland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FI1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7542,14 +7438,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FR</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>France</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8714,14 +8602,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HR</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hrvatska</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HR0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8950,14 +8830,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HU</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Magyarország</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9234,14 +9106,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>IE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Éire/Ireland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>IE0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9362,14 +9226,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>IS</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ísland </SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>IS0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9422,14 +9278,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>IT</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Italia</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10522,14 +10370,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LI</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Liechtenstein</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>LI0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10574,14 +10414,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LT</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lietuva</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10714,14 +10546,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LU</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Luxembourg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>LU0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10766,14 +10590,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LV</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Latvija</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10866,14 +10682,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ME</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Црна Гора (Crna Gora)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ME0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10918,14 +10726,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>MK</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Северна Македонија (Severna Makedonija)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11034,14 +10834,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>MT</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Malta</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>MT0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11094,14 +10886,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nederland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11578,14 +11362,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NO</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Norge</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NO0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11774,14 +11550,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Polska</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12586,14 +12354,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Portugal</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PT1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12894,14 +12654,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>România</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13362,14 +13114,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>RS</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Srbija/Сpбија (Serbia)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>RS1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13638,14 +13382,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sverige</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13930,14 +13666,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SI</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Slovenija</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SI0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14082,14 +13810,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SK</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Slovensko</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SK0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14214,14 +13934,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Türkiye</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15198,14 +14910,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UK</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>United Kingdom</SimpleValue>
          </Value>
       </Row>
       <Row>
