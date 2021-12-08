@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Croatian. File generated from metadata database version 0.2.0 created on the 2021-10-13T16:00</comment>
+<comment>code in Croatian. File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16</comment>
 <entry key="code|value|accessibility.inc">U obzir su uzeti uvjeti pristupačnosti za osobe s invaliditetom</entry>
 <entry key="code|value|accessibility.n-inc">Uvjeti pristupačnosti za osobe s invaliditetom nisu uzeti u obzir jer javna nabava nije namijenjena fizičkim osobama</entry>
 <entry key="code|value|accessibility.n-inc-just">Uvjeti pristupačnosti za osobe s invaliditetom nisu uzeti u obzir zbog sljedećeg obrazloženja</entry>
@@ -711,7 +711,6 @@
 <entry key="code|value|eu-programme.TRANSREG">Tranzicijske regije</entry>
 <entry key="code|value|eu-programme.VIS2020">Vizni informacijski sustav (VIS)</entry>
 <entry key="code|value|eu-programme.YEI">Inicijativa za zapošljavanje mladih (posebna dodatno dodijeljena sredstva)</entry>
-<entry key="code|value|form-type.bri">Business registration information</entry>
 <entry key="code|value|form-type.change">Promjena</entry>
 <entry key="code|value|form-type.competition">Nadmetanje</entry>
 <entry key="code|value|form-type.cont-modif">Izmjena ugovora</entry>
@@ -1043,8 +1042,6 @@
 <entry key="code|value|non-publication-justification.law-enf">Izvršavanje zakonodavstva</entry>
 <entry key="code|value|non-publication-justification.oth-int">Drugi javni interes</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Usluge istraživanja i razvoja</entry>
-<entry key="code|value|notice-type.brin-ecs">European Company / European Cooperative Society notice</entry>
-<entry key="code|value|notice-type.brin-eeig">European Economic Interest Grouping notice</entry>
 <entry key="code|value|notice-type.can-desg">Obavijest o rezultatima projektnog natječaja</entry>
 <entry key="code|value|notice-type.can-modif">Obavijest o izmjeni ugovora</entry>
 <entry key="code|value|notice-type.can-social">Obavijest o dodjeli ugovora ili koncesije – blagi režim</entry>
@@ -1072,36 +1069,21 @@
 <entry key="code|value|number-weight.per-mid">{Ponder (postotak, srednja vrijednost)}</entry>
 <entry key="code|value|number-weight.poi-exa">{Ponder (točke, točan)}</entry>
 <entry key="code|value|number-weight.poi-mid">{Ponder (točke, srednja vrijednost)}</entry>
-<entry key="code|value|nuts.HR">HRVATSKA</entry>
-<entry key="code|value|nuts.HR0">HRVATSKA</entry>
-<entry key="code|value|nuts.HR03">Jadranska Hrvatska</entry>
-<entry key="code|value|nuts.HR031">Primorsko-goranska županija</entry>
-<entry key="code|value|nuts.HR032">Ličko-senjska županija</entry>
-<entry key="code|value|nuts.HR033">Zadarska županija</entry>
-<entry key="code|value|nuts.HR034">Šibensko-kninska županija</entry>
-<entry key="code|value|nuts.HR035">Splitsko-dalmatinska županija</entry>
-<entry key="code|value|nuts.HR036">Istarska županija</entry>
-<entry key="code|value|nuts.HR037">Dubrovačko-neretvanska županija</entry>
-<entry key="code|value|nuts.HR04">Kontinentalna Hrvatska</entry>
-<entry key="code|value|nuts.HR041">Grad Zagreb</entry>
-<entry key="code|value|nuts.HR042">Zagrebačka županija</entry>
-<entry key="code|value|nuts.HR043">Krapinsko-zagorska županija</entry>
-<entry key="code|value|nuts.HR044">Varaždinska županija</entry>
-<entry key="code|value|nuts.HR045">Koprivničko-križevačka županija</entry>
-<entry key="code|value|nuts.HR046">Međimurska županija</entry>
-<entry key="code|value|nuts.HR047">Bjelovarsko-bilogorska županija</entry>
-<entry key="code|value|nuts.HR048">Virovitičko-podravska županija</entry>
-<entry key="code|value|nuts.HR049">Požeško-slavonska županija</entry>
-<entry key="code|value|nuts.HR04A">Brodsko-posavska županija</entry>
-<entry key="code|value|nuts.HR04B">Osječko-baranjska županija</entry>
-<entry key="code|value|nuts.HR04C">Vukovarsko-srijemska županija</entry>
-<entry key="code|value|nuts.HR04D">Karlovačka županija</entry>
-<entry key="code|value|nuts.HR04E">Sisačko-moslavačka županija</entry>
-<entry key="code|value|nuts.HRZ">EXTRA-REGIO NUTS 1</entry>
-<entry key="code|value|nuts.HRZZ">Extra-Regio NUTS 2</entry>
-<entry key="code|value|nuts.HRZZZ">Extra-Regio NUTS 3</entry>
+<entry key="code|value|organisation-role.ben-own">Stvarni vlasnik</entry>
+<entry key="code|value|organisation-role.buyer">Kupac</entry>
+<entry key="code|value|organisation-role.cpb-acq">Središnje tijelo za nabavu koje nabavlja robu i/ili usluge namijenjene drugim kupcima</entry>
+<entry key="code|value|organisation-role.cpb-awa">Središnje tijelo za nabavu koje dodjeljuje javne ugovore ili sklapa okvirne sporazume za radove, robu ili usluge namijenjene drugim kupcima</entry>
+<entry key="code|value|organisation-role.info-emp">Organizacija koja pruža informacije o općem regulatornom okviru u vezi sa zaštitom radnog mjesta i radnih uvjeta primjenjivom u mjestu u kojem se ugovor treba izvršiti</entry>
+<entry key="code|value|organisation-role.info-envir">Organizacija koja pruža informacije o općem regulatornom okviru u vezi sa zaštitom okoliša primjenjivom u mjestu u kojem se ugovor treba izvršiti</entry>
+<entry key="code|value|organisation-role.info-tax">Organizacija koja pruža informacije o općem regulatornom okviru u vezi s porezima primjenjivom u mjestu u kojem se ugovor treba izvršiti</entry>
+<entry key="code|value|organisation-role.mediator">Organizacija za postupke mirenja</entry>
+<entry key="code|value|organisation-role.rev-req">Organizacija (ili osoba) koja traži pravnu zaštitu (preispitivanje), koja ima ili je imala interes za dobivanje ugovora i koja je pretrpjela ili bi mogla pretrpjeti štetu zbog navodnog kršenja</entry>
+<entry key="code|value|organisation-role.reviewer">Organizacija za preispitivanje (pravnu zaštitu)</entry>
 <entry key="code|value|organisation-role.serv-prov">Pružatelj usluga javne nabave</entry>
+<entry key="code|value|organisation-role.subcont">Podugovaratelj (podizvođač radova)</entry>
 <entry key="code|value|organisation-role.ted-esen">TED eSender</entry>
+<entry key="code|value|organisation-role.tenderer">Ponuditelj</entry>
+<entry key="code|value|organisation-role.winner">Pobjednik natječaja</entry>
 <entry key="code|value|other-place-service.anyw">Bilo gdje</entry>
 <entry key="code|value|other-place-service.anyw-cou">Bilo gdje u određenoj zemlji</entry>
 <entry key="code|value|other-place-service.anyw-eea">Bilo gdje u Europskom gospodarskom prostoru</entry>
@@ -1128,6 +1110,11 @@
 <entry key="code|value|received-submission-type.t-verif-inad">Provjerene i neprihvatljive ponude</entry>
 <entry key="code|value|received-submission-type.t-verif-inad-low">Ponude koje su provjerene i neprihvatljive zbog neobično niske cijene ili troškova</entry>
 <entry key="code|value|received-submission-type.tenders">Ponude</entry>
+<entry key="code|value|remedy-type.alt-penalty">Alternativna kazna</entry>
+<entry key="code|value|remedy-type.damage">Štete</entry>
+<entry key="code|value|remedy-type.ineffectiveness">Nevaženje</entry>
+<entry key="code|value|remedy-type.interim">Privremena mjera</entry>
+<entry key="code|value|remedy-type.set-aside">Ukidanje</entry>
 <entry key="code|value|requirement-stage.not-requ">Nije obvezno</entry>
 <entry key="code|value|requirement-stage.nyk">Još nije poznato</entry>
 <entry key="code|value|requirement-stage.par-requ">Obvezno za zahtjev za sudjelovanje</entry>
@@ -1135,6 +1122,22 @@
 <entry key="code|value|reserved-procurement.none">Ne primjenjuje se</entry>
 <entry key="code|value|reserved-procurement.res-pub-ser">Sudjelovanje je rezervirano za organizacije koje pružaju javne usluge i ispunjavaju druge relevantne uvjete prema zakonodavstvu.</entry>
 <entry key="code|value|reserved-procurement.res-ws">Sudjelovanje je rezervirano za zaštitne radionice i gospodarske subjekte u svrhu društvene i profesionalne integracije osoba s invaliditetom ili osoba u nepovoljnom položaju.</entry>
+<entry key="code|value|review-body-type.1-inst">Prvog stupnja</entry>
+<entry key="code|value|review-body-type.2-inst">Drugog stupnja</entry>
+<entry key="code|value|review-body-type.3-inst">Trećeg stupnja</entry>
+<entry key="code|value|review-body-type.4-inst">Četvrtog stupnja</entry>
+<entry key="code|value|review-body-type.5-inst">Petog stupnja</entry>
+<entry key="code|value|review-body-type.buyer">Kupac</entry>
+<entry key="code|value|review-body-type.other">Ostalo</entry>
+<entry key="code|value|review-decision-type.accepted">Prihvaćeno</entry>
+<entry key="code|value|review-decision-type.other">Ostalo</entry>
+<entry key="code|value|review-decision-type.rej-dl-passed">Odbijeno jer podnositelj nije imao pravo podnijeti pritužbu zbog isteka roka za podnošenje zahtjeva za pravnu zaštitu (preispitivanje)</entry>
+<entry key="code|value|review-decision-type.rej-ncomp">Odbijeno jer tijelo za pravnu zaštitu (preispitivanje) nema nadležnost za njezinu (njegovu) provedbu</entry>
+<entry key="code|value|review-decision-type.rej-nirreg">Odbijeno jer nije bilo nepravilnosti</entry>
+<entry key="code|value|review-decision-type.rej-npaid">Odbijeno zbog neplaćanja naknade</entry>
+<entry key="code|value|review-decision-type.rej-other">Odbijeno jer podnositelj nije imao pravo podnijeti pritužbu iz razloga koji nije taj da je istekao rok za podnošenje zahtjeva za pravnu zaštitu (preispitivanje)</entry>
+<entry key="code|value|review-decision-type.rej-resolv">Odbijeno jer je problem već riješen</entry>
+<entry key="code|value|review-decision-type.rej-signed">Odbijeno jer je ugovor već potpisan</entry>
 <entry key="code|value|selection-criterion.ef-stand">Ekonomska i financijska sposobnost</entry>
 <entry key="code|value|selection-criterion.other">Ostalo</entry>
 <entry key="code|value|selection-criterion.sui-act">Sposobnost za obavljanje stručne djelatnosti</entry>
