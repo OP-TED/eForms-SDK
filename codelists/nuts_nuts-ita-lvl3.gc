@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsItaLvl3</ShortName>
+      <LongName>nuts-ita-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Torino</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vercelli</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Biella</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Verbano-Cusio-Ossola</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Novara</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cuneo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC17</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Asti</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC18</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Alessandria</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC20</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Valle d’Aosta/Vallée d’Aoste</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Imperia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Savona</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Genova</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>La Spezia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Varese</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Como</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lecco</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sondrio</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC46</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bergamo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC47</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Brescia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC48</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pavia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC49</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lodi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC4A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cremona</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC4B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mantova</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC4C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Milano</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITC4D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Monza e della Brianza</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>L’Aquila</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Teramo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pescara</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Chieti</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Isernia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Campobasso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Caserta</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Benevento</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Napoli</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Avellino</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF35</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Salerno</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Taranto</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Brindisi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lecce</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF46</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Foggia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF47</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bari</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF48</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Barletta-Andria-Trani</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF51</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Potenza</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF52</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Matera</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF61</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cosenza</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF62</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Crotone</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF63</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Catanzaro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF64</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vibo Valentia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITF65</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Reggio di Calabria</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Trapani</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Palermo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Messina</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agrigento</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Caltanissetta</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Enna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG17</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Catania</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG18</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ragusa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG19</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Siracusa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG2D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sassari</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG2E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nuoro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG2F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cagliari</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG2G</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oristano</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITG2H</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sud Sardegna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH10</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bolzano-Bozen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH20</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Trento</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Verona</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vicenza</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Belluno</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Treviso</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH35</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Venezia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH36</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Padova</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH37</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rovigo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pordenone</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Udine</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gorizia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Trieste</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH51</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Piacenza</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH52</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Parma</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH53</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Reggio nell’Emilia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH54</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Modena</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH55</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bologna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH56</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ferrara</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH57</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ravenna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH58</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Forlì-Cesena</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITH59</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rimini</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Massa-Carrara</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lucca</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pistoia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Firenze</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prato</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Livorno</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI17</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pisa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI18</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Arezzo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI19</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Siena</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI1A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Grosseto</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Perugia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Terni</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pesaro e Urbino</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ancona</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Macerata</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ascoli Piceno</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI35</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fermo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Viterbo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rieti</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Roma</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Latina</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITI45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Frosinone</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ITZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsEspLvl3</ShortName>
+      <LongName>nuts-esp-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES111</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES112</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES113</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES114</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES120</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES130</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES211</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES212</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES213</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES220</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES230</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES241</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES242</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES243</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES411</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES412</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES413</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES414</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES415</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES416</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES417</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES418</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES419</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES421</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES422</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES423</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES424</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES425</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES431</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES432</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES511</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES512</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES513</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES514</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES521</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Alicante/Alacant</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES522</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Castellón/Castelló</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES523</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Valencia/València</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES531</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES532</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES533</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES611</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES612</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES613</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES614</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES615</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES616</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES617</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES618</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES620</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES630</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES640</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES703</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES704</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES705</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES706</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES707</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES708</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ES709</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ESZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

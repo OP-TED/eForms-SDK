@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsFraLvl3</ShortName>
+      <LongName>nuts-fra-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FR101</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Paris</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FR102</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Seine-et-Marne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FR103</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Yvelines</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FR104</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Essonne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FR105</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hauts-de-Seine</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FR106</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Seine-Saint-Denis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FR107</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Val-de-Marne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FR108</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Val-d’Oise</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRB01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cher</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRB02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Eure-et-Loir</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRB03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Indre</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRB04</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Indre-et-Loire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRB05</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Loir-et-Cher</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRB06</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Loiret</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRC11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Côte-d’Or</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRC12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nièvre</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRC13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saône-et-Loire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRC14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Yonne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRC21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Doubs</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRC22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Jura</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRC23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haute-Saône</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRC24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Territoire de Belfort</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRD11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Calvados</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRD12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Manche</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRD13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Orne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRD21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Eure</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRD22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Seine-Maritime</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRE11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nord</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRE12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pas-de-Calais</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRE21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aisne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRE22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oise</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRE23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Somme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bas-Rhin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haut-Rhin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ardennes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aube</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Marne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haute-Marne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Meurthe-et-Moselle</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Meuse</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Moselle</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRF34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vosges</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRG01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Loire-Atlantique</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRG02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Maine-et-Loire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRG03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mayenne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRG04</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sarthe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRG05</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vendée</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRH01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Côtes-d’Armor</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRH02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Finistère</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRH03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ille-et-Vilaine</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRH04</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Morbihan</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dordogne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gironde</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Landes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lot-et-Garonne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pyrénées-Atlantiques</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Corrèze</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Creuse</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haute-Vienne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Charente</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Charente-Maritime</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Deux-Sèvres</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRI34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vienne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aude</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gard</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hérault</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lozère</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pyrénées-Orientales</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ariège</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aveyron</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haute-Garonne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lot</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ26</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hautes-Pyrénées</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ27</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tarn</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRJ28</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tarn-et-Garonne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Allier</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cantal</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haute-Loire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Puy-de-Dôme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ain</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ardèche</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Drôme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Isère</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Loire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK26</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhône</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK27</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Savoie</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRK28</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haute-Savoie</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRL01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Alpes-de-Haute-Provence</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRL02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hautes-Alpes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRL03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Alpes-Maritimes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRL04</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bouches-du-Rhône</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRL05</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Var</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRL06</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vaucluse</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRM01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Corse-du-Sud</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRM02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haute-Corse</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRY10</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Guadeloupe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRY20</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Martinique</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRY30</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Guyane</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRY40</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>La Réunion</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRY50</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mayotte</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>FRZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

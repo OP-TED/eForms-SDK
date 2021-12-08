@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsAutLvl3</ShortName>
+      <LongName>nuts-aut-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT111</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mittelburgenland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT112</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nordburgenland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT113</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Südburgenland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT121</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mostviertel-Eisenwurzen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT122</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Niederösterreich-Süd</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT123</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sankt Pölten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT124</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Waldviertel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT125</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Weinviertel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT126</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wiener Umland/Nordteil</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT127</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wiener Umland/Südteil</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT130</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wien</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT211</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Klagenfurt-Villach</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT212</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oberkärnten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT213</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unterkärnten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT221</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Graz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT222</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Liezen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT223</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Östliche Obersteiermark</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT224</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oststeiermark</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT225</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West- und Südsteiermark</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT226</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Westliche Obersteiermark</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT311</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Innviertel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT312</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Linz-Wels</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT313</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mühlviertel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT314</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Steyr-Kirchdorf</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT315</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Traunviertel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT321</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lungau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT322</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pinzgau-Pongau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT323</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Salzburg und Umgebung</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT331</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Außerfern</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT332</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Innsbruck</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT333</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Osttirol</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT334</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tiroler Oberland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT335</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tiroler Unterland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT341</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bludenz-Bregenzer Wald</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AT342</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rheintal-Bodenseegebiet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ATZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsGrcLvl3</ShortName>
+      <LongName>nuts-grc-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL301</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Βόρειος Τομέας Αθηνών (Voreios Tomeas Athinon)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL302</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Δυτικός Τομέας Αθηνών (Dytikos Tomeas Athinon)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL303</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Κεντρικός Τομέας Αθηνών (Kentrikos Tomeas Athinon)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL304</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Νότιος Τομέας Αθηνών (Notios Tomeas Athinon)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL305</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ανατολική Αττική (Anatoliki Attiki)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL306</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Δυτική Αττική (Dytiki Attiki)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL307</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Πειραιάς, Νήσοι (Peiraias, Nisoi)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL411</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Λέσβος, Λήμνος (Lesvos, Limnos)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL412</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ικαρία, Σάμος (Ikaria, Samos)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL413</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Χίος (Chios)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL421</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Κάλυμνος, Κάρπαθος - Ηρωική Νήσος Κάσος, Κως, Ρόδος (Kalymnos, Karpathos, Kasos, Kos, Rodos)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL422</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL431</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ηράκλειο (Irakleio)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL432</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Λασίθι (Lasithi)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL433</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ρεθύμνη (Rethymni)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL434</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Χανιά (Chania)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL511</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Έβρος (Evros)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL512</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ξάνθη (Xanthi)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL513</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ροδόπη (Rodopi)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL514</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Δράμα (Drama)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL515</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Θάσος, Καβάλα (Thasos, Kavala)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL521</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ημαθία (Imathia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL522</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Θεσσαλονίκη (Thessaloniki)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL523</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Κιλκίς (Kilkis)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL524</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Πέλλα (Pella)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL525</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Πιερία (Pieria)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL526</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Σέρρες (Serres)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL527</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Χαλκιδική (Chalkidiki)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL531</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Γρεβενά, Κοζάνη (Grevena, Kozani)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL532</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Καστοριά (Kastoria)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL533</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Φλώρινα (Florina)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL541</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Άρτα, Πρέβεζα (Arta, Preveza)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL542</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Θεσπρωτία (Thesprotia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL543</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ιωάννινα (Ioannina)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL611</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Καρδίτσα, Τρίκαλα (Karditsa, Trikala)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL612</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Λάρισα (Larisa)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL613</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Μαγνησία, Σποράδες (Magnisia, Sporades)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL621</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ζάκυνθος (Zakynthos)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL622</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Κέρκυρα (Kerkyra)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL623</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ιθάκη, Κεφαλληνία (Ithaki, Kefallinia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL624</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Λευκάδα (Lefkada)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL631</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Αιτωλοακαρνανία (Aitoloakarnania)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL632</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Αχαΐα (Achaia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL633</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ηλεία (Ileia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL641</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Βοιωτία (Voiotia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL642</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Εύβοια (Evvoia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL643</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ευρυτανία (Evrytania)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL644</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Φθιώτιδα (Fthiotida)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL645</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Φωκίδα (Fokida)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL651</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Αργολίδα, Αρκαδία (Argolida, Arkadia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL652</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Κορινθία (Korinthia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>EL653</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Λακωνία, Μεσσηνία (Lakonia, Messinia)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ELZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

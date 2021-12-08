@@ -1,0 +1,3341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsDeuLvl3</ShortName>
+      <LongName>nuts-deu-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE111</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Stuttgart, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE112</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Böblingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE113</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Esslingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE114</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Göppingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE115</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ludwigsburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE116</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rems-Murr-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE117</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Heilbronn, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE118</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Heilbronn, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE119</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hohenlohekreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE11A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schwäbisch Hall</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE11B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Main-Tauber-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE11C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Heidenheim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE11D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ostalbkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE121</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Baden-Baden, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE122</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Karlsruhe, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE123</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Karlsruhe, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE124</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rastatt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE125</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Heidelberg, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE126</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mannheim, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE127</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neckar-Odenwald-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE128</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhein-Neckar-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE129</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pforzheim, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE12A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Calw</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE12B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Enzkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE12C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Freudenstadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE131</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Freiburg im Breisgau, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE132</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breisgau-Hochschwarzwald</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE133</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Emmendingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE134</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ortenaukreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE135</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rottweil</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE136</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schwarzwald-Baar-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE137</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tuttlingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE138</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Konstanz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE139</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lörrach</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE13A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Waldshut</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE141</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Reutlingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE142</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tübingen, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE143</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zollernalbkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE144</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ulm, Stadtkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE145</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Alb-Donau-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE146</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Biberach</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE147</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bodenseekreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE148</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ravensburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE149</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sigmaringen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE211</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ingolstadt, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE212</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>München, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE213</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rosenheim, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE214</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Altötting</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE215</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Berchtesgadener Land</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE216</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bad Tölz-Wolfratshausen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE217</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dachau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE218</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ebersberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE219</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Eichstätt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Erding</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Freising</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fürstenfeldbruck</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Garmisch-Partenkirchen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Landsberg am Lech</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Miesbach</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21G</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mühldorf a. Inn</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21H</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>München, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21I</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neuburg-Schrobenhausen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21J</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pfaffenhofen a. d. Ilm</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21K</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rosenheim, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21L</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Starnberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21M</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Traunstein</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE21N</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Weilheim-Schongau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE221</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Landshut, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE222</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Passau, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE223</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Straubing, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE224</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Deggendorf</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE225</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Freyung-Grafenau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE226</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kelheim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE227</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Landshut, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE228</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Passau, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE229</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Regen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE22A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rottal-Inn</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE22B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Straubing-Bogen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE22C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dingolfing-Landau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE231</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Amberg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE232</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Regensburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE233</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Weiden i. d. Opf, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE234</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Amberg-Sulzbach</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE235</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cham</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE236</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neumarkt i. d. OPf.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE237</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neustadt a. d. Waldnaab</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE238</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Regensburg, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE239</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schwandorf</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE23A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tirschenreuth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE241</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bamberg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE242</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bayreuth, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE243</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Coburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE244</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hof, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE245</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bamberg, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE246</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bayreuth, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE247</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Coburg, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE248</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Forchheim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE249</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hof, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE24A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kronach</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE24B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kulmbach</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE24C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lichtenfels</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE24D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wunsiedel i. Fichtelgebirge</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE251</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ansbach, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE252</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Erlangen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE253</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fürth, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE254</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nürnberg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE255</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schwabach, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE256</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ansbach, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE257</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Erlangen-Höchstadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE258</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fürth, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE259</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nürnberger Land</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE25A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neustadt a. d. Aisch-Bad Windsheim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE25B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Roth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE25C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Weißenburg-Gunzenhausen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE261</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aschaffenburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE262</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schweinfurt, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE263</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Würzburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE264</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aschaffenburg, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE265</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bad Kissingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE266</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhön-Grabfeld</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE267</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haßberge</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE268</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kitzingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE269</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Miltenberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE26A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Main-Spessart</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE26B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schweinfurt, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE26C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Würzburg, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE271</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Augsburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE272</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kaufbeuren, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE273</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kempten (Allgäu), Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE274</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Memmingen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE275</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aichach-Friedberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE276</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Augsburg, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE277</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dillingen a.d. Donau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE278</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Günzburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE279</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neu-Ulm</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE27A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lindau (Bodensee)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE27B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ostallgäu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE27C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unterallgäu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE27D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Donau-Ries</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE27E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oberallgäu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Berlin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE401</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Brandenburg an der Havel, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE402</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cottbus, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE403</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Frankfurt (Oder), Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE404</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Potsdam, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE405</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Barnim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE406</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dahme-Spreewald</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE407</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Elbe-Elster</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE408</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Havelland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE409</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Märkisch-Oderland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oberhavel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oberspreewald-Lausitz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oder-Spree</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ostprignitz-Ruppin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Potsdam-Mittelmark</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prignitz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40G</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Spree-Neiße</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40H</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Teltow-Fläming</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE40I</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Uckermark</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE501</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bremen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE502</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bremerhaven, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE600</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hamburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE711</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Darmstadt, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE712</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Frankfurt am Main, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE713</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Offenbach am Main, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE714</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wiesbaden, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE715</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bergstraße</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE716</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Darmstadt-Dieburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE717</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Groß-Gerau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE718</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hochtaunuskreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE719</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Main-Kinzig-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE71A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Main-Taunus-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE71B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Odenwaldkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE71C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Offenbach, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE71D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rheingau-Taunus-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE71E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wetteraukreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE721</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gießen, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE722</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lahn-Dill-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE723</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Limburg-Weilburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE724</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Marburg-Biedenkopf</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE725</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vogelsbergkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE731</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kassel, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE732</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fulda</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE733</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hersfeld-Rotenburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE734</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kassel, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE735</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schwalm-Eder-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE736</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Waldeck-Frankenberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE737</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Werra-Meißner-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE803</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rostock, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE804</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schwerin, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE80J</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mecklenburgische Seenplatte</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE80K</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Landkreis Rostock</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE80L</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vorpommern-Rügen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE80M</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nordwestmecklenburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE80N</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vorpommern-Greifswald</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE80O</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ludwigslust-Parchim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE911</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Braunschweig, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE912</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Salzgitter, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE913</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wolfsburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE914</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gifhorn</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE916</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Goslar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE917</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Helmstedt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE918</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Northeim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE91A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Peine</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE91B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wolfenbüttel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE91C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Göttingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE922</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Diepholz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE923</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hameln-Pyrmont</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE925</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hildesheim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE926</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Holzminden</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE927</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nienburg (Weser)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE928</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schaumburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE929</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Region Hannover</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE931</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Celle</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE932</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cuxhaven</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE933</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Harburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE934</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lüchow-Dannenberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE935</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lüneburg, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE936</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Osterholz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE937</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rotenburg (Wümme)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE938</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Heidekreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE939</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Stade</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE93A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Uelzen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE93B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Verden</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE941</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Delmenhorst, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE942</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Emden, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE943</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oldenburg (Oldenburg), Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE944</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Osnabrück, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE945</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wilhelmshaven, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE946</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ammerland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE947</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aurich</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE948</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cloppenburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE949</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Emsland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE94A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Friesland (DE)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE94B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Grafschaft Bentheim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE94C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Leer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE94D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oldenburg, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE94E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Osnabrück, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE94F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vechta</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE94G</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wesermarsch</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DE94H</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wittmund</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Düsseldorf, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Duisburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Essen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Krefeld, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mönchengladbach, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mülheim an der Ruhr, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA17</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oberhausen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA18</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Remscheid, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA19</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Solingen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA1A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wuppertal, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA1B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kleve</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA1C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mettmann</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA1D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhein-Kreis Neuss</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA1E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Viersen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA1F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wesel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bonn, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Köln, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Leverkusen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA26</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Düren</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA27</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhein-Erft-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA28</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Euskirchen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA29</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Heinsberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA2A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oberbergischer Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA2B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rheinisch-Bergischer Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA2C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhein-Sieg-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA2D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Städteregion Aachen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bottrop, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gelsenkirchen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Münster, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Borken</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA35</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Coesfeld</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA36</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Recklinghausen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA37</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Steinfurt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA38</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Warendorf</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bielefeld, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gütersloh</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Herford</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Höxter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lippe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA46</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Minden-Lübbecke</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA47</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Paderborn</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA51</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bochum, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA52</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dortmund, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA53</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hagen, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA54</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hamm, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA55</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Herne, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA56</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ennepe-Ruhr-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA57</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hochsauerlandkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA58</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Märkischer Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA59</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Olpe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA5A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Siegen-Wittgenstein</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA5B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Soest</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEA5C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Koblenz, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ahrweiler</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Altenkirchen (Westerwald)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bad Kreuznach</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Birkenfeld</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB17</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mayen-Koblenz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB18</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neuwied</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB1A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhein-Lahn-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB1B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Westerwaldkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB1C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cochem-Zell</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB1D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhein-Hunsrück-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Trier, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bernkastel-Wittlich</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Eifelkreis Bitburg-Prüm</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vulkaneifel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Trier-Saarburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Frankenthal (Pfalz), Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kaiserslautern, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Landau in der Pfalz, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ludwigshafen am Rhein, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB35</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mainz, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB36</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neustadt an der Weinstraße, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB37</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pirmasens, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB38</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Speyer, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB39</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Worms, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zweibrücken, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Alzey-Worms</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bad Dürkheim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Donnersbergkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Germersheim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kaiserslautern, Landkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3G</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kusel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3H</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Südliche Weinstraße</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3I</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rhein-Pfalz-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3J</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mainz-Bingen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEB3K</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Südwestpfalz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEC01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Regionalverband Saarbrücken</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEC02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Merzig-Wadern</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEC03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neunkirchen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEC04</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saarlouis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEC05</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saarpfalz-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEC06</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>St. Wendel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dresden, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED2C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bautzen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED2D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Görlitz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED2E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Meißen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED2F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sächsische Schweiz-Osterzgebirge</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Chemnitz, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Erzgebirgskreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mittelsachsen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vogtlandkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zwickau</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED51</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Leipzig, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED52</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Leipzig</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DED53</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nordsachsen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dessau-Roßlau, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Halle (Saale), Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Magdeburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE04</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Altmarkkreis Salzwedel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE05</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Anhalt-Bitterfeld</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE06</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Jerichower Land</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE07</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Börde</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE08</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Burgenlandkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE09</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Harz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE0A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mansfeld-Südharz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE0B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saalekreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE0C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Salzlandkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE0D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Stendal</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEE0E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wittenberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Flensburg, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kiel, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lübeck, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF04</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neumünster, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF05</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dithmarschen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF06</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Herzogtum Lauenburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF07</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nordfriesland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF08</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ostholstein</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF09</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pinneberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF0A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Plön</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF0B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rendsburg-Eckernförde</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF0C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schleswig-Flensburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF0D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Segeberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF0E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Steinburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEF0F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Stormarn</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG01</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Erfurt, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gera, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Jena, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG04</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG05</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Weimar, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG06</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Eichsfeld</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG07</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nordhausen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG09</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unstrut-Hainich-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kyffhäuserkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gotha</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sömmerda</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hildburghausen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0G</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Weimarer Land</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0H</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0I</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0J</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saale-Holzland-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0K</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saale-Orla-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0L</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Greiz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0M</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Altenburger Land</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0N</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0P</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wartburgkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

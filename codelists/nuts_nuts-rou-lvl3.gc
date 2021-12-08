@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsRouLvl3</ShortName>
+      <LongName>nuts-rou-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO111</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bihor</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO112</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bistriţa-Năsăud</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO113</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cluj</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO114</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Maramureş</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO115</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Satu Mare</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO116</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sălaj</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO121</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Alba</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO122</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Braşov</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO123</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Covasna</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO124</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Harghita</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO125</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mureş</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO126</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sibiu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO211</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bacău</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO212</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Botoşani</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO213</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Iaşi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO214</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Neamţ</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO215</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Suceava</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO216</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vaslui</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO221</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Brăila</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO222</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Buzău</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO223</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Constanţa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO224</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Galaţi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO225</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tulcea</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO226</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vrancea</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO311</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Argeş</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO312</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Călăraşi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO313</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dâmboviţa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO314</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Giurgiu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO315</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ialomiţa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO316</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Prahova</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO317</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Teleorman</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO321</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bucureşti</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO322</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ilfov</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO411</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dolj</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO412</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gorj</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO413</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mehedinţi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO414</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Olt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO415</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vâlcea</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO421</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Arad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO422</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Caraş-Severin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO423</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hunedoara</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>RO424</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Timiş</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ROZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsNldLvl3</ShortName>
+      <LongName>nuts-nld-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL111</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL112</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL113</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL124</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL125</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL126</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL131</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL132</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL133</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL211</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL212</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL213</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL221</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL224</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL225</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL226</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL230</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL310</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL321</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL323</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL324</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL325</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL327</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL328</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL329</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL332</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL333</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL337</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL33A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL33B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL33C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL341</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL342</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL411</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL412</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL413</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL414</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL421</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL422</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL423</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NLZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsTurLvl3</ShortName>
+      <LongName>nuts-tur-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>İstanbul</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR211</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tekirdağ</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR212</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Edirne</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR213</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kırklareli</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR221</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Balıkesir</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR222</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Çanakkale</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR310</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>İzmir</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR321</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aydın</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR322</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Denizli</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR323</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Muğla</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR331</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Manisa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR332</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Afyonkarahisar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR333</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kütahya</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR334</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Uşak</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR411</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bursa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR412</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Eskişehir</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR413</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bilecik</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR421</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kocaeli</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR422</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sakarya</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR423</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Düzce</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR424</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bolu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR425</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Yalova</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR510</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ankara</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR521</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Konya</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR522</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Karaman</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR611</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Antalya</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR612</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Isparta</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR613</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Burdur</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR621</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Adana</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR622</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mersin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR631</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hatay</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR632</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kahramanmaraş</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR633</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Osmaniye</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR711</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kırıkkale</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR712</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aksaray</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR713</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Niğde</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR714</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nevşehir</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR715</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kırşehir</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR721</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kayseri</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR722</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sivas</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR723</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Yozgat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR811</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zonguldak</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR812</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Karabük</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR813</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bartın</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR821</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kastamonu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR822</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Çankırı</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR823</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sinop</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR831</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Samsun</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR832</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tokat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR833</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Çorum</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR834</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Amasya</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR901</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Trabzon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR902</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ordu</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR903</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Giresun</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR904</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Rize</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR905</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Artvin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TR906</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gümüşhane</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRA11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Erzurum</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRA12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Erzincan</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRA13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bayburt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRA21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ağrı</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRA22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kars</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRA23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Iğdır</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRA24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ardahan</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRB11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Malatya</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRB12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Elazığ</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRB13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bingöl</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRB14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tunceli</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRB21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Van</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRB22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Muş</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRB23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bitlis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRB24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hakkari</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gaziantep</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Adıyaman</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kilis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Şanlıurfa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Diyarbakır</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mardin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Batman</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Şırnak</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRC34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Siirt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TRZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

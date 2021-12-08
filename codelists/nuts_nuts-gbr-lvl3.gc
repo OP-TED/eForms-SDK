@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 0.2.54 created on the 2021-12-03T15:35:16-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>NutsGbrLvl3</ShortName>
+      <LongName>nuts-gbr-lvl3</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.2.54</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKC11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hartlepool and Stockton-on-Tees</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKC12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>South Teesside</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKC13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Darlington</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKC14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Durham CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKC21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Northumberland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKC22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tyneside</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKC23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sunderland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West Cumbria</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Cumbria</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Manchester</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Greater Manchester South West</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD35</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Greater Manchester South East</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD36</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Greater Manchester North West</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD37</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Greater Manchester North East</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Blackburn with Darwen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Blackpool</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lancaster and Wyre</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mid Lancashire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD46</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Lancashire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD47</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Chorley and West Lancashire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD61</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Warrington</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD62</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cheshire East</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD63</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cheshire West and Chester</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD71</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Merseyside</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD72</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Liverpool</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD73</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sefton</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKD74</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wirral</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kingston upon Hull, City of</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Riding of Yorkshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>North and North East Lincolnshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>York</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>North Yorkshire CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Barnsley, Doncaster and Rotherham</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sheffield</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bradford</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Leeds</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Calderdale and Kirklees</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKE45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wakefield</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Derby</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Derbyshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>South and West Derbyshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Nottingham</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>North Nottinghamshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>South Nottinghamshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Leicester</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Leicestershire CC and Rutland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West Northamptonshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>North Northamptonshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF30</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lincolnshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Herefordshire, County of</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Worcestershire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Warwickshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Telford and Wrekin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Shropshire CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Stoke-on-Trent</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Staffordshire CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Birmingham</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Solihull</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Coventry</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG36</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dudley</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG37</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sandwell</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG38</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Walsall</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKG39</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wolverhampton</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Peterborough</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cambridgeshire CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Suffolk</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Norwich and East Norfolk</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>North and West Norfolk</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH17</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breckland and South Norfolk</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Luton</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hertfordshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bedford</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Central Bedfordshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Southend-on-Sea</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Thurrock</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Essex Haven Gateway</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH35</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West Essex</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH36</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Heart of Essex</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKH37</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Essex Thames Gateway</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Camden and City of London</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Westminster</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI33</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kensington &amp; Chelsea and Hammersmith &amp; Fulham</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wandsworth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hackney and Newham</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tower Hamlets</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Haringey and Islington</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lewisham and Southwark</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lambeth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI51</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bexley and Greenwich</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI52</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Barking &amp; Dagenham and Havering</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI53</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Redbridge and Waltham Forest</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI54</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Enfield</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI61</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bromley</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI62</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Croydon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI63</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Merton, Kingston upon Thames and Sutton</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI71</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Barnet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI72</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Brent</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI73</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ealing</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI74</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Harrow and Hillingdon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKI75</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Hounslow and Richmond upon Thames</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Berkshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Milton Keynes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Buckinghamshire CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oxfordshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Brighton and Hove</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Sussex CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West Surrey</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ26</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Surrey</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ27</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West Sussex (South West)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ28</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West Sussex (North East)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ31</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Portsmouth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ32</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Southampton</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Isle of Wight</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ35</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>South Hampshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ36</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Central Hampshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ37</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>North Hampshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Medway</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kent Thames Gateway</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ44</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Kent</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ45</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mid Kent</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKJ46</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West Kent</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bristol, City of</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bath and North East Somerset, North Somerset and South Gloucestershire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gloucestershire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Swindon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wiltshire CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Somerset</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bournemouth, Christchurch and Poole</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dorset</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK30</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cornwall and Isles of Scilly</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK41</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Plymouth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK42</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Torbay</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKK43</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Devon CC</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Isle of Anglesey</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL12</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gwynedd</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL13</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Conwy and Denbighshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>South West Wales</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Central Valleys</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gwent Valleys</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL17</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bridgend and Neath Port Talbot</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL18</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Swansea</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL21</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Monmouthshire and Newport</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Cardiff and Vale of Glamorgan</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Flintshire and Wrexham</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKL24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Powys</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM50</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Aberdeen City and Aberdeenshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM61</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Caithness &amp; Sutherland and Ross &amp; Cromarty</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM62</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Inverness &amp; Nairn and Moray, Badenoch &amp; Strathspey</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM63</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lochaber, Skye &amp; Lochalsh, Arran &amp; Cumbrae and Argyll &amp; Bute</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM64</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Na h-Eileanan Siar (Western Isles)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM65</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Orkney Islands</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM66</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Shetland Islands</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM71</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Angus and Dundee City</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM72</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Clackmannanshire and Fife</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM73</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Lothian and Midlothian</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM75</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Edinburgh, City of</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM76</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Falkirk</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM77</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Perth &amp; Kinross and Stirling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM78</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>West Lothian</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM81</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Dunbartonshire, West Dunbartonshire and Helensburgh &amp; Lomond</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM82</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Glasgow City</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM83</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Inverclyde, East Renfrewshire and Renfrewshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM84</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>North Lanarkshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM91</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Scottish Borders</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM92</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dumfries &amp; Galloway</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM93</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>East Ayrshire and North Ayrshire mainland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM94</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>South Ayrshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKM95</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>South Lanarkshire</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN06</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Belfast</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN07</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Armagh City, Banbridge and Craigavon</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN08</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Newry, Mourne and Down</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN09</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ards and North Down</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN0A</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Derry City and Strabane</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN0B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mid Ulster</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN0C</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Causeway Coast and Glens</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN0D</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Antrim and Newtownabbey</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN0E</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lisburn and Castlereagh</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN0F</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mid and East Antrim</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKN0G</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fermanagh and Omagh</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKZZZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
