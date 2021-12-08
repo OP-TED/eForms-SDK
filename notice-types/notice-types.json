@@ -294,36 +294,6 @@
     "subTypeId" : "CEI"
   }, {
     "documentType" : "PIN",
-    "legalBasis" : "unknown",
-    "formType" : "planning",
-    "type" : "unknown",
-    "subTypeId" : "E1"
-  }, {
-    "documentType" : "PIN",
-    "legalBasis" : "unknown",
-    "formType" : "planning",
-    "type" : "pin-only",
-    "subTypeId" : "E2"
-  }, {
-    "documentType" : "CN",
-    "legalBasis" : "unknown",
-    "formType" : "competition",
-    "type" : "cn-standard",
-    "subTypeId" : "E3"
-  }, {
-    "documentType" : "CAN",
-    "legalBasis" : "unknown",
-    "formType" : "result",
-    "type" : "can-standard",
-    "subTypeId" : "E4"
-  }, {
-    "documentType" : "CAN",
-    "legalBasis" : "unknown",
-    "formType" : "completion",
-    "type" : "unknown",
-    "subTypeId" : "E5"
-  }, {
-    "documentType" : "PIN",
     "legalBasis" : "32007R1370",
     "formType" : "planning",
     "type" : "unknown",
