@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.2.37 created on the 2021-11-25T17:54:06.-->
+<!--File generated from metadata database version 0.2.62 created on the 2022-01-04T14:08:29.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">The BT-01 Procedure Legal Basis is not repeatable at Notice level.</assert>
@@ -238,6 +238,7 @@
 		<assert role="ERROR" test="count(cbc:EndTime) &lt; 2">The BT-630 Deadline Receipt Expressions is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms">
+		<assert role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) &lt; 2">The BT-18 Submission URL is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:FundingProgramCode[@listName='eu-funded']) &lt; 2">The BT-60 EU Funds is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cbc:VariantConstraintCode) &lt; 2">The BT-63 Variants is not repeatable at Lot level.</assert>
 		<assert role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-75 - Guarantee Required Description can only be present once for each language.</assert>

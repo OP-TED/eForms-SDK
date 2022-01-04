@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.2.45 created on the 2021-12-02T10:05:44.-->
+<!--File generated from metadata database version 0.2.69 created on the 2022-01-10T10:55:33.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<!-- CODE LIST RULES. -->
@@ -847,6 +847,10 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PostalAddress/cbc:Department">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,1000}$')">The content of BT-16 Organisation Part Name must not exceed the limit of 1000 characters at Organization level.</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cbc:EndpointID">
+		<assert role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-18 Submission URL value must comply the URL pattern</assert>
+		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-18 Submission URL must not exceed the limit of 400 characters at Procedure level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Name">
 		<assert role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-21 Title must not exceed the limit of 400 characters at Lot level.</assert>
