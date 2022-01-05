@@ -39,8 +39,6 @@
 	<xsd:element name="CriterionParameter" type="ParameterType"/>
 	<xsd:element name="DecisionReason" type="DecisionReasonType"/>
 	<xsd:element name="DurationJustification" type="DurationJustificationType"/>
-	<!-- Following element not needed. To be removed -->
-	<!-- xsd:element name="EvaluationCriterion" type="cac:AwardingCriterionType"/ -->
 	<xsd:element name="FieldsPrivacy" type="FieldsPrivacyType"/>
 	<xsd:element name="FrameworkAgreementValues" type="FrameworkAgreementValuesType"/>
 	<xsd:element name="Funding" type="FundingType"/>
