@@ -1322,6 +1322,22 @@
       "forbidden" : "true"
     } ]
   }, {
+    "id" : "BT-18-Lot",
+    "name" : "Submission URL",
+    "btId" : "BT-18",
+    "xpath" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cbc:EndpointID",
+    "type" : "url",
+    "legalType" : "URL",
+    "repeatable" : false,
+    "constraints" : [ {
+      "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
+      "forbidden" : "true"
+    }, {
+      "regex" : "^.{1,400}$"
+    }, {
+      "regex" : "^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\\.)?([a-zA-Z0-9\\-]+\\.)+[a-zA-Z]{2,6}(\\W(.)*$|$)"
+    } ]
+  }, {
     "id" : "BT-19-Lot",
     "name" : "Submission Nonelectronic Justification",
     "btId" : "BT-19",
