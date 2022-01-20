@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Romanian. File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09</comment>
+<comment>field in Romanian. File generated from metadata database version 0.2.85 created on the 2022-01-20T16:03:52</comment>
 <entry key="field|name|BT-01(c)-Procedure">Temeiul juridic al procedurii</entry>
 <entry key="field|name|BT-01(d)-Procedure">Temeiul juridic al procedurii</entry>
 <entry key="field|name|BT-01-notice">Temeiul juridic al procedurii</entry>
@@ -80,6 +80,7 @@
 <entry key="field|name|BT-165-Organization-Company">Dimensiunea operatorului economic</entry>
 <entry key="field|name|BT-17-Lot">Transmiterea electronică</entry>
 <entry key="field|name|BT-171-Tender">Clasați pe lista câștigătorilor</entry>
+<entry key="field|name|BT-18-Lot">Adresa de depunere (URL)</entry>
 <entry key="field|name|BT-19-Lot">Justificarea motivului pentru care transmiterea electronică nu este posibilă</entry>
 <entry key="field|name|BT-191-Tender">Țara de origine a produsului sau a serviciului</entry>
 <entry key="field|name|BT-193-Tender">Oferta este o variantă</entry>

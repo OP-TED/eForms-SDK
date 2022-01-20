@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Swedish. File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09</comment>
+<comment>field in Swedish. File generated from metadata database version 0.2.85 created on the 2022-01-20T16:03:52</comment>
 <entry key="field|name|BT-01(c)-Procedure">Rättslig grund för förfarandet</entry>
 <entry key="field|name|BT-01(d)-Procedure">Rättslig grund för förfarandet</entry>
 <entry key="field|name|BT-01-notice">Rättslig grund för förfarandet</entry>
@@ -80,6 +80,7 @@
 <entry key="field|name|BT-165-Organization-Company">Den ekonomiska aktörens storlek</entry>
 <entry key="field|name|BT-17-Lot">Elektronisk inlämning</entry>
 <entry key="field|name|BT-171-Tender">Rankas på listan över vinnare</entry>
+<entry key="field|name|BT-18-Lot">Adress för inlämning (URL)</entry>
 <entry key="field|name|BT-19-Lot">Motivering till varför elektronisk inlämning inte är möjlig</entry>
 <entry key="field|name|BT-191-Tender">Produktens eller tjänstens ursprungsland</entry>
 <entry key="field|name|BT-193-Tender">Anbudet är ett alternativt anbud.</entry>

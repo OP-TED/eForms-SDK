@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Slovak. File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09</comment>
+<comment>field in Slovak. File generated from metadata database version 0.2.85 created on the 2022-01-20T16:03:52</comment>
 <entry key="field|name|BT-01(c)-Procedure">Právny základ postupu</entry>
 <entry key="field|name|BT-01(d)-Procedure">Právny základ postupu</entry>
 <entry key="field|name|BT-01-notice">Právny základ postupu</entry>
@@ -80,6 +80,7 @@
 <entry key="field|name|BT-165-Organization-Company">Veľkosť hospodárskeho subjektu</entry>
 <entry key="field|name|BT-17-Lot">Elektronické predkladanie</entry>
 <entry key="field|name|BT-171-Tender">Poradie v zozname víťazov</entry>
+<entry key="field|name|BT-18-Lot">Adresa na predloženie (URL)</entry>
 <entry key="field|name|BT-19-Lot">Odôvodnenie, prečo elektronické predkladanie nie je možné</entry>
 <entry key="field|name|BT-191-Tender">Krajina pôvodu výrobku alebo služby</entry>
 <entry key="field|name|BT-193-Tender">Ponuka je variantné riešenie.</entry>

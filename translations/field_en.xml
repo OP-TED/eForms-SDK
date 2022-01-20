@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in English. File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09</comment>
+<comment>field in English. File generated from metadata database version 0.2.85 created on the 2022-01-20T16:03:52</comment>
 <entry key="field|name|BT-01(c)-Procedure">Legal basis of the procedure</entry>
 <entry key="field|name|BT-01(d)-Procedure">Legal basis of the procedure</entry>
 <entry key="field|name|BT-01-notice">Legal basis of the procedure</entry>
@@ -80,6 +80,7 @@
 <entry key="field|name|BT-165-Organization-Company">Size of the economic operator</entry>
 <entry key="field|name|BT-17-Lot">Electronic submission</entry>
 <entry key="field|name|BT-171-Tender">Rank in the list of winners</entry>
+<entry key="field|name|BT-18-Lot">Address for submission (URL)</entry>
 <entry key="field|name|BT-19-Lot">Justification for why electronic submission is not possible</entry>
 <entry key="field|name|BT-191-Tender">Country of origin of the product or the service</entry>
 <entry key="field|name|BT-193-Tender">The tender is a variant.</entry>

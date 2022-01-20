@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Finnish. File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09</comment>
+<comment>field in Finnish. File generated from metadata database version 0.2.85 created on the 2022-01-20T16:03:52</comment>
 <entry key="field|name|BT-01(c)-Procedure">Menettelyn oikeusperusta</entry>
 <entry key="field|name|BT-01(d)-Procedure">Menettelyn oikeusperusta</entry>
 <entry key="field|name|BT-01-notice">Menettelyn oikeusperusta</entry>
@@ -80,6 +80,7 @@
 <entry key="field|name|BT-165-Organization-Company">Talouden toimijan koko</entry>
 <entry key="field|name|BT-17-Lot">Sähköinen toimittaminen</entry>
 <entry key="field|name|BT-171-Tender">Sijoittuminen voittajien luetteloon</entry>
+<entry key="field|name|BT-18-Lot">Toimitusosoite (URL)</entry>
 <entry key="field|name|BT-19-Lot">Perustelut sille, miksi sähköinen toimittaminen ei ole mahdollista</entry>
 <entry key="field|name|BT-191-Tender">Tuotteen tai palvelun alkuperämaa</entry>
 <entry key="field|name|BT-193-Tender">Tarjous on vaihtoehtotarjous.</entry>
