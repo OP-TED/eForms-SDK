@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-0.5.0",
   "metadataDatabase" : {
-    "version" : "0.2.83",
-    "createdOn" : "2022-01-19T15:45:29"
+    "version" : "0.2.85",
+    "createdOn" : "2022-01-20T16:03:52"
   },
   "fields" : [ {
     "id" : "BT-01(c)-Procedure",
@@ -1183,11 +1183,6 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
-        "condition" : "!(field('BT-105-Procedure')=='open' or (field('BT-105-Procedure')=='oth-mult' and !(field('BT-1311(d)-Lot')>'')) or (field('BT-105-Procedure')=='oth-single' and !(field('BT-1311(d)-Lot')>'')))",
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
         "noticeTypes" : [ "7", "9", "19" ],
         "condition" : "!(!(field('BT-1311(d)-Lot')>''))",
         "value" : true,
@@ -1198,7 +1193,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "8", "16", "17", "18", "20", "21", "22", "23", "24" ],
+        "noticeTypes" : [ "8" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -1268,22 +1263,8 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
-        "condition" : "!((field('BT-105-Procedure')=='oth-mult' and !(field('BT-131(d)-Lot')>'')) or (field('BT-105-Procedure')=='oth-single' and !(field('BT-131(d)-Lot')>'')))",
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
         "noticeTypes" : [ "7", "9", "19" ],
         "condition" : "!(!(field('BT-131(d)-Lot')>''))",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -12441,15 +12422,6 @@
       }, {
         "noticeTypes" : [ "12", "13", "14", "20", "21", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40" ],
         "condition" : "!(!(field('BT-36-Lot')>'') and !(field('BT-537-Lot')>''))",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "7", "8", "9", "10", "11", "15", "16", "17", "18", "19", "22", "CEI", "T01", "T02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
