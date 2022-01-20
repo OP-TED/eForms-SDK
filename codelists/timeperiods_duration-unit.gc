@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.2.12 created on the 2021-10-25T12:02:31-->
+<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>DurationUnit</ShortName>
       <LongName>duration-unit</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/timeperiod</LongName>
       <LongName Identifier="eFormsParentId">timeperiods</LongName>
-      <Version>0.2.12</Version>
+      <Version>0.3.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
