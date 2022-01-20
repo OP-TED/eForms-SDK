@@ -48,12 +48,12 @@
 							<efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0003</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
@@ -87,7 +87,6 @@
 									<cbc:StreetName>103 Borough Road</cbc:StreetName>
 									<cbc:CityName> London</cbc:CityName>
 									<cbc:PostalZone>SE1 0AA</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -111,7 +110,6 @@
 									<cbc:StreetName>103 Borough Road</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>SE1 0AA</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -156,7 +154,6 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>London</cbc:CityName>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -176,7 +173,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>34453177-5a72-4c6f-b531-19b5aaa217ba</cbc:ID>
 	<cbc:ContractFolderID>d5049cd6-caec-47cd-ab5f-2f7715f975e0</cbc:ContractFolderID>
 	<cbc:IssueDate>2018-08-02+01:00</cbc:IssueDate>
@@ -219,7 +216,6 @@
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 				</cac:Country>
@@ -355,12 +351,10 @@
 			<cbc:Description languageID="ENG">LSBU is seeking the services of a strategic change partner to support it in delivering the objectives of LEAP, an ambitions change programme that will transform the way the University is organised and delivers its services to support its students through their learning journey and respond more flexibly and effectively to emerging opportunities and challenges, including evolving student and employer (customer) needs and expectations, new digital solutions, regulatory, information and market changes, remaining true to its identity and stated aims. The LEAP programme has been designed around 9 workstreams.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 			<cac:MainCommodityClassification>
-				<cbc:NatureCode>CPV</cbc:NatureCode>
 				<cbc:ItemClassificationCode listName="cpv">79410000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 					</cac:Country>

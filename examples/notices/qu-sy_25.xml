@@ -34,9 +34,9 @@
 									<cbc:CompanyID>SQASF2020</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>Franca Filini</cbc:Name>
-									<cbc:Telephone>+39 03077141</cbc:Telephone>
-									<cbc:Telefax>+39 0307714529</cbc:Telefax>
+									<cbc:Name>Help Desk</cbc:Name>
+									<cbc:Telephone>+39 03077100</cbc:Telephone>
+									<cbc:Telefax>+39 0307714009</cbc:Telefax>
 									<cbc:ElectronicMail>acquistiegare@acquebresciane.it</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -114,7 +114,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>8439f5f1-ad52-46a0-b363-533779a02e4b</cbc:ID>
 	<cbc:ContractFolderID>0bc9e721-7916-4b3d-bbd0-2350efc3f00e</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-03+01:00</cbc:IssueDate>
@@ -158,6 +158,9 @@
 			<cbc:Description languageID="ITA">Comuni della Provincia di Brescia il cui elenco è disponibile al link https://www.acquebresciane.it/public/acquebresciane-portal/home/societa/comuni-gestiti.</cbc:Description>
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 		<cac:PlannedPeriod>
@@ -199,7 +202,7 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
@@ -240,6 +243,9 @@
 				<cbc:Description languageID="ITA">Comuni della Provincia di Brescia il cui elenco è disponibile al link https://www.acquebresciane.it/public/acquebresciane-portal/home/societa/comuni-gestiti.</cbc:Description>
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

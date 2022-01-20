@@ -33,9 +33,9 @@
 									<cbc:CompanyID>24680067600016</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>T. Ciavarella</cbc:Name>
-									<cbc:Telephone> +33 389388175</cbc:Telephone>
-									<cbc:ElectronicMail>t.ciavarella@cc-vallee-doller.fr</cbc:ElectronicMail>
+									<cbc:Name>Service Accueil</cbc:Name>
+									<cbc:Telephone>+33 389380000</cbc:Telephone>
+									<cbc:ElectronicMail>contact@cc-vallee-doller.fr</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
@@ -62,9 +62,9 @@
 									<cbc:CompanyID>83044938500012</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>Matthieu Fortin</cbc:Name>
-									<cbc:Telephone>+33 680800655</cbc:Telephone>
-									<cbc:ElectronicMail>matthieu@t1prog.com</cbc:ElectronicMail>
+									<cbc:Name>Contact</cbc:Name>
+									<cbc:Telephone>+33 680800000</cbc:Telephone>
+									<cbc:ElectronicMail>impulsion@t1prog.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
@@ -148,7 +148,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>f37b9a55-0684-4d4b-a98f-0ba819d6d6f2</cbc:ID>
 	<cbc:ContractFolderID>8655f8a5-b5e9-4d6e-9dee-a360f820ecbe</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-11+01:00</cbc:IssueDate>
@@ -227,7 +227,6 @@
 					</cac:ExternalReference>
 				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
-			<cac:TendererQualificationRequest></cac:TendererQualificationRequest>
 			<cac:AwardingTerms>
 				<cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
 				<cbc:BindingOnBuyerIndicator>true</cbc:BindingOnBuyerIndicator>
@@ -286,7 +285,7 @@
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:AppealTerms>

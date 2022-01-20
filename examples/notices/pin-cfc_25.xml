@@ -121,7 +121,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>c48d000f-2598-47b3-856e-de93bf654518</cbc:ID>
 	<cbc:ContractFolderID>c2a0dcd1-4d17-4072-9252-38de16ead921</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
@@ -133,7 +133,6 @@
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
-			<cbc:PartyType>airport</cbc:PartyType>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="entity-activity">airport</cbc:ActivityTypeCode>
@@ -226,7 +225,7 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
@@ -285,6 +284,9 @@
 				<cbc:Description languageID="DEU">Flughafen Stuttgart</cbc:Description>
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">DE113</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
@@ -355,7 +357,7 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
@@ -411,6 +413,9 @@
 				<cbc:Description languageID="DEU">Flughafen Stuttgart</cbc:Description>
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">DE113</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

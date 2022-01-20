@@ -273,7 +273,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID>f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
 	<!--BT-04-->
@@ -338,6 +338,9 @@
 			<cbc:Description languageID="FRA">CEA Cadarache — 13115 Saint-Paul-lez-Durance.</cbc:Description>
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -477,6 +480,9 @@
 				<cbc:Description languageID="FRA">CEA Cadarache — 13115 Saint-Paul-lez-Durance.</cbc:Description>
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 		</cac:ProcurementProject>

@@ -101,8 +101,8 @@
 									<cbc:CompanyID schemeID="ABC">EU-PO</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>Valeria Sciarrino</cbc:Name>
-									<cbc:Telephone>+352 292944331</cbc:Telephone>
+									<cbc:Name>Procurement Unit</cbc:Name>
+									<cbc:Telephone>+352 292911111</cbc:Telephone>
 									<cbc:ElectronicMail>op-appels-offres@publications.europa.eu</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -394,7 +394,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>55aae64f-88a8-44a5-b2fb-8228e97fe6ee</cbc:ID>
 	<cbc:ContractFolderID>46c9ce89-5986-40d9-992f-e1a2469a48f8</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
@@ -615,7 +615,7 @@
 			<cbc:Description languageID="SPA">El principal lugar de ejecución son las instalaciones del contratista y las instalaciones del órgano de contratación.</cbc:Description>
 			<cbc:Description languageID="SWE">Plats för utförande är huvudsakligen uppdragstagarens lokaler och den upphandlande myndighetens lokaler.</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">LU00</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode>LUX</cbc:IdentificationCode>
 				</cac:Country>
@@ -662,7 +662,6 @@
 								<cbc:Description languageID="SPA">Véanse los documentos de contratación.</cbc:Description>
 								<cbc:Description languageID="SWE">Enligt vad som anges i upphandlingsdokumenten.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
@@ -691,7 +690,6 @@
 								<cbc:Description languageID="SPA">Véanse los documentos de contratación.</cbc:Description>
 								<cbc:Description languageID="SWE">Enligt vad som anges i upphandlingsdokumenten.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
@@ -720,14 +718,13 @@
 								<cbc:Description languageID="SPA">Véanse los documentos de contratación.</cbc:Description>
 								<cbc:Description languageID="SWE">Enligt vad som anges i upphandlingsdokumenten.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
-			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>5629</cbc:ID>
@@ -813,13 +810,13 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://etendering.ted.europa.eu/cft/cft-display.html?cftId=5629</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderValidityPeriod>
@@ -1109,7 +1106,7 @@
 				<cbc:Description languageID="SPA">El principal lugar de ejecución son las instalaciones del contratista y las instalaciones del órgano de contratación.</cbc:Description>
 				<cbc:Description languageID="SWE">Plats för utförande är huvudsakligen uppdragstagarens lokaler och den upphandlande myndighetens lokaler.</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">LU00</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode>LUX</cbc:IdentificationCode>
 					</cac:Country>

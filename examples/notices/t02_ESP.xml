@@ -123,7 +123,7 @@
 									<cbc:StreetName>Paseo Castellana, 67</cbc:StreetName>
 									<cbc:CityName>Madrid</cbc:CityName>
 									<cbc:PostalZone>28071</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">ES3</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
 									</cac:Country>
@@ -183,7 +183,7 @@
 									<cbc:StreetName>Avenida Pío XII, 110</cbc:StreetName>
 									<cbc:CityName>Madrid</cbc:CityName>
 									<cbc:PostalZone>2836</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">ES3</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
 									</cac:Country>
@@ -209,7 +209,7 @@
 								<cbc:StreetName>Calle hancha, 78</cbc:StreetName>
 								<cbc:CityName>Madrid</cbc:CityName>
 								<cbc:PostalZone>2836</cbc:PostalZone>
-								<cbc:CountrySubentityCode listName="nuts">ES3</cbc:CountrySubentityCode>
+								<cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
 								<cac:Country>
 									<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
 								</cac:Country>
@@ -233,7 +233,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>17f00f55-7178-4597-822a-545d2f55a150</cbc:ID>
 	<!-- element required for this doctype -->
 	<cbc:ContractFolderID>00000000-0000-0000-0000-000000000000</cbc:ContractFolderID>
@@ -341,7 +341,6 @@
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">ES</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
 					</cac:Country>
