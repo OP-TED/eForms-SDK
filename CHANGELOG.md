@@ -1,71 +1,73 @@
-# SDK 0.4.1 Release Notes
-
-The following issues were corrected in version 0.4.1:
-
-* The translation files field_*.xml included by mistake labels for business terms. They have now been corrected and contain a label for each field.
-* Incorrect references to some notice subtypes have been removed from fields.json.
-* The XPaths for fields BT-01(c)-Procedure and BT-01(d)-Procedure have been corrected, removing the 'or' clause in the predicate.
-
-
-# SDK 0.4.0 Release Notes
+# SDK 0.5.0 Release Notes
 
 Below is a list of the major updates made to the SDK in this release.
 
-The documentation for the SDK is available at https://docs.ted.europa.eu.
-
-The source for this documentation is now maintained in a separate repository: [eforms-doc](https://github.com/OP-TED/eforms-docs).
+The documentation for the SDK is available at https://docs.ted.europa.eu. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
 
-## eForms schema
+## Codelists
+The SDK now includes codelists that are used to restrict the possible values of some fields in eForms notices.
 
-* Add new elements for the identifiers of contracts and tenders used by the buyer (efac:ContractReference and efac:TenderReference).
-* Add missing efac:FieldsPrivacy​ under efac:ReceivedSubmissionsStatistics, to allow indicating that this information is not public.
-* Allow multiple occurrences of the contract title, so that it can be indicated in more than one language.
+This includes also tailored codelists, which represent a subset of items from another codelist. For example the codes for EU official languages are in a tailored codelist that is based on the "language" codelist. More codelists will be added in future releases.
 
+You can find more information about codelists in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.5.0/codelists).
+
+
+## eForms schemas
+Minor issues were corrected in the eForms extensions defined in the schemas:
+ * The type of `efbc:TenderSubcontractingRequirementsDescriptionType` is changed to `udt:TextType`.
+ * The unused element `efac:EvaluationCriterion` is removed.
+ * The `efac` namespace is added in the references to 2 elements, for consistency. This has no impact on XML instances.
 
 ## Schematron rules
-The schematron rules have been updated to reflect the schema changes listed above, along with numerous improvements and corrections.
 
-### Addition of conditional rules
-New rules have been added for information that must be present under certain conditions. These rules corresponding to the indication "CM" in the extended annex to the eForms Regulation.
+### New rules
+New rules have been added for information that is allowed or mandatory only under certain conditions.
 
-In an upcoming version we will also add rules for information that must not be present under certain conditions.
+UBL documents must not contain any element devoid of content or containing null values. This is now enforced with a specific rule.
 
-### Addition of warnings
-For information that must be present if it exists, we have added rules that will indicate a warning (with `role="WARN"`) if the information is not present. These rules corresponding to the indication "EM" in the extended annex to the eForms Regulation.
-
-### New rules enforcing consistency between values
-New rules have been added to check the consistency of the values indicated for:
-* dates for various steps in the procurement process
-* contract duration
-* number of lots allowed and awarded
-* highest and lowest tender value
-
-### New rules on languages used
-For textual information that can be indicated in multiple languages, new rules check the consistency of the languages used with the notice official languages (BT-702).
-
-### Length restrictions on numerical values
-Rules that limit the number of characters for numerical values have been removed. They will be re-added in the future in the form of minimum and maximum allowed values.
+### Codelist rules
+The rules that check that a value is part of a codelist now make use of the content of tailored codelists when appropriate.
 
 ### Corrections
-Several rules requiring the presence of specific parties (mediator, eSender, etc.) have been corrected.
+The pattern matching rules that have identical contexts are now grouped in the same `rule` element.
+
+The field for "Awarding CPB Buyer Indicator" was incorrectly forbidden for T01 and T02 notices, it is now allowed for those notices.
+
+The field for BT-706 "Winner Owner Nationality" was incorrectly indicated as mandatory.
 
 
 ## Example Notices
-The XML notices in the "examples" folder have been updated to incorporate the schema changes listed above, and the updated schematron rules.
+The XML notices in the "examples" folder have been updated to take into account the updated schematron rules.
 
-A new notice example was added for a Contract Award Notice with multiple buyers.
+New examples were added:
+ * Contract award notice with several lots and "unpublished" (withheld) information.
+ * Change notice that voids/cancels the procurement procedure
+ * Contract notice with a large number of lots
+ * Prior information notice with publication information
 
 The validation reports have been regenerated, incorporating all the changes listed above.
 
 
 ## Fields
-The SDK now includes information on the fields that compose an eForms notice, in a structured format (JSON).
+The representation of constraints in fields.json has been reworked. This new structure is more consistent for the various types of constraints. It is also more flexible, so that new types of constraints can be added without breaking backwards compatibility.
 
-You can find more information about this in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.4.0/fields/).
+Information on the physical structure of XML notices is now available in the fields.json file, along with the location of each field in that structure.
+
+The identifier of a field has been corrected to `OPT-050-Lot`, to fix the capitalisation.
+
+You can find more information about the field metadata in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.5.0/fields).
+
+
+## Notice types
+The SDK now includes structured information on the various specific types of notices (or subtypes) that are defined in the eForms regulation.
+
+This defines the content and structure of the forms notice authors can fill in, in a way that is not directly coupled to the structure of XML notices.
+
+You can find more information about this in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.5.0/notice-types).
 
 
 ## Translations
-The SDK now includes the translations of various labels and short texts used in eForms notices.
+Translations for several items in codelists have been updated.
 
-You can find more information about this in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.4.0/translations/).
+You can find more information about this in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.5.0/translations).
