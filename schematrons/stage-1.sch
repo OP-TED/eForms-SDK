@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.2.37 created on the 2021-11-25T17:54:06.-->
+<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52.-->
 <pattern id="EFORMS-stage-1" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">The element cac:AdditionalDocumentReference is not allowed in context /*</assert>
