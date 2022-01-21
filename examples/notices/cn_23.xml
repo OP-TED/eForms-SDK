@@ -33,9 +33,9 @@
 									<cbc:CompanyID> 20007158700014</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>Florence Magnol</cbc:Name>
-									<cbc:Telephone>+33 247919391</cbc:Telephone>
-									<cbc:ElectronicMail>florence.magnol@lochessudtouraine.com</cbc:ElectronicMail>
+									<cbc:Name>Service Achats</cbc:Name>
+									<cbc:Telephone>+33 247911111</cbc:Telephone>
+									<cbc:ElectronicMail>service-achats@lochessudtouraine.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
@@ -119,7 +119,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>4039abd1-af19-42cf-bce0-7c55806601e8</cbc:ID>
 	<cbc:ContractFolderID>fe181e9c-327f-4a7c-8669-ef0774c9a749</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-14+01:00</cbc:IssueDate>
@@ -177,6 +177,9 @@
 		<cac:RealizedLocation>
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">FRB04</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -200,6 +203,11 @@
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>Identifier1</cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>http://www.pro-marchespublics.com</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
@@ -221,13 +229,13 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>http://www.pro-marchespublics.com</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:AppealTerms>
@@ -267,6 +275,9 @@
 			<cac:RealizedLocation>
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">FRB04</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

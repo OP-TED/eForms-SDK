@@ -43,7 +43,7 @@
 									<cbc:StreetName>Cumbria House, 107-117 Botchergate</cbc:StreetName>
 									<cbc:CityName>Carlisle</cbc:CityName>
 									<cbc:PostalZone>CA1 1RD</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKD1</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKD12</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -52,9 +52,9 @@
 									<cbc:CompanyID>xyz</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>Mrs Michelle James</cbc:Name>
+									<cbc:Name>Procurement contact point</cbc:Name>
 									<cbc:Telephone>+44 1228221743</cbc:Telephone>
-									<cbc:ElectronicMail>michelle.james@cumbria.gov.uk</cbc:ElectronicMail>
+									<cbc:ElectronicMail>procurement@cumbria.gov.uk</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
@@ -134,14 +134,14 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>92521e66-3cd5-4a5f-bea1-51991d5871ea</cbc:ID>
 	<cbc:ContractFolderID>9af3b735-9d6c-45c8-8c39-d58fb9fa824b</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-09+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
-	<cbc:NoticeTypeCode listName="change">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeTypeCode listName="change">corr</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
@@ -235,7 +235,10 @@
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKD1</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">UKD12</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -263,6 +266,11 @@
 				<cbc:ID>SomeDocID1</cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
 				<cbc:LanguageID>ENG</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://www.the-chest.org.uk/</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
@@ -317,7 +325,7 @@
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://www.the-chest.org.uk/</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderValidityPeriod>
@@ -386,7 +394,10 @@
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKD1</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">UKD12</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.2.85 created on the 2022-01-20T16:03:52.-->
+<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52.-->
 <pattern id="EFORMS-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '37']">
 		<assert role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">The BT-10 Activity Authority is allowed at Procedure level for a notice of type Design contest result notice – sectoral directive, design only if the value chosen for the indicator of BT-740-Procedure-Buyer is 'NO'.</assert>

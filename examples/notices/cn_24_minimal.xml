@@ -86,7 +86,7 @@ But with the minimal amount of information while still valid
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>f42be27e-09cf-4f0e-a745-63ec689631e6</cbc:ID>
 	<cbc:ContractFolderID>4805c409-5939-4be9-8abd-837f7a5fee23</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
@@ -170,7 +170,7 @@ But with the minimal amount of information while still valid
 			</cac:ContractExecutionRequirement>
 			<cac:TenderRecipientParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderValidityPeriod>

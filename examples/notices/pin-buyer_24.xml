@@ -67,7 +67,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>e5dc3c2b-3df5-45e0-af7f-399ca201d7e0</cbc:ID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
 	<cbc:IssueTime>03:57:07+01:00</cbc:IssueTime>
@@ -79,9 +79,6 @@
 		<cbc:BuyerProfileURI>https://www.hsanmartino.it</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
-		</cac:ContractingPartyType>
-		<cac:ContractingPartyType>
-			<cbc:PartyType>IRCSS</cbc:PartyType>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>

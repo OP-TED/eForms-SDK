@@ -70,7 +70,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>64bdfc22-2f35-4109-9817-a8f0bd9468b6</cbc:ID>
 	<cbc:IssueDate>2020-12-07+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:35:04+01:00</cbc:IssueTime>
@@ -119,7 +119,6 @@ Elle ne constitue pas une consultation liée à un marché public, ni un acte d'
 		<!--added data-->
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">FR</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
 				</cac:Country>
@@ -133,7 +132,7 @@ Elle ne constitue pas une consultation liée à un marché public, ni un acte d'
 				<cbc:ID>ID1</cbc:ID>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:FiscalLegislationDocumentReference>
@@ -141,7 +140,7 @@ Elle ne constitue pas une consultation liée à un marché public, ni un acte d'
 				<cbc:ID>ID2</cbc:ID>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:EnvironmentalLegislationDocumentReference>
@@ -149,7 +148,7 @@ Elle ne constitue pas une consultation liée à un marché public, ni un acte d'
 				<cbc:ID>ID3</cbc:ID>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:EmploymentLegislationDocumentReference>
@@ -189,7 +188,6 @@ Elle ne constitue pas une consultation liée à un marché public, ni un acte d'
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">FR</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
 					</cac:Country>

@@ -83,7 +83,6 @@
 									<cbc:StreetName>Westland House</cbc:StreetName>
 									<cbc:CityName>Belfast</cbc:CityName>
 									<cbc:PostalZone>BT14 6TE</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -131,7 +130,6 @@
 									<cbc:StreetName>Flushstreet, 1A</cbc:StreetName>
 									<cbc:CityName>Belfast</cbc:CityName>
 									<cbc:PostalZone>BT14 6TE</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -205,7 +203,6 @@
 									<cbc:StreetName>Hill House</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>EC4A 3JR</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -225,7 +222,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>359f3b87-c2ec-4c6a-b279-58c843551e7c</cbc:ID>
 	<cbc:ContractFolderID>18d27a53-0109-4f93-9231-6659d931bce0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
@@ -274,7 +271,9 @@
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -361,7 +360,9 @@
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 		</cac:ProcurementProject>

@@ -106,14 +106,15 @@
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:AwardDate>2020-02-12Z</cbc:AwardDate>
 							<cbc:Title languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Title>
+							<efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0004</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
@@ -147,7 +148,6 @@
 									<cbc:StreetName>Westland House</cbc:StreetName>
 									<cbc:CityName>Belfast</cbc:CityName>
 									<cbc:PostalZone>BT14 6TE</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -240,7 +240,6 @@
 									<cbc:StreetName>Hill House</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>EC4A 3JR</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -260,7 +259,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>359f3b87-c2ec-4c6a-b279-58c843551e7c</cbc:ID>
 	<cbc:ContractFolderID>18d27a53-0109-4f93-9231-6659d931bce0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
@@ -345,7 +344,9 @@
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -438,7 +439,7 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
@@ -463,7 +464,7 @@
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>
 			<cac:ContractingSystem>
-				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-mix</cbc:ContractingSystemTypeCode>
 			</cac:ContractingSystem>
 			<cac:ContractingSystem>
 				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
@@ -480,7 +481,9 @@
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 		</cac:ProcurementProject>

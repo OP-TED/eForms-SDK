@@ -76,6 +76,7 @@
       <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '4']"/>
    <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
@@ -136,7 +137,7 @@
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
                        test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>the OPT-301 Additional Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+      <svrl:text>The OPT-301 Additional Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="WARN"
@@ -152,7 +153,7 @@
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
                        test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>the OPT-301 Review Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+      <svrl:text>The OPT-301 Review Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
@@ -186,6 +187,71 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject"/>
+   <svrl:active-pattern id="EFORMS-stage-3-not-empty" name="EFORMS-stage-3-not-empty"/>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cbc:ID"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProject"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cbc:ID"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"/>

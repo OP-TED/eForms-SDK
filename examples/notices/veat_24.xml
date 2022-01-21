@@ -9,6 +9,9 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">350000</cbc:TotalAmount>
 						<efac:LotResult>
+							<efac:SettledContract>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							</efac:SettledContract>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 							</efac:TenderLot>
@@ -73,7 +76,7 @@
 									<cbc:StreetName>Civic Centre</cbc:StreetName>
 									<cbc:CityName>Middlesbrough</cbc:CityName>
 									<cbc:PostalZone>TS1 9FZ</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKC11</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -82,9 +85,9 @@
 									<cbc:CompanyID>buyerid01</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>Philip Robinson</cbc:Name>
+									<cbc:Name>Procurement division</cbc:Name>
 									<cbc:Telephone>+44 1642729177</cbc:Telephone>
-									<cbc:ElectronicMail>philip_robinson@middlesbrough.gov.uk</cbc:ElectronicMail>
+									<cbc:ElectronicMail>procurement@middlesbrough.gov.uk</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
@@ -98,7 +101,7 @@
 									<cbc:StreetName>Civic Centre</cbc:StreetName>
 									<cbc:CityName>Middlesbrough</cbc:CityName>
 									<cbc:PostalZone>TS1 9FZ</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKC11</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -167,7 +170,6 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Caerphilly</cbc:CityName>
-									<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -189,7 +191,6 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Rotherham</cbc:CityName>
-									<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -211,7 +212,6 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Bridgend</cbc:CityName>
-									<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -228,7 +228,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>6ea164b2-228c-4ae8-b3b5-26f3946b8300</cbc:ID>
 	<cbc:ContractFolderID>da39bc05-2d42-4d37-aa4f-2dc9937911a0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
@@ -251,12 +251,9 @@
 			<cac:ServiceProviderParty>
 				<cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
 				<cac:Party>
-					<cac:PartyName>
-						<cbc:Name>eSendCorp</cbc:Name>
-					</cac:PartyName>
-					<cac:PartyLegalEntity>
-						<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-					</cac:PartyLegalEntity>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+					</cac:PartyIdentification>
 				</cac:Party>
 			</cac:ServiceProviderParty>
 		</cac:Party>
@@ -298,7 +295,7 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">Tees Valley</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKC1</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">UKC11</cbc:CountrySubentityCode>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>

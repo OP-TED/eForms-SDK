@@ -128,6 +128,23 @@
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
+   <svrl:active-pattern id="EFORMS-stage-3-not-empty" name="EFORMS-stage-3-not-empty"/>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cbc:ContractFolderID"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			Elements must have content, and the content must be something other than only whitespace.
+		</svrl:text>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '29']"/>

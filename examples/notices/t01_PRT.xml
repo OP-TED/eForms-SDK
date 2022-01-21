@@ -73,7 +73,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>468ad654-621e-43f2-bc58-e774eb03926b</cbc:ID>
 	<cbc:IssueDate>2018-06-20+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
@@ -89,7 +89,7 @@
 			<cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
-			<cbc:ActivityTypeCode listName="authority-activity">urttb</cbc:ActivityTypeCode>
+			<cbc:ActivityTypeCode listName="authority-activity">rcr</cbc:ActivityTypeCode>
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>

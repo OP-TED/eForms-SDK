@@ -54,12 +54,12 @@
 							<cbc:Title languageID="ENG">Automated Laboratory Medicine Systems.</cbc:Title>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0005</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
@@ -94,7 +94,7 @@
 									<cbc:Department>Supplies Centre</cbc:Department>
 									<cbc:CityName>Londonderry</cbc:CityName>
 									<cbc:PostalZone>BT47 6YZ</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKN</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKN0A</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -211,7 +211,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>1f8687c9-8cca-493a-b0ee-553ed23d8402</cbc:ID>
 	<cbc:ContractFolderID>b492c659-4893-4796-b7db-4e511d85e0c8</cbc:ContractFolderID>
 	<cbc:IssueDate>2010-10-07+01:00</cbc:IssueDate>
@@ -251,7 +251,7 @@
 		</cac:AdditionalCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKN</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">UKN0A</cbc:CountrySubentityCode>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -287,7 +287,7 @@
 			</cac:AdditionalCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKN</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">UKN0A</cbc:CountrySubentityCode>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

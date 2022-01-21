@@ -24,7 +24,7 @@
 									<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
 									<cbc:CityName>Glasgow</cbc:CityName>
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKM</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -33,9 +33,9 @@
 									<cbc:CompanyID schemeID="999">123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>Tom MacLeod</cbc:Name>
-									<cbc:Telephone>+44 7875879507</cbc:Telephone>
-									<cbc:ElectronicMail>tom.macleod@scottishwater.co.uk</cbc:ElectronicMail>
+									<cbc:Name>Frontdesk</cbc:Name>
+									<cbc:Telephone>+44 7875870000</cbc:Telephone>
+									<cbc:ElectronicMail>contact@scottishwater.co.uk</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
@@ -49,7 +49,6 @@
 									<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
 									<cbc:CityName>Glasgow</cbc:CityName>
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -112,7 +111,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<cbc:ID>39d68def-a6aa-4e85-aa8d-97f0600ea41e</cbc:ID>
 	<cbc:ContractFolderID>027f7db6-596d-4395-87b9-d8a7b0e4b269</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-15+01:00</cbc:IssueDate>
@@ -123,7 +122,7 @@
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
-			<cbc:PartyType>other utilities sector</cbc:PartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">org-sub-ra</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="entity-activity">water</cbc:ActivityTypeCode>
@@ -166,7 +165,10 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">SCOTLAND</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKM</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -194,7 +196,7 @@
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
 			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
-			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
 			<cac:RequiredFinancialGuarantee>
 				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
 				<cbc:Description languageID="ENG">Scottish Water reserves the right to require deposits, guarantees, bonds or other forms of appropriate security.</cbc:Description>
@@ -241,12 +243,9 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
-			<cac:TenderValidityPeriod>
-				<cbc:DurationMeasure unitCode="MONTH">96</cbc:DurationMeasure>
-			</cac:TenderValidityPeriod>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="ENG">Within ...</cbc:Description>
@@ -307,7 +306,10 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="ENG">SCOTLAND</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKM</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

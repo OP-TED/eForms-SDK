@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>rule in English. File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52</comment>
+<entry key="rule|message_template|mandatory">${field.id} is mandatory for a notice with subtype ${notice.id}</entry>
+<entry key="rule|message_template|multilingual_complete">${field.id} must be indicated in all notice official languages</entry>
+<entry key="rule|message_template|multilingual_language">The language must be specified for ${field.id}</entry>
+<entry key="rule|message_template|multilingual_no_extra">${field.id} can only be indicated in a language that is part of the notice official languages</entry>
+<entry key="rule|message_template|multilingual_once">${field.id} can only be present once for each language</entry>
+<entry key="rule|message_template|not_allowed">${field.id} is not allowed for a notice with subtype ${notice.id}</entry>
+<entry key="rule|message_template|not_repeatable">${field.id} is not repeatable</entry>
+<entry key="rule|message_template|pattern_matching">The value of ${field.id} must match the '${rule.pattern_id}' pattern</entry>
+<entry key="rule|message_template|skeleton_mandatory">The element ${rule.element} is mandatory in context ${context}</entry>
+<entry key="rule|message_template|skeleton_not_allowed">The element ${rule.element} is not allowed in context ${context}</entry>
+<entry key="rule|message_template|value_check">${field.id} must contain one of the values of the code list ${rule.code_list_id}</entry>
+</properties>
