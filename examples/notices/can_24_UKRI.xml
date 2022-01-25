@@ -47,12 +47,12 @@
 							<cbc:AwardDate>2020-04-09+02:00</cbc:AwardDate>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0004</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
@@ -180,7 +180,7 @@
 									<cbc:StreetName>240 Blackfriars Road</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>SE1 8NW</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI44</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>

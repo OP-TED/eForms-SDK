@@ -9,6 +9,9 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">5640000</cbc:TotalAmount>
 						<efac:LotResult>
+							<efac:SettledContract>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							</efac:SettledContract>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 							</efac:TenderLot>
@@ -17,7 +20,10 @@
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<cbc:RankCode>1</cbc:RankCode>
 							<efac:SubcontractingTerm>
-								<efbc:TermCode listName="applicability">no</efbc:TermCode>
+								<efbc:TermDescription languageID="ENG">The contract/lot/concession is likely to be subcontracted</efbc:TermDescription>
+								<efbc:TermCode listName="applicability">yes</efbc:TermCode>
+								<efbc:PercentageKnownIndicator>false</efbc:PercentageKnownIndicator>
+								<efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
 							</efac:SubcontractingTerm>
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
@@ -60,7 +66,6 @@
 									<cbc:StreetName>1 Eversholt Street</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>NW1 2DN</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -199,7 +204,9 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">UK Railway infrastructure as maintained by Network Rail.</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -208,7 +215,7 @@
 		<cac:TenderingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
@@ -238,18 +245,5 @@
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
 		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
-		<cac:Contract>
-			<cbc:ID>SomeID2</cbc:ID>
-		</cac:Contract>
-		<cac:AwardedTenderedProject>
-			<cbc:TenderEnvelopeID>SomeTenderID</cbc:TenderEnvelopeID>
-			<cac:ProcurementProjectLot>
-				<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
-				
-			</cac:ProcurementProjectLot>
-		</cac:AwardedTenderedProject>
-		<cac:SubcontractTerms>
-			<cbc:Description languageID="ENG">The contract/lot/concession is likely to be subcontracted</cbc:Description>
-		</cac:SubcontractTerms>
 	</cac:TenderResult>
 </ContractAwardNotice>

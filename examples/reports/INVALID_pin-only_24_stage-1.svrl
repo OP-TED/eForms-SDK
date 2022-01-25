@@ -76,6 +76,7 @@
       <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '4']"/>
    <svrl:failed-assert location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
@@ -136,7 +137,7 @@
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
                        test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>the OPT-301 Additional Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+      <svrl:text>The OPT-301 Additional Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="WARN"
@@ -152,7 +153,7 @@
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
                        test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>the OPT-301 Review Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
+      <svrl:text>The OPT-301 Review Info Provider Technical Identifier Reference is mandatory at Part level for a notice of type Prior information notice used only for information – general directive.</svrl:text>
    </svrl:failed-assert>
    <svrl:failed-assert location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"

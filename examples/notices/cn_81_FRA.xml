@@ -23,15 +23,14 @@
 									<cbc:StreetName>CEA/DAM Île-de-France DCG/SAPI/BGI bâtiment U Bruyères-le-Châtel</cbc:StreetName>
 									<cbc:CityName>Arpajon Cedex</cbc:CityName>
 									<cbc:PostalZone>91297</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">FR</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
-									<cbc:Name>M Vincent Gourdin</cbc:Name>
-									<cbc:Telephone>+44 3067988090</cbc:Telephone>
-									<cbc:Telefax>+33 169267009</cbc:Telefax>
+									<cbc:Name>Service Achats</cbc:Name>
+									<cbc:Telephone>+44 3067900000</cbc:Telephone>
+									<cbc:Telefax>+33 169200009</cbc:Telefax>
 									<cbc:ElectronicMail>sapi.bgi@cea.fr</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -128,6 +127,9 @@
 			<cbc:Description languageID="FRA">CEA Cadarache — 13115 Saint-Paul-lez-Durance.</cbc:Description>
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -234,8 +236,6 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
-					<cbc:Description languageID="FRA">
-					</cbc:Description>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -366,7 +366,9 @@ Les métiers concernés pour ces missions sont les VRD, le génie civil (gros œ
 			<cac:RealizedLocation>
 				<cbc:Description languageID="FRA">United Kingdom</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

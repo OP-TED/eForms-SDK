@@ -176,7 +176,9 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">Various locations throughout SCOTLAND.</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKM</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -275,7 +277,9 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="ENG">Various locations throughout SCOTLAND.</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKM</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>	
 				</cac:Address>
 			</cac:RealizedLocation>
 		</cac:ProcurementProject>

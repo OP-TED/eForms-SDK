@@ -338,6 +338,9 @@
 			<cbc:Description languageID="FRA">CEA Cadarache — 13115 Saint-Paul-lez-Durance.</cbc:Description>
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -477,6 +480,9 @@
 				<cbc:Description languageID="FRA">CEA Cadarache — 13115 Saint-Paul-lez-Durance.</cbc:Description>
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 		</cac:ProcurementProject>

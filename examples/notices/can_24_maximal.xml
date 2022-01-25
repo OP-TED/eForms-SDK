@@ -128,12 +128,6 @@
 								<!--OPT-320-->
 								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							</efac:LotTender>
-							<efac:FrameworkAgreementValues>
-								<!--BT-660-->
-								<cbc:EstimatedMaximumValueAmount currencyID="EUR">9999999.99</cbc:EstimatedMaximumValueAmount>
-								<!--BT-709-->
-								<cbc:MaximumValueAmount currencyID="EUR">9999999.99</cbc:MaximumValueAmount>
-							</efac:FrameworkAgreementValues>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--BT-760-->
 								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
@@ -397,7 +391,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -437,7 +431,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -467,7 +461,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -500,7 +494,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -538,7 +532,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -584,7 +578,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -632,7 +626,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -678,7 +672,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -724,7 +718,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -772,6 +766,9 @@
 						<efac:Organization>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+							</efac:UltimateBeneficialOwner>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.gyro-soft.com</cbc:WebsiteURI>
@@ -806,14 +803,6 @@
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
 									<cbc:CompanyID schemeID="002">927384203</cbc:CompanyID>
-									<cac:ShareholderParty>
-										<cac:Party>
-											<cac:Person>
-												<!--BT-706-->
-												<cbc:NationalityID schemeName="country">BEL</cbc:NationalityID>
-											</cac:Person>
-										</cac:Party>
-									</cac:ShareholderParty>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -830,6 +819,9 @@
 						<efac:Organization>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>true</efbc:NaturalPersonIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID schemeName="ubo">UBO-0002</cbc:ID>
+							</efac:UltimateBeneficialOwner>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.the-best-app.com</cbc:WebsiteURI>
@@ -863,14 +855,6 @@
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
 									<cbc:CompanyID schemeID="002">928374653</cbc:CompanyID>
-									<cac:ShareholderParty>
-										<cac:Party>
-											<cac:Person>
-												<!--BT-706-->
-												<cbc:NationalityID schemeName="country">DEU</cbc:NationalityID>
-											</cac:Person>
-										</cac:Party>
-									</cac:ShareholderParty>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -887,6 +871,9 @@
 						<efac:Organization>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID schemeName="ubo">UBO-0003</cbc:ID>
+							</efac:UltimateBeneficialOwner>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.ayuda.com</cbc:WebsiteURI>
@@ -920,14 +907,6 @@
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
 									<cbc:CompanyID schemeID="002">34578345</cbc:CompanyID>
-									<cac:ShareholderParty>
-										<cac:Party>
-											<cac:Person>
-												<!--BT-706-->
-												<cbc:NationalityID schemeName="country">SPA</cbc:NationalityID>
-											</cac:Person>
-										</cac:Party>
-									</cac:ShareholderParty>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -944,6 +923,9 @@
 						<efac:Organization>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID schemeName="ubo">UBO-0004</cbc:ID>
+							</efac:UltimateBeneficialOwner>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.competitor.com</cbc:WebsiteURI>
@@ -977,14 +959,6 @@
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
 									<cbc:CompanyID schemeID="002">1223456789</cbc:CompanyID>
-									<cac:ShareholderParty>
-										<cac:Party>
-											<cac:Person>
-												<!--BT-706-->
-												<cbc:NationalityID schemeName="country">FRA</cbc:NationalityID>
-											</cac:Person>
-										</cac:Party>
-									</cac:ShareholderParty>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -998,6 +972,34 @@
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
+					<efac:UltimateBeneficialOwner>
+						<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+						<!--BT-706-->
+						<efac:Nationality>
+							<cbc:NationalityID>BEL</cbc:NationalityID>
+						</efac:Nationality>
+					</efac:UltimateBeneficialOwner>
+					<efac:UltimateBeneficialOwner>
+						<cbc:ID schemeName="ubo">UBO-0002</cbc:ID>
+						<!--BT-706-->
+						<efac:Nationality>
+							<cbc:NationalityID>DEU</cbc:NationalityID>
+						</efac:Nationality>
+					</efac:UltimateBeneficialOwner>
+					<efac:UltimateBeneficialOwner>
+						<cbc:ID schemeName="ubo">UBO-0003</cbc:ID>
+						<!--BT-706-->
+						<efac:Nationality>
+							<cbc:NationalityID>ESP</cbc:NationalityID>
+						</efac:Nationality>
+					</efac:UltimateBeneficialOwner>
+					<efac:UltimateBeneficialOwner>
+						<cbc:ID schemeName="ubo">UBO-0004</cbc:ID>
+						<!--BT-706-->
+						<efac:Nationality>
+							<cbc:NationalityID>FRA</cbc:NationalityID>
+						</efac:Nationality>
+					</efac:UltimateBeneficialOwner>
 					</efac:Organizations>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
@@ -1063,14 +1065,6 @@
 			<!--BT-1351-->
 			<cbc:ProcessReason languageID="ENG">Procedure Accelerated Justification ---</cbc:ProcessReason>
 		</cac:ProcessJustification>
-		<cac:ProcessJustification>
-			<!--BT-136-->
-			<cbc:ProcessReasonCode listName="direct-award-justification">artistic</cbc:ProcessReasonCode>
-			<!--BT-135-->
-			<cbc:ProcessReason languageID="ENG">Direct Award Justification ---</cbc:ProcessReason>
-			<!--BT-1252-->
-			<cbc:Description>b52e9333-b57e-4be4-9c6f-be74b819fd8b</cbc:Description>
-		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<!--BT-22-->
@@ -1102,6 +1096,7 @@
 			<cbc:ItemClassificationCode listName="cpv">79720000</cbc:ItemClassificationCode>
 		</cac:AdditionalCommodityClassification>
 		<cac:RealizedLocation>
+			<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 			<cac:Address>
 				<!--BT-5101-->
 				<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -1111,7 +1106,7 @@
 				<!--BT-5121-->
 				<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 				<!--BT-5071-->
-				<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 				<cac:Country>
 					<!--BT-5141-->
 					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -1119,6 +1114,7 @@
 			</cac:Address>
 		</cac:RealizedLocation>
 		<cac:RealizedLocation>
+			<!-- This location represents a large area without a specific address, in this case "Anywhere in the European Economic Area" -->
 			<!--BT-728-->
 			<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 			<cac:Address>
@@ -1164,12 +1160,10 @@
 		<cac:TenderingProcess>
 			<cac:FrameworkAgreement>
 				<!--BT-157-->
-				<cbc:EstimatedMaximumValueAmount  currencyID="EUR">10000</cbc:EstimatedMaximumValueAmount>
+				<cbc:EstimatedMaximumValueAmount currencyID="EUR">10000</cbc:EstimatedMaximumValueAmount>
 				<cac:SubsequentProcessTenderRequirement>
 					<!--OPT-090-->
 					<cbc:Name>buyer-categories</cbc:Name>
-					<!--BT-111-->
-					<cbc:Description languageID="ENG">Framework Buyer Categories ---</cbc:Description>
 				</cac:SubsequentProcessTenderRequirement>
 			</cac:FrameworkAgreement>
 		</cac:TenderingProcess>
@@ -1299,8 +1293,6 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
-				<!--BT-125-->
-				<cbc:VersionID>03</cbc:VersionID>
 			</cac:NoticeDocumentReference>
 			<cac:AuctionTerms>
 				<!--BT-767-->
@@ -1376,6 +1368,7 @@
 				<cbc:ItemClassificationCode listName="cpv">75121000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 				<cac:Address>
 					<!--BT-5101-->
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -1385,7 +1378,7 @@
 					<!--BT-5121-->
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 					<!--BT-5071-->
-					<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<!--BT-5141-->
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -1393,11 +1386,16 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:RealizedLocation>
+				<!-- This location represents a large area without a specific address, in this case "Anywhere in the given country" -->
 				<!--BT-728-->
 				<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 				<cac:Address>
 					<!--BT-727-->
-					<cbc:Region>anyw-eea</cbc:Region>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<!--BT-5141-->
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
@@ -1405,8 +1403,6 @@
 				<cbc:StartDate>2023-01-01+01:00</cbc:StartDate>
 				<!--BT-537-->
 				<cbc:EndDate>2023-05-23+01:00</cbc:EndDate>
-				<!--BT-36-->
-				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<!--BT-54-->

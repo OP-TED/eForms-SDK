@@ -36,7 +36,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -76,7 +76,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -106,7 +106,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -139,7 +139,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -177,7 +177,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -223,7 +223,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -271,7 +271,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -317,7 +317,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -363,7 +363,7 @@
 									<!--BT-512-->
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -577,6 +577,7 @@
 			<cbc:ItemClassificationCode listName="cpv">79720000</cbc:ItemClassificationCode>
 		</cac:AdditionalCommodityClassification>
 		<cac:RealizedLocation>
+			<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 			<cac:Address>
 				<!--BT-5101-->
 				<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -586,7 +587,7 @@
 				<!--BT-5121-->
 				<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 				<!--BT-5071-->
-				<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 				<cac:Country>
 					<!--BT-5141-->
 					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -594,6 +595,7 @@
 			</cac:Address>
 		</cac:RealizedLocation>
 		<cac:RealizedLocation>
+			<!-- This location represents a large area without a specific address, in this case "Anywhere in the European Economic Area" -->
 			<!--BT-728-->
 			<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 			<cac:Address>
@@ -643,8 +645,6 @@
 				<cac:SubsequentProcessTenderRequirement>
 					<!--OPT-090-->
 					<cbc:Name>buyer-categories</cbc:Name>
-					<!--BT-111-->
-					<cbc:Description languageID="ENG">Framework Buyer Categories ---</cbc:Description>
 				</cac:SubsequentProcessTenderRequirement>
 			</cac:FrameworkAgreement>
 		</cac:TenderingProcess>
@@ -705,7 +705,7 @@
 			<!--BT-60-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!--BT-79-->
-			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
 			<!--BT-94-->
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
 			<!--BT-95-->
@@ -722,6 +722,12 @@
 			</cac:RequiredFinancialGuarantee>
 			<cac:FiscalLegislationDocumentReference>
 				<cbc:ID>FiscalDocID1</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<!--OPT-110-->
+						<cbc:URI>https://fiscal-legislation.example.com</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<!--OPT-301-->
@@ -731,6 +737,12 @@
 			</cac:FiscalLegislationDocumentReference>
 			<cac:EnvironmentalLegislationDocumentReference>
 				<cbc:ID>EnvDocID1</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<!--OPT-120-->
+						<cbc:URI>https://environment-legislation.example.com</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<!--OPT-301-->
@@ -740,6 +752,12 @@
 			</cac:EnvironmentalLegislationDocumentReference>
 			<cac:EmploymentLegislationDocumentReference>
 				<cbc:ID>EmplDocID1</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<!--OPT-130-->
+						<cbc:URI>https://employment-legislation.example.com</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<!--OPT-301-->
@@ -904,10 +922,6 @@
 					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
-			<cac:TenderValidityPeriod>
-				<!--BT-98-->
-				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
-			</cac:TenderValidityPeriod>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<!--BT-99-->
@@ -998,8 +1012,6 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
-				<!--BT-125-->
-				<cbc:VersionID>03</cbc:VersionID>
 			</cac:NoticeDocumentReference>
 			<cac:ProcessJustification>
 				<!--BT-19-->
@@ -1016,22 +1028,15 @@
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
 			<cac:OpenTenderEvent>
-				<!--BT-132-->
-				<cbc:OccurrenceDate>2023-05-23+01:00</cbc:OccurrenceDate>
-				<cbc:OccurrenceTime>20:59:32+01:00</cbc:OccurrenceTime>
 				<!--BT-134-->
 				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-				<!--BT-133-->
-				<cac:OccurenceLocation>
-					<cbc:Description languageID="ENG">URL or Address ---</cbc:Description>
-				</cac:OccurenceLocation>
 			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<!--BT-767-->
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<!--BT-122-->
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
-				<!--BT-132-->
+				<!--BT-123-->
 				<cbc:AuctionURI>https://electronic-auction.com</cbc:AuctionURI>
 			</cac:AuctionTerms>
 			<cac:FrameworkAgreement>
@@ -1110,6 +1115,7 @@
 				<cbc:ItemClassificationCode listName="cpv">75121000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 				<cac:Address>
 					<!--BT-5101-->
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -1119,7 +1125,7 @@
 					<!--BT-5121-->
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 					<!--BT-5071-->
-					<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<!--BT-5141-->
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -1127,11 +1133,16 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:RealizedLocation>
+				<!-- This location represents a large area without a specific address, in this case "Anywhere in the given country" -->
 				<!--BT-728-->
 				<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 				<cac:Address>
 					<!--BT-727-->
-					<cbc:Region>anyw-eea</cbc:Region>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<!--BT-5141-->
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
@@ -1139,8 +1150,6 @@
 				<cbc:StartDate>2023-01-01+01:00</cbc:StartDate>
 				<!--BT-537-->
 				<cbc:EndDate>2023-05-23+01:00</cbc:EndDate>
-				<!--BT-36-->
-				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<!--BT-54-->
@@ -1196,7 +1205,7 @@
 			<!--BT-60-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!--BT-79-->
-			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
 			<!--BT-94-->
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
 			<!--BT-95-->
@@ -1213,6 +1222,12 @@
 			</cac:RequiredFinancialGuarantee>
 			<cac:FiscalLegislationDocumentReference>
 				<cbc:ID>FiscalDocID1</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<!--OPT-110-->
+						<cbc:URI>https://fiscal-legislation.example.com</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<!--OPT-301-->
@@ -1222,6 +1237,12 @@
 			</cac:FiscalLegislationDocumentReference>
 			<cac:EnvironmentalLegislationDocumentReference>
 				<cbc:ID>EnvDocID1</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<!--OPT-120-->
+						<cbc:URI>https://environment-legislation.example.com</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<!--OPT-301-->
@@ -1231,6 +1252,12 @@
 			</cac:EnvironmentalLegislationDocumentReference>
 			<cac:EmploymentLegislationDocumentReference>
 				<cbc:ID>EmplDocID1</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<!--OPT-130-->
+						<cbc:URI>https://employment-legislation.example.com</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<!--OPT-301-->
@@ -1395,10 +1422,6 @@
 					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
-			<cac:TenderValidityPeriod>
-				<!--BT-98-->
-				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
-			</cac:TenderValidityPeriod>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<!--BT-99-->
@@ -1489,8 +1512,6 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
-				<!--BT-125-->
-				<cbc:VersionID>03</cbc:VersionID>
 			</cac:NoticeDocumentReference>
 			<cac:ProcessJustification>
 				<!--BT-19-->
@@ -1507,22 +1528,15 @@
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
 			<cac:OpenTenderEvent>
-				<!--BT-132-->
-				<cbc:OccurrenceDate>2023-05-23+01:00</cbc:OccurrenceDate>
-				<cbc:OccurrenceTime>20:59:32+01:00</cbc:OccurrenceTime>
 				<!--BT-134-->
 				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-				<!--BT-133-->
-				<cac:OccurenceLocation>
-					<cbc:Description languageID="ENG">URL or Address ---</cbc:Description>
-				</cac:OccurenceLocation>
 			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<!--BT-767-->
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<!--BT-122-->
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
-				<!--BT-132-->
+				<!--BT-123-->
 				<cbc:AuctionURI>https://electronic-auction.com</cbc:AuctionURI>
 			</cac:AuctionTerms>
 			<cac:FrameworkAgreement>
@@ -1601,6 +1615,7 @@
 				<cbc:ItemClassificationCode listName="cpv">75121000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">The main location is ...</cbc:Description>
 				<cac:Address>
 					<!--BT-5101-->
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
@@ -1610,7 +1625,7 @@
 					<!--BT-5121-->
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
 					<!--BT-5071-->
-					<cbc:CountrySubentityCode listName="nuts">UKI6</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<!--BT-5141-->
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
@@ -1618,11 +1633,16 @@
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:RealizedLocation>
+				<!-- This location represents a large area without a specific address, in this case "Anywhere in the given country" -->
 				<!--BT-728-->
 				<cbc:Description languageID="ENG">Additional information ---</cbc:Description>
 				<cac:Address>
 					<!--BT-727-->
-					<cbc:Region>anyw-eea</cbc:Region>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<!--BT-5141-->
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
@@ -1630,8 +1650,6 @@
 				<cbc:StartDate>2023-01-01+01:00</cbc:StartDate>
 				<!--BT-537-->
 				<cbc:EndDate>2023-05-23+02:00</cbc:EndDate>
-				<!--BT-36-->
-				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<!--BT-54-->

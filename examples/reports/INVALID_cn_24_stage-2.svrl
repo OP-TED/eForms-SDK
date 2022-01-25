@@ -82,6 +82,7 @@
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
    <svrl:fired-rule context="/*[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '16']"/>
@@ -92,7 +93,7 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '16']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(descendant::cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution'][$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess[$noticeSubType = '16']"/>
@@ -199,14 +200,14 @@
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode"
                        role="ERROR"
-                       test="normalize-space(.) = ('airport', 'defence', 'econ-aff', 'education', 'electricity', 'env-pro', 'gas-heat', 'gas-oil', 'gen-pub', 'hc-am', 'health', 'port', 'post', 'pub-os', 'rail', 'rcr', 'soc-pro', 'solid-fuel', 'urttb', 'water')">
-      <svrl:text>The BT-10-Procedure-Buyer Activity Authority must contain one of the values of the code list main-activity.</svrl:text>
+                       test="normalize-space(.) = ('defence', 'econ-aff', 'education', 'env-pro', 'gen-pub', 'hc-am', 'health', 'pub-os', 'rcr', 'soc-pro')">
+      <svrl:text>The BT-10-Procedure-Buyer Activity Authority must contain one of the values of the code list authority-activity.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"/>
    <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"
                        role="ERROR"
                        test="normalize-space(.) = ('serv-prov', 'ted-esen')">
-      <svrl:text>The OPT-030-Procedure-SProvider Provided Service Type must contain one of the values of the code list organisation-role.</svrl:text>
+      <svrl:text>The OPT-030-Procedure-SProvider Provided Service Type must contain one of the values of the code list organisation-role-service.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"/>
    <svrl:failed-assert location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"
@@ -247,8 +248,8 @@
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:ProcurementTypeCode"/>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProject/cbc:ProcurementTypeCode"
                        role="ERROR"
-                       test="normalize-space(.) = ('combined', 'services', 'supplies', 'works')">
-      <svrl:text>The BT-23-Procedure Main Nature must contain one of the values of the code list contract-nature.</svrl:text>
+                       test="normalize-space(.) = ('services', 'supplies', 'works')">
+      <svrl:text>The BT-23-Procedure Main Nature must contain one of the values of the code list eforms-contract-nature.</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID"/>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cbc:ID"
@@ -280,7 +281,7 @@
                        test="normalize-space(.) = ('non-restricted-document', 'restricted-document')">
       <svrl:text>The BT-14-Lot Documents Restricted must contain one of the values of the code list document-distribution.</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(descendant::cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode"
                        role="ERROR"
                        test="normalize-space(.) = ('none', 'res-pub-ser', 'res-ws')">
@@ -302,7 +303,7 @@
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:ContractExecutionRequirement[3]/cbc:ExecutionRequirementCode"
                        role="ERROR"
                        test="normalize-space(.) = ('allowed', 'not-allowed', 'required')">
-      <svrl:text>The BT-764-Lot Submission Electronic Catalog must contain one of the values of the code list permission.</svrl:text>
+      <svrl:text>The BT-764-Lot Submission Electronic Catalog must contain one of the values of the code list ecatalog-submission</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID"/>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID"
@@ -367,13 +368,18 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']"/>
    <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:ProcurementTypeCode"
                        role="ERROR"
-                       test="normalize-space(.) = ('combined', 'services', 'supplies', 'works')">
+                       test="normalize-space(.) = ('services', 'supplies', 'works')">
       <svrl:text>The BT-23-Lot Main Nature must contain one of the values of the code list contract-nature.</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')][$noticeSubType = '16']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:CallForTendersDocumentReference"
+                       role="ERROR"
+                       test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text())!='restricted-document')">
+      <svrl:text>The BT-15 Documents URL is mandatory at Lot level for a notice of type Contract notice – general directive, standard regime if BT-14-Lot is not restricted.</svrl:text>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
    <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>

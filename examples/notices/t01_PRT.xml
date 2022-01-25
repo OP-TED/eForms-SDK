@@ -89,7 +89,7 @@
 			<cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
-			<cbc:ActivityTypeCode listName="authority-activity">urttb</cbc:ActivityTypeCode>
+			<cbc:ActivityTypeCode listName="authority-activity">rcr</cbc:ActivityTypeCode>
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>

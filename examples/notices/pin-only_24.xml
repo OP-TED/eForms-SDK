@@ -106,7 +106,6 @@
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-legal-type">eu-ins-bod-ag</cbc:PartyTypeCode>
-			<cbc:PartyType>PaTC1234blabla</cbc:PartyType>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
@@ -145,7 +144,7 @@
 				<cbc:Department>RealizedLocDept1234</cbc:Department>
 				<cbc:CityName>RealizedLocCity1234</cbc:CityName>
 				<cbc:PostalZone>RealizedLocPostalZone1234</cbc:PostalZone>
-				<cbc:CountrySubentityCode listName="nuts">DE12</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">DE123</cbc:CountrySubentityCode>
 				<cac:AddressLine>
 					<cbc:Line>RealizedLocAddressLine1234</cbc:Line>
 				</cac:AddressLine>
@@ -165,18 +164,18 @@
 		<cac:TenderingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:AppealTerms>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -205,7 +204,7 @@
 					<cbc:Department>RealizedLocDept1234</cbc:Department>
 					<cbc:CityName>RealizedLocCity1234</cbc:CityName>
 					<cbc:PostalZone>RealizedLocPostalZone1234</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">DE12</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">DE123</cbc:CountrySubentityCode>
 					<cac:AddressLine>
 						<cbc:Line>RealizedLocAddressLine1234</cbc:Line>
 					</cac:AddressLine>

@@ -144,8 +144,6 @@
 		<!--BT-11 Buyer Legal Type (see http://publications.europa.eu/resource/authority/buyer-legal-type)-->
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-la</cbc:PartyTypeCode>
-			<!--if other than Buyer Legal type codes -->
-			<cbc:PartyType languageID="FRA">OPH</cbc:PartyType>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<!--BT-10 Activity Authority (see http://publications.europa.eu/resource/authority/main-activity) -->
@@ -266,13 +264,11 @@
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -312,8 +308,6 @@
 				<cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
-				<!-- BT-120 No Negotiation Necessary -->
-				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
 				<!--Award Criteria (BT-539, BT-540, BT-541, BT-543, BT-733, BT-734, BT-5421, BT-5422, BT-5423) -->
 				<cac:AwardingCriterion>
 					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
@@ -355,14 +349,14 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
 				<!--BT-509 Organization eDelivery Gateway or BT-18 Submission URL-->
 				<cbc:EndpointID>https://www.marches-publics.info/accueil.htm</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderValidityPeriod>
@@ -412,11 +406,6 @@
 				<cbc:EndDate>2019-06-24Z</cbc:EndDate>
 				<cbc:EndTime>16:00:00Z</cbc:EndTime>
 			</cac:TenderSubmissionDeadlinePeriod>
-			<cac:ParticipationRequestReceptionPeriod>
-				<!-- BT-1311 Deadline Receipt Requests -->
-				<cbc:EndDate>2019-06-24Z</cbc:EndDate>
-				<cbc:EndTime>16:00:00Z</cbc:EndTime>
-			</cac:ParticipationRequestReceptionPeriod>
 			<cac:OpenTenderEvent>
 				<!-- BT-132 Public Opening Date -->
 				<cbc:OccurrenceDate>2019-06-25Z</cbc:OccurrenceDate>
@@ -495,13 +484,11 @@
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -541,8 +528,6 @@
 				<cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
-				<!-- BT-120 No Negotiation Necessary -->
-				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
 				<!-- Award Criteria (BT-539, BT-540, BT-541, BT-543, BT-733, BT-734, BT-5421, BT-5422, BT-5423) -->
 				<cac:AwardingCriterion>
 					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
@@ -584,14 +569,14 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
 				<!--BT-509 Organization eDelivery Gateway or BT-18 Submission URL-->
 				<cbc:EndpointID>https://www.marches-publics.info/accueil.htm</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderValidityPeriod>
@@ -642,11 +627,6 @@
 				<cbc:EndDate>2019-06-24Z</cbc:EndDate>
 				<cbc:EndTime>16:00:00Z</cbc:EndTime>
 			</cac:TenderSubmissionDeadlinePeriod>
-			<cac:ParticipationRequestReceptionPeriod>
-				<!-- BT-1311 Deadline Receipt Requests -->
-				<cbc:EndDate>2019-06-24Z</cbc:EndDate>
-				<cbc:EndTime>16:00:00Z</cbc:EndTime>
-			</cac:ParticipationRequestReceptionPeriod>
 			<cac:OpenTenderEvent>
 				<!-- BT-132 Public Opening Date -->
 				<cbc:OccurrenceDate>2019-06-25Z</cbc:OccurrenceDate>

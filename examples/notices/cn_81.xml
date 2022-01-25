@@ -23,7 +23,6 @@
 									<cbc:StreetName>Land Equipment, Special Projects SCM (SPSCM)</cbc:StreetName>
 									<cbc:CityName>Bristol</cbc:CityName>
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -75,7 +74,7 @@
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
-			<cbc:PartyType>Ministry of Defence</cbc:PartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="authority-activity">defence</cbc:ActivityTypeCode>
@@ -119,7 +118,9 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">United Kingdom</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -244,7 +245,9 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="ENG">United Kingdom</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

@@ -22,7 +22,7 @@
 									<cbc:Name languageID="ENG">HM Land Registry</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
-									<cbc:StreetName> 1 Bedford Park</cbc:StreetName>
+									<cbc:StreetName>1 Bedford Park</cbc:StreetName>
 									<cbc:Department>Trafalgar House</cbc:Department>
 									<cbc:CityName>Croydon</cbc:CityName>
 									<cbc:PostalZone>CR0 2AQ</cbc:PostalZone>
@@ -35,9 +35,9 @@
 									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
-									<cbc:Name>Tim Smith</cbc:Name>
+									<cbc:Name>Helpdesk</cbc:Name>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>
-									<cbc:ElectronicMail>tim.smith@landregistry.gov.uk</cbc:ElectronicMail>
+									<cbc:ElectronicMail>helpdesk@landregistry.gov.uk</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
@@ -127,11 +127,9 @@
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
-			<cbc:PartyType>Ministry or any other national or federal authority, including their regional or local subdivisions</cbc:PartyType>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
-			<cbc:ActivityType>General public services</cbc:ActivityType>
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>
@@ -226,7 +224,9 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">Her Majesty's Land Registry, UK-wide</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -294,18 +294,15 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://hmlandregistry.force.com</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
-			<cac:TenderValidityPeriod>
-				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
-			</cac:TenderValidityPeriod>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="ENG">There is no right of appeal in this procurement. If you have a complaint or seek to challenge the outcome, please follow the guidance on procedure contained in the previous section.</cbc:Description>
@@ -369,7 +366,9 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="ENG">Her Majesty's Land Registry, UK-wide</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>

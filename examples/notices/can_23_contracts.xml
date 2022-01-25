@@ -88,12 +88,12 @@
 							<cbc:Title languageID="ENG">Concession Contract for the Supply of Enforcement Agency Services (Call-off from the YPO Enforcement Services DPS — 774)</cbc:Title>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0003</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
@@ -109,12 +109,12 @@
 							<cbc:Title languageID="ENG">Concession Contract for the Supply of Enforcement Agency Services (Call-off from the YPO Enforcement Services DPS — 774)</cbc:Title>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organisation">ORG-0004</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
@@ -154,7 +154,7 @@
 									<cbc:StreetName>Town Hall, Wood Street</cbc:StreetName>
 									<cbc:CityName>Wakefield</cbc:CityName>
 									<cbc:PostalZone>WF1 2HQ</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKE</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -223,7 +223,6 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Birkenhead</cbc:CityName>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -248,7 +247,6 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Bolton</cbc:CityName>
-									<cbc:CountrySubentityCode listName="nuts">UK</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -322,7 +320,10 @@
 		</cac:AdditionalCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKE4</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
@@ -354,7 +355,7 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organisation">ORG-0001</cbc:ID>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
@@ -398,7 +399,10 @@
 			</cac:AdditionalCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKE4</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">UKE44</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 		</cac:ProcurementProject>
