@@ -1,3 +1,21 @@
+# SDK 0.4.2 Release Notes
+
+Because of specific requirements of our internal projects, we needed to create a version of the SDK with all the additions and improvements that are included in version 0.5.0, but without the breaking changes in the structure of the fields.json file. So we are publishing this version as 0.4.2.
+
+Please note that we will not maintain version 0.4.2 any further, and we encourage you to use version 0.5.0 (or later) of the SDK.
+
+Version 0.4.2 includes the following changes:
+
+* The SDK now includes codelists that are used to restrict the possible values of some fields in eForms notices. This includes also tailored codelists, which represent a subset of items from another codelist.
+* The SDK now includes structured information on the various specific types of notices (or subtypes) that are defined in the eForms regulation.
+* Information on the physical structure of XML notices is now available in the fields.json file, along with the location of each field in that structure.
+* New schematron rules have been added for information that is allowed or mandatory only under certain conditions.
+* Various schematron rules have been corrected.
+* New notice examples were added, and the validation reports were regenerated.
+* The identifier of a field has been corrected to `OPT-050-Lot`, to fix the capitalisation.
+* Translations for several items in codelists have been updated.
+
+
 # SDK 0.4.1 Release Notes
 
 The following issues were corrected in version 0.4.1:
