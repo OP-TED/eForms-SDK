@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Danish. File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09</comment>
+<comment>field in Danish. File generated from metadata database version 0.3.0 created on the 2022-01-24T16:11:02</comment>
 <entry key="field|name|BT-01(c)-Procedure">Retsforhandlingernes retsgrundlag</entry>
 <entry key="field|name|BT-01(d)-Procedure">Retsforhandlingernes retsgrundlag</entry>
 <entry key="field|name|BT-01-notice">Retsforhandlingernes retsgrundlag</entry>
@@ -80,6 +80,7 @@
 <entry key="field|name|BT-165-Organization-Company">Den erhvervsdrivendes størrelse</entry>
 <entry key="field|name|BT-17-Lot">Elektronisk indsendelse</entry>
 <entry key="field|name|BT-171-Tender">Rangorden på listen over vindere</entry>
+<entry key="field|name|BT-18-Lot">Adresse til indsendelse (URL)</entry>
 <entry key="field|name|BT-19-Lot">Begrundelse for, hvorfor elektronisk indsendelse ikke er mulig</entry>
 <entry key="field|name|BT-191-Tender">Produktets eller tjenesteydelsens oprindelsesland</entry>
 <entry key="field|name|BT-193-Tender">Tilbuddet er et alternativt tilbud.</entry>

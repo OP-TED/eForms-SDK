@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Bulgarian. File generated from metadata database version 0.2.11 created on the 2021-10-21T16:07:09</comment>
+<comment>field in Bulgarian. File generated from metadata database version 0.3.0 created on the 2022-01-24T16:11:02</comment>
 <entry key="field|name|BT-01(c)-Procedure">Правно основание на процедурата</entry>
 <entry key="field|name|BT-01(d)-Procedure">Правно основание на процедурата</entry>
 <entry key="field|name|BT-01-notice">Правно основание на процедурата</entry>
@@ -80,6 +80,7 @@
 <entry key="field|name|BT-165-Organization-Company">Размер на икономическия оператор</entry>
 <entry key="field|name|BT-17-Lot">Електронно подаване</entry>
 <entry key="field|name|BT-171-Tender">Класиране в списъка на победителите</entry>
+<entry key="field|name|BT-18-Lot">Адрес за подаване (URL)</entry>
 <entry key="field|name|BT-19-Lot">Обосновка защо електронно подаване не е възможно</entry>
 <entry key="field|name|BT-191-Tender">Държава на произход на стоката или услугата</entry>
 <entry key="field|name|BT-193-Tender">Офертата е вариант.</entry>
