@@ -12,6 +12,7 @@ It is composed of the following:
 The adopted approach is to keep the whole set of UBL elements but only support the use of a subset. It provides the advantage of having the rules outside of the schema. Adding extra fields for which a UBL element already exists will not require the definition of a new schema.
 - `schematrons`: This folder contains Schematron rules which are used to check the validity of notices as per the eForms regulation. Any kind of rule or constraint is implemented in Schematron.
 - `examples`: This folder contains some notice examples together with their validation report in SVRL.
+- `notice-types`: This folder contains a definition of each type of notice, in JSON.
 - `fields`: This folder contains information on the fields that compose an eForms notice.
 - `translations`: This folder contains translations of various labels and short texts used in eForms notices.
 
