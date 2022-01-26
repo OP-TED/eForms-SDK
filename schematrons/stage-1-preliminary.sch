@@ -11,7 +11,7 @@
 		<assert role="ERROR" test="@schemeName">The mandatory attribute @schemeName is missing.</assert>
 	</rule>
 	<rule context="cac:ProcurementProjectLot/cbc:ID/@schemeName">
-		<assert role="ERROR" test="contains('&#x7F;Part&#x7F;Lot&#x7F;LotsGroup&#x7F;', concat('&#x7F;',.,'&#x7F;'))">The specified scheme name for the lot identifier is not valid.</assert>
+		<assert role="ERROR" test="normalize-space(.) = ('Part', 'Lot', 'LotsGroup')">The specified scheme name for the lot identifier is not valid.</assert>
 	</rule>
 	<rule context="cbc:ActivityTypeCode">
 		<assert role="ERROR" test="@listName">The mandatory attribute @listName is missing.</assert>
