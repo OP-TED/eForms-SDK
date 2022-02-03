@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-0.5.0",
   "metadataDatabase" : {
-    "version" : "0.3.30",
-    "createdOn" : "2022-01-31T17:14:12"
+    "version" : "0.3.52",
+    "createdOn" : "2022-02-03T16:52:39"
   },
   "fields" : [ {
     "id" : "BT-01(c)-Procedure",
@@ -1183,7 +1183,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "7", "9", "19" ],
+        "noticeTypes" : [ "7", "9", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
         "condition" : "!(!(field('BT-1311(d)-Lot')>''))",
         "value" : true,
         "severity" : "ERROR"
@@ -1194,6 +1194,11 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "8" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
+        "condition" : "field('BT-105-Procedure')=='open' or (field('BT-105-Procedure')=='oth-mult' and !(field('BT-1311(d)-Lot')>'')) or (field('BT-105-Procedure')=='oth-single' and !(field('BT-1311(d)-Lot')>''))",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -1263,8 +1268,18 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "7", "9", "19" ],
+        "noticeTypes" : [ "7", "9", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
         "condition" : "!(!(field('BT-131(d)-Lot')>''))",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
+        "condition" : "(field('BT-105-Procedure')=='oth-mult' and !(field('BT-131(d)-Lot')>'')) or (field('BT-105-Procedure')=='oth-single' and !(field('BT-131(d)-Lot')>''))",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -1491,6 +1506,11 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "32", "35" ],
+        "condition" : "field('BT-105-Procedure')=='neg-wo-call'",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10736,6 +10756,16 @@
         "severity" : "ERROR"
       } ]
     },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "29", "30", "31", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02" ],
+        "condition" : "!(field('BT-727-Lot')>'') and {'ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'}.contains(field('BT-5141-Lot'))",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
     "codeList" : {
       "value" : {
         "id" : "nuts",
@@ -10770,6 +10800,16 @@
         "severity" : "ERROR"
       } ]
     },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "4", "5", "6" ],
+        "condition" : "!(field('BT-727-Part')>'') and {'ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'}.contains(field('BT-5141-Part'))",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
     "codeList" : {
       "value" : {
         "id" : "nuts",
@@ -10800,6 +10840,16 @@
       }, {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI" ],
         "condition" : "!(!(field('BT-727-Procedure')>'') and field('BT-5141-Procedure')!='')",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "29", "30", "31", "32", "33", "34", "35", "36", "37", "CEI" ],
+        "condition" : "!(field('BT-727-Procedure')>'') and {'ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'}.contains(field('BT-5141-Procedure'))",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -12205,6 +12255,16 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "16" ],
+        "condition" : "{'comp-dial','innovation','neg-w-call'}.contains(field('BT-105-Procedure'))",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
     }
   }, {
     "id" : "BT-531-Lot",
@@ -12681,6 +12741,16 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-543-Lot')==''",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
     }
   }, {
     "id" : "BT-541-LotsGroup",
@@ -12700,6 +12770,16 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-543-LotsGroup')==''",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -12727,6 +12807,16 @@
       }, {
         "noticeTypes" : [ "29", "31", "32" ],
         "condition" : "!(field('BT-541-Lot')!='')",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-541-Lot')!='' and field('BT-5422-Lot')=='' and field('BT-5423-Lot')==''",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -12765,6 +12855,16 @@
         "severity" : "ERROR"
       } ]
     },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-541-LotsGroup')!='' and field('BT-5422-LotsGroup')=='' and field('BT-5423-LotsGroup')==''",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
     "codeList" : {
       "value" : {
         "id" : "number-weight",
@@ -12795,6 +12895,16 @@
       }, {
         "noticeTypes" : [ "29", "31", "32" ],
         "condition" : "!(field('BT-541-Lot')!='')",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-541-Lot')!='' and field('BT-5421-Lot')=='' and field('BT-5423-Lot')==''",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -12833,6 +12943,16 @@
         "severity" : "ERROR"
       } ]
     },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-541-LotsGroup')!='' and field('BT-5421-LotsGroup')=='' and field('BT-5423-LotsGroup')==''",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
     "codeList" : {
       "value" : {
         "id" : "number-fixed",
@@ -12867,6 +12987,16 @@
         "severity" : "ERROR"
       } ]
     },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-541-Lot')!='' and field('BT-5421-Lot')=='' and field('BT-5422-Lot')=''",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
     "codeList" : {
       "value" : {
         "id" : "number-threshold",
@@ -12897,6 +13027,16 @@
       }, {
         "noticeTypes" : [ "29", "31", "32" ],
         "condition" : "!(field('BT-541-LotsGroup')!='')",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-541-LotsGroup')!='' and field('BT-5421-LotsGroup')=='' and field('BT-5422-LotsGroup')==''",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -12952,6 +13092,16 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "31", "32" ],
+        "condition" : "field('BT-541-LotsGroup')!=''",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -15664,6 +15814,16 @@
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
         "condition" : "!(field('BT-747-Lot')!='')",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : true,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
+        "condition" : "field('BT-748-Lot')=='used'",
         "value" : true,
         "severity" : "ERROR"
       } ]
