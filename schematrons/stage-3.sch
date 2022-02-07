@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.30 created on the 2022-01-31T17:14:12.-->
+<!--File generated from metadata database version 0.3.58 created on the 2022-02-04T17:34:14.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<!-- CODE LIST RULES. -->
@@ -838,9 +838,11 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-BT-00015-0103" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-15 Documents URL must not exceed the limit of 400 characters at Lot level.</assert>
+		<assert id="BR-BT-00015-0112" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-15 Documents URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-BT-00015-0104" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-15 Documents URL must not exceed the limit of 400 characters at Part level.</assert>
+		<assert id="BR-BT-00015-0113" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-15 Documents URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:Department">
 		<assert id="BR-BT-00016-0103" role="ERROR" test="matches(normalize-space(.),'^.{1,1000}$')">The content of BT-16 Organisation Part Name must not exceed the limit of 1000 characters at Organization level.</assert>
@@ -928,12 +930,15 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms/cbc:AuctionURI">
 		<assert id="BR-BT-00123-0052" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-123 Electronic Auction URL must not exceed the limit of 400 characters at Lot level.</assert>
+		<assert id="BR-BT-00123-0053" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-123 Electronic Auction URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cbc:AccessToolsURI">
 		<assert id="BR-BT-00124-0101" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-124 Tool Atypical URL must not exceed the limit of 400 characters at Lot level.</assert>
+		<assert id="BR-BT-00124-0103" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-124 Tool Atypical URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cbc:AccessToolsURI">
 		<assert id="BR-BT-00124-0102" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-124 Tool Atypical URL must not exceed the limit of 400 characters at Part level.</assert>
+		<assert id="BR-BT-00124-0104" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-124 Tool Atypical URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-BT-00125-0154" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">The BT-125 Previous Planning Identifier must match the 'ProcedureVersionIDOrPublicationNumber' pattern at Lot level.</assert>
@@ -985,6 +990,7 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:URI">
 		<assert id="BR-BT-00151-0052" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-151 Contract URL must not exceed the limit of 400 characters at Contract level.</assert>
+		<assert id="BR-BT-00151-0053" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-151 Contract URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:ValueDescription">
 		<assert id="BR-BT-00163-0053" role="ERROR" test="matches(normalize-space(.),'^.{1,6000}$')">The content of BT-163 Concession Value Description must not exceed the limit of 6000 characters at Tender level.</assert>
@@ -1351,12 +1357,15 @@
 	</rule>
 	<rule context="/*/cac:BusinessParty/cbc:WebsiteURI">
 		<assert id="BR-BT-00505-0154" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-505 Organisation Internet Address must not exceed the limit of 400 characters at Business level.</assert>
+		<assert id="BR-BT-00505-0244" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-505 Internet Address value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cbc:WebsiteURI">
 		<assert id="BR-BT-00505-0155" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-505 Organisation Internet Address must not exceed the limit of 400 characters at Organization level.</assert>
+		<assert id="BR-BT-00505-0245" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-505 Internet Address value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cbc:WebsiteURI">
 		<assert id="BR-BT-00505-0156" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-505 Organisation Internet Address must not exceed the limit of 400 characters at Organization level.</assert>
+		<assert id="BR-BT-00505-0246" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-505 Internet Address value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail">
 		<assert id="BR-BT-00506-0052" role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}$')">The BT-506 Contact Email Address must match the 'email' pattern at Organization level.</assert>
@@ -1372,12 +1381,15 @@
 	</rule>
 	<rule context="/*/cac:ContractingParty/cbc:BuyerProfileURI">
 		<assert id="BR-BT-00508-0052" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-508 Buyer Profile URL must not exceed the limit of 400 characters at Procedure level.</assert>
+		<assert id="BR-BT-00508-0053" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-508 Buyer Profile URI value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cbc:EndpointID">
 		<assert id="BR-BT-00509-0103" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-509 Organisation eDelivery Gateway must not exceed the limit of 400 characters at Organization level.</assert>
+		<assert id="BR-BT-00509-0105" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-509 eDelivery Gateway value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cbc:EndpointID">
 		<assert id="BR-BT-00509-0104" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-509 Organisation eDelivery Gateway must not exceed the limit of 400 characters at Organization level.</assert>
+		<assert id="BR-BT-00509-0106" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-509 eDelivery Gateway value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:StreetName">
 		<assert id="BR-BT-00510-0613" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-510 Organisation Street must not exceed the limit of 400 characters at Organization level.</assert>
@@ -1471,9 +1483,11 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-BT-00615-0103" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-615 Documents Restricted URL must not exceed the limit of 400 characters at Lot level.</assert>
+		<assert id="BR-BT-00615-0112" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-615 Documents Restricted URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-BT-00615-0104" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of BT-615 Documents Restricted URL must not exceed the limit of 400 characters at Part level.</assert>
+		<assert id="BR-BT-00615-0113" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-615 Documents Restricted URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod/cbc:EndDate">
 		<assert id="BR-BT-00630-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">The BT-630 Deadline Receipt Expressions must match the 'zoned date' pattern at Lot level.</assert>
@@ -1576,6 +1590,9 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Date">
 		<assert id="BR-BT-00787-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">BT-787-Review must match the 'zoned date' pattern at Review level.</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:URI">
+		<assert id="BR-BT-00794-0052" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified BT-794 Review URL value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealDate">
 		<assert id="BR-BT-00797-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">The BT-797-Review Review Request Withdrawn Date must match the 'date' pattern at Notice level.</assert>
@@ -1714,6 +1731,7 @@
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-OPP-00122-0052" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPP-122 URL of the announcement must not exceed the limit of 400 characters at Business level.</assert>
+		<assert id="BR-OPP-00122-0055" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified OPP-122 URL of the announcement value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference/cbc:IssueDate">
 		<assert id="BR-OPP-00123-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">The OPP-123 Date of publication must match the 'date' pattern at Business level.</assert>
@@ -1738,21 +1756,27 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-OPT-00110-0103" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-110 URL to Fiscal Legislation must not exceed the limit of 400 characters at Lot level.</assert>
+		<assert id="BR-OPT-00110-0105" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified OPT-110 URL to Fiscal Legislation value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-OPT-00110-0104" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-110 URL to Fiscal Legislation must not exceed the limit of 400 characters at Part level.</assert>
+		<assert id="BR-OPT-00110-0106" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified OPT-110 URL to Fiscal Legislation value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-OPT-00120-0103" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-120 URL to Environmental Legislation must not exceed the limit of 400 characters at Lot level.</assert>
+		<assert id="BR-OPT-00120-0105" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified OPT-120 URL to Environmental Legislation value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-OPT-00120-0104" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-120 URL to Environmental Legislation must not exceed the limit of 400 characters at Part level.</assert>
+		<assert id="BR-OPT-00120-0106" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified OPT-120 URL to Environmental Legislation value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-OPT-00130-0103" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-130 URL to Employment Legislation must not exceed the limit of 400 characters at Lot level.</assert>
+		<assert id="BR-OPT-00130-0105" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified OPT-130 URL to Employment Legislation value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-OPT-00130-0104" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-130 URL to Employment Legislation must not exceed the limit of 400 characters at Part level.</assert>
+		<assert id="BR-OPT-00130-0106" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">The specified OPT-130 URL to Employment Legislation value must comply the URL pattern</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cbc:FirstName">
 		<assert id="BR-OPT-00160-0052" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">The content of OPT-160 First Name must not exceed the limit of 400 characters at UBO level.</assert>
