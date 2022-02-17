@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.30 created on the 2022-01-31T17:14:12.-->
+<!--File generated from metadata database version 0.3.136 created on the 2022-02-17T16:00:20.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BR-BT-00001-0051" role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">The BT-01 Procedure Legal Basis is not repeatable at Notice level.</assert>
@@ -111,7 +111,7 @@
 		<assert id="BR-BT-00726-0153" role="ERROR" test="count(cbc:SMESuitableIndicator) &lt; 2">The BT-726 Suitable for SMEs is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification">
-		<assert id="BR-BT-00026-0304" role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Lot level.</assert>
+		<assert id="BR-BT-00026-0604" role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension">
 		<assert id="BR-BT-00054-0052/A" role="ERROR" test="count(cbc:OptionsDescription[@languageID = preceding-sibling::cbc:OptionsDescription/@languageID]) = 0">The BT-54 - Options Description can only be present once for each language.</assert>
@@ -126,7 +126,7 @@
 		<assert id="BR-BT-00262-0152" role="ERROR" test="count(cbc:ItemClassificationCode) &lt; 2">The BT-262 Main Classification Code is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode">
-		<assert id="BR-BT-00026-0253" role="ERROR" test="count(@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Lot level.</assert>
+		<assert id="BR-BT-00026-0603" role="ERROR" test="count(@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod">
 		<assert id="BR-BT-00036-0102" role="ERROR" test="count(cbc:DurationMeasure) &lt; 2">The BT-36 Duration Period is not repeatable at Lot level.</assert>
@@ -284,6 +284,9 @@
 		<assert id="BR-BT-00120-0051" role="ERROR" test="count(cbc:NoFurtherNegotiationIndicator) &lt; 2">The BT-120 No Negotiation Necessary is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion">
+		<assert id="BR-BT-00540-0104/A" role="ERROR" test="count(cac:SubordinateAwardingCriterion/cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-540 - Award Criterion Description can only be present once for each language.</assert>
+		<assert id="BR-BT-00540-0104/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:SubordinateAwardingCriterion/cbc:Description/@languageID = $lg) or count(cac:SubordinateAwardingCriterion/cbc:Description) = 0">BT-540 - Award Criterion Description must be indicated in all notice official languages.</assert>
+		<assert id="BR-BT-00540-0104/C" role="ERROR" test="(every $lg in (cac:SubordinateAwardingCriterion/cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:SubordinateAwardingCriterion/cbc:Description) = 0">BT-540 - Award Criterion Description can only be indicated in a language that is part of the notice official languages.</assert>
 		<assert id="BR-BT-00543-0104/A" role="ERROR" test="count(cbc:CalculationExpression[@languageID = preceding-sibling::cbc:CalculationExpression/@languageID]) = 0">The BT-543 - Award Criteria Complicated can only be present once for each language.</assert>
 		<assert id="BR-BT-00543-0104/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:CalculationExpression/@languageID = $lg) or count(cbc:CalculationExpression) = 0">BT-543 - Award Criteria Complicated must be indicated in all notice official languages.</assert>
 		<assert id="BR-BT-00543-0104/C" role="ERROR" test="(every $lg in (cbc:CalculationExpression/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:CalculationExpression) = 0">BT-543 - Award Criteria Complicated can only be indicated in a language that is part of the notice official languages.</assert>
@@ -293,15 +296,11 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion">
 		<assert id="BR-BT-00539-0102" role="ERROR" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &lt; 2">The BT-539 Award Criterion Type is not repeatable at Lot level.</assert>
-		<assert id="BR-BT-00540-0104/A" role="ERROR" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-540 - Award Criterion Description can only be present once for each language.</assert>
-		<assert id="BR-BT-00540-0104/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">BT-540 - Award Criterion Description must be indicated in all notice official languages.</assert>
-		<assert id="BR-BT-00540-0104/C" role="ERROR" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">BT-540 - Award Criterion Description can only be indicated in a language that is part of the notice official languages.</assert>
 		<assert id="BR-BT-00734-0104/A" role="ERROR" test="count(cbc:Name[@languageID = preceding-sibling::cbc:Name/@languageID]) = 0">The BT-734 - Award Criterion Name can only be present once for each language.</assert>
 		<assert id="BR-BT-00734-0104/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Name/@languageID = $lg) or count(cbc:Name) = 0">BT-734 - Award Criterion Name must be indicated in all notice official languages.</assert>
 		<assert id="BR-BT-00734-0104/C" role="ERROR" test="(every $lg in (cbc:Name/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Name) = 0">BT-734 - Award Criterion Name can only be indicated in a language that is part of the notice official languages.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter">
-		<assert id="BR-BT-00541-0102" role="ERROR" test="count(efbc:ParameterNumeric) &lt; 2">The BT-541 Award Criterion Number is not repeatable at Lot level.</assert>
 		<assert id="BR-BT-05421-0102" role="ERROR" test="count(efbc:ParameterCode[@listName='number-weight']) &lt; 2">The BT-5421 Award Criterion Number Weight is not repeatable at Lot level.</assert>
 		<assert id="BR-BT-05422-0102" role="ERROR" test="count(efbc:ParameterCode[@listName='number-fixed']) &lt; 2">The BT-5422 Award Criterion Number Fixed is not repeatable at Lot level.</assert>
 		<assert id="BR-BT-05423-0102" role="ERROR" test="count(efbc:ParameterCode[@listName='number-threshold']) &lt; 2">The BT-5423 Award Criterion Number Threshold is not repeatable at Lot level.</assert>
@@ -457,9 +456,10 @@
 		<assert id="BR-BT-00750-0052/A" role="ERROR" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-750 - Selection Criteria Description can only be present once for each language.</assert>
 		<assert id="BR-BT-00750-0052/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">BT-750 - Selection Criteria Description must be indicated in all notice official languages.</assert>
 		<assert id="BR-BT-00750-0052/C" role="ERROR" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">BT-750 - Selection Criteria Description can only be indicated in a language that is part of the notice official languages.</assert>
-		<assert id="BR-BT-00752-0051" role="ERROR" test="count(efac:CriterionParameter/efbc:ParameterNumeric) &lt; 2">The BT-752 Selection Criteria Second Stage Invite Number is not repeatable at Lot level.</assert>
-		<assert id="BR-BT-07531-0051" role="ERROR" test="count(efac:CriterionParameter/efbc:ParameterCode[@listName='number-weight']) &lt; 2">The BT-7531 Selection Criteria Second Stage Invite Number Weight is not repeatable at Lot level.</assert>
-		<assert id="BR-BT-07532-0051" role="ERROR" test="count(efac:CriterionParameter/efbc:ParameterCode[@listName='number-threshold']) &lt; 2">The BT-7532 Selection Criteria Second Stage Invite Number Threshold is not repeatable at Lot level.</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter">
+		<assert id="BR-BT-07531-0051" role="ERROR" test="count(efbc:ParameterCode[@listName='number-weight']) &lt; 2">The BT-7531 Selection Criteria Second Stage Invite Number Weight is not repeatable at Lot level.</assert>
+		<assert id="BR-BT-07532-0051" role="ERROR" test="count(efbc:ParameterCode[@listName='number-threshold']) &lt; 2">The BT-7532 Selection Criteria Second Stage Invite Number Threshold is not repeatable at Lot level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']">
 		<assert id="BR-BT-00137-0102" role="ERROR" test="count(cbc:ID) &lt; 2">The BT-137 Purpose Lot Identifier is not repeatable at LotsGroup level.</assert>
@@ -487,6 +487,9 @@
 		<assert id="BR-OPT-00090-0051" role="ERROR" test="count(cbc:Name) &lt; 2">The OPT-090 Buyer Categories is not repeatable at LotsGroup level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion">
+		<assert id="BR-BT-00540-0052/A" role="ERROR" test="count(cac:SubordinateAwardingCriterion/cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-540 - Award Criterion Description can only be present once for each language.</assert>
+		<assert id="BR-BT-00540-0052/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:SubordinateAwardingCriterion/cbc:Description/@languageID = $lg) or count(cac:SubordinateAwardingCriterion/cbc:Description) = 0">BT-540 - Award Criterion Description must be indicated in all notice official languages.</assert>
+		<assert id="BR-BT-00540-0052/C" role="ERROR" test="(every $lg in (cac:SubordinateAwardingCriterion/cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:SubordinateAwardingCriterion/cbc:Description) = 0">BT-540 - Award Criterion Description can only be indicated in a language that is part of the notice official languages.</assert>
 		<assert id="BR-BT-00543-0052/A" role="ERROR" test="count(cbc:CalculationExpression[@languageID = preceding-sibling::cbc:CalculationExpression/@languageID]) = 0">The BT-543 - Award Criteria Complicated can only be present once for each language.</assert>
 		<assert id="BR-BT-00543-0052/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:CalculationExpression/@languageID = $lg) or count(cbc:CalculationExpression) = 0">BT-543 - Award Criteria Complicated must be indicated in all notice official languages.</assert>
 		<assert id="BR-BT-00543-0052/C" role="ERROR" test="(every $lg in (cbc:CalculationExpression/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:CalculationExpression) = 0">BT-543 - Award Criteria Complicated can only be indicated in a language that is part of the notice official languages.</assert>
@@ -496,15 +499,11 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion">
 		<assert id="BR-BT-00539-0051" role="ERROR" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &lt; 2">The BT-539 Award Criterion Type is not repeatable at LotsGroup level.</assert>
-		<assert id="BR-BT-00540-0052/A" role="ERROR" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">The BT-540 - Award Criterion Description can only be present once for each language.</assert>
-		<assert id="BR-BT-00540-0052/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">BT-540 - Award Criterion Description must be indicated in all notice official languages.</assert>
-		<assert id="BR-BT-00540-0052/C" role="ERROR" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">BT-540 - Award Criterion Description can only be indicated in a language that is part of the notice official languages.</assert>
 		<assert id="BR-BT-00734-0052/A" role="ERROR" test="count(cbc:Name[@languageID = preceding-sibling::cbc:Name/@languageID]) = 0">The BT-734 - Award Criterion Name can only be present once for each language.</assert>
 		<assert id="BR-BT-00734-0052/B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Name/@languageID = $lg) or count(cbc:Name) = 0">BT-734 - Award Criterion Name must be indicated in all notice official languages.</assert>
 		<assert id="BR-BT-00734-0052/C" role="ERROR" test="(every $lg in (cbc:Name/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Name) = 0">BT-734 - Award Criterion Name can only be indicated in a language that is part of the notice official languages.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter">
-		<assert id="BR-BT-00541-0051" role="ERROR" test="count(efbc:ParameterNumeric) &lt; 2">The BT-541 Award Criterion Number is not repeatable at LotsGroup level.</assert>
 		<assert id="BR-BT-05421-0051" role="ERROR" test="count(efbc:ParameterCode[@listName='number-weight']) &lt; 2">The BT-5421 Award Criterion Number Weight is not repeatable at LotsGroup level.</assert>
 		<assert id="BR-BT-05422-0051" role="ERROR" test="count(efbc:ParameterCode[@listName='number-fixed']) &lt; 2">The BT-5422 Award Criterion Number Fixed is not repeatable at LotsGroup level.</assert>
 		<assert id="BR-BT-05423-0051" role="ERROR" test="count(efbc:ParameterCode[@listName='number-threshold']) &lt; 2">The BT-5423 Award Criterion Number Threshold is not repeatable at LotsGroup level.</assert>
@@ -599,13 +598,13 @@
 		<assert id="BR-BT-00726-0051" role="ERROR" test="count(cbc:SMESuitableIndicator) &lt; 2">The BT-726 Suitable for SMEs is not repeatable at Part level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:AdditionalCommodityClassification">
-		<assert id="BR-BT-00026-0202" role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Part level.</assert>
+		<assert id="BR-BT-00026-0602" role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Part level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification">
 		<assert id="BR-BT-00262-0101" role="ERROR" test="count(cbc:ItemClassificationCode) &lt; 2">The BT-262 Main Classification Code is not repeatable at Part level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode">
-		<assert id="BR-BT-00026-0151" role="ERROR" test="count(@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Part level.</assert>
+		<assert id="BR-BT-00026-0601" role="ERROR" test="count(@listName) &lt; 2">The BT-26 Classification Type (e.g. CPV) is not repeatable at Part level.</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod">
 		<assert id="BR-BT-00036-0051" role="ERROR" test="count(cbc:DurationMeasure) &lt; 2">The BT-36 Duration Period is not repeatable at Part level.</assert>
