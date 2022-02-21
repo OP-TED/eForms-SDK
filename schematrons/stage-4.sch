@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.146 created on the 2022-02-17T17:49:48.-->
+<!--File generated from metadata database version 0.3.151 created on the 2022-02-21T11:27:48.-->
 <pattern id="EFORMS-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '37']">
 		<assert id="BR-BT-00010-0046" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0046</assert>
@@ -2467,7 +2467,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '16']">
 		<assert id="BR-BT-00098-0022" role="ERROR" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00098-0022</assert>
 		<assert id="BR-BT-00098-0052" role="ERROR" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00098-0052</assert>
-		<assert id="BR-OPT-00301-0980" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0980</assert>
+		<assert id="BR-OPT-00301-0980" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='' or ../cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0980</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '17']">
 		<assert id="BR-BT-00075-0023" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) &gt; 0 or not(cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0023</assert>
@@ -2480,7 +2480,7 @@
 		<assert id="BR-BT-00098-0053" role="ERROR" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00098-0053</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '19']">
-		<assert id="BR-OPT-00301-0983" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0983</assert>
+		<assert id="BR-OPT-00301-0983" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='' or ../cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0983</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '18']">
 		<assert id="BR-BT-00075-0024" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) &gt; 0 or not(cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0024</assert>
@@ -2489,7 +2489,7 @@
 		<assert id="BR-BT-00076-0055" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0055</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '14']">
-		<assert id="BR-OPT-00301-0978" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0978</assert>
+		<assert id="BR-OPT-00301-0978" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='' or ../cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0978</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '22']">
 		<assert id="BR-BT-00075-0029" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) &gt; 0 or not(cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0029</assert>
