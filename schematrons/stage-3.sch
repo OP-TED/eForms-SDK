@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.146 created on the 2022-02-17T17:49:48.-->
+<!--File generated from metadata database version 0.3.151 created on the 2022-02-21T11:27:48.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<!-- CODE LIST RULES. -->
@@ -1504,7 +1504,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:AccessToolName">
 		<assert id="BR-BT-00632-0104" role="ERROR" test="matches(normalize-space(.),'^.{1,400}$')">rule|message|BR-BT-00632-0104</assert>
 	</rule>
-	<rule context="/*/cbc:ID">
+	<rule context="/*/cbc:ID[@schemeName='notice-id']">
 		<assert id="BR-BT-00701-0052" role="ERROR" test="matches(normalize-space(.),'^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$')">rule|message|BR-BT-00701-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ProcurementDocumentsChangeDate">

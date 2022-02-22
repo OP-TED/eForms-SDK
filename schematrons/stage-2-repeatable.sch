@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.146 created on the 2022-02-17T17:49:48.-->
+<!--File generated from metadata database version 0.3.151 created on the 2022-02-21T11:27:48.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BR-BT-00001-0051" role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BR-BT-00001-0051</assert>
@@ -9,7 +9,7 @@
 		<assert id="BR-BT-00005-0051" role="ERROR" test="count(cbc:IssueDate) &lt; 2">rule|message|BR-BT-00005-0051</assert>
 		<assert id="BR-BT-00005-0103" role="ERROR" test="count(cbc:IssueTime) &lt; 2">rule|message|BR-BT-00005-0103</assert>
 		<assert id="BR-BT-00127-0051" role="ERROR" test="count(cbc:PlannedDate) &lt; 2">rule|message|BR-BT-00127-0051</assert>
-		<assert id="BR-BT-00701-0051" role="ERROR" test="count(cbc:ID) &lt; 2">rule|message|BR-BT-00701-0051</assert>
+		<assert id="BR-BT-00701-0051" role="ERROR" test="count(cbc:ID[@schemeName='notice-id']) &lt; 2">rule|message|BR-BT-00701-0051</assert>
 		<assert id="BR-BT-00702-0051" role="ERROR" test="count(cbc:NoticeLanguageCode) &lt; 2">rule|message|BR-BT-00702-0051</assert>
 		<assert id="BR-BT-00738-0051" role="ERROR" test="count(cbc:RequestedPublicationDate) &lt; 2">rule|message|BR-BT-00738-0051</assert>
 		<assert id="BR-BT-00757-0051" role="ERROR" test="count(cbc:VersionID) &lt; 2">rule|message|BR-BT-00757-0051</assert>
