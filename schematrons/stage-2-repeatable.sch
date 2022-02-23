@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.151 created on the 2022-02-21T11:27:48.-->
+<!--File generated from metadata database version 0.3.164 created on the 2022-02-23T11:32:20.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BR-BT-00001-0051" role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BR-BT-00001-0051</assert>
@@ -238,6 +238,7 @@
 		<assert id="BR-BT-00630-0103" role="ERROR" test="count(cbc:EndTime) &lt; 2">rule|message|BR-BT-00630-0103</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms">
+		<assert id="BR-BT-00014-0102" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:DocumentType) &lt; 2">rule|message|BR-BT-00014-0102</assert>
 		<assert id="BR-BT-00018-0051" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) &lt; 2">rule|message|BR-BT-00018-0051</assert>
 		<assert id="BR-BT-00060-0051" role="ERROR" test="count(cbc:FundingProgramCode[@listName='eu-funded']) &lt; 2">rule|message|BR-BT-00060-0051</assert>
 		<assert id="BR-BT-00063-0051" role="ERROR" test="count(cbc:VariantConstraintCode) &lt; 2">rule|message|BR-BT-00063-0051</assert>
@@ -385,7 +386,6 @@
 		<assert id="BR-BT-00644-0051" role="ERROR" test="count(cbc:ValueAmount) &lt; 2">rule|message|BR-BT-00644-0051</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference">
-		<assert id="BR-BT-00014-0102" role="ERROR" test="count(cbc:DocumentType) &lt; 2">rule|message|BR-BT-00014-0102</assert>
 		<assert id="BR-OPT-00140-0102" role="ERROR" test="count(cbc:ID) &lt; 2">rule|message|BR-OPT-00140-0102</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']">
@@ -641,6 +641,7 @@
 		<assert id="BR-BT-00632-0051" role="ERROR" test="count(efbc:AccessToolName) &lt; 2">rule|message|BR-BT-00632-0051</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms">
+		<assert id="BR-BT-00014-0051" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:DocumentType) &lt; 2">rule|message|BR-BT-00014-0051</assert>
 		<assert id="BR-BT-00736-0051" role="ERROR" test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']) &lt; 2">rule|message|BR-BT-00736-0051</assert>
 		<assert id="BR-OPT-00301-0402" role="ERROR" test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|message|BR-OPT-00301-0402</assert>
 		<assert id="BR-OPT-00301-0453" role="ERROR" test="count(cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|message|BR-OPT-00301-0453</assert>
@@ -653,7 +654,6 @@
 		<assert id="BR-OPT-00301-0708" role="ERROR" test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|message|BR-OPT-00301-0708</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference">
-		<assert id="BR-BT-00014-0051" role="ERROR" test="count(cbc:DocumentType) &lt; 2">rule|message|BR-BT-00014-0051</assert>
 		<assert id="BR-OPT-00140-0051" role="ERROR" test="count(cbc:ID) &lt; 2">rule|message|BR-OPT-00140-0051</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']">
