@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
-	<ns prefix="fn" uri="http://www.w3.org/2005/xpath-functions" />
-	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
-	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
-	<ns prefix="cbc" uri='urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2' />
-	<ns prefix="cac" uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" />
-	<ns prefix="ext" uri="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" />
-	<ns prefix="efac" uri="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" />
-	<ns prefix="efext" uri="http://data.europa.eu/p27/eforms-ubl-extensions/1" />
-	<ns prefix="efbc" uri="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" />
-	<ns prefix="can" uri="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" />
-	<ns prefix="cn" uri="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" />
-	<ns prefix="pin" uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" />
 <pattern id="EFORMS-change-notices" xmlns="http://purl.oclc.org/dsdl/schematron">
-<!-- This file contains schematron rules to enforce that certain BT values in a Change Notice must be the same values as those in the parent notice. -->
+<!-- This file contains schematron rules to enforce that certain values in a Change Notice are the 
+	 same as those in the parent notice (the notice that is subject to the change). -->
 
-<!-- To identify the changed (parent) notice: it has the same value for Notice Identifier BT-701 as the Change Notice; the Notice Version BT-757 of the changed notice is held in Change Notice Version Identifier BT-758 in the Change Notice. -->
+<!-- URL prefix of the service to fetch a notice. -->
+<let name="urlPrefix" value="'http://localhost:8080/notices/'"/>
 
-<!-- Pseudo-code to get parent notice:
-noticeIdentifier=/*/cbd:ID/fn:normalize-space(text())
-changedNoticeVersionIdentifier=/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:ChangedNoticeIdentifier/fn:normalize-space(text())
-function:getParentNotice(idValue as String) as Document {for thisNotice in getAllNotices() { if ( ( fn:doc(thisNotice)/*/cbd:ID/fn:normalize-space(text()) = noticeIdentifier) && (fn:doc(thisNotice)/*/cbc:VersionID/fn:normalize-space(text()) =  changedNoticeVersionIdentifier) ) { return fn:doc(thisNotice) } } } -->
-<!-- Only the first rule from a pattern that matches the context node will be activated -->
+<!-- Reference to the parent notice. -->
+<let name="parentNoticeId" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efbc:ChangedNoticeIdentifier/fn:normalize-space(text())"/>
 
-<let name="parentNotice" value="fn:doc('/C:/Users/donohpa/work/git-bitbucket/eforms-sdk/examples/notices/cn_24_open.xml')"/>
+<!-- Function that fetches a notice. -->
+<let name="getParentNotice" value="function($id) { fn:doc(concat($urlPrefix, $id)) }"/>
+
+<!-- XML document of the parent notice. -->
+<let name="parentNotice" value="$getParentNotice($parentNoticeId)"/>
 
 <!-- Global variable to get parent notice subtype -->
 <let name="parent-subtype" value="$parentNotice/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/fn:normalize-space(text())"/>
@@ -487,4 +477,3 @@ function:getParentNotice(idValue as String) as Document {for thisNotice in getAl
 
 
 </pattern>
-</schema>
