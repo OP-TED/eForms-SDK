@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.181 created on the 2022-03-01T11:07:58.-->
+<!--File generated from metadata database version 0.3.187 created on the 2022-03-04T12:26:15.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -1331,6 +1331,9 @@
 	</rule>
 	<rule context="/*/cbc:Note">
 		<assert id="OPP-130-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|OPP-130-Business_length</assert>
+	</rule>
+	<rule context="/*/cac:SenderParty/cac:Contact/cbc:ElectronicMail">
+		<assert id="OPP-131-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|OPP-131-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution']/cbc:Description">
 		<assert id="OPT-070-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 4000">rule|message|OPT-070-Lot_length</assert>
