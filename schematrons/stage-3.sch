@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.187 created on the 2022-03-04T12:26:15.-->
+<!--File generated from metadata database version 0.3.210 created on the 2022-03-11T15:38:26.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -680,7 +680,7 @@
 	<rule context="/*/cac:BusinessCapability/cbc:CapabilityTypeCode">
 		<assert id="BR-OPP-00105-0051" role="ERROR" test="normalize-space(.) = ('airport', 'defence', 'econ-aff', 'education', 'electricity', 'env-pro', 'gas-heat', 'gas-oil', 'gen-pub', 'hc-am', 'health', 'port', 'post', 'pub-os', 'rail', 'rcr', 'soc-pro', 'solid-fuel', 'urttb', 'water')">rule|message|BR-OPP-00105-0051</assert>
 	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cac:Country/cbc:IdentificationCode">
+	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cac:Country/cbc:IdentificationCode">
 		<assert id="BR-OPP-00112-0052" role="ERROR" test="normalize-space(.) = ('1A0', 'ABW', 'AFG', 'AFI', 'AGO', 'AIA', 'ALA', 'ALB', 'AND', 'ANT', 'ARE', 'ARG', 'ARM', 'ASM', 'ATA', 'ATB', 'ATF', 'ATG', 'ATN', 'AUS', 'AUT', 'AZE', 'BDI', 'BEL', 'BEN', 'BES', 'BFA', 'BGD', 'BGR', 'BHR', 'BHS', 'BIH', 'BLM', 'BLR', 'BLZ', 'BMU', 'BOL', 'BRA', 'BRB', 'BRN', 'BTN', 'BUR', 'BVT', 'BWA', 'BYS', 'CAF', 'CAN', 'CCK', 'CHE', 'CHL', 'CHN', 'CIV', 'CMR', 'COD', 'COG', 'COK', 'COL', 'COM', 'CPT', 'CPV', 'CRI', 'CSK', 'CTE', 'CUB', 'CUW', 'CXR', 'CYM', 'CYP', 'CZE', 'DDR', 'DEU', 'DHY', 'DJI', 'DMA', 'DNK', 'DOM', 'DZA', 'ECU', 'EGY', 'ERI', 'ESH', 'ESP', 'EST', 'ETH', 'EUR', 'FIN', 'FJI', 'FLK', 'FQ0', 'FRA', 'FRO', 'FSM', 'FXX', 'GAB', 'GBR', 'GEL', 'GEO', 'GGY', 'GHA', 'GIB', 'GIN', 'GLP', 'GMB', 'GNB', 'GNQ', 'GRC', 'GRD', 'GRL', 'GTM', 'GUF', 'GUM', 'GUY', 'HKG', 'HMD', 'HND', 'HRV', 'HTI', 'HUN', 'HVO', 'IDN', 'IMN', 'IND', 'IOT', 'IRL', 'IRN', 'IRQ', 'ISL', 'ISR', 'ITA', 'JAM', 'JEY', 'JOR', 'JPN', 'JTN', 'KAZ', 'KEN', 'KGZ', 'KHM', 'KIR', 'KNA', 'KOR', 'KWT', 'LAO', 'LBN', 'LBR', 'LBY', 'LCA', 'LIE', 'LKA', 'LSO', 'LTU', 'LUX', 'LVA', 'MAC', 'MAF', 'MAR', 'MCO', 'MDA', 'MDG', 'MDV', 'MEX', 'MHL', 'MID', 'MKD', 'MLI', 'MLT', 'MMR', 'MNE', 'MNG', 'MNP', 'MOZ', 'MRT', 'MSR', 'MTQ', 'MUS', 'MWI', 'MYS', 'MYT', 'NAM', 'NCL', 'NER', 'NFK', 'NGA', 'NHB', 'NIC', 'NIU', 'NLD', 'NOR', 'NPL', 'NRU', 'NTZ', 'NZL', 'OMN', 'PAK', 'PAN', 'PCI', 'PCN', 'PCZ', 'PER', 'PHL', 'PLW', 'PNG', 'POL', 'PRI', 'PRK', 'PRT', 'PRY', 'PSE', 'PUS', 'PYF', 'QAT', 'REU', 'RHO', 'ROU', 'RUS', 'RWA', 'SAU', 'SCG', 'SDN', 'SEN', 'SGP', 'SGS', 'SHN', 'SJM', 'SKM', 'SLB', 'SLE', 'SLV', 'SMR', 'SOM', 'SPM', 'SRB', 'SSD', 'STP', 'SUN', 'SUR', 'SVK', 'SVN', 'SWE', 'SWZ', 'SXM', 'SYC', 'SYR', 'TCA', 'TCD', 'TGO', 'THA', 'TJK', 'TKL', 'TKM', 'TLS', 'TMP', 'TON', 'TTO', 'TUN', 'TUR', 'TUV', 'TWN', 'TZA', 'UGA', 'UKR', 'UMI', 'URY', 'USA', 'UZB', 'VAT', 'VCT', 'VDR', 'VEN', 'VGB', 'VIR', 'VNM', 'VUT', 'WAK', 'WLF', 'WSM', 'YEM', 'YMD', 'YUG', 'ZAF', 'ZMB', 'ZR0', 'ZWE')">rule|message|BR-OPP-00112-0052</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode">
@@ -987,7 +987,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:EconomicOperatorShortList/cac:PreSelectedParty/cac:PartyName/cbc:Name">
 		<assert id="BT-47-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-47-Lot_length</assert>
 	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cbc:RegistrationName">
+	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[not(cbc:CompanyID/@schemeName = 'EU')]/cbc:RegistrationName">
 		<assert id="BT-500-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-500-Business_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name">
@@ -1313,10 +1313,10 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']/efbc:TermDescription">
 		<assert id="OPP-034-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|OPP-034-Tender_length</assert>
 	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:CityName">
+	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:CityName">
 		<assert id="OPP-110-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|OPP-110-Business_length</assert>
 	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:PostalZone">
+	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:PostalZone">
 		<assert id="OPP-111-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|OPP-111-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference/cbc:DocumentDescription">
@@ -1779,7 +1779,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Publication/efbc:PublicationDate">
 		<assert id="BR-OPP-00012-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|message|BR-OPP-00012-0052</assert>
 	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cbc:RegistrationDate">
+	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cbc:RegistrationDate">
 		<assert id="BR-OPP-00113-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|message|BR-OPP-00113-0052</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference/cbc:IssueDate">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.189 created on the 2022-03-04T16:44:39.-->
+<!--File generated from metadata database version 0.3.210 created on the 2022-03-11T15:38:26.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BT-01-notice_R</assert>
@@ -37,14 +37,16 @@
 		<assert id="BT-506-Business_R" role="ERROR" test="count(cbc:ElectronicMail) &lt; 2">rule|message|BT-506-Business_R</assert>
 		<assert id="BT-739-Business_R" role="ERROR" test="count(cbc:Telefax) &lt; 2">rule|message|BT-739-Business_R</assert>
 	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity">
-		<assert id="BT-500-Business_R" role="ERROR" test="count(cbc:RegistrationName) &lt; 2">rule|message|BT-500-Business_R</assert>
+	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']">
 		<assert id="OPP-113-Business-European_R" role="ERROR" test="count(cbc:RegistrationDate) &lt; 2">rule|message|OPP-113-Business-European_R</assert>
 	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress">
+	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress">
 		<assert id="OPP-110-Business_R" role="ERROR" test="count(cbc:CityName) &lt; 2">rule|message|OPP-110-Business_R</assert>
 		<assert id="OPP-111-Business_R" role="ERROR" test="count(cbc:PostalZone) &lt; 2">rule|message|OPP-111-Business_R</assert>
 		<assert id="OPP-112-Business_R" role="ERROR" test="count(cac:Country/cbc:IdentificationCode) &lt; 2">rule|message|OPP-112-Business_R</assert>
+	</rule>
+	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[not(cbc:CompanyID/@schemeName = 'EU')]">
+		<assert id="BT-500-Business_R" role="ERROR" test="count(cbc:RegistrationName) &lt; 2">rule|message|BT-500-Business_R</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PostalAddress">
 		<assert id="BT-507-Business_R" role="ERROR" test="count(cbc:CountrySubentityCode) &lt; 2">rule|message|BT-507-Business_R</assert>

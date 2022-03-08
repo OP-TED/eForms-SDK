@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.151 created on the 2022-02-21T11:27:48.-->
+<!--File generated from metadata database version 0.3.210 created on the 2022-03-11T15:38:26.-->
 <pattern id="EFORMS-stage-1" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-609-1" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|message|ND-609-1</assert>
@@ -492,18 +492,12 @@
 	</rule>
 	<rule context="/*/cac:BusinessParty[$noticeSubType = 'X01']">
 		<assert id="ND-506-X01" role="ERROR" test="count(cac:Contact) = 0">rule|message|ND-506-X01</assert>
-		<assert id="ND-605-X01" role="ERROR" test="count(cac:PartyLegalEntity) &gt; 0">rule|message|ND-605-X01</assert>
+		<assert id="ND-606-X01" role="ERROR" test="count(cac:PartyLegalEntity) &gt; 0">rule|message|ND-606-X01</assert>
 		<assert id="ND-404-X01" role="ERROR" test="count(cac:PostalAddress) = 0">rule|message|ND-404-X01</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty[$noticeSubType = 'X02']">
-		<assert id="ND-605-X02" role="ERROR" test="count(cac:PartyLegalEntity) &gt; 0">rule|message|ND-605-X02</assert>
+		<assert id="ND-606-X02" role="ERROR" test="count(cac:PartyLegalEntity) &gt; 0">rule|message|ND-606-X02</assert>
 		<assert id="ND-404-X02" role="ERROR" test="count(cac:PostalAddress) &gt; 0">rule|message|ND-404-X02</assert>
-	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[$noticeSubType = 'X01']">
-		<assert id="ND-604-X01" role="ERROR" test="count(cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress) &gt; 0">rule|message|ND-604-X01</assert>
-	</rule>
-	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[$noticeSubType = 'X02']">
-		<assert id="ND-604-X02" role="ERROR" test="count(cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress) &gt; 0">rule|message|ND-604-X02</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '1']">
 		<assert id="ND-647-1" role="ERROR" test="count(cac:Party) &gt; 0">rule|message|ND-647-1</assert>
@@ -641,7 +635,6 @@
 		<assert id="ND-493-T02" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|message|ND-493-T02</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '1']">
-		<assert id="ND-537-1" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|message|ND-537-1</assert>
 		<assert id="ND-658-1" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|message|ND-658-1</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '10']">
@@ -694,7 +687,6 @@
 		<assert id="ND-658-19" role="ERROR" test="count(cac:TenderingTerms) &gt; 0">rule|message|ND-658-19</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '2']">
-		<assert id="ND-537-2" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|message|ND-537-2</assert>
 		<assert id="ND-658-2" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|message|ND-658-2</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '20']">
@@ -744,7 +736,6 @@
 		<assert id="ND-658-29" role="ERROR" test="count(cac:TenderingTerms) &gt; 0">rule|message|ND-658-29</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '3']">
-		<assert id="ND-537-3" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|message|ND-537-3</assert>
 		<assert id="ND-658-3" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|message|ND-658-3</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '30']">
@@ -842,15 +833,39 @@
 		<assert id="ND-491-1" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|message|ND-491-1</assert>
 		<assert id="ND-313-1" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-1</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '10']">
+		<assert id="ND-307-10" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-10</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '11']">
+		<assert id="ND-307-11" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-11</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '12']">
+		<assert id="ND-307-12" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-12</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '13']">
+		<assert id="ND-307-13" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-13</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '14']">
+		<assert id="ND-307-14" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-14</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '15']">
 		<assert id="ND-442-15" role="ERROR" test="count(cac:ContractExtension) &gt; 0">rule|message|ND-442-15</assert>
+		<assert id="ND-307-15" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-15</assert>
 		<assert id="ND-313-15" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-15</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '16']">
+		<assert id="ND-307-16" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-16</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '17']">
 		<assert id="ND-442-17" role="ERROR" test="count(cac:ContractExtension) &gt; 0">rule|message|ND-442-17</assert>
+		<assert id="ND-307-17" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-17</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '18']">
 		<assert id="ND-442-18" role="ERROR" test="count(cac:ContractExtension) &gt; 0">rule|message|ND-442-18</assert>
+		<assert id="ND-307-18" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-18</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '19']">
+		<assert id="ND-307-19" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-19</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '2']">
 		<assert id="ND-310-2" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|message|ND-310-2</assert>
@@ -860,27 +875,45 @@
 		<assert id="ND-491-2" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|message|ND-491-2</assert>
 		<assert id="ND-313-2" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-2</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '20']">
+		<assert id="ND-307-20" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-20</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '21']">
+		<assert id="ND-307-21" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-21</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '22']">
+		<assert id="ND-307-22" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-22</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '23']">
 		<assert id="ND-442-23" role="ERROR" test="count(cac:ContractExtension) = 0">rule|message|ND-442-23</assert>
+		<assert id="ND-307-23" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-23</assert>
 		<assert id="ND-552-23" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|message|ND-552-23</assert>
 		<assert id="ND-313-23" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-23</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '24']">
 		<assert id="ND-442-24" role="ERROR" test="count(cac:ContractExtension) = 0">rule|message|ND-442-24</assert>
+		<assert id="ND-307-24" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-24</assert>
 		<assert id="ND-552-24" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|message|ND-552-24</assert>
 		<assert id="ND-313-24" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-24</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '25']">
+		<assert id="ND-307-25" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-25</assert>
 		<assert id="ND-313-25" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-25</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '26']">
+		<assert id="ND-307-26" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-26</assert>
 		<assert id="ND-313-26" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-26</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '27']">
+		<assert id="ND-307-27" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-27</assert>
 		<assert id="ND-313-27" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-27</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '28']">
+		<assert id="ND-307-28" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-28</assert>
 		<assert id="ND-313-28" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-28</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '29']">
+		<assert id="ND-307-29" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-29</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '3']">
 		<assert id="ND-310-3" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|message|ND-310-3</assert>
@@ -890,13 +923,33 @@
 		<assert id="ND-491-3" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|message|ND-491-3</assert>
 		<assert id="ND-313-3" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-3</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '30']">
+		<assert id="ND-307-30" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-30</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '31']">
+		<assert id="ND-307-31" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-31</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '32']">
+		<assert id="ND-307-32" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-32</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '33']">
+		<assert id="ND-307-33" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-33</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '34']">
+		<assert id="ND-307-34" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-34</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '35']">
+		<assert id="ND-307-35" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-35</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '36']">
 		<assert id="ND-442-36" role="ERROR" test="count(cac:ContractExtension) = 0">rule|message|ND-442-36</assert>
+		<assert id="ND-307-36" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-36</assert>
 		<assert id="ND-552-36" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|message|ND-552-36</assert>
 		<assert id="ND-313-36" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-36</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '37']">
 		<assert id="ND-442-37" role="ERROR" test="count(cac:ContractExtension) = 0">rule|message|ND-442-37</assert>
+		<assert id="ND-307-37" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-37</assert>
 		<assert id="ND-552-37" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|message|ND-552-37</assert>
 		<assert id="ND-313-37" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-37</assert>
 	</rule>
@@ -933,18 +986,38 @@
 		<assert id="ND-491-6" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|message|ND-491-6</assert>
 		<assert id="ND-313-6" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-6</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '7']">
+		<assert id="ND-307-7" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-7</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '8']">
+		<assert id="ND-307-8" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-8</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '9']">
+		<assert id="ND-307-9" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-9</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'CEI']">
 		<assert id="ND-442-CEI" role="ERROR" test="count(cac:ContractExtension) = 0">rule|message|ND-442-CEI</assert>
+		<assert id="ND-307-CEI" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-CEI</assert>
 		<assert id="ND-552-CEI" role="ERROR" test="count(cac:PlannedPeriod) &gt; 0">rule|message|ND-552-CEI</assert>
 		<assert id="ND-313-CEI" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-CEI</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T01']">
 		<assert id="ND-442-T01" role="ERROR" test="count(cac:ContractExtension) = 0">rule|message|ND-442-T01</assert>
+		<assert id="ND-307-T01" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-T01</assert>
 		<assert id="ND-313-T01" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-T01</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T02']">
 		<assert id="ND-442-T02" role="ERROR" test="count(cac:ContractExtension) = 0">rule|message|ND-442-T02</assert>
+		<assert id="ND-307-T02" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-307-T02</assert>
 		<assert id="ND-313-T02" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-313-T02</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '1']">
+		<assert id="ND-538-1" role="ERROR" test="count(cac:AuctionTerms) = 0">rule|message|ND-538-1</assert>
+		<assert id="ND-464-1" role="ERROR" test="count(cac:EconomicOperatorShortList) = 0">rule|message|ND-464-1</assert>
+		<assert id="ND-11-1" role="ERROR" test="count(cac:FrameworkAgreement) = 0">rule|message|ND-11-1</assert>
+		<assert id="ND-38-1" role="ERROR" test="count(cac:OpenTenderEvent) = 0">rule|message|ND-38-1</assert>
+		<assert id="ND-75-1" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|message|ND-75-1</assert>
+		<assert id="ND-455-1" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|message|ND-455-1</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '10']">
 		<assert id="ND-38-10" role="ERROR" test="count(cac:OpenTenderEvent) = 0">rule|message|ND-38-10</assert>
@@ -987,6 +1060,14 @@
 		<assert id="ND-464-19" role="ERROR" test="count(cac:EconomicOperatorShortList) = 0">rule|message|ND-464-19</assert>
 		<assert id="ND-11-19" role="ERROR" test="count(cac:FrameworkAgreement) = 0">rule|message|ND-11-19</assert>
 		<assert id="ND-38-19" role="ERROR" test="count(cac:OpenTenderEvent) = 0">rule|message|ND-38-19</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '2']">
+		<assert id="ND-538-2" role="ERROR" test="count(cac:AuctionTerms) = 0">rule|message|ND-538-2</assert>
+		<assert id="ND-464-2" role="ERROR" test="count(cac:EconomicOperatorShortList) = 0">rule|message|ND-464-2</assert>
+		<assert id="ND-11-2" role="ERROR" test="count(cac:FrameworkAgreement) = 0">rule|message|ND-11-2</assert>
+		<assert id="ND-38-2" role="ERROR" test="count(cac:OpenTenderEvent) = 0">rule|message|ND-38-2</assert>
+		<assert id="ND-75-2" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|message|ND-75-2</assert>
+		<assert id="ND-455-2" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|message|ND-455-2</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '22']">
 		<assert id="ND-538-22" role="ERROR" test="count(cac:AuctionTerms) &gt; 0">rule|message|ND-538-22</assert>
@@ -1036,6 +1117,14 @@
 		<assert id="ND-464-29" role="ERROR" test="count(cac:EconomicOperatorShortList) = 0">rule|message|ND-464-29</assert>
 		<assert id="ND-38-29" role="ERROR" test="count(cac:OpenTenderEvent) = 0">rule|message|ND-38-29</assert>
 		<assert id="ND-75-29" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|message|ND-75-29</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '3']">
+		<assert id="ND-538-3" role="ERROR" test="count(cac:AuctionTerms) = 0">rule|message|ND-538-3</assert>
+		<assert id="ND-464-3" role="ERROR" test="count(cac:EconomicOperatorShortList) = 0">rule|message|ND-464-3</assert>
+		<assert id="ND-11-3" role="ERROR" test="count(cac:FrameworkAgreement) = 0">rule|message|ND-11-3</assert>
+		<assert id="ND-38-3" role="ERROR" test="count(cac:OpenTenderEvent) = 0">rule|message|ND-38-3</assert>
+		<assert id="ND-75-3" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|message|ND-75-3</assert>
+		<assert id="ND-455-3" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|message|ND-455-3</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '30']">
 		<assert id="ND-538-30" role="ERROR" test="count(cac:AuctionTerms) &gt; 0">rule|message|ND-538-30</assert>
@@ -2862,12 +2951,21 @@
 		<assert id="ND-492-39" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|message|ND-492-39</assert>
 		<assert id="ND-315-39" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-315-39</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '4']">
+		<assert id="ND-308-4" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-308-4</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '40']">
 		<assert id="ND-311-40" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|message|ND-311-40</assert>
 		<assert id="ND-308-40" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|message|ND-308-40</assert>
 		<assert id="ND-420-40" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|message|ND-420-40</assert>
 		<assert id="ND-492-40" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|message|ND-492-40</assert>
 		<assert id="ND-315-40" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|message|ND-315-40</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '5']">
+		<assert id="ND-308-5" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-308-5</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '6']">
+		<assert id="ND-308-6" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|message|ND-308-6</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '7']">
 		<assert id="ND-311-7" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|message|ND-311-7</assert>
