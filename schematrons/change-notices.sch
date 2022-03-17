@@ -23,27 +23,27 @@
 	</assert>
 
 	<!-- BT-105-Procedure Procedure Type -->
-	<assert role="ERROR" test="( cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()) = $parentNotice/*/cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()), $parentNotice/*/cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()) )">
 		The BT-105 Procedure Type value must be the same as for the parent notice.
 	</assert>
 	
 	<!-- BT-106-Procedure Procedure Accelerated -->
-	<assert role="ERROR" test="( cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='accelerated-procedure-justification']/fn:normalize-space(text()) = $parentNotice/*/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='accelerated-procedure-justification']/fn:normalize-space(text()) ) or not ( $parentNotice/*/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='accelerated-procedure-justification']/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='accelerated-procedure-justification']/fn:normalize-space(text()), $parentNotice/*/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='accelerated-procedure-justification']/fn:normalize-space(text()) )">
 		The BT-106 Procedure Accelerated must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-31-Procedure Lots Max Allowed -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric/fn:normalize-space(text()) = $parentNotice/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric/fn:normalize-space(text()) ) or not ( $parentNotice/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric/fn:normalize-space(text()), $parentNotice/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
 		The BT-31 Lots Max Allowed must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-763-Procedure Lots All Required -->
-	<assert role="ERROR" test="( cac:TenderingProcess/cbc:PartPresentationCode/fn:normalize-space(text()) = $parentNotice/*/cac:TenderingProcess/cbc:PartPresentationCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:TenderingProcess/cbc:PartPresentationCode/fn:normalize-space(text()) != '') or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingProcess/cbc:PartPresentationCode/fn:normalize-space(text()), $parentNotice/*/cac:TenderingProcess/cbc:PartPresentationCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
 		The BT-763 Lots All Required must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-33-Procedure Lots Max Awarded -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric/fn:normalize-space(text()) = $parentNotice/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric/fn:normalize-space(text()) != '') or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric/fn:normalize-space(text()), $parentNotice/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
 		The BT-33 Lots Max Awarded must be the same as for the parent notice.
 	</assert>
 
@@ -68,17 +68,17 @@
 	</assert>
 
 	<!-- BT-5071-Procedure Place Performance Country Subdivision -->
-	<assert role="ERROR" test="( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37' ) )">
+	<assert role="ERROR" test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37' ) )">
 		The BT-5071 Place Performance Country Subdivision for the procedure must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-5141 Place Performance Country Code -->
-	<assert role="ERROR" test="( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+	<assert role="ERROR" test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
 		The BT-5141 Place Performance Country Code for the procedure must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-727 Place Performance Services Other -->
-	<assert role="ERROR" test="( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+	<assert role="ERROR" test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
 		The BT-727 Place Performance Services Other for the procedure must be the same as for the parent notice.
 	</assert>
 
@@ -106,22 +106,22 @@
 <!-- Rules applying at ContractingParty level -->
 <rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ContractingParty">
 	<!-- BT-11 Buyer Legal Type -->
-	<assert role="ERROR" test="( cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()) = $parentNotice/*/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()), $parentNotice/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()) )">
 		The BT-11 Buyer Legal Type must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-740 Buyer Contracting Entity -->
-	<assert role="ERROR" test="( cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/fn:normalize-space(text()) = $parentNotice/*/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/fn:normalize-space(text()), $parentNotice/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/fn:normalize-space(text()) )">
 		The BT-740 Buyer Contracting Entity must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-10 Activity Authority -->
-	<assert role="ERROR" test="( cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']/fn:normalize-space(text()) = $parentNotice/*/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']/fn:normalize-space(text()), $parentNotice/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']/fn:normalize-space(text()) )">
 		The BT-10 Activity Authority must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-610 Activity Entity -->
-	<assert role="ERROR" test="( cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']/fn:normalize-space(text()) = $parentNotice/*/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']/fn:normalize-space(text()), $parentNotice/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']/fn:normalize-space(text()) )">
 		The BT-610 Activity Entity for the procedure must be the same as for the parent notice.
 	</assert>
 </rule>
@@ -141,7 +141,7 @@
 	<let name="part-id" value="cbc:ID[@schemeName='Part']/fn:normalize-space(text())"/>
 	
 	<!-- BT-115 GPA Coverage -->
-	<assert role="ERROR" test="( cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Part']/fn:normalize-space(text()) = $part-id]/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Part']/fn:normalize-space(text()) = $part-id]/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) != '') or not( $noticeSubType = ('10', '11', '15', '16', '17', '19', '25', '26', '28', '29', '30', '32', '38', '39', '40') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Part']/fn:normalize-space(text()) = $part-id]/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '15', '16', '17', '19', '25', '26', '28', '29', '30', '32', '38', '39', '40') )">
 		The BT-115 GPA Coverage for Part <value-of select="$part-id"/> must be the same as for the parent notice.
 	</assert>
 </rule>
@@ -151,62 +151,62 @@
 	<let name="lot-id" value="cbc:ID[@schemeName='Lot']/fn:normalize-space(text())"/>
 
 	<!-- BT-63 Variants -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cbc:VariantConstraintCode/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cbc:VariantConstraintCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cbc:VariantConstraintCode/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('7', '8', '9', '10', '11', '12', '13', '16', '17', '18', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '33', '34', '36', '37') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cbc:VariantConstraintCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cbc:VariantConstraintCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('7', '8', '9', '10', '11', '12', '13', '16', '17', '18', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '33', '34', '36', '37') )">
 		The BT-63 Variants for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-125 Previous Planning Identifier -->
-	<assert role="ERROR" test="( cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/fn:normalize-space(text()) ) or not( $noticeSubType = ('29', '30', '31', '32', '33', '34', '35', '36', '37') )">
 		The BT-125 Previous Planning Identifier for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-1251 Previous Planning Part Identifier -->
-	<assert role="ERROR" test="( cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress/fn:normalize-space(text()) ) or not( $noticeSubType = ('29', '30', '31', '32', '33', '34', '35', '36', '37') )">
 		The BT-1251 Previous Planning Part Identifier for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-23 Main Nature  -->
-	<assert role="ERROR" test="( cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40') )">
+	<assert role="ERROR" test="deep-equal( cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40') )">
 		The BT-23 Main Nature for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-5071 Place Performance Country Subdivision -->
-	<assert role="ERROR" test="( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+	<assert role="ERROR" test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
 		The BT-5071 Place Performance Country Subdivision for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-5141 Place Performance Country Code -->
-	<assert role="ERROR" test="( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+	<assert role="ERROR" test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
 		The BT-5141 Place Performance Country Code for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-727 Place Performance Services Other -->
-	<assert role="ERROR" test="( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+	<assert role="ERROR" test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
 		The BT-727 Place Performance Services Other for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-644 Prize Value -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount/fn:normalize-space(text()) )">
 		The BT-644 Value Prize for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-44 Prize Rank -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:RankCode/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:RankCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:RankCode/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:RankCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:RankCode/fn:normalize-space(text()) )">
 		The BT-44 Prize Rank for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-41 Following Contract -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cac:AwardingTerms/cbc:FollowupContractIndicator/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cbc:FollowupContractIndicator/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cbc:FollowupContractIndicator/fn:normalize-space(text()) != '' )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cac:AwardingTerms/cbc:FollowupContractIndicator/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:AwardingTerms/cbc:FollowupContractIndicator/fn:normalize-space(text()) )">
 		The BT-41 Following Contract for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-71 Reserved Participation -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'] = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'] ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']/fn:normalize-space(text()) )">
 		The values for BT-71 Reserved Participation for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-78 Security Clearance Deadline -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cbc:LatestSecurityClearanceDate/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cbc:LatestSecurityClearanceDate/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cbc:LatestSecurityClearanceDate/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cbc:LatestSecurityClearanceDate/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cbc:LatestSecurityClearanceDate/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11') )">
 		The BT-78 Security Clearance Deadline for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
@@ -216,7 +216,7 @@
 	</assert>
 
 	<!-- BT-761 Tenderer Legal Form -->
-	<assert role="ERROR" test="( cac:TenderingTerms/cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/fn:normalize-space(text()) != '' ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingTerms/cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22') )">
 		The BT-761 Tenderer Legal Form for Lot <value-of select="$lot-id"/> must be the same as for the parent notice.
 	</assert>
 
@@ -231,7 +231,7 @@
 	</assert>
 
 	<!-- BT-115 GPA Coverage -->
-	<assert role="ERROR" test="( cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) ) or not( $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) != '')  or not( $noticeSubType = ('10', '11', '15', '16', '17', '19', '25', '26', '28', '29', '30', '32', '38', '39', '40') )">
+	<assert role="ERROR" test="deep-equal( cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '15', '16', '17', '19', '25', '26', '28', '29', '30', '32', '38', '39', '40') )">
 		The BT-115 GPA Coverage must be the same as for the parent notice.
 	</assert>
 </rule>
