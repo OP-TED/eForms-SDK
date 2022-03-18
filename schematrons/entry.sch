@@ -11,6 +11,8 @@
 	<ns prefix="can" uri="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" />
 	<ns prefix="cn" uri="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" />
 	<ns prefix="pin" uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" />
+	<ns prefix="fn" uri="http://www.w3.org/2005/xpath-functions" />
+	
 	<title>eForms schematron rules</title>
 	
 	<let name="noticeSubType" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text()"/>
@@ -23,4 +25,5 @@
 	<include href="stage-3.sch"/>
 	<include href="stage-4.sch"/>
 	<include href="stage-4-custom.sch"/>
+	<include href="change-notices.sch"/>
 </schema>
