@@ -59,9 +59,6 @@
    <svrl:fired-rule context="cbc:ProcurementTypeCode"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
    <svrl:fired-rule context="/*[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '29']"/>
@@ -70,11 +67,19 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="ND-307-29"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cac:MainCommodityClassification) &gt; 0">
+      <svrl:text>rule|message|ND-307-29</svrl:text>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
    <svrl:fired-rule context="/*[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']"/>
@@ -83,15 +88,21 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00262-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
+      <svrl:text>rule|message|BR-BT-00262-0036</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '29']"/>
@@ -130,447 +141,485 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Description"/>
    <svrl:active-pattern id="EFORMS-stage-3-not-empty" name="EFORMS-stage-3-not-empty"/>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:TenderResultCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:TenderResultCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderReference/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderReference/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/efbc:CompanySizeCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/efbc:CompanySizeCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:CityName"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:CityName"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity/cbc:CompanyID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity/cbc:CompanyID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cbc:ID" role="ERROR" test="false()">
-      <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
-		</svrl:text>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cbc:ContractFolderID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cbc:ContractFolderID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:TenderingProcess/cbc:ProcedureCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject/cbc:Name"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:TenderingProcess/cbc:ProcedureCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject/cbc:Description"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProject/cbc:Name"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject/cbc:ProcurementTypeCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProject/cbc:Description"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProject/cbc:ProcurementTypeCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cbc:FundingProgramCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cbc:FundingProgramCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:Description"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:Description"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[1]/cbc:ContractingSystemTypeCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[2]/cbc:ContractingSystemTypeCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[1]/cbc:ContractingSystemTypeCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:Name"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[2]/cbc:ContractingSystemTypeCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:Description"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:Name"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:ProcurementTypeCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:Description"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:ProcurementTypeCode"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:TenderResultCode"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:TenderResultCode"
+   <svrl:failed-assert id="BR-BT-00142-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:TenderResultCode"
                        role="ERROR"
                        test="normalize-space(.) = ('clos-nw', 'open-nw', 'selec-w')">
-      <svrl:text>The BT-142-LotResult Winner Chosen must contain one of the values of the code list winner-selection-status.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00142-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
+   <svrl:failed-assert id="BR-BT-00760-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
                        role="ERROR"
                        test="normalize-space(.) = ('part-req', 't-esubm', 't-med', 't-micro', 't-no-eea', 't-no-verif', 't-oth-eea', 't-small', 't-sme', 't-verif-inad', 't-verif-inad-low', 'tenders')">
-      <svrl:text>The BT-760-LotResult Received Submissions Type must contain one of the values of the code list received-submission-type.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00760-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00315-0051"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^CON-\d4$')">
-      <svrl:text>The OPT-315 Contract Identifier Reference must match the 'ContractID' pattern at LotResult level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00315-0051</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00321-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^TEN-\d4$')">
-      <svrl:text>The OPT-321 Tender Technical Identifier must match the 'TenderID' pattern at Tender level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00321-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00310-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^TPA-\d4$')">
-      <svrl:text>The OPT-310 Tendering Party ID Reference must match the 'TenderPartyID' pattern at Tender level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00310-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00316-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^CON-\d4$')">
-      <svrl:text>The OPT-316 Contract technical Identifier must match the 'ContractID' pattern at Contract level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00316-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID"
+   <svrl:failed-assert id="BR-BT-03202-0051"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^TEN-\d4$')">
-      <svrl:text>The BT-3202 Contract Tender Identifier must match the 'TenderID' pattern at Contract level.</svrl:text>
+      <svrl:text>rule|message|BR-BT-03202-0051</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00210-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^TPA-\d4$')">
-      <svrl:text>The OPT-210 Tendering Party ID must match the 'TenderPartyID' pattern at Tenderer level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00210-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00300-0203"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d4$')">
-      <svrl:text>The OPT-300 Signatory Identifier Reference must match the 'OrganizationID' pattern at Tenderer level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00300-0203</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00200-0051"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d4$')">
-      <svrl:text>The OPT-200 Company Technical Identifier must match the 'OrganizationID' pattern at Organization level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00200-0051</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 400$')">
-      <svrl:text>The content of BT-500 Organisation Name must not exceed the limit of 400 characters at Organization level.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:CityName"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:CityName"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 400$')">
-      <svrl:text>The content of BT-513 Organisation City must not exceed the limit of 400 characters at Organization level.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode"
+   <svrl:failed-assert id="BR-BT-00514-0205"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode"
                        role="ERROR"
                        test="normalize-space(.) = ('1A0', 'ABW', 'AFG', 'AFI', 'AGO', 'AIA', 'ALA', 'ALB', 'AND', 'ANT', 'ARE', 'ARG', 'ARM', 'ASM', 'ATA', 'ATB', 'ATF', 'ATG', 'ATN', 'AUS', 'AUT', 'AZE', 'BDI', 'BEL', 'BEN', 'BES', 'BFA', 'BGD', 'BGR', 'BHR', 'BHS', 'BIH', 'BLM', 'BLR', 'BLZ', 'BMU', 'BOL', 'BRA', 'BRB', 'BRN', 'BTN', 'BUR', 'BVT', 'BWA', 'BYS', 'CAF', 'CAN', 'CCK', 'CHE', 'CHL', 'CHN', 'CIV', 'CMR', 'COD', 'COG', 'COK', 'COL', 'COM', 'CPT', 'CPV', 'CRI', 'CSK', 'CTE', 'CUB', 'CUW', 'CXR', 'CYM', 'CYP', 'CZE', 'DDR', 'DEU', 'DHY', 'DJI', 'DMA', 'DNK', 'DOM', 'DZA', 'ECU', 'EGY', 'ERI', 'ESH', 'ESP', 'EST', 'ETH', 'EUR', 'FIN', 'FJI', 'FLK', 'FQ0', 'FRA', 'FRO', 'FSM', 'FXX', 'GAB', 'GBR', 'GEL', 'GEO', 'GGY', 'GHA', 'GIB', 'GIN', 'GLP', 'GMB', 'GNB', 'GNQ', 'GRC', 'GRD', 'GRL', 'GTM', 'GUF', 'GUM', 'GUY', 'HKG', 'HMD', 'HND', 'HRV', 'HTI', 'HUN', 'HVO', 'IDN', 'IMN', 'IND', 'IOT', 'IRL', 'IRN', 'IRQ', 'ISL', 'ISR', 'ITA', 'JAM', 'JEY', 'JOR', 'JPN', 'JTN', 'KAZ', 'KEN', 'KGZ', 'KHM', 'KIR', 'KNA', 'KOR', 'KWT', 'LAO', 'LBN', 'LBR', 'LBY', 'LCA', 'LIE', 'LKA', 'LSO', 'LTU', 'LUX', 'LVA', 'MAC', 'MAF', 'MAR', 'MCO', 'MDA', 'MDG', 'MDV', 'MEX', 'MHL', 'MID', 'MKD', 'MLI', 'MLT', 'MMR', 'MNE', 'MNG', 'MNP', 'MOZ', 'MRT', 'MSR', 'MTQ', 'MUS', 'MWI', 'MYS', 'MYT', 'NAM', 'NCL', 'NER', 'NFK', 'NGA', 'NHB', 'NIC', 'NIU', 'NLD', 'NOR', 'NPL', 'NRU', 'NTZ', 'NZL', 'OMN', 'PAK', 'PAN', 'PCI', 'PCN', 'PCZ', 'PER', 'PHL', 'PLW', 'PNG', 'POL', 'PRI', 'PRK', 'PRT', 'PRY', 'PSE', 'PUS', 'PYF', 'QAT', 'REU', 'RHO', 'ROU', 'RUS', 'RWA', 'SAU', 'SCG', 'SDN', 'SEN', 'SGP', 'SGS', 'SHN', 'SJM', 'SKM', 'SLB', 'SLE', 'SLV', 'SMR', 'SOM', 'SPM', 'SRB', 'SSD', 'STP', 'SUN', 'SUR', 'SVK', 'SVN', 'SWE', 'SWZ', 'SXM', 'SYC', 'SYR', 'TCA', 'TCD', 'TGO', 'THA', 'TJK', 'TKL', 'TKM', 'TLS', 'TMP', 'TON', 'TTO', 'TUN', 'TUR', 'TUV', 'TWN', 'TZA', 'UGA', 'UKR', 'UMI', 'URY', 'USA', 'UZB', 'VAT', 'VCT', 'VDR', 'VEN', 'VGB', 'VIR', 'VNM', 'VUT', 'WAK', 'WLF', 'WSM', 'YEM', 'YMD', 'YUG', 'ZAF', 'ZMB', 'ZR0', 'ZWE')">
-      <svrl:text>The BT-514-Organization-Company Country Code must contain one of the values of the code list country.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00514-0205</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"
+   <svrl:failed-assert id="BR-BT-00503-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"
                        role="ERROR"
                        test="matches(normalize-space(.),'^((\(\+?[0-9]+\))|\+?[0-9]+)( - |-| )?(((\(\d+\))|\d+)( - |-| )?)*(\d+)( )?$')">
-      <svrl:text>The BT-503 Contact Telephone Number must match the 'phone' pattern at Organization level.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 30$')">
-      <svrl:text>The content of BT-503 Organisation Contact Telephone Number must not exceed the limit of 30 characters at Organization level.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00503-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"
+   <svrl:failed-assert id="BR-BT-00506-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"
                        role="ERROR"
                        test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]2 63$')">
-      <svrl:text>The BT-506 Contact Email Address must match the 'email' pattern at Organization level.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 400$')">
-      <svrl:text>The content of BT-506 Organisation Contact Email Address must not exceed the limit of 400 characters at Organization level.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00506-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
    <svrl:fired-rule context="/*/cbc:CustomizationID"/>
-   <svrl:fired-rule context="/*/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cbc:ID"
+   <svrl:fired-rule context="/*/cbc:ID[@schemeName='notice-id']"/>
+   <svrl:failed-assert id="BR-BT-00701-0052"
+                       location="/ContractAwardNotice/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^[a-f0-9]8-[a-f0-9]4-4[a-f0-9]3-[89ab][a-f0-9]3-[a-f0-9]12$')">
-      <svrl:text>The BT-701 Notice Identifier must match the 'ProcedureOrNoticeID' pattern at notice level.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00701-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cbc:ContractFolderID"
+   <svrl:failed-assert id="BR-BT-00004-0071"
+                       location="/ContractAwardNotice/cbc:ContractFolderID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^[a-f0-9]8-[a-f0-9]4-4[a-f0-9]3-[89ab][a-f0-9]3-[a-f0-9]12$')">
-      <svrl:text>The BT-04 Procedure Identifier must match the 'ProcedureOrNoticeID' pattern at notice level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00004-0071</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:IssueTime"/>
@@ -582,112 +631,94 @@
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"
+   <svrl:failed-assert id="BR-OPT-00030-0051"
+                       location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"
                        role="ERROR"
                        test="normalize-space(.) = ('serv-prov', 'ted-esen')">
-      <svrl:text>The OPT-030-Procedure-SProvider Provided Service Type must contain one of the values of the code list organisation-role-service.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00030-0051</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00300-0201"
+                       location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d4$')">
-      <svrl:text>The OPT-300 Signatory Identifier Reference must match the 'OrganizationID' pattern at Procedure level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00300-0201</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingProcess/cbc:ProcedureCode"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:TenderingProcess/cbc:ProcedureCode"
+   <svrl:failed-assert id="BR-BT-00105-0052"
+                       location="/ContractAwardNotice/cac:TenderingProcess/cbc:ProcedureCode"
                        role="ERROR"
                        test="normalize-space(.) = ('comp-dial', 'comp-tend', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">
-      <svrl:text>The BT-105-Procedure Procedure Type must contain one of the values of the code list procurement-procedure-type.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00105-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Name"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject/cbc:Name"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 400$')">
-      <svrl:text>The content of BT-21 Title must not exceed the limit of 400 characters at Procedure level.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Description"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject/cbc:Description"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 6000$')">
-      <svrl:text>The content of BT-24 Description must not exceed the limit of 6000 characters at Procedure level.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:ProcurementTypeCode"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject/cbc:ProcurementTypeCode"
+   <svrl:failed-assert id="BR-BT-00023-0154"
+                       location="/ContractAwardNotice/cac:ProcurementProject/cbc:ProcurementTypeCode"
                        role="ERROR"
                        test="normalize-space(.) = ('services', 'supplies', 'works')">
-      <svrl:text>The BT-23-Procedure Main Nature must contain one of the values of the code list eforms-contract-nature.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00023-0154</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
+   <svrl:failed-assert id="BR-BT-00137-0155"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^LOT-\d4$')">
-      <svrl:text>The BT-137 Purpose Lot Identifier must match the 'LotID' pattern at Lot level.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00137-0155</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cbc:FundingProgramCode"
+   <svrl:failed-assert id="BR-BT-00060-0052"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cbc:FundingProgramCode"
                        role="ERROR"
                        test="normalize-space(.) = ('eu-funds', 'no-eu-funds')">
-      <svrl:text>The BT-60-Lot EU Funds must contain one of the values of the code list eu-funded.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00060-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode"
+   <svrl:failed-assert id="BR-BT-00539-0104"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode"
                        role="ERROR"
                        test="normalize-space(.) = ('cost', 'price', 'quality')">
-      <svrl:text>The BT-539-Lot Award Criterion Type must contain one of the values of the code list award-criterion-type.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00539-0104</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:Description"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:Description"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 6000$')">
-      <svrl:text>The content of BT-540 Award Criterion Description must not exceed the limit of 6000 characters at Lot level.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 6000$')">
-      <svrl:text>The content of BT-99 Review Deadline Description must not exceed the limit of 6000 characters at Lot level.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00301-1216"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^(ORG|TPO)-\d4$')">
-      <svrl:text>The OPT-301 Financing Party (ID reference) must match the 'OrgOrTouchPointID' pattern at Lot level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00301-1216</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00301-1214"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^(ORG|TPO)-\d4$')">
-      <svrl:text>The OPT-301 Financing Party (ID reference) must match the 'OrgOrTouchPointID' pattern at Lot level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00301-1214</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[1]/cbc:ContractingSystemTypeCode"
+   <svrl:failed-assert id="BR-BT-00765-0104"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[1]/cbc:ContractingSystemTypeCode"
                        role="ERROR"
                        test="normalize-space(.) = ('fa-mix', 'fa-w-rc', 'fa-wo-rc', 'none')">
-      <svrl:text>The BT-765-Lot Framework Agreement must contain one of the values of the code list framework-agreement.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00765-0104</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[2]/cbc:ContractingSystemTypeCode"
+   <svrl:failed-assert id="BR-BT-00766-0052"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:ContractingSystem[2]/cbc:ContractingSystemTypeCode"
                        role="ERROR"
                        test="normalize-space(.) = ('dps-list', 'dps-nlist', 'none')">
-      <svrl:text>The BT-766-Lot Dynamic Purchasing System must contain one of the values of the code list dps-usage.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00766-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Name"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:Name"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 400$')">
-      <svrl:text>The content of BT-21 Title must not exceed the limit of 400 characters at Lot level.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Description"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:Description"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^.1 6000$')">
-      <svrl:text>The content of BT-24 Description must not exceed the limit of 6000 characters at Lot level.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:ProcurementTypeCode"
+   <svrl:failed-assert id="BR-BT-00023-0156"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:ProcurementTypeCode"
                        role="ERROR"
                        test="normalize-space(.) = ('services', 'supplies', 'works')">
-      <svrl:text>The BT-23-Lot Main Nature must contain one of the values of the code list contract-nature.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00023-0156</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '29']"/>
@@ -695,6 +726,37 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00150-0086"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
+                       role="ERROR"
+                       test="count(efac:ContractReference/cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">
+      <svrl:text>rule|message|BR-BT-00150-0086</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-03202-0059"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
+                       role="ERROR"
+                       test="count(efac:LotTender/cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">
+      <svrl:text>rule|message|BR-BT-03202-0059</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00543-0088"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion"
+                       role="ERROR"
+                       test="count(cbc:CalculationExpression) &gt; 0 or not(not(cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric[normalize-space(text())]))">
+      <svrl:text>rule|message|BR-BT-00543-0088</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00539-0087"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion"
+                       role="ERROR"
+                       test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description/normalize-space(text())!='')">
+      <svrl:text>rule|message|BR-BT-00539-0087</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"/>

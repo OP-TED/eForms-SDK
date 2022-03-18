@@ -73,9 +73,7 @@
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
-							<!--<cbc:ID>CONTRACT 627836</cbc:ID>-->
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2020-02-12+01:00</cbc:AwardDate>
 							<cbc:IssueDate>2020-04-09+02:00</cbc:IssueDate>
 							<efac:ContractReference>
 								<cbc:ID>RN CON:2020-02/SC</cbc:ID>
@@ -125,7 +123,7 @@
 									<cbc:PostalZone>28071</cbc:PostalZone>
 									<cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -134,12 +132,14 @@
 								<cac:Contact>
 									<cbc:Name>Dirección General de Transporte Terrestre</cbc:Name>
 									<cbc:Telephone>+34 915977000</cbc:Telephone>
+									<cbc:Telefax>+34 9159770009</cbc:Telefax>
 									<cbc:ElectronicMail>sgatt@fomento.es</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -148,6 +148,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -157,6 +159,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -185,7 +188,7 @@
 									<cbc:PostalZone>2836</cbc:PostalZone>
 									<cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -193,6 +196,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+234) 98765</cbc:Telephone>
+									<cbc:Telefax>(+234) 987659</cbc:Telefax>
 									<cbc:ElectronicMail>contact@hulk-comp.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -211,7 +215,7 @@
 								<cbc:PostalZone>2836</cbc:PostalZone>
 								<cbc:CountrySubentityCode listName="nuts">ES300</cbc:CountrySubentityCode>
 								<cac:Country>
-									<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
+									<cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
 								</cac:Country>
 							</cac:ResidenceAddress>
 							<!-- Winner Owner Nationality (BT-706) -->
@@ -234,7 +238,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>17f00f55-7178-4597-822a-545d2f55a150</cbc:ID>
+	<cbc:ID schemeName="notice-id">17f00f55-7178-4597-822a-545d2f55a150</cbc:ID>
 	<!-- element required for this doctype -->
 	<cbc:ContractFolderID>00000000-0000-0000-0000-000000000000</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-05-08+01:00</cbc:IssueDate>
@@ -341,12 +345,14 @@
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
+					<cbc:Region>anyw-cou</cbc:Region>
 					<cac:Country>
-						<cbc:IdentificationCode>ESP</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">ESP</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
+				<cbc:StartDate>2020-09-01+02:00</cbc:StartDate>
 				<cbc:DurationMeasure unitCode="MONTH">120</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 		</cac:ProcurementProject>

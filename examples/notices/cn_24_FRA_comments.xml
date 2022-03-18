@@ -47,7 +47,7 @@
 									<!--BT-503 Organization Contact Telephone Number-->
 									<cbc:Telephone>+33 235156161</cbc:Telephone>
 									<!--BT-739 Organization Contact Fax-->
-									<!--<cbc:Telefax>?</cbc:Telefax>-->
+									<cbc:Telefax>+33 235156169</cbc:Telefax>
 									<!--BT-506 Organization Contact Email Address-->
 									<cbc:ElectronicMail>contact@rouenhabitat.fr</cbc:ElectronicMail>
 								</cac:Contact>
@@ -55,6 +55,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>http://rouen.tribunal-administratif.fr/</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -85,7 +86,7 @@
 									<!--BT-503 Organization Contact Telephone Number-->
 									<cbc:Telephone>+33 232081270</cbc:Telephone>
 									<!--BT-739 Organization Contact Fax-->
-									<!--<cbc:Telefax>?</cbc:Telefax>-->
+									<cbc:Telefax>+33 232081279</cbc:Telefax>
 									<!--BT-506 Organization Contact Email Address-->
 									<cbc:ElectronicMail>greffe.ta-rouen@juradm.fr</cbc:ElectronicMail>
 								</cac:Contact>
@@ -93,6 +94,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -101,6 +103,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -110,6 +114,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -122,7 +127,7 @@
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
-	<cbc:ID>da4d46e9-490b-41ff-a2ae-8166d356a619</cbc:ID>
+	<cbc:ID schemeName="notice-id">da4d46e9-490b-41ff-a2ae-8166d356a619</cbc:ID>
 	<!--BT-04 Procedure Identifier-->
 	<cbc:ContractFolderID>e3cdabf1-e057-47a5-9210-b1f6fc757228</cbc:ContractFolderID>
 	<!--BT-05 Notice Dispatch Date-->
@@ -248,7 +253,7 @@
 				<!--<cbc:Region>anyw-cou</cbc:Region>-->
 				<!--BT-5141 Place Performance Country Code-->
 				<cac:Country>
-					<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -310,7 +315,6 @@
 			<cac:AwardingTerms>
 				<!--Award Criteria (BT-539, BT-540, BT-541, BT-543, BT-733, BT-734, BT-5421, BT-5422, BT-5423) -->
 				<cac:AwardingCriterion>
-					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -453,7 +457,7 @@
 					<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
 					<!--BT-5141 Place Performance Country Code-->
 					<cac:Country>
-						<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
@@ -464,6 +468,8 @@
 				<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
+				<!--BT-54-->
+				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
 				<!--BT-57 Lot - Renewal Description-->
 				<cac:Renewal>
 					<cac:Period>
@@ -530,7 +536,6 @@
 			<cac:AwardingTerms>
 				<!-- Award Criteria (BT-539, BT-540, BT-541, BT-543, BT-733, BT-734, BT-5421, BT-5422, BT-5423) -->
 				<cac:AwardingCriterion>
-					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -674,7 +679,7 @@
 					<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
 					<!--BT-5141 Place Performance Country Code-->
 					<cac:Country>
-						<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
@@ -685,6 +690,8 @@
 				<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
+				<!--BT-54-->
+				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
 				<!--BT-57 Lot - Renewal Description-->
 				<cac:Renewal>
 					<cac:Period>

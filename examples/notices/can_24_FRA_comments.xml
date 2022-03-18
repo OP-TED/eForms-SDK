@@ -306,7 +306,7 @@
 									<!--BT-503 Organization Contact Telephone Number-->
 									<cbc:Telephone>+33 235156161</cbc:Telephone>
 									<!--BT-739 Organization Contact Fax-->
-									<!--<cbc:Telefax>?</cbc:Telefax>-->
+									<cbc:Telefax>+33 235156169</cbc:Telefax>
 									<!--BT-506 Organization Contact Email Address-->
 									<cbc:ElectronicMail>contact@rouenhabitat.fr</cbc:ElectronicMail>
 								</cac:Contact>
@@ -314,6 +314,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>http://rouen.tribunal-administratif.fr/</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -344,7 +345,7 @@
 									<!--BT-503 Organization Contact Telephone Number-->
 									<cbc:Telephone>+33 232081270</cbc:Telephone>
 									<!--BT-739 Organization Contact Fax-->
-									<!--<cbc:Telefax>?</cbc:Telefax>-->
+									<cbc:Telefax>+33 232081279</cbc:Telefax>
 									<!--BT-506 Organization Contact Email Address-->
 									<cbc:ElectronicMail>greffe.ta-rouen@juradm.fr</cbc:ElectronicMail>
 								</cac:Contact>
@@ -352,6 +353,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -360,6 +362,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -369,6 +373,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -402,6 +407,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 2 35 67 82 82</cbc:Telephone>
+									<cbc:Telefax>+33 2 35 67 82 829</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -435,6 +441,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 1 82 97 04 80</cbc:Telephone>
+									<cbc:Telefax>+33 1 82 97 04 809</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -461,7 +468,7 @@
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
-	<cbc:ID>df45f4d1-2208-47cb-bc7a-9c7edcf8d2b8</cbc:ID>
+	<cbc:ID schemeName="notice-id">df45f4d1-2208-47cb-bc7a-9c7edcf8d2b8</cbc:ID>
 	<!--BT-04 Procedure Identifier-->
 	<cbc:ContractFolderID>e3cdabf1-e057-47a5-9210-b1f6fc757228</cbc:ContractFolderID>
 	<!--BT-05 Notice Dispatch Date-->
@@ -602,10 +609,6 @@
 		<cac:TenderingProcess>
 			<!--BT-115 GPA Coverage -->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<!--BT-125 Previous Planning Identifier-->
-			<cac:NoticeDocumentReference>
-				<cbc:ID>219497-2019</cbc:ID>
-			</cac:NoticeDocumentReference>
 			<!--BT-767 - Electronic Auction-->
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
@@ -654,6 +657,8 @@
 				<cbc:EndDate>2020-12-31+02:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
+				<!--BT-54-->
+				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
 				<!--BT-57 Lot - Renewal Description-->
 				<cac:Renewal>
 					<cac:Period>
@@ -735,10 +740,6 @@
 			<!--BT-115 GPA Coverage -->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
 			<!--BT-767 - Electronic Auction-->
-			<!--BT-125 Previous Planning Identifier-->
-			<cac:NoticeDocumentReference>
-				<cbc:ID>219497-2019</cbc:ID>
-			</cac:NoticeDocumentReference>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>
@@ -786,6 +787,8 @@
 				<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
+				<!--BT-54-->
+				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
 				<!--BT-58 - Renewal Maximum-->
 				<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
 				<!--BT-57 Lot - Renewal Description-->

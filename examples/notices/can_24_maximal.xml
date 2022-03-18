@@ -413,6 +413,7 @@
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>https://www.fin-adm.com</cbc:WebsiteURI>
 								<cbc:EndpointID>http://tender-submit.fin-adm.com</cbc:EndpointID>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
@@ -440,10 +441,12 @@
 								<cac:Contact>
 									<cbc:Name>Head of Procurement Department</cbc:Name>
 									<cbc:Telephone>+123 45678</cbc:Telephone>
+									<cbc:Telefax>+123 456789</cbc:Telefax>
 									<cbc:ElectronicMail>proc-info@fin-adm.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:TouchPoint>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>https://www.fin-adm.com</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -472,11 +475,14 @@
 									<cbc:Name>Proc Archives Dpt Lead</cbc:Name>
 									<!--BT-503-->
 									<cbc:Telephone>+44 123456776</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 1234567769</cbc:Telefax>
 									<!--BT-506-->
 									<cbc:ElectronicMail>proc-archi@fin-adm.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:TouchPoint>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>https://www.fin-adm.com</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -505,6 +511,8 @@
 									<cbc:Name>Evaluation Dpt</cbc:Name>
 									<!--BT-503-->
 									<cbc:Telephone>+44 123456777</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 1234567779</cbc:Telefax>
 									<!--BT-506-->
 									<cbc:ElectronicMail>proc-eval@fin-adm.com</cbc:ElectronicMail>
 								</cac:Contact>
@@ -742,6 +750,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0007</cbc:ID>
 								</cac:PartyIdentification>
@@ -750,6 +759,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -759,6 +770,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@esendcorp.lu</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -974,6 +986,31 @@
 						</efac:Organization>
 					<efac:UltimateBeneficialOwner>
 						<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+						<cbc:FirstName>Jean</cbc:FirstName>
+						<!--BT-500-->
+						<cbc:FamilyName>Dupont</cbc:FamilyName>
+						<cac:Contact>
+							<!--BT-503-->
+							<cbc:Telephone>+33 123456780</cbc:Telephone>
+							<!--BT-739-->
+							<cbc:Telefax>+33 123456789</cbc:Telefax>
+							<!--BT-506-->
+							<cbc:ElectronicMail>jean@dupont.be</cbc:ElectronicMail>
+						</cac:Contact>
+						<cac:ResidenceAddress>
+							<!--BT-510-->
+							<cbc:StreetName>7 rue de la loi</cbc:StreetName>
+							<!--BT-513-->
+							<cbc:CityName>Bruxelles</cbc:CityName>
+							<!--BT-512-->
+							<cbc:PostalZone>10123</cbc:PostalZone>
+							<!--BT-507-->
+							<cbc:CountrySubentityCode listName="nuts">BE100</cbc:CountrySubentityCode>
+							<cac:Country>
+								<!--BT-514-->
+								<cbc:IdentificationCode listName="country">BEL</cbc:IdentificationCode>
+							</cac:Country>
+						</cac:ResidenceAddress>
 						<!--BT-706-->
 						<efac:Nationality>
 							<cbc:NationalityID>BEL</cbc:NationalityID>
@@ -1008,7 +1045,7 @@
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
 	<!--BT-701-->
-	<cbc:ID>f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
+	<cbc:ID schemeName="notice-id">15377ca1-6cf7-4060-90f0-9290128957a3</cbc:ID>
 	<!--BT-04-->
 	<cbc:ContractFolderID>2d2d24a2-df84-449e-8695-fb66ef504a5a</cbc:ContractFolderID>
 	<!--BT-05-->
@@ -1394,7 +1431,7 @@
 					<cbc:Region>anyw-cou</cbc:Region>
 					<!--BT-5141-->
 					<cac:Country>
-						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
