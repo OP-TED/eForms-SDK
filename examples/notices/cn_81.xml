@@ -23,19 +23,22 @@
 									<cbc:StreetName>Land Equipment, Special Projects SCM (SPSCM)</cbc:StreetName>
 									<cbc:CityName>Bristol</cbc:CityName>
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
 									<cbc:Name>not available</cbc:Name>
 									<cbc:Telephone>+44 3067988090</cbc:Telephone>
+									<cbc:Telefax>+44 30679880909</cbc:Telefax>
 									<cbc:ElectronicMail>DESLESTSP-SPCME-TENDERS@mod.gov.uk</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -44,6 +47,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -53,6 +58,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -64,7 +70,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>fc9cfb17-81d0-4f26-9a00-0c4bd25cf0a2</cbc:ID>
+	<cbc:ID schemeName="notice-id">fc9cfb17-81d0-4f26-9a00-0c4bd25cf0a2</cbc:ID>
 	<cbc:ContractFolderID>82c626cc-83e1-4644-9cf1-6ed82b3e3dbc</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
 	<cbc:IssueTime>03:23:02+01:00</cbc:IssueTime>
@@ -118,8 +124,9 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">United Kingdom</cbc:Description>
 			<cac:Address>
+				<cbc:Region>anyw-cou</cbc:Region>
 				<cac:Country>
-					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -205,10 +212,6 @@
 			</cac:PostAwardProcess>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
-			<cac:TenderSubmissionDeadlinePeriod>
-				<cbc:EndDate>2020-05-07+01:00</cbc:EndDate>
-				<cbc:EndTime>23:55:00+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
 			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2020-05-07+01:00</cbc:EndDate>
 				<cbc:EndTime>23:55:00+01:00</cbc:EndTime>
@@ -245,12 +248,14 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="ENG">United Kingdom</cbc:Description>
 				<cac:Address>
+					<cbc:Region>anyw-cou</cbc:Region>
 					<cac:Country>
-						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
+				<cbc:StartDate>2020-12-01+02:00</cbc:StartDate>
 				<cbc:DurationMeasure unitCode="MONTH">18</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>

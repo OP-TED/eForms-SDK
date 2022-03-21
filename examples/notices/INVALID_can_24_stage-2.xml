@@ -83,7 +83,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID></cbc:ID>
+	<cbc:ID schemeName="notice-id"></cbc:ID>
 	<cbc:ContractFolderID></cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>

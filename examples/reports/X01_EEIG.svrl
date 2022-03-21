@@ -45,21 +45,13 @@
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
    <svrl:fired-rule context="/*[$noticeSubType = 'X01']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions[$noticeSubType = 'X01']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension[$noticeSubType = 'X01']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[$noticeSubType = 'X01']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X01']"/>
-   <svrl:fired-rule context="/*/cac:SenderParty[$noticeSubType = 'X01']"/>
    <svrl:fired-rule context="/*/cac:BusinessParty[$noticeSubType = 'X01']"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[$noticeSubType = 'X01']"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme[$noticeSubType = 'X01']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
    <svrl:fired-rule context="/*[$noticeSubType = 'X01']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X01']"/>
    <svrl:fired-rule context="/*/cac:SenderParty/cac:Contact[$noticeSubType = 'X01']"/>
    <svrl:fired-rule context="/*/cac:BusinessParty[$noticeSubType = 'X01']"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[$noticeSubType = 'X01']"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress[$noticeSubType = 'X01']"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference[$noticeSubType = 'X01']"/>
    <svrl:fired-rule context="/*/efac:NoticePurpose[$noticeSubType = 'X01']"/>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
@@ -68,8 +60,8 @@
    <svrl:fired-rule context="/*/cbc:Note"/>
    <svrl:fired-rule context="/*/cac:SenderParty/cac:Contact"/>
    <svrl:fired-rule context="/*/cac:BusinessParty"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference"/>
    <svrl:fired-rule context="/*/efac:NoticePurpose"/>
    <svrl:active-pattern id="EFORMS-stage-3-not-empty" name="EFORMS-stage-3-not-empty"/>
@@ -77,7 +69,7 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
    <svrl:fired-rule context="/*/cbc:CustomizationID"/>
-   <svrl:fired-rule context="/*/cbc:ID"/>
+   <svrl:fired-rule context="/*/cbc:ID[@schemeName='notice-id']"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:IssueTime"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
@@ -85,17 +77,19 @@
    <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
    <svrl:fired-rule context="/*/cbc:NoticeLanguageCode"/>
    <svrl:fired-rule context="/*/cbc:Note"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cbc:RegistrationName"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cbc:RegistrationDate"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:CityName"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:PostalZone"/>
-   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cac:Country/cbc:IdentificationCode"/>
+   <svrl:fired-rule context="/*/cac:SenderParty/cac:Contact/cbc:ElectronicMail"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cbc:RegistrationDate"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:CityName"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cbc:PostalZone"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cac:Country/cbc:IdentificationCode"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:ReferencedDocumentInternalAddress"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:DocumentDescription"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI"/>
    <svrl:fired-rule context="/*/efac:NoticePurpose/cbc:PurposeCode"/>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X01']"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress[$noticeSubType = 'X01']"/>
    <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>
 </svrl:schematron-output>

@@ -19,6 +19,7 @@
 					<efac:Organizations>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -27,6 +28,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -36,12 +39,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 292944331</cbc:Telephone>
+									<cbc:Telefax>+352 2929443319</cbc:Telefax>
 									<cbc:ElectronicMail>op-appels-offres@publications.europa.eu</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://curia.europa.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -50,6 +55,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -59,12 +66,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 4303-1</cbc:Telephone>
+									<cbc:Telefax>+352 4303-19</cbc:Telefax>
 									<cbc:ElectronicMail>GeneralCourt.Registry@curia.europa.eu</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://example-mediator.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
@@ -73,6 +82,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Example City</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -82,6 +93,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+123 456 789</cbc:Telephone>
+									<cbc:Telefax>+123 456 7899</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -93,7 +105,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>1d192942-a4a3-4833-8775-ca38f7ec09ca</cbc:ID>
+	<cbc:ID schemeName="notice-id">1d192942-a4a3-4833-8775-ca38f7ec09ca</cbc:ID>
 	<cbc:ContractFolderID>4805c409-5939-4be9-8abd-837f7a5fee23</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-12-21+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
@@ -186,6 +198,11 @@
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="ENG">Within 2 months of the notification to the plaintiff, or, in absence thereof, of the day on which it came to the knowledge of the plaintiff. A complaint to the European Ombudsman does not have as an effect either to suspend this period or to open a new period for lodging appeals.</cbc:Description>
 				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>

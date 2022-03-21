@@ -39,13 +39,16 @@ But with the minimal amount of information while still valid
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>PROJ DEF/2022-01</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2019-09-02+02:00</cbc:AwardDate>
+							<cbc:IssueDate>2019-09-03+02:00</cbc:IssueDate>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
@@ -79,6 +82,8 @@ But with the minimal amount of information while still valid
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Rouen Cedex 1</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 									</cac:Country>
@@ -102,6 +107,8 @@ But with the minimal amount of information while still valid
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Rouen</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 									</cac:Country>
@@ -126,6 +133,8 @@ But with the minimal amount of information while still valid
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Le Grand-Quevilly</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 									</cac:Country>
@@ -146,9 +155,9 @@ But with the minimal amount of information while still valid
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>65667997-031a-4198-bd25-7225449ef479</cbc:ID>
+	<cbc:ID schemeName="notice-id">65667997-031a-4198-bd25-7225449ef479</cbc:ID>
 	<cbc:ContractFolderID>022d0ef9-6338-42d9-afa4-a87709128061</cbc:ContractFolderID>
-	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>
+	<cbc:IssueDate>2019-10-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>

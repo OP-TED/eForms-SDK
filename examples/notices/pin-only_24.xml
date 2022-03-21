@@ -23,8 +23,10 @@
 								<cac:PostalAddress>
 									<cbc:StreetName>PartyNameStreetName1234</cbc:StreetName>
 									<cbc:CityName>City1234</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">DE401</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -36,12 +38,14 @@
 								<cac:Contact>
 									<cbc:Name>Contactname1234</cbc:Name>
 									<cbc:Telephone>123456789</cbc:Telephone>
+									<cbc:Telefax>1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://appeal-example.com</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -52,8 +56,9 @@
 									<cbc:StreetName>Some street</cbc:StreetName>
 									<cbc:CityName>AppealCity</cbc:CityName>
 									<cbc:PostalZone>12354</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">DE113</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -61,12 +66,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>123456789</cbc:Telephone>
+									<cbc:Telefax>1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -75,6 +82,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -84,6 +93,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -95,7 +105,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>f252f386-55ac-4fa8-9be4-9f950b9904c8</cbc:ID>
+	<cbc:ID schemeName="notice-id">f252f386-55ac-4fa8-9be4-9f950b9904c8</cbc:ID>
 	<cbc:IssueDate>2020-05-05+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
@@ -141,6 +151,7 @@
 			<cbc:Description languageID="ENG">RealizedLocDesc1234</cbc:Description>
 			<cac:Address>
 				<cbc:StreetName>RealizedLocStreet1234</cbc:StreetName>
+				<cbc:AdditionalStreetName>RealizedLocAdditionalStreet1234</cbc:AdditionalStreetName>
 				<cbc:Department>RealizedLocDept1234</cbc:Department>
 				<cbc:CityName>RealizedLocCity1234</cbc:CityName>
 				<cbc:PostalZone>RealizedLocPostalZone1234</cbc:PostalZone>
@@ -149,15 +160,10 @@
 					<cbc:Line>RealizedLocAddressLine1234</cbc:Line>
 				</cac:AddressLine>
 				<cac:Country>
-					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
-		<cac:PlannedPeriod>
-			<cbc:StartDate>2020-05-10+02:00</cbc:StartDate>
-			<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
-			<cbc:DurationMeasure unitCode="MONTH">7</cbc:DurationMeasure>
-		</cac:PlannedPeriod>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Part">PAR-0001</cbc:ID>
@@ -201,6 +207,7 @@
 				<cbc:Description languageID="ENG">RealizedLocDesc1234</cbc:Description>
 				<cac:Address>
 					<cbc:StreetName>RealizedLocStreet1234</cbc:StreetName>
+					<cbc:AdditionalStreetName>RealizedLocAdditionalStreet1234</cbc:AdditionalStreetName>
 					<cbc:Department>RealizedLocDept1234</cbc:Department>
 					<cbc:CityName>RealizedLocCity1234</cbc:CityName>
 					<cbc:PostalZone>RealizedLocPostalZone1234</cbc:PostalZone>
@@ -209,7 +216,7 @@
 						<cbc:Line>RealizedLocAddressLine1234</cbc:Line>
 					</cac:AddressLine>
 					<cac:Country>
-						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>

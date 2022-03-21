@@ -21,6 +21,8 @@ But with the minimal amount of information while still valid
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -44,6 +46,8 @@ But with the minimal amount of information while still valid
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -67,6 +71,8 @@ But with the minimal amount of information while still valid
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Example City</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -87,7 +93,7 @@ But with the minimal amount of information while still valid
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>f42be27e-09cf-4f0e-a745-63ec689631e6</cbc:ID>
+	<cbc:ID schemeName="notice-id">f42be27e-09cf-4f0e-a745-63ec689631e6</cbc:ID>
 	<cbc:ContractFolderID>4805c409-5939-4be9-8abd-837f7a5fee23</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
@@ -180,6 +186,11 @@ But with the minimal amount of information while still valid
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="ENG">Within 2 months of the notification to the plaintiff, or, in absence thereof, of the day on which it came to the knowledge of the plaintiff. A complaint to the European Ombudsman does not have as an effect either to suspend this period or to open a new period for lodging appeals.</cbc:Description>
 				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>

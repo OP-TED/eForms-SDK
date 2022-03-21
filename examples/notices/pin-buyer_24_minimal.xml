@@ -20,8 +20,10 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Genova</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">ITF14</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -40,7 +42,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>e45d1409-9944-4fb0-84c5-f41ce774d37f</cbc:ID>
+	<cbc:ID schemeName="notice-id">e45d1409-9944-4fb0-84c5-f41ce774d37f</cbc:ID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
 	<cbc:IssueTime>03:57:07+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
