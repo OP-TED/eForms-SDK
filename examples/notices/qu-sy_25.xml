@@ -136,7 +136,7 @@
 	<cac:ContractingParty>
 		<cbc:BuyerProfileURI>https://acquebresciane.acquistitelematici.it</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="entity-activity">water</cbc:ActivityTypeCode>
