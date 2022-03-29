@@ -13,7 +13,6 @@
 						<efac:Organization>
 							<efac:Company>
 								<cbc:WebsiteURI>http://www.stuttgart-airport.com/</cbc:WebsiteURI>
-								<cbc:EndpointID>http://www.subreport.de/E49898235</cbc:EndpointID>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -238,6 +237,12 @@
 					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>http://www.subreport.de/E49898235</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="DEU">Auf die Rügeobliegenheiten nach § 160 Abs. 3 GWB wird verwiesen. Ein Nachprüfungsantrag ist nach § 160 Abs. 3 S.1 Nr. 4 GWB insbesondere unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>
@@ -372,6 +377,12 @@
 					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>http://www.subreport.de/E49898235</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:TenderRecipientParty>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="DEU">Auf die Rügeobliegenheiten nach § 160 Abs. 3 GWB wird verwiesen. Ein Nachprüfungsantrag ist nach § 160 Abs. 3 S.1 Nr. 4 GWB insbesondere unzulässig, soweit mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, der Rüge nicht abhelfen zu wollen, vergangen sind.</cbc:Description>

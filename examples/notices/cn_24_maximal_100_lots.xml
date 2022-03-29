@@ -468,7 +468,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -613,6 +612,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -689,18 +689,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -815,7 +808,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -960,6 +952,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -1036,18 +1029,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -1162,7 +1148,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -1307,6 +1292,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -1383,18 +1369,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -1509,7 +1488,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -1654,6 +1632,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -1730,18 +1709,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -1856,7 +1828,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -2001,6 +1972,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -2077,18 +2049,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -2203,7 +2168,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -2348,6 +2312,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -2424,18 +2389,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -2550,7 +2508,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -2695,6 +2652,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -2771,18 +2729,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -2897,7 +2848,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -3042,6 +2992,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -3118,18 +3069,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -3244,7 +3188,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -3389,6 +3332,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -3465,18 +3409,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -3591,7 +3528,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -3736,6 +3672,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -3812,18 +3749,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -3938,7 +3868,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -4083,6 +4012,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -4159,18 +4089,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -4285,7 +4208,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -4430,6 +4352,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -4506,18 +4429,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -4632,7 +4548,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -4777,6 +4692,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -4853,18 +4769,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -4979,7 +4888,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -5124,6 +5032,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -5200,18 +5109,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -5326,7 +5228,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -5471,6 +5372,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -5547,18 +5449,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -5673,7 +5568,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -5818,6 +5712,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -5894,18 +5789,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -6020,7 +5908,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -6165,6 +6052,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -6241,18 +6129,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -6367,7 +6248,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -6512,6 +6392,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -6588,18 +6469,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -6714,7 +6588,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -6859,6 +6732,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -6935,18 +6809,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -7061,7 +6928,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -7206,6 +7072,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -7282,18 +7149,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -7408,7 +7268,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -7553,6 +7412,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -7629,18 +7489,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -7755,7 +7608,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -7900,6 +7752,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -7976,18 +7829,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -8102,7 +7948,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -8247,6 +8092,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -8323,18 +8169,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -8449,7 +8288,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -8594,6 +8432,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -8670,18 +8509,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -8796,7 +8628,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -8941,6 +8772,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -9017,18 +8849,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -9143,7 +8968,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -9288,6 +9112,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -9364,18 +9189,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -9490,7 +9308,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -9635,6 +9452,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -9711,18 +9529,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -9837,7 +9648,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -9982,6 +9792,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -10058,18 +9869,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -10184,7 +9988,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -10329,6 +10132,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -10405,18 +10209,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -10531,7 +10328,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -10676,6 +10472,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -10752,18 +10549,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -10878,7 +10668,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -11023,6 +10812,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -11099,18 +10889,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -11225,7 +11008,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -11370,6 +11152,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -11446,18 +11229,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -11572,7 +11348,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -11717,6 +11492,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -11793,18 +11569,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -11919,7 +11688,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -12064,6 +11832,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -12140,18 +11909,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -12266,7 +12028,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -12411,6 +12172,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -12487,18 +12249,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -12613,7 +12368,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -12758,6 +12512,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -12834,18 +12589,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -12960,7 +12708,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -13105,6 +12852,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -13181,18 +12929,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -13307,7 +13048,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -13452,6 +13192,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -13528,18 +13269,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -13654,7 +13388,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -13799,6 +13532,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -13875,18 +13609,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -14001,7 +13728,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -14146,6 +13872,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -14222,18 +13949,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -14348,7 +14068,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -14493,6 +14212,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -14569,18 +14289,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -14695,7 +14408,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -14840,6 +14552,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -14916,18 +14629,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -15042,7 +14748,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -15187,6 +14892,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -15263,18 +14969,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -15389,7 +15088,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -15534,6 +15232,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -15610,18 +15309,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -15736,7 +15428,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -15881,6 +15572,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -15957,18 +15649,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -16083,7 +15768,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -16228,6 +15912,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -16304,18 +15989,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -16430,7 +16108,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -16575,6 +16252,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -16651,18 +16329,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -16777,7 +16448,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -16922,6 +16592,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -16998,18 +16669,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -17124,7 +16788,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -17269,6 +16932,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -17345,18 +17009,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -17471,7 +17128,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -17616,6 +17272,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -17692,18 +17349,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -17818,7 +17468,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -17963,6 +17612,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -18039,18 +17689,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -18165,7 +17808,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -18310,6 +17952,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -18386,18 +18029,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -18512,7 +18148,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -18657,6 +18292,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -18733,18 +18369,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -18859,7 +18488,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -19004,6 +18632,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -19080,18 +18709,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -19206,7 +18828,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -19351,6 +18972,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -19427,18 +19049,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -19553,7 +19168,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -19698,6 +19312,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -19774,18 +19389,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -19900,7 +19508,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -20045,6 +19652,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -20121,18 +19729,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -20247,7 +19848,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -20392,6 +19992,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -20468,18 +20069,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -20594,7 +20188,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -20739,6 +20332,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -20815,18 +20409,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -20941,7 +20528,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -21086,6 +20672,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -21162,18 +20749,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -21288,7 +20868,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -21433,6 +21012,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -21509,18 +21089,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -21635,7 +21208,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -21780,6 +21352,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -21856,18 +21429,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -21982,7 +21548,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -22127,6 +21692,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -22203,18 +21769,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -22329,7 +21888,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -22474,6 +22032,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -22550,18 +22109,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -22676,7 +22228,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -22821,6 +22372,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -22897,18 +22449,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -23023,7 +22568,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -23168,6 +22712,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -23244,18 +22789,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -23370,7 +22908,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -23515,6 +23052,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -23591,18 +23129,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -23717,7 +23248,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -23862,6 +23392,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -23938,18 +23469,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -24064,7 +23588,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -24209,6 +23732,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -24285,18 +23809,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -24411,7 +23928,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -24556,6 +24072,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -24632,18 +24149,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -24758,7 +24268,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -24903,6 +24412,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -24979,18 +24489,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -25105,7 +24608,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -25250,6 +24752,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -25326,18 +24829,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -25452,7 +24948,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -25597,6 +25092,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -25673,18 +25169,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -25799,7 +25288,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -25944,6 +25432,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -26020,18 +25509,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -26146,7 +25628,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -26291,6 +25772,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -26367,18 +25849,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -26493,7 +25968,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -26638,6 +26112,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -26714,18 +26189,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -26840,7 +26308,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -26985,6 +26452,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -27061,18 +26529,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -27187,7 +26648,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -27332,6 +26792,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -27408,18 +26869,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -27534,7 +26988,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -27679,6 +27132,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -27755,18 +27209,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -27881,7 +27328,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -28026,6 +27472,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -28102,18 +27549,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -28228,7 +27668,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -28373,6 +27812,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -28449,18 +27889,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -28575,7 +28008,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -28720,6 +28152,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -28796,18 +28229,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -28922,7 +28348,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -29067,6 +28492,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -29143,18 +28569,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -29269,7 +28688,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -29414,6 +28832,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -29490,18 +28909,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -29616,7 +29028,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -29761,6 +29172,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -29837,18 +29249,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -29963,7 +29368,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -30108,6 +29512,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -30184,18 +29589,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -30310,7 +29708,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -30455,6 +29852,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -30531,18 +29929,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -30657,7 +30048,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -30802,6 +30192,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -30878,18 +30269,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -31004,7 +30388,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -31149,6 +30532,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -31225,18 +30609,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -31351,7 +30728,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -31496,6 +30872,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -31572,18 +30949,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -31698,7 +31068,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -31843,6 +31212,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -31919,18 +31289,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -32045,7 +31408,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -32190,6 +31552,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -32266,18 +31629,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -32392,7 +31748,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -32537,6 +31892,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -32613,18 +31969,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -32739,7 +32088,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -32884,6 +32232,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -32960,18 +32309,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -33086,7 +32428,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -33231,6 +32572,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -33307,18 +32649,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -33433,7 +32768,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -33578,6 +32912,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -33654,18 +32989,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -33780,7 +33108,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -33925,6 +33252,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -34001,18 +33329,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -34127,7 +33448,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -34272,6 +33592,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -34348,18 +33669,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -34474,7 +33788,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -34619,6 +33932,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -34695,18 +34009,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>
@@ -34821,7 +34128,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaCode listName="performing-staff-qualification">t-requ</cbc:RequiredCurriculaCode>
 			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
@@ -34966,6 +34272,7 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
@@ -35042,18 +34349,11 @@
 				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>7</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
 				<cbc:Description languageID="ENG">Electronic auction description ---</cbc:Description>

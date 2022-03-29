@@ -258,6 +258,9 @@
 					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.delta-esourcing.com/tenders/UK-title/Z9Q7MGAEA8</cbc:EndpointID>
+			</cac:TenderRecipientParty>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="ENG">Within ...</cbc:Description>

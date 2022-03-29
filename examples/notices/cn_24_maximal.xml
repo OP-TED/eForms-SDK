@@ -709,8 +709,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<!--BT-63-->
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<!--BT-60-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!--BT-79-->
@@ -918,6 +916,8 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<!--BT-18-->
+				<cbc:EndpointID>http://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<!--OPT-301-->
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
@@ -1015,12 +1015,6 @@
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<!--BT-19-->
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<!--BT-745-->
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<!--BT-661-->
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
@@ -1029,10 +1023,6 @@
 				<!--BT-50-->
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<!--BT-134-->
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<!--BT-767-->
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
@@ -1202,8 +1192,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<!--BT-63-->
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<!--BT-60-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!--BT-79-->
@@ -1487,7 +1475,7 @@
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
 			<!--BT-17-->
-			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:SubmissionMethodCode listName="esubmission">not-allowed</cbc:SubmissionMethodCode>
 			<!--BT-52-->
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<!--BT-115-->
@@ -1522,10 +1510,6 @@
 				<!--BT-50-->
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<!--BT-134-->
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<!--BT-767-->
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>

@@ -279,8 +279,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<!-- BT-63 Variants-->
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<!--BT-60 - EU Funds-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!-- BT-94 Recurrence -->
@@ -470,6 +468,8 @@
 			<cac:ContractExtension>
 				<!--BT-54-->
 				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
+				<!--BT-58-Lot - Renewal Maximum -->
+				<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
 				<!--BT-57 Lot - Renewal Description-->
 				<cac:Renewal>
 					<cac:Period>
@@ -500,8 +500,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<!-- BT-63 Variants-->
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<!--BT-60 - EU Funds-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!-- BT-94 Recurrence -->
@@ -692,6 +690,8 @@
 			<cac:ContractExtension>
 				<!--BT-54-->
 				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
+				<!-- BT-58-Lot - Renewal Maximum -->
+				<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
 				<!--BT-57 Lot - Renewal Description-->
 				<cac:Renewal>
 					<cac:Period>

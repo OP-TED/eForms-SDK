@@ -164,9 +164,6 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
-	<cac:TenderingProcess>
-		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
-	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>Dsp crèches</cbc:ID>
 		<cbc:Name languageID="FRA">Concession de service public pour la gestion des équipements d'accueil collectif de la petite enfance — secteur nord-est Loches et Tauxigny-Saint-Bauld</cbc:Name>
@@ -268,6 +265,7 @@
 			</cac:Language>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
 			<cac:TenderSubmissionDeadlinePeriod>
 				<cbc:EndDate>2020-07-01+01:00</cbc:EndDate>
