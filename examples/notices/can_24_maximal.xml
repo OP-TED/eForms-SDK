@@ -21,10 +21,6 @@
 							</efac:TenderLot>
 						</efac:GroupFramework>
 						<efac:LotResult>
-							<!--BT-711-->
-							<cbc:HigherTenderAmount currencyID="EUR">9999999.99</cbc:HigherTenderAmount>
-							<!--BT-710-->
-							<cbc:LowerTenderAmount currencyID="EUR">999999.99</cbc:LowerTenderAmount>
 							<!--BT-142-->
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<!--BT-119-->
@@ -152,28 +148,6 @@
 								<!--BT-759-->
 								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
-							<efac:SettledContract>
-								<!--OPT-315-->
-								<cbc:ID schemeName="contract">CON-0002</cbc:ID>
-							</efac:SettledContract>
-							<efac:StrategicProcurementStatistics>
-								<!--OPT-155-->
-								<efbc:StatisticsCode listName="green-procurement">vehicles</efbc:StatisticsCode>
-								<!--BT-715 OPT-156-->
-								<efbc:StatisticsNumeric>45</efbc:StatisticsNumeric>
-							</efac:StrategicProcurementStatistics>
-							<efac:StrategicProcurementStatistics>
-								<!--OPT-155-->
-								<efbc:StatisticsCode listName="green-procurement">vehicles-zero-emission</efbc:StatisticsCode>
-								<!--BT-725 OPT-156-->
-								<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
-							</efac:StrategicProcurementStatistics>
-							<efac:StrategicProcurementStatistics>
-								<!--OPT-155-->
-								<efbc:StatisticsCode listName="green-procurement">vehicles-clean</efbc:StatisticsCode>
-								<!--BT-716 OPT-156-->
-								<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
-							</efac:StrategicProcurementStatistics>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 							</efac:TenderLot>
