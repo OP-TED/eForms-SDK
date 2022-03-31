@@ -18,9 +18,6 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
-							<cac:LegalMonetaryTotal>
-								<cbc:PayableAmount currencyID="EUR">350000</cbc:PayableAmount>
-							</cac:LegalMonetaryTotal>
 							<efac:SubcontractingTerm>
 								<efbc:TermCode listName="applicability">not-known</efbc:TermCode>
 							</efac:SubcontractingTerm>
