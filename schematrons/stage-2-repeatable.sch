@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.210 created on the 2022-03-11T15:38:26.-->
+<!--File generated from metadata database version 0.3.283 created on the 2022-04-01T11:53:22.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BT-01-notice_R</assert>
@@ -966,10 +966,6 @@
 		<assert id="BT-196(BT-709)-LotResult_C" role="ERROR" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|message|BT-196(BT-709)-LotResult_C</assert>
 		<assert id="BT-197(BT-709)-LotResult_R" role="ERROR" test="count(cbc:ReasonCode) &lt; 2">rule|message|BT-197(BT-709)-LotResult_R</assert>
 		<assert id="BT-198(BT-709)-LotResult_R" role="ERROR" test="count(efbc:PublicationDate) &lt; 2">rule|message|BT-198(BT-709)-LotResult_R</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics">
-		<assert id="BT-759-LotResult_R" role="ERROR" test="count(efbc:StatisticsNumeric) &lt; 2">rule|message|BT-759-LotResult_R</assert>
-		<assert id="BT-760-LotResult_R" role="ERROR" test="count(efbc:StatisticsCode) &lt; 2">rule|message|BT-760-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou']">
 		<assert id="BT-195(BT-759)-LotResult_R" role="ERROR" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|message|BT-195(BT-759)-LotResult_R</assert>
