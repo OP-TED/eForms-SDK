@@ -20,6 +20,9 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">4500000</cbc:TotalAmount>
 						<efac:LotResult>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
 							<efac:SettledContract>
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>

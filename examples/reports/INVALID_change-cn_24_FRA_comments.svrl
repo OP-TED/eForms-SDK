@@ -7,6 +7,7 @@
                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
                         xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+                        xmlns:fn="http://www.w3.org/2005/xpath-functions"
                         xmlns:iso="http://purl.oclc.org/dsdl/schematron"
                         xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"
                         xmlns:saxon="http://saxon.sf.net/"
@@ -40,6 +41,7 @@
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"/>
    <svrl:ns-prefix-in-attribute-values prefix="pin"
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
    <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="cbc:CountrySubentityCode"/>
@@ -570,10 +572,17 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '16']"/>
+   <svrl:failed-assert id="BR-BT-00063-0022"
+                       location="/ContractNotice/cac:ProcurementProjectLot[2]/cac:TenderingTerms"
+                       role="ERROR"
+                       test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">
+      <svrl:text>rule|message|BR-BT-00063-0022</svrl:text>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '16']"/>
@@ -587,6 +596,7 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '16']"/>
@@ -610,4 +620,146 @@
    <svrl:fired-rule context="//cac:ProcurementProject"/>
    <svrl:fired-rule context="//cac:ProcurementProject/cbc:ProcurementTypeCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot/cac:ProcurementProject/cac:PlannedPeriod"/>
+   <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
+   <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']"/>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="deep-equal( cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()), $parentNotice/*/cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()) )">
+      <svrl:text>
+		The BT-105 Procedure Type value must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="deep-equal( cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric/fn:normalize-space(text()), $parentNotice/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
+      <svrl:text>
+		The BT-31 Lots Max Allowed must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="deep-equal( cac:TenderingProcess/cbc:PartPresentationCode/fn:normalize-space(text()), $parentNotice/*/cac:TenderingProcess/cbc:PartPresentationCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
+      <svrl:text>
+		The BT-763 Lots All Required must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="deep-equal( cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric/fn:normalize-space(text()), $parentNotice/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '22', '23', '24') )">
+      <svrl:text>
+		The BT-33 Lots Max Awarded must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="cbc:ContractFolderID/fn:normalize-space(text()) = $parentNotice/*/cbc:ContractFolderID/fn:normalize-space(text())">
+      <svrl:text>
+		The BT-04 Procedure Identifier must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37' ) )">
+      <svrl:text>
+		The BT-5071 Place Performance Country Subdivision for the procedure must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+      <svrl:text>
+		The BT-5141 Place Performance Country Code for the procedure must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice"
+                       role="ERROR"
+                       test="deep-equal( sort(cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode), sort($parentNotice/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode) ) or not( $noticeSubType = ('7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40') )">
+      <svrl:text>
+		The BT-262 MainCommodityClassification codes for the procedure must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ContractingParty"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty"
+                       role="ERROR"
+                       test="deep-equal( cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()), $parentNotice/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()) )">
+      <svrl:text>
+		The BT-11 Buyer Legal Type must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ContractingParty"
+                       role="ERROR"
+                       test="deep-equal( cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']/fn:normalize-space(text()), $parentNotice/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']/fn:normalize-space(text()) )">
+      <svrl:text>
+		The BT-10 Activity Authority must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']"/>
+   <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement"/>
+   <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification"/>
+   <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]"
+                       role="ERROR"
+                       test="deep-equal( cac:TenderingTerms/cbc:VariantConstraintCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cbc:VariantConstraintCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('7', '8', '9', '10', '11', '12', '13', '16', '17', '18', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '33', '34', '36', '37') )">
+      <svrl:text>
+		The BT-63 Variants for Lot LOT-0002 must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]"
+                       role="ERROR"
+                       test="deep-equal( cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40') )">
+      <svrl:text>
+		The BT-23 Main Nature for Lot LOT-0002 must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]"
+                       role="ERROR"
+                       test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+      <svrl:text>
+		The BT-5071 Place Performance Country Subdivision for Lot LOT-0002 must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]"
+                       role="ERROR"
+                       test="deep-equal( cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '29', '30', '31', '32', '33', '34', '35', '36', '37') )">
+      <svrl:text>
+		The BT-5141 Place Performance Country Code for Lot LOT-0002 must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]"
+                       role="ERROR"
+                       test="deep-equal( cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']/fn:normalize-space(text()) )">
+      <svrl:text>
+		The values for BT-71 Reserved Participation for Lot LOT-0002 must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]"
+                       role="ERROR"
+                       test="( cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22') )">
+      <svrl:text>
+		The BT-736 Reserved Execution for Lot LOT-0002 must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]"
+                       role="ERROR"
+                       test="deep-equal( cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()), $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '15', '16', '17', '19', '25', '26', '28', '29', '30', '32', '38', '39', '40') )">
+      <svrl:text>
+		The BT-115 GPA Coverage must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement"
+                       role="ERROR"
+                       test="( cbc:TendererRequirementTypeCode[@listName='reserved-procurement']/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']/fn:normalize-space(text()) ) or not( $noticeSubType = ('10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22') )">
+      <svrl:text>
+		The BT-71 Reserved Participation for Lot LOT-0002 must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification"/>
+   <svrl:failed-assert location="/ContractNotice/cac:ProcurementProjectLot[2]/cac:ProcurementProject/cac:MainCommodityClassification"
+                       role="ERROR"
+                       test="( cbc:ItemClassificationCode/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProjectLot[cbc:ID[@schemeName='Lot']/fn:normalize-space(text()) = $lot-id]/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[@listName = $list-name]/fn:normalize-space(text()) ) or not( $noticeSubType = ('7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40') )">
+      <svrl:text>
+		The BT-262 MainCommodityClassification codes for Lot LOT-0002 must be the same as for the parent notice.
+	</svrl:text>
+   </svrl:failed-assert>
 </svrl:schematron-output>

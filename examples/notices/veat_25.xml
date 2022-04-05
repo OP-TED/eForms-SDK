@@ -18,7 +18,6 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
-							<cbc:RankCode>1</cbc:RankCode>
 							<efac:SubcontractingTerm>
 								<efbc:TermDescription languageID="ENG">The contract/lot/concession is likely to be subcontracted</efbc:TermDescription>
 								<efbc:TermCode listName="applicability">yes</efbc:TermCode>

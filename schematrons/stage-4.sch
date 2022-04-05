@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.212 created on the 2022-03-14T10:58:11.-->
+<!--File generated from metadata database version 0.3.283 created on the 2022-04-01T11:53:22.-->
 <pattern id="EFORMS-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X02']">
 		<assert id="BR-OPP-00113-0002" role="ERROR" test="count(cbc:RegistrationDate) &gt; 0 or not(cbc:CompanyID[@schemeName = 'EU']/normalize-space(text())!='')">rule|message|BR-OPP-00113-0002</assert>
@@ -26,64 +26,126 @@
 		<assert id="BR-OPP-00112-0053" role="ERROR" test="count(cac:Country/cbc:IdentificationCode) = 0 or (../../cbc:CompanyID[@schemeName = 'EU']/normalize-space(text())!='')">rule|message|BR-OPP-00112-0053</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '37']">
-		<assert id="BR-BT-00010-0046" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0046</assert>
-		<assert id="BR-BT-00010-0065" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0065</assert>
+		<assert id="BR-BT-00010-0046" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0046</assert>
+		<assert id="BR-BT-00010-0065" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0065</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '33']">
+		<assert id="BR-BT-00010-0042" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0042</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '34']">
+		<assert id="BR-BT-00010-0043" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0043</assert>
+		<assert id="BR-BT-00610-0043" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0043</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '35']">
-		<assert id="BR-BT-00010-0044" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0044</assert>
-		<assert id="BR-BT-00010-0064" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0064</assert>
-		<assert id="BR-BT-00610-0044" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='cont-ent')">rule|message|BR-BT-00610-0044</assert>
-		<assert id="BR-BT-00610-0056" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='cont-ent')">rule|message|BR-BT-00610-0056</assert>
+		<assert id="BR-BT-00010-0044" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0044</assert>
+		<assert id="BR-BT-00010-0064" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0064</assert>
+		<assert id="BR-BT-00610-0044" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0044</assert>
+		<assert id="BR-BT-00610-0056" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0056</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '30']">
-		<assert id="BR-BT-00010-0037" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0037</assert>
-		<assert id="BR-BT-00010-0062" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0062</assert>
+		<assert id="BR-BT-00010-0037" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0037</assert>
+		<assert id="BR-BT-00010-0062" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0062</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '32']">
-		<assert id="BR-BT-00010-0039" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0039</assert>
-		<assert id="BR-BT-00010-0063" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0063</assert>
-		<assert id="BR-BT-00610-0039" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='cont-ent')">rule|message|BR-BT-00610-0039</assert>
-		<assert id="BR-BT-00610-0055" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='cont-ent')">rule|message|BR-BT-00610-0055</assert>
+		<assert id="BR-BT-00010-0039" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0039</assert>
+		<assert id="BR-BT-00010-0063" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0063</assert>
+		<assert id="BR-BT-00610-0039" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0039</assert>
+		<assert id="BR-BT-00610-0055" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0055</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '31']">
+		<assert id="BR-BT-00010-0038" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0038</assert>
+		<assert id="BR-BT-00610-0038" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0038</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '24']">
-		<assert id="BR-BT-00010-0031" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0031</assert>
-		<assert id="BR-BT-00010-0061" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0061</assert>
+		<assert id="BR-BT-00010-0031" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0031</assert>
+		<assert id="BR-BT-00010-0061" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0061</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '20']">
+		<assert id="BR-BT-00010-0027" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0027</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '21']">
+		<assert id="BR-BT-00010-0028" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0028</assert>
+		<assert id="BR-BT-00610-0028" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0028</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '17']">
-		<assert id="BR-BT-00010-0023" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0023</assert>
-		<assert id="BR-BT-00010-0059" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0059</assert>
+		<assert id="BR-BT-00010-0023" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0023</assert>
+		<assert id="BR-BT-00010-0059" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0059</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '19']">
-		<assert id="BR-BT-00010-0025" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0025</assert>
-		<assert id="BR-BT-00010-0060" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0060</assert>
-		<assert id="BR-BT-00610-0025" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='cont-ent')">rule|message|BR-BT-00610-0025</assert>
-		<assert id="BR-BT-00610-0054" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='cont-ent')">rule|message|BR-BT-00610-0054</assert>
+		<assert id="BR-BT-00010-0025" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0025</assert>
+		<assert id="BR-BT-00010-0060" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0060</assert>
+		<assert id="BR-BT-00610-0025" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0025</assert>
+		<assert id="BR-BT-00610-0054" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0054</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '18']">
+		<assert id="BR-BT-00010-0024" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0024</assert>
+		<assert id="BR-BT-00610-0024" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0024</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '2']">
-		<assert id="BR-BT-00010-0005" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0005</assert>
-		<assert id="BR-BT-00010-0053" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0053</assert>
+		<assert id="BR-BT-00010-0005" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0005</assert>
+		<assert id="BR-BT-00010-0053" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0053</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '3']">
+		<assert id="BR-BT-00010-0006" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0006</assert>
+		<assert id="BR-BT-00610-0006" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0006</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '12']">
+		<assert id="BR-BT-00010-0018" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0018</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '13']">
+		<assert id="BR-BT-00010-0019" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0019</assert>
+		<assert id="BR-BT-00610-0019" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0019</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '14']">
-		<assert id="BR-BT-00010-0020" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0020</assert>
-		<assert id="BR-BT-00010-0057" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0057</assert>
-		<assert id="BR-BT-00610-0020" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='cont-ent')">rule|message|BR-BT-00610-0020</assert>
-		<assert id="BR-BT-00610-0053" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='cont-ent')">rule|message|BR-BT-00610-0053</assert>
+		<assert id="BR-BT-00010-0020" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0020</assert>
+		<assert id="BR-BT-00010-0057" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0057</assert>
+		<assert id="BR-BT-00610-0020" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0020</assert>
+		<assert id="BR-BT-00610-0053" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0053</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '11']">
-		<assert id="BR-BT-00010-0016" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0016</assert>
-		<assert id="BR-BT-00010-0056" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0056</assert>
+		<assert id="BR-BT-00010-0016" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0016</assert>
+		<assert id="BR-BT-00010-0056" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0056</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '5']">
-		<assert id="BR-BT-00010-0008" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0008</assert>
-		<assert id="BR-BT-00010-0054" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0054</assert>
+		<assert id="BR-BT-00010-0008" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0008</assert>
+		<assert id="BR-BT-00010-0054" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0054</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '6']">
+		<assert id="BR-BT-00010-0009" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0009</assert>
+		<assert id="BR-BT-00610-0009" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0009</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '8']">
-		<assert id="BR-BT-00010-0013" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0013</assert>
-		<assert id="BR-BT-00010-0055" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0055</assert>
+		<assert id="BR-BT-00010-0013" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0013</assert>
+		<assert id="BR-BT-00010-0055" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0055</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '9']">
+		<assert id="BR-BT-00010-0014" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0014</assert>
+		<assert id="BR-BT-00610-0014" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0014</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '15']">
-		<assert id="BR-BT-00010-0021" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0021</assert>
-		<assert id="BR-BT-00010-0058" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']/normalize-space(text())='not-cont-ent')">rule|message|BR-BT-00010-0058</assert>
+		<assert id="BR-BT-00010-0021" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0021</assert>
+		<assert id="BR-BT-00010-0058" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0058</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '25']">
+		<assert id="BR-BT-00010-0032" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0032</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '26']">
+		<assert id="BR-BT-00010-0033" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0033</assert>
+		<assert id="BR-BT-00610-0033" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0033</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '28']">
+		<assert id="BR-BT-00010-0035" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0035</assert>
+		<assert id="BR-BT-00610-0035" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0035</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '27']">
+		<assert id="BR-BT-00010-0034" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0034</assert>
+		<assert id="BR-BT-00610-0034" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|message|BR-BT-00610-0034</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00010-0011" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0011</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00010-0041" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0041</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '36']">
 		<assert id="BR-BT-00026-0345" role="ERROR" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/normalize-space(text())!='')">rule|message|BR-BT-00026-0345</assert>
@@ -622,6 +684,7 @@
 		<assert id="BR-BT-05141-0223" role="ERROR" test="count(cac:Country/cbc:IdentificationCode) = 0 or (cbc:Region/normalize-space(text())='anyw-cou' or not(cbc:Region[normalize-space(text())]))">rule|message|BR-BT-05141-0223</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '38']">
+		<assert id="BR-BT-00727-0047" role="ERROR" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode[normalize-space(text())]))">rule|message|BR-BT-00727-0047</assert>
 		<assert id="BR-BT-05071-0047" role="ERROR" test="count(cbc:CountrySubentityCode) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05071-0047</assert>
 		<assert id="BR-BT-05101-0047" role="ERROR" test="count(cbc:StreetName) = 0 or (cbc:CityName/normalize-space(text())!='')">rule|message|BR-BT-05101-0047</assert>
 		<assert id="BR-BT-05101-0098" role="ERROR" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName/normalize-space(text())!='')">rule|message|BR-BT-05101-0098</assert>
@@ -631,6 +694,7 @@
 		<assert id="BR-BT-05131-0047" role="ERROR" test="count(cbc:CityName) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05131-0047</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '39']">
+		<assert id="BR-BT-00727-0048" role="ERROR" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode[normalize-space(text())]))">rule|message|BR-BT-00727-0048</assert>
 		<assert id="BR-BT-05071-0048" role="ERROR" test="count(cbc:CountrySubentityCode) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05071-0048</assert>
 		<assert id="BR-BT-05101-0048" role="ERROR" test="count(cbc:StreetName) = 0 or (cbc:CityName/normalize-space(text())!='')">rule|message|BR-BT-05101-0048</assert>
 		<assert id="BR-BT-05101-0099" role="ERROR" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName/normalize-space(text())!='')">rule|message|BR-BT-05101-0099</assert>
@@ -640,6 +704,7 @@
 		<assert id="BR-BT-05131-0048" role="ERROR" test="count(cbc:CityName) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05131-0048</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '40']">
+		<assert id="BR-BT-00727-0049" role="ERROR" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode[normalize-space(text())]))">rule|message|BR-BT-00727-0049</assert>
 		<assert id="BR-BT-05071-0049" role="ERROR" test="count(cbc:CountrySubentityCode) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05071-0049</assert>
 		<assert id="BR-BT-05101-0049" role="ERROR" test="count(cbc:StreetName) = 0 or (cbc:CityName/normalize-space(text())!='')">rule|message|BR-BT-05101-0049</assert>
 		<assert id="BR-BT-05101-0100" role="ERROR" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName/normalize-space(text())!='')">rule|message|BR-BT-05101-0100</assert>
@@ -1052,6 +1117,7 @@
 		<assert id="BR-BT-05141-0212" role="ERROR" test="count(cac:Country/cbc:IdentificationCode) = 0 or (cbc:Region/normalize-space(text())='anyw-cou' or not(cbc:Region[normalize-space(text())]))">rule|message|BR-BT-05141-0212</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '25']">
+		<assert id="BR-BT-00727-0032" role="ERROR" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode[normalize-space(text())]))">rule|message|BR-BT-00727-0032</assert>
 		<assert id="BR-BT-05071-0032" role="ERROR" test="count(cbc:CountrySubentityCode) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05071-0032</assert>
 		<assert id="BR-BT-05101-0032" role="ERROR" test="count(cbc:StreetName) = 0 or (cbc:CityName/normalize-space(text())!='')">rule|message|BR-BT-05101-0032</assert>
 		<assert id="BR-BT-05101-0083" role="ERROR" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName/normalize-space(text())!='')">rule|message|BR-BT-05101-0083</assert>
@@ -1061,6 +1127,7 @@
 		<assert id="BR-BT-05131-0032" role="ERROR" test="count(cbc:CityName) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05131-0032</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '26']">
+		<assert id="BR-BT-00727-0033" role="ERROR" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode[normalize-space(text())]))">rule|message|BR-BT-00727-0033</assert>
 		<assert id="BR-BT-05071-0033" role="ERROR" test="count(cbc:CountrySubentityCode) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05071-0033</assert>
 		<assert id="BR-BT-05101-0033" role="ERROR" test="count(cbc:StreetName) = 0 or (cbc:CityName/normalize-space(text())!='')">rule|message|BR-BT-05101-0033</assert>
 		<assert id="BR-BT-05101-0084" role="ERROR" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName/normalize-space(text())!='')">rule|message|BR-BT-05101-0084</assert>
@@ -1070,6 +1137,7 @@
 		<assert id="BR-BT-05131-0033" role="ERROR" test="count(cbc:CityName) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05131-0033</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '28']">
+		<assert id="BR-BT-00727-0035" role="ERROR" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode[normalize-space(text())]))">rule|message|BR-BT-00727-0035</assert>
 		<assert id="BR-BT-05071-0035" role="ERROR" test="count(cbc:CountrySubentityCode) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05071-0035</assert>
 		<assert id="BR-BT-05101-0035" role="ERROR" test="count(cbc:StreetName) = 0 or (cbc:CityName/normalize-space(text())!='')">rule|message|BR-BT-05101-0035</assert>
 		<assert id="BR-BT-05101-0086" role="ERROR" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName/normalize-space(text())!='')">rule|message|BR-BT-05101-0086</assert>
@@ -1079,6 +1147,7 @@
 		<assert id="BR-BT-05131-0035" role="ERROR" test="count(cbc:CityName) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05131-0035</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '27']">
+		<assert id="BR-BT-00727-0034" role="ERROR" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode[normalize-space(text())]))">rule|message|BR-BT-00727-0034</assert>
 		<assert id="BR-BT-05071-0034" role="ERROR" test="count(cbc:CountrySubentityCode) = 0 or (not(cbc:Region[normalize-space(text())]) and cac:Country/cbc:IdentificationCode/normalize-space(text())!='')">rule|message|BR-BT-05071-0034</assert>
 		<assert id="BR-BT-05101-0034" role="ERROR" test="count(cbc:StreetName) = 0 or (cbc:CityName/normalize-space(text())!='')">rule|message|BR-BT-05101-0034</assert>
 		<assert id="BR-BT-05101-0085" role="ERROR" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName/normalize-space(text())!='')">rule|message|BR-BT-05101-0085</assert>
@@ -1247,14 +1316,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'CEI']">
 		<assert id="BR-BT-00026-0417" role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode/normalize-space(text())!='')">rule|message|BR-BT-00026-0417</assert>
 		<assert id="BR-BT-00026-0467" role="ERROR" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode/normalize-space(text())!='')">rule|message|BR-BT-00026-0467</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension[$noticeSubType = '18']">
-		<assert id="BR-BT-00057-0024" role="ERROR" test="count(cac:Renewal/cac:Period/cbc:Description) &gt; 0 or not(cbc:MaximumNumberNumeric/normalize-space(text())!='')">rule|message|BR-BT-00057-0024</assert>
-		<assert id="BR-BT-00057-0055" role="ERROR" test="count(cac:Renewal/cac:Period/cbc:Description) = 0 or (cbc:MaximumNumberNumeric/normalize-space(text())!='')">rule|message|BR-BT-00057-0055</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension[$noticeSubType = '15']">
-		<assert id="BR-BT-00057-0021" role="ERROR" test="count(cac:Renewal/cac:Period/cbc:Description) &gt; 0 or not(cbc:MaximumNumberNumeric/normalize-space(text())!='')">rule|message|BR-BT-00057-0021</assert>
-		<assert id="BR-BT-00057-0054" role="ERROR" test="count(cac:Renewal/cac:Period/cbc:Description) = 0 or (cbc:MaximumNumberNumeric/normalize-space(text())!='')">rule|message|BR-BT-00057-0054</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '36']">
 		<assert id="BR-BT-00026-0145" role="ERROR" test="count(@listName) &gt; 0 or not(./normalize-space(text())!='')">rule|message|BR-BT-00026-0145</assert>
@@ -2322,6 +2383,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '23']">
 		<assert id="BR-BT-00052-0030" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0030</assert>
+		<assert id="BR-BT-00130-0030" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0030</assert>
 		<assert id="BR-BT-00131-0030" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open' or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-mult' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])) or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-single' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])))">rule|message|BR-BT-00131-0030</assert>
 		<assert id="BR-BT-00131-0082" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0082</assert>
 		<assert id="BR-BT-00131-0113" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0113</assert>
@@ -2335,6 +2397,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '24']">
 		<assert id="BR-BT-00052-0031" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0031</assert>
+		<assert id="BR-BT-00130-0031" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0031</assert>
 		<assert id="BR-BT-00131-0031" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open' or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-mult' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])) or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-single' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])))">rule|message|BR-BT-00131-0031</assert>
 		<assert id="BR-BT-00131-0083" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0083</assert>
 		<assert id="BR-BT-00131-0114" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0114</assert>
@@ -2348,6 +2411,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '20']">
 		<assert id="BR-BT-00052-0027" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0027</assert>
+		<assert id="BR-BT-00130-0027" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0027</assert>
 		<assert id="BR-BT-00131-0027" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open' or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-mult' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])) or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-single' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])))">rule|message|BR-BT-00131-0027</assert>
 		<assert id="BR-BT-00131-0079" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0079</assert>
 		<assert id="BR-BT-00131-0110" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0110</assert>
@@ -2361,6 +2425,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '21']">
 		<assert id="BR-BT-00052-0028" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0028</assert>
+		<assert id="BR-BT-00130-0028" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0028</assert>
 		<assert id="BR-BT-00131-0028" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open' or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-mult' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])) or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-single' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])))">rule|message|BR-BT-00131-0028</assert>
 		<assert id="BR-BT-00131-0080" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0080</assert>
 		<assert id="BR-BT-00131-0111" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0111</assert>
@@ -2375,6 +2440,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']">
 		<assert id="BR-BT-00052-0022" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())=('comp-dial','innovation','neg-w-call'))">rule|message|BR-BT-00052-0022</assert>
 		<assert id="BR-BT-00052-0052" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0052</assert>
+		<assert id="BR-BT-00130-0022" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0022</assert>
 		<assert id="BR-BT-00131-0022" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open' or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-mult' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])) or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-single' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])))">rule|message|BR-BT-00131-0022</assert>
 		<assert id="BR-BT-00131-0074" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0074</assert>
 		<assert id="BR-BT-00131-0105" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0105</assert>
@@ -2388,6 +2454,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '17']">
 		<assert id="BR-BT-00052-0023" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0023</assert>
+		<assert id="BR-BT-00130-0023" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0023</assert>
 		<assert id="BR-BT-00131-0023" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open' or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-mult' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])) or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-single' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])))">rule|message|BR-BT-00131-0023</assert>
 		<assert id="BR-BT-00131-0075" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0075</assert>
 		<assert id="BR-BT-00131-0106" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0106</assert>
@@ -2402,6 +2469,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '19']">
 		<assert id="BR-BT-00115-0076" role="ERROR" test="count(cbc:GovernmentAgreementConstraintIndicator) &gt; 0 or not(/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('cga','ra','la','body-pl','body-pl-cga','body-pl-ra','body-pl-la','pub-undert','pub-undert-cga','pub-undert-ra','pub-undert-la','org-sub-cga','org-sub-ra','org-sub-la','def-cont','int-org','eu-ins-bod-ag','rl-aut','eu-int-org'))">rule|message|BR-BT-00115-0076</assert>
 		<assert id="BR-BT-00115-0103" role="ERROR" test="count(cbc:GovernmentAgreementConstraintIndicator) = 0 or (/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text())=('cga','ra','la','body-pl','body-pl-cga','body-pl-ra','body-pl-la','pub-undert','pub-undert-cga','pub-undert-ra','pub-undert-la','org-sub-cga','org-sub-ra','org-sub-la','def-cont','int-org','eu-ins-bod-ag','rl-aut','eu-int-org'))">rule|message|BR-BT-00115-0103</assert>
+		<assert id="BR-BT-00130-0025" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0025</assert>
 		<assert id="BR-BT-00131-0077" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0077</assert>
 		<assert id="BR-BT-00131-0108" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0108</assert>
 		<assert id="BR-BT-00131-0118" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) = 0 or (cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0118</assert>
@@ -2413,6 +2481,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '18']">
 		<assert id="BR-BT-00052-0024" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0024</assert>
+		<assert id="BR-BT-00130-0024" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0024</assert>
 		<assert id="BR-BT-00131-0024" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open' or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-mult' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])) or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-single' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])))">rule|message|BR-BT-00131-0024</assert>
 		<assert id="BR-BT-00131-0076" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0076</assert>
 		<assert id="BR-BT-00131-0107" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0107</assert>
@@ -2426,26 +2495,32 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '12']">
 		<assert id="BR-BT-00052-0018" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0018</assert>
+		<assert id="BR-BT-00130-0018" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0018</assert>
 		<assert id="BR-BT-01251-0068" role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-01251-0068</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '13']">
 		<assert id="BR-BT-00052-0019" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0019</assert>
+		<assert id="BR-BT-00130-0019" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0019</assert>
 		<assert id="BR-BT-01251-0069" role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-01251-0069</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '14']">
 		<assert id="BR-BT-00052-0020" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0020</assert>
+		<assert id="BR-BT-00130-0020" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0020</assert>
 		<assert id="BR-BT-01251-0070" role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-01251-0070</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '10']">
 		<assert id="BR-BT-00052-0015" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0015</assert>
+		<assert id="BR-BT-00130-0015" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0015</assert>
 		<assert id="BR-BT-01251-0065" role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-01251-0065</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '11']">
 		<assert id="BR-BT-00052-0016" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0016</assert>
+		<assert id="BR-BT-00130-0016" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0016</assert>
 		<assert id="BR-BT-01251-0066" role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-01251-0066</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '7']">
 		<assert id="BR-BT-00052-0012" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0012</assert>
+		<assert id="BR-BT-00130-0012" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0012</assert>
 		<assert id="BR-BT-00131-0012" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0012</assert>
 		<assert id="BR-BT-00131-0064" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) = 0 or (cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0064</assert>
 		<assert id="BR-BT-00131-0125" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0125</assert>
@@ -2456,10 +2531,12 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '8']">
 		<assert id="BR-BT-00052-0013" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0013</assert>
+		<assert id="BR-BT-00130-0013" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0013</assert>
 		<assert id="BR-BT-01251-0063" role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-01251-0063</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '9']">
 		<assert id="BR-BT-00052-0014" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0014</assert>
+		<assert id="BR-BT-00130-0014" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0014</assert>
 		<assert id="BR-BT-00131-0014" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0014</assert>
 		<assert id="BR-BT-00131-0066" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) = 0 or (cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0066</assert>
 		<assert id="BR-BT-00131-0126" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0126</assert>
@@ -2473,6 +2550,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '22']">
 		<assert id="BR-BT-00052-0029" role="ERROR" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00052-0029</assert>
+		<assert id="BR-BT-00130-0029" role="ERROR" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open')">rule|message|BR-BT-00130-0029</assert>
 		<assert id="BR-BT-00131-0029" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open' or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-mult' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])) or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='oth-single' and not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())])))">rule|message|BR-BT-00131-0029</assert>
 		<assert id="BR-BT-00131-0081" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00131-0081</assert>
 		<assert id="BR-BT-00131-0112" role="ERROR" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate[normalize-space(text())]))">rule|message|BR-BT-00131-0112</assert>
@@ -2501,6 +2579,66 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '27']">
 		<assert id="BR-BT-01251-0084" role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) &gt; 0 or not(cac:NoticeDocumentReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-01251-0084</assert>
 		<assert id="BR-BT-01251-0115" role="ERROR" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-01251-0115</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '20']">
+		<assert id="BR-BT-00122-0027" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0027</assert>
+		<assert id="BR-BT-00123-0027" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0027</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '21']">
+		<assert id="BR-BT-00122-0028" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0028</assert>
+		<assert id="BR-BT-00123-0028" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0028</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '16']">
+		<assert id="BR-BT-00122-0022" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0022</assert>
+		<assert id="BR-BT-00123-0022" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0022</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '17']">
+		<assert id="BR-BT-00122-0023" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0023</assert>
+		<assert id="BR-BT-00123-0023" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0023</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '19']">
+		<assert id="BR-BT-00122-0025" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0025</assert>
+		<assert id="BR-BT-00123-0025" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0025</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '18']">
+		<assert id="BR-BT-00122-0024" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0024</assert>
+		<assert id="BR-BT-00123-0024" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0024</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '12']">
+		<assert id="BR-BT-00122-0018" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0018</assert>
+		<assert id="BR-BT-00123-0018" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0018</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '13']">
+		<assert id="BR-BT-00122-0019" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0019</assert>
+		<assert id="BR-BT-00123-0019" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0019</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '14']">
+		<assert id="BR-BT-00122-0020" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0020</assert>
+		<assert id="BR-BT-00123-0020" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0020</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '10']">
+		<assert id="BR-BT-00122-0015" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0015</assert>
+		<assert id="BR-BT-00123-0015" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0015</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '11']">
+		<assert id="BR-BT-00122-0016" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0016</assert>
+		<assert id="BR-BT-00123-0016" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0016</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '7']">
+		<assert id="BR-BT-00122-0012" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0012</assert>
+		<assert id="BR-BT-00123-0012" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0012</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '8']">
+		<assert id="BR-BT-00122-0013" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0013</assert>
+		<assert id="BR-BT-00123-0013" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0013</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '9']">
+		<assert id="BR-BT-00122-0014" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0014</assert>
+		<assert id="BR-BT-00123-0014" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0014</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '22']">
+		<assert id="BR-BT-00122-0029" role="ERROR" test="count(cbc:Description) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00122-0029</assert>
+		<assert id="BR-BT-00123-0029" role="ERROR" test="count(cbc:AuctionURI) = 0 or (cbc:AuctionConstraintIndicator/normalize-space(text())='true')">rule|message|BR-BT-00123-0029</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList[$noticeSubType = '23']">
 		<assert id="BR-BT-00050-0030" role="ERROR" test="count(cbc:MinimumQuantity) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00050-0030</assert>
@@ -2600,13 +2738,52 @@
 		<assert id="BR-BT-00051-0066" role="ERROR" test="count(cbc:MaximumQuantity) &gt; 0 or not(cbc:LimitationDescription/normalize-space(text())='true')">rule|message|BR-BT-00051-0066</assert>
 		<assert id="BR-BT-00661-0029" role="ERROR" test="count(cbc:LimitationDescription) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='open' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='oth-single' and /*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())!='neg-wo-call')">rule|message|BR-BT-00661-0029</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '20']">
+		<assert id="BR-BT-00113-0027" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0027</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '21']">
+		<assert id="BR-BT-00113-0028" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0028</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '16']">
 		<assert id="BR-BT-00113-0022" role="ERROR" test="count(cbc:MaximumOperatorQuantity) &gt; 0 or not(../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0022</assert>
 		<assert id="BR-BT-00113-0052" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0052</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '17']">
+		<assert id="BR-BT-00113-0023" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0023</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '18']">
 		<assert id="BR-BT-00113-0024" role="ERROR" test="count(cbc:MaximumOperatorQuantity) &gt; 0 or not(../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0024</assert>
 		<assert id="BR-BT-00113-0053" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0053</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '12']">
+		<assert id="BR-BT-00113-0018" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0018</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '13']">
+		<assert id="BR-BT-00113-0019" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0019</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '10']">
+		<assert id="BR-BT-00113-0015" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0015</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '11']">
+		<assert id="BR-BT-00113-0016" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0016</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '7']">
+		<assert id="BR-BT-00113-0012" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0012</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '8']">
+		<assert id="BR-BT-00113-0013" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0013</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '9']">
+		<assert id="BR-BT-00113-0014" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0014</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '22']">
+		<assert id="BR-BT-00113-0029" role="ERROR" test="count(cbc:MaximumOperatorQuantity) = 0 or (../cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00113-0029</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent[$noticeSubType = '20']">
+		<assert id="BR-BT-00134-0027" role="ERROR" test="count(cbc:Description) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00134-0027</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent[$noticeSubType = '21']">
+		<assert id="BR-BT-00134-0028" role="ERROR" test="count(cbc:Description) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00134-0028</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent[$noticeSubType = '16']">
 		<assert id="BR-BT-00132-0022" role="ERROR" test="count(cbc:OccurrenceDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00132-0022</assert>
@@ -2615,6 +2792,7 @@
 		<assert id="BR-BT-00132-0107" role="ERROR" test="count(cbc:OccurrenceTime) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00132-0107</assert>
 		<assert id="BR-BT-00133-0022" role="ERROR" test="count(cac:OccurenceLocation/cbc:Description) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00133-0022</assert>
 		<assert id="BR-BT-00133-0054" role="ERROR" test="count(cac:OccurenceLocation/cbc:Description) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00133-0054</assert>
+		<assert id="BR-BT-00134-0022" role="ERROR" test="count(cbc:Description) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00134-0022</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent[$noticeSubType = '17']">
 		<assert id="BR-BT-00132-0023" role="ERROR" test="count(cbc:OccurrenceDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00132-0023</assert>
@@ -2623,6 +2801,79 @@
 		<assert id="BR-BT-00132-0108" role="ERROR" test="count(cbc:OccurrenceTime) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00132-0108</assert>
 		<assert id="BR-BT-00133-0023" role="ERROR" test="count(cac:OccurenceLocation/cbc:Description) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00133-0023</assert>
 		<assert id="BR-BT-00133-0055" role="ERROR" test="count(cac:OccurenceLocation/cbc:Description) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00133-0055</assert>
+		<assert id="BR-BT-00134-0023" role="ERROR" test="count(cbc:Description) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00134-0023</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '23']">
+		<assert id="BR-BT-00019-0030" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0030</assert>
+		<assert id="BR-BT-00019-0070" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0070</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '24']">
+		<assert id="BR-BT-00019-0031" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0031</assert>
+		<assert id="BR-BT-00019-0071" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0071</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '20']">
+		<assert id="BR-BT-00019-0027" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0027</assert>
+		<assert id="BR-BT-00019-0067" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0067</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '21']">
+		<assert id="BR-BT-00019-0028" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0028</assert>
+		<assert id="BR-BT-00019-0068" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0068</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '16']">
+		<assert id="BR-BT-00019-0022" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0022</assert>
+		<assert id="BR-BT-00019-0062" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0062</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '17']">
+		<assert id="BR-BT-00019-0023" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0023</assert>
+		<assert id="BR-BT-00019-0063" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0063</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '19']">
+		<assert id="BR-BT-00019-0025" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0025</assert>
+		<assert id="BR-BT-00019-0065" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0065</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '18']">
+		<assert id="BR-BT-00019-0024" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0024</assert>
+		<assert id="BR-BT-00019-0064" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0064</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '12']">
+		<assert id="BR-BT-00019-0018" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0018</assert>
+		<assert id="BR-BT-00019-0058" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0058</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '13']">
+		<assert id="BR-BT-00019-0019" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0019</assert>
+		<assert id="BR-BT-00019-0059" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0059</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '14']">
+		<assert id="BR-BT-00019-0020" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0020</assert>
+		<assert id="BR-BT-00019-0060" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0060</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '10']">
+		<assert id="BR-BT-00019-0015" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0015</assert>
+		<assert id="BR-BT-00019-0056" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0056</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '11']">
+		<assert id="BR-BT-00019-0016" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0016</assert>
+		<assert id="BR-BT-00019-0057" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0057</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '7']">
+		<assert id="BR-BT-00019-0012" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0012</assert>
+		<assert id="BR-BT-00019-0053" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0053</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '8']">
+		<assert id="BR-BT-00019-0013" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0013</assert>
+		<assert id="BR-BT-00019-0054" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0054</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '9']">
+		<assert id="BR-BT-00019-0014" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0014</assert>
+		<assert id="BR-BT-00019-0055" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0055</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '15']">
+		<assert id="BR-BT-00019-0021" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0021</assert>
+		<assert id="BR-BT-00019-0061" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0061</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '22']">
+		<assert id="BR-BT-00019-0029" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0029</assert>
+		<assert id="BR-BT-00019-0069" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())='not-allowed')">rule|message|BR-BT-00019-0069</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod[$noticeSubType = '20']">
 		<assert id="BR-BT-00630-0027" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='neg-w-call')">rule|message|BR-BT-00630-0027</assert>
@@ -2636,23 +2887,61 @@
 		<assert id="BR-BT-00630-0106" role="ERROR" test="count(cbc:EndDate) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='neg-w-call')">rule|message|BR-BT-00630-0106</assert>
 		<assert id="BR-BT-00630-0108" role="ERROR" test="count(cbc:EndTime) = 0 or (cbc:EndDate/normalize-space(text())!='')">rule|message|BR-BT-00630-0108</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '38']">
+		<assert id="BR-BT-00076-0047" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0047</assert>
+		<assert id="BR-BT-00076-0071" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0071</assert>
+		<assert id="BR-BT-00095-0047" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0047</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '39']">
+		<assert id="BR-BT-00076-0048" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0048</assert>
+		<assert id="BR-BT-00076-0072" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0072</assert>
+		<assert id="BR-BT-00095-0048" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0048</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '40']">
+		<assert id="BR-BT-00076-0049" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0049</assert>
+		<assert id="BR-BT-00076-0073" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0073</assert>
+		<assert id="BR-BT-00095-0049" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0049</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '23']">
+		<assert id="BR-BT-00018-0030" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0030</assert>
+		<assert id="BR-BT-00063-0030" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0030</assert>
 		<assert id="BR-BT-00708-0125" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0125</assert>
 		<assert id="BR-BT-00737-0125" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0125</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '24']">
+		<assert id="BR-BT-00018-0031" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0031</assert>
+		<assert id="BR-BT-00063-0031" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0031</assert>
 		<assert id="BR-BT-00708-0126" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0126</assert>
 		<assert id="BR-BT-00737-0126" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0126</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '20']">
+		<assert id="BR-BT-00018-0027" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0027</assert>
+		<assert id="BR-BT-00063-0027" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0027</assert>
+		<assert id="BR-BT-00076-0027" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0027</assert>
+		<assert id="BR-BT-00076-0068" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0068</assert>
+		<assert id="BR-BT-00079-0027" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0027</assert>
+		<assert id="BR-BT-00095-0027" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0027</assert>
 		<assert id="BR-BT-00708-0122" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0122</assert>
 		<assert id="BR-BT-00737-0122" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0122</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '21']">
+		<assert id="BR-BT-00018-0028" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0028</assert>
+		<assert id="BR-BT-00063-0028" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0028</assert>
+		<assert id="BR-BT-00076-0028" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0028</assert>
+		<assert id="BR-BT-00076-0069" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0069</assert>
+		<assert id="BR-BT-00079-0028" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0028</assert>
+		<assert id="BR-BT-00095-0028" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0028</assert>
 		<assert id="BR-BT-00708-0123" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0123</assert>
 		<assert id="BR-BT-00737-0123" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0123</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '16']">
+		<assert id="BR-BT-00018-0022" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0022</assert>
+		<assert id="BR-BT-00018-0059" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0059</assert>
+		<assert id="BR-BT-00063-0022" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0022</assert>
+		<assert id="BR-BT-00076-0022" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0022</assert>
+		<assert id="BR-BT-00076-0065" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0065</assert>
+		<assert id="BR-BT-00079-0022" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0022</assert>
+		<assert id="BR-BT-00095-0022" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0022</assert>
 		<assert id="BR-BT-00098-0022" role="ERROR" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00098-0022</assert>
 		<assert id="BR-BT-00098-0052" role="ERROR" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00098-0052</assert>
 		<assert id="BR-BT-00708-0117" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0117</assert>
@@ -2660,72 +2949,146 @@
 		<assert id="BR-OPT-00301-0980" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='' or ../cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0980</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '17']">
+		<assert id="BR-BT-00018-0023" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0023</assert>
+		<assert id="BR-BT-00018-0060" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0060</assert>
+		<assert id="BR-BT-00063-0023" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0023</assert>
 		<assert id="BR-BT-00075-0023" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) &gt; 0 or not(cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0023</assert>
 		<assert id="BR-BT-00075-0054" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) = 0 or (cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0054</assert>
 		<assert id="BR-BT-00076-0023" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0023</assert>
 		<assert id="BR-BT-00076-0054" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0054</assert>
 		<assert id="BR-BT-00079-0023" role="ERROR" test="count(cbc:RequiredCurriculaCode) &gt; 0 or not(../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0023</assert>
 		<assert id="BR-BT-00079-0053" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0053</assert>
+		<assert id="BR-BT-00095-0023" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0023</assert>
 		<assert id="BR-BT-00098-0023" role="ERROR" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00098-0023</assert>
 		<assert id="BR-BT-00098-0053" role="ERROR" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='open')">rule|message|BR-BT-00098-0053</assert>
 		<assert id="BR-BT-00708-0118" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0118</assert>
 		<assert id="BR-BT-00737-0118" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0118</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '19']">
+		<assert id="BR-BT-00018-0025" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0025</assert>
+		<assert id="BR-BT-00063-0025" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0025</assert>
+		<assert id="BR-BT-00076-0025" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0025</assert>
+		<assert id="BR-BT-00076-0066" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0066</assert>
+		<assert id="BR-BT-00079-0025" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0025</assert>
+		<assert id="BR-BT-00095-0025" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0025</assert>
 		<assert id="BR-BT-00708-0120" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0120</assert>
 		<assert id="BR-BT-00737-0120" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0120</assert>
 		<assert id="BR-OPT-00301-0983" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='' or ../cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0983</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '18']">
+		<assert id="BR-BT-00018-0024" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0024</assert>
+		<assert id="BR-BT-00063-0024" role="ERROR" test="count(cbc:VariantConstraintCode) &gt; 0 or not(../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0024</assert>
+		<assert id="BR-BT-00063-0053" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0053</assert>
 		<assert id="BR-BT-00075-0024" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) &gt; 0 or not(cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0024</assert>
 		<assert id="BR-BT-00075-0055" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) = 0 or (cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0055</assert>
 		<assert id="BR-BT-00076-0024" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0024</assert>
 		<assert id="BR-BT-00076-0055" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0055</assert>
+		<assert id="BR-BT-00079-0024" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0024</assert>
+		<assert id="BR-BT-00095-0024" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0024</assert>
 		<assert id="BR-BT-00708-0119" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0119</assert>
 		<assert id="BR-BT-00737-0119" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0119</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '12']">
+		<assert id="BR-BT-00018-0018" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0018</assert>
+		<assert id="BR-BT-00063-0018" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0018</assert>
+		<assert id="BR-BT-00076-0018" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0018</assert>
+		<assert id="BR-BT-00076-0061" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0061</assert>
+		<assert id="BR-BT-00079-0018" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0018</assert>
 		<assert id="BR-BT-00708-0113" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0113</assert>
 		<assert id="BR-BT-00737-0113" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0113</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '13']">
+		<assert id="BR-BT-00018-0019" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0019</assert>
+		<assert id="BR-BT-00063-0019" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0019</assert>
+		<assert id="BR-BT-00076-0019" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0019</assert>
+		<assert id="BR-BT-00076-0062" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0062</assert>
+		<assert id="BR-BT-00079-0019" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0019</assert>
 		<assert id="BR-BT-00708-0114" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0114</assert>
 		<assert id="BR-BT-00737-0114" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0114</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '14']">
+		<assert id="BR-BT-00018-0020" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0020</assert>
+		<assert id="BR-BT-00063-0020" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0020</assert>
+		<assert id="BR-BT-00076-0020" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0020</assert>
+		<assert id="BR-BT-00076-0063" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0063</assert>
+		<assert id="BR-BT-00079-0020" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0020</assert>
 		<assert id="BR-BT-00708-0115" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0115</assert>
 		<assert id="BR-BT-00737-0115" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0115</assert>
 		<assert id="BR-OPT-00301-0978" role="ERROR" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(../cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate/normalize-space(text())!='' or ../cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate/normalize-space(text())!='')">rule|message|BR-OPT-00301-0978</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '10']">
+		<assert id="BR-BT-00018-0015" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0015</assert>
+		<assert id="BR-BT-00018-0056" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0056</assert>
+		<assert id="BR-BT-00063-0015" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0015</assert>
+		<assert id="BR-BT-00076-0015" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0015</assert>
+		<assert id="BR-BT-00076-0059" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0059</assert>
+		<assert id="BR-BT-00079-0015" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0015</assert>
 		<assert id="BR-BT-00708-0111" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0111</assert>
 		<assert id="BR-BT-00737-0111" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0111</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '11']">
+		<assert id="BR-BT-00018-0016" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0016</assert>
+		<assert id="BR-BT-00018-0057" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0057</assert>
+		<assert id="BR-BT-00063-0016" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0016</assert>
+		<assert id="BR-BT-00076-0016" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0016</assert>
+		<assert id="BR-BT-00076-0060" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0060</assert>
+		<assert id="BR-BT-00079-0016" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0016</assert>
 		<assert id="BR-BT-00708-0112" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0112</assert>
 		<assert id="BR-BT-00737-0112" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0112</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '7']">
+		<assert id="BR-BT-00018-0012" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0012</assert>
+		<assert id="BR-BT-00063-0012" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0012</assert>
+		<assert id="BR-BT-00076-0012" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0012</assert>
+		<assert id="BR-BT-00076-0056" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0056</assert>
+		<assert id="BR-BT-00079-0012" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0012</assert>
 		<assert id="BR-BT-00708-0108" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0108</assert>
 		<assert id="BR-BT-00737-0108" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0108</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '8']">
+		<assert id="BR-BT-00018-0013" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0013</assert>
+		<assert id="BR-BT-00063-0013" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0013</assert>
+		<assert id="BR-BT-00076-0013" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0013</assert>
+		<assert id="BR-BT-00076-0057" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0057</assert>
+		<assert id="BR-BT-00079-0013" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0013</assert>
 		<assert id="BR-BT-00708-0109" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0109</assert>
 		<assert id="BR-BT-00737-0109" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0109</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '9']">
+		<assert id="BR-BT-00018-0014" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0014</assert>
+		<assert id="BR-BT-00063-0014" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0014</assert>
+		<assert id="BR-BT-00076-0014" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0014</assert>
+		<assert id="BR-BT-00076-0058" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0058</assert>
+		<assert id="BR-BT-00079-0014" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0014</assert>
 		<assert id="BR-BT-00708-0110" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0110</assert>
 		<assert id="BR-BT-00737-0110" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0110</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '15']">
+		<assert id="BR-BT-00018-0021" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0021</assert>
+		<assert id="BR-BT-00076-0021" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0021</assert>
+		<assert id="BR-BT-00076-0064" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0064</assert>
+		<assert id="BR-BT-00079-0021" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0021</assert>
+		<assert id="BR-BT-00095-0021" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0021</assert>
 		<assert id="BR-BT-00708-0116" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0116</assert>
 		<assert id="BR-BT-00737-0116" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0116</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '22']">
+		<assert id="BR-BT-00018-0029" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0029</assert>
+		<assert id="BR-BT-00063-0029" role="ERROR" test="count(cbc:VariantConstraintCode) &gt; 0 or not(../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0029</assert>
+		<assert id="BR-BT-00063-0054" role="ERROR" test="count(cbc:VariantConstraintCode) = 0 or (../cbc:ID/normalize-space(text())='LOT-0000')">rule|message|BR-BT-00063-0054</assert>
 		<assert id="BR-BT-00075-0029" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) &gt; 0 or not(cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0029</assert>
 		<assert id="BR-BT-00075-0056" role="ERROR" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) = 0 or (cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']/normalize-space(text())='true')">rule|message|BR-BT-00075-0056</assert>
+		<assert id="BR-BT-00076-0029" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0029</assert>
+		<assert id="BR-BT-00076-0070" role="ERROR" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text())='true')">rule|message|BR-BT-00076-0070</assert>
+		<assert id="BR-BT-00079-0029" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0029</assert>
+		<assert id="BR-BT-00095-0029" role="ERROR" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator/normalize-space(text())='true')">rule|message|BR-BT-00095-0029</assert>
 		<assert id="BR-BT-00708-0124" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00708-0124</assert>
 		<assert id="BR-BT-00737-0124" role="ERROR" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType/normalize-space(text())!='')">rule|message|BR-BT-00737-0124</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00018-0017" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0017</assert>
+		<assert id="BR-BT-00018-0058" role="ERROR" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text())!='not-allowed')">rule|message|BR-BT-00018-0058</assert>
+		<assert id="BR-BT-00079-0017" role="ERROR" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text())='services')">rule|message|BR-BT-00079-0017</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[$noticeSubType = '18']">
 		<assert id="BR-BT-00064-0024" role="ERROR" test="count(cbc:MinimumPercent) &gt; 0 or not(cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']/normalize-space(text())='subc-min')">rule|message|BR-BT-00064-0024</assert>
@@ -2733,23 +3096,56 @@
 		<assert id="BR-BT-00729-0024" role="ERROR" test="count(cbc:MaximumPercent) &gt; 0 or not(cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']/normalize-space(text())='subc-min')">rule|message|BR-BT-00729-0024</assert>
 		<assert id="BR-BT-00729-0053" role="ERROR" test="count(cbc:MaximumPercent) = 0 or (cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']/normalize-space(text())='subc-min')">rule|message|BR-BT-00729-0053</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[$noticeSubType = '9']">
+		<assert id="BR-BT-00064-0014" role="ERROR" test="count(cbc:MinimumPercent) = 0 or (cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']/normalize-space(text())='subc-min')">rule|message|BR-BT-00064-0014</assert>
+		<assert id="BR-BT-00729-0014" role="ERROR" test="count(cbc:MaximumPercent) = 0 or (cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']/normalize-space(text())='subc-min')">rule|message|BR-BT-00729-0014</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '29']">
+		<assert id="BR-BT-00099-0036" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0036</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '30']">
+		<assert id="BR-BT-00099-0037" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0037</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '32']">
+		<assert id="BR-BT-00099-0039" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0039</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '31']">
+		<assert id="BR-BT-00099-0038" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0038</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '16']">
+		<assert id="BR-BT-00099-0022" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0022</assert>
 		<assert id="BR-OPT-00301-1130" role="ERROR" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description/normalize-space(text())!='')">rule|message|BR-OPT-00301-1130</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '17']">
+		<assert id="BR-BT-00099-0023" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0023</assert>
 		<assert id="BR-OPT-00301-1131" role="ERROR" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description/normalize-space(text())!='')">rule|message|BR-OPT-00301-1131</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '19']">
+		<assert id="BR-BT-00099-0025" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0025</assert>
 		<assert id="BR-OPT-00301-1133" role="ERROR" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description/normalize-space(text())!='')">rule|message|BR-OPT-00301-1133</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '18']">
+		<assert id="BR-BT-00099-0024" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0024</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '14']">
 		<assert id="BR-OPT-00301-1128" role="ERROR" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description/normalize-space(text())!='')">rule|message|BR-OPT-00301-1128</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '10']">
+		<assert id="BR-BT-00099-0015" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0015</assert>
 		<assert id="BR-OPT-00301-1123" role="ERROR" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description/normalize-space(text())!='')">rule|message|BR-OPT-00301-1123</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '11']">
+		<assert id="BR-BT-00099-0016" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0016</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '7']">
+		<assert id="BR-BT-00099-0012" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0012</assert>
 		<assert id="BR-OPT-00301-1120" role="ERROR" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description/normalize-space(text())!='')">rule|message|BR-OPT-00301-1120</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '8']">
+		<assert id="BR-BT-00099-0013" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0013</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '9']">
+		<assert id="BR-BT-00099-0014" role="ERROR" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID[normalize-space(text())]))">rule|message|BR-BT-00099-0014</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = 'CEI']">
 		<assert id="BR-OPT-00301-1125" role="ERROR" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) = 0 or (cac:PresentationPeriod/cbc:Description/normalize-space(text())!='')">rule|message|BR-OPT-00301-1125</assert>
@@ -3324,6 +3720,257 @@
 		<assert id="BR-BT-05422-0188" role="ERROR" test="count(efbc:ParameterCode[@listName='number-fixed']) &gt; 0 or not(efbc:ParameterNumeric/normalize-space(text())!='' and not(efbc:ParameterCode[@listName='number-weight'][normalize-space(text())]) and not(efbc:ParameterCode[@listName='number-threshold'][normalize-space(text())]) and ../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']/normalize-space(text())!='quality')">rule|message|BR-BT-05422-0188</assert>
 		<assert id="BR-BT-05423-0085" role="ERROR" test="count(efbc:ParameterCode[@listName='number-threshold']) = 0 or (efbc:ParameterNumeric/normalize-space(text())!='' and not(efbc:ParameterCode[@listName='number-weight'][normalize-space(text())]) and not(efbc:ParameterCode[@listName='number-fixed'][normalize-space(text())]))">rule|message|BR-BT-05423-0085</assert>
 		<assert id="BR-BT-05423-0188" role="ERROR" test="count(efbc:ParameterCode[@listName='number-threshold']) &gt; 0 or not(efbc:ParameterNumeric/normalize-space(text())!='' and not(efbc:ParameterCode[@listName='number-weight'][normalize-space(text())]) and not(efbc:ParameterCode[@listName='number-fixed'][normalize-space(text())]))">rule|message|BR-BT-05423-0188</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2590" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-2590</assert>
+		<assert id="BR-BT-00196-2946" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2946</assert>
+		<assert id="BR-BT-00196-3305" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3305</assert>
+		<assert id="BR-BT-00197-2948" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2948</assert>
+		<assert id="BR-BT-00197-3307" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3307</assert>
+		<assert id="BR-BT-00198-2949" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2949</assert>
+		<assert id="BR-BT-00198-3308" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3308</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2584" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-2584</assert>
+		<assert id="BR-BT-00196-2944" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2944</assert>
+		<assert id="BR-BT-00196-3303" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3303</assert>
+		<assert id="BR-BT-00197-2946" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2946</assert>
+		<assert id="BR-BT-00197-3305" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3305</assert>
+		<assert id="BR-BT-00198-2947" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2947</assert>
+		<assert id="BR-BT-00198-3306" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3306</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2580" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-2580</assert>
+		<assert id="BR-BT-00196-2943" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2943</assert>
+		<assert id="BR-BT-00196-3302" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3302</assert>
+		<assert id="BR-BT-00197-2945" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2945</assert>
+		<assert id="BR-BT-00197-3304" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3304</assert>
+		<assert id="BR-BT-00198-2946" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2946</assert>
+		<assert id="BR-BT-00198-3305" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3305</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2488" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-fixed']/normalize-space(text())!='')">rule|message|BR-BT-00195-2488</assert>
+		<assert id="BR-BT-00196-2966" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2966</assert>
+		<assert id="BR-BT-00196-3325" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3325</assert>
+		<assert id="BR-BT-00197-2968" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2968</assert>
+		<assert id="BR-BT-00197-3327" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3327</assert>
+		<assert id="BR-BT-00198-2969" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2969</assert>
+		<assert id="BR-BT-00198-3328" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3328</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2482" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-fixed']/normalize-space(text())!='')">rule|message|BR-BT-00195-2482</assert>
+		<assert id="BR-BT-00196-2964" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2964</assert>
+		<assert id="BR-BT-00196-3323" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3323</assert>
+		<assert id="BR-BT-00197-2966" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2966</assert>
+		<assert id="BR-BT-00197-3325" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3325</assert>
+		<assert id="BR-BT-00198-2967" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2967</assert>
+		<assert id="BR-BT-00198-3326" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3326</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2478" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-fixed']/normalize-space(text())!='')">rule|message|BR-BT-00195-2478</assert>
+		<assert id="BR-BT-00196-2963" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2963</assert>
+		<assert id="BR-BT-00196-3322" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3322</assert>
+		<assert id="BR-BT-00197-2965" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2965</assert>
+		<assert id="BR-BT-00197-3324" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3324</assert>
+		<assert id="BR-BT-00198-2966" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2966</assert>
+		<assert id="BR-BT-00198-3325" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3325</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2539" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-threshold']/normalize-space(text())!='')">rule|message|BR-BT-00195-2539</assert>
+		<assert id="BR-BT-00196-2976" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2976</assert>
+		<assert id="BR-BT-00196-3335" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3335</assert>
+		<assert id="BR-BT-00197-2978" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2978</assert>
+		<assert id="BR-BT-00197-3337" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3337</assert>
+		<assert id="BR-BT-00198-2979" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2979</assert>
+		<assert id="BR-BT-00198-3338" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3338</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2533" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-threshold']/normalize-space(text())!='')">rule|message|BR-BT-00195-2533</assert>
+		<assert id="BR-BT-00196-2974" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2974</assert>
+		<assert id="BR-BT-00196-3333" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3333</assert>
+		<assert id="BR-BT-00197-2976" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2976</assert>
+		<assert id="BR-BT-00197-3335" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3335</assert>
+		<assert id="BR-BT-00198-2977" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2977</assert>
+		<assert id="BR-BT-00198-3336" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3336</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2529" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-threshold']/normalize-space(text())!='')">rule|message|BR-BT-00195-2529</assert>
+		<assert id="BR-BT-00196-2973" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2973</assert>
+		<assert id="BR-BT-00196-3332" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3332</assert>
+		<assert id="BR-BT-00197-2975" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2975</assert>
+		<assert id="BR-BT-00197-3334" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3334</assert>
+		<assert id="BR-BT-00198-2976" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2976</assert>
+		<assert id="BR-BT-00198-3335" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3335</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2437" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-weight']/normalize-space(text())!='')">rule|message|BR-BT-00195-2437</assert>
+		<assert id="BR-BT-00196-2956" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2956</assert>
+		<assert id="BR-BT-00196-3315" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3315</assert>
+		<assert id="BR-BT-00197-2958" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2958</assert>
+		<assert id="BR-BT-00197-3317" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3317</assert>
+		<assert id="BR-BT-00198-2959" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2959</assert>
+		<assert id="BR-BT-00198-3318" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3318</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2431" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-weight']/normalize-space(text())!='')">rule|message|BR-BT-00195-2431</assert>
+		<assert id="BR-BT-00196-2954" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2954</assert>
+		<assert id="BR-BT-00196-3313" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3313</assert>
+		<assert id="BR-BT-00197-2956" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2956</assert>
+		<assert id="BR-BT-00197-3315" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3315</assert>
+		<assert id="BR-BT-00198-2957" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2957</assert>
+		<assert id="BR-BT-00198-3316" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3316</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2427" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-weight']/normalize-space(text())!='')">rule|message|BR-BT-00195-2427</assert>
+		<assert id="BR-BT-00196-2953" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2953</assert>
+		<assert id="BR-BT-00196-3312" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3312</assert>
+		<assert id="BR-BT-00197-2955" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2955</assert>
+		<assert id="BR-BT-00197-3314" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3314</assert>
+		<assert id="BR-BT-00198-2956" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2956</assert>
+		<assert id="BR-BT-00198-3315" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3315</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2743" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2743</assert>
+		<assert id="BR-BT-00196-2936" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2936</assert>
+		<assert id="BR-BT-00196-3295" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3295</assert>
+		<assert id="BR-BT-00197-2938" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2938</assert>
+		<assert id="BR-BT-00197-3297" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3297</assert>
+		<assert id="BR-BT-00198-2939" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2939</assert>
+		<assert id="BR-BT-00198-3298" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3298</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2737" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2737</assert>
+		<assert id="BR-BT-00196-2934" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2934</assert>
+		<assert id="BR-BT-00196-3293" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3293</assert>
+		<assert id="BR-BT-00197-2936" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2936</assert>
+		<assert id="BR-BT-00197-3295" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3295</assert>
+		<assert id="BR-BT-00198-2937" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2937</assert>
+		<assert id="BR-BT-00198-3296" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3296</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2733" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2733</assert>
+		<assert id="BR-BT-00196-2933" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2933</assert>
+		<assert id="BR-BT-00196-3292" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3292</assert>
+		<assert id="BR-BT-00197-2935" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2935</assert>
+		<assert id="BR-BT-00197-3294" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3294</assert>
+		<assert id="BR-BT-00198-2936" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2936</assert>
+		<assert id="BR-BT-00198-3295" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3295</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2641" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Name/normalize-space(text())!='')">rule|message|BR-BT-00195-2641</assert>
+		<assert id="BR-BT-00196-3123" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3123</assert>
+		<assert id="BR-BT-00196-3482" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3482</assert>
+		<assert id="BR-BT-00197-3125" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3125</assert>
+		<assert id="BR-BT-00197-3484" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3484</assert>
+		<assert id="BR-BT-00198-3126" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3126</assert>
+		<assert id="BR-BT-00198-3485" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3485</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2635" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Name/normalize-space(text())!='')">rule|message|BR-BT-00195-2635</assert>
+		<assert id="BR-BT-00196-3121" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3121</assert>
+		<assert id="BR-BT-00196-3480" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3480</assert>
+		<assert id="BR-BT-00197-3123" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3123</assert>
+		<assert id="BR-BT-00197-3482" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3482</assert>
+		<assert id="BR-BT-00198-3124" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3124</assert>
+		<assert id="BR-BT-00198-3483" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3483</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2631" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Name/normalize-space(text())!='')">rule|message|BR-BT-00195-2631</assert>
+		<assert id="BR-BT-00196-3120" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3120</assert>
+		<assert id="BR-BT-00196-3479" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3479</assert>
+		<assert id="BR-BT-00197-3122" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3122</assert>
+		<assert id="BR-BT-00197-3481" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3481</assert>
+		<assert id="BR-BT-00198-3123" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3123</assert>
+		<assert id="BR-BT-00198-3482" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3482</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2692" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']/normalize-space(text())!='')">rule|message|BR-BT-00195-2692</assert>
+		<assert id="BR-BT-00196-2926" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2926</assert>
+		<assert id="BR-BT-00196-3285" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3285</assert>
+		<assert id="BR-BT-00197-2928" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2928</assert>
+		<assert id="BR-BT-00197-3287" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3287</assert>
+		<assert id="BR-BT-00198-2929" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2929</assert>
+		<assert id="BR-BT-00198-3288" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3288</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2686" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']/normalize-space(text())!='')">rule|message|BR-BT-00195-2686</assert>
+		<assert id="BR-BT-00196-2924" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2924</assert>
+		<assert id="BR-BT-00196-3283" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3283</assert>
+		<assert id="BR-BT-00197-2926" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2926</assert>
+		<assert id="BR-BT-00197-3285" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3285</assert>
+		<assert id="BR-BT-00198-2927" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2927</assert>
+		<assert id="BR-BT-00198-3286" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3286</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2682" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']/normalize-space(text())!='')">rule|message|BR-BT-00195-2682</assert>
+		<assert id="BR-BT-00196-2923" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2923</assert>
+		<assert id="BR-BT-00196-3282" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3282</assert>
+		<assert id="BR-BT-00197-2925" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2925</assert>
+		<assert id="BR-BT-00197-3284" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3284</assert>
+		<assert id="BR-BT-00198-2926" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2926</assert>
+		<assert id="BR-BT-00198-3285" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3285</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2386" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:CalculationExpression/normalize-space(text())!='')">rule|message|BR-BT-00195-2386</assert>
+		<assert id="BR-BT-00196-2986" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2986</assert>
+		<assert id="BR-BT-00196-3345" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3345</assert>
+		<assert id="BR-BT-00197-2988" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2988</assert>
+		<assert id="BR-BT-00197-3347" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3347</assert>
+		<assert id="BR-BT-00198-2989" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2989</assert>
+		<assert id="BR-BT-00198-3348" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3348</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2380" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:CalculationExpression/normalize-space(text())!='')">rule|message|BR-BT-00195-2380</assert>
+		<assert id="BR-BT-00196-2984" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2984</assert>
+		<assert id="BR-BT-00196-3343" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3343</assert>
+		<assert id="BR-BT-00197-2986" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2986</assert>
+		<assert id="BR-BT-00197-3345" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3345</assert>
+		<assert id="BR-BT-00198-2987" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2987</assert>
+		<assert id="BR-BT-00198-3346" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3346</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2376" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:CalculationExpression/normalize-space(text())!='')">rule|message|BR-BT-00195-2376</assert>
+		<assert id="BR-BT-00196-2983" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2983</assert>
+		<assert id="BR-BT-00196-3342" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3342</assert>
+		<assert id="BR-BT-00197-2985" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2985</assert>
+		<assert id="BR-BT-00197-3344" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3344</assert>
+		<assert id="BR-BT-00198-2986" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2986</assert>
+		<assert id="BR-BT-00198-3345" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3345</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2335" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2335</assert>
+		<assert id="BR-BT-00196-3113" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3113</assert>
+		<assert id="BR-BT-00196-3472" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3472</assert>
+		<assert id="BR-BT-00197-3115" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3115</assert>
+		<assert id="BR-BT-00197-3474" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3474</assert>
+		<assert id="BR-BT-00198-3116" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3116</assert>
+		<assert id="BR-BT-00198-3475" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3475</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2329" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2329</assert>
+		<assert id="BR-BT-00196-3111" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3111</assert>
+		<assert id="BR-BT-00196-3470" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3470</assert>
+		<assert id="BR-BT-00197-3113" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3113</assert>
+		<assert id="BR-BT-00197-3472" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3472</assert>
+		<assert id="BR-BT-00198-3114" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3114</assert>
+		<assert id="BR-BT-00198-3473" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3473</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2325" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2325</assert>
+		<assert id="BR-BT-00196-3110" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3110</assert>
+		<assert id="BR-BT-00196-3469" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3469</assert>
+		<assert id="BR-BT-00197-3112" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3112</assert>
+		<assert id="BR-BT-00197-3471" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3471</assert>
+		<assert id="BR-BT-00198-3113" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3113</assert>
+		<assert id="BR-BT-00198-3472" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3472</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:EconomicOperatorShortList[$noticeSubType = '23']">
+		<assert id="BR-BT-00047-0030" role="WARN" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='restricted')">rule|message|BR-BT-00047-0030</assert>
+		<assert id="BR-BT-00047-0051" role="ERROR" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='restricted')">rule|message|BR-BT-00047-0051</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:EconomicOperatorShortList[$noticeSubType = '24']">
+		<assert id="BR-BT-00047-0031" role="WARN" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) &gt; 0 or not(/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='restricted')">rule|message|BR-BT-00047-0031</assert>
+		<assert id="BR-BT-00047-0052" role="ERROR" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) = 0 or (/*/cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())='restricted')">rule|message|BR-BT-00047-0052</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize[$noticeSubType = '23']">
 		<assert id="BR-BT-00044-0030" role="ERROR" test="count(cbc:RankCode) &gt; 0 or not(cbc:ValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00044-0030</assert>
@@ -4456,6 +5103,249 @@
 		<assert id="BR-BT-05423-0034" role="ERROR" test="count(efbc:ParameterCode[@listName='number-threshold']) = 0 or (efbc:ParameterNumeric/normalize-space(text())!='' and not(efbc:ParameterCode[@listName='number-weight'][normalize-space(text())]) and not(efbc:ParameterCode[@listName='number-fixed'][normalize-space(text())]))">rule|message|BR-BT-05423-0034</assert>
 		<assert id="BR-BT-05423-0138" role="ERROR" test="count(efbc:ParameterCode[@listName='number-threshold']) &gt; 0 or not(efbc:ParameterNumeric/normalize-space(text())!='' and not(efbc:ParameterCode[@listName='number-weight'][normalize-space(text())]) and not(efbc:ParameterCode[@listName='number-fixed'][normalize-space(text())]))">rule|message|BR-BT-05423-0138</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2131" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-2131</assert>
+		<assert id="BR-BT-00196-2951" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2951</assert>
+		<assert id="BR-BT-00196-3310" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3310</assert>
+		<assert id="BR-BT-00197-2953" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2953</assert>
+		<assert id="BR-BT-00197-3312" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3312</assert>
+		<assert id="BR-BT-00198-2954" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2954</assert>
+		<assert id="BR-BT-00198-3313" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3313</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2125" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-2125</assert>
+		<assert id="BR-BT-00196-2949" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2949</assert>
+		<assert id="BR-BT-00196-3308" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3308</assert>
+		<assert id="BR-BT-00197-2951" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2951</assert>
+		<assert id="BR-BT-00197-3310" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3310</assert>
+		<assert id="BR-BT-00198-2952" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2952</assert>
+		<assert id="BR-BT-00198-3311" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3311</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2121" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-2121</assert>
+		<assert id="BR-BT-00196-2948" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2948</assert>
+		<assert id="BR-BT-00196-3307" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3307</assert>
+		<assert id="BR-BT-00197-2950" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2950</assert>
+		<assert id="BR-BT-00197-3309" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3309</assert>
+		<assert id="BR-BT-00198-2951" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2951</assert>
+		<assert id="BR-BT-00198-3310" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3310</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2029" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-fixed']/normalize-space(text())!='')">rule|message|BR-BT-00195-2029</assert>
+		<assert id="BR-BT-00196-2971" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2971</assert>
+		<assert id="BR-BT-00196-3330" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3330</assert>
+		<assert id="BR-BT-00197-2973" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2973</assert>
+		<assert id="BR-BT-00197-3332" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3332</assert>
+		<assert id="BR-BT-00198-2974" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2974</assert>
+		<assert id="BR-BT-00198-3333" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3333</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2023" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-fixed']/normalize-space(text())!='')">rule|message|BR-BT-00195-2023</assert>
+		<assert id="BR-BT-00196-2969" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2969</assert>
+		<assert id="BR-BT-00196-3328" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3328</assert>
+		<assert id="BR-BT-00197-2971" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2971</assert>
+		<assert id="BR-BT-00197-3330" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3330</assert>
+		<assert id="BR-BT-00198-2972" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2972</assert>
+		<assert id="BR-BT-00198-3331" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3331</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2019" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-fixed']/normalize-space(text())!='')">rule|message|BR-BT-00195-2019</assert>
+		<assert id="BR-BT-00196-2968" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2968</assert>
+		<assert id="BR-BT-00196-3327" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3327</assert>
+		<assert id="BR-BT-00197-2970" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2970</assert>
+		<assert id="BR-BT-00197-3329" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3329</assert>
+		<assert id="BR-BT-00198-2971" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2971</assert>
+		<assert id="BR-BT-00198-3330" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3330</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2080" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-threshold']/normalize-space(text())!='')">rule|message|BR-BT-00195-2080</assert>
+		<assert id="BR-BT-00196-2981" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2981</assert>
+		<assert id="BR-BT-00196-3340" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3340</assert>
+		<assert id="BR-BT-00197-2983" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2983</assert>
+		<assert id="BR-BT-00197-3342" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3342</assert>
+		<assert id="BR-BT-00198-2984" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2984</assert>
+		<assert id="BR-BT-00198-3343" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3343</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2074" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-threshold']/normalize-space(text())!='')">rule|message|BR-BT-00195-2074</assert>
+		<assert id="BR-BT-00196-2979" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2979</assert>
+		<assert id="BR-BT-00196-3338" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3338</assert>
+		<assert id="BR-BT-00197-2981" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2981</assert>
+		<assert id="BR-BT-00197-3340" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3340</assert>
+		<assert id="BR-BT-00198-2982" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2982</assert>
+		<assert id="BR-BT-00198-3341" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3341</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2070" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-threshold']/normalize-space(text())!='')">rule|message|BR-BT-00195-2070</assert>
+		<assert id="BR-BT-00196-2978" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2978</assert>
+		<assert id="BR-BT-00196-3337" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3337</assert>
+		<assert id="BR-BT-00197-2980" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2980</assert>
+		<assert id="BR-BT-00197-3339" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3339</assert>
+		<assert id="BR-BT-00198-2981" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2981</assert>
+		<assert id="BR-BT-00198-3340" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3340</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1978" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-weight']/normalize-space(text())!='')">rule|message|BR-BT-00195-1978</assert>
+		<assert id="BR-BT-00196-2961" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2961</assert>
+		<assert id="BR-BT-00196-3320" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3320</assert>
+		<assert id="BR-BT-00197-2963" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2963</assert>
+		<assert id="BR-BT-00197-3322" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3322</assert>
+		<assert id="BR-BT-00198-2964" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2964</assert>
+		<assert id="BR-BT-00198-3323" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3323</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1972" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-weight']/normalize-space(text())!='')">rule|message|BR-BT-00195-1972</assert>
+		<assert id="BR-BT-00196-2959" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2959</assert>
+		<assert id="BR-BT-00196-3318" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3318</assert>
+		<assert id="BR-BT-00197-2961" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2961</assert>
+		<assert id="BR-BT-00197-3320" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3320</assert>
+		<assert id="BR-BT-00198-2962" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2962</assert>
+		<assert id="BR-BT-00198-3321" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3321</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1968" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode[@listName='number-weight']/normalize-space(text())!='')">rule|message|BR-BT-00195-1968</assert>
+		<assert id="BR-BT-00196-2958" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2958</assert>
+		<assert id="BR-BT-00196-3317" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3317</assert>
+		<assert id="BR-BT-00197-2960" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2960</assert>
+		<assert id="BR-BT-00197-3319" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3319</assert>
+		<assert id="BR-BT-00198-2961" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2961</assert>
+		<assert id="BR-BT-00198-3320" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3320</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2284" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2284</assert>
+		<assert id="BR-BT-00196-2941" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2941</assert>
+		<assert id="BR-BT-00196-3300" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3300</assert>
+		<assert id="BR-BT-00197-2943" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2943</assert>
+		<assert id="BR-BT-00197-3302" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3302</assert>
+		<assert id="BR-BT-00198-2944" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2944</assert>
+		<assert id="BR-BT-00198-3303" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3303</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2278" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2278</assert>
+		<assert id="BR-BT-00196-2939" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2939</assert>
+		<assert id="BR-BT-00196-3298" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3298</assert>
+		<assert id="BR-BT-00197-2941" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2941</assert>
+		<assert id="BR-BT-00197-3300" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3300</assert>
+		<assert id="BR-BT-00198-2942" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2942</assert>
+		<assert id="BR-BT-00198-3301" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3301</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2274" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-2274</assert>
+		<assert id="BR-BT-00196-2938" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2938</assert>
+		<assert id="BR-BT-00196-3297" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3297</assert>
+		<assert id="BR-BT-00197-2940" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2940</assert>
+		<assert id="BR-BT-00197-3299" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3299</assert>
+		<assert id="BR-BT-00198-2941" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2941</assert>
+		<assert id="BR-BT-00198-3300" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3300</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2182" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Name/normalize-space(text())!='')">rule|message|BR-BT-00195-2182</assert>
+		<assert id="BR-BT-00196-3128" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3128</assert>
+		<assert id="BR-BT-00196-3487" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3487</assert>
+		<assert id="BR-BT-00197-3130" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3130</assert>
+		<assert id="BR-BT-00197-3489" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3489</assert>
+		<assert id="BR-BT-00198-3131" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3131</assert>
+		<assert id="BR-BT-00198-3490" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3490</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2176" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Name/normalize-space(text())!='')">rule|message|BR-BT-00195-2176</assert>
+		<assert id="BR-BT-00196-3126" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3126</assert>
+		<assert id="BR-BT-00196-3485" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3485</assert>
+		<assert id="BR-BT-00197-3128" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3128</assert>
+		<assert id="BR-BT-00197-3487" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3487</assert>
+		<assert id="BR-BT-00198-3129" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3129</assert>
+		<assert id="BR-BT-00198-3488" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3488</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2172" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Name/normalize-space(text())!='')">rule|message|BR-BT-00195-2172</assert>
+		<assert id="BR-BT-00196-3125" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3125</assert>
+		<assert id="BR-BT-00196-3484" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3484</assert>
+		<assert id="BR-BT-00197-3127" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3127</assert>
+		<assert id="BR-BT-00197-3486" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3486</assert>
+		<assert id="BR-BT-00198-3128" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3128</assert>
+		<assert id="BR-BT-00198-3487" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3487</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-2233" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']/normalize-space(text())!='')">rule|message|BR-BT-00195-2233</assert>
+		<assert id="BR-BT-00196-2931" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2931</assert>
+		<assert id="BR-BT-00196-3290" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3290</assert>
+		<assert id="BR-BT-00197-2933" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2933</assert>
+		<assert id="BR-BT-00197-3292" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3292</assert>
+		<assert id="BR-BT-00198-2934" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2934</assert>
+		<assert id="BR-BT-00198-3293" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3293</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-2227" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']/normalize-space(text())!='')">rule|message|BR-BT-00195-2227</assert>
+		<assert id="BR-BT-00196-2929" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2929</assert>
+		<assert id="BR-BT-00196-3288" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3288</assert>
+		<assert id="BR-BT-00197-2931" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2931</assert>
+		<assert id="BR-BT-00197-3290" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3290</assert>
+		<assert id="BR-BT-00198-2932" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2932</assert>
+		<assert id="BR-BT-00198-3291" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3291</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-2223" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']/normalize-space(text())!='')">rule|message|BR-BT-00195-2223</assert>
+		<assert id="BR-BT-00196-2928" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2928</assert>
+		<assert id="BR-BT-00196-3287" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3287</assert>
+		<assert id="BR-BT-00197-2930" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2930</assert>
+		<assert id="BR-BT-00197-3289" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3289</assert>
+		<assert id="BR-BT-00198-2931" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2931</assert>
+		<assert id="BR-BT-00198-3290" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3290</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1927" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:CalculationExpression/normalize-space(text())!='')">rule|message|BR-BT-00195-1927</assert>
+		<assert id="BR-BT-00196-2991" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2991</assert>
+		<assert id="BR-BT-00196-3350" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3350</assert>
+		<assert id="BR-BT-00197-2993" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2993</assert>
+		<assert id="BR-BT-00197-3352" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3352</assert>
+		<assert id="BR-BT-00198-2994" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2994</assert>
+		<assert id="BR-BT-00198-3353" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3353</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1921" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:CalculationExpression/normalize-space(text())!='')">rule|message|BR-BT-00195-1921</assert>
+		<assert id="BR-BT-00196-2989" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2989</assert>
+		<assert id="BR-BT-00196-3348" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3348</assert>
+		<assert id="BR-BT-00197-2991" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2991</assert>
+		<assert id="BR-BT-00197-3350" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3350</assert>
+		<assert id="BR-BT-00198-2992" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2992</assert>
+		<assert id="BR-BT-00198-3351" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3351</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1917" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:CalculationExpression/normalize-space(text())!='')">rule|message|BR-BT-00195-1917</assert>
+		<assert id="BR-BT-00196-2988" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2988</assert>
+		<assert id="BR-BT-00196-3347" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3347</assert>
+		<assert id="BR-BT-00197-2990" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2990</assert>
+		<assert id="BR-BT-00197-3349" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3349</assert>
+		<assert id="BR-BT-00198-2991" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2991</assert>
+		<assert id="BR-BT-00198-3350" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3350</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1876" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-1876</assert>
+		<assert id="BR-BT-00196-3118" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3118</assert>
+		<assert id="BR-BT-00196-3477" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3477</assert>
+		<assert id="BR-BT-00197-3120" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3120</assert>
+		<assert id="BR-BT-00197-3479" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3479</assert>
+		<assert id="BR-BT-00198-3121" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3121</assert>
+		<assert id="BR-BT-00198-3480" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3480</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1870" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-1870</assert>
+		<assert id="BR-BT-00196-3116" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3116</assert>
+		<assert id="BR-BT-00196-3475" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3475</assert>
+		<assert id="BR-BT-00197-3118" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3118</assert>
+		<assert id="BR-BT-00197-3477" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3477</assert>
+		<assert id="BR-BT-00198-3119" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3119</assert>
+		<assert id="BR-BT-00198-3478" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3478</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1866" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-1866</assert>
+		<assert id="BR-BT-00196-3115" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3115</assert>
+		<assert id="BR-BT-00196-3474" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3474</assert>
+		<assert id="BR-BT-00197-3117" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3117</assert>
+		<assert id="BR-BT-00197-3476" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3476</assert>
+		<assert id="BR-BT-00198-3118" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3118</assert>
+		<assert id="BR-BT-00198-3477" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3477</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '4']">
 		<assert id="BR-BT-00026-0507" role="ERROR" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode/normalize-space(text())!='')">rule|message|BR-BT-00026-0507</assert>
 		<assert id="BR-BT-00026-0557" role="ERROR" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode/normalize-space(text())!='')">rule|message|BR-BT-00026-0557</assert>
@@ -4769,6 +5659,15 @@
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
 		<assert id="BR-BT-00763-0017" role="ERROR" test="count(cbc:PartPresentationCode) = 0 or (/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())!='LOT-0000')">rule|message|BR-BT-00763-0017</assert>
 	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '29']">
+		<assert id="BR-BT-00106-0036" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) = 0 or (../cbc:ProcedureCode/normalize-space(text())=('open','restricted','neg-w-call'))">rule|message|BR-BT-00106-0036</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '30']">
+		<assert id="BR-BT-00106-0037" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) = 0 or (../cbc:ProcedureCode/normalize-space(text())=('open','restricted','neg-w-call'))">rule|message|BR-BT-00106-0037</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '31']">
+		<assert id="BR-BT-00106-0038" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) = 0 or (../cbc:ProcedureCode/normalize-space(text())=('open','restricted','neg-w-call'))">rule|message|BR-BT-00106-0038</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '16']">
 		<assert id="BR-BT-00106-0022" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())=('open','restricted','neg-w-call'))">rule|message|BR-BT-00106-0022</assert>
 		<assert id="BR-BT-00106-0053" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) = 0 or (../cbc:ProcedureCode/normalize-space(text())=('open','restricted','neg-w-call'))">rule|message|BR-BT-00106-0053</assert>
@@ -4781,24 +5680,58 @@
 		<assert id="BR-BT-00106-0024" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())=('open','restricted','neg-w-call'))">rule|message|BR-BT-00106-0024</assert>
 		<assert id="BR-BT-00106-0055" role="ERROR" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) = 0 or (../cbc:ProcedureCode/normalize-space(text())=('open','restricted','neg-w-call'))">rule|message|BR-BT-00106-0055</assert>
 	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure'][$noticeSubType = '29']">
+		<assert id="BR-BT-01351-0036" role="ERROR" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())='accelerated-procedure-justification')">rule|message|BR-BT-01351-0036</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure'][$noticeSubType = '30']">
+		<assert id="BR-BT-01351-0037" role="ERROR" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())='accelerated-procedure-justification')">rule|message|BR-BT-01351-0037</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure'][$noticeSubType = '31']">
+		<assert id="BR-BT-01351-0038" role="ERROR" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())='accelerated-procedure-justification')">rule|message|BR-BT-01351-0038</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure'][$noticeSubType = '16']">
 		<assert id="BR-BT-01351-0022" role="ERROR" test="count(cbc:ProcessReason) &gt; 0 or not(cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())='accelerated-procedure-justification')">rule|message|BR-BT-01351-0022</assert>
 		<assert id="BR-BT-01351-0054" role="ERROR" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())='accelerated-procedure-justification')">rule|message|BR-BT-01351-0054</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure'][$noticeSubType = '17']">
+		<assert id="BR-BT-01351-0023" role="ERROR" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())='accelerated-procedure-justification')">rule|message|BR-BT-01351-0023</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure'][$noticeSubType = '18']">
 		<assert id="BR-BT-01351-0024" role="ERROR" test="count(cbc:ProcessReason) &gt; 0 or not(cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())='accelerated-procedure-justification')">rule|message|BR-BT-01351-0024</assert>
 		<assert id="BR-BT-01351-0055" role="ERROR" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())='accelerated-procedure-justification')">rule|message|BR-BT-01351-0055</assert>
 	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1615" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReasonCode[@listName='accelerated-procedure']/normalize-space(text())!='')">rule|message|BR-BT-00195-1615</assert>
+		<assert id="BR-BT-00196-2816" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2816</assert>
+		<assert id="BR-BT-00196-3175" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3175</assert>
+		<assert id="BR-BT-00197-2818" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2818</assert>
+		<assert id="BR-BT-00197-3177" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3177</assert>
+		<assert id="BR-BT-00198-2819" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2819</assert>
+		<assert id="BR-BT-00198-3178" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3178</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc-jus'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1666" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReason/normalize-space(text())!='')">rule|message|BR-BT-00195-1666</assert>
+		<assert id="BR-BT-00196-2839" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2839</assert>
+		<assert id="BR-BT-00196-3198" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3198</assert>
+		<assert id="BR-BT-00197-2841" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2841</assert>
+		<assert id="BR-BT-00197-3200" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3200</assert>
+		<assert id="BR-BT-00198-2842" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2842</assert>
+		<assert id="BR-BT-00198-3201" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3201</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '33']">
 		<assert id="BR-BT-00135-0042" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0042</assert>
+		<assert id="BR-BT-00136-0042" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0042</assert>
+		<assert id="BR-BT-01252-0042" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0042</assert>
+		<assert id="BR-BT-01252-0064" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0064</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '34']">
 		<assert id="BR-BT-00135-0043" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0043</assert>
+		<assert id="BR-BT-00136-0043" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0043</assert>
+		<assert id="BR-BT-01252-0043" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0043</assert>
+		<assert id="BR-BT-01252-0065" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0065</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '35']">
-		<assert id="BR-BT-00136-0044" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0044</assert>
-		<assert id="BR-BT-00136-0062" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0062</assert>
-		<assert id="BR-BT-01252-0044" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0044</assert>
+		<assert id="BR-BT-01252-0044" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0044</assert>
 		<assert id="BR-BT-01252-0062" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0062</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '29']">
@@ -4806,7 +5739,7 @@
 		<assert id="BR-BT-00135-0058" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0058</assert>
 		<assert id="BR-BT-00136-0036" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0036</assert>
 		<assert id="BR-BT-00136-0058" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0058</assert>
-		<assert id="BR-BT-01252-0036" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0036</assert>
+		<assert id="BR-BT-01252-0036" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0036</assert>
 		<assert id="BR-BT-01252-0058" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0058</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '30']">
@@ -4814,13 +5747,11 @@
 		<assert id="BR-BT-00135-0059" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0059</assert>
 		<assert id="BR-BT-00136-0037" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0037</assert>
 		<assert id="BR-BT-00136-0059" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0059</assert>
-		<assert id="BR-BT-01252-0037" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0037</assert>
+		<assert id="BR-BT-01252-0037" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0037</assert>
 		<assert id="BR-BT-01252-0059" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0059</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '32']">
-		<assert id="BR-BT-00136-0039" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0039</assert>
-		<assert id="BR-BT-00136-0061" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0061</assert>
-		<assert id="BR-BT-01252-0039" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0039</assert>
+		<assert id="BR-BT-01252-0039" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0039</assert>
 		<assert id="BR-BT-01252-0061" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0061</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '31']">
@@ -4828,7 +5759,7 @@
 		<assert id="BR-BT-00135-0060" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0060</assert>
 		<assert id="BR-BT-00136-0038" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0038</assert>
 		<assert id="BR-BT-00136-0060" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0060</assert>
-		<assert id="BR-BT-01252-0038" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0038</assert>
+		<assert id="BR-BT-01252-0038" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0038</assert>
 		<assert id="BR-BT-01252-0060" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0060</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '25']">
@@ -4836,7 +5767,7 @@
 		<assert id="BR-BT-00135-0054" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0054</assert>
 		<assert id="BR-BT-00136-0032" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0032</assert>
 		<assert id="BR-BT-00136-0054" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0054</assert>
-		<assert id="BR-BT-01252-0032" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0032</assert>
+		<assert id="BR-BT-01252-0032" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0032</assert>
 		<assert id="BR-BT-01252-0054" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0054</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '26']">
@@ -4844,7 +5775,7 @@
 		<assert id="BR-BT-00135-0055" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0055</assert>
 		<assert id="BR-BT-00136-0033" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0033</assert>
 		<assert id="BR-BT-00136-0055" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0055</assert>
-		<assert id="BR-BT-01252-0033" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0033</assert>
+		<assert id="BR-BT-01252-0033" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0033</assert>
 		<assert id="BR-BT-01252-0055" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0055</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '28']">
@@ -4852,7 +5783,7 @@
 		<assert id="BR-BT-00135-0057" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0057</assert>
 		<assert id="BR-BT-00136-0035" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0035</assert>
 		<assert id="BR-BT-00136-0057" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0057</assert>
-		<assert id="BR-BT-01252-0035" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0035</assert>
+		<assert id="BR-BT-01252-0035" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0035</assert>
 		<assert id="BR-BT-01252-0057" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0057</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '27']">
@@ -4860,12 +5791,138 @@
 		<assert id="BR-BT-00135-0056" role="ERROR" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00135-0056</assert>
 		<assert id="BR-BT-00136-0034" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0034</assert>
 		<assert id="BR-BT-00136-0056" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0056</assert>
-		<assert id="BR-BT-01252-0034" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0034</assert>
+		<assert id="BR-BT-01252-0034" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text())=('repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0034</assert>
 		<assert id="BR-BT-01252-0056" role="ERROR" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text())=('irregular', 'additional', 'repetition', 'unsuitable', 'existing', 'contest'))">rule|message|BR-BT-01252-0056</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = 'T01']">
 		<assert id="BR-BT-00136-0011" role="ERROR" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0011</assert>
 		<assert id="BR-BT-00136-0053" role="ERROR" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text())='neg-wo-call')">rule|message|BR-BT-00136-0053</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-jus'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1723" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1723</assert>
+		<assert id="BR-BT-00196-2845" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2845</assert>
+		<assert id="BR-BT-00196-3204" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3204</assert>
+		<assert id="BR-BT-00197-2847" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2847</assert>
+		<assert id="BR-BT-00197-3206" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3206</assert>
+		<assert id="BR-BT-00198-2848" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2848</assert>
+		<assert id="BR-BT-00198-3207" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3207</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-jus'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1717" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1717</assert>
+		<assert id="BR-BT-00196-2843" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2843</assert>
+		<assert id="BR-BT-00196-3202" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3202</assert>
+		<assert id="BR-BT-00197-2845" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2845</assert>
+		<assert id="BR-BT-00197-3204" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3204</assert>
+		<assert id="BR-BT-00198-2846" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2846</assert>
+		<assert id="BR-BT-00198-3205" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3205</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-jus'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1713" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1713</assert>
+		<assert id="BR-BT-00196-2842" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2842</assert>
+		<assert id="BR-BT-00196-3201" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3201</assert>
+		<assert id="BR-BT-00197-2844" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2844</assert>
+		<assert id="BR-BT-00197-3203" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3203</assert>
+		<assert id="BR-BT-00198-2845" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2845</assert>
+		<assert id="BR-BT-00198-3204" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3204</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-pre'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1774" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-1774</assert>
+		<assert id="BR-BT-00196-2832" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2832</assert>
+		<assert id="BR-BT-00196-3191" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3191</assert>
+		<assert id="BR-BT-00197-2834" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2834</assert>
+		<assert id="BR-BT-00197-3193" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3193</assert>
+		<assert id="BR-BT-00198-2835" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2835</assert>
+		<assert id="BR-BT-00198-3194" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3194</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-pre'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1768" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-1768</assert>
+		<assert id="BR-BT-00196-2830" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2830</assert>
+		<assert id="BR-BT-00196-3189" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3189</assert>
+		<assert id="BR-BT-00197-2832" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2832</assert>
+		<assert id="BR-BT-00197-3191" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3191</assert>
+		<assert id="BR-BT-00198-2833" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2833</assert>
+		<assert id="BR-BT-00198-3192" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3192</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-pre'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1764" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-1764</assert>
+		<assert id="BR-BT-00196-2829" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2829</assert>
+		<assert id="BR-BT-00196-3188" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3188</assert>
+		<assert id="BR-BT-00197-2831" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2831</assert>
+		<assert id="BR-BT-00197-3190" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3190</assert>
+		<assert id="BR-BT-00198-2832" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2832</assert>
+		<assert id="BR-BT-00198-3191" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3191</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-tex'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1825" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReason/normalize-space(text())!='')">rule|message|BR-BT-00195-1825</assert>
+		<assert id="BR-BT-00196-2837" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2837</assert>
+		<assert id="BR-BT-00196-3196" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3196</assert>
+		<assert id="BR-BT-00197-2839" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2839</assert>
+		<assert id="BR-BT-00197-3198" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3198</assert>
+		<assert id="BR-BT-00198-2840" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2840</assert>
+		<assert id="BR-BT-00198-3199" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3199</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-tex'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1819" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReason/normalize-space(text())!='')">rule|message|BR-BT-00195-1819</assert>
+		<assert id="BR-BT-00196-2835" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2835</assert>
+		<assert id="BR-BT-00196-3194" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3194</assert>
+		<assert id="BR-BT-00197-2837" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2837</assert>
+		<assert id="BR-BT-00197-3196" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3196</assert>
+		<assert id="BR-BT-00198-2838" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2838</assert>
+		<assert id="BR-BT-00198-3197" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3197</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-tex'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1815" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReason/normalize-space(text())!='')">rule|message|BR-BT-00195-1815</assert>
+		<assert id="BR-BT-00196-2834" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2834</assert>
+		<assert id="BR-BT-00196-3193" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3193</assert>
+		<assert id="BR-BT-00197-2836" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2836</assert>
+		<assert id="BR-BT-00197-3195" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3195</assert>
+		<assert id="BR-BT-00198-2837" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2837</assert>
+		<assert id="BR-BT-00198-3196" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3196</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-fea'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1570" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-1570</assert>
+		<assert id="BR-BT-00196-3163" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3163</assert>
+		<assert id="BR-BT-00196-3522" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3522</assert>
+		<assert id="BR-BT-00197-3165" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3165</assert>
+		<assert id="BR-BT-00197-3524" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3524</assert>
+		<assert id="BR-BT-00198-3166" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3166</assert>
+		<assert id="BR-BT-00198-3525" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3525</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-fea'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1564" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description/normalize-space(text())!='')">rule|message|BR-BT-00195-1564</assert>
+		<assert id="BR-BT-00196-3161" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3161</assert>
+		<assert id="BR-BT-00196-3520" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3520</assert>
+		<assert id="BR-BT-00197-3163" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3163</assert>
+		<assert id="BR-BT-00197-3522" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3522</assert>
+		<assert id="BR-BT-00198-3164" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3164</assert>
+		<assert id="BR-BT-00198-3523" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3523</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1519" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcedureCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1519</assert>
+		<assert id="BR-BT-00196-2814" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2814</assert>
+		<assert id="BR-BT-00196-3173" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3173</assert>
+		<assert id="BR-BT-00197-2816" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2816</assert>
+		<assert id="BR-BT-00197-3175" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3175</assert>
+		<assert id="BR-BT-00198-2817" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2817</assert>
+		<assert id="BR-BT-00198-3176" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3176</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1513" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcedureCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1513</assert>
+		<assert id="BR-BT-00196-2812" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2812</assert>
+		<assert id="BR-BT-00196-3171" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3171</assert>
+		<assert id="BR-BT-00197-2814" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2814</assert>
+		<assert id="BR-BT-00197-3173" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3173</assert>
+		<assert id="BR-BT-00198-2815" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2815</assert>
+		<assert id="BR-BT-00198-3174" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3174</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1509" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcedureCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1509</assert>
+		<assert id="BR-BT-00196-2811" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2811</assert>
+		<assert id="BR-BT-00196-3170" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3170</assert>
+		<assert id="BR-BT-00197-2813" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2813</assert>
+		<assert id="BR-BT-00197-3172" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3172</assert>
+		<assert id="BR-BT-00198-2814" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2814</assert>
+		<assert id="BR-BT-00198-3173" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3173</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = '23']">
 		<assert id="BR-BT-00031-0030" role="ERROR" test="count(cbc:MaximumLotsSubmittedNumeric) = 0 or (/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())!='LOT-0000')">rule|message|BR-BT-00031-0030</assert>
@@ -4958,6 +6015,33 @@
 		<assert id="BR-BT-00031-0068" role="ERROR" test="count(cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(/*/cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text())='All')">rule|message|BR-BT-00031-0068</assert>
 		<assert id="BR-BT-00033-0017" role="ERROR" test="count(cbc:MaximumLotsAwardedNumeric) &gt; 0 or not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())!='LOT-0000')">rule|message|BR-BT-00033-0017</assert>
 		<assert id="BR-BT-00033-0052" role="ERROR" test="count(cbc:MaximumLotsAwardedNumeric) = 0 or (/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())!='LOT-0000')">rule|message|BR-BT-00033-0052</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1468" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../../cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1468</assert>
+		<assert id="BR-BT-00196-2809" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2809</assert>
+		<assert id="BR-BT-00196-3168" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3168</assert>
+		<assert id="BR-BT-00197-2811" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2811</assert>
+		<assert id="BR-BT-00197-3170" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3170</assert>
+		<assert id="BR-BT-00198-2812" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2812</assert>
+		<assert id="BR-BT-00198-3171" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3171</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1462" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../../cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1462</assert>
+		<assert id="BR-BT-00196-2807" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2807</assert>
+		<assert id="BR-BT-00196-3166" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3166</assert>
+		<assert id="BR-BT-00197-2809" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2809</assert>
+		<assert id="BR-BT-00197-3168" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3168</assert>
+		<assert id="BR-BT-00198-2810" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2810</assert>
+		<assert id="BR-BT-00198-3169" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3169</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1458" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../../cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1458</assert>
+		<assert id="BR-BT-00196-2806" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2806</assert>
+		<assert id="BR-BT-00196-3165" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3165</assert>
+		<assert id="BR-BT-00197-2808" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2808</assert>
+		<assert id="BR-BT-00197-3167" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3167</assert>
+		<assert id="BR-BT-00198-2809" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2809</assert>
+		<assert id="BR-BT-00198-3168" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3168</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = '36']">
 		<assert id="BR-BT-00141-0045" role="ERROR" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier/normalize-space(text())!='')">rule|message|BR-BT-00141-0045</assert>
@@ -5475,121 +6559,914 @@
 		<assert id="BR-BT-00140-0067" role="ERROR" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier/normalize-space(text())!='')">rule|message|BR-BT-00140-0067</assert>
 		<assert id="BR-BT-00762-0017" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00762-0017</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '33']">
-		<assert id="BR-BT-00118-0042" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) &gt; 0 or not(efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0042</assert>
-		<assert id="BR-BT-00118-0055" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) = 0 or (efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0055</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0042" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:EstimatedOverallFrameworkContractsAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0042</assert>
+		<assert id="BR-BT-00196-2826" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2826</assert>
+		<assert id="BR-BT-00196-3185" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3185</assert>
+		<assert id="BR-BT-00197-2828" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2828</assert>
+		<assert id="BR-BT-00197-3187" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3187</assert>
+		<assert id="BR-BT-00198-2829" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2829</assert>
+		<assert id="BR-BT-00198-3188" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3188</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '34']">
-		<assert id="BR-BT-00118-0043" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) &gt; 0 or not(efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0043</assert>
-		<assert id="BR-BT-00118-0056" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) = 0 or (efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0056</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0043" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:EstimatedOverallFrameworkContractsAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0043</assert>
+		<assert id="BR-BT-00196-2827" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2827</assert>
+		<assert id="BR-BT-00196-3186" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3186</assert>
+		<assert id="BR-BT-00197-2829" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2829</assert>
+		<assert id="BR-BT-00197-3188" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3188</assert>
+		<assert id="BR-BT-00198-2830" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2830</assert>
+		<assert id="BR-BT-00198-3189" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3189</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '29']">
-		<assert id="BR-BT-00118-0036" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) &gt; 0 or not(efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0036</assert>
-		<assert id="BR-BT-00118-0052" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) = 0 or (efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0052</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0036" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:EstimatedOverallFrameworkContractsAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0036</assert>
+		<assert id="BR-BT-00196-2822" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2822</assert>
+		<assert id="BR-BT-00196-3181" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3181</assert>
+		<assert id="BR-BT-00197-2824" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2824</assert>
+		<assert id="BR-BT-00197-3183" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3183</assert>
+		<assert id="BR-BT-00198-2825" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2825</assert>
+		<assert id="BR-BT-00198-3184" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3184</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '30']">
-		<assert id="BR-BT-00118-0037" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) &gt; 0 or not(efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0037</assert>
-		<assert id="BR-BT-00118-0053" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) = 0 or (efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0053</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0037" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:EstimatedOverallFrameworkContractsAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0037</assert>
+		<assert id="BR-BT-00196-2823" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2823</assert>
+		<assert id="BR-BT-00196-3182" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3182</assert>
+		<assert id="BR-BT-00197-2825" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2825</assert>
+		<assert id="BR-BT-00197-3184" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3184</assert>
+		<assert id="BR-BT-00198-2826" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2826</assert>
+		<assert id="BR-BT-00198-3185" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3185</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '31']">
-		<assert id="BR-BT-00118-0038" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) &gt; 0 or not(efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0038</assert>
-		<assert id="BR-BT-00118-0054" role="ERROR" test="count(cbc:EstimatedOverallFrameworkContractsAmount) = 0 or (efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00118-0054</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0038" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:EstimatedOverallFrameworkContractsAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0038</assert>
+		<assert id="BR-BT-00196-2824" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2824</assert>
+		<assert id="BR-BT-00196-3183" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3183</assert>
+		<assert id="BR-BT-00197-2826" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2826</assert>
+		<assert id="BR-BT-00197-3185" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3185</assert>
+		<assert id="BR-BT-00198-2827" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2827</assert>
+		<assert id="BR-BT-00198-3186" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3186</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-0032" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:EstimatedOverallFrameworkContractsAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0032</assert>
+		<assert id="BR-BT-00196-2819" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2819</assert>
+		<assert id="BR-BT-00196-3178" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3178</assert>
+		<assert id="BR-BT-00197-2821" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2821</assert>
+		<assert id="BR-BT-00197-3180" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3180</assert>
+		<assert id="BR-BT-00198-2822" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2822</assert>
+		<assert id="BR-BT-00198-3181" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3181</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-0033" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:EstimatedOverallFrameworkContractsAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0033</assert>
+		<assert id="BR-BT-00196-2820" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2820</assert>
+		<assert id="BR-BT-00196-3179" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3179</assert>
+		<assert id="BR-BT-00197-2822" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2822</assert>
+		<assert id="BR-BT-00197-3181" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3181</assert>
+		<assert id="BR-BT-00198-2823" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2823</assert>
+		<assert id="BR-BT-00198-3182" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3182</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-0034" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:EstimatedOverallFrameworkContractsAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0034</assert>
+		<assert id="BR-BT-00196-2821" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2821</assert>
+		<assert id="BR-BT-00196-3180" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3180</assert>
+		<assert id="BR-BT-00197-2823" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2823</assert>
+		<assert id="BR-BT-00197-3182" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3182</assert>
+		<assert id="BR-BT-00198-2824" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2824</assert>
+		<assert id="BR-BT-00198-3183" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3183</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0093" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0093</assert>
+		<assert id="BR-BT-00196-2889" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2889</assert>
+		<assert id="BR-BT-00196-3248" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3248</assert>
+		<assert id="BR-BT-00197-2891" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2891</assert>
+		<assert id="BR-BT-00197-3250" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3250</assert>
+		<assert id="BR-BT-00198-2892" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2892</assert>
+		<assert id="BR-BT-00198-3251" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3251</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0094" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0094</assert>
+		<assert id="BR-BT-00196-2890" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2890</assert>
+		<assert id="BR-BT-00196-3249" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3249</assert>
+		<assert id="BR-BT-00197-2892" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2892</assert>
+		<assert id="BR-BT-00197-3251" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3251</assert>
+		<assert id="BR-BT-00198-2893" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2893</assert>
+		<assert id="BR-BT-00198-3252" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3252</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0095" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0095</assert>
+		<assert id="BR-BT-00196-2891" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2891</assert>
+		<assert id="BR-BT-00196-3250" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3250</assert>
+		<assert id="BR-BT-00197-2893" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2893</assert>
+		<assert id="BR-BT-00197-3252" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3252</assert>
+		<assert id="BR-BT-00198-2894" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2894</assert>
+		<assert id="BR-BT-00198-3253" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3253</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0087" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0087</assert>
+		<assert id="BR-BT-00196-2884" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2884</assert>
+		<assert id="BR-BT-00196-3243" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3243</assert>
+		<assert id="BR-BT-00197-2886" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2886</assert>
+		<assert id="BR-BT-00197-3245" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3245</assert>
+		<assert id="BR-BT-00198-2887" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2887</assert>
+		<assert id="BR-BT-00198-3246" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3246</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0088" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0088</assert>
+		<assert id="BR-BT-00196-2885" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2885</assert>
+		<assert id="BR-BT-00196-3244" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3244</assert>
+		<assert id="BR-BT-00197-2887" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2887</assert>
+		<assert id="BR-BT-00197-3246" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3246</assert>
+		<assert id="BR-BT-00198-2888" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2888</assert>
+		<assert id="BR-BT-00198-3247" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3247</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0090" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0090</assert>
+		<assert id="BR-BT-00196-2887" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2887</assert>
+		<assert id="BR-BT-00196-3246" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3246</assert>
+		<assert id="BR-BT-00197-2889" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2889</assert>
+		<assert id="BR-BT-00197-3248" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3248</assert>
+		<assert id="BR-BT-00198-2890" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2890</assert>
+		<assert id="BR-BT-00198-3249" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3249</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0089" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0089</assert>
+		<assert id="BR-BT-00196-2886" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2886</assert>
+		<assert id="BR-BT-00196-3245" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3245</assert>
+		<assert id="BR-BT-00197-2888" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2888</assert>
+		<assert id="BR-BT-00197-3247" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3247</assert>
+		<assert id="BR-BT-00198-2889" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2889</assert>
+		<assert id="BR-BT-00198-3248" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3248</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-0083" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0083</assert>
+		<assert id="BR-BT-00196-2880" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2880</assert>
+		<assert id="BR-BT-00196-3239" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3239</assert>
+		<assert id="BR-BT-00197-2882" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2882</assert>
+		<assert id="BR-BT-00197-3241" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3241</assert>
+		<assert id="BR-BT-00198-2883" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2883</assert>
+		<assert id="BR-BT-00198-3242" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3242</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-0084" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0084</assert>
+		<assert id="BR-BT-00196-2881" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2881</assert>
+		<assert id="BR-BT-00196-3240" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3240</assert>
+		<assert id="BR-BT-00197-2883" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2883</assert>
+		<assert id="BR-BT-00197-3242" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3242</assert>
+		<assert id="BR-BT-00198-2884" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2884</assert>
+		<assert id="BR-BT-00198-3243" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3243</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-0086" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0086</assert>
+		<assert id="BR-BT-00196-2883" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2883</assert>
+		<assert id="BR-BT-00196-3242" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3242</assert>
+		<assert id="BR-BT-00197-2885" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2885</assert>
+		<assert id="BR-BT-00197-3244" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3244</assert>
+		<assert id="BR-BT-00198-2886" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2886</assert>
+		<assert id="BR-BT-00198-3245" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3245</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-0085" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TotalAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0085</assert>
+		<assert id="BR-BT-00196-2882" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2882</assert>
+		<assert id="BR-BT-00196-3241" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3241</assert>
+		<assert id="BR-BT-00197-2884" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2884</assert>
+		<assert id="BR-BT-00197-3243" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3243</assert>
+		<assert id="BR-BT-00198-2885" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2885</assert>
+		<assert id="BR-BT-00198-3244" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3244</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0144" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00195-0144</assert>
+		<assert id="BR-BT-00196-3039" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3039</assert>
+		<assert id="BR-BT-00196-3398" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3398</assert>
+		<assert id="BR-BT-00197-3041" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3041</assert>
+		<assert id="BR-BT-00197-3400" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3400</assert>
+		<assert id="BR-BT-00198-3042" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3042</assert>
+		<assert id="BR-BT-00198-3401" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3401</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0145" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00195-0145</assert>
+		<assert id="BR-BT-00196-3040" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3040</assert>
+		<assert id="BR-BT-00196-3399" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3399</assert>
+		<assert id="BR-BT-00197-3042" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3042</assert>
+		<assert id="BR-BT-00197-3401" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3401</assert>
+		<assert id="BR-BT-00198-3043" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3043</assert>
+		<assert id="BR-BT-00198-3402" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3402</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0138" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00195-0138</assert>
+		<assert id="BR-BT-00196-3035" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3035</assert>
+		<assert id="BR-BT-00196-3394" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3394</assert>
+		<assert id="BR-BT-00197-3037" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3037</assert>
+		<assert id="BR-BT-00197-3396" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3396</assert>
+		<assert id="BR-BT-00198-3038" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3038</assert>
+		<assert id="BR-BT-00198-3397" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3397</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0139" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00195-0139</assert>
+		<assert id="BR-BT-00196-3036" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3036</assert>
+		<assert id="BR-BT-00196-3395" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3395</assert>
+		<assert id="BR-BT-00197-3038" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3038</assert>
+		<assert id="BR-BT-00197-3397" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3397</assert>
+		<assert id="BR-BT-00198-3039" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3039</assert>
+		<assert id="BR-BT-00198-3398" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3398</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0140" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00195-0140</assert>
+		<assert id="BR-BT-00196-3037" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3037</assert>
+		<assert id="BR-BT-00196-3396" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3396</assert>
+		<assert id="BR-BT-00197-3039" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3039</assert>
+		<assert id="BR-BT-00197-3398" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3398</assert>
+		<assert id="BR-BT-00198-3040" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3040</assert>
+		<assert id="BR-BT-00198-3399" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3399</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-0134" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00195-0134</assert>
+		<assert id="BR-BT-00196-3032" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3032</assert>
+		<assert id="BR-BT-00196-3391" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3391</assert>
+		<assert id="BR-BT-00197-3034" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3034</assert>
+		<assert id="BR-BT-00197-3393" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3393</assert>
+		<assert id="BR-BT-00198-3035" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3035</assert>
+		<assert id="BR-BT-00198-3394" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3394</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-0135" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00195-0135</assert>
+		<assert id="BR-BT-00196-3033" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3033</assert>
+		<assert id="BR-BT-00196-3392" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3392</assert>
+		<assert id="BR-BT-00197-3035" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3035</assert>
+		<assert id="BR-BT-00197-3394" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3394</assert>
+		<assert id="BR-BT-00198-3036" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3036</assert>
+		<assert id="BR-BT-00198-3395" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3395</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-0136" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00195-0136</assert>
+		<assert id="BR-BT-00196-3034" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3034</assert>
+		<assert id="BR-BT-00196-3393" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3393</assert>
+		<assert id="BR-BT-00197-3036" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3036</assert>
+		<assert id="BR-BT-00197-3395" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3395</assert>
+		<assert id="BR-BT-00198-3037" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3037</assert>
+		<assert id="BR-BT-00198-3396" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3396</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0195" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:GroupFrameworkValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0195</assert>
+		<assert id="BR-BT-00196-2872" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2872</assert>
+		<assert id="BR-BT-00196-3231" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3231</assert>
+		<assert id="BR-BT-00197-2874" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2874</assert>
+		<assert id="BR-BT-00197-3233" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3233</assert>
+		<assert id="BR-BT-00198-2875" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2875</assert>
+		<assert id="BR-BT-00198-3234" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3234</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0196" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:GroupFrameworkValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0196</assert>
+		<assert id="BR-BT-00196-2873" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2873</assert>
+		<assert id="BR-BT-00196-3232" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3232</assert>
+		<assert id="BR-BT-00197-2875" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2875</assert>
+		<assert id="BR-BT-00197-3234" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3234</assert>
+		<assert id="BR-BT-00198-2876" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2876</assert>
+		<assert id="BR-BT-00198-3235" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3235</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0189" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:GroupFrameworkValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0189</assert>
+		<assert id="BR-BT-00196-2868" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2868</assert>
+		<assert id="BR-BT-00196-3227" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3227</assert>
+		<assert id="BR-BT-00197-2870" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2870</assert>
+		<assert id="BR-BT-00197-3229" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3229</assert>
+		<assert id="BR-BT-00198-2871" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2871</assert>
+		<assert id="BR-BT-00198-3230" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3230</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0190" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:GroupFrameworkValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0190</assert>
+		<assert id="BR-BT-00196-2869" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2869</assert>
+		<assert id="BR-BT-00196-3228" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3228</assert>
+		<assert id="BR-BT-00197-2871" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2871</assert>
+		<assert id="BR-BT-00197-3230" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3230</assert>
+		<assert id="BR-BT-00198-2872" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2872</assert>
+		<assert id="BR-BT-00198-3231" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3231</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0191" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:GroupFrameworkValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0191</assert>
+		<assert id="BR-BT-00196-2870" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2870</assert>
+		<assert id="BR-BT-00196-3229" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3229</assert>
+		<assert id="BR-BT-00197-2872" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2872</assert>
+		<assert id="BR-BT-00197-3231" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3231</assert>
+		<assert id="BR-BT-00198-2873" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2873</assert>
+		<assert id="BR-BT-00198-3232" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3232</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-0185" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:GroupFrameworkValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0185</assert>
+		<assert id="BR-BT-00196-2865" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2865</assert>
+		<assert id="BR-BT-00196-3224" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3224</assert>
+		<assert id="BR-BT-00197-2867" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2867</assert>
+		<assert id="BR-BT-00197-3226" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3226</assert>
+		<assert id="BR-BT-00198-2868" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2868</assert>
+		<assert id="BR-BT-00198-3227" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3227</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-0186" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:GroupFrameworkValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0186</assert>
+		<assert id="BR-BT-00196-2866" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2866</assert>
+		<assert id="BR-BT-00196-3225" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3225</assert>
+		<assert id="BR-BT-00197-2868" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2868</assert>
+		<assert id="BR-BT-00197-3227" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3227</assert>
+		<assert id="BR-BT-00198-2869" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2869</assert>
+		<assert id="BR-BT-00198-3228" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3228</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-0187" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:GroupFrameworkValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0187</assert>
+		<assert id="BR-BT-00196-2867" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2867</assert>
+		<assert id="BR-BT-00196-3226" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3226</assert>
+		<assert id="BR-BT-00197-2869" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2869</assert>
+		<assert id="BR-BT-00197-3228" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3228</assert>
+		<assert id="BR-BT-00198-2870" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2870</assert>
+		<assert id="BR-BT-00198-3229" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3229</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '36']">
 		<assert id="BR-BT-00144-0045" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0045</assert>
 		<assert id="BR-BT-00144-0060" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0060</assert>
+		<assert id="BR-BT-00759-0045" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0045</assert>
+		<assert id="BR-BT-00759-0095" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0095</assert>
+		<assert id="BR-BT-00760-0045" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0045</assert>
+		<assert id="BR-BT-00760-0096" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0096</assert>
+		<assert id="BR-OPT-00315-0045" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0045</assert>
+		<assert id="BR-OPT-00315-0060" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0060</assert>
+		<assert id="BR-OPT-00320-0045" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0045</assert>
+		<assert id="BR-OPT-00320-0061" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0061</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '37']">
 		<assert id="BR-BT-00144-0046" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0046</assert>
 		<assert id="BR-BT-00144-0061" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0061</assert>
+		<assert id="BR-BT-00759-0046" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0046</assert>
+		<assert id="BR-BT-00759-0096" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0096</assert>
+		<assert id="BR-BT-00760-0046" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0046</assert>
+		<assert id="BR-BT-00760-0097" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0097</assert>
+		<assert id="BR-OPT-00315-0046" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0046</assert>
+		<assert id="BR-OPT-00315-0061" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0061</assert>
+		<assert id="BR-OPT-00320-0046" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0046</assert>
+		<assert id="BR-OPT-00320-0062" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0062</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '33']">
 		<assert id="BR-BT-00144-0042" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0042</assert>
 		<assert id="BR-BT-00144-0057" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0057</assert>
+		<assert id="BR-BT-00759-0042" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0042</assert>
+		<assert id="BR-BT-00759-0092" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0092</assert>
+		<assert id="BR-BT-00760-0042" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0042</assert>
+		<assert id="BR-BT-00760-0093" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0093</assert>
+		<assert id="BR-OPT-00315-0042" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0042</assert>
+		<assert id="BR-OPT-00315-0057" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0057</assert>
+		<assert id="BR-OPT-00320-0042" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0042</assert>
+		<assert id="BR-OPT-00320-0058" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0058</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '34']">
 		<assert id="BR-BT-00144-0043" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0043</assert>
 		<assert id="BR-BT-00144-0058" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0058</assert>
+		<assert id="BR-BT-00759-0043" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0043</assert>
+		<assert id="BR-BT-00759-0093" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0093</assert>
+		<assert id="BR-BT-00760-0043" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0043</assert>
+		<assert id="BR-BT-00760-0094" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0094</assert>
+		<assert id="BR-OPT-00315-0043" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0043</assert>
+		<assert id="BR-OPT-00315-0058" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0058</assert>
+		<assert id="BR-OPT-00320-0043" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0043</assert>
+		<assert id="BR-OPT-00320-0059" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0059</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '35']">
 		<assert id="BR-BT-00144-0044" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0044</assert>
 		<assert id="BR-BT-00144-0059" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0059</assert>
+		<assert id="BR-BT-00759-0044" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0044</assert>
+		<assert id="BR-BT-00759-0094" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0094</assert>
+		<assert id="BR-BT-00760-0044" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0044</assert>
+		<assert id="BR-BT-00760-0095" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0095</assert>
+		<assert id="BR-OPT-00315-0044" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0044</assert>
+		<assert id="BR-OPT-00315-0059" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0059</assert>
+		<assert id="BR-OPT-00320-0044" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0044</assert>
+		<assert id="BR-OPT-00320-0060" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0060</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '29']">
-		<assert id="BR-BT-00119-0036" role="ERROR" test="count(efbc:DPSTerminationIndicator) &gt; 0 or not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']/normalize-space(text())=('dps-list','dps-nlist'))">rule|message|BR-BT-00119-0036</assert>
-		<assert id="BR-BT-00119-0052" role="ERROR" test="count(efbc:DPSTerminationIndicator) = 0 or (/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']/normalize-space(text())=('dps-list','dps-nlist'))">rule|message|BR-BT-00119-0052</assert>
 		<assert id="BR-BT-00144-0036" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0036</assert>
 		<assert id="BR-BT-00144-0053" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0053</assert>
-		<assert id="BR-BT-00710-0036" role="ERROR" test="count(cbc:LowerTenderAmount) &gt; 0 or not(../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00710-0036</assert>
-		<assert id="BR-BT-00710-0052" role="ERROR" test="count(cbc:LowerTenderAmount) = 0 or (../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00710-0052</assert>
-		<assert id="BR-BT-00711-0036" role="ERROR" test="count(cbc:HigherTenderAmount) &gt; 0 or not(../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00711-0036</assert>
-		<assert id="BR-BT-00711-0052" role="ERROR" test="count(cbc:HigherTenderAmount) = 0 or (../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00711-0052</assert>
+		<assert id="BR-BT-00710-0036" role="ERROR" test="count(cbc:LowerTenderAmount) &gt; 0 or not(cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00710-0036</assert>
+		<assert id="BR-BT-00710-0052" role="ERROR" test="count(cbc:LowerTenderAmount) = 0 or (cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00710-0052</assert>
+		<assert id="BR-BT-00711-0036" role="ERROR" test="count(cbc:HigherTenderAmount) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='close-nw' and efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text())!='no-rece' and not(efac:FrameworkAgreementValues/cbc:EstimatedMaximumValueAmount[normalize-space(text())]) and not(efac:FrameworkAgreementValues/cbc:MaximumValueAmount[normalize-space(text())]))">rule|message|BR-BT-00711-0036</assert>
+		<assert id="BR-BT-00711-0052" role="ERROR" test="count(cbc:HigherTenderAmount) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw' and not(efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text())='no-rece') and not(efac:FrameworkAgreementValues/cbc:EstimatedMaximumValueAmount[normalize-space(text())]) and not(efac:FrameworkAgreementValues/cbc:MaximumValueAmount[normalize-space(text())]))">rule|message|BR-BT-00711-0052</assert>
+		<assert id="BR-BT-00759-0036" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0036</assert>
+		<assert id="BR-BT-00759-0086" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0086</assert>
+		<assert id="BR-BT-00760-0036" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0036</assert>
+		<assert id="BR-BT-00760-0087" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0087</assert>
+		<assert id="BR-OPT-00315-0036" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0036</assert>
+		<assert id="BR-OPT-00315-0052" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0052</assert>
+		<assert id="BR-OPT-00320-0036" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0036</assert>
+		<assert id="BR-OPT-00320-0052" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '30']">
-		<assert id="BR-BT-00119-0037" role="ERROR" test="count(efbc:DPSTerminationIndicator) &gt; 0 or not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']/normalize-space(text())=('dps-list','dps-nlist'))">rule|message|BR-BT-00119-0037</assert>
-		<assert id="BR-BT-00119-0053" role="ERROR" test="count(efbc:DPSTerminationIndicator) = 0 or (/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']/normalize-space(text())=('dps-list','dps-nlist'))">rule|message|BR-BT-00119-0053</assert>
 		<assert id="BR-BT-00144-0037" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0037</assert>
 		<assert id="BR-BT-00144-0054" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0054</assert>
-		<assert id="BR-BT-00710-0037" role="ERROR" test="count(cbc:LowerTenderAmount) &gt; 0 or not(../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00710-0037</assert>
-		<assert id="BR-BT-00710-0053" role="ERROR" test="count(cbc:LowerTenderAmount) = 0 or (../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00710-0053</assert>
-		<assert id="BR-BT-00711-0037" role="ERROR" test="count(cbc:HigherTenderAmount) &gt; 0 or not(../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00711-0037</assert>
-		<assert id="BR-BT-00711-0053" role="ERROR" test="count(cbc:HigherTenderAmount) = 0 or (../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00711-0053</assert>
+		<assert id="BR-BT-00710-0037" role="ERROR" test="count(cbc:LowerTenderAmount) &gt; 0 or not(cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00710-0037</assert>
+		<assert id="BR-BT-00710-0053" role="ERROR" test="count(cbc:LowerTenderAmount) = 0 or (cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00710-0053</assert>
+		<assert id="BR-BT-00711-0037" role="ERROR" test="count(cbc:HigherTenderAmount) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='close-nw' and efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text())!='no-rece' and not(efac:FrameworkAgreementValues/cbc:EstimatedMaximumValueAmount[normalize-space(text())]) and not(efac:FrameworkAgreementValues/cbc:MaximumValueAmount[normalize-space(text())]))">rule|message|BR-BT-00711-0037</assert>
+		<assert id="BR-BT-00711-0053" role="ERROR" test="count(cbc:HigherTenderAmount) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw' and not(efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text())='no-rece') and not(efac:FrameworkAgreementValues/cbc:EstimatedMaximumValueAmount[normalize-space(text())]) and not(efac:FrameworkAgreementValues/cbc:MaximumValueAmount[normalize-space(text())]))">rule|message|BR-BT-00711-0053</assert>
+		<assert id="BR-BT-00759-0037" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0037</assert>
+		<assert id="BR-BT-00759-0087" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0087</assert>
+		<assert id="BR-BT-00760-0037" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0037</assert>
+		<assert id="BR-BT-00760-0088" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0088</assert>
+		<assert id="BR-OPT-00315-0037" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0037</assert>
+		<assert id="BR-OPT-00315-0053" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0053</assert>
+		<assert id="BR-OPT-00320-0037" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0037</assert>
+		<assert id="BR-OPT-00320-0053" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0053</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '32']">
 		<assert id="BR-BT-00144-0039" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0039</assert>
 		<assert id="BR-BT-00144-0056" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0056</assert>
+		<assert id="BR-BT-00759-0039" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0039</assert>
+		<assert id="BR-BT-00759-0089" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0089</assert>
+		<assert id="BR-BT-00760-0039" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0039</assert>
+		<assert id="BR-BT-00760-0090" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0090</assert>
+		<assert id="BR-OPT-00315-0039" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0039</assert>
+		<assert id="BR-OPT-00315-0055" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0055</assert>
+		<assert id="BR-OPT-00320-0039" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0039</assert>
+		<assert id="BR-OPT-00320-0055" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0055</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '31']">
 		<assert id="BR-BT-00144-0038" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0038</assert>
 		<assert id="BR-BT-00144-0055" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0055</assert>
-		<assert id="BR-BT-00710-0038" role="ERROR" test="count(cbc:LowerTenderAmount) &gt; 0 or not(../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00710-0038</assert>
-		<assert id="BR-BT-00710-0054" role="ERROR" test="count(cbc:LowerTenderAmount) = 0 or (../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00710-0054</assert>
-		<assert id="BR-BT-00711-0038" role="ERROR" test="count(cbc:HigherTenderAmount) &gt; 0 or not(../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00711-0038</assert>
-		<assert id="BR-BT-00711-0054" role="ERROR" test="count(cbc:HigherTenderAmount) = 0 or (../efac:LotTender/efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00711-0054</assert>
+		<assert id="BR-BT-00710-0038" role="ERROR" test="count(cbc:LowerTenderAmount) &gt; 0 or not(cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00710-0038</assert>
+		<assert id="BR-BT-00710-0054" role="ERROR" test="count(cbc:LowerTenderAmount) = 0 or (cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00710-0054</assert>
+		<assert id="BR-BT-00711-0038" role="ERROR" test="count(cbc:HigherTenderAmount) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='close-nw' and efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text())!='no-rece' and not(efac:FrameworkAgreementValues/cbc:EstimatedMaximumValueAmount[normalize-space(text())]) and not(efac:FrameworkAgreementValues/cbc:MaximumValueAmount[normalize-space(text())]))">rule|message|BR-BT-00711-0038</assert>
+		<assert id="BR-BT-00711-0054" role="ERROR" test="count(cbc:HigherTenderAmount) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw' and not(efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text())='no-rece') and not(efac:FrameworkAgreementValues/cbc:EstimatedMaximumValueAmount[normalize-space(text())]) and not(efac:FrameworkAgreementValues/cbc:MaximumValueAmount[normalize-space(text())]))">rule|message|BR-BT-00711-0054</assert>
+		<assert id="BR-BT-00759-0038" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0038</assert>
+		<assert id="BR-BT-00759-0088" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00759-0088</assert>
+		<assert id="BR-BT-00760-0038" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0038</assert>
+		<assert id="BR-BT-00760-0089" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-BT-00760-0089</assert>
+		<assert id="BR-OPT-00315-0038" role="ERROR" test="count(efac:SettledContract/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0038</assert>
+		<assert id="BR-OPT-00315-0054" role="ERROR" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00315-0054</assert>
+		<assert id="BR-OPT-00320-0038" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0038</assert>
+		<assert id="BR-OPT-00320-0054" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0054</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = 'T02']">
 		<assert id="BR-BT-00144-0041" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0041</assert>
 		<assert id="BR-BT-00144-0062" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text())='clos-nw')">rule|message|BR-BT-00144-0062</assert>
+		<assert id="BR-OPT-00320-0041" role="ERROR" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00320-0041</assert>
+		<assert id="BR-OPT-00320-0057" role="ERROR" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text())!='open-nw')">rule|message|BR-OPT-00320-0057</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues[$noticeSubType = '33']">
-		<assert id="BR-BT-00660-0042" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0042</assert>
-		<assert id="BR-BT-00660-0055" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0055</assert>
-		<assert id="BR-BT-00709-0042" role="ERROR" test="count(cbc:MaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0042</assert>
-		<assert id="BR-BT-00709-0055" role="ERROR" test="count(cbc:MaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0055</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0449" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0449</assert>
+		<assert id="BR-BT-00196-3067" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3067</assert>
+		<assert id="BR-BT-00196-3426" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3426</assert>
+		<assert id="BR-BT-00197-3069" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3069</assert>
+		<assert id="BR-BT-00197-3428" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3428</assert>
+		<assert id="BR-BT-00198-3070" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3070</assert>
+		<assert id="BR-BT-00198-3429" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3429</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues[$noticeSubType = '34']">
-		<assert id="BR-BT-00660-0043" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0043</assert>
-		<assert id="BR-BT-00660-0056" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0056</assert>
-		<assert id="BR-BT-00709-0043" role="ERROR" test="count(cbc:MaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0043</assert>
-		<assert id="BR-BT-00709-0056" role="ERROR" test="count(cbc:MaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0056</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0450" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0450</assert>
+		<assert id="BR-BT-00196-3068" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3068</assert>
+		<assert id="BR-BT-00196-3427" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3427</assert>
+		<assert id="BR-BT-00197-3070" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3070</assert>
+		<assert id="BR-BT-00197-3429" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3429</assert>
+		<assert id="BR-BT-00198-3071" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3071</assert>
+		<assert id="BR-BT-00198-3430" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3430</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues[$noticeSubType = '29']">
-		<assert id="BR-BT-00660-0036" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0036</assert>
-		<assert id="BR-BT-00660-0052" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0052</assert>
-		<assert id="BR-BT-00709-0036" role="ERROR" test="count(cbc:MaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0036</assert>
-		<assert id="BR-BT-00709-0052" role="ERROR" test="count(cbc:MaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0052</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0451" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0451</assert>
+		<assert id="BR-BT-00196-3069" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3069</assert>
+		<assert id="BR-BT-00196-3428" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3428</assert>
+		<assert id="BR-BT-00197-3071" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3071</assert>
+		<assert id="BR-BT-00197-3430" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3430</assert>
+		<assert id="BR-BT-00198-3072" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3072</assert>
+		<assert id="BR-BT-00198-3431" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3431</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues[$noticeSubType = '30']">
-		<assert id="BR-BT-00660-0037" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0037</assert>
-		<assert id="BR-BT-00660-0053" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0053</assert>
-		<assert id="BR-BT-00709-0037" role="ERROR" test="count(cbc:MaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0037</assert>
-		<assert id="BR-BT-00709-0053" role="ERROR" test="count(cbc:MaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0053</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0443" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0443</assert>
+		<assert id="BR-BT-00196-3062" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3062</assert>
+		<assert id="BR-BT-00196-3421" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3421</assert>
+		<assert id="BR-BT-00197-3064" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3064</assert>
+		<assert id="BR-BT-00197-3423" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3423</assert>
+		<assert id="BR-BT-00198-3065" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3065</assert>
+		<assert id="BR-BT-00198-3424" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3424</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues[$noticeSubType = '31']">
-		<assert id="BR-BT-00660-0038" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0038</assert>
-		<assert id="BR-BT-00660-0054" role="ERROR" test="count(cbc:EstimatedMaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00660-0054</assert>
-		<assert id="BR-BT-00709-0038" role="ERROR" test="count(cbc:MaximumValueAmount) &gt; 0 or not(../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0038</assert>
-		<assert id="BR-BT-00709-0054" role="ERROR" test="count(cbc:MaximumValueAmount) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w' and /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text())=('fa-mix','fa-w-rc','fa-wo-rc'))">rule|message|BR-BT-00709-0054</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0444" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0444</assert>
+		<assert id="BR-BT-00196-3063" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3063</assert>
+		<assert id="BR-BT-00196-3422" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3422</assert>
+		<assert id="BR-BT-00197-3065" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3065</assert>
+		<assert id="BR-BT-00197-3424" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3424</assert>
+		<assert id="BR-BT-00198-3066" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3066</assert>
+		<assert id="BR-BT-00198-3425" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3425</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0446" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0446</assert>
+		<assert id="BR-BT-00196-3065" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3065</assert>
+		<assert id="BR-BT-00196-3424" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3424</assert>
+		<assert id="BR-BT-00197-3067" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3067</assert>
+		<assert id="BR-BT-00197-3426" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3426</assert>
+		<assert id="BR-BT-00198-3068" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3068</assert>
+		<assert id="BR-BT-00198-3427" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3427</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0445" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0445</assert>
+		<assert id="BR-BT-00196-3064" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3064</assert>
+		<assert id="BR-BT-00196-3423" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3423</assert>
+		<assert id="BR-BT-00197-3066" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3066</assert>
+		<assert id="BR-BT-00197-3425" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3425</assert>
+		<assert id="BR-BT-00198-3067" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3067</assert>
+		<assert id="BR-BT-00198-3426" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3426</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0499" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:DecisionReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0499</assert>
+		<assert id="BR-BT-00196-2861" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2861</assert>
+		<assert id="BR-BT-00196-3220" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3220</assert>
+		<assert id="BR-BT-00197-2863" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2863</assert>
+		<assert id="BR-BT-00197-3222" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3222</assert>
+		<assert id="BR-BT-00198-2864" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2864</assert>
+		<assert id="BR-BT-00198-3223" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3223</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0500" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:DecisionReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0500</assert>
+		<assert id="BR-BT-00196-2862" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2862</assert>
+		<assert id="BR-BT-00196-3221" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3221</assert>
+		<assert id="BR-BT-00197-2864" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2864</assert>
+		<assert id="BR-BT-00197-3223" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3223</assert>
+		<assert id="BR-BT-00198-2865" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2865</assert>
+		<assert id="BR-BT-00198-3224" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3224</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0501" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:DecisionReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0501</assert>
+		<assert id="BR-BT-00196-2863" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2863</assert>
+		<assert id="BR-BT-00196-3222" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3222</assert>
+		<assert id="BR-BT-00197-2865" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2865</assert>
+		<assert id="BR-BT-00197-3224" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3224</assert>
+		<assert id="BR-BT-00198-2866" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2866</assert>
+		<assert id="BR-BT-00198-3225" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3225</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0493" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:DecisionReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0493</assert>
+		<assert id="BR-BT-00196-2856" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2856</assert>
+		<assert id="BR-BT-00196-3215" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3215</assert>
+		<assert id="BR-BT-00197-2858" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2858</assert>
+		<assert id="BR-BT-00197-3217" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3217</assert>
+		<assert id="BR-BT-00198-2859" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2859</assert>
+		<assert id="BR-BT-00198-3218" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3218</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0494" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:DecisionReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0494</assert>
+		<assert id="BR-BT-00196-2857" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2857</assert>
+		<assert id="BR-BT-00196-3216" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3216</assert>
+		<assert id="BR-BT-00197-2859" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2859</assert>
+		<assert id="BR-BT-00197-3218" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3218</assert>
+		<assert id="BR-BT-00198-2860" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2860</assert>
+		<assert id="BR-BT-00198-3219" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3219</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0496" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:DecisionReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0496</assert>
+		<assert id="BR-BT-00196-2859" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2859</assert>
+		<assert id="BR-BT-00196-3218" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3218</assert>
+		<assert id="BR-BT-00197-2861" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2861</assert>
+		<assert id="BR-BT-00197-3220" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3220</assert>
+		<assert id="BR-BT-00198-2862" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2862</assert>
+		<assert id="BR-BT-00198-3221" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3221</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0495" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:DecisionReasonCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0495</assert>
+		<assert id="BR-BT-00196-2858" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2858</assert>
+		<assert id="BR-BT-00196-3217" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3217</assert>
+		<assert id="BR-BT-00197-2860" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2860</assert>
+		<assert id="BR-BT-00197-3219" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3219</assert>
+		<assert id="BR-BT-00198-2861" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2861</assert>
+		<assert id="BR-BT-00198-3220" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3220</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-hig'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0341" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0341</assert>
+		<assert id="BR-BT-00196-3057" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3057</assert>
+		<assert id="BR-BT-00196-3416" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3416</assert>
+		<assert id="BR-BT-00197-3059" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3059</assert>
+		<assert id="BR-BT-00197-3418" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3418</assert>
+		<assert id="BR-BT-00198-3060" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3060</assert>
+		<assert id="BR-BT-00198-3419" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3419</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-hig'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0342" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0342</assert>
+		<assert id="BR-BT-00196-3058" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3058</assert>
+		<assert id="BR-BT-00196-3417" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3417</assert>
+		<assert id="BR-BT-00197-3060" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3060</assert>
+		<assert id="BR-BT-00197-3419" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3419</assert>
+		<assert id="BR-BT-00198-3061" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3061</assert>
+		<assert id="BR-BT-00198-3420" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3420</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-hig'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0343" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:HigherTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0343</assert>
+		<assert id="BR-BT-00196-3059" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3059</assert>
+		<assert id="BR-BT-00196-3418" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3418</assert>
+		<assert id="BR-BT-00197-3061" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3061</assert>
+		<assert id="BR-BT-00197-3420" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3420</assert>
+		<assert id="BR-BT-00198-3062" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3062</assert>
+		<assert id="BR-BT-00198-3421" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3421</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-low'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0290" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:LowerTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0290</assert>
+		<assert id="BR-BT-00196-3052" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3052</assert>
+		<assert id="BR-BT-00196-3411" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3411</assert>
+		<assert id="BR-BT-00197-3054" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3054</assert>
+		<assert id="BR-BT-00197-3413" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3413</assert>
+		<assert id="BR-BT-00198-3055" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3055</assert>
+		<assert id="BR-BT-00198-3414" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3414</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-low'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0291" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:LowerTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0291</assert>
+		<assert id="BR-BT-00196-3053" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3053</assert>
+		<assert id="BR-BT-00196-3412" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3412</assert>
+		<assert id="BR-BT-00197-3055" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3055</assert>
+		<assert id="BR-BT-00197-3414" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3414</assert>
+		<assert id="BR-BT-00198-3056" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3056</assert>
+		<assert id="BR-BT-00198-3415" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3415</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-low'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0292" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:LowerTenderAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0292</assert>
+		<assert id="BR-BT-00196-3054" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3054</assert>
+		<assert id="BR-BT-00196-3413" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3413</assert>
+		<assert id="BR-BT-00197-3056" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3056</assert>
+		<assert id="BR-BT-00197-3415" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3415</assert>
+		<assert id="BR-BT-00198-3057" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3057</assert>
+		<assert id="BR-BT-00198-3416" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3416</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0246" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0246</assert>
+		<assert id="BR-BT-00196-2852" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2852</assert>
+		<assert id="BR-BT-00196-3211" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3211</assert>
+		<assert id="BR-BT-00197-2854" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2854</assert>
+		<assert id="BR-BT-00197-3213" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3213</assert>
+		<assert id="BR-BT-00198-2855" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2855</assert>
+		<assert id="BR-BT-00198-3214" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3214</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0247" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0247</assert>
+		<assert id="BR-BT-00196-2853" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2853</assert>
+		<assert id="BR-BT-00196-3212" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3212</assert>
+		<assert id="BR-BT-00197-2855" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2855</assert>
+		<assert id="BR-BT-00197-3214" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3214</assert>
+		<assert id="BR-BT-00198-2856" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2856</assert>
+		<assert id="BR-BT-00198-3215" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3215</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0248" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0248</assert>
+		<assert id="BR-BT-00196-2854" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2854</assert>
+		<assert id="BR-BT-00196-3213" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3213</assert>
+		<assert id="BR-BT-00197-2856" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2856</assert>
+		<assert id="BR-BT-00197-3215" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3215</assert>
+		<assert id="BR-BT-00198-2857" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2857</assert>
+		<assert id="BR-BT-00198-3216" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3216</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0240" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0240</assert>
+		<assert id="BR-BT-00196-2847" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2847</assert>
+		<assert id="BR-BT-00196-3206" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3206</assert>
+		<assert id="BR-BT-00197-2849" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2849</assert>
+		<assert id="BR-BT-00197-3208" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3208</assert>
+		<assert id="BR-BT-00198-2850" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2850</assert>
+		<assert id="BR-BT-00198-3209" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3209</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0241" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0241</assert>
+		<assert id="BR-BT-00196-2848" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2848</assert>
+		<assert id="BR-BT-00196-3207" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3207</assert>
+		<assert id="BR-BT-00197-2850" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2850</assert>
+		<assert id="BR-BT-00197-3209" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3209</assert>
+		<assert id="BR-BT-00198-2851" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2851</assert>
+		<assert id="BR-BT-00198-3210" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3210</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0243" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0243</assert>
+		<assert id="BR-BT-00196-2850" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2850</assert>
+		<assert id="BR-BT-00196-3209" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3209</assert>
+		<assert id="BR-BT-00197-2852" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2852</assert>
+		<assert id="BR-BT-00197-3211" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3211</assert>
+		<assert id="BR-BT-00198-2853" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2853</assert>
+		<assert id="BR-BT-00198-3212" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3212</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0242" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0242</assert>
+		<assert id="BR-BT-00196-2849" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2849</assert>
+		<assert id="BR-BT-00196-3208" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3208</assert>
+		<assert id="BR-BT-00197-2851" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2851</assert>
+		<assert id="BR-BT-00197-3210" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3210</assert>
+		<assert id="BR-BT-00198-2852" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2852</assert>
+		<assert id="BR-BT-00198-3211" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3211</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0398" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:MaximumValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0398</assert>
+		<assert id="BR-BT-00196-3049" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3049</assert>
+		<assert id="BR-BT-00196-3408" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3408</assert>
+		<assert id="BR-BT-00197-3051" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3051</assert>
+		<assert id="BR-BT-00197-3410" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3410</assert>
+		<assert id="BR-BT-00198-3052" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3052</assert>
+		<assert id="BR-BT-00198-3411" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3411</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0399" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:MaximumValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0399</assert>
+		<assert id="BR-BT-00196-3050" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3050</assert>
+		<assert id="BR-BT-00196-3409" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3409</assert>
+		<assert id="BR-BT-00197-3052" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3052</assert>
+		<assert id="BR-BT-00197-3411" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3411</assert>
+		<assert id="BR-BT-00198-3053" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3053</assert>
+		<assert id="BR-BT-00198-3412" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3412</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0392" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:MaximumValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0392</assert>
+		<assert id="BR-BT-00196-3045" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3045</assert>
+		<assert id="BR-BT-00196-3404" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3404</assert>
+		<assert id="BR-BT-00197-3047" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3047</assert>
+		<assert id="BR-BT-00197-3406" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3406</assert>
+		<assert id="BR-BT-00198-3048" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3048</assert>
+		<assert id="BR-BT-00198-3407" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3407</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0393" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:MaximumValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0393</assert>
+		<assert id="BR-BT-00196-3046" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3046</assert>
+		<assert id="BR-BT-00196-3405" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3405</assert>
+		<assert id="BR-BT-00197-3048" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3048</assert>
+		<assert id="BR-BT-00197-3407" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3407</assert>
+		<assert id="BR-BT-00198-3049" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3049</assert>
+		<assert id="BR-BT-00198-3408" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3408</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0394" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:MaximumValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0394</assert>
+		<assert id="BR-BT-00196-3047" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3047</assert>
+		<assert id="BR-BT-00196-3406" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3406</assert>
+		<assert id="BR-BT-00197-3049" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3049</assert>
+		<assert id="BR-BT-00197-3408" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3408</assert>
+		<assert id="BR-BT-00198-3050" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3050</assert>
+		<assert id="BR-BT-00198-3409" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3409</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-0388" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:MaximumValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0388</assert>
+		<assert id="BR-BT-00196-3042" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3042</assert>
+		<assert id="BR-BT-00196-3401" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3401</assert>
+		<assert id="BR-BT-00197-3044" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3044</assert>
+		<assert id="BR-BT-00197-3403" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3403</assert>
+		<assert id="BR-BT-00198-3045" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3045</assert>
+		<assert id="BR-BT-00198-3404" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3404</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-0389" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:MaximumValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0389</assert>
+		<assert id="BR-BT-00196-3043" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3043</assert>
+		<assert id="BR-BT-00196-3402" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3402</assert>
+		<assert id="BR-BT-00197-3045" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3045</assert>
+		<assert id="BR-BT-00197-3404" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3404</assert>
+		<assert id="BR-BT-00198-3046" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3046</assert>
+		<assert id="BR-BT-00198-3405" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3405</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-0390" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:MaximumValueAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0390</assert>
+		<assert id="BR-BT-00196-3044" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3044</assert>
+		<assert id="BR-BT-00196-3403" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3403</assert>
+		<assert id="BR-BT-00197-3046" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3046</assert>
+		<assert id="BR-BT-00197-3405" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3405</assert>
+		<assert id="BR-BT-00198-3047" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3047</assert>
+		<assert id="BR-BT-00198-3406" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3406</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0600" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-0600</assert>
+		<assert id="BR-BT-00196-3135" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3135</assert>
+		<assert id="BR-BT-00196-3494" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3494</assert>
+		<assert id="BR-BT-00197-3137" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3137</assert>
+		<assert id="BR-BT-00197-3496" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3496</assert>
+		<assert id="BR-BT-00198-3138" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3138</assert>
+		<assert id="BR-BT-00198-3497" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3497</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0601" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-0601</assert>
+		<assert id="BR-BT-00196-3136" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3136</assert>
+		<assert id="BR-BT-00196-3495" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3495</assert>
+		<assert id="BR-BT-00197-3138" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3138</assert>
+		<assert id="BR-BT-00197-3497" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3497</assert>
+		<assert id="BR-BT-00198-3139" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3139</assert>
+		<assert id="BR-BT-00198-3498" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3498</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0602" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-0602</assert>
+		<assert id="BR-BT-00196-3137" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3137</assert>
+		<assert id="BR-BT-00196-3496" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3496</assert>
+		<assert id="BR-BT-00197-3139" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3139</assert>
+		<assert id="BR-BT-00197-3498" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3498</assert>
+		<assert id="BR-BT-00198-3140" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3140</assert>
+		<assert id="BR-BT-00198-3499" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3499</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0594" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-0594</assert>
+		<assert id="BR-BT-00196-3130" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3130</assert>
+		<assert id="BR-BT-00196-3489" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3489</assert>
+		<assert id="BR-BT-00197-3132" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3132</assert>
+		<assert id="BR-BT-00197-3491" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3491</assert>
+		<assert id="BR-BT-00198-3133" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3133</assert>
+		<assert id="BR-BT-00198-3492" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3492</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0595" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-0595</assert>
+		<assert id="BR-BT-00196-3131" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3131</assert>
+		<assert id="BR-BT-00196-3490" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3490</assert>
+		<assert id="BR-BT-00197-3133" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3133</assert>
+		<assert id="BR-BT-00197-3492" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3492</assert>
+		<assert id="BR-BT-00198-3134" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3134</assert>
+		<assert id="BR-BT-00198-3493" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3493</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0597" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-0597</assert>
+		<assert id="BR-BT-00196-3133" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3133</assert>
+		<assert id="BR-BT-00196-3492" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3492</assert>
+		<assert id="BR-BT-00197-3135" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3135</assert>
+		<assert id="BR-BT-00197-3494" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3494</assert>
+		<assert id="BR-BT-00198-3136" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3136</assert>
+		<assert id="BR-BT-00198-3495" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3495</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0596" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric/normalize-space(text())!='')">rule|message|BR-BT-00195-0596</assert>
+		<assert id="BR-BT-00196-3132" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3132</assert>
+		<assert id="BR-BT-00196-3491" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3491</assert>
+		<assert id="BR-BT-00197-3134" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3134</assert>
+		<assert id="BR-BT-00197-3493" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3493</assert>
+		<assert id="BR-BT-00198-3135" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3135</assert>
+		<assert id="BR-BT-00198-3494" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3494</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0549" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0549</assert>
+		<assert id="BR-BT-00196-3144" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3144</assert>
+		<assert id="BR-BT-00196-3503" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3503</assert>
+		<assert id="BR-BT-00197-3146" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3146</assert>
+		<assert id="BR-BT-00197-3505" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3505</assert>
+		<assert id="BR-BT-00198-3147" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3147</assert>
+		<assert id="BR-BT-00198-3506" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3506</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0550" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0550</assert>
+		<assert id="BR-BT-00196-3145" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3145</assert>
+		<assert id="BR-BT-00196-3504" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3504</assert>
+		<assert id="BR-BT-00197-3147" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3147</assert>
+		<assert id="BR-BT-00197-3506" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3506</assert>
+		<assert id="BR-BT-00198-3148" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3148</assert>
+		<assert id="BR-BT-00198-3507" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3507</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0551" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0551</assert>
+		<assert id="BR-BT-00196-3146" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3146</assert>
+		<assert id="BR-BT-00196-3505" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3505</assert>
+		<assert id="BR-BT-00197-3148" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3148</assert>
+		<assert id="BR-BT-00197-3507" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3507</assert>
+		<assert id="BR-BT-00198-3149" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3149</assert>
+		<assert id="BR-BT-00198-3508" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3508</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0543" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0543</assert>
+		<assert id="BR-BT-00196-3139" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3139</assert>
+		<assert id="BR-BT-00196-3498" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3498</assert>
+		<assert id="BR-BT-00197-3141" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3141</assert>
+		<assert id="BR-BT-00197-3500" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3500</assert>
+		<assert id="BR-BT-00198-3142" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3142</assert>
+		<assert id="BR-BT-00198-3501" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3501</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0544" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0544</assert>
+		<assert id="BR-BT-00196-3140" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3140</assert>
+		<assert id="BR-BT-00196-3499" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3499</assert>
+		<assert id="BR-BT-00197-3142" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3142</assert>
+		<assert id="BR-BT-00197-3501" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3501</assert>
+		<assert id="BR-BT-00198-3143" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3143</assert>
+		<assert id="BR-BT-00198-3502" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3502</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0546" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0546</assert>
+		<assert id="BR-BT-00196-3142" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3142</assert>
+		<assert id="BR-BT-00196-3501" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3501</assert>
+		<assert id="BR-BT-00197-3144" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3144</assert>
+		<assert id="BR-BT-00197-3503" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3503</assert>
+		<assert id="BR-BT-00198-3145" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3145</assert>
+		<assert id="BR-BT-00198-3504" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3504</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0545" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0545</assert>
+		<assert id="BR-BT-00196-3141" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3141</assert>
+		<assert id="BR-BT-00196-3500" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3500</assert>
+		<assert id="BR-BT-00197-3143" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3143</assert>
+		<assert id="BR-BT-00197-3502" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3502</assert>
+		<assert id="BR-BT-00198-3144" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3144</assert>
+		<assert id="BR-BT-00198-3503" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3503</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '38']">
+		<assert id="BR-OPT-00156-0047" role="ERROR" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-OPT-00156-0047</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '39']">
+		<assert id="BR-OPT-00156-0048" role="ERROR" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-OPT-00156-0048</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '40']">
+		<assert id="BR-OPT-00156-0049" role="ERROR" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-OPT-00156-0049</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '29']">
+		<assert id="BR-OPT-00155-0036" role="ERROR" test="count(efbc:StatisticsCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00155-0036</assert>
+		<assert id="BR-OPT-00156-0036" role="ERROR" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-OPT-00156-0036</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '30']">
+		<assert id="BR-OPT-00155-0037" role="ERROR" test="count(efbc:StatisticsCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00155-0037</assert>
+		<assert id="BR-OPT-00156-0037" role="ERROR" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-OPT-00156-0037</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '31']">
+		<assert id="BR-OPT-00155-0038" role="ERROR" test="count(efbc:StatisticsCode) = 0 or (../cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-OPT-00155-0038</assert>
+		<assert id="BR-OPT-00156-0038" role="ERROR" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode/normalize-space(text())!='')">rule|message|BR-OPT-00156-0038</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '36']">
-		<assert id="BR-BT-00171-0045" role="ERROR" test="count(cbc:RankCode) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0045</assert>
-		<assert id="BR-BT-00171-0057" role="ERROR" test="count(cbc:RankCode) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0057</assert>
 		<assert id="BR-BT-13714-0045" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0045</assert>
 		<assert id="BR-BT-13714-0065" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0065</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '37']">
-		<assert id="BR-BT-00171-0046" role="ERROR" test="count(cbc:RankCode) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0046</assert>
-		<assert id="BR-BT-00171-0058" role="ERROR" test="count(cbc:RankCode) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0058</assert>
 		<assert id="BR-BT-13714-0046" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0046</assert>
 		<assert id="BR-BT-13714-0066" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0066</assert>
 	</rule>
@@ -5606,54 +7483,30 @@
 		<assert id="BR-BT-13714-0069" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0069</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '33']">
-		<assert id="BR-BT-00171-0042" role="ERROR" test="count(cbc:RankCode) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0042</assert>
-		<assert id="BR-BT-00171-0055" role="ERROR" test="count(cbc:RankCode) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0055</assert>
-		<assert id="BR-BT-00720-0042" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0042</assert>
-		<assert id="BR-BT-00720-0056" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0056</assert>
 		<assert id="BR-BT-13714-0042" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0042</assert>
 		<assert id="BR-BT-13714-0062" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0062</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '34']">
-		<assert id="BR-BT-00171-0043" role="ERROR" test="count(cbc:RankCode) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0043</assert>
-		<assert id="BR-BT-00171-0056" role="ERROR" test="count(cbc:RankCode) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0056</assert>
-		<assert id="BR-BT-00720-0043" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0043</assert>
-		<assert id="BR-BT-00720-0057" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0057</assert>
 		<assert id="BR-BT-13714-0043" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0043</assert>
 		<assert id="BR-BT-13714-0063" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0063</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '35']">
-		<assert id="BR-BT-00720-0044" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0044</assert>
-		<assert id="BR-BT-00720-0058" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0058</assert>
 		<assert id="BR-BT-13714-0044" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0044</assert>
 		<assert id="BR-BT-13714-0064" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0064</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']">
-		<assert id="BR-BT-00171-0036" role="ERROR" test="count(cbc:RankCode) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0036</assert>
-		<assert id="BR-BT-00171-0052" role="ERROR" test="count(cbc:RankCode) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0052</assert>
-		<assert id="BR-BT-00720-0036" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0036</assert>
-		<assert id="BR-BT-00720-0052" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0052</assert>
 		<assert id="BR-BT-13714-0036" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0036</assert>
 		<assert id="BR-BT-13714-0057" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0057</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '30']">
-		<assert id="BR-BT-00171-0037" role="ERROR" test="count(cbc:RankCode) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0037</assert>
-		<assert id="BR-BT-00171-0053" role="ERROR" test="count(cbc:RankCode) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0053</assert>
-		<assert id="BR-BT-00720-0037" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0037</assert>
-		<assert id="BR-BT-00720-0053" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0053</assert>
 		<assert id="BR-BT-13714-0037" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0037</assert>
 		<assert id="BR-BT-13714-0058" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0058</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '32']">
-		<assert id="BR-BT-00720-0039" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0039</assert>
-		<assert id="BR-BT-00720-0055" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0055</assert>
 		<assert id="BR-BT-13714-0039" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0039</assert>
 		<assert id="BR-BT-13714-0060" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0060</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '31']">
-		<assert id="BR-BT-00171-0038" role="ERROR" test="count(cbc:RankCode) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0038</assert>
-		<assert id="BR-BT-00171-0054" role="ERROR" test="count(cbc:RankCode) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00171-0054</assert>
-		<assert id="BR-BT-00720-0038" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0038</assert>
-		<assert id="BR-BT-00720-0054" role="ERROR" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text())='selec-w')">rule|message|BR-BT-00720-0054</assert>
 		<assert id="BR-BT-13714-0038" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0038</assert>
 		<assert id="BR-BT-13714-0059" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0059</assert>
 	</rule>
@@ -5673,9 +7526,401 @@
 		<assert id="BR-BT-13714-0034" role="ERROR" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0034</assert>
 		<assert id="BR-BT-13714-0055" role="ERROR" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-13714-0055</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-buy'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0857" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:RevenueBuyerAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0857</assert>
+		<assert id="BR-BT-00196-2878" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2878</assert>
+		<assert id="BR-BT-00196-3237" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3237</assert>
+		<assert id="BR-BT-00197-2880" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2880</assert>
+		<assert id="BR-BT-00197-3239" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3239</assert>
+		<assert id="BR-BT-00198-2881" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2881</assert>
+		<assert id="BR-BT-00198-3240" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3240</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-buy'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0852" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:RevenueBuyerAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0852</assert>
+		<assert id="BR-BT-00196-2876" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2876</assert>
+		<assert id="BR-BT-00196-3235" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3235</assert>
+		<assert id="BR-BT-00197-2878" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2878</assert>
+		<assert id="BR-BT-00197-3237" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3237</assert>
+		<assert id="BR-BT-00198-2879" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2879</assert>
+		<assert id="BR-BT-00198-3238" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3238</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-buy'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-0848" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:RevenueBuyerAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0848</assert>
+		<assert id="BR-BT-00196-2875" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2875</assert>
+		<assert id="BR-BT-00196-3234" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3234</assert>
+		<assert id="BR-BT-00197-2877" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2877</assert>
+		<assert id="BR-BT-00197-3236" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3236</assert>
+		<assert id="BR-BT-00198-2878" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2878</assert>
+		<assert id="BR-BT-00198-3237" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3237</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-use'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0806" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:RevenueUserAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0806</assert>
+		<assert id="BR-BT-00196-2896" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2896</assert>
+		<assert id="BR-BT-00196-3255" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3255</assert>
+		<assert id="BR-BT-00197-2898" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2898</assert>
+		<assert id="BR-BT-00197-3257" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3257</assert>
+		<assert id="BR-BT-00198-2899" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2899</assert>
+		<assert id="BR-BT-00198-3258" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3258</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-use'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0801" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:RevenueUserAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0801</assert>
+		<assert id="BR-BT-00196-2894" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2894</assert>
+		<assert id="BR-BT-00196-3253" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3253</assert>
+		<assert id="BR-BT-00197-2896" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2896</assert>
+		<assert id="BR-BT-00197-3255" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3255</assert>
+		<assert id="BR-BT-00198-2897" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2897</assert>
+		<assert id="BR-BT-00198-3256" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3256</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-use'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-0797" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:RevenueUserAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0797</assert>
+		<assert id="BR-BT-00196-2893" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2893</assert>
+		<assert id="BR-BT-00196-3252" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3252</assert>
+		<assert id="BR-BT-00197-2895" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2895</assert>
+		<assert id="BR-BT-00197-3254" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3254</assert>
+		<assert id="BR-BT-00198-2896" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2896</assert>
+		<assert id="BR-BT-00198-3255" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3255</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='val-con-des'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0908" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-0908</assert>
+		<assert id="BR-BT-00196-2901" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2901</assert>
+		<assert id="BR-BT-00196-3260" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3260</assert>
+		<assert id="BR-BT-00197-2903" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2903</assert>
+		<assert id="BR-BT-00197-3262" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3262</assert>
+		<assert id="BR-BT-00198-2904" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2904</assert>
+		<assert id="BR-BT-00198-3263" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3263</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='val-con-des'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0903" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-0903</assert>
+		<assert id="BR-BT-00196-2899" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2899</assert>
+		<assert id="BR-BT-00196-3258" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3258</assert>
+		<assert id="BR-BT-00197-2901" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2901</assert>
+		<assert id="BR-BT-00197-3260" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3260</assert>
+		<assert id="BR-BT-00198-2902" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2902</assert>
+		<assert id="BR-BT-00198-3261" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3261</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='val-con-des'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-0899" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-0899</assert>
+		<assert id="BR-BT-00196-2898" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2898</assert>
+		<assert id="BR-BT-00196-3257" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3257</assert>
+		<assert id="BR-BT-00197-2900" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2900</assert>
+		<assert id="BR-BT-00197-3259" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3259</assert>
+		<assert id="BR-BT-00198-2901" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2901</assert>
+		<assert id="BR-BT-00198-3260" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3260</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0651" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0651</assert>
+		<assert id="BR-BT-00196-2910" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2910</assert>
+		<assert id="BR-BT-00196-3269" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3269</assert>
+		<assert id="BR-BT-00197-2912" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2912</assert>
+		<assert id="BR-BT-00197-3271" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3271</assert>
+		<assert id="BR-BT-00198-2913" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2913</assert>
+		<assert id="BR-BT-00198-3272" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3272</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0652" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0652</assert>
+		<assert id="BR-BT-00196-2911" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2911</assert>
+		<assert id="BR-BT-00196-3270" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3270</assert>
+		<assert id="BR-BT-00197-2913" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2913</assert>
+		<assert id="BR-BT-00197-3272" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3272</assert>
+		<assert id="BR-BT-00198-2914" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2914</assert>
+		<assert id="BR-BT-00198-3273" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3273</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0645" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0645</assert>
+		<assert id="BR-BT-00196-2906" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2906</assert>
+		<assert id="BR-BT-00196-3265" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3265</assert>
+		<assert id="BR-BT-00197-2908" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2908</assert>
+		<assert id="BR-BT-00197-3267" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3267</assert>
+		<assert id="BR-BT-00198-2909" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2909</assert>
+		<assert id="BR-BT-00198-3268" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3268</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0646" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0646</assert>
+		<assert id="BR-BT-00196-2907" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2907</assert>
+		<assert id="BR-BT-00196-3266" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3266</assert>
+		<assert id="BR-BT-00197-2909" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2909</assert>
+		<assert id="BR-BT-00197-3268" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3268</assert>
+		<assert id="BR-BT-00198-2910" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2910</assert>
+		<assert id="BR-BT-00198-3269" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3269</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0647" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0647</assert>
+		<assert id="BR-BT-00196-2908" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2908</assert>
+		<assert id="BR-BT-00196-3267" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3267</assert>
+		<assert id="BR-BT-00197-2910" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2910</assert>
+		<assert id="BR-BT-00197-3269" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3269</assert>
+		<assert id="BR-BT-00198-2911" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2911</assert>
+		<assert id="BR-BT-00198-3270" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3270</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-0641" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0641</assert>
+		<assert id="BR-BT-00196-2903" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2903</assert>
+		<assert id="BR-BT-00196-3262" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3262</assert>
+		<assert id="BR-BT-00197-2905" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2905</assert>
+		<assert id="BR-BT-00197-3264" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3264</assert>
+		<assert id="BR-BT-00198-2906" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2906</assert>
+		<assert id="BR-BT-00198-3265" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3265</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-0642" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0642</assert>
+		<assert id="BR-BT-00196-2904" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2904</assert>
+		<assert id="BR-BT-00196-3263" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3263</assert>
+		<assert id="BR-BT-00197-2906" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2906</assert>
+		<assert id="BR-BT-00197-3265" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3265</assert>
+		<assert id="BR-BT-00198-2907" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2907</assert>
+		<assert id="BR-BT-00198-3266" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3266</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-0643" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0643</assert>
+		<assert id="BR-BT-00196-2905" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2905</assert>
+		<assert id="BR-BT-00196-3264" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3264</assert>
+		<assert id="BR-BT-00197-2907" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2907</assert>
+		<assert id="BR-BT-00197-3266" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3266</assert>
+		<assert id="BR-BT-00198-2908" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2908</assert>
+		<assert id="BR-BT-00198-3267" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3267</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0753" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0753</assert>
+		<assert id="BR-BT-00196-3080" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3080</assert>
+		<assert id="BR-BT-00196-3439" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3439</assert>
+		<assert id="BR-BT-00197-3082" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3082</assert>
+		<assert id="BR-BT-00197-3441" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3441</assert>
+		<assert id="BR-BT-00198-3083" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3083</assert>
+		<assert id="BR-BT-00198-3442" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3442</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0754" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0754</assert>
+		<assert id="BR-BT-00196-3081" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3081</assert>
+		<assert id="BR-BT-00196-3440" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3440</assert>
+		<assert id="BR-BT-00197-3083" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3083</assert>
+		<assert id="BR-BT-00197-3442" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3442</assert>
+		<assert id="BR-BT-00198-3084" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3084</assert>
+		<assert id="BR-BT-00198-3443" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3443</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0755" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0755</assert>
+		<assert id="BR-BT-00196-3082" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3082</assert>
+		<assert id="BR-BT-00196-3441" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3441</assert>
+		<assert id="BR-BT-00197-3084" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3084</assert>
+		<assert id="BR-BT-00197-3443" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3443</assert>
+		<assert id="BR-BT-00198-3085" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3085</assert>
+		<assert id="BR-BT-00198-3444" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3444</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0747" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0747</assert>
+		<assert id="BR-BT-00196-3075" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3075</assert>
+		<assert id="BR-BT-00196-3434" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3434</assert>
+		<assert id="BR-BT-00197-3077" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3077</assert>
+		<assert id="BR-BT-00197-3436" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3436</assert>
+		<assert id="BR-BT-00198-3078" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3078</assert>
+		<assert id="BR-BT-00198-3437" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3437</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0748" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0748</assert>
+		<assert id="BR-BT-00196-3076" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3076</assert>
+		<assert id="BR-BT-00196-3435" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3435</assert>
+		<assert id="BR-BT-00197-3078" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3078</assert>
+		<assert id="BR-BT-00197-3437" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3437</assert>
+		<assert id="BR-BT-00198-3079" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3079</assert>
+		<assert id="BR-BT-00198-3438" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3438</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0750" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0750</assert>
+		<assert id="BR-BT-00196-3078" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3078</assert>
+		<assert id="BR-BT-00196-3437" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3437</assert>
+		<assert id="BR-BT-00197-3080" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3080</assert>
+		<assert id="BR-BT-00197-3439" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3439</assert>
+		<assert id="BR-BT-00198-3081" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3081</assert>
+		<assert id="BR-BT-00198-3440" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3440</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0749" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0749</assert>
+		<assert id="BR-BT-00196-3077" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3077</assert>
+		<assert id="BR-BT-00196-3436" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3436</assert>
+		<assert id="BR-BT-00197-3079" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3079</assert>
+		<assert id="BR-BT-00197-3438" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3438</assert>
+		<assert id="BR-BT-00198-3080" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3080</assert>
+		<assert id="BR-BT-00198-3439" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3439</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-0743" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0743</assert>
+		<assert id="BR-BT-00196-3071" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3071</assert>
+		<assert id="BR-BT-00196-3430" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3430</assert>
+		<assert id="BR-BT-00197-3073" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3073</assert>
+		<assert id="BR-BT-00197-3432" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3432</assert>
+		<assert id="BR-BT-00198-3074" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3074</assert>
+		<assert id="BR-BT-00198-3433" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3433</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-0744" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0744</assert>
+		<assert id="BR-BT-00196-3072" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3072</assert>
+		<assert id="BR-BT-00196-3431" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3431</assert>
+		<assert id="BR-BT-00197-3074" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3074</assert>
+		<assert id="BR-BT-00197-3433" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3433</assert>
+		<assert id="BR-BT-00198-3075" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3075</assert>
+		<assert id="BR-BT-00198-3434" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3434</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-0746" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0746</assert>
+		<assert id="BR-BT-00196-3074" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3074</assert>
+		<assert id="BR-BT-00196-3433" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3433</assert>
+		<assert id="BR-BT-00197-3076" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3076</assert>
+		<assert id="BR-BT-00197-3435" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3435</assert>
+		<assert id="BR-BT-00198-3077" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3077</assert>
+		<assert id="BR-BT-00198-3436" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3436</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-0745" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../cac:LegalMonetaryTotal/cbc:PayableAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0745</assert>
+		<assert id="BR-BT-00196-3073" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3073</assert>
+		<assert id="BR-BT-00196-3432" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3432</assert>
+		<assert id="BR-BT-00197-3075" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3075</assert>
+		<assert id="BR-BT-00197-3434" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3434</assert>
+		<assert id="BR-BT-00198-3076" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3076</assert>
+		<assert id="BR-BT-00198-3435" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3435</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-0702" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TenderVariantIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-0702</assert>
+		<assert id="BR-BT-00196-2919" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2919</assert>
+		<assert id="BR-BT-00196-3278" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3278</assert>
+		<assert id="BR-BT-00197-2921" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2921</assert>
+		<assert id="BR-BT-00197-3280" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3280</assert>
+		<assert id="BR-BT-00198-2922" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2922</assert>
+		<assert id="BR-BT-00198-3281" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3281</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-0703" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TenderVariantIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-0703</assert>
+		<assert id="BR-BT-00196-2920" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2920</assert>
+		<assert id="BR-BT-00196-3279" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3279</assert>
+		<assert id="BR-BT-00197-2922" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2922</assert>
+		<assert id="BR-BT-00197-3281" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3281</assert>
+		<assert id="BR-BT-00198-2923" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2923</assert>
+		<assert id="BR-BT-00198-3282" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3282</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-0704" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TenderVariantIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-0704</assert>
+		<assert id="BR-BT-00196-2921" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2921</assert>
+		<assert id="BR-BT-00196-3280" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3280</assert>
+		<assert id="BR-BT-00197-2923" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2923</assert>
+		<assert id="BR-BT-00197-3282" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3282</assert>
+		<assert id="BR-BT-00198-2924" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2924</assert>
+		<assert id="BR-BT-00198-3283" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3283</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-0696" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TenderVariantIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-0696</assert>
+		<assert id="BR-BT-00196-2914" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2914</assert>
+		<assert id="BR-BT-00196-3273" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3273</assert>
+		<assert id="BR-BT-00197-2916" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2916</assert>
+		<assert id="BR-BT-00197-3275" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3275</assert>
+		<assert id="BR-BT-00198-2917" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2917</assert>
+		<assert id="BR-BT-00198-3276" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3276</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0697" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TenderVariantIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-0697</assert>
+		<assert id="BR-BT-00196-2915" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2915</assert>
+		<assert id="BR-BT-00196-3274" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3274</assert>
+		<assert id="BR-BT-00197-2917" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2917</assert>
+		<assert id="BR-BT-00197-3276" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3276</assert>
+		<assert id="BR-BT-00198-2918" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2918</assert>
+		<assert id="BR-BT-00198-3277" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3277</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-0699" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TenderVariantIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-0699</assert>
+		<assert id="BR-BT-00196-2917" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2917</assert>
+		<assert id="BR-BT-00196-3276" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3276</assert>
+		<assert id="BR-BT-00197-2919" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2919</assert>
+		<assert id="BR-BT-00197-3278" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3278</assert>
+		<assert id="BR-BT-00198-2920" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2920</assert>
+		<assert id="BR-BT-00198-3279" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3279</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-0698" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TenderVariantIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-0698</assert>
+		<assert id="BR-BT-00196-2916" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2916</assert>
+		<assert id="BR-BT-00196-3275" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3275</assert>
+		<assert id="BR-BT-00197-2918" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2918</assert>
+		<assert id="BR-BT-00197-3277" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3277</assert>
+		<assert id="BR-BT-00198-2919" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2919</assert>
+		<assert id="BR-BT-00198-3278" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3278</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-0952" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:AreaCode/normalize-space(text())!='')">rule|message|BR-BT-00195-0952</assert>
+		<assert id="BR-BT-00196-2913" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2913</assert>
+		<assert id="BR-BT-00196-3272" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3272</assert>
+		<assert id="BR-BT-00197-2915" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2915</assert>
+		<assert id="BR-BT-00197-3274" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3274</assert>
+		<assert id="BR-BT-00198-2916" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2916</assert>
+		<assert id="BR-BT-00198-3275" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3275</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '38']">
+		<assert id="BR-BT-00553-0047" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0047</assert>
+		<assert id="BR-BT-00553-0064" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0064</assert>
+		<assert id="BR-BT-00554-0063" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0063</assert>
+		<assert id="BR-BT-00555-0047" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0047</assert>
+		<assert id="BR-BT-00555-0064" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0064</assert>
+		<assert id="BR-BT-00730-0047" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0047</assert>
+		<assert id="BR-BT-00730-0064" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0064</assert>
+		<assert id="BR-BT-00731-0047" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0047</assert>
+		<assert id="BR-BT-00731-0064" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0064</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '39']">
+		<assert id="BR-BT-00553-0048" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0048</assert>
+		<assert id="BR-BT-00553-0065" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0065</assert>
+		<assert id="BR-BT-00554-0064" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0064</assert>
+		<assert id="BR-BT-00555-0048" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0048</assert>
+		<assert id="BR-BT-00555-0065" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0065</assert>
+		<assert id="BR-BT-00730-0048" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0048</assert>
+		<assert id="BR-BT-00730-0065" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0065</assert>
+		<assert id="BR-BT-00731-0048" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0048</assert>
+		<assert id="BR-BT-00731-0065" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0065</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '40']">
+		<assert id="BR-BT-00553-0049" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0049</assert>
+		<assert id="BR-BT-00553-0066" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0066</assert>
+		<assert id="BR-BT-00554-0065" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0065</assert>
+		<assert id="BR-BT-00555-0049" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0049</assert>
+		<assert id="BR-BT-00555-0066" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0066</assert>
+		<assert id="BR-BT-00730-0049" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0049</assert>
+		<assert id="BR-BT-00730-0066" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0066</assert>
+		<assert id="BR-BT-00731-0049" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0049</assert>
+		<assert id="BR-BT-00731-0066" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0066</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '33']">
+		<assert id="BR-BT-00553-0042" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0042</assert>
+		<assert id="BR-BT-00553-0061" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0061</assert>
+		<assert id="BR-BT-00554-0060" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0060</assert>
+		<assert id="BR-BT-00555-0042" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0042</assert>
+		<assert id="BR-BT-00555-0061" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0061</assert>
+		<assert id="BR-BT-00730-0042" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0042</assert>
+		<assert id="BR-BT-00730-0061" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0061</assert>
+		<assert id="BR-BT-00731-0042" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0042</assert>
+		<assert id="BR-BT-00731-0061" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0061</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '34']">
+		<assert id="BR-BT-00553-0043" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0043</assert>
+		<assert id="BR-BT-00553-0062" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0062</assert>
+		<assert id="BR-BT-00554-0061" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0061</assert>
+		<assert id="BR-BT-00555-0043" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0043</assert>
+		<assert id="BR-BT-00555-0062" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0062</assert>
+		<assert id="BR-BT-00730-0043" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0043</assert>
+		<assert id="BR-BT-00730-0062" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0062</assert>
+		<assert id="BR-BT-00731-0043" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0043</assert>
+		<assert id="BR-BT-00731-0062" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0062</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '35']">
+		<assert id="BR-BT-00553-0044" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0044</assert>
+		<assert id="BR-BT-00553-0063" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0063</assert>
+		<assert id="BR-BT-00554-0062" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0062</assert>
+		<assert id="BR-BT-00555-0044" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0044</assert>
+		<assert id="BR-BT-00555-0063" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0063</assert>
+		<assert id="BR-BT-00730-0044" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0044</assert>
+		<assert id="BR-BT-00730-0063" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0063</assert>
+		<assert id="BR-BT-00731-0044" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0044</assert>
+		<assert id="BR-BT-00731-0063" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0063</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '29']">
 		<assert id="BR-BT-00553-0036" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0036</assert>
 		<assert id="BR-BT-00553-0052" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0052</assert>
+		<assert id="BR-BT-00553-0068" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0068</assert>
+		<assert id="BR-BT-00554-0055" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0055</assert>
 		<assert id="BR-BT-00555-0036" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0036</assert>
 		<assert id="BR-BT-00555-0052" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0052</assert>
 		<assert id="BR-BT-00730-0036" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0036</assert>
@@ -5683,15 +7928,685 @@
 		<assert id="BR-BT-00731-0036" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0036</assert>
 		<assert id="BR-BT-00731-0052" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0052</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '30']">
+		<assert id="BR-BT-00553-0037" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0037</assert>
+		<assert id="BR-BT-00553-0058" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0058</assert>
+		<assert id="BR-BT-00554-0056" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0056</assert>
+		<assert id="BR-BT-00555-0037" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0037</assert>
+		<assert id="BR-BT-00555-0058" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0058</assert>
+		<assert id="BR-BT-00730-0037" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0037</assert>
+		<assert id="BR-BT-00730-0058" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0058</assert>
+		<assert id="BR-BT-00731-0037" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0037</assert>
+		<assert id="BR-BT-00731-0058" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0058</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '32']">
+		<assert id="BR-BT-00553-0039" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0039</assert>
+		<assert id="BR-BT-00553-0059" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0059</assert>
+		<assert id="BR-BT-00554-0058" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0058</assert>
+		<assert id="BR-BT-00555-0039" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0039</assert>
+		<assert id="BR-BT-00555-0059" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0059</assert>
+		<assert id="BR-BT-00730-0039" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0039</assert>
+		<assert id="BR-BT-00730-0059" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0059</assert>
+		<assert id="BR-BT-00731-0039" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0039</assert>
+		<assert id="BR-BT-00731-0059" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0059</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '31']">
 		<assert id="BR-BT-00553-0038" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0038</assert>
 		<assert id="BR-BT-00553-0053" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0053</assert>
+		<assert id="BR-BT-00553-0069" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0069</assert>
+		<assert id="BR-BT-00554-0057" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0057</assert>
 		<assert id="BR-BT-00555-0038" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0038</assert>
 		<assert id="BR-BT-00555-0053" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0053</assert>
 		<assert id="BR-BT-00730-0038" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0038</assert>
 		<assert id="BR-BT-00730-0053" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0053</assert>
 		<assert id="BR-BT-00731-0038" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0038</assert>
 		<assert id="BR-BT-00731-0053" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0053</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = 'E4']">
+		<assert id="BR-BT-00555-0040" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0040</assert>
+		<assert id="BR-BT-00555-0060" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0060</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '25']">
+		<assert id="BR-BT-00553-0032" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0032</assert>
+		<assert id="BR-BT-00553-0054" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0054</assert>
+		<assert id="BR-BT-00554-0051" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0051</assert>
+		<assert id="BR-BT-00555-0032" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0032</assert>
+		<assert id="BR-BT-00555-0054" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0054</assert>
+		<assert id="BR-BT-00730-0032" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0032</assert>
+		<assert id="BR-BT-00730-0054" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0054</assert>
+		<assert id="BR-BT-00731-0032" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0032</assert>
+		<assert id="BR-BT-00731-0054" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0054</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '26']">
+		<assert id="BR-BT-00553-0033" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0033</assert>
+		<assert id="BR-BT-00553-0055" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0055</assert>
+		<assert id="BR-BT-00554-0052" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0052</assert>
+		<assert id="BR-BT-00555-0033" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0033</assert>
+		<assert id="BR-BT-00555-0055" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0055</assert>
+		<assert id="BR-BT-00730-0033" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0033</assert>
+		<assert id="BR-BT-00730-0055" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0055</assert>
+		<assert id="BR-BT-00731-0033" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0033</assert>
+		<assert id="BR-BT-00731-0055" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0055</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '28']">
+		<assert id="BR-BT-00553-0035" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0035</assert>
+		<assert id="BR-BT-00553-0057" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0057</assert>
+		<assert id="BR-BT-00554-0054" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0054</assert>
+		<assert id="BR-BT-00555-0035" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0035</assert>
+		<assert id="BR-BT-00555-0057" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0057</assert>
+		<assert id="BR-BT-00730-0035" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0035</assert>
+		<assert id="BR-BT-00730-0057" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0057</assert>
+		<assert id="BR-BT-00731-0035" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0035</assert>
+		<assert id="BR-BT-00731-0057" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0057</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '27']">
+		<assert id="BR-BT-00553-0034" role="ERROR" test="count(efbc:TermAmount) = 0 or (efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0034</assert>
+		<assert id="BR-BT-00553-0056" role="ERROR" test="count(efbc:TermAmount) &gt; 0 or not(efbc:ValueKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00553-0056</assert>
+		<assert id="BR-BT-00554-0053" role="ERROR" test="count(efbc:TermDescription) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00554-0053</assert>
+		<assert id="BR-BT-00555-0034" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0034</assert>
+		<assert id="BR-BT-00555-0056" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0056</assert>
+		<assert id="BR-BT-00730-0034" role="ERROR" test="count(efbc:ValueKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0034</assert>
+		<assert id="BR-BT-00730-0056" role="ERROR" test="count(efbc:ValueKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00730-0056</assert>
+		<assert id="BR-BT-00731-0034" role="ERROR" test="count(efbc:PercentageKnownIndicator) = 0 or (../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0034</assert>
+		<assert id="BR-BT-00731-0056" role="ERROR" test="count(efbc:PercentageKnownIndicator) &gt; 0 or not(../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())='yes')">rule|message|BR-BT-00731-0056</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = 'E5']">
+		<assert id="BR-BT-00555-0050" role="ERROR" test="count(efbc:TermPercent) = 0 or (efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0050</assert>
+		<assert id="BR-BT-00555-0067" role="ERROR" test="count(efbc:TermPercent) &gt; 0 or not(efbc:PercentageKnownIndicator/normalize-space(text())='true')">rule|message|BR-BT-00555-0067</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-1161" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1161</assert>
+		<assert id="BR-BT-00196-3157" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3157</assert>
+		<assert id="BR-BT-00196-3516" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3516</assert>
+		<assert id="BR-BT-00197-3159" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3159</assert>
+		<assert id="BR-BT-00197-3518" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3518</assert>
+		<assert id="BR-BT-00198-3160" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3160</assert>
+		<assert id="BR-BT-00198-3519" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3519</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1162" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1162</assert>
+		<assert id="BR-BT-00196-3158" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3158</assert>
+		<assert id="BR-BT-00196-3517" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3517</assert>
+		<assert id="BR-BT-00197-3160" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3160</assert>
+		<assert id="BR-BT-00197-3519" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3519</assert>
+		<assert id="BR-BT-00198-3161" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3161</assert>
+		<assert id="BR-BT-00198-3520" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3520</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-1163" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1163</assert>
+		<assert id="BR-BT-00196-3159" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3159</assert>
+		<assert id="BR-BT-00196-3518" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3518</assert>
+		<assert id="BR-BT-00197-3161" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3161</assert>
+		<assert id="BR-BT-00197-3520" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3520</assert>
+		<assert id="BR-BT-00198-3162" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3162</assert>
+		<assert id="BR-BT-00198-3521" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3521</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-1155" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1155</assert>
+		<assert id="BR-BT-00196-3152" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3152</assert>
+		<assert id="BR-BT-00196-3511" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3511</assert>
+		<assert id="BR-BT-00197-3154" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3154</assert>
+		<assert id="BR-BT-00197-3513" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3513</assert>
+		<assert id="BR-BT-00198-3155" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3155</assert>
+		<assert id="BR-BT-00198-3514" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3514</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1156" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1156</assert>
+		<assert id="BR-BT-00196-3153" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3153</assert>
+		<assert id="BR-BT-00196-3512" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3512</assert>
+		<assert id="BR-BT-00197-3155" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3155</assert>
+		<assert id="BR-BT-00197-3514" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3514</assert>
+		<assert id="BR-BT-00198-3156" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3156</assert>
+		<assert id="BR-BT-00198-3515" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3515</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-1158" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1158</assert>
+		<assert id="BR-BT-00196-3155" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3155</assert>
+		<assert id="BR-BT-00196-3514" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3514</assert>
+		<assert id="BR-BT-00197-3157" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3157</assert>
+		<assert id="BR-BT-00197-3516" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3516</assert>
+		<assert id="BR-BT-00198-3158" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3158</assert>
+		<assert id="BR-BT-00198-3517" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3517</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-1157" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1157</assert>
+		<assert id="BR-BT-00196-3154" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3154</assert>
+		<assert id="BR-BT-00196-3513" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3513</assert>
+		<assert id="BR-BT-00197-3156" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3156</assert>
+		<assert id="BR-BT-00197-3515" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3515</assert>
+		<assert id="BR-BT-00198-3157" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3157</assert>
+		<assert id="BR-BT-00198-3516" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3516</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-1151" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1151</assert>
+		<assert id="BR-BT-00196-3148" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3148</assert>
+		<assert id="BR-BT-00196-3507" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3507</assert>
+		<assert id="BR-BT-00197-3150" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3150</assert>
+		<assert id="BR-BT-00197-3509" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3509</assert>
+		<assert id="BR-BT-00198-3151" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3151</assert>
+		<assert id="BR-BT-00198-3510" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3510</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1152" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1152</assert>
+		<assert id="BR-BT-00196-3149" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3149</assert>
+		<assert id="BR-BT-00196-3508" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3508</assert>
+		<assert id="BR-BT-00197-3151" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3151</assert>
+		<assert id="BR-BT-00197-3510" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3510</assert>
+		<assert id="BR-BT-00198-3152" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3152</assert>
+		<assert id="BR-BT-00198-3511" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3511</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-1154" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1154</assert>
+		<assert id="BR-BT-00196-3151" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3151</assert>
+		<assert id="BR-BT-00196-3510" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3510</assert>
+		<assert id="BR-BT-00197-3153" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3153</assert>
+		<assert id="BR-BT-00197-3512" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3512</assert>
+		<assert id="BR-BT-00198-3154" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3154</assert>
+		<assert id="BR-BT-00198-3513" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3513</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-1153" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../../efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/normalize-space(text())!='')">rule|message|BR-BT-00195-1153</assert>
+		<assert id="BR-BT-00196-3150" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3150</assert>
+		<assert id="BR-BT-00196-3509" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3509</assert>
+		<assert id="BR-BT-00197-3152" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3152</assert>
+		<assert id="BR-BT-00197-3511" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3511</assert>
+		<assert id="BR-BT-00198-3153" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3153</assert>
+		<assert id="BR-BT-00198-3512" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3512</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-1059" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1059</assert>
+		<assert id="BR-BT-00196-3015" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3015</assert>
+		<assert id="BR-BT-00196-3374" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3374</assert>
+		<assert id="BR-BT-00197-3017" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3017</assert>
+		<assert id="BR-BT-00197-3376" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3376</assert>
+		<assert id="BR-BT-00198-3018" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3018</assert>
+		<assert id="BR-BT-00198-3377" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3377</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1060" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1060</assert>
+		<assert id="BR-BT-00196-3016" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3016</assert>
+		<assert id="BR-BT-00196-3375" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3375</assert>
+		<assert id="BR-BT-00197-3018" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3018</assert>
+		<assert id="BR-BT-00197-3377" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3377</assert>
+		<assert id="BR-BT-00198-3019" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3019</assert>
+		<assert id="BR-BT-00198-3378" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3378</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-1061" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1061</assert>
+		<assert id="BR-BT-00196-3017" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3017</assert>
+		<assert id="BR-BT-00196-3376" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3376</assert>
+		<assert id="BR-BT-00197-3019" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3019</assert>
+		<assert id="BR-BT-00197-3378" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3378</assert>
+		<assert id="BR-BT-00198-3020" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3020</assert>
+		<assert id="BR-BT-00198-3379" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3379</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-1053" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1053</assert>
+		<assert id="BR-BT-00196-3010" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3010</assert>
+		<assert id="BR-BT-00196-3369" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3369</assert>
+		<assert id="BR-BT-00197-3012" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3012</assert>
+		<assert id="BR-BT-00197-3371" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3371</assert>
+		<assert id="BR-BT-00198-3013" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3013</assert>
+		<assert id="BR-BT-00198-3372" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3372</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1054" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1054</assert>
+		<assert id="BR-BT-00196-3011" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3011</assert>
+		<assert id="BR-BT-00196-3370" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3370</assert>
+		<assert id="BR-BT-00197-3013" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3013</assert>
+		<assert id="BR-BT-00197-3372" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3372</assert>
+		<assert id="BR-BT-00198-3014" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3014</assert>
+		<assert id="BR-BT-00198-3373" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3373</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-1056" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1056</assert>
+		<assert id="BR-BT-00196-3013" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3013</assert>
+		<assert id="BR-BT-00196-3372" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3372</assert>
+		<assert id="BR-BT-00197-3015" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3015</assert>
+		<assert id="BR-BT-00197-3374" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3374</assert>
+		<assert id="BR-BT-00198-3016" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3016</assert>
+		<assert id="BR-BT-00198-3375" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3375</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-1055" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1055</assert>
+		<assert id="BR-BT-00196-3012" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3012</assert>
+		<assert id="BR-BT-00196-3371" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3371</assert>
+		<assert id="BR-BT-00197-3014" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3014</assert>
+		<assert id="BR-BT-00197-3373" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3373</assert>
+		<assert id="BR-BT-00198-3015" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3015</assert>
+		<assert id="BR-BT-00198-3374" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3374</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-1049" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1049</assert>
+		<assert id="BR-BT-00196-3006" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3006</assert>
+		<assert id="BR-BT-00196-3365" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3365</assert>
+		<assert id="BR-BT-00197-3008" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3008</assert>
+		<assert id="BR-BT-00197-3367" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3367</assert>
+		<assert id="BR-BT-00198-3009" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3009</assert>
+		<assert id="BR-BT-00198-3368" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3368</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1050" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1050</assert>
+		<assert id="BR-BT-00196-3007" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3007</assert>
+		<assert id="BR-BT-00196-3366" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3366</assert>
+		<assert id="BR-BT-00197-3009" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3009</assert>
+		<assert id="BR-BT-00197-3368" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3368</assert>
+		<assert id="BR-BT-00198-3010" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3010</assert>
+		<assert id="BR-BT-00198-3369" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3369</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-1052" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1052</assert>
+		<assert id="BR-BT-00196-3009" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3009</assert>
+		<assert id="BR-BT-00196-3368" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3368</assert>
+		<assert id="BR-BT-00197-3011" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3011</assert>
+		<assert id="BR-BT-00197-3370" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3370</assert>
+		<assert id="BR-BT-00198-3012" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3012</assert>
+		<assert id="BR-BT-00198-3371" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3371</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-1051" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermDescription/normalize-space(text())!='')">rule|message|BR-BT-00195-1051</assert>
+		<assert id="BR-BT-00196-3008" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3008</assert>
+		<assert id="BR-BT-00196-3367" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3367</assert>
+		<assert id="BR-BT-00197-3010" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3010</assert>
+		<assert id="BR-BT-00197-3369" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3369</assert>
+		<assert id="BR-BT-00198-3011" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3011</assert>
+		<assert id="BR-BT-00198-3370" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3370</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-1110" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1110</assert>
+		<assert id="BR-BT-00196-3028" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3028</assert>
+		<assert id="BR-BT-00196-3387" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3387</assert>
+		<assert id="BR-BT-00197-3030" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3030</assert>
+		<assert id="BR-BT-00197-3389" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3389</assert>
+		<assert id="BR-BT-00198-3031" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3031</assert>
+		<assert id="BR-BT-00198-3390" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3390</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1111" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1111</assert>
+		<assert id="BR-BT-00196-3029" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3029</assert>
+		<assert id="BR-BT-00196-3388" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3388</assert>
+		<assert id="BR-BT-00197-3031" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3031</assert>
+		<assert id="BR-BT-00197-3390" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3390</assert>
+		<assert id="BR-BT-00198-3032" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3032</assert>
+		<assert id="BR-BT-00198-3391" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3391</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-1112" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1112</assert>
+		<assert id="BR-BT-00196-3030" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3030</assert>
+		<assert id="BR-BT-00196-3389" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3389</assert>
+		<assert id="BR-BT-00197-3032" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3032</assert>
+		<assert id="BR-BT-00197-3391" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3391</assert>
+		<assert id="BR-BT-00198-3033" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3033</assert>
+		<assert id="BR-BT-00198-3392" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3392</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-1104" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1104</assert>
+		<assert id="BR-BT-00196-3023" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3023</assert>
+		<assert id="BR-BT-00196-3382" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3382</assert>
+		<assert id="BR-BT-00197-3025" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3025</assert>
+		<assert id="BR-BT-00197-3384" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3384</assert>
+		<assert id="BR-BT-00198-3026" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3026</assert>
+		<assert id="BR-BT-00198-3385" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3385</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1105" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1105</assert>
+		<assert id="BR-BT-00196-3024" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3024</assert>
+		<assert id="BR-BT-00196-3383" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3383</assert>
+		<assert id="BR-BT-00197-3026" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3026</assert>
+		<assert id="BR-BT-00197-3385" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3385</assert>
+		<assert id="BR-BT-00198-3027" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3027</assert>
+		<assert id="BR-BT-00198-3386" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3386</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-1107" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1107</assert>
+		<assert id="BR-BT-00196-3026" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3026</assert>
+		<assert id="BR-BT-00196-3385" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3385</assert>
+		<assert id="BR-BT-00197-3028" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3028</assert>
+		<assert id="BR-BT-00197-3387" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3387</assert>
+		<assert id="BR-BT-00198-3029" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3029</assert>
+		<assert id="BR-BT-00198-3388" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3388</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-1106" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1106</assert>
+		<assert id="BR-BT-00196-3025" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3025</assert>
+		<assert id="BR-BT-00196-3384" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3384</assert>
+		<assert id="BR-BT-00197-3027" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3027</assert>
+		<assert id="BR-BT-00197-3386" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3386</assert>
+		<assert id="BR-BT-00198-3028" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3028</assert>
+		<assert id="BR-BT-00198-3387" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3387</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-1100" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1100</assert>
+		<assert id="BR-BT-00196-3019" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3019</assert>
+		<assert id="BR-BT-00196-3378" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3378</assert>
+		<assert id="BR-BT-00197-3021" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3021</assert>
+		<assert id="BR-BT-00197-3380" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3380</assert>
+		<assert id="BR-BT-00198-3022" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3022</assert>
+		<assert id="BR-BT-00198-3381" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3381</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1101" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1101</assert>
+		<assert id="BR-BT-00196-3020" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3020</assert>
+		<assert id="BR-BT-00196-3379" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3379</assert>
+		<assert id="BR-BT-00197-3022" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3022</assert>
+		<assert id="BR-BT-00197-3381" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3381</assert>
+		<assert id="BR-BT-00198-3023" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3023</assert>
+		<assert id="BR-BT-00198-3382" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3382</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-1103" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1103</assert>
+		<assert id="BR-BT-00196-3022" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3022</assert>
+		<assert id="BR-BT-00196-3381" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3381</assert>
+		<assert id="BR-BT-00197-3024" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3024</assert>
+		<assert id="BR-BT-00197-3383" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3383</assert>
+		<assert id="BR-BT-00198-3025" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3025</assert>
+		<assert id="BR-BT-00198-3384" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3384</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-1102" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermPercent/normalize-space(text())!='')">rule|message|BR-BT-00195-1102</assert>
+		<assert id="BR-BT-00196-3021" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3021</assert>
+		<assert id="BR-BT-00196-3380" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3380</assert>
+		<assert id="BR-BT-00197-3023" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3023</assert>
+		<assert id="BR-BT-00197-3382" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3382</assert>
+		<assert id="BR-BT-00198-3024" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3024</assert>
+		<assert id="BR-BT-00198-3383" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3383</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-1212" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1212</assert>
+		<assert id="BR-BT-00196-3106" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3106</assert>
+		<assert id="BR-BT-00196-3465" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3465</assert>
+		<assert id="BR-BT-00197-3108" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3108</assert>
+		<assert id="BR-BT-00197-3467" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3467</assert>
+		<assert id="BR-BT-00198-3109" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3109</assert>
+		<assert id="BR-BT-00198-3468" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3468</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1213" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1213</assert>
+		<assert id="BR-BT-00196-3107" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3107</assert>
+		<assert id="BR-BT-00196-3466" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3466</assert>
+		<assert id="BR-BT-00197-3109" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3109</assert>
+		<assert id="BR-BT-00197-3468" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3468</assert>
+		<assert id="BR-BT-00198-3110" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3110</assert>
+		<assert id="BR-BT-00198-3469" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3469</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-1214" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1214</assert>
+		<assert id="BR-BT-00196-3108" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3108</assert>
+		<assert id="BR-BT-00196-3467" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3467</assert>
+		<assert id="BR-BT-00197-3110" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3110</assert>
+		<assert id="BR-BT-00197-3469" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3469</assert>
+		<assert id="BR-BT-00198-3111" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3111</assert>
+		<assert id="BR-BT-00198-3470" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3470</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-1206" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1206</assert>
+		<assert id="BR-BT-00196-3101" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3101</assert>
+		<assert id="BR-BT-00196-3460" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3460</assert>
+		<assert id="BR-BT-00197-3103" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3103</assert>
+		<assert id="BR-BT-00197-3462" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3462</assert>
+		<assert id="BR-BT-00198-3104" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3104</assert>
+		<assert id="BR-BT-00198-3463" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3463</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1207" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1207</assert>
+		<assert id="BR-BT-00196-3102" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3102</assert>
+		<assert id="BR-BT-00196-3461" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3461</assert>
+		<assert id="BR-BT-00197-3104" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3104</assert>
+		<assert id="BR-BT-00197-3463" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3463</assert>
+		<assert id="BR-BT-00198-3105" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3105</assert>
+		<assert id="BR-BT-00198-3464" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3464</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-1209" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1209</assert>
+		<assert id="BR-BT-00196-3104" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3104</assert>
+		<assert id="BR-BT-00196-3463" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3463</assert>
+		<assert id="BR-BT-00197-3106" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3106</assert>
+		<assert id="BR-BT-00197-3465" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3465</assert>
+		<assert id="BR-BT-00198-3107" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3107</assert>
+		<assert id="BR-BT-00198-3466" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3466</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-1208" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1208</assert>
+		<assert id="BR-BT-00196-3103" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3103</assert>
+		<assert id="BR-BT-00196-3462" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3462</assert>
+		<assert id="BR-BT-00197-3105" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3105</assert>
+		<assert id="BR-BT-00197-3464" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3464</assert>
+		<assert id="BR-BT-00198-3106" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3106</assert>
+		<assert id="BR-BT-00198-3465" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3465</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-1202" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1202</assert>
+		<assert id="BR-BT-00196-3097" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3097</assert>
+		<assert id="BR-BT-00196-3456" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3456</assert>
+		<assert id="BR-BT-00197-3099" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3099</assert>
+		<assert id="BR-BT-00197-3458" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3458</assert>
+		<assert id="BR-BT-00198-3100" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3100</assert>
+		<assert id="BR-BT-00198-3459" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3459</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1203" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1203</assert>
+		<assert id="BR-BT-00196-3098" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3098</assert>
+		<assert id="BR-BT-00196-3457" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3457</assert>
+		<assert id="BR-BT-00197-3100" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3100</assert>
+		<assert id="BR-BT-00197-3459" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3459</assert>
+		<assert id="BR-BT-00198-3101" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3101</assert>
+		<assert id="BR-BT-00198-3460" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3460</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-1205" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1205</assert>
+		<assert id="BR-BT-00196-3100" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3100</assert>
+		<assert id="BR-BT-00196-3459" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3459</assert>
+		<assert id="BR-BT-00197-3102" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3102</assert>
+		<assert id="BR-BT-00197-3461" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3461</assert>
+		<assert id="BR-BT-00198-3103" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3103</assert>
+		<assert id="BR-BT-00198-3462" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3462</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-1204" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:PercentageKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1204</assert>
+		<assert id="BR-BT-00196-3099" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3099</assert>
+		<assert id="BR-BT-00196-3458" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3458</assert>
+		<assert id="BR-BT-00197-3101" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3101</assert>
+		<assert id="BR-BT-00197-3460" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3460</assert>
+		<assert id="BR-BT-00198-3102" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3102</assert>
+		<assert id="BR-BT-00198-3461" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3461</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-1008" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1008</assert>
+		<assert id="BR-BT-00196-3002" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3002</assert>
+		<assert id="BR-BT-00196-3361" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3361</assert>
+		<assert id="BR-BT-00197-3004" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3004</assert>
+		<assert id="BR-BT-00197-3363" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3363</assert>
+		<assert id="BR-BT-00198-3005" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3005</assert>
+		<assert id="BR-BT-00198-3364" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3364</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1009" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1009</assert>
+		<assert id="BR-BT-00196-3003" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3003</assert>
+		<assert id="BR-BT-00196-3362" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3362</assert>
+		<assert id="BR-BT-00197-3005" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3005</assert>
+		<assert id="BR-BT-00197-3364" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3364</assert>
+		<assert id="BR-BT-00198-3006" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3006</assert>
+		<assert id="BR-BT-00198-3365" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3365</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-1010" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1010</assert>
+		<assert id="BR-BT-00196-3004" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3004</assert>
+		<assert id="BR-BT-00196-3363" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3363</assert>
+		<assert id="BR-BT-00197-3006" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3006</assert>
+		<assert id="BR-BT-00197-3365" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3365</assert>
+		<assert id="BR-BT-00198-3007" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3007</assert>
+		<assert id="BR-BT-00198-3366" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3366</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-1002" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1002</assert>
+		<assert id="BR-BT-00196-2997" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2997</assert>
+		<assert id="BR-BT-00196-3356" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3356</assert>
+		<assert id="BR-BT-00197-2999" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2999</assert>
+		<assert id="BR-BT-00197-3358" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3358</assert>
+		<assert id="BR-BT-00198-3000" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3000</assert>
+		<assert id="BR-BT-00198-3359" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3359</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1003" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1003</assert>
+		<assert id="BR-BT-00196-2998" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2998</assert>
+		<assert id="BR-BT-00196-3357" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3357</assert>
+		<assert id="BR-BT-00197-3000" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3000</assert>
+		<assert id="BR-BT-00197-3359" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3359</assert>
+		<assert id="BR-BT-00198-3001" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3001</assert>
+		<assert id="BR-BT-00198-3360" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3360</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-1005" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1005</assert>
+		<assert id="BR-BT-00196-3000" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3000</assert>
+		<assert id="BR-BT-00196-3359" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3359</assert>
+		<assert id="BR-BT-00197-3002" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3002</assert>
+		<assert id="BR-BT-00197-3361" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3361</assert>
+		<assert id="BR-BT-00198-3003" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3003</assert>
+		<assert id="BR-BT-00198-3362" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3362</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-1004" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1004</assert>
+		<assert id="BR-BT-00196-2999" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2999</assert>
+		<assert id="BR-BT-00196-3358" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3358</assert>
+		<assert id="BR-BT-00197-3001" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3001</assert>
+		<assert id="BR-BT-00197-3360" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3360</assert>
+		<assert id="BR-BT-00198-3002" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3002</assert>
+		<assert id="BR-BT-00198-3361" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3361</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-0998" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0998</assert>
+		<assert id="BR-BT-00196-2993" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2993</assert>
+		<assert id="BR-BT-00196-3352" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3352</assert>
+		<assert id="BR-BT-00197-2995" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2995</assert>
+		<assert id="BR-BT-00197-3354" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3354</assert>
+		<assert id="BR-BT-00198-2996" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2996</assert>
+		<assert id="BR-BT-00198-3355" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3355</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-0999" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-0999</assert>
+		<assert id="BR-BT-00196-2994" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2994</assert>
+		<assert id="BR-BT-00196-3353" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3353</assert>
+		<assert id="BR-BT-00197-2996" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2996</assert>
+		<assert id="BR-BT-00197-3355" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3355</assert>
+		<assert id="BR-BT-00198-2997" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2997</assert>
+		<assert id="BR-BT-00198-3356" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3356</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-1001" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1001</assert>
+		<assert id="BR-BT-00196-2996" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2996</assert>
+		<assert id="BR-BT-00196-3355" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3355</assert>
+		<assert id="BR-BT-00197-2998" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2998</assert>
+		<assert id="BR-BT-00197-3357" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3357</assert>
+		<assert id="BR-BT-00198-2999" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2999</assert>
+		<assert id="BR-BT-00198-3358" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3358</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-1000" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TermAmount/normalize-space(text())!='')">rule|message|BR-BT-00195-1000</assert>
+		<assert id="BR-BT-00196-2995" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-2995</assert>
+		<assert id="BR-BT-00196-3354" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3354</assert>
+		<assert id="BR-BT-00197-2997" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-2997</assert>
+		<assert id="BR-BT-00197-3356" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3356</assert>
+		<assert id="BR-BT-00198-2998" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-2998</assert>
+		<assert id="BR-BT-00198-3357" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3357</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '33']">
+		<assert id="BR-BT-00195-1263" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1263</assert>
+		<assert id="BR-BT-00196-3093" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3093</assert>
+		<assert id="BR-BT-00196-3452" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3452</assert>
+		<assert id="BR-BT-00197-3095" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3095</assert>
+		<assert id="BR-BT-00197-3454" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3454</assert>
+		<assert id="BR-BT-00198-3096" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3096</assert>
+		<assert id="BR-BT-00198-3455" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3455</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '34']">
+		<assert id="BR-BT-00195-1264" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1264</assert>
+		<assert id="BR-BT-00196-3094" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3094</assert>
+		<assert id="BR-BT-00196-3453" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3453</assert>
+		<assert id="BR-BT-00197-3096" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3096</assert>
+		<assert id="BR-BT-00197-3455" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3455</assert>
+		<assert id="BR-BT-00198-3097" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3097</assert>
+		<assert id="BR-BT-00198-3456" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3456</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-1265" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1265</assert>
+		<assert id="BR-BT-00196-3095" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3095</assert>
+		<assert id="BR-BT-00196-3454" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3454</assert>
+		<assert id="BR-BT-00197-3097" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3097</assert>
+		<assert id="BR-BT-00197-3456" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3456</assert>
+		<assert id="BR-BT-00198-3098" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3098</assert>
+		<assert id="BR-BT-00198-3457" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3457</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '29']">
+		<assert id="BR-BT-00195-1257" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1257</assert>
+		<assert id="BR-BT-00196-3088" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3088</assert>
+		<assert id="BR-BT-00196-3447" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3447</assert>
+		<assert id="BR-BT-00197-3090" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3090</assert>
+		<assert id="BR-BT-00197-3449" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3449</assert>
+		<assert id="BR-BT-00198-3091" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3091</assert>
+		<assert id="BR-BT-00198-3450" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3450</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '30']">
+		<assert id="BR-BT-00195-1258" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1258</assert>
+		<assert id="BR-BT-00196-3089" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3089</assert>
+		<assert id="BR-BT-00196-3448" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3448</assert>
+		<assert id="BR-BT-00197-3091" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3091</assert>
+		<assert id="BR-BT-00197-3450" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3450</assert>
+		<assert id="BR-BT-00198-3092" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3092</assert>
+		<assert id="BR-BT-00198-3451" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3451</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '32']">
+		<assert id="BR-BT-00195-1260" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1260</assert>
+		<assert id="BR-BT-00196-3091" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3091</assert>
+		<assert id="BR-BT-00196-3450" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3450</assert>
+		<assert id="BR-BT-00197-3093" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3093</assert>
+		<assert id="BR-BT-00197-3452" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3452</assert>
+		<assert id="BR-BT-00198-3094" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3094</assert>
+		<assert id="BR-BT-00198-3453" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3453</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '31']">
+		<assert id="BR-BT-00195-1259" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1259</assert>
+		<assert id="BR-BT-00196-3090" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3090</assert>
+		<assert id="BR-BT-00196-3449" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3449</assert>
+		<assert id="BR-BT-00197-3092" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3092</assert>
+		<assert id="BR-BT-00197-3451" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3451</assert>
+		<assert id="BR-BT-00198-3093" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3093</assert>
+		<assert id="BR-BT-00198-3452" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3452</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '25']">
+		<assert id="BR-BT-00195-1253" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1253</assert>
+		<assert id="BR-BT-00196-3084" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3084</assert>
+		<assert id="BR-BT-00196-3443" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3443</assert>
+		<assert id="BR-BT-00197-3086" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3086</assert>
+		<assert id="BR-BT-00197-3445" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3445</assert>
+		<assert id="BR-BT-00198-3087" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3087</assert>
+		<assert id="BR-BT-00198-3446" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3446</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '26']">
+		<assert id="BR-BT-00195-1254" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1254</assert>
+		<assert id="BR-BT-00196-3085" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3085</assert>
+		<assert id="BR-BT-00196-3444" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3444</assert>
+		<assert id="BR-BT-00197-3087" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3087</assert>
+		<assert id="BR-BT-00197-3446" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3446</assert>
+		<assert id="BR-BT-00198-3088" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3088</assert>
+		<assert id="BR-BT-00198-3447" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3447</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '28']">
+		<assert id="BR-BT-00195-1256" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1256</assert>
+		<assert id="BR-BT-00196-3087" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3087</assert>
+		<assert id="BR-BT-00196-3446" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3446</assert>
+		<assert id="BR-BT-00197-3089" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3089</assert>
+		<assert id="BR-BT-00197-3448" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3448</assert>
+		<assert id="BR-BT-00198-3090" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3090</assert>
+		<assert id="BR-BT-00198-3449" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3449</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno'][$noticeSubType = '27']">
+		<assert id="BR-BT-00195-1255" role="ERROR" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ValueKnownIndicator/normalize-space(text())!='')">rule|message|BR-BT-00195-1255</assert>
+		<assert id="BR-BT-00196-3086" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3086</assert>
+		<assert id="BR-BT-00196-3445" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00196-3445</assert>
+		<assert id="BR-BT-00197-3088" role="ERROR" test="count(cbc:ReasonCode) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3088</assert>
+		<assert id="BR-BT-00197-3447" role="ERROR" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00197-3447</assert>
+		<assert id="BR-BT-00198-3089" role="ERROR" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3089</assert>
+		<assert id="BR-BT-00198-3448" role="ERROR" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode/normalize-space(text())!='')">rule|message|BR-BT-00198-3448</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '36']">
 		<assert id="BR-BT-00145-0045" role="ERROR" test="count(cbc:IssueDate) = 0 or (efac:LotTender/cbc:ID/normalize-space(text())!='')">rule|message|BR-BT-00145-0045</assert>

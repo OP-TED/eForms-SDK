@@ -8,11 +8,6 @@
 			rule|message|P-0002
 		</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = ('29', '30', '31', '32', '33', '34', '35', '36', '37')]">
-		<assert id="P-0003" role="ERROR" test="exists(efac:ReceivedSubmissionsStatistics)">
-			rule|message|P-0003
-		</assert>
-	</rule>
 	<rule context="cac:ProcurementProjectLot/cbc:ID">
 		<assert id="P-0004" role="ERROR" test="@schemeName">
 			rule|message|P-0004

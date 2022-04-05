@@ -659,6 +659,8 @@
 			<cac:ContractExtension>
 				<!--BT-54-->
 				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
+				<!--BT-58-Lot - Renewal Maximum -->
+				<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
 				<!--BT-57 Lot - Renewal Description-->
 				<cac:Renewal>
 					<cac:Period>
