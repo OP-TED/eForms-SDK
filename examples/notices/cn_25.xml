@@ -195,13 +195,11 @@
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ENG">Applicants will be expected to be of sufficient financial and economic standing to support the anticipated contract value. All applicants must complete the financial questions within the pre-qualification questionnaire and tender documents. Financial standing relevant to the anticipated contract value will be determined by Scottish Water based on the response to the pre-qualification questionnaire and any further financial checks deemed necessary.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>

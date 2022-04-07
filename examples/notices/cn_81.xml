@@ -141,7 +141,6 @@
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:TenderSubcontractingRequirements>
 								<efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">none</efbc:TenderSubcontractingRequirementsCode>
