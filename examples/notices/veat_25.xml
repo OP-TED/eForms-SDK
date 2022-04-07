@@ -139,6 +139,7 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>

@@ -123,6 +123,7 @@ But with the minimal amount of information while still valid
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<efbc:CompanySizeCode listName="economic-operator-size">micro</efbc:CompanySizeCode>
 								<cac:PartyIdentification>

@@ -750,6 +750,8 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<!--BT-746-->
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:UltimateBeneficialOwner>
@@ -803,6 +805,8 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<!--BT-746-->
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>true</efbc:NaturalPersonIndicator>
 							<efac:UltimateBeneficialOwner>
@@ -855,6 +859,8 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<!--BT-746-->
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:UltimateBeneficialOwner>
@@ -907,6 +913,8 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<!--BT-746-->
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:UltimateBeneficialOwner>

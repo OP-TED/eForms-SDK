@@ -244,6 +244,7 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<cbc:WebsiteURI>https://deloitte.com</cbc:WebsiteURI>
 								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
