@@ -260,11 +260,6 @@
 			<cac:ContractExtension>
 				<cbc:OptionsDescription languageID="ENG">The authority is considering placing an 18 month enabling contract (with options for a further 3 years).</cbc:OptionsDescription>
 				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
-				<cac:Renewal>
-					<cac:Period>
-						<cbc:Description languageID="ENG">None</cbc:Description>
-					</cac:Period>
-				</cac:Renewal>
 			</cac:ContractExtension>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>

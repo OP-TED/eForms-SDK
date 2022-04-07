@@ -260,11 +260,6 @@
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
-				<cac:Renewal>
-					<cac:Period>
-						<cbc:Description languageID="ITA">Nessun rinnovo</cbc:Description>
-					</cac:Period>
-				</cac:Renewal>
 			</cac:ContractExtension>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
