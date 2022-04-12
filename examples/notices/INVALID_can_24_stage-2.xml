@@ -119,6 +119,9 @@
 		<cbc:Name languageID="FRA"></cbc:Name>
 		<cbc:Description languageID="FRA"></cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature"></cbc:ProcurementTypeCode>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv"></cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot"></cbc:ID>
@@ -164,6 +167,9 @@
 			<cbc:Name languageID="FRA"></cbc:Name>
 			<cbc:Description languageID="FRA"></cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature"></cbc:ProcurementTypeCode>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv"></cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
