@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.283 created on the 2022-04-01T11:53:22.-->
+<!--File generated from metadata database version 0.3.361 created on the 2022-04-19T17:50:41.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BT-01-notice_R</assert>
@@ -1242,7 +1242,6 @@
 		<assert id="BT-514-UBO_R" role="ERROR" test="count(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode) &lt; 2">rule|message|BT-514-UBO_R</assert>
 		<assert id="BT-739-UBO_R" role="ERROR" test="count(cac:Contact/cbc:Telefax) &lt; 2">rule|message|BT-739-UBO_R</assert>
 		<assert id="OPT-160-UBO_R" role="ERROR" test="count(cbc:FirstName) &lt; 2">rule|message|OPT-160-UBO_R</assert>
-		<assert id="OPT-202-UBO_R" role="ERROR" test="count(cbc:ID) &lt; 2">rule|message|OPT-202-UBO_R</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription">
 		<assert id="BT-01(d)-Procedure_D" role="ERROR" test="@languageID">rule|message|BT-01(d)-Procedure_D</assert>
