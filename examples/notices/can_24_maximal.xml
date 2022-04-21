@@ -8,6 +8,8 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<!--BT-161-->
+						<cbc:TotalAmount currencyID="EUR">9999999.99</cbc:TotalAmount>
 						<!--BT-118-->
 						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">9999999.99</cbc:EstimatedOverallFrameworkContractsAmount>
 						<efac:GroupFramework>
