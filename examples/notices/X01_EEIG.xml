@@ -79,6 +79,6 @@
 		<cbc:CapabilityTypeCode listName="sector">oid</cbc:CapabilityTypeCode>
 	</cac:BusinessCapability>-->
 	<efac:NoticePurpose>
-		<cbc:PurposeCode>for</cbc:PurposeCode>
+		<cbc:PurposeCode listName="notice-purpose">for</cbc:PurposeCode>
 	</efac:NoticePurpose>
 </BusinessRegistrationInformationNotice>

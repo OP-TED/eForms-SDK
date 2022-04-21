@@ -52,7 +52,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>26</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">26</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>

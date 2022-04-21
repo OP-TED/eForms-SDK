@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>17</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -230,7 +230,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">In the event of a group of companies submitting an accepted offer it will be necessary for each member of the group to sign an undertaking that each company in the group will be jointly and severally liable for the satisfactory performance of the contract.</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

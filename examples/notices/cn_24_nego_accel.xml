@@ -8,7 +8,7 @@
 				<efext:EformsExtension>
 					<efbc:AccessToolName>https://hmlandregistry.force.com</efbc:AccessToolName>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>16</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>

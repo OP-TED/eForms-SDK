@@ -110,6 +110,6 @@
 		<cbc:CapabilityTypeCode listName="sector">soc-pro</cbc:CapabilityTypeCode>
 	</cac:BusinessCapability>
 	<efac:NoticePurpose>
-		<cbc:PurposeCode>reg</cbc:PurposeCode>
+		<cbc:PurposeCode listName="notice-purpose">reg</cbc:PurposeCode>
 	</efac:NoticePurpose>
 </BusinessRegistrationInformationNotice>

@@ -80,7 +80,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>38</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">38</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
