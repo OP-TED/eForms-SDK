@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>17</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -195,13 +195,11 @@
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ENG">Applicants will be expected to be of sufficient financial and economic standing to support the anticipated contract value. All applicants must complete the financial questions within the pre-qualification questionnaire and tender documents. Financial standing relevant to the anticipated contract value will be determined by Scottish Water based on the response to the pre-qualification questionnaire and any further financial checks deemed necessary.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -232,7 +230,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">In the event of a group of companies submitting an accepted offer it will be necessary for each member of the group to sign an undertaking that each company in the group will be jointly and severally liable for the satisfactory performance of the contract.</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

@@ -40,6 +40,10 @@
 								<!--OPT-320-->
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
+							<efac:LotTender>
+								<!--OPT-320-->
+								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+							</efac:LotTender>
 							<efac:FrameworkAgreementValues>
 								<!--BT-660-->
 								<cbc:EstimatedMaximumValueAmount currencyID="EUR">9999999.99</cbc:EstimatedMaximumValueAmount>
@@ -70,6 +74,10 @@
 								<!--BT-759-->
 								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
+							<efac:SettledContract>
+								<!--OPT-315-->
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+							</efac:SettledContract>
 							<efac:SettledContract>
 								<!--OPT-315-->
 								<cbc:ID schemeName="contract">CON-0002</cbc:ID>
@@ -103,8 +111,6 @@
 							<cbc:LowerTenderAmount currencyID="EUR">999999.99</cbc:LowerTenderAmount>
 							<!--BT-142-->
 							<cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
-							<!--BT-119-->
-							<efbc:DPSTerminationIndicator>true</efbc:DPSTerminationIndicator>
 							<efac:AppealRequestsStatistics>
 								<efbc:StatisticsCode listName="review-type">complainants</efbc:StatisticsCode>
 								<!--BT-712-->
@@ -122,7 +128,7 @@
 							</efac:DecisionReason>
 							<efac:LotTender>
 								<!--OPT-320-->
-								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
+								<cbc:ID schemeName="tender">TEN-0003</cbc:ID>
 							</efac:LotTender>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--BT-760-->
@@ -189,7 +195,7 @@
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							<!--BT-171-->
-							<cbc:RankCode>3</cbc:RankCode>
+							<cbc:RankCode>4</cbc:RankCode>
 							<!--BT-193-->
 							<efbc:TenderVariantIndicator>true</efbc:TenderVariantIndicator>
 							<cac:LegalMonetaryTotal>
@@ -218,6 +224,32 @@
 							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>REF GHI/0003-01</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:LotTender>
+							<cbc:ID schemeName="tender">TEN-0003</cbc:ID>
+							<efac:SubcontractingTerm>
+								<!--BT-553-->
+								<efbc:TermAmount currencyID="EUR">99999999.99</efbc:TermAmount>
+								<!--BT-554-->
+								<efbc:TermDescription languageID="ENG">Subcontracting Description ---</efbc:TermDescription>
+								<!--BT-555-->
+								<efbc:TermPercent>30</efbc:TermPercent>
+								<!--BT-773-->
+								<efbc:TermCode listName="applicability">yes</efbc:TermCode>
+								<!--BT-731-->
+								<efbc:PercentageKnownIndicator>true</efbc:PercentageKnownIndicator>
+								<!--BT-730-->
+								<efbc:ValueKnownIndicator>true</efbc:ValueKnownIndicator>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID>LOT-0002</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>REF JKL/0003-01</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
@@ -337,7 +369,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>29</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -750,6 +782,8 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<!--BT-746-->
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:UltimateBeneficialOwner>
@@ -803,11 +837,10 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<!--BT-746-->
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>true</efbc:NaturalPersonIndicator>
-							<efac:UltimateBeneficialOwner>
-								<cbc:ID schemeName="ubo">UBO-0002</cbc:ID>
-							</efac:UltimateBeneficialOwner>
 							<efac:Company>
 								<!--BT-505-->
 								<cbc:WebsiteURI>https://www.the-best-app.com</cbc:WebsiteURI>
@@ -855,6 +888,8 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<!--BT-746-->
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:UltimateBeneficialOwner>
@@ -907,6 +942,8 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<!--BT-746-->
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<!--BT-633 Organization Natural Person-->
 							<efbc:NaturalPersonIndicator>false</efbc:NaturalPersonIndicator>
 							<efac:UltimateBeneficialOwner>
@@ -988,13 +1025,6 @@
 						<!--BT-706-->
 						<efac:Nationality>
 							<cbc:NationalityID>BEL</cbc:NationalityID>
-						</efac:Nationality>
-					</efac:UltimateBeneficialOwner>
-					<efac:UltimateBeneficialOwner>
-						<cbc:ID schemeName="ubo">UBO-0002</cbc:ID>
-						<!--BT-706-->
-						<efac:Nationality>
-							<cbc:NationalityID>DEU</cbc:NationalityID>
 						</efac:Nationality>
 					</efac:UltimateBeneficialOwner>
 					<efac:UltimateBeneficialOwner>

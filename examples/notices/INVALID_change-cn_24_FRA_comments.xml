@@ -79,6 +79,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -228,8 +230,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<!-- In parent notice, absence should cause a validation failure:
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode> -->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
 			<cac:CallForTendersDocumentReference>
@@ -374,6 +374,8 @@
 				<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
+				<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
 				<cac:Renewal>
 					<cac:Period>
 						<cbc:Description languageID="FRA">L'accord-cadre est reconductible de manière tacite, dans les conditions définies au cahier des clauses administratives particulières, 3 fois, pour une période de 12 mois, à compter du 1.1.2021, sans pouvoir excéder le 31.12.2023.</cbc:Description>
@@ -403,7 +405,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
 			<cac:CallForTendersDocumentReference>
@@ -548,6 +549,8 @@
 				<cbc:EndDate>2020-12-31+01:00</cbc:EndDate>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
+				<cbc:OptionsDescription languageID="FRA">Options description ---</cbc:OptionsDescription>
+				<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
 				<cac:Renewal>
 					<cac:Period>
 						<cbc:Description languageID="FRA">L'accord-cadre est reconductible de manière tacite, dans les conditions définies au cahier des clauses administratives particulières, 3 fois, pour une période de 12 mois, à compter du 1.1.2021, sans pouvoir excéder le 31.12.2023.</cbc:Description>

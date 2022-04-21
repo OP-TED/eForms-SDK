@@ -7,7 +7,6 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
-						<cbc:TotalAmount currencyID="GBP">4500000</cbc:TotalAmount>
 						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="GBP">4500000</cbc:EstimatedOverallFrameworkContractsAmount>
 						<efac:LotResult>
 							<cbc:HigherTenderAmount currencyID="GBP">5000000</cbc:HigherTenderAmount>
@@ -75,7 +74,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>29</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -157,6 +156,7 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<cbc:WebsiteURI>https://pwc.com</cbc:WebsiteURI>
 								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>

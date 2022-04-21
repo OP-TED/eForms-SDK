@@ -8,7 +8,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>16</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -553,7 +553,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -893,7 +893,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -1233,7 +1233,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -1573,7 +1573,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -1913,7 +1913,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -2253,7 +2253,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -2593,7 +2593,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -2933,7 +2933,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -3273,7 +3273,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -3613,7 +3613,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -3953,7 +3953,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -4293,7 +4293,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -4633,7 +4633,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -4973,7 +4973,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -5313,7 +5313,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -5653,7 +5653,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -5993,7 +5993,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -6333,7 +6333,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -6673,7 +6673,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -7013,7 +7013,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -7353,7 +7353,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -7693,7 +7693,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -8033,7 +8033,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -8373,7 +8373,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -8713,7 +8713,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -9053,7 +9053,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -9393,7 +9393,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -9733,7 +9733,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -10073,7 +10073,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -10413,7 +10413,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -10753,7 +10753,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -11093,7 +11093,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -11433,7 +11433,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -11773,7 +11773,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -12113,7 +12113,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -12453,7 +12453,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -12793,7 +12793,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -13133,7 +13133,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -13473,7 +13473,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -13813,7 +13813,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -14153,7 +14153,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -14493,7 +14493,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -14833,7 +14833,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -15173,7 +15173,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -15513,7 +15513,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -15853,7 +15853,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -16193,7 +16193,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -16533,7 +16533,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -16873,7 +16873,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -17213,7 +17213,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -17553,7 +17553,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -17893,7 +17893,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -18233,7 +18233,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -18573,7 +18573,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -18913,7 +18913,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -19253,7 +19253,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -19593,7 +19593,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -19933,7 +19933,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -20273,7 +20273,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -20613,7 +20613,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -20953,7 +20953,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -21293,7 +21293,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -21633,7 +21633,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -21973,7 +21973,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -22313,7 +22313,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -22653,7 +22653,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -22993,7 +22993,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -23333,7 +23333,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -23673,7 +23673,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -24013,7 +24013,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -24353,7 +24353,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -24693,7 +24693,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -25033,7 +25033,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -25373,7 +25373,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -25713,7 +25713,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -26053,7 +26053,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -26393,7 +26393,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -26733,7 +26733,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -27073,7 +27073,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -27413,7 +27413,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -27753,7 +27753,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -28093,7 +28093,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -28433,7 +28433,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -28773,7 +28773,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -29113,7 +29113,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -29453,7 +29453,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -29793,7 +29793,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -30133,7 +30133,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -30473,7 +30473,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -30813,7 +30813,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -31153,7 +31153,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -31493,7 +31493,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -31833,7 +31833,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -32173,7 +32173,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -32513,7 +32513,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -32853,7 +32853,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -33193,7 +33193,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -33533,7 +33533,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -33873,7 +33873,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
@@ -34213,7 +34213,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>

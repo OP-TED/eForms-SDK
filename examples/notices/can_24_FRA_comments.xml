@@ -266,7 +266,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>29</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -379,6 +379,7 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:UltimateBeneficialOwner>
 								<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
 							</efac:UltimateBeneficialOwner>
@@ -413,6 +414,7 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:UltimateBeneficialOwner>
 								<cbc:ID schemeName="ubo">UBO-0002</cbc:ID>
 							</efac:UltimateBeneficialOwner>

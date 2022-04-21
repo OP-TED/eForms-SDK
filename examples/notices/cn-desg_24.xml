@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>23</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">23</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -317,6 +317,7 @@
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2020-06-05+01:00</cbc:EndDate>
 				<cbc:EndTime>12:00:00+01:00</cbc:EndTime>

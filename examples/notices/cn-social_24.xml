@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>20</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">20</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -222,7 +222,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Scotland Excel will require the members of any tendering group of entities (including, but not limited to, consortium members, members of a group of economic operators and/or sub-contractors) to be jointly and severally liable for the performance of the contract (no matter the legal form taken by those entities in order to enter into the contract). Consortium information may be disclosed in accordance with the Regulations. The anticipated value is estimated and may be subject to change. Bidders should note there is no guarantee of any business, use, level of use or continuity of business through the contract.</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

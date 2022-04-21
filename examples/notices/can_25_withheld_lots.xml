@@ -9,18 +9,11 @@
 				<efext:EformsExtension>
 					<efac:NoticeResult>
 						<efac:FieldsPrivacy>
-							<efbc:FieldIdentifierCode listName="non-publication-identifier">not-val</efbc:FieldIdentifierCode>
-							<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
-							<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
-							<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
-						</efac:FieldsPrivacy>
-						<efac:FieldsPrivacy>
 							<efbc:FieldIdentifierCode listName="non-publication-identifier">not-max-val</efbc:FieldIdentifierCode>
 							<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
 							<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
 							<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
 						</efac:FieldsPrivacy>
-						<cbc:TotalAmount currencyID="GBP">9.99</cbc:TotalAmount>
 						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="GBP">100</cbc:EstimatedOverallFrameworkContractsAmount>
 						<efac:LotResult>
 							<efac:FieldsPrivacy>
@@ -135,7 +128,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>30</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">30</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -244,6 +237,7 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<cbc:WebsiteURI>https://deloitte.com</cbc:WebsiteURI>
 								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>

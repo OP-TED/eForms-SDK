@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>18</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">18</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -160,7 +160,6 @@
 									La sous-traitance totale est interdite.
 								</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<!--technical-->
@@ -194,7 +193,6 @@
 									Si le candidat recourt à la sous-traitance, il doit produire les mêmes renseignements et documents concernant ce sous-traitant. En outre, pour justifier qu’il dispose des capacités de ce(s) sous-traitant(s) pour l’exécution du marché, il apporte la preuve par tout moyen approprié.
 								</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<!--Professional-->
@@ -220,7 +218,6 @@
 									Le formulaire DC4 est à compléter pour chaque demande d’acceptation de sous-traitant.
 								</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:TenderSubcontractingRequirements>
 								<efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">shar-subc</efbc:TenderSubcontractingRequirementsCode>
@@ -244,7 +241,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="FRA">En cas de groupement, ce dernier doit revêtir la forme d’un Groupement momentané d’entreprises (GME) solidaire ou à défaut d’un GME conjoint. 
 En tout état de cause, le mandataire doit être solidaire de tous les membres du groupement.</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
@@ -385,11 +382,6 @@ Les métiers concernés pour ces missions sont les VRD, le génie civil (gros œ
 — option 6: PSE1: mission de synthèse pour une durée de 20 mois.
 				</cbc:OptionsDescription>
 				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
-				<cac:Renewal>
-					<cac:Period>
-						<cbc:Description languageID="FRA">Aucun</cbc:Description>
-					</cac:Period>
-				</cac:Renewal>
 			</cac:ContractExtension>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
