@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NoticePurpose</ShortName>
@@ -124,7 +124,7 @@
             <SimpleValue>del</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Registration</SimpleValue>
+            <SimpleValue>Deletion</SimpleValue>
          </Value>
       </Row>
       <Row>

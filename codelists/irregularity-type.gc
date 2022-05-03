@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>IrregularityType</ShortName>
       <LongName>irregularity-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/irregularity-type</LongName>
-      <Version>20200624-0</Version>
+      <Version>20220316-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/irregularity-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -1195,7 +1195,7 @@
             <SimpleValue>Valintaperusteiden tai teknisten eritelmien muuttaminen tarjousten avaamisen jälkeen tai niiden virheellinen soveltaminen</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Critères de sélection ou spécifications techniques modifiés après l’ouverture des offfres ou appliqués de manière incorrecte</SimpleValue>
+            <SimpleValue>Critères de sélection ou spécifications techniques modifiés après l’ouverture des offres ou appliqués de manière incorrecte</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Rinneadh na critéir roghnúcháin nó na sonraíochtaí teicniúla a athrú tar éis oscailt na tréimhse tairisceana nó cuireadh i bhfeidhm go mícheart iad</SimpleValue>

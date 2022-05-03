@@ -2,8 +2,8 @@
 <!--File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>ReviewStatus</ShortName>
-      <LongName>review-status</LongName>
+      <ShortName>Conditions</ShortName>
+      <LongName>conditions</LongName>
       <Version>1.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
@@ -121,18 +121,10 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>decided</SimpleValue>
+            <SimpleValue>performance</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Decision has been made by the Review Body regarding the current request.</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>requested</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Review has been requested and is still under process</SimpleValue>
+            <SimpleValue>Performance</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

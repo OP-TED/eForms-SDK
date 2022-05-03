@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>DirectAwardJustification</ShortName>
       <LongName>direct-award-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/direct-award-justification</LongName>
-      <Version>20200923-0</Version>
+      <Version>20211208-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/direct-award-justification</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -438,6 +438,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Kontrakt med beräknat värde under tröskelvärdet för upphandling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>below-thres-sme</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Small scale contract to a small and medium sized enterprise</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Договор с ниска стойност с малко или средно предприятие</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Smlouva malého rozsahu s malým či středním podnikem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Mindre kontrakter til små og mellemstore virksomheder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Aufträge in kleinem Maßstab an kleine und mittlere Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σύμβαση μικρής κλίμακας σε μικρή και μεσαία επιχείρηση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Small scale contract to a small and medium sized enterprise</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Contrato de pequeña cuantía con una pequeña y mediana empresa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Väikesemahuline leping väikese ja keskmise suurusega ettevõtjaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Pienen ja keskisuuren yrityksen kanssa tehty pienen mittaluokan sopimus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Contrat à petite échelle avec une petite ou moyenne entreprise</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Conradh ar mhionscála le fiontar beag agus meánmhéide</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ugovor male vrijednosti malom ili srednjem poduzeću</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kis volumenű szerződés egy kis és közepes vállalkozás részére</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Contratto su piccola scala con una piccola e media impresa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Mažos apimties sutartis mažajai ir vidutinei įmonei</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Maza apjoma līgums ar mazu un vidēju uzņēmumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kuntratt fuq skala żgħira lil intrapriża żgħira u ta’ daqs medju</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Contract op kleine schaal aan een kleine of middelgrote onderneming</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamówienie o małej wartości na rzecz małego lub średniego przedsiębiorstwa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Contrato de pequena dimensão com uma pequena ou média empresa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Contract de mică anvergură atribuit unei întreprinderi mici și mijlocii</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zmluva s malým rozsahom pre malý alebo stredný podnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Naročilo majhnega obsega, oddano malemu ali srednjemu podjetju</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Småskaligt kontrakt till ett litet eller medelstort företag</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1482,6 +1562,86 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>int-oper</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Internal operator</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Вътрешен оператор</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Interní provozovatel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Intern operatør</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Interner Betreiber</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εγχώριος φορέας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Internal operator</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Operador interno</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sõltuv teenuseosutaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sisäinen liikenteenharjoittaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Opérateur interne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Oibreoir inmheánach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Unutarnji operater</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Belső szolgáltató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Operatore interno</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vidaus vykdytojas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iekšējais operators</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Operatur intern</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Interne exploitant</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podmiot wewnętrzny</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Operador interno</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Operator intern</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Interný poskytovateľ</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Notranji izvajalec</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Internt företag</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>int-rules</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2198,6 +2358,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Kontraktet kan endast tillhandahållas av en viss ekonomisk aktör på grund av skyddet av annan ensamrätt, inklusive immateriella rättigheter, än dem som fastställs i artikel 5.10 i direktiv 2014/23/EU</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rail</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Railway transport</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Железопътен транспорт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Železniční doprava</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jernbanetransport</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Schienenverkehr</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σιδηροδρομικές μεταφορές</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Railway transport</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Transporte ferroviario</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Raudteetransport</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rautatieliikenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Transport par chemin de fer</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Iompar d’iarnród</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Željeznički prijevoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Vasúti szállítás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Trasporto ferroviario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Geležinkelių transportas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dzelzceļa pārvadājumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Trasport bil-ferrovija</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Spoorvervoer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Transport kolejowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Transporte ferroviário</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Transport feroviar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Železničná doprava</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Železniški promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Järnvägstransport</SimpleValue>
          </Value>
       </Row>
       <Row>

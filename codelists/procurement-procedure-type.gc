@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>ProcurementProcedureType</ShortName>
       <LongName>procurement-procedure-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/procurement-procedure-type</LongName>
-      <Version>20190918-0</Version>
+      <Version>20210929-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/procurement-procedure-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -207,6 +207,78 @@
          <Value ColumnRef="Name">
             <SimpleValue>Competitive tendering</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Конкурентна тръжна</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Soutěžní nabídkové řízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Konkurrencepræget udbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wettbewerbliches Ausschreibungverfahren</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανταγωνιστική διαγωνισμού</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Competitive tendering</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Licitación pública</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Konkurentsipõhine pakkumismenetlus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjouskilpailu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Appel d’offres compétitive</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tairiscint iomaíoch</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Konkurentni nadmetanja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Versenypályázati eljárás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Procedura di gara</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Konkurencinė konkurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Konkursa procedūra</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sejħa għall-offerti kompetittiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Mededingingsprocedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Procedura przetargowa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Concurso competitivo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Licitaţie competitivă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Postup verejného obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Konkurenčni razpisni</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Konkurrenskraftigt upphandling</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -338,7 +410,7 @@
             <SimpleValue>Negoziata con previa indizione di gara / competitiva con negoziazione</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>{Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis}</SimpleValue>
+            <SimpleValue>Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām</SimpleValue>

@@ -2,11 +2,12 @@
 <!--File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>Nuts</ShortName>
-      <LongName>nuts</LongName>
+      <ShortName>NutsLvl3</ShortName>
+      <LongName>nuts-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
-      <Version>2021</Version>
-      <CanonicalUri>http://publications.europa.eu/resource/dataset/nuts</CanonicalUri>
+      <LongName Identifier="eFormsParentId">nuts</LongName>
+      <Version>0.3.392</Version>
+      <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -122,22 +123,6 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>AL0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Shqipëria</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AL01</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Veri</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>AL011</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -178,14 +163,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>AL02</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Qender</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>AL021</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -198,14 +175,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Tiranë</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AL03</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Jug</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -250,42 +219,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ALZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ALZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ALZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ostösterreich</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Burgenland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -310,14 +247,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Südburgenland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Niederösterreich</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -378,34 +307,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>AT13</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Wien</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>AT130</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Wien</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Südösterreich</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kärnten</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -430,14 +335,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Unterkärnten</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Steiermark</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -490,22 +387,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>AT3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Westösterreich</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oberösterreich</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>AT311</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -546,14 +427,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>AT32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Salzburg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>AT321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -574,14 +447,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Salzburg und Umgebung</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AT33</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Tirol</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -626,14 +491,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>AT34</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Vorarlberg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>AT341</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -650,22 +507,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ATZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ATZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ATZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -674,42 +515,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BE1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE10</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BE100</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Vlaams Gewest</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Antwerpen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -738,14 +547,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BE22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Limburg (BE)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BE223</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -766,14 +567,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Maaseik</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE23</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Oost-Vlaanderen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -826,14 +619,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BE24</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Vlaams-Brabant</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BE241</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -846,14 +631,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Leuven</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE25</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. West-Vlaanderen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -922,34 +699,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BE3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Région wallonne</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Brabant Wallon</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BE310</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Nivelles</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Hainaut</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1010,14 +763,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BE33</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Liège</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BE331</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1054,14 +799,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Bezirk Verviers - Deutschsprachige Gemeinschaft</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BE34</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Luxembourg (BE)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1106,14 +843,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BE35</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Prov. Namur</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BE351</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1138,42 +867,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BEZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BEZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BEZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BG3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Северна и югоизточна България (Severna I Yugoiztochna Bulgaria)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BG31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Северозападен (Severozapaden)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1218,14 +915,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BG32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Северен централен (Severen tsentralen)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BG321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1266,14 +955,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BG33</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Североизточен (Severoiztochen)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BG331</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1306,14 +987,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BG34</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Югоизточен (Yugoiztochen)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BG341</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1342,22 +1015,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Стара Загора (Stara Zagora)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BG4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Югозападна и южна централна България (Yugozapadna I Yuzhna Tsentralna Bulgaria)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BG41</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Югозападен (Yugozapaden)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1402,14 +1059,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BG42</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Южен централен (Yuzhen tsentralen)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BG421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1450,42 +1099,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>BGZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BGZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>BGZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CH0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Schweiz/Suisse/Svizzera</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CH01</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Région lémanique</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1510,14 +1127,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Genève</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CH02</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Espace Mittelland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1562,14 +1171,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CH03</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nordwestschweiz</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CH031</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1594,26 +1195,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CH04</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zürich</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CH040</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Zürich</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CH05</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ostschweiz</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1674,14 +1259,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CH06</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zentralschweiz</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CH061</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1730,34 +1307,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CH07</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ticino</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CH070</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Ticino</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CHZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CHZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1770,42 +1323,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CY0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Κύπρος (Kypros)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CY00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Κύπρος (Kypros)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CY000</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Κύπρος (Kypros)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CYZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CYZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1818,22 +1339,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CZ0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Česko</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CZ01</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Praha</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CZ010</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1842,26 +1347,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CZ02</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Střední Čechy</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CZ020</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Středočeský kraj</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CZ03</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Jihozápad</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1882,14 +1371,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CZ04</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Severozápad</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CZ041</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1902,14 +1383,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Ústecký kraj</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CZ05</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Severovýchod</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1938,14 +1411,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CZ06</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Jihovýchod</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CZ063</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1958,14 +1423,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Jihomoravský kraj</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CZ07</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Střední Morava</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1986,14 +1443,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CZ08</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Moravskoslezsko</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CZ080</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2002,42 +1451,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CZZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CZZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Baden-Württemberg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Stuttgart</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2146,14 +1563,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Karlsruhe</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE121</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2250,14 +1659,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE13</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Freiburg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE131</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2338,14 +1739,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE14</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Tübingen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE141</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2414,22 +1807,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Sigmaringen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bayern</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oberbayern</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2618,14 +1995,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Niederbayern</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE221</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2722,14 +2091,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE23</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oberpfalz</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE231</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2806,14 +2167,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Tirschenreuth</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE24</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oberfranken</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2922,14 +2275,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE25</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mittelfranken</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE251</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -3026,14 +2371,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE26</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Unterfranken</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE261</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -3126,14 +2463,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Würzburg, Landkreis</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE27</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Schwaben</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3250,42 +2579,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Berlin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE30</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Berlin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE300</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Berlin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Brandenburg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE40</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Brandenburg</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3434,22 +2731,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bremen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE50</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bremen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE501</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -3466,42 +2747,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hamburg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE60</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hamburg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE600</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Hamburg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE7</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hessen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE71</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Darmstadt</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3618,14 +2867,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE72</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Gießen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE721</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -3662,14 +2903,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Vogelsbergkreis</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE73</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kassel</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3726,22 +2959,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Werra-Meißner-Kreis</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE8</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mecklenburg-Vorpommern</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE80</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mecklenburg-Vorpommern</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3806,22 +3023,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Ludwigslust-Parchim</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE9</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Niedersachsen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE91</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Braunschweig</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3906,14 +3107,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DE92</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hannover</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DE922</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -3966,14 +3159,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Region Hannover</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE93</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lüneburg</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -4062,14 +3247,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Verden</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DE94</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Weser-Ems</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -4210,22 +3387,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEA</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nordrhein-Westfalen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEA1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Düsseldorf</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEA11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -4346,14 +3507,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEA2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Köln</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEA22</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -4442,14 +3595,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEA3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Münster</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEA31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -4514,14 +3659,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEA4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Detmold</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEA41</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -4574,14 +3711,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Paderborn</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEA5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Arnsberg</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -4682,22 +3811,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEB</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Rheinland-Pfalz</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEB1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Koblenz</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEB11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -4786,14 +3899,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEB2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Trier</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEB21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -4830,14 +3935,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Trier-Saarburg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEB3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Rheinhessen-Pfalz</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5002,22 +4099,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEC</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Saarland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEC0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Saarland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEC01</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -5066,22 +4147,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DED</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sachsen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DED2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Dresden</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DED21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -5118,14 +4183,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Sächsische Schweiz-Osterzgebirge</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DED4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Chemnitz</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5170,14 +4227,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DED5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Leipzig</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DED51</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -5198,22 +4247,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Nordsachsen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sachsen-Anhalt</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEE0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sachsen-Anhalt</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5326,22 +4359,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Wittenberg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEF</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Schleswig-Holstein</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEF0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Schleswig-Holstein</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5462,22 +4479,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Stormarn</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEG</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Thüringen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEG0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Thüringen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5666,42 +4667,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DK0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Danmark</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DK01</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hovedstaden</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5738,14 +4707,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DK02</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sjælland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DK021</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -5758,14 +4719,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Vest- og Sydsjælland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DK03</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Syddanmark</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5786,14 +4739,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DK04</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Midtjylland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DK041</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -5810,14 +4755,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DK05</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nordjylland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DK050</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -5826,42 +4763,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DKZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DKZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DKZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EE0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Eesti</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EE00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Eesti</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -5906,42 +4811,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EEZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EEZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EEZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Αττική (Attiki)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL30</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Aττική (Attiki)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6002,22 +4875,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EL4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Νησιά Αιγαίου, Κρήτη (Nisia Aigaiou, Kriti)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL41</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Βόρειο Αιγαίο (Voreio Aigaio)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EL411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6042,14 +4899,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EL42</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Νότιο Αιγαίο (Notio Aigaio)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EL421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6062,14 +4911,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL43</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Κρήτη (Kriti)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6102,22 +4943,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Χανιά (Chania)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Βόρεια Ελλάδα (Voreia Ellada)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL51</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Aνατολική Μακεδονία, Θράκη (Anatoliki Makedonia, Thraki)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6158,14 +4983,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Θάσος, Καβάλα (Thasos, Kavala)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL52</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Κεντρική Μακεδονία (Kentriki Makedonia)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6226,14 +5043,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EL53</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Δυτική Μακεδονία (Dytiki Makedonia)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EL531</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6254,14 +5063,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Φλώρινα (Florina)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL54</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ήπειρος (Ipeiros)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6290,22 +5091,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EL6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Κεντρική Ελλάδα (Kentriki Ellada)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL61</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Θεσσαλία (Thessalia)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EL611</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6326,14 +5111,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Μαγνησία, Σποράδες (Magnisia, Sporades)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL62</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ιόνια Νησιά (Ionia Nisia)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6370,14 +5147,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EL63</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Δυτική Ελλάδα (Dytiki Ellada)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EL631</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6398,14 +5167,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Ηλεία (Ileia)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EL64</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Στερεά Ελλάδα (Sterea Ellada)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6450,14 +5211,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EL65</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Πελοπόννησος (Peloponnisos)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EL651</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6482,42 +5235,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ELZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ELZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ELZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Noroeste</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Galicia</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6554,14 +5275,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Principado de Asturias</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES120</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6570,34 +5283,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES13</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Cantabria</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES130</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Cantabria</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Noreste</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>País Vasco</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6626,14 +5315,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Comunidad Foral de Navarra</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES220</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6642,26 +5323,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES23</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>La Rioja</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES230</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>La Rioja</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES24</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Aragón</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6690,42 +5355,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Comunidad de Madrid</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES30</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Comunidad de Madrid</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES300</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Madrid</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Centro (ES)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES41</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Castilla y León</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6802,14 +5435,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES42</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Castilla-La Mancha</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6850,14 +5475,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES43</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extremadura</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES431</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6870,22 +5487,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Cáceres</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Este</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES51</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Cataluña</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6922,14 +5523,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES52</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Comunitat Valenciana</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES521</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6954,14 +5547,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES53</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Illes Balears</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES531</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -6982,22 +5567,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Menorca</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sur</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES61</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Andalucía</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7066,26 +5635,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES62</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Región de Murcia</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES620</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Murcia</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES63</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ciudad de Ceuta</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7098,34 +5651,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ES64</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ciudad de Melilla</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ES640</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Melilla</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES7</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Canarias</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ES70</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Canarias</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7186,42 +5715,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ESZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ESZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ESZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FI1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Manner-Suomi</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FI19</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Länsi-Suomi</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7266,26 +5763,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FI1B</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Helsinki-Uusimaa</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FI1B1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Helsinki-Uusimaa</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FI1C</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Etelä-Suomi</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7326,14 +5807,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Etelä-Karjala</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FI1D</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Pohjois- ja Itä-Suomi</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7394,22 +5867,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FI2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Åland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FI20</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Åland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FI200</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7418,42 +5875,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FIZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FIZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FIZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FR1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ile-de-France</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FR10</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ile-de-France</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7522,22 +5947,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRB</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Centre - Val de Loire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRB0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Centre - Val de Loire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRB01</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7586,22 +5995,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRC</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bourgogne-Franche-Comté</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRC1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bourgogne</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRC11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7630,14 +6023,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Yonne</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRC2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Franche-Comté</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7674,22 +6059,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRD</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Normandie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRD1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Basse-Normandie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRD11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7714,14 +6083,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRD2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Haute-Normandie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRD21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7738,22 +6099,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hauts-de-France</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRE1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nord-Pas de Calais</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRE11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7766,14 +6111,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Pas-de-Calais</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRE2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Picardie</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7802,22 +6139,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRF</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Grand Est</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRF1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Alsace</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRF11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7830,14 +6151,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Haut-Rhin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRF2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Champagne-Ardenne</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7874,14 +6187,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRF3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lorraine</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRF31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -7910,22 +6215,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Vosges</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRG</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Pays de la Loire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRG0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Pays de la Loire</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7970,22 +6259,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRH</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bretagne</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRH0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bretagne</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRH01</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8014,22 +6287,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Morbihan</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRI</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nouvelle-Aquitaine</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRI1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Aquitaine</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8074,14 +6331,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRI2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Limousin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRI21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8102,14 +6351,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Haute-Vienne</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRI3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Poitou-Charentes</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8142,22 +6383,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Vienne</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRJ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Occitanie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRJ1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Languedoc-Roussillon</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8198,14 +6423,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Pyrénées-Orientales</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRJ2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Midi-Pyrénées</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8274,22 +6491,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRK</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Auvergne-Rhône-Alpes</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRK1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Auvergne</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRK11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8318,14 +6519,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Puy-de-Dôme</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRK2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Rhône-Alpes</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8394,22 +6587,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRL</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Provence-Alpes-Côte d’Azur</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRL0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Provence-Alpes-Côte d’Azur</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRL01</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8458,22 +6635,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRM</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Corse</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRM0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Corse</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRM01</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8490,34 +6651,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRY</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>RUP FR - Régions Ultrapériphériques Françaises</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRY1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Guadeloupe</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRY10</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Guadeloupe</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRY2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Martinique</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8530,26 +6667,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRY3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Guyane</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRY30</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Guyane</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRY4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>La Réunion</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8562,14 +6683,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRY5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mayotte</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRY50</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8578,42 +6691,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>FRZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>FRZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FRZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HR0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hrvatska</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HR02</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Panonska Hrvatska</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8682,14 +6763,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HR03</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Jadranska Hrvatska</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HR031</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8746,26 +6819,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HR05</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Grad Zagreb</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HR050</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Grad Zagreb</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HR06</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sjeverna Hrvatska</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8810,42 +6867,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HRZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HRZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HRZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HU1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Közép-Magyarország</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HU11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Budapest</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8858,34 +6883,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HU12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Pest</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HU120</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Pest</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HU2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Dunántúl</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HU21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Közép-Dunántúl</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8914,14 +6915,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HU22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nyugat-Dunántúl</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HU221</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -8942,14 +6935,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Zala</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HU23</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Dél-Dunántúl</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8978,22 +6963,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HU3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Alföld és Észak</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HU31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Észak-Magyarország</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HU311</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9014,14 +6983,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Nógrád</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HU32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Észak-Alföld</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9050,14 +7011,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HU33</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Dél-Alföld</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HU331</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9082,42 +7035,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>HUZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>HUZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>HUZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>IE0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ireland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>IE04</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Northern and Western</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9134,14 +7055,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>West</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>IE05</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Southern</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9170,14 +7083,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>IE06</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Eastern and Midland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>IE061</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9202,42 +7107,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>IEZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>IEZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>IEZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>IS0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ísland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>IS00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ísland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9258,42 +7131,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ISZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ISZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ISZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITC</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nord-Ovest</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITC1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Piemonte</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9362,26 +7203,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITC2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Valle d’Aosta/Vallée d’Aoste</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITC20</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Valle d’Aosta/Vallée d’Aoste</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITC3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Liguria</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9414,14 +7239,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>La Spezia</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITC4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lombardia</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9522,22 +7339,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITF</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sud</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITF1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Abruzzo</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITF11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9570,14 +7371,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITF2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Molise</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITF21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9590,14 +7383,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Campobasso</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITF3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Campania</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9638,14 +7423,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Salerno</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITF4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Puglia</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9698,14 +7475,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITF5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Basilicata</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITF51</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9718,14 +7487,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Matera</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITF6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Calabria</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9766,22 +7527,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Reggio di Calabria</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITG</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Isole</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITG1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sicilia</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9858,14 +7603,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITG2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sardegna</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITG2D</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9906,22 +7643,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITH</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nord-Est</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITH1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Provincia Autonoma di Bolzano/Bozen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITH10</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9930,26 +7651,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITH2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Provincia Autonoma di Trento</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITH20</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Trento</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITH3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Veneto</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10010,14 +7715,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITH4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Friuli-Venezia Giulia</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITH41</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10046,14 +7743,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Trieste</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITH5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Emilia-Romagna</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10126,22 +7815,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Rimini</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITI</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Centro (IT)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITI1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Toscana</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10226,14 +7899,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITI2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Umbria</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITI21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10246,14 +7911,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Terni</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITI3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Marche</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10298,14 +7955,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITI4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lazio</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITI41</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10346,42 +7995,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ITZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ITZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ITZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LI0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Liechtenstein</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LI00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Liechtenstein</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10394,22 +8011,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LIZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LIZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>LIZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10418,34 +8019,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LT0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lietuva</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LT01</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sostinės regionas</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>LT011</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Vilniaus apskritis</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LT02</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Vidurio ir vakarų Lietuvos regionas</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10522,42 +8099,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LTZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LTZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>LTZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LU0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Luxembourg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LU00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Luxembourg</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10570,42 +8115,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LUZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LUZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>LUZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LV0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Latvija</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LV00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Latvija</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10658,42 +8171,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LVZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>LVZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>LVZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ME0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Црна Гора (Crna Gora)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ME00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Црна Гора (Crna Gora)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10706,42 +8187,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>MEZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>MEZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>MEZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>MK0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Северна Македонија (Severna Makedonija)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>MK00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Северна Македонија (Severna Makedonija)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10810,42 +8259,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>MKZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>MKZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>MKZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>MT0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Malta</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>MT00</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Malta</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10866,42 +8283,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>MTZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>MTZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>MTZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Noord-Nederland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Groningen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10930,14 +8315,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Friesland (NL)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NL124</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10958,14 +8335,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Zuidoost-Friesland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL13</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Drenthe</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10994,22 +8363,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oost-Nederland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Overijssel</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NL211</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11030,14 +8383,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Twente</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Gelderland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11074,14 +8419,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL23</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Flevoland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NL230</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11090,34 +8427,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>West-Nederland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Utrecht</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NL310</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Utrecht</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Noord-Holland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11178,14 +8491,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL33</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zuid-Holland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NL332</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11234,14 +8539,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL34</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zeeland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NL341</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11254,22 +8551,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Overig Zeeland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zuid-Nederland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL41</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Noord-Brabant</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11306,14 +8587,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL42</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Limburg (NL)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NL421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11338,42 +8611,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NLZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NLZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NLZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NO0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Norge</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NO02</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Innlandet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11386,26 +8627,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NO06</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Trøndelag</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NO060</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Trøndelag</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NO07</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nord-Norge</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11426,14 +8651,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NO08</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oslo og Viken</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NO081</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11450,14 +8667,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NO09</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Agder og Sør-Østlandet</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NO091</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11470,14 +8679,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Agder</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NO0A</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Vestlandet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11506,14 +8707,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NO0B</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Jan Mayen and Svalbard</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NO0B1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11530,42 +8723,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NOZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NOZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NOZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Makroregion południowy</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Małopolskie</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11614,14 +8775,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Oświęcimski</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Śląskie</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11690,22 +8843,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Makroregion północno-zachodni</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL41</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Wielkopolskie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11754,14 +8891,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL42</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zachodniopomorskie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL424</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11794,14 +8923,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL43</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lubuskie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL431</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11814,22 +8935,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Zielonogórski</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Makroregion południowo-zachodni</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL51</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Dolnośląskie</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11874,14 +8979,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL52</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Opolskie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL523</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11894,22 +8991,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Opolski</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Makroregion północny</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL61</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kujawsko-pomorskie</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11954,14 +9035,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL62</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Warmińsko-mazurskie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL621</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -11982,14 +9055,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Ełcki</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL63</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Pomorskie</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12034,22 +9099,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL7</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Makroregion centralny</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL71</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Łódzkie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL711</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12090,14 +9139,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL72</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Świętokrzyskie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL721</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12110,22 +9151,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Sandomiersko-jędrzejowski</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL8</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Makroregion wschodni</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL81</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lubelskie</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12162,14 +9187,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL82</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Podkarpackie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL821</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12202,14 +9219,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL84</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Podlaskie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL841</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12234,22 +9243,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PL9</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Makroregion województwo mazowieckie</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL91</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Warszawski stołeczny</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PL911</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12270,14 +9263,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Warszawski zachodni</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PL92</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mazowiecki regionalny</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12330,42 +9315,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PLZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PLZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PLZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Continente</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Norte</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12434,26 +9387,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT15</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Algarve</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PT150</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Algarve</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT16</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Centro (PT)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12522,26 +9459,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT17</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PT170</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT18</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Alentejo</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12586,42 +9507,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Região Autónoma dos Açores</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT20</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Região Autónoma dos Açores</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PT200</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Região Autónoma dos Açores</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Região Autónoma da Madeira</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT30</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Região Autónoma da Madeira</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12634,42 +9523,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PTZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PTZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>PTZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Macroregiunea Unu</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nord-Vest</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12722,14 +9579,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>RO12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Centru</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>RO121</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12774,22 +9623,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Sibiu</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Macroregiunea Doi</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Nord-Est</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12842,14 +9675,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>RO22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sud-Est</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>RO221</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12894,22 +9719,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Vrancea</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Macroregiunea Trei</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sud-Muntenia</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12970,14 +9779,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>RO32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bucureşti-Ilfov</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>RO321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12990,22 +9791,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Ilfov</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Macroregiunea Patru</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RO41</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sud-Vest Oltenia</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13050,14 +9835,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>RO42</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Vest</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>RO421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13090,22 +9867,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ROZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ROZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ROZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13114,34 +9875,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>RS1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Србија - север (Serbia - Sever)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RS11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Београдски регион (Beogradski region)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>RS110</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Београдска област (Beogradska oblast)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RS12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Регион Војводине (Region Vojvodine)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13198,22 +9935,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Сремска област (Sremska oblast)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RS2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Србија - jуг (Serbia - jug)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RS21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Регион Шумадије и Западне Србије (Region Šumadije i Zapadne Srbije)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13278,14 +9999,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Шумадијска област (Šumadijska oblast)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RS22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Регион Јужне и Источне Србије (Region Južne i Istočne Srbije)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13362,22 +10075,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>RSZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>RSZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>RSZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13386,34 +10083,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SE1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Östra Sverige</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SE11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Stockholm</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SE110</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Stockholms län</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SE12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Östra Mellansverige</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13458,22 +10131,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SE2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Södra Sverige</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SE21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Småland med öarna</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SE211</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13506,14 +10163,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SE22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sydsverige</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SE221</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13530,14 +10179,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SE23</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Västsverige</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SE231</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13550,22 +10191,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Västra Götalands län</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SE3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Norra Sverige</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SE31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Norra Mellansverige</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13594,14 +10219,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SE32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mellersta Norrland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SE321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13614,14 +10231,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Jämtlands län</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SE33</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Övre Norrland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13642,42 +10251,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SEZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SEZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SEZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SI0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Slovenija</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SI03</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Vzhodna Slovenija</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13746,14 +10323,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SI04</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zahodna Slovenija</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SI041</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13786,22 +10355,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SIZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SIZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SIZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13810,34 +10363,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SK0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Slovensko</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SK01</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bratislavský kraj</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SK010</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Bratislavský kraj</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SK02</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Západné Slovensko</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13866,14 +10395,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SK03</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Stredné Slovensko</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SK031</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13886,14 +10407,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Banskobystrický kraj</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SK04</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Východné Slovensko</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13914,22 +10427,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>SKZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>SKZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>SKZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13938,42 +10435,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>İstanbul</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR10</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>İstanbul</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TR100</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>İstanbul</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Batı Marmara</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Tekirdağ, Edirne, Kırklareli</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14002,14 +10467,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Balıkesir, Çanakkale</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TR221</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14026,34 +10483,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ege</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>İzmir</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TR310</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>İzmir</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Aydın, Denizli, Muğla</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14078,14 +10511,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Muğla</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR33</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Manisa, Afyonkarahisar, Kütahya, Uşak</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14122,22 +10547,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Doğu Marmara</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR41</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bursa, Eskişehir, Bilecik</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TR411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14158,14 +10567,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Bilecik</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR42</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kocaeli, Sakarya, Düzce, Bolu, Yalova</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14210,34 +10611,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Batı Anadolu</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR51</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ankara</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TR510</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Ankara</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR52</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Konya, Karaman</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14254,22 +10631,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Karaman</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Akdeniz</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR61</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Antalya, Isparta, Burdur</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14298,14 +10659,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR62</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Adana, Mersin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TR621</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14318,14 +10671,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Mersin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR63</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hatay, Kahramanmaraş, Osmaniye</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14350,22 +10695,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Osmaniye</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR7</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Orta Anadolu</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR71</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14410,14 +10739,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR72</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kayseri, Sivas, Yozgat</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TR721</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14438,22 +10759,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Yozgat</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR8</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Batı Karadeniz</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR81</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zonguldak, Karabük, Bartın</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14482,14 +10787,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR82</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kastamonu, Çankırı, Sinop</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TR821</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14510,14 +10807,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Sinop</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR83</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Samsun, Tokat, Çorum, Amasya</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14550,22 +10839,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Amasya</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR9</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Doğu Karadeniz</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TR90</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14618,22 +10891,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRA</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kuzeydoğu Anadolu</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRA1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Erzurum, Erzincan, Bayburt</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TRA11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14654,14 +10911,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Bayburt</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRA2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ağrı, Kars, Iğdır, Ardahan</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14698,22 +10947,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRB</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ortadoğu Anadolu</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Malatya, Elazığ, Bingöl, Tunceli</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TRB11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14742,14 +10975,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Tunceli</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Van, Muş, Bitlis, Hakkari</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14786,22 +11011,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRC</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Güneydoğu Anadolu</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Gaziantep, Adıyaman, Kilis</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TRC11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14826,14 +11035,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRC2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Şanlıurfa, Diyarbakır</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TRC21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14846,14 +11047,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Diyarbakır</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mardin, Batman, Şırnak, Siirt</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14890,42 +11083,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>TRZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKC</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>North East (England)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKC1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Tees Valley and Durham</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14962,14 +11123,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKC2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Northumberland and Tyne and Wear</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKC21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14994,22 +11147,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKD</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>North West (England)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKD1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Cumbria</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKD11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15022,14 +11159,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>East Cumbria</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKD3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Greater Manchester</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15070,14 +11199,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Greater Manchester North East</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKD4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lancashire</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15130,14 +11251,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKD6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Cheshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKD61</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15158,14 +11271,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Cheshire West and Chester</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKD7</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Merseyside</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15202,22 +11307,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Yorkshire and the Humber</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKE1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>East Yorkshire and Northern Lincolnshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKE11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15242,14 +11331,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKE2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>North Yorkshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKE21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15266,14 +11347,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKE3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>South Yorkshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKE31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15286,14 +11359,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Sheffield</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKE4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>West Yorkshire</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15326,22 +11391,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Wakefield</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKF</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>East Midlands (England)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKF1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Derbyshire and Nottinghamshire</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15394,14 +11443,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKF2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Leicestershire, Rutland and Northamptonshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKF21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15434,34 +11475,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKF3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lincolnshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKF30</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Lincolnshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKG</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>West Midlands (England)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKG1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Herefordshire, Worcestershire and Warwickshire</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15486,14 +11503,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Warwickshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKG2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Shropshire and Staffordshire</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15526,14 +11535,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Staffordshire CC</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKG3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>West Midlands</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15594,22 +11595,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKH</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>East of England</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKH1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>East Anglia</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKH11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15658,14 +11643,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKH2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bedfordshire and Hertfordshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKH21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15694,14 +11671,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Central Bedfordshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKH3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Essex</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15754,22 +11723,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKI</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>London</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKI3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Inner London - West</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKI31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15798,14 +11751,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Wandsworth</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKI4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Inner London - East</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15850,14 +11795,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKI5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Outer London - East and North East</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKI51</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15890,14 +11827,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKI6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Outer London - South</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKI61</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -15918,14 +11847,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Merton, Kingston upon Thames and Sutton</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKI7</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Outer London - West and North West</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15970,22 +11891,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKJ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>South East (England)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKJ1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Berkshire, Buckinghamshire and Oxfordshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKJ11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -16014,14 +11919,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Oxfordshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKJ2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Surrey, East and West Sussex</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16074,14 +11971,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKJ3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hampshire and Isle of Wight</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKJ31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -16130,14 +12019,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKJ4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kent</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKJ41</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -16174,22 +12055,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>West Kent</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKK</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>South West (England)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKK1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Gloucestershire, Wiltshire and Bristol/Bath area</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16234,14 +12099,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKK2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Dorset and Somerset</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKK23</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -16266,26 +12123,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKK3</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Cornwall and Isles of Scilly</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKK30</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Cornwall and Isles of Scilly</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKK4</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Devon</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16310,22 +12151,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Devon CC</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKL</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Wales</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKL1</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>West Wales and The Valleys</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16394,14 +12219,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKL2</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>East Wales</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKL21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -16434,34 +12251,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKM</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Scotland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKM5</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>North Eastern Scotland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKM50</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Aberdeen City and Aberdeenshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKM6</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Highlands and Islands</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16510,14 +12303,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Shetland Islands</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKM7</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Eastern Scotland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16578,14 +12363,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UKM8</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>West Central Scotland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UKM81</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -16614,14 +12391,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>North Lanarkshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKM9</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Southern Scotland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16662,22 +12431,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>South Lanarkshire</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKN</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Northern Ireland</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKN0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Northern Ireland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16766,22 +12519,6 @@
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Fermanagh and Omagh</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 1</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UKZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 2</SimpleValue>
          </Value>
       </Row>
       <Row>
