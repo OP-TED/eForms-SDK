@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in English. File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52</comment>
+<comment>code in English. File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53</comment>
 <entry key="code|value|accessibility.inc">Accessibility criteria for persons with disabilities are included</entry>
 <entry key="code|value|accessibility.n-inc">Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons</entry>
 <entry key="code|value|accessibility.n-inc-just">Accessibility criteria for persons with disabilities are not included with the following justification</entry>
@@ -19,6 +19,7 @@
 <entry key="code|value|buyer-legal-type.def-cont">Defence contractor</entry>
 <entry key="code|value|buyer-legal-type.eu-ins-bod-ag">EU institution, body or agency</entry>
 <entry key="code|value|buyer-legal-type.eu-int-org">European Institution/Agency or International Organisation</entry>
+<entry key="code|value|buyer-legal-type.grp-p-aut">Group of public authorities</entry>
 <entry key="code|value|buyer-legal-type.int-org">International organisation</entry>
 <entry key="code|value|buyer-legal-type.la">Local authority</entry>
 <entry key="code|value|buyer-legal-type.org-sub">Organisation awarding a contract subsidised by a contracting authority</entry>
@@ -321,7 +322,7 @@
 <entry key="code|value|country.VIR">US Virgin Islands</entry>
 <entry key="code|value|country.VNM">Vietnam</entry>
 <entry key="code|value|country.VUT">Vanuatu</entry>
-<entry key="code|value|country.WAK">Wake Islands</entry>
+<entry key="code|value|country.WAK">Wake Island</entry>
 <entry key="code|value|country.WLF">Wallis and Futuna</entry>
 <entry key="code|value|country.WSM">Samoa</entry>
 <entry key="code|value|country.YEM">South Yemen</entry>
@@ -9811,9 +9812,9 @@
 <entry key="code|value|currency.BBD">Barbados dollar</entry>
 <entry key="code|value|currency.BDT">Taka</entry>
 <entry key="code|value|currency.BEF">Belgian franc</entry>
-<entry key="code|value|currency.BGJ">Lev A/52</entry>
-<entry key="code|value|currency.BGK">Lev A/62</entry>
-<entry key="code|value|currency.BGL">Lev A/99</entry>
+<entry key="code|value|currency.BGJ">Lev</entry>
+<entry key="code|value|currency.BGK">Lev</entry>
+<entry key="code|value|currency.BGL">Lev</entry>
 <entry key="code|value|currency.BGN">Lev</entry>
 <entry key="code|value|currency.BHD">Bahraini dinar</entry>
 <entry key="code|value|currency.BIF">Burundi franc</entry>
@@ -9964,15 +9965,15 @@
 <entry key="code|value|currency.PHP">Philippine peso</entry>
 <entry key="code|value|currency.PKR">Pakistani rupee</entry>
 <entry key="code|value|currency.PLN">Zloty</entry>
-<entry key="code|value|currency.PLZ">Zloty A/94</entry>
+<entry key="code|value|currency.PLZ">Zloty</entry>
 <entry key="code|value|currency.PTE">Portuguese escudo</entry>
 <entry key="code|value|currency.PYG">Guaraní</entry>
 <entry key="code|value|currency.QAR">Qatari rial</entry>
-<entry key="code|value|currency.ROL">Romanian leu A/05</entry>
+<entry key="code|value|currency.ROL">Romanian leu</entry>
 <entry key="code|value|currency.RON">Romanian leu</entry>
 <entry key="code|value|currency.RSD">Serbian dinar</entry>
 <entry key="code|value|currency.RUB">Russian rouble</entry>
-<entry key="code|value|currency.RUR">Russian rouble A/97</entry>
+<entry key="code|value|currency.RUR">Russian rouble</entry>
 <entry key="code|value|currency.RWF">Rwandese franc</entry>
 <entry key="code|value|currency.SAR">Saudi riyal</entry>
 <entry key="code|value|currency.SBD">Solomon Islands dollar</entry>
@@ -10005,7 +10006,7 @@
 <entry key="code|value|currency.TND">Tunisian dinar</entry>
 <entry key="code|value|currency.TOP">Pa’anga</entry>
 <entry key="code|value|currency.TPE">Portuguese Timorese escudo</entry>
-<entry key="code|value|currency.TRL">Turkish lira A/05</entry>
+<entry key="code|value|currency.TRL">Turkish lira</entry>
 <entry key="code|value|currency.TRY">Turkish lira</entry>
 <entry key="code|value|currency.TTD">Trinidad and Tobago dollar</entry>
 <entry key="code|value|currency.TVD">Tuvaluan dollar</entry>
@@ -10013,7 +10014,7 @@
 <entry key="code|value|currency.TZS">Tanzanian shilling</entry>
 <entry key="code|value|currency.UAH">Hryvnia</entry>
 <entry key="code|value|currency.UAK">Karbovanets</entry>
-<entry key="code|value|currency.UGS">Uganda shilling A/87</entry>
+<entry key="code|value|currency.UGS">Uganda shilling</entry>
 <entry key="code|value|currency.UGX">Uganda shilling</entry>
 <entry key="code|value|currency.USD">US dollar</entry>
 <entry key="code|value|currency.USN">US dollar</entry>
@@ -10025,6 +10026,7 @@
 <entry key="code|value|currency.UZS">Sum</entry>
 <entry key="code|value|currency.VAL">Vatican lira</entry>
 <entry key="code|value|currency.VEB">Bolívar fuerte</entry>
+<entry key="code|value|currency.VED">Bolívar digital</entry>
 <entry key="code|value|currency.VEF">Bolívar</entry>
 <entry key="code|value|currency.VES">Bolívar soberano</entry>
 <entry key="code|value|currency.VNC">Old dong</entry>
@@ -10038,6 +10040,7 @@
 <entry key="code|value|currency.XBB">Bond Markets Unit European Monetary Unit (E.M.U.-6)</entry>
 <entry key="code|value|currency.XBC">Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</entry>
 <entry key="code|value|currency.XBD">Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</entry>
+<entry key="code|value|currency.XBT">Bitcoin</entry>
 <entry key="code|value|currency.XCD">East Caribbean dollar</entry>
 <entry key="code|value|currency.XDR">SDR (Special Drawing Right)</entry>
 <entry key="code|value|currency.XEU">European Currency Unit</entry>
@@ -10065,14 +10068,15 @@
 <entry key="code|value|currency.ZRN">Zaïrean new zaïre</entry>
 <entry key="code|value|currency.ZRZ">Zaïrean zaïre</entry>
 <entry key="code|value|currency.ZWC">Rhodesian dollar</entry>
-<entry key="code|value|currency.ZWD">Zimbabwe dollar A/06</entry>
+<entry key="code|value|currency.ZWD">Zimbabwe dollar</entry>
 <entry key="code|value|currency.ZWL">Zimbabwe dollar</entry>
-<entry key="code|value|currency.ZWN">Zimbabwe dollar A/08</entry>
-<entry key="code|value|currency.ZWR">Zimbabwe dollar A/09</entry>
+<entry key="code|value|currency.ZWN">Zimbabwe dollar</entry>
+<entry key="code|value|currency.ZWR">Zimbabwe dollar</entry>
 <entry key="code|value|direct-award-justification.additional">Need for additional works or services by the original contractor</entry>
 <entry key="code|value|direct-award-justification.artistic">The contract can be provided only by a particular economic operator because of creation or acquisition of a unique work of art or artistic performance</entry>
 <entry key="code|value|direct-award-justification.bargain">Bargain purchase taking advantage of a particularly advantageous opportunity available for a very short time at a price considerably lower than market prices</entry>
 <entry key="code|value|direct-award-justification.below-thres">Contracts with estimated value below the procurement thresholds</entry>
+<entry key="code|value|direct-award-justification.below-thres-sme">Small scale contract to a small and medium sized enterprise</entry>
 <entry key="code|value|direct-award-justification.closure">Purchase on particularly advantageous terms from an economic operator which is definitely winding up its business activities</entry>
 <entry key="code|value|direct-award-justification.commodity">Procurement of supplies quoted and purchased on a commodity market</entry>
 <entry key="code|value|direct-award-justification.contest">Service contract to be awarded to the winner or one of winners under the rules of a design contest</entry>
@@ -10086,6 +10090,7 @@
 <entry key="code|value|direct-award-justification.exclusive">The contract can be provided only by a particular economic operator because of exclusive rights, including intellectual property rights</entry>
 <entry key="code|value|direct-award-justification.existing">Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive</entry>
 <entry key="code|value|direct-award-justification.in-house">Public contract between organisations within the public sector ('in-house'), contracts awarded to affiliated undertakings, or contracts awarded to a joint venture or within a joint venture</entry>
+<entry key="code|value|direct-award-justification.int-oper">Internal operator</entry>
 <entry key="code|value|direct-award-justification.int-rules">Procedure according to international rules</entry>
 <entry key="code|value|direct-award-justification.irregular">Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations</entry>
 <entry key="code|value|direct-award-justification.liquidator">Purchase on particularly advantageous terms from the liquidator in an insolvency procedure, an arrangement with creditors or a similar procedure under national laws and regulations</entry>
@@ -10095,6 +10100,7 @@
 <entry key="code|value|direct-award-justification.not-wss">Contracts whose purpose is not the execution of works, the supply of products and the provision of services</entry>
 <entry key="code|value|direct-award-justification.other-activity">Contracts awarded for purposes other than the pursuit of a covered activity or for the pursuit of such an activity in a third country</entry>
 <entry key="code|value|direct-award-justification.other-exclusive">The contract can be provided only by a particular economic operator because of protection of other exclusive rights, including intellectual property rights, other than those defined in Directive 2014/23/EU Art. 5(10)</entry>
+<entry key="code|value|direct-award-justification.rail">Railway transport</entry>
 <entry key="code|value|direct-award-justification.rd">The contract concerns research and development services other than those referred to in Directive 2009/81/EC Art. 13</entry>
 <entry key="code|value|direct-award-justification.repetition">New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive</entry>
 <entry key="code|value|direct-award-justification.resd">Purpose of the contract is purely research, experiment, study or development under the conditions stated in the Directive</entry>
@@ -10167,6 +10173,7 @@
 <entry key="code|value|eu-programme.EGF_2021">European Globalisation Adjustment Fund (EGF)</entry>
 <entry key="code|value|eu-programme.EIDHR2020">European Instrument for Democracy and Human Rights (EIDHR)</entry>
 <entry key="code|value|eu-programme.EINS">European Instrument for Nuclear Safety (EINS)</entry>
+<entry key="code|value|eu-programme.EMFAF">European Maritime, Fisheries and Aquaculture Fund (EMFAF)</entry>
 <entry key="code|value|eu-programme.EMFF2020">European Maritime and Fisheries Fund (EMFF)</entry>
 <entry key="code|value|eu-programme.EMFF_2021">European Maritime and Fisheries Fund (EMFF)</entry>
 <entry key="code|value|eu-programme.ENI">European Neighbourhood Instrument (ENI)</entry>
@@ -10321,6 +10328,7 @@
 <entry key="code|value|language.AFA">Afro-Asiatic languages</entry>
 <entry key="code|value|language.AFG">Afghan Sign Language</entry>
 <entry key="code|value|language.AFR">Afrikaans</entry>
+<entry key="code|value|language.AKA">Akan</entry>
 <entry key="code|value|language.ALG">Algonquian languages</entry>
 <entry key="code|value|language.AMH">Amharic</entry>
 <entry key="code|value|language.APA">Apache languages</entry>
@@ -10427,6 +10435,7 @@
 <entry key="code|value|language.FSE">Finnish Sign Language</entry>
 <entry key="code|value|language.FSL">French Sign Language</entry>
 <entry key="code|value|language.FSS">Finland-Swedish Sign Language</entry>
+<entry key="code|value|language.FUL">Fula</entry>
 <entry key="code|value|language.FUR">Friulan</entry>
 <entry key="code|value|language.GEM">Germanic languages</entry>
 <entry key="code|value|language.GLA">Scottish Gaelic</entry>
@@ -10444,6 +10453,7 @@
 <entry key="code|value|language.HAB">Hanoi Sign Language</entry>
 <entry key="code|value|language.HAF">Haiphong Sign Language</entry>
 <entry key="code|value|language.HAT">Haitian</entry>
+<entry key="code|value|language.HAU">Hausa</entry>
 <entry key="code|value|language.HBS">Serbo-Croatian</entry>
 <entry key="code|value|language.HCA">Andaman Creole Hindi</entry>
 <entry key="code|value|language.HDS">Honduran Sign Language</entry>
@@ -10453,7 +10463,7 @@
 <entry key="code|value|language.HKS">Hong Kong Sign Language</entry>
 <entry key="code|value|language.HMO">Hiri Motu</entry>
 <entry key="code|value|language.HOS">Ho Chi Minh City Sign Language</entry>
-<entry key="code|value|language.HPS">Hawai'i Pidgin Sign Language</entry>
+<entry key="code|value|language.HPS">Hawai‘i Pidgin Sign Language</entry>
 <entry key="code|value|language.HRV">Croatian</entry>
 <entry key="code|value|language.HSB">Upper Sorbian</entry>
 <entry key="code|value|language.HSH">Hungarian Sign Language</entry>
@@ -10532,7 +10542,7 @@
 <entry key="code|value|language.MOL">Moldavian</entry>
 <entry key="code|value|language.MON">Mongolian</entry>
 <entry key="code|value|language.MPD">Machinere</entry>
-<entry key="code|value|language.MRE">Martha's Vineyard Sign Language</entry>
+<entry key="code|value|language.MRE">Martha’s Vineyard Sign Language</entry>
 <entry key="code|value|language.MRI">Māori</entry>
 <entry key="code|value|language.MSA">Malaysian</entry>
 <entry key="code|value|language.MSD">Yucatec Maya Sign Language</entry>
@@ -10549,7 +10559,7 @@
 <entry key="code|value|language.NAH">Nahuatl languages</entry>
 <entry key="code|value|language.NAI">North American Indian languages</entry>
 <entry key="code|value|language.NAU">Nauruan</entry>
-<entry key="code|value|language.NBL">Southhern Ndebele</entry>
+<entry key="code|value|language.NBL">Southern Ndebele</entry>
 <entry key="code|value|language.NBS">Namibian Sign Language</entry>
 <entry key="code|value|language.NCS">Nicaraguan Sign Language</entry>
 <entry key="code|value|language.NEP">Nepali</entry>
@@ -10674,6 +10684,7 @@
 <entry key="code|value|language.TUT">Altaic languages</entry>
 <entry key="code|value|language.TVL">Tuvaluan</entry>
 <entry key="code|value|language.TZA">Tanzanian Sign Language</entry>
+<entry key="code|value|language.TZM">Central Atlas Tamazight</entry>
 <entry key="code|value|language.UGN">Ugandan Sign Language</entry>
 <entry key="code|value|language.UGY">Uruguayan Sign Language</entry>
 <entry key="code|value|language.UKL">Ukrainian Sign Language</entry>
@@ -10699,6 +10710,7 @@
 <entry key="code|value|language.XMS">Moroccan Sign Language</entry>
 <entry key="code|value|language.YAA">Yaminava</entry>
 <entry key="code|value|language.YID">Yiddish</entry>
+<entry key="code|value|language.YOR">Yoruba</entry>
 <entry key="code|value|language.YPK">Yupik languages</entry>
 <entry key="code|value|language.YSL">Yugoslavian Sign Language</entry>
 <entry key="code|value|language.YUE">Yue Chinese</entry>
@@ -10711,6 +10723,10 @@
 <entry key="code|value|language.ZSL">Zambian Sign Language</entry>
 <entry key="code|value|language.ZUL">Zulu</entry>
 <entry key="code|value|language.ZXX">No linguistic content</entry>
+<entry key="code|value|legal-basis.1995_499-XIII">Ratified Parliament Decision (1995) No 499-XIII</entry>
+<entry key="code|value|legal-basis.2011CEB_PROC_EXT">Guidelines for Procurement of Supplies, Works and Services</entry>
+<entry key="code|value|legal-basis.2014CEB_PROC_INT">Guidelines on the internal procurement of services, supplies and works by the CEB</entry>
+<entry key="code|value|legal-basis.2020CEB_GRANT">CEB’s competitive procedures to award grants</entry>
 <entry key="code|value|legal-basis.31985R2137">Regulation (EEC) No 2137/85</entry>
 <entry key="code|value|legal-basis.31992L0013">Directive 92/13/EEC</entry>
 <entry key="code|value|legal-basis.31994D0001">Decision 94/1/EC, ECSC</entry>
@@ -10749,6 +10765,9 @@
 <entry key="code|value|legal-basis.32017D2263">Decision (CFSP) 2017/2263</entry>
 <entry key="code|value|legal-basis.32018R1046">Regulation (EU, Euratom) 2018/1046</entry>
 <entry key="code|value|legal-basis.32019D0312">Decision (CFSP) 2019/312</entry>
+<entry key="code|value|legal-basis.C2019_3277">Decision C(2019) 3277</entry>
+<entry key="code|value|legal-basis.C2019_5515">Decision C(2019) 5515</entry>
+<entry key="code|value|legal-basis.CFSP2017_34">CFSP/2017/34/EUMM Georgia</entry>
 <entry key="code|value|legal-basis.other">Other</entry>
 <entry key="code|value|main-activity.airport">Airport-related activities</entry>
 <entry key="code|value|main-activity.defence">Defence</entry>
@@ -10804,6 +10823,7 @@
 <entry key="code|value|measurement-unit.LH">labour hour</entry>
 <entry key="code|value|measurement-unit.LTR">litre</entry>
 <entry key="code|value|measurement-unit.MAW">megawatt</entry>
+<entry key="code|value|measurement-unit.MC">microgram</entry>
 <entry key="code|value|measurement-unit.MGM">milligram</entry>
 <entry key="code|value|measurement-unit.MIN">minute</entry>
 <entry key="code|value|measurement-unit.MLT">millilitre</entry>
@@ -10843,7 +10863,7 @@
 <entry key="code|value|non-publication-justification.fair-comp">Fair competition</entry>
 <entry key="code|value|non-publication-justification.law-enf">Law enforcement</entry>
 <entry key="code|value|non-publication-justification.oth-int">Other public interest</entry>
-<entry key="code|value|non-publication-justification.rd-ser">{Research and development (R&amp;D) services}</entry>
+<entry key="code|value|non-publication-justification.rd-ser">Research and development (R&amp;D) services</entry>
 <entry key="code|value|notice-type.brin-ecs">European Company / European Cooperative Society notice</entry>
 <entry key="code|value|notice-type.brin-eeig">European Economic Interest Grouping notice</entry>
 <entry key="code|value|notice-type.can-desg">Design contest result notice</entry>
@@ -10864,8 +10884,8 @@
 <entry key="code|value|notice-type.qu-sy">Notice on the existence of a qualification system</entry>
 <entry key="code|value|notice-type.subco">Subcontracting notice</entry>
 <entry key="code|value|notice-type.veat">Voluntary ex-ante transparency notice</entry>
-<entry key="code|value|number-fixed.fix-tot">{Fixed (total)}</entry>
-<entry key="code|value|number-fixed.fix-unit">{Fixed (per unit)}</entry>
+<entry key="code|value|number-fixed.fix-tot">Fixed (total)</entry>
+<entry key="code|value|number-fixed.fix-unit">Fixed (per unit)</entry>
 <entry key="code|value|number-threshold.max-pass">Maximum number of tenders passing</entry>
 <entry key="code|value|number-threshold.min-score">Minimum score</entry>
 <entry key="code|value|number-weight.dec-exa">{Weight (decimal, exact)}</entry>
@@ -10897,6 +10917,7 @@
 <entry key="code|value|permission.not-allowed">Not allowed</entry>
 <entry key="code|value|permission.required">Required</entry>
 <entry key="code|value|procurement-procedure-type.comp-dial">Competitive dialogue</entry>
+<entry key="code|value|procurement-procedure-type.comp-tend">Competitive tendering</entry>
 <entry key="code|value|procurement-procedure-type.innovation">Innovation partnership</entry>
 <entry key="code|value|procurement-procedure-type.neg-w-call">Negotiated with prior publication of a call for competition / competitive with negotiation</entry>
 <entry key="code|value|procurement-procedure-type.neg-wo-call">Negotiated without prior call for competition</entry>
@@ -10961,10 +10982,10 @@
 <entry key="code|value|strategic-procurement.soc-obj">Fulfilment of social objectives</entry>
 <entry key="code|value|subcontracting-indication.none">None</entry>
 <entry key="code|value|subcontracting-indication.shar-subc">The share of the contract that the tenderer intends to subcontract</entry>
-<entry key="code|value|subcontracting-indication.subc-noblig">{The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract}</entry>
-<entry key="code|value|subcontracting-indication.subc-oblig">{The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract}</entry>
-<entry key="code|value|subcontracting-indication.subj-noblig">{The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract}</entry>
-<entry key="code|value|subcontracting-indication.subj-oblig">{The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract}</entry>
+<entry key="code|value|subcontracting-indication.subc-noblig">The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract</entry>
+<entry key="code|value|subcontracting-indication.subc-oblig">The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract</entry>
+<entry key="code|value|subcontracting-indication.subj-noblig">The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract</entry>
+<entry key="code|value|subcontracting-indication.subj-oblig">The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract</entry>
 <entry key="code|value|subcontracting-obligation.none">None</entry>
 <entry key="code|value|subcontracting-obligation.subc-chng">The contractor must indicate any change of subcontractors during the execution of the contract.</entry>
 <entry key="code|value|subcontracting-obligation.subc-min">The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.</entry>
