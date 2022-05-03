@@ -1,0 +1,75 @@
+// View CEI
+// sdkVersion='eforms-sdk-0.6.0'
+// File generated from metadata database version 0.3.393 created on the 2022-05-03T16:32:53
+{ND-0} #{decoration|name|buyer}
+	{OPT-300-Procedure-Buyer} #{decoration|name|buyer}
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{business_term|name|BT-500}: ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}
+		{BT-11-Procedure-Buyer} #{business_term|name|BT-11}: #{BT-11-Procedure-Buyer}
+		{BT-10-Procedure-Buyer} #{business_term|name|BT-10}: #{BT-10-Procedure-Buyer}
+{ND-0} #{decoration|name|procedure}
+	{ND-0} #{decoration|name|procedure}
+		{BT-21-Procedure} #{business_term|name|BT-21}: ${BT-21-Procedure}
+		{BT-24-Procedure} #{business_term|name|BT-24}: ${BT-24-Procedure}
+		{BT-04-notice} #{business_term|name|BT-04}: ${BT-04-notice}
+		{BT-22-Procedure} #{business_term|name|BT-22}: ${BT-22-Procedure}
+		{BT-105-Procedure} #{business_term|name|BT-105}: #{BT-105-Procedure}
+		{ND-0} #{decoration|name|purpose}
+			{BT-23-Procedure} #{business_term|name|BT-23}: #{BT-23-Procedure}
+			{OPP-040-Procedure} #{business_term|name|OPP-040}
+			{BT-531-Procedure} #{business_term|name|BT-531}: #{BT-531-Procedure}
+			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
+			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
+		{ND-0} #{decoration|name|general-information}
+			{BT-300-Procedure} #{business_term|name|BT-300}: ${BT-300-Procedure}
+			{ND-0} #{decoration|name|legal-basis}
+			{BT-01-notice} #{BT-01-notice} ${BT-01(c)-Procedure} ${BT-01(d)-Procedure}
+			{BT-01(d)-Procedure} #{name|BT-01}: ${BT-01(d)-Procedure}
+			{ND-0} #{decoration|name|cross-border-law}
+			{BT-09(a)-Procedure} #{field|name|BT-09(a)-Procedure}: ${BT-09(a)-Procedure}
+			{BT-09(b)-Procedure} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure}
+		{ND-0} #{decoration|name|procurement-terms}
+			{ND-0} #{decoration|name|submission-terms}
+			{BT-31-Procedure} #{business_term|name|BT-31}: ${BT-31-Procedure}
+			{BT-763-Procedure} #{business_term|name|BT-763}: ${BT-763-Procedure}
+			{ND-0} #{decoration|name|contract-terms}
+			{BT-33-Procedure} #{business_term|name|BT-33}: ${BT-33-Procedure}
+{ND-0} #{decoration|name|lot}
+	{BT-137-Lot} #{name|BT-137}: ${BT-137-Lot}
+		{BT-21-Lot} #{business_term|name|BT-21}: ${BT-21-Lot}
+		{BT-24-Lot} #{business_term|name|BT-24}: ${BT-24-Lot}
+		{BT-22-Lot} #{business_term|name|BT-22}: ${BT-22-Lot}
+		{BT-137-Lot} #{decoration|name|purpose}
+			{BT-23-Lot} #{business_term|name|BT-23}: #{BT-23-Lot}
+			{BT-531-Lot} #{business_term|name|BT-531}: #{BT-531-Lot}
+			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
+			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
+			{BT-25-Lot} #{name|BT-25}: ${BT-25-Lot} ${BT-625-Lot}
+		{BT-137-Lot} #{decoration|name|duration-call-expressions-interest}
+			{BT-36-Lot} #{name|BT-538}: ${BT-36-Lot} ${BT-36-Lot/@unitCode}, ${BT-538-Lot}
+		{BT-137-Lot} #{decoration|name|general-information}
+		{BT-137-Lot} #{decoration|name|conditions-participation}
+			{BT-747-Lot} #{decoration|name|criterion}
+				{BT-747-Lot} #{business_term|name|BT-747}: #{BT-747-Lot}
+				{BT-749-Lot} #{business_term|name|BT-749}: ${BT-749-Lot}
+				{BT-750-Lot} #{business_term|name|BT-750}: ${BT-750-Lot}
+				{BT-748-Lot} #{business_term|name|BT-748}: #{BT-748-Lot}
+		{BT-137-Lot} #{decoration|name|procurement-documents}
+			{BT-15-Lot} #{business_term|name|BT-15}: ${BT-15-Lot}
+			{BT-14-Lot} #{name|BT-615}: ${BT-615-Lot}, #{BT-14-Lot}
+			{BT-707-Lot} #{business_term|name|BT-707}: #{BT-707-Lot}
+			{BT-137-Lot} #{decoration|name|adhoc-communication}
+				{BT-124-Lot} #{name|BT-124}: ${BT-124-Lot}
+		{BT-137-Lot} #{decoration|name|organisations}
+{ND-0} #{decoration|name|notice-information}
+	{ND-0} #{decoration|name|notice-information}
+		{BT-701-notice} #{name|BT-757}: ${BT-757-notice}
+		{BT-03-notice} #{business_term|name|BT-03}: #{BT-03-notice}
+		{BT-02-notice} #{business_term|name|BT-02}: #{BT-02-notice}
+		{OPP-070-notice} #{business_term|name|OPP-070}: ${OPP-070-notice}
+		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
+		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
+	{ND-0} #{decoration|name|publication-information}
+		{ND-0} #{business_term|name|BT-21}
+		{OPP-010-notice} #{business_term|name|OPP-010}: ${OPP-010-notice}
+		{OPP-011-notice} #{business_term|name|OPP-011}: ${OPP-011-notice}
+		{OPP-012-notice} #{business_term|name|OPP-012}: ${OPP-012-notice}
