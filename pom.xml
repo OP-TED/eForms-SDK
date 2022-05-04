@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>eu.europa.ted.eforms</groupId>
+  <artifactId>eforms-sdk</artifactId>
+  <version>0.6.0</version>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <target.dir>${project.build.outputDirectory}/eforms-sdk</target.dir>
+  </properties>
+
+  <build>
+    <resources>
+      <resource>
+        <directory>${basedir}/codelists</directory>
+        <targetPath>${target.dir}/codelists</targetPath>
+      </resource>
+      <resource>
+        <directory>${basedir}/efx-grammar</directory>
+        <targetPath>${target.dir}/efx-grammar</targetPath>
+      </resource>
+      <resource>
+        <directory>${basedir}/examples</directory>
+        <targetPath>${target.dir}/examples</targetPath>
+      </resource>
+      <resource>
+        <directory>${basedir}/fields</directory>
+        <targetPath>${target.dir}/fields</targetPath>
+      </resource>
+      <resource>
+        <directory>${basedir}/translations</directory>
+        <targetPath>${target.dir}/translations</targetPath>
+      </resource>
+      <resource>
+        <directory>${basedir}/view-templates</directory>
+        <targetPath>${target.dir}/view-templates</targetPath>
+      </resource>
+    </resources>
+  </build>
+</project>
