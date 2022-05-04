@@ -15,6 +15,7 @@ The adopted approach is to keep the whole set of UBL elements but only support t
 - `examples`: This folder contains some notice examples together with their validation report in SVRL.
 - `notice-types`: This folder contains a definition of each type of notice, in JSON.
 - `fields`: This folder contains information on the fields that compose an eForms notice.
+- `view-templates`: This folder contains structured information on the visualisation of notices.
 - `translations`: This folder contains translations of various labels and short texts used in eForms notices.
 
 The documentation is available at https://docs.ted.europa.eu.
