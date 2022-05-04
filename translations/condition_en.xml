@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>condition in English. File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53</comment>
+<comment>condition in English. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
 <entry key="condition|message|1">the value chosen for the indicator of BT-740-Procedure-Buyer is 'NO'</entry>
 <entry key="condition|message|100">BT-541-Lot is present and BT-5421-Lot is not present and BT-5423-Lot is not present</entry>
 <entry key="condition|message|101">BT-541-Lot is present and BT-5421-Lot is not present and BT-5422-Lot is not present</entry>

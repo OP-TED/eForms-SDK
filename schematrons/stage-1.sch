@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.285 created on the 2022-04-01T17:57:25.-->
+<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00.-->
 <pattern id="EFORMS-stage-1" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-609-1" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|message|ND-609-1</assert>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.3.392 created on the 2022-05-03T15:27:53.-->
+<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00.-->
 <pattern id="EFORMS-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X02']">
 		<assert id="BR-OPP-00113-0002" role="ERROR" test="count(cbc:RegistrationDate) &gt; 0 or not(cbc:CompanyID[@schemeName = 'EU'])">rule|message|BR-OPP-00113-0002</assert>
