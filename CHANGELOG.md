@@ -1,73 +1,71 @@
-# SDK 0.5.0 Release Notes
+# SDK 0.6.0 Release Notes
 
 Below is a list of the major updates made to the SDK in this release.
 
 The documentation for the SDK is available at https://docs.ted.europa.eu. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
 
+## eForms expression language
+We have created a domain-specific language named "eForms expression language", or EFX, that we use in several ways described below.
+
+This language is defined in a formal grammar, available in the `efx-grammar` folder. We provide a parser and a translator to XPath as a Java library named ['efx-translator-java', available on GitHub](https://github.com/OP-TED/efx-translator-java).
+
+
+## View templates
+To standardise the way a notice can be visualised, independently of the media format used (PDF, HTML etc.), we have created a set of "view templates".
+
+Every notice sub-type can be associated with one or more different view templates. These templates are available in the `view-templates` folder. The template files use the EFX template syntax.
+
+
 ## Codelists
-The SDK now includes codelists that are used to restrict the possible values of some fields in eForms notices.
-
-This includes also tailored codelists, which represent a subset of items from another codelist. For example the codes for EU official languages are in a tailored codelist that is based on the "language" codelist. More codelists will be added in future releases.
-
-You can find more information about codelists in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.5.0/codelists).
+Codelists have been updated to take into account the latest publication on [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies).
 
 
 ## eForms schemas
-Minor issues were corrected in the eForms extensions defined in the schemas:
- * The type of `efbc:TenderSubcontractingRequirementsDescriptionType` is changed to `udt:TextType`.
- * The unused element `efac:EvaluationCriterion` is removed.
- * The `efac` namespace is added in the references to 2 elements, for consistency. This has no impact on XML instances.
+No changes in this version.
+
 
 ## Schematron rules
 
-### New rules
-New rules have been added for information that is allowed or mandatory only under certain conditions.
+### Change notices
+A first set of rules specific to change notices have been added. For the information that cannot be changed via a change notice, these rules check that the values are identical in the notice that is referenced by the change notice.
 
-UBL documents must not contain any element devoid of content or containing null values. This is now enforced with a specific rule.
+### Translation of messages
+Instead of a message in English, each Schematron rules now contains a code that corresponds to a specific message. The texts of these messages are provided in the `translations` folder, in the files `rule_*.xml`, and they will be available in all EU official languages in the future.
 
-### Codelist rules
-The rules that check that a value is part of a codelist now make use of the content of tailored codelists when appropriate.
+### Rule identifier
+Each `assert` element in Schematron now has an `id` attribute, indicating the unique identifier for the rule. This identifier also appears in validation report, making it easier to pinpoint the corresponding rule.
 
-### Corrections
-The pattern matching rules that have identical contexts are now grouped in the same `rule` element.
-
-The field for "Awarding CPB Buyer Indicator" was incorrectly forbidden for T01 and T02 notices, it is now allowed for those notices.
-
-The field for BT-706 "Winner Owner Nationality" was incorrectly indicated as mandatory.
+### Added and updated rules
+Various new rules have been added, in particular for information that is allowed or mandatory only under certain conditions.
+Existing rules have been refined and improved.
 
 
 ## Example Notices
 The XML notices in the "examples" folder have been updated to take into account the updated schematron rules.
 
 New examples were added:
- * Contract award notice with several lots and "unpublished" (withheld) information.
- * Change notice that voids/cancels the procurement procedure
- * Contract notice with a large number of lots
- * Prior information notice with publication information
+ * Prior information notice with the EU Financial Regulation as legal basis
+ * Contract award notice with several buyers from different countries
+ * Invalid change notice with changes that are not allowed
 
 The validation reports have been regenerated, incorporating all the changes listed above.
 
 
 ## Fields
-The representation of constraints in fields.json has been reworked. This new structure is more consistent for the various types of constraints. It is also more flexible, so that new types of constraints can be added without breaking backwards compatibility.
 
-Information on the physical structure of XML notices is now available in the fields.json file, along with the location of each field in that structure.
+### New syntax for conditions
+The conditions are now written using the EFX language, which makes them easier to read, and offers more flexibility to express complex conditions.
 
-The identifier of a field has been corrected to `OPT-050-Lot`, to fix the capitalisation.
-
-You can find more information about the field metadata in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.5.0/fields).
+### Maximum number of characters
+The maximum number of characters allowed for a field is now indicated directly in a new `maxLength` property, instead of via a regular expression pattern.
 
 
 ## Notice types
-The SDK now includes structured information on the various specific types of notices (or subtypes) that are defined in the eForms regulation.
-
-This defines the content and structure of the forms notice authors can fill in, in a way that is not directly coupled to the structure of XML notices.
-
-You can find more information about this in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.5.0/notice-types).
+The legal basis indicated for one document type has been corrected.
 
 
 ## Translations
 Translations for several items in codelists have been updated.
 
-You can find more information about this in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.5.0/translations).
+An initial version of the messages for schematron rules is available in English, and ome preliminary translations are provided in French and Greek. Those texts will be reviewed and completed in the future.
