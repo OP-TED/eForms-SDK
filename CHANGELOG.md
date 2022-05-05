@@ -10,6 +10,8 @@ We have created a domain-specific language named "eForms expression language", o
 
 This language is defined in a formal grammar, available in the `efx-grammar` folder. We provide a parser and a translator to XPath as a Java library named ['efx-translator-java', available on GitHub](https://github.com/OP-TED/efx-translator-java).
 
+You can find more information about EFX in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.6.0/efx).
+
 
 ## View templates
 To standardise the way a notice can be visualised, independently of the media format used (PDF, HTML etc.), we have created a set of "view templates".
