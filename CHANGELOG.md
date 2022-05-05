@@ -16,6 +16,8 @@ To standardise the way a notice can be visualised, independently of the media fo
 
 Every notice sub-type can be associated with one or more different view templates. These templates are available in the `view-templates` folder. The template files use the EFX template syntax.
 
+To demonstrate the usage of these view templates, we provide a sample application named ['eforms-notice-viewer', available on GitHub](https://github.com/OP-TED/eforms-notice-viewer).
+
 
 ## Codelists
 Codelists have been updated to take into account the latest publication on [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies).
