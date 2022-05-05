@@ -9,34 +9,21 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <target.dir>${project.build.outputDirectory}/eforms-sdk</target.dir>
   </properties>
 
   <build>
     <resources>
       <resource>
-        <directory>${basedir}/codelists</directory>
-        <targetPath>${target.dir}/codelists</targetPath>
-      </resource>
-      <resource>
-        <directory>${basedir}/efx-grammar</directory>
-        <targetPath>${target.dir}/efx-grammar</targetPath>
-      </resource>
-      <resource>
-        <directory>${basedir}/examples</directory>
-        <targetPath>${target.dir}/examples</targetPath>
-      </resource>
-      <resource>
-        <directory>${basedir}/fields</directory>
-        <targetPath>${target.dir}/fields</targetPath>
-      </resource>
-      <resource>
-        <directory>${basedir}/translations</directory>
-        <targetPath>${target.dir}/translations</targetPath>
-      </resource>
-      <resource>
-        <directory>${basedir}/view-templates</directory>
-        <targetPath>${target.dir}/view-templates</targetPath>
+        <directory>${basedir}</directory>
+        <targetPath>${project.build.outputDirectory}/eforms-sdk</targetPath>
+        <excludes>
+          <exclude>.git</exclude>
+          <exclude>.gitignore</exclude>
+          <exclude>target</exclude>
+          <exclude>.project</exclude>
+          <exclude>.classpath</exclude>
+          <exclude>.settings</exclude>
+        </excludes>
       </resource>
     </resources>
   </build>
