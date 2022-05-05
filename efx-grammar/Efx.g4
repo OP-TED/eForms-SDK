@@ -121,29 +121,33 @@ booleanExpression
 	| durationExpression operator=Comparison durationExpression								# durationComparison
 	| booleanLiteral 																		# booleanLiteralExpression
 	| booleanFunction 																		# booleanFunctionExpression
-	| fieldValueReference 																	# booleanReferenceExpression
+	| BooleanTypeCast? fieldValueReference													# booleanReferenceExpression
 	;
 	
 numericExpression
 	: OpenParenthesis numericExpression CloseParenthesis					# parenthesizedNumericExpression
-	| numericExpression operator=Multiplication numericExpression			# multiplicationExpression
-	| numericExpression operator=(Addition | Subtraction) numericExpression	# additionExpression
+	| numericExpression operator=(Star | Slash | Per100) numericExpression	# multiplicationExpression
+	| numericExpression operator=(Plus | Minus) numericExpression			# additionExpression
 	| numericLiteral 														# numericLiteralExpression
 	| numericFunction 														# numericFunctionExpression
-	| fieldValueReference													# numericReferenceExpression
+	| NumericTypeCast? fieldValueReference									# numericReferenceExpression
 	;
 
-stringExpression: stringLiteral | stringFunction | fieldValueReference;
+stringExpression: stringLiteral | stringFunction | TextTypeCast? fieldValueReference;
 
-dateExpression: dateLiteral | dateFunction | fieldValueReference;
+dateExpression: dateLiteral | dateFunction | DateTypeCast? fieldValueReference;
 
 timeExpression: timeLiteral | timeFunction | fieldValueReference;
 
 durationExpression
-	: OpenParenthesis durationExpression CloseParenthesis			# parenthesizedDurationExpression
-	| endDate=dateExpression Subtraction startDate=dateExpression 	# dateSubtractionExpression
-	| durationLiteral 												# durationLiteralExpression
-	| fieldValueReference											# durationReferenceExpression
+	: OpenParenthesis durationExpression CloseParenthesis		# parenthesizedDurationExpression
+	| endDate=dateExpression Minus startDate=dateExpression 	# dateSubtractionExpression
+	| numericExpression Star durationExpression					# durationLeftMultiplicationExpression
+ 	| durationExpression Star numericExpression					# durationRightMultiplicationExpression
+	| durationExpression Plus durationExpression				# durationAdditionExpression
+	| durationExpression Minus durationExpression				# durationSubtractionExpression
+	| durationLiteral 											# durationLiteralExpression
+	| DurationTypeCast? fieldValueReference						# durationReferenceExpression
 	;
 
 list: OpenParenthesis expression (Comma expression)* CloseParenthesis	# explicitList
@@ -156,7 +160,6 @@ predicate: booleanExpression;
  * Literals
  */
 
-literal: numericLiteral | stringLiteral | booleanLiteral | dateLiteral | timeLiteral | durationLiteral;
 stringLiteral: STRING | UUIDV4;
 numericLiteral: INTEGER | DECIMAL;
 booleanLiteral: trueBooleanLiteral | falseBooleanLiteral;
@@ -232,7 +235,9 @@ stringFunction
 
 
 dateFunction
-	: DateFunction OpenParenthesis stringExpression CloseParenthesis		# dateFromStringFunction
+	: DateFunction OpenParenthesis stringExpression CloseParenthesis							# dateFromStringFunction
+	| AddMeasure OpenParenthesis dateExpression Comma durationExpression CloseParenthesis		# datePlusMeasureFunction
+	| SubtractMeasure OpenParenthesis dateExpression Comma durationExpression CloseParenthesis	# dateMinusMeasureFunction
 	;
 
 timeFunction

@@ -142,6 +142,15 @@ Notice: 'notice';
 Codelist: 'codelist';
 
 
+BooleanTypeCast: 'indicator:';
+NumericTypeCast: 'number:';
+TextTypeCast: 'text:';
+CodeTypeCast: 'code:';
+DateTypeCast: 'date:';
+TimeTypeCast: 'time:';
+DurationTypeCast: 'measure:';
+
+
 /*
  * Functions
  */
@@ -160,12 +169,8 @@ FormatNumberFunction: 'format-number';
 ConcatFunction: 'concat';
 DateFunction: 'date';
 TimeFunction: 'time';
-DateTimeFunction: 'date-time';
-AddDaysFunction: 'add-days';
-AddWeeksFunction: 'add-weeks';
-AddMonthsFunction: 'add-months';
-AddYearsFunction: 'add-years';
-
+AddMeasure: 'add-measure';
+SubtractMeasure: 'subtract-measure';
 
 BtId: ('BT' | 'OPP' | 'OPT') '-' [0-9]+;
 FieldId: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
@@ -176,25 +181,26 @@ NodeId: 'ND' '-' [0-9]+;
  * Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
  * Therefore duration literals must be declared before Identifier. 
  */
-DayTimeDurationLiteral:'P' INTEGER ('W' | 'D');
-YearMonthDurationLiteral: 'P' INTEGER ('Y' | 'M');
+DayTimeDurationLiteral: '-'? 'P' INTEGER ('W' | 'D');
+YearMonthDurationLiteral: '-'? 'P' INTEGER ('Y' | 'M');
 
 Identifier: IdentifierPart ('-' IdentifierPart)*;
 
 IdentifierPart: LETTER (LETTER | DIGIT)*;
 
-INTEGER: DIGIT+;
-DECIMAL: DIGIT? '.' DIGIT+;
+INTEGER: '-'? DIGIT+;
+DECIMAL: '-'? DIGIT? '.' DIGIT+;
 STRING: ('"' CHAR_SEQ? '"') | ('\'' CHAR_SEQ? '\'');
 UUIDV4: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
 DATE: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT;
 TIME: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT;
 
-Slash: '/';
 Comparison: '==' | '!=' | '>' | '>=' | '<' | '<=';
-Multiplication: '*' | Slash | '%';
-Addition: '+';
-Subtraction: '-';
+Star: '*';
+Slash: '/';
+Per100: '%';
+Plus: '+';
+Minus: '-';
 Comma: ',';
 
 SlashAt: '/@';
