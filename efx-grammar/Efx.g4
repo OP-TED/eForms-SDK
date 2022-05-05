@@ -91,8 +91,8 @@ expressionBlock
  * a field-identifier or a node-identifier followed by an optional predicate.
  */
 contextDeclarationBlock
-	: StartExpression fieldReference EndExpression
-	| StartExpression nodeReference EndExpression
+	: StartExpression absoluteFieldReference EndExpression
+	| StartExpression absoluteNodeReference EndExpression
 	;
 
 
@@ -179,26 +179,25 @@ fieldValueReference
 setReference: fieldReference;
 
 /*
- * References of fields
- * We chose to specify the grammar for field references in a slightly different style to avoid left recursion of grammar rules.
+ * References of fields and Nodes
+ * We chose to specify the grammar for field references and node references in a slightly different style to avoid left recursion of grammar rules.
  * It looks more "complicated" but it is necessary for parsing (see fieldReferenceWithFieldContextOverride). 
  */
 fieldReference: fieldReferenceWithFieldContextOverride | fieldReferenceInOtherNotice | absoluteFieldReference;
 fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithNodeContextOverride;
 fieldReferenceWithNodeContextOverride: (context=nodeContext ColonColon)? reference=fieldReferenceWithFieldContextOverride;
 fieldReferenceWithFieldContextOverride: (context=fieldContext ColonColon)? reference=fieldReferenceWithPredicate;
-fieldContext: context=fieldReferenceWithPredicate;
-absoluteFieldReference: Slash reference=fieldReferenceWithPredicate;
+fieldContext: context=absoluteFieldReference;
+absoluteFieldReference: Slash? reference=fieldReferenceWithPredicate;
 fieldReferenceWithPredicate: simpleFieldReference (OpenBracket predicate CloseBracket)?;
 simpleFieldReference: FieldId;
 
-nodeContext: nodeReference;
-
-nodeReference
-	: nodeReference OpenBracket predicate CloseBracket		# nodeReferenceWithPredicate
-	| noticeReference Slash nodeReference					# nodeReferenceInOtherNotice
-	| NodeId												# simpleNodeReference
-	;
+nodeReference: absoluteNodeReference | nodeReferenceInOtherNotice;
+nodeReferenceInOtherNotice: noticeReference Slash nodeReferenceWithPredicate;
+nodeContext: context=absoluteNodeReference;
+absoluteNodeReference: Slash? nodeReferenceWithPredicate; 
+nodeReferenceWithPredicate: simpleNodeReference (OpenBracket predicate CloseBracket)?;
+simpleNodeReference: NodeId;
 
 noticeReference: Notice OpenParenthesis noticeId=stringExpression CloseParenthesis;
 
