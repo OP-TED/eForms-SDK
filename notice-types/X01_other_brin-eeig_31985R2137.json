@@ -15,13 +15,17 @@
       "name" : "Form Type",
       "readOnly" : true
     }, {
+      "fieldId" : "BT-701-notice",
+      "name" : "Notice Identifier",
+      "readOnly" : true
+    }, {
       "fieldId" : "BT-702(a)-notice",
       "name" : "Notice Official Language",
       "hidden" : true
     }, {
       "fieldId" : "BT-702(b)-notice",
-      "repeatable" : true,
       "name" : "Notice Official Language",
+      "repeatable" : true,
       "hidden" : true
     }, {
       "fieldId" : "BT-05(a)-notice",
@@ -31,6 +35,14 @@
       "fieldId" : "BT-05(b)-notice",
       "name" : "Notice Dispatch Date",
       "hidden" : true
+    }, {
+      "fieldId" : "OPT-001-notice",
+      "name" : "UBL Version",
+      "hidden" : true
+    }, {
+      "fieldId" : "OPT-002-notice",
+      "name" : "Customization ID",
+      "readOnly" : true
     }, {
       "fieldId" : "OPP-070-notice",
       "name" : "Notice Subtype",
@@ -42,8 +54,8 @@
     "name" : "Content",
     "fields" : [ {
       "groupId" : "GR-Business-Section",
-      "section" : true,
       "name" : "Notice",
+      "section" : true,
       "fields" : [ {
         "fieldId" : "OPP-100-Business",
         "name" : "Notice Purpose"
@@ -54,11 +66,8 @@
           "fieldId" : "BT-500-Business",
           "name" : "Official name"
         }, {
-          "fieldId" : "BT-500-Business-European",
+          "fieldId" : "BT-501-Business-European",
           "name" : "EU Registration Number"
-        }, {
-          "fieldId" : "BT-501-Business-National",
-          "name" : "National registration number"
         }, {
           "fieldId" : "OPP-110-Business",
           "name" : "Place of registration - Town"
@@ -71,53 +80,6 @@
         }, {
           "fieldId" : "OPP-113-Business-European",
           "name" : "Date of registration"
-        }, {
-          "fieldId" : "OPP-105-Business",
-          "name" : "Sector of activity"
-        }, {
-          "fieldId" : "BT-505-Business",
-          "name" : "Internet address"
-        } ]
-      }, {
-        "groupId" : "GR-Business-Address",
-        "name" : "Address",
-        "fields" : [ {
-          "fieldId" : "BT-510(a)-Business",
-          "name" : "addressline"
-        }, {
-          "fieldId" : "BT-510(b)-Business",
-          "name" : "addressline"
-        }, {
-          "fieldId" : "BT-510(c)-Business",
-          "name" : "addressline"
-        }, {
-          "fieldId" : "BT-512-Business",
-          "name" : "Postal code"
-        }, {
-          "fieldId" : "BT-513-Business",
-          "name" : "Town"
-        }, {
-          "fieldId" : "BT-507-Business",
-          "name" : "NUTS code"
-        }, {
-          "fieldId" : "BT-514-Business",
-          "name" : "Country"
-        } ]
-      }, {
-        "groupId" : "GR-Business-Contact",
-        "name" : "Contact",
-        "fields" : [ {
-          "fieldId" : "BT-502-Business",
-          "name" : "Contact person"
-        }, {
-          "fieldId" : "BT-506-Business",
-          "name" : "e-mail"
-        }, {
-          "fieldId" : "BT-503-Business",
-          "name" : "Telephone"
-        }, {
-          "fieldId" : "BT-739-Business",
-          "name" : "Fax"
         } ]
       }, {
         "groupId" : "GR-Business-Publication",

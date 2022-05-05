@@ -62,6 +62,9 @@ The maximum number of characters allowed for a field is now indicated directly i
 
 
 ## Notice types
+Definitions for all notice subtypes were updated to the latest version used by the eNotices2 application.
+The name of 4 files were corrected.
+
 The legal basis indicated for one document type has been corrected.
 
 
