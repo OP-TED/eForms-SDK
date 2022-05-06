@@ -16,10 +16,11 @@ You can find more information about EFX in the [corresponding section of the doc
 ## View templates
 To standardise the way a notice can be visualised, independently of the media format used (PDF, HTML etc.), we have created a set of "view templates".
 
-Every notice sub-type can be associated with one or more different view templates. These templates are available in the `view-templates` folder. The template files use the EFX template syntax.
+Every notice subtype can be associated with one or more different view templates. These templates are available in the `view-templates` folder. The template files use the EFX template syntax.
 
 To demonstrate the usage of these view templates, we provide a sample application named ['eforms-notice-viewer', available on GitHub](https://github.com/OP-TED/eforms-notice-viewer).
 
+You can find more information about view templates in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.6.0/viewer-templates).
 
 ## Codelists
 Codelists have been updated to take into account the latest publication on [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies).
