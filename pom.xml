@@ -27,7 +27,7 @@
         <excludes>
           <exclude>.git</exclude>
           <exclude>.gitignore</exclude>
-          <exclude>target</exclude>
+          <exclude>target/**</exclude>
           <exclude>.project</exclude>
           <exclude>.classpath</exclude>
           <exclude>.settings</exclude>
