@@ -82,8 +82,8 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID></cbc:ID>
+	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id"></cbc:ID>
 	<cbc:ContractFolderID></cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
@@ -119,6 +119,9 @@
 		<cbc:Name languageID="FRA"></cbc:Name>
 		<cbc:Description languageID="FRA"></cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature"></cbc:ProcurementTypeCode>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv"></cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot"></cbc:ID>
@@ -164,6 +167,9 @@
 			<cbc:Name languageID="FRA"></cbc:Name>
 			<cbc:Description languageID="FRA"></cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature"></cbc:ProcurementTypeCode>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv"></cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>

@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>16</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -103,6 +103,7 @@
 								<cac:Contact>
 									<cbc:Name>Procurement Unit</cbc:Name>
 									<cbc:Telephone>+352 292911111</cbc:Telephone>
+									<cbc:Telefax>+352 2929111119</cbc:Telefax>
 									<cbc:ElectronicMail>op-appels-offres@publications.europa.eu</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -189,6 +190,7 @@
 									<cbc:StreetName>rue du Fort Niedergrünewald</cbc:StreetName>
 									<cbc:CityName>Luxembourg</cbc:CityName>
 									<cbc:PostalZone>L-2925</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -205,6 +207,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://example-mediator.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -283,6 +286,8 @@
 								<cac:PostalAddress>
 									<cbc:StreetName>Some Street</cbc:StreetName>
 									<cbc:CityName>Example City</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -292,12 +297,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+123 456 789</cbc:Telephone>
+									<cbc:Telefax>+123 456 7899</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
@@ -375,6 +382,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -384,6 +393,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -394,8 +404,8 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>55aae64f-88a8-44a5-b2fb-8228e97fe6ee</cbc:ID>
+	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">55aae64f-88a8-44a5-b2fb-8228e97fe6ee</cbc:ID>
 	<cbc:ContractFolderID>46c9ce89-5986-40d9-992f-e1a2469a48f8</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
@@ -617,13 +627,10 @@
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 				<cac:Country>
-					<cbc:IdentificationCode>LUX</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
-		<cac:PlannedPeriod>
-			<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
-		</cac:PlannedPeriod>
 		<cac:ContractExtension>
 			<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
 		</cac:ContractExtension>
@@ -752,30 +759,6 @@
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:Description languageID="BUL">Технически критерии за възлагане, както е изложено в документите за обществена поръчка</cbc:Description>
-					<cbc:Description languageID="CES">Technická kritéria pro zadání zakázky dle zadávací dokumentace</cbc:Description>
-					<cbc:Description languageID="DAN">Tekniske tildelingskriterier som angivet i udbudsdokumenterne</cbc:Description>
-					<cbc:Description languageID="DEU">Technische Zuschlagskriterien gemäß den Ausschreibungsunterlagen</cbc:Description>
-					<cbc:Description languageID="ELL">Τεχνικά κριτήρια ανάθεσης, όπως ορίζονται στα έγγραφα της σύμβασης</cbc:Description>
-					<cbc:Description languageID="ENG">Technical award criteria as stated in the procurement documents</cbc:Description>
-					<cbc:Description languageID="EST">hankedokumentides sätestatud lepingu sõlmimise tehnilised kriteeriumid</cbc:Description>
-					<cbc:Description languageID="FIN">tekniset ratkaisuperusteet hankinta-asiakirjoissa määritetyn mukaisesti.</cbc:Description>
-					<cbc:Description languageID="FRA">Critères d'attribution tels qu'énoncés dans le dossier d'appel d'offres</cbc:Description>
-					<cbc:Description languageID="GLE">Na critéir dhámhachtana teicniúla de réir mar atá luaite sna doiciméid soláthair</cbc:Description>
-					<cbc:Description languageID="HRV">Tehnički kriteriji za dodjelu kako su navedeni u dokumentaciji o nabavi</cbc:Description>
-					<cbc:Description languageID="HUN">A közbeszerzési dokumentumok szerinti technikai odaítélési kritériumok</cbc:Description>
-					<cbc:Description languageID="ITA">Criteri di aggiudicazione tecnici stabiliti nei documenti di gara</cbc:Description>
-					<cbc:Description languageID="LAV">Tehniskie piešķiršanas kritēriji, kā norādīts iepirkuma dokumentos</cbc:Description>
-					<cbc:Description languageID="LIT">Techniniai skyrimo kriterijai, kaip nurodyta pirkimo dokumentuose</cbc:Description>
-					<cbc:Description languageID="MLT">Il-kriterji tekniċi tal-għoti kif mistqarra fid-dokumenti tal-ksib</cbc:Description>
-					<cbc:Description languageID="NLD">technische gunningscriteria zoals vermeld in de aanbestedingsstukken</cbc:Description>
-					<cbc:Description languageID="POL">techniczne kryteria kwalifikacji zgodnie z dokumentami zamówienia</cbc:Description>
-					<cbc:Description languageID="POR">Critérios de adjudicação técnicos, conforme indicados na documentação do concurso</cbc:Description>
-					<cbc:Description languageID="RON">Criterii tehnice de atribuire prevăzute în dosarul achiziției</cbc:Description>
-					<cbc:Description languageID="SLK">Technické kritériá vyhodnotenia ponúk, ako sú uvedené v súťažných podkladoch</cbc:Description>
-					<cbc:Description languageID="SLV">Tehnična merila za oddajo, kot je navedeno v razpisni dokumentaciji</cbc:Description>
-					<cbc:Description languageID="SPA">Criterios técnicos de adjudicación indicados en los documentos de contratación</cbc:Description>
-					<cbc:Description languageID="SWE">Tekniska uttagningskriterier enligt vad som anges i upphandlingsdokumenten</cbc:Description>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -790,6 +773,30 @@
 							</ext:UBLExtension>
 						</ext:UBLExtensions>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Description languageID="BUL">Технически критерии за възлагане, както е изложено в документите за обществена поръчка</cbc:Description>
+						<cbc:Description languageID="CES">Technická kritéria pro zadání zakázky dle zadávací dokumentace</cbc:Description>
+						<cbc:Description languageID="DAN">Tekniske tildelingskriterier som angivet i udbudsdokumenterne</cbc:Description>
+						<cbc:Description languageID="DEU">Technische Zuschlagskriterien gemäß den Ausschreibungsunterlagen</cbc:Description>
+						<cbc:Description languageID="ELL">Τεχνικά κριτήρια ανάθεσης, όπως ορίζονται στα έγγραφα της σύμβασης</cbc:Description>
+						<cbc:Description languageID="ENG">Technical award criteria as stated in the procurement documents</cbc:Description>
+						<cbc:Description languageID="EST">hankedokumentides sätestatud lepingu sõlmimise tehnilised kriteeriumid</cbc:Description>
+						<cbc:Description languageID="FIN">tekniset ratkaisuperusteet hankinta-asiakirjoissa määritetyn mukaisesti.</cbc:Description>
+						<cbc:Description languageID="FRA">Critères d'attribution tels qu'énoncés dans le dossier d'appel d'offres</cbc:Description>
+						<cbc:Description languageID="GLE">Na critéir dhámhachtana teicniúla de réir mar atá luaite sna doiciméid soláthair</cbc:Description>
+						<cbc:Description languageID="HRV">Tehnički kriteriji za dodjelu kako su navedeni u dokumentaciji o nabavi</cbc:Description>
+						<cbc:Description languageID="HUN">A közbeszerzési dokumentumok szerinti technikai odaítélési kritériumok</cbc:Description>
+						<cbc:Description languageID="ITA">Criteri di aggiudicazione tecnici stabiliti nei documenti di gara</cbc:Description>
+						<cbc:Description languageID="LAV">Tehniskie piešķiršanas kritēriji, kā norādīts iepirkuma dokumentos</cbc:Description>
+						<cbc:Description languageID="LIT">Techniniai skyrimo kriterijai, kaip nurodyta pirkimo dokumentuose</cbc:Description>
+						<cbc:Description languageID="MLT">Il-kriterji tekniċi tal-għoti kif mistqarra fid-dokumenti tal-ksib</cbc:Description>
+						<cbc:Description languageID="NLD">technische gunningscriteria zoals vermeld in de aanbestedingsstukken</cbc:Description>
+						<cbc:Description languageID="POL">techniczne kryteria kwalifikacji zgodnie z dokumentami zamówienia</cbc:Description>
+						<cbc:Description languageID="POR">Critérios de adjudicação técnicos, conforme indicados na documentação do concurso</cbc:Description>
+						<cbc:Description languageID="RON">Criterii tehnice de atribuire prevăzute în dosarul achiziției</cbc:Description>
+						<cbc:Description languageID="SLK">Technické kritériá vyhodnotenia ponúk, ako sú uvedené v súťažných podkladoch</cbc:Description>
+						<cbc:Description languageID="SLV">Tehnična merila za oddajo, kot je navedeno v razpisni dokumentaciji</cbc:Description>
+						<cbc:Description languageID="SPA">Criterios técnicos de adjudicación indicados en los documentos de contratación</cbc:Description>
+						<cbc:Description languageID="SWE">Tekniska uttagningskriterier enligt vad som anges i upphandlingsdokumenten</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
@@ -805,6 +812,30 @@
 							</ext:UBLExtension>
 						</ext:UBLExtensions>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Description languageID="BUL">Технически критерии за възлагане, както е изложено в документите за обществена поръчка</cbc:Description>
+						<cbc:Description languageID="CES">Technická kritéria pro zadání zakázky dle zadávací dokumentace</cbc:Description>
+						<cbc:Description languageID="DAN">Tekniske tildelingskriterier som angivet i udbudsdokumenterne</cbc:Description>
+						<cbc:Description languageID="DEU">Technische Zuschlagskriterien gemäß den Ausschreibungsunterlagen</cbc:Description>
+						<cbc:Description languageID="ELL">Τεχνικά κριτήρια ανάθεσης, όπως ορίζονται στα έγγραφα της σύμβασης</cbc:Description>
+						<cbc:Description languageID="ENG">Technical award criteria as stated in the procurement documents</cbc:Description>
+						<cbc:Description languageID="EST">hankedokumentides sätestatud lepingu sõlmimise tehnilised kriteeriumid</cbc:Description>
+						<cbc:Description languageID="FIN">tekniset ratkaisuperusteet hankinta-asiakirjoissa määritetyn mukaisesti.</cbc:Description>
+						<cbc:Description languageID="FRA">Critères d'attribution tels qu'énoncés dans le dossier d'appel d'offres</cbc:Description>
+						<cbc:Description languageID="GLE">Na critéir dhámhachtana teicniúla de réir mar atá luaite sna doiciméid soláthair</cbc:Description>
+						<cbc:Description languageID="HRV">Tehnički kriteriji za dodjelu kako su navedeni u dokumentaciji o nabavi</cbc:Description>
+						<cbc:Description languageID="HUN">A közbeszerzési dokumentumok szerinti technikai odaítélési kritériumok</cbc:Description>
+						<cbc:Description languageID="ITA">Criteri di aggiudicazione tecnici stabiliti nei documenti di gara</cbc:Description>
+						<cbc:Description languageID="LAV">Tehniskie piešķiršanas kritēriji, kā norādīts iepirkuma dokumentos</cbc:Description>
+						<cbc:Description languageID="LIT">Techniniai skyrimo kriterijai, kaip nurodyta pirkimo dokumentuose</cbc:Description>
+						<cbc:Description languageID="MLT">Il-kriterji tekniċi tal-għoti kif mistqarra fid-dokumenti tal-ksib</cbc:Description>
+						<cbc:Description languageID="NLD">technische gunningscriteria zoals vermeld in de aanbestedingsstukken</cbc:Description>
+						<cbc:Description languageID="POL">techniczne kryteria kwalifikacji zgodnie z dokumentami zamówienia</cbc:Description>
+						<cbc:Description languageID="POR">Critérios de adjudicação técnicos, conforme indicados na documentação do concurso</cbc:Description>
+						<cbc:Description languageID="RON">Criterii tehnice de atribuire prevăzute în dosarul achiziției</cbc:Description>
+						<cbc:Description languageID="SLK">Technické kritériá vyhodnotenia ponúk, ako sú uvedené v súťažných podkladoch</cbc:Description>
+						<cbc:Description languageID="SLV">Tehnična merila za oddajo, kot je navedeno v razpisni dokumentaciji</cbc:Description>
+						<cbc:Description languageID="SPA">Criterios técnicos de adjudicación indicados en los documentos de contratación</cbc:Description>
+						<cbc:Description languageID="SWE">Tekniska uttagningskriterier enligt vad som anges i upphandlingsdokumenten</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
@@ -849,6 +880,11 @@
 					<cbc:Description languageID="SPA">En un plazo de 2 meses a partir de la notificación al recurrente o, en su defecto, del día en que este haya tenido conocimiento del acto en cuestión. Una reclamación ante el Defensor del Pueblo Europeo no tendrá como efecto la suspensión de dicho plazo ni la apertura de un nuevo plazo de presentación de recursos.</cbc:Description>
 					<cbc:Description languageID="SWE">Inom 2 månader efter att käranden fick meddelandet eller, om så inte skett, från den dag då käranden fick kännedom om saken. Ett klagomål till Europeiska ombudsmannen leder varken till att denna period avbryts eller till att en ny period för inlämning av ett överklagande inleds.</cbc:Description>
 				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
@@ -1108,11 +1144,12 @@
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 					<cac:Country>
-						<cbc:IdentificationCode>LUX</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
+				<cbc:StartDate>2020-06-01+02:00</cbc:StartDate>
 				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>

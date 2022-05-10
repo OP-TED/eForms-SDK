@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Currency</ShortName>
       <LongName>currency</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/currency</LongName>
-      <Version>20210929-0</Version>
+      <Version>20220316-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/currency</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -144,14 +144,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Andorran peseta</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Андорска песета</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Andorrská peseta</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andorransk peseta</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Andorranische Peseta</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πεσέτα Ανδόρας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Andorran peseta</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Peseta de Andorra</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Andorra peseeta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Andorran peseta</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Peseta andorrane</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Peseta Andóra</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Andorska pezeta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Andorrai peseta</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Peseta andorrana</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Andoros peseta</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Andoras peseta</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Peseta ta’ Andorra</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andorrese peseta</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Peseta andorska</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Peseta andorrana</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Pesetă andorrană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Andorská peseta</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Andorska peseta</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Andorransk peseta</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -334,7 +397,7 @@
             <SimpleValue>Afghani</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Αφγάνι</SimpleValue>
+            <SimpleValue>Αφγκάνι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Afghani</SimpleValue>
@@ -801,14 +864,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>New Angolan kwanza</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нова анголска кванза</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nová angolská kwanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ny angolansk kwanza</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Neuer Angolanischer Kwanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Νέο κουάνζα Ανγκόλας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>New Angolan kwanza</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Nuevo kuanza de Angola</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Angola kvanza (uus)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Angolan uusi kwanza</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Nouveau kwanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Kwanza Nua Angóla</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nova angolska kvanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Angolai új kwanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nuovo kwanza angolano</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Naujoji Angolos kvanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Jaunā Angolas kvanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kwanza ġdida tal-Angola</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Nieuwe Angolese kwanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nowa kwanza angolska</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Novo kwanza angolano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Kwanza angoleză nouă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nová angolská kwanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Angolska nova kvanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Angolansk ny kwanza</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -818,11 +944,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Angolan kwanza readjustado</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Анголска нова кванза</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Angolská kwanza readjustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Angolansk kwanza readjustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Angolanischer Kwanza Readjustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αναπροσαρμοσμένο κουάνζα Ανγκόλας</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Angolan kwanza readjustado</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Kuanza reajustado de Angola</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Angola reformitud kvanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Angolan kwanza reajustado</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Nouveau kwanza ajusté</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Kwanza Athoiriúnaithe Angóla</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Angolska kvanza reajustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Angolai kwanza reajustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Kwanza reajustado angolano</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Angolos kwanza rejustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Angolas koriģētā kvanza</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kwanza readjustado tal-Angola</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Angolese kwanza readjustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kwanza angolska readjustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Kwanza reajustado angolano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Kwanza angoleză reajustată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Angolská kwanza readjustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Angolska kvanza reajustado</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Angolansk kwanza reajustado</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -832,14 +1024,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Argentine austral</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Аржентински аустрал</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Argentinský austral</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Argentinsk austral</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Argentine austral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αουστράλ Αργεντινής</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Argentine austral</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Austral de Argentina</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Argentina austral</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Argentiinan austral</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Argentin austral</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Austral na hAirgintíne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Argentinski austral</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Argentin austral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Austral argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Argentinos australis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Argentīnas austrāls</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Austral Arġentin</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Argentijnse austral</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Austral argentyński</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Austral argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Austral argentinian</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Argentínsky austral</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Argentinski avstral</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Argentinsk austral</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -863,11 +1118,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Argentine peso moneda nacional</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Аржентинско национално песо</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Argentinské peso (moneda nacional)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Argentinsk peso moneda nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Argentinischer Peso Moneda Nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πέσο μονέδα νασιονάλ Αργεντινής</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Argentine peso moneda nacional</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Peso moneda nacional de Argentina</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Argentina peeso (omavääring)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Argentinan peso moneda nacional</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Peso argentin monnaie nationale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Peso airgeadra náisiúnta na hAirgintíne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Argentinski pezo moneda nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Argentin peso moneda nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Peso moneda nacional argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Argentinos nacionalinė valiuta pesas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Argentīnas peso (moneda nacional)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Peso moneda nacional Arġentin</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Argentijnse peso moneda nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Peso argentyńskie moneda nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Peso moeda nacional argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Peso argentinian monedă națională</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Argentínske peso moneda nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Argentinski peso moneda nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Argentinsk peso moneda nacional</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -877,11 +1198,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Argentine peso argentino</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Аржентинско песо</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Argentinské peso (peso argentino)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Argentinsk peso argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Argentinischer Peso Argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πέσο αρχεντίνο Αργεντινής</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Argentine peso argentino</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Peso argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Argentina peeso</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Argentiinan peso argentino</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Argentino de peso argentin</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Peso na hAirgintíne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Argentinski pezo argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Argentin peso argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Peso argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Argentinos pesas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Argentīnas peso (peso argentino)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Peso argentino Arġentin</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Argentijnse peso argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Peso argentyńskie argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Peso argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Peso argentinian argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Argentínske peso argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Argentinski peso argentino</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Argentinsk peso argentino</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1464,7 +1851,7 @@
             <SimpleValue>Barbados-Dollar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Δολάριο των Μπαρμπάντος</SimpleValue>
+            <SimpleValue>Δολάριο των Μπαρμπέιντος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Barbados dollar</SimpleValue>
@@ -1689,16 +2076,79 @@
             <SimpleValue>BGJ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Lev A/52</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Лев</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Lew A/52</SimpleValue>
+            <SimpleValue>Lew</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Λεβ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Lev A/52</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Leev</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Lev A/52</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Levas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lew</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1706,16 +2156,79 @@
             <SimpleValue>BGK</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Lev A/62</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Лев</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Lew A/62</SimpleValue>
+            <SimpleValue>Lew</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Λεβ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Lev A/62</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Leev</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Lev A/62</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Levas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lew</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1723,16 +2236,79 @@
             <SimpleValue>BGL</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Lev A/99</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Лев</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Lew A/99</SimpleValue>
+            <SimpleValue>Lew</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Λεβ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Lev A/99</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Leev</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Lev A/99</SimpleValue>
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Levas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lew</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Leva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Lev</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2155,7 +2731,7 @@
             <SimpleValue>Boliviano</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Βολιβιάνο</SimpleValue>
+            <SimpleValue>Μπολιβιάνο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Boliviano</SimpleValue>
@@ -2222,14 +2798,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bolivian peso</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Боливийско песо</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Bolivijské peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Boliviansk peso</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Bolivianischer Peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πέσο Βολιβίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Bolivian peso</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Peso boliviano</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Boliivia peeso</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Bolivian peso</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Peso bolivien</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Peso na Bolaive</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolivijski pezo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bolíviai peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Peso boliviano</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bolivijos pesas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Bolīvijas peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Peso Bolivjan</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Boliviaanse peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Peso boliwijskie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Peso boliviano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Peso bolivian</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bolívijské peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Bolivijski peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Boliviansk peso</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2319,13 +2958,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cruzeiro novo</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Крузейро ново</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κρουζέιρο νόβο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cruzeiro novo</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Nuevo cruceiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kruisero novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Uusi cruzeiro</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Novi kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cruzeiro nuovo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kruzeiro novas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Jaunais kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cruzeiro novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Novi kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cruzeiro novo</SimpleValue>
          </Value>
       </Row>
@@ -2336,13 +3038,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cruzado</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Крузадо</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κρουζάντο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cruzado</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Krusado</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kruzadas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cruzado</SimpleValue>
          </Value>
       </Row>
@@ -2353,13 +3118,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cruzeiro</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Крузейро</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κρουζέιρο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cruzeiro</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Cruceiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kruseiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kruzeiras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cruzeiro</SimpleValue>
          </Value>
       </Row>
@@ -2440,7 +3268,7 @@
             <SimpleValue>Real</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Real (reais)</SimpleValue>
+            <SimpleValue>Real</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2450,13 +3278,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cruzado novo</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Крузадо ново</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κρουζάντο νόβο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cruzado novo</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Nuevo cruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Krusado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Uusi cruzado</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Novi kruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cruzado nuovo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kruzado novas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Jaunais kruzado</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kruzado novo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cruzado novo</SimpleValue>
          </Value>
       </Row>
@@ -2467,13 +3358,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cruzeiro real</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Крузейро реал</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κρουζέιρο ρεάλ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cruzeiro real</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Cruceiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kruseiro reaal</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kruzeiro realas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kruzeiro reāls</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kruzeiro real</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cruzeiro real</SimpleValue>
          </Value>
       </Row>
@@ -2914,7 +3868,7 @@
             <SimpleValue>Belize-Dollar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Δολάριο Μπελίζε</SimpleValue>
+            <SimpleValue>Δολάριο Μπελίζ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Belize dollar</SimpleValue>
@@ -3381,14 +4335,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Chilean escudo</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Чилийско ескудо</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Chilské escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Chilensk escudo</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Chilenischer Escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εσκούδο Χιλής</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Chilean escudo</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Escudo de Chile</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tšiili eskuudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Chilen escudo</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Escudo chilien</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Escudo na Sile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Čileanski eskudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Chilei escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Escudo cileno</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Čilės eskudas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Čīles eskudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Escudo Ċilen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Chileense escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Escudo chilijskie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Escudo chileno</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Escudo chilian</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Čilské escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Čilski eskudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Chilensk escudo</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3571,7 +4588,7 @@
             <SimpleValue>Renminbi Yuan</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ρενμινπί γιουάν</SimpleValue>
+            <SimpleValue>Ρενμινμπί γιουάν</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Renminbi-yuan</SimpleValue>
@@ -3895,14 +4912,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Czechoslovak koruna</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Чехословашка крона</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Koruna československá</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjekkoslovakisk koruna</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Tschechoslowakische Krone</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κορόνα Τσεχοσλοβακίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Czechoslovak koruna</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Corona checoslovaca</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tšehhoslovakkia kroon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tšekkoslovakian koruna</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Couronne tchécoslovaque</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Koruna na Seicslóvaice</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Čehoslovačka kruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csehszlovák korona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Corona cecoslovacca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Čekoslovakijos krona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Čehoslovākijas koruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Koruna Ċekoslovakka</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Tsjechoslowaakse koruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Korona czechosłowacka</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Coroa checoslovaca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Coroană cehoslovacă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Československá koruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Češkoslovaška krona</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjeckoslovakisk krona</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3925,7 +5005,7 @@
             <SimpleValue>Konvertibler Peso</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Μετατρέψιμο πέζο</SimpleValue>
+            <SimpleValue>Μετατρέψιμο πέσο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Convertible peso</SimpleValue>
@@ -4312,14 +5392,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>East-German Mark</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Източногерманска марка</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Východoněmecká marka</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Østtysk mark</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Ost-Mark</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανατολικογερμανικό μάρκο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>East-German Mark</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Marco alemán del Este</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ida-Saksa mark</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Itä-Saksan markka</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Mark est-allemand</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Marg Oirthear na Gearmáine</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Istočnonjemačka marka</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Keletnémet márka</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Marco della Germania dell’Est</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rytų Vokietijos markė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Austrumvācijas marka</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Mark Ġermaniż tal-Lvant</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Oost-Duitse mark</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Marka wschodnioniemiecka</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Marco alemão oriental</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Marcă est-germană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Východonemecká marka</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vzhodnonemška marka</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Östtysk mark</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -4662,7 +5805,7 @@
             <SimpleValue>Algerischer Dinar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Αλγερινό δηνάριο</SimpleValue>
+            <SimpleValue>Δηνάριο Αλγερίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Algerian dinar</SimpleValue>
@@ -4729,14 +5872,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ecuadorian sucre</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Еквадорско сукре</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ekvádorské sucre</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ecuadoriansk sucre</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Ecuadorianischer Sucre</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σούκρε Ισημερινού</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Ecuadorian sucre</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Sucre de Ecuador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ecuadori sukre</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ecuadorin sucre</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Sucre équatorien</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sucre Eacuadór</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ekvadorski sukre</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ecuadori sucre</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sucre ecuadoriano</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ekvadoro sukrė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ekvadoras sukre</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sucre Ekwadorjan</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ecuadoraanse sucre</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Sucre ekwadorskie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Sucre equatoriano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Sucre ecuadorian</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ekvádorské sucre</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ekvadorski sukre</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ecuadoriansk sucre</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6026,13 +7232,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Syli</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сили</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σίλι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Syli</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sylis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sili</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Syli</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sili</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Syli</SimpleValue>
          </Value>
       </Row>
@@ -6123,13 +7392,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ekwele</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Еквеле</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εκουέλε</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Ekwele</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ekuele</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ekuele</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ekvelė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ekvele</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ekwele</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Ekwele</SimpleValue>
          </Value>
       </Row>
@@ -6300,14 +7632,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Guinea-Bissau peso</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Песо на Гвинея Бисау</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Guinejsko-bissauské peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Guinea-bissauansk peso</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Guinea-Bissau-Peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πέσο Γουινέας Μπισάου</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Guinea-Bissau peso</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Peso de Guinea-Bisáu</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Guinea-Bissau peeso</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Guinea-Bissaun peso</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Peso de la Guinée-Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Peso Ghuine Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pezo Gvineje Bisau</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bissau-guineai peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Peso della Guinea-Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bisau Gvinėjos pesas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Gvinejas-Bisavas peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Peso tal- Guinea-Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Guinee-Bissause peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Peso Gwinei Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Peso da Guiné-Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Peso din Guineea-Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Peso Guiney-Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Peso Gvineje Bissau</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Guinea-Bissau-peso</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6957,14 +8352,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Israeli lira</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Израелска лира</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Izraelská lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Israelsk lira</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Israelisches Pfund</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ισραηλινή λίρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Israeli lira</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Lira israelí</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Iisraeli liir</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Israelin punta</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Livre israélienne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lira Iosrael</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Izraelska lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Izraeli líra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lira israeliana</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Izraelio lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Izraēlas lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lira Iżraeljana</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Israëlische lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lira izraelska</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lira israelita</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Liră israeliană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Izraelská líra</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Izraelski funt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Israeliskt pund</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7374,14 +8832,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Icelandic old króna</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Исландска стара крона</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Islandská stará koruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Islandsk gammel króna</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Alte isländische Krone</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παλιά κορόνα Ισλανδίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Icelandic old króna</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Antigua corona islandesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Islandi kroon (vana)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Islannin vanha kruunu</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Vieille couronne islandaise</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Króna na hÍoslainne as feidhm</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Islandska stara kruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Izlandi régi korona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Corona islandese vecchia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Islandijos senoji krona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Islandes vecā krona</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Króna l-qadima Iżlandiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>IJslandse oude króna</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Stara korona islandzka</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Coroa antiga islandesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Coroană veche islandeză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Islandská stará króna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Islandska stara krona</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Isländsk gammal krona</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7541,7 +9062,7 @@
             <SimpleValue>Italijanska lira</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Italiensk lira (lire)</SimpleValue>
+            <SimpleValue>Italiensk lira</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8124,7 +9645,7 @@
             <SimpleValue>Nordkoreanischer Won</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ουόν Βόρειας Κορέας</SimpleValue>
+            <SimpleValue>Γουόν Βόρειας Κορέας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>North Korean won</SimpleValue>
@@ -8204,7 +9725,7 @@
             <SimpleValue>Südkoreanischer Won</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ουόν Νότιας Κορέας</SimpleValue>
+            <SimpleValue>Γουόν Νότιας Κορέας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>South Korean won</SimpleValue>
@@ -8364,7 +9885,7 @@
             <SimpleValue>Kaiman-Dollar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Δολάριο Νήσων Κάιμαν</SimpleValue>
+            <SimpleValue>Δολάριο Νήσων Κέιμαν</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cayman Islands dollar</SimpleValue>
@@ -8444,7 +9965,7 @@
             <SimpleValue>Tenge</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Τενγκέ</SimpleValue>
+            <SimpleValue>Τένγκε</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Tenge</SimpleValue>
@@ -9181,6 +10702,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Lats</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lats</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Lats</SimpleValue>
          </Value>
@@ -9196,6 +10720,9 @@
          <Value ColumnRef="lav_label">
             <SimpleValue>Lats</SimpleValue>
          </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lats</SimpleValue>
+         </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Lats</SimpleValue>
          </Value>
@@ -9209,6 +10736,9 @@
             <SimpleValue>Lats</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
+            <SimpleValue>Lats</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
             <SimpleValue>Lats</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
@@ -9559,14 +11089,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Malagasy franc</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Малгашки франк</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Madagaskarský frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Madagaskisk franc</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Madagassischer Franc</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Φράγκο Μαδαγασκάρης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Malagasy franc</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Franco malgache</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Malagassi frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Madagaskarin frangi</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Franc malgache</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Franc Mhadagascar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Malgaški franak</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Madagaszkári frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Franco malgascio</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Malagasių frankas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Malagašu franks</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Franc tal-Madagaskar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Malagassische frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Frank malgaski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Franco malgaxe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Franc malgaș</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Malgašský frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Malgaški frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Madagaskisk franc</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9589,7 +11182,7 @@
             <SimpleValue>Denar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Δηνάριο</SimpleValue>
+            <SimpleValue>Δηνάριο Βόρειας Μακεδονίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Denar</SimpleValue>
@@ -9673,14 +11266,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mali franc</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Малийски франк</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Maliský frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Malisk franc</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Malischer Franc</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Φράγκο Μάλι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Mali franc</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Franco de Mali</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Mali frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Malin frangi</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Franc malien</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Franc Mhailí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Malijski franak</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Mali frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Franco maliano</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Malio frankas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Mali franks</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Franc tal-Mali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Malinese frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Frank malijski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Franco maliano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Franc malian</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Malijský frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Malijski frank</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Malisk franc</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10170,14 +11826,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Maltese pound</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Малтийска лира</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Maltská libra</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Maltesisk pund</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Maltesisches Pfund</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Λίρα Μάλτας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Maltese pound</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Libra maltesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Malta nael</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Maltan punta</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Livre maltaise</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Punt Mhálta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Malteška funta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Máltai font</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sterlina maltese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Maltos svaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Maltas mārciņa</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lira Maltija</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Maltese pond</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Funt maltański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Libra maltesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Liră malteză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Maltská libra</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Malteški funt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Maltesiskt pund</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10267,14 +11986,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Maldive rupee</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Малдивска рупия</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Maledivská rupie</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Maldivisk rupee</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Malediven-Rupie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ρουπία Μαλδίβων</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Maldive rupee</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rupia de Maldivas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Maldiivide ruupia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Malediivien rupia</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Roupie maldivienne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rúipí Mhaildíve</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Maldivska rupija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Maldív rúfia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Rupia maldiviana</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Maldyvų rupija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Maldīvijas rūfija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rupee Maldivjan</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Maldivische rupee</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rupia malediwska</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rupia das Maldivas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Rupie maldiviană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Maldivská rupia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Maldivska rufija</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Maldivisk rupie</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10764,14 +12546,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Metical</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Метикал</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μετικάλ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Metical</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Metical mozambiqueño</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Metikal</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Metikal</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Metikalis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Metikals</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Metical</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Mozambiški metikal</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Moçambikisk metical</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10874,7 +12719,7 @@
             <SimpleValue>Namibia-Dollar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Δολάριο Ναμίμπια</SimpleValue>
+            <SimpleValue>Δολάριο Ναμίμπιας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Namibian dollar</SimpleValue>
@@ -10941,14 +12786,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Newfoundland dollar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нюфаундлендски долар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Novofoundlandský dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Newfoundlandsk dollar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Neufundländer-Dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δολάριο Νέας Γης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Newfoundland dollar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dólar de Terranova</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Newfoundlandi dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Newfoundlandin dollari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dollar de Terre-Neuve</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dollar Thalamh an Éisc</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Newfoundlandski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Új-fundlandi dollár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dollaro di Terranova</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Niufaundlando doleris</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ņūfaundlendas dolārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dollaru ta’ Newfoundland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Newfoundlandse dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dolar nowofundlandzki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dólar da Terra Nova</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dolar din Newfoundland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Novofoundlandský dolár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Novofundlandski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Newfoundländsk dollar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11051,7 +12959,7 @@
             <SimpleValue>Córdoba Oro</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κόρντομπα όρο</SimpleValue>
+            <SimpleValue>Κόρδομπα όρο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Córdoba oro</SimpleValue>
@@ -11678,13 +13586,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Inti</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Инти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ίντι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Inti</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ínti</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Inti</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Inti</SimpleValue>
          </Value>
       </Row>
@@ -12093,16 +14064,79 @@
             <SimpleValue>PLZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Zloty A/94</SimpleValue>
+            <SimpleValue>Zloty</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Злота</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zlotý</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zloty</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Zloty A/94</SimpleValue>
+            <SimpleValue>Zloty</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ζλότι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Zloty A/94</SimpleValue>
+            <SimpleValue>Zloty</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Esloti</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zlott</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zloty</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Zloty A/94</SimpleValue>
+            <SimpleValue>Zloty</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zloty</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zloti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Złoty</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zloty</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zlotas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zlots</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zloty</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zloty</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Złoty</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zlóti</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zlot</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zlotý</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zlot</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zloty</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12350,16 +14384,79 @@
             <SimpleValue>ROL</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Romanian leu A/05</SimpleValue>
+            <SimpleValue>Romanian leu</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Румънска лея</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Rumunský leu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Rumænsk leu</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Rumänischer Leu A/05</SimpleValue>
+            <SimpleValue>Rumänischer Leu</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ρουμανικό λέου</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Romanian leu A/05</SimpleValue>
+            <SimpleValue>Romanian leu</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Leu rumano</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rumeenia leu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Romanian leu</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Leu roumain A/05</SimpleValue>
+            <SimpleValue>Leu roumain</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Leu na Rómáine</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Rumunjski lej</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Román lej</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Leu rumeno</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rumunijos lėja</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Rumānijas leja</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Leu Rumen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Roemeense leu</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lej rumuński</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Leu romeno</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Leu românesc</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rumunský leu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Romunski leu</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Rumänsk leu</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12449,14 +14546,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Serbian dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сръбски динар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Srbský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Serbisk dinar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Serbischer Dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηνάριο Σερβίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Serbian dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dinar serbio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Serbia dinaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Serbian dinaari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dinar serbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dinar na Seirbia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Srpski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szerb dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dinaro serbo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Serbijos dinaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Serbijas dinārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dinar Serb</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Servische dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dinar serbski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dinar sérvio</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dinar sârb</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Srbský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Srbski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Serbisk dinar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12544,16 +14704,79 @@
             <SimpleValue>RUR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Russian rouble A/97</SimpleValue>
+            <SimpleValue>Russian rouble</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Руска рубла</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ruský rubl</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Russisk rubel</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Russischer Rubel A/97</SimpleValue>
+            <SimpleValue>Russischer Rubel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ρωσικό ρούβλι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Russian rouble A/97</SimpleValue>
+            <SimpleValue>Russian rouble</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rublo ruso</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vene rubla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Venäjän rupla</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Rouble russe A/97</SimpleValue>
+            <SimpleValue>Rouble russe</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rúbal na Rúise</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ruski rubalj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Orosz rubel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Rublo russo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rusijos rublis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Krievijas rublis</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rublu Russu</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Russische roebel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rubel rosyjski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rublo russo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Rublă rusească</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ruský rubeľ</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ruski rubelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Rysk rubel</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12576,7 +14799,7 @@
             <SimpleValue>Ruanda-Franc</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Φράγκο Ρουάντα</SimpleValue>
+            <SimpleValue>Φράγκο Ρουάντας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Rwandese franc</SimpleValue>
@@ -12883,14 +15106,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Sudanese dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Судански динар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Súdánský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Sudanesisk dinar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Sudanesischer Dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηνάριο Σουδάν</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Sudanese dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dinar sudanés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sudaani dinaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sudanin dinaari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dinar soudanais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dinar na Súdáine</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sudanski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szudáni dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dinaro sudanese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sudano dinaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sudānas dinārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dinar Sudaniż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Sudanese dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dinar sudański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dinar sudanês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dinar sudanez</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Sudánsky dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Stari sudanski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Sudanesisk dinar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13153,7 +15439,7 @@
             <SimpleValue>St. Helena-Pfund</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Λίρα Αγίας Ελένης</SimpleValue>
+            <SimpleValue>Λίρα Αγίας Ελένης (Αγία Ελένη και Ασένσιον)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Saint Helena pound</SimpleValue>
@@ -13684,14 +15970,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Suriname guilder</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Суринамски гулден</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Surinamský gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Surinam-gylden</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Suriname-Gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Φιορίνι Σουρινάμ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Suriname guilder</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Florín de Surinam</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Surinami kulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Surinamen guldeni</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Florin surinamais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gildear Shuranam</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Surinamski gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Suriname-i gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fiorino surinamese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Suriname guldenas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Surinamas guldenis</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Guilder tas-Surinam</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Surinaamse gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gulden surinamski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Guilda surinamesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Gulden surinamez</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Surinamský gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Surinamski gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Surinamesisk gulden</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13714,7 +16063,7 @@
             <SimpleValue>Südsudanesisches Pfund</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Λίρα Νοτίου Σουδάν</SimpleValue>
+            <SimpleValue>Λίρα Νότιου Σουδάν</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>South Sudanese pound</SimpleValue>
@@ -13941,14 +16290,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Soviet Union rouble</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Съветска рубла</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Sovětský rubl</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Sovjetisk rubel</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Sovietischer Rubel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ρούβλι Σοβιετικής Ένωσης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Soviet Union rouble</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rublo de la Unión Soviética</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Nõukogude rubla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Neuvostoliiton rupla</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Rouble soviétique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rúbal an Aontais Shóivéadaigh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Rubalj Sovjetskog Saveza</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szovjet rubel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Rublo sovietico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sovietų Sąjungos rublis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Padomju Savienības rublis</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rouble tal-Unjoni Sovjetika</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Roebel van de Sovjet-Unie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rubel radziecki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rublo soviético</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Rubla sovietică</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rubeľ Sovietskeho zväzu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sovjetski rubelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Sovjetisk rubel</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14125,7 +16537,7 @@
             <SimpleValue>Lilangeni</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Lilangeni (pl.: emalangeni)</SimpleValue>
+            <SimpleValue>Lilangeni</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Lilangeni</SimpleValue>
@@ -14278,14 +16690,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tajikistani rouble</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Таджикистанска рубла</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Tádžický rubl</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tadsjikistansk rubel</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Tadschikischer Rubel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ρούβλι Τατζικιστάν</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Tajikistani rouble</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rublo tayiko</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tadžikistani rubla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tadžikistanin rupla</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Rouble tadjik</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rúbal na Táidsíceastáine</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tadžikistanski rubalj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tádzsik rubel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Rublo tagico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tadžikistano rublis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tadžikistānas rublis</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rouble Tajikistani</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Tadzjiekse roebel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rubel tadżycki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rublo tajique</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Rubla tadjică</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Tadžikistanský rubeľ</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tadžikistanski rubelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tadzjikisk rubel</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14625,7 +17100,7 @@
             <SimpleValue>Pa’anga</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Pa'anga</SimpleValue>
+            <SimpleValue>Pa’anga</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Παάνγκα</SimpleValue>
@@ -14695,14 +17170,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Portuguese Timorese escudo</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Португалско тиморско ескудо</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Portugalsko-timorské escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Portugisisk-timoresisk escudo</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Portugiesisch-Timor-Escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εσκούδο Πορτογαλικού Τιμόρ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Portuguese Timorese escudo</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Escudo del Timor portugués</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Portugali Timori eskuudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Portugalin Timorese escudo</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Escudo portugais de Timorese</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Escudo Tíomórach na Portaingéile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Portugalski timorski eskudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Portugál timori escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Escudo portoghese timorese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Portugalijos Timoro eskudas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Portugāles Timoras eskudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Escudo Portugiż ta’ Timor</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Portugees Timorese escudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Portugalskie escudo timorskie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Escudo timorense português</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Escudo portughez timorez</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Escudo portugalského Timoru</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Portugalski timorski eskudo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Portugisisk timoriansk escudo</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14710,16 +17248,79 @@
             <SimpleValue>TRL</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Turkish lira A/05</SimpleValue>
+            <SimpleValue>Turkish lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Турска лира</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Turecká lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tyrkisk lira</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Türkische Lira A/05</SimpleValue>
+            <SimpleValue>Türkische Lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τουρκική λίρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Turkish lira A/05</SimpleValue>
+            <SimpleValue>Turkish lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Lira turca</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Liir</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Turkin liira</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Livre turque A/05</SimpleValue>
+            <SimpleValue>Livre turque</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lira na Tuirce</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Turska lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Török líra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lira turca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Turkijos lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Turcijas lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lira Torka</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Turkse lire</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lira turecka</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lira turca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Liră turcească</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Turecká líra</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Turška lira</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Turkisk lira</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14822,7 +17423,7 @@
             <SimpleValue>Trinidad-und-Tobago-Dollar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Δολάριο Τρινιδάδ και Τομπάγκο</SimpleValue>
+            <SimpleValue>Δολάριο Τρίνινταντ και Τομπέιγκο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Trinidad and Tobago dollar</SimpleValue>
@@ -15109,7 +17710,7 @@
             <SimpleValue>Griwna</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Γκρίβνα</SimpleValue>
+            <SimpleValue>Χρίβνια</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Hryvnia</SimpleValue>
@@ -15176,14 +17777,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Karbovanets</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Карбованец</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Karbovanec</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Karbovanets</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Karbovanets</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Καρμποβάνετς</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Karbovanets</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Karbovanets</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Karbovanets</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Karbovanetz</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Karbovanets</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Karbovanets</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Karbovanec</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Karbovanec</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Karbovanec</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Karbovanecas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Karbovanecs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Karbovanets</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Karbovanets</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Karbowaniec</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Carbovánete</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Karbovaneț</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Karbovance</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Karbovanci</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Karbovanetz</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15191,16 +17855,79 @@
             <SimpleValue>UGS</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Uganda shilling A/87</SimpleValue>
+            <SimpleValue>Uganda shilling</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Угандски шилинг</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ugandský šilink</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ugandisk shilling</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Uganda-Schilling A/87</SimpleValue>
+            <SimpleValue>Uganda-Schilling</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σελίνι Ουγκάντας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Uganda shilling A/87</SimpleValue>
+            <SimpleValue>Uganda shilling</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Chelín ugandés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Uganda šilling</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ugandan šillinki</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Shilling ougandais A/87</SimpleValue>
+            <SimpleValue>Shilling ougandais</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Scilling Uganda</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ugandski šiling</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ugandai shilling</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Scellino ugandese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ugandos šilingas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ugandas šiliņš</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Xelin Ugandiż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ugandese shilling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Szyling ugandyjski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Xelim ugandês</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Șiling ugandez</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ugandský šiling</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ugandski šiling</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ugandisk shilling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15610,14 +18337,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Uruguay old peso</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Уругвайско старо песо</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Uruguayské staré peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Uruguayisk gammel peso</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Alter uruguayischer Peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παλιό πέσο Ουρουγουάης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Uruguay old peso</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Antiguo peso uruguayo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Urugai peeso (vana)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Uruguayn vanha peso</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Vieux peso uruguayen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Peso Uragua as feidhm</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Urugvajski stari pezo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Uruguayi régi peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Peso uruguaiano vecchio</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Senasis Urugvajaus pesas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Urugvajas vecais peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Peso qadim tal-Urugwaj</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Uruguayaanse oude peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Stare peso urugwajskie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Peso antigo do Uruguai</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Peso vechi uruguayan</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Uruguajské staré peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Stari urugvajski peso</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Uruguayansk ny peso</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15884,14 +18674,157 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bolívar fuerte</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Боливар фуерте</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μπολίβαρ φουέρτε</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Bolívar fuerte</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Boliivar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Bolivar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolivar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bolívar forte</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Fuerte bolivaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Stiprais bolivārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Fuerte tal-Bolívar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Boliwar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Bolívar forte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Bolivar fuerte</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bolívar fuerte</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>VED</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bolívar digital</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Цифров боливар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Digitální bolívar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Digital bolivar</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bolívar digital</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ψηφιακό Bolívar</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bolívar digital</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Bolívar digital</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Digitaalne boliivar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Digitaalinen bolivar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Bolivar numérique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bolívar digiteach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolívar digital</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Digitális bolívar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bolívar digitale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skaitmeninis bolivaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Digitālais bolivars</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Bolívar diġitali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Digitale bolivar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Boliwar cyfrowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Bolívar digital</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Bolívar digital</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Digitálny bolívar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Digitalni bolivar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Digital bolivar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16061,14 +18994,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Old dong</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Стар донг</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Starý dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gammel dong</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Alter Dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παλιό ντονγκ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Old dong</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Antiguo dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Dong (vana)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vanha dong</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dong as feidhm</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Stari dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Régi dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dong vecchio</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Senasis dongas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vecais dongs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dong qadim</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Oude dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Stary dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dongue antigo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dong vechi</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Starý dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Stari dong</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Gammal dong</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -16873,6 +19869,86 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>XBT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Биткойн</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bitkoinas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Bitmonēta</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bitcoin</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>XCD</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -17039,13 +20115,19 @@
             <SimpleValue>European Currency Unit</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Европейска Валутна Единица</SimpleValue>
+            <SimpleValue>Европейска парична единица</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Evropská měnová jednotka</SimpleValue>
          </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Europæisk valutaenhed</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Europäische Währungseinheit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ευρωπαϊκή νομισματική μονάδα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>European Currency Unit</SimpleValue>
@@ -17053,29 +20135,53 @@
          <Value ColumnRef="spa_label">
             <SimpleValue>Unidad Monetaria Europea</SimpleValue>
          </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Euroopa rahaühik</SimpleValue>
+         </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Euroopan valuuttayksikkö</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Unité de compte européenne</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Aonad Airgeadra Eorpach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Europska valutna jedinica</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Európai valutaegység</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Unità di conto europea</SimpleValue>
+            <SimpleValue>Unità monetaria europea</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Europos valiutos vienetas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Eiropas valūtas vienība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Unità Monetarja Ewropea</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Europese rekeneenheid</SimpleValue>
+            <SimpleValue>Europese valuta-eenheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Europejska jednostka walutowa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Unidade Monetária Europeia</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Unitate Monetară Europeană</SimpleValue>
+            <SimpleValue>Unitate monetară europeană</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>Európska menová jednotka</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Evropska denarna enota</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Europeiska valutaenheten</SimpleValue>
@@ -17516,7 +20622,7 @@
             <SimpleValue>Koodi testitarkoituksiin</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Code réservé spécifiquement à des fins d'essai</SimpleValue>
+            <SimpleValue>Code réservé spécifiquement à des fins d’essai</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Cód chun críocha tástála amháin</SimpleValue>
@@ -17537,7 +20643,7 @@
             <SimpleValue>Testa kods</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Kodiċi riżervata għal finijiet ta' ttestjar</SimpleValue>
+            <SimpleValue>Kodiċi riżervata għal finijiet ta’ ttestjar</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Code voor testdoeleinden</SimpleValue>
@@ -17728,14 +20834,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>South Yemeni dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Южнойеменски динар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jihojemenský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Sydyemenitisk dinar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Südjemener Dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηνάριο Νότιας Υεμένης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>South Yemeni dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dinar yemení del sur</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lõuna-Jeemeni dinaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Etelä-Jemenin dinaari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dinar du Sud-Yémen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dinar Éimin Theas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Južnojemenski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Dél-jemeni dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dinaro dello Yemen del Sud</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pietų Jemeno dinaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dienvidjemenas dinārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dinar tal-Jemen tan-Nofsinhar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuid-Jemenitische dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dinar południowojemeński</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dinar do Iémen do Sul</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dinar sud-yemenit</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Juhojemenský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Južnojemenski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Sydjemenitisk dinar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -17876,14 +21045,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Югославски динар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jugoslávský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jugoslavisk dinar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Jugoslawischer Dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηνάριο Γιουγκοσλαβίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dinar yugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Jugoslaavia dinaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jugoslavian dinaari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dinar yougoslave</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dinar na hIúgslaive</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Jugoslavenski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jugoszláv dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nuovo dinaro iugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Jugoslavijos dinaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dienvidslāvijas dinārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dinar Jugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Joegoslavische dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dinar jugosłowiański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dinar jugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dinar iugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Juhoslovanský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Jugoslovanski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Jugoslavisk ny dinar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -18201,14 +21433,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zaïrean new zaïre</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Заирски нов заир</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zairský nový zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zairisk ny zaire</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Neuer zaïreanischer Zaïre</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Νέο Ζαΐρ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Zaïrean new zaïre</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Nuevo zaire de Zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sairi zaire (uus)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zairen uusi zaire</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Nouveau zaïre de Zaïre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sáír nua na Sáíre</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zairski novi zair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zairei új zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nuovo zaire zairese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Naujasis Zairo zairas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zairas jaunais zairs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zaire ġdid taz-Zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zaïrese nieuwe zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nowy zair zairski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Novo zaire zairense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zair nou zairez</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zairské nové zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zairski novi zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zairisk ny zaire</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -18218,14 +21513,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zaïrean zaïre</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Заирски заир</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zairský zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zairisk zaire</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Zaïreanischer Zaïre</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ζαΐρ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Zaïrean zaïre</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zaire de Zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sairi zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zairen zaire</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Zaïre de Zaïre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sáír na Sáíre</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zairski zair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zairei zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zaire zairese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zairo zairas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zairas zairs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zaire taz-Zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zaïrese zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zair zairski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zaire zairense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zair zairez</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zairské zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zairski zaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zairisk zaire</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -18235,14 +21593,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Rhodesian dollar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Родезийски долар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Rhodéský dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Rhodesisk dollar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Rhodesien-Dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δολάριο Ροδεσίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Rhodesian dollar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dólar de Rodesia</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rodeesia dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rhodesian dollari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dollar rhodésienss</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dollar na Róidéise</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Rodezijski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Rodéziai dollár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dollaro rhodesiano</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rodezijos doleris</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Rodēzijas dolārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dollaru tar-Rhodesia</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Rhodesische dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dolar rodezyjski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dólar rodesiano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dolar rhodesian</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Rodézsky dolár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Rodezijski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Rhodesisk dollar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -18250,16 +21671,79 @@
             <SimpleValue>ZWD</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Zimbabwe dollar A/06</SimpleValue>
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Зимбабвийски долар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zimbabwský dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zimbabwisk dollar</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Simbabwe-Dollar A/06</SimpleValue>
+            <SimpleValue>Simbabwe-Dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δολάριο Ζιμπάμπουε</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Zimbabwe dollar A/06</SimpleValue>
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dólar zimbabuense</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zimbabwen dollari</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Dollar zimbabwéen A/06</SimpleValue>
+            <SimpleValue>Dollar zimbabwéen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dollar na Siombáibe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zimbabveanski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zimbabwei dollár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dollaro dello Zimbabwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zimbabvės doleris</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zimbabves dolārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dollaru Żimbabwen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zimbabwaanse dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dolar Zimbabwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dólar zimbabuense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dolar zimbabwean</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zimbabwiansky dolár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zimbabvejski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zimbabwisk dollar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -18269,14 +21753,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zimbabwe dollar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Зимбабвийски долар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zimbabwský dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zimbabwisk dollar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Simbabwe-Dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δολάριο Ζιμπάμπουε</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Zimbabwe dollar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dólar zimbabuense</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zimbabwen dollari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dollar zimbabwéen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dollar na Siombáibe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zimbabveanski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zimbabwei dollár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dollaro dello Zimbabwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zimbabvės doleris</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zimbabves dolārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dollaru Żimbabwen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zimbabwaanse dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dolar Zimbabwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dólar zimbabuense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dolar zimbabwean</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zimbabwiansky dolár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zimbabvejski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zimbabwisk dollar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -18284,16 +21831,79 @@
             <SimpleValue>ZWN</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Zimbabwe dollar A/08</SimpleValue>
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Зимбабвийски долар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zimbabwský dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zimbabwisk dollar</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Simbabwe-Dollar A/08</SimpleValue>
+            <SimpleValue>Simbabwe-Dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δολάριο Ζιμπάμπουε</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Zimbabwe dollar A/08</SimpleValue>
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dólar zimbabuense</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zimbabwen dollari</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Dollar zimbabwéen A/08</SimpleValue>
+            <SimpleValue>Dollar zimbabwéen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dollar na Siombáibe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zimbabveanski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zimbabwei dollár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dollaro dello Zimbabwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zimbabvės doleris</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zimbabves dolārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dollaru Żimbabwen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zimbabwaanse dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dolar Zimbabwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dólar zimbabuense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dolar zimbabwean</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zimbabwiansky dolár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zimbabvejski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zimbabwisk dollar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -18301,16 +21911,79 @@
             <SimpleValue>ZWR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Zimbabwe dollar A/09</SimpleValue>
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Зимбабвийски долар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zimbabwský dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zimbabwisk dollar</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Simbabwe-Dollar A/09</SimpleValue>
+            <SimpleValue>Simbabwe-Dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δολάριο Ζιμπάμπουε</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Zimbabwe dollar A/09</SimpleValue>
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dólar zimbabuense</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zimbabwe dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zimbabwen dollari</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Dollar zimbabwéen A/09</SimpleValue>
+            <SimpleValue>Dollar zimbabwéen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dollar na Siombáibe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zimbabveanski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zimbabwei dollár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dollaro dello Zimbabwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zimbabvės doleris</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zimbabves dolārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dollaru Żimbabwen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zimbabwaanse dollar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dolar Zimbabwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dólar zimbabuense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dolar zimbabwean</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zimbabwiansky dolár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zimbabvejski dolar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zimbabwisk dollar</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

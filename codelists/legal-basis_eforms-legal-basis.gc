@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>EformsLegalBasis</ShortName>
       <LongName>eforms-legal-basis</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/legal-basis</LongName>
       <LongName Identifier="eFormsParentId">legal-basis</LongName>
-      <Version>0.3.0</Version>
+      <Version>0.4.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -121,6 +121,50 @@
       </Column>
    </ColumnSet>
    <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1995_499-XIII</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ratified Parliament Decision (1995) No 499-XIII</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ratified Parliament Decision (1995) No 499-XIII</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2011CEB_PROC_EXT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Guidelines for Procurement of Supplies, Works and Services</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Guidelines for Procurement of Supplies, Works and Services</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2014CEB_PROC_INT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Guidelines on the internal procurement of services, supplies and works by the CEB</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Guidelines on the internal procurement of services, supplies and works by the CEB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2020CEB_GRANT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>CEB’s competitive procedures to award grants</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>CEB’s competitive procedures to award grants</SimpleValue>
+         </Value>
+      </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>32009L0081</SimpleValue>
@@ -679,6 +723,39 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Förordning (EU, Euratom) 2018/1046</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>C2019_3277</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Decision C(2019) 3277</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Decision C(2019) 3277</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>C2019_5515</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Decision C(2019) 5515</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Decision C(2019) 5515</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CFSP2017_34</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>CFSP/2017/34/EUMM Georgia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>CFSP/2017/34/EUMM Georgia</SimpleValue>
          </Value>
       </Row>
       <Row>

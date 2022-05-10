@@ -60,6 +60,9 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>ABC DEF-2020-01</cbc:ID>
 							</efac:TenderReference>
@@ -78,6 +81,9 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>ABC DEF/2020-07</cbc:ID>
 							</efac:TenderReference>
@@ -138,7 +144,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>32</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">32</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -156,7 +162,7 @@
 									<cbc:PostalZone>WF1 2HQ</cbc:PostalZone>
 									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -165,10 +171,12 @@
 								<cac:Contact>
 									<cbc:Name>Karen Towers</cbc:Name>
 									<cbc:Telephone>+44 1924306780</cbc:Telephone>
+									<cbc:Telefax>+44 1924306789</cbc:Telefax>
 									<cbc:ElectronicMail>ktowers@wakefield.gov.uk</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>http://www.wakefield.gov.uk</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -178,19 +186,22 @@
 								<cac:PostalAddress>
 									<cbc:StreetName>One Burton Street</cbc:StreetName>
 									<cbc:CityName>Wakefield</cbc:CityName>
-									<cbc:PostalZone> WF1 2EB</cbc:PostalZone>
+									<cbc:PostalZone>WF1 2EB</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
 									<cbc:Telephone>+44 1924306781</cbc:Telephone>
+									<cbc:Telefax>+44 19243067819</cbc:Telefax>
 									<cbc:ElectronicMail>procurement@wakefield.gov.uk</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:TouchPoint>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -199,6 +210,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -208,12 +221,18 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+							</efac:UltimateBeneficialOwner>
 							<efac:Company>
+								<cbc:WebsiteURI>https://jacobs.co.uk</cbc:WebsiteURI>
 								<efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
@@ -223,8 +242,10 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Birkenhead</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -232,12 +253,15 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>321 654 987</cbc:Telephone>
+									<cbc:Telefax>321 654 9879</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
+								<cbc:WebsiteURI>https://phoenix.co.uk</cbc:WebsiteURI>
 								<efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
@@ -247,8 +271,10 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Bolton</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -256,18 +282,25 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>123 456 789</cbc:Telephone>
+									<cbc:Telefax>123 456 7899</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
+						<efac:UltimateBeneficialOwner>
+							<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+							<efac:Nationality>
+								<cbc:NationalityID>GBR</cbc:NationalityID>
+							</efac:Nationality>
+						</efac:UltimateBeneficialOwner>
 					</efac:Organizations>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>f4308a76-5393-477c-ba91-f4c9fb8818a6</cbc:ID>
+	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">f4308a76-5393-477c-ba91-f4c9fb8818a6</cbc:ID>
 	<cbc:ContractFolderID>37f6106b-c2e1-45f1-b88a-14888693ee36</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-10+01:00</cbc:IssueDate>
 	<cbc:IssueTime>03:33:33+01:00</cbc:IssueTime>
@@ -322,7 +355,7 @@
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 				<cac:Country>
-					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -401,7 +434,7 @@
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">UKE44</cbc:CountrySubentityCode>
 					<cac:Country>
-						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>

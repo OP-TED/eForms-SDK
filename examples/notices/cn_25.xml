@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>17</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -26,7 +26,7 @@
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
 									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -35,10 +35,12 @@
 								<cac:Contact>
 									<cbc:Name>Frontdesk</cbc:Name>
 									<cbc:Telephone>+44 7875870000</cbc:Telephone>
+									<cbc:Telefax>+44 78758700009</cbc:Telefax>
 									<cbc:ElectronicMail>contact@scottishwater.co.uk</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>https://www.scottishwater.co.uk/</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -49,18 +51,21 @@
 									<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
 									<cbc:CityName>Glasgow</cbc:CityName>
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
 									<cbc:Telephone>+44 8000778778</cbc:Telephone>
+									<cbc:Telefax>+44 80007787789</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:TouchPoint>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://sheriff.gov.uk</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -69,8 +74,10 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Glasgow</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -78,12 +85,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>
+									<cbc:Telefax>(+12)345678909</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -92,6 +101,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -101,6 +112,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -111,8 +123,8 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>39d68def-a6aa-4e85-aa8d-97f0600ea41e</cbc:ID>
+	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">39d68def-a6aa-4e85-aa8d-97f0600ea41e</cbc:ID>
 	<cbc:ContractFolderID>027f7db6-596d-4395-87b9-d8a7b0e4b269</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-15+01:00</cbc:IssueDate>
 	<cbc:IssueTime>03:23:02+01:00</cbc:IssueTime>
@@ -122,7 +134,7 @@
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">org-sub-ra</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="entity-activity">water</cbc:ActivityTypeCode>
@@ -167,7 +179,7 @@
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 				<cac:Country>
-					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -183,13 +195,11 @@
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ENG">Applicants will be expected to be of sufficient financial and economic standing to support the anticipated contract value. All applicants must complete the financial questions within the pre-qualification questionnaire and tender documents. Financial standing relevant to the anticipated contract value will be determined by Scottish Water based on the response to the pre-qualification questionnaire and any further financial checks deemed necessary.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -220,7 +230,7 @@
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">In the event of a group of companies submitting an accepted offer it will be necessary for each member of the group to sign an undertaking that each company in the group will be jointly and severally liable for the satisfactory performance of the contract.</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
@@ -246,10 +256,18 @@
 					<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://www.delta-esourcing.com/tenders/UK-title/Z9Q7MGAEA8</cbc:EndpointID>
+			</cac:TenderRecipientParty>
 			<cac:AppealTerms>
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="ENG">Within ...</cbc:Description>
 				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
@@ -276,12 +294,9 @@
 				<cbc:EndDate>2020-05-27+01:00</cbc:EndDate>
 				<cbc:EndTime>11:00:00+01:00</cbc:EndTime>
 			</cac:TenderSubmissionDeadlinePeriod>
-			<cac:ParticipationRequestReceptionPeriod>
-				<cbc:EndDate>2020-05-27+01:00</cbc:EndDate>
-				<cbc:EndTime>11:00:00+01:00</cbc:EndTime>
-			</cac:ParticipationRequestReceptionPeriod>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
+				<cbc:MaximumQuantity>3</cbc:MaximumQuantity>
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
 			<cac:AuctionTerms>
@@ -308,11 +323,12 @@
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 					<cac:Country>
-						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
+				<cbc:StartDate>2020-09-01+02:00</cbc:StartDate>
 				<cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>

@@ -8,7 +8,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>16</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -58,7 +58,7 @@
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
-								<cbc:EndpointID>http://tender-submit.fin-adm.com</cbc:EndpointID>
+								<cbc:WebsiteURI>http://tender-submit.fin-adm.com</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -85,10 +85,12 @@
 								<cac:Contact>
 									<cbc:Name>Head of Procurement Department</cbc:Name>
 									<cbc:Telephone>+123 45678</cbc:Telephone>
+									<cbc:Telefax>+123 456789</cbc:Telefax>
 									<cbc:ElectronicMail>proc-info@fin-adm.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:TouchPoint>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>http://archives.fin-adm.com</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -117,11 +119,14 @@
 									<cbc:Name>Proc Archives Dpt Lead</cbc:Name>
 									<!--BT-503-->
 									<cbc:Telephone>+44 123456776</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 1234567769</cbc:Telefax>
 									<!--BT-506-->
 									<cbc:ElectronicMail>proc-archi@fin-adm.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:TouchPoint>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>http://tender-evaluation.fin-adm.com</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -150,6 +155,8 @@
 									<cbc:Name>Evaluation Dpt</cbc:Name>
 									<!--BT-503-->
 									<cbc:Telephone>+44 123456777</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+44 1234567779</cbc:Telefax>
 									<!--BT-506-->
 									<cbc:ElectronicMail>proc-eval@fin-adm.com</cbc:ElectronicMail>
 								</cac:Contact>
@@ -387,6 +394,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0007</cbc:ID>
 								</cac:PartyIdentification>
@@ -395,6 +403,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -404,6 +414,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@esendcorp.lu</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -414,9 +425,9 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
 	<!--BT-701-->
-	<cbc:ID>14549263-b47b-4e59-96a1-2d0d13e19343</cbc:ID>
+	<cbc:ID schemeName="notice-id">14549263-b47b-4e59-96a1-2d0d13e19343</cbc:ID>
 	<!--BT-04-->
 	<cbc:ContractFolderID>aff2863e-b4cc-4e91-baba-b3b85f709117</cbc:ContractFolderID>
 	<!--BT-05-->
@@ -611,8 +622,6 @@
 				<cac:AwardingCriterion>
 					<!--BT-733-->
 					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
-					<!--BT-543-->
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -700,8 +709,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<!--BT-63-->
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<!--BT-60-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!--BT-79-->
@@ -833,7 +840,7 @@
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
 				<!--BT-761-->
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<!--BT-76-->
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
@@ -872,8 +879,6 @@
 				<cac:AwardingCriterion>
 					<!--BT-733-->
 					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
-					<!--BT-543-->
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -911,6 +916,8 @@
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
+				<!--BT-18-->
+				<cbc:EndpointID>http://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
 					<!--OPT-301-->
 					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
@@ -997,11 +1004,6 @@
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
 			</cac:TenderSubmissionDeadlinePeriod>
-			<cac:ParticipationRequestReceptionPeriod>
-				<!--BT-1311-->
-				<cbc:EndDate>2023-05-23+01:00</cbc:EndDate>
-				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<!--BT-13-->
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
@@ -1013,12 +1015,6 @@
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
-			<cac:ProcessJustification>
-				<!--BT-19-->
-				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
-				<!--BT-745-->
-				<cbc:Description languageID="ENG">Nonelectronic Submission Description ---</cbc:Description>
-			</cac:ProcessJustification>
 			<cac:EconomicOperatorShortList>
 				<!--BT-661-->
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
@@ -1027,10 +1023,6 @@
 				<!--BT-50-->
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<!--BT-134-->
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<!--BT-767-->
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
@@ -1141,7 +1133,7 @@
 					<cbc:Region>anyw-cou</cbc:Region>
 					<!--BT-5141-->
 					<cac:Country>
-						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
@@ -1200,8 +1192,6 @@
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
-			<!--BT-63-->
-			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<!--BT-60-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!--BT-79-->
@@ -1333,7 +1323,7 @@
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
 				<!--BT-761-->
-				<cbc:CompanyLegalFormCode>true</cbc:CompanyLegalFormCode>
+				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<!--BT-76-->
 				<cbc:CompanyLegalForm languageID="ENG">Tenderer Legal Form Description ---</cbc:CompanyLegalForm>
 			</cac:TendererQualificationRequest>
@@ -1372,8 +1362,6 @@
 				<cac:AwardingCriterion>
 					<!--BT-733-->
 					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
-					<!--BT-543-->
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -1487,7 +1475,7 @@
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
 			<!--BT-17-->
-			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:SubmissionMethodCode listName="esubmission">not-allowed</cbc:SubmissionMethodCode>
 			<!--BT-52-->
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<!--BT-115-->
@@ -1497,11 +1485,6 @@
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
 			</cac:TenderSubmissionDeadlinePeriod>
-			<cac:ParticipationRequestReceptionPeriod>
-				<!--BT-1311-->
-				<cbc:EndDate>2023-05-23+01:00</cbc:EndDate>
-				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<!--BT-13-->
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
@@ -1527,10 +1510,6 @@
 				<!--BT-50-->
 				<cbc:MinimumQuantity>3</cbc:MinimumQuantity>
 			</cac:EconomicOperatorShortList>
-			<cac:OpenTenderEvent>
-				<!--BT-134-->
-				<cbc:Description languageID="ENG">Public Opening Description ---</cbc:Description>
-			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<!--BT-767-->
 				<cbc:AuctionConstraintIndicator>true</cbc:AuctionConstraintIndicator>
@@ -1641,7 +1620,7 @@
 					<cbc:Region>anyw-cou</cbc:Region>
 					<!--BT-5141-->
 					<cac:Country>
-						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>

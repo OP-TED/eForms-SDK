@@ -7,6 +7,7 @@
                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
                         xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+                        xmlns:fn="http://www.w3.org/2005/xpath-functions"
                         xmlns:iso="http://purl.oclc.org/dsdl/schematron"
                         xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"
                         xmlns:saxon="http://saxon.sf.net/"
@@ -40,248 +41,271 @@
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"/>
    <svrl:ns-prefix-in-attribute-values prefix="pin"
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
+   <svrl:ns-prefix-in-attribute-values prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
    <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
    <svrl:fired-rule context="/*"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = ('29', '30', '31', '32', '33', '34', '35', '36', '37')]"/>
    <svrl:fired-rule context="efbc:StatisticsCode"/>
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
    <svrl:fired-rule context="cac:ProcurementProjectLot/cbc:ID"/>
    <svrl:fired-rule context="cac:ProcurementProjectLot/cbc:ID/@schemeName"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
    <svrl:fired-rule context="/*[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '29']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
    <svrl:fired-rule context="/*[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice"
+   <svrl:failed-assert id="BR-BT-00005-0088"
+                       location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:IssueTime) &gt; 0">
-      <svrl:text>The BT-05 Notice Dispatch Date is mandatory at Notice level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00005-0088</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice"
+   <svrl:failed-assert id="BR-BT-00701-0036"
+                       location="/ContractAwardNotice"
                        role="ERROR"
-                       test="count(cbc:ID) &gt; 0">
-      <svrl:text>The BT-701 Notice Identifier is mandatory at Notice level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+                       test="count(cbc:ID[@schemeName='notice-id']) &gt; 0">
+      <svrl:text>rule|message|BR-BT-00701-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice"
+   <svrl:failed-assert id="BR-BT-00702-0036"
+                       location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:NoticeLanguageCode) &gt; 0">
-      <svrl:text>The BT-702 Notice Official Language is mandatory at Notice level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00702-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice"
+   <svrl:failed-assert id="BR-BT-00757-0036"
+                       location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:VersionID) &gt; 0">
-      <svrl:text>The BT-757 Notice Version is mandatory at Notice level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00757-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice"
+   <svrl:failed-assert id="BR-OPT-00001-0036"
+                       location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:UBLVersionID) &gt; 0">
-      <svrl:text>The OPT-001 UBL version ID (UBL) is mandatory at Notice level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00001-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice"
+   <svrl:failed-assert id="BR-OPT-00002-0036"
+                       location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
-      <svrl:text>The OPT-002 Customization ID (UBL) is mandatory at Notice level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00002-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice"
+   <svrl:failed-assert id="BR-OPT-00300-0136"
+                       location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-300 Buyer Technical Identifier Reference is mandatory at Procedure level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00300-0136</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+   <svrl:failed-assert id="BR-BT-00142-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"
                        test="count(cbc:TenderResultCode) &gt; 0">
-      <svrl:text>The BT-142 Winner Chosen is mandatory at LotResult level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00142-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+   <svrl:failed-assert id="BR-BT-03201-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
                        test="count(efac:TenderReference/cbc:ID) &gt; 0">
-      <svrl:text>The BT-3201 Tender Identifier is mandatory at Tender level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-03201-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+   <svrl:failed-assert id="BR-OPT-00310-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
                        test="count(efac:TenderingParty/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-310 Tendering Party ID Reference is mandatory at Tender level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00310-0036</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
-                       role="ERROR"
-                       test="count(efac:ContractReference/cbc:ID) &gt; 0">
-      <svrl:text>The BT-150 Contract Identifier is mandatory at Contract level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
-                       role="ERROR"
-                       test="count(efac:LotTender/cbc:ID) &gt; 0">
-      <svrl:text>The BT-3202 Contract Tender ID (Reference) is mandatory at Contract level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+   <svrl:failed-assert id="BR-BT-00500-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PartyName/cbc:Name) &gt; 0">
-      <svrl:text>The BT-500 Name is mandatory at Organization level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00500-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+   <svrl:failed-assert id="BR-BT-00501-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
-      <svrl:text>The BT-501 Identifier is mandatory at Organization level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00501-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+   <svrl:failed-assert id="BR-BT-00503-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:Contact/cbc:Telephone) &gt; 0">
-      <svrl:text>The BT-503 Contact Telephone Number is mandatory at Organization level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00503-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+   <svrl:failed-assert id="BR-BT-00506-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
-      <svrl:text>The BT-506 Contact Email Address is mandatory at Organization level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00506-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+   <svrl:failed-assert id="BR-BT-00513-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
-      <svrl:text>The BT-513 City is mandatory at Organization level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00513-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+   <svrl:failed-assert id="BR-BT-00514-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
-      <svrl:text>The BT-514 Country Code is mandatory at Organization level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00514-0036</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty"
+   <svrl:failed-assert id="BR-BT-00010-0036"
+                       location="/ContractAwardNotice/cac:ContractingParty"
                        role="ERROR"
                        test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0">
-      <svrl:text>The BT-10 Activity Authority is mandatory at Procedure level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00010-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty"
+   <svrl:failed-assert id="BR-BT-00011-0036"
+                       location="/ContractAwardNotice/cac:ContractingParty"
                        role="ERROR"
                        test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">
-      <svrl:text>The BT-11 Buyer Legal Type is mandatory at Procedure level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00011-0036</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
+   <svrl:failed-assert id="BR-OPT-00030-0036"
+                       location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
                        role="ERROR"
                        test="count(cbc:ServiceTypeCode) &gt; 0">
-      <svrl:text>The OPT-030 Provided Service Type is mandatory at Procedure level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00030-0036</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:TenderingProcess"
+   <svrl:failed-assert id="BR-BT-00105-0036"
+                       location="/ContractAwardNotice/cac:TenderingProcess"
                        role="ERROR"
                        test="count(cbc:ProcedureCode) &gt; 0">
-      <svrl:text>The BT-105 Procedure Type is mandatory at Procedure level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00105-0036</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject"
+   <svrl:failed-assert id="BR-BT-00021-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
-      <svrl:text>The BT-21 Title is mandatory at Procedure level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00021-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject"
+   <svrl:failed-assert id="BR-BT-00023-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:ProcurementTypeCode) &gt; 0">
-      <svrl:text>BT-23 Main Nature is mandatory at Procedure level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00023-0036</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject"
+   <svrl:failed-assert id="BR-BT-00024-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Description) &gt; 0">
-      <svrl:text>The BT-24 Description is mandatory at Procedure level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00024-0036</svrl:text>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-00262-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
+      <svrl:text>rule|message|BR-BT-00262-0036</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+   <svrl:failed-assert id="BR-BT-00060-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
                        test="count(cbc:FundingProgramCode[@listName='eu-funded']) &gt; 0">
-      <svrl:text>The BT-60 EU Funds is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00060-0036</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion"
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00540-0088"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion"
                        role="ERROR"
-                       test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0">
-      <svrl:text>The BT-539 Award Criterion Type is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion"
-                       role="ERROR"
-                       test="count(cbc:Description) &gt; 0">
-      <svrl:text>The BT-540 Award Criterion Description is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+                       test="count(cac:SubordinateAwardingCriterion/cbc:Description) &gt; 0">
+      <svrl:text>rule|message|BR-BT-00540-0088</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
-                       role="ERROR"
-                       test="count(cac:PresentationPeriod/cbc:Description) &gt; 0">
-      <svrl:text>BT-99 Review Deadline Description is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+   <svrl:failed-assert id="BR-OPT-00301-1094"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
                        test="count(cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>The OPT-301 Review Organization Technical Identifier Reference is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00301-1094</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+   <svrl:failed-assert id="BR-OPT-00301-1194"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="WARN"
                        test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>When it exists, OPT-301 Mediator Technical Identifier Reference is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00301-1194</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
+   <svrl:failed-assert id="BR-BT-00115-0087"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
                        role="ERROR"
                        test="count(cbc:GovernmentAgreementConstraintIndicator) &gt; 0">
-      <svrl:text>The BT-115 GPA Coverage is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00115-0087</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
+   <svrl:failed-assert id="BR-BT-00765-0087"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
                        role="ERROR"
                        test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']) &gt; 0">
-      <svrl:text>The BT-765 Framework Agreement is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00765-0087</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
+   <svrl:failed-assert id="BR-BT-00766-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
                        role="ERROR"
                        test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']) &gt; 0">
-      <svrl:text>The BT-766 Dynamic Purchasing System is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00766-0036</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:AuctionTerms"
+   <svrl:failed-assert id="BR-BT-00767-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:AuctionTerms"
                        role="ERROR"
                        test="count(cbc:AuctionConstraintIndicator) &gt; 0">
-      <svrl:text>The BT-767 Electronic Auction is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00767-0036</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+   <svrl:failed-assert id="BR-BT-00021-0192"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
-      <svrl:text>The BT-21 Title is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00021-0192</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+   <svrl:failed-assert id="BR-BT-00023-0138"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) &gt; 0">
-      <svrl:text>BT-23 Main Nature is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00023-0138</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+   <svrl:failed-assert id="BR-BT-00024-0192"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Description) &gt; 0">
-      <svrl:text>The BT-24 Description is mandatory at Lot level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00024-0192</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00262-0137"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cac:MainCommodityClassification"
+                       role="ERROR"
+                       test="count(cbc:ItemClassificationCode) &gt; 0">
+      <svrl:text>rule|message|BR-BT-00262-0137</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"/>
@@ -301,204 +325,269 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification"/>
    <svrl:active-pattern id="EFORMS-stage-3-not-empty" name="EFORMS-stage-3-not-empty"/>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cbc:ContractFolderID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cbc:ContractFolderID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:TenderingProcess"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:TenderingProcess"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProject"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:AuctionTerms"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:AuctionTerms"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+   <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cac:MainCommodityClassification"
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			Elements must have content, and the content must be something other than only whitespace.
+			rule|message|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
+   <svrl:failed-assert id="BR-BT-00760-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
                        role="ERROR"
                        test="normalize-space(.) = ('part-req', 't-esubm', 't-med', 't-micro', 't-no-eea', 't-no-verif', 't-oth-eea', 't-small', 't-sme', 't-verif-inad', 't-verif-inad-low', 'tenders')">
-      <svrl:text>The BT-760-LotResult Received Submissions Type must contain one of the values of the code list received-submission-type.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00760-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00321-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^TEN-\d4$')">
-      <svrl:text>The OPT-321 Tender Technical Identifier must match the 'TenderID' pattern at Tender level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00321-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00316-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^CON-\d4$')">
-      <svrl:text>The OPT-316 Contract technical Identifier must match the 'ContractID' pattern at Contract level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00316-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00210-0052"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^TPA-\d4$')">
-      <svrl:text>The OPT-210 Tendering Party ID must match the 'TenderPartyID' pattern at Tenderer level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00210-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00300-0203"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d4$')">
-      <svrl:text>The OPT-300 Signatory Identifier Reference must match the 'OrganizationID' pattern at Tenderer level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00300-0203</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
+   <svrl:failed-assert id="BR-OPT-00200-0051"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d4$')">
-      <svrl:text>The OPT-200 Company Technical Identifier must match the 'OrganizationID' pattern at Organization level.</svrl:text>
+      <svrl:text>rule|message|BR-OPT-00200-0051</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '29']"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cbc:ContractFolderID"
+   <svrl:failed-assert id="BR-BT-00004-0071"
+                       location="/ContractAwardNotice/cbc:ContractFolderID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^[a-f0-9]8-[a-f0-9]4-4[a-f0-9]3-[89ab][a-f0-9]3-[a-f0-9]12$')">
-      <svrl:text>The BT-04 Procedure Identifier must match the 'ProcedureOrNoticeID' pattern at notice level for a notice of type Contract award notice – general directive, standard regime.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00004-0071</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
    <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
    <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID"/>
-   <svrl:failed-assert location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
+   <svrl:failed-assert id="BR-BT-00137-0155"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^LOT-\d4$')">
-      <svrl:text>The BT-137 Purpose Lot Identifier must match the 'LotID' pattern at Lot level.</svrl:text>
+      <svrl:text>rule|message|BR-BT-00137-0155</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00759-0086"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text()) != 'open-nw')">
+      <svrl:text>rule|message|BR-BT-00759-0086</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-00760-0087"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text()) != 'open-nw')">
+      <svrl:text>rule|message|BR-BT-00760-0087</svrl:text>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00171-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+                       role="ERROR"
+                       test="count(cbc:RankCode) &gt; 0 or not(not(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text())))">
+      <svrl:text>rule|message|BR-BT-00171-0036</svrl:text>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00543-0088"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion"
+                       role="ERROR"
+                       test="count(cbc:CalculationExpression) &gt; 0 or not(not(cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric))">
+      <svrl:text>rule|message|BR-BT-00543-0088</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00099-0036"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+                       role="ERROR"
+                       test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not((not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID)))">
+      <svrl:text>rule|message|BR-BT-00099-0036</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"/>
@@ -509,4 +598,5 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess"/>
    <svrl:fired-rule context="//cac:ProcurementProject"/>
+   <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
 </svrl:schematron-output>

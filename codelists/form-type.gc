@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>FormType</ShortName>
       <LongName>form-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/form-type</LongName>
-      <Version>20210929-0</Version>
+      <Version>20211208-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/form-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Business registration information</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Информация за регистрацията на предприятие</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Informace o registraci podniku</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Information om virksomhedsregistrering</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Angaben zur Unternehmensregistrierung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Στοιχεία καταχώρισης επιχειρήσεων</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Business registration information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Información sobre el registro de empresas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ettevõtete registreerimisega seotud teave</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Yritysrekisteritiedot</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Informations relatives à l’enregistrement des entreprises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eolas faoi chlárú gnó</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Informacije o registraciji poduzeća</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cégadatok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Informazioni sulla registrazione delle imprese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Įmonės registravimo informacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Informācija par uzņēmumu reģistrāciju</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Informazzjoni dwar ir-reġistrazzjoni tan-negozju</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Informatie over bedrijfsregistratie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Informacja o rejestracji działalności gospodarczej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Informações do registo comercial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Informații privind statutul în Registrul Comerțului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Informácie o registrácii podniku</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Podatki o registraciji podjetja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bolagsregistreringsinformation</SimpleValue>
          </Value>
       </Row>
       <Row>

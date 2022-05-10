@@ -40,6 +40,7 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<cbc:RankCode>1</cbc:RankCode>
 							<cac:LegalMonetaryTotal>
 								<cbc:PayableAmount currencyID="EUR">375950</cbc:PayableAmount>
 							</cac:LegalMonetaryTotal>
@@ -51,6 +52,9 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>BID-012-2010-01</cbc:ID>
 							</efac:TenderReference>
@@ -59,11 +63,7 @@
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<!--BT-1451-->
 							<cbc:AwardDate>2021-04-20+02:00</cbc:AwardDate>
-							<!--BT-721-->
-							<cac:NoticeDocumentReference>
-								<!--OPT-100-->
-								<cbc:ID>dbd1d208-7e54-4abf-8f9c-fd67077f18f8-01</cbc:ID>
-							</cac:NoticeDocumentReference>
+							<cbc:IssueDate>2021-04-25+02:00</cbc:IssueDate>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
 									<!--OPT-300-->
@@ -91,7 +91,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>31</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">31</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -109,7 +109,7 @@
 									<cbc:PostalZone>91297</cbc:PostalZone>
 									<cbc:CountrySubentityCode listName="nuts">FR104</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
@@ -122,6 +122,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -130,6 +131,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -139,12 +142,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>http://paris.tribunal-administratif.fr/</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -161,6 +166,7 @@
 									<cbc:CityName>Paris Cedex 04</cbc:CityName>
 									<!--BT-512-->
 									<cbc:PostalZone>75181</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
@@ -176,6 +182,7 @@
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>http://paris.tribunal-administratif.fr/greffe</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -192,6 +199,7 @@
 									<cbc:CityName>Paris Cedex 04</cbc:CityName>
 									<!--BT-512-->
 									<cbc:PostalZone>75181</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
@@ -209,6 +217,7 @@
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
@@ -218,7 +227,9 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<!--BT-513-->
-									<cbc:CityName>I</cbc:CityName>
+									<cbc:CityName>Paris</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
@@ -227,13 +238,20 @@
 								<cac:Contact>
 									<!--BT-503-->
 									<cbc:Telephone>+33 0101010101</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+33 0101010199</cbc:Telefax>
 									<!--BT-506-->
 									<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+							</efac:UltimateBeneficialOwner>
 							<efac:Company>
+								<cbc:WebsiteURI>https://assystem.com</cbc:WebsiteURI>
 								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
@@ -249,6 +267,7 @@
 									<cbc:CityName>Courbevoie</cbc:CityName>
 									<!--BT-512-->
 									<cbc:PostalZone>92400</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FR104</cbc:CountrySubentityCode>
 									<cac:Country>
 										<!--BT-514-->
 										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
@@ -257,11 +276,19 @@
 								<cac:Contact>
 									<!--BT-503-->
 									<cbc:Telephone>+33 12121212</cbc:Telephone>
+									<!--BT-739-->
+									<cbc:Telefax>+33 1212121299</cbc:Telefax>
 									<!--BT-506-->
 									<cbc:ElectronicMail>contact@example-corp.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
+						<efac:UltimateBeneficialOwner>
+							<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+							<efac:Nationality>
+								<cbc:NationalityID>FRA</cbc:NationalityID>
+							</efac:Nationality>
+						</efac:UltimateBeneficialOwner>
 					</efac:Organizations>
 					<efac:Publication>
 						<efbc:NoticePublicationID schemeName="ojs-notice-id">245489-2021</efbc:NoticePublicationID>
@@ -273,9 +300,9 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
 	<!--BT-701-->
-	<cbc:ID>f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
+	<cbc:ID schemeName="notice-id">f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
 	<!--BT-04-->
 	<cbc:ContractFolderID>2d2d24a2-df84-449e-8695-fb66ef504a5a</cbc:ContractFolderID>
 	<!--BT-05-->
@@ -293,7 +320,7 @@
 	<cac:ContractingParty>
 		<cbc:BuyerProfileURI>https://www.marches-publics.gouv.fr</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-contracting-type">cont-ent</cbc:PartyTypeCode>
@@ -339,7 +366,7 @@
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
 				<cac:Country>
-					<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -481,7 +508,7 @@
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
 					<cac:Country>
-						<cbc:IdentificationCode>FRA</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>

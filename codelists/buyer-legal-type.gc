@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>BuyerLegalType</ShortName>
       <LongName>buyer-legal-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/buyer-legal-type</LongName>
-      <Version>20201216-0</Version>
+      <Version>20211208-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/buyer-legal-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -758,6 +758,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>EU-institution/organ eller internationell organisation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>grp-p-aut</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Group of public authorities</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Група от публични органи</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Skupina orgánů veřejné moci</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gruppe af offentlige myndigheder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gruppe öffentlicher Stellen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ομάδα δημόσιων αρχών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Group of public authorities</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Grupo de autoridades públicas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ametiasutuste rühm</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Viranomaisten ryhmittymä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Groupement d’autorités publiques</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Grúpa údarás poiblí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Skupina javnih tijela</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Hatóságok csoportja</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gruppo di autorità pubbliche</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Valdžios institucijų grupė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Valsts iestāžu grupa</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Grupp ta’ awtoritajiet pubbliċi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Groep overheidsinstanties</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Grupa organów publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Grupo de autoridades públicas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Grup de autorități publice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Skupina verejných orgánov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Skupina javnih organov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Grupp av offentliga organ</SimpleValue>
          </Value>
       </Row>
       <Row>

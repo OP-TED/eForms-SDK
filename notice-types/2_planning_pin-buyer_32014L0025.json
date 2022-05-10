@@ -24,8 +24,8 @@
       "hidden" : true
     }, {
       "fieldId" : "BT-702(b)-notice",
-      "repeatable" : true,
       "name" : "Notice Official Language",
+      "repeatable" : true,
       "hidden" : true
     }, {
       "fieldId" : "BT-05(a)-notice",
@@ -46,7 +46,7 @@
     }, {
       "fieldId" : "OPT-002-notice",
       "name" : "Customization ID",
-      "hidden" : true
+      "readOnly" : true
     }, {
       "fieldId" : "OPP-070-notice",
       "name" : "Notice Subtype",
@@ -69,22 +69,209 @@
     "groupId" : "GR-Content",
     "name" : "Content",
     "fields" : [ {
-      "groupId" : "GR-Organisations-Section",
+      "groupId" : "GR-ContractingAuthority",
+      "name" : "Contracting Authority",
       "section" : true,
+      "fields" : [ {
+        "groupId" : "GR-ContractingAuthority-Buyer",
+        "name" : "Buyer",
+        "repeatable" : true,
+        "fields" : [ {
+          "fieldId" : "OPT-300-Procedure-Buyer",
+          "name" : "Buyer Technical Identifier Reference",
+          "valueList" : [ "ORG", "TPO" ]
+        }, {
+          "fieldId" : "BT-11-Procedure-Buyer",
+          "name" : "Buyer Legal Type"
+        }, {
+          "fieldId" : "BT-10-Procedure-Buyer",
+          "name" : "Activity Authority"
+        }, {
+          "fieldId" : "BT-610-Procedure-Buyer",
+          "name" : "Activity Entity"
+        }, {
+          "fieldId" : "BT-508-Procedure-Buyer",
+          "name" : "Buyer Profile URL"
+        } ]
+      }, {
+        "groupId" : "GR-Procedure-SProvider",
+        "name" : "Service Provider",
+        "repeatable" : true,
+        "fields" : [ {
+          "fieldId" : "OPT-300-Procedure-SProvider",
+          "name" : "Service Provider Technical Identifier Reference",
+          "valueList" : [ "ORG", "TPO" ]
+        }, {
+          "fieldId" : "OPT-030-Procedure-SProvider",
+          "name" : "Provided Service Type"
+        } ]
+      } ]
+    }, {
+      "groupId" : "GR-Procedure",
+      "name" : "Procedure",
+      "section" : true,
+      "fields" : [ {
+        "groupId" : "GR-Procedure-Purpose",
+        "name" : "Purpose",
+        "section" : true,
+        "fields" : [ {
+          "groupId" : "GR-Procedure-MainLegalBasis",
+          "name" : "Main Legal Basis",
+          "fields" : [ {
+            "fieldId" : "BT-01-notice",
+            "name" : "Procedure Legal Basis"
+          } ]
+        }, {
+          "groupId" : "GR-Procedure-LocalCrossBorderLaw",
+          "name" : "Local Law",
+          "fields" : [ {
+            "fieldId" : "BT-01(c)-Procedure",
+            "name" : "FIXME Legal Basis (ELI)"
+          }, {
+            "fieldId" : "BT-01(d)-Procedure",
+            "name" : "Legal Basis (Text)"
+          } ]
+        }, {
+          "groupId" : "GR-Procedure-Description",
+          "name" : "Description",
+          "fields" : [ {
+            "fieldId" : "BT-22-Procedure",
+            "name" : "Internal Identifier"
+          }, {
+            "fieldId" : "BT-21-Procedure",
+            "name" : "Title"
+          }, {
+            "fieldId" : "BT-24-Procedure",
+            "name" : "Description"
+          }, {
+            "fieldId" : "BT-23-Procedure",
+            "name" : "Main Nature"
+          }, {
+            "fieldId" : "BT-531-Procedure",
+            "name" : "Additional Nature",
+            "repeatable" : true
+          } ]
+        }, {
+          "groupId" : "GR-Procedure-Scope",
+          "name" : "Scope",
+          "fields" : [ {
+            "groupId" : "GR-Procedure-Scope-MainClassification",
+            "name" : "Main Classification",
+            "fields" : [ {
+              "fieldId" : "BT-26(m)-Procedure",
+              "name" : "FIXME Classification Type"
+            }, {
+              "fieldId" : "BT-262-Procedure",
+              "name" : "FIXME Classification Code"
+            } ]
+          }, {
+            "groupId" : "GR-Procedure-Scope-AdditionalClassification",
+            "name" : "Additional Classification",
+            "repeatable" : true,
+            "fields" : [ {
+              "fieldId" : "BT-26(a)-Procedure",
+              "name" : "FIXME Classification Type"
+            }, {
+              "fieldId" : "BT-263-Procedure",
+              "name" : "FIXME Classification Code"
+            } ]
+          } ]
+        }, {
+          "groupId" : "GR-Procedure-PlaceOfPerformance",
+          "name" : "Place of Performance",
+          "repeatable" : true,
+          "fields" : [ {
+            "fieldId" : "BT-5101(a)-Procedure",
+            "name" : " Street"
+          }, {
+            "fieldId" : "BT-5101(b)-Procedure",
+            "name" : " Street"
+          }, {
+            "fieldId" : "BT-5101(c)-Procedure",
+            "name" : " Street"
+          }, {
+            "fieldId" : "BT-5131-Procedure",
+            "name" : "City"
+          }, {
+            "fieldId" : "BT-5121-Procedure",
+            "name" : "Post Code"
+          }, {
+            "fieldId" : "BT-5071-Procedure",
+            "name" : "FIXME Country Subdivision"
+          }, {
+            "fieldId" : "BT-5141-Procedure",
+            "name" : "Place Performance Country Code"
+          }, {
+            "fieldId" : "BT-727-Procedure",
+            "name" : " Services Other"
+          }, {
+            "fieldId" : "BT-728-Procedure",
+            "name" : "Additional Information"
+          } ]
+        } ]
+      }, {
+        "groupId" : "GR-Procedure-Procedure-subsection",
+        "name" : "Procedure",
+        "section" : true,
+        "fields" : [ {
+          "groupId" : "GR-Procedure-AdditionalInformation",
+          "name" : "Additional Information",
+          "fields" : [ {
+            "fieldId" : "BT-300-Procedure",
+            "name" : "Additional Information"
+          } ]
+        } ]
+      } ]
+    }, {
+      "groupId" : "GR-Change",
+      "name" : "Change",
+      "section" : true,
+      "fields" : [ {
+        "fieldId" : "BT-140-notice",
+        "name" : "Change Reason Code",
+        "readOnly" : true
+      }, {
+        "fieldId" : "BT-762-notice",
+        "name" : "Change Reason Description"
+      }, {
+        "fieldId" : "BT-758-notice",
+        "name" : "Change Notice Version Identifier",
+        "readOnly" : true
+      }, {
+        "fieldId" : "BT-718-notice",
+        "name" : "Change Procurement Documents"
+      }, {
+        "fieldId" : "BT-719-notice",
+        "name" : "Change Procurement Documents Date"
+      }, {
+        "groupId" : "GR-ChangeSections",
+        "name" : "Change sections",
+        "repeatable" : true,
+        "fields" : [ {
+          "fieldId" : "BT-13716-notice",
+          "name" : "Change Previous Section Identifier"
+        }, {
+          "fieldId" : "BT-141(a)-notice",
+          "name" : "Change Description"
+        } ]
+      } ]
+    }, {
+      "groupId" : "GR-Organisations-Section",
       "name" : "Organisations",
+      "section" : true,
       "fields" : [ {
         "groupId" : "GR-Organisations-Subsection",
-        "section" : true,
         "name" : "Organisations",
+        "section" : true,
         "fields" : [ {
           "groupId" : "GR-Organisations",
+          "name" : "Organisation",
           "repeatable" : true,
           "instanceList" : "ORG",
-          "name" : "Organisation",
           "fields" : [ {
             "fieldId" : "OPT-200-Organization-Company",
-            "instanceIdField" : "ORG",
             "name" : "Company Technical Identifier",
+            "instanceIdField" : "ORG",
             "hidden" : true
           }, {
             "fieldId" : "BT-633-Organization",
@@ -151,13 +338,13 @@
             } ]
           }, {
             "groupId" : "GR-Touch-Point",
+            "name" : "Touch Point",
             "repeatable" : true,
             "instanceList" : "TPO",
-            "name" : "Touch Point",
             "fields" : [ {
               "fieldId" : "OPT-201-Organization-TouchPoint",
-              "instanceIdField" : "TPO",
               "name" : "TouchPoint Technical Identifier",
+              "instanceIdField" : "TPO",
               "hidden" : true
             }, {
               "fieldId" : "BT-500-Organization-TouchPoint",
@@ -217,17 +404,17 @@
         } ]
       }, {
         "groupId" : "GR-UBO-Subsection",
-        "section" : true,
         "name" : "Ultimate Beneficial Owner",
+        "section" : true,
         "fields" : [ {
           "groupId" : "GR-UBO",
+          "name" : "Ultimate Beneficial Owner",
           "repeatable" : true,
           "instanceList" : "UBO",
-          "name" : "Ultimate Beneficial Owner",
           "fields" : [ {
-            "fieldId" : "BT-202-UBO",
-            "instanceIdField" : "UBO",
+            "fieldId" : "OPT-202-UBO",
             "name" : "Beneficial Owner Technical Identifier",
+            "instanceIdField" : "UBO",
             "hidden" : true
           }, {
             "fieldId" : "BT-500-UBO",
@@ -273,196 +460,6 @@
               "name" : "Winner Owner Nationality"
             } ]
           } ]
-        } ]
-      } ]
-    }, {
-      "groupId" : "GR-ContractingAuthority",
-      "section" : true,
-      "name" : "Contracting Authority",
-      "fields" : [ {
-        "fieldId" : "OPT-300-Procedure-Buyer",
-        "valueList" : "ORG",
-        "name" : "Buyer Technical Identifier Reference"
-      }, {
-        "fieldId" : "BT-11-Procedure-Buyer",
-        "name" : "Buyer Legal Type"
-      }, {
-        "groupId" : "GR-ContractingAuthority-Entity",
-        "name" : "Contracting Authority/Entity",
-        "fields" : [ {
-          "fieldId" : "BT-10-Procedure-Buyer",
-          "name" : "Activity Authority"
-        }, {
-          "fieldId" : "BT-610-Procedure-Buyer",
-          "name" : "Activity Entity"
-        } ]
-      }, {
-        "groupId" : "GR-Procedure-BuyerProfileUrl",
-        "name" : "URL Profile",
-        "fields" : [ {
-          "fieldId" : "BT-508-Procedure-Buyer",
-          "name" : "Buyer Profile URL"
-        } ]
-      }, {
-        "groupId" : "GR-Procedure-SProvider",
-        "repeatable" : true,
-        "name" : "Service Provider",
-        "fields" : [ {
-          "fieldId" : "OPT-300-Procedure-SProvider",
-          "valueList" : "ORG",
-          "name" : "Service Provider Technical Identifier Reference"
-        }, {
-          "fieldId" : "OPT-030-Procedure-SProvider",
-          "name" : "Provided Service Type"
-        } ]
-      } ]
-    }, {
-      "groupId" : "GR-Procedure",
-      "section" : true,
-      "name" : "Procedure",
-      "fields" : [ {
-        "groupId" : "GR-Procedure-Purpose",
-        "section" : true,
-        "name" : "Purpose",
-        "fields" : [ {
-          "groupId" : "GR-Procedure-MainLegalBasis",
-          "name" : "Main Legal Basis",
-          "fields" : [ {
-            "fieldId" : "BT-01-notice",
-            "name" : "Procedure Legal Basis"
-          } ]
-        }, {
-          "groupId" : "GR-Procedure-LocalCrossBorderLaw",
-          "name" : "Local Law",
-          "fields" : [ {
-            "fieldId" : "BT-01(c)-Procedure",
-            "name" : "FIXME Legal Basis (ELI)"
-          }, {
-            "fieldId" : "BT-01(d)-Procedure",
-            "name" : "Legal Basis (Text)"
-          } ]
-        }, {
-          "groupId" : "GR-Procedure-Description",
-          "name" : "Description",
-          "fields" : [ {
-            "fieldId" : "BT-22-Procedure",
-            "name" : "Internal Identifier"
-          }, {
-            "fieldId" : "BT-21-Procedure",
-            "name" : "Title"
-          }, {
-            "fieldId" : "BT-24-Procedure",
-            "name" : "Description"
-          }, {
-            "fieldId" : "BT-23-Procedure",
-            "name" : "Main Nature"
-          }, {
-            "fieldId" : "BT-531-Procedure",
-            "repeatable" : true,
-            "name" : "Additional Nature"
-          } ]
-        }, {
-          "groupId" : "GR-Procedure-Scope",
-          "name" : "Scope",
-          "fields" : [ {
-            "groupId" : "GR-Procedure-Scope-MainClassification",
-            "name" : "Main Classification",
-            "fields" : [ {
-              "fieldId" : "BT-26(m)-Procedure",
-              "name" : "FIXME Classification Type"
-            }, {
-              "fieldId" : "BT-262-Procedure",
-              "name" : "FIXME Classification Code"
-            } ]
-          }, {
-            "groupId" : "GR-Procedure-Scope-AdditionalClassification",
-            "repeatable" : true,
-            "name" : "Additional Classification",
-            "fields" : [ {
-              "fieldId" : "BT-26(a)-Procedure",
-              "name" : "FIXME Classification Type"
-            }, {
-              "fieldId" : "BT-263-Procedure",
-              "name" : "FIXME Classification Code"
-            } ]
-          } ]
-        }, {
-          "groupId" : "GR-Procedure-PlaceOfPerformance",
-          "repeatable" : true,
-          "name" : "Place of Performance",
-          "fields" : [ {
-            "fieldId" : "BT-5101(a)-Procedure",
-            "name" : " Street"
-          }, {
-            "fieldId" : "BT-5101(b)-Procedure",
-            "name" : " Street"
-          }, {
-            "fieldId" : "BT-5101(c)-Procedure",
-            "name" : " Street"
-          }, {
-            "fieldId" : "BT-5131-Procedure",
-            "name" : "City"
-          }, {
-            "fieldId" : "BT-5121-Procedure",
-            "name" : "Post Code"
-          }, {
-            "fieldId" : "BT-5071-Procedure",
-            "name" : "FIXME Country Subdivision"
-          }, {
-            "fieldId" : "BT-5141-Procedure",
-            "name" : "Place Performance Country Code"
-          }, {
-            "fieldId" : "BT-727-Procedure",
-            "name" : " Services Other"
-          }, {
-            "fieldId" : "BT-728-Procedure",
-            "name" : "Additional Information"
-          } ]
-        } ]
-      }, {
-        "groupId" : "GR-Procedure-Procedure-subsection",
-        "section" : true,
-        "name" : "Procedure",
-        "fields" : [ {
-          "groupId" : "GR-Procedure-AdditionalInformation",
-          "name" : "Additional Information",
-          "fields" : [ {
-            "fieldId" : "BT-300-Procedure",
-            "name" : "Additional Information"
-          } ]
-        } ]
-      } ]
-    }, {
-      "groupId" : "GR-Change",
-      "section" : true,
-      "name" : "Change",
-      "fields" : [ {
-        "fieldId" : "BT-140-notice",
-        "name" : "Change Reason Code",
-        "readOnly" : true
-      }, {
-        "fieldId" : "BT-762-notice",
-        "name" : "Change Reason Description"
-      }, {
-        "fieldId" : "BT-758-notice",
-        "name" : "Change Notice Version Identifier",
-        "readOnly" : true
-      }, {
-        "fieldId" : "BT-718-notice",
-        "name" : "Change Procurement Documents"
-      }, {
-        "fieldId" : "BT-719-notice",
-        "name" : "Change Procurement Documents Date"
-      }, {
-        "groupId" : "GR-ChangeSections",
-        "repeatable" : true,
-        "name" : "Change sections",
-        "fields" : [ {
-          "fieldId" : "BT-13716-notice",
-          "name" : "Change Previous Section Identifier"
-        }, {
-          "fieldId" : "BT-141(a)-notice",
-          "name" : "Change Description"
         } ]
       } ]
     } ]

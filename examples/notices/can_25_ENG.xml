@@ -42,13 +42,16 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>BRN ABC/2020-01</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							<cbc:AwardDate>2020-02-12+01:00</cbc:AwardDate>
+							<cbc:IssueDate>2020-02-12+01:00</cbc:IssueDate>
 							<cbc:Title languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Title>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
@@ -75,7 +78,7 @@
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>30</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">30</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -91,8 +94,9 @@
 									<cbc:StreetName>Westland House</cbc:StreetName>
 									<cbc:CityName>Belfast</cbc:CityName>
 									<cbc:PostalZone>BT14 6TE</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKN06</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -100,10 +104,12 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>
+									<cbc:Telefax>(+12)345678909</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>https://www.niwater.com</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -113,18 +119,21 @@
 								<cac:PostalAddress>
 									<cbc:CityName>Belfast</cbc:CityName>
 									<cbc:PostalZone>BT14 6TE</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKN06</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567899</cbc:Telephone>
+									<cbc:Telefax>(+12)345678999</cbc:Telefax>
 									<cbc:ElectronicMail>sourcing@niwater.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:TouchPoint>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://example-mediator.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -134,6 +143,8 @@
 								<cac:PostalAddress>
 									<cbc:StreetName>Some Street</cbc:StreetName>
 									<cbc:CityName>Example City</cbc:CityName>
+									<cbc:PostalZone>ABC123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKN06</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -143,12 +154,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+123 456 789</cbc:Telephone>
+									<cbc:Telefax>+123 456 7899</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example-mediator.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -157,6 +170,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -166,12 +181,18 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+							<efac:UltimateBeneficialOwner>
+								<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+							</efac:UltimateBeneficialOwner>
 							<efac:Company>
+								<cbc:WebsiteURI>https://deloitte.com</cbc:WebsiteURI>
 								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
@@ -183,8 +204,9 @@
 									<cbc:StreetName>Hill House</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>EC4A 3JR</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -192,20 +214,27 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>
+									<cbc:Telefax>(+12)345678909</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
+						<efac:UltimateBeneficialOwner>
+							<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
+							<efac:Nationality>
+								<cbc:NationalityID>GBR</cbc:NationalityID>
+							</efac:Nationality>
+						</efac:UltimateBeneficialOwner>
 					</efac:Organizations>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>359f3b87-c2ec-4c6a-b279-58c843551e7c</cbc:ID>
+	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">359f3b87-c2ec-4c6a-b279-58c843551e7c</cbc:ID>
 	<cbc:ContractFolderID>18d27a53-0109-4f93-9231-6659d931bce0</cbc:ContractFolderID>
-	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
+	<cbc:IssueDate>2020-04-10+01:00</cbc:IssueDate>
 	<cbc:IssueTime>09:07:07+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
@@ -246,8 +275,9 @@
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
+				<cbc:Region>anyw-cou</cbc:Region>
 				<cac:Country>
-					<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -272,6 +302,7 @@
 						</ext:UBLExtensions>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
 						<cbc:Name languageID="ENG">Quality</cbc:Name>
+						<cbc:Description languageID="ENG">The quality is evaluated by...</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
@@ -288,6 +319,7 @@
 						</ext:UBLExtensions>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
 						<cbc:Name languageID="ENG">Price</cbc:Name>
+						<cbc:Description languageID="ENG">The price is evaluated by...</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
@@ -335,8 +367,9 @@
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
+					<cbc:Region>anyw-cou</cbc:Region>
 					<cac:Country>
-						<cbc:IdentificationCode>GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>

@@ -1,0 +1,14 @@
+// Summary
+// sdkVersion='eforms-sdk-0.6.0'
+// File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00
+{ND-0} #{decoration|name|results}
+	{ND-0} #{decoration|name|group-framework-value}
+		{BT-1375-Procedure} #{business_term|name|BT-1375}
+		{BT-156-NoticeResult} #{name|BT-156}: ${BT-156-NoticeResult} ${BT-156-NoticeResult/@currencyID}
+	{BT-137-Lot} #{name|BT-137}: ${BT-137-Lot}
+		{BT-142-LotResult} #{BT-142-LotResult}
+		{BT-137-Lot} #{decoration|name|framework-agreement}
+			{BT-709-LotResult} #{name|BT-709}: ${BT-709-LotResult} ${BT-709-LotResult/@currencyID}
+			{BT-660-LotResult} #{name|BT-660}: ${BT-660-LotResult} ${BT-660-LotResult/@currencyID}
+		{BT-137-Lot} #{decoration|name|winner}
+{ND-0} #{decoration|name|change}

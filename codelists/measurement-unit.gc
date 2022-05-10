@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.3.0 created on the 2022-01-20T16:03:52-->
+<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>MeasurementUnit</ShortName>
       <LongName>measurement-unit</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/measurement-unit</LongName>
-      <Version>20190918-0</Version>
+      <Version>20211208-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/measurement-unit</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -238,7 +238,7 @@
             <SimpleValue>mois-homme</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>daonmí</SimpleValue>
+            <SimpleValue>daonmhí</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>čovjek-mjesec</SimpleValue>
@@ -253,7 +253,7 @@
             <SimpleValue>asmens darbo mė́nuo</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>cilvēkmēnesis</SimpleValue>
+            <SimpleValue>cilvēkmēneši</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>xhur ta’ xogħol</SimpleValue>
@@ -318,7 +318,7 @@
             <SimpleValue>byte</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>bheart</SimpleValue>
+            <SimpleValue>beart</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>bajt</SimpleValue>
@@ -333,7 +333,7 @@
             <SimpleValue>baitas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>baits</SimpleValue>
+            <SimpleValue>baiti</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>byte</SimpleValue>
@@ -493,7 +493,7 @@
             <SimpleValue>baras</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>bārs</SimpleValue>
+            <SimpleValue>bāri</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>bar</SimpleValue>
@@ -573,7 +573,7 @@
             <SimpleValue>bitas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>bits</SimpleValue>
+            <SimpleValue>biti</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>bit</SimpleValue>
@@ -653,7 +653,7 @@
             <SimpleValue>bekerelis</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>bekerels</SimpleValue>
+            <SimpleValue>bekereli</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>becquerel</SimpleValue>
@@ -733,7 +733,7 @@
             <SimpleValue>molis</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>mols</SimpleValue>
+            <SimpleValue>moli</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>mol</SimpleValue>
@@ -893,7 +893,7 @@
             <SimpleValue>kandela</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>kandela</SimpleValue>
+            <SimpleValue>kandelas</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>candela</SimpleValue>
@@ -1136,7 +1136,7 @@
             <SimpleValue>kubikcentimetri</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>ċentimetru kubiku</SimpleValue>
+            <SimpleValue>ċentimetru kubu</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>kubieke centimeter</SimpleValue>
@@ -1361,7 +1361,7 @@
             <SimpleValue>gigibheart</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>gibibajt</SimpleValue>
+            <SimpleValue>gigabajt</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>gigabyte</SimpleValue>
@@ -1373,7 +1373,7 @@
             <SimpleValue>gigabaitas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>gigabaits</SimpleValue>
+            <SimpleValue>gigabaiti</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>gigabyte</SimpleValue>
@@ -1385,7 +1385,7 @@
             <SimpleValue>gigabajt</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>gibibyte</SimpleValue>
+            <SimpleValue>gigabyte</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>gigabyte</SimpleValue>
@@ -1530,7 +1530,7 @@
             <SimpleValue>stazza lorda</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>bendrąją talpą</SimpleValue>
+            <SimpleValue>bendroji talpa</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>bruto tilpība</SimpleValue>
@@ -1580,7 +1580,7 @@
             <SimpleValue>Gigawattstunde</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>γιγάβατώρα</SimpleValue>
+            <SimpleValue>γιγαβατώρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>gigawatt-hour</SimpleValue>
@@ -1601,7 +1601,7 @@
             <SimpleValue>gigeavatuair</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>gigavat sat</SimpleValue>
+            <SimpleValue>gigavatsat</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>gigawattóra</SimpleValue>
@@ -1838,7 +1838,7 @@
             <SimpleValue>hertz</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>heirts</SimpleValue>
+            <SimpleValue>hertz</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>herc</SimpleValue>
@@ -1942,7 +1942,7 @@
             <SimpleValue>uur</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>godziną</SimpleValue>
+            <SimpleValue>godzina</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>hora</SimpleValue>
@@ -2608,7 +2608,7 @@
             <SimpleValue>labour hour</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>работни час</SimpleValue>
+            <SimpleValue>работен час</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>pracovní hodina</SimpleValue>
@@ -2653,16 +2653,16 @@
             <SimpleValue>dirbta valanda</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>darba stunda</SimpleValue>
+            <SimpleValue>darba stundas</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>sigħat ta' xogħol</SimpleValue>
+            <SimpleValue>sigħat ta’ xogħol</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>arbeidsuur</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>godziną pracy</SimpleValue>
+            <SimpleValue>godzina pracy</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>hora de trabalho</SimpleValue>
@@ -2671,7 +2671,7 @@
             <SimpleValue>oră de muncă</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>hodina prácu</SimpleValue>
+            <SimpleValue>hodina práce</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>delovna ura</SimpleValue>
@@ -2838,6 +2838,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>megawatt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MC</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>microgram</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>микрограм</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>mikrogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>mikrogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Mikrogramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μικρογραμμάριο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>microgram</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>microgramo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>mikrogramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>mikrogramma</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>microgramme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>micreagram</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>mikrogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>mikrogramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>microgrammo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>mikrogramas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>mikrogrami</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>mikrogramma</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>microgram</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>mikrogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>micrograma</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>microgram</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>mikrogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>mikrogram</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>mikrogram</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3521,7 +3601,7 @@
             <SimpleValue>pascal</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>pascal</SimpleValue>
+            <SimpleValue>paskal</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>pascal</SimpleValue>
@@ -3690,13 +3770,13 @@
             <SimpleValue>tonnellata-chilometro</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>tonkilometras</SimpleValue>
+            <SimpleValue>tonkilometris</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>tonnkilometri</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>tunnellata metrika f'kilometru</SimpleValue>
+            <SimpleValue>tunnellata-kilometru</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>tonkilometer</SimpleValue>
@@ -3776,7 +3856,7 @@
             <SimpleValue>tonnas</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>tunnellata</SimpleValue>
+            <SimpleValue>tunnellata metrika</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>ton</SimpleValue>
@@ -3808,10 +3888,10 @@
             <SimpleValue>tonne of oil equivalent</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>тонът нефтен еквивалент</SimpleValue>
+            <SimpleValue>тон нефтен еквивалент</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>tuna ropného ekvivalent</SimpleValue>
+            <SimpleValue>tuna ropného ekvivalentu</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>ton mineralolieækvivalent</SimpleValue>
@@ -3841,7 +3921,7 @@
             <SimpleValue>coibhéis tona ola</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>ekvivalentom tone nafte</SimpleValue>
+            <SimpleValue>ekvivalent tone nafte</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>tonnában számított olajegyenérték</SimpleValue>
@@ -3868,7 +3948,7 @@
             <SimpleValue>tonelada de equivalente de petróleo</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>tona echivalent petrol</SimpleValue>
+            <SimpleValue>tonă echivalent petrol</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>tona ropného ekvivalentu</SimpleValue>

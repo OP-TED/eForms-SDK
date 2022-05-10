@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>15</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">15</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -27,7 +27,7 @@
 									<cbc:PostalZone>25038</cbc:PostalZone>
 									<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -41,6 +41,7 @@
 								</cac:Contact>
 							</efac:Company>
 							<efac:TouchPoint>
+								<cbc:WebsiteURI>http://www.acquebresciane.it</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -51,18 +52,21 @@
 									<cbc:StreetName>via XXV Aprile 18</cbc:StreetName>
 									<cbc:CityName>Rovato</cbc:CityName>
 									<cbc:PostalZone>25038</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
 									<cbc:Telephone>+39 03077199</cbc:Telephone>
+									<cbc:Telefax>+39 030771999</cbc:Telefax>
 									<cbc:ElectronicMail>contact@acquebresciane.it</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:TouchPoint>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://example.it</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -72,8 +76,9 @@
 								<cac:PostalAddress>
 									<cbc:CityName>Brescia</cbc:CityName>
 									<cbc:PostalZone>25121</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -81,12 +86,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>
+									<cbc:Telefax>(+12)345678909</cbc:Telefax>
 									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -95,6 +102,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2985</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -104,6 +113,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -114,8 +124,8 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.5</cbc:CustomizationID>
-	<cbc:ID>8439f5f1-ad52-46a0-b363-533779a02e4b</cbc:ID>
+	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">8439f5f1-ad52-46a0-b363-533779a02e4b</cbc:ID>
 	<cbc:ContractFolderID>0bc9e721-7916-4b3d-bbd0-2350efc3f00e</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-03+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:30:00+01:00</cbc:IssueTime>
@@ -126,7 +136,7 @@
 	<cac:ContractingParty>
 		<cbc:BuyerProfileURI>https://acquebresciane.acquistitelematici.it</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">pub-undert-ra</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingActivity>
 			<cbc:ActivityTypeCode listName="entity-activity">water</cbc:ActivityTypeCode>
@@ -159,14 +169,10 @@
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
 				<cac:Country>
-					<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
-		<cac:PlannedPeriod>
-			<cbc:StartDate>2020-05-01+02:00</cbc:StartDate>
-			<cbc:EndDate>2023-04-30+02:00</cbc:EndDate>
-		</cac:PlannedPeriod>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
@@ -244,7 +250,7 @@
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">ITC47</cbc:CountrySubentityCode>
 					<cac:Country>
-						<cbc:IdentificationCode>ITA</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
@@ -254,11 +260,6 @@
 			</cac:PlannedPeriod>
 			<cac:ContractExtension>
 				<cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
-				<cac:Renewal>
-					<cac:Period>
-						<cbc:Description languageID="ITA">Nessun rinnovo</cbc:Description>
-					</cac:Period>
-				</cac:Renewal>
 			</cac:ContractExtension>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
