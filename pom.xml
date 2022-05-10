@@ -7,6 +7,14 @@
   <artifactId>eforms-sdk</artifactId>
   <version>0.6.1-SNAPSHOT</version>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/OP-TED/eForms-SDK</url>
+    </repository>
+  </distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -19,7 +27,7 @@
         <excludes>
           <exclude>.git</exclude>
           <exclude>.gitignore</exclude>
-          <exclude>target</exclude>
+          <exclude>target/**</exclude>
           <exclude>.project</exclude>
           <exclude>.classpath</exclude>
           <exclude>.settings</exclude>
