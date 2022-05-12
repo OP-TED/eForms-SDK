@@ -39,10 +39,10 @@ template: templateFragment;
  * Whitespace is significant within the template, but is ignored when present at its begining or end.
  */
 templateFragment
-	: text templateFragment?			# textTemplate
-	| labelBlock templateFragment?			# labelTemplate
-	| expressionBlock templateFragment?		# valueTemplate
-	;
+    : text templateFragment?                   # textTemplate
+    | labelBlock templateFragment?             # labelTemplate
+    | expressionBlock templateFragment?        # valueTemplate
+    ;
 
 
 text: whitespace | FreeText+ text*;
@@ -56,23 +56,23 @@ whitespace: Whitespace+;
  * A label-block starts with a # and contains a label identifier inside curly braces.
  */
 labelBlock
-	: StartLabel assetType Pipe labelType Pipe assetId EndLabel	# standardLabelReference
-	| StartLabel labelType Pipe BtId EndLabel			# shorthandBtLabelReference
-	| StartLabel labelType Pipe FieldId EndLabel			# shorthandFieldLabelReference
-	| StartLabel FieldId EndLabel					# shorthandFieldValueLabelReference
-	| StartLabel LabelType EndLabel					# shorthandContextLabelReference
-	| ShorthandContextFieldLabelReference				# shorthandContextFieldLabelReference
-	;
+    : StartLabel assetType Pipe labelType Pipe assetId EndLabel    # standardLabelReference
+    | StartLabel labelType Pipe BtId EndLabel                      # shorthandBtLabelReference
+    | StartLabel labelType Pipe FieldId EndLabel                   # shorthandFieldLabelReference
+    | StartLabel FieldId EndLabel                                  # shorthandFieldValueLabelReference
+    | StartLabel LabelType EndLabel                                # shorthandContextLabelReference
+    | ShorthandContextFieldLabelReference                          # shorthandContextFieldLabelReference
+    ;
 
 assetType: AssetType | expressionBlock;
 labelType: LabelType | expressionBlock;
 assetId
-	: BtId
-	| FieldId
-	| CodelistAssetId
-	| OtherAssetId
-	| expressionBlock
-	;
+    : BtId
+    | FieldId
+    | CodelistAssetId
+    | OtherAssetId
+    | expressionBlock
+    ;
 
 
 /*** Expressions are matched when the lexical analyser is in EXPRESSION mode ***/
@@ -82,18 +82,18 @@ assetId
  * An expression-block starts with a $ and contains the expression to be evaluated inside curly braces.
  */
 expressionBlock
-	: StartExpression expression EndExpression	# standardExpressionBlock
-	| ShorthandContextFieldValueReference		# shorthandContextFieldValueReference
-	;
+    : StartExpression expression EndExpression    # standardExpressionBlock
+    | ShorthandContextFieldValueReference         # shorthandContextFieldValueReference
+    ;
 
 /*
  * A context-declaration is contained within curly braces and can be either 
  * a field-identifier or a node-identifier followed by an optional predicate.
  */
 contextDeclarationBlock
-	: StartExpression absoluteFieldReference EndExpression
-	| StartExpression absoluteNodeReference EndExpression
-	;
+    : StartExpression absoluteFieldReference EndExpression
+    | StartExpression absoluteNodeReference EndExpression
+    ;
 
 
 
@@ -105,33 +105,33 @@ contextDeclarationBlock
 expression: numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression;
 
 booleanExpression
-	: OpenParenthesis booleanExpression CloseParenthesis		# parenthesizedBooleanExpression
-	| booleanExpression operator=Or booleanExpression		# logicalOrCondition
-	| booleanExpression operator=And booleanExpression		# logicalAndCondition
-	| stringExpression modifier=Not? In list			# inListCondition
-	| stringExpression Is modifier=Not? Empty			# emptinessCondition
-	| setReference Is modifier=Not? Present				# presenceCondition
-	| stringExpression modifier=Not? Like pattern=STRING		# likePatternCondition
-	| fieldValueReference operator=Comparison fieldValueReference	# fieldValueComparison
-	| booleanExpression operator=Comparison booleanExpression	# booleanComparison
-	| numericExpression operator=Comparison numericExpression	# numericComparison
-	| stringExpression operator=Comparison stringExpression		# stringComparison
-	| dateExpression operator=Comparison dateExpression		# dateComparison
-	| timeExpression operator=Comparison timeExpression		# timeComparison
-	| durationExpression operator=Comparison durationExpression	# durationComparison
-	| booleanLiteral 						# booleanLiteralExpression
-	| booleanFunction 						# booleanFunctionExpression
-	| BooleanTypeCast? fieldValueReference				# booleanReferenceExpression
-	;
-	
+    : OpenParenthesis booleanExpression CloseParenthesis               # parenthesizedBooleanExpression
+    | booleanExpression operator=Or booleanExpression                  # logicalOrCondition
+    | booleanExpression operator=And booleanExpression                 # logicalAndCondition
+    | stringExpression modifier=Not? In list                           # inListCondition
+    | stringExpression Is modifier=Not? Empty                          # emptinessCondition
+    | setReference Is modifier=Not? Present                            # presenceCondition
+    | stringExpression modifier=Not? Like pattern=STRING               # likePatternCondition
+    | fieldValueReference operator=Comparison fieldValueReference      # fieldValueComparison
+    | booleanExpression operator=Comparison booleanExpression          # booleanComparison
+    | numericExpression operator=Comparison numericExpression          # numericComparison
+    | stringExpression operator=Comparison stringExpression            # stringComparison
+    | dateExpression operator=Comparison dateExpression                # dateComparison
+    | timeExpression operator=Comparison timeExpression                # timeComparison
+    | durationExpression operator=Comparison durationExpression        # durationComparison
+    | booleanLiteral                                                   # booleanLiteralExpression
+    | booleanFunction                                                  # booleanFunctionExpression
+    | BooleanTypeCast? fieldValueReference                             # booleanReferenceExpression
+    ;
+    
 numericExpression
-	: OpenParenthesis numericExpression CloseParenthesis			# parenthesizedNumericExpression
-	| numericExpression operator=(Star | Slash | Per100) numericExpression	# multiplicationExpression
-	| numericExpression operator=(Plus | Minus) numericExpression		# additionExpression
-	| numericLiteral 							# numericLiteralExpression
-	| numericFunction 							# numericFunctionExpression
-	| NumericTypeCast? fieldValueReference					# numericReferenceExpression
-	;
+    : OpenParenthesis numericExpression CloseParenthesis                     # parenthesizedNumericExpression
+    | numericExpression operator=(Star | Slash | Per100) numericExpression   # multiplicationExpression
+    | numericExpression operator=(Plus | Minus) numericExpression            # additionExpression
+    | numericLiteral                                                         # numericLiteralExpression
+    | numericFunction                                                        # numericFunctionExpression
+    | NumericTypeCast? fieldValueReference                                   # numericReferenceExpression
+    ;
 
 stringExpression: stringLiteral | stringFunction | TextTypeCast? fieldValueReference;
 
@@ -140,19 +140,19 @@ dateExpression: dateLiteral | dateFunction | DateTypeCast? fieldValueReference;
 timeExpression: timeLiteral | timeFunction | fieldValueReference;
 
 durationExpression
-	: OpenParenthesis durationExpression CloseParenthesis		# parenthesizedDurationExpression
-	| endDate=dateExpression Minus startDate=dateExpression 	# dateSubtractionExpression
-	| numericExpression Star durationExpression			# durationLeftMultiplicationExpression
- 	| durationExpression Star numericExpression			# durationRightMultiplicationExpression
-	| durationExpression Plus durationExpression			# durationAdditionExpression
-	| durationExpression Minus durationExpression			# durationSubtractionExpression
-	| durationLiteral 						# durationLiteralExpression
-	| DurationTypeCast? fieldValueReference				# durationReferenceExpression
-	;
+    : OpenParenthesis durationExpression CloseParenthesis       # parenthesizedDurationExpression
+    | endDate=dateExpression Minus startDate=dateExpression     # dateSubtractionExpression
+    | numericExpression Star durationExpression                 # durationLeftMultiplicationExpression
+    | durationExpression Star numericExpression                # durationRightMultiplicationExpression
+    | durationExpression Plus durationExpression                # durationAdditionExpression
+    | durationExpression Minus durationExpression               # durationSubtractionExpression
+    | durationLiteral                                           # durationLiteralExpression
+    | DurationTypeCast? fieldValueReference                     # durationReferenceExpression
+    ;
 
-list: OpenParenthesis expression (Comma expression)* CloseParenthesis	# explicitList
-	| codelistReference						# codeList
-	;
+list: OpenParenthesis expression (Comma expression)* CloseParenthesis    # explicitList
+    | codelistReference                                                  # codeList
+    ;
 
 predicate: booleanExpression;
 
@@ -175,9 +175,9 @@ durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
  */
 
 fieldValueReference
-	: fieldReference			# untypedFieldValueReference
-	| fieldReference SlashAt Identifier	# untypedAttributeValueReference 
-	;
+    : fieldReference                       # untypedFieldValueReference
+    | fieldReference SlashAt Identifier    # untypedAttributeValueReference 
+    ;
 
 setReference: fieldReference;
 
@@ -213,33 +213,33 @@ codelistId: Identifier;
  */
 
 booleanFunction
-	: Not OpenParenthesis booleanExpression CloseParenthesis																# notFunction
-	| ContainsFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis 		# containsFunction
-	| StartsWithFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis		# startsWithFunction
-	| EndsWithFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis		# endsWithFunction
-	;
+    : Not OpenParenthesis booleanExpression CloseParenthesis                                                           # notFunction
+    | ContainsFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis        # containsFunction
+    | StartsWithFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis      # startsWithFunction
+    | EndsWithFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis        # endsWithFunction
+    ;
 
 numericFunction
-	: CountFunction OpenParenthesis setReference CloseParenthesis 						# countFunction
-	| NumberFunction OpenParenthesis (stringExpression | fieldValueReference) CloseParenthesis		# numberFunction
-	| SumFunction OpenParenthesis setReference CloseParenthesis 						# sumFunction
-	| StringLengthFunction OpenParenthesis (stringExpression | fieldValueReference) CloseParenthesis	# stringLengthFunction
-	;
+    : CountFunction OpenParenthesis setReference CloseParenthesis                                      # countFunction
+    | NumberFunction OpenParenthesis (stringExpression | fieldValueReference) CloseParenthesis         # numberFunction
+    | SumFunction OpenParenthesis setReference CloseParenthesis                                        # sumFunction
+    | StringLengthFunction OpenParenthesis (stringExpression | fieldValueReference) CloseParenthesis   # stringLengthFunction
+    ;
 
 stringFunction
-	: SubstringFunction OpenParenthesis stringExpression Comma start=numericExpression (Comma length=numericExpression)? CloseParenthesis 	# substringFunction
-	| StringFunction OpenParenthesis numericExpression CloseParenthesis									# toStringFunction
-	| ConcatFunction OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis						# concatFunction
-	| FormatNumberFunction OpenParenthesis numericExpression (Comma format=stringExpression)? CloseParenthesis				# formatNumberFunction
-	;
+    : SubstringFunction OpenParenthesis stringExpression Comma start=numericExpression (Comma length=numericExpression)? CloseParenthesis     # substringFunction
+    | StringFunction OpenParenthesis numericExpression CloseParenthesis                                                                       # toStringFunction
+    | ConcatFunction OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis                                              # concatFunction
+    | FormatNumberFunction OpenParenthesis numericExpression (Comma format=stringExpression)? CloseParenthesis                                # formatNumberFunction
+    ;
 
 
 dateFunction
-	: DateFunction OpenParenthesis stringExpression CloseParenthesis				# dateFromStringFunction
-	| AddMeasure OpenParenthesis dateExpression Comma durationExpression CloseParenthesis		# datePlusMeasureFunction
-	| SubtractMeasure OpenParenthesis dateExpression Comma durationExpression CloseParenthesis	# dateMinusMeasureFunction
-	;
+    : DateFunction OpenParenthesis stringExpression CloseParenthesis                              # dateFromStringFunction
+    | AddMeasure OpenParenthesis dateExpression Comma durationExpression CloseParenthesis         # datePlusMeasureFunction
+    | SubtractMeasure OpenParenthesis dateExpression Comma durationExpression CloseParenthesis    # dateMinusMeasureFunction
+    ;
 
 timeFunction
-	: TimeFunction OpenParenthesis stringExpression CloseParenthesis		# timeFromStringFunction
-	;
+    : TimeFunction OpenParenthesis stringExpression CloseParenthesis        # timeFromStringFunction
+    ;
