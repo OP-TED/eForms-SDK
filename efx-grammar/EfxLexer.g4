@@ -174,7 +174,7 @@ SubtractMeasure: 'subtract-measure';
 
 BtId: ('BT' | 'OPP' | 'OPT') '-' [0-9]+;
 FieldId: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
-NodeId: 'ND' '-' [0-9]+;
+NodeId: 'ND' '-' [a-zA-Z0-9]+;
 
 /**
  * Effective order of precedence is the order of declaration. 
