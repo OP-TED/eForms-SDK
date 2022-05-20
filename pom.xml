@@ -57,12 +57,12 @@
         <targetPath>${project.build.outputDirectory}/eforms-sdk</targetPath>
         <excludes>
           <exclude>.git</exclude>
-		  <exclude>.github</exclude>
+          <exclude>.github/**</exclude>
           <exclude>.gitignore</exclude>
           <exclude>target/**</exclude>
           <exclude>.project</exclude>
           <exclude>.classpath</exclude>
-          <exclude>.settings</exclude>
+          <exclude>.settings/**</exclude>
         </excludes>
       </resource>
     </resources>
