@@ -1,3 +1,9 @@
+# SDK 0.6.2 Release Notes
+
+eForms SDK 0.6.2 fixes an issue that was overlooked when we released 0.6.1. Only pom.xml was modified again to add a deployment profile for tasks that need to be executed only on release.
+
+The content of the SDK does not change with this patch.
+
 # SDK 0.6.1 Release Notes
 
 eForms SDK 0.6.1 only updates the pom.xml to allow us to publish it in the Maven Central Repository.
