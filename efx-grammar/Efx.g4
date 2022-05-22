@@ -119,6 +119,7 @@ booleanExpression
     | dateExpression operator=Comparison dateExpression                # dateComparison
     | timeExpression operator=Comparison timeExpression                # timeComparison
     | durationExpression operator=Comparison durationExpression        # durationComparison
+    | If booleanExpression Then booleanExpression Else booleanExpression     # conditionalBooleanExpression
     | (Every | Some) Variable In list Satisfies booleanExpression      # quantifiedExpression
     | booleanLiteral                                                   # booleanLiteralExpression
     | booleanFunction                                                  # booleanFunctionExpression
@@ -129,27 +130,47 @@ numericExpression
     : OpenParenthesis numericExpression CloseParenthesis                     # parenthesizedNumericExpression
     | numericExpression operator=(Star | Slash | Per100) numericExpression   # multiplicationExpression
     | numericExpression operator=(Plus | Minus) numericExpression            # additionExpression
+    | If booleanExpression Then numericExpression Else numericExpression     # conditionalNumericExpression
     | numericLiteral                                                         # numericLiteralExpression
     | numericFunction                                                        # numericFunctionExpression
     | NumericTypeCast? fieldValueReference                                   # numericReferenceExpression
     ;
 
-stringExpression: stringLiteral | stringFunction | stringVariable | TextTypeCast? fieldValueReference;
+stringExpression
+    : If booleanExpression Then stringExpression Else stringExpression     # conditionalStringExpression
+    | stringLiteral                                                        # stringLiteralExpression
+    | stringFunction                                                       # stringFunctionExpression
+    | stringVariable                                                       # stringVariableExpression
+    | TextTypeCast? fieldValueReference                                    # stringReferenceExpression
+    ;
 
-dateExpression: dateLiteral | dateFunction | dateVariable | DateTypeCast? fieldValueReference;
+dateExpression
+    : If booleanExpression Then dateExpression Else dateExpression          # conditionalDateExpression
+    | dateLiteral                                                           # dateLiteralExpression
+    | dateFunction                                                          # dateFunctionExpression
+    | dateVariable                                                          # dateVariableExpression
+    | DateTypeCast? fieldValueReference                                     # dateReferenceExpression
+    ;
 
-timeExpression: timeLiteral | timeFunction | timeVariable | fieldValueReference;
+timeExpression
+    : If booleanExpression Then timeExpression Else timeExpression          # conditionalTimeExpression
+    | timeLiteral                                                           # timeLiteralExpression
+    | timeFunction                                                          # timeFunctionExpression
+    | timeVariable                                                          # timeVariableExpression
+    | TimeTypeCast? fieldValueReference                                     # timeReferenceExpression
+    ;
 
 durationExpression
-    : OpenParenthesis durationExpression CloseParenthesis       # parenthesizedDurationExpression
-    | endDate=dateExpression Minus startDate=dateExpression     # dateSubtractionExpression
-    | numericExpression Star durationExpression                 # durationLeftMultiplicationExpression
-    | durationExpression Star numericExpression                # durationRightMultiplicationExpression
-    | durationExpression Plus durationExpression                # durationAdditionExpression
-    | durationExpression Minus durationExpression               # durationSubtractionExpression
-    | durationLiteral                                           # durationLiteralExpression
-    | DurationTypeCast? Variable                                # durationVariable
-    | DurationTypeCast? fieldValueReference                     # durationReferenceExpression
+    : OpenParenthesis durationExpression CloseParenthesis                       # parenthesizedDurationExpression
+    | endDate=dateExpression Minus startDate=dateExpression                     # dateSubtractionExpression
+    | numericExpression Star durationExpression                                 # durationLeftMultiplicationExpression
+    | durationExpression Star numericExpression                                 # durationRightMultiplicationExpression
+    | durationExpression Plus durationExpression                                # durationAdditionExpression
+    | durationExpression Minus durationExpression                               # durationSubtractionExpression
+    | If booleanExpression Then durationExpression Else durationExpression      # conditionalDurationExpression
+    | durationLiteral                                                           # durationLiteralExpression
+    | DurationTypeCast? Variable                                                # durationVariable
+    | DurationTypeCast? fieldValueReference                                     # durationReferenceExpression
     ;
 
 list: OpenParenthesis expression (Comma expression)* CloseParenthesis    # explicitList
