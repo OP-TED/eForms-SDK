@@ -119,6 +119,7 @@ booleanExpression
     | dateExpression operator=Comparison dateExpression                # dateComparison
     | timeExpression operator=Comparison timeExpression                # timeComparison
     | durationExpression operator=Comparison durationExpression        # durationComparison
+    | (Every | Some) Variable In list Satisfies booleanExpression      # quantifiedExpression
     | booleanLiteral                                                   # booleanLiteralExpression
     | booleanFunction                                                  # booleanFunctionExpression
     | BooleanTypeCast? fieldValueReference                             # booleanReferenceExpression
@@ -133,11 +134,11 @@ numericExpression
     | NumericTypeCast? fieldValueReference                                   # numericReferenceExpression
     ;
 
-stringExpression: stringLiteral | stringFunction | TextTypeCast? fieldValueReference;
+stringExpression: stringLiteral | stringFunction | stringVariable | TextTypeCast? fieldValueReference;
 
-dateExpression: dateLiteral | dateFunction | DateTypeCast? fieldValueReference;
+dateExpression: dateLiteral | dateFunction | dateVariable | DateTypeCast? fieldValueReference;
 
-timeExpression: timeLiteral | timeFunction | fieldValueReference;
+timeExpression: timeLiteral | timeFunction | timeVariable | fieldValueReference;
 
 durationExpression
     : OpenParenthesis durationExpression CloseParenthesis       # parenthesizedDurationExpression
@@ -147,6 +148,7 @@ durationExpression
     | durationExpression Plus durationExpression                # durationAdditionExpression
     | durationExpression Minus durationExpression               # durationSubtractionExpression
     | durationLiteral                                           # durationLiteralExpression
+    | DurationTypeCast? Variable                                # durationVariable
     | DurationTypeCast? fieldValueReference                     # durationReferenceExpression
     ;
 
@@ -173,6 +175,12 @@ durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
 /*
  * References
  */
+
+
+stringVariable: TextTypeCast? Variable;
+numericVariable: NumericTypeCast? Variable;
+dateVariable: DateTypeCast? Variable;
+timeVariable: TimeTypeCast? Variable;
 
 fieldValueReference
     : fieldReference                       # untypedFieldValueReference
