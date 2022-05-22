@@ -1,6 +1,8 @@
 build
 docs/antora-playbook-local.yml
+.antlr
 .project
 .classpath
 .settings
+.vscode/
 target
