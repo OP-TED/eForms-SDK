@@ -105,25 +105,35 @@ contextDeclarationBlock
 expression: numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression;
 
 booleanExpression
-    : OpenParenthesis booleanExpression CloseParenthesis               # parenthesizedBooleanExpression
-    | booleanExpression operator=Or booleanExpression                  # logicalOrCondition
-    | booleanExpression operator=And booleanExpression                 # logicalAndCondition
-    | stringExpression modifier=Not? In list                           # inListCondition
-    | stringExpression Is modifier=Not? Empty                          # emptinessCondition
-    | setReference Is modifier=Not? Present                            # presenceCondition
-    | stringExpression modifier=Not? Like pattern=STRING               # likePatternCondition
-    | fieldValueReference operator=Comparison fieldValueReference      # fieldValueComparison
-    | booleanExpression operator=Comparison booleanExpression          # booleanComparison
-    | numericExpression operator=Comparison numericExpression          # numericComparison
-    | stringExpression operator=Comparison stringExpression            # stringComparison
-    | dateExpression operator=Comparison dateExpression                # dateComparison
-    | timeExpression operator=Comparison timeExpression                # timeComparison
-    | durationExpression operator=Comparison durationExpression        # durationComparison
-    | If booleanExpression Then booleanExpression Else booleanExpression     # conditionalBooleanExpression
-    | (Every | Some) Variable In list Satisfies booleanExpression      # quantifiedExpression
-    | booleanLiteral                                                   # booleanLiteralExpression
-    | booleanFunction                                                  # booleanFunctionExpression
-    | BooleanTypeCast? fieldValueReference                             # booleanReferenceExpression
+    : OpenParenthesis booleanExpression CloseParenthesis                                # parenthesizedBooleanExpression
+    | booleanExpression operator=Or booleanExpression                                   # logicalOrCondition
+    | booleanExpression operator=And booleanExpression                                  # logicalAndCondition
+    | stringExpression modifier=Not? In stringList                                      # stringInListCondition
+    | booleanExpression modifier=Not? In booleanList                                    # booleanInListCondition
+    | numericExpression modifier=Not? In numericList                                    # numberInListCondition
+    | dateExpression modifier=Not? In dateList                                          # dateInListCondition
+    | timeExpression modifier=Not? In timeList                                          # timeInListCondition
+    | durationExpression modifier=Not? In durationList                                  # durationInListCondition
+    | stringExpression Is modifier=Not? Empty                                           # emptinessCondition
+    | setReference Is modifier=Not? Present                                             # presenceCondition
+    | stringExpression modifier=Not? Like pattern=STRING                                # likePatternCondition
+    | fieldValueReference operator=Comparison fieldValueReference                       # fieldValueComparison
+    | booleanExpression operator=Comparison booleanExpression                           # booleanComparison
+    | numericExpression operator=Comparison numericExpression                           # numericComparison
+    | stringExpression operator=Comparison stringExpression                             # stringComparison
+    | dateExpression operator=Comparison dateExpression                                 # dateComparison
+    | timeExpression operator=Comparison timeExpression                                 # timeComparison
+    | durationExpression operator=Comparison durationExpression                         # durationComparison
+    | If booleanExpression Then booleanExpression Else booleanExpression                # conditionalBooleanExpression
+    | (Every | Some) stringVariable In stringList Satisfies booleanExpression           # stringQuantifiedExpression
+    | (Every | Some) booleanVariable In booleanList Satisfies booleanExpression         # booleanQuantifiedExpression
+    | (Every | Some) numericVariable In numericList Satisfies booleanExpression         # numericQuantifiedExpression
+    | (Every | Some) dateVariable In dateList Satisfies booleanExpression               # dateQuantifiedExpression
+    | (Every | Some) timeVariable In timeList Satisfies booleanExpression               # timeQuantifiedExpression
+    | (Every | Some) durationVariable In durationList Satisfies booleanExpression       # durationQuantifiedExpression
+    | booleanLiteral                                                                    # booleanLiteralExpression
+    | booleanFunction                                                                   # booleanFunctionExpression
+    | BooleanTypeCast? fieldValueReference                                              # booleanReferenceExpression
     ;
     
 numericExpression
@@ -169,13 +179,20 @@ durationExpression
     | durationExpression Minus durationExpression                               # durationSubtractionExpression
     | If booleanExpression Then durationExpression Else durationExpression      # conditionalDurationExpression
     | durationLiteral                                                           # durationLiteralExpression
-    | DurationTypeCast? Variable                                                # durationVariable
+    | durationVariable                                                          # durationVariableExpression
     | DurationTypeCast? fieldValueReference                                     # durationReferenceExpression
     ;
 
-list: OpenParenthesis expression (Comma expression)* CloseParenthesis    # explicitList
-    | codelistReference                                                  # codeList
+stringList: OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis    # explicitStringList
+    | codelistReference                                                                    # codeList
     ;
+
+booleanList: OpenParenthesis booleanExpression (Comma booleanExpression)* CloseParenthesis;
+numericList: OpenParenthesis numericExpression (Comma numericExpression)* CloseParenthesis;
+dateList: OpenParenthesis dateExpression (Comma dateExpression)* CloseParenthesis;
+timeList: OpenParenthesis timeExpression (Comma timeExpression)* CloseParenthesis;
+durationList: OpenParenthesis durationExpression (Comma durationExpression)* CloseParenthesis;
+
 
 predicate: booleanExpression;
 
@@ -199,9 +216,11 @@ durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
 
 
 stringVariable: TextTypeCast? Variable;
+booleanVariable: BooleanTypeCast? Variable;
 numericVariable: NumericTypeCast? Variable;
 dateVariable: DateTypeCast? Variable;
 timeVariable: TimeTypeCast? Variable;
+durationVariable: DurationTypeCast? Variable;
 
 fieldValueReference
     : fieldReference                       # untypedFieldValueReference
