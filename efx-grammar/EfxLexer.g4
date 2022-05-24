@@ -140,6 +140,8 @@ Satisfies: 'satisfies';
 If: 'if';
 Then: 'then';
 Else: 'else';
+For: 'for';
+Return: 'return';
 Always: 'ALWAYS';
 Never: 'NEVER';
 True: 'TRUE';
