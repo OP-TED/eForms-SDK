@@ -364,7 +364,6 @@
 							<efac:Tenderer>
 								<!--OPT-300-->
 								<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
-								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>
