@@ -51,7 +51,7 @@
 								<efbc:TermIndicator>true</efbc:TermIndicator>
 							</efac:ContractTerm>
 							<efac:ContractTerm>
-								<efbc:TermCode listName="customer-service">rew-pen</efbc:TermCode>
+								<efbc:TermCode listName="rewards-penalties">rew-pen</efbc:TermCode>
 								<efbc:TermDescription languageID="SPA">Information on Rewards and Penalties ....</efbc:TermDescription>
 								<efbc:TermIndicator>true</efbc:TermIndicator>
 							</efac:ContractTerm>
@@ -272,13 +272,6 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
-	<cac:TenderingTerms>
-		<cac:TendererQualificationRequest>
-			<cac:SpecificTendererRequirement>
-				<cbc:Description languageID="SPA">description on Exclusion Grounds</cbc:Description>
-			</cac:SpecificTendererRequirement>
-		</cac:TendererQualificationRequest>
-	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>
