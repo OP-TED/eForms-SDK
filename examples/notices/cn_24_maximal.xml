@@ -713,10 +713,6 @@
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!--BT-79-->
 			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
-			<!--BT-94-->
-			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
-			<!--BT-95-->
-			<cbc:RecurringProcurementDescription languageID="ENG">Description of the recurrence ---</cbc:RecurringProcurementDescription>
 			<!--BT-78-->
 			<cbc:LatestSecurityClearanceDate>2023-05-23+02:00</cbc:LatestSecurityClearanceDate>
 			<!--BT-769-->
@@ -1196,10 +1192,6 @@
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!--BT-79-->
 			<cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
-			<!--BT-94-->
-			<cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
-			<!--BT-95-->
-			<cbc:RecurringProcurementDescription languageID="ENG">Description of the recurrence ---</cbc:RecurringProcurementDescription>
 			<!--BT-78-->
 			<cbc:LatestSecurityClearanceDate>2023-05-23+02:00</cbc:LatestSecurityClearanceDate>
 			<!--BT-769-->
