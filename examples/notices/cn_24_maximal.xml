@@ -1030,8 +1030,6 @@
 			<cac:FrameworkAgreement>
 				<!--BT-113-->
 				<cbc:MaximumOperatorQuantity>10</cbc:MaximumOperatorQuantity>
-				<!--BT-109-->
-				<cbc:Justification languageID="ENG">Framework Duration Justification ---</cbc:Justification>
 				<!--BT-157-->
 				<cbc:EstimatedMaximumValueAmount  currencyID="EUR">10000</cbc:EstimatedMaximumValueAmount>
 				<cac:SubsequentProcessTenderRequirement>
@@ -1513,8 +1511,6 @@
 			<cac:FrameworkAgreement>
 				<!--BT-113-->
 				<cbc:MaximumOperatorQuantity>10</cbc:MaximumOperatorQuantity>
-				<!--BT-109-->
-				<cbc:Justification languageID="ENG">Framework Duration Justification ---</cbc:Justification>
 				<!--BT-157-->
 				<cbc:EstimatedMaximumValueAmount  currencyID="EUR">10000</cbc:EstimatedMaximumValueAmount>
 				<cac:SubsequentProcessTenderRequirement>
