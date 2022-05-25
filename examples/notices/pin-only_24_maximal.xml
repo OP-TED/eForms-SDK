@@ -878,8 +878,6 @@
 				<cbc:StartDate>2024-03-01+01:00</cbc:StartDate>
 				<!--BT-537-->
 				<cbc:EndDate>2024-09-01+02:00</cbc:EndDate>
-				<!--BT-36-->
-				<cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
