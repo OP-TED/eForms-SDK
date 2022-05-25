@@ -183,6 +183,7 @@
 		<cac:TendererQualificationRequest>
 			<!-- The way this is marked will most likely be simplified. Use of /*/cac:TenderingTerms/cac:TendererQualificationRequest/cbc:Description instead. -->
 			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Applicants shall be excluded from participating in a contract if:
 (a) they are bankrupt, being wound up or have suspended business activities, their affairs are being administered by the court, they have entered into an arrangement with creditors or similar measures or are the subject of any proceedings of that nature, or are in any analogous situation arising from a similar procedure provided for in national legislation or regulations;
 (b) they have been convicted of an offence concerning their professional conduct by a judgment which is not open to appeal;
