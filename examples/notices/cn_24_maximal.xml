@@ -536,10 +536,10 @@
 			<cac:LotsGroup>
 				<cbc:LotsGroupID>GLO-0001</cbc:LotsGroupID>
 				<cac:ProcurementProjectLotReference>
-					<cbc:ID>LOT-0001</cbc:ID>
+					<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 				</cac:ProcurementProjectLotReference>
 				<cac:ProcurementProjectLotReference>
-					<cbc:ID>LOT-0002</cbc:ID>
+					<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 				</cac:ProcurementProjectLotReference>
 			</cac:LotsGroup>
 		</cac:LotDistribution>
