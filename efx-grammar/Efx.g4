@@ -69,11 +69,12 @@ labelType: LabelType | expressionBlock;
 assetId
     : BtId
     | FieldId
-    | CodelistAssetId
-    | OtherAssetId
+    | otherAssetId
     | expressionBlock
     ;
 
+// We allow otherAsstId to be any identifier, including the ones used for AssetType or LabelType
+otherAssetId: OtherAssetId | AssetType | LabelType;
 
 /*** Expressions are matched when the lexical analyser is in EXPRESSION mode ***/
 

@@ -80,6 +80,7 @@ EndLabel: '}' -> popMode;
 
 StartNestedExpression: '$' '{' -> pushMode(EXPRESSION), type(StartExpression);
 
+
 AssetType: ASSET_TYPE_BT | ASSET_TYPE_FIELD | ASSET_TYPE_CODE | ASSET_TYPE_INDICATOR | ASSET_TYPE_DECORATION | ASSET_TYPE_RULE | ASSET_TYPE_CONDITION;
 ASSET_TYPE_BT: 'business_term';
 ASSET_TYPE_FIELD: 'field';
@@ -99,7 +100,6 @@ LABEL_TYPE_MESSAGE_TEMPLATE: 'message_template';
 
 FieldAssetId: FieldId -> type(FieldId);
 BtAssetId: BtId -> type(BtId);
-CodelistAssetId: 'CL' ('-' [a-zA-Z_] [a-zA-Z0-9_]*)+;
 OtherAssetId: [a-z]+ ('-' [a-z0-9]*)*;
 
 /*
