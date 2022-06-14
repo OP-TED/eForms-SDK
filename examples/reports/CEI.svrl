@@ -116,12 +116,16 @@
                        role="WARN"
                        test="count(cbc:MinimumPercent) &gt; 0">
       <svrl:text>rule|message|BR-BT-00064-0017</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-64-Lot">
+cbc:MinimumPercent</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00729-0017"
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AllowedSubcontractTerms"
                        role="WARN"
                        test="count(cbc:MaximumPercent) &gt; 0">
       <svrl:text>rule|message|BR-BT-00729-0017</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-729-Lot">
+cbc:MaximumPercent</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = 'CEI']"/>

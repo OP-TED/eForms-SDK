@@ -151,6 +151,8 @@
                        role="WARN"
                        test="count(cbc:OptionsDescription) &gt; 0">
       <svrl:text>rule|message|BR-BT-00054-0016</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-54-Lot">
+cbc:OptionsDescription</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '11']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '11']"/>
@@ -169,6 +171,8 @@
                        role="WARN"
                        test="count(cbc:OptionsDescription) &gt; 0">
       <svrl:text>rule|message|BR-BT-00054-0016</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-54-Lot">
+cbc:OptionsDescription</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
    <svrl:fired-rule context="/*"/>

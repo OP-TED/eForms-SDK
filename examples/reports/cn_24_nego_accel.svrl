@@ -153,6 +153,8 @@
                        role="WARN"
                        test="count(cbc:OptionsDescription) &gt; 0">
       <svrl:text>rule|message|BR-BT-00054-0022</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-54-Lot">
+cbc:OptionsDescription</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
    <svrl:fired-rule context="/*"/>
