@@ -55,30 +55,30 @@
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
    <svrl:fired-rule context="/*[$noticeSubType = '29']"/>
-   <svrl:failed-assert id="ND-594-29"
+   <svrl:failed-assert id="ND-ProcedureProcurementScope-29"
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cac:ProcurementProject) &gt; 0">
-      <svrl:text>rule|message|ND-594-29</svrl:text>
+      <svrl:text>rule|message|ND-ProcedureProcurementScope-29</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="ND-574-29"
+   <svrl:failed-assert id="ND-ProcedureTenderingProcess-29"
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cac:TenderingProcess) &gt; 0">
-      <svrl:text>rule|message|ND-574-29</svrl:text>
+      <svrl:text>rule|message|ND-ProcedureTenderingProcess-29</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']"/>
-   <svrl:failed-assert id="ND-68-29"
+   <svrl:failed-assert id="ND-NoticeResult-29"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
                        role="ERROR"
                        test="count(efac:NoticeResult) &gt; 0">
-      <svrl:text>rule|message|ND-68-29</svrl:text>
+      <svrl:text>rule|message|ND-NoticeResult-29</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="ND-468-29"
+   <svrl:failed-assert id="ND-Organizations-29"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
                        role="ERROR"
                        test="count(efac:Organizations) &gt; 0">
-      <svrl:text>rule|message|ND-468-29</svrl:text>
+      <svrl:text>rule|message|ND-Organizations-29</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '29']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>

@@ -55,24 +55,24 @@
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
    <svrl:fired-rule context="/*[$noticeSubType = '16']"/>
-   <svrl:failed-assert id="ND-574-16"
+   <svrl:failed-assert id="ND-ProcedureTenderingProcess-16"
                        location="/ContractNotice"
                        role="ERROR"
                        test="count(cac:TenderingProcess) &gt; 0">
-      <svrl:text>rule|message|ND-574-16</svrl:text>
+      <svrl:text>rule|message|ND-ProcedureTenderingProcess-16</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="ND-1-16"
+   <svrl:failed-assert id="ND-ProcedureTerms-16"
                        location="/ContractNotice"
                        role="ERROR"
                        test="count(cac:TenderingTerms) &gt; 0">
-      <svrl:text>rule|message|ND-1-16</svrl:text>
+      <svrl:text>rule|message|ND-ProcedureTerms-16</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
-   <svrl:failed-assert id="ND-468-16"
+   <svrl:failed-assert id="ND-Organizations-16"
                        location="/ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
                        role="ERROR"
                        test="count(efac:Organizations) &gt; 0">
-      <svrl:text>rule|message|ND-468-16</svrl:text>
+      <svrl:text>rule|message|ND-Organizations-16</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '16']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>

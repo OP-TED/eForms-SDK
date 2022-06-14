@@ -57,18 +57,18 @@
    <svrl:fired-rule context="cbc:ActivityTypeCode"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
    <svrl:fired-rule context="/*[$noticeSubType = '4']"/>
-   <svrl:failed-assert id="ND-594-4"
+   <svrl:failed-assert id="ND-ProcedureProcurementScope-4"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cac:ProcurementProject) &gt; 0">
-      <svrl:text>rule|message|ND-594-4</svrl:text>
+      <svrl:text>rule|message|ND-ProcedureProcurementScope-4</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
-   <svrl:failed-assert id="ND-468-4"
+   <svrl:failed-assert id="ND-Organizations-4"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
                        role="ERROR"
                        test="count(efac:Organizations) &gt; 0">
-      <svrl:text>rule|message|ND-468-4</svrl:text>
+      <svrl:text>rule|message|ND-Organizations-4</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>

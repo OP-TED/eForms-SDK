@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00.-->
+<!--File generated from metadata database version 0.4.65 created on the 2022-06-13T17:44:57.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BT-01-notice_R</assert>
@@ -450,7 +450,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria">
 		<assert id="BT-40-Lot_R" role="ERROR" test="count(efbc:SecondStageIndicator) &lt; 2">rule|message|BT-40-Lot_R</assert>
-		<assert id="BT-747-Lot_R" role="ERROR" test="count(cbc:CriterionTypeCode[@listName='selection-criterion']) &lt; 2">rule|message|BT-747-Lot_R</assert>
 		<assert id="BT-748-Lot_R" role="ERROR" test="count(cbc:CalculationExpressionCode[@listName='usage']) &lt; 2">rule|message|BT-748-Lot_R</assert>
 		<assert id="BT-749-Lot_A" role="ERROR" test="count(cbc:Name[@languageID = preceding-sibling::cbc:Name/@languageID]) = 0">rule|message|BT-749-Lot_A</assert>
 		<assert id="BT-749-Lot_B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Name/@languageID = $lg) or count(cbc:Name) = 0">rule|message|BT-749-Lot_B</assert>
@@ -771,7 +770,6 @@
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution">
 		<assert id="BT-31-Procedure_R" role="ERROR" test="count(cbc:MaximumLotsSubmittedNumeric) &lt; 2">rule|message|BT-31-Procedure_R</assert>
 		<assert id="BT-33-Procedure_R" role="ERROR" test="count(cbc:MaximumLotsAwardedNumeric) &lt; 2">rule|message|BT-33-Procedure_R</assert>
-		<assert id="BT-330-Procedure_R" role="ERROR" test="count(cac:LotsGroup/cbc:LotsGroupID) &lt; 2">rule|message|BT-330-Procedure_R</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference">
 		<assert id="BT-09(a)-Procedure_R" role="ERROR" test="count(cbc:ID[text()='CrossBorderLaw']) &lt; 2">rule|message|BT-09(a)-Procedure_R</assert>
@@ -824,14 +822,15 @@
 		<assert id="BT-798-Review_B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:WithdrawnAppealReasons/@languageID = $lg) or count(efbc:WithdrawnAppealReasons) = 0">rule|message|BT-798-Review_B</assert>
 		<assert id="BT-798-Review_C" role="ERROR" test="(every $lg in (efbc:WithdrawnAppealReasons/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:WithdrawnAppealReasons) = 0">rule|message|BT-798-Review_C</assert>
 		<assert id="BT-799-ReviewBody_R" role="ERROR" test="count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode) &lt; 2">rule|message|BT-799-ReviewBody_R</assert>
-		<assert id="OPT-091-ReviewReq_R" role="ERROR" test="count(efac:AppealingParty/efbc:AppealingPartyTypeCode) &lt; 2">rule|message|OPT-091-ReviewReq_R</assert>
 		<assert id="OPT-092-ReviewBody_A" role="ERROR" test="count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealProcessingPartyTypeDescription/@languageID]) = 0">rule|message|OPT-092-ReviewBody_A</assert>
 		<assert id="OPT-092-ReviewBody_B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription/@languageID = $lg) or count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription) = 0">rule|message|OPT-092-ReviewBody_B</assert>
 		<assert id="OPT-092-ReviewBody_C" role="ERROR" test="(every $lg in (efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription) = 0">rule|message|OPT-092-ReviewBody_C</assert>
-		<assert id="OPT-092-ReviewReq_A" role="ERROR" test="count(efac:AppealingParty/efbc:AppealingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealingPartyTypeDescription/@languageID]) = 0">rule|message|OPT-092-ReviewReq_A</assert>
-		<assert id="OPT-092-ReviewReq_B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efac:AppealingParty/efbc:AppealingPartyTypeDescription/@languageID = $lg) or count(efac:AppealingParty/efbc:AppealingPartyTypeDescription) = 0">rule|message|OPT-092-ReviewReq_B</assert>
-		<assert id="OPT-092-ReviewReq_C" role="ERROR" test="(every $lg in (efac:AppealingParty/efbc:AppealingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efac:AppealingParty/efbc:AppealingPartyTypeDescription) = 0">rule|message|OPT-092-ReviewReq_C</assert>
 		<assert id="OPT-301-ReviewBody_R" role="ERROR" test="count(efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID) &lt; 2">rule|message|OPT-301-ReviewBody_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty">
+		<assert id="OPT-092-ReviewReq_A" role="ERROR" test="count(efbc:AppealingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealingPartyTypeDescription/@languageID]) = 0">rule|message|OPT-092-ReviewReq_A</assert>
+		<assert id="OPT-092-ReviewReq_B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:AppealingPartyTypeDescription/@languageID = $lg) or count(efbc:AppealingPartyTypeDescription) = 0">rule|message|OPT-092-ReviewReq_B</assert>
+		<assert id="OPT-092-ReviewReq_C" role="ERROR" test="(every $lg in (efbc:AppealingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:AppealingPartyTypeDescription) = 0">rule|message|OPT-092-ReviewReq_C</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes">
 		<assert id="BT-758-notice_R" role="ERROR" test="count(efbc:ChangedNoticeIdentifier) &lt; 2">rule|message|BT-758-notice_R</assert>
@@ -909,13 +908,12 @@
 		<assert id="BT-144-LotResult_R" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &lt; 2">rule|message|BT-144-LotResult_R</assert>
 		<assert id="BT-710-LotResult_R" role="ERROR" test="count(cbc:LowerTenderAmount) &lt; 2">rule|message|BT-710-LotResult_R</assert>
 		<assert id="BT-711-LotResult_R" role="ERROR" test="count(cbc:HigherTenderAmount) &lt; 2">rule|message|BT-711-LotResult_R</assert>
+		<assert id="BT-712(a)-LotResult_R" role="ERROR" test="count(efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efbc:StatisticsCode) &lt; 2">rule|message|BT-712(a)-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']">
 		<assert id="BT-635-LotResult_R" role="ERROR" test="count(efbc:StatisticsNumeric) &lt; 2">rule|message|BT-635-LotResult_R</assert>
-		<assert id="BT-636-LotResult_R" role="ERROR" test="count(efbc:StatisticsCode) &lt; 2">rule|message|BT-636-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']">
-		<assert id="BT-712(a)-LotResult_R" role="ERROR" test="count(efbc:StatisticsCode) &lt; 2">rule|message|BT-712(a)-LotResult_R</assert>
 		<assert id="BT-712(b)-LotResult_R" role="ERROR" test="count(efbc:StatisticsNumeric) &lt; 2">rule|message|BT-712(b)-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req']">
@@ -1033,11 +1031,7 @@
 		<assert id="BT-197(BT-163)-Tender_R" role="ERROR" test="count(cbc:ReasonCode) &lt; 2">rule|message|BT-197(BT-163)-Tender_R</assert>
 		<assert id="BT-198(BT-163)-Tender_R" role="ERROR" test="count(efbc:PublicationDate) &lt; 2">rule|message|BT-198(BT-163)-Tender_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/@listName='contract-detail']">
-		<assert id="OPP-030-Tender_R" role="ERROR" test="count(efbc:TermCode) &lt; 2">rule|message|OPP-030-Tender_R</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']">
-		<assert id="OPP-033-Tender_R" role="ERROR" test="count(efbc:TermCode) &lt; 2">rule|message|OPP-033-Tender_R</assert>
 		<assert id="OPP-034-Tender_A" role="ERROR" test="count(efbc:TermDescription[@languageID = preceding-sibling::efbc:TermDescription/@languageID]) = 0">rule|message|OPP-034-Tender_A</assert>
 		<assert id="OPP-034-Tender_B" role="ERROR" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:TermDescription/@languageID = $lg) or count(efbc:TermDescription) = 0">rule|message|OPP-034-Tender_B</assert>
 		<assert id="OPP-034-Tender_C" role="ERROR" test="(every $lg in (efbc:TermDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:TermDescription) = 0">rule|message|OPP-034-Tender_C</assert>

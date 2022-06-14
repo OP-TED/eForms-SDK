@@ -248,18 +248,12 @@
                        test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']) &gt; 0">
       <svrl:text>rule|message|BR-BT-00764-0022</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:failed-assert id="BR-BT-00747-0022"
-                       location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria"
+                       location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
                        role="ERROR"
-                       test="count(cbc:CriterionTypeCode[@listName='selection-criterion']) &gt; 0">
+                       test="count(efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']) &gt; 0">
       <svrl:text>rule|message|BR-BT-00747-0022</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="BR-BT-00748-0022"
-                       location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria"
-                       role="ERROR"
-                       test="count(cbc:CalculationExpressionCode[@listName='usage']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00748-0022</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '16']"/>
    <svrl:failed-assert id="BR-BT-00014-0073"
@@ -565,6 +559,7 @@
                        test="count(cbc:ID) = 0 or (cbc:DocumentType)">
       <svrl:text>rule|message|BR-OPT-00140-0123</svrl:text>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])][$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '16']"/>
    <svrl:failed-assert id="BR-BT-00099-0022"
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
