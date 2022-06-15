@@ -277,6 +277,7 @@ cbc:WebsiteURI</svrl:diagnostic-reference>
       <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
 cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '16']"/>

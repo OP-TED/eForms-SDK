@@ -313,6 +313,7 @@ cbc:MaximumPercent</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'CEI']"/>
+   <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = 'CEI']"/>

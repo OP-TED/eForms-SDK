@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.4.65 created on the 2022-06-13T17:44:57.-->
+<!--File generated from metadata database version 0.4.79 created on the 2022-06-15T08:31:19.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BT-01-notice_R</assert>
@@ -766,13 +766,11 @@
 		<assert id="BT-01(d)-Procedure_A" role="ERROR" diagnostics="BT-01(d)-Procedure" test="count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">rule|message|BT-01(d)-Procedure_A</assert>
 		<assert id="BT-01(d)-Procedure_B" role="ERROR" diagnostics="BT-01(d)-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription/@languageID = $lg) or count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription) = 0">rule|message|BT-01(d)-Procedure_B</assert>
 		<assert id="BT-01(d)-Procedure_C" role="ERROR" diagnostics="BT-01(d)-Procedure" test="(every $lg in (cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription) = 0">rule|message|BT-01(d)-Procedure_C</assert>
+		<assert id="BT-09(a)-Procedure_R" role="ERROR" diagnostics="BT-09(a)-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &lt; 2">rule|message|BT-09(a)-Procedure_R</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution">
 		<assert id="BT-31-Procedure_R" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) &lt; 2">rule|message|BT-31-Procedure_R</assert>
 		<assert id="BT-33-Procedure_R" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) &lt; 2">rule|message|BT-33-Procedure_R</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference">
-		<assert id="BT-09(a)-Procedure_R" role="ERROR" diagnostics="BT-09(a)-Procedure" test="count(cbc:ID[text()='CrossBorderLaw']) &lt; 2">rule|message|BT-09(a)-Procedure_R</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law']">
 		<assert id="BT-195(BT-09)-Procedure_R" role="ERROR" diagnostics="BT-195(BT-09)-Procedure" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|message|BT-195(BT-09)-Procedure_R</assert>

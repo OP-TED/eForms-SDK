@@ -410,6 +410,7 @@ cbc:OptionsDescription</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '11']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '11']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '11']"/>
+   <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = '11']"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = '11']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '11']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '11']"/>
