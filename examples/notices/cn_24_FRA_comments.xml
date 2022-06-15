@@ -281,8 +281,6 @@
 			</ext:UBLExtensions>
 			<!--BT-60 - EU Funds-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
-			<!-- BT-94 Recurrence -->
-			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>Whatever identifier </cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
@@ -502,8 +500,6 @@
 			</ext:UBLExtensions>
 			<!--BT-60 - EU Funds-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
-			<!-- BT-94 Recurrence -->
-			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>Whatever identifier </cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>

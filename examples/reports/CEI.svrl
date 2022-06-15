@@ -52,6 +52,7 @@
    <svrl:fired-rule context="cbc:PartyTypeCode"/>
    <svrl:fired-rule context="cbc:PartyTypeCode"/>
    <svrl:fired-rule context="cbc:ActivityTypeCode"/>
+   <svrl:fired-rule context="cbc:TendererRequirementTypeCode"/>
    <svrl:fired-rule context="cbc:ProcedureCode"/>
    <svrl:fired-rule context="cbc:ProcurementTypeCode"/>
    <svrl:fired-rule context="cbc:ItemClassificationCode"/>
@@ -79,8 +80,6 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = 'CEI']"/>
-   <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = 'CEI']"/>
-   <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'CEI']"/>
@@ -102,11 +101,11 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = 'CEI']"/>
-   <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'CEI']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = 'CEI']"/>
@@ -117,12 +116,16 @@
                        role="WARN"
                        test="count(cbc:MinimumPercent) &gt; 0">
       <svrl:text>rule|message|BR-BT-00064-0017</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-64-Lot">
+cbc:MinimumPercent</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00729-0017"
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AllowedSubcontractTerms"
                        role="WARN"
                        test="count(cbc:MaximumPercent) &gt; 0">
       <svrl:text>rule|message|BR-BT-00729-0017</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-729-Lot">
+cbc:MaximumPercent</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = 'CEI']"/>
@@ -255,6 +258,7 @@
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"/>
+   <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='exclusion-ground']"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:Description"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess/cbc:ProcedureCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Name"/>
@@ -309,6 +313,8 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'CEI']"/>
+   <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = 'CEI']"/>
+   <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = 'CEI']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'CEI']"/>

@@ -220,7 +220,7 @@
 								<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
 							</efac:TenderingParty>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0001</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>REF GHI/0003-01</cbc:ID>
@@ -246,7 +246,7 @@
 								<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
 							</efac:TenderingParty>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0002</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>REF JKL/0003-01</cbc:ID>
@@ -364,7 +364,6 @@
 							<efac:Tenderer>
 								<!--OPT-300-->
 								<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
-								<efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>

@@ -232,6 +232,7 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
@@ -240,12 +241,16 @@
                        role="WARN"
                        test="count(cbc:WebsiteURI) &gt; 0 or not(cac:PartyName/cbc:Name)">
       <svrl:text>rule|message|BR-BT-00505-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-505-Organization-Company">
+cbc:WebsiteURI</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00739-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[1]/efac:Company"
                        role="WARN"
                        test="count(cac:Contact/cbc:Telefax) &gt; 0 or not(cac:PartyName/cbc:Name)">
       <svrl:text>rule|message|BR-BT-00739-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
+cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
@@ -254,12 +259,16 @@
                        role="WARN"
                        test="count(cbc:WebsiteURI) &gt; 0 or not(cac:PartyName/cbc:Name)">
       <svrl:text>rule|message|BR-BT-00505-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-505-Organization-Company">
+cbc:WebsiteURI</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00739-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[2]/efac:Company"
                        role="WARN"
                        test="count(cac:Contact/cbc:Telefax) &gt; 0 or not(cac:PartyName/cbc:Name)">
       <svrl:text>rule|message|BR-BT-00739-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
+cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
@@ -268,12 +277,16 @@
                        role="WARN"
                        test="count(cbc:WebsiteURI) &gt; 0 or not(cac:PartyName/cbc:Name)">
       <svrl:text>rule|message|BR-BT-00505-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-505-Organization-Company">
+cbc:WebsiteURI</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00739-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[3]/efac:Company"
                        role="WARN"
                        test="count(cac:Contact/cbc:Telefax) &gt; 0 or not(cac:PartyName/cbc:Name)">
       <svrl:text>rule|message|BR-BT-00739-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
+cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '29']"/>

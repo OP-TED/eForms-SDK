@@ -92,7 +92,7 @@
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '16']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution'][$noticeSubType = '16']"/>
@@ -787,13 +787,18 @@
                        role="WARN"
                        test="count(cbc:WebsiteURI) &gt; 0 or not(cac:PartyName/cbc:Name)">
       <svrl:text>rule|message|BR-BT-00505-0022</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-505-Organization-Company">
+cbc:WebsiteURI</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00739-0022"
                        location="/ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="WARN"
                        test="count(cac:Contact/cbc:Telefax) &gt; 0 or not(cac:PartyName/cbc:Name)">
       <svrl:text>rule|message|BR-BT-00739-0022</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
+cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '16']"/>
@@ -803,6 +808,8 @@
                        role="ERROR"
                        test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) != 'not-allowed')">
       <svrl:text>rule|message|BR-BT-00018-0022</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-18-Lot">
+cac:TenderRecipientParty/cbc:EndpointID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '16']"/>
@@ -812,6 +819,8 @@
                        role="ERROR"
                        test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description)">
       <svrl:text>rule|message|BR-OPT-00301-1130</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-301-Lot-ReviewInfo">
+cac:AppealInformationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '16']"/>

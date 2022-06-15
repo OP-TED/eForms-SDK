@@ -26,9 +26,6 @@
 		</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty">
-		<assert id="BR-1002-0001" role="ERROR" test="(every $tenderer in efac:Tenderer satisfies count($tenderer/efbc:GroupLeadIndicator) eq 1) or count(efac:Tenderer) eq 1">
-			rule|message|BR-1002-0001
-		</assert>
 		<assert id="BR-1002-0002" role="ERROR" test="(count(efac:Tenderer/efbc:GroupLeadIndicator[text() = 'true']) eq 1) or count(efac:Tenderer) eq 1">
 			rule|message|BR-1002-0002
 		</assert>

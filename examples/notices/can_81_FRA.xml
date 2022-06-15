@@ -85,8 +85,6 @@
 							<efac:Tenderer>
 								<!--OPT-300-->
 								<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
-								<!--OPT-170-->
-								<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>
