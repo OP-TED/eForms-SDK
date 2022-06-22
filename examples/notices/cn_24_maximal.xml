@@ -1087,7 +1087,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-754-->
-				<cbc:ProcurementTypeCode listName="accessibility">inc</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="accessibility">n-inc-just</cbc:ProcurementTypeCode>
 				<!--BT-755-->
 				<cbc:ProcurementType languageID="ENG">Accessibility Justification ---</cbc:ProcurementType>
 			</cac:ProcurementAdditionalType>
@@ -1568,7 +1568,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-754-->
-				<cbc:ProcurementTypeCode listName="accessibility">inc</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="accessibility">n-inc-just</cbc:ProcurementTypeCode>
 				<!--BT-755-->
 				<cbc:ProcurementType languageID="ENG">Accessibility Justification ---</cbc:ProcurementType>
 			</cac:ProcurementAdditionalType>
