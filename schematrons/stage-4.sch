@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.4.79 created on the 2022-06-15T08:31:19.-->
+<!--File generated from metadata database version 0.4.130 created on the 2022-06-22T11:40:15.-->
 <pattern id="EFORMS-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X02']">
 		<assert id="BR-OPP-00113-0002" role="ERROR" diagnostics="OPP-113-Business-European" test="count(cbc:RegistrationDate) &gt; 0 or not(cbc:CompanyID[@schemeName = 'EU'])">rule|message|BR-OPP-00113-0002</assert>
@@ -159,219 +159,305 @@
 		<assert id="BR-BT-00010-0041" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|message|BR-BT-00010-0041</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '36']">
-		<assert id="BR-BT-00026-0345" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0345</assert>
-		<assert id="BR-BT-00026-0395" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0395</assert>
 		<assert id="BR-BT-00531-0045" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0045</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '37']">
-		<assert id="BR-BT-00026-0346" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0346</assert>
-		<assert id="BR-BT-00026-0396" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0396</assert>
 		<assert id="BR-BT-00531-0046" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0046</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '38']">
-		<assert id="BR-BT-00026-0347" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0347</assert>
-		<assert id="BR-BT-00026-0397" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0397</assert>
 		<assert id="BR-BT-00531-0047" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0047</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '39']">
-		<assert id="BR-BT-00026-0348" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0348</assert>
-		<assert id="BR-BT-00026-0398" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0398</assert>
 		<assert id="BR-BT-00531-0048" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0048</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '40']">
-		<assert id="BR-BT-00026-0349" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0349</assert>
-		<assert id="BR-BT-00026-0399" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0399</assert>
 		<assert id="BR-BT-00531-0049" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0049</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '33']">
-		<assert id="BR-BT-00026-0342" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0342</assert>
-		<assert id="BR-BT-00026-0392" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0392</assert>
 		<assert id="BR-BT-00531-0042" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0042</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '34']">
-		<assert id="BR-BT-00026-0343" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0343</assert>
-		<assert id="BR-BT-00026-0393" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0393</assert>
 		<assert id="BR-BT-00531-0043" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0043</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '35']">
-		<assert id="BR-BT-00026-0344" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0344</assert>
-		<assert id="BR-BT-00026-0394" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0394</assert>
 		<assert id="BR-BT-00531-0044" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0044</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '29']">
-		<assert id="BR-BT-00026-0336" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0336</assert>
-		<assert id="BR-BT-00026-0386" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0386</assert>
 		<assert id="BR-BT-00531-0036" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0036</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '30']">
-		<assert id="BR-BT-00026-0337" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0337</assert>
-		<assert id="BR-BT-00026-0387" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0387</assert>
 		<assert id="BR-BT-00531-0037" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0037</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '32']">
-		<assert id="BR-BT-00026-0339" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0339</assert>
-		<assert id="BR-BT-00026-0389" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0389</assert>
 		<assert id="BR-BT-00531-0039" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0039</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '31']">
-		<assert id="BR-BT-00026-0338" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0338</assert>
-		<assert id="BR-BT-00026-0388" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0388</assert>
 		<assert id="BR-BT-00531-0038" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0038</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '23']">
-		<assert id="BR-BT-00026-0330" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0330</assert>
-		<assert id="BR-BT-00026-0380" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0380</assert>
 		<assert id="BR-BT-00531-0030" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0030</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '24']">
-		<assert id="BR-BT-00026-0331" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0331</assert>
-		<assert id="BR-BT-00026-0381" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0381</assert>
 		<assert id="BR-BT-00531-0031" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0031</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '20']">
-		<assert id="BR-BT-00026-0327" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0327</assert>
-		<assert id="BR-BT-00026-0377" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0377</assert>
 		<assert id="BR-BT-00531-0027" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0027</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '21']">
-		<assert id="BR-BT-00026-0328" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0328</assert>
-		<assert id="BR-BT-00026-0378" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0378</assert>
 		<assert id="BR-BT-00531-0028" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0028</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '16']">
-		<assert id="BR-BT-00026-0322" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0322</assert>
-		<assert id="BR-BT-00026-0372" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0372</assert>
 		<assert id="BR-BT-00531-0022" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0022</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '17']">
-		<assert id="BR-BT-00026-0323" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0323</assert>
-		<assert id="BR-BT-00026-0373" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0373</assert>
 		<assert id="BR-BT-00531-0023" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0023</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '19']">
-		<assert id="BR-BT-00026-0325" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0325</assert>
-		<assert id="BR-BT-00026-0375" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0375</assert>
 		<assert id="BR-BT-00531-0025" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0025</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '18']">
-		<assert id="BR-BT-00026-0324" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0324</assert>
-		<assert id="BR-BT-00026-0374" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0374</assert>
 		<assert id="BR-BT-00531-0024" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0024</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '1']">
-		<assert id="BR-BT-00026-0304" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0304</assert>
-		<assert id="BR-BT-00026-0354" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0354</assert>
 		<assert id="BR-BT-00531-0004" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0004</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '2']">
-		<assert id="BR-BT-00026-0305" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0305</assert>
-		<assert id="BR-BT-00026-0355" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0355</assert>
 		<assert id="BR-BT-00531-0005" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0005</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '3']">
-		<assert id="BR-BT-00026-0306" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0306</assert>
-		<assert id="BR-BT-00026-0356" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0356</assert>
 		<assert id="BR-BT-00531-0006" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0006</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '12']">
-		<assert id="BR-BT-00026-0318" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0318</assert>
-		<assert id="BR-BT-00026-0368" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0368</assert>
 		<assert id="BR-BT-00531-0018" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0018</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '13']">
-		<assert id="BR-BT-00026-0319" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0319</assert>
-		<assert id="BR-BT-00026-0369" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0369</assert>
 		<assert id="BR-BT-00531-0019" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0019</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '14']">
-		<assert id="BR-BT-00026-0320" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0320</assert>
-		<assert id="BR-BT-00026-0370" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0370</assert>
 		<assert id="BR-BT-00531-0020" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0020</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '10']">
-		<assert id="BR-BT-00026-0315" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0315</assert>
-		<assert id="BR-BT-00026-0365" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0365</assert>
 		<assert id="BR-BT-00531-0015" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0015</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '11']">
-		<assert id="BR-BT-00026-0316" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0316</assert>
-		<assert id="BR-BT-00026-0366" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0366</assert>
 		<assert id="BR-BT-00531-0016" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0016</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '4']">
-		<assert id="BR-BT-00026-0307" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0307</assert>
-		<assert id="BR-BT-00026-0357" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0357</assert>
 		<assert id="BR-BT-00531-0007" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0007</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '5']">
-		<assert id="BR-BT-00026-0308" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0308</assert>
-		<assert id="BR-BT-00026-0358" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0358</assert>
 		<assert id="BR-BT-00531-0008" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0008</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '6']">
-		<assert id="BR-BT-00026-0309" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0309</assert>
-		<assert id="BR-BT-00026-0359" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0359</assert>
 		<assert id="BR-BT-00531-0009" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0009</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '7']">
-		<assert id="BR-BT-00026-0312" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0312</assert>
-		<assert id="BR-BT-00026-0362" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0362</assert>
 		<assert id="BR-BT-00531-0012" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0012</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '8']">
-		<assert id="BR-BT-00026-0313" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0313</assert>
-		<assert id="BR-BT-00026-0363" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0363</assert>
 		<assert id="BR-BT-00531-0013" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0013</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '9']">
-		<assert id="BR-BT-00026-0314" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0314</assert>
-		<assert id="BR-BT-00026-0364" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0364</assert>
 		<assert id="BR-BT-00531-0014" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0014</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '15']">
-		<assert id="BR-BT-00026-0321" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0321</assert>
-		<assert id="BR-BT-00026-0371" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0371</assert>
 		<assert id="BR-BT-00531-0021" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0021</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '22']">
-		<assert id="BR-BT-00026-0329" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0329</assert>
-		<assert id="BR-BT-00026-0379" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0379</assert>
 		<assert id="BR-BT-00531-0029" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0029</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '25']">
-		<assert id="BR-BT-00026-0332" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0332</assert>
-		<assert id="BR-BT-00026-0382" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0382</assert>
 		<assert id="BR-BT-00531-0032" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0032</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '26']">
-		<assert id="BR-BT-00026-0333" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0333</assert>
-		<assert id="BR-BT-00026-0383" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0383</assert>
 		<assert id="BR-BT-00531-0033" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0033</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '28']">
-		<assert id="BR-BT-00026-0335" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0335</assert>
-		<assert id="BR-BT-00026-0385" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0385</assert>
 		<assert id="BR-BT-00531-0035" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0035</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '27']">
-		<assert id="BR-BT-00026-0334" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0334</assert>
-		<assert id="BR-BT-00026-0384" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0384</assert>
 		<assert id="BR-BT-00531-0034" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0034</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00026-0311" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0311</assert>
-		<assert id="BR-BT-00026-0361" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0361</assert>
 		<assert id="BR-BT-00531-0011" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0011</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00026-0341" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0341</assert>
-		<assert id="BR-BT-00026-0391" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0391</assert>
 		<assert id="BR-BT-00531-0041" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0041</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00026-0317" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) &gt; 0 or not(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0317</assert>
-		<assert id="BR-BT-00026-0367" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName) = 0 or (cac:AdditionalCommodityClassification/cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0367</assert>
 		<assert id="BR-BT-00531-0017" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|message|BR-BT-00531-0017</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '36']">
+		<assert id="BR-BT-00026-0345" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0345</assert>
+		<assert id="BR-BT-00026-0395" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0395</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '37']">
+		<assert id="BR-BT-00026-0346" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0346</assert>
+		<assert id="BR-BT-00026-0396" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0396</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '38']">
+		<assert id="BR-BT-00026-0347" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0347</assert>
+		<assert id="BR-BT-00026-0397" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0397</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '39']">
+		<assert id="BR-BT-00026-0348" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0348</assert>
+		<assert id="BR-BT-00026-0398" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0398</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '40']">
+		<assert id="BR-BT-00026-0349" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0349</assert>
+		<assert id="BR-BT-00026-0399" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0399</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '33']">
+		<assert id="BR-BT-00026-0342" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0342</assert>
+		<assert id="BR-BT-00026-0392" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0392</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '34']">
+		<assert id="BR-BT-00026-0343" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0343</assert>
+		<assert id="BR-BT-00026-0393" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0393</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '35']">
+		<assert id="BR-BT-00026-0344" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0344</assert>
+		<assert id="BR-BT-00026-0394" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0394</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '29']">
+		<assert id="BR-BT-00026-0336" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0336</assert>
+		<assert id="BR-BT-00026-0386" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0386</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '30']">
+		<assert id="BR-BT-00026-0337" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0337</assert>
+		<assert id="BR-BT-00026-0387" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0387</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '32']">
+		<assert id="BR-BT-00026-0339" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0339</assert>
+		<assert id="BR-BT-00026-0389" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0389</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '31']">
+		<assert id="BR-BT-00026-0338" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0338</assert>
+		<assert id="BR-BT-00026-0388" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0388</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '23']">
+		<assert id="BR-BT-00026-0330" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0330</assert>
+		<assert id="BR-BT-00026-0380" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0380</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '24']">
+		<assert id="BR-BT-00026-0331" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0331</assert>
+		<assert id="BR-BT-00026-0381" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0381</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '20']">
+		<assert id="BR-BT-00026-0327" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0327</assert>
+		<assert id="BR-BT-00026-0377" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0377</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '21']">
+		<assert id="BR-BT-00026-0328" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0328</assert>
+		<assert id="BR-BT-00026-0378" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0378</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '16']">
+		<assert id="BR-BT-00026-0322" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0322</assert>
+		<assert id="BR-BT-00026-0372" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0372</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '17']">
+		<assert id="BR-BT-00026-0323" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0323</assert>
+		<assert id="BR-BT-00026-0373" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0373</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '19']">
+		<assert id="BR-BT-00026-0325" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0325</assert>
+		<assert id="BR-BT-00026-0375" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0375</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '18']">
+		<assert id="BR-BT-00026-0324" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0324</assert>
+		<assert id="BR-BT-00026-0374" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0374</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '1']">
+		<assert id="BR-BT-00026-0304" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0304</assert>
+		<assert id="BR-BT-00026-0354" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0354</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '2']">
+		<assert id="BR-BT-00026-0305" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0305</assert>
+		<assert id="BR-BT-00026-0355" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0355</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '3']">
+		<assert id="BR-BT-00026-0306" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0306</assert>
+		<assert id="BR-BT-00026-0356" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0356</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '12']">
+		<assert id="BR-BT-00026-0318" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0318</assert>
+		<assert id="BR-BT-00026-0368" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0368</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '13']">
+		<assert id="BR-BT-00026-0319" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0319</assert>
+		<assert id="BR-BT-00026-0369" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0369</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '14']">
+		<assert id="BR-BT-00026-0320" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0320</assert>
+		<assert id="BR-BT-00026-0370" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0370</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '10']">
+		<assert id="BR-BT-00026-0315" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0315</assert>
+		<assert id="BR-BT-00026-0365" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0365</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '11']">
+		<assert id="BR-BT-00026-0316" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0316</assert>
+		<assert id="BR-BT-00026-0366" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0366</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '4']">
+		<assert id="BR-BT-00026-0307" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0307</assert>
+		<assert id="BR-BT-00026-0357" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0357</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '5']">
+		<assert id="BR-BT-00026-0308" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0308</assert>
+		<assert id="BR-BT-00026-0358" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0358</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '6']">
+		<assert id="BR-BT-00026-0309" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0309</assert>
+		<assert id="BR-BT-00026-0359" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0359</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '7']">
+		<assert id="BR-BT-00026-0312" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0312</assert>
+		<assert id="BR-BT-00026-0362" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0362</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '8']">
+		<assert id="BR-BT-00026-0313" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0313</assert>
+		<assert id="BR-BT-00026-0363" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0363</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '9']">
+		<assert id="BR-BT-00026-0314" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0314</assert>
+		<assert id="BR-BT-00026-0364" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0364</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '15']">
+		<assert id="BR-BT-00026-0321" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0321</assert>
+		<assert id="BR-BT-00026-0371" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0371</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '22']">
+		<assert id="BR-BT-00026-0329" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0329</assert>
+		<assert id="BR-BT-00026-0379" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0379</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '25']">
+		<assert id="BR-BT-00026-0332" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0332</assert>
+		<assert id="BR-BT-00026-0382" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0382</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '26']">
+		<assert id="BR-BT-00026-0333" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0333</assert>
+		<assert id="BR-BT-00026-0383" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0383</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '28']">
+		<assert id="BR-BT-00026-0335" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0335</assert>
+		<assert id="BR-BT-00026-0385" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0385</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '27']">
+		<assert id="BR-BT-00026-0334" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0334</assert>
+		<assert id="BR-BT-00026-0384" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0384</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00026-0311" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0311</assert>
+		<assert id="BR-BT-00026-0361" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0361</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00026-0341" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0341</assert>
+		<assert id="BR-BT-00026-0391" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0391</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00026-0317" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0317</assert>
+		<assert id="BR-BT-00026-0367" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0367</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '36']">
 		<assert id="BR-BT-00026-0045" role="ERROR" diagnostics="BT-26(m)-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|message|BR-BT-00026-0045</assert>
@@ -1180,6 +1266,135 @@
 		<assert id="BR-BT-05141-0017" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) &gt; 0 or not(cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cbc:Region))">rule|message|BR-BT-05141-0017</assert>
 		<assert id="BR-BT-05141-0201" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) = 0 or (cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cbc:Region))">rule|message|BR-BT-05141-0201</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '36']">
+		<assert id="BR-BT-00531-0095" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0095</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '37']">
+		<assert id="BR-BT-00531-0096" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0096</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '38']">
+		<assert id="BR-BT-00531-0097" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0097</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '39']">
+		<assert id="BR-BT-00531-0098" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0098</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '40']">
+		<assert id="BR-BT-00531-0099" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0099</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '33']">
+		<assert id="BR-BT-00531-0092" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0092</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '34']">
+		<assert id="BR-BT-00531-0093" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0093</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '35']">
+		<assert id="BR-BT-00531-0094" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0094</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '29']">
+		<assert id="BR-BT-00531-0086" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0086</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '30']">
+		<assert id="BR-BT-00531-0087" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0087</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '32']">
+		<assert id="BR-BT-00531-0089" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0089</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '31']">
+		<assert id="BR-BT-00531-0088" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0088</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '23']">
+		<assert id="BR-BT-00531-0080" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0080</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '24']">
+		<assert id="BR-BT-00531-0081" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0081</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '20']">
+		<assert id="BR-BT-00531-0077" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0077</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '21']">
+		<assert id="BR-BT-00531-0078" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0078</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '16']">
+		<assert id="BR-BT-00531-0072" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0072</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '17']">
+		<assert id="BR-BT-00531-0073" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0073</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '19']">
+		<assert id="BR-BT-00531-0075" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0075</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '18']">
+		<assert id="BR-BT-00531-0074" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0074</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '1']">
+		<assert id="BR-BT-00531-0054" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0054</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '2']">
+		<assert id="BR-BT-00531-0055" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0055</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '3']">
+		<assert id="BR-BT-00531-0056" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0056</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '12']">
+		<assert id="BR-BT-00531-0068" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0068</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '13']">
+		<assert id="BR-BT-00531-0069" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0069</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '14']">
+		<assert id="BR-BT-00531-0070" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0070</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '10']">
+		<assert id="BR-BT-00531-0065" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0065</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '11']">
+		<assert id="BR-BT-00531-0066" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0066</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '4']">
+		<assert id="BR-BT-00531-0057" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0057</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '5']">
+		<assert id="BR-BT-00531-0058" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0058</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '6']">
+		<assert id="BR-BT-00531-0059" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0059</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '7']">
+		<assert id="BR-BT-00531-0062" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0062</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '8']">
+		<assert id="BR-BT-00531-0063" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0063</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '9']">
+		<assert id="BR-BT-00531-0064" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0064</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '15']">
+		<assert id="BR-BT-00531-0071" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0071</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '22']">
+		<assert id="BR-BT-00531-0079" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0079</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '25']">
+		<assert id="BR-BT-00531-0082" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0082</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '26']">
+		<assert id="BR-BT-00531-0083" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0083</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '28']">
+		<assert id="BR-BT-00531-0085" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0085</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '27']">
+		<assert id="BR-BT-00531-0084" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0084</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00531-0061" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0061</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00531-0091" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0091</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00531-0067" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0067</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '36']">
 		<assert id="BR-BT-00026-0445" role="ERROR" diagnostics="BT-26(a)-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0445</assert>
 		<assert id="BR-BT-00026-0495" role="ERROR" diagnostics="BT-26(a)-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|message|BR-BT-00026-0495</assert>
@@ -1831,135 +2046,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'CEI']">
 		<assert id="BR-BT-00536-0069" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:DurationMeasure or cbc:EndDate)">rule|message|BR-BT-00536-0069</assert>
 		<assert id="BR-BT-00536-0111" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or (cbc:DurationMeasure or cbc:EndDate)">rule|message|BR-BT-00536-0111</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '36']">
-		<assert id="BR-BT-00531-0095" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0095</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '37']">
-		<assert id="BR-BT-00531-0096" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0096</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '38']">
-		<assert id="BR-BT-00531-0097" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0097</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '39']">
-		<assert id="BR-BT-00531-0098" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0098</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '40']">
-		<assert id="BR-BT-00531-0099" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0099</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '33']">
-		<assert id="BR-BT-00531-0092" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0092</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '34']">
-		<assert id="BR-BT-00531-0093" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0093</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '35']">
-		<assert id="BR-BT-00531-0094" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0094</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '29']">
-		<assert id="BR-BT-00531-0086" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0086</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '30']">
-		<assert id="BR-BT-00531-0087" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0087</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '32']">
-		<assert id="BR-BT-00531-0089" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0089</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '31']">
-		<assert id="BR-BT-00531-0088" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0088</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '23']">
-		<assert id="BR-BT-00531-0080" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0080</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '24']">
-		<assert id="BR-BT-00531-0081" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0081</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '20']">
-		<assert id="BR-BT-00531-0077" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0077</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '21']">
-		<assert id="BR-BT-00531-0078" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0078</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '16']">
-		<assert id="BR-BT-00531-0072" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0072</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '17']">
-		<assert id="BR-BT-00531-0073" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0073</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '19']">
-		<assert id="BR-BT-00531-0075" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0075</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '18']">
-		<assert id="BR-BT-00531-0074" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0074</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '1']">
-		<assert id="BR-BT-00531-0054" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0054</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '2']">
-		<assert id="BR-BT-00531-0055" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0055</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '3']">
-		<assert id="BR-BT-00531-0056" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0056</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '12']">
-		<assert id="BR-BT-00531-0068" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0068</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '13']">
-		<assert id="BR-BT-00531-0069" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0069</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '14']">
-		<assert id="BR-BT-00531-0070" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0070</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '10']">
-		<assert id="BR-BT-00531-0065" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0065</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '11']">
-		<assert id="BR-BT-00531-0066" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0066</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '4']">
-		<assert id="BR-BT-00531-0057" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0057</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '5']">
-		<assert id="BR-BT-00531-0058" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0058</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '6']">
-		<assert id="BR-BT-00531-0059" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0059</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '7']">
-		<assert id="BR-BT-00531-0062" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0062</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '8']">
-		<assert id="BR-BT-00531-0063" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0063</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '9']">
-		<assert id="BR-BT-00531-0064" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0064</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '15']">
-		<assert id="BR-BT-00531-0071" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0071</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '22']">
-		<assert id="BR-BT-00531-0079" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0079</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '25']">
-		<assert id="BR-BT-00531-0082" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0082</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '26']">
-		<assert id="BR-BT-00531-0083" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0083</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '28']">
-		<assert id="BR-BT-00531-0085" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0085</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '27']">
-		<assert id="BR-BT-00531-0084" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0084</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00531-0061" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0061</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00531-0091" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0091</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00531-0067" role="ERROR" diagnostics="BT-531-Lot" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|message|BR-BT-00531-0067</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility'][$noticeSubType = '36']">
 		<assert id="BR-BT-00755-0045" role="ERROR" diagnostics="BT-755-Lot" test="count(cbc:ProcurementType) &gt; 0 or not(cbc:ProcurementTypeCode[@listName='accessibility']/normalize-space(text()) = 'n-inc-just')">rule|message|BR-BT-00755-0045</assert>
@@ -4529,14 +4615,6 @@
 		<assert id="BR-BT-00198-3113" role="ERROR" diagnostics="BT-198(BT-733)-Lot" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode)">rule|message|BR-BT-00198-3113</assert>
 		<assert id="BR-BT-00198-3472" role="ERROR" diagnostics="BT-198(BT-733)-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|message|BR-BT-00198-3472</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:EconomicOperatorShortList[$noticeSubType = '23']">
-		<assert id="BR-BT-00047-0030" role="WARN" diagnostics="BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) &gt; 0 or not(../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'restricted')">rule|message|BR-BT-00047-0030</assert>
-		<assert id="BR-BT-00047-0051" role="ERROR" diagnostics="BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) = 0 or (../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'restricted')">rule|message|BR-BT-00047-0051</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:EconomicOperatorShortList[$noticeSubType = '24']">
-		<assert id="BR-BT-00047-0031" role="WARN" diagnostics="BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) &gt; 0 or not(../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'restricted')">rule|message|BR-BT-00047-0031</assert>
-		<assert id="BR-BT-00047-0052" role="ERROR" diagnostics="BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) = 0 or (../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'restricted')">rule|message|BR-BT-00047-0052</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize[$noticeSubType = '23']">
 		<assert id="BR-BT-00044-0030" role="ERROR" diagnostics="BT-44-Lot" test="count(cbc:RankCode) &gt; 0 or not(cbc:ValueAmount)">rule|message|BR-BT-00044-0030</assert>
 		<assert id="BR-BT-00044-0052" role="ERROR" diagnostics="BT-44-Lot" test="count(cbc:RankCode) = 0 or (cbc:ValueAmount)">rule|message|BR-BT-00044-0052</assert>
@@ -4799,6 +4877,14 @@
 		<assert id="BR-OPT-00070-0067" role="ERROR" diagnostics="OPT-070-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:ExecutionRequirementCode[@listName='reserved-execution']/normalize-space(text()) = 'true')">rule|message|BR-OPT-00070-0067</assert>
 		<assert id="BR-OPT-00070-0104" role="ERROR" diagnostics="OPT-070-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode[@listName='reserved-execution']/normalize-space(text()) = 'true')">rule|message|BR-OPT-00070-0104</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EconomicOperatorShortList[$noticeSubType = '23']">
+		<assert id="BR-BT-00047-0030" role="WARN" diagnostics="BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) &gt; 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'restricted')">rule|message|BR-BT-00047-0030</assert>
+		<assert id="BR-BT-00047-0051" role="ERROR" diagnostics="BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'restricted')">rule|message|BR-BT-00047-0051</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EconomicOperatorShortList[$noticeSubType = '24']">
+		<assert id="BR-BT-00047-0031" role="WARN" diagnostics="BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) &gt; 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'restricted')">rule|message|BR-BT-00047-0031</assert>
+		<assert id="BR-BT-00047-0052" role="ERROR" diagnostics="BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'restricted')">rule|message|BR-BT-00047-0052</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:SecurityClearanceTerm[$noticeSubType = '20']">
 		<assert id="BR-BT-00732-0027" role="ERROR" diagnostics="BT-732-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:Code/normalize-space(text()) = 'true')">rule|message|BR-BT-00732-0027</assert>
 		<assert id="BR-BT-00732-0065" role="ERROR" diagnostics="BT-732-Lot" test="count(cbc:Description) = 0 or (cbc:Code/normalize-space(text()) = 'true')">rule|message|BR-BT-00732-0065</assert>
@@ -4930,6 +5016,10 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])][$noticeSubType = '15']">
 		<assert id="BR-BT-00772-0021" role="ERROR" diagnostics="BT-772-Lot" test="count(cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description) &gt; 0 or not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission']/normalize-space(text()) = 'late-some')">rule|message|BR-BT-00772-0021</assert>
 		<assert id="BR-BT-00772-0059" role="ERROR" diagnostics="BT-772-Lot" test="count(cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description) = 0 or (cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission']/normalize-space(text()) = ('late-all','late-some'))">rule|message|BR-BT-00772-0059</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '9']">
+		<assert id="BR-BT-00651-0014" role="ERROR" diagnostics="BT-651-Lot" test="count(efac:TenderSubcontractingRequirements/efbc:TenderSubcontractingRequirementsCode) &gt; 0 or not(../../../../cac:AllowedSubcontractTerms/cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation'])">rule|message|BR-BT-00651-0014</assert>
+		<assert id="BR-BT-00651-0052" role="ERROR" diagnostics="BT-651-Lot" test="count(efac:TenderSubcontractingRequirements/efbc:TenderSubcontractingRequirementsCode) = 0 or (../../../../cac:AllowedSubcontractTerms/cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation'])">rule|message|BR-BT-00651-0052</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '23']">
 		<assert id="BR-BT-00040-0030" role="ERROR" diagnostics="BT-40-Lot" test="count(efbc:SecondStageIndicator) &gt; 0 or not((../../../../../../cac:TenderingProcess/cbc:CandidateReductionConstraintIndicator = true()) and ../../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('comp-dial','innovation','neg-w-call','oth-mult','restricted'))">rule|message|BR-BT-00040-0030</assert>
@@ -5199,10 +5289,6 @@
 		<assert id="BR-BT-07531-0081" role="ERROR" diagnostics="BT-7531-Lot" test="count(efbc:ParameterCode[@listName='number-weight']) &gt; 0 or not(../efbc:SecondStageIndicator = true() and (not(efbc:ParameterCode[@listName='number-threshold'])))">rule|message|BR-BT-07531-0081</assert>
 		<assert id="BR-BT-07532-0029" role="ERROR" diagnostics="BT-7532-Lot" test="count(efbc:ParameterCode[@listName='number-threshold']) = 0 or (../efbc:SecondStageIndicator = true() and (not(efbc:ParameterCode[@listName='number-weight'])))">rule|message|BR-BT-07532-0029</assert>
 		<assert id="BR-BT-07532-0081" role="ERROR" diagnostics="BT-7532-Lot" test="count(efbc:ParameterCode[@listName='number-threshold']) &gt; 0 or not(../efbc:SecondStageIndicator = true() and (not(efbc:ParameterCode[@listName='number-weight'])))">rule|message|BR-BT-07532-0081</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:TenderSubcontractingRequirements[$noticeSubType = '9']">
-		<assert id="BR-BT-00651-0014" role="ERROR" diagnostics="BT-651-Lot" test="count(efbc:TenderSubcontractingRequirementsCode) &gt; 0 or not(../../../../../cac:AllowedSubcontractTerms/cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation'])">rule|message|BR-BT-00651-0014</assert>
-		<assert id="BR-BT-00651-0052" role="ERROR" diagnostics="BT-651-Lot" test="count(efbc:TenderSubcontractingRequirementsCode) = 0 or (../../../../../cac:AllowedSubcontractTerms/cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation'])">rule|message|BR-BT-00651-0052</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup'][$noticeSubType = '36']">
 		<assert id="BR-BT-00137-0096" role="ERROR" diagnostics="BT-137-LotsGroup" test="count(cbc:ID) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|message|BR-BT-00137-0096</assert>
