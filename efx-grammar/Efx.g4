@@ -197,6 +197,7 @@ stringSequence
     | stringSequenceFromIteration                                                           # stringsFromIteration
     | OpenParenthesis stringSequenceFromIteration CloseParenthesis                          # parenthesizedStringsFromIteration
     | codelistReference                                                                     # codeList
+    | TextTypeCast untypedSequence                                                          # stringTypeCastFieldReference      
     ;
 
 stringSequenceFromIteration
@@ -212,6 +213,7 @@ booleanSequence
     : OpenParenthesis booleanExpression (Comma booleanExpression)* CloseParenthesis     # booleanList
     | booleanSequenceFromIteration                                                      # booleansFromIteration
     | OpenParenthesis booleanSequenceFromIteration CloseParenthesis                     # parenthesizedBooleansFromIteration
+    | BooleanTypeCast untypedSequence                                                   # booleanTypeCastFieldReference
     ;
 
 booleanSequenceFromIteration
@@ -227,6 +229,7 @@ numericSequence
     : OpenParenthesis numericExpression (Comma numericExpression)* CloseParenthesis     # numericList
     | numericSequenceFromIteration                                                      # numbersFromIteration
     | OpenParenthesis numericSequenceFromIteration CloseParenthesis                     # parenthesizedNumbersFromIteration
+    | NumericTypeCast untypedSequence                                                   # numericTypeCastFieldReference
     ;
 
 numericSequenceFromIteration
@@ -242,6 +245,7 @@ dateSequence
     : OpenParenthesis dateExpression (Comma dateExpression)* CloseParenthesis   # dateList
     | dateSequenceFromIteration                                                 # datesFromIteration
     | OpenParenthesis dateSequenceFromIteration CloseParenthesis                # parenthesizedDatesFromIteration
+    | DateTypeCast untypedSequence                                              # dateTypeCastFieldReference
     ;
 
 dateSequenceFromIteration
@@ -257,6 +261,7 @@ timeSequence
     : OpenParenthesis timeExpression (Comma timeExpression)* CloseParenthesis   # timeList
     | timeSequenceFromIteration                                                 # timesFromIteration
     | OpenParenthesis timeSequenceFromIteration CloseParenthesis                # parenthesizedTimesFromIteration
+    | TimeTypeCast untypedSequence                                              # timeTypeCastFieldReference
     ;
 
 timeSequenceFromIteration
@@ -272,6 +277,7 @@ durationSequence
     : OpenParenthesis durationExpression (Comma durationExpression)* CloseParenthesis   # durationList
     | durationSequenceFromIteration                                                     # durationsFromIteration
     | OpenParenthesis durationSequenceFromIteration CloseParenthesis                    # parenthesizedDurationsFromITeration
+    | DurationTypeCast untypedSequence                                                  # durationTypeCastFieldReference
     ;
 
 durationSequenceFromIteration
@@ -317,6 +323,11 @@ fieldValueReference
     ;
 
 setReference: fieldReference;
+
+untypedSequence    
+    : fieldReference                       # untypedFieldValueSequence
+    | fieldReference SlashAt Identifier    # untypedAttributeValueSequence 
+    ;
 
 /*
  * References of fields and Nodes
