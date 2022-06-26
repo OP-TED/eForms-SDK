@@ -134,6 +134,7 @@ booleanExpression
     | (Every | Some) durationVariable In durationSequence Satisfies booleanExpression   # durationQuantifiedExpression
     | booleanLiteral                                                                    # booleanLiteralExpression
     | booleanFunction                                                                   # booleanFunctionExpression
+    | booleanVariable                                                                   # booleanVariableExpression
     | BooleanTypeCast? fieldValueReference                                              # booleanReferenceExpression
     ;
     
