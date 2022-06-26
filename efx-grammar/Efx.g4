@@ -116,7 +116,7 @@ booleanExpression
     | timeExpression modifier=Not? In timeSequence                                      # timeInListCondition
     | durationExpression modifier=Not? In durationSequence                              # durationInListCondition
     | stringExpression Is modifier=Not? Empty                                           # emptinessCondition
-    | setReference Is modifier=Not? Present                                             # presenceCondition
+    | pathExpression Is modifier=Not? Present                                           # presenceCondition
     | stringExpression modifier=Not? Like pattern=STRING                                # likePatternCondition
     | fieldValueReference operator=Comparison fieldValueReference                       # fieldValueComparison
     | booleanExpression operator=Comparison booleanExpression                           # booleanComparison
@@ -191,7 +191,7 @@ durationExpression
  * Sequences
  */
 
-sequenceExpression: stringSequence | booleanSequence | numericSequence | dateSequence | timeSequence | durationSequence;
+sequenceExpression: stringSequence | booleanSequence | numericSequence | dateSequence | timeSequence | durationSequence | untypedSequence;
 
 stringSequence
     : OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis           # stringList
@@ -323,11 +323,14 @@ fieldValueReference
     | fieldReference SlashAt Identifier    # untypedAttributeValueReference 
     ;
 
-setReference: fieldReference;
-
 untypedSequence    
     : fieldReference                       # untypedFieldValueSequence
     | fieldReference SlashAt Identifier    # untypedAttributeValueSequence 
+    ;
+
+pathExpression    
+    : fieldReference
+    | fieldReference SlashAt Identifier
     ;
 
 /*
@@ -369,9 +372,9 @@ booleanFunction
     ;
 
 numericFunction
-    : CountFunction OpenParenthesis setReference CloseParenthesis                                      # countFunction
+    : CountFunction OpenParenthesis sequenceExpression CloseParenthesis                                      # countFunction
     | NumberFunction OpenParenthesis (stringExpression | fieldValueReference) CloseParenthesis         # numberFunction
-    | SumFunction OpenParenthesis setReference CloseParenthesis                                        # sumFunction
+    | SumFunction OpenParenthesis numericSequence CloseParenthesis                                        # sumFunction
     | StringLengthFunction OpenParenthesis (stringExpression | fieldValueReference) CloseParenthesis   # stringLengthFunction
     ;
 
