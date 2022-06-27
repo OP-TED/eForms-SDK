@@ -1194,6 +1194,28 @@
 						<!--BT-540-->
 						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<!--BT-5421-->
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<!--BT-541-->
+											<efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<!--BT-539-->
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<!--BT-734-->
+						<cbc:Name languageID="ENG">name of AC ---</cbc:Name>
+						<!--BT-540-->
+						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 		</cac:TenderingTerms>
@@ -1278,6 +1300,28 @@
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
 						<!--BT-734-->
 						<cbc:Name languageID="ENG">Name of AC ---</cbc:Name>
+						<!--BT-540-->
+						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<!--BT-5421-->
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<!--BT-541-->
+											<efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<!--BT-539-->
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<!--BT-734-->
+						<cbc:Name languageID="ENG">name of AC ---</cbc:Name>
 						<!--BT-540-->
 						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
@@ -1514,6 +1558,28 @@
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
 						<!--BT-734-->
 						<cbc:Name languageID="ENG">Name of AC ---</cbc:Name>
+						<!--BT-540-->
+						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<!--BT-5421-->
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<!--BT-541-->
+											<efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<!--BT-539-->
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<!--BT-734-->
+						<cbc:Name languageID="ENG">name of AC ---</cbc:Name>
 						<!--BT-540-->
 						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
