@@ -683,7 +683,55 @@
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
 								<!--BT-747-->
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<!--BT-749-->
+								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-750-->
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
+								<!--BT-748-->
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<!--BT-40-->
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">max-pass</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">min-score</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<!--BT-747-->
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<!--BT-749-->
+								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-750-->
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
+								<!--BT-748-->
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<!--BT-40-->
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">max-pass</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">min-score</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<!--BT-747-->
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<!--BT-749-->
 								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
 								<!--BT-750-->
@@ -975,14 +1023,6 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
-							<!--BT-634-->
-							<efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
 							<!--BT-632-->
 							<efbc:AccessToolName>Access tool ---</efbc:AccessToolName>
 						</efext:EformsExtension>
@@ -1160,7 +1200,55 @@
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
 								<!--BT-747-->
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<!--BT-749-->
+								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-750-->
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
+								<!--BT-748-->
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<!--BT-40-->
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">max-pass</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">min-score</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<!--BT-747-->
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<!--BT-749-->
+								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-750-->
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
+								<!--BT-748-->
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<!--BT-40-->
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">max-pass</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">min-score</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<!--BT-747-->
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<!--BT-749-->
 								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
 								<!--BT-750-->
@@ -1447,14 +1535,6 @@
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
 			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<!--BT-634-->
-							<efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>

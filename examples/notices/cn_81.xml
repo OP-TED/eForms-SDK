@@ -139,7 +139,15 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:TenderSubcontractingRequirements>

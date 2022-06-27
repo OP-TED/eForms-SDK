@@ -213,14 +213,20 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Description languageID="FRA">La participation est réservée à la profession d'architecte.</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:Description languageID="FRA">Cf. règlement de consultation.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">La participation est réservée à la profession d'architecte.</cbc:Description>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Description languageID="FRA">Cf. règlement de consultation.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>

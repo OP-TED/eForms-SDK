@@ -203,9 +203,19 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ENG">Qualification Stage (Pass/Fail):
 									Assessment of suitability and selection of Bidder’s response via ESPD (Scotland).</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>

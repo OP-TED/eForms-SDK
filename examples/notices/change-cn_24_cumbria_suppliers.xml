@@ -264,7 +264,17 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">Not available</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">Not available</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ENG">Not available</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>

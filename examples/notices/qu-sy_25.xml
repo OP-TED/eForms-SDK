@@ -182,7 +182,17 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ITA">L’istanza di ammissione al sistema di qualificazione è gestita tramite il Portale (https://acquebresciane.acquistitelematici.it) al quale si rinvia per le modalità di registrazione. La procedura di accreditamento è descritta nell'art. 3 del regolamento. Sono ammessi a presentare l’istanza di ammissione al sistema di qualificazione i soggetti di cui all’art. 45 del codice dei contratti. All'art. 5) del regolamento sono elencati i requisiti minimi per accedere al sistema di qualificazione, pena l'esclusione.</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ITA">L’istanza di ammissione al sistema di qualificazione è gestita tramite il Portale (https://acquebresciane.acquistitelematici.it) al quale si rinvia per le modalità di registrazione. La procedura di accreditamento è descritta nell'art. 3 del regolamento. Sono ammessi a presentare l’istanza di ammissione al sistema di qualificazione i soggetti di cui all’art. 45 del codice dei contratti. All'art. 5) del regolamento sono elencati i requisiti minimi per accedere al sistema di qualificazione, pena l'esclusione.</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<cbc:Description languageID="ITA">L’istanza di ammissione al sistema di qualificazione è gestita tramite il Portale (https://acquebresciane.acquistitelematici.it) al quale si rinvia per le modalità di registrazione. La procedura di accreditamento è descritta nell'art. 3 del regolamento. Sono ammessi a presentare l’istanza di ammissione al sistema di qualificazione i soggetti di cui all’art. 45 del codice dei contratti. All'art. 5) del regolamento sono elencati i requisiti minimi per accedere al sistema di qualificazione, pena l'esclusione.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>

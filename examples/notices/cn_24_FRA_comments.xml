@@ -266,6 +266,11 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
@@ -484,6 +489,11 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
 								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
