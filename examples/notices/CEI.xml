@@ -231,7 +231,7 @@ Interested experts may submit their applications at any point in time until 3 mo
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
-		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
 			<ext:UBLExtensions>
 				<ext:UBLExtension>
