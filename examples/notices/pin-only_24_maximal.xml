@@ -647,7 +647,7 @@
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
-		<cbc:ID schemeName="Part">PAR-0001</cbc:ID>
+		<cbc:ID schemeName="Part">PAR-0000</cbc:ID>
 		<cac:TenderingTerms>
 			<cac:FiscalLegislationDocumentReference>
 				<cbc:ID>FiscalDocID1</cbc:ID>
@@ -826,7 +826,7 @@
 			<!--BT-23-->
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 			<!--BT-300-->
-			<cbc:Note languageID="ENG">Additional information for PAR-0001 ProcurementProject ---</cbc:Note>
+			<cbc:Note languageID="ENG">Additional information for PAR-0000 ProcurementProject ---</cbc:Note>
 			<!--BT-726-->
 			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
 			<cac:ProcurementAdditionalType>
