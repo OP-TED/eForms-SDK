@@ -408,5 +408,13 @@ cbc:ID</svrl:diagnostic-reference>
       <svrl:diagnostic-reference diagnostic="OPT-301-Part-Mediator">
 cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-OPT-00301-1418"
+                       location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+                       role="ERROR"
+                       test="((cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PartyIdentification/cbc:ID/normalize-space(text())))">
+      <svrl:text>rule|message|BR-OPT-00301-1418</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-301-Part-ReviewOrg">
+cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
 </svrl:schematron-output>

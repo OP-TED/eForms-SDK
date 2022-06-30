@@ -694,6 +694,22 @@ cac:PresentationPeriod/cbc:Description</svrl:diagnostic-reference>
 efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"/>
+   <svrl:failed-assert id="BR-OPT-00310-0100"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+                       role="ERROR"
+                       test="efac:TenderingParty/cbc:ID/normalize-space(text()) = ../efac:TenderingParty/cbc:ID/normalize-space(text())">
+      <svrl:text>rule|message|BR-OPT-00310-0100</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-310-Tender">
+efac:TenderingParty/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-OPT-00321-0101"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+                       role="ERROR"
+                       test="(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID/normalize-space(text()))">
+      <svrl:text>rule|message|BR-OPT-00321-0101</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-321-Tender">
+cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"/>
    <svrl:failed-assert id="BR-OPT-00316-0101"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
@@ -733,6 +749,14 @@ cbc:ID</svrl:diagnostic-reference>
       <svrl:text>rule|message|BR-OPT-00301-1412</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-301-Lot-Mediator">
 cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-OPT-00301-1417"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
+                       role="ERROR"
+                       test="((cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PartyIdentification/cbc:ID/normalize-space(text())))">
+      <svrl:text>rule|message|BR-OPT-00301-1417</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-301-Lot-ReviewOrg">
+cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess"/>
    <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
