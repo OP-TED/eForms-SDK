@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.4.130 created on the 2022-06-22T11:40:15.-->
+<!--File generated from metadata database version 0.4.176 created on the 2022-06-30T12:34:33.-->
 <pattern id="EFORMS-stage-1" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-GazetteReference-1" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|message|ND-GazetteReference-1</assert>
@@ -3119,23 +3119,18 @@
 		<assert id="ND-TendererQualificationRequest-2" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-2</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '25']">
-		<assert id="ND-LotDistribution-25" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-25</assert>
 		<assert id="ND-TendererQualificationRequest-25" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-25</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '26']">
-		<assert id="ND-LotDistribution-26" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-26</assert>
 		<assert id="ND-TendererQualificationRequest-26" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-26</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '27']">
-		<assert id="ND-LotDistribution-27" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-27</assert>
 		<assert id="ND-TendererQualificationRequest-27" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-27</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '28']">
-		<assert id="ND-LotDistribution-28" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-28</assert>
 		<assert id="ND-TendererQualificationRequest-28" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-28</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '29']">
-		<assert id="ND-LotDistribution-29" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-29</assert>
 		<assert id="ND-TendererQualificationRequest-29" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-29</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '3']">
@@ -3143,43 +3138,33 @@
 		<assert id="ND-TendererQualificationRequest-3" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-3</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '30']">
-		<assert id="ND-LotDistribution-30" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-30</assert>
 		<assert id="ND-TendererQualificationRequest-30" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-30</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '31']">
-		<assert id="ND-LotDistribution-31" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-31</assert>
 		<assert id="ND-TendererQualificationRequest-31" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-31</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '32']">
-		<assert id="ND-LotDistribution-32" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-32</assert>
 		<assert id="ND-TendererQualificationRequest-32" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-32</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '33']">
-		<assert id="ND-LotDistribution-33" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-33</assert>
 		<assert id="ND-TendererQualificationRequest-33" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-33</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '34']">
-		<assert id="ND-LotDistribution-34" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-34</assert>
 		<assert id="ND-TendererQualificationRequest-34" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-34</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '35']">
-		<assert id="ND-LotDistribution-35" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-35</assert>
 		<assert id="ND-TendererQualificationRequest-35" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-35</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '36']">
-		<assert id="ND-LotDistribution-36" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-36</assert>
 		<assert id="ND-TendererQualificationRequest-36" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-36</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '37']">
-		<assert id="ND-LotDistribution-37" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-37</assert>
 		<assert id="ND-TendererQualificationRequest-37" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-37</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '38']">
-		<assert id="ND-LotDistribution-38" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-38</assert>
 		<assert id="ND-TendererQualificationRequest-38" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-38</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '39']">
-		<assert id="ND-LotDistribution-39" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-39</assert>
 		<assert id="ND-TendererQualificationRequest-39" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-39</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '4']">
@@ -3187,7 +3172,6 @@
 		<assert id="ND-TendererQualificationRequest-4" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-4</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '40']">
-		<assert id="ND-LotDistribution-40" role="ERROR" test="count(cac:LotDistribution) = 0">rule|message|ND-LotDistribution-40</assert>
 		<assert id="ND-TendererQualificationRequest-40" role="ERROR" test="count(cac:TendererQualificationRequest) = 0">rule|message|ND-TendererQualificationRequest-40</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '5']">

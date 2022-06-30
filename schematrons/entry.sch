@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.4.130 created on the 2022-06-22T11:40:15.-->
+<!--File generated from metadata database version 0.4.176 created on the 2022-06-30T12:34:33.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -26,6 +26,7 @@
 	<include href="stage-3.sch"/>
 	<include href="stage-4.sch"/>
 	<include href="stage-4-custom.sch"/>
+	<include href="stage-5.sch"/>
 	<include href="change-notices.sch"/>
 
   <diagnostics>

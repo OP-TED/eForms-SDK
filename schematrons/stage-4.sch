@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.4.130 created on the 2022-06-22T11:40:15.-->
+<!--File generated from metadata database version 0.4.176 created on the 2022-06-30T12:34:33.-->
 <pattern id="EFORMS-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X02']">
 		<assert id="BR-OPP-00113-0002" role="ERROR" diagnostics="OPP-113-Business-European" test="count(cbc:RegistrationDate) &gt; 0 or not(cbc:CompanyID[@schemeName = 'EU'])">rule|message|BR-OPP-00113-0002</assert>
@@ -8205,6 +8205,50 @@
 		<assert id="BR-BT-00197-3243" role="ERROR" diagnostics="BT-197(BT-161)-NoticeResult" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|message|BR-BT-00197-3243</assert>
 		<assert id="BR-BT-00198-2885" role="ERROR" diagnostics="BT-198(BT-161)-NoticeResult" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode)">rule|message|BR-BT-00198-2885</assert>
 		<assert id="BR-BT-00198-3244" role="ERROR" diagnostics="BT-198(BT-161)-NoticeResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|message|BR-BT-00198-3244</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '38']">
+		<assert id="BR-BT-00156-0047" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0047</assert>
+		<assert id="BR-BT-00156-0060" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0060</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '39']">
+		<assert id="BR-BT-00156-0048" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0048</assert>
+		<assert id="BR-BT-00156-0061" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0061</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '40']">
+		<assert id="BR-BT-00156-0049" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0049</assert>
+		<assert id="BR-BT-00156-0062" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0062</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '33']">
+		<assert id="BR-BT-00156-0042" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0042</assert>
+		<assert id="BR-BT-00156-0058" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0058</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '34']">
+		<assert id="BR-BT-00156-0043" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0043</assert>
+		<assert id="BR-BT-00156-0059" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0059</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '29']">
+		<assert id="BR-BT-00156-0036" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0036</assert>
+		<assert id="BR-BT-00156-0054" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0054</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '30']">
+		<assert id="BR-BT-00156-0037" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0037</assert>
+		<assert id="BR-BT-00156-0055" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0055</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '31']">
+		<assert id="BR-BT-00156-0038" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0038</assert>
+		<assert id="BR-BT-00156-0056" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0056</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '25']">
+		<assert id="BR-BT-00156-0032" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0032</assert>
+		<assert id="BR-BT-00156-0051" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0051</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '26']">
+		<assert id="BR-BT-00156-0033" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0033</assert>
+		<assert id="BR-BT-00156-0052" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0052</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework[$noticeSubType = '27']">
+		<assert id="BR-BT-00156-0034" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &gt; 0 or not(efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0034</assert>
+		<assert id="BR-BT-00156-0053" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) = 0 or (efac:TenderLot/cbc:ID)">rule|message|BR-BT-00156-0053</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide'][$noticeSubType = '33']">
 		<assert id="BR-BT-00195-0144" role="ERROR" diagnostics="BT-195(BT-556)-NoticeResult" test="count(efbc:FieldIdentifierCode) = 0 or (../efac:TenderLot/cbc:ID)">rule|message|BR-BT-00195-0144</assert>
