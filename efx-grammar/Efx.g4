@@ -126,12 +126,12 @@ booleanExpression
     | timeExpression operator=Comparison timeExpression                                 # timeComparison
     | durationExpression operator=Comparison durationExpression                         # durationComparison
     | If booleanExpression Then booleanExpression Else booleanExpression                # conditionalBooleanExpression
-    | (Every | Some) stringVariable In stringSequence Satisfies booleanExpression       # stringQuantifiedExpression
-    | (Every | Some) booleanVariable In booleanSequence Satisfies booleanExpression     # booleanQuantifiedExpression
-    | (Every | Some) numericVariable In numericSequence Satisfies booleanExpression     # numericQuantifiedExpression
-    | (Every | Some) dateVariable In dateSequence Satisfies booleanExpression           # dateQuantifiedExpression
-    | (Every | Some) timeVariable In timeSequence Satisfies booleanExpression           # timeQuantifiedExpression
-    | (Every | Some) durationVariable In durationSequence Satisfies booleanExpression   # durationQuantifiedExpression
+    | (Every | Some) stringVariableDeclaration   In stringSequence Satisfies booleanExpression     # stringQuantifiedExpression
+    | (Every | Some) booleanVariableDeclaration  In booleanSequence Satisfies booleanExpression    # booleanQuantifiedExpression
+    | (Every | Some) numericVariableDeclaration  In numericSequence Satisfies booleanExpression    # numericQuantifiedExpression
+    | (Every | Some) dateVariableDeclaration     In dateSequence Satisfies booleanExpression       # dateQuantifiedExpression
+    | (Every | Some) timeVariableDeclaration     In timeSequence Satisfies booleanExpression       # timeQuantifiedExpression
+    | (Every | Some) durationVariableDeclaration In durationSequence Satisfies booleanExpression   # durationQuantifiedExpression
     | booleanLiteral                                                                    # booleanLiteralExpression
     | booleanFunction                                                                   # booleanFunctionExpression
     | booleanVariable                                                                   # booleanVariableExpression
@@ -198,96 +198,96 @@ stringSequence
     | stringSequenceFromIteration                                                           # stringsFromIteration
     | OpenParenthesis stringSequenceFromIteration CloseParenthesis                          # parenthesizedStringsFromIteration
     | codelistReference                                                                     # codeList
-    | TextTypeCast untypedSequence                                                          # stringTypeCastFieldReference      
+    | TextTypeCast? untypedSequence                                                         # stringTypeCastFieldReference      
     ;
 
 stringSequenceFromIteration
-    : For stringVariable In stringSequence Return stringExpression                          # stringsFromStringIteration
-    | For booleanVariable In booleanSequence Return stringExpression                        # stringsFromBooleanIteration
-    | For numericVariable In numericSequence Return stringExpression                        # stringsFromNumericIteration
-    | For dateVariable In dateSequence Return stringExpression                              # stringsFromDateIteration
-    | For timeVariable In timeSequence Return stringExpression                              # stringsFromTimeIteration
-    | For durationVariable In durationSequence Return stringExpression                      # stringsFromDurationIteration
+    : For stringVariableDeclaration In stringSequence Return stringExpression                          # stringsFromStringIteration
+    | For booleanVariableDeclaration In booleanSequence Return stringExpression                        # stringsFromBooleanIteration
+    | For numericVariableDeclaration In numericSequence Return stringExpression                        # stringsFromNumericIteration
+    | For dateVariableDeclaration In dateSequence Return stringExpression                              # stringsFromDateIteration
+    | For timeVariableDeclaration In timeSequence Return stringExpression                              # stringsFromTimeIteration
+    | For durationVariableDeclaration In durationSequence Return stringExpression                      # stringsFromDurationIteration
     ;
 
 booleanSequence
     : OpenParenthesis booleanExpression (Comma booleanExpression)* CloseParenthesis     # booleanList
     | booleanSequenceFromIteration                                                      # booleansFromIteration
     | OpenParenthesis booleanSequenceFromIteration CloseParenthesis                     # parenthesizedBooleansFromIteration
-    | BooleanTypeCast untypedSequence                                                   # booleanTypeCastFieldReference
+    | BooleanTypeCast? untypedSequence                                                  # booleanTypeCastFieldReference
     ;
 
 booleanSequenceFromIteration
-    : For stringVariable In stringSequence Return booleanExpression                     # booleansFromStringIteration
-    | For booleanVariable In booleanSequence Return booleanExpression                   # booleansFromBooleanIteration
-    | For numericVariable In numericSequence Return booleanExpression                   # booleansFromNumericIteration
-    | For dateVariable In dateSequence Return booleanExpression                         # booleansFromDateIteration
-    | For timeVariable In timeSequence Return booleanExpression                         # booleansFromTimeIteration
-    | For durationVariable In durationSequence Return booleanExpression                 # booleansFromDurationIteration
+    : For stringVariableDeclaration In stringSequence Return booleanExpression                     # booleansFromStringIteration
+    | For booleanVariableDeclaration In booleanSequence Return booleanExpression                   # booleansFromBooleanIteration
+    | For numericVariableDeclaration In numericSequence Return booleanExpression                   # booleansFromNumericIteration
+    | For dateVariableDeclaration In dateSequence Return booleanExpression                         # booleansFromDateIteration
+    | For timeVariableDeclaration In timeSequence Return booleanExpression                         # booleansFromTimeIteration
+    | For durationVariableDeclaration In durationSequence Return booleanExpression                 # booleansFromDurationIteration
     ;
 
 numericSequence
     : OpenParenthesis numericExpression (Comma numericExpression)* CloseParenthesis     # numericList
     | numericSequenceFromIteration                                                      # numbersFromIteration
     | OpenParenthesis numericSequenceFromIteration CloseParenthesis                     # parenthesizedNumbersFromIteration
-    | NumericTypeCast untypedSequence                                                   # numericTypeCastFieldReference
+    | NumericTypeCast? untypedSequence                                                  # numericTypeCastFieldReference
     ;
 
 numericSequenceFromIteration
-    : For stringVariable In stringSequence Return numericExpression                     # numbersFromStringIteration
-    | For booleanVariable In booleanSequence Return numericExpression                   # numbersFromBooleanIteration
-    | For numericVariable In numericSequence Return numericExpression                   # numbersFromNumericIteration
-    | For dateVariable In dateSequence Return numericExpression                         # numbersFromDateIteration
-    | For timeVariable In timeSequence Return numericExpression                         # numbersFromTimeIteration
-    | For durationVariable In durationSequence Return numericExpression                 # numbersFromDurationIteration
+    : For stringVariableDeclaration In stringSequence Return numericExpression                     # numbersFromStringIteration
+    | For booleanVariableDeclaration In booleanSequence Return numericExpression                   # numbersFromBooleanIteration
+    | For numericVariableDeclaration In numericSequence Return numericExpression                   # numbersFromNumericIteration
+    | For dateVariableDeclaration In dateSequence Return numericExpression                         # numbersFromDateIteration
+    | For timeVariableDeclaration In timeSequence Return numericExpression                         # numbersFromTimeIteration
+    | For durationVariableDeclaration In durationSequence Return numericExpression                 # numbersFromDurationIteration
     ;
 
 dateSequence
     : OpenParenthesis dateExpression (Comma dateExpression)* CloseParenthesis   # dateList
     | dateSequenceFromIteration                                                 # datesFromIteration
     | OpenParenthesis dateSequenceFromIteration CloseParenthesis                # parenthesizedDatesFromIteration
-    | DateTypeCast untypedSequence                                              # dateTypeCastFieldReference
+    | DateTypeCast? untypedSequence                                             # dateTypeCastFieldReference
     ;
 
 dateSequenceFromIteration
-    : For stringVariable In stringSequence Return dateExpression                # datesFromStringIteration
-    | For booleanVariable In booleanSequence Return dateExpression              # datesFromBooleanIteration
-    | For numericVariable In numericSequence Return dateExpression              # datesFromNumericIteration
-    | For dateVariable In dateSequence Return dateExpression                    # datesFromDateIteration
-    | For timeVariable In timeSequence Return dateExpression                    # datesFromTimeIteration
-    | For durationVariable In durationSequence Return dateExpression            # datesFromDurationIteration
+    : For stringVariableDeclaration In stringSequence Return dateExpression                # datesFromStringIteration
+    | For booleanVariableDeclaration In booleanSequence Return dateExpression              # datesFromBooleanIteration
+    | For numericVariableDeclaration In numericSequence Return dateExpression              # datesFromNumericIteration
+    | For dateVariableDeclaration In dateSequence Return dateExpression                    # datesFromDateIteration
+    | For timeVariableDeclaration In timeSequence Return dateExpression                    # datesFromTimeIteration
+    | For durationVariableDeclaration In durationSequence Return dateExpression            # datesFromDurationIteration
     ;
 
 timeSequence
     : OpenParenthesis timeExpression (Comma timeExpression)* CloseParenthesis   # timeList
     | timeSequenceFromIteration                                                 # timesFromIteration
     | OpenParenthesis timeSequenceFromIteration CloseParenthesis                # parenthesizedTimesFromIteration
-    | TimeTypeCast untypedSequence                                              # timeTypeCastFieldReference
+    | TimeTypeCast? untypedSequence                                             # timeTypeCastFieldReference
     ;
 
 timeSequenceFromIteration
-    : For stringVariable In stringSequence Return timeExpression                # timesFromStringIteration
-    | For booleanVariable In booleanSequence Return timeExpression              # timesFromBooleanIteration
-    | For numericVariable In numericSequence Return timeExpression              # timesFromNumericIteration
-    | For dateVariable In dateSequence Return timeExpression                    # timesFromDateIteration
-    | For timeVariable In timeSequence Return timeExpression                    # timesFromTimeIteration
-    | For durationVariable In durationSequence Return timeExpression            # timesFromDurationIteration
+    : For stringVariableDeclaration In stringSequence Return timeExpression                # timesFromStringIteration
+    | For booleanVariableDeclaration In booleanSequence Return timeExpression              # timesFromBooleanIteration
+    | For numericVariableDeclaration In numericSequence Return timeExpression              # timesFromNumericIteration
+    | For dateVariableDeclaration In dateSequence Return timeExpression                    # timesFromDateIteration
+    | For timeVariableDeclaration In timeSequence Return timeExpression                    # timesFromTimeIteration
+    | For durationVariableDeclaration In durationSequence Return timeExpression            # timesFromDurationIteration
     ;
 
 durationSequence
     : OpenParenthesis durationExpression (Comma durationExpression)* CloseParenthesis   # durationList
     | durationSequenceFromIteration                                                     # durationsFromIteration
     | OpenParenthesis durationSequenceFromIteration CloseParenthesis                    # parenthesizedDurationsFromITeration
-    | DurationTypeCast untypedSequence                                                  # durationTypeCastFieldReference
+    | DurationTypeCast? untypedSequence                                                 # durationTypeCastFieldReference
     ;
 
 durationSequenceFromIteration
-    : For stringVariable In stringSequence Return durationExpression                    # durationsFromStringIteration
-    | For booleanVariable In booleanSequence Return durationExpression                  # durationsFromBooleanIteration
-    | For numericVariable In numericSequence Return durationExpression                  # durationsFromNumericIteration
-    | For dateVariable In dateSequence Return durationExpression                        # durationsFromDateIteration
-    | For timeVariable In timeSequence Return durationExpression                        # durationsFromTimeIteration
-    | For durationVariable In durationSequence Return durationExpression                # durationsFromDurationIteration
+    : For stringVariableDeclaration In stringSequence Return durationExpression                    # durationsFromStringIteration
+    | For booleanVariableDeclaration In booleanSequence Return durationExpression                  # durationsFromBooleanIteration
+    | For numericVariableDeclaration In numericSequence Return durationExpression                  # durationsFromNumericIteration
+    | For dateVariableDeclaration In dateSequence Return durationExpression                        # durationsFromDateIteration
+    | For timeVariableDeclaration In timeSequence Return durationExpression                        # durationsFromTimeIteration
+    | For durationVariableDeclaration In durationSequence Return durationExpression                # durationsFromDurationIteration
     ;
 
 predicate: booleanExpression;
@@ -310,6 +310,12 @@ durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
  * References
  */
 
+stringVariableDeclaration: TextTypeCast Variable;
+booleanVariableDeclaration: BooleanTypeCast Variable;
+numericVariableDeclaration: NumericTypeCast Variable;
+dateVariableDeclaration: DateTypeCast Variable;
+timeVariableDeclaration: TimeTypeCast Variable;
+durationVariableDeclaration: DurationTypeCast Variable;
 
 stringVariable: TextTypeCast? Variable;
 booleanVariable: BooleanTypeCast? Variable;
