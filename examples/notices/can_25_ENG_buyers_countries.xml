@@ -183,33 +183,6 @@
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
-							<efac:Company>
-								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
-								</cac:PartyIdentification>
-								<cac:PartyName>
-									<cbc:Name languageID="ENG">eSendCorp</cbc:Name>
-								</cac:PartyName>
-								<cac:PostalAddress>
-									<cbc:CityName>Luxembourg</cbc:CityName>
-									<cbc:PostalZone>2985</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
-									<cac:Country>
-										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
-									</cac:Country>
-								</cac:PostalAddress>
-								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
-								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+352 123456789</cbc:Telephone>
-									<cbc:Telefax>+352 1234567899</cbc:Telefax>
-									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
-								</cac:Contact>
-							</efac:Company>
-						</efac:Organization>
-						<efac:Organization>
 							<efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:UltimateBeneficialOwner>
 								<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
