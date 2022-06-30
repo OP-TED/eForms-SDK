@@ -1057,6 +1057,17 @@
 			<cbc:ID>CrossBorderLaw</cbc:ID>
 			<cbc:DocumentDescription languageID="ENG">Cross border law description ---</cbc:DocumentDescription>
 		</cac:ProcurementLegislationDocumentReference>
+		<cac:LotDistribution>
+			<cac:LotsGroup>
+				<cbc:LotsGroupID>GLO-0001</cbc:LotsGroupID>
+				<cac:ProcurementProjectLotReference>
+					<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+				</cac:ProcurementProjectLotReference>
+				<cac:ProcurementProjectLotReference>
+					<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+				</cac:ProcurementProjectLotReference>
+			</cac:LotsGroup>
+		</cac:LotDistribution>
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<!--BT-88-->
