@@ -298,7 +298,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
 	<!--BT-04-->
@@ -396,8 +396,6 @@
 						<!--BT-540-->
 						<cbc:Description languageID="FRA">Prix (DPGF et BPU)</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
-				</cac:AwardingCriterion>
-				<cac:AwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -420,8 +418,28 @@
 						<!--BT-540-->
 						<cbc:Description languageID="FRA">Méthodologie et outils de maitrise de l'exécution des prestations</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
-				</cac:AwardingCriterion>
-				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<!--BT-5421-->
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<!--BT-541-->
+											<efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<!--BT-539-->
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<!--BT-734-->
+						<cbc:Name languageID="FRA">criterion 3</cbc:Name>
+						<!--BT-540-->
+						<cbc:Description languageID="FRA">Pertinence de l'organisation du Titulaire et moyens humains mis en place</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>

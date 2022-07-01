@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.4.79 created on the 2022-06-15T08:31:19.-->
+<!--File generated from metadata database version 0.4.130 created on the 2022-06-22T11:40:15.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BT-01-notice_R</assert>
@@ -64,6 +64,9 @@
 		<assert id="BT-610-Procedure-Buyer_R" role="ERROR" diagnostics="BT-610-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &lt; 2">rule|message|BT-610-Procedure-Buyer_R</assert>
 		<assert id="BT-740-Procedure-Buyer_R" role="ERROR" diagnostics="BT-740-Procedure-Buyer" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']) &lt; 2">rule|message|BT-740-Procedure-Buyer_R</assert>
 	</rule>
+	<rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty">
+		<assert id="OPT-030-Procedure-SProvider_R" role="ERROR" diagnostics="OPT-030-Procedure-SProvider" test="count(cbc:ServiceTypeCode) &lt; 2">rule|message|OPT-030-Procedure-SProvider_R</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject">
 		<assert id="BT-21-Procedure_A" role="ERROR" diagnostics="BT-21-Procedure" test="count(cbc:Name[@languageID = preceding-sibling::cbc:Name/@languageID]) = 0">rule|message|BT-21-Procedure_A</assert>
 		<assert id="BT-21-Procedure_B" role="ERROR" diagnostics="BT-21-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Name/@languageID = $lg) or count(cbc:Name) = 0">rule|message|BT-21-Procedure_B</assert>
@@ -73,10 +76,17 @@
 		<assert id="BT-24-Procedure_A" role="ERROR" diagnostics="BT-24-Procedure" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|message|BT-24-Procedure_A</assert>
 		<assert id="BT-24-Procedure_B" role="ERROR" diagnostics="BT-24-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|message|BT-24-Procedure_B</assert>
 		<assert id="BT-24-Procedure_C" role="ERROR" diagnostics="BT-24-Procedure" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|message|BT-24-Procedure_C</assert>
+		<assert id="BT-262-Procedure_R" role="ERROR" diagnostics="BT-262-Procedure" test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &lt; 2">rule|message|BT-262-Procedure_R</assert>
 		<assert id="BT-27-Procedure_R" role="ERROR" diagnostics="BT-27-Procedure" test="count(cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount) &lt; 2">rule|message|BT-27-Procedure_R</assert>
 		<assert id="BT-300-Procedure_A" role="ERROR" diagnostics="BT-300-Procedure" test="count(cbc:Note[@languageID = preceding-sibling::cbc:Note/@languageID]) = 0">rule|message|BT-300-Procedure_A</assert>
 		<assert id="BT-300-Procedure_B" role="ERROR" diagnostics="BT-300-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Note/@languageID = $lg) or count(cbc:Note) = 0">rule|message|BT-300-Procedure_B</assert>
 		<assert id="BT-300-Procedure_C" role="ERROR" diagnostics="BT-300-Procedure" test="(every $lg in (cbc:Note/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Note) = 0">rule|message|BT-300-Procedure_C</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification">
+		<assert id="BT-26(a)-Procedure_R" role="ERROR" diagnostics="BT-26(a)-Procedure" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">rule|message|BT-26(a)-Procedure_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode">
+		<assert id="BT-26(m)-Procedure_R" role="ERROR" diagnostics="BT-26(m)-Procedure" test="count(@listName) &lt; 2">rule|message|BT-26(m)-Procedure_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation">
 		<assert id="BT-728-Procedure_A" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|message|BT-728-Procedure_A</assert>
@@ -106,6 +116,7 @@
 		<assert id="BT-24-Lot_B" role="ERROR" diagnostics="BT-24-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|message|BT-24-Lot_B</assert>
 		<assert id="BT-24-Lot_C" role="ERROR" diagnostics="BT-24-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|message|BT-24-Lot_C</assert>
 		<assert id="BT-25-Lot_R" role="ERROR" diagnostics="BT-25-Lot" test="count(cbc:EstimatedOverallContractQuantity) &lt; 2">rule|message|BT-25-Lot_R</assert>
+		<assert id="BT-262-Lot_R" role="ERROR" diagnostics="BT-262-Lot" test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &lt; 2">rule|message|BT-262-Lot_R</assert>
 		<assert id="BT-300-Lot_A" role="ERROR" diagnostics="BT-300-Lot" test="count(cbc:Note[@languageID = preceding-sibling::cbc:Note/@languageID]) = 0">rule|message|BT-300-Lot_A</assert>
 		<assert id="BT-300-Lot_B" role="ERROR" diagnostics="BT-300-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Note/@languageID = $lg) or count(cbc:Note) = 0">rule|message|BT-300-Lot_B</assert>
 		<assert id="BT-300-Lot_C" role="ERROR" diagnostics="BT-300-Lot" test="(every $lg in (cbc:Note/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Note) = 0">rule|message|BT-300-Lot_C</assert>
@@ -123,9 +134,6 @@
 		<assert id="BT-57-Lot_B" role="ERROR" diagnostics="BT-57-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:Renewal/cac:Period/cbc:Description/@languageID = $lg) or count(cac:Renewal/cac:Period/cbc:Description) = 0">rule|message|BT-57-Lot_B</assert>
 		<assert id="BT-57-Lot_C" role="ERROR" diagnostics="BT-57-Lot" test="(every $lg in (cac:Renewal/cac:Period/cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:Renewal/cac:Period/cbc:Description) = 0">rule|message|BT-57-Lot_C</assert>
 		<assert id="BT-58-Lot_R" role="ERROR" diagnostics="BT-58-Lot" test="count(cbc:MaximumNumberNumeric) &lt; 2">rule|message|BT-58-Lot_R</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification">
-		<assert id="BT-262-Lot_R" role="ERROR" diagnostics="BT-262-Lot" test="count(cbc:ItemClassificationCode) &lt; 2">rule|message|BT-262-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode">
 		<assert id="BT-26(m)-Lot_R" role="ERROR" diagnostics="BT-26(m)-Lot" test="count(@listName) &lt; 2">rule|message|BT-26(m)-Lot_R</assert>
@@ -279,6 +287,9 @@
 		<assert id="BT-99-Lot_A" role="ERROR" diagnostics="BT-99-Lot" test="count(cac:PresentationPeriod/cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|message|BT-99-Lot_A</assert>
 		<assert id="BT-99-Lot_B" role="ERROR" diagnostics="BT-99-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:PresentationPeriod/cbc:Description/@languageID = $lg) or count(cac:PresentationPeriod/cbc:Description) = 0">rule|message|BT-99-Lot_B</assert>
 		<assert id="BT-99-Lot_C" role="ERROR" diagnostics="BT-99-Lot" test="(every $lg in (cac:PresentationPeriod/cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:PresentationPeriod/cbc:Description) = 0">rule|message|BT-99-Lot_C</assert>
+		<assert id="OPT-301-Lot-Mediator_R" role="ERROR" diagnostics="OPT-301-Lot-Mediator" test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|message|OPT-301-Lot-Mediator_R</assert>
+		<assert id="OPT-301-Lot-ReviewInfo_R" role="ERROR" diagnostics="OPT-301-Lot-ReviewInfo" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|message|OPT-301-Lot-ReviewInfo_R</assert>
+		<assert id="OPT-301-Lot-ReviewOrg_R" role="ERROR" diagnostics="OPT-301-Lot-ReviewOrg" test="count(cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|message|OPT-301-Lot-ReviewOrg_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms">
 		<assert id="BT-120-Lot_R" role="ERROR" diagnostics="BT-120-Lot" test="count(cbc:NoFurtherNegotiationIndicator) &lt; 2">rule|message|BT-120-Lot_R</assert>
@@ -388,6 +399,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference">
 		<assert id="BT-14-Lot_R" role="ERROR" diagnostics="BT-14-Lot" test="count(cbc:DocumentType) &lt; 2">rule|message|BT-14-Lot_R</assert>
+		<assert id="OPT-050-Lot_R" role="ERROR" diagnostics="OPT-050-Lot" test="count(cbc:DocumentStatusCode) &lt; 2">rule|message|OPT-050-Lot_R</assert>
 		<assert id="OPT-140-Lot_R" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) &lt; 2">rule|message|OPT-140-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']">
@@ -593,6 +605,7 @@
 		<assert id="BT-24-Part_A" role="ERROR" diagnostics="BT-24-Part" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|message|BT-24-Part_A</assert>
 		<assert id="BT-24-Part_B" role="ERROR" diagnostics="BT-24-Part" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|message|BT-24-Part_B</assert>
 		<assert id="BT-24-Part_C" role="ERROR" diagnostics="BT-24-Part" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|message|BT-24-Part_C</assert>
+		<assert id="BT-262-Part_R" role="ERROR" diagnostics="BT-262-Part" test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &lt; 2">rule|message|BT-262-Part_R</assert>
 		<assert id="BT-300-Part_A" role="ERROR" diagnostics="BT-300-Part" test="count(cbc:Note[@languageID = preceding-sibling::cbc:Note/@languageID]) = 0">rule|message|BT-300-Part_A</assert>
 		<assert id="BT-300-Part_B" role="ERROR" diagnostics="BT-300-Part" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Note/@languageID = $lg) or count(cbc:Note) = 0">rule|message|BT-300-Part_B</assert>
 		<assert id="BT-300-Part_C" role="ERROR" diagnostics="BT-300-Part" test="(every $lg in (cbc:Note/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Note) = 0">rule|message|BT-300-Part_C</assert>
@@ -600,9 +613,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:AdditionalCommodityClassification">
 		<assert id="BT-26(a)-Part_R" role="ERROR" diagnostics="BT-26(a)-Part" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">rule|message|BT-26(a)-Part_R</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification">
-		<assert id="BT-262-Part_R" role="ERROR" diagnostics="BT-262-Part" test="count(cbc:ItemClassificationCode) &lt; 2">rule|message|BT-262-Part_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode">
 		<assert id="BT-26(m)-Part_R" role="ERROR" diagnostics="BT-26(m)-Part" test="count(@listName) &lt; 2">rule|message|BT-26(m)-Part_R</assert>
@@ -655,6 +665,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference">
 		<assert id="BT-14-Part_R" role="ERROR" diagnostics="BT-14-Part" test="count(cbc:DocumentType) &lt; 2">rule|message|BT-14-Part_R</assert>
+		<assert id="OPT-050-Part_R" role="ERROR" diagnostics="OPT-050-Part" test="count(cbc:DocumentStatusCode) &lt; 2">rule|message|OPT-050-Part_R</assert>
 		<assert id="OPT-140-Part_R" role="ERROR" diagnostics="OPT-140-Part" test="count(cbc:ID) &lt; 2">rule|message|OPT-140-Part_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']">
@@ -882,6 +893,7 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework">
 		<assert id="BT-156-NoticeResult_R" role="ERROR" diagnostics="BT-156-NoticeResult" test="count(efbc:GroupFrameworkValueAmount) &lt; 2">rule|message|BT-156-NoticeResult_R</assert>
+		<assert id="BT-556-NoticeResult_R" role="ERROR" diagnostics="BT-556-NoticeResult" test="count(efac:TenderLot/cbc:ID) &lt; 2">rule|message|BT-556-NoticeResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide']">
 		<assert id="BT-195(BT-556)-NoticeResult_R" role="ERROR" diagnostics="BT-195(BT-556)-NoticeResult" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|message|BT-195(BT-556)-NoticeResult_R</assert>
@@ -915,6 +927,7 @@
 		<assert id="BT-712(b)-LotResult_R" role="ERROR" diagnostics="BT-712(b)-LotResult" test="count(efbc:StatisticsNumeric) &lt; 2">rule|message|BT-712(b)-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req']">
+		<assert id="BT-195(BT-712)-LotResult_R" role="ERROR" diagnostics="BT-195(BT-712)-LotResult" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|message|BT-195(BT-712)-LotResult_R</assert>
 		<assert id="BT-196(BT-712)-LotResult_A" role="ERROR" diagnostics="BT-196(BT-712)-LotResult" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|message|BT-196(BT-712)-LotResult_A</assert>
 		<assert id="BT-196(BT-712)-LotResult_B" role="ERROR" diagnostics="BT-196(BT-712)-LotResult" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|message|BT-196(BT-712)-LotResult_B</assert>
 		<assert id="BT-196(BT-712)-LotResult_C" role="ERROR" diagnostics="BT-196(BT-712)-LotResult" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|message|BT-196(BT-712)-LotResult_C</assert>
@@ -922,6 +935,7 @@
 		<assert id="BT-198(BT-712)-LotResult_R" role="ERROR" diagnostics="BT-198(BT-712)-LotResult" test="count(efbc:PublicationDate) &lt; 2">rule|message|BT-198(BT-712)-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea']">
+		<assert id="BT-195(BT-144)-LotResult_R" role="ERROR" diagnostics="BT-195(BT-144)-LotResult" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|message|BT-195(BT-144)-LotResult_R</assert>
 		<assert id="BT-196(BT-144)-LotResult_A" role="ERROR" diagnostics="BT-196(BT-144)-LotResult" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|message|BT-196(BT-144)-LotResult_A</assert>
 		<assert id="BT-196(BT-144)-LotResult_B" role="ERROR" diagnostics="BT-196(BT-144)-LotResult" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|message|BT-196(BT-144)-LotResult_B</assert>
 		<assert id="BT-196(BT-144)-LotResult_C" role="ERROR" diagnostics="BT-196(BT-144)-LotResult" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|message|BT-196(BT-144)-LotResult_C</assert>
@@ -945,6 +959,7 @@
 		<assert id="BT-198(BT-710)-LotResult_R" role="ERROR" diagnostics="BT-198(BT-710)-LotResult" test="count(efbc:PublicationDate) &lt; 2">rule|message|BT-198(BT-710)-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho']">
+		<assert id="BT-195(BT-142)-LotResult_R" role="ERROR" diagnostics="BT-195(BT-142)-LotResult" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|message|BT-195(BT-142)-LotResult_R</assert>
 		<assert id="BT-196(BT-142)-LotResult_A" role="ERROR" diagnostics="BT-196(BT-142)-LotResult" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|message|BT-196(BT-142)-LotResult_A</assert>
 		<assert id="BT-196(BT-142)-LotResult_B" role="ERROR" diagnostics="BT-196(BT-142)-LotResult" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|message|BT-196(BT-142)-LotResult_B</assert>
 		<assert id="BT-196(BT-142)-LotResult_C" role="ERROR" diagnostics="BT-196(BT-142)-LotResult" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|message|BT-196(BT-142)-LotResult_C</assert>
@@ -994,6 +1009,7 @@
 		<assert id="BT-780-Tender_B" role="ERROR" diagnostics="BT-780-Tender" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efac:AggregatedAmounts/efbc:PaidAmountDescription/@languageID = $lg) or count(efac:AggregatedAmounts/efbc:PaidAmountDescription) = 0">rule|message|BT-780-Tender_B</assert>
 		<assert id="BT-780-Tender_C" role="ERROR" diagnostics="BT-780-Tender" test="(every $lg in (efac:AggregatedAmounts/efbc:PaidAmountDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efac:AggregatedAmounts/efbc:PaidAmountDescription) = 0">rule|message|BT-780-Tender_C</assert>
 		<assert id="BT-782-Tender_R" role="ERROR" diagnostics="BT-782-Tender" test="count(efac:AggregatedAmounts/efbc:PenaltiesAmount) &lt; 2">rule|message|BT-782-Tender_R</assert>
+		<assert id="OPP-033-Tender_R" role="ERROR" diagnostics="OPP-033-Tender" test="count(efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']/efbc:TermCode) &lt; 2">rule|message|OPP-033-Tender_R</assert>
 		<assert id="OPP-080-Tender_R" role="ERROR" diagnostics="OPP-080-Tender" test="count(efbc:PublicTransportationCumulatedDistance) &lt; 2">rule|message|OPP-080-Tender_R</assert>
 		<assert id="OPT-310-Tender_R" role="ERROR" diagnostics="OPT-310-Tender" test="count(efac:TenderingParty/cbc:ID) &lt; 2">rule|message|OPT-310-Tender_R</assert>
 		<assert id="OPT-321-Tender_R" role="ERROR" diagnostics="OPT-321-Tender" test="count(cbc:ID) &lt; 2">rule|message|OPT-321-Tender_R</assert>

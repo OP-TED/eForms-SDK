@@ -92,7 +92,7 @@ But with the minimal amount of information while still valid
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">f42be27e-09cf-4f0e-a745-63ec689631e6</cbc:ID>
 	<cbc:ContractFolderID>4805c409-5939-4be9-8abd-837f7a5fee23</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
@@ -146,6 +146,16 @@ But with the minimal amount of information while still valid
 								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
@@ -169,7 +179,7 @@ But with the minimal amount of information while still valid
 				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>
-				<cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>
 				<cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
