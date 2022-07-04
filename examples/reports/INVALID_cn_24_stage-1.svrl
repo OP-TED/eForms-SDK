@@ -68,7 +68,7 @@
                        role="ERROR"
                        test="count(cbc:IssueDate) &gt; 0">
       <svrl:text>rule|message|BR-BT-00005-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-05(a)-notice">
+      <svrl:diagnostic-reference diagnostic="BT-05_a_-notice">
 cbc:IssueDate</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00005-0074"
@@ -76,7 +76,7 @@ cbc:IssueDate</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:IssueTime) &gt; 0">
       <svrl:text>rule|message|BR-BT-00005-0074</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-05(b)-notice">
+      <svrl:diagnostic-reference diagnostic="BT-05_b_-notice">
 cbc:IssueTime</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00701-0022"
@@ -92,7 +92,7 @@ cbc:ID[@schemeName='notice-id']</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:NoticeLanguageCode) &gt; 0">
       <svrl:text>rule|message|BR-BT-00702-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-702(a)-notice">
+      <svrl:diagnostic-reference diagnostic="BT-702_a_-notice">
 cbc:NoticeLanguageCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00757-0022"
@@ -211,7 +211,7 @@ cbc:ServiceTypeCode</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:TendererRequirementTypeCode[@listName='exclusion-ground']) &gt; 0">
       <svrl:text>rule|message|BR-BT-00067-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-67(a)-Procedure">
+      <svrl:diagnostic-reference diagnostic="BT-67_a_-Procedure">
 cbc:TendererRequirementTypeCode[@listName='exclusion-ground']</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00067-0073"
@@ -219,7 +219,7 @@ cbc:TendererRequirementTypeCode[@listName='exclusion-ground']</svrl:diagnostic-r
                        role="ERROR"
                        test="count(cbc:Description) &gt; 0">
       <svrl:text>rule|message|BR-BT-00067-0073</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-67(b)-Procedure">
+      <svrl:diagnostic-reference diagnostic="BT-67_b_-Procedure">
 cbc:Description</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '16']"/>
