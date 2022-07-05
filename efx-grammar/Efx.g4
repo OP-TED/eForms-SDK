@@ -103,7 +103,14 @@ contextDeclarationBlock
  * Expressions
  */
 
-expression: numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression | sequenceExpression;
+expression: lateBoundExpression | numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression | sequenceExpression;
+
+lateBoundExpression
+    : If booleanExpression Then lateBoundExpression Else lateBoundExpression            # untypedConditonalExpression
+    | fieldValueReference                                                               # untypedFieldValueReferenceExpression 
+    | untypedVariable                                                                   # untypedVariableExpression
+    | untypedSequence                                                                   # untypedSequenceExpression
+    ;
 
 booleanExpression
     : OpenParenthesis booleanExpression CloseParenthesis                                # parenthesizedBooleanExpression
@@ -118,7 +125,7 @@ booleanExpression
     | stringExpression Is modifier=Not? Empty                                           # emptinessCondition
     | pathExpression Is modifier=Not? Present                                           # presenceCondition
     | stringExpression modifier=Not? Like pattern=STRING                                # likePatternCondition
-    | fieldValueReference operator=Comparison fieldValueReference                       # fieldValueComparison
+    | lateBoundExpression operator=Comparison lateBoundExpression                       # fieldValueComparison
     | booleanExpression operator=Comparison booleanExpression                           # booleanComparison
     | numericExpression operator=Comparison numericExpression                           # numericComparison
     | stringExpression operator=Comparison stringExpression                             # stringComparison
@@ -134,10 +141,18 @@ booleanExpression
     | (Every | Some) durationVariableDeclaration In durationSequence Satisfies booleanExpression   # durationQuantifiedExpression
     | booleanLiteral                                                                    # booleanLiteralExpression
     | booleanFunction                                                                   # booleanFunctionExpression
-    | booleanVariable                                                                   # booleanVariableExpression
-    | BooleanTypeCast? fieldValueReference                                              # booleanReferenceExpression
+    | BooleanTypeCast lateBoundExpression                                               # booleanCastExpression
+    | lateBoundExpression                                                               # untypedBooleanExpression
     ;
     
+    stringExpression
+    : If booleanExpression Then stringExpression Else stringExpression     # conditionalStringExpression
+    | stringLiteral                                                        # stringLiteralExpression
+    | stringFunction                                                       # stringFunctionExpression
+    | TextTypeCast lateBoundExpression                                     # stringCastExpression
+    | lateBoundExpression                                                  # untypedStringExpression
+    ;
+
 numericExpression
     : OpenParenthesis numericExpression CloseParenthesis                     # parenthesizedNumericExpression
     | numericExpression operator=(Star | Slash | Per100) numericExpression   # multiplicationExpression
@@ -145,32 +160,26 @@ numericExpression
     | If booleanExpression Then numericExpression Else numericExpression     # conditionalNumericExpression
     | numericLiteral                                                         # numericLiteralExpression
     | numericFunction                                                        # numericFunctionExpression
-    | numericVariable                                                        # numericVariableExpression
-    | NumericTypeCast? fieldValueReference                                   # numericReferenceExpression
+    | NumericTypeCast lateBoundExpression                                    # numericCastExpression
+    | lateBoundExpression                                                    # untypedNumericExpression
     ;
 
-stringExpression
-    : If booleanExpression Then stringExpression Else stringExpression     # conditionalStringExpression
-    | stringLiteral                                                        # stringLiteralExpression
-    | stringFunction                                                       # stringFunctionExpression
-    | stringVariable                                                       # stringVariableExpression
-    | TextTypeCast? fieldValueReference                                    # stringReferenceExpression
-    ;
+
 
 dateExpression
     : If booleanExpression Then dateExpression Else dateExpression          # conditionalDateExpression
     | dateLiteral                                                           # dateLiteralExpression
     | dateFunction                                                          # dateFunctionExpression
-    | dateVariable                                                          # dateVariableExpression
-    | DateTypeCast? fieldValueReference                                     # dateReferenceExpression
+    | DateTypeCast lateBoundExpression                                      # dateCastExpression
+    | lateBoundExpression                                                   # untypedDateExpression
     ;
 
 timeExpression
     : If booleanExpression Then timeExpression Else timeExpression          # conditionalTimeExpression
     | timeLiteral                                                           # timeLiteralExpression
     | timeFunction                                                          # timeFunctionExpression
-    | timeVariable                                                          # timeVariableExpression
-    | TimeTypeCast? fieldValueReference                                     # timeReferenceExpression
+    | TimeTypeCast lateBoundExpression                                      # timeCastExpression
+    | lateBoundExpression                                                   # untypedTimeExpression
     ;
 
 durationExpression
@@ -182,8 +191,9 @@ durationExpression
     | durationExpression Minus durationExpression                               # durationSubtractionExpression
     | If booleanExpression Then durationExpression Else durationExpression      # conditionalDurationExpression
     | durationLiteral                                                           # durationLiteralExpression
-    | durationVariable                                                          # durationVariableExpression
-    | DurationTypeCast? fieldValueReference                                     # durationReferenceExpression
+    | durationFunction                                                          # durationFunctionExpression
+    | DurationTypeCast lateBoundExpression                                      # durationCastExpression
+    | lateBoundExpression                                                       # untypedDurationExpression
     ;
 
 
@@ -191,7 +201,7 @@ durationExpression
  * Sequences
  */
 
-sequenceExpression: stringSequence | booleanSequence | numericSequence | dateSequence | timeSequence | durationSequence | untypedSequence;
+sequenceExpression: untypedSequence | stringSequence | booleanSequence | numericSequence | dateSequence | timeSequence | durationSequence;
 
 stringSequence
     : OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis           # stringList
@@ -317,12 +327,7 @@ dateVariableDeclaration: DateTypeCast Variable;
 timeVariableDeclaration: TimeTypeCast Variable;
 durationVariableDeclaration: DurationTypeCast Variable;
 
-stringVariable: TextTypeCast? Variable;
-booleanVariable: BooleanTypeCast? Variable;
-numericVariable: NumericTypeCast? Variable;
-dateVariable: DateTypeCast? Variable;
-timeVariable: TimeTypeCast? Variable;
-durationVariable: DurationTypeCast? Variable;
+untypedVariable: Variable;
 
 fieldValueReference
     : fieldReference                       # untypedFieldValueReference
@@ -378,10 +383,10 @@ booleanFunction
     ;
 
 numericFunction
-    : CountFunction OpenParenthesis sequenceExpression CloseParenthesis                                      # countFunction
-    | NumberFunction OpenParenthesis (stringExpression | fieldValueReference) CloseParenthesis         # numberFunction
-    | SumFunction OpenParenthesis numericSequence CloseParenthesis                                        # sumFunction
-    | StringLengthFunction OpenParenthesis (stringExpression | fieldValueReference) CloseParenthesis   # stringLengthFunction
+    : CountFunction OpenParenthesis sequenceExpression CloseParenthesis         # countFunction
+    | NumberFunction OpenParenthesis stringExpression CloseParenthesis          # numberFunction
+    | SumFunction OpenParenthesis numericSequence CloseParenthesis              # sumFunction
+    | StringLengthFunction OpenParenthesis stringExpression CloseParenthesis    # stringLengthFunction
     ;
 
 stringFunction
@@ -400,4 +405,9 @@ dateFunction
 
 timeFunction
     : TimeFunction OpenParenthesis stringExpression CloseParenthesis        # timeFromStringFunction
+    ;
+
+durationFunction
+    : DayTimeDurationFunction OpenParenthesis stringExpression CloseParenthesis     # dayTimeDurationFromStringFunction
+    | YearMonthDurationFunction OpenParenthesis stringExpression CloseParenthesis   # yearMonthDurationFromStringFunction
     ;

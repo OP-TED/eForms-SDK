@@ -177,6 +177,8 @@ FormatNumberFunction: 'format-number';
 ConcatFunction: 'concat';
 DateFunction: 'date';
 TimeFunction: 'time';
+DayTimeDurationFunction: 'day-time-duration';
+YearMonthDurationFunction: 'year-month-duration';
 AddMeasure: 'add-measure';
 SubtractMeasure: 'subtract-measure';
 
