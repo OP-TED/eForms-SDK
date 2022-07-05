@@ -289,6 +289,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"/>
    <svrl:failed-assert id="BR-OPT-00200-0103"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
@@ -298,5 +299,6 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
       <svrl:diagnostic-reference diagnostic="OPT-200-Organization-Company">
 cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
    <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
 </svrl:schematron-output>

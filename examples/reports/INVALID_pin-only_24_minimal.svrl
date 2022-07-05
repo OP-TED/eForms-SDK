@@ -163,5 +163,6 @@ cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-r
    <svrl:active-pattern id="EFORMS-stage-5" name="EFORMS-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
    <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
 </svrl:schematron-output>
