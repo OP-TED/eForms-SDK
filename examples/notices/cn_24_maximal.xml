@@ -425,7 +425,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">14549263-b47b-4e59-96a1-2d0d13e19343</cbc:ID>
 	<!--BT-04-->
@@ -644,6 +644,28 @@
 						<!--BT-540-->
 						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<!--BT-5421-->
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<!--BT-541-->
+											<efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<!--BT-539-->
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<!--BT-734-->
+						<cbc:Name languageID="ENG">Name of AC ---</cbc:Name>
+						<!--BT-540-->
+						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 		</cac:TenderingTerms>
@@ -683,7 +705,55 @@
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
 								<!--BT-747-->
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<!--BT-749-->
+								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-750-->
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
+								<!--BT-748-->
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<!--BT-40-->
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">max-pass</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">min-score</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<!--BT-747-->
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<!--BT-749-->
+								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-750-->
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
+								<!--BT-748-->
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<!--BT-40-->
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">max-pass</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">min-score</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<!--BT-747-->
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<!--BT-749-->
 								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
 								<!--BT-750-->
@@ -897,6 +967,28 @@
 						<!--BT-540-->
 						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<!--BT-5421-->
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<!--BT-541-->
+											<efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<!--BT-539-->
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<!--BT-734-->
+						<cbc:Name languageID="ENG">Name of AC ---</cbc:Name>
+						<!--BT-540-->
+						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
@@ -972,14 +1064,6 @@
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
 			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<!--BT-634-->
-							<efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
@@ -1087,7 +1171,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-754-->
-				<cbc:ProcurementTypeCode listName="accessibility">inc</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="accessibility">n-inc-just</cbc:ProcurementTypeCode>
 				<!--BT-755-->
 				<cbc:ProcurementType languageID="ENG">Accessibility Justification ---</cbc:ProcurementType>
 			</cac:ProcurementAdditionalType>
@@ -1160,7 +1244,55 @@
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
 								<!--BT-747-->
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<!--BT-749-->
+								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-750-->
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
+								<!--BT-748-->
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<!--BT-40-->
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">max-pass</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">min-score</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<!--BT-747-->
 								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<!--BT-749-->
+								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-750-->
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
+								<!--BT-748-->
+								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+								<!--BT-40-->
+								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">max-pass</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+								<efac:CriterionParameter>
+									<!--BT-7532-->
+									<efbc:ParameterCode listName="number-threshold">min-score</efbc:ParameterCode>
+									<!--BT-752-->
+									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+								</efac:CriterionParameter>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<!--BT-747-->
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
 								<!--BT-749-->
 								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
 								<!--BT-750-->
@@ -1374,6 +1506,28 @@
 						<!--BT-540-->
 						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<!--BT-5421-->
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<!--BT-541-->
+											<efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<!--BT-539-->
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<!--BT-734-->
+						<cbc:Name languageID="ENG">Name of AC ---</cbc:Name>
+						<!--BT-540-->
+						<cbc:Description languageID="ENG">AC Description ---</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
@@ -1447,14 +1601,6 @@
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
 			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<!--BT-634-->
-							<efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
@@ -1568,7 +1714,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-754-->
-				<cbc:ProcurementTypeCode listName="accessibility">inc</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="accessibility">n-inc-just</cbc:ProcurementTypeCode>
 				<!--BT-755-->
 				<cbc:ProcurementType languageID="ENG">Accessibility Justification ---</cbc:ProcurementType>
 			</cac:ProcurementAdditionalType>

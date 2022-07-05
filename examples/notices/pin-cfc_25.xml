@@ -129,14 +129,14 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">c48d000f-2598-47b3-856e-de93bf654518</cbc:ID>
 	<cbc:ContractFolderID>c2a0dcd1-4d17-4072-9252-38de16ead921</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0025</cbc:RegulatoryDomain>
-	<cbc:NoticeTypeCode listName="planning">pin-cfc-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeTypeCode listName="competition">pin-cfc-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>DEU</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>

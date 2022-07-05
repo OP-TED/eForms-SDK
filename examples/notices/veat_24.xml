@@ -9,6 +9,9 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">350000</cbc:TotalAmount>
 						<efac:LotResult>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
 							<efac:SettledContract>
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
@@ -280,14 +283,14 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">6ea164b2-228c-4ae8-b3b5-26f3946b8300</cbc:ID>
 	<cbc:ContractFolderID>da39bc05-2d42-4d37-aa4f-2dc9937911a0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>09:22:55+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
-	<cbc:NoticeTypeCode listName="result">veat</cbc:NoticeTypeCode>
+	<cbc:NoticeTypeCode listName="dir-awa-pre">veat</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>

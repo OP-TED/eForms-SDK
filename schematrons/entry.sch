@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.4.79 created on the 2022-06-15T08:31:19.-->
+<!--File generated from metadata database version 0.4.176 created on the 2022-06-30T12:34:33.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -26,6 +26,7 @@
 	<include href="stage-3.sch"/>
 	<include href="stage-4.sch"/>
 	<include href="stage-4-custom.sch"/>
+	<include href="stage-5.sch"/>
 	<include href="change-notices.sch"/>
 
   <diagnostics>
@@ -37,7 +38,7 @@
     <diagnostic id="BT-04-notice">cbc:ContractFolderID</diagnostic>
     <diagnostic id="BT-05(a)-notice">cbc:IssueDate</diagnostic>
     <diagnostic id="BT-05(b)-notice">cbc:IssueTime</diagnostic>
-    <diagnostic id="BT-06-Lot">cbc:ProcurementTypeCode[@listName='strategic-procurement']</diagnostic>
+    <diagnostic id="BT-06-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='strategic-procurement']</diagnostic>
     <diagnostic id="BT-09(a)-Procedure">cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']</diagnostic>
     <diagnostic id="BT-09(b)-Procedure">cbc:DocumentDescription</diagnostic>
     <diagnostic id="BT-10-Procedure-Buyer">cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']</diagnostic>
@@ -312,7 +313,7 @@
     <diagnostic id="BT-198(BT-731)-Tender">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198(BT-733)-Lot">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198(BT-733)-LotsGroup">efbc:PublicationDate</diagnostic>
-    <diagnostic id="BT-19(-734)-Lot">efbc:PublicationDate</diagnostic>
+    <diagnostic id="BT-198(BT-734)-Lot">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198(BT-734)-LotsGroup">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198(BT-759)-LotResult">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198(BT-760)-LotResult">efbc:PublicationDate</diagnostic>
@@ -339,15 +340,15 @@
     <diagnostic id="BT-25-Lot">cbc:EstimatedOverallContractQuantity</diagnostic>
     <diagnostic id="BT-26(a)-Lot">cbc:ItemClassificationCode/@listName</diagnostic>
     <diagnostic id="BT-26(a)-Part">cbc:ItemClassificationCode/@listName</diagnostic>
-    <diagnostic id="BT-26(a)-Procedure">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName</diagnostic>
+    <diagnostic id="BT-26(a)-Procedure">cbc:ItemClassificationCode/@listName</diagnostic>
     <diagnostic id="BT-26(m)-Lot">@listName</diagnostic>
     <diagnostic id="BT-26(m)-Part">@listName</diagnostic>
     <diagnostic id="BT-26(m)-Procedure">@listName</diagnostic>
-    <diagnostic id="BT-262-Lot">cbc:ItemClassificationCode</diagnostic>
-    <diagnostic id="BT-262-Part">cbc:ItemClassificationCode</diagnostic>
+    <diagnostic id="BT-262-Lot">cac:MainCommodityClassification/cbc:ItemClassificationCode</diagnostic>
+    <diagnostic id="BT-262-Part">cac:MainCommodityClassification/cbc:ItemClassificationCode</diagnostic>
     <diagnostic id="BT-262-Procedure">cac:MainCommodityClassification/cbc:ItemClassificationCode</diagnostic>
-    <diagnostic id="BT-263-Lot">cbc:ItemClassificationCode</diagnostic>
-    <diagnostic id="BT-263-Part">cbc:ItemClassificationCode</diagnostic>
+    <diagnostic id="BT-263-Lot">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode</diagnostic>
+    <diagnostic id="BT-263-Part">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode</diagnostic>
     <diagnostic id="BT-263-Procedure">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode</diagnostic>
     <diagnostic id="BT-27-Lot">cbc:EstimatedOverallContractAmount</diagnostic>
     <diagnostic id="BT-27-LotsGroup">cbc:EstimatedOverallContractAmount</diagnostic>
@@ -448,7 +449,7 @@
     <diagnostic id="BT-5141-Part">cac:Address/cac:Country/cbc:IdentificationCode</diagnostic>
     <diagnostic id="BT-5141-Procedure">cac:Country/cbc:IdentificationCode</diagnostic>
     <diagnostic id="BT-52-Lot">cbc:CandidateReductionConstraintIndicator</diagnostic>
-    <diagnostic id="BT-531-Lot">cbc:ProcurementTypeCode[@listName='contract-nature']</diagnostic>
+    <diagnostic id="BT-531-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']</diagnostic>
     <diagnostic id="BT-531-Part">cbc:ProcurementTypeCode[@listName='contract-nature']</diagnostic>
     <diagnostic id="BT-531-Procedure">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]</diagnostic>
     <diagnostic id="BT-536-Lot">cbc:StartDate</diagnostic>
@@ -497,8 +498,8 @@
     <diagnostic id="BT-636-LotResult">efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efbc:StatisticsCode</diagnostic>
     <diagnostic id="BT-64-Lot">cbc:MinimumPercent</diagnostic>
     <diagnostic id="BT-644-Lot">cbc:ValueAmount</diagnostic>
-    <diagnostic id="BT-65-Lot">cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']</diagnostic>
-    <diagnostic id="BT-651-Lot">efbc:TenderSubcontractingRequirementsCode</diagnostic>
+    <diagnostic id="BT-65-Lot">cac:AllowedSubcontractTerms/cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']</diagnostic>
+    <diagnostic id="BT-651-Lot">efac:TenderSubcontractingRequirements/efbc:TenderSubcontractingRequirementsCode</diagnostic>
     <diagnostic id="BT-660-LotResult">cbc:EstimatedMaximumValueAmount</diagnostic>
     <diagnostic id="BT-661-Lot">cbc:LimitationDescription</diagnostic>
     <diagnostic id="BT-67(a)-Procedure">cbc:TendererRequirementTypeCode[@listName='exclusion-ground']</diagnostic>
@@ -563,7 +564,7 @@
     <diagnostic id="BT-752-Lot">efac:CriterionParameter/efbc:ParameterNumeric</diagnostic>
     <diagnostic id="BT-7531-Lot">efbc:ParameterCode[@listName='number-weight']</diagnostic>
     <diagnostic id="BT-7532-Lot">efbc:ParameterCode[@listName='number-threshold']</diagnostic>
-    <diagnostic id="BT-754-Lot">cbc:ProcurementTypeCode[@listName='accessibility']</diagnostic>
+    <diagnostic id="BT-754-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='accessibility']</diagnostic>
     <diagnostic id="BT-755-Lot">cbc:ProcurementType</diagnostic>
     <diagnostic id="BT-756-Procedure">cbc:TerminatedIndicator</diagnostic>
     <diagnostic id="BT-757-notice">cbc:VersionID</diagnostic>
@@ -585,9 +586,9 @@
     <diagnostic id="BT-771-Lot">cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission']</diagnostic>
     <diagnostic id="BT-772-Lot">cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description</diagnostic>
     <diagnostic id="BT-773-Tender">efbc:TermCode</diagnostic>
-    <diagnostic id="BT-774-Lot">cbc:ProcurementTypeCode[@listName='environmental-impact']</diagnostic>
-    <diagnostic id="BT-775-Lot">cbc:ProcurementTypeCode[@listName='social-procurement']</diagnostic>
-    <diagnostic id="BT-776-Lot">cbc:ProcurementTypeCode[@listName='innovative-acquisition']</diagnostic>
+    <diagnostic id="BT-774-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='environmental-impact']</diagnostic>
+    <diagnostic id="BT-775-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='social-procurement']</diagnostic>
+    <diagnostic id="BT-776-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='innovative-acquisition']</diagnostic>
     <diagnostic id="BT-777-Lot">cbc:ProcurementType</diagnostic>
     <diagnostic id="BT-779-Tender">efac:AggregatedAmounts/cbc:PaidAmount</diagnostic>
     <diagnostic id="BT-78-Lot">cbc:LatestSecurityClearanceDate</diagnostic>
@@ -641,7 +642,7 @@
     <diagnostic id="OPP-070-notice">efac:NoticeSubType/cbc:SubTypeCode</diagnostic>
     <diagnostic id="OPP-080-Tender">efbc:PublicTransportationCumulatedDistance</diagnostic>
     <diagnostic id="OPP-100-Business">cbc:PurposeCode</diagnostic>
-    <diagnostic id="OPP-105-Business">cbc:CapabilityTypeCode</diagnostic>
+    <diagnostic id="OPP-105-Business">cac:BusinessCapability/cbc:CapabilityTypeCode</diagnostic>
     <diagnostic id="OPP-110-Business">cbc:CityName</diagnostic>
     <diagnostic id="OPP-111-Business">cbc:PostalZone</diagnostic>
     <diagnostic id="OPP-112-Business">cac:Country/cbc:IdentificationCode</diagnostic>
@@ -655,7 +656,7 @@
     <diagnostic id="OPT-001-notice">cbc:UBLVersionID</diagnostic>
     <diagnostic id="OPT-002-notice">cbc:CustomizationID</diagnostic>
     <diagnostic id="OPT-030-Procedure-SProvider">cbc:ServiceTypeCode</diagnostic>
-    <diagnostic id="OPT-050-Lot">cac:CallForTendersDocumentReference/cbc:DocumentStatusCode</diagnostic>
+    <diagnostic id="OPT-050-Lot">cbc:DocumentStatusCode</diagnostic>
     <diagnostic id="OPT-050-Part">cbc:DocumentStatusCode</diagnostic>
     <diagnostic id="OPT-070-Lot">cbc:Description</diagnostic>
     <diagnostic id="OPT-071-Lot">cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='customer-service']/cbc:ExecutionRequirementCode</diagnostic>
