@@ -53,11 +53,6 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
-							<cac:SignatoryParty>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
-								</cac:PartyIdentification>
-							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<cbc:ID>SCRN ABC EFG:2020-001</cbc:ID>
 							</efac:ContractReference>

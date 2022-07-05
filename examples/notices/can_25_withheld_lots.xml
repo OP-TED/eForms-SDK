@@ -126,11 +126,6 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
-							<cac:SignatoryParty>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
-								</cac:PartyIdentification>
-							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<cbc:ID>CRN 2021/02/ABC</cbc:ID>
 							</efac:ContractReference>
