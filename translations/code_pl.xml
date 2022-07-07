@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Polish. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Polish. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Kryteria dostępności dla osób niepełnosprawnych zostały uwzględnione</entry>
 <entry key="code|value|accessibility.n-inc">Kryteria dostępności dla osób niepełnosprawnych nie zostały uwzględnione, ponieważ przedmiot zamówienia nie jest przeznaczony dla osób fizycznych</entry>
 <entry key="code|value|accessibility.n-inc-just">Kryteria dostępności dla osób niepełnosprawnych nie zostały uwzględnione z uwagi na poniższe uzasadnienie</entry>
@@ -10778,10 +10778,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Egzekwowanie prawa</entry>
 <entry key="code|value|non-publication-justification.oth-int">Inny interes publiczny</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Usługi badawczo-rozwojowe</entry>
+<entry key="code|value|notice-type.brin-ecs">Ogłoszenie dotyczące spółki europejskiej / spółdzielni europejskiej</entry>
+<entry key="code|value|notice-type.brin-eeig">Ogłoszenie dotyczące europejskiego ugrupowania interesów gospodarczych</entry>
 <entry key="code|value|notice-type.can-desg">Ogłoszenie o wynikach konkursu</entry>
 <entry key="code|value|notice-type.can-modif">Ogłoszenie o modyfikacji umowy</entry>
 <entry key="code|value|notice-type.can-social">Ogłoszenie o udzieleniu zamówienia lub ogłoszenie o udzieleniu koncesji – tryb uproszczony</entry>
 <entry key="code|value|notice-type.can-standard">Ogłoszenie o udzieleniu zamówienia lub ogłoszenie o udzieleniu koncesji – tryb standardowy</entry>
+<entry key="code|value|notice-type.can-tran">Ogłoszenie o udzieleniu zamówienia dotyczące usług publicznych w zakresie transportu pasażerskiego</entry>
 <entry key="code|value|notice-type.cn-desg">Ogłoszenie o konkursie</entry>
 <entry key="code|value|notice-type.cn-social">Ogłoszenie o zamówieniu – tryb uproszczony</entry>
 <entry key="code|value|notice-type.cn-standard">Ogłoszenie o zamówieniu lub ogłoszenie o koncesji – tryb standardowy</entry>
@@ -10791,6 +10794,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – tryb standardowy</entry>
 <entry key="code|value|notice-type.pin-only">Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane wyłącznie do celów informacyjnych</entry>
 <entry key="code|value|notice-type.pin-rtl">Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane do skrócenia terminu składania ofert</entry>
+<entry key="code|value|notice-type.pin-tran">Wstępne ogłoszenie informacyjne dotyczące usług publicznych w zakresie transportu pasażerskiego</entry>
 <entry key="code|value|notice-type.qu-sy">Ogłoszenie o istnieniu systemu kwalifikowania</entry>
 <entry key="code|value|notice-type.subco">Ogłoszenie o podwykonawstwie</entry>
 <entry key="code|value|notice-type.veat">Ogłoszenie o dobrowolnej przejrzystości ex ante</entry>
@@ -10798,13 +10802,13 @@
 <entry key="code|value|number-fixed.fix-unit">Stała (na jednostkę)</entry>
 <entry key="code|value|number-threshold.max-pass">Maksymalna liczba akceptowanych ofert</entry>
 <entry key="code|value|number-threshold.min-score">Wynik minimalny</entry>
-<entry key="code|value|number-weight.dec-exa">{Waga (wartość dziesiętna, dokładna)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Waga (wartość dziesiętna, środek zakresu)}</entry>
+<entry key="code|value|number-weight.dec-exa">Waga (wartość dziesiętna, dokładna)</entry>
+<entry key="code|value|number-weight.dec-mid">Waga (wartość dziesiętna, środek zakresu)</entry>
 <entry key="code|value|number-weight.ord-imp">Kolejność według ważności</entry>
-<entry key="code|value|number-weight.per-exa">{Waga (wartość procentowa, dokładna)}</entry>
-<entry key="code|value|number-weight.per-mid">{Waga (wartość procentowa, środek zakresu)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Waga (wartość punktowa, dokładna)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Waga (wartość punktowa, środek zakresu)}</entry>
+<entry key="code|value|number-weight.per-exa">Waga (wartość procentowa, dokładna)</entry>
+<entry key="code|value|number-weight.per-mid">Waga (wartość procentowa, środek zakresu)</entry>
+<entry key="code|value|number-weight.poi-exa">Waga (wartość punktowa, dokładna)</entry>
+<entry key="code|value|number-weight.poi-mid">Waga (wartość punktowa, środek zakresu)</entry>
 <entry key="code|value|organisation-role.ben-own">Faktyczny właściciel</entry>
 <entry key="code|value|organisation-role.buyer">Nabywca</entry>
 <entry key="code|value|organisation-role.cpb-acq">Centralna jednostka zakupująca nabywająca dostawy i/lub usługi przeznaczone dla innych nabywców</entry>

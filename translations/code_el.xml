@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Greek. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Greek. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Συμπεριλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες</entry>
 <entry key="code|value|accessibility.n-inc">Δεν περιλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες επειδή η προμήθεια δεν προορίζεται για χρήση από φυσικά πρόσωπα</entry>
 <entry key="code|value|accessibility.n-inc-just">Δεν περιλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες με την ακόλουθη αιτιολόγηση</entry>
@@ -10777,10 +10777,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Επιβολή του νόμου</entry>
 <entry key="code|value|non-publication-justification.oth-int">Άλλο δημόσιο συμφέρον</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Υπηρεσίες έρευνας και ανάπτυξης (Ε&amp;A)</entry>
+<entry key="code|value|notice-type.brin-ecs">Ανακοίνωση ευρωπαϊκής εταιρείας / ευρωπαϊκής συνεταιριστικής εταιρείας</entry>
+<entry key="code|value|notice-type.brin-eeig">Ανακοίνωση Ευρωπαϊκού Ομίλου Οικονομικού Σκοπού</entry>
 <entry key="code|value|notice-type.can-desg">Γνωστοποίηση αποτελεσμάτων διαγωνισμού μελετών</entry>
 <entry key="code|value|notice-type.can-modif">Γνωστοποίηση τροποποίησης σύμβασης</entry>
 <entry key="code|value|notice-type.can-social">Γνωστοποίηση συναφθείσας σύμβασης ή σύμβασης παραχώρησης — απλουστευμένο καθεστώς</entry>
 <entry key="code|value|notice-type.can-standard">Γνωστοποίηση ανάθεσης σύμβασης ή ανάθεσης σύμβασης παραχώρησης — τυποποιημένο καθεστώς</entry>
+<entry key="code|value|notice-type.can-tran">Ανακοίνωση ανάθεσης σύμβασης για δημόσιες επιβατικές μεταφορές</entry>
 <entry key="code|value|notice-type.cn-desg">Προκήρυξη διαγωνισμού μελετών</entry>
 <entry key="code|value|notice-type.cn-social">Προκήρυξη σύμβασης — απλουστευμένο καθεστώς</entry>
 <entry key="code|value|notice-type.cn-standard">Προκήρυξη σύμβασης ή σύμβασης παραχώρησης — τυποποιημένο καθεστώς</entry>
@@ -10790,6 +10793,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για προκήρυξη διαγωνισμού – τυποποιημένο καθεστώς</entry>
 <entry key="code|value|notice-type.pin-only">Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για ενημέρωση</entry>
 <entry key="code|value|notice-type.pin-rtl">Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική διακήρυξη που χρησιμοποιείται για τη συντόμευση των προθεσμιών παραλαβής των προσφορών</entry>
+<entry key="code|value|notice-type.pin-tran">Προκαταρκτική προκήρυξη για δημόσιες επιβατικές μεταφορές</entry>
 <entry key="code|value|notice-type.qu-sy">Γνωστοποίηση για την ύπαρξη συστήματος προεπιλογής</entry>
 <entry key="code|value|notice-type.subco">Προκήρυξη υπεργολαβίας</entry>
 <entry key="code|value|notice-type.veat">Προκήρυξη για εκούσια εκ των προτέρων διαφάνεια</entry>
@@ -10797,13 +10801,13 @@
 <entry key="code|value|number-fixed.fix-unit">Σταθερός (ανά μονάδα)</entry>
 <entry key="code|value|number-threshold.max-pass">Μέγιστος αριθμός προσφορών που έγιναν αποδεκτές</entry>
 <entry key="code|value|number-threshold.min-score">Ελάχιστη βαθμολογία</entry>
-<entry key="code|value|number-weight.dec-exa">{Στάθμιση (δεκαδικό ψηφίο, ακριβές)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Στάθμιση (δεκαδικό ψηφίο, μέση τιμή)}</entry>
+<entry key="code|value|number-weight.dec-exa">Στάθμιση (δεκαδικό ψηφίο, ακριβές)</entry>
+<entry key="code|value|number-weight.dec-mid">Στάθμιση (δεκαδικό ψηφίο, μέση τιμή)</entry>
 <entry key="code|value|number-weight.ord-imp">Σειρά σπουδαιότητας</entry>
-<entry key="code|value|number-weight.per-exa">{Στάθμιση (ποσοστό, ακριβές)}</entry>
-<entry key="code|value|number-weight.per-mid">{Στάθμιση (ποσοστό, μέση τιμή)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Στάθμιση (μόρια, ακριβές)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Στάθμιση (μόρια, μέση τιμή)}</entry>
+<entry key="code|value|number-weight.per-exa">Στάθμιση (ποσοστό, ακριβές)</entry>
+<entry key="code|value|number-weight.per-mid">Στάθμιση (ποσοστό, μέση τιμή)</entry>
+<entry key="code|value|number-weight.poi-exa">Στάθμιση (μόρια, ακριβές)</entry>
+<entry key="code|value|number-weight.poi-mid">Στάθμιση (μόρια, μέση τιμή)</entry>
 <entry key="code|value|organisation-role.ben-own">Πραγματικός δικαιούχος</entry>
 <entry key="code|value|organisation-role.buyer">Αγοραστής</entry>
 <entry key="code|value|organisation-role.cpb-acq">Κεντρική αρχή προμηθειών η οποία αγοράζει αγαθά και/ή υπηρεσίες που προορίζονται για άλλους αγοραστές</entry>
