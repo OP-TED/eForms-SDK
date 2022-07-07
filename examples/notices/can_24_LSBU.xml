@@ -54,11 +54,6 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
-							<cac:SignatoryParty>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
-								</cac:PartyIdentification>
-							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<cbc:ID>CRN ABC-123/2020</cbc:ID>
 							</efac:ContractReference>

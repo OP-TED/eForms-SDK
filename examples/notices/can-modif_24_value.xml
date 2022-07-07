@@ -55,11 +55,6 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
-							<cac:SignatoryParty>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
-								</cac:PartyIdentification>
-							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<cbc:ID>MOD/CON/02-CHG/2021/PWC</cbc:ID>
 							</efac:ContractReference>
@@ -70,7 +65,7 @@
 						<efac:TenderingParty>
 							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							<efac:Tenderer>
-								<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+								<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>

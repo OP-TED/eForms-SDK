@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.4.130 created on the 2022-06-22T11:40:15.-->
+<!--File generated from metadata database version 0.4.198 created on the 2022-07-04T11:20:08.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -711,10 +711,10 @@
 		<assert id="BR-OPT-00155-0052" role="ERROR" test="normalize-space(.) = ('vehicles', 'vehicles-clean', 'vehicles-zero-emission')">rule|message|BR-OPT-00155-0052</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription">
-		<assert id="BT-01(d)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-01(d)-Procedure_length</assert>
+		<assert id="BT-01_d_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-01_d_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription">
-		<assert id="BT-09(b)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 1000">rule|message|BT-09(b)-Procedure_length</assert>
+		<assert id="BT-09_b_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 1000">rule|message|BT-09_b_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:Justification">
 		<assert id="BT-109-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-109-Lot_length</assert>
@@ -756,7 +756,7 @@
 		<assert id="BT-1351-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 4000">rule|message|BT-1351-Procedure_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ChangeDescription">
-		<assert id="BT-141(a)-notice_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-141(a)-notice_length</assert>
+		<assert id="BT-141_a_-notice_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-141_a_-notice_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]/cac:Attachment/cac:ExternalReference/cbc:URI">
 		<assert id="BR-BT-00015-0112" role="ERROR" test="matches(normalize-space(.),'^((((H|h)(T|t)|(F|f))(T|t)(P|p)((S|s)?)):(/){2})(www\.)?([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}(\W(.)*$|$)')">rule|message|BR-BT-00015-0112</assert>
@@ -784,157 +784,157 @@
 		<assert id="BT-18-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-18-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-09)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-09)-Procedure_length</assert>
+		<assert id="BT-196_BT-09_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-09_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-105)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-105)-Procedure_length</assert>
+		<assert id="BT-196_BT-105_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-105_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-106)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-106)-Procedure_length</assert>
+		<assert id="BT-196_BT-106_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-106_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-118)-NoticeResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-118)-NoticeResult_length</assert>
+		<assert id="BT-196_BT-118_-NoticeResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-118_-NoticeResult_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-pre']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-1252)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-1252)-Procedure_length</assert>
+		<assert id="BT-196_BT-1252_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-1252_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-tex']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-135)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-135)-Procedure_length</assert>
+		<assert id="BT-196_BT-135_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-135_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc-jus']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-1351)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-1351)-Procedure_length</assert>
+		<assert id="BT-196_BT-1351_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-1351_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-jus']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-136)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-136)-Procedure_length</assert>
+		<assert id="BT-196_BT-136_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-136_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-142)-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-142)-LotResult_length</assert>
+		<assert id="BT-196_BT-142_-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-142_-LotResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-144)-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-144)-LotResult_length</assert>
+		<assert id="BT-196_BT-144_-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-144_-LotResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-156)-NoticeResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-156)-NoticeResult_length</assert>
+		<assert id="BT-196_BT-156_-NoticeResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-156_-NoticeResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-buy']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-160)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-160)-Tender_length</assert>
+		<assert id="BT-196_BT-160_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-160_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-161)-NoticeResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-161)-NoticeResult_length</assert>
+		<assert id="BT-196_BT-161_-NoticeResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-161_-NoticeResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-use']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-162)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-162)-Tender_length</assert>
+		<assert id="BT-196_BT-162_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-162_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='val-con-des']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-163)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-163)-Tender_length</assert>
+		<assert id="BT-196_BT-163_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-163_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-171)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-171)-Tender_length</assert>
+		<assert id="BT-196_BT-171_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-171_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-191)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-191)-Tender_length</assert>
+		<assert id="BT-196_BT-191_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-191_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-193)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-193)-Tender_length</assert>
+		<assert id="BT-196_BT-193_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-193_-Tender_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-539)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-539)-Lot_length</assert>
+		<assert id="BT-196_BT-539_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-539_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-539)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-539)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-539_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-539_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-540)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-540)-Lot_length</assert>
+		<assert id="BT-196_BT-540_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-540_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-540)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-540)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-540_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-540_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-541)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-541)-Lot_length</assert>
+		<assert id="BT-196_BT-541_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-541_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-541)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-541)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-541_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-541_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-5421)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-5421)-Lot_length</assert>
+		<assert id="BT-196_BT-5421_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-5421_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-5421)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-5421)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-5421_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-5421_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-5422)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-5422)-Lot_length</assert>
+		<assert id="BT-196_BT-5422_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-5422_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-5422)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-5422)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-5422_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-5422_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-5423)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-5423)-Lot_length</assert>
+		<assert id="BT-196_BT-5423_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-5423_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-5423)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-5423)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-5423_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-5423_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-543)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-543)-Lot_length</assert>
+		<assert id="BT-196_BT-543_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-543_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-543)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-543)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-543_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-543_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-553)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-553)-Tender_length</assert>
+		<assert id="BT-196_BT-553_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-553_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-554)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-554)-Tender_length</assert>
+		<assert id="BT-196_BT-554_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-554_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-555)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-555)-Tender_length</assert>
+		<assert id="BT-196_BT-555_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-555_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-556)-NoticeResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-556)-NoticeResult_length</assert>
+		<assert id="BT-196_BT-556_-NoticeResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-556_-NoticeResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-709)-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-709)-LotResult_length</assert>
+		<assert id="BT-196_BT-709_-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-709_-LotResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-low']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-710)-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-710)-LotResult_length</assert>
+		<assert id="BT-196_BT-710_-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-710_-LotResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-hig']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-711)-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-711)-LotResult_length</assert>
+		<assert id="BT-196_BT-711_-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-711_-LotResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-712)-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-712)-LotResult_length</assert>
+		<assert id="BT-196_BT-712_-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-712_-LotResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-720)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-720)-Tender_length</assert>
+		<assert id="BT-196_BT-720_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-720_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-730)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-730)-Tender_length</assert>
+		<assert id="BT-196_BT-730_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-730_-Tender_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-731)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-731)-Tender_length</assert>
+		<assert id="BT-196_BT-731_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-731_-Tender_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-733)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-733)-Lot_length</assert>
+		<assert id="BT-196_BT-733_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-733_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-733)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-733)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-733_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-733_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-734)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-734)-Lot_length</assert>
+		<assert id="BT-196_BT-734_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-734_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-734)-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-734)-LotsGroup_length</assert>
+		<assert id="BT-196_BT-734_-LotsGroup_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-734_-LotsGroup_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-759)-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-759)-LotResult_length</assert>
+		<assert id="BT-196_BT-759_-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-759_-LotResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-760)-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-760)-LotResult_length</assert>
+		<assert id="BT-196_BT-760_-LotResult_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-760_-LotResult_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-773)-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-773)-Tender_length</assert>
+		<assert id="BT-196_BT-773_-Tender_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-773_-Tender_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-fea']/efbc:ReasonDescription">
-		<assert id="BT-196(BT-88)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196(BT-88)-Procedure_length</assert>
+		<assert id="BT-196_BT-88_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-196_BT-88_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:ChangeReason/efbc:ReasonDescription">
 		<assert id="BT-201-Contract_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-201-Contract_length</assert>
@@ -1065,67 +1065,67 @@
 		<assert id="BT-509-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-509-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PostalAddress/cbc:StreetName">
-		<assert id="BT-510(a)-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(a)-Business_length</assert>
+		<assert id="BT-510_a_-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_a_-Business_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:StreetName">
-		<assert id="BT-510(a)-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(a)-Organization-Company_length</assert>
+		<assert id="BT-510_a_-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_a_-Organization-Company_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PostalAddress/cbc:StreetName">
-		<assert id="BT-510(a)-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(a)-Organization-TouchPoint_length</assert>
+		<assert id="BT-510_a_-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_a_-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:ResidenceAddress/cbc:StreetName">
-		<assert id="BT-510(a)-UBO_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(a)-UBO_length</assert>
+		<assert id="BT-510_a_-UBO_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_a_-UBO_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PostalAddress/cbc:AdditionalStreetName">
-		<assert id="BT-510(b)-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(b)-Business_length</assert>
+		<assert id="BT-510_b_-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_b_-Business_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:AdditionalStreetName">
-		<assert id="BT-510(b)-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(b)-Organization-Company_length</assert>
+		<assert id="BT-510_b_-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_b_-Organization-Company_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PostalAddress/cbc:AdditionalStreetName">
-		<assert id="BT-510(b)-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(b)-Organization-TouchPoint_length</assert>
+		<assert id="BT-510_b_-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_b_-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:ResidenceAddress/cbc:AdditionalStreetName">
-		<assert id="BT-510(b)-UBO_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(b)-UBO_length</assert>
+		<assert id="BT-510_b_-UBO_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_b_-UBO_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PostalAddress/cac:AddressLine/cbc:Line">
-		<assert id="BT-510(c)-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(c)-Business_length</assert>
+		<assert id="BT-510_c_-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_c_-Business_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:AddressLine/cbc:Line">
-		<assert id="BT-510(c)-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(c)-Organization-Company_length</assert>
+		<assert id="BT-510_c_-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_c_-Organization-Company_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PostalAddress/cac:AddressLine/cbc:Line">
-		<assert id="BT-510(c)-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(c)-Organization-TouchPoint_length</assert>
+		<assert id="BT-510_c_-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_c_-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:ResidenceAddress/cac:AddressLine/cbc:Line">
-		<assert id="BT-510(c)-UBO_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510(c)-UBO_length</assert>
+		<assert id="BT-510_c_-UBO_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-510_c_-UBO_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:StreetName">
-		<assert id="BT-5101(a)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(a)-Lot_length</assert>
+		<assert id="BT-5101_a_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_a_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:StreetName">
-		<assert id="BT-5101(a)-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(a)-Part_length</assert>
+		<assert id="BT-5101_a_-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_a_-Part_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:StreetName">
-		<assert id="BT-5101(a)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(a)-Procedure_length</assert>
+		<assert id="BT-5101_a_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_a_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:AdditionalStreetName">
-		<assert id="BT-5101(b)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(b)-Lot_length</assert>
+		<assert id="BT-5101_b_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_b_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:AdditionalStreetName">
-		<assert id="BT-5101(b)-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(b)-Part_length</assert>
+		<assert id="BT-5101_b_-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_b_-Part_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:AdditionalStreetName">
-		<assert id="BT-5101(b)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(b)-Procedure_length</assert>
+		<assert id="BT-5101_b_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_b_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:AddressLine/cbc:Line">
-		<assert id="BT-5101(c)-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(c)-Lot_length</assert>
+		<assert id="BT-5101_c_-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_c_-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:AddressLine/cbc:Line">
-		<assert id="BT-5101(c)-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(c)-Part_length</assert>
+		<assert id="BT-5101_c_-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_c_-Part_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:AddressLine/cbc:Line">
-		<assert id="BT-5101(c)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101(c)-Procedure_length</assert>
+		<assert id="BT-5101_c_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-5101_c_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PostalAddress/cbc:PostalZone">
 		<assert id="BT-512-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-512-Business_length</assert>
@@ -1205,7 +1205,7 @@
 		<assert id="BT-632-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-632-Part_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:Description">
-		<assert id="BT-67(b)-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-67(b)-Procedure_length</assert>
+		<assert id="BT-67_b_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|message|BT-67_b_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='conditions']/cbc:Description">
 		<assert id="BT-70-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 1000">rule|message|BT-70-Lot_length</assert>

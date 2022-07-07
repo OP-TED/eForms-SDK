@@ -60,11 +60,6 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
-							<cac:SignatoryParty>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
-								</cac:PartyIdentification>
-							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<cbc:ID>BSO/2010/REV-01</cbc:ID>
 							</efac:ContractReference>

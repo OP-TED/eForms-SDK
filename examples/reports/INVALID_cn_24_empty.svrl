@@ -82,7 +82,7 @@
                        role="ERROR"
                        test="count(cbc:IssueDate) &gt; 0">
       <svrl:text>rule|message|BR-BT-00005-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-05(a)-notice">
+      <svrl:diagnostic-reference diagnostic="BT-05_a_-notice">
 cbc:IssueDate</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00005-0074"
@@ -90,7 +90,7 @@ cbc:IssueDate</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:IssueTime) &gt; 0">
       <svrl:text>rule|message|BR-BT-00005-0074</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-05(b)-notice">
+      <svrl:diagnostic-reference diagnostic="BT-05_b_-notice">
 cbc:IssueTime</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00701-0022"
@@ -106,7 +106,7 @@ cbc:ID[@schemeName='notice-id']</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:NoticeLanguageCode) &gt; 0">
       <svrl:text>rule|message|BR-BT-00702-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-702(a)-notice">
+      <svrl:diagnostic-reference diagnostic="BT-702_a_-notice">
 cbc:NoticeLanguageCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00757-0022"
@@ -246,5 +246,6 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    <svrl:active-pattern id="EFORMS-stage-5" name="EFORMS-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
    <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
 </svrl:schematron-output>

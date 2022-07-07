@@ -61,31 +61,6 @@ But with the minimal amount of information while still valid
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
-						<efac:Organization>
-							<efac:Company>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
-								</cac:PartyIdentification>
-								<cac:PartyName>
-									<cbc:Name languageID="ENG">Example Mediator</cbc:Name>
-								</cac:PartyName>
-								<cac:PostalAddress>
-									<cbc:CityName>Example City</cbc:CityName>
-									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
-									<cac:Country>
-										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
-									</cac:Country>
-								</cac:PostalAddress>
-								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeName="abc">111 111 111</cbc:CompanyID>
-								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+123 456 789</cbc:Telephone>
-									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
-								</cac:Contact>
-							</efac:Company>
-						</efac:Organization>
 					</efac:Organizations>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
@@ -207,11 +182,6 @@ But with the minimal amount of information while still valid
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
-				<cac:MediationParty>
-					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
-					</cac:PartyIdentification>
-				</cac:MediationParty>
 			</cac:AppealTerms>
 			<cac:Language>
 				<cbc:ID>ENG</cbc:ID>
