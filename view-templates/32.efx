@@ -1,36 +1,36 @@
 // View 32
-// sdkVersion='eforms-sdk-0.6.0'
-// File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00
-{ND-0} #{decoration|name|buyer}
+// sdkVersion='eforms-sdk-0.7.0'
+// File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06
+1 {ND-Root} #{decoration|name|buyer}
 	{OPT-300-Procedure-Buyer} #{decoration|name|buyer}
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{business_term|name|BT-500}: ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}
 		{BT-11-Procedure-Buyer} #{business_term|name|BT-11}: #{BT-11-Procedure-Buyer}
 		{BT-740-Procedure-Buyer} #{BT-740-Procedure-Buyer}
 		{BT-10-Procedure-Buyer} #{business_term|name|BT-10}: #{BT-10-Procedure-Buyer}
-{ND-0} #{decoration|name|procedure}
-	{ND-0} #{decoration|name|procedure}
+2 {ND-Root} #{decoration|name|procedure}
+	{ND-Root} #{decoration|name|procedure}
 		{BT-21-Procedure} #{business_term|name|BT-21}: ${BT-21-Procedure}
 		{BT-24-Procedure} #{business_term|name|BT-24}: ${BT-24-Procedure}
 		{BT-04-notice} #{business_term|name|BT-04}: ${BT-04-notice}
 		{BT-22-Procedure} #{business_term|name|BT-22}: ${BT-22-Procedure}
 		{BT-105-Procedure} #{business_term|name|BT-105}: #{BT-105-Procedure}
 		{BT-88-Procedure} #{business_term|name|BT-88}: ${BT-88-Procedure}
-		{ND-0} #{decoration|name|purpose}
+		{ND-Root} #{decoration|name|purpose}
 			{BT-23-Procedure} #{business_term|name|BT-23}: #{BT-23-Procedure}
 			{BT-531-Procedure} #{business_term|name|BT-531}: #{BT-531-Procedure}
 			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
 			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
-		{ND-0} #{decoration|name|value}
+		{ND-Root} #{decoration|name|value}
 			{BT-27-Procedure} #{name|BT-27}: ${BT-27-Procedure} ${BT-27-Procedure/@currencyID}
-		{ND-0} #{decoration|name|general-information}
+		{ND-Root} #{decoration|name|general-information}
 			{BT-300-Procedure} #{business_term|name|BT-300}: ${BT-300-Procedure}
-			{ND-0} #{decoration|name|legal-basis}
+			{ND-Root} #{decoration|name|legal-basis}
 			{BT-01-notice} #{BT-01-notice} ${BT-01(c)-Procedure} ${BT-01(d)-Procedure}
 			{BT-01(d)-Procedure} #{name|BT-01}: ${BT-01(d)-Procedure}
-			{ND-0} #{decoration|name|cross-border-law}
+			{ND-Root} #{decoration|name|cross-border-law}
 			{BT-09(a)-Procedure} #{field|name|BT-09(a)-Procedure}: ${BT-09(a)-Procedure}
 			{BT-09(b)-Procedure} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure}
-{ND-0} #{decoration|name|group-of-lots}
+{ND-Root} #{decoration|name|group-of-lots}
 	{BT-330-Procedure} #{name|BT-330}: ${BT-330-Procedure}
 		{BT-1375-Procedure} #{name|BT-1375}: ${BT-1375-Procedure}
 		{BT-21-LotsGroup} #{business_term|name|BT-21}: ${BT-21-LotsGroup}
@@ -50,7 +50,7 @@
 				{BT-5423-LotsGroup} #{BT-5423-LotsGroup} - ${BT-541-LotsGroup}
 				{BT-543-LotsGroup} #{business_term|name|BT-543}: ${BT-543-LotsGroup}
 				{BT-733-LotsGroup} #{business_term|name|BT-733}: ${BT-733-LotsGroup}
-{ND-0} #{decoration|name|lot}
+{ND-Root} #{decoration|name|lot}
 	{BT-137-Lot} #{name|BT-137}: ${BT-137-Lot}
 		{BT-21-Lot} #{business_term|name|BT-21}: ${BT-21-Lot}
 		{BT-24-Lot} #{business_term|name|BT-24}: ${BT-24-Lot}
@@ -101,10 +101,10 @@
 				{BT-733-Lot} #{business_term|name|BT-733}: ${BT-733-Lot}
 		{BT-137-Lot} #{decoration|name|procurement-terms}
 		{BT-137-Lot} #{decoration|name|organisations}
-{ND-0} #{decoration|name|results}
-	{ND-0} #{decoration|name|results-procurement-procedure}
+{ND-Root} #{decoration|name|results}
+	{ND-Root} #{decoration|name|results-procurement-procedure}
 		{BT-161-NoticeResult} #{name|BT-161}: ${BT-161-NoticeResult} ${BT-161-NoticeResult/@currencyID}
-	{ND-0} #{decoration|name|direct-award}
+	{ND-Root} #{decoration|name|direct-award}
 		{BT-136-Procedure} #{business_term|name|BT-136}: #{BT-136-Procedure}
 		{BT-135-Procedure} #{business_term|name|BT-135}: ${BT-135-Procedure}
 		{BT-1252-Procedure} #{name|BT-1252}: ${BT-1252-Procedure}
@@ -112,11 +112,11 @@
 		{BT-142-LotResult} #{BT-142-LotResult}
 		{BT-144-LotResult} #{business_term|name|BT-144}: ${BT-144-LotResult}
 		{BT-137-Lot} #{decoration|name|winner}
-			{BT-3201-Tender[BT-3202-Contract]} #{decoration|name|tender}
-				{BT-3201-Tender[BT-3202-Contract]} #{business_term|name|BT-3201}: ${BT-3201-Tender[BT-3202-Contract]}
+			{BT-3201-Tender[BT-3202-Contract is present]} #{decoration|name|tender}
+				{BT-3201-Tender[BT-3202-Contract is present]} #{business_term|name|BT-3201}: ${BT-3201-Tender[BT-3202-Contract is present]}
 				{BT-13714-Tender} #{name|BT-13714}: ${BT-13714-Tender}
 				{BT-720-Tender} #{name|BT-720}: ${BT-720-Tender} ${BT-720-Tender/@currencyID}
-				{BT-3201-Tender[BT-3202-Contract]} #{decoration|name|concession-value}
+				{BT-3201-Tender[BT-3202-Contract is present]} #{decoration|name|concession-value}
 					{BT-162-Tender} #{name|BT-162}: ${BT-162-Tender} ${BT-162-Tender/@currencyID}
 					{BT-160-Tender} #{name|BT-160}: ${BT-160-Tender} ${BT-160-Tender/@currencyID}
 					{BT-163-Tender} #{business_term|name|BT-163}: ${BT-163-Tender}
@@ -125,18 +125,18 @@
 					{BT-730-Tender} #{name|BT-553}: ${BT-553-Tender} ${BT-553-Tender/@currencyID}, #{BT-730-Tender}
 					{BT-731-Tender} #{name|BT-555}: ${BT-555-Tender}, #{BT-731-Tender}
 					{BT-554-Tender} #{name|BT-554}: ${BT-554-Tender}
-				{BT-3201-Tender[BT-3202-Contract]} #{decoration|name|contract-information}
+				{BT-3201-Tender[BT-3202-Contract is present]} #{decoration|name|contract-information}
 					{BT-150-Contract} #{business_term|name|BT-150}: ${BT-150-Contract}
 					{BT-721-Contract} #{business_term|name|BT-721}: ${BT-721-Contract}
 					{BT-1451-Contract} #{business_term|name|BT-1451}: ${BT-1451-Contract}
 					{BT-145-Contract} #{business_term|name|BT-145}: ${BT-145-Contract}
 					{BT-768-Contract} #{business_term|name|BT-768}: ${BT-768-Contract}
 					{BT-151-Contract} #{business_term|name|BT-151}: ${BT-151-Contract}
-					{BT-3201-Tender[BT-3202-Contract]} #{decoration|name|eu-funds-used}
+					{BT-3201-Tender[BT-3202-Contract is present]} #{decoration|name|eu-funds-used}
 						{BT-722-Contract} #{name|BT-722}: ${BT-722-Contract}
 						{BT-5011-Contract} #{name|BT-5011}: ${BT-5011-Contract}
-						{BT-500-Organization-Company[OPT-300-Contract-Signatory]} #{decoration|name|organisation-signing-contract}
-						{BT-500-Organization-Company[OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider='serv-prov']]} #{decoration|name|organisation-providing-procurement-service}
+						{BT-500-Organization-Company[OPT-300-Contract-Signatory is present]} #{decoration|name|organisation-signing-contract}
+						{BT-500-Organization-Company[OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov'] is present]} #{decoration|name|organisation-providing-procurement-service}
 			{BT-137-Lot} #{decoration|name|winner-info}
 			{BT-137-Lot} #{decoration|name|beneficial-owner}
 				{OPT-160-UBO} business_term.name.name: ${OPT-160-UBO} ${BT-500-UBO}
@@ -146,7 +146,7 @@
 			{BT-3201-Tender} #{decoration|name|tender}
 				{BT-3201-Tender} #{business_term|name|BT-3201}: ${BT-3201-Tender}
 				{BT-13714-Tender} #{name|BT-13714}: ${BT-13714-Tender}
-				{BT-500-Organization-Company[BT-3201-Tender]} #{business_term|name|BT-500}: ${BT-500-Organization-Company[BT-3201-Tender]}
+				{BT-500-Organization-Company[BT-3201-Tender is present]} #{business_term|name|BT-500}: ${BT-500-Organization-Company[BT-3201-Tender is present]}
 				{BT-165-Organization-Company[BT-3201-Tender]} #{business_term|name|BT-165}: #{BT-165-Organization-Company[BT-3201-Tender]}
 				{BT-706-UBO} #{business_term|name|BT-706}: #{BT-706-UBO}
 		{BT-137-Lot} #{decoration|name|statistical-information}
@@ -157,8 +157,8 @@
 			{BT-137-Lot} #{decoration|name|received-submissions}
 				{BT-760-LotResult} #{BT-760-LotResult} - ${BT-759-LotResult}
 			{BT-137-Lot} #{decoration|name|range-tenders}
-{ND-0} #{decoration|name|organisations}
-	{ND-0} #{decoration|name|organisations}
+8 {ND-Root} #{decoration|name|organisations}
+	{ND-Root} #{decoration|name|organisations}
 		{OPT-300-Procedure-Buyer} #{name|BT-500}
 			{BT-500-Organization-Company} #{business_term|name|BT-500}: ${BT-500-Organization-Company}
 			{BT-633-Organization} ${BT-633-Organization}
@@ -191,10 +191,10 @@
 				{BT-505-Organization-TouchPoint} #{business_term|name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{business_term|name|BT-509}: ${BT-509-Organization-TouchPoint}
 			{OPT-300-Procedure-Buyer} #{decoration|name|roles}
-				{OPP-050-Organization} TODO fix something in that row
-				{OPP-052-Organization} TODO fix something in that row
-				{OPP-051-Organization} TODO fix something in that row
-		{OPT-300-Procedure-SProvider[OPT-030-Procedure-Sprovider=='serv-prov']} #{name|BT-500}
+				{OPP-050-Organization} TODO
+				{OPP-052-Organization} TODO 
+				{OPP-051-Organization} TODO 
+		{OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']} #{name|BT-500}
 			{BT-500-Organization-Company} #{business_term|name|BT-500}: ${BT-500-Organization-Company}
 			{BT-633-Organization} ${BT-633-Organization}
 			{BT-501-Organization-Company} #{name|BT-501}: ${BT-501-Organization-Company}
@@ -211,7 +211,7 @@
 			{BT-505-Organization-Company} #{business_term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-509-Organization-Company} #{business_term|name|BT-509}: ${BT-509-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business_term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-300-Procedure-SProvider[OPT-030-Procedure-Sprovider=='serv-prov']} #{decoration|name|other-contact-point}
+			{OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']} #{decoration|name|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business_term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business_term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -628,7 +628,7 @@
 				{BT-739-Organization-TouchPoint} #{business_term|name|BT-739}: ${BT-739-Organization-TouchPoint}
 				{BT-505-Organization-TouchPoint} #{business_term|name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{business_term|name|BT-509}: ${BT-509-Organization-TouchPoint}
-		{OPT-300-Procedure-SProvider[OPT-030-Procedure-Sprovider=='ted-esen']} #{name|BT-500}
+		{OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']} #{name|BT-500}
 			{BT-500-Organization-Company} #{business_term|name|BT-500}: ${BT-500-Organization-Company}
 			{BT-633-Organization} ${BT-633-Organization}
 			{BT-501-Organization-Company} #{name|BT-501}: ${BT-501-Organization-Company}
@@ -645,7 +645,7 @@
 			{BT-505-Organization-Company} #{business_term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-509-Organization-Company} #{business_term|name|BT-509}: ${BT-509-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business_term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-300-Procedure-SProvider[OPT-030-Procedure-Sprovider=='ted-esen']} #{decoration|name|other-contact-point}
+			{OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']} #{decoration|name|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business_term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business_term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -659,45 +659,45 @@
 				{BT-739-Organization-TouchPoint} #{business_term|name|BT-739}: ${BT-739-Organization-TouchPoint}
 				{BT-505-Organization-TouchPoint} #{business_term|name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{business_term|name|BT-509}: ${BT-509-Organization-TouchPoint}
-	{ND-0} #{decoration|name|organisation-roles}
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} TODO fix something in that row
-		{BT-500-Organization-Company[OPP-052-Organization='true']} TODO fix something in that row
-		{BT-500-Organization-Company[OPP-051-Organization='true']} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=serv-prov]]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-AddInfo]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-DocProvider]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-TenderReceipt]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-TenderEval]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-300-Contract-Signatory]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-LotResult-Financing]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-LotResult-Paying]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-ReviewOrg]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-ReviewInfo]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-Mediator]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-FiscalLegis]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-EnvironLegis]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-301-Lot-EmployLegis]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-202-UBO]} TODO fix something in that row
-		{BT-500-Organization-Company[OPT-300-Procedure-SProvider[OPT-030-Procedure-Sprovider == ted-esen]]} TODO fix something in that row
-{ND-0} #{decoration|name|change}
-	{ND-0} #{decoration|name|change}
+	{ND-Root} #{decoration|name|organisation-roles}
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} TODO 
+		{BT-500-Organization-Company[OPP-052-Organization is present]} TODO
+		{BT-500-Organization-Company[OPP-051-Organization is present]} TODO
+		{BT-500-Organization-Company[OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov'] is present]} TODO 
+		{BT-500-Organization-Company[OPT-301-Lot-AddInfo is present]} TODO
+		{BT-500-Organization-Company[OPT-301-Lot-DocProvider is present]} TODO
+		{BT-500-Organization-Company[OPT-301-Lot-TenderReceipt is present]} TODO 
+		{BT-500-Organization-Company[OPT-301-Lot-TenderEval is present]} TODO 
+		{BT-500-Organization-Company[OPT-300-Contract-Signatory is present]} TODO 
+		{BT-500-Organization-Company[OPT-301-LotResult-Financing is present]} TODO 
+		{BT-500-Organization-Company[OPT-301-LotResult-Paying is present]} TODO 
+		{BT-500-Organization-Company[OPT-301-Lot-ReviewOrg is present]} TODO
+		{BT-500-Organization-Company[OPT-301-Lot-ReviewInfo is present]} TODO
+		{BT-500-Organization-Company[OPT-301-Lot-Mediator is present]} TODO
+		{BT-500-Organization-Company[OPT-301-Lot-FiscalLegis is present]} TODO
+		{BT-500-Organization-Company[OPT-301-Lot-EnvironLegis is present]} TODO 
+		{BT-500-Organization-Company[OPT-301-Lot-EmployLegis is present]} TODO
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer]} TODO 
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont]} TODO 
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-202-UBO]} TODO 
+		{BT-500-Organization-Company[OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider == 'ted-esen'] is present]} TODO
+{ND-Root} #{decoration|name|change}
+	{ND-Root} #{decoration|name|change}
 		{BT-758-notice} #{business_term|name|BT-758}: ${BT-758-notice}
 		{BT-140-notice} #{business_term|name|BT-140}: #{BT-140-notice}
 		{BT-762-notice} #{business_term|name|BT-762}: ${BT-762-notice}
 		{BT-13716-notice} #{business_term|name|BT-13716}: ${BT-13716-notice}
 		{BT-141(a)-notice} #{name|BT-141}: ${BT-141(a)-notice}
 		{BT-718-notice} #{name|BT-718} ${BT-719-notice}: #{BT-718-notice}
-{ND-0} #{decoration|name|notice-information}
-	{ND-0} #{decoration|name|notice-information}
+11 {ND-Root} #{decoration|name|notice-information}
+	{ND-Root} #{decoration|name|notice-information}
 		{BT-701-notice} #{name|BT-757}: ${BT-757-notice}
 		{BT-03-notice} #{business_term|name|BT-03}: #{BT-03-notice}
 		{BT-02-notice} #{business_term|name|BT-02}: #{BT-02-notice}
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
 		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
-	{ND-0} #{decoration|name|publication-information}
-		{ND-0} #{business_term|name|BT-21}
+	{ND-Root} #{decoration|name|publication-information}
+		{ND-Root} #{business_term|name|BT-21}
 		{OPP-010-notice} #{business_term|name|OPP-010}: ${OPP-010-notice}
 		{OPP-011-notice} #{business_term|name|OPP-011}: ${OPP-011-notice}
 		{OPP-012-notice} #{business_term|name|OPP-012}: ${OPP-012-notice}
