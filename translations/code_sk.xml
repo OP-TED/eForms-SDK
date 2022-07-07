@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Slovak. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Slovak. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Kritériá prístupnosti pre osoby so zdravotným postihnutím sú zahrnuté</entry>
 <entry key="code|value|accessibility.n-inc">Kritériá prístupnosti pre osoby so zdravotným postihnutím nie sú zahrnuté, keďže zákazka nie je určená na použitie fyzickými osobami</entry>
 <entry key="code|value|accessibility.n-inc-just">Kritériá prístupnosti pre osoby so zdravotným postihnutím nie sú zahrnuté s nasledujúcim odôvodnením</entry>
@@ -10776,10 +10776,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Presadzovanie práva</entry>
 <entry key="code|value|non-publication-justification.oth-int">Iný verejný záujem</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Služby v oblasti výskumu a vývoja</entry>
+<entry key="code|value|notice-type.brin-ecs">Európska spoločnosť/európske družstvo – oznámenie</entry>
+<entry key="code|value|notice-type.brin-eeig">Európske zoskupenie hospodárskych záujmov – oznámenie</entry>
 <entry key="code|value|notice-type.can-desg">Oznámenie o výsledku súťaže návrhov</entry>
 <entry key="code|value|notice-type.can-modif">Oznámenie o úprave zmluvy</entry>
 <entry key="code|value|notice-type.can-social">Oznámenie o výsledku verejného obstarávania alebo oznámenie o udelení koncesie – zjednodušený režim</entry>
 <entry key="code|value|notice-type.can-standard">Oznámenie o výsledku verejného obstarávania alebo oznámenie o udelení koncesie – štandardný režim</entry>
+<entry key="code|value|notice-type.can-tran">Oznámenie o zadaní zmlúv o službách vo verejnom záujme v osobnej doprave</entry>
 <entry key="code|value|notice-type.cn-desg">Oznámenie o vyhlásení súťaže návrhov</entry>
 <entry key="code|value|notice-type.cn-social">Oznámenie o vyhlásení verejného obstarávania – zjednodušený režim</entry>
 <entry key="code|value|notice-type.cn-standard">Oznámenie o vyhlásení verejného obstarávania alebo oznámenie o koncesii – štandardný režim</entry>
@@ -10789,6 +10792,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Predbežné oznámenie a pravidelné informatívne oznámenie použité ako výzva na súťaž – štandardný režim</entry>
 <entry key="code|value|notice-type.pin-only">Predbežné oznámenie a pravidelné informatívne oznámenie použité len na informačné účely</entry>
 <entry key="code|value|notice-type.pin-rtl">Predbežné oznámenie a pravidelné informatívne oznámenie použité na skrátenie lehôt na prijímanie ponúk</entry>
+<entry key="code|value|notice-type.pin-tran">Predbežné oznámenie o službách vo verejnom záujme v osobnej doprave</entry>
 <entry key="code|value|notice-type.qu-sy">Oznámenie o existencii kvalifikačného systému</entry>
 <entry key="code|value|notice-type.subco">Oznámenie o zadaní subdodávok</entry>
 <entry key="code|value|notice-type.veat">Oznámenie pre dobrovoľnú transparentnosť ex-ante</entry>
@@ -10796,13 +10800,13 @@
 <entry key="code|value|number-fixed.fix-unit">Pevná hodnota (jednotková)</entry>
 <entry key="code|value|number-threshold.max-pass">Maximálny počet ponúk s najvyšším počtom bodov</entry>
 <entry key="code|value|number-threshold.min-score">Minimálny počet bodov</entry>
-<entry key="code|value|number-weight.dec-exa">{Váha (desatiny, presne)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Váha (desatiny, stred rozmedzia)}</entry>
+<entry key="code|value|number-weight.dec-exa">Váha (desatiny, presne)</entry>
+<entry key="code|value|number-weight.dec-mid">Váha (desatiny, stred rozmedzia)</entry>
 <entry key="code|value|number-weight.ord-imp">Poradie dôležitosti</entry>
-<entry key="code|value|number-weight.per-exa">{Váha (percentá, presne)}</entry>
-<entry key="code|value|number-weight.per-mid">{Váha (percentá, stred rozmedzia)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Váha (body, presne)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Váha (body, stred rozmedzia)}</entry>
+<entry key="code|value|number-weight.per-exa">Váha (percentá, presne)</entry>
+<entry key="code|value|number-weight.per-mid">Váha (percentá, stred rozmedzia)</entry>
+<entry key="code|value|number-weight.poi-exa">Váha (body, presne)</entry>
+<entry key="code|value|number-weight.poi-mid">Váha (body, stred rozmedzia)</entry>
 <entry key="code|value|organisation-role.ben-own">Oprávnený vlastník</entry>
 <entry key="code|value|organisation-role.buyer">Kupujúci</entry>
 <entry key="code|value|organisation-role.cpb-acq">Centrálna obstarávacia organizácia, ktorá obstaráva dodávky tovaru a/alebo služby určené pre iných kupujúcich</entry>

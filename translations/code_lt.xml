@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Lithuanian. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Lithuanian. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Prieinamumo neįgaliesiems kriterijai įtraukti</entry>
 <entry key="code|value|accessibility.n-inc">Prieinamumo neįgaliesiems kriterijai neįtraukti, nes nenumatyta, kad pirkimo objektas bus naudojamas fizinių asmenų</entry>
 <entry key="code|value|accessibility.n-inc-just">Prieinamumo neįgaliesiems kriterijai neįtraukti dėl šių priežasčių</entry>
@@ -10776,10 +10776,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Teisėsauga</entry>
 <entry key="code|value|non-publication-justification.oth-int">Kitas viešasis interesas</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Mokslinių tyrimų ir technologinės plėtros paslaugos</entry>
+<entry key="code|value|notice-type.brin-ecs">Europos bendrovės / Europos kooperatinės bendrovės skelbimas</entry>
+<entry key="code|value|notice-type.brin-eeig">Europos ekonominių interesų grupės skelbimas</entry>
 <entry key="code|value|notice-type.can-desg">Skelbimas apie projekto konkurso rezultatus</entry>
 <entry key="code|value|notice-type.can-modif">Skelbimas apie sutarties keitimą</entry>
 <entry key="code|value|notice-type.can-social">Skelbimas apie sutarties arba koncesijos skyrimą. Paprastesnis režimas</entry>
 <entry key="code|value|notice-type.can-standard">Skelbimas apie sutarties arba koncesijos skyrimą. Įprasta tvarka</entry>
+<entry key="code|value|notice-type.can-tran">Skelbimas apie viešojo keleivinio transporto paslaugų sutarties skyrimą</entry>
 <entry key="code|value|notice-type.cn-desg">Skelbimas apie projekto konkursą</entry>
 <entry key="code|value|notice-type.cn-social">Skelbimas apie pirkimą. Paprastesnis režimas</entry>
 <entry key="code|value|notice-type.cn-standard">Skelbimas apie pirkimą arba koncesiją. Įprasta tvarka</entry>
@@ -10789,6 +10792,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas kaip kvietimas dalyvauti konkurse. Įprasta tvarka</entry>
 <entry key="code|value|notice-type.pin-only">Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, skirtas tik informavimui</entry>
 <entry key="code|value|notice-type.pin-rtl">Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas siekiant sutrumpinti pasiūlymų priėmimo terminą</entry>
+<entry key="code|value|notice-type.pin-tran">Išankstinis informacinis skelbimas apie viešojo keleivinio transporto paslaugas</entry>
 <entry key="code|value|notice-type.qu-sy">Skelbimas apie kvalifikacijos vertinimo sistemą</entry>
 <entry key="code|value|notice-type.subco">Skelbimas apie subrangą</entry>
 <entry key="code|value|notice-type.veat">Savanoriškas ex-ante skelbimas skaidrumo sumetimais</entry>
@@ -10796,13 +10800,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fiksuotoji (už vienetą)</entry>
 <entry key="code|value|number-threshold.max-pass">Didžiausias atrinktų pasiūlymų skaičius</entry>
 <entry key="code|value|number-threshold.min-score">Mažiausias balų skaičius</entry>
-<entry key="code|value|number-weight.dec-exa">{Lyginamasis svoris (dešimtainė sistema, tikslus skaičius)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Lyginamasis svoris (dešimtainė sistema, intervalo vidurys)}</entry>
+<entry key="code|value|number-weight.dec-exa">Lyginamasis svoris (dešimtainė sistema, tikslus skaičius)</entry>
+<entry key="code|value|number-weight.dec-mid">Lyginamasis svoris (dešimtainė sistema, intervalo vidurys)</entry>
 <entry key="code|value|number-weight.ord-imp">Eilės tvarka pagal svarbą</entry>
-<entry key="code|value|number-weight.per-exa">{Lyginamasis svoris (procentinė dalis, tikslus skaičius)}</entry>
-<entry key="code|value|number-weight.per-mid">{Lyginamasis svoris (procentinė dalis, intervalo vidurys)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Lyginamasis svoris (balai, tikslus skaičius)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Lyginamasis svoris (balų sistema, intervalo vidurys)}</entry>
+<entry key="code|value|number-weight.per-exa">Lyginamasis svoris (procentinė dalis, tikslus skaičius)</entry>
+<entry key="code|value|number-weight.per-mid">Lyginamasis svoris (procentinė dalis, intervalo vidurys)</entry>
+<entry key="code|value|number-weight.poi-exa">Lyginamasis svoris (balai, tikslus skaičius)</entry>
+<entry key="code|value|number-weight.poi-mid">Lyginamasis svoris (balų sistema, intervalo vidurys)</entry>
 <entry key="code|value|organisation-role.ben-own">Tikrasis savininkas</entry>
 <entry key="code|value|organisation-role.buyer">Pirkėjas</entry>
 <entry key="code|value|organisation-role.cpb-acq">Centrinė perkančioji organizacija, įsigyjanti kitiems pirkėjams skirtas prekes ir (arba) paslaugas</entry>

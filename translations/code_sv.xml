@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Swedish. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Swedish. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Tillgänglighetskriterier för personer med funktionsnedsättning ingår</entry>
 <entry key="code|value|accessibility.n-inc">Tillgänglighetskriterier för personer med funktionsnedsättning ingår inte eftersom upphandlingen inte är avsedd att användas av fysiska personer</entry>
 <entry key="code|value|accessibility.n-inc-just">Tillgänglighetskriterier för personer med funktionsnedsättning ingår inte med följande motivering</entry>
@@ -10776,10 +10776,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Rättstillämpning</entry>
 <entry key="code|value|non-publication-justification.oth-int">Annat av allmänt intresse</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Forsknings- och utvecklingstjänster (FoU-tjänster)</entry>
+<entry key="code|value|notice-type.brin-ecs">Meddelande om europabolag/europeisk kooperativ förening</entry>
+<entry key="code|value|notice-type.brin-eeig">Meddelande om europeisk ekonomisk intressegruppering</entry>
 <entry key="code|value|notice-type.can-desg">Meddelande om resultat av projekttävling</entry>
 <entry key="code|value|notice-type.can-modif">Meddelande om ändring av kontrakt</entry>
 <entry key="code|value|notice-type.can-social">Meddelande om upphandlings- eller koncessionstilldelning – förenklat system</entry>
 <entry key="code|value|notice-type.can-standard">Meddelande om upphandlings- eller koncessionstilldelning – standardsystem</entry>
+<entry key="code|value|notice-type.can-tran">Meddelande om tilldelning av kontrakt för kollektivtrafik</entry>
 <entry key="code|value|notice-type.cn-desg">Meddelande om projekttävling</entry>
 <entry key="code|value|notice-type.cn-social">Meddelande om upphandling – förenklat system</entry>
 <entry key="code|value|notice-type.cn-standard">Meddelande om upphandling eller koncession – standardsystem</entry>
@@ -10789,6 +10792,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Förhandsmeddelande som används som anbudsinfordran – standardsystem</entry>
 <entry key="code|value|notice-type.pin-only">Förhandsmeddelande som endast används i informationssyfte</entry>
 <entry key="code|value|notice-type.pin-rtl">Förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud</entry>
+<entry key="code|value|notice-type.pin-tran">Förhandsmeddelande om kollektivtrafik</entry>
 <entry key="code|value|notice-type.qu-sy">Meddelande om att det finns ett kvalificeringssystem</entry>
 <entry key="code|value|notice-type.subco">Meddelande om underentreprenad</entry>
 <entry key="code|value|notice-type.veat">Meddelande om frivillig förhandsinsyn</entry>
@@ -10796,13 +10800,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fast värde (per enhet)</entry>
 <entry key="code|value|number-threshold.max-pass">Högsta antal utvalda anbud</entry>
 <entry key="code|value|number-threshold.min-score">Lägsta antal poäng</entry>
-<entry key="code|value|number-weight.dec-exa">{Viktning (decimaltal, exakt)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Viktning (decimaltal, mitt i intervallet)}</entry>
+<entry key="code|value|number-weight.dec-exa">Viktning (decimaltal, exakt)</entry>
+<entry key="code|value|number-weight.dec-mid">Viktning (decimaltal, mitt i intervallet)</entry>
 <entry key="code|value|number-weight.ord-imp">Prioritetsordning</entry>
-<entry key="code|value|number-weight.per-exa">{Viktning (procentandel, exakt)}</entry>
-<entry key="code|value|number-weight.per-mid">{Viktning (procentandel, mitt i intervallet)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Viktning (poängtal, exakt)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Viktning (poängtal, mitt i intervallet)}</entry>
+<entry key="code|value|number-weight.per-exa">Viktning (procentandel, exakt)</entry>
+<entry key="code|value|number-weight.per-mid">Viktning (procentandel, mitt i intervallet)</entry>
+<entry key="code|value|number-weight.poi-exa">Viktning (poängtal, exakt)</entry>
+<entry key="code|value|number-weight.poi-mid">Viktning (poängtal, mitt i intervallet)</entry>
 <entry key="code|value|organisation-role.ben-own">Verklig ägare</entry>
 <entry key="code|value|organisation-role.buyer">Upphandlare</entry>
 <entry key="code|value|organisation-role.cpb-acq">Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare</entry>

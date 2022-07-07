@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>condition in English. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>condition in English. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="condition|message|1">the value chosen for the indicator of BT-740-Procedure-Buyer is 'NO'</entry>
 <entry key="condition|message|100">BT-541-Lot is present and BT-5421-Lot is not present and BT-5423-Lot is not present</entry>
 <entry key="condition|message|101">BT-541-Lot is present and BT-5421-Lot is not present and BT-5422-Lot is not present</entry>
@@ -282,8 +282,49 @@
 <entry key="condition|message|353">Procedure Type (BT-105) value is equal to ("Open" or "Restricted")</entry>
 <entry key="condition|message|354">Procedure Type (BT-105) value is equal to ("Restricted" or "Negotiated with prior publication of a call for competition / competitive with negotiation")</entry>
 <entry key="condition|message|355">Organization is a buyer and there is more than one buyer</entry>
+<entry key="condition|message|356">there are two different buyers from two different countries</entry>
+<entry key="condition|message|357">Procedure Legal Basis (BT-01) value is equal to "Directive 2014/23/EU" and Procedure Type (BT-105) value is equal to ("Negotiated without prior call for competition" or "Other single stage procedure" or "Other multiple stage procedure")</entry>
+<entry key="condition|message|358">Buyer Review Requests Irregularity Type (BT-636-LotResult) exists</entry>
+<entry key="condition|message|359">Buyer Review Complainants (Code) (BT-712(a)-LotResult) exists</entry>
+<entry key="condition|message|360">the Tendering Party is composed of at least 2 Main Tenderers</entry>
+<entry key="condition|message|361">the lot involves a Framework Agreement and its duration is greater than 4 years</entry>
+<entry key="condition|message|362">the lot involves a Framework Agreement and its duration is greater than 7 years</entry>
+<entry key="condition|message|363">the lot involves a Framework Agreement and its duration is greater than 8 years</entry>
+<entry key="condition|message|364">the lot concerns a strategic procurement</entry>
+<entry key="condition|message|365">there is no accessibility criteria even though the procurement is intended for use by natural persons.</entry>
+<entry key="condition|message|366">security clearance is required</entry>
+<entry key="condition|message|367">Late Tenderer Information provision is allowed</entry>
+<entry key="condition|message|368">some Late Tenderer Information provision is allowed</entry>
+<entry key="condition|message|369">Electronic Submission is not required</entry>
+<entry key="condition|message|370">no electronic submission may take place</entry>
+<entry key="condition|message|371">the group of lots has one or less lots</entry>
+<entry key="condition|message|372">Selection Criteria Type (BT-747-Lot) exists</entry>
+<entry key="condition|message|373">the Group of lots is composed of Lots for which a framework agreement is defined</entry>
+<entry key="condition|message|374">subcontracting Obligation (BT-65) is specified</entry>
+<entry key="condition|message|375">BT-537-Part and BT-538-Part are not present</entry>
+<entry key="condition|message|376">Duration Period (BT-36-Part) or Duration End Date (BT-537-Part) exists</entry>
+<entry key="condition|message|377">BT-36-Part and BT-538-Part are not present</entry>
+<entry key="condition|message|378">BT-36-Part and BT-537-Part are not present</entry>
+<entry key="condition|message|379">the organization is a Service Provider, or is a Tenderer or Subcontractor which is not on a regulated market.</entry>
+<entry key="condition|message|380">the Organization is a Service Provider</entry>
+<entry key="condition|message|381">Exclusion Grounds Code (BT-67(a)-Procedure) exists</entry>
+<entry key="condition|message|382">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
+<entry key="condition|message|383">Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
+<entry key="condition|message|384">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
+<entry key="condition|message|385">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
+<entry key="condition|message|386">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
+<entry key="condition|message|387">Organization Country Code (BT-514-Organization-TouchPoint) is present</entry>
+<entry key="condition|message|388">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) do not exist</entry>
+<entry key="condition|message|389">the Business Country (BT-514-Business) is a Country with NUTS codes</entry>
+<entry key="condition|message|390">Business City (BT-513-Business) exists</entry>
+<entry key="condition|message|391">Business address line (BT-510(a)-Business) exists</entry>
+<entry key="condition|message|392">Business address line (BT-510(b)-Business) exists</entry>
+<entry key="condition|message|393">the Business Country (BT-514-Business) is a Country with postcodes</entry>
+<entry key="condition|message|394">Business Country Code (BT-514-Business) is present</entry>
+<entry key="condition|message|395">Cross Border Law (BT-09(a)-Procedure) exists</entry>
 <entry key="condition|message|4">the value chosen for the indicator of BT-106-Procedure is 'YES'</entry>
 <entry key="condition|message|40">BT-14-Lot is not restricted</entry>
+<entry key="condition|message|406">the Group Framework Value Lot Identifier (BT-556) exists</entry>
 <entry key="condition|message|41">BT-14-Lot is not empty</entry>
 <entry key="condition|message|42">BT-14-Lot is not empty</entry>
 <entry key="condition|message|43">BT-751-Lot is equal to 'TRUE'</entry>

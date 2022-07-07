@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Bulgarian. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Bulgarian. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Включени са критерии за достъпността за лицата с увреждания</entry>
 <entry key="code|value|accessibility.n-inc">Критерии за достъпността за лицата с увреждания не са включени, защото поръчката не е предназначена за използване от физически лица</entry>
 <entry key="code|value|accessibility.n-inc-just">Критерии за достъпността за лицата с увреждания не са включени, а обосновката е следната</entry>
@@ -10776,10 +10776,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Принудителни мерки</entry>
 <entry key="code|value|non-publication-justification.oth-int">Друг обществен интерес</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Услуги за научноизследователска и развойна дейност</entry>
+<entry key="code|value|notice-type.brin-ecs">Обявление за европейско дружество / европейско кооперативно дружество</entry>
+<entry key="code|value|notice-type.brin-eeig">Обявление за европейско обединение по икономически интереси</entry>
 <entry key="code|value|notice-type.can-desg">Обявление за резултата от конкурс за проект</entry>
 <entry key="code|value|notice-type.can-modif">Обявление за изменение на договор</entry>
 <entry key="code|value|notice-type.can-social">Обявление за възложена поръчка или концесия – облекчен режим</entry>
 <entry key="code|value|notice-type.can-standard">Обявление за възложена поръчка или концесия – стандартен режим</entry>
+<entry key="code|value|notice-type.can-tran">Обявление за възлагане на поръчка за обществени услуги за пътнически превоз</entry>
 <entry key="code|value|notice-type.cn-desg">Обявление за конкурс за проект</entry>
 <entry key="code|value|notice-type.cn-social">Обявление за поръчка – облекчен режим</entry>
 <entry key="code|value|notice-type.cn-standard">Обявление за поръчка или концесия – стандартен режим</entry>
@@ -10789,6 +10792,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Обявление за предварителна информация или периодично индикативно обявление, използвани като покана за участие в състезателна процедура – стандартен режим</entry>
 <entry key="code|value|notice-type.pin-only">Обявление за предварителна информация или периодично индикативно обявление, използвани само за информация</entry>
 <entry key="code|value|notice-type.pin-rtl">Обявление за предварителна информация или периодично индикативно обявление, използвани за съкращаване на сроковете за получаване на офертите</entry>
+<entry key="code|value|notice-type.pin-tran">Обявление за предварителна информация за обществени услуги за пътнически превоз</entry>
 <entry key="code|value|notice-type.qu-sy">Обявление за съществуването на квалификационна система</entry>
 <entry key="code|value|notice-type.subco">Обявление за поръчка за подизпълнение</entry>
 <entry key="code|value|notice-type.veat">Обявление за доброволна прозрачност ex ante</entry>
@@ -10796,13 +10800,13 @@
 <entry key="code|value|number-fixed.fix-unit">Фиксирано (за единица)</entry>
 <entry key="code|value|number-threshold.max-pass">Максимален брой на минаващите оферти</entry>
 <entry key="code|value|number-threshold.min-score">Минимална оценка</entry>
-<entry key="code|value|number-weight.dec-exa">{Тегло (десетична дроб, точна величина)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Тегло (десетична дроб, средна величина за диапазон)}</entry>
+<entry key="code|value|number-weight.dec-exa">Тегло (десетична дроб, точна величина)</entry>
+<entry key="code|value|number-weight.dec-mid">Тегло (десетична дроб, средна величина за диапазон)</entry>
 <entry key="code|value|number-weight.ord-imp">Ред на значимост</entry>
-<entry key="code|value|number-weight.per-exa">{Тегло (процентен дял, точна величина)}</entry>
-<entry key="code|value|number-weight.per-mid">{Тегло (процентен дял, средна величина за диапазон)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Тегло (точки, точна величина)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Тегло (точки, средна величина за диапазон)}</entry>
+<entry key="code|value|number-weight.per-exa">Тегло (процентен дял, точна величина)</entry>
+<entry key="code|value|number-weight.per-mid">Тегло (процентен дял, средна величина за диапазон)</entry>
+<entry key="code|value|number-weight.poi-exa">Тегло (точки, точна величина)</entry>
+<entry key="code|value|number-weight.poi-mid">Тегло (точки, средна величина за диапазон)</entry>
 <entry key="code|value|organisation-role.ben-own">Действителен собственик</entry>
 <entry key="code|value|organisation-role.buyer">Купувач</entry>
 <entry key="code|value|organisation-role.cpb-acq">Централен орган за покупки, придобиващ доставки и/или услуги, предназначени за други купувачи</entry>

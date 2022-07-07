@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Danish. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Danish. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Der er anvendt kriterier vedrørende adgangsmuligheder for personer med handicap</entry>
 <entry key="code|value|accessibility.n-inc">Der er ikke anvendt kriterier vedrørende adgangsmuligheder for personer med handicap, fordi udbuddet ikke er beregnet til at blive anvendt af fysiske personer</entry>
 <entry key="code|value|accessibility.n-inc-just">Der er ikke anvendt kriterier vedrørende adgangsmuligheder for personer med handicap med følgende begrundelse</entry>
@@ -10776,10 +10776,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Retshåndhævelse</entry>
 <entry key="code|value|non-publication-justification.oth-int">Andre almene hensyn</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Tjenesteydelser vedrørende forskning og udvikling (FoU)</entry>
+<entry key="code|value|notice-type.brin-ecs">Meddelelse om et europæisk selskab/et europæisk andelsselskab</entry>
+<entry key="code|value|notice-type.brin-eeig">Meddelelse om en europæisk økonomisk firmagruppe</entry>
 <entry key="code|value|notice-type.can-desg">Bekendtgørelse om resultater af projektkonkurrence</entry>
 <entry key="code|value|notice-type.can-modif">Bekendtgørelse om kontraktændring</entry>
 <entry key="code|value|notice-type.can-social">Bekendtgørelse om indgåede kontrakter eller koncessionstildeling – den lempelige ordning</entry>
 <entry key="code|value|notice-type.can-standard">Bekendtgørelse om indgåede kontrakter eller koncessionstildeling – standardordningen</entry>
+<entry key="code|value|notice-type.can-tran">Meddelelse om tildelt kontrakt vedrørende offentlig personbefordring</entry>
 <entry key="code|value|notice-type.cn-desg">Bekendtgørelse om projektkonkurrence</entry>
 <entry key="code|value|notice-type.cn-social">Udbudsbekendtgørelse – den lempelige ordning</entry>
 <entry key="code|value|notice-type.cn-standard">Udbuds- eller koncessionsbekendtgørelse – standardordningen</entry>
@@ -10789,6 +10792,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt som indkaldelser af tilbud – standardordningen</entry>
 <entry key="code|value|notice-type.pin-only">Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der kun er anvendt til informationsformål</entry>
 <entry key="code|value|notice-type.pin-rtl">Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt til at afkorte tidsfrister for modtagelse af tilbud</entry>
+<entry key="code|value|notice-type.pin-tran">Forhåndsmeddelelse vedrørende offentlig personbefordring</entry>
 <entry key="code|value|notice-type.qu-sy">Bekendtgørelse om anvendelse af en kvalifikationsordning</entry>
 <entry key="code|value|notice-type.subco">Bekendtgørelse om underentreprise</entry>
 <entry key="code|value|notice-type.veat">Bekendtgørelse med henblik på frivillig forudgående gennemsigtighed</entry>
@@ -10796,13 +10800,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fast værdi (pr. enhed)</entry>
 <entry key="code|value|number-threshold.max-pass">Højeste antal udvalgte tilbud</entry>
 <entry key="code|value|number-threshold.min-score">Laveste tærskel</entry>
-<entry key="code|value|number-weight.dec-exa">{Vægtning (decimaltal, præcis)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Vægtning (decimaltal, midt i intervallet)}</entry>
+<entry key="code|value|number-weight.dec-exa">Vægtning (decimaltal, præcis)</entry>
+<entry key="code|value|number-weight.dec-mid">Vægtning (decimaltal, midt i intervallet)</entry>
 <entry key="code|value|number-weight.ord-imp">Prioriteret rækkefølge</entry>
-<entry key="code|value|number-weight.per-exa">{Vægtning (procentdel, præcis)}</entry>
-<entry key="code|value|number-weight.per-mid">{Vægtning (procentdel, midt i intervallet)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Vægtning (pointantal, præcis)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Vægtning (pointantal, midt i intervallet)}</entry>
+<entry key="code|value|number-weight.per-exa">Vægtning (procentdel, præcis)</entry>
+<entry key="code|value|number-weight.per-mid">Vægtning (procentdel, midt i intervallet)</entry>
+<entry key="code|value|number-weight.poi-exa">Vægtning (pointantal, præcis)</entry>
+<entry key="code|value|number-weight.poi-mid">Vægtning (pointantal, midt i intervallet)</entry>
 <entry key="code|value|organisation-role.ben-own">Begunstiget ejer</entry>
 <entry key="code|value|organisation-role.buyer">Køber</entry>
 <entry key="code|value|organisation-role.cpb-acq">Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser for andre købere</entry>

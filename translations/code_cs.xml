@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Czech. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Czech. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Kritéria přístupnosti pro osoby s postižením jsou zahrnuta</entry>
 <entry key="code|value|accessibility.n-inc">Kritéria přístupnosti pro osoby s postižením nejsou zahrnuta, neboť zakázka není určena k použití fyzickými osobami</entry>
 <entry key="code|value|accessibility.n-inc-just">Kritéria přístupnosti pro osoby s postižením nejsou zahrnuta s následujícím odůvodněním</entry>
@@ -10778,10 +10778,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Vymahatelnost práva</entry>
 <entry key="code|value|non-publication-justification.oth-int">Jiný veřejný zájem</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Služby v oblasti výzkumu a vývoje</entry>
+<entry key="code|value|notice-type.brin-ecs">Evropská společnost / evropská družstevní společnost – oznámení</entry>
+<entry key="code|value|notice-type.brin-eeig">Evropské hospodářské zájmové sdružení – oznámení</entry>
 <entry key="code|value|notice-type.can-desg">Oznámení o výsledku soutěže o návrh</entry>
 <entry key="code|value|notice-type.can-modif">Oznámení o změně smlouvy</entry>
 <entry key="code|value|notice-type.can-social">Oznámení o výsledku zadávacího nebo koncesního řízení – zjednodušený režim</entry>
 <entry key="code|value|notice-type.can-standard">Oznámení o výsledku zadávacího nebo koncesního řízení – standardní režim</entry>
+<entry key="code|value|notice-type.can-tran">Oznámení o výsledku zadávacího řízení pro veřejné služby v přepravě cestujících</entry>
 <entry key="code|value|notice-type.cn-desg">Oznámení o soutěži o návrh</entry>
 <entry key="code|value|notice-type.cn-social">Oznámení o zahájení zadávacího řízení – zjednodušený režim</entry>
 <entry key="code|value|notice-type.cn-standard">Oznámení o zahájení zadávacího nebo koncesního řízení – standardní režim</entry>
@@ -10791,6 +10794,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Předběžné oznámení nebo pravidelné předběžné oznámení použité jako výzva k účasti v soutěži – standardní režim</entry>
 <entry key="code|value|notice-type.pin-only">Předběžné oznámení nebo pravidelné předběžné oznámení použité pouze pro informační účely</entry>
 <entry key="code|value|notice-type.pin-rtl">Předběžné oznámení nebo pravidelné předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek</entry>
+<entry key="code|value|notice-type.pin-tran">Předběžné oznámení pro veřejné služby v přepravě cestujících</entry>
 <entry key="code|value|notice-type.qu-sy">Oznámení o zavedení systému kvalifikace</entry>
 <entry key="code|value|notice-type.subco">Oznámení o subdodávkách</entry>
 <entry key="code|value|notice-type.veat">Oznámení o dobrovolné průhlednosti ex ante</entry>
@@ -10798,13 +10802,13 @@
 <entry key="code|value|number-fixed.fix-unit">Pevná hodnota (jednotková)</entry>
 <entry key="code|value|number-threshold.max-pass">Maximální počet nabídek s nejvyšším ohodnocením</entry>
 <entry key="code|value|number-threshold.min-score">Minimální bodové ohodnocení</entry>
-<entry key="code|value|number-weight.dec-exa">{Váha (desetiny, přesně)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Váha (desetiny, střed rozmezí)}</entry>
+<entry key="code|value|number-weight.dec-exa">Váha (desetiny, přesně)</entry>
+<entry key="code|value|number-weight.dec-mid">Váha (desetiny, střed rozmezí)</entry>
 <entry key="code|value|number-weight.ord-imp">Pořadí důležitosti</entry>
-<entry key="code|value|number-weight.per-exa">{Váha (procenta, přesně)}</entry>
-<entry key="code|value|number-weight.per-mid">{Váha (procenta, střed rozmezí)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Váha (body, přesně)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Váha (body, střed rozmezí)}</entry>
+<entry key="code|value|number-weight.per-exa">Váha (procenta, přesně)</entry>
+<entry key="code|value|number-weight.per-mid">Váha (procenta, střed rozmezí)</entry>
+<entry key="code|value|number-weight.poi-exa">Váha (body, přesně)</entry>
+<entry key="code|value|number-weight.poi-mid">Váha (body, střed rozmezí)</entry>
 <entry key="code|value|organisation-role.ben-own">Skutečný majitel</entry>
 <entry key="code|value|organisation-role.buyer">Kupující</entry>
 <entry key="code|value|organisation-role.cpb-acq">Centrální zadavatel pořizující dodávky a/nebo služby určené pro jiné kupující</entry>

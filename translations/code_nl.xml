@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Dutch. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Dutch. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Er zijn criteria opgenomen inzake de toegankelijkheid voor personen met een handicap</entry>
 <entry key="code|value|accessibility.n-inc">Er zijn geen criteria opgenomen inzake de toegankelijkheid voor personen met een handicap, omdat de aanbesteding niet bestemd is voor gebruik door natuurlijke personen</entry>
 <entry key="code|value|accessibility.n-inc-just">Er zijn geen criteria opgenomen inzake de toegankelijkheid voor personen met een handicap, om de volgende reden</entry>
@@ -10777,10 +10777,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Rechtshandhaving</entry>
 <entry key="code|value|non-publication-justification.oth-int">Ander openbaar belang</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Diensten voor onderzoek en ontwikkeling (O&amp;O)</entry>
+<entry key="code|value|notice-type.brin-ecs">Aankondiging inzake een Europese vennootschap / Europese coöperatieve vennootschap</entry>
+<entry key="code|value|notice-type.brin-eeig">Aankondiging inzake een Europees economisch samenwerkingsverband</entry>
 <entry key="code|value|notice-type.can-desg">Aankondiging van de uitslag van een prijsvraag voor ontwerpen</entry>
 <entry key="code|value|notice-type.can-modif">Aankondiging van wijziging contract</entry>
 <entry key="code|value|notice-type.can-social">Aankondiging van een gegunde opdracht of concessie – lichte regeling</entry>
 <entry key="code|value|notice-type.can-standard">Aankondiging van een gegunde opdracht of concessie – standaardregeling</entry>
+<entry key="code|value|notice-type.can-tran">Aankondiging gegunde opdracht voor openbaar personenvervoer</entry>
 <entry key="code|value|notice-type.cn-desg">Aankondiging van een prijsvraag voor ontwerpen</entry>
 <entry key="code|value|notice-type.cn-social">Aankondiging van een opdracht – lichte regeling</entry>
 <entry key="code|value|notice-type.cn-standard">Aankondiging van een opdracht of concessie – standaardregeling</entry>
@@ -10790,6 +10793,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Vooraankondiging of periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – standaardregeling</entry>
 <entry key="code|value|notice-type.pin-only">Vooraankondiging of periodieke indicatieve aankondiging die alleen ter informatie wordt gebruikt</entry>
 <entry key="code|value|notice-type.pin-rtl">Vooraankondiging of periodieke indicatieve aankondiging gebruikt om termijnen voor de ontvangst van inschrijvingen in te korten</entry>
+<entry key="code|value|notice-type.pin-tran">Vooraankondiging voor openbaar personenvervoer</entry>
 <entry key="code|value|notice-type.qu-sy">Aankondiging inzake het bestaan van een erkenningsregeling</entry>
 <entry key="code|value|notice-type.subco">Aankondiging van een opdracht in onderaanneming</entry>
 <entry key="code|value|notice-type.veat">Aankondiging in geval van vrijwillige transparantie vooraf</entry>
@@ -10797,13 +10801,13 @@
 <entry key="code|value|number-fixed.fix-unit">Vast (per eenheid)</entry>
 <entry key="code|value|number-threshold.max-pass">Maximaal aantal inschrijvingen dat aan het criterium voldoet</entry>
 <entry key="code|value|number-threshold.min-score">Minimale score</entry>
-<entry key="code|value|number-weight.dec-exa">{Gewicht (decimaal, exact)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Gewicht (decimaal, midden van bereik)}</entry>
+<entry key="code|value|number-weight.dec-exa">Gewicht (decimaal, exact)</entry>
+<entry key="code|value|number-weight.dec-mid">Gewicht (decimaal, midden van bereik)</entry>
 <entry key="code|value|number-weight.ord-imp">Volgorde van belang</entry>
-<entry key="code|value|number-weight.per-exa">{Gewicht (percentage, exact)}</entry>
-<entry key="code|value|number-weight.per-mid">{Gewicht (percentage, midden van bereik)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Gewicht (punten, exact)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Gewicht (punten, midden van bereik)}</entry>
+<entry key="code|value|number-weight.per-exa">Gewicht (percentage, exact)</entry>
+<entry key="code|value|number-weight.per-mid">Gewicht (percentage, midden van bereik)</entry>
+<entry key="code|value|number-weight.poi-exa">Gewicht (punten, exact)</entry>
+<entry key="code|value|number-weight.poi-mid">Gewicht (punten, midden van bereik)</entry>
 <entry key="code|value|organisation-role.ben-own">Uiteindelijke begunstigde</entry>
 <entry key="code|value|organisation-role.buyer">Koper</entry>
 <entry key="code|value|organisation-role.cpb-acq">Aankoopcentrale die voor andere kopers bestemde goederen en/of diensten koopt</entry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Estonian. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Estonian. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Lisatud on puuetega inimeste juurdepääsukriteeriumid</entry>
 <entry key="code|value|accessibility.n-inc">Puuetega inimeste juurdepääsukriteeriume pole lisatud, sest hange ei ole mõeldud kasutamiseks füüsilistele isikutele</entry>
 <entry key="code|value|accessibility.n-inc-just">Puuetega inimeste juurdepääsukriteeriume ei ole lisatud järgmise põhjendusega</entry>
@@ -10776,10 +10776,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Õiguskaitse</entry>
 <entry key="code|value|non-publication-justification.oth-int">Muu avalik huvi</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Teadus- ja arendusteenused</entry>
+<entry key="code|value|notice-type.brin-ecs">Teade Euroopa äriühingu / Euroopa ühistu kohta</entry>
+<entry key="code|value|notice-type.brin-eeig">Teade Euroopa majandushuviühingu kohta</entry>
 <entry key="code|value|notice-type.can-desg">Ideekonkursi tulemuse teade</entry>
 <entry key="code|value|notice-type.can-modif">Lepingu muutmise teade</entry>
 <entry key="code|value|notice-type.can-social">Lepingu sõlmimise või kontsessiooni andmise teade – lihtsustatud kord</entry>
 <entry key="code|value|notice-type.can-standard">Lepingu sõlmimise või kontsessiooni andmise teade – üldkord</entry>
+<entry key="code|value|notice-type.can-tran">Hankelepingu sõlmimise teade reisijateveoteenuse osutamiseks</entry>
 <entry key="code|value|notice-type.cn-desg">Ideekonkursi kutse</entry>
 <entry key="code|value|notice-type.cn-social">Hanketeade – lihtsustatud kord</entry>
 <entry key="code|value|notice-type.cn-standard">Hanketeade või kontsessiooniteade – üldkord</entry>
@@ -10789,6 +10792,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Hanke väljakuulutamiseks kasutatav eelteade või perioodiline eelteade – üldkord</entry>
 <entry key="code|value|notice-type.pin-only">Ainult teavitamise eesmärgil kasutatav eelteade või perioodiline eelteade</entry>
 <entry key="code|value|notice-type.pin-rtl">Eelteade või perioodiline eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks</entry>
+<entry key="code|value|notice-type.pin-tran">Eelteade avaliku reisijateveoteenuse kohta</entry>
 <entry key="code|value|notice-type.qu-sy">Kvalifitseerimissüsteemi teade</entry>
 <entry key="code|value|notice-type.subco">Allhanke teade</entry>
 <entry key="code|value|notice-type.veat">Vabatahtlik eelnev avalikustamisteade</entry>
@@ -10796,13 +10800,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fikseeritud (ühiku kohta)</entry>
 <entry key="code|value|number-threshold.max-pass">Vastuvõetavate pakkumuste maksimaalne arv</entry>
 <entry key="code|value|number-threshold.min-score">Minimaalne punktisumma</entry>
-<entry key="code|value|number-weight.dec-exa">{Kaal (kümnendkoht, täpne)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Kaal (kümnendkoht, vahemiku keskmine)}</entry>
+<entry key="code|value|number-weight.dec-exa">Kaal (kümnendkoht, täpne)</entry>
+<entry key="code|value|number-weight.dec-mid">Kaal (kümnendkoht, vahemiku keskmine)</entry>
 <entry key="code|value|number-weight.ord-imp">Tähtsuse järjekord</entry>
-<entry key="code|value|number-weight.per-exa">{Kaal (protsentides, täpne)}</entry>
-<entry key="code|value|number-weight.per-mid">{Kaal (protsentides, vahemiku keskmine)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Kaal (punktid, täpne)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Kaal (punktid, vahemiku keskmine)}</entry>
+<entry key="code|value|number-weight.per-exa">Kaal (protsentides, täpne)</entry>
+<entry key="code|value|number-weight.per-mid">Kaal (protsentides, vahemiku keskmine)</entry>
+<entry key="code|value|number-weight.poi-exa">Kaal (punktid, täpne)</entry>
+<entry key="code|value|number-weight.poi-mid">Kaal (punktid, vahemiku keskmine)</entry>
 <entry key="code|value|organisation-role.ben-own">Tegelik tulusaaja</entry>
 <entry key="code|value|organisation-role.buyer">Hankija</entry>
 <entry key="code|value|organisation-role.cpb-acq">Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid</entry>

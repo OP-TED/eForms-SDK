@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Portuguese. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Portuguese. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
 <entry key="code|value|accessibility.inc">Os critérios de acessibilidade para as pessoas com deficiência estão incluídos</entry>
 <entry key="code|value|accessibility.n-inc">Os critérios de acessibilidade para as pessoas com deficiência não estão incluídos porque o contrato não se destina a pessoas singulares</entry>
 <entry key="code|value|accessibility.n-inc-just">Os critérios de acessibilidade para as pessoas com deficiência não estão incluídos, com a seguinte justificação</entry>
@@ -10775,10 +10775,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Aplicação da lei</entry>
 <entry key="code|value|non-publication-justification.oth-int">Outro interesse público</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Serviços de investigação e desenvolvimento (I&amp;D)</entry>
+<entry key="code|value|notice-type.brin-ecs">Anúncio — Sociedade Europeia / Sociedade Cooperativa Europeia</entry>
+<entry key="code|value|notice-type.brin-eeig">Anúncio — Agrupamento Europeu de Interesse Económico</entry>
 <entry key="code|value|notice-type.can-desg">Anúncio dos resultados do concurso de conceção</entry>
 <entry key="code|value|notice-type.can-modif">Anúncio de modificação do contrato</entry>
 <entry key="code|value|notice-type.can-social">Anúncio de adjudicação de contrato ou de concessão — regime simplificado</entry>
 <entry key="code|value|notice-type.can-standard">Anúncio de adjudicação de contrato ou de concessão — regime normal</entry>
+<entry key="code|value|notice-type.can-tran">Anúncio de adjudicação de contrato — serviços públicos de transporte de passageiros</entry>
 <entry key="code|value|notice-type.cn-desg">Anúncio de concurso para trabalhos de conceção</entry>
 <entry key="code|value|notice-type.cn-social">Anúncio de concurso — regime simplificado</entry>
 <entry key="code|value|notice-type.cn-standard">Anúncio de adjudicação de contrato ou de concessão — regime normal</entry>
@@ -10788,6 +10791,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Anúncio de pré-informação ou anúncio periódico indicativo utilizado como anúncio de concurso — regime normal</entry>
 <entry key="code|value|notice-type.pin-only">Anúncio de pré-informação ou anúncio periódico indicativo utilizado apenas a título informativo</entry>
 <entry key="code|value|notice-type.pin-rtl">Anúncio de pré-informação ou anúncio periódico indicativo utilizado para encurtar os prazos de receção das propostas</entry>
+<entry key="code|value|notice-type.pin-tran">Anúncio de pré-informação — serviços públicos de transporte de passageiros</entry>
 <entry key="code|value|notice-type.qu-sy">Anúncio relativo à existência de um sistema de qualificação</entry>
 <entry key="code|value|notice-type.subco">Anúncio de subcontratação</entry>
 <entry key="code|value|notice-type.veat">Anúncio voluntário de transparência ex ante</entry>
@@ -10795,13 +10799,13 @@
 <entry key="code|value|number-fixed.fix-unit">Valor fixo (por unidade)</entry>
 <entry key="code|value|number-threshold.max-pass">Número máximo de propostas aceites</entry>
 <entry key="code|value|number-threshold.min-score">Pontuação mínima</entry>
-<entry key="code|value|number-weight.dec-exa">{Ponderação (decimal, valor exato)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Ponderação (decimal, a meio de um intervalo)}</entry>
+<entry key="code|value|number-weight.dec-exa">Ponderação (decimal, valor exato)</entry>
+<entry key="code|value|number-weight.dec-mid">Ponderação (decimal, a meio de um intervalo)</entry>
 <entry key="code|value|number-weight.ord-imp">Ordem de importância</entry>
-<entry key="code|value|number-weight.per-exa">{Ponderação (percentagem, valor exato)}</entry>
-<entry key="code|value|number-weight.per-mid">{Ponderação (percentagem, a meio de um intervalo)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Ponderação (pontos, valor exato)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Ponderação (pontos, a meio de um intervalo)}</entry>
+<entry key="code|value|number-weight.per-exa">Ponderação (percentagem, valor exato)</entry>
+<entry key="code|value|number-weight.per-mid">Ponderação (percentagem, a meio de um intervalo)</entry>
+<entry key="code|value|number-weight.poi-exa">Ponderação (pontos, valor exato)</entry>
+<entry key="code|value|number-weight.poi-mid">Ponderação (pontos, a meio de um intervalo)</entry>
 <entry key="code|value|organisation-role.ben-own">Beneficiário efetivo</entry>
 <entry key="code|value|organisation-role.buyer">Adquirente</entry>
 <entry key="code|value|organisation-role.cpb-acq">Central de compras que adquire fornecimentos e/ou serviços destinados a outros adquirentes</entry>
