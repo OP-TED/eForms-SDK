@@ -5,7 +5,7 @@ Below is a list of the major updates made to the SDK in this release.
 The documentation for the SDK is available at https://docs.ted.europa.eu. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
 ## Notice types
-A new file format for the notice type definitions is being introduced. The reason for this breaking change is that the notice type definitions included in previous versions of the SDK, were hand-written, before the SDK itself was introduced, in order to cover the immediate the needs of our notice filling application (eNotices2). The new file format is quite similar to the old one, but simpler to consume and understand. Most importantly the new notice type definition files are generated from our central eForms Metadata Repository which guaranties that there are no conflicting or unnecessary metadata included in them.
+A new file format for the notice type definitions is being introduced. The reason for this breaking change is that the notice type definitions included in previous versions of the SDK, were hand-written before the SDK itself was introduced, in order to cover the immediate needs of our notice filling application (eNotices2). The new file format is quite similar to the old one, but simpler to consume and understand. Most importantly the new notice type definition files are generated from our central eForms Metadata Repository which guaranties that there are no conflicting or unnecessary metadata included in them.
 
 :construction: _This is a breaking change. If your application uses the notice type definitions you will need to update it to read the new file format._
 
