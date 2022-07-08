@@ -55,18 +55,18 @@
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
    <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
    <svrl:fired-rule context="/*[$noticeSubType = '4']"/>
-   <svrl:failed-assert id="ND-594-4"
+   <svrl:failed-assert id="ND-ProcedureProcurementScope-4"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cac:ProcurementProject) &gt; 0">
-      <svrl:text>rule|message|ND-594-4</svrl:text>
+      <svrl:text>rule|message|ND-ProcedureProcurementScope-4</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
-   <svrl:failed-assert id="ND-468-4"
+   <svrl:failed-assert id="ND-Organizations-4"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
                        role="ERROR"
                        test="count(efac:Organizations) &gt; 0">
-      <svrl:text>rule|message|ND-468-4</svrl:text>
+      <svrl:text>rule|message|ND-Organizations-4</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
@@ -76,48 +76,64 @@
                        role="ERROR"
                        test="count(cbc:IssueTime) &gt; 0">
       <svrl:text>rule|message|BR-BT-00005-0059</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-05_b_-notice">
+cbc:IssueTime</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00127-0007"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cbc:PlannedDate) &gt; 0">
       <svrl:text>rule|message|BR-BT-00127-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-127-notice">
+cbc:PlannedDate</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00701-0007"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cbc:ID[@schemeName='notice-id']) &gt; 0">
       <svrl:text>rule|message|BR-BT-00701-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-701-notice">
+cbc:ID[@schemeName='notice-id']</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00702-0007"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cbc:NoticeLanguageCode) &gt; 0">
       <svrl:text>rule|message|BR-BT-00702-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-702_a_-notice">
+cbc:NoticeLanguageCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00757-0007"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cbc:VersionID) &gt; 0">
       <svrl:text>rule|message|BR-BT-00757-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-757-notice">
+cbc:VersionID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00001-0007"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cbc:UBLVersionID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00001-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-001-notice">
+cbc:UBLVersionID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00002-0007"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00002-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-002-notice">
+cbc:CustomizationID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00300-0107"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00300-0107</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-300-Procedure-Buyer">
+cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
@@ -126,12 +142,16 @@
                        role="ERROR"
                        test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0">
       <svrl:text>rule|message|BR-BT-00010-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-10-Procedure-Buyer">
+cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00011-0007"
                        location="/PriorInformationNotice/cac:ContractingParty"
                        role="ERROR"
                        test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">
       <svrl:text>rule|message|BR-BT-00011-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-11-Procedure-Buyer">
+cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
    <svrl:fired-rule context="/*"/>
@@ -157,5 +177,9 @@
    <svrl:active-pattern id="EFORMS-stage-4-custom" name="EFORMS-stage-4-custom"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
+   <svrl:active-pattern id="EFORMS-stage-5" name="EFORMS-stage-5"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
    <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
 </svrl:schematron-output>

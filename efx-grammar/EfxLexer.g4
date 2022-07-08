@@ -80,6 +80,7 @@ EndLabel: '}' -> popMode;
 
 StartNestedExpression: '$' '{' -> pushMode(EXPRESSION), type(StartExpression);
 
+
 AssetType: ASSET_TYPE_BT | ASSET_TYPE_FIELD | ASSET_TYPE_CODE | ASSET_TYPE_INDICATOR | ASSET_TYPE_DECORATION | ASSET_TYPE_RULE | ASSET_TYPE_CONDITION;
 ASSET_TYPE_BT: 'business_term';
 ASSET_TYPE_FIELD: 'field';
@@ -99,7 +100,6 @@ LABEL_TYPE_MESSAGE_TEMPLATE: 'message_template';
 
 FieldAssetId: FieldId -> type(FieldId);
 BtAssetId: BtId -> type(BtId);
-CodelistAssetId: 'CL' ('-' [a-zA-Z_] [a-zA-Z0-9_]*)+;
 OtherAssetId: [a-z]+ ('-' [a-z0-9]*)*;
 
 /*
@@ -134,6 +134,14 @@ In: 'in';
 Like: 'like';
 Present: 'present';
 Empty: 'empty';
+Every: 'every';
+Some: 'some';
+Satisfies: 'satisfies';
+If: 'if';
+Then: 'then';
+Else: 'else';
+For: 'for';
+Return: 'return';
 Always: 'ALWAYS';
 Never: 'NEVER';
 True: 'TRUE';
@@ -169,12 +177,16 @@ FormatNumberFunction: 'format-number';
 ConcatFunction: 'concat';
 DateFunction: 'date';
 TimeFunction: 'time';
+DayTimeDurationFunction: 'day-time-duration';
+YearMonthDurationFunction: 'year-month-duration';
 AddMeasure: 'add-measure';
 SubtractMeasure: 'subtract-measure';
 
 BtId: ('BT' | 'OPP' | 'OPT') '-' [0-9]+;
 FieldId: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
-NodeId: 'ND' '-' [0-9]+;
+NodeId: 'ND' '-' [a-zA-Z0-9]+;
+
+Variable: '$' IdentifierPart;
 
 /**
  * Effective order of precedence is the order of declaration. 
@@ -192,8 +204,9 @@ INTEGER: '-'? DIGIT+;
 DECIMAL: '-'? DIGIT? '.' DIGIT+;
 STRING: ('"' CHAR_SEQ? '"') | ('\'' CHAR_SEQ? '\'');
 UUIDV4: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
-DATE: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT;
-TIME: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT;
+DATE: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z')?;
+TIME: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT (ZONE | 'Z')?;
+ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
 
 Comparison: '==' | '!=' | '>' | '>=' | '<' | '<=';
 Star: '*';

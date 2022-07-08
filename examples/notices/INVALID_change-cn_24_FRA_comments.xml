@@ -11,7 +11,7 @@
 						<efbc:ChangedNoticeIdentifier>da4d46e9-490b-41ff-a2ae-8166d356a619-01</efbc:ChangedNoticeIdentifier>
 					</efac:Changes>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode>16</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>
@@ -39,12 +39,14 @@
 								<cac:Contact>
 									<cbc:Name>Info desk</cbc:Name>
 									<cbc:Telephone>+33 235156161</cbc:Telephone>
+									<cbc:Telefax>+33 235156169</cbc:Telefax>
 									<cbc:ElectronicMail>contact@rouenhabitat.fr</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>http://rouen.tribunal-administratif.fr/</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
@@ -65,12 +67,14 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 232081270</cbc:Telephone>
+									<cbc:Telefax>+33 232081279</cbc:Telefax>
 									<cbc:ElectronicMail>greffe.ta-rouen@juradm.fr</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
+								<cbc:WebsiteURI>https://esendercorp.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -90,6 +94,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
+									<cbc:Telefax>+352 1234567899</cbc:Telefax>
 									<cbc:ElectronicMail>esender@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
@@ -100,7 +105,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">e887ac08-8b2a-47ee-8ba2-b3564418d241</cbc:ID>
 	<cbc:ContractFolderID>9999abf1-e057-47a5-9210-b1f6fc759999</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-05-10+01:00</cbc:IssueDate>
@@ -231,7 +236,6 @@
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
-			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>Whatever identifier </cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
@@ -406,7 +410,6 @@
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
-			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>Whatever identifier </cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>

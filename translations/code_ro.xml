@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Romanian. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Romanian. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Sunt incluse criterii de accesibilitate pentru persoanele cu handicap</entry>
 <entry key="code|value|accessibility.n-inc">Nu sunt incluse criterii de accesibilitate pentru persoanele cu handicap, deoarece achizițiile nu sunt destinate a fi utilizate de către persoane fizice</entry>
 <entry key="code|value|accessibility.n-inc-just">Nu sunt incluse criterii de accesibilitate pentru persoanele cu handicap, din următorul motiv</entry>
@@ -10777,10 +10777,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Aplicarea legii</entry>
 <entry key="code|value|non-publication-justification.oth-int">Alte interese publice</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Servicii de cercetare și dezvoltare</entry>
+<entry key="code|value|notice-type.brin-ecs">Anunț privind o societate europeană/societate cooperativă europeană</entry>
+<entry key="code|value|notice-type.brin-eeig">Anunț privind un Grup european de interes economic</entry>
 <entry key="code|value|notice-type.can-desg">Anunț privind rezultatul concursului de proiecte</entry>
 <entry key="code|value|notice-type.can-modif">Anunț de modificare a contractului</entry>
 <entry key="code|value|notice-type.can-social">Anunț de atribuire a contractului sau a concesiunii - regim simplificat</entry>
 <entry key="code|value|notice-type.can-standard">Anunț de atribuire a contractului sau a concesiunii - regim standard</entry>
+<entry key="code|value|notice-type.can-tran">Anunț de atribuire a contractului pentru servicii publice de transport de călători</entry>
 <entry key="code|value|notice-type.cn-desg">Anunț de concurs de proiecte</entry>
 <entry key="code|value|notice-type.cn-social">Anunț de participare - regim simplificat</entry>
 <entry key="code|value|notice-type.cn-standard">Anunț de participare sau de concesionare - regim standard</entry>
@@ -10790,6 +10793,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Anunț de intenție sau anunț orientativ periodic utilizat ca procedură concurențială de ofertare - regim standard</entry>
 <entry key="code|value|notice-type.pin-only">Anunț de intenție sau anunț orientativ periodic utilizat numai pentru informare</entry>
 <entry key="code|value|notice-type.pin-rtl">Anunț de intenție sau anunț orientativ periodic utilizat pentru scurtarea termenelor de primire a ofertelor</entry>
+<entry key="code|value|notice-type.pin-tran">Anunț de intenție pentru servicii publice de transport de călători</entry>
 <entry key="code|value|notice-type.qu-sy">Anunț privind existența unui sistem de calificare</entry>
 <entry key="code|value|notice-type.subco">Anunț de subcontractare</entry>
 <entry key="code|value|notice-type.veat">Anunț de transparență ex ante voluntară</entry>
@@ -10797,13 +10801,13 @@
 <entry key="code|value|number-fixed.fix-unit">Valoare fixă (per unitate)</entry>
 <entry key="code|value|number-threshold.max-pass">Numărul maxim al ofertelor acceptate</entry>
 <entry key="code|value|number-threshold.min-score">Punctaj minim</entry>
-<entry key="code|value|number-weight.dec-exa">{Ponderare (zecimal, valoare exactă)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Ponderare (zecimal, mijlocul unui interval)}</entry>
+<entry key="code|value|number-weight.dec-exa">Ponderare (zecimal, valoare exactă)</entry>
+<entry key="code|value|number-weight.dec-mid">Ponderare (zecimal, mijlocul unui interval)</entry>
 <entry key="code|value|number-weight.ord-imp">Ordinea importanței</entry>
-<entry key="code|value|number-weight.per-exa">{Ponderare (procentaj, valoare exactă)}</entry>
-<entry key="code|value|number-weight.per-mid">{Ponderare (procentaj, mijlocul unui interval)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Ponderare (puncte, valoare exactă)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Ponderare (puncte, mijlocul unui interval)}</entry>
+<entry key="code|value|number-weight.per-exa">Ponderare (procentaj, valoare exactă)</entry>
+<entry key="code|value|number-weight.per-mid">Ponderare (procentaj, mijlocul unui interval)</entry>
+<entry key="code|value|number-weight.poi-exa">Ponderare (puncte, valoare exactă)</entry>
+<entry key="code|value|number-weight.poi-mid">Ponderare (puncte, mijlocul unui interval)</entry>
 <entry key="code|value|organisation-role.ben-own">Beneficiar efectiv</entry>
 <entry key="code|value|organisation-role.buyer">Cumpărător</entry>
 <entry key="code|value|organisation-role.cpb-acq">Organism central de achiziție care achiziționează bunuri și/sau servicii destinate altor cumpărători</entry>

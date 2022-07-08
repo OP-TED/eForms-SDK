@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Italian. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Italian. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Sono compresi criteri di accessibilità per le persone con disabilità</entry>
 <entry key="code|value|accessibility.n-inc">Non sono compresi criteri di accessibilità per le persone con disabilità perché l'oggetto dell'appalto non è destinato all'uso da parte di persone fisiche</entry>
 <entry key="code|value|accessibility.n-inc-just">Non sono compresi criteri di accessibilità per le persone con disabilità con la giustificazione seguente</entry>
@@ -10778,10 +10778,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Ostacoli all'applicazione della legge</entry>
 <entry key="code|value|non-publication-justification.oth-int">Altro interesse pubblico</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Servizi di ricerca e sviluppo (R&amp;S)</entry>
+<entry key="code|value|notice-type.brin-ecs">Avviso società europea/società cooperativa europea</entry>
+<entry key="code|value|notice-type.brin-eeig">Avviso gruppo europeo di interesse economico</entry>
 <entry key="code|value|notice-type.can-desg">Comunicazione dei risultati di un concorso di progettazione</entry>
 <entry key="code|value|notice-type.can-modif">Avviso di modifica di un appalto</entry>
 <entry key="code|value|notice-type.can-social">Avviso di aggiudicazione di un appalto o di una concessione – regime alleggerito</entry>
 <entry key="code|value|notice-type.can-standard">Avviso di aggiudicazione di un appalto o di una concessione – regime ordinario</entry>
+<entry key="code|value|notice-type.can-tran">Avviso di aggiudicazione per i servizi di trasporto pubblico di passeggeri</entry>
 <entry key="code|value|notice-type.cn-desg">Avviso o bando di concorso di progettazione</entry>
 <entry key="code|value|notice-type.cn-social">Bando di gara – regime alleggerito</entry>
 <entry key="code|value|notice-type.cn-standard">Bando di gara o di concessione – regime ordinario</entry>
@@ -10791,6 +10794,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Avviso di preinformazione o avviso periodico indicativo utilizzato come avviso di indizione di gara – regime ordinario</entry>
 <entry key="code|value|notice-type.pin-only">Avviso di preinformazione o avviso periodico indicativo a fini unicamente informativi</entry>
 <entry key="code|value|notice-type.pin-rtl">Avviso di preinformazione o avviso periodico indicativo utilizzato per abbreviare i termini per la ricezione delle offerte</entry>
+<entry key="code|value|notice-type.pin-tran">Avviso di preinformazione per i servizi di trasporto pubblico di passeggeri</entry>
 <entry key="code|value|notice-type.qu-sy">Avviso sull'esistenza di un sistema di qualificazione</entry>
 <entry key="code|value|notice-type.subco">Avviso di subappalto</entry>
 <entry key="code|value|notice-type.veat">Avviso volontario per la trasparenza ex ante</entry>
@@ -10798,13 +10802,13 @@
 <entry key="code|value|number-fixed.fix-unit">Stabilito (per unità)</entry>
 <entry key="code|value|number-threshold.max-pass">Numero massimo di offerte ammesse</entry>
 <entry key="code|value|number-threshold.min-score">Punteggio minimo</entry>
-<entry key="code|value|number-weight.dec-exa">{Ponderazione (decimale, esatta)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Ponderazione (decimale, valore centrale dell'intervallo)}</entry>
+<entry key="code|value|number-weight.dec-exa">Ponderazione (decimale, esatta)</entry>
+<entry key="code|value|number-weight.dec-mid">Ponderazione (decimale, valore centrale dell'intervallo)</entry>
 <entry key="code|value|number-weight.ord-imp">Ordine di importanza</entry>
-<entry key="code|value|number-weight.per-exa">{Ponderazione (percentuale, esatta)}</entry>
-<entry key="code|value|number-weight.per-mid">{Ponderazione (percentuale, valore centrale dell'intervallo)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Ponderazione (punti, esatta)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Ponderazione (punti, valore centrale dell'intervallo)}</entry>
+<entry key="code|value|number-weight.per-exa">Ponderazione (percentuale, esatta)</entry>
+<entry key="code|value|number-weight.per-mid">Ponderazione (percentuale, valore centrale dell'intervallo)</entry>
+<entry key="code|value|number-weight.poi-exa">Ponderazione (punti, esatta)</entry>
+<entry key="code|value|number-weight.poi-mid">Ponderazione (punti, valore centrale dell'intervallo)</entry>
 <entry key="code|value|organisation-role.ben-own">Titolare effettivo</entry>
 <entry key="code|value|organisation-role.buyer">Committente</entry>
 <entry key="code|value|organisation-role.cpb-acq">Centrale di committenza per l'acquisizione di forniture e/o servizi destinati ad altri committenti</entry>

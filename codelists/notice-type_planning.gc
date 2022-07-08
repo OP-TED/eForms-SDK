@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00-->
+<!--File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Planning</ShortName>
       <LongName>planning</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
       <LongName Identifier="eFormsParentId">notice-type</LongName>
-      <Version>0.4.0</Version>
+      <Version>0.5.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -368,8 +368,74 @@
          <Value ColumnRef="Name">
             <SimpleValue>Prior information notice for public passenger transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация за обществени услуги за пътнически превоз</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení pro veřejné služby v přepravě cestujících</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse vedrørende offentlig personbefordring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation zu öffentlichen Personenverkehrsdiensten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη για δημόσιες επιβατικές μεταφορές</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Prior information notice for public passenger transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa de servicios públicos de transporte de viajeros</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Eelteade avaliku reisijateveoteenuse kohta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus julkisista henkilöliikennepalveluista</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation relatif à des services publics de transport de voyageurs</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise le haghaidh seirbhísí poiblí iompair do phaisinéirí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest za usluge javnog prijevoza putnika</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Személyszállítási közszolgáltatásra vonatkozó előzetes tájékoztató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione per i servizi di trasporto pubblico di passeggeri</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas apie viešojo keleivinio transporto paslaugas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums attiecībā uz sabiedriskā transporta pakalpojumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel għas-servizzi pubbliċi tat-trasport tal-passiġġieri</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging voor openbaar personenvervoer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne dotyczące usług publicznych w zakresie transportu pasażerskiego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação — serviços públicos de transporte de passageiros</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție pentru servicii publice de transport de călători</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predbežné oznámenie o službách vo verejnom záujme v osobnej doprave</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande om kollektivtrafik</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

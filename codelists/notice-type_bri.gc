@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00-->
+<!--File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Bri</ShortName>
       <LongName>bri</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
       <LongName Identifier="eFormsParentId">notice-type</LongName>
-      <Version>0.4.0</Version>
+      <Version>0.5.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,8 +128,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>European Company / European Cooperative Society notice</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за европейско дружество / европейско кооперативно дружество</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Evropská společnost / evropská družstevní společnost – oznámení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Meddelelse om et europæisk selskab/et europæisk andelsselskab</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung – Europäische Gesellschaft/Europäische Genossenschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανακοίνωση ευρωπαϊκής εταιρείας / ευρωπαϊκής συνεταιριστικής εταιρείας</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>European Company / European Cooperative Society notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de una Sociedad Anónima Europea / Sociedad Cooperativa Europea</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teade Euroopa äriühingu / Euroopa ühistu kohta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus eurooppayhtiöstä / eurooppaosuuskunnasta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis relatif à une société européenne/société coopérative européenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le Cuideachta Eorpach / Comharchumann Eorpach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o europskom trgovačkom društvu / europskoj zadruzi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Európai részvénytársasággal/európai szövetkezettel kapcsolatos értesítés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso società europea/società cooperativa europea</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Europos bendrovės / Europos kooperatinės bendrovės skelbimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par Eiropas uzņēmējsabiedrību / Eiropas kooperatīvo sabiedrību</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging inzake een Europese vennootschap / Europese coöperatieve vennootschap</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie dotyczące spółki europejskiej / spółdzielni europejskiej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio — Sociedade Europeia / Sociedade Cooperativa Europeia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind o societate europeană/societate cooperativă europeană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Európska spoločnosť/európske družstvo – oznámenie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo evropske družbe/evropske zadruge</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om europabolag/europeisk kooperativ förening</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -139,8 +208,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>European Economic Interest Grouping notice</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за европейско обединение по икономически интереси</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Evropské hospodářské zájmové sdružení – oznámení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Meddelelse om en europæisk økonomisk firmagruppe</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung – Europäische Wirtschaftliche Interessenvereinigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανακοίνωση Ευρωπαϊκού Ομίλου Οικονομικού Σκοπού</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>European Economic Interest Grouping notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de una Agrupación Europea de Interés Económico</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teade Euroopa majandushuviühingu kohta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus eurooppalaisesta taloudellisesta etuyhtymästä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis relatif à un groupement européen d'intérêt économique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le Grúpáil Eorpach um Leas Eacnamaíoch</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o europskom gospodarskom interesnom udruženju</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Európai gazdasági egyesüléssel kapcsolatos értesítés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso gruppo europeo di interesse economico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Europos ekonominių interesų grupės skelbimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par Eiropas ekonomisko interešu grupu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-Grupp Ewropew ta' Interess Ekonomiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging inzake een Europees economisch samenwerkingsverband</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie dotyczące europejskiego ugrupowania interesów gospodarczych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio — Agrupamento Europeu de Interesse Económico</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind un Grup european de interes economic</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Európske zoskupenie hospodárskych záujmov – oznámenie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo evropskega gospodarskega interesnega združenja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om europeisk ekonomisk intressegruppering</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

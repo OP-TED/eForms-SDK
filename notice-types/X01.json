@@ -1,0 +1,182 @@
+{
+  "ublVersion" : "2.3",
+  "sdkVersion" : "0.7.0",
+  "metadataDatabase" : {
+    "version" : "0.5.0",
+    "createdOn" : "2022-07-08T11:00:00"
+  },
+  "noticeId" : "X01",
+  "metadata" : [ {
+    "id" : "BT-01-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Procedure Legal Basis",
+    "_label" : "field|name|BT-01-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-02-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Notice Type",
+    "_label" : "field|name|BT-02-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-03-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Form Type",
+    "_label" : "field|name|BT-03-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-701-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Identifier",
+    "_label" : "field|name|BT-701-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-702(a)-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Notice Official Language",
+    "_label" : "field|name|BT-702(a)-notice",
+    "hidden" : true
+  }, {
+    "id" : "BT-702(b)-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Notice Official Language",
+    "_label" : "field|name|BT-702(b)-notice",
+    "_repeatable" : true,
+    "hidden" : true
+  }, {
+    "id" : "BT-05(a)-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Dispatch Date",
+    "_label" : "field|name|BT-05(a)-notice",
+    "hidden" : true
+  }, {
+    "id" : "BT-05(b)-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Dispatch Time",
+    "_label" : "field|name|BT-05(b)-notice",
+    "hidden" : true
+  }, {
+    "id" : "OPT-001-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "UBL version ID (UBL)",
+    "_label" : "field|name|OPT-001-notice",
+    "hidden" : true
+  }, {
+    "id" : "OPT-002-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Customization ID (UBL)",
+    "_label" : "field|name|OPT-002-notice",
+    "readOnly" : true
+  }, {
+    "id" : "OPP-070-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Notice Subtype",
+    "_label" : "field|name|OPP-070-notice",
+    "readOnly" : true
+  } ],
+  "content" : [ {
+    "id" : "GR-Business-Section",
+    "contentType" : "group",
+    "displayType" : "SECTION",
+    "description" : "Notice",
+    "_label" : "group|name|GR-Business-Section",
+    "content" : [ {
+      "id" : "OPP-100-Business",
+      "contentType" : "field",
+      "displayType" : "COMBOBOX",
+      "description" : "Notice Purpose",
+      "_label" : "field|name|OPP-100-Business"
+    }, {
+      "id" : "GR-Business-Party",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Business Party",
+      "_label" : "group|name|GR-Business-Party",
+      "content" : [ {
+        "id" : "BT-500-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Official name",
+        "_label" : "field|name|BT-500-Business"
+      }, {
+        "id" : "BT-501-Business-European",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "EU Registration Number",
+        "_label" : "field|name|BT-501-Business-European"
+      }, {
+        "id" : "OPP-110-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Place of registration - Town",
+        "_label" : "field|name|OPP-110-Business"
+      }, {
+        "id" : "OPP-111-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Place of registration - Postcode",
+        "_label" : "field|name|OPP-111-Business"
+      }, {
+        "id" : "OPP-112-Business",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Place of registration - Country",
+        "_label" : "field|name|OPP-112-Business"
+      }, {
+        "id" : "OPP-113-Business-European",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Date of registration",
+        "_label" : "field|name|OPP-113-Business-European"
+      } ]
+    }, {
+      "id" : "GR-Business-Publication",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Publication",
+      "_label" : "group|name|GR-Business-Publication",
+      "content" : [ {
+        "id" : "OPP-120-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Name of Publication",
+        "_label" : "field|name|OPP-120-Business"
+      }, {
+        "id" : "OPP-121-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Title of the announcement",
+        "_label" : "field|name|OPP-121-Business"
+      }, {
+        "id" : "OPP-122-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "URL of the announcement",
+        "_label" : "field|name|OPP-122-Business"
+      }, {
+        "id" : "OPP-123-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Date of publication",
+        "_label" : "field|name|OPP-123-Business"
+      } ]
+    }, {
+      "id" : "OPP-130-Business",
+      "contentType" : "field",
+      "displayType" : "TEXTAREA",
+      "description" : "Additional information",
+      "_label" : "field|name|OPP-130-Business"
+    } ]
+  } ]
+}

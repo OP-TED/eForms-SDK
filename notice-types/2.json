@@ -1,0 +1,860 @@
+{
+  "ublVersion" : "2.3",
+  "sdkVersion" : "0.7.0",
+  "metadataDatabase" : {
+    "version" : "0.5.0",
+    "createdOn" : "2022-07-08T11:00:00"
+  },
+  "noticeId" : "2",
+  "metadata" : [ {
+    "id" : "BT-02-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Notice Type",
+    "_label" : "field|name|BT-02-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-03-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Form Type",
+    "_label" : "field|name|BT-03-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-701-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Identifier",
+    "_label" : "field|name|BT-701-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-757-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Version",
+    "_label" : "field|name|BT-757-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-702(a)-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Notice Official Language",
+    "_label" : "field|name|BT-702(a)-notice",
+    "hidden" : true
+  }, {
+    "id" : "BT-702(b)-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Notice Official Language",
+    "_label" : "field|name|BT-702(b)-notice",
+    "_repeatable" : true,
+    "hidden" : true
+  }, {
+    "id" : "BT-05(a)-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Dispatch Date",
+    "_label" : "field|name|BT-05(a)-notice",
+    "hidden" : true
+  }, {
+    "id" : "BT-05(b)-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Dispatch Time",
+    "_label" : "field|name|BT-05(b)-notice",
+    "hidden" : true
+  }, {
+    "id" : "BT-738-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Publication Date Preferred",
+    "_label" : "field|name|BT-738-notice",
+    "hidden" : true
+  }, {
+    "id" : "OPT-001-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "UBL version ID (UBL)",
+    "_label" : "field|name|OPT-001-notice",
+    "hidden" : true
+  }, {
+    "id" : "OPT-002-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Customization ID (UBL)",
+    "_label" : "field|name|OPT-002-notice",
+    "readOnly" : true
+  }, {
+    "id" : "OPP-070-notice",
+    "contentType" : "field",
+    "displayType" : "COMBOBOX",
+    "description" : "Notice Subtype",
+    "_label" : "field|name|OPP-070-notice",
+    "readOnly" : true
+  }, {
+    "id" : "OPP-010-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Publication Number",
+    "_label" : "field|name|OPP-010-notice",
+    "hidden" : true
+  }, {
+    "id" : "OPP-011-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "OJEU Identifier",
+    "_label" : "field|name|OPP-011-notice",
+    "hidden" : true
+  }, {
+    "id" : "OPP-012-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "OJEU Publication Date",
+    "_label" : "field|name|OPP-012-notice",
+    "hidden" : true
+  } ],
+  "content" : [ {
+    "id" : "GR-ContractingAuthority",
+    "contentType" : "group",
+    "displayType" : "SECTION",
+    "description" : "Contracting Authority",
+    "_label" : "group|name|GR-ContractingAuthority",
+    "content" : [ {
+      "id" : "GR-ContractingAuthority-Buyer",
+      "contentType" : "group",
+      "nodeId" : "ND-ContractingParty",
+      "displayType" : "GROUP",
+      "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
+      "_label" : "group|name|ND-ContractingParty",
+      "_repeatable" : true,
+      "content" : [ {
+        "id" : "OPT-300-Procedure-Buyer",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Buyer Technical Identifier Reference",
+        "_label" : "field|name|OPT-300-Procedure-Buyer",
+        "_idSchemes" : [ "ORG" ],
+        "_repeatable" : true
+      }, {
+        "id" : "BT-11-Procedure-Buyer",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Buyer Legal Type",
+        "_label" : "field|name|BT-11-Procedure-Buyer"
+      }, {
+        "id" : "BT-10-Procedure-Buyer",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Activity Authority",
+        "_label" : "field|name|BT-10-Procedure-Buyer"
+      }, {
+        "id" : "BT-610-Procedure-Buyer",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Activity Entity",
+        "_label" : "field|name|BT-610-Procedure-Buyer"
+      }, {
+        "id" : "BT-508-Procedure-Buyer",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Buyer Profile URL",
+        "_label" : "field|name|BT-508-Procedure-Buyer"
+      } ]
+    }, {
+      "id" : "GR-Procedure-SProvider",
+      "contentType" : "group",
+      "nodeId" : "ND-ServiceProviderParty",
+      "displayType" : "GROUP",
+      "description" : "Provided Service (code) and Provider (Reference to Organization)",
+      "_label" : "group|name|ND-ServiceProviderParty",
+      "_repeatable" : true,
+      "content" : [ {
+        "id" : "OPT-300-Procedure-SProvider",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Service Provider Technical Identifier Reference",
+        "_label" : "field|name|OPT-300-Procedure-SProvider",
+        "_idSchemes" : [ "ORG" ],
+        "_repeatable" : true
+      }, {
+        "id" : "OPT-030-Procedure-SProvider",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Provided Service Type",
+        "_label" : "field|name|OPT-030-Procedure-SProvider"
+      } ]
+    } ]
+  }, {
+    "id" : "GR-Procedure",
+    "contentType" : "group",
+    "displayType" : "SECTION",
+    "description" : "Procedure",
+    "_label" : "group|name|GR-Procedure",
+    "content" : [ {
+      "id" : "GR-Procedure-Purpose",
+      "contentType" : "group",
+      "displayType" : "SECTION",
+      "description" : "Purpose",
+      "_label" : "group|name|GR-Procedure-Purpose",
+      "content" : [ {
+        "id" : "GR-Procedure-MainLegalBasis",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Main Legal Basis",
+        "_label" : "group|name|GR-Procedure-MainLegalBasis",
+        "content" : [ {
+          "id" : "BT-01-notice",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Procedure Legal Basis",
+          "_label" : "field|name|BT-01-notice"
+        } ]
+      }, {
+        "id" : "GR-Procedure-LocalCrossBorderLaw",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Local Law",
+        "_label" : "group|name|GR-Procedure-LocalCrossBorderLaw",
+        "content" : [ {
+          "id" : "BT-01(c)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Procedure Legal Basis (ELI - celex)",
+          "_label" : "field|name|BT-01(c)-Procedure",
+          "_repeatable" : true
+        }, {
+          "id" : "BT-01(d)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Procedure Legal Basis (text)",
+          "_label" : "field|name|BT-01(d)-Procedure",
+          "_repeatable" : true
+        } ]
+      }, {
+        "id" : "GR-Procedure-Description",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Description",
+        "_label" : "group|name|GR-Procedure-Description",
+        "content" : [ {
+          "id" : "BT-22-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Internal Identifier",
+          "_label" : "field|name|BT-22-Procedure"
+        }, {
+          "id" : "BT-21-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Title",
+          "_label" : "field|name|BT-21-Procedure"
+        }, {
+          "id" : "BT-24-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Description",
+          "_label" : "field|name|BT-24-Procedure"
+        }, {
+          "id" : "BT-23-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Main Nature",
+          "_label" : "field|name|BT-23-Procedure"
+        }, {
+          "id" : "BT-531-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Additional Nature (different from Main)",
+          "_label" : "field|name|BT-531-Procedure",
+          "_repeatable" : true
+        } ]
+      }, {
+        "id" : "GR-Procedure-Scope",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Scope",
+        "_label" : "group|name|GR-Procedure-Scope",
+        "content" : [ {
+          "id" : "GR-Procedure-Scope-MainClassification",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "Main Classification",
+          "_label" : "group|name|GR-Procedure-Scope-MainClassification",
+          "content" : [ {
+            "id" : "BT-26(m)-Procedure",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Classification Type (e.g. CPV)",
+            "_label" : "field|name|BT-26(m)-Procedure"
+          }, {
+            "id" : "BT-262-Procedure",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Main Classification Code",
+            "_label" : "field|name|BT-262-Procedure"
+          } ]
+        }, {
+          "id" : "GR-Procedure-Scope-AdditionalClassification",
+          "contentType" : "group",
+          "nodeId" : "ND-ProcedureAdditionalCommodityClassification",
+          "displayType" : "GROUP",
+          "description" : "Classification for the Additional Commodity of the Procedure",
+          "_label" : "group|name|ND-ProcedureAdditionalCommodityClassification",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-26(a)-Procedure",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Classification Type (e.g. CPV)",
+            "_label" : "field|name|BT-26(a)-Procedure"
+          }, {
+            "id" : "BT-263-Procedure",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Additional Classification Code",
+            "_label" : "field|name|BT-263-Procedure",
+            "_repeatable" : true
+          } ]
+        } ]
+      }, {
+        "id" : "GR-Procedure-PlaceOfPerformance",
+        "contentType" : "group",
+        "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
+        "displayType" : "GROUP",
+        "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
+        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-5101(a)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Place Performance Street",
+          "_label" : "field|name|BT-5101(a)-Procedure"
+        }, {
+          "id" : "BT-5101(b)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Place Performance Streetline 1",
+          "_label" : "field|name|BT-5101(b)-Procedure"
+        }, {
+          "id" : "BT-5101(c)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Place Performance Streetline 2",
+          "_label" : "field|name|BT-5101(c)-Procedure"
+        }, {
+          "id" : "BT-5131-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Place Performance City",
+          "_label" : "field|name|BT-5131-Procedure"
+        }, {
+          "id" : "BT-5121-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Place Performance Post Code",
+          "_label" : "field|name|BT-5121-Procedure"
+        }, {
+          "id" : "BT-5071-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Place Performance Country Subdivision",
+          "_label" : "field|name|BT-5071-Procedure"
+        }, {
+          "id" : "BT-5141-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Place Performance Country Code",
+          "_label" : "field|name|BT-5141-Procedure"
+        }, {
+          "id" : "BT-727-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Place Performance Services Other",
+          "_label" : "field|name|BT-727-Procedure"
+        }, {
+          "id" : "BT-728-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Place Performance Additional Information",
+          "_label" : "field|name|BT-728-Procedure"
+        } ]
+      } ]
+    }, {
+      "id" : "GR-Procedure-Procedure-subsection",
+      "contentType" : "group",
+      "displayType" : "SECTION",
+      "description" : "Procedure",
+      "_label" : "group|name|GR-Procedure-Procedure-subsection",
+      "content" : [ {
+        "id" : "GR-Procedure-AdditionalInformation",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Additional Information",
+        "_label" : "group|name|GR-Procedure-AdditionalInformation",
+        "content" : [ {
+          "id" : "BT-300-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Additional Information",
+          "_label" : "field|name|BT-300-Procedure"
+        } ]
+      } ]
+    } ]
+  }, {
+    "id" : "GR-Change",
+    "contentType" : "group",
+    "displayType" : "SECTION",
+    "description" : "Change",
+    "_label" : "group|name|GR-Change",
+    "content" : [ {
+      "id" : "BT-140-notice",
+      "contentType" : "field",
+      "displayType" : "COMBOBOX",
+      "description" : "Change Reason Code",
+      "_label" : "field|name|BT-140-notice",
+      "readOnly" : true
+    }, {
+      "id" : "BT-762-notice",
+      "contentType" : "field",
+      "displayType" : "TEXTAREA",
+      "description" : "Change Reason Description",
+      "_label" : "field|name|BT-762-notice"
+    }, {
+      "id" : "BT-758-notice",
+      "contentType" : "field",
+      "displayType" : "TEXTBOX",
+      "description" : "Change Notice Version Identifier",
+      "_label" : "field|name|BT-758-notice",
+      "readOnly" : true
+    }, {
+      "id" : "BT-718-notice",
+      "contentType" : "field",
+      "displayType" : "CHECKBOX",
+      "description" : "Change Procurement Documents",
+      "_label" : "field|name|BT-718-notice"
+    }, {
+      "id" : "BT-719-notice",
+      "contentType" : "field",
+      "displayType" : "TEXTBOX",
+      "description" : "Change Procurement Documents Date",
+      "_label" : "field|name|BT-719-notice"
+    }, {
+      "id" : "GR-ChangeSections",
+      "contentType" : "group",
+      "nodeId" : "ND-Change",
+      "displayType" : "GROUP",
+      "description" : "Information associated to a single Change (Section, Description & Procurement Documents)",
+      "_label" : "group|name|ND-Change",
+      "_repeatable" : true,
+      "content" : [ {
+        "id" : "BT-13716-notice",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Change Previous Section Identifier",
+        "_label" : "field|name|BT-13716-notice",
+        "_repeatable" : true
+      }, {
+        "id" : "BT-141(a)-notice",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Change Description",
+        "_label" : "field|name|BT-141(a)-notice"
+      } ]
+    } ]
+  }, {
+    "id" : "GR-Organisations-Section",
+    "contentType" : "group",
+    "displayType" : "SECTION",
+    "description" : "Organisations",
+    "_label" : "group|name|GR-Organisations-Section",
+    "content" : [ {
+      "id" : "GR-Organisations-Subsection",
+      "contentType" : "group",
+      "displayType" : "SECTION",
+      "description" : "Organisations",
+      "_label" : "group|name|GR-Organisations-Subsection",
+      "content" : [ {
+        "id" : "GR-Organisations",
+        "contentType" : "group",
+        "nodeId" : "ND-Organization",
+        "displayType" : "GROUP",
+        "description" : "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
+        "_label" : "group|name|ND-Organization",
+        "_idScheme" : "ORG",
+        "_identifierFieldId" : "OPT-200-Organization-Company",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPT-200-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Company Technical Identifier",
+          "_label" : "field|name|OPT-200-Organization-Company",
+          "_idScheme" : "ORG",
+          "_repeatable" : true,
+          "hidden" : true
+        }, {
+          "id" : "BT-633-Organization",
+          "contentType" : "field",
+          "displayType" : "CHECKBOX",
+          "description" : "Organisation Natural Person",
+          "_label" : "field|name|BT-633-Organization"
+        }, {
+          "id" : "GR-Company",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "Company",
+          "_label" : "group|name|GR-Company",
+          "content" : [ {
+            "id" : "BT-500-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Organisation Name",
+            "_label" : "field|name|BT-500-Organization-Company"
+          }, {
+            "id" : "BT-501-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Organisation Identifier",
+            "_label" : "field|name|BT-501-Organization-Company",
+            "_repeatable" : true
+          }, {
+            "id" : "BT-16-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Organisation Part Name",
+            "_label" : "field|name|BT-16-Organization-Company"
+          }, {
+            "id" : "BT-505-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Organisation Internet Address",
+            "_label" : "field|name|BT-505-Organization-Company"
+          }, {
+            "id" : "BT-509-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Organisation eDelivery Gateway",
+            "_label" : "field|name|BT-509-Organization-Company"
+          } ]
+        }, {
+          "id" : "GR-Company-Address",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "Company Address",
+          "_label" : "group|name|GR-Company-Address",
+          "content" : [ {
+            "id" : "BT-510(a)-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Street",
+            "_label" : "field|name|BT-510(a)-Organization-Company"
+          }, {
+            "id" : "BT-510(b)-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Streetline 1",
+            "_label" : "field|name|BT-510(b)-Organization-Company"
+          }, {
+            "id" : "BT-510(c)-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Streetline 2",
+            "_label" : "field|name|BT-510(c)-Organization-Company"
+          }, {
+            "id" : "BT-513-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Organisation City",
+            "_label" : "field|name|BT-513-Organization-Company"
+          }, {
+            "id" : "BT-512-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Organisation Post Code",
+            "_label" : "field|name|BT-512-Organization-Company"
+          }, {
+            "id" : "BT-507-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Organisation Country Subdivision",
+            "_label" : "field|name|BT-507-Organization-Company"
+          }, {
+            "id" : "BT-514-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Organisation Country Code",
+            "_label" : "field|name|BT-514-Organization-Company"
+          } ]
+        }, {
+          "id" : "GR-Company-Contact",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "Company Contact",
+          "_label" : "group|name|GR-Company-Contact",
+          "content" : [ {
+            "id" : "BT-502-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Organisation Contact Point",
+            "_label" : "field|name|BT-502-Organization-Company"
+          }, {
+            "id" : "BT-506-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Organisation Contact Email Address",
+            "_label" : "field|name|BT-506-Organization-Company"
+          }, {
+            "id" : "BT-503-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Organisation Contact Telephone Number",
+            "_label" : "field|name|BT-503-Organization-Company"
+          }, {
+            "id" : "BT-739-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Organisation Contact Fax",
+            "_label" : "field|name|BT-739-Organization-Company"
+          } ]
+        }, {
+          "id" : "GR-Touch-Point",
+          "contentType" : "group",
+          "nodeId" : "ND-Touchpoint",
+          "displayType" : "GROUP",
+          "description" : "Contact details associated to a given role",
+          "_label" : "group|name|ND-Touchpoint",
+          "_idScheme" : "TPO",
+          "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "OPT-201-Organization-TouchPoint",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "TouchPoint Technical Identifier",
+            "_label" : "field|name|OPT-201-Organization-TouchPoint",
+            "_idScheme" : "TPO",
+            "hidden" : true
+          }, {
+            "id" : "BT-500-Organization-TouchPoint",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Name",
+            "_label" : "field|name|BT-500-Organization-TouchPoint"
+          }, {
+            "id" : "BT-16-Organization-TouchPoint",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Part Name",
+            "_label" : "field|name|BT-16-Organization-TouchPoint"
+          }, {
+            "id" : "BT-505-Organization-TouchPoint",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Internet Address",
+            "_label" : "field|name|BT-505-Organization-TouchPoint"
+          }, {
+            "id" : "BT-509-Organization-TouchPoint",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "eDelivery Gateway",
+            "_label" : "field|name|BT-509-Organization-TouchPoint"
+          }, {
+            "id" : "GR-TouchPoint-Address",
+            "contentType" : "group",
+            "displayType" : "GROUP",
+            "description" : "TouchPoint Address",
+            "_label" : "group|name|GR-TouchPoint-Address",
+            "content" : [ {
+              "id" : "BT-510(a)-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Street",
+              "_label" : "field|name|BT-510(a)-Organization-TouchPoint"
+            }, {
+              "id" : "BT-510(b)-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Streetline 1",
+              "_label" : "field|name|BT-510(b)-Organization-TouchPoint"
+            }, {
+              "id" : "BT-510(c)-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Streetline 2",
+              "_label" : "field|name|BT-510(c)-Organization-TouchPoint"
+            }, {
+              "id" : "BT-513-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "City",
+              "_label" : "field|name|BT-513-Organization-TouchPoint"
+            }, {
+              "id" : "BT-512-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Post Code",
+              "_label" : "field|name|BT-512-Organization-TouchPoint"
+            }, {
+              "id" : "BT-507-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Country Subdivision",
+              "_label" : "field|name|BT-507-Organization-TouchPoint"
+            }, {
+              "id" : "BT-514-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Country Code",
+              "_label" : "field|name|BT-514-Organization-TouchPoint"
+            } ]
+          }, {
+            "id" : "GR-TouchPoint-Contact",
+            "contentType" : "group",
+            "displayType" : "GROUP",
+            "description" : "TouchPoint Contact",
+            "_label" : "group|name|GR-TouchPoint-Contact",
+            "content" : [ {
+              "id" : "BT-502-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Contact Point",
+              "_label" : "field|name|BT-502-Organization-TouchPoint"
+            }, {
+              "id" : "BT-506-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Contact Email Address",
+              "_label" : "field|name|BT-506-Organization-TouchPoint"
+            }, {
+              "id" : "BT-503-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Contact Telephone Number",
+              "_label" : "field|name|BT-503-Organization-TouchPoint"
+            }, {
+              "id" : "BT-739-Organization-TouchPoint",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Contact Fax",
+              "_label" : "field|name|BT-739-Organization-TouchPoint"
+            } ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : "GR-UBO-Subsection",
+      "contentType" : "group",
+      "displayType" : "SECTION",
+      "description" : "Ultimate Beneficial Owner",
+      "_label" : "group|name|GR-UBO-Subsection",
+      "content" : [ {
+        "id" : "GR-UBO",
+        "contentType" : "group",
+        "nodeId" : "ND-UBO",
+        "displayType" : "GROUP",
+        "description" : "Ultimate Beneficial Owner",
+        "_label" : "group|name|ND-UBO",
+        "_idScheme" : "UBO",
+        "_identifierFieldId" : "OPT-202-UBO",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPT-202-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Beneficial Owner Technical Identifier",
+          "_label" : "field|name|OPT-202-UBO",
+          "_idScheme" : "UBO",
+          "_repeatable" : true,
+          "hidden" : true
+        }, {
+          "id" : "BT-500-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "UBO Name",
+          "_label" : "field|name|BT-500-UBO"
+        }, {
+          "id" : "OPT-160-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "First Name",
+          "_label" : "field|name|OPT-160-UBO"
+        }, {
+          "id" : "BT-506-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "UBO Email Address",
+          "_label" : "field|name|BT-506-UBO"
+        }, {
+          "id" : "BT-503-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "UBO Telephone Number",
+          "_label" : "field|name|BT-503-UBO"
+        }, {
+          "id" : "BT-739-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "UBO Contact Fax",
+          "_label" : "field|name|BT-739-UBO"
+        }, {
+          "id" : "BT-507-UBO",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Country Subdivision",
+          "_label" : "field|name|BT-507-UBO"
+        }, {
+          "id" : "BT-510(a)-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Street",
+          "_label" : "field|name|BT-510(a)-UBO"
+        }, {
+          "id" : "BT-510(b)-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Streetline 1",
+          "_label" : "field|name|BT-510(b)-UBO"
+        }, {
+          "id" : "BT-510(c)-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Streetline 2",
+          "_label" : "field|name|BT-510(c)-UBO"
+        }, {
+          "id" : "BT-512-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Post Code",
+          "_label" : "field|name|BT-512-UBO"
+        }, {
+          "id" : "BT-513-UBO",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "City",
+          "_label" : "field|name|BT-513-UBO"
+        }, {
+          "id" : "BT-514-UBO",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Country Code",
+          "_label" : "field|name|BT-514-UBO"
+        }, {
+          "id" : "GR-UBO-Winner",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "TBD Winner",
+          "_label" : "group|name|GR-UBO-Winner",
+          "content" : [ {
+            "id" : "BT-706-UBO",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Winner Owner Nationality",
+            "_label" : "field|name|BT-706-UBO",
+            "_repeatable" : true
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}

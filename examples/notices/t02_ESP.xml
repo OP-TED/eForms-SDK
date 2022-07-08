@@ -51,7 +51,7 @@
 								<efbc:TermIndicator>true</efbc:TermIndicator>
 							</efac:ContractTerm>
 							<efac:ContractTerm>
-								<efbc:TermCode listName="customer-service">rew-pen</efbc:TermCode>
+								<efbc:TermCode listName="rewards-penalties">rew-pen</efbc:TermCode>
 								<efbc:TermDescription languageID="SPA">Information on Rewards and Penalties ....</efbc:TermDescription>
 								<efbc:TermIndicator>true</efbc:TermIndicator>
 							</efac:ContractTerm>
@@ -68,6 +68,9 @@
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>TDR ABC:2020-01</cbc:ID>
 							</efac:TenderReference>
@@ -237,7 +240,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">17f00f55-7178-4597-822a-545d2f55a150</cbc:ID>
 	<!-- element required for this doctype -->
 	<cbc:ContractFolderID>00000000-0000-0000-0000-000000000000</cbc:ContractFolderID>
@@ -272,13 +275,6 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
-	<cac:TenderingTerms>
-		<cac:TendererQualificationRequest>
-			<cac:SpecificTendererRequirement>
-				<cbc:Description languageID="SPA">description on Exclusion Grounds</cbc:Description>
-			</cac:SpecificTendererRequirement>
-		</cac:TendererQualificationRequest>
-	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>

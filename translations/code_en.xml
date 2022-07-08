@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in English. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in English. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Accessibility criteria for persons with disabilities are included</entry>
 <entry key="code|value|accessibility.n-inc">Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons</entry>
 <entry key="code|value|accessibility.n-inc-just">Accessibility criteria for persons with disabilities are not included with the following justification</entry>
@@ -10888,13 +10888,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fixed (per unit)</entry>
 <entry key="code|value|number-threshold.max-pass">Maximum number of tenders passing</entry>
 <entry key="code|value|number-threshold.min-score">Minimum score</entry>
-<entry key="code|value|number-weight.dec-exa">{Weight (decimal, exact)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Weight (decimal, middle of a range)}</entry>
+<entry key="code|value|number-weight.dec-exa">Weight (decimal, exact)</entry>
+<entry key="code|value|number-weight.dec-mid">Weight (decimal, middle of a range)</entry>
 <entry key="code|value|number-weight.ord-imp">Order of importance</entry>
-<entry key="code|value|number-weight.per-exa">{Weight (percentage, exact)}</entry>
-<entry key="code|value|number-weight.per-mid">{Weight (percentage, middle of a range)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Weight (points, exact)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Weight (points, middle of a range)}</entry>
+<entry key="code|value|number-weight.per-exa">Weight (percentage, exact)</entry>
+<entry key="code|value|number-weight.per-mid">Weight (percentage, middle of a range)</entry>
+<entry key="code|value|number-weight.poi-exa">Weight (points, exact)</entry>
+<entry key="code|value|number-weight.poi-mid">Weight (points, middle of a range)</entry>
 <entry key="code|value|organisation-role.ben-own">Beneficial owner</entry>
 <entry key="code|value|organisation-role.buyer">Buyer</entry>
 <entry key="code|value|organisation-role.cpb-acq">Central purchasing body acquiring supplies and/or services intended for other buyers</entry>

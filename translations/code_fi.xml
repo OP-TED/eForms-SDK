@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Finnish. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Finnish. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Vammaisia koskevat esteettömyysvaatimukset on otettu huomioon</entry>
 <entry key="code|value|accessibility.n-inc">Vammaisia koskevia esteettömyysvaatimuksia ei ole otettu huomioon, koska hankintaa ei ole tarkoitettu luonnollisten henkilöiden käyttöön</entry>
 <entry key="code|value|accessibility.n-inc-just">Vammaisia koskevia esteettömyysvaatimuksia ei ole otettu huomioon seuraavin perustein</entry>
@@ -10777,10 +10777,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Lainvalvonta</entry>
 <entry key="code|value|non-publication-justification.oth-int">Muu yleinen etu</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Tutkimus- ja kehittämispalvelut (T&amp;K)</entry>
+<entry key="code|value|notice-type.brin-ecs">Ilmoitus eurooppayhtiöstä / eurooppaosuuskunnasta</entry>
+<entry key="code|value|notice-type.brin-eeig">Ilmoitus eurooppalaisesta taloudellisesta etuyhtymästä</entry>
 <entry key="code|value|notice-type.can-desg">Ilmoitus suunnittelukilpailun tuloksista</entry>
 <entry key="code|value|notice-type.can-modif">Hankintasopimuksen muuttamista koskeva ilmoitus</entry>
 <entry key="code|value|notice-type.can-social">Hankintailmoitus tai käyttöoikeussopimusta koskeva ilmoitus – kevennetty järjestely</entry>
 <entry key="code|value|notice-type.can-standard">Jälki-ilmoitus tai käyttöoikeussopimusta koskeva jälki-ilmoitus – vakiojärjestelmä</entry>
+<entry key="code|value|notice-type.can-tran">Jälki-ilmoitus julkisista henkilöliikennepalveluista</entry>
 <entry key="code|value|notice-type.cn-desg">Suunnittelukilpailua koskeva ilmoitus</entry>
 <entry key="code|value|notice-type.cn-social">Hankintailmoitus – kevennetty järjestely</entry>
 <entry key="code|value|notice-type.cn-standard">Hankintailmoitus tai käyttöoikeussopimusta koskeva ilmoitus – vakiojärjestelmä</entry>
@@ -10790,6 +10793,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Tarjouskilpailukutsuna käytettävä ennakkoilmoitus tai ohjeellinen kausi-ilmoitus – vakiojärjestelmä</entry>
 <entry key="code|value|notice-type.pin-only">Ennakkoilmoitus tai ohjeellinen kausi-ilmoitus vain tietotarkoituksiin</entry>
 <entry key="code|value|notice-type.pin-rtl">Ennakkoilmoitus tai ohjeellinen kausi-ilmoitus tarjousaikojen lyhentämistä varten</entry>
+<entry key="code|value|notice-type.pin-tran">Ennakkoilmoitus julkisista henkilöliikennepalveluista</entry>
 <entry key="code|value|notice-type.qu-sy">Kelpuuttamisjärjestelmää koskeva ilmoitus</entry>
 <entry key="code|value|notice-type.subco">Alihankintaa koskeva ilmoitus</entry>
 <entry key="code|value|notice-type.veat">Vapaaehtoista ex ante -avoimuutta koskeva ilmoitus</entry>
@@ -10797,13 +10801,13 @@
 <entry key="code|value|number-fixed.fix-unit">Kiinteä (yksikköä kohti)</entry>
 <entry key="code|value|number-threshold.max-pass">Hyväksyttyjen tarjousten enimmäismäärä</entry>
 <entry key="code|value|number-threshold.min-score">Vähimmäispistemäärä</entry>
-<entry key="code|value|number-weight.dec-exa">{Painotus (desimaaleina, tarkka)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Painotus (desimaaleina, vaihteluvälin puoliväli)}</entry>
+<entry key="code|value|number-weight.dec-exa">Painotus (desimaaleina, tarkka)</entry>
+<entry key="code|value|number-weight.dec-mid">Painotus (desimaaleina, vaihteluvälin puoliväli)</entry>
 <entry key="code|value|number-weight.ord-imp">Ensisijaisuusjärjestys</entry>
-<entry key="code|value|number-weight.per-exa">{Painotus (prosentteina, tarkka)}</entry>
-<entry key="code|value|number-weight.per-mid">{Painotus (prosentteina, vaihteluvälin puoliväli)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Painotus (pisteinä, tarkka)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Painotus (pisteinä, vaihteluvälin puoliväli)}</entry>
+<entry key="code|value|number-weight.per-exa">Painotus (prosentteina, tarkka)</entry>
+<entry key="code|value|number-weight.per-mid">Painotus (prosentteina, vaihteluvälin puoliväli)</entry>
+<entry key="code|value|number-weight.poi-exa">Painotus (pisteinä, tarkka)</entry>
+<entry key="code|value|number-weight.poi-mid">Painotus (pisteinä, vaihteluvälin puoliväli)</entry>
 <entry key="code|value|organisation-role.ben-own">Taloudellinen omistaja</entry>
 <entry key="code|value|organisation-role.buyer">Ostaja</entry>
 <entry key="code|value|organisation-role.cpb-acq">Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö</entry>

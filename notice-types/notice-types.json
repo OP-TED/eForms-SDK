@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-0.6.0",
+  "sdkVersion" : "0.7.0",
   "metadataDatabase" : {
-    "version" : "0.4.0",
-    "createdOn" : "2022-05-04T10:00:00"
+    "version" : "0.5.0",
+    "createdOn" : "2022-07-08T11:00:00"
   },
   "noticeSubTypes" : [ {
     "documentType" : "PIN",
@@ -73,7 +73,7 @@
     "legalBasis" : "32009L0081",
     "formType" : "competition",
     "type" : "cn-standard",
-    "description" : "Contract notice – defence directive, standard regime ",
+    "description" : "Contract notice – defence directive, standard regime",
     "subTypeId" : "18"
   }, {
     "documentType" : "CN",

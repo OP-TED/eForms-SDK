@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Maltese. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Maltese. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà huma inklużi</entry>
 <entry key="code|value|accessibility.n-inc">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà ma jkunux inklużi minħabba li l-akkwist ma jkunx maħsub għall-użu minn persuni fiżiċi</entry>
 <entry key="code|value|accessibility.n-inc-just">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà ma jkunux inklużi bil-ġustifikazzjoni li ġejja</entry>
@@ -10774,10 +10774,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Infurzar tal-liġi</entry>
 <entry key="code|value|non-publication-justification.oth-int">Interess pubbliku ieħor</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Servizzi tar-riċerka u tal-iżvilupp</entry>
+<entry key="code|value|notice-type.brin-ecs">Avviż tal-Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea</entry>
+<entry key="code|value|notice-type.brin-eeig">Avviż tal-Grupp Ewropew ta' Interess Ekonomiku</entry>
 <entry key="code|value|notice-type.can-desg">Avviż tal-konkors tad-disinn</entry>
 <entry key="code|value|notice-type.can-modif">Avviż tal-modifika fil-kuntratt</entry>
 <entry key="code|value|notice-type.can-social">Avviż tal-għoti tal-kuntratt jew tal-konċessjoni – reġim ħafif</entry>
 <entry key="code|value|notice-type.can-standard">Avviż tal-għoti tal-kuntratt jew tal-konċessjoni – reġim standard</entry>
+<entry key="code|value|notice-type.can-tran">Avviż ta’ għoti ta’ kuntratt għas-servizzi pubbliċi tat-trasport tal-passiġġieri</entry>
 <entry key="code|value|notice-type.cn-desg">Avviż tal-konkors tad-disinn</entry>
 <entry key="code|value|notice-type.cn-social">Avviż tal-kuntratt – reġim ħafif</entry>
 <entry key="code|value|notice-type.cn-standard">Avviż tal-kuntratt jew tal-konċessjoni – reġim standard</entry>
@@ -10787,6 +10790,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat għal sejħa għall-kompetizzjoni – reġim standard</entry>
 <entry key="code|value|notice-type.pin-only">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biss għall-informazzjoni</entry>
 <entry key="code|value|notice-type.pin-rtl">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biex jitqassru l-limiti ta’ żmien għall-wasla tal-offerti</entry>
+<entry key="code|value|notice-type.pin-tran">Avviż informattiv minn qabel għas-servizzi pubbliċi tat-trasport tal-passiġġieri</entry>
 <entry key="code|value|notice-type.qu-sy">Avviż dwar l-eżistenza ta’ sistema ta’ kwalifika</entry>
 <entry key="code|value|notice-type.subco">Avviż tas-sottokuntrattar</entry>
 <entry key="code|value|notice-type.veat">Avviż tat-trasparenza ex ante volontarju</entry>
@@ -10794,13 +10798,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fiss (għal kull unità)</entry>
 <entry key="code|value|number-threshold.max-pass">Għadd massimu ta’ offerti li jgħaddu</entry>
 <entry key="code|value|number-threshold.min-score">Punteġġ minimu</entry>
-<entry key="code|value|number-weight.dec-exa">{Fattur ta’ ponderazzjoni (deċimali, eżatt)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Fattur ta’ ponderazzjoni (deċimali, fin-nofs ta’ firxa)}</entry>
+<entry key="code|value|number-weight.dec-exa">Fattur ta’ ponderazzjoni (deċimali, eżatt)</entry>
+<entry key="code|value|number-weight.dec-mid">Fattur ta’ ponderazzjoni (deċimali, fin-nofs ta’ firxa)</entry>
 <entry key="code|value|number-weight.ord-imp">Ordni ta’ importanza</entry>
-<entry key="code|value|number-weight.per-exa">{Fattur ta’ ponderazzjoni (persentaġġ, eżatt)}</entry>
-<entry key="code|value|number-weight.per-mid">{Fattur ta’ ponderazzjoni (persentaġġ, fin-nofs ta’ firxa)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Fattur ta’ ponderazzjoni (punti, eżatt)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Fattur ta’ ponderazzjoni (punti, fin-nofs ta’ firxa)}</entry>
+<entry key="code|value|number-weight.per-exa">Fattur ta’ ponderazzjoni (persentaġġ, eżatt)</entry>
+<entry key="code|value|number-weight.per-mid">Fattur ta’ ponderazzjoni (persentaġġ, fin-nofs ta’ firxa)</entry>
+<entry key="code|value|number-weight.poi-exa">Fattur ta’ ponderazzjoni (punti, eżatt)</entry>
+<entry key="code|value|number-weight.poi-mid">Fattur ta’ ponderazzjoni (punti, fin-nofs ta’ firxa)</entry>
 <entry key="code|value|organisation-role.ben-own">Sid benefiċjarju</entry>
 <entry key="code|value|organisation-role.buyer">Xerrej</entry>
 <entry key="code|value|organisation-role.cpb-acq">Korp ċentrali għall-akkwisti li jakkwista provvisti u/jew servizzi maħsuba għal xerrejja oħra</entry>

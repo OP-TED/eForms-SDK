@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Slovene. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Slovene. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Vključeni so pogoji dostopnosti za invalidne osebe</entry>
 <entry key="code|value|accessibility.n-inc">Pogoji dostopnosti za invalidne osebe niso vključeni, ker predmet javnega naročila ni namenjen temu, da bi ga uporabljale fizične osebe</entry>
 <entry key="code|value|accessibility.n-inc-just">Pogoji dostopnosti za invalidne osebe niso vključeni iz naslednjih razlogov</entry>
@@ -10775,10 +10775,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Preprečevanje, odkrivanje in preiskovanje kaznivih dejanj</entry>
 <entry key="code|value|non-publication-justification.oth-int">Drug javni interes</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Raziskovalne in razvojne (R in R) storitve</entry>
+<entry key="code|value|notice-type.brin-ecs">Obvestilo evropske družbe/evropske zadruge</entry>
+<entry key="code|value|notice-type.brin-eeig">Obvestilo evropskega gospodarskega interesnega združenja</entry>
 <entry key="code|value|notice-type.can-desg">Obvestilo o rezultatih projektnega natečaja</entry>
 <entry key="code|value|notice-type.can-modif">Obvestilo o spremembi naročila</entry>
 <entry key="code|value|notice-type.can-social">Obvestilo o podelitvi koncesije ali oddaji naročila – enostavnejša ureditev</entry>
 <entry key="code|value|notice-type.can-standard">Obvestilo o podelitvi koncesije ali oddaji naročila – standardna ureditev</entry>
+<entry key="code|value|notice-type.can-tran">Obvestilo o oddaji naročila za storitve javnega potniškega prevoza</entry>
 <entry key="code|value|notice-type.cn-desg">Obvestilo o projektnem natečaju</entry>
 <entry key="code|value|notice-type.cn-social">Obvestilo o naročilu – enostavnejša ureditev</entry>
 <entry key="code|value|notice-type.cn-standard">Obvestilo o koncesiji ali naročilu – standardna ureditev</entry>
@@ -10795,13 +10798,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fiksno (na enoto)</entry>
 <entry key="code|value|number-threshold.max-pass">Najvišje število ponudb, ki bodo izbrane</entry>
 <entry key="code|value|number-threshold.min-score">Najnižje število doseženih točk</entry>
-<entry key="code|value|number-weight.dec-exa">{Ponder (decimalno število, točno)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Ponder (decimalno število, srednja vrednost)}</entry>
+<entry key="code|value|number-weight.dec-exa">Ponder (decimalno število, točno)</entry>
+<entry key="code|value|number-weight.dec-mid">Ponder (decimalno število, srednja vrednost)</entry>
 <entry key="code|value|number-weight.ord-imp">Vrstni red glede na pomembnost</entry>
-<entry key="code|value|number-weight.per-exa">{Ponder (odstotek, točen)}</entry>
-<entry key="code|value|number-weight.per-mid">{Ponder (odstotek, srednja vrednost)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Ponder (točke, točno)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Ponder (točke, srednja vrednost)}</entry>
+<entry key="code|value|number-weight.per-exa">Ponder (odstotek, točen)</entry>
+<entry key="code|value|number-weight.per-mid">Ponder (odstotek, srednja vrednost)</entry>
+<entry key="code|value|number-weight.poi-exa">Ponder (točke, točno)</entry>
+<entry key="code|value|number-weight.poi-mid">Ponder (točke, srednja vrednost)</entry>
 <entry key="code|value|organisation-role.ben-own">Dejanski lastnik</entry>
 <entry key="code|value|organisation-role.buyer">Kupec</entry>
 <entry key="code|value|organisation-role.cpb-acq">Osrednji nabavni organ, ki nabavlja blago in/ali storitve za druge kupce</entry>

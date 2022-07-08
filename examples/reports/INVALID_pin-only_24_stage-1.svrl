@@ -65,24 +65,32 @@
                        role="ERROR"
                        test="count(cbc:ID[@schemeName='notice-id']) &gt; 0">
       <svrl:text>rule|message|BR-BT-00701-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-701-notice">
+cbc:ID[@schemeName='notice-id']</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00001-0007"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cbc:UBLVersionID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00001-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-001-notice">
+cbc:UBLVersionID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00002-0007"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00002-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-002-notice">
+cbc:CustomizationID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00300-0107"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00300-0107</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-300-Procedure-Buyer">
+cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '4']"/>
@@ -93,36 +101,48 @@
                        role="ERROR"
                        test="count(cac:PartyName/cbc:Name) &gt; 0">
       <svrl:text>rule|message|BR-BT-00500-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-500-Organization-Company">
+cac:PartyName/cbc:Name</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00501-0007"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
       <svrl:text>rule|message|BR-BT-00501-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-501-Organization-Company">
+cac:PartyLegalEntity/cbc:CompanyID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00503-0007"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:Contact/cbc:Telephone) &gt; 0">
       <svrl:text>rule|message|BR-BT-00503-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-503-Organization-Company">
+cac:Contact/cbc:Telephone</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00506-0007"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
       <svrl:text>rule|message|BR-BT-00506-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-506-Organization-Company">
+cac:Contact/cbc:ElectronicMail</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00513-0007"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
       <svrl:text>rule|message|BR-BT-00513-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-513-Organization-Company">
+cac:PostalAddress/cbc:CityName</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00514-0007"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
       <svrl:text>rule|message|BR-BT-00514-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-514-Organization-Company">
+cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '4']"/>
@@ -131,6 +151,8 @@
                        role="ERROR"
                        test="count(cbc:ServiceTypeCode) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00030-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-030-Procedure-SProvider">
+cbc:ServiceTypeCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-BT-00021-0007"
@@ -138,24 +160,32 @@
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
       <svrl:text>rule|message|BR-BT-00021-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-21-Procedure">
+cbc:Name</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00023-0007"
                        location="/PriorInformationNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:ProcurementTypeCode) &gt; 0">
       <svrl:text>rule|message|BR-BT-00023-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-23-Procedure">
+cbc:ProcurementTypeCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00024-0007"
                        location="/PriorInformationNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Description) &gt; 0">
       <svrl:text>rule|message|BR-BT-00024-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-24-Procedure">
+cbc:Description</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00262-0007"
                        location="/PriorInformationNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
       <svrl:text>rule|message|BR-BT-00262-0007</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-262-Procedure">
+cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms[$noticeSubType = '4']"/>
@@ -164,12 +194,16 @@
                        role="ERROR"
                        test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00301-0358</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-301-Part-AddInfo">
+cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00301-0460"
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="WARN"
                        test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00301-0460</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-301-Part-TenderReceipt">
+cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-OPT-00301-0562"
@@ -177,12 +211,16 @@
                        role="ERROR"
                        test="count(cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00301-0562</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-301-Part-ReviewOrg">
+cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00301-0664"
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
                        test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|message|BR-OPT-00301-0664</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-301-Part-Mediator">
+cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-BT-00021-0059"
@@ -190,25 +228,32 @@
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
       <svrl:text>rule|message|BR-BT-00021-0059</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-21-Part">
+cbc:Name</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00023-0058"
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) &gt; 0">
       <svrl:text>rule|message|BR-BT-00023-0058</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-23-Part">
+cbc:ProcurementTypeCode[@listName='contract-nature']</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00024-0059"
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Description) &gt; 0">
       <svrl:text>rule|message|BR-BT-00024-0059</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-24-Part">
+cbc:Description</svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-BT-00262-0057"
-                       location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cac:MainCommodityClassification"
+                       location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
-                       test="count(cbc:ItemClassificationCode) &gt; 0">
+                       test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
       <svrl:text>rule|message|BR-BT-00262-0057</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-262-Part">
+cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
    <svrl:fired-rule context="/*"/>
@@ -216,12 +261,12 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification"/>
    <svrl:active-pattern id="EFORMS-stage-3-not-empty" name="EFORMS-stage-3-not-empty"/>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
    <svrl:failed-assert id="element-not-empty"
@@ -332,5 +377,31 @@
    <svrl:fired-rule context="//cac:ProcurementProject"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot"/>
    <svrl:fired-rule context="//cac:ProcurementProject"/>
+   <svrl:active-pattern id="EFORMS-stage-5" name="EFORMS-stage-5"/>
+   <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"/>
+   <svrl:failed-assert id="BR-OPT-00200-0103"
+                       location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="ERROR"
+                       test="((cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:NoticeResult/efac:SettledContract/cac:SignatoryParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealInformationParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:NoticeResult/efac:LotResult/cac:FinancingParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:NoticeResult/efac:LotResult/cac:PayerParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealInformationParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/efac:MainContractor/cbc:ID/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text())))">
+      <svrl:text>rule|message|BR-OPT-00200-0103</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-200-Organization-Company">
+cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']"/>
+   <svrl:failed-assert id="BR-BT-00137-0206"
+                       location="/PriorInformationNotice/cac:ProcurementProjectLot"
+                       role="ERROR"
+                       test="(cbc:ID/normalize-space(text()) = 'PAR-0000') or not((../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('4','5','6','E2')) and (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cbc:ID) = 1))">
+      <svrl:text>rule|message|BR-BT-00137-0206</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-137-Part">
+cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms"/>
    <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
 </svrl:schematron-output>

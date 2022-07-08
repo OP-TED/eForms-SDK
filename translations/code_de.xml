@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in German. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in German. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Zugänglichkeitskriterien für Menschen mit Behinderungen wurden berücksichtigt</entry>
 <entry key="code|value|accessibility.n-inc">Kriterien für die Zugänglichkeit für Menschen mit Behinderungen wurden nicht berücksichtigt, da die Beschaffung nicht für die Nutzung durch natürliche Personen vorgesehen ist</entry>
 <entry key="code|value|accessibility.n-inc-just">Zugänglichkeitskriterien für Menschen mit Behinderungen wurden mit folgender Begründung nicht berücksichtigt</entry>
@@ -10793,10 +10793,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Gesetzesvollzug</entry>
 <entry key="code|value|non-publication-justification.oth-int">Sonstiges öffentliches Interesse</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Dienstleistungen im Bereich Forschung und Entwicklung (FuE)</entry>
+<entry key="code|value|notice-type.brin-ecs">Bekanntmachung – Europäische Gesellschaft/Europäische Genossenschaft</entry>
+<entry key="code|value|notice-type.brin-eeig">Bekanntmachung – Europäische Wirtschaftliche Interessenvereinigung</entry>
 <entry key="code|value|notice-type.can-desg">Bekanntmachung der Wettbewerbsergebnisse</entry>
 <entry key="code|value|notice-type.can-modif">Bekanntmachung der Auftragsänderungen</entry>
 <entry key="code|value|notice-type.can-social">Bekanntmachung vergebener Aufträge oder Zuschlagsbekanntmachung – Sonderregelung</entry>
 <entry key="code|value|notice-type.can-standard">Bekanntmachung vergebener Aufträge oder Zuschlagsbekanntmachung – Standardregelung</entry>
+<entry key="code|value|notice-type.can-tran">Bekanntmachung vergebener Aufträge für öffentliche Personenverkehrsdienste</entry>
 <entry key="code|value|notice-type.cn-desg">Wettbewerbsbekanntmachung</entry>
 <entry key="code|value|notice-type.cn-social">Auftragsbekanntmachung – Sonderregelung</entry>
 <entry key="code|value|notice-type.cn-standard">Auftrags- oder Konzessionsbekanntmachung – Standardregelung</entry>
@@ -10806,6 +10809,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung als Aufruf zum Wettbewerb – Standardregelung</entry>
 <entry key="code|value|notice-type.pin-only">Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung nur zu Informationszwecken</entry>
 <entry key="code|value|notice-type.pin-rtl">Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung zum Zweck der Verkürzung der Frist für den Eingang der Angebote</entry>
+<entry key="code|value|notice-type.pin-tran">Vorinformation zu öffentlichen Personenverkehrsdiensten</entry>
 <entry key="code|value|notice-type.qu-sy">Bekanntmachung über das Bestehen eines Prüfungssystems</entry>
 <entry key="code|value|notice-type.subco">Bekanntmachung der Vergabe von Unteraufträgen</entry>
 <entry key="code|value|notice-type.veat">Freiwillige Ex-ante-Transparenzbekanntmachung</entry>
@@ -10813,13 +10817,13 @@
 <entry key="code|value|number-fixed.fix-unit">Festgelegte Anzahl (pro Einheit)</entry>
 <entry key="code|value|number-threshold.max-pass">Höchstanzahl erfolgreicher Angebote</entry>
 <entry key="code|value|number-threshold.min-score">Mindestpunktzahl</entry>
-<entry key="code|value|number-weight.dec-exa">{Gewichtung (dezimal, genau)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Gewichtung (dezimal, Mittelwert)}</entry>
+<entry key="code|value|number-weight.dec-exa">Gewichtung (dezimal, genau)</entry>
+<entry key="code|value|number-weight.dec-mid">Gewichtung (dezimal, Mittelwert)</entry>
 <entry key="code|value|number-weight.ord-imp">Rangfolge</entry>
-<entry key="code|value|number-weight.per-exa">{Gewichtung (Prozentanteil, genau)}</entry>
-<entry key="code|value|number-weight.per-mid">{Gewichtung (Prozentanteil, Mittelwert)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Gewichtung (Punkte, genau)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Gewichtung (Punkte, Mittelwert)}</entry>
+<entry key="code|value|number-weight.per-exa">Gewichtung (Prozentanteil, genau)</entry>
+<entry key="code|value|number-weight.per-mid">Gewichtung (Prozentanteil, Mittelwert)</entry>
+<entry key="code|value|number-weight.poi-exa">Gewichtung (Punkte, genau)</entry>
+<entry key="code|value|number-weight.poi-mid">Gewichtung (Punkte, Mittelwert)</entry>
 <entry key="code|value|organisation-role.ben-own">Wirtschaftlicher Eigentümer</entry>
 <entry key="code|value|organisation-role.buyer">Beschaffer</entry>
 <entry key="code|value|organisation-role.cpb-acq">Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt</entry>

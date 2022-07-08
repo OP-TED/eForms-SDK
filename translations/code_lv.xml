@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Latvian. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Latvian. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Ir iekļauti kritēriji par pieejamību personām ar invaliditāti</entry>
 <entry key="code|value|accessibility.n-inc">Kritēriji par pieejamību personām ar invaliditāti nav iekļauti, jo iepirkums nav paredzēts fiziskām personām</entry>
 <entry key="code|value|accessibility.n-inc-just">Kritēriji par pieejamību personām ar invaliditāti nav iekļauti ar šādu pamatojumu</entry>
@@ -10774,10 +10774,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Tiesībaizsardzība</entry>
 <entry key="code|value|non-publication-justification.oth-int">Citas sabiedriskās intereses</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Pētniecības un izstrādes pakalpojumi</entry>
+<entry key="code|value|notice-type.brin-ecs">Paziņojums par Eiropas uzņēmējsabiedrību / Eiropas kooperatīvo sabiedrību</entry>
+<entry key="code|value|notice-type.brin-eeig">Paziņojums par Eiropas ekonomisko interešu grupu</entry>
 <entry key="code|value|notice-type.can-desg">Paziņojums par metu konkursa rezultātiem</entry>
 <entry key="code|value|notice-type.can-modif">Paziņojums par līguma grozījumiem</entry>
 <entry key="code|value|notice-type.can-social">Paziņojums par līguma slēgšanas tiesību vai koncesijas piešķiršanu — atvieglotais režīms</entry>
 <entry key="code|value|notice-type.can-standard">Paziņojums par līguma slēgšanas tiesību vai koncesijas piešķiršanu — standarta režīms</entry>
+<entry key="code|value|notice-type.can-tran">Paziņojums par līguma slēgšanas tiesību piešķiršanu attiecībā uz sabiedriskā transporta pakalpojumiem</entry>
 <entry key="code|value|notice-type.cn-desg">Paziņojums par metu konkursu</entry>
 <entry key="code|value|notice-type.cn-social">Paziņojums par līgumu — atvieglotais režīms</entry>
 <entry key="code|value|notice-type.cn-standard">Paziņojums par līgumu vai paziņojums par koncesiju — standarta režīms</entry>
@@ -10787,6 +10790,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto iepirkuma izsludināšanai — standarta režīms</entry>
 <entry key="code|value|notice-type.pin-only">Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto tikai informācijai</entry>
 <entry key="code|value|notice-type.pin-rtl">Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto, lai saīsinātu piedāvājumu saņemšanas termiņus</entry>
+<entry key="code|value|notice-type.pin-tran">Iepriekšējs informatīvs paziņojums attiecībā uz sabiedriskā transporta pakalpojumiem</entry>
 <entry key="code|value|notice-type.qu-sy">Paziņojums par kvalifikācijas sistēmu</entry>
 <entry key="code|value|notice-type.subco">Paziņojums par apakšuzņēmuma līgumu</entry>
 <entry key="code|value|notice-type.veat">Brīvprātīgas ex ante pārskatāmības paziņojums</entry>
@@ -10794,13 +10798,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fiksēts (par vienību)</entry>
 <entry key="code|value|number-threshold.max-pass">Maksimālais piedāvājumu skaits</entry>
 <entry key="code|value|number-threshold.min-score">Minimālais punktu skaits</entry>
-<entry key="code|value|number-weight.dec-exa">{Svērums (precīzs decimāldaļskaitlis)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Svērums (decimāldaļskaitlis, diapazona vidējā vērtība)}</entry>
+<entry key="code|value|number-weight.dec-exa">Svērums (precīzs decimāldaļskaitlis)</entry>
+<entry key="code|value|number-weight.dec-mid">Svērums (decimāldaļskaitlis, diapazona vidējā vērtība)</entry>
 <entry key="code|value|number-weight.ord-imp">Secība pēc nozīmīguma</entry>
-<entry key="code|value|number-weight.per-exa">{Svērums (precīza procentuālā attiecība)}</entry>
-<entry key="code|value|number-weight.per-mid">{Svērums (procentuālā attiecība, diapazona vidējā vērtība)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Svērums (precīzs punktu skaits)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Svērums (punktu skaits, diapazona vidējā vērtība)}</entry>
+<entry key="code|value|number-weight.per-exa">Svērums (precīza procentuālā attiecība)</entry>
+<entry key="code|value|number-weight.per-mid">Svērums (procentuālā attiecība, diapazona vidējā vērtība)</entry>
+<entry key="code|value|number-weight.poi-exa">Svērums (precīzs punktu skaits)</entry>
+<entry key="code|value|number-weight.poi-mid">Svērums (punktu skaits, diapazona vidējā vērtība)</entry>
 <entry key="code|value|organisation-role.ben-own">Faktiskais īpašnieks</entry>
 <entry key="code|value|organisation-role.buyer">Pircējs</entry>
 <entry key="code|value|organisation-role.cpb-acq">Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus</entry>

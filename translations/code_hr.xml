@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Croatian. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Croatian. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">U obzir su uzeti uvjeti pristupačnosti za osobe s invaliditetom</entry>
 <entry key="code|value|accessibility.n-inc">Uvjeti pristupačnosti za osobe s invaliditetom nisu uzeti u obzir jer javna nabava nije namijenjena fizičkim osobama</entry>
 <entry key="code|value|accessibility.n-inc-just">Uvjeti pristupačnosti za osobe s invaliditetom nisu uzeti u obzir zbog sljedećeg obrazloženja</entry>
@@ -1322,10 +1322,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Izvršavanje zakonodavstva</entry>
 <entry key="code|value|non-publication-justification.oth-int">Drugi javni interes</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Usluge istraživanja i razvoja</entry>
+<entry key="code|value|notice-type.brin-ecs">Obavijest o europskom trgovačkom društvu / europskoj zadruzi</entry>
+<entry key="code|value|notice-type.brin-eeig">Obavijest o europskom gospodarskom interesnom udruženju</entry>
 <entry key="code|value|notice-type.can-desg">Obavijest o rezultatima projektnog natječaja</entry>
 <entry key="code|value|notice-type.can-modif">Obavijest o izmjeni ugovora</entry>
 <entry key="code|value|notice-type.can-social">Obavijest o dodjeli ugovora ili koncesije – blagi režim</entry>
 <entry key="code|value|notice-type.can-standard">Obavijest o dodjeli ugovora ili koncesije – standardni režim</entry>
+<entry key="code|value|notice-type.can-tran">Obavijest o dodjeli ugovora za usluge javnog prijevoza putnika</entry>
 <entry key="code|value|notice-type.cn-desg">Obavijest o projektnom natječaju</entry>
 <entry key="code|value|notice-type.cn-social">Obavijest o nadmetanju – blagi režim</entry>
 <entry key="code|value|notice-type.cn-standard">Obavijest o nadmetanju ili koncesiji – standardni režim</entry>
@@ -1335,6 +1338,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena kao poziv na nadmetanje – standardni režim</entry>
 <entry key="code|value|notice-type.pin-only">Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena samo u informativne svrhe</entry>
 <entry key="code|value|notice-type.pin-rtl">Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena za skraćivanje rokova za zaprimanje ponuda</entry>
+<entry key="code|value|notice-type.pin-tran">Prethodna informacijska obavijest za usluge javnog prijevoza putnika</entry>
 <entry key="code|value|notice-type.qu-sy">Obavijest o postojanju kvalifikacijskog sustava</entry>
 <entry key="code|value|notice-type.subco">Poziv na podugovaranje</entry>
 <entry key="code|value|notice-type.veat">Obavijest za dobrovoljnu ex ante transparentnost</entry>
@@ -1342,13 +1346,13 @@
 <entry key="code|value|number-fixed.fix-unit">Fiksno (po jedinici)</entry>
 <entry key="code|value|number-threshold.max-pass">Maksimalni broj prihvaćenih ponuda</entry>
 <entry key="code|value|number-threshold.min-score">Minimalni broj bodova</entry>
-<entry key="code|value|number-weight.dec-exa">{Ponder (decimalni broj, točan)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Ponder (decimalni broj, srednja vrijednost)}</entry>
+<entry key="code|value|number-weight.dec-exa">Ponder (decimalni broj, točan)</entry>
+<entry key="code|value|number-weight.dec-mid">Ponder (decimalni broj, srednja vrijednost)</entry>
 <entry key="code|value|number-weight.ord-imp">Redoslijed važnosti</entry>
-<entry key="code|value|number-weight.per-exa">{Ponder (postotak, točan)}</entry>
-<entry key="code|value|number-weight.per-mid">{Ponder (postotak, srednja vrijednost)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Ponder (točke, točan)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Ponder (točke, srednja vrijednost)}</entry>
+<entry key="code|value|number-weight.per-exa">Ponder (postotak, točan)</entry>
+<entry key="code|value|number-weight.per-mid">Ponder (postotak, srednja vrijednost)</entry>
+<entry key="code|value|number-weight.poi-exa">Ponder (točke, točan)</entry>
+<entry key="code|value|number-weight.poi-mid">Ponder (točke, srednja vrijednost)</entry>
 <entry key="code|value|organisation-role.ben-own">Stvarni vlasnik</entry>
 <entry key="code|value|organisation-role.buyer">Kupac</entry>
 <entry key="code|value|organisation-role.cpb-acq">Središnje tijelo za nabavu koje nabavlja robu i/ili usluge namijenjene drugim kupcima</entry>
@@ -1441,8 +1445,8 @@
 <entry key="code|value|subcontracting-indication.subj-noblig">Predmet jednog ili više podugovora povrh onih potrebnih za ispunjavanje obveze u pogledu davanja u podugovor minimalnog postotka ugovora</entry>
 <entry key="code|value|subcontracting-indication.subj-oblig">Predmet jednog ili više podugovora potrebnih za ispunjavanje obveze u pogledu davanja u podugovor minimalnog postotka ugovora</entry>
 <entry key="code|value|subcontracting-obligation.none">Ne primjenjuje se</entry>
-<entry key="code|value|subcontracting-obligation.subc-chng">{Ugovaratelj (izvođač radova) mora navesti sve promjene podugovaratelja tijekom izvršenja ugovora.}</entry>
-<entry key="code|value|subcontracting-obligation.subc-min">{Ugovaratelj (izvođač radova) mora dati u podugovor minimalni postotak vrijednosti ugovora u okviru postupka iz glave III. Direktive 2009/81/EZ.}</entry>
+<entry key="code|value|subcontracting-obligation.subc-chng">Ugovaratelj (izvođač radova) mora navesti sve promjene podugovaratelja tijekom izvršenja ugovora.</entry>
+<entry key="code|value|subcontracting-obligation.subc-min">Ugovaratelj (izvođač radova) mora dati u podugovor minimalni postotak vrijednosti ugovora u okviru postupka iz glave III. Direktive 2009/81/EZ.</entry>
 <entry key="code|value|subcontracting-obligation.subc-oblig-2009-81">Kupac može obvezati ugovaratelja na dodjelu svih ili određenih podugovora u okviru postupka iz glave III. Direktive 2009/81/EZ.</entry>
 <entry key="code|value|timeperiods.APR">Travanj</entry>
 <entry key="code|value|timeperiods.AUG">Kolovoz</entry>

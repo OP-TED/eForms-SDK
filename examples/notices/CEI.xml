@@ -143,7 +143,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">37f3f877-01ee-4671-a49f-5581cffe6388</cbc:ID>
 	<cbc:ContractFolderID>ProcedureID1234</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-27+01:00</cbc:IssueDate>
@@ -183,6 +183,7 @@
 		<cac:TendererQualificationRequest>
 			<!-- The way this is marked will most likely be simplified. Use of /*/cac:TenderingTerms/cac:TendererQualificationRequest/cbc:Description instead. -->
 			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Applicants shall be excluded from participating in a contract if:
 (a) they are bankrupt, being wound up or have suspended business activities, their affairs are being administered by the court, they have entered into an arrangement with creditors or similar measures or are the subject of any proceedings of that nature, or are in any analogous situation arising from a similar procedure provided for in national legislation or regulations;
 (b) they have been convicted of an offence concerning their professional conduct by a judgment which is not open to appeal;
@@ -230,7 +231,7 @@ Interested experts may submit their applications at any point in time until 3 mo
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
-		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
 			<ext:UBLExtensions>
 				<ext:UBLExtension>
@@ -260,6 +261,7 @@ Applicants must provide evidence of their ability, skills, experience and compet
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
+			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cbc:RequiredCurriculaIndicator>true</cbc:RequiredCurriculaIndicator>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>Dummy ID</cbc:ID>

@@ -1,58 +1,45 @@
-# SDK 0.6.2 Release Notes
-
-eForms SDK 0.6.2 fixes an issue that was overlooked when we released 0.6.1. Only pom.xml was modified again to add a deployment profile for tasks that need to be executed only on release.
-
-The content of the SDK does not change with this patch.
-
-# SDK 0.6.1 Release Notes
-
-eForms SDK 0.6.1 only updates the pom.xml to allow us to publish it in the Maven Central Repository.
-This allows developers to use the package directly in their dependency management configuration. The package can also be directly downloaded from Maven Central.
-
-The content of the SDK does not change with this patch.
-
-# SDK 0.6.0 Release Notes
+# SDK 0.7.0 Release Notes
 
 Below is a list of the major updates made to the SDK in this release.
 
 The documentation for the SDK is available at https://docs.ted.europa.eu. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
+## Notice types
+A new file format for the notice type definitions is being introduced. The reason for this breaking change is that the notice type definitions included in previous versions of the SDK, were hand-written before the SDK itself was introduced, in order to cover the immediate needs of our notice filling application (eNotices2). The new file format is quite similar to the old one, but simpler to consume and understand. Most importantly the new notice type definition files are generated from our central eForms Metadata Repository which guaranties that there are no conflicting or unnecessary metadata included in them.
 
-## eForms expression language
-We have created a domain-specific language named "eForms expression language", or EFX, that we use in several ways described below.
+:construction: _This is a breaking change. If your application uses the notice type definitions you will need to update it to read the new file format._
 
-This language is defined in a formal grammar, available in the `efx-grammar` folder. We provide a parser and a translator to XPath as a Java library named ['efx-toolkit-java', available on GitHub](https://github.com/OP-TED/efx-toolkit-java).
-
-You can find more information about EFX in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.6.0/efx).
-
-
-## View templates
-To standardise the way a notice can be visualised, independently of the media format used (PDF, HTML etc.), we have created a set of "view templates".
-
-Every notice subtype can be associated with one or more different view templates. These templates are available in the `view-templates` folder. The template files use the EFX template syntax.
-
-To demonstrate the usage of these view templates, we provide a sample application named ['eforms-notice-viewer', available on GitHub](https://github.com/OP-TED/eforms-notice-viewer).
-
-You can find more information about view templates in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.6.0/viewer-templates).
 
 ## Codelists
-Codelists have been updated to take into account the latest publication on [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies).
+The notice subtypes indicated in the  the tailored codelist `qu-sy` have been corrected.
+
+A new tailored codelist named `social-service-cpv` has been added.
 
 
 ## eForms schemas
 No changes in this version.
 
 
+## eForms expression language
+Various new features have been added to the eForms expression language (EFX), with a syntax inspired by XPath:
+* conditional expressions: `if ... then ... else ...`
+* for expressions: `for ... in ... return ...`
+* quantified expressions: `every/some ... in ... satisfies ...`
+* sum and count functions now work with sequences 
+
+In addition, the format for dates and times now allows the indication of a time zone offset.
+
+You can find more information about EFX in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.7.0/efx).
+
+:construction: _This is a breaking change. Your EFX translator will need to implement a few additional methods to support the new language features._
+
 ## Schematron rules
 
-### Change notices
-A first set of rules specific to change notices have been added. For the information that cannot be changed via a change notice, these rules check that the values are identical in the notice that is referenced by the change notice.
+### Co-constraint rules
+We have added a new Schematron file named `stage-5.sch`, containing rules that check the conformity of the values in a notice.
 
-### Translation of messages
-Instead of a message in English, each Schematron rules now contains a code that corresponds to a specific message. The texts of these messages are provided in the `translations` folder, in the files `rule_*.xml`, and they will be available in all EU official languages in the future.
-
-### Rule identifier
-Each `assert` element in Schematron now has an `id` attribute, indicating the unique identifier for the rule. This identifier also appears in validation report, making it easier to pinpoint the corresponding rule.
+### Additional information in validation reports
+For certain types of rules, failures in the validation report did not indicate the exact element that caused the problem, for example if a mandatory element is missing. We have added additional information in the schematron rules, using the `diagnostics` element and attribute, so that those failures now give the XPath of the element under `diagnostic-reference`.
 
 ### Added and updated rules
 Various new rules have been added, in particular for information that is allowed or mandatory only under certain conditions.
@@ -60,33 +47,36 @@ Existing rules have been refined and improved.
 
 
 ## Example Notices
-The XML notices in the "examples" folder have been updated to take into account the updated schematron rules.
-
-New examples were added:
- * Prior information notice with the EU Financial Regulation as legal basis
- * Contract award notice with several buyers from different countries
- * Invalid change notice with changes that are not allowed
+The XML notices in the `examples` folder have been updated to take into account the updated schematron rules.
 
 The validation reports have been regenerated, incorporating all the changes listed above.
 
 
 ## Fields
 
-### New syntax for conditions
-The conditions are now written using the EFX language, which makes them easier to read, and offers more flexibility to express complex conditions.
+### New properties
+We've added new field properties named `idScheme` and `idSchemes` that provide the necessary information for creating (as well as referencing) identifiers of repeatable entities. This information was previously encoded only in the notice type definitions and needed to be normalized.
 
-### Maximum number of characters
-The maximum number of characters allowed for a field is now indicated directly in a new `maxLength` property, instead of via a regular expression pattern.
+Some repeatable nodes in the XML structure now have an additional property named `identifierFieldId` which points to the field where the identifiers of their instances should be stored.
+
+### Updated information
+The node identifiers have been changed, to make them more recognizable: NB-Lot, ND-ContractingParty, etc.
+
+Various constraints have been added and updated.
+
+### Corrections
+The repeatability of several fields and nodes was corrected.
+
+The XPath of 2 fields was corrected (issue #27, thanks to @fpoort for reporting this).
 
 
-## Notice types
-Definitions for all notice subtypes were updated to the latest version used by the eNotices2 application.
-The name of 4 files were corrected.
+## View templates
+All view templates have been updated to use the new node identifiers, along with various small updates and corrections. 
 
-The legal basis indicated for one document type has been corrected.
+:grey_exclamation: _The content of the view templates is still a work in progress. Subsequent releases of the SDK will gradually provide you with better and better view templates as we spot and correct mistakes._
 
 
 ## Translations
-Translations for several items in codelists have been updated.
+A new `group` asset type was added, with translations on in English for now.
 
-An initial version of the messages for schematron rules is available in English, and ome preliminary translations are provided in French and Greek. Those texts will be reviewed and completed in the future.
+Translations for several items in codelists, fields and rules have been updated and corrected.

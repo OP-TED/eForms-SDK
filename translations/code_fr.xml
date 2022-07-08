@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in French. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in French. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">Des critères d’accessibilité pour les personnes handicapées sont appliqués</entry>
 <entry key="code|value|accessibility.n-inc">Des critères d’accessibilité pour les personnes handicapées ne sont pas appliqués parce que le marché n’est pas destiné aux personnes physiques</entry>
 <entry key="code|value|accessibility.n-inc-just">Des critères d’accessibilité pour les personnes handicapées ne sont pas appliqués avec la justification suivante</entry>
@@ -10794,10 +10794,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Application de la législation</entry>
 <entry key="code|value|non-publication-justification.oth-int">Autre intérêt public</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Services de recherche et de développement (R&amp;D)</entry>
+<entry key="code|value|notice-type.brin-ecs">Avis relatif à une société européenne/société coopérative européenne</entry>
+<entry key="code|value|notice-type.brin-eeig">Avis relatif à un groupement européen d'intérêt économique</entry>
 <entry key="code|value|notice-type.can-desg">Avis de résultats de concours</entry>
 <entry key="code|value|notice-type.can-modif">Avis de modification de marché</entry>
 <entry key="code|value|notice-type.can-social">Avis d’attribution de marché ou de concession – régime assoupli</entry>
 <entry key="code|value|notice-type.can-standard">Avis d’attribution de marché ou de concession – régime ordinaire</entry>
+<entry key="code|value|notice-type.can-tran">Avis d'attribution de marché relatif à des services publics de transport de voyageurs</entry>
 <entry key="code|value|notice-type.cn-desg">Avis de concours</entry>
 <entry key="code|value|notice-type.cn-social">Avis de marché – régime assoupli</entry>
 <entry key="code|value|notice-type.cn-standard">Avis de marché ou de concession – régime ordinaire</entry>
@@ -10807,6 +10810,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Avis de préinformation ou avis périodique indicatif utilisé comme appel à la concurrence – régime ordinaire</entry>
 <entry key="code|value|notice-type.pin-only">Avis de préinformation ou avis périodique indicatif utilisé uniquement à titre d’information</entry>
 <entry key="code|value|notice-type.pin-rtl">Avis de préinformation ou avis périodique indicatif utilisé pour raccourcir les délais de réception des offres</entry>
+<entry key="code|value|notice-type.pin-tran">Avis de préinformation relatif à des services publics de transport de voyageurs</entry>
 <entry key="code|value|notice-type.qu-sy">Avis sur l’existence d’un système de qualification</entry>
 <entry key="code|value|notice-type.subco">Avis de sous-traitance</entry>
 <entry key="code|value|notice-type.veat">Avis en cas de transparence ex ante volontaire</entry>
@@ -10814,13 +10818,13 @@
 <entry key="code|value|number-fixed.fix-unit">Valeur fixe (par unité)</entry>
 <entry key="code|value|number-threshold.max-pass">Nombre maximal d’offres acceptées</entry>
 <entry key="code|value|number-threshold.min-score">Note minimale</entry>
-<entry key="code|value|number-weight.dec-exa">{Pondération (décimal, valeur exacte)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Pondération (décimal, milieu d’une fourchette)}</entry>
+<entry key="code|value|number-weight.dec-exa">Pondération (décimal, valeur exacte)</entry>
+<entry key="code|value|number-weight.dec-mid">Pondération (décimal, milieu d’une fourchette)</entry>
 <entry key="code|value|number-weight.ord-imp">Ordre d’importance</entry>
-<entry key="code|value|number-weight.per-exa">{Pondération (pourcentage, valeur exacte)}</entry>
-<entry key="code|value|number-weight.per-mid">{Pondération (pourcentage, milieu d’une fourchette)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Pondération (points, valeur exacte)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Pondération (points, milieu d’une fourchette)}</entry>
+<entry key="code|value|number-weight.per-exa">Pondération (pourcentage, valeur exacte)</entry>
+<entry key="code|value|number-weight.per-mid">Pondération (pourcentage, milieu d’une fourchette)</entry>
+<entry key="code|value|number-weight.poi-exa">Pondération (points, valeur exacte)</entry>
+<entry key="code|value|number-weight.poi-mid">Pondération (points, milieu d’une fourchette)</entry>
 <entry key="code|value|organisation-role.ben-own">Bénéficiaire effectif</entry>
 <entry key="code|value|organisation-role.buyer">Acheteur</entry>
 <entry key="code|value|organisation-role.cpb-acq">Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs</entry>
@@ -10913,7 +10917,7 @@
 <entry key="code|value|subcontracting-indication.subj-noblig">L’objet du (des) contrat(s) de sous-traitance excédant l’obligation de sous-traiter un pourcentage minimal du marché</entry>
 <entry key="code|value|subcontracting-indication.subj-oblig">L’objet du (des) contrat(s) de sous-traitance nécessaire(s) à l’exécution de l’obligation de sous-traiter un pourcentage minimal du marché</entry>
 <entry key="code|value|subcontracting-obligation.none">Sans objet</entry>
-<entry key="code|value|subcontracting-obligation.subc-chng">{Le contractant doit indiquer tout changement de sous-traitant(s) au cours de l’exécution du marché.}</entry>
+<entry key="code|value|subcontracting-obligation.subc-chng">Le contractant doit indiquer tout changement de sous-traitant(s) au cours de l’exécution du marché.</entry>
 <entry key="code|value|subcontracting-obligation.subc-min">Le contractant doit sous-traiter un pourcentage minimal du marché selon la procédure prévue au titre III de la directive 2009/81/CE.</entry>
 <entry key="code|value|subcontracting-obligation.subc-oblig-2009-81">L’acheteur peut obliger le contractant à passer tout ou partie des contrats de sous-traitance selon la procédure prévue au titre III de la directive 2009/81/CE.</entry>
 <entry key="code|value|timeperiods.APR">Avril</entry>

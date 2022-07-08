@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Hungarian. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>code in Hungarian. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="code|value|accessibility.inc">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok be vannak építve</entry>
 <entry key="code|value|accessibility.n-inc">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok nincsenek beépítve, mivel a beszerzést nem fogják természetes személyek használni</entry>
 <entry key="code|value|accessibility.n-inc-just">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok nincsenek beépítve az alábbi indoklás szerint</entry>
@@ -10777,10 +10777,13 @@
 <entry key="code|value|non-publication-justification.law-enf">Bűnüldözés</entry>
 <entry key="code|value|non-publication-justification.oth-int">Egyéb közérdek</entry>
 <entry key="code|value|non-publication-justification.rd-ser">Kutatási és fejlesztési (KF) szolgáltatások</entry>
+<entry key="code|value|notice-type.brin-ecs">Európai részvénytársasággal/európai szövetkezettel kapcsolatos értesítés</entry>
+<entry key="code|value|notice-type.brin-eeig">Európai gazdasági egyesüléssel kapcsolatos értesítés</entry>
 <entry key="code|value|notice-type.can-desg">Tervpályázat eredményéről szóló hirdetmény</entry>
 <entry key="code|value|notice-type.can-modif">Szerződésmódosításról szóló hirdetmény</entry>
 <entry key="code|value|notice-type.can-social">Tájékoztató az eljárás eredményéről vagy koncesszió odaítéléséről – enyhébb szabályozás</entry>
 <entry key="code|value|notice-type.can-standard">Tájékoztató az eljárás eredményéről vagy koncesszió odaítéléséről – klasszikus ajánlatkérőkre vonatkozó szabályok</entry>
+<entry key="code|value|notice-type.can-tran">Személyszállítási közszolgáltatási szerződés odaítélésére vonatkozó tájékoztató</entry>
 <entry key="code|value|notice-type.cn-desg">Tervpályázati hirdetmény</entry>
 <entry key="code|value|notice-type.cn-social">Eljárást megindító hirdetmény – enyhébb szabályozás</entry>
 <entry key="code|value|notice-type.cn-standard">Eljárást megindító vagy koncessziós hirdetmény – klasszikus ajánlatkérőkre vonatkozó szabályok</entry>
@@ -10790,6 +10793,7 @@
 <entry key="code|value|notice-type.pin-cfc-standard">Ajánlati/részvételi felhívásként használt előzetes tájékoztató vagy időszakos előzetes tájékoztató – klasszikus ajánlatkérőkre vonatkozó szabályok</entry>
 <entry key="code|value|notice-type.pin-only">Kizárólag tájékoztatás céljából használt előzetes tájékoztató vagy időszakos előzetes tájékoztató</entry>
 <entry key="code|value|notice-type.pin-rtl">Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló előzetes tájékoztató vagy időszakos előzetes tájékoztató</entry>
+<entry key="code|value|notice-type.pin-tran">Személyszállítási közszolgáltatásra vonatkozó előzetes tájékoztató</entry>
 <entry key="code|value|notice-type.qu-sy">Előminősítési rendszer meglétéről szóló hirdetmény</entry>
 <entry key="code|value|notice-type.subco">Alvállalkozói hirdetmény</entry>
 <entry key="code|value|notice-type.veat">Önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény</entry>
@@ -10797,13 +10801,13 @@
 <entry key="code|value|number-fixed.fix-unit">Rögzített (egységenként)</entry>
 <entry key="code|value|number-threshold.max-pass">A továbbjutó ajánlatok maximális száma</entry>
 <entry key="code|value|number-threshold.min-score">Minimális pontszám</entry>
-<entry key="code|value|number-weight.dec-exa">{Súlyozás (tizedes, pontos)}</entry>
-<entry key="code|value|number-weight.dec-mid">{Súlyozás (tizedes, a skála közepe)}</entry>
+<entry key="code|value|number-weight.dec-exa">Súlyozás (tizedes, pontos)</entry>
+<entry key="code|value|number-weight.dec-mid">Súlyozás (tizedes, a skála közepe)</entry>
 <entry key="code|value|number-weight.ord-imp">Fontossági sorrend</entry>
-<entry key="code|value|number-weight.per-exa">{Súlyozás (százalék, pontos)}</entry>
-<entry key="code|value|number-weight.per-mid">{Súlyozás (százalék, a skála közepe)}</entry>
-<entry key="code|value|number-weight.poi-exa">{Súlyozás (pontok, pontos)}</entry>
-<entry key="code|value|number-weight.poi-mid">{Súlyozás (pontok, a skála közepe)}</entry>
+<entry key="code|value|number-weight.per-exa">Súlyozás (százalék, pontos)</entry>
+<entry key="code|value|number-weight.per-mid">Súlyozás (százalék, a skála közepe)</entry>
+<entry key="code|value|number-weight.poi-exa">Súlyozás (pontok, pontos)</entry>
+<entry key="code|value|number-weight.poi-mid">Súlyozás (pontok, a skála közepe)</entry>
 <entry key="code|value|organisation-role.ben-own">Kedvezményezett</entry>
 <entry key="code|value|organisation-role.buyer">Vevő</entry>
 <entry key="code|value|organisation-role.cpb-acq">Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv</entry>

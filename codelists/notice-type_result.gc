@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00-->
+<!--File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Result</ShortName>
       <LongName>result</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
       <LongName Identifier="eFormsParentId">notice-type</LongName>
-      <Version>0.4.0</Version>
+      <Version>0.5.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -368,8 +368,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Contract award notice for public passenger transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за възлагане на поръчка за обществени услуги за пътнически превоз</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o výsledku zadávacího řízení pro veřejné služby v přepravě cestujících</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Meddelelse om tildelt kontrakt vedrørende offentlig personbefordring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung vergebener Aufträge für öffentliche Personenverkehrsdienste</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανακοίνωση ανάθεσης σύμβασης για δημόσιες επιβατικές μεταφορές</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Contract award notice for public passenger transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de adjudicación de contrato de servicios públicos de transporte de viajeros</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankelepingu sõlmimise teade reisijateveoteenuse osutamiseks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jälki-ilmoitus julkisista henkilöliikennepalveluista</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis d'attribution de marché relatif à des services publics de transport de voyageurs</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faoi dhámhachtain conartha le haghaidh seirbhísí poiblí iompair do phaisinéirí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o dodjeli ugovora za usluge javnog prijevoza putnika</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Személyszállítási közszolgáltatási szerződés odaítélésére vonatkozó tájékoztató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di aggiudicazione per i servizi di trasporto pubblico di passeggeri</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie viešojo keleivinio transporto paslaugų sutarties skyrimą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līguma slēgšanas tiesību piešķiršanu attiecībā uz sabiedriskā transporta pakalpojumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ għoti ta’ kuntratt għas-servizzi pubbliċi tat-trasport tal-passiġġieri</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging gegunde opdracht voor openbaar personenvervoer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o udzieleniu zamówienia dotyczące usług publicznych w zakresie transportu pasażerskiego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de adjudicação de contrato — serviços públicos de transporte de passageiros</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de atribuire a contractului pentru servicii publice de transport de călători</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o zadaní zmlúv o službách vo verejnom záujme v osobnej doprave</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o oddaji naročila za storitve javnega potniškega prevoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om tilldelning av kontrakt för kollektivtrafik</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
