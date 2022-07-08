@@ -10,7 +10,6 @@ A new file format for the notice type definitions is being introduced. The reaso
 :construction: _This is a breaking change. If your application uses the notice type definitions you will need to update it to read the new file format._
 
 
-
 ## Codelists
 The notice subtypes indicated in the  the tailored codelist `qu-sy` have been corrected.
 
@@ -32,7 +31,7 @@ In addition, the format for dates and times now allows the indication of a time 
 
 You can find more information about EFX in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.7.0/efx).
 
-:construction: _This is a breaking change. Your EFX translator will need to implement a few additional methods to support the new langugae featires._
+:construction: _This is a breaking change. Your EFX translator will need to implement a few additional methods to support the new language features._
 
 ## Schematron rules
 
@@ -40,7 +39,7 @@ You can find more information about EFX in the [corresponding section of the doc
 We have added a new Schematron file named `stage-5.sch`, containing rules that check the conformity of the values in a notice.
 
 ### Additional information in validation reports
-For certin types of rules, failures in the validation report did not indicate the exact element that caused the problem, for example if a mandatory element is missing. We have added additional information in the schematron rules, using the `diagnostics` element and attribute, so that those failures now give the XPath of the element under `diagnostic-reference`.
+For certain types of rules, failures in the validation report did not indicate the exact element that caused the problem, for example if a mandatory element is missing. We have added additional information in the schematron rules, using the `diagnostics` element and attribute, so that those failures now give the XPath of the element under `diagnostic-reference`.
 
 ### Added and updated rules
 Various new rules have been added, in particular for information that is allowed or mandatory only under certain conditions.
@@ -58,7 +57,7 @@ The validation reports have been regenerated, incorporating all the changes list
 ### New properties
 We've added new field properties named `idScheme` and `idSchemes` that provide the necessary information for creating (as well as referencing) identifiers of repeatable entities. This information was previously encoded only in the notice type definitions and needed to be normalized.
 
-Some repeatable nodes in the XML structure, now have an additional property named `identifierFieldId` which points to the field where the identifiers of their instances should be stored.
+Some repeatable nodes in the XML structure now have an additional property named `identifierFieldId` which points to the field where the identifiers of their instances should be stored.
 
 ### Updated information
 The node identifiers have been changed, to make them more recognizable: NB-Lot, ND-ContractingParty, etc.
