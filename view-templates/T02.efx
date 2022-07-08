@@ -1,6 +1,6 @@
 // View T02
 // sdkVersion='eforms-sdk-0.7.0'
-// File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06
+// File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00
 {ND-Root} #{decoration|name|buyer-competent}
 	{OPT-300-Procedure-Buyer} #{decoration|name|buyer-competent}
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{business_term|name|BT-500}: ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}

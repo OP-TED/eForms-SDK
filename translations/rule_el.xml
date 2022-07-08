@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>rule in Greek. File generated from metadata database version 0.4.0 created on the 2022-05-04T10:00</comment>
+<comment>rule in Greek. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="rule|message_template|mandatory">${field.id} είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο ${notice.id}</entry>
 <entry key="rule|message|BR-BT-00001-0001">BT-01-notice είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο X01</entry>
 <entry key="rule|message|BR-BT-00001-0002">BT-01-notice είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο X02</entry>

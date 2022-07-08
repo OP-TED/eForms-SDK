@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>rule in French. File generated from metadata database version 0.4.238 created on the 2022-07-07T13:51:06</comment>
+<comment>rule in French. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
 <entry key="rule|message_template|mandatory">${field.id} est obligatoire pour une notice avec le subtype ${notice.id}</entry>
 <entry key="rule|message_template|max_length">${field.id} ne peut pas contenir plus de ${field.maxLength} caractères</entry>
 <entry key="rule|message_template|pattern_matching">La valeur du champ ${field.id} doit correspondre au motif '${rule.patternId}'</entry>
