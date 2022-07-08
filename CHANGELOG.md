@@ -5,7 +5,10 @@ Below is a list of the major updates made to the SDK in this release.
 The documentation for the SDK is available at https://docs.ted.europa.eu. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
 ## Notice types
-TODO
+A new file format for the notice type definitions is being introduced. The reason for this breaking change is that the notice type definitions included in previous versions of the SDK, were hand-written, before the SDK itself was introduced, in order to cover the immediate the needs of our notice filling application (eNotices2). The new file format is quite similar to the old one, but simpler to consume and understand. Most importantly the new notice type definition files are generated from our central eForms Metadata Repository which guaranties that there are no conflicting or unnecessary metadata included in them.
+
+:construction: _This is a breaking change. If your application uses the notice type definitions you will need to update it to read the new file format._
+
 
 
 ## Codelists
@@ -29,6 +32,7 @@ In addition, the format for dates and times now allows the indication of a time 
 
 You can find more information about EFX in the [corresponding section of the documentation](https://docs.ted.europa.eu/eforms/0.7.0/efx).
 
+:construction: _This is a breaking change. Your EFX translator will need to implement a few additional methods to support the new langugae featires._
 
 ## Schematron rules
 
@@ -68,7 +72,9 @@ The XPath of 2 fields was corrected (issue #27, thanks to @fpoort for reporting 
 
 
 ## View templates
-All view templates have been updated to use the new node identifiers, along with various small updates and corrections.
+All view templates have been updated to use the new node identifiers, along with various small updates and corrections. 
+
+:grey_exclamation: _The content of the view templates is still a work in progress. Subsequent releases of the SDK will gradually provide you with better and better view templates as we spot and correct mistakes._
 
 
 ## Translations
