@@ -11,6 +11,7 @@ It is composed of the following:
 - `codelists`: This folder contains the codelists used in eForms notices, as [Genericode files](https://docs.oasis-open.org/codelist/genericode/doc/oasis-code-list-representation-genericode.html).
 - `schemas`: This folder contains a provisional release of the schemas. There are based on Pre-Award document types of the [UBL 2.3 standard](https://docs.oasis-open.org/ubl/UBL-2.3.html).
 The adopted approach is to keep the whole set of UBL elements but only support the use of a subset. It provides the advantage of having the rules outside of the schema. Adding extra fields for which a UBL element already exists will not require the definition of a new schema.
+- `efx-grammar`: This folder contains the ANTLR grammar for the eForms expression language (EFX).
 - `schematrons`: This folder contains Schematron rules which are used to check the validity of notices as per the eForms regulation. Any kind of rule or constraint is implemented in Schematron.
 - `examples`: This folder contains some notice examples together with their validation report in SVRL.
 - `notice-types`: This folder contains a definition of each type of notice, in JSON.
@@ -22,4 +23,4 @@ The documentation is available at https://docs.ted.europa.eu.
 
 # Versioning
 
-Provisional releases of the eForms schema and documentation that were provided during 2020 via SIMAP had a different versioning scheme and are being replaced with this SDK that combines them into one bundle with one version number.
+Provisional releases of the eForms schema and documentation that were provided during 2020 via SIMAP had a different versioning scheme and are replaced with this SDK that combines them into one bundle with one version number.
