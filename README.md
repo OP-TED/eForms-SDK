@@ -1,10 +1,13 @@
-➤ **[Release notes for the latest version](CHANGELOG.md)** 
+**[:memo: Latest Release Notes](CHANGELOG.md)** | **[:package: Latest Release Artifacts](https://search.maven.org/search?q=g:%22eu.europa.ted.eforms%22%20AND%20a:%22eforms-sdk%22)**
 
-# Disclaimer
-This project is currently under development. We may update the current version and replace it with a new version at any time. In this case, we recommend you retrieve the latest version in order to ensure technical compliance. The Publications Office cannot guarantee the accuracy, adequacy, validity, reliability, availability or completeness of this information and accepts no responsibility for any use you may make of this project’s component parts.
+---
+
+_**Disclaimer:** This project is currently under development. We may update the current version and replace it with a new version at any time. In this case, we recommend you retrieve the latest version in order to ensure technical compliance. The Publications Office cannot guarantee the accuracy, adequacy, validity, reliability, availability or completeness of this information and accepts no responsibility for any use you may make of this project’s component parts._
+
+---
 
 # Summary
-This project is managed by the Publications Office of the European Union to enable implementation of the European legislation for publication of notices for public procurement on the [TED website](https://ted.europa.eu/TED/). For more information, see the [DG GROW eForms](https://ec.europa.eu/growth/single-market/public-procurement/digital/eforms_en) page.
+This project is managed by the Publications Office of the European Union to enable implementation of the European legislation for publication of notices for public procurement on the [TED website](https://ted.europa.eu/TED/). For more information, see the [DG GROW eForms](https://ec.europa.eu/growth/single-market/public-procurement/digital/eforms_en) page. 
 
 This project aims to provide the necessary tools for being able to build valid eForms notices.
 It is composed of the following:
@@ -19,7 +22,11 @@ The adopted approach is to keep the whole set of UBL elements but only support t
 - `view-templates`: This folder contains structured information on the visualisation of notices.
 - `translations`: This folder contains translations of various labels and short texts used in eForms notices.
 
-The documentation is available at https://docs.ted.europa.eu.
+You can download the latest release from Maven Central.
+
+[![Maven Central](https://img.shields.io/maven-central/v/eu.europa.ted.eforms/eforms-sdk.svg?label=Download)](https://search.maven.org/search?q=g:%22eu.europa.ted.eforms%22%20AND%20a:%22eforms-sdk%22)
+
+The documentation is available at https://docs.ted.europa.eu/eforms/latest.
 
 # Versioning
 
