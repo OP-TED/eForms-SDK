@@ -106,9 +106,9 @@ contextDeclarationBlock
 expression: lateBoundExpression | numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression | sequenceExpression;
 
 lateBoundExpression
-    : If booleanExpression Then lateBoundExpression Else lateBoundExpression            # untypedConditonalExpression
-    | fieldValueReference                                                               # untypedFieldValueReferenceExpression 
-    | untypedVariable                                                                   # untypedVariableExpression
+    : If booleanExpression Then lateBoundExpression Else lateBoundExpression            # untypedConditionalExpression
+    | fieldValueReference                                                               # untypedFieldReferenceExpression 
+    | variableReference                                                                 # untypedVariableExpression
     | untypedSequence                                                                   # untypedSequenceExpression
     ;
 
@@ -140,7 +140,7 @@ booleanExpression
     | lateBoundExpression                                                       # untypedBooleanExpression
     ;
     
-    stringExpression
+stringExpression
     : If booleanExpression Then stringExpression Else stringExpression     # conditionalStringExpression
     | stringLiteral                                                        # stringLiteralExpression
     | stringFunction                                                       # stringFunctionExpression
@@ -256,7 +256,7 @@ durationSequenceFromIteration: For iteratorList Return durationExpression;
 predicate: booleanExpression;
 
 iteratorList: iteratorExpression (Comma iteratorExpression)*;
-iteratorExpression: stringIteratorExpression | booleanIteratorExpression | numericIteratorExpression | dateIteratorExpression | timeIteratorExpression | durationIteratorExpression;
+iteratorExpression: stringIteratorExpression | booleanIteratorExpression | numericIteratorExpression | dateIteratorExpression | timeIteratorExpression | durationIteratorExpression | contextIteratorExpression;
 
 stringIteratorExpression: stringVariableDeclaration In stringSequence;
 booleanIteratorExpression: booleanVariableDeclaration In booleanSequence;
@@ -264,6 +264,7 @@ numericIteratorExpression: numericVariableDeclaration In numericSequence;
 dateIteratorExpression: dateVariableDeclaration In dateSequence;
 timeIteratorExpression: timeVariableDeclaration In timeSequence;
 durationIteratorExpression: durationVariableDeclaration In durationSequence;
+contextIteratorExpression: contextVariableDeclaration In (fieldContext | nodeContext);
 
 /*
  * Literals
@@ -289,8 +290,9 @@ numericVariableDeclaration: NumericTypeCast Variable;
 dateVariableDeclaration: DateTypeCast Variable;
 timeVariableDeclaration: TimeTypeCast Variable;
 durationVariableDeclaration: DurationTypeCast Variable;
+contextVariableDeclaration: ContextTypeCast Variable;
 
-untypedVariable: Variable;
+variableReference: Variable;
 
 fieldValueReference
     : fieldReference                       # untypedFieldValueReference
@@ -307,15 +309,21 @@ pathExpression
     | fieldReference SlashAt Identifier
     ;
 
+contextFieldSpecifier: field=fieldContext ColonColon;
+contextNodeSpecifier: node=nodeContext ColonColon;
+contextVariableSpecifier: variable=variableReference ColonColon;
+
+
 /*
  * References of fields and Nodes
  * We chose to specify the grammar for field references and node references in a slightly different style to avoid left recursion of grammar rules.
  * It looks more "complicated" but it is necessary for parsing (see fieldReferenceWithFieldContextOverride). 
  */
 fieldReference: fieldReferenceWithFieldContextOverride | fieldReferenceInOtherNotice | absoluteFieldReference;
-fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithNodeContextOverride;
-fieldReferenceWithNodeContextOverride: (context=nodeContext ColonColon)? reference=fieldReferenceWithFieldContextOverride;
-fieldReferenceWithFieldContextOverride: (context=fieldContext ColonColon)? reference=fieldReferenceWithPredicate;
+fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithVariableContextOverride;
+fieldReferenceWithVariableContextOverride: contextVariableSpecifier? reference=fieldReferenceWithNodeContextOverride;
+fieldReferenceWithNodeContextOverride: contextNodeSpecifier? reference=fieldReferenceWithFieldContextOverride;
+fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldReferenceWithPredicate;
 fieldContext: context=absoluteFieldReference;
 absoluteFieldReference: Slash? reference=fieldReferenceWithPredicate;
 fieldReferenceWithPredicate: simpleFieldReference (OpenBracket predicate CloseBracket)?;
