@@ -157,7 +157,7 @@ CodeTypeCast: 'code:';
 DateTypeCast: 'date:';
 TimeTypeCast: 'time:';
 DurationTypeCast: 'measure:';
-
+ContextTypeCast: 'context:';
 
 /*
  * Functions
