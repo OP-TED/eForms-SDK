@@ -327,7 +327,8 @@ fieldReferenceWithNodeContextOverride: contextNodeSpecifier? reference=fieldRefe
 fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldReferenceWithPredicate;
 fieldContext: context=absoluteFieldReference;
 absoluteFieldReference: Slash? reference=fieldReferenceWithPredicate;
-fieldReferenceWithPredicate: simpleFieldReference (OpenBracket predicate CloseBracket)?;
+fieldReferenceWithPredicate: reference=fieldReferenceWithAxis (OpenBracket predicate CloseBracket)?;
+fieldReferenceWithAxis: axis? simpleFieldReference;
 simpleFieldReference: FieldId;
 
 nodeReference: absoluteNodeReference | nodeReferenceInOtherNotice;
@@ -342,6 +343,7 @@ noticeReference: Notice OpenParenthesis noticeId=stringExpression CloseParenthes
 codelistReference: OpenParenthesis codeListId=codelistId CloseParenthesis;
 codelistId: Identifier;
 
+axis: Axis ColonColon;
 
 /*
  * Function calls
