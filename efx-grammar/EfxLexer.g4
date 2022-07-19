@@ -134,6 +134,7 @@ In: 'in';
 Like: 'like';
 Present: 'present';
 Empty: 'empty';
+Unique: 'unique';
 Every: 'every';
 Some: 'some';
 Satisfies: 'satisfies';

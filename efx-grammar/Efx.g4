@@ -92,8 +92,8 @@ expressionBlock
  * a field-identifier or a node-identifier followed by an optional predicate.
  */
 contextDeclarationBlock
-    : StartExpression absoluteFieldReference EndExpression
-    | StartExpression absoluteNodeReference EndExpression
+    : StartExpression fieldContext EndExpression
+    | StartExpression nodeContext EndExpression
     ;
 
 
@@ -125,6 +125,7 @@ booleanExpression
     | stringExpression      modifier=Not? Like pattern=STRING                   # likePatternCondition
     | stringExpression      Is modifier=Not? Empty                              # emptinessCondition
     | pathFromReference     Is modifier=Not? Present                            # presenceCondition
+    | pathFromReference     Is modifier=Not? Unique In absoluteFieldReference   # uniqueValueCondition
     | lateBoundExpression   operator=Comparison lateBoundExpression             # fieldValueComparison
     | booleanExpression     operator=Comparison booleanExpression               # booleanComparison
     | numericExpression     operator=Comparison numericExpression               # numericComparison
@@ -325,16 +326,16 @@ fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWi
 fieldReferenceWithVariableContextOverride: contextVariableSpecifier? reference=fieldReferenceWithNodeContextOverride;
 fieldReferenceWithNodeContextOverride: contextNodeSpecifier? reference=fieldReferenceWithFieldContextOverride;
 fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldReferenceWithPredicate;
-fieldContext: context=absoluteFieldReference;
-absoluteFieldReference: Slash? reference=fieldReferenceWithPredicate;
+fieldContext: absoluteFieldReference | fieldReferenceWithPredicate;
+absoluteFieldReference: Slash reference=fieldReferenceWithPredicate;
 fieldReferenceWithPredicate: reference=fieldReferenceWithAxis (OpenBracket predicate CloseBracket)?;
 fieldReferenceWithAxis: axis? simpleFieldReference;
 simpleFieldReference: FieldId;
 
 nodeReference: absoluteNodeReference | nodeReferenceInOtherNotice;
 nodeReferenceInOtherNotice: noticeReference Slash nodeReferenceWithPredicate;
-nodeContext: context=absoluteNodeReference;
-absoluteNodeReference: Slash? nodeReferenceWithPredicate; 
+nodeContext: absoluteNodeReference | nodeReferenceWithPredicate;
+absoluteNodeReference: Slash nodeReferenceWithPredicate; 
 nodeReferenceWithPredicate: simpleNodeReference (OpenBracket predicate CloseBracket)?;
 simpleNodeReference: NodeId;
 
