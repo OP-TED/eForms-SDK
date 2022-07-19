@@ -134,6 +134,7 @@ In: 'in';
 Like: 'like';
 Present: 'present';
 Empty: 'empty';
+Unique: 'unique';
 Every: 'every';
 Some: 'some';
 Satisfies: 'satisfies';
@@ -158,6 +159,22 @@ DateTypeCast: 'date:';
 TimeTypeCast: 'time:';
 DurationTypeCast: 'measure:';
 ContextTypeCast: 'context:';
+
+/*
+ * Axes
+ */
+Axis: Preceding | PrecedingSibling | Following | FollowingSibling | Child | Descendant | DescendantOrSelf | Ancestor | AncestorOrSelf;
+Preceding: 'preceding';
+Following: 'following';
+PrecedingSibling: 'preceding-sibling';
+FollowingSibling: 'following-sibling';
+Ancestor: 'ancestor';
+AncestorOrSelf: 'ancestor-or-self';
+Descendant: 'descendant';
+DescendantOrSelf: 'descendant-or-self';
+Child: 'child';
+Self: 'self';
+Parent: 'parent';
 
 /*
  * Functions
