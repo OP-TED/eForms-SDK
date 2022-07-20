@@ -27,7 +27,7 @@ templateFile: (templateLine)* EOF;
  * Furthermore, all the expression-blocks in the template part of this template-line will
  * be evaluated relative to the context indicated by the context-declaration. 
  */
-templateLine: (OutlineNumber | Tabs | Spaces | MixedIndent)? contextDeclarationBlock template CRLF;
+templateLine: (Tabs | Spaces | MixedIndent)? OutlineNumber? contextDeclarationBlock template CRLF;
 
 
 /*** Templates are matched when the lexical analyser is in LABEL mode ***/
