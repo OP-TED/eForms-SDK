@@ -199,7 +199,7 @@ YearMonthDurationFunction: 'year-month-duration';
 AddMeasure: 'add-measure';
 SubtractMeasure: 'subtract-measure';
 
-BtId: ('BT' | 'OPP' | 'OPT') '-' [0-9]+;
+BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
 FieldId: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
 NodeId: 'ND' '-' [a-zA-Z0-9]+;
 
