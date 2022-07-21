@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00.-->
+<!--File generated from metadata database version 0.5.129 created on the 2022-07-21T14:02:32.-->
 <pattern id="EFORMS-stage-2-repeatable" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|message|BT-01-notice_R</assert>
@@ -297,9 +297,6 @@
 		<assert id="BT-42-Lot_R" role="ERROR" diagnostics="BT-42-Lot" test="count(cbc:BindingOnBuyerIndicator) &lt; 2">rule|message|BT-42-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion">
-		<assert id="BT-540-Lot_A" role="ERROR" diagnostics="BT-540-Lot" test="count(cac:SubordinateAwardingCriterion/cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|message|BT-540-Lot_A</assert>
-		<assert id="BT-540-Lot_B" role="ERROR" diagnostics="BT-540-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:SubordinateAwardingCriterion/cbc:Description/@languageID = $lg) or count(cac:SubordinateAwardingCriterion/cbc:Description) = 0">rule|message|BT-540-Lot_B</assert>
-		<assert id="BT-540-Lot_C" role="ERROR" diagnostics="BT-540-Lot" test="(every $lg in (cac:SubordinateAwardingCriterion/cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:SubordinateAwardingCriterion/cbc:Description) = 0">rule|message|BT-540-Lot_C</assert>
 		<assert id="BT-543-Lot_A" role="ERROR" diagnostics="BT-543-Lot" test="count(cbc:CalculationExpression[@languageID = preceding-sibling::cbc:CalculationExpression/@languageID]) = 0">rule|message|BT-543-Lot_A</assert>
 		<assert id="BT-543-Lot_B" role="ERROR" diagnostics="BT-543-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:CalculationExpression/@languageID = $lg) or count(cbc:CalculationExpression) = 0">rule|message|BT-543-Lot_B</assert>
 		<assert id="BT-543-Lot_C" role="ERROR" diagnostics="BT-543-Lot" test="(every $lg in (cbc:CalculationExpression/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:CalculationExpression) = 0">rule|message|BT-543-Lot_C</assert>
@@ -308,7 +305,9 @@
 		<assert id="BT-733-Lot_C" role="ERROR" diagnostics="BT-733-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|message|BT-733-Lot_C</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion">
-		<assert id="BT-539-Lot_R" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &lt; 2">rule|message|BT-539-Lot_R</assert>
+		<assert id="BT-540-Lot_A" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|message|BT-540-Lot_A</assert>
+		<assert id="BT-540-Lot_B" role="ERROR" diagnostics="BT-540-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|message|BT-540-Lot_B</assert>
+		<assert id="BT-540-Lot_C" role="ERROR" diagnostics="BT-540-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|message|BT-540-Lot_C</assert>
 		<assert id="BT-734-Lot_A" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name[@languageID = preceding-sibling::cbc:Name/@languageID]) = 0">rule|message|BT-734-Lot_A</assert>
 		<assert id="BT-734-Lot_B" role="ERROR" diagnostics="BT-734-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Name/@languageID = $lg) or count(cbc:Name) = 0">rule|message|BT-734-Lot_B</assert>
 		<assert id="BT-734-Lot_C" role="ERROR" diagnostics="BT-734-Lot" test="(every $lg in (cbc:Name/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Name) = 0">rule|message|BT-734-Lot_C</assert>
@@ -500,9 +499,6 @@
 		<assert id="OPT-090-LotsGroup_R" role="ERROR" diagnostics="OPT-090-LotsGroup" test="count(cbc:Name) &lt; 2">rule|message|OPT-090-LotsGroup_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion">
-		<assert id="BT-540-LotsGroup_A" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cac:SubordinateAwardingCriterion/cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|message|BT-540-LotsGroup_A</assert>
-		<assert id="BT-540-LotsGroup_B" role="ERROR" diagnostics="BT-540-LotsGroup" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:SubordinateAwardingCriterion/cbc:Description/@languageID = $lg) or count(cac:SubordinateAwardingCriterion/cbc:Description) = 0">rule|message|BT-540-LotsGroup_B</assert>
-		<assert id="BT-540-LotsGroup_C" role="ERROR" diagnostics="BT-540-LotsGroup" test="(every $lg in (cac:SubordinateAwardingCriterion/cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:SubordinateAwardingCriterion/cbc:Description) = 0">rule|message|BT-540-LotsGroup_C</assert>
 		<assert id="BT-543-LotsGroup_A" role="ERROR" diagnostics="BT-543-LotsGroup" test="count(cbc:CalculationExpression[@languageID = preceding-sibling::cbc:CalculationExpression/@languageID]) = 0">rule|message|BT-543-LotsGroup_A</assert>
 		<assert id="BT-543-LotsGroup_B" role="ERROR" diagnostics="BT-543-LotsGroup" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:CalculationExpression/@languageID = $lg) or count(cbc:CalculationExpression) = 0">rule|message|BT-543-LotsGroup_B</assert>
 		<assert id="BT-543-LotsGroup_C" role="ERROR" diagnostics="BT-543-LotsGroup" test="(every $lg in (cbc:CalculationExpression/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:CalculationExpression) = 0">rule|message|BT-543-LotsGroup_C</assert>
@@ -511,7 +507,9 @@
 		<assert id="BT-733-LotsGroup_C" role="ERROR" diagnostics="BT-733-LotsGroup" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|message|BT-733-LotsGroup_C</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion">
-		<assert id="BT-539-LotsGroup_R" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &lt; 2">rule|message|BT-539-LotsGroup_R</assert>
+		<assert id="BT-540-LotsGroup_A" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|message|BT-540-LotsGroup_A</assert>
+		<assert id="BT-540-LotsGroup_B" role="ERROR" diagnostics="BT-540-LotsGroup" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|message|BT-540-LotsGroup_B</assert>
+		<assert id="BT-540-LotsGroup_C" role="ERROR" diagnostics="BT-540-LotsGroup" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|message|BT-540-LotsGroup_C</assert>
 		<assert id="BT-734-LotsGroup_A" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name[@languageID = preceding-sibling::cbc:Name/@languageID]) = 0">rule|message|BT-734-LotsGroup_A</assert>
 		<assert id="BT-734-LotsGroup_B" role="ERROR" diagnostics="BT-734-LotsGroup" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Name/@languageID = $lg) or count(cbc:Name) = 0">rule|message|BT-734-LotsGroup_B</assert>
 		<assert id="BT-734-LotsGroup_C" role="ERROR" diagnostics="BT-734-LotsGroup" test="(every $lg in (cbc:Name/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Name) = 0">rule|message|BT-734-LotsGroup_C</assert>
@@ -774,9 +772,6 @@
 		<assert id="BT-198_BT-105_-Procedure_R" role="ERROR" diagnostics="BT-198_BT-105_-Procedure" test="count(efbc:PublicationDate) &lt; 2">rule|message|BT-198_BT-105_-Procedure_R</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms">
-		<assert id="BT-01_d_-Procedure_A" role="ERROR" diagnostics="BT-01_d_-Procedure" test="count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">rule|message|BT-01_d_-Procedure_A</assert>
-		<assert id="BT-01_d_-Procedure_B" role="ERROR" diagnostics="BT-01_d_-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription/@languageID = $lg) or count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription) = 0">rule|message|BT-01_d_-Procedure_B</assert>
-		<assert id="BT-01_d_-Procedure_C" role="ERROR" diagnostics="BT-01_d_-Procedure" test="(every $lg in (cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription) = 0">rule|message|BT-01_d_-Procedure_C</assert>
 		<assert id="BT-09_a_-Procedure_R" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &lt; 2">rule|message|BT-09_a_-Procedure_R</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution">
@@ -795,6 +790,16 @@
 		<assert id="BT-09_b_-Procedure_A" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">rule|message|BT-09_b_-Procedure_A</assert>
 		<assert id="BT-09_b_-Procedure_B" role="ERROR" diagnostics="BT-09_b_-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:DocumentDescription/@languageID = $lg) or count(cbc:DocumentDescription) = 0">rule|message|BT-09_b_-Procedure_B</assert>
 		<assert id="BT-09_b_-Procedure_C" role="ERROR" diagnostics="BT-09_b_-Procedure" test="(every $lg in (cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:DocumentDescription) = 0">rule|message|BT-09_b_-Procedure_C</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']">
+		<assert id="BT-01_f_-Procedure_A" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">rule|message|BT-01_f_-Procedure_A</assert>
+		<assert id="BT-01_f_-Procedure_B" role="ERROR" diagnostics="BT-01_f_-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:DocumentDescription/@languageID = $lg) or count(cbc:DocumentDescription) = 0">rule|message|BT-01_f_-Procedure_B</assert>
+		<assert id="BT-01_f_-Procedure_C" role="ERROR" diagnostics="BT-01_f_-Procedure" test="(every $lg in (cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:DocumentDescription) = 0">rule|message|BT-01_f_-Procedure_C</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]">
+		<assert id="BT-01_d_-Procedure_A" role="ERROR" diagnostics="BT-01_d_-Procedure" test="count(cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">rule|message|BT-01_d_-Procedure_A</assert>
+		<assert id="BT-01_d_-Procedure_B" role="ERROR" diagnostics="BT-01_d_-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:DocumentDescription/@languageID = $lg) or count(cbc:DocumentDescription) = 0">rule|message|BT-01_d_-Procedure_B</assert>
+		<assert id="BT-01_d_-Procedure_C" role="ERROR" diagnostics="BT-01_d_-Procedure" test="(every $lg in (cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:DocumentDescription) = 0">rule|message|BT-01_d_-Procedure_C</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement">
 		<assert id="BT-67_a_-Procedure_R" role="ERROR" diagnostics="BT-67_a_-Procedure" test="count(cbc:TendererRequirementTypeCode[@listName='exclusion-ground']) &lt; 2">rule|message|BT-67_a_-Procedure_R</assert>
@@ -1251,8 +1256,11 @@
 		<assert id="BT-739-UBO_R" role="ERROR" diagnostics="BT-739-UBO" test="count(cac:Contact/cbc:Telefax) &lt; 2">rule|message|BT-739-UBO_R</assert>
 		<assert id="OPT-160-UBO_R" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) &lt; 2">rule|message|OPT-160-UBO_R</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription">
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]/cbc:DocumentDescription">
 		<assert id="BT-01_d_-Procedure_D" role="ERROR" test="@languageID">rule|message|BT-01_d_-Procedure_D</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:DocumentDescription">
+		<assert id="BT-01_f_-Procedure_D" role="ERROR" test="@languageID">rule|message|BT-01_f_-Procedure_D</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription">
 		<assert id="BT-09_b_-Procedure_D" role="ERROR" test="@languageID">rule|message|BT-09_b_-Procedure_D</assert>

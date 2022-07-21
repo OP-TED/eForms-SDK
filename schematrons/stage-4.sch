@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.5.102 created on the 2022-07-20T11:55:45.-->
+<!--File generated from metadata database version 0.5.129 created on the 2022-07-21T14:02:32.-->
 <pattern id="EFORMS-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X02']">
 		<assert id="BR-OPP-00113-0002" role="ERROR" diagnostics="OPP-113-Business-European" test="count(cbc:RegistrationDate) &gt; 0 or not(cbc:CompanyID[@schemeName = 'EU'])">rule|message|BR-OPP-00113-0002</assert>
@@ -3902,130 +3902,127 @@
 		<assert id="BR-BT-00543-0086" role="ERROR" diagnostics="BT-543-Lot" test="count(cbc:CalculationExpression) = 0 or (not(cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric))">rule|message|BR-BT-00543-0086</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '36']">
-		<assert id="BR-BT-00539-0096" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0096</assert>
+		<assert id="BR-BT-00540-0097" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0097</assert>
 		<assert id="BR-BT-00734-0097" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0097</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '37']">
-		<assert id="BR-BT-00539-0097" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0097</assert>
+		<assert id="BR-BT-00540-0098" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0098</assert>
 		<assert id="BR-BT-00734-0098" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0098</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '33']">
-		<assert id="BR-BT-00539-0093" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0093</assert>
+		<assert id="BR-BT-00540-0094" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0094</assert>
 		<assert id="BR-BT-00734-0094" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0094</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '34']">
-		<assert id="BR-BT-00539-0094" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0094</assert>
+		<assert id="BR-BT-00540-0095" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0095</assert>
 		<assert id="BR-BT-00734-0095" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0095</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '35']">
-		<assert id="BR-BT-00539-0095" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0095</assert>
+		<assert id="BR-BT-00540-0096" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0096</assert>
 		<assert id="BR-BT-00734-0096" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0096</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '29']">
-		<assert id="BR-BT-00539-0087" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0087</assert>
-		<assert id="BR-BT-00539-0190" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0 or not(cbc:Description)">rule|message|BR-BT-00539-0190</assert>
+		<assert id="BR-BT-00540-0088" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0088</assert>
 		<assert id="BR-BT-00734-0088" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0088</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '30']">
-		<assert id="BR-BT-00539-0088" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0088</assert>
+		<assert id="BR-BT-00540-0089" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0089</assert>
 		<assert id="BR-BT-00734-0089" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0089</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '32']">
-		<assert id="BR-BT-00539-0090" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0090</assert>
-		<assert id="BR-BT-00539-0193" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0 or not(cbc:Description)">rule|message|BR-BT-00539-0193</assert>
+		<assert id="BR-BT-00540-0091" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0091</assert>
 		<assert id="BR-BT-00734-0091" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0091</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '31']">
-		<assert id="BR-BT-00539-0089" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0089</assert>
-		<assert id="BR-BT-00539-0192" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0 or not(cbc:Description)">rule|message|BR-BT-00539-0192</assert>
+		<assert id="BR-BT-00540-0090" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0090</assert>
 		<assert id="BR-BT-00734-0090" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0090</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '23']">
-		<assert id="BR-BT-00539-0081" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0081</assert>
+		<assert id="BR-BT-00540-0082" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0082</assert>
 		<assert id="BR-BT-00734-0082" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0082</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '24']">
-		<assert id="BR-BT-00539-0082" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0082</assert>
+		<assert id="BR-BT-00540-0083" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0083</assert>
 		<assert id="BR-BT-00734-0083" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0083</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '20']">
-		<assert id="BR-BT-00539-0078" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0078</assert>
+		<assert id="BR-BT-00540-0079" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0079</assert>
 		<assert id="BR-BT-00734-0079" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0079</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '21']">
-		<assert id="BR-BT-00539-0079" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0079</assert>
+		<assert id="BR-BT-00540-0080" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0080</assert>
 		<assert id="BR-BT-00734-0080" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0080</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '16']">
-		<assert id="BR-BT-00539-0073" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0073</assert>
+		<assert id="BR-BT-00540-0074" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0074</assert>
 		<assert id="BR-BT-00734-0074" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0074</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '17']">
-		<assert id="BR-BT-00539-0074" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0074</assert>
+		<assert id="BR-BT-00540-0075" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0075</assert>
 		<assert id="BR-BT-00734-0075" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0075</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '19']">
-		<assert id="BR-BT-00539-0076" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0076</assert>
+		<assert id="BR-BT-00540-0077" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0077</assert>
 		<assert id="BR-BT-00734-0077" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0077</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '18']">
-		<assert id="BR-BT-00539-0075" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0075</assert>
+		<assert id="BR-BT-00540-0076" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0076</assert>
 		<assert id="BR-BT-00734-0076" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0076</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '12']">
-		<assert id="BR-BT-00539-0069" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0069</assert>
+		<assert id="BR-BT-00540-0070" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0070</assert>
 		<assert id="BR-BT-00734-0070" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0070</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '13']">
-		<assert id="BR-BT-00539-0070" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0070</assert>
+		<assert id="BR-BT-00540-0071" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0071</assert>
 		<assert id="BR-BT-00734-0071" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0071</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '14']">
-		<assert id="BR-BT-00539-0071" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0071</assert>
+		<assert id="BR-BT-00540-0072" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0072</assert>
 		<assert id="BR-BT-00734-0072" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0072</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '10']">
-		<assert id="BR-BT-00539-0066" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0066</assert>
+		<assert id="BR-BT-00540-0067" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0067</assert>
 		<assert id="BR-BT-00734-0067" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0067</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '11']">
-		<assert id="BR-BT-00539-0067" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0067</assert>
+		<assert id="BR-BT-00540-0068" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0068</assert>
 		<assert id="BR-BT-00734-0068" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0068</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '7']">
-		<assert id="BR-BT-00539-0063" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0063</assert>
+		<assert id="BR-BT-00540-0064" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0064</assert>
 		<assert id="BR-BT-00734-0064" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0064</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '8']">
-		<assert id="BR-BT-00539-0064" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0064</assert>
+		<assert id="BR-BT-00540-0065" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0065</assert>
 		<assert id="BR-BT-00734-0065" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0065</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '9']">
-		<assert id="BR-BT-00539-0065" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0065</assert>
+		<assert id="BR-BT-00540-0066" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0066</assert>
 		<assert id="BR-BT-00734-0066" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0066</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '15']">
-		<assert id="BR-BT-00539-0072" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0072</assert>
+		<assert id="BR-BT-00540-0073" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0073</assert>
 		<assert id="BR-BT-00734-0073" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0073</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '22']">
-		<assert id="BR-BT-00539-0080" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0080</assert>
+		<assert id="BR-BT-00540-0081" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0081</assert>
 		<assert id="BR-BT-00734-0081" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0081</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '25']">
-		<assert id="BR-BT-00539-0083" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0083</assert>
+		<assert id="BR-BT-00540-0084" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0084</assert>
 		<assert id="BR-BT-00734-0084" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0084</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '26']">
-		<assert id="BR-BT-00539-0084" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0084</assert>
+		<assert id="BR-BT-00540-0085" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0085</assert>
 		<assert id="BR-BT-00734-0085" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0085</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '28']">
-		<assert id="BR-BT-00539-0086" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0086</assert>
+		<assert id="BR-BT-00540-0087" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0087</assert>
 		<assert id="BR-BT-00734-0087" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0087</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '27']">
-		<assert id="BR-BT-00539-0085" role="ERROR" diagnostics="BT-539-Lot" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0085</assert>
+		<assert id="BR-BT-00540-0086" role="ERROR" diagnostics="BT-540-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0086</assert>
 		<assert id="BR-BT-00734-0086" role="ERROR" diagnostics="BT-734-Lot" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0086</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '36']">
@@ -5538,130 +5535,127 @@
 		<assert id="BR-BT-00543-0034" role="ERROR" diagnostics="BT-543-LotsGroup" test="count(cbc:CalculationExpression) = 0 or (not(cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric))">rule|message|BR-BT-00543-0034</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '36']">
-		<assert id="BR-BT-00539-0045" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0045</assert>
+		<assert id="BR-BT-00540-0045" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0045</assert>
 		<assert id="BR-BT-00734-0045" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0045</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '37']">
-		<assert id="BR-BT-00539-0046" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0046</assert>
+		<assert id="BR-BT-00540-0046" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0046</assert>
 		<assert id="BR-BT-00734-0046" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0046</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '33']">
-		<assert id="BR-BT-00539-0042" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0042</assert>
+		<assert id="BR-BT-00540-0042" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0042</assert>
 		<assert id="BR-BT-00734-0042" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0042</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '34']">
-		<assert id="BR-BT-00539-0043" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0043</assert>
+		<assert id="BR-BT-00540-0043" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0043</assert>
 		<assert id="BR-BT-00734-0043" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0043</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '35']">
-		<assert id="BR-BT-00539-0044" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0044</assert>
+		<assert id="BR-BT-00540-0044" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0044</assert>
 		<assert id="BR-BT-00734-0044" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0044</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '29']">
-		<assert id="BR-BT-00539-0036" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0036</assert>
-		<assert id="BR-BT-00539-0140" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0 or not(cbc:Description)">rule|message|BR-BT-00539-0140</assert>
+		<assert id="BR-BT-00540-0036" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0036</assert>
 		<assert id="BR-BT-00734-0036" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0036</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '30']">
-		<assert id="BR-BT-00539-0037" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0037</assert>
+		<assert id="BR-BT-00540-0037" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0037</assert>
 		<assert id="BR-BT-00734-0037" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0037</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '32']">
-		<assert id="BR-BT-00539-0039" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0039</assert>
-		<assert id="BR-BT-00539-0143" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0 or not(cbc:Description)">rule|message|BR-BT-00539-0143</assert>
+		<assert id="BR-BT-00540-0039" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0039</assert>
 		<assert id="BR-BT-00734-0039" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0039</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '31']">
-		<assert id="BR-BT-00539-0038" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0038</assert>
-		<assert id="BR-BT-00539-0142" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0 or not(cbc:Description)">rule|message|BR-BT-00539-0142</assert>
+		<assert id="BR-BT-00540-0038" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0038</assert>
 		<assert id="BR-BT-00734-0038" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0038</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '23']">
-		<assert id="BR-BT-00539-0030" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0030</assert>
+		<assert id="BR-BT-00540-0030" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0030</assert>
 		<assert id="BR-BT-00734-0030" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0030</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '24']">
-		<assert id="BR-BT-00539-0031" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0031</assert>
+		<assert id="BR-BT-00540-0031" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0031</assert>
 		<assert id="BR-BT-00734-0031" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0031</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '20']">
-		<assert id="BR-BT-00539-0027" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0027</assert>
+		<assert id="BR-BT-00540-0027" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0027</assert>
 		<assert id="BR-BT-00734-0027" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0027</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '21']">
-		<assert id="BR-BT-00539-0028" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0028</assert>
+		<assert id="BR-BT-00540-0028" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0028</assert>
 		<assert id="BR-BT-00734-0028" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0028</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '16']">
-		<assert id="BR-BT-00539-0022" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0022</assert>
+		<assert id="BR-BT-00540-0022" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0022</assert>
 		<assert id="BR-BT-00734-0022" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0022</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '17']">
-		<assert id="BR-BT-00539-0023" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0023</assert>
+		<assert id="BR-BT-00540-0023" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0023</assert>
 		<assert id="BR-BT-00734-0023" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0023</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '19']">
-		<assert id="BR-BT-00539-0025" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0025</assert>
+		<assert id="BR-BT-00540-0025" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0025</assert>
 		<assert id="BR-BT-00734-0025" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0025</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '18']">
-		<assert id="BR-BT-00539-0024" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0024</assert>
+		<assert id="BR-BT-00540-0024" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0024</assert>
 		<assert id="BR-BT-00734-0024" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0024</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '12']">
-		<assert id="BR-BT-00539-0018" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0018</assert>
+		<assert id="BR-BT-00540-0018" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0018</assert>
 		<assert id="BR-BT-00734-0018" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0018</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '13']">
-		<assert id="BR-BT-00539-0019" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0019</assert>
+		<assert id="BR-BT-00540-0019" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0019</assert>
 		<assert id="BR-BT-00734-0019" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0019</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '14']">
-		<assert id="BR-BT-00539-0020" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0020</assert>
+		<assert id="BR-BT-00540-0020" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0020</assert>
 		<assert id="BR-BT-00734-0020" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0020</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '10']">
-		<assert id="BR-BT-00539-0015" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0015</assert>
+		<assert id="BR-BT-00540-0015" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0015</assert>
 		<assert id="BR-BT-00734-0015" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0015</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '11']">
-		<assert id="BR-BT-00539-0016" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0016</assert>
+		<assert id="BR-BT-00540-0016" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0016</assert>
 		<assert id="BR-BT-00734-0016" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0016</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '7']">
-		<assert id="BR-BT-00539-0012" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0012</assert>
+		<assert id="BR-BT-00540-0012" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0012</assert>
 		<assert id="BR-BT-00734-0012" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0012</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '8']">
-		<assert id="BR-BT-00539-0013" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0013</assert>
+		<assert id="BR-BT-00540-0013" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0013</assert>
 		<assert id="BR-BT-00734-0013" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0013</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '9']">
-		<assert id="BR-BT-00539-0014" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0014</assert>
+		<assert id="BR-BT-00540-0014" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0014</assert>
 		<assert id="BR-BT-00734-0014" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0014</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '15']">
-		<assert id="BR-BT-00539-0021" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0021</assert>
+		<assert id="BR-BT-00540-0021" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0021</assert>
 		<assert id="BR-BT-00734-0021" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0021</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '22']">
-		<assert id="BR-BT-00539-0029" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0029</assert>
+		<assert id="BR-BT-00540-0029" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0029</assert>
 		<assert id="BR-BT-00734-0029" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0029</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '25']">
-		<assert id="BR-BT-00539-0032" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0032</assert>
+		<assert id="BR-BT-00540-0032" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0032</assert>
 		<assert id="BR-BT-00734-0032" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0032</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '26']">
-		<assert id="BR-BT-00539-0033" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0033</assert>
+		<assert id="BR-BT-00540-0033" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0033</assert>
 		<assert id="BR-BT-00734-0033" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0033</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '28']">
-		<assert id="BR-BT-00539-0035" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0035</assert>
+		<assert id="BR-BT-00540-0035" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0035</assert>
 		<assert id="BR-BT-00734-0035" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0035</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '27']">
-		<assert id="BR-BT-00539-0034" role="ERROR" diagnostics="BT-539-LotsGroup" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (cbc:Description)">rule|message|BR-BT-00539-0034</assert>
+		<assert id="BR-BT-00540-0034" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) &gt; 0 or not(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|message|BR-BT-00540-0034</assert>
 		<assert id="BR-BT-00734-0034" role="ERROR" diagnostics="BT-734-LotsGroup" test="count(cbc:Name) = 0 or (cbc:Description)">rule|message|BR-BT-00734-0034</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '36']">
@@ -7203,6 +7197,135 @@
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = 'CEI']">
 		<assert id="BR-BT-00009-0068" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|message|BR-BT-00009-0068</assert>
 		<assert id="BR-BT-00009-0111" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|message|BR-BT-00009-0111</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '36']">
+		<assert id="BR-BT-00001-0149" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0149</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '37']">
+		<assert id="BR-BT-00001-0150" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0150</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '38']">
+		<assert id="BR-BT-00001-0151" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0151</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '39']">
+		<assert id="BR-BT-00001-0152" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0152</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '40']">
+		<assert id="BR-BT-00001-0153" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0153</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '33']">
+		<assert id="BR-BT-00001-0146" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0146</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '34']">
+		<assert id="BR-BT-00001-0147" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0147</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '35']">
+		<assert id="BR-BT-00001-0148" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0148</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '29']">
+		<assert id="BR-BT-00001-0140" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0140</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '30']">
+		<assert id="BR-BT-00001-0141" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0141</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '32']">
+		<assert id="BR-BT-00001-0143" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0143</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '31']">
+		<assert id="BR-BT-00001-0142" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0142</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '23']">
+		<assert id="BR-BT-00001-0134" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0134</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '24']">
+		<assert id="BR-BT-00001-0135" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0135</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '20']">
+		<assert id="BR-BT-00001-0131" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0131</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '21']">
+		<assert id="BR-BT-00001-0132" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0132</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '16']">
+		<assert id="BR-BT-00001-0126" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0126</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '17']">
+		<assert id="BR-BT-00001-0127" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0127</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '19']">
+		<assert id="BR-BT-00001-0129" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0129</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '18']">
+		<assert id="BR-BT-00001-0128" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0128</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '1']">
+		<assert id="BR-BT-00001-0108" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0108</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '2']">
+		<assert id="BR-BT-00001-0109" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0109</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '3']">
+		<assert id="BR-BT-00001-0110" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0110</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '12']">
+		<assert id="BR-BT-00001-0122" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0122</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '13']">
+		<assert id="BR-BT-00001-0123" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0123</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '14']">
+		<assert id="BR-BT-00001-0124" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0124</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '10']">
+		<assert id="BR-BT-00001-0119" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0119</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '11']">
+		<assert id="BR-BT-00001-0120" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0120</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '4']">
+		<assert id="BR-BT-00001-0111" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0111</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '5']">
+		<assert id="BR-BT-00001-0112" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0112</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '6']">
+		<assert id="BR-BT-00001-0113" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0113</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '7']">
+		<assert id="BR-BT-00001-0116" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0116</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '8']">
+		<assert id="BR-BT-00001-0117" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0117</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '9']">
+		<assert id="BR-BT-00001-0118" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0118</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '15']">
+		<assert id="BR-BT-00001-0125" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0125</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '22']">
+		<assert id="BR-BT-00001-0133" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0133</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '25']">
+		<assert id="BR-BT-00001-0136" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0136</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '26']">
+		<assert id="BR-BT-00001-0137" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0137</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '28']">
+		<assert id="BR-BT-00001-0139" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0139</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '27']">
+		<assert id="BR-BT-00001-0138" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0138</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'T01']">
+		<assert id="BR-BT-00001-0115" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0115</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'T02']">
+		<assert id="BR-BT-00001-0145" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0145</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00001-0121" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|message|BR-BT-00001-0121</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = '23']">
 		<assert id="BR-BT-00067-0081" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|message|BR-BT-00067-0081</assert>
