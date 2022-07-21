@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.5.22 created on the 2022-07-13T16:37:50.-->
+<!--File generated from metadata database version 0.5.129 created on the 2022-07-21T14:02:32.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -30,8 +30,10 @@
 
   <diagnostics>
     <diagnostic id="BT-01-notice">cbc:RegulatoryDomain</diagnostic>
-    <diagnostic id="BT-01_c_-Procedure">cac:ProcurementLegislationDocumentReference/cbc:ID[not(text()='CrossBorderLaw')]</diagnostic>
-    <diagnostic id="BT-01_d_-Procedure">cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription</diagnostic>
+    <diagnostic id="BT-01_c_-Procedure">cac:ProcurementLegislationDocumentReference/cbc:ID[not(text()=('CrossBorderLaw','LocalLegalBasis'))]</diagnostic>
+    <diagnostic id="BT-01_d_-Procedure">cbc:DocumentDescription</diagnostic>
+    <diagnostic id="BT-01_e_-Procedure">cac:ProcurementLegislationDocumentReference/cbc:ID[text()='LocalLegalBasis']</diagnostic>
+    <diagnostic id="BT-01_f_-Procedure">cbc:DocumentDescription</diagnostic>
     <diagnostic id="BT-02-notice">cbc:NoticeTypeCode</diagnostic>
     <diagnostic id="BT-03-notice">cbc:NoticeTypeCode/@listName</diagnostic>
     <diagnostic id="BT-04-notice">cbc:ContractFolderID</diagnostic>
@@ -457,11 +459,11 @@
     <diagnostic id="BT-537-Part">cbc:EndDate</diagnostic>
     <diagnostic id="BT-538-Lot">cbc:DescriptionCode</diagnostic>
     <diagnostic id="BT-538-Part">cbc:DescriptionCode</diagnostic>
-    <diagnostic id="BT-539-Lot">cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
-    <diagnostic id="BT-539-LotsGroup">cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
+    <diagnostic id="BT-539-Lot">cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
+    <diagnostic id="BT-539-LotsGroup">cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
     <diagnostic id="BT-54-Lot">cbc:OptionsDescription</diagnostic>
-    <diagnostic id="BT-540-Lot">cac:SubordinateAwardingCriterion/cbc:Description</diagnostic>
-    <diagnostic id="BT-540-LotsGroup">cac:SubordinateAwardingCriterion/cbc:Description</diagnostic>
+    <diagnostic id="BT-540-Lot">cbc:Description</diagnostic>
+    <diagnostic id="BT-540-LotsGroup">cbc:Description</diagnostic>
     <diagnostic id="BT-541-Lot">efac:AwardCriterionParameter/efbc:ParameterNumeric</diagnostic>
     <diagnostic id="BT-541-LotsGroup">efac:AwardCriterionParameter/efbc:ParameterNumeric</diagnostic>
     <diagnostic id="BT-5421-Lot">efbc:ParameterCode[@listName='number-weight']</diagnostic>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00.-->
+<!--File generated from metadata database version 0.5.129 created on the 2022-07-21T14:02:32.-->
 <pattern id="EFORMS-stage-3" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -710,8 +710,11 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics/efbc:StatisticsCode">
 		<assert id="BR-OPT-00155-0052" role="ERROR" test="normalize-space(.) = ('vehicles', 'vehicles-clean', 'vehicles-zero-emission')">rule|message|BR-OPT-00155-0052</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()='CrossBorderLaw')]/cbc:DocumentDescription">
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]/cbc:DocumentDescription">
 		<assert id="BT-01_d_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-01_d_-Procedure_length</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:DocumentDescription">
+		<assert id="BT-01_f_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|message|BT-01_f_-Procedure_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription">
 		<assert id="BT-09_b_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 1000">rule|message|BT-09_b_-Procedure_length</assert>
