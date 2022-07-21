@@ -240,7 +240,7 @@ fragment HEX4: HEX HEX HEX HEX;
 fragment HEX: [0-9a-fA-F];
 fragment CHAR_SEQ: CHAR+;
 fragment CHAR: ~["'\\\r\n] | ESC_SEQ;
-fragment ESC_SEQ: '\\' ["'\\];
+fragment ESC_SEQ: '\\' [dDwWnsStrnvfbcxu0"'\\];
 fragment LETTER: [a-zA-Z_];
 fragment DIGIT: [0-9];
 
