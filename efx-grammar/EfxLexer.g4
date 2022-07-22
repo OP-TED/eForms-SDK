@@ -221,8 +221,8 @@ INTEGER: '-'? DIGIT+;
 DECIMAL: '-'? DIGIT? '.' DIGIT+;
 STRING: ('"' CHAR_SEQ? '"') | ('\'' CHAR_SEQ? '\'');
 UUIDV4: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
-DATE: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z')?;
-TIME: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT (ZONE | 'Z')?;
+DATE: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z');
+TIME: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT (ZONE | 'Z');
 ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
 
 Comparison: '==' | '!=' | '>' | '>=' | '<' | '<=';
