@@ -1,45 +1,45 @@
 // View T01
 // sdkVersion='eforms-sdk-0.7.0'
 // File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00
-{ND-Root} #{decoration|name|buyer-competent}
-	{OPT-300-Procedure-Buyer} #{decoration|name|buyer-competent}
+{ND-Root} #{auxiliary|text|buyer-competent}
+	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer-competent}
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{business-term|name|BT-500}: ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}
 		{BT-11-Procedure-Buyer} #{business-term|name|BT-11-competent}: #{BT-11-Procedure-Buyer}
-2 {ND-Root} #{decoration|name|procedure}
-	{ND-Root} #{decoration|name|procedure}
+2 {ND-Root} #{auxiliary|text|procedure}
+	{ND-Root} #{auxiliary|text|procedure}
 		{BT-21-Procedure} #{business-term|name|BT-21}: ${BT-21-Procedure}
 		{BT-22-Procedure} #{business-term|name|BT-22}: ${BT-22-Procedure}
 		{BT-105-Procedure} #{business-term|name|BT-105}: #{BT-105-Procedure}
-		{ND-Root} #{decoration|name|purpose}
+		{ND-Root} #{auxiliary|text|purpose}
 			{BT-23-Procedure} #{business-term|name|BT-23}: #{BT-23-Procedure}
 			{OPP-040-Procedure} #{business-term|name|OPP-040}
 			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
 			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
-		{ND-Root} #{decoration|name|general-information}
+		{ND-Root} #{auxiliary|text|general-information}
 			{BT-300-Procedure} #{business-term|name|BT-300}: ${BT-300-Procedure}
-			{ND-Root} #{decoration|name|legal-basis}
+			{ND-Root} #{auxiliary|text|legal-basis}
 			{BT-01-notice} #{BT-01-notice} ${BT-01(c)-Procedure} ${BT-01(d)-Procedure}
 			{BT-01(d)-Procedure} #{name|BT-01}: ${BT-01(d)-Procedure}
-			{ND-Root} #{decoration|name|cross-border-law}
+			{ND-Root} #{auxiliary|text|cross-border-law}
 			{BT-09(a)-Procedure} #{field|name|BT-09(a)-Procedure}: ${BT-09(a)-Procedure}
 			{BT-09(b)-Procedure} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure}
-{ND-Root} #{decoration|name|lot}
+{ND-Root} #{auxiliary|text|lot}
 	{BT-137-Lot} #{name|BT-137}: ${BT-137-Lot}
 		{BT-21-Lot} #{business-term|name|BT-21}: ${BT-21-Lot}
 		{BT-24-Lot} #{business-term|name|BT-24}: ${BT-24-Lot}
 		{BT-22-Lot} #{business-term|name|BT-22}: ${BT-22-Lot}
-		{BT-137-Lot} #{decoration|name|purpose}
+		{BT-137-Lot} #{auxiliary|text|purpose}
 			{BT-23-Lot} #{business-term|name|BT-23}: #{BT-23-Lot}
 			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
 			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
 			{BT-25-Lot} #{name|BT-25}: ${BT-25-Lot} ${BT-625-Lot}
-		{BT-137-Lot} #{decoration|name|envisaged-start-duration-contract}
+		{BT-137-Lot} #{auxiliary|text|envisaged-start-duration-contract}
 			{BT-536-Lot} #{business-term|name|BT-536}: ${BT-536-Lot}
 			{BT-537-Lot} #{business-term|name|BT-537}: ${BT-537-Lot}
 			{BT-36-Lot} #{name|BT-538}: ${BT-36-Lot} ${BT-36-Lot/@unitCode}, ${BT-538-Lot}
-		{BT-137-Lot} #{decoration|name|organisations}
-8 {ND-Root} #{decoration|name|organisations}
-	{ND-Root} #{decoration|name|organisations}
+		{BT-137-Lot} #{auxiliary|text|organisations}
+8 {ND-Root} #{auxiliary|text|organisations}
+	{ND-Root} #{auxiliary|text|organisations}
 		{OPT-300-Procedure-Buyer} #{name|BT-500}
 			{BT-500-Organization-Company} #{business-term|name|BT-500}: ${BT-500-Organization-Company}
 			{BT-633-Organization} ${BT-633-Organization}
@@ -56,7 +56,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-300-Procedure-Buyer} #{decoration|name|other-contact-point}
+			{OPT-300-Procedure-Buyer} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -69,7 +69,7 @@
 				{BT-503-Organization-TouchPoint} #{business-term|name|BT-503}: ${BT-503-Organization-TouchPoint}
 				{BT-739-Organization-TouchPoint} #{business-term|name|BT-739}: ${BT-739-Organization-TouchPoint}
 				{BT-505-Organization-TouchPoint} #{business-term|name|BT-505}: ${BT-505-Organization-TouchPoint}
-			{OPT-300-Procedure-Buyer} #{decoration|name|roles}
+			{OPT-300-Procedure-Buyer} #{auxiliary|text|roles}
 				{OPP-050-Organization} TODO
 				{OPP-052-Organization} TODO 
 				{OPP-051-Organization} TODO 
@@ -89,7 +89,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']} #{decoration|name|other-contact-point}
+			{OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -118,7 +118,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-AddInfo} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-AddInfo} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -147,7 +147,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-DocProvider} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-DocProvider} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -176,7 +176,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-TenderReceipt} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-TenderReceipt} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -205,7 +205,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-TenderEval} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-TenderEval} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -234,7 +234,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-300-Contract-Signatory} #{decoration|name|other-contact-point}
+			{OPT-300-Contract-Signatory} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -263,7 +263,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-LotResult-Financing} #{decoration|name|other-contact-point}
+			{OPT-301-LotResult-Financing} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -292,7 +292,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-LotResult-Paying} #{decoration|name|other-contact-point}
+			{OPT-301-LotResult-Paying} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -321,7 +321,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-ReviewOrg} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-ReviewOrg} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -350,7 +350,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-ReviewInfo} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-ReviewInfo} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -379,7 +379,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-Mediator} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-Mediator} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -408,7 +408,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-FiscalLegis} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-FiscalLegis} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -437,7 +437,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-EnvironLegis} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-EnvironLegis} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -466,7 +466,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-301-Lot-EmployLegis} #{decoration|name|other-contact-point}
+			{OPT-301-Lot-EmployLegis} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -495,7 +495,7 @@
 			{BT-739-Organization-Company} #{business-term|name|BT-739}: ${BT-739-Organization-Company}
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']} #{decoration|name|other-contact-point}
+			{OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -508,7 +508,7 @@
 				{BT-503-Organization-TouchPoint} #{business-term|name|BT-503}: ${BT-503-Organization-TouchPoint}
 				{BT-739-Organization-TouchPoint} #{business-term|name|BT-739}: ${BT-739-Organization-TouchPoint}
 				{BT-505-Organization-TouchPoint} #{business-term|name|BT-505}: ${BT-505-Organization-TouchPoint}
-	{ND-Root} #{decoration|name|organisation-roles}
+	{ND-Root} #{auxiliary|text|organisation-roles}
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} TODO 
 		{BT-500-Organization-Company[OPP-052-Organization is present]} TODO
 		{BT-500-Organization-Company[OPP-051-Organization is present]} TODO
@@ -530,23 +530,23 @@
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont]} TODO 
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-202-UBO]} TODO 
 		{BT-500-Organization-Company[OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider == 'ted-esen'] is present]} TODO
-{ND-Root} #{decoration|name|change}
-	{ND-Root} #{decoration|name|change}
+{ND-Root} #{auxiliary|text|change}
+	{ND-Root} #{auxiliary|text|change}
 		{BT-758-notice} #{business-term|name|BT-758}: ${BT-758-notice}
 		{BT-140-notice} #{business-term|name|BT-140}: #{BT-140-notice}
 		{BT-762-notice} #{business-term|name|BT-762}: ${BT-762-notice}
 		{BT-13716-notice} #{business-term|name|BT-13716}: ${BT-13716-notice}
 		{BT-141(a)-notice} #{name|BT-141}: ${BT-141(a)-notice}
 		{BT-718-notice} #{name|BT-718} ${BT-719-notice}: #{BT-718-notice}
-11 {ND-Root} #{decoration|name|notice-information}
-	{ND-Root} #{decoration|name|notice-information}
+11 {ND-Root} #{auxiliary|text|notice-information}
+	{ND-Root} #{auxiliary|text|notice-information}
 		{BT-701-notice} #{name|BT-757}: ${BT-757-notice}
 		{BT-03-notice} #{business-term|name|BT-03}: #{BT-03-notice}
 		{BT-02-notice} #{business-term|name|BT-02}: #{BT-02-notice}
 		{OPP-070-notice} #{business-term|name|OPP-070}: ${OPP-070-notice}
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
 		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
-	{ND-Root} #{decoration|name|publication-information}
+	{ND-Root} #{auxiliary|text|publication-information}
 		{ND-Root} #{business-term|name|BT-21}
 		{OPP-010-notice} #{business-term|name|OPP-010}: ${OPP-010-notice}
 		{OPP-011-notice} #{business-term|name|OPP-011}: ${OPP-011-notice}

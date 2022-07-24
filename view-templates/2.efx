@@ -1,29 +1,29 @@
 // View 2
 // sdkVersion='eforms-sdk-0.7.0'
 // File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00
-1 {ND-Root} #{decoration|name|buyer}
-	{OPT-300-Procedure-Buyer} #{decoration|name|buyer}
+1 {ND-Root} #{auxiliary|text|buyer}
+	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer}
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{business-term|name|BT-500}: ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}
 		{BT-11-Procedure-Buyer} #{business-term|name|BT-11}: #{BT-11-Procedure-Buyer}
 		{BT-10-Procedure-Buyer} #{business-term|name|BT-10}: #{BT-10-Procedure-Buyer}
 		{BT-610-Procedure-Buyer} #{business-term|name|BT-610}: #{BT-610-Procedure-Buyer}
-2 {ND-Root} #{decoration|name|procedure}
-	{ND-Root} #{decoration|name|procedure}
+2 {ND-Root} #{auxiliary|text|procedure}
+	{ND-Root} #{auxiliary|text|procedure}
 		{BT-21-Procedure} #{business-term|name|BT-21}: ${BT-21-Procedure}
 		{BT-24-Procedure} #{business-term|name|BT-24}: ${BT-24-Procedure}
 		{BT-22-Procedure} #{business-term|name|BT-22}: ${BT-22-Procedure}
-		{ND-Root} #{decoration|name|purpose}
+		{ND-Root} #{auxiliary|text|purpose}
 			{BT-23-Procedure} #{business-term|name|BT-23}: #{BT-23-Procedure}
 			{BT-531-Procedure} #{business-term|name|BT-531}: #{BT-531-Procedure}
 			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
 			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
-		{ND-Root} #{decoration|name|general-information}
+		{ND-Root} #{auxiliary|text|general-information}
 			{BT-300-Procedure} #{business-term|name|BT-300}: ${BT-300-Procedure}
-			{ND-Root} #{decoration|name|legal-basis}
+			{ND-Root} #{auxiliary|text|legal-basis}
 			{BT-01-notice} #{BT-01-notice} ${BT-01(c)-Procedure} ${BT-01(d)-Procedure}
 			{BT-01(d)-Procedure} #{name|BT-01}: ${BT-01(d)-Procedure}
-8 {ND-Root} #{decoration|name|organisations}
-	{ND-Root} #{decoration|name|organisations}
+8 {ND-Root} #{auxiliary|text|organisations}
+	{ND-Root} #{auxiliary|text|organisations}
 		{OPT-300-Procedure-Buyer} #{name|BT-500}
 			{BT-500-Organization-Company} #{business-term|name|BT-500}: ${BT-500-Organization-Company}
 			{BT-633-Organization} ${BT-633-Organization}
@@ -41,7 +41,7 @@
 			{BT-505-Organization-Company} #{business-term|name|BT-505}: ${BT-505-Organization-Company}
 			{BT-509-Organization-Company} #{business-term|name|BT-509}: ${BT-509-Organization-Company}
 			{BT-508-Procedure-Buyer} #{business-term|name|BT-508}: ${BT-508-Procedure-Buyer}
-			{OPT-300-Procedure-Buyer} #{decoration|name|other-contact-point}
+			{OPT-300-Procedure-Buyer} #{auxiliary|text|other-contact-point}
 				{BT-500-Organization-TouchPoint} #{business-term|name|BT-500}: ${BT-500-Organization-TouchPoint}
 				{BT-16-Organization-TouchPoint} #{business-term|name|BT-16}: ${BT-16-Organization-TouchPoint}
 				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
@@ -55,26 +55,26 @@
 				{BT-739-Organization-TouchPoint} #{business-term|name|BT-739}: ${BT-739-Organization-TouchPoint}
 				{BT-505-Organization-TouchPoint} #{business-term|name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{business-term|name|BT-509}: ${BT-509-Organization-TouchPoint}
-			{OPT-300-Procedure-Buyer} #{decoration|name|roles}
+			{OPT-300-Procedure-Buyer} #{auxiliary|text|roles}
 				{OPP-050-Organization} TODO
 				{OPP-052-Organization} TODO 
 				{OPP-051-Organization} TODO 
-{ND-Root} #{decoration|name|change}
-	{ND-Root} #{decoration|name|change}
+{ND-Root} #{auxiliary|text|change}
+	{ND-Root} #{auxiliary|text|change}
 		{BT-758-notice} #{business-term|name|BT-758}: ${BT-758-notice}
 		{BT-140-notice} #{business-term|name|BT-140}: #{BT-140-notice}
 		{BT-762-notice} #{business-term|name|BT-762}: ${BT-762-notice}
 		{BT-13716-notice} #{business-term|name|BT-13716}: ${BT-13716-notice}
 		{BT-141(a)-notice} #{name|BT-141}: ${BT-141(a)-notice}
 		{BT-718-notice} #{name|BT-718} ${BT-719-notice}: #{BT-718-notice}
-11 {ND-Root} #{decoration|name|notice-information}
-	{ND-Root} #{decoration|name|notice-information}
+11 {ND-Root} #{auxiliary|text|notice-information}
+	{ND-Root} #{auxiliary|text|notice-information}
 		{BT-701-notice} #{name|BT-757}: ${BT-757-notice}
 		{BT-03-notice} #{business-term|name|BT-03}: #{BT-03-notice}
 		{BT-02-notice} #{business-term|name|BT-02}: #{BT-02-notice}
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
 		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
-	{ND-Root} #{decoration|name|publication-information}
+	{ND-Root} #{auxiliary|text|publication-information}
 		{ND-Root} #{business-term|name|BT-21}
 		{OPP-010-notice} #{business-term|name|OPP-010}: ${OPP-010-notice}
 		{OPP-011-notice} #{business-term|name|OPP-011}: ${OPP-011-notice}
