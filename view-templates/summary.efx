@@ -3,7 +3,7 @@
 // File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00
 {ND-Root} #{decoration|name|results}
 	{ND-Root} #{decoration|name|group-framework-value}
-		{BT-1375-Procedure} #{business_term|name|BT-1375}
+		{BT-1375-Procedure} #{business-term|name|BT-1375}
 		{BT-156-NoticeResult} #{name|BT-156}: ${BT-156-NoticeResult} ${BT-156-NoticeResult/@currencyID}
 	{BT-137-Lot} #{name|BT-137}: ${BT-137-Lot}
 		{BT-142-LotResult} #{BT-142-LotResult}

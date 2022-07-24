@@ -10,48 +10,48 @@
 8 {ND-Root} #{decoration|name|organisations}
 	{ND-Root} #{decoration|name|organisations}
 		{ND-Root} #{name|BT-500}
-			{BT-500-Business} #{business_term|name|BT-500}: ${BT-500-Business}
+			{BT-500-Business} #{business-term|name|BT-500}: ${BT-500-Business}
 			{BT-501-Business-European} #{name|BT-501}: ${BT-501-Business-European}
 			{BT-501-Business-National} #{name|BT-501}: ${BT-501-Business-National}
 			{BT-510(a)-Business} #{name|BT-510}: ${BT-510(a)-Business} ${BT-510(b)-Business} ${BT-510(c)-Business}
-			{BT-513-Business} #{business_term|name|BT-513}: ${BT-513-Business}
-			{BT-512-Business} #{business_term|name|BT-512}: ${BT-512-Business}
-			{BT-507-Business} #{business_term|name|BT-507}: #{BT-507-Business}
-			{BT-514-Business} #{business_term|name|BT-514}: #{BT-514-Business}
-			{BT-502-Business} #{business_term|name|BT-502}: ${BT-502-Business}
-			{BT-506-Business} #{business_term|name|BT-506}: ${BT-506-Business}
-			{BT-503-Business} #{business_term|name|BT-503}: ${BT-503-Business}
-			{BT-739-Business} #{business_term|name|BT-739}: ${BT-739-Business}
-			{BT-505-Business} #{business_term|name|BT-505}: ${BT-505-Business}
+			{BT-513-Business} #{business-term|name|BT-513}: ${BT-513-Business}
+			{BT-512-Business} #{business-term|name|BT-512}: ${BT-512-Business}
+			{BT-507-Business} #{business-term|name|BT-507}: #{BT-507-Business}
+			{BT-514-Business} #{business-term|name|BT-514}: #{BT-514-Business}
+			{BT-502-Business} #{business-term|name|BT-502}: ${BT-502-Business}
+			{BT-506-Business} #{business-term|name|BT-506}: ${BT-506-Business}
+			{BT-503-Business} #{business-term|name|BT-503}: ${BT-503-Business}
+			{BT-739-Business} #{business-term|name|BT-739}: ${BT-739-Business}
+			{BT-505-Business} #{business-term|name|BT-505}: ${BT-505-Business}
 	{ND-Root} #{decoration|name|organisation-roles}
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} TODO 
 {ND-Root} #{decoration|name|object}
 	{ND-Root} #{decoration|name|legal-basis}
 		{BT-01-notice} #{BT-01-notice}
-		{OPP-100-Business} #{business_term|name|OPP-100}: #{OPP-100-Business}
-	{BT-500-Business} #{business_term|name|BT-500-grouping}
+		{OPP-100-Business} #{business-term|name|OPP-100}: #{OPP-100-Business}
+	{BT-500-Business} #{business-term|name|BT-500-grouping}
 	{ND-Root} #{decoration|name|place-registration}
-		{OPP-110-Business} #{business_term|name|OPP-110}: ${OPP-110-Business}
-		{OPP-111-Business} #{business_term|name|OPP-111}: ${OPP-111-Business}
-		{OPP-112-Business} #{business_term|name|OPP-112}: ${OPP-112-Business}
-		{BT-501-Business-European} #{business_term|name|BT-501}: ${BT-501-Business-European}
-		{OPP-113-Business-European} #{business_term|name|OPP-113}: ${OPP-113-Business-European}
+		{OPP-110-Business} #{business-term|name|OPP-110}: ${OPP-110-Business}
+		{OPP-111-Business} #{business-term|name|OPP-111}: ${OPP-111-Business}
+		{OPP-112-Business} #{business-term|name|OPP-112}: ${OPP-112-Business}
+		{BT-501-Business-European} #{business-term|name|BT-501}: ${BT-501-Business-European}
+		{OPP-113-Business-European} #{business-term|name|OPP-113}: ${OPP-113-Business-European}
 	{ND-Root} #{decoration|name|publication-gazette}
-		{OPP-120-Business} #{business_term|name|OPP-120}: ${OPP-120-Business}
-		{OPP-121-Business} #{business_term|name|OPP-121}: ${OPP-121-Business}
-		{OPP-122-Business} #{business_term|name|OPP-122}: ${OPP-122-Business}
-		{OPP-123-Business} #{business_term|name|OPP-123}: ${OPP-123-Business}
-	{OPP-130-Business} #{business_term|name|OPP-130}: ${OPP-130-Business}
+		{OPP-120-Business} #{business-term|name|OPP-120}: ${OPP-120-Business}
+		{OPP-121-Business} #{business-term|name|OPP-121}: ${OPP-121-Business}
+		{OPP-122-Business} #{business-term|name|OPP-122}: ${OPP-122-Business}
+		{OPP-123-Business} #{business-term|name|OPP-123}: ${OPP-123-Business}
+	{OPP-130-Business} #{business-term|name|OPP-130}: ${OPP-130-Business}
 11 {ND-Root} #{decoration|name|notice-information}
 	{ND-Root} #{decoration|name|notice-information}
 		{BT-701-notice} #{name|BT-757}: ${BT-757-notice}
-		{BT-03-notice} #{business_term|name|BT-03}: #{BT-03-notice}
-		{BT-02-notice} #{business_term|name|BT-02}: #{BT-02-notice}
-		{OPP-070-notice} #{business_term|name|OPP-070}: ${OPP-070-notice}
-		{OPP-131-Business} #{business_term|name|OPP-131}: ${OPP-131-Business}
+		{BT-03-notice} #{business-term|name|BT-03}: #{BT-03-notice}
+		{BT-02-notice} #{business-term|name|BT-02}: #{BT-02-notice}
+		{OPP-070-notice} #{business-term|name|OPP-070}: ${OPP-070-notice}
+		{OPP-131-Business} #{business-term|name|OPP-131}: ${OPP-131-Business}
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
 		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
 	{ND-Root} #{decoration|name|publication-information}
-		{OPP-010-notice} #{business_term|name|OPP-010}: ${OPP-010-notice}
-		{OPP-011-notice} #{business_term|name|OPP-011}: ${OPP-011-notice}
-		{OPP-012-notice} #{business_term|name|OPP-012}: ${OPP-012-notice}
+		{OPP-010-notice} #{business-term|name|OPP-010}: ${OPP-010-notice}
+		{OPP-011-notice} #{business-term|name|OPP-011}: ${OPP-011-notice}
+		{OPP-012-notice} #{business-term|name|OPP-012}: ${OPP-012-notice}
