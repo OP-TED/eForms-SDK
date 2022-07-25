@@ -1,0 +1,285 @@
+{
+  "ublVersion" : "2.3",
+  "sdkVersion" : "0.8.0",
+  "metadataDatabase" : {
+    "version" : "0.5.134",
+    "createdOn" : "2022-07-22T12:46:24"
+  },
+  "viewTemplates" : [ {
+    "id" : "1",
+    "filename" : "1.efx",
+    "description" : "Default",
+    "_label" : "view|name|1",
+    "_noticeSubtypeIds" : [ "1" ]
+  }, {
+    "id" : "2",
+    "filename" : "2.efx",
+    "description" : "Default",
+    "_label" : "view|name|2",
+    "_noticeSubtypeIds" : [ "2" ]
+  }, {
+    "id" : "3",
+    "filename" : "3.efx",
+    "description" : "Default",
+    "_label" : "view|name|3",
+    "_noticeSubtypeIds" : [ "3" ]
+  }, {
+    "id" : "4",
+    "filename" : "4.efx",
+    "description" : "Default",
+    "_label" : "view|name|4",
+    "_noticeSubtypeIds" : [ "4" ]
+  }, {
+    "id" : "5",
+    "filename" : "5.efx",
+    "description" : "Default",
+    "_label" : "view|name|5",
+    "_noticeSubtypeIds" : [ "5" ]
+  }, {
+    "id" : "6",
+    "filename" : "6.efx",
+    "description" : "Default",
+    "_label" : "view|name|6",
+    "_noticeSubtypeIds" : [ "6" ]
+  }, {
+    "id" : "7",
+    "filename" : "7.efx",
+    "description" : "Default",
+    "_label" : "view|name|7",
+    "_noticeSubtypeIds" : [ "7" ]
+  }, {
+    "id" : "8",
+    "filename" : "8.efx",
+    "description" : "Default",
+    "_label" : "view|name|8",
+    "_noticeSubtypeIds" : [ "8" ]
+  }, {
+    "id" : "9",
+    "filename" : "9.efx",
+    "description" : "Default",
+    "_label" : "view|name|9",
+    "_noticeSubtypeIds" : [ "9" ]
+  }, {
+    "id" : "10",
+    "filename" : "10.efx",
+    "description" : "Default",
+    "_label" : "view|name|10",
+    "_noticeSubtypeIds" : [ "10" ]
+  }, {
+    "id" : "11",
+    "filename" : "11.efx",
+    "description" : "Default",
+    "_label" : "view|name|11",
+    "_noticeSubtypeIds" : [ "11" ]
+  }, {
+    "id" : "12",
+    "filename" : "12.efx",
+    "description" : "Default",
+    "_label" : "view|name|12",
+    "_noticeSubtypeIds" : [ "12" ]
+  }, {
+    "id" : "13",
+    "filename" : "13.efx",
+    "description" : "Default",
+    "_label" : "view|name|13",
+    "_noticeSubtypeIds" : [ "13" ]
+  }, {
+    "id" : "14",
+    "filename" : "14.efx",
+    "description" : "Default",
+    "_label" : "view|name|14",
+    "_noticeSubtypeIds" : [ "14" ]
+  }, {
+    "id" : "15",
+    "filename" : "15.efx",
+    "description" : "Default",
+    "_label" : "view|name|15",
+    "_noticeSubtypeIds" : [ "15" ]
+  }, {
+    "id" : "16",
+    "filename" : "16.efx",
+    "description" : "Default",
+    "_label" : "view|name|16",
+    "_noticeSubtypeIds" : [ "16" ]
+  }, {
+    "id" : "17",
+    "filename" : "17.efx",
+    "description" : "Default",
+    "_label" : "view|name|17",
+    "_noticeSubtypeIds" : [ "17" ]
+  }, {
+    "id" : "18",
+    "filename" : "18.efx",
+    "description" : "Default",
+    "_label" : "view|name|18",
+    "_noticeSubtypeIds" : [ "18" ]
+  }, {
+    "id" : "19",
+    "filename" : "19.efx",
+    "description" : "Default",
+    "_label" : "view|name|19",
+    "_noticeSubtypeIds" : [ "19" ]
+  }, {
+    "id" : "20",
+    "filename" : "20.efx",
+    "description" : "Default",
+    "_label" : "view|name|20",
+    "_noticeSubtypeIds" : [ "20" ]
+  }, {
+    "id" : "21",
+    "filename" : "21.efx",
+    "description" : "Default",
+    "_label" : "view|name|21",
+    "_noticeSubtypeIds" : [ "21" ]
+  }, {
+    "id" : "22",
+    "filename" : "22.efx",
+    "description" : "Default",
+    "_label" : "view|name|22",
+    "_noticeSubtypeIds" : [ "22" ]
+  }, {
+    "id" : "23",
+    "filename" : "23.efx",
+    "description" : "Default",
+    "_label" : "view|name|23",
+    "_noticeSubtypeIds" : [ "23" ]
+  }, {
+    "id" : "24",
+    "filename" : "24.efx",
+    "description" : "Default",
+    "_label" : "view|name|24",
+    "_noticeSubtypeIds" : [ "24" ]
+  }, {
+    "id" : "25",
+    "filename" : "25.efx",
+    "description" : "Default",
+    "_label" : "view|name|25",
+    "_noticeSubtypeIds" : [ "25" ]
+  }, {
+    "id" : "26",
+    "filename" : "26.efx",
+    "description" : "Default",
+    "_label" : "view|name|26",
+    "_noticeSubtypeIds" : [ "26" ]
+  }, {
+    "id" : "27",
+    "filename" : "27.efx",
+    "description" : "Default",
+    "_label" : "view|name|27",
+    "_noticeSubtypeIds" : [ "27" ]
+  }, {
+    "id" : "28",
+    "filename" : "28.efx",
+    "description" : "Default",
+    "_label" : "view|name|28",
+    "_noticeSubtypeIds" : [ "28" ]
+  }, {
+    "id" : "29",
+    "filename" : "29.efx",
+    "description" : "Default",
+    "_label" : "view|name|29",
+    "_noticeSubtypeIds" : [ "29" ]
+  }, {
+    "id" : "30",
+    "filename" : "30.efx",
+    "description" : "Default",
+    "_label" : "view|name|30",
+    "_noticeSubtypeIds" : [ "30" ]
+  }, {
+    "id" : "31",
+    "filename" : "31.efx",
+    "description" : "Default",
+    "_label" : "view|name|31",
+    "_noticeSubtypeIds" : [ "31" ]
+  }, {
+    "id" : "32",
+    "filename" : "32.efx",
+    "description" : "Default",
+    "_label" : "view|name|32",
+    "_noticeSubtypeIds" : [ "32" ]
+  }, {
+    "id" : "33",
+    "filename" : "33.efx",
+    "description" : "Default",
+    "_label" : "view|name|33",
+    "_noticeSubtypeIds" : [ "33" ]
+  }, {
+    "id" : "34",
+    "filename" : "34.efx",
+    "description" : "Default",
+    "_label" : "view|name|34",
+    "_noticeSubtypeIds" : [ "34" ]
+  }, {
+    "id" : "35",
+    "filename" : "35.efx",
+    "description" : "Default",
+    "_label" : "view|name|35",
+    "_noticeSubtypeIds" : [ "35" ]
+  }, {
+    "id" : "36",
+    "filename" : "36.efx",
+    "description" : "Default",
+    "_label" : "view|name|36",
+    "_noticeSubtypeIds" : [ "36" ]
+  }, {
+    "id" : "37",
+    "filename" : "37.efx",
+    "description" : "Default",
+    "_label" : "view|name|37",
+    "_noticeSubtypeIds" : [ "37" ]
+  }, {
+    "id" : "38",
+    "filename" : "38.efx",
+    "description" : "Default",
+    "_label" : "view|name|38",
+    "_noticeSubtypeIds" : [ "38" ]
+  }, {
+    "id" : "39",
+    "filename" : "39.efx",
+    "description" : "Default",
+    "_label" : "view|name|39",
+    "_noticeSubtypeIds" : [ "39" ]
+  }, {
+    "id" : "40",
+    "filename" : "40.efx",
+    "description" : "Default",
+    "_label" : "view|name|40",
+    "_noticeSubtypeIds" : [ "40" ]
+  }, {
+    "id" : "CEI",
+    "filename" : "CEI.efx",
+    "description" : "Default",
+    "_label" : "view|name|CEI",
+    "_noticeSubtypeIds" : [ "CEI" ]
+  }, {
+    "id" : "summary",
+    "filename" : "summary.efx",
+    "description" : "The summary view works for all notices",
+    "_label" : "view|name|summary",
+    "_noticeSubtypeIds" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ]
+  }, {
+    "id" : "T01",
+    "filename" : "T01.efx",
+    "description" : "Default",
+    "_label" : "view|name|T01",
+    "_noticeSubtypeIds" : [ "T01" ]
+  }, {
+    "id" : "T02",
+    "filename" : "T02.efx",
+    "description" : "Default",
+    "_label" : "view|name|T02",
+    "_noticeSubtypeIds" : [ "T02" ]
+  }, {
+    "id" : "X01",
+    "filename" : "X01.efx",
+    "description" : "Default",
+    "_label" : "view|name|X01",
+    "_noticeSubtypeIds" : [ "X01" ]
+  }, {
+    "id" : "X02",
+    "filename" : "X02.efx",
+    "description" : "Default",
+    "_label" : "view|name|X02",
+    "_noticeSubtypeIds" : [ "X02" ]
+  } ]
+}
