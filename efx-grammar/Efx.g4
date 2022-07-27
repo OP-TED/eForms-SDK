@@ -197,14 +197,23 @@ durationExpression
  * Sequences
  */
 
-sequenceExpression: sequenceFromReference | stringSequence | booleanSequence | numericSequence | dateSequence | timeSequence | durationSequence;
+sequenceExpression
+    : sequenceFromReference 
+    | stringSequence 
+    | booleanSequence 
+    | numericSequence 
+    | dateSequence 
+    | timeSequence 
+    | durationSequence 
+    | sequenceFunction
+    ;
 
 stringSequence
     : OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis           # stringList
     | stringSequenceFromIteration                                                           # stringsFromIteration
     | OpenParenthesis stringSequenceFromIteration CloseParenthesis                          # parenthesizedStringsFromIteration
     | codelistReference                                                                     # codeList
-    | TextTypeCast? sequenceFromReference                                                         # stringTypeCastFieldReference      
+    | TextTypeCast? sequenceFromReference                                                   # stringTypeCastFieldReference      
     ;
 
 stringSequenceFromIteration: For iteratorList Return stringExpression;
@@ -213,7 +222,7 @@ booleanSequence
     : OpenParenthesis booleanExpression (Comma booleanExpression)* CloseParenthesis     # booleanList
     | booleanSequenceFromIteration                                                      # booleansFromIteration
     | OpenParenthesis booleanSequenceFromIteration CloseParenthesis                     # parenthesizedBooleansFromIteration
-    | BooleanTypeCast? sequenceFromReference                                                  # booleanTypeCastFieldReference
+    | BooleanTypeCast? sequenceFromReference                                            # booleanTypeCastFieldReference
     ;
 
 booleanSequenceFromIteration: For iteratorList Return booleanExpression;
@@ -222,7 +231,7 @@ numericSequence
     : OpenParenthesis numericExpression (Comma numericExpression)* CloseParenthesis     # numericList
     | numericSequenceFromIteration                                                      # numbersFromIteration
     | OpenParenthesis numericSequenceFromIteration CloseParenthesis                     # parenthesizedNumbersFromIteration
-    | NumericTypeCast? sequenceFromReference                                                  # numericTypeCastFieldReference
+    | NumericTypeCast? sequenceFromReference                                            # numericTypeCastFieldReference
     ;
 
 numericSequenceFromIteration: For iteratorList Return numericExpression;
@@ -231,7 +240,7 @@ dateSequence
     : OpenParenthesis dateExpression (Comma dateExpression)* CloseParenthesis   # dateList
     | dateSequenceFromIteration                                                 # datesFromIteration
     | OpenParenthesis dateSequenceFromIteration CloseParenthesis                # parenthesizedDatesFromIteration
-    | DateTypeCast? sequenceFromReference                                             # dateTypeCastFieldReference
+    | DateTypeCast? sequenceFromReference                                       # dateTypeCastFieldReference
     ;
 
 dateSequenceFromIteration: For iteratorList Return dateExpression;
@@ -240,7 +249,7 @@ timeSequence
     : OpenParenthesis timeExpression (Comma timeExpression)* CloseParenthesis   # timeList
     | timeSequenceFromIteration                                                 # timesFromIteration
     | OpenParenthesis timeSequenceFromIteration CloseParenthesis                # parenthesizedTimesFromIteration
-    | TimeTypeCast? sequenceFromReference                                             # timeTypeCastFieldReference
+    | TimeTypeCast? sequenceFromReference                                       # timeTypeCastFieldReference
     ;
 
 timeSequenceFromIteration: For iteratorList Return timeExpression;
@@ -249,7 +258,7 @@ durationSequence
     : OpenParenthesis durationExpression (Comma durationExpression)* CloseParenthesis   # durationList
     | durationSequenceFromIteration                                                     # durationsFromIteration
     | OpenParenthesis durationSequenceFromIteration CloseParenthesis                    # parenthesizedDurationsFromITeration
-    | DurationTypeCast? sequenceFromReference                                                 # durationTypeCastFieldReference
+    | DurationTypeCast? sequenceFromReference                                           # durationTypeCastFieldReference
     ;
 
 durationSequenceFromIteration: For iteratorList Return durationExpression;
@@ -379,10 +388,17 @@ dateFunction
     ;
 
 timeFunction
-    : TimeFunction OpenParenthesis stringExpression CloseParenthesis        # timeFromStringFunction
+    : TimeFunction OpenParenthesis stringExpression CloseParenthesis                # timeFromStringFunction
     ;
 
 durationFunction
     : DayTimeDurationFunction OpenParenthesis stringExpression CloseParenthesis     # dayTimeDurationFromStringFunction
     | YearMonthDurationFunction OpenParenthesis stringExpression CloseParenthesis   # yearMonthDurationFromStringFunction
+    ;
+
+sequenceFunction
+    : DistinctValuesFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis   # distinctValuesFunction
+    | UnionFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis            # unionFunction    
+    | IntersectFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis        # intersectFunction
+    | ExceptFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis           # exceptFunction
     ;
