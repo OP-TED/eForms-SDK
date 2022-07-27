@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Hungarian. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
+<comment>field in Hungarian. File generated from metadata database version 0.5.166 created on the 2022-07-27T14:43:56</comment>
 <entry key="field|name|BT-01(c)-Procedure">Az eljárás jogalapja</entry>
 <entry key="field|name|BT-01(d)-Procedure">Az eljárás jogalapja</entry>
+<entry key="field|name|BT-01(e)-Procedure">Az eljárás jogalapja</entry>
+<entry key="field|name|BT-01(f)-Procedure">Az eljárás jogalapja</entry>
 <entry key="field|name|BT-01-notice">Az eljárás jogalapja</entry>
 <entry key="field|name|BT-02-notice">Hirdetmény típusa</entry>
 <entry key="field|name|BT-03-notice">Formanyomtatvány típusa</entry>

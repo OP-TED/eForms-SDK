@@ -141,7 +141,6 @@
           }, {
             "fieldId" : "BT-01(d)-Procedure",
             "name" : "Legal Basis (Text)",
-            "repeatable" : true,
             "displayType" : "TEXTAREA"
           } ]
         }, {
@@ -157,6 +156,10 @@
           }, {
             "fieldId" : "BT-23-Procedure",
             "name" : "Main Nature"
+          }, {
+            "fieldId" : "BT-531-Procedure",
+            "name" : "Additional Nature",
+            "repeatable" : true
           }, {
             "fieldId" : "OPP-040-Procedure",
             "name" : "Main Nature - Sub Type",
@@ -268,6 +271,10 @@
             "fieldId" : "BT-23-Lot",
             "name" : "Main Nature",
             "displayType" : "RADIO"
+          }, {
+            "fieldId" : "BT-531-Lot",
+            "name" : "Additional Nature",
+            "repeatable" : true
           } ]
         }, {
           "groupId" : "GR-Lot-QualityTarget",
@@ -552,9 +559,6 @@
               "fieldId" : "BT-150-Contract",
               "name" : "Contract Identifier"
             }, {
-              "fieldId" : "BT-1451-Contract",
-              "name" : "Winner Decision Date"
-            }, {
               "fieldId" : "BT-145-Contract",
               "name" : "Contract Conclusion Date"
             }, {
@@ -750,6 +754,16 @@
             }, {
               "fieldId" : "BT-739-Organization-Company",
               "name" : "Contact Fax"
+            } ]
+          }, {
+            "groupId" : "GR-Company-BuyerExclusive",
+            "name" : "Buyer Exclusive",
+            "fields" : [ {
+              "fieldId" : "OPP-051-Organization",
+              "name" : "Awarding CPB Buyer Indicator"
+            }, {
+              "fieldId" : "OPP-052-Organization",
+              "name" : "Acquiring CPB Buyer Indicator"
             } ]
           }, {
             "groupId" : "GR-Company-EconomicOperatorExclusive",

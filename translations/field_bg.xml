@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Bulgarian. File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00</comment>
+<comment>field in Bulgarian. File generated from metadata database version 0.5.166 created on the 2022-07-27T14:43:56</comment>
 <entry key="field|name|BT-01(c)-Procedure">Правно основание на процедурата</entry>
 <entry key="field|name|BT-01(d)-Procedure">Правно основание на процедурата</entry>
+<entry key="field|name|BT-01(e)-Procedure">Правно основание на процедурата</entry>
+<entry key="field|name|BT-01(f)-Procedure">Правно основание на процедурата</entry>
 <entry key="field|name|BT-01-notice">Правно основание на процедурата</entry>
 <entry key="field|name|BT-02-notice">Вид обявление</entry>
 <entry key="field|name|BT-03-notice">Вид подадени данни</entry>

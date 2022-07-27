@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "0.7.0",
+  "sdkVersion" : "0.8.0",
   "metadataDatabase" : {
-    "version" : "0.5.0",
-    "createdOn" : "2022-07-08T11:00:00"
+    "version" : "0.5.166",
+    "createdOn" : "2022-07-27T14:43:56"
   },
   "noticeId" : "X02",
   "metadata" : [ {
@@ -33,6 +33,13 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Identifier",
     "_label" : "field|name|BT-701-notice",
+    "readOnly" : true
+  }, {
+    "id" : "BT-757-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Version",
+    "_label" : "field|name|BT-757-notice",
     "readOnly" : true
   }, {
     "id" : "BT-702(a)-notice",
@@ -109,6 +116,12 @@
         "displayType" : "TEXTAREA",
         "description" : "Official name",
         "_label" : "field|name|BT-500-Business"
+      }, {
+        "id" : "OPP-131-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Senders email address",
+        "_label" : "field|name|OPP-131-Business"
       }, {
         "id" : "BT-501-Business-European",
         "contentType" : "field",

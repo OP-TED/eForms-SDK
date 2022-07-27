@@ -133,7 +133,6 @@
           }, {
             "fieldId" : "BT-01(d)-Procedure",
             "name" : "Legal Basis (Text)",
-            "repeatable" : true,
             "displayType" : "TEXTAREA"
           } ]
         }, {
@@ -435,74 +434,6 @@
                 "fieldId" : "BT-739-Organization-TouchPoint",
                 "name" : "Contact Fax"
               } ]
-            } ]
-          } ]
-        } ]
-      }, {
-        "groupId" : "GR-UBO-Subsection",
-        "name" : "Ultimate Beneficial Owner",
-        "section" : true,
-        "fields" : [ {
-          "groupId" : "GR-UBO",
-          "name" : "Ultimate Beneficial Owner",
-          "repeatable" : true,
-          "instanceList" : "UBO",
-          "fields" : [ {
-            "fieldId" : "OPT-202-UBO",
-            "name" : "Beneficial Owner Technical Identifier",
-            "instanceIdField" : "UBO",
-            "repeatable" : true,
-            "hidden" : true
-          }, {
-            "fieldId" : "BT-500-UBO",
-            "name" : "Name",
-            "displayType" : "TEXTAREA"
-          }, {
-            "fieldId" : "OPT-160-UBO",
-            "name" : "First Name",
-            "displayType" : "TEXTAREA"
-          }, {
-            "fieldId" : "BT-506-UBO",
-            "name" : "Contact Email Address"
-          }, {
-            "fieldId" : "BT-503-UBO",
-            "name" : "Contact Telephone Number"
-          }, {
-            "fieldId" : "BT-739-UBO",
-            "name" : "Contact Fax"
-          }, {
-            "fieldId" : "BT-507-UBO",
-            "name" : "Country Subdivision"
-          }, {
-            "fieldId" : "BT-510(a)-UBO",
-            "name" : "Street",
-            "displayType" : "TEXTAREA"
-          }, {
-            "fieldId" : "BT-510(b)-UBO",
-            "name" : "Street",
-            "displayType" : "TEXTAREA"
-          }, {
-            "fieldId" : "BT-510(c)-UBO",
-            "name" : "Street",
-            "displayType" : "TEXTAREA"
-          }, {
-            "fieldId" : "BT-512-UBO",
-            "name" : "Post Code",
-            "displayType" : "TEXTAREA"
-          }, {
-            "fieldId" : "BT-513-UBO",
-            "name" : "City",
-            "displayType" : "TEXTAREA"
-          }, {
-            "fieldId" : "BT-514-UBO",
-            "name" : "Country Code"
-          }, {
-            "groupId" : "GR-UBO-Winner",
-            "name" : "TBD Winner",
-            "fields" : [ {
-              "fieldId" : "BT-706-UBO",
-              "name" : "Winner Owner Nationality",
-              "repeatable" : true
             } ]
           } ]
         } ]

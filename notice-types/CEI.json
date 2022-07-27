@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "0.7.0",
+  "sdkVersion" : "0.8.0",
   "metadataDatabase" : {
-    "version" : "0.5.0",
-    "createdOn" : "2022-07-08T11:00:00"
+    "version" : "0.5.166",
+    "createdOn" : "2022-07-27T14:43:56"
   },
   "noticeId" : "CEI",
   "metadata" : [ {
@@ -226,16 +226,15 @@
           "id" : "BT-01(c)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Procedure Legal Basis (ELI - celex)",
+          "description" : "Procedure Legal Basis (ID)",
           "_label" : "field|name|BT-01(c)-Procedure",
           "_repeatable" : true
         }, {
           "id" : "BT-01(d)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
-          "description" : "Procedure Legal Basis (text)",
-          "_label" : "field|name|BT-01(d)-Procedure",
-          "_repeatable" : true
+          "description" : "Procedure Legal Basis (Description)",
+          "_label" : "field|name|BT-01(d)-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-Description",
@@ -424,7 +423,7 @@
           "id" : "BT-09(b)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
-          "description" : "Cross Border Law",
+          "description" : "Cross Border Law Description",
           "_label" : "field|name|BT-09(b)-Procedure"
         } ]
       }, {
@@ -570,7 +569,7 @@
         }, {
           "id" : "BT-726-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Suitable For SMEs",
           "_label" : "field|name|BT-726-Lot"
         }, {
@@ -696,12 +695,6 @@
             "displayType" : "TEXTBOX",
             "description" : "Duration Start Date",
             "_label" : "field|name|BT-536-Lot"
-          }, {
-            "id" : "BT-537-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Duration End Date",
-            "_label" : "field|name|BT-537-Lot"
           } ]
         }, {
           "id" : "GR-Lot-PlannedDuration-Period",
@@ -716,12 +709,6 @@
             "description" : "Duration Period",
             "_label" : "field|name|BT-36-Lot"
           } ]
-        }, {
-          "id" : "BT-538-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Duration Other",
-          "_label" : "field|name|BT-538-Lot"
         } ]
       }, {
         "id" : "GR-Lot-AdditionalInformation",
@@ -840,20 +827,6 @@
           "description" : "Subcontracting Obligation Minimum",
           "_label" : "field|name|BT-64-Lot"
         } ]
-      }, {
-        "id" : "GR-Lot-TenderReceipt",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Tender Recipient Organisation",
-        "_label" : "group|name|GR-Lot-TenderReceipt",
-        "content" : [ {
-          "id" : "OPT-301-Lot-TenderReceipt",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Tender Recipient Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-TenderReceipt",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
       } ]
     }, {
       "id" : "GR-Lot-SubmissionInfo",
@@ -925,6 +898,12 @@
           "displayType" : "COMBOBOX",
           "description" : "SubmissionElectronic",
           "_label" : "field|name|BT-17-Lot"
+        }, {
+          "id" : "BT-18-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Submission URL",
+          "_label" : "field|name|BT-18-Lot"
         } ]
       }, {
         "id" : "GR-Lot-ProcurementDocuments",
@@ -1098,7 +1077,7 @@
     }, {
       "id" : "BT-718-notice",
       "contentType" : "field",
-      "displayType" : "CHECKBOX",
+      "displayType" : "RADIO",
       "description" : "Change Procurement Documents",
       "_label" : "field|name|BT-718-notice"
     }, {
@@ -1164,7 +1143,7 @@
         }, {
           "id" : "BT-633-Organization",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Organisation Natural Person",
           "_label" : "field|name|BT-633-Organization"
         }, {
@@ -1284,6 +1263,25 @@
             "displayType" : "TEXTBOX",
             "description" : "Organisation Contact Fax",
             "_label" : "field|name|BT-739-Organization-Company"
+          } ]
+        }, {
+          "id" : "GR-Company-BuyerExclusive",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "Buyer Exclusive",
+          "_label" : "group|name|GR-Company-BuyerExclusive",
+          "content" : [ {
+            "id" : "OPP-051-Organization",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Awarding CPB Buyer Indicator",
+            "_label" : "field|name|OPP-051-Organization"
+          }, {
+            "id" : "OPP-052-Organization",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Acquiring CPB Buyer Indicator",
+            "_label" : "field|name|OPP-052-Organization"
           } ]
         }, {
           "id" : "GR-Touch-Point",
@@ -1407,119 +1405,6 @@
               "description" : "Contact Fax",
               "_label" : "field|name|BT-739-Organization-TouchPoint"
             } ]
-          } ]
-        } ]
-      } ]
-    }, {
-      "id" : "GR-UBO-Subsection",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Ultimate Beneficial Owner",
-      "_label" : "group|name|GR-UBO-Subsection",
-      "content" : [ {
-        "id" : "GR-UBO",
-        "contentType" : "group",
-        "nodeId" : "ND-UBO",
-        "displayType" : "GROUP",
-        "description" : "Ultimate Beneficial Owner",
-        "_label" : "group|name|ND-UBO",
-        "_idScheme" : "UBO",
-        "_identifierFieldId" : "OPT-202-UBO",
-        "_repeatable" : true,
-        "content" : [ {
-          "id" : "OPT-202-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Beneficial Owner Technical Identifier",
-          "_label" : "field|name|OPT-202-UBO",
-          "_idScheme" : "UBO",
-          "_repeatable" : true,
-          "hidden" : true
-        }, {
-          "id" : "BT-500-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "UBO Name",
-          "_label" : "field|name|BT-500-UBO"
-        }, {
-          "id" : "OPT-160-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "First Name",
-          "_label" : "field|name|OPT-160-UBO"
-        }, {
-          "id" : "BT-506-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "UBO Email Address",
-          "_label" : "field|name|BT-506-UBO"
-        }, {
-          "id" : "BT-503-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "UBO Telephone Number",
-          "_label" : "field|name|BT-503-UBO"
-        }, {
-          "id" : "BT-739-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "UBO Contact Fax",
-          "_label" : "field|name|BT-739-UBO"
-        }, {
-          "id" : "BT-507-UBO",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Country Subdivision",
-          "_label" : "field|name|BT-507-UBO"
-        }, {
-          "id" : "BT-510(a)-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Street",
-          "_label" : "field|name|BT-510(a)-UBO"
-        }, {
-          "id" : "BT-510(b)-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Streetline 1",
-          "_label" : "field|name|BT-510(b)-UBO"
-        }, {
-          "id" : "BT-510(c)-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Streetline 2",
-          "_label" : "field|name|BT-510(c)-UBO"
-        }, {
-          "id" : "BT-512-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Post Code",
-          "_label" : "field|name|BT-512-UBO"
-        }, {
-          "id" : "BT-513-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "City",
-          "_label" : "field|name|BT-513-UBO"
-        }, {
-          "id" : "BT-514-UBO",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Country Code",
-          "_label" : "field|name|BT-514-UBO"
-        }, {
-          "id" : "GR-UBO-Winner",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "TBD Winner",
-          "_label" : "group|name|GR-UBO-Winner",
-          "content" : [ {
-            "id" : "BT-706-UBO",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Winner Owner Nationality",
-            "_label" : "field|name|BT-706-UBO",
-            "_repeatable" : true
           } ]
         } ]
       } ]

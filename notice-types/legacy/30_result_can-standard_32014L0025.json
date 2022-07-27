@@ -141,7 +141,6 @@
           }, {
             "fieldId" : "BT-01(d)-Procedure",
             "name" : "Legal Basis (Text)",
-            "repeatable" : true,
             "displayType" : "TEXTAREA"
           } ]
         }, {
@@ -664,8 +663,7 @@
           "name" : "GPA Agreement",
           "fields" : [ {
             "fieldId" : "BT-115-Lot",
-            "name" : "GPA Coverage",
-            "displayType" : "RADIO"
+            "name" : "GPA Coverage"
           } ]
         }, {
           "groupId" : "GR-Lot-EUFunds",
@@ -890,7 +888,8 @@
               "collapsed" : true
             }, {
               "fieldId" : "BT-539-Lot",
-              "name" : "FIXME Award Criterion Type"
+              "name" : "FIXME Award Criterion Type",
+              "repeatable" : true
             }, {
               "groupId" : "GR-Unpublish-BT-539",
               "name" : "Unpublish - BT-539",
@@ -934,7 +933,6 @@
             }, {
               "fieldId" : "BT-540-Lot",
               "name" : "Award Criterion Description",
-              "repeatable" : true,
               "displayType" : "TEXTAREA"
             }, {
               "groupId" : "GR-Unpublish-BT-540",
@@ -1223,7 +1221,8 @@
               "collapsed" : true
             }, {
               "fieldId" : "BT-539-LotsGroup",
-              "name" : "FIXME Award Criterion Type"
+              "name" : "FIXME Award Criterion Type",
+              "repeatable" : true
             }, {
               "groupId" : "GR-Unpublish-BT-539-LotsGroup",
               "name" : "Unpublish - BT-539",
@@ -1267,7 +1266,6 @@
             }, {
               "fieldId" : "BT-540-LotsGroup",
               "name" : "Award Criterion Description",
-              "repeatable" : true,
               "displayType" : "TEXTAREA"
             }, {
               "groupId" : "GR-Unpublish-BT-540-LotsGroup",
