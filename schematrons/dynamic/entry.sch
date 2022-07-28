@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.5.129 created on the 2022-07-21T14:02:32.-->
+<!--File generated from metadata database version 0.5.172 created on the 2022-07-28T11:31:53.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -152,6 +152,8 @@
     <diagnostic id="BT-195_BT-554_-Tender">efbc:FieldIdentifierCode</diagnostic>
     <diagnostic id="BT-195_BT-555_-Tender">efbc:FieldIdentifierCode</diagnostic>
     <diagnostic id="BT-195_BT-556_-NoticeResult">efbc:FieldIdentifierCode</diagnostic>
+    <diagnostic id="BT-195_BT-635_-LotResult">efbc:FieldIdentifierCode</diagnostic>
+    <diagnostic id="BT-195_BT-636_-LotResult">efbc:FieldIdentifierCode</diagnostic>
     <diagnostic id="BT-195_BT-709_-LotResult">efbc:FieldIdentifierCode</diagnostic>
     <diagnostic id="BT-195_BT-710_-LotResult">efbc:FieldIdentifierCode</diagnostic>
     <diagnostic id="BT-195_BT-711_-LotResult">efbc:FieldIdentifierCode</diagnostic>
@@ -203,6 +205,8 @@
     <diagnostic id="BT-196_BT-554_-Tender">efbc:ReasonDescription</diagnostic>
     <diagnostic id="BT-196_BT-555_-Tender">efbc:ReasonDescription</diagnostic>
     <diagnostic id="BT-196_BT-556_-NoticeResult">efbc:ReasonDescription</diagnostic>
+    <diagnostic id="BT-196_BT-635_-LotResult">efbc:ReasonDescription</diagnostic>
+    <diagnostic id="BT-196_BT-636_-LotResult">efbc:ReasonDescription</diagnostic>
     <diagnostic id="BT-196_BT-709_-LotResult">efbc:ReasonDescription</diagnostic>
     <diagnostic id="BT-196_BT-710_-LotResult">efbc:ReasonDescription</diagnostic>
     <diagnostic id="BT-196_BT-711_-LotResult">efbc:ReasonDescription</diagnostic>
@@ -254,6 +258,8 @@
     <diagnostic id="BT-197_BT-554_-Tender">cbc:ReasonCode</diagnostic>
     <diagnostic id="BT-197_BT-555_-Tender">cbc:ReasonCode</diagnostic>
     <diagnostic id="BT-197_BT-556_-NoticeResult">cbc:ReasonCode</diagnostic>
+    <diagnostic id="BT-197_BT-635_-LotResult">cbc:ReasonCode</diagnostic>
+    <diagnostic id="BT-197_BT-636_-LotResult">cbc:ReasonCode</diagnostic>
     <diagnostic id="BT-197_BT-709_-LotResult">cbc:ReasonCode</diagnostic>
     <diagnostic id="BT-197_BT-710_-LotResult">cbc:ReasonCode</diagnostic>
     <diagnostic id="BT-197_BT-711_-LotResult">cbc:ReasonCode</diagnostic>
@@ -305,6 +311,8 @@
     <diagnostic id="BT-198_BT-554_-Tender">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198_BT-555_-Tender">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198_BT-556_-NoticeResult">efbc:PublicationDate</diagnostic>
+    <diagnostic id="BT-198_BT-635_-LotResult">efbc:PublicationDate</diagnostic>
+    <diagnostic id="BT-198_BT-636_-LotResult">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198_BT-709_-LotResult">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198_BT-710_-LotResult">efbc:PublicationDate</diagnostic>
     <diagnostic id="BT-198_BT-711_-LotResult">efbc:PublicationDate</diagnostic>
