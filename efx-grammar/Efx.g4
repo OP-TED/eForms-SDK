@@ -397,8 +397,8 @@ durationFunction
     ;
 
 sequenceFunction
-    : DistinctValuesFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis   # distinctValuesFunction
-    | UnionFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis            # unionFunction    
-    | IntersectFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis        # intersectFunction
-    | ExceptFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis           # exceptFunction
+    : DistinctValuesFunction OpenParenthesis (sequenceExpression | variableReference) CloseParenthesis                                              # distinctValuesFunction
+    | UnionFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis        # unionFunction    
+    | IntersectFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis    # intersectFunction
+    | ExceptFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis       # exceptFunction
     ;
