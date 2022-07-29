@@ -3,13 +3,11 @@
 <!-- This file contains schematron rules to enforce that certain values in a Change Notice are the 
 	 same as those in the parent notice (the notice that is subject to the change). -->
 
-<!-- URL prefix of the service to fetch a notice. -->
-<let name="urlPrefix" value="'http://localhost:8080/notices/'"/>
-
 <!-- Reference to the parent notice. -->
 <let name="parentNoticeId" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efbc:ChangedNoticeIdentifier/fn:normalize-space(text())"/>
 
-<!-- Function that fetches a notice. -->
+<!-- Function that fetches a notice based on its identifier.
+	 The value of $urlPrefix is defined in config.sch. -->
 <let name="getParentNotice" value="function($id) { fn:doc(concat($urlPrefix, $id)) }"/>
 
 <!-- XML document of the parent notice. -->
