@@ -151,7 +151,7 @@
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cac:ContractExtension"
                        role="WARN"
                        test="count(cbc:OptionsDescription) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00054-0022</svrl:text>
+      <svrl:text>rule|text|BR-BT-00054-0022</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-54-Lot">
 cbc:OptionsDescription</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -286,7 +286,7 @@ cbc:OptionsDescription</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
    <svrl:fired-rule context="/*/cbc:CustomizationID"/>
    <svrl:fired-rule context="/*/cbc:ID[@schemeName='notice-id']"/>
-   <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:IssueTime"/>
    <svrl:fired-rule context="/*/cbc:VersionID"/>
@@ -421,7 +421,7 @@ cbc:OptionsDescription</svrl:diagnostic-reference>
                        location="/ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[1]/efac:Company"
                        role="WARN"
                        test="((../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']/normalize-space(text()) = 'eu-funds') or (cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MDA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','UKR'))) or not((cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())))">
-      <svrl:text>rule|message|BR-BT-00514-0304</svrl:text>
+      <svrl:text>rule|text|BR-BT-00514-0304</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-514-Organization-Company">
 cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>

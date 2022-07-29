@@ -351,7 +351,7 @@
    <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
    <svrl:fired-rule context="/*/cbc:CustomizationID"/>
    <svrl:fired-rule context="/*/cbc:ID[@schemeName='notice-id']"/>
-   <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:IssueTime"/>
    <svrl:fired-rule context="/*/cbc:VersionID"/>
@@ -572,7 +572,7 @@
                        location="/ContractNotice/cac:ProcurementProjectLot[1]"
                        role="ERROR"
                        test="(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','E4') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'sui-act') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'ef-stand') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'tp-abil')) or ((../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = 'E4') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'sui-act') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'ef-stand') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'tp-abil')) or (not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','E4')))">
-      <svrl:text>rule|message|BR-BT-00137-0200</svrl:text>
+      <svrl:text>rule|text|BR-BT-00137-0200</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-137-Lot">
 cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -581,7 +581,7 @@ cbc:ID</svrl:diagnostic-reference>
                        location="/ContractNotice/cac:ProcurementProjectLot[1]/cac:TenderingTerms"
                        role="ERROR"
                        test="(../../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','38','39','40') and (cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']/normalize-space(text()) = 'required')) or not(../../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','38','39','40')) or not(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing'])">
-      <svrl:text>rule|message|BR-BT-00743-0100</svrl:text>
+      <svrl:text>rule|text|BR-BT-00743-0100</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-743-Lot">
 cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -603,7 +603,7 @@ cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoic
                        location="/ContractNotice/cac:ProcurementProjectLot[2]"
                        role="ERROR"
                        test="(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','E4') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'sui-act') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'ef-stand') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'tp-abil')) or ((../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = 'E4') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'sui-act') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'ef-stand') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'tp-abil')) or (not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','E4')))">
-      <svrl:text>rule|message|BR-BT-00137-0200</svrl:text>
+      <svrl:text>rule|text|BR-BT-00137-0200</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-137-Lot">
 cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -612,7 +612,7 @@ cbc:ID</svrl:diagnostic-reference>
                        location="/ContractNotice/cac:ProcurementProjectLot[2]/cac:TenderingTerms"
                        role="ERROR"
                        test="(../../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','38','39','40') and (cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']/normalize-space(text()) = 'required')) or not(../../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','38','39','40')) or not(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing'])">
-      <svrl:text>rule|message|BR-BT-00743-0100</svrl:text>
+      <svrl:text>rule|text|BR-BT-00743-0100</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-743-Lot">
 cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']</svrl:diagnostic-reference>
    </svrl:failed-assert>

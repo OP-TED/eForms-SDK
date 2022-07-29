@@ -116,7 +116,7 @@
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AllowedSubcontractTerms"
                        role="WARN"
                        test="count(cbc:MinimumPercent) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00064-0017</svrl:text>
+      <svrl:text>rule|text|BR-BT-00064-0017</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-64-Lot">
 cbc:MinimumPercent</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -124,7 +124,7 @@ cbc:MinimumPercent</svrl:diagnostic-reference>
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AllowedSubcontractTerms"
                        role="WARN"
                        test="count(cbc:MaximumPercent) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00729-0017</svrl:text>
+      <svrl:text>rule|text|BR-BT-00729-0017</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-729-Lot">
 cbc:MaximumPercent</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -246,6 +246,7 @@ cbc:MaximumPercent</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
    <svrl:fired-rule context="/*/cbc:CustomizationID"/>
    <svrl:fired-rule context="/*/cbc:ID[@schemeName='notice-id']"/>
+   <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:IssueTime"/>
    <svrl:fired-rule context="/*/cbc:VersionID"/>

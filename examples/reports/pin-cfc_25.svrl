@@ -149,7 +149,7 @@
                        location="/PriorInformationNotice/cac:ProcurementProjectLot[1]/cac:ProcurementProject/cac:ContractExtension"
                        role="WARN"
                        test="count(cbc:OptionsDescription) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00054-0016</svrl:text>
+      <svrl:text>rule|text|BR-BT-00054-0016</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-54-Lot">
 cbc:OptionsDescription</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -168,7 +168,7 @@ cbc:OptionsDescription</svrl:diagnostic-reference>
                        location="/PriorInformationNotice/cac:ProcurementProjectLot[2]/cac:ProcurementProject/cac:ContractExtension"
                        role="WARN"
                        test="count(cbc:OptionsDescription) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00054-0016</svrl:text>
+      <svrl:text>rule|text|BR-BT-00054-0016</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-54-Lot">
 cbc:OptionsDescription</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -304,7 +304,7 @@ cbc:OptionsDescription</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
    <svrl:fired-rule context="/*/cbc:CustomizationID"/>
    <svrl:fired-rule context="/*/cbc:ID[@schemeName='notice-id']"/>
-   <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '11']"/>
+   <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:IssueTime"/>
    <svrl:fired-rule context="/*/cbc:VersionID"/>

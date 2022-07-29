@@ -111,7 +111,7 @@
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="WARN"
                        test="count(cbc:WebsiteURI) &gt; 0 or not(cac:PartyName/cbc:Name)">
-      <svrl:text>rule|message|BR-BT-00505-0004</svrl:text>
+      <svrl:text>rule|text|BR-BT-00505-0004</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-505-Organization-Company">
 cbc:WebsiteURI</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -119,7 +119,7 @@ cbc:WebsiteURI</svrl:diagnostic-reference>
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="WARN"
                        test="count(cac:Contact/cbc:Telefax) &gt; 0 or not(cac:PartyName/cbc:Name)">
-      <svrl:text>rule|message|BR-BT-00739-0004</svrl:text>
+      <svrl:text>rule|text|BR-BT-00739-0004</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
 cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
