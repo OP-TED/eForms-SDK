@@ -267,7 +267,7 @@ ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
 Comparison: '==' | '!=' | '>' | '>=' | '<' | '<=';
 Star: '*';
 Slash: '/';
-Per100: '%';
+Percent: '%';
 Plus: '+';
 Minus: '-';
 Comma: ',';

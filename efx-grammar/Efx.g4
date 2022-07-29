@@ -151,7 +151,7 @@ stringExpression
 
 numericExpression
     : OpenParenthesis numericExpression CloseParenthesis                     # parenthesizedNumericExpression
-    | numericExpression operator=(Star | Slash | Per100) numericExpression   # multiplicationExpression
+    | numericExpression operator=(Star | Slash | Percent) numericExpression  # multiplicationExpression
     | numericExpression operator=(Plus | Minus) numericExpression            # additionExpression
     | If booleanExpression Then numericExpression Else numericExpression     # conditionalNumericExpression
     | numericLiteral                                                         # numericLiteralExpression
