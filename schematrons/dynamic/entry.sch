@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 0.5.172 created on the 2022-07-28T11:31:53.-->
+<!--File generated from metadata database version 0.5.177 created on the 2022-07-29T15:12:01.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -18,6 +18,7 @@
 	
 	<let name="noticeSubType" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text()"/>
 	
+	<include href="config.sch"/>
 	<include href="stage-1-preliminary.sch"/>
 	<include href="stage-1.sch"/>
 	<include href="stage-2.sch"/>
