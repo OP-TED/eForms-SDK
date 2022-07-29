@@ -67,7 +67,9 @@ fragment OpenBrace: '{';
 StartExpression: Dollar OpenBrace -> pushMode(EXPRESSION);
 StartLabel: Sharp OpenBrace -> pushMode(LABEL);
 
+EndOfLineComment: Whitespace* '//' ~[\r\n\f]* -> skip;
 Whitespace: [\t ];
+
 
 /*
  *
