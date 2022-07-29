@@ -56,13 +56,14 @@
         <directory>${basedir}</directory>
         <targetPath>${project.build.outputDirectory}/eforms-sdk</targetPath>
         <excludes>
-          <exclude>.git</exclude>
-          <exclude>.github/**</exclude>
-          <exclude>.gitignore</exclude>
-          <exclude>target/**</exclude>
-          <exclude>.project</exclude>
           <exclude>.classpath</exclude>
-          <exclude>.settings/**</exclude>
+          <exclude>.git*/**</exclude>
+          <exclude>.mvn/</exclude>
+          <exclude>.project</exclude>
+          <exclude>.settings/</exclude>
+          <exclude>pom.xml</exclude>
+          <exclude>mvnw*</exclude>
+          <exclude>target/</exclude>
         </excludes>
       </resource>
     </resources>
