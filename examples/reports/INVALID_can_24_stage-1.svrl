@@ -70,7 +70,7 @@
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:IssueTime) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00005-0088</svrl:text>
+      <svrl:text>rule|text|BR-BT-00005-0088</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-05_b_-notice">
 cbc:IssueTime</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -78,7 +78,7 @@ cbc:IssueTime</svrl:diagnostic-reference>
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:ID[@schemeName='notice-id']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00701-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00701-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-701-notice">
 cbc:ID[@schemeName='notice-id']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -86,7 +86,7 @@ cbc:ID[@schemeName='notice-id']</svrl:diagnostic-reference>
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:NoticeLanguageCode) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00702-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00702-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-702_a_-notice">
 cbc:NoticeLanguageCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -94,7 +94,7 @@ cbc:NoticeLanguageCode</svrl:diagnostic-reference>
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:VersionID) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00757-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00757-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-757-notice">
 cbc:VersionID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -102,7 +102,7 @@ cbc:VersionID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:UBLVersionID) &gt; 0">
-      <svrl:text>rule|message|BR-OPT-00001-0036</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00001-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-001-notice">
 cbc:UBLVersionID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -110,7 +110,7 @@ cbc:UBLVersionID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
-      <svrl:text>rule|message|BR-OPT-00002-0036</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00002-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-002-notice">
 cbc:CustomizationID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -118,7 +118,7 @@ cbc:CustomizationID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|message|BR-OPT-00300-0136</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00300-0136</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-300-Procedure-Buyer">
 cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -128,7 +128,7 @@ cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-r
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"
                        test="count(cbc:TenderResultCode) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00142-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00142-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-142-LotResult">
 cbc:TenderResultCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -137,7 +137,7 @@ cbc:TenderResultCode</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
                        test="count(efac:TenderReference/cbc:ID) &gt; 0">
-      <svrl:text>rule|message|BR-BT-03201-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-03201-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-3201-Tender">
 efac:TenderReference/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -145,7 +145,7 @@ efac:TenderReference/cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
                        test="count(efac:TenderingParty/cbc:ID) &gt; 0">
-      <svrl:text>rule|message|BR-OPT-00310-0036</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00310-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-310-Tender">
 efac:TenderingParty/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -156,7 +156,7 @@ efac:TenderingParty/cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PartyName/cbc:Name) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00500-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00500-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-500-Organization-Company">
 cac:PartyName/cbc:Name</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -164,7 +164,7 @@ cac:PartyName/cbc:Name</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PartyLegalEntity/cbc:CompanyID) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00501-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00501-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-501-Organization-Company">
 cac:PartyLegalEntity/cbc:CompanyID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -172,7 +172,7 @@ cac:PartyLegalEntity/cbc:CompanyID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:Contact/cbc:Telephone) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00503-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00503-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-503-Organization-Company">
 cac:Contact/cbc:Telephone</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -180,7 +180,7 @@ cac:Contact/cbc:Telephone</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00506-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00506-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-506-Organization-Company">
 cac:Contact/cbc:ElectronicMail</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -188,7 +188,7 @@ cac:Contact/cbc:ElectronicMail</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00513-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00513-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-513-Organization-Company">
 cac:PostalAddress/cbc:CityName</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -196,7 +196,7 @@ cac:PostalAddress/cbc:CityName</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
                        test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00514-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00514-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-514-Organization-Company">
 cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -205,7 +205,7 @@ cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ContractingParty"
                        role="ERROR"
                        test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00010-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00010-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-10-Procedure-Buyer">
 cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -213,7 +213,7 @@ cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']</sv
                        location="/ContractAwardNotice/cac:ContractingParty"
                        role="ERROR"
                        test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00011-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00011-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-11-Procedure-Buyer">
 cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -222,7 +222,7 @@ cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:d
                        location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
                        role="ERROR"
                        test="count(cbc:ServiceTypeCode) &gt; 0">
-      <svrl:text>rule|message|BR-OPT-00030-0036</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00030-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-030-Procedure-SProvider">
 cbc:ServiceTypeCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -231,7 +231,7 @@ cbc:ServiceTypeCode</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:TenderingProcess"
                        role="ERROR"
                        test="count(cbc:ProcedureCode) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00105-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00105-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-105-Procedure">
 cbc:ProcedureCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -240,7 +240,7 @@ cbc:ProcedureCode</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00021-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00021-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-21-Procedure">
 cbc:Name</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -248,7 +248,7 @@ cbc:Name</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:ProcurementTypeCode) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00023-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00023-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-23-Procedure">
 cbc:ProcurementTypeCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -256,7 +256,7 @@ cbc:ProcurementTypeCode</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Description) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00024-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00024-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-24-Procedure">
 cbc:Description</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -264,7 +264,7 @@ cbc:Description</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00262-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00262-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-262-Procedure">
 cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -274,7 +274,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
                        test="count(cbc:FundingProgramCode[@listName='eu-funded']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00060-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00060-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-60-Lot">
 cbc:FundingProgramCode[@listName='eu-funded']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -284,7 +284,7 @@ cbc:FundingProgramCode[@listName='eu-funded']</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion"
                        role="ERROR"
                        test="count(cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00539-0190</svrl:text>
+      <svrl:text>rule|text|BR-BT-00539-0190</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-539-Lot">
 cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -293,7 +293,7 @@ cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
                        test="count(cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|message|BR-OPT-00301-1094</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00301-1094</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-301-Lot-ReviewOrg">
 cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -301,7 +301,7 @@ cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-referenc
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="WARN"
                        test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|message|BR-OPT-00301-1194</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00301-1194</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-301-Lot-Mediator">
 cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -310,7 +310,7 @@ cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
                        role="ERROR"
                        test="count(cbc:GovernmentAgreementConstraintIndicator) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00115-0087</svrl:text>
+      <svrl:text>rule|text|BR-BT-00115-0087</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-115-Lot">
 cbc:GovernmentAgreementConstraintIndicator</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -318,7 +318,7 @@ cbc:GovernmentAgreementConstraintIndicator</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
                        role="ERROR"
                        test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00765-0087</svrl:text>
+      <svrl:text>rule|text|BR-BT-00765-0087</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-765-Lot">
 cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -326,7 +326,7 @@ cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreeme
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
                        role="ERROR"
                        test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00766-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00766-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-766-Lot">
 cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -335,7 +335,7 @@ cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']</svrl
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingProcess/cac:AuctionTerms"
                        role="ERROR"
                        test="count(cbc:AuctionConstraintIndicator) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00767-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00767-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-767-Lot">
 cbc:AuctionConstraintIndicator</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -344,7 +344,7 @@ cbc:AuctionConstraintIndicator</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Name) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00021-0192</svrl:text>
+      <svrl:text>rule|text|BR-BT-00021-0192</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-21-Lot">
 cbc:Name</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -352,7 +352,7 @@ cbc:Name</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00023-0138</svrl:text>
+      <svrl:text>rule|text|BR-BT-00023-0138</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-23-Lot">
 cbc:ProcurementTypeCode[@listName='contract-nature']</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -360,7 +360,7 @@ cbc:ProcurementTypeCode[@listName='contract-nature']</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cbc:Description) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00024-0192</svrl:text>
+      <svrl:text>rule|text|BR-BT-00024-0192</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-24-Lot">
 cbc:Description</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -368,7 +368,7 @@ cbc:Description</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
                        test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
-      <svrl:text>rule|message|BR-BT-00262-0137</svrl:text>
+      <svrl:text>rule|text|BR-BT-00262-0137</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-262-Lot">
 cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -404,7 +404,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -413,7 +413,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -422,7 +422,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -431,7 +431,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -440,7 +440,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -449,7 +449,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -458,7 +458,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -467,7 +467,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -476,7 +476,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -485,7 +485,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -494,7 +494,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -503,7 +503,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -512,7 +512,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -521,7 +521,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -530,7 +530,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -539,7 +539,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -548,7 +548,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        role="ERROR"
                        test="false()">
       <svrl:text>
-			rule|message|element-not-empty
+			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
@@ -557,7 +557,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode"
                        role="ERROR"
                        test="normalize-space(.) = ('part-req', 't-esubm', 't-med', 't-micro', 't-no-eea', 't-no-verif', 't-oth-eea', 't-small', 't-sme', 't-verif-inad', 't-verif-inad-low', 'tenders')">
-      <svrl:text>rule|message|BR-BT-00760-0052</svrl:text>
+      <svrl:text>rule|text|BR-BT-00760-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"/>
@@ -565,28 +565,28 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^TEN-\d4$')">
-      <svrl:text>rule|message|BR-OPT-00321-0052</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00321-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00316-0052"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^CON-\d4$')">
-      <svrl:text>rule|message|BR-OPT-00316-0052</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00316-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00210-0052"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^TPA-\d4$')">
-      <svrl:text>rule|message|BR-OPT-00210-0052</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00210-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00300-0203"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d4$')">
-      <svrl:text>rule|message|BR-OPT-00300-0203</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00300-0203</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"/>
@@ -594,14 +594,14 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d4$')">
-      <svrl:text>rule|message|BR-OPT-00200-0051</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00200-0051</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '29']"/>
-   <svrl:failed-assert id="BR-BT-00004-0071"
+   <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
+   <svrl:failed-assert id="BR-BT-00004-0052"
                        location="/ContractAwardNotice/cbc:ContractFolderID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^[a-f0-9]8-[a-f0-9]4-4[a-f0-9]3-[89ab][a-f0-9]3-[a-f0-9]12$')">
-      <svrl:text>rule|message|BR-BT-00004-0071</svrl:text>
+      <svrl:text>rule|text|BR-BT-00004-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
@@ -612,7 +612,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^LOT-\d4$')">
-      <svrl:text>rule|message|BR-BT-00137-0155</svrl:text>
+      <svrl:text>rule|text|BR-BT-00137-0155</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '29']"/>
@@ -621,7 +621,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"
                        test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric) = 0 or (cbc:TenderResultCode/normalize-space(text()) != 'open-nw')">
-      <svrl:text>rule|message|BR-BT-00759-0086</svrl:text>
+      <svrl:text>rule|text|BR-BT-00759-0086</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-759-LotResult">
 efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -629,7 +629,7 @@ efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric</svrl:diagnostic-refer
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"
                        test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or (cbc:TenderResultCode/normalize-space(text()) != 'open-nw')">
-      <svrl:text>rule|message|BR-BT-00760-0087</svrl:text>
+      <svrl:text>rule|text|BR-BT-00760-0087</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-760-LotResult">
 efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -638,7 +638,7 @@ efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode</svrl:diagnostic-referenc
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
                        test="count(cbc:RankCode) &gt; 0 or not(not(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text())))">
-      <svrl:text>rule|message|BR-BT-00171-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00171-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-171-Tender">
 cbc:RankCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -655,7 +655,7 @@ cbc:RankCode</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion"
                        role="ERROR"
                        test="count(cbc:CalculationExpression) &gt; 0 or not(not(cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric))">
-      <svrl:text>rule|message|BR-BT-00543-0088</svrl:text>
+      <svrl:text>rule|text|BR-BT-00543-0088</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-543-Lot">
 cbc:CalculationExpression</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -665,7 +665,7 @@ cbc:CalculationExpression</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="ERROR"
                        test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID))">
-      <svrl:text>rule|message|BR-BT-00099-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00099-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-99-Lot">
 cac:PresentationPeriod/cbc:Description</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -677,7 +677,7 @@ cac:PresentationPeriod/cbc:Description</svrl:diagnostic-reference>
                        location="/ContractAwardNotice"
                        role="ERROR"
                        test="(every $tenderer in ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID satisfies $tenderer != cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) and (every $subcont in ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID satisfies $subcont != cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">
-      <svrl:text>rule|message|BR-OPT-00300-0255</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00300-0255</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-300-Procedure-Buyer">
 cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -688,7 +688,7 @@ cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-r
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"
                        test="efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())">
-      <svrl:text>rule|message|BR-BT-13713-0110</svrl:text>
+      <svrl:text>rule|text|BR-BT-13713-0110</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-13713-LotResult">
 efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -697,7 +697,7 @@ efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
                        test="(efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) or (efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cbc:ID/normalize-space(text()))">
-      <svrl:text>rule|message|BR-BT-13714-0100</svrl:text>
+      <svrl:text>rule|text|BR-BT-13714-0100</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-13714-Tender">
 efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -705,7 +705,7 @@ efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
                        test="efac:TenderingParty/cbc:ID/normalize-space(text()) = ../efac:TenderingParty/cbc:ID/normalize-space(text())">
-      <svrl:text>rule|message|BR-OPT-00310-0100</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00310-0100</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-310-Tender">
 efac:TenderingParty/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -713,7 +713,7 @@ efac:TenderingParty/cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
                        test="(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID/normalize-space(text()))">
-      <svrl:text>rule|message|BR-OPT-00321-0101</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00321-0101</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-321-Tender">
 cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -722,7 +722,7 @@ cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
                        role="ERROR"
                        test="count(for $x in efac:ContractReference/cbc:ID, $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID[. = $x] return $y) = 1">
-      <svrl:text>rule|message|BR-BT-00150-0101</svrl:text>
+      <svrl:text>rule|text|BR-BT-00150-0101</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-150-Contract">
 efac:ContractReference/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -730,7 +730,7 @@ efac:ContractReference/cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
                        role="ERROR"
                        test="(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:SettledContract/cbc:ID/normalize-space(text()))">
-      <svrl:text>rule|message|BR-OPT-00316-0101</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00316-0101</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-316-Contract">
 cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -739,7 +739,7 @@ cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty"
                        role="ERROR"
                        test="(cbc:ID/normalize-space(text()) = ../efac:LotTender/efac:TenderingParty/cbc:ID/normalize-space(text()))">
-      <svrl:text>rule|message|BR-OPT-00210-0102</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00210-0102</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-210-Tenderer">
 cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -755,7 +755,7 @@ cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/cac:ProcurementProjectLot"
                        role="ERROR"
                        test="((cbc:ID/normalize-space(text()) = ../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID/normalize-space(text()))) or not((../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5')))">
-      <svrl:text>rule|message|BR-BT-00137-0209</svrl:text>
+      <svrl:text>rule|text|BR-BT-00137-0209</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-137-Lot">
 cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>

@@ -104,7 +104,7 @@
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
                        role="WARN"
                        test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|message|BR-OPT-00301-1194</svrl:text>
+      <svrl:text>rule|text|BR-OPT-00301-1194</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-301-Lot-Mediator">
 cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -201,7 +201,7 @@ cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
    <svrl:fired-rule context="/*/cbc:CustomizationID"/>
    <svrl:fired-rule context="/*/cbc:ID[@schemeName='notice-id']"/>
-   <svrl:fired-rule context="/*/cbc:ContractFolderID[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cbc:IssueTime"/>
    <svrl:fired-rule context="/*/cbc:VersionID"/>
@@ -246,7 +246,7 @@ cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[1]/efac:Company"
                        role="WARN"
                        test="count(cbc:WebsiteURI) &gt; 0 or not(cac:PartyName/cbc:Name)">
-      <svrl:text>rule|message|BR-BT-00505-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00505-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-505-Organization-Company">
 cbc:WebsiteURI</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -254,7 +254,7 @@ cbc:WebsiteURI</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[1]/efac:Company"
                        role="WARN"
                        test="count(cac:Contact/cbc:Telefax) &gt; 0 or not(cac:PartyName/cbc:Name)">
-      <svrl:text>rule|message|BR-BT-00739-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00739-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
 cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -264,7 +264,7 @@ cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[2]/efac:Company"
                        role="WARN"
                        test="count(cbc:WebsiteURI) &gt; 0 or not(cac:PartyName/cbc:Name)">
-      <svrl:text>rule|message|BR-BT-00505-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00505-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-505-Organization-Company">
 cbc:WebsiteURI</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -272,7 +272,7 @@ cbc:WebsiteURI</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[2]/efac:Company"
                        role="WARN"
                        test="count(cac:Contact/cbc:Telefax) &gt; 0 or not(cac:PartyName/cbc:Name)">
-      <svrl:text>rule|message|BR-BT-00739-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00739-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
 cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -282,7 +282,7 @@ cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[3]/efac:Company"
                        role="WARN"
                        test="count(cbc:WebsiteURI) &gt; 0 or not(cac:PartyName/cbc:Name)">
-      <svrl:text>rule|message|BR-BT-00505-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00505-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-505-Organization-Company">
 cbc:WebsiteURI</svrl:diagnostic-reference>
    </svrl:failed-assert>
@@ -290,7 +290,7 @@ cbc:WebsiteURI</svrl:diagnostic-reference>
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[3]/efac:Company"
                        role="WARN"
                        test="count(cac:Contact/cbc:Telefax) &gt; 0 or not(cac:PartyName/cbc:Name)">
-      <svrl:text>rule|message|BR-BT-00739-0036</svrl:text>
+      <svrl:text>rule|text|BR-BT-00739-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-739-Organization-Company">
 cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
