@@ -29,7 +29,7 @@ OutlineNumber: [0-9]+ [ \t]*;
 ColonColon: [ \t]* '::' [ \t]* -> pushMode(TEMPLATE);
 
 /*
- * The context of a row can be either a field or a node refernece, followed by one or more optional
+ * The context of a row can be either a field or a node reference, followed by one or more optional
  * predicates. In order to be able to parse any predicates, we need to treat the context declaration
  * as an expression block. Therefore the curly brace that opens a context declaration block, switches
  * the lexer to EXPRESSION mode.
@@ -43,7 +43,7 @@ SWS: [ \t]+ -> skip, mode(TEMPLATE);
 
 /*
  * TEMPLATE mode In template mode, whitespace is significant. In this mode we are looking for the
- * text that is tho be displayed. The text can contain placeholders for labels and expressions.
+ * text that is to be displayed. The text can contain placeholders for labels and expressions.
  */
 mode TEMPLATE;
 
@@ -267,7 +267,7 @@ ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
 Comparison: '==' | '!=' | '>' | '>=' | '<' | '<=';
 Star: '*';
 Slash: '/';
-Per100: '%';
+Percent: '%';
 Plus: '+';
 Minus: '-';
 Comma: ',';

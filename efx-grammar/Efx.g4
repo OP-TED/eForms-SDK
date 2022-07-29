@@ -20,7 +20,7 @@ templateFile: (templateLine)* EOF;
 
 /* 
  * A template line contains three parts: indentation, context-declaration and template.
- * Python-style indentation is used to structure the template-lines hierarchicaly.
+ * Python-style indentation is used to structure the template-lines hierarchically.
  * The context-declaration part specifies the XML element(s) that will trigger the generation 
  * of output for this template-line. The template-line will appear in the final output as many 
  * times as the number of XML elements matched by the context-declaration.
@@ -36,7 +36,7 @@ template: templateFragment;
 
 /*
  * A template is a combination of free-text, labels and expressions to be evaluated.
- * Whitespace is significant within the template, but is ignored when present at its begining or end.
+ * Whitespace is significant within the template, but is ignored when present at its beginning or end.
  */
 templateFragment
     : text templateFragment?                   # textTemplate
@@ -73,7 +73,7 @@ assetId
     | expressionBlock
     ;
 
-// We allow otherAsstId to be any identifier, including the ones used for AssetType or LabelType
+// We allow otherAssetId to be any identifier, including the ones used for AssetType or LabelType
 otherAssetId: OtherAssetId | AssetType | LabelType;
 
 /*** Expressions are matched when the lexical analyser is in EXPRESSION mode ***/
@@ -151,7 +151,7 @@ stringExpression
 
 numericExpression
     : OpenParenthesis numericExpression CloseParenthesis                     # parenthesizedNumericExpression
-    | numericExpression operator=(Star | Slash | Per100) numericExpression   # multiplicationExpression
+    | numericExpression operator=(Star | Slash | Percent) numericExpression  # multiplicationExpression
     | numericExpression operator=(Plus | Minus) numericExpression            # additionExpression
     | If booleanExpression Then numericExpression Else numericExpression     # conditionalNumericExpression
     | numericLiteral                                                         # numericLiteralExpression
