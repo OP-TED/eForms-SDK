@@ -19,6 +19,10 @@
       "name" : "Notice Identifier",
       "readOnly" : true
     }, {
+      "fieldId" : "BT-757-notice",
+      "name" : "Notice Version",
+      "readOnly" : true
+    }, {
       "fieldId" : "BT-702(a)-notice",
       "name" : "Notice Official Language",
       "hidden" : true
@@ -66,6 +70,9 @@
           "fieldId" : "BT-500-Business",
           "name" : "Official name",
           "displayType" : "TEXTAREA"
+        }, {
+          "fieldId" : "OPP-131-Business",
+          "name" : "Senders email address"
         }, {
           "fieldId" : "BT-501-Business-European",
           "name" : "EU Registration Number"
