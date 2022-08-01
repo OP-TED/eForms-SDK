@@ -144,7 +144,6 @@
           }, {
             "fieldId" : "BT-01(d)-Procedure",
             "name" : "Legal Basis (Text)",
-            "repeatable" : true,
             "displayType" : "TEXTAREA"
           } ]
         }, {
@@ -594,7 +593,8 @@
               "repeatable" : true
             }, {
               "fieldId" : "BT-539-Lot",
-              "name" : "FIXME Award Criterion Type"
+              "name" : "FIXME Award Criterion Type",
+              "repeatable" : true
             }, {
               "fieldId" : "BT-734-Lot",
               "name" : "Award Criterion Name",
@@ -602,7 +602,6 @@
             }, {
               "fieldId" : "BT-540-Lot",
               "name" : "Award Criterion Description",
-              "repeatable" : true,
               "displayType" : "TEXTAREA"
             } ]
           } ]
@@ -754,7 +753,8 @@
               "repeatable" : true
             }, {
               "fieldId" : "BT-539-LotsGroup",
-              "name" : "FIXME Award Criterion Type"
+              "name" : "FIXME Award Criterion Type",
+              "repeatable" : true
             }, {
               "fieldId" : "BT-734-LotsGroup",
               "name" : "Award Criterion Name",
@@ -762,7 +762,6 @@
             }, {
               "fieldId" : "BT-540-LotsGroup",
               "name" : "Award Criterion Description",
-              "repeatable" : true,
               "displayType" : "TEXTAREA"
             } ]
           } ]

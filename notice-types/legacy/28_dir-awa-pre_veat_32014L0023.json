@@ -144,7 +144,6 @@
           }, {
             "fieldId" : "BT-01(d)-Procedure",
             "name" : "Legal Basis (Text)",
-            "repeatable" : true,
             "displayType" : "TEXTAREA"
           } ]
         }, {
@@ -489,8 +488,7 @@
           "name" : "GPA Agreement",
           "fields" : [ {
             "fieldId" : "BT-115-Lot",
-            "name" : "GPA Coverage",
-            "displayType" : "RADIO"
+            "name" : "GPA Coverage"
           } ]
         }, {
           "groupId" : "GR-Lot-EUFunds",
@@ -585,7 +583,8 @@
               "repeatable" : true
             }, {
               "fieldId" : "BT-539-Lot",
-              "name" : "FIXME Award Criterion Type"
+              "name" : "FIXME Award Criterion Type",
+              "repeatable" : true
             }, {
               "fieldId" : "BT-734-Lot",
               "name" : "Award Criterion Name",
@@ -593,7 +592,6 @@
             }, {
               "fieldId" : "BT-540-Lot",
               "name" : "Award Criterion Description",
-              "repeatable" : true,
               "displayType" : "TEXTAREA"
             } ]
           } ]
@@ -731,7 +729,8 @@
               "repeatable" : true
             }, {
               "fieldId" : "BT-539-LotsGroup",
-              "name" : "FIXME Award Criterion Type"
+              "name" : "FIXME Award Criterion Type",
+              "repeatable" : true
             }, {
               "fieldId" : "BT-734-LotsGroup",
               "name" : "Award Criterion Name",
@@ -739,7 +738,6 @@
             }, {
               "fieldId" : "BT-540-LotsGroup",
               "name" : "Award Criterion Description",
-              "repeatable" : true,
               "displayType" : "TEXTAREA"
             } ]
           } ]
@@ -790,6 +788,11 @@
               "fieldId" : "BT-13713-LotResult",
               "name" : "Result Lot Identifier",
               "valueList" : [ "LOT" ]
+            }, {
+              "fieldId" : "OPT-315-LotResult",
+              "name" : "Contract Identifier Reference",
+              "repeatable" : true,
+              "valueList" : [ "CON" ]
             } ]
           }, {
             "groupId" : "GR-LotResult-Parties",
@@ -1291,12 +1294,6 @@
             "fields" : [ {
               "fieldId" : "OPP-050-Organization",
               "name" : "Buyers Group Lead Indicator"
-            }, {
-              "fieldId" : "OPP-051-Organization",
-              "name" : "Awarding CPB Buyer Indicator"
-            }, {
-              "fieldId" : "OPP-052-Organization",
-              "name" : "Acquiring CPB Buyer Indicator"
             } ]
           }, {
             "groupId" : "GR-Company-EconomicOperatorExclusive",
