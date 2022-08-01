@@ -1,30 +1,30 @@
 // View 2
 // sdkVersion='1.0.0'
-// File generated from metadata database version 0.5.169 created on the 2022-07-27T15:57:08
-1 {ND-Root} #{auxiliary|text|buyer} // --- 1 Buyer --- 
+// File generated from metadata database version 0.5.191 created on the 2022-08-01T12:04:59
+1 {ND-Root} #{auxiliary|text|buyer} // --- 1 Buyer ---
 	{ND-ContractingParty} #{auxiliary|text|buyer} // --- 1.1 Buyer ---
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value
 		2 {BT-11-Procedure-Buyer} #{name|BT-11}: #value
 		{BT-10-Procedure-Buyer} #{name|BT-10}: #value
 		{BT-610-Procedure-Buyer} #{name|BT-610}: #{BT-610-Procedure-Buyer}
-2 {ND-Root} #{auxiliary|text|procedure}  // --- 2 Procedure ---
-	{ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // --- 2.1 Procedure ---
+2 {ND-Root} #{auxiliary|text|procedure} // --- 2 Procedure ---
+	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // --- 2.1 Procedure ---
 		{BT-21-Procedure} #{name|BT-21}: $value
 		{BT-24-Procedure} #{name|BT-24}: $value
 		{BT-22-Procedure} #{name|BT-22}: $value
-		{ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // --- 2.1.1 Purpose  ---
+		1 {ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // --- 2.1.1 Purpose ---
 			{BT-23-Procedure} #{name|BT-23}: #value
 			{BT-531-Procedure} #{name|BT-531}: #value
 			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
 			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
-		{ND-ProcedureProcurementScope} #{auxiliary|text|general-information} // --- 2.1.4 General information ---
+		4 {ND-ProcedureProcurementScope} #{auxiliary|text|general-information} // --- 2.1.4 General information ---
 			{BT-300-Procedure} #{name|BT-300}: ${BT-300-Procedure}
 			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}
 			{BT-01-notice} #{BT-01-notice} ${BT-01(c)-Procedure} ${BT-01(d)-Procedure}
 			{BT-01(d)-Procedure} #{name|BT-01}: ${BT-01(d)-Procedure}
 8 {ND-Root} #{auxiliary|text|organisations} // --- 8 Organisations ---
-	{ND-Root} #{auxiliary|text|organisations} // --- 8.1 Organisations --- 
-		{ND-Root} #{auxiliary|text|buyer} // --- 8.1.1 Buyer ---
+	1 {ND-Root} #{auxiliary|text|organisations} // --- 8.1 Organisations ---
+		1 {ND-Root} #{auxiliary|text|buyer} // --- 8.1.1 Buyer ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value
 			{BT-633-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-633}: $value
 			{BT-501-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-501}: ${BT-501-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}
@@ -45,7 +45,6 @@
 				{BT-500-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-500}: $value
 				{BT-16-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-16}: $value
 				{BT-510(a)-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} ${BT-510(b)-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} ${BT-510(c)-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}
-
 				{BT-513-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-513}: $value
 				{BT-512-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-512}: $value
 				{BT-507-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-507}: $value
@@ -60,9 +59,8 @@
 				{OPP-050-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-group-leader}: $value
 				{OPP-052-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-cpb-acquiring}: $value
 				{OPP-051-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-cpb-awarding}: $value
-
 10 {ND-Root} #{auxiliary|text|change} // 10 Change ---
-	{ND-Root} #{auxiliary|text|change}
+	1 {ND-Root} #{auxiliary|text|change} // --- 8.1 Change---
 		{BT-758-notice} #{name|BT-758}: ${BT-758-notice}
 		{BT-140-notice} #{name|BT-140}: #{BT-140-notice}
 		{BT-762-notice} #{name|BT-762}: ${BT-762-notice}
@@ -70,13 +68,13 @@
 		{BT-141(a)-notice} #{name|BT-141}: ${BT-141(a)-notice}
 		{BT-718-notice} #{name|BT-718} ${BT-719-notice}: #{BT-718-notice}
 11 {ND-Root} #{auxiliary|text|notice-information} // -- 11 Notice information ---
-	{ND-Root} #{auxiliary|text|notice-information}
-		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}
+	1 {ND-Root} #{auxiliary|text|notice-information} // --- 11.1 Notice information ---
+		{BT-701-notice} #{name|BT-701}: ${BT-701-notice} - ${BT-757-notice}
 		{BT-03-notice} #{name|BT-03}: #{BT-03-notice}
 		{BT-02-notice} #{name|BT-02}: #{BT-02-notice}
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
 		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
-	{ND-Root} #{auxiliary|text|publication-information}
+	2 {ND-Root} #{auxiliary|text|publication-information} // --- 11.2 Publication information ---
 		{ND-Root} #{name|BT-21}
 		{OPP-010-notice} #{name|OPP-010}: ${OPP-010-notice}
 		{OPP-011-notice} #{name|OPP-011}: ${OPP-011-notice}
