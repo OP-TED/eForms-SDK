@@ -4,7 +4,7 @@ The Schematron rules used to validate eForms notices.
 
 ## Structure
 
-The validation of eForms notices is conceptually structured in 5 stages:
+The validation of eForms notices is conceptually structured in several stages:
 - Stage 1: Check the presence and absence of container elements;
 - Stage 2: Check the presence and absence of the leaf elements (a.k.a. Business Terms) together with the notice type and legal basis as per the eForms regulation. It also includes checks of the repeatable elements and the multilingual ones.
 - Stage 3: Check values of leaf elements (Business Terms). This includes:
@@ -17,7 +17,12 @@ Those stages are implemented in one or more schematron files. Each file contains
 
 Those Schematron files are all referenced in a single file `entry.sch`, using the Schematron `include` element.
 
-An additional schematron files named `change-notices.sch` checks that a change notice is consistent with the original notice. This requires fetching the original notice based on its identifier, via an HTTP request. The URL prefix for those requests is defined at the top to the `change-notices.sch`. You can avoid running those checks by removing the inclusion of this file from `entry.sch`
+Schematron rules are organised in 2 folders:
+* `static`: all rules that only use information in the notice being validated, as described above.
+* `dynamic`: all rules in `static`, plus rules that use information in other notices.
+
+In the `dynamic` folder, an additional schematron files named `change-notices.sch` checks that a change notice is consistent with the original notice. This requires fetching the original notice based on its identifier, by making an HTTP request to an external service.
+The URL of this service is configured by a variable defined in the file `config.sch`, which is included in `entry.sch`.
 
 ## Usage
 
