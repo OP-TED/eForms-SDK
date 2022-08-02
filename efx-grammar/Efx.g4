@@ -60,7 +60,7 @@ labelBlock
     | StartLabel labelType Pipe BtId EndLabel                      # shorthandBtLabelReference
     | StartLabel labelType Pipe FieldId EndLabel                   # shorthandFieldLabelReference
     | StartLabel FieldId EndLabel                                  # shorthandIndirectLabelReference
-    | StartLabel LabelType EndLabel                                # shorthandLabelReferenceFromContextField
+    | StartLabel LabelType EndLabel                                # shorthandLabelReferenceFromContext
     | ShorthandIndirectLabelReferenceFromContextField              # shorthandIndirectLabelReferenceFromContextField
     ;
 
