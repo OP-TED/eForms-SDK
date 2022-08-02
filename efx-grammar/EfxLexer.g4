@@ -237,6 +237,7 @@ DistinctValuesFunction: 'distinct-values';
 UnionFunction: 'value-union';
 IntersectFunction: 'value-intersect';
 ExceptFunction: 'value-except';
+SequenceEqualFunction: 'sequence-equal';
 
 BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
 FieldId: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
