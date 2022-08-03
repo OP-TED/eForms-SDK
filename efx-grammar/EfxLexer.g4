@@ -1,16 +1,36 @@
 lexer grammar EfxLexer;
 
+channels { WHITESPACE }
+
 /*
  * DEFAULT mode
+ * ------------------------------------------------------------------------------------------------
+ * This is the mode that the lexer starts in. In this mode, the lexer needs to identify the opening
+ * tokens of either the EFX expression or the EFX template line that is being parsed. If an EFX
+ * expression is being parsed, then the expression will stat with a context declaration (a field or
+ * node identifier), followed by a double-colon. If an EFX template line is being parsed, then the
+ * template line will start with some optional indentation, followed by an optional outline number,
+ * and a mandatory context declaration block {...}.
  */
 
-// The Context has the same definition as a FieldId or NodeId in EXPRESSION mode
+
+// Analysing an EFX expression ---------------------------------------------------------------------
+
+// The Context has the same definition as a FieldId or NodeId in EXPRESSION mode.
 FieldContext: FieldId -> type(FieldId);
 NodeContext: NodeId -> type(NodeId);
+
+// A double colon triggers a mode change (from default mode to TEMPLATE mode).
+ColonColon: [ \t]* '::' [ \t]* -> pushMode(TEMPLATE);
+
+
+
+// Analysing an EFX template line -----------------------------------------------------------------
 
 // Empty lines and comment lines are to be ignored by the parser.
 Comment: [ \t]* '//' ~[\r\n\f]* EOL* -> skip;
 EmptyLine: [ \t]* EOL+ -> skip;
+fragment EOL: ('\r'? '\n' | '\r' | '\f');
 
 // Tabs and spaces are used to express structure through indentation (like in Python).  
 MixedIndent: Tabs Spaces MixedIndent* | Spaces Tabs MixedIndent*;
@@ -19,35 +39,47 @@ Spaces: Space+;
 fragment Tab: [\t];
 fragment Space: [ ];
 
-EOL: ('\r'? '\n' | '\r' | '\f');
-
-// For the top level sections, (at the root outline level), the user can specify 
-// an integer value as the root outline number for the section. 
+// The EFX template translator can auto-generate outline numbers to mark the hierarchical structure
+// of the template. However the user wan override the auto-generated outline numbers by explicitly
+// specifying a number in each template line..
 OutlineNumber: [0-9]+ [ \t]*;
 
-// A double colon triggers a mode change (from default mode to TEMPLATE mode).
-ColonColon: [ \t]* '::' [ \t]* -> pushMode(TEMPLATE);
-
-/*
- * The context of a row can be either a field or a node reference, followed by one or more optional
- * predicates. In order to be able to parse any predicates, we need to treat the context declaration
- * as an expression block. Therefore the curly brace that opens a context declaration block, switches
- * the lexer to EXPRESSION mode.
- */
+// The context of a row can be either a field or a node reference, followed by one or more optional
+// predicates. In order to be able to parse any predicates, we need to treat the context declaration
+// as an expression block. Therefore the curly brace that opens a context declaration block,
+// switches the lexer to EXPRESSION mode. Before going into EXPRESSION mode though, we first push
+// the SKIP_WHITESPACE mode, so that the lexer finds itself in it after processing the context
+// declaration block..
 StartContextExpression: '{' -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpression);
 
 
+/*
+ * SKIP_WHITESPACE mode
+ * ------------------------------------------------------------------------------------------------
+ * This mode is used to skip any whitespace between the context declaration block of an EFX template
+ * line and the first character of the actual template. The trick is done by pushing the
+ * SKIP_WHITESPACE mode right before pushing the EXPRESSION mode needed to analyse the context
+ * declaration block. This will cause the lexer to return to this SKIP_WHITESPACE mode right after
+ * the context declaration block is processed (the EXPRESSION mode is popped right after the context
+ * declaration block is processed).
+ */
 mode SKIP_WHITESPACE;
 
+// Just skip all whitespace and directly switch to TEMPLATE mode. Notice that we do not use
+// pushMode(); we simply change the current mode from SKIP_WHITESPACE to TEMPLATE.
 SWS: [ \t]+ -> skip, mode(TEMPLATE);
 
+
 /*
- * TEMPLATE mode In template mode, whitespace is significant. In this mode we are looking for the
+ * TEMPLATE mode 
+ * ------------------------------------------------------------------------------------------------ 
+ * In template mode, whitespace is significant. In this mode we are looking for the
  * text that is to be displayed. The text can contain placeholders for labels and expressions.
  */
+
 mode TEMPLATE;
 
-// A newline terminates TEMPLATE mode and switches back to DEFAULT mode.
+// A newline terminates the TEMPLATE mode and switches back to DEFAULT mode.
 CRLF: ('\r'? '\n' | '\r' | '\f') -> popMode;
 
 FreeText: CharSequence+;
@@ -56,24 +88,30 @@ fragment Char: ~[\r\n\f\t #$}{];
 
 fragment Dollar: '$';	// Used for label placeholders
 fragment Sharp: '#';	// Used for expression placeholders
+fragment OpenBrace: '{';
 
 ShorthandFieldValueReferenceFromContextField: Dollar 'value';
 ShorthandIndirectLabelReferenceFromContextField: Sharp 'value';
 
 ShorthandLabelType: LabelType -> type(LabelType);
 
-fragment OpenBrace: '{';
 
 StartExpression: Dollar OpenBrace -> pushMode(EXPRESSION);
 StartLabel: Sharp OpenBrace -> pushMode(LABEL);
 
+// Comments at the end of a line.
 EndOfLineComment: Whitespace* '//' ~[\r\n\f]* -> skip;
+
+// Whitespace is significant in TEMPLATE mode.
 Whitespace: [\t ];
 
 
 /*
- *
+ * LABEL mode
+ * ------------------------------------------------------------------------------------------------
+ * This lexer mode is used for label blocks in EFX templates #{...}.
  */
+
 mode LABEL;
 
 Pipe: '|';
@@ -158,9 +196,8 @@ DoubleColon: ColonColon -> type(ColonColon);
  */
 EndExpression: '}' -> popMode;
 
-/*
- * Keywords
- */
+
+// Keywords ------------------------------------------------------------------------------------------------
 
 And: 'and';
 Or: 'or';
@@ -186,6 +223,8 @@ Notice: 'notice';
 Codelist: 'codelist';
 
 
+// Data types ------------------------------------------------------------------------------------------------
+
 BooleanTypeCast: 'indicator:';
 NumericTypeCast: 'number:';
 TextTypeCast: 'text:';
@@ -195,9 +234,9 @@ TimeTypeCast: 'time:';
 DurationTypeCast: 'measure:';
 ContextTypeCast: 'context:';
 
-/*
- * Axes
- */
+
+// Axes ------------------------------------------------------------------------------------------------
+
 Axis: Preceding | PrecedingSibling | Following | FollowingSibling | Child | Descendant | DescendantOrSelf | Ancestor | AncestorOrSelf;
 Preceding: 'preceding';
 Following: 'following';
@@ -211,9 +250,8 @@ Child: 'child';
 Self: 'self';
 Parent: 'parent';
 
-/*
- * Functions
- */
+
+// Functions ------------------------------------------------------------------------------------------------
 
 Not: 'not';
 CountFunction: 'count';
@@ -245,16 +283,13 @@ NodeId: 'ND' '-' [a-zA-Z0-9]+;
 
 Variable: '$' IdentifierPart;
 
-/**
- * Effective order of precedence is the order of declaration. 
- * Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
- * Therefore duration literals must be declared before Identifier. 
- */
+// Effective order of precedence is the order of declaration. 
+// Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
+// Therefore duration literals must be declared before Identifier. 
 DayTimeDurationLiteral: '-'? 'P' INTEGER ('W' | 'D');
 YearMonthDurationLiteral: '-'? 'P' INTEGER ('Y' | 'M');
 
 Identifier: IdentifierPart ('-' IdentifierPart)*;
-
 IdentifierPart: LETTER (LETTER | DIGIT)*;
 
 INTEGER: '-'? DIGIT+;
@@ -264,6 +299,9 @@ UUIDV4: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
 DATE: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z');
 TIME: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT (ZONE | 'Z');
 ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
+
+
+// Operators ------------------------------------------------------------------------------------------------
 
 Comparison: '==' | '!=' | '>' | '>=' | '<' | '<=';
 Star: '*';
@@ -284,4 +322,6 @@ fragment ESC_SEQ: '\\' [dDwWnsStrvfbcxu0"'\\];
 fragment LETTER: [a-zA-Z_];
 fragment DIGIT: [0-9];
 
-WS: [ \t]+ -> skip;
+// Whitespace, although not significant, is not skiped. It goes to a separate channel so that it can
+// be ignored by the parser without dissappearing (from syntax error messages for example).
+WS: [ \t]+ -> channel(WHITESPACE);
