@@ -11,7 +11,7 @@ options { tokenVocab=EfxLexer;}
  * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
-singleExpression: (FieldId | NodeId) ColonColon expressionBlock EOF;
+singleExpression: StartExpression (FieldId | NodeId) EndExpression expressionBlock EOF;
 
 /* 
  * A template-file is a series of template-lines.
