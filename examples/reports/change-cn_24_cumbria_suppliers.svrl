@@ -477,6 +477,8 @@ cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod"/>
+   <svrl:active-pattern id="EFORMS-stage-6" name="EFORMS-stage-6"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/cbc:NoticeTypeCode/@listName='change']"/>
    <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
    <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']"/>
    <svrl:fired-rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ContractingParty"/>
