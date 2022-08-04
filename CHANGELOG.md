@@ -22,7 +22,12 @@ Various new features have been added to the eForms expression language (EFX), wi
 * functions to combine sequences: `value-union`, `value-intersect`, `value-except`
 * for and quantified expressions now allow several variable declarations
 * variables can now be used as context: `$variable::BT-137-Lot`
-axes
+
+The syntax for context declaration for expressions is now aligned with the syntax used in templates:
+`{ND-LotTenderingProcess} ${BT-115-Lot == FALSE}`
+
+EFX expressions can now accept parameters: `{ND-Root, number:$p1} ${$p1 == 1}`
+The value of parameters must be provided when the expression is translated.
 
 In EFX templates, you can now add custom numbering at any indentation level.
 
@@ -49,7 +54,6 @@ The file `stage-4-custom.sch` was removed, all the rules it contained are now co
 We have added several rules to try to check if there is a legal basis for publication of a notice in the Supplement to the Official Journal of the European Union. Those rules are indicated as a warning, and recognizable via a `flag="LAWFULNESS"` attribute.
 If one or more of those rules cause a `failed-assert` in the validation report, it means that we need to manually review the notice before it can be published.
 
-
 ### Added and updated rules
 Various new rules have been added, in particular for information that is allowed or mandatory only under certain conditions.
 Existing rules have been refined and improved.
@@ -66,15 +70,20 @@ The validation reports have been regenerated, using the rules in the `dynamic` f
 ### "Unpublished" fields
 Fields that can be withheld from publication ("unpublished") now have a `privacy` property that gives the information needed to withhold publication.
 
+### Assertion
+A new property named `assert` gives an assertion, as a boolean EFX expression, that is expected to evaluate to "true".
+This is currently used to specify rules on the field value that can depend on other fields, for example "field A is greated that field B".
+
 ### Information for change notices
-TODO changeable
+In order to specify what information cannot be modified in a change notice compared to the original notice, we have added a new property named `inChangeNotice`.
 
-### Assert
-TODO co-constraint
+### Context of EFX expressions
+In the various properties that contain an EFX expression, the expression now include the context declaration.
 
+### Simplification of field types
+The field type `internal-code` is replaced by `code`, as they have the same meaning.
 
-TODO field aliases
-
+The field types `zoned-date` and `zoned-time` are replaced by `date` and `time`, as those types already require a time zone.
 
 ### Updated information
 New fields and nodes have been added.
