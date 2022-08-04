@@ -7,8 +7,8 @@ channels { WHITESPACE }
  * ------------------------------------------------------------------------------------------------
  * This is the mode that the lexer starts in. In this mode, the lexer needs to identify the opening
  * tokens of either the EFX expression or the EFX template line that is being parsed. If an EFX
- * expression is being parsed, then the expression will stat with a context declaration (a field or
- * node identifier), followed by a double-colon. If an EFX template line is being parsed, then the
+ * expression is being parsed, then the expression will start with a context declaration (a field or
+ * node identifier). If an EFX template line is being parsed, then the
  * template line will start with some optional indentation, followed by an optional outline number,
  * and a mandatory context declaration block {...}.
  */
@@ -36,7 +36,7 @@ fragment Tab: [\t];
 fragment Space: [ ];
 
 // The EFX template translator can auto-generate outline numbers to mark the hierarchical structure
-// of the template. However the user wan override the auto-generated outline numbers by explicitly
+// of the template. However the user can override the auto-generated outline numbers by explicitly
 // specifying a number in each template line..
 OutlineNumber: [0-9]+ [ \t]*;
 
@@ -318,6 +318,6 @@ fragment ESC_SEQ: '\\' [dDwWnsStrvfbcxu0"'\\];
 fragment LETTER: [a-zA-Z_];
 fragment DIGIT: [0-9];
 
-// Whitespace, although not significant, is not skiped. It goes to a separate channel so that it can
-// be ignored by the parser without dissappearing (from syntax error messages for example).
+// Whitespace, although not significant, is not skipped. It goes to a separate channel so that it can
+// be ignored by the parser without disappearing (from syntax error messages for example).
 WS: [ \t]+ -> channel(WHITESPACE);
