@@ -20,10 +20,6 @@ channels { WHITESPACE }
 FieldContext: FieldId -> type(FieldId);
 NodeContext: NodeId -> type(NodeId);
 
-// A double colon triggers a mode change (from default mode to TEMPLATE mode).
-ColonColon: [ \t]* '::' [ \t]* -> pushMode(TEMPLATE);
-
-
 
 // Analysing an EFX template line -----------------------------------------------------------------
 
@@ -188,7 +184,7 @@ CloseParenthesis: ')';
 OpenBracket: '[';
 CloseBracket: ']';
 
-DoubleColon: ColonColon -> type(ColonColon);
+ColonColon: [ \t]* '::' [ \t]*;
 
 /*
  * Curly braces are not used by expressions themselves. So we use them to indicate the start and end
