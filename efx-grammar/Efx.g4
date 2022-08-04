@@ -11,7 +11,7 @@ options { tokenVocab=EfxLexer;}
  * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
-singleExpression: (FieldId | NodeId) ColonColon expressionBlock EOF;
+singleExpression: StartExpression (FieldId | NodeId) EndExpression expressionBlock EOF;
 
 /* 
  * A template-file is a series of template-lines.
@@ -39,13 +39,13 @@ template: templateFragment;
  * Whitespace is significant within the template, but is ignored when present at its beginning or end.
  */
 templateFragment
-    : text templateFragment?                   # textTemplate
+    : textBlock templateFragment?              # textTemplate
     | labelBlock templateFragment?             # labelTemplate
-    | expressionBlock templateFragment?        # valueTemplate
+    | expressionBlock templateFragment?        # expressionTemplate
     ;
 
 
-text: whitespace | FreeText+ text*;
+textBlock: whitespace | FreeText+ textBlock*;
 
 whitespace: Whitespace+;
 
@@ -59,9 +59,9 @@ labelBlock
     : StartLabel assetType Pipe labelType Pipe assetId EndLabel    # standardLabelReference
     | StartLabel labelType Pipe BtId EndLabel                      # shorthandBtLabelReference
     | StartLabel labelType Pipe FieldId EndLabel                   # shorthandFieldLabelReference
-    | StartLabel FieldId EndLabel                                  # shorthandFieldValueLabelReference
-    | StartLabel LabelType EndLabel                                # shorthandContextLabelReference
-    | ShorthandContextFieldLabelReference                          # shorthandContextFieldLabelReference
+    | StartLabel FieldId EndLabel                                  # shorthandIndirectLabelReference
+    | StartLabel LabelType EndLabel                                # shorthandLabelReferenceFromContext
+    | ShorthandIndirectLabelReferenceFromContextField              # shorthandIndirectLabelReferenceFromContextField
     ;
 
 assetType: AssetType | expressionBlock;
@@ -83,8 +83,8 @@ otherAssetId: OtherAssetId | AssetType | LabelType;
  * An expression-block starts with a $ and contains the expression to be evaluated inside curly braces.
  */
 expressionBlock
-    : StartExpression expression EndExpression    # standardExpressionBlock
-    | ShorthandContextFieldValueReference         # shorthandContextFieldValueReference
+    : StartExpression expression EndExpression          # standardExpressionBlock
+    | ShorthandFieldValueReferenceFromContextField      # shorthandFieldValueReferenceFromContextField
     ;
 
 /*
