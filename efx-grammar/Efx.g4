@@ -11,7 +11,7 @@ options { tokenVocab=EfxLexer;}
  * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
-singleExpression: StartExpression (FieldId | NodeId) EndExpression expressionBlock EOF;
+singleExpression: StartExpression (FieldId | NodeId) (Comma parameterList)? EndExpression expressionBlock EOF;
 
 /* 
  * A template-file is a series of template-lines.
@@ -96,7 +96,22 @@ contextDeclarationBlock
     | StartExpression nodeContext EndExpression
     ;
 
+/*
+ * Expression Parameters
+ */
 
+parameterList: parameterDeclaration (Comma parameterDeclaration)*;
+
+parameterDeclaration
+    : TextTypeCast Variable         # stringParameterDeclaration 
+    | NumericTypeCast Variable      # numericParameterDeclaration 
+    | BooleanTypeCast Variable      # booleanParameterDeclaration 
+    | DateTypeCast Variable         # dateParameterDeclaration
+    | TimeTypeCast Variable         # timeParameterDeclaration
+    | DurationTypeCast Variable     # durationParameterDeclaration 
+    ;
+
+parameterValue: stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral;
 
 
 /*
