@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.0.0",
   "metadataDatabase" : {
-    "version" : "0.5.203",
-    "createdOn" : "2022-08-03T17:08:48"
+    "version" : "0.5.204",
+    "createdOn" : "2022-08-05T10:24:40"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -1387,7 +1387,7 @@
     "btId" : "BT-01",
     "xpathAbsolute" : "/*/cbc:RegulatoryDomain",
     "xpathRelative" : "cbc:RegulatoryDomain",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -1416,7 +1416,7 @@
     "btId" : "BT-02",
     "xpathAbsolute" : "/*/cbc:NoticeTypeCode",
     "xpathRelative" : "cbc:NoticeTypeCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -1490,7 +1490,7 @@
     "btId" : "BT-03",
     "xpathAbsolute" : "/*/cbc:NoticeTypeCode/@listName",
     "xpathRelative" : "cbc:NoticeTypeCode/@listName",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -2639,7 +2639,7 @@
     "btId" : "BT-13",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AdditionalInformationRequestPeriod/cbc:EndDate",
     "xpathRelative" : "cac:AdditionalInformationRequestPeriod/cbc:EndDate",
-    "type" : "zoned-date",
+    "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -2665,7 +2665,7 @@
     "btId" : "BT-13",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:AdditionalInformationRequestPeriod/cbc:EndDate",
     "xpathRelative" : "cac:AdditionalInformationRequestPeriod/cbc:EndDate",
-    "type" : "zoned-date",
+    "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -2691,7 +2691,7 @@
     "btId" : "BT-13",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AdditionalInformationRequestPeriod/cbc:EndTime",
     "xpathRelative" : "cac:AdditionalInformationRequestPeriod/cbc:EndTime",
-    "type" : "zoned-time",
+    "type" : "time",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -2717,7 +2717,7 @@
     "btId" : "BT-13",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:AdditionalInformationRequestPeriod/cbc:EndTime",
     "xpathRelative" : "cac:AdditionalInformationRequestPeriod/cbc:EndTime",
-    "type" : "zoned-time",
+    "type" : "time",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -2783,7 +2783,7 @@
     "btId" : "BT-131",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate",
     "xpathRelative" : "cac:TenderSubmissionDeadlinePeriod/cbc:EndDate",
-    "type" : "zoned-date",
+    "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -2843,7 +2843,7 @@
     "btId" : "BT-131",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndTime",
     "xpathRelative" : "cac:TenderSubmissionDeadlinePeriod/cbc:EndTime",
-    "type" : "zoned-time",
+    "type" : "time",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -2883,7 +2883,7 @@
     "btId" : "BT-1311",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate",
     "xpathRelative" : "cac:ParticipationRequestReceptionPeriod/cbc:EndDate",
-    "type" : "zoned-date",
+    "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -2944,7 +2944,7 @@
     "btId" : "BT-1311",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndTime",
     "xpathRelative" : "cac:ParticipationRequestReceptionPeriod/cbc:EndTime",
-    "type" : "zoned-time",
+    "type" : "time",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -2984,7 +2984,7 @@
     "btId" : "BT-132",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cbc:OccurrenceDate",
     "xpathRelative" : "cbc:OccurrenceDate",
-    "type" : "zoned-date",
+    "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -3039,7 +3039,7 @@
     "btId" : "BT-132",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cbc:OccurrenceTime",
     "xpathRelative" : "cbc:OccurrenceTime",
-    "type" : "zoned-time",
+    "type" : "time",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -3719,7 +3719,7 @@
     "btId" : "BT-14",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType",
     "xpathRelative" : "cbc:DocumentType",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "INDICATOR",
     "repeatable" : {
       "value" : false,
@@ -3757,7 +3757,7 @@
     "btId" : "BT-14",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType",
     "xpathRelative" : "cbc:DocumentType",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "INDICATOR",
     "repeatable" : {
       "value" : false,
@@ -14306,7 +14306,7 @@
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName",
     "xpathRelative" : "cbc:ItemClassificationCode/@listName",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14349,7 +14349,7 @@
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName",
     "xpathRelative" : "cbc:ItemClassificationCode/@listName",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14392,7 +14392,7 @@
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/@listName",
     "xpathRelative" : "cbc:ItemClassificationCode/@listName",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14435,7 +14435,7 @@
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName",
     "xpathRelative" : "@listName",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14478,7 +14478,7 @@
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName",
     "xpathRelative" : "@listName",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14521,7 +14521,7 @@
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName",
     "xpathRelative" : "@listName",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14564,7 +14564,7 @@
     "btId" : "BT-262",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode",
     "xpathRelative" : "cac:MainCommodityClassification/cbc:ItemClassificationCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14632,7 +14632,7 @@
     "btId" : "BT-262",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode",
     "xpathRelative" : "cac:MainCommodityClassification/cbc:ItemClassificationCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14700,7 +14700,7 @@
     "btId" : "BT-262",
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode",
     "xpathRelative" : "cac:MainCommodityClassification/cbc:ItemClassificationCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -14778,7 +14778,7 @@
     "btId" : "BT-263",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification/cbc:ItemClassificationCode",
     "xpathRelative" : "cac:AdditionalCommodityClassification/cbc:ItemClassificationCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : true,
@@ -14807,7 +14807,7 @@
     "btId" : "BT-263",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:AdditionalCommodityClassification/cbc:ItemClassificationCode",
     "xpathRelative" : "cac:AdditionalCommodityClassification/cbc:ItemClassificationCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : true,
@@ -14836,7 +14836,7 @@
     "btId" : "BT-263",
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:AdditionalCommodityClassification/cbc:ItemClassificationCode",
     "xpathRelative" : "cac:AdditionalCommodityClassification/cbc:ItemClassificationCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : true,
@@ -19780,7 +19780,7 @@
     "btId" : "BT-625",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:EstimatedOverallContractQuantity/@unitCode",
     "xpathRelative" : "cbc:EstimatedOverallContractQuantity/@unitCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -19852,7 +19852,7 @@
     "btId" : "BT-630",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod/cbc:EndDate",
     "xpathRelative" : "cbc:EndDate",
-    "type" : "zoned-date",
+    "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -19902,7 +19902,7 @@
     "btId" : "BT-630",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod/cbc:EndTime",
     "xpathRelative" : "cbc:EndTime",
-    "type" : "zoned-time",
+    "type" : "time",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -20577,7 +20577,7 @@
     "btId" : "BT-702",
     "xpathAbsolute" : "/*/cac:AdditionalNoticeLanguage/cbc:ID",
     "xpathRelative" : "cac:AdditionalNoticeLanguage/cbc:ID",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : true,
@@ -21355,7 +21355,7 @@
     "btId" : "BT-727",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region",
     "xpathRelative" : "cac:Address/cbc:Region",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -21389,7 +21389,7 @@
     "btId" : "BT-727",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region",
     "xpathRelative" : "cac:Address/cbc:Region",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -21423,7 +21423,7 @@
     "btId" : "BT-727",
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region",
     "xpathRelative" : "cbc:Region",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -23058,7 +23058,7 @@
     "btId" : "BT-763",
     "xpathAbsolute" : "/*/cac:TenderingProcess/cbc:PartPresentationCode",
     "xpathRelative" : "cbc:PartPresentationCode",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "INDICATOR",
     "repeatable" : {
       "value" : false,
@@ -24408,7 +24408,7 @@
     "btId" : "BT-97",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:Language/cbc:ID",
     "xpathRelative" : "cac:Language/cbc:ID",
-    "type" : "internal-code",
+    "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : true,
@@ -25831,7 +25831,7 @@
     "btId" : "OPT-090",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name",
     "xpathRelative" : "cbc:Name",
-    "type" : "internal-code",
+    "type" : "code",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -25859,7 +25859,7 @@
     "btId" : "OPT-090",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name",
     "xpathRelative" : "cbc:Name",
-    "type" : "internal-code",
+    "type" : "code",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -28413,7 +28413,7 @@
     "btId" : "OPT-999",
     "xpathAbsolute" : "/*/cac:TenderResult/cbc:AwardDate",
     "xpathRelative" : "cac:TenderResult/cbc:AwardDate",
-    "type" : "zoned-date",
+    "type" : "date",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
