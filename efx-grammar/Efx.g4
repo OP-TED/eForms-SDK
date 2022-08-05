@@ -111,7 +111,12 @@ parameterDeclaration
     | DurationTypeCast Variable     # durationParameterDeclaration 
     ;
 
-parameterValue: stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral;
+// Parameter values are not part of an EFX expression. 
+// However, an EFX Parser can and should be used to parse and validate them.
+// The parameterValue rule below defines the valid parameter values. 
+// A parameter value must be enclosed in an expression block so that the EFX lexer can switch 
+// from its DEFAULT mode to EXPRESSION mode in order to recognise the parameter value.
+parameterValue: StartExpression (stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral) EndExpression;
 
 
 /*

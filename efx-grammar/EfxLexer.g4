@@ -48,10 +48,6 @@ OutlineNumber: [0-9]+ [ \t]*;
 // declaration block..
 StartContextExpression: '{' -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpression);
 
-// When validating EFX literals passed as expression parameters, we need to switch the lexer to EXPRESSION mode. 
-// `To do this we prefix each parameter with the following character.
-ParameterModeIndicator: '&' -> skip, pushMode(EXPRESSION);
-
 /*
  * SKIP_WHITESPACE mode
  * ------------------------------------------------------------------------------------------------
