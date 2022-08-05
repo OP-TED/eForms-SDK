@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "0.7.0",
+  "sdkVersion" : "1.0.0",
   "metadataDatabase" : {
-    "version" : "0.5.0",
-    "createdOn" : "2022-07-08T11:00:00"
+    "version" : "1.0.0",
+    "createdOn" : "2022-08-05T10:24:40"
   },
   "noticeId" : "30",
   "metadata" : [ {
@@ -233,16 +233,15 @@
           "id" : "BT-01(c)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Procedure Legal Basis (ELI - celex)",
+          "description" : "Procedure Legal Basis (ID)",
           "_label" : "field|name|BT-01(c)-Procedure",
           "_repeatable" : true
         }, {
           "id" : "BT-01(d)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
-          "description" : "Procedure Legal Basis (text)",
-          "_label" : "field|name|BT-01(d)-Procedure",
-          "_repeatable" : true
+          "description" : "Procedure Legal Basis (Description)",
+          "_label" : "field|name|BT-01(d)-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-Description",
@@ -422,7 +421,7 @@
           "id" : "BT-09(b)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
-          "description" : "Cross Border Law",
+          "description" : "Cross Border Law Description",
           "_label" : "field|name|BT-09(b)-Procedure"
         }, {
           "id" : "GR-Unpublish-BT-09",
@@ -473,7 +472,7 @@
         "content" : [ {
           "id" : "BT-634-Procedure",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Procurement Relaunch",
           "_label" : "field|name|BT-634-Procedure"
         }, {
@@ -759,7 +758,7 @@
         "content" : [ {
           "id" : "BT-756-Procedure",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "PIN Competition Termination",
           "_label" : "field|name|BT-756-Procedure"
         } ]
@@ -1138,7 +1137,7 @@
         "content" : [ {
           "id" : "BT-767-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Electronic Auction",
           "_label" : "field|name|BT-767-Lot"
         } ]
@@ -1555,7 +1554,8 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Award Criterion Type",
-            "_label" : "field|name|BT-539-Lot"
+            "_label" : "field|name|BT-539-Lot",
+            "_repeatable" : true
           }, {
             "id" : "GR-Unpublish-BT-539",
             "contentType" : "group",
@@ -1631,8 +1631,7 @@
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Award Criterion Description",
-            "_label" : "field|name|BT-540-Lot",
-            "_repeatable" : true
+            "_label" : "field|name|BT-540-Lot"
           }, {
             "id" : "GR-Unpublish-BT-540",
             "contentType" : "group",
@@ -1683,7 +1682,7 @@
         "content" : [ {
           "id" : "BT-634-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Procurement Relaunch",
           "_label" : "field|name|BT-634-Lot"
         } ]
@@ -2131,7 +2130,8 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Award Criterion Type",
-            "_label" : "field|name|BT-539-LotsGroup"
+            "_label" : "field|name|BT-539-LotsGroup",
+            "_repeatable" : true
           }, {
             "id" : "GR-Unpublish-BT-539-LotsGroup",
             "contentType" : "group",
@@ -2207,8 +2207,7 @@
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Award Criterion Description",
-            "_label" : "field|name|BT-540-LotsGroup",
-            "_repeatable" : true
+            "_label" : "field|name|BT-540-LotsGroup"
           }, {
             "id" : "GR-Unpublish-BT-540-LotsGroup",
             "contentType" : "group",
@@ -2556,7 +2555,7 @@
           "content" : [ {
             "id" : "BT-119-LotResult",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Dynamic Purchasing System Termination",
             "_label" : "field|name|BT-119-LotResult"
           }, {
@@ -2963,7 +2962,7 @@
           }, {
             "id" : "BT-193-Tender",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Tender Variant",
             "_label" : "field|name|BT-193-Tender"
           }, {
@@ -3265,7 +3264,7 @@
           }, {
             "id" : "BT-730-Tender",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Subcontracting Value Known",
             "_label" : "field|name|BT-730-Tender"
           }, {
@@ -3303,7 +3302,7 @@
           }, {
             "id" : "BT-731-Tender",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Subcontracting Percentage Known",
             "_label" : "field|name|BT-731-Tender"
           }, {
@@ -3404,7 +3403,7 @@
           }, {
             "id" : "BT-768-Contract",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Contract Framework Agreement",
             "_label" : "field|name|BT-768-Contract"
           }, {
@@ -3494,7 +3493,7 @@
           }, {
             "id" : "OPT-170-Tenderer",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Tendering Party Leader ",
             "_label" : "field|name|OPT-170-Tenderer"
           } ]
@@ -3555,7 +3554,7 @@
     }, {
       "id" : "BT-718-notice",
       "contentType" : "field",
-      "displayType" : "CHECKBOX",
+      "displayType" : "RADIO",
       "description" : "Change Procurement Documents",
       "_label" : "field|name|BT-718-notice"
     }, {
@@ -3621,7 +3620,7 @@
         }, {
           "id" : "BT-633-Organization",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Organisation Natural Person",
           "_label" : "field|name|BT-633-Organization"
         }, {
@@ -3751,19 +3750,19 @@
           "content" : [ {
             "id" : "OPP-050-Organization",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Buyers Group Lead Indicator",
             "_label" : "field|name|OPP-050-Organization"
           }, {
             "id" : "OPP-051-Organization",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Awarding CPB Buyer Indicator",
             "_label" : "field|name|OPP-051-Organization"
           }, {
             "id" : "OPP-052-Organization",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Acquiring CPB Buyer Indicator",
             "_label" : "field|name|OPP-052-Organization"
           } ]
@@ -3790,7 +3789,7 @@
           }, {
             "id" : "BT-746-Organization",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Winner Listed",
             "_label" : "field|name|BT-746-Organization"
           } ]

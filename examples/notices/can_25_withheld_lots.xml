@@ -9,12 +9,12 @@
 				<efext:EformsExtension>
 					<efac:NoticeResult>
 						<efac:FieldsPrivacy>
-							<efbc:FieldIdentifierCode listName="non-publication-identifier">not-max-val</efbc:FieldIdentifierCode>
+							<efbc:FieldIdentifierCode listName="non-publication-identifier">not-val</efbc:FieldIdentifierCode>
 							<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
 							<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
 							<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
 						</efac:FieldsPrivacy>
-						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="GBP">100</cbc:EstimatedOverallFrameworkContractsAmount>
+						<cbc:TotalAmount currencyID="GBP">9.99</cbc:TotalAmount>
 						<efac:LotResult>
 							<cbc:HigherTenderAmount currencyID="GBP">111111</cbc:HigherTenderAmount>
 							<cbc:LowerTenderAmount currencyID="GBP">11</cbc:LowerTenderAmount>
@@ -120,7 +120,6 @@
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:IssueDate>2020-02-12Z</cbc:IssueDate>
 							<cbc:Title languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Title>
-							<efbc:ContractFrameworkIndicator>false</efbc:ContractFrameworkIndicator>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
@@ -285,7 +284,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">14093edf-648c-4264-895d-64dfa100e582</cbc:ID>
 	<cbc:ContractFolderID>18d27a53-0109-4f93-9231-6659d931bce0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-10+01:00</cbc:IssueDate>
@@ -445,7 +444,7 @@
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>
 			<cac:ContractingSystem>
-				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-mix</cbc:ContractingSystemTypeCode>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
 			</cac:ContractingSystem>
 			<cac:ContractingSystem>
 				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
@@ -586,7 +585,7 @@
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>
 			<cac:ContractingSystem>
-				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-mix</cbc:ContractingSystemTypeCode>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
 			</cac:ContractingSystem>
 			<cac:ContractingSystem>
 				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>

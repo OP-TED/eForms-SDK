@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "0.7.0",
+  "sdkVersion" : "1.0.0",
   "metadataDatabase" : {
-    "version" : "0.5.0",
-    "createdOn" : "2022-07-08T11:00:00"
+    "version" : "1.0.0",
+    "createdOn" : "2022-08-05T10:24:40"
   },
   "noticeId" : "17",
   "metadata" : [ {
@@ -226,16 +226,15 @@
           "id" : "BT-01(c)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Procedure Legal Basis (ELI - celex)",
+          "description" : "Procedure Legal Basis (ID)",
           "_label" : "field|name|BT-01(c)-Procedure",
           "_repeatable" : true
         }, {
           "id" : "BT-01(d)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
-          "description" : "Procedure Legal Basis (text)",
-          "_label" : "field|name|BT-01(d)-Procedure",
-          "_repeatable" : true
+          "description" : "Procedure Legal Basis (Description)",
+          "_label" : "field|name|BT-01(d)-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-Description",
@@ -436,7 +435,7 @@
           "id" : "BT-09(b)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
-          "description" : "Cross Border Law",
+          "description" : "Cross Border Law Description",
           "_label" : "field|name|BT-09(b)-Procedure"
         } ]
       }, {
@@ -474,7 +473,7 @@
         "content" : [ {
           "id" : "BT-634-Procedure",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Procurement Relaunch",
           "_label" : "field|name|BT-634-Procedure"
         }, {
@@ -628,7 +627,7 @@
         }, {
           "id" : "BT-726-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Suitable For SMEs",
           "_label" : "field|name|BT-726-Lot"
         }, {
@@ -889,7 +888,7 @@
         "content" : [ {
           "id" : "BT-767-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Electronic Auction",
           "_label" : "field|name|BT-767-Lot"
         }, {
@@ -1116,7 +1115,7 @@
         }, {
           "id" : "BT-40-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Selection Criteria Second Stage Invite",
           "_label" : "field|name|BT-40-Lot"
         }, {
@@ -1155,13 +1154,13 @@
         "content" : [ {
           "id" : "BT-52-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Successive Reduction Indicator (Lot)",
           "_label" : "field|name|BT-52-Lot"
         }, {
           "id" : "BT-661-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Maximum Candidates Indicator",
           "_label" : "field|name|BT-661-Lot"
         }, {
@@ -1235,7 +1234,8 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Award Criterion Type",
-            "_label" : "field|name|BT-539-Lot"
+            "_label" : "field|name|BT-539-Lot",
+            "_repeatable" : true
           }, {
             "id" : "BT-734-Lot",
             "contentType" : "field",
@@ -1247,8 +1247,7 @@
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Award Criterion Description",
-            "_label" : "field|name|BT-540-Lot",
-            "_repeatable" : true
+            "_label" : "field|name|BT-540-Lot"
           } ]
         } ]
       }, {
@@ -1311,7 +1310,7 @@
         "content" : [ {
           "id" : "BT-94-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Recurrence",
           "_label" : "field|name|BT-94-Lot"
         }, {
@@ -1425,13 +1424,13 @@
         "content" : [ {
           "id" : "BT-92-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Electronic Ordering",
           "_label" : "field|name|BT-92-Lot"
         }, {
           "id" : "BT-93-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Electronic Payment",
           "_label" : "field|name|BT-93-Lot"
         } ]
@@ -1492,7 +1491,7 @@
         "content" : [ {
           "id" : "BT-634-Lot",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Procurement Relaunch",
           "_label" : "field|name|BT-634-Lot"
         } ]
@@ -1634,6 +1633,12 @@
           "displayType" : "COMBOBOX",
           "description" : "SubmissionElectronic",
           "_label" : "field|name|BT-17-Lot"
+        }, {
+          "id" : "BT-18-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Submission URL",
+          "_label" : "field|name|BT-18-Lot"
         }, {
           "id" : "BT-19-Lot",
           "contentType" : "field",
@@ -1898,7 +1903,7 @@
         "content" : [ {
           "id" : "BT-726-LotsGroup",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Suitable For SMEs",
           "_label" : "field|name|BT-726-LotsGroup"
         }, {
@@ -2006,7 +2011,8 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Award Criterion Type",
-            "_label" : "field|name|BT-539-LotsGroup"
+            "_label" : "field|name|BT-539-LotsGroup",
+            "_repeatable" : true
           }, {
             "id" : "BT-734-LotsGroup",
             "contentType" : "field",
@@ -2018,8 +2024,7 @@
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Award Criterion Description",
-            "_label" : "field|name|BT-540-LotsGroup",
-            "_repeatable" : true
+            "_label" : "field|name|BT-540-LotsGroup"
           } ]
         } ]
       } ]
@@ -2053,7 +2058,7 @@
     }, {
       "id" : "BT-718-notice",
       "contentType" : "field",
-      "displayType" : "CHECKBOX",
+      "displayType" : "RADIO",
       "description" : "Change Procurement Documents",
       "_label" : "field|name|BT-718-notice"
     }, {
@@ -2119,7 +2124,7 @@
         }, {
           "id" : "BT-633-Organization",
           "contentType" : "field",
-          "displayType" : "CHECKBOX",
+          "displayType" : "RADIO",
           "description" : "Organisation Natural Person",
           "_label" : "field|name|BT-633-Organization"
         }, {
@@ -2249,19 +2254,19 @@
           "content" : [ {
             "id" : "OPP-050-Organization",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Buyers Group Lead Indicator",
             "_label" : "field|name|OPP-050-Organization"
           }, {
             "id" : "OPP-051-Organization",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Awarding CPB Buyer Indicator",
             "_label" : "field|name|OPP-051-Organization"
           }, {
             "id" : "OPP-052-Organization",
             "contentType" : "field",
-            "displayType" : "CHECKBOX",
+            "displayType" : "RADIO",
             "description" : "Acquiring CPB Buyer Indicator",
             "_label" : "field|name|OPP-052-Organization"
           } ]
@@ -2387,119 +2392,6 @@
               "description" : "Contact Fax",
               "_label" : "field|name|BT-739-Organization-TouchPoint"
             } ]
-          } ]
-        } ]
-      } ]
-    }, {
-      "id" : "GR-UBO-Subsection",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Ultimate Beneficial Owner",
-      "_label" : "group|name|GR-UBO-Subsection",
-      "content" : [ {
-        "id" : "GR-UBO",
-        "contentType" : "group",
-        "nodeId" : "ND-UBO",
-        "displayType" : "GROUP",
-        "description" : "Ultimate Beneficial Owner",
-        "_label" : "group|name|ND-UBO",
-        "_idScheme" : "UBO",
-        "_identifierFieldId" : "OPT-202-UBO",
-        "_repeatable" : true,
-        "content" : [ {
-          "id" : "OPT-202-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Beneficial Owner Technical Identifier",
-          "_label" : "field|name|OPT-202-UBO",
-          "_idScheme" : "UBO",
-          "_repeatable" : true,
-          "hidden" : true
-        }, {
-          "id" : "BT-500-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "UBO Name",
-          "_label" : "field|name|BT-500-UBO"
-        }, {
-          "id" : "OPT-160-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "First Name",
-          "_label" : "field|name|OPT-160-UBO"
-        }, {
-          "id" : "BT-506-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "UBO Email Address",
-          "_label" : "field|name|BT-506-UBO"
-        }, {
-          "id" : "BT-503-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "UBO Telephone Number",
-          "_label" : "field|name|BT-503-UBO"
-        }, {
-          "id" : "BT-739-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "UBO Contact Fax",
-          "_label" : "field|name|BT-739-UBO"
-        }, {
-          "id" : "BT-507-UBO",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Country Subdivision",
-          "_label" : "field|name|BT-507-UBO"
-        }, {
-          "id" : "BT-510(a)-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Street",
-          "_label" : "field|name|BT-510(a)-UBO"
-        }, {
-          "id" : "BT-510(b)-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Streetline 1",
-          "_label" : "field|name|BT-510(b)-UBO"
-        }, {
-          "id" : "BT-510(c)-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Streetline 2",
-          "_label" : "field|name|BT-510(c)-UBO"
-        }, {
-          "id" : "BT-512-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Post Code",
-          "_label" : "field|name|BT-512-UBO"
-        }, {
-          "id" : "BT-513-UBO",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "City",
-          "_label" : "field|name|BT-513-UBO"
-        }, {
-          "id" : "BT-514-UBO",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Country Code",
-          "_label" : "field|name|BT-514-UBO"
-        }, {
-          "id" : "GR-UBO-Winner",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "TBD Winner",
-          "_label" : "group|name|GR-UBO-Winner",
-          "content" : [ {
-            "id" : "BT-706-UBO",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Winner Owner Nationality",
-            "_label" : "field|name|BT-706-UBO",
-            "_repeatable" : true
           } ]
         } ]
       } ]

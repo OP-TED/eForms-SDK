@@ -1,57 +1,57 @@
 // View X01
-// sdkVersion='eforms-sdk-0.7.0'
-// File generated from metadata database version 0.5.0 created on the 2022-07-08T11:00
-2 {ND-Root} #{decoration|name|procedure}
-	{ND-Root} #{decoration|name|procedure}
-		{ND-Root} #{decoration|name|general-information}
-			{ND-Root} #{decoration|name|legal-basis}
+// sdkVersion='1.0.0'
+// File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40
+2 {ND-Root} #{auxiliary|text|procedure} // --- 2 Procedure ---
+	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // --- 2.1 Procedure ---
+		4 {ND-ProcedureProcurementScope} #{auxiliary|text|general-information} // --- 2.1.4 General information ---
+			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}
 			{BT-01-notice} #{BT-01-notice} ${BT-01(c)-Procedure} ${BT-01(d)-Procedure}
 			{BT-01(d)-Procedure} #{name|BT-01}: ${BT-01(d)-Procedure}
-8 {ND-Root} #{decoration|name|organisations}
-	{ND-Root} #{decoration|name|organisations}
+8 {ND-Root} #{auxiliary|text|organisations} // --- 8 Organisations ---
+	1 {ND-Root} #{auxiliary|text|organisations} // --- 8.1 Organisations ---
 		{ND-Root} #{name|BT-500}
-			{BT-500-Business} #{business_term|name|BT-500}: ${BT-500-Business}
+			{BT-500-Business} #{name|BT-500}: ${BT-500-Business}
 			{BT-501-Business-European} #{name|BT-501}: ${BT-501-Business-European}
 			{BT-501-Business-National} #{name|BT-501}: ${BT-501-Business-National}
 			{BT-510(a)-Business} #{name|BT-510}: ${BT-510(a)-Business} ${BT-510(b)-Business} ${BT-510(c)-Business}
-			{BT-513-Business} #{business_term|name|BT-513}: ${BT-513-Business}
-			{BT-512-Business} #{business_term|name|BT-512}: ${BT-512-Business}
-			{BT-507-Business} #{business_term|name|BT-507}: #{BT-507-Business}
-			{BT-514-Business} #{business_term|name|BT-514}: #{BT-514-Business}
-			{BT-502-Business} #{business_term|name|BT-502}: ${BT-502-Business}
-			{BT-506-Business} #{business_term|name|BT-506}: ${BT-506-Business}
-			{BT-503-Business} #{business_term|name|BT-503}: ${BT-503-Business}
-			{BT-739-Business} #{business_term|name|BT-739}: ${BT-739-Business}
-			{BT-505-Business} #{business_term|name|BT-505}: ${BT-505-Business}
-	{ND-Root} #{decoration|name|organisation-roles}
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} TODO 
-{ND-Root} #{decoration|name|object}
-	{ND-Root} #{decoration|name|legal-basis}
+			{BT-513-Business} #{name|BT-513}: ${BT-513-Business}
+			{BT-512-Business} #{name|BT-512}: ${BT-512-Business}
+			{BT-507-Business} #{name|BT-507}: #{BT-507-Business}
+			{BT-514-Business} #{name|BT-514}: #{BT-514-Business}
+			{BT-502-Business} #{name|BT-502}: ${BT-502-Business}
+			{BT-506-Business} #{name|BT-506}: ${BT-506-Business}
+			{BT-503-Business} #{name|BT-503}: ${BT-503-Business}
+			{BT-739-Business} #{name|BT-739}: ${BT-739-Business}
+			{BT-505-Business} #{name|BT-505}: ${BT-505-Business}
+	2 {ND-Root} #{auxiliary|text|organisation-roles} // --- 8.1.2 Roles of organisations ---
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} TODO
+9 {ND-Root} #{auxiliary|text|object} // --- 9 Object ---
+	{ND-Root} #{auxiliary|text|legal-basis} // --- Legal basis ---
 		{BT-01-notice} #{BT-01-notice}
-		{OPP-100-Business} #{business_term|name|OPP-100}: #{OPP-100-Business}
-	{BT-500-Business} #{business_term|name|BT-500-grouping}
-	{ND-Root} #{decoration|name|place-registration}
-		{OPP-110-Business} #{business_term|name|OPP-110}: ${OPP-110-Business}
-		{OPP-111-Business} #{business_term|name|OPP-111}: ${OPP-111-Business}
-		{OPP-112-Business} #{business_term|name|OPP-112}: ${OPP-112-Business}
-		{BT-501-Business-European} #{business_term|name|BT-501}: ${BT-501-Business-European}
-		{OPP-113-Business-European} #{business_term|name|OPP-113}: ${OPP-113-Business-European}
-	{ND-Root} #{decoration|name|publication-gazette}
-		{OPP-120-Business} #{business_term|name|OPP-120}: ${OPP-120-Business}
-		{OPP-121-Business} #{business_term|name|OPP-121}: ${OPP-121-Business}
-		{OPP-122-Business} #{business_term|name|OPP-122}: ${OPP-122-Business}
-		{OPP-123-Business} #{business_term|name|OPP-123}: ${OPP-123-Business}
-	{OPP-130-Business} #{business_term|name|OPP-130}: ${OPP-130-Business}
-11 {ND-Root} #{decoration|name|notice-information}
-	{ND-Root} #{decoration|name|notice-information}
-		{BT-701-notice} #{name|BT-757}: ${BT-757-notice}
-		{BT-03-notice} #{business_term|name|BT-03}: #{BT-03-notice}
-		{BT-02-notice} #{business_term|name|BT-02}: #{BT-02-notice}
-		{OPP-070-notice} #{business_term|name|OPP-070}: ${OPP-070-notice}
-		{OPP-131-Business} #{business_term|name|OPP-131}: ${OPP-131-Business}
+		{OPP-100-Business} #{name|OPP-100}: #{OPP-100-Business}
+	1 {BT-500-Business} #{name|BT-500-grouping} // --- 9.1 Name of the grouping: European Group of Lobbyists ---
+	3 {ND-Root} #{auxiliary|text|place-registration} // --- 9.3 Place of registration ---
+		{OPP-110-Business} #{name|OPP-110}: ${OPP-110-Business}
+		{OPP-111-Business} #{name|OPP-111}: ${OPP-111-Business}
+		{OPP-112-Business} #{name|OPP-112}: ${OPP-112-Business}
+		{BT-501-Business-European} #{name|BT-501}: ${BT-501-Business-European}
+		{OPP-113-Business-European} #{name|OPP-113}: ${OPP-113-Business-European}
+	4 {ND-Root} #{auxiliary|text|publication-gazette} // --- 9.4 Publication in the official gazette ---
+		{OPP-120-Business} #{name|OPP-120}: ${OPP-120-Business}
+		{OPP-121-Business} #{name|OPP-121}: ${OPP-121-Business}
+		{OPP-122-Business} #{name|OPP-122}: ${OPP-122-Business}
+		{OPP-123-Business} #{name|OPP-123}: ${OPP-123-Business}
+	5 {OPP-130-Business} #{name|OPP-130}: ${OPP-130-Business} // --- 9.5 Additional information ---
+11 {ND-Root} #{auxiliary|text|notice-information} // -- 11 Notice information ---
+	1 {ND-Root} #{auxiliary|text|notice-information} // --- 11.1 Notice information ---
+		{BT-701-notice} #{name|BT-701}: ${BT-701-notice} - ${BT-757-notice}
+		{BT-03-notice} #{name|BT-03}: #{BT-03-notice}
+		{BT-02-notice} #{name|BT-02}: #{BT-02-notice}
+		{OPP-070-notice} #{name|OPP-070}: ${OPP-070-notice}
+		{OPP-131-Business} #{name|OPP-131}: ${OPP-131-Business}
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
 		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
-	{ND-Root} #{decoration|name|publication-information}
-		{OPP-010-notice} #{business_term|name|OPP-010}: ${OPP-010-notice}
-		{OPP-011-notice} #{business_term|name|OPP-011}: ${OPP-011-notice}
-		{OPP-012-notice} #{business_term|name|OPP-012}: ${OPP-012-notice}
+	2 {ND-Root} #{auxiliary|text|publication-information} // --- 11.2 Publication information ---
+		{OPP-010-notice} #{name|OPP-010}: ${OPP-010-notice}
+		{OPP-011-notice} #{name|OPP-011}: ${OPP-011-notice}
+		{OPP-012-notice} #{name|OPP-012}: ${OPP-012-notice}

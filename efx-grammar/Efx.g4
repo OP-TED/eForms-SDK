@@ -11,7 +11,7 @@ options { tokenVocab=EfxLexer;}
  * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
-singleExpression: (FieldId | NodeId) ColonColon expressionBlock EOF;
+singleExpression: StartExpression (FieldId | NodeId) (Comma parameterList)? EndExpression expressionBlock EOF;
 
 /* 
  * A template-file is a series of template-lines.
@@ -20,14 +20,14 @@ templateFile: (templateLine)* EOF;
 
 /* 
  * A template line contains three parts: indentation, context-declaration and template.
- * Python-style indentation is used to structure the template-lines hierarchicaly.
+ * Python-style indentation is used to structure the template-lines hierarchically.
  * The context-declaration part specifies the XML element(s) that will trigger the generation 
  * of output for this template-line. The template-line will appear in the final output as many 
  * times as the number of XML elements matched by the context-declaration.
  * Furthermore, all the expression-blocks in the template part of this template-line will
  * be evaluated relative to the context indicated by the context-declaration. 
  */
-templateLine: (OutlineNumber | Tabs | Spaces | MixedIndent)? contextDeclarationBlock template CRLF;
+templateLine: (Tabs | Spaces | MixedIndent)? OutlineNumber? contextDeclarationBlock template CRLF;
 
 
 /*** Templates are matched when the lexical analyser is in LABEL mode ***/
@@ -36,16 +36,16 @@ template: templateFragment;
 
 /*
  * A template is a combination of free-text, labels and expressions to be evaluated.
- * Whitespace is significant within the template, but is ignored when present at its begining or end.
+ * Whitespace is significant within the template, but is ignored when present at its beginning or end.
  */
 templateFragment
-    : text templateFragment?                   # textTemplate
+    : textBlock templateFragment?              # textTemplate
     | labelBlock templateFragment?             # labelTemplate
-    | expressionBlock templateFragment?        # valueTemplate
+    | expressionBlock templateFragment?        # expressionTemplate
     ;
 
 
-text: whitespace | FreeText+ text*;
+textBlock: whitespace | FreeText+ textBlock*;
 
 whitespace: Whitespace+;
 
@@ -59,9 +59,9 @@ labelBlock
     : StartLabel assetType Pipe labelType Pipe assetId EndLabel    # standardLabelReference
     | StartLabel labelType Pipe BtId EndLabel                      # shorthandBtLabelReference
     | StartLabel labelType Pipe FieldId EndLabel                   # shorthandFieldLabelReference
-    | StartLabel FieldId EndLabel                                  # shorthandFieldValueLabelReference
-    | StartLabel LabelType EndLabel                                # shorthandContextLabelReference
-    | ShorthandContextFieldLabelReference                          # shorthandContextFieldLabelReference
+    | StartLabel FieldId EndLabel                                  # shorthandIndirectLabelReference
+    | StartLabel LabelType EndLabel                                # shorthandLabelReferenceFromContext
+    | ShorthandIndirectLabelReferenceFromContextField              # shorthandIndirectLabelReferenceFromContextField
     ;
 
 assetType: AssetType | expressionBlock;
@@ -73,7 +73,7 @@ assetId
     | expressionBlock
     ;
 
-// We allow otherAsstId to be any identifier, including the ones used for AssetType or LabelType
+// We allow otherAssetId to be any identifier, including the ones used for AssetType or LabelType
 otherAssetId: OtherAssetId | AssetType | LabelType;
 
 /*** Expressions are matched when the lexical analyser is in EXPRESSION mode ***/
@@ -83,8 +83,8 @@ otherAssetId: OtherAssetId | AssetType | LabelType;
  * An expression-block starts with a $ and contains the expression to be evaluated inside curly braces.
  */
 expressionBlock
-    : StartExpression expression EndExpression    # standardExpressionBlock
-    | ShorthandContextFieldValueReference         # shorthandContextFieldValueReference
+    : StartExpression expression EndExpression          # standardExpressionBlock
+    | ShorthandFieldValueReferenceFromContextField      # shorthandFieldValueReferenceFromContextField
     ;
 
 /*
@@ -92,11 +92,31 @@ expressionBlock
  * a field-identifier or a node-identifier followed by an optional predicate.
  */
 contextDeclarationBlock
-    : StartExpression absoluteFieldReference EndExpression
-    | StartExpression absoluteNodeReference EndExpression
+    : StartExpression fieldContext EndExpression
+    | StartExpression nodeContext EndExpression
     ;
 
+/*
+ * Expression Parameters
+ */
 
+parameterList: parameterDeclaration (Comma parameterDeclaration)*;
+
+parameterDeclaration
+    : TextTypeCast Variable         # stringParameterDeclaration 
+    | NumericTypeCast Variable      # numericParameterDeclaration 
+    | BooleanTypeCast Variable      # booleanParameterDeclaration 
+    | DateTypeCast Variable         # dateParameterDeclaration
+    | TimeTypeCast Variable         # timeParameterDeclaration
+    | DurationTypeCast Variable     # durationParameterDeclaration 
+    ;
+
+// Parameter values are not part of an EFX expression. 
+// However, an EFX Parser can and should be used to parse and validate them.
+// The parameterValue rule below defines the valid parameter values. 
+// A parameter value must be enclosed in an expression block so that the EFX lexer can switch 
+// from its DEFAULT mode to EXPRESSION mode in order to recognise the parameter value.
+parameterValue: StartExpression (stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral) EndExpression;
 
 
 /*
@@ -106,46 +126,42 @@ contextDeclarationBlock
 expression: lateBoundExpression | numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression | sequenceExpression;
 
 lateBoundExpression
-    : If booleanExpression Then lateBoundExpression Else lateBoundExpression            # untypedConditonalExpression
-    | fieldValueReference                                                               # untypedFieldValueReferenceExpression 
-    | untypedVariable                                                                   # untypedVariableExpression
-    | untypedSequence                                                                   # untypedSequenceExpression
+    : If booleanExpression Then lateBoundExpression Else lateBoundExpression            # untypedConditionalExpression
+    | scalarFromReference                                                               # untypedFieldReferenceExpression 
+    | sequenceFromReference                                                             # untypedSequenceExpression
+    | variableReference                                                                 # untypedVariableExpression
     ;
 
 booleanExpression
-    : OpenParenthesis booleanExpression CloseParenthesis                                # parenthesizedBooleanExpression
-    | booleanExpression operator=Or booleanExpression                                   # logicalOrCondition
-    | booleanExpression operator=And booleanExpression                                  # logicalAndCondition
-    | stringExpression modifier=Not? In stringSequence                                  # stringInListCondition
-    | booleanExpression modifier=Not? In booleanSequence                                # booleanInListCondition
-    | numericExpression modifier=Not? In numericSequence                                # numberInListCondition
-    | dateExpression modifier=Not? In dateSequence                                      # dateInListCondition
-    | timeExpression modifier=Not? In timeSequence                                      # timeInListCondition
-    | durationExpression modifier=Not? In durationSequence                              # durationInListCondition
-    | stringExpression Is modifier=Not? Empty                                           # emptinessCondition
-    | pathExpression Is modifier=Not? Present                                           # presenceCondition
-    | stringExpression modifier=Not? Like pattern=STRING                                # likePatternCondition
-    | lateBoundExpression operator=Comparison lateBoundExpression                       # fieldValueComparison
-    | booleanExpression operator=Comparison booleanExpression                           # booleanComparison
-    | numericExpression operator=Comparison numericExpression                           # numericComparison
-    | stringExpression operator=Comparison stringExpression                             # stringComparison
-    | dateExpression operator=Comparison dateExpression                                 # dateComparison
-    | timeExpression operator=Comparison timeExpression                                 # timeComparison
-    | durationExpression operator=Comparison durationExpression                         # durationComparison
-    | If booleanExpression Then booleanExpression Else booleanExpression                # conditionalBooleanExpression
-    | (Every | Some) stringVariableDeclaration   In stringSequence Satisfies booleanExpression     # stringQuantifiedExpression
-    | (Every | Some) booleanVariableDeclaration  In booleanSequence Satisfies booleanExpression    # booleanQuantifiedExpression
-    | (Every | Some) numericVariableDeclaration  In numericSequence Satisfies booleanExpression    # numericQuantifiedExpression
-    | (Every | Some) dateVariableDeclaration     In dateSequence Satisfies booleanExpression       # dateQuantifiedExpression
-    | (Every | Some) timeVariableDeclaration     In timeSequence Satisfies booleanExpression       # timeQuantifiedExpression
-    | (Every | Some) durationVariableDeclaration In durationSequence Satisfies booleanExpression   # durationQuantifiedExpression
-    | booleanLiteral                                                                    # booleanLiteralExpression
-    | booleanFunction                                                                   # booleanFunctionExpression
-    | BooleanTypeCast lateBoundExpression                                               # booleanCastExpression
-    | lateBoundExpression                                                               # untypedBooleanExpression
+    : OpenParenthesis booleanExpression CloseParenthesis                        # parenthesizedBooleanExpression
+    | booleanExpression     operator=Or booleanExpression                       # logicalOrCondition
+    | booleanExpression     operator=And booleanExpression                      # logicalAndCondition
+    | stringExpression      modifier=Not? In stringSequence                     # stringInListCondition
+    | booleanExpression     modifier=Not? In booleanSequence                    # booleanInListCondition
+    | numericExpression     modifier=Not? In numericSequence                    # numberInListCondition
+    | dateExpression        modifier=Not? In dateSequence                       # dateInListCondition
+    | timeExpression        modifier=Not? In timeSequence                       # timeInListCondition
+    | durationExpression    modifier=Not? In durationSequence                   # durationInListCondition
+    | stringExpression      modifier=Not? Like pattern=STRING                   # likePatternCondition
+    | stringExpression      Is modifier=Not? Empty                              # emptinessCondition
+    | pathFromReference     Is modifier=Not? Present                            # presenceCondition
+    | pathFromReference     Is modifier=Not? Unique In absoluteFieldReference   # uniqueValueCondition
+    | lateBoundExpression   operator=Comparison lateBoundExpression             # fieldValueComparison
+    | booleanExpression     operator=Comparison booleanExpression               # booleanComparison
+    | numericExpression     operator=Comparison numericExpression               # numericComparison
+    | stringExpression      operator=Comparison stringExpression                # stringComparison
+    | dateExpression        operator=Comparison dateExpression                  # dateComparison
+    | timeExpression        operator=Comparison timeExpression                  # timeComparison
+    | durationExpression    operator=Comparison durationExpression              # durationComparison
+    | If booleanExpression Then booleanExpression Else booleanExpression        # conditionalBooleanExpression
+    | (Every | Some) iteratorList Satisfies booleanExpression                   # quantifiedExpression
+    | booleanLiteral                                                            # booleanLiteralExpression
+    | booleanFunction                                                           # booleanFunctionExpression
+    | BooleanTypeCast lateBoundExpression                                       # booleanCastExpression
+    | lateBoundExpression                                                       # untypedBooleanExpression
     ;
     
-    stringExpression
+stringExpression
     : If booleanExpression Then stringExpression Else stringExpression     # conditionalStringExpression
     | stringLiteral                                                        # stringLiteralExpression
     | stringFunction                                                       # stringFunctionExpression
@@ -155,7 +171,7 @@ booleanExpression
 
 numericExpression
     : OpenParenthesis numericExpression CloseParenthesis                     # parenthesizedNumericExpression
-    | numericExpression operator=(Star | Slash | Per100) numericExpression   # multiplicationExpression
+    | numericExpression operator=(Star | Slash | Percent) numericExpression  # multiplicationExpression
     | numericExpression operator=(Plus | Minus) numericExpression            # additionExpression
     | If booleanExpression Then numericExpression Else numericExpression     # conditionalNumericExpression
     | numericLiteral                                                         # numericLiteralExpression
@@ -201,106 +217,84 @@ durationExpression
  * Sequences
  */
 
-sequenceExpression: untypedSequence | stringSequence | booleanSequence | numericSequence | dateSequence | timeSequence | durationSequence;
+sequenceExpression
+    : sequenceFromReference 
+    | stringSequence 
+    | booleanSequence 
+    | numericSequence 
+    | dateSequence 
+    | timeSequence 
+    | durationSequence 
+    | sequenceFunction
+    ;
 
 stringSequence
     : OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis           # stringList
     | stringSequenceFromIteration                                                           # stringsFromIteration
     | OpenParenthesis stringSequenceFromIteration CloseParenthesis                          # parenthesizedStringsFromIteration
     | codelistReference                                                                     # codeList
-    | TextTypeCast? untypedSequence                                                         # stringTypeCastFieldReference      
+    | TextTypeCast? sequenceFromReference                                                   # stringTypeCastFieldReference      
     ;
 
-stringSequenceFromIteration
-    : For stringVariableDeclaration In stringSequence Return stringExpression                          # stringsFromStringIteration
-    | For booleanVariableDeclaration In booleanSequence Return stringExpression                        # stringsFromBooleanIteration
-    | For numericVariableDeclaration In numericSequence Return stringExpression                        # stringsFromNumericIteration
-    | For dateVariableDeclaration In dateSequence Return stringExpression                              # stringsFromDateIteration
-    | For timeVariableDeclaration In timeSequence Return stringExpression                              # stringsFromTimeIteration
-    | For durationVariableDeclaration In durationSequence Return stringExpression                      # stringsFromDurationIteration
-    ;
+stringSequenceFromIteration: For iteratorList Return stringExpression;
 
 booleanSequence
     : OpenParenthesis booleanExpression (Comma booleanExpression)* CloseParenthesis     # booleanList
     | booleanSequenceFromIteration                                                      # booleansFromIteration
     | OpenParenthesis booleanSequenceFromIteration CloseParenthesis                     # parenthesizedBooleansFromIteration
-    | BooleanTypeCast? untypedSequence                                                  # booleanTypeCastFieldReference
+    | BooleanTypeCast? sequenceFromReference                                            # booleanTypeCastFieldReference
     ;
 
-booleanSequenceFromIteration
-    : For stringVariableDeclaration In stringSequence Return booleanExpression                     # booleansFromStringIteration
-    | For booleanVariableDeclaration In booleanSequence Return booleanExpression                   # booleansFromBooleanIteration
-    | For numericVariableDeclaration In numericSequence Return booleanExpression                   # booleansFromNumericIteration
-    | For dateVariableDeclaration In dateSequence Return booleanExpression                         # booleansFromDateIteration
-    | For timeVariableDeclaration In timeSequence Return booleanExpression                         # booleansFromTimeIteration
-    | For durationVariableDeclaration In durationSequence Return booleanExpression                 # booleansFromDurationIteration
-    ;
+booleanSequenceFromIteration: For iteratorList Return booleanExpression;
 
 numericSequence
     : OpenParenthesis numericExpression (Comma numericExpression)* CloseParenthesis     # numericList
     | numericSequenceFromIteration                                                      # numbersFromIteration
     | OpenParenthesis numericSequenceFromIteration CloseParenthesis                     # parenthesizedNumbersFromIteration
-    | NumericTypeCast? untypedSequence                                                  # numericTypeCastFieldReference
+    | NumericTypeCast? sequenceFromReference                                            # numericTypeCastFieldReference
     ;
 
-numericSequenceFromIteration
-    : For stringVariableDeclaration In stringSequence Return numericExpression                     # numbersFromStringIteration
-    | For booleanVariableDeclaration In booleanSequence Return numericExpression                   # numbersFromBooleanIteration
-    | For numericVariableDeclaration In numericSequence Return numericExpression                   # numbersFromNumericIteration
-    | For dateVariableDeclaration In dateSequence Return numericExpression                         # numbersFromDateIteration
-    | For timeVariableDeclaration In timeSequence Return numericExpression                         # numbersFromTimeIteration
-    | For durationVariableDeclaration In durationSequence Return numericExpression                 # numbersFromDurationIteration
-    ;
+numericSequenceFromIteration: For iteratorList Return numericExpression;
 
 dateSequence
     : OpenParenthesis dateExpression (Comma dateExpression)* CloseParenthesis   # dateList
     | dateSequenceFromIteration                                                 # datesFromIteration
     | OpenParenthesis dateSequenceFromIteration CloseParenthesis                # parenthesizedDatesFromIteration
-    | DateTypeCast? untypedSequence                                             # dateTypeCastFieldReference
+    | DateTypeCast? sequenceFromReference                                       # dateTypeCastFieldReference
     ;
 
-dateSequenceFromIteration
-    : For stringVariableDeclaration In stringSequence Return dateExpression                # datesFromStringIteration
-    | For booleanVariableDeclaration In booleanSequence Return dateExpression              # datesFromBooleanIteration
-    | For numericVariableDeclaration In numericSequence Return dateExpression              # datesFromNumericIteration
-    | For dateVariableDeclaration In dateSequence Return dateExpression                    # datesFromDateIteration
-    | For timeVariableDeclaration In timeSequence Return dateExpression                    # datesFromTimeIteration
-    | For durationVariableDeclaration In durationSequence Return dateExpression            # datesFromDurationIteration
-    ;
+dateSequenceFromIteration: For iteratorList Return dateExpression;
 
 timeSequence
     : OpenParenthesis timeExpression (Comma timeExpression)* CloseParenthesis   # timeList
     | timeSequenceFromIteration                                                 # timesFromIteration
     | OpenParenthesis timeSequenceFromIteration CloseParenthesis                # parenthesizedTimesFromIteration
-    | TimeTypeCast? untypedSequence                                             # timeTypeCastFieldReference
+    | TimeTypeCast? sequenceFromReference                                       # timeTypeCastFieldReference
     ;
 
-timeSequenceFromIteration
-    : For stringVariableDeclaration In stringSequence Return timeExpression                # timesFromStringIteration
-    | For booleanVariableDeclaration In booleanSequence Return timeExpression              # timesFromBooleanIteration
-    | For numericVariableDeclaration In numericSequence Return timeExpression              # timesFromNumericIteration
-    | For dateVariableDeclaration In dateSequence Return timeExpression                    # timesFromDateIteration
-    | For timeVariableDeclaration In timeSequence Return timeExpression                    # timesFromTimeIteration
-    | For durationVariableDeclaration In durationSequence Return timeExpression            # timesFromDurationIteration
-    ;
+timeSequenceFromIteration: For iteratorList Return timeExpression;
 
 durationSequence
     : OpenParenthesis durationExpression (Comma durationExpression)* CloseParenthesis   # durationList
     | durationSequenceFromIteration                                                     # durationsFromIteration
     | OpenParenthesis durationSequenceFromIteration CloseParenthesis                    # parenthesizedDurationsFromITeration
-    | DurationTypeCast? untypedSequence                                                 # durationTypeCastFieldReference
+    | DurationTypeCast? sequenceFromReference                                           # durationTypeCastFieldReference
     ;
 
-durationSequenceFromIteration
-    : For stringVariableDeclaration In stringSequence Return durationExpression                    # durationsFromStringIteration
-    | For booleanVariableDeclaration In booleanSequence Return durationExpression                  # durationsFromBooleanIteration
-    | For numericVariableDeclaration In numericSequence Return durationExpression                  # durationsFromNumericIteration
-    | For dateVariableDeclaration In dateSequence Return durationExpression                        # durationsFromDateIteration
-    | For timeVariableDeclaration In timeSequence Return durationExpression                        # durationsFromTimeIteration
-    | For durationVariableDeclaration In durationSequence Return durationExpression                # durationsFromDurationIteration
-    ;
+durationSequenceFromIteration: For iteratorList Return durationExpression;
 
 predicate: booleanExpression;
+
+iteratorList: iteratorExpression (Comma iteratorExpression)*;
+iteratorExpression: stringIteratorExpression | booleanIteratorExpression | numericIteratorExpression | dateIteratorExpression | timeIteratorExpression | durationIteratorExpression | contextIteratorExpression;
+
+stringIteratorExpression: stringVariableDeclaration In stringSequence;
+booleanIteratorExpression: booleanVariableDeclaration In booleanSequence;
+numericIteratorExpression: numericVariableDeclaration In numericSequence;
+dateIteratorExpression: dateVariableDeclaration In dateSequence;
+timeIteratorExpression: timeVariableDeclaration In timeSequence;
+durationIteratorExpression: durationVariableDeclaration In durationSequence;
+contextIteratorExpression: contextVariableDeclaration In (fieldContext | nodeContext);
 
 /*
  * Literals
@@ -326,42 +320,51 @@ numericVariableDeclaration: NumericTypeCast Variable;
 dateVariableDeclaration: DateTypeCast Variable;
 timeVariableDeclaration: TimeTypeCast Variable;
 durationVariableDeclaration: DurationTypeCast Variable;
+contextVariableDeclaration: ContextTypeCast Variable;
 
-untypedVariable: Variable;
+variableReference: Variable;
 
-fieldValueReference
-    : fieldReference                       # untypedFieldValueReference
-    | fieldReference SlashAt Identifier    # untypedAttributeValueReference 
+scalarFromReference
+    : fieldReference        # scalarFromFieldReference
+    | attributeReference    # scalarFromAttributeReference 
     ;
 
-untypedSequence    
-    : fieldReference                       # untypedFieldValueSequence
-    | fieldReference SlashAt Identifier    # untypedAttributeValueSequence 
+sequenceFromReference    
+    : fieldReference        # sequenceFromFieldReference
+    | attributeReference    # sequenceFromAttributeReference 
     ;
 
-pathExpression    
+pathFromReference
     : fieldReference
-    | fieldReference SlashAt Identifier
+    | attributeReference
     ;
+
+contextFieldSpecifier: field=fieldContext ColonColon;
+contextNodeSpecifier: node=nodeContext ColonColon;
+contextVariableSpecifier: variable=variableReference ColonColon;
+
 
 /*
  * References of fields and Nodes
  * We chose to specify the grammar for field references and node references in a slightly different style to avoid left recursion of grammar rules.
  * It looks more "complicated" but it is necessary for parsing (see fieldReferenceWithFieldContextOverride). 
  */
+attributeReference:fieldReference SlashAt Identifier;
 fieldReference: fieldReferenceWithFieldContextOverride | fieldReferenceInOtherNotice | absoluteFieldReference;
-fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithNodeContextOverride;
-fieldReferenceWithNodeContextOverride: (context=nodeContext ColonColon)? reference=fieldReferenceWithFieldContextOverride;
-fieldReferenceWithFieldContextOverride: (context=fieldContext ColonColon)? reference=fieldReferenceWithPredicate;
-fieldContext: context=absoluteFieldReference;
-absoluteFieldReference: Slash? reference=fieldReferenceWithPredicate;
-fieldReferenceWithPredicate: simpleFieldReference (OpenBracket predicate CloseBracket)?;
+fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithVariableContextOverride;
+fieldReferenceWithVariableContextOverride: contextVariableSpecifier? reference=fieldReferenceWithNodeContextOverride;
+fieldReferenceWithNodeContextOverride: contextNodeSpecifier? reference=fieldReferenceWithFieldContextOverride;
+fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldReferenceWithPredicate;
+fieldContext: absoluteFieldReference | fieldReferenceWithPredicate;
+absoluteFieldReference: Slash reference=fieldReferenceWithPredicate;
+fieldReferenceWithPredicate: reference=fieldReferenceWithAxis (OpenBracket predicate CloseBracket)?;
+fieldReferenceWithAxis: axis? simpleFieldReference;
 simpleFieldReference: FieldId;
 
 nodeReference: absoluteNodeReference | nodeReferenceInOtherNotice;
 nodeReferenceInOtherNotice: noticeReference Slash nodeReferenceWithPredicate;
-nodeContext: context=absoluteNodeReference;
-absoluteNodeReference: Slash? nodeReferenceWithPredicate; 
+nodeContext: absoluteNodeReference | nodeReferenceWithPredicate;
+absoluteNodeReference: Slash nodeReferenceWithPredicate; 
 nodeReferenceWithPredicate: simpleNodeReference (OpenBracket predicate CloseBracket)?;
 simpleNodeReference: NodeId;
 
@@ -370,6 +373,7 @@ noticeReference: Notice OpenParenthesis noticeId=stringExpression CloseParenthes
 codelistReference: OpenParenthesis codeListId=codelistId CloseParenthesis;
 codelistId: Identifier;
 
+axis: Axis ColonColon;
 
 /*
  * Function calls
@@ -380,6 +384,7 @@ booleanFunction
     | ContainsFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis        # containsFunction
     | StartsWithFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis      # startsWithFunction
     | EndsWithFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis        # endsWithFunction
+    | SequenceEqualFunction OpenParenthesis left=sequenceExpression Comma right=sequenceExpression CloseParenthesis    # sequenceEqualFunction
     ;
 
 numericFunction
@@ -404,10 +409,17 @@ dateFunction
     ;
 
 timeFunction
-    : TimeFunction OpenParenthesis stringExpression CloseParenthesis        # timeFromStringFunction
+    : TimeFunction OpenParenthesis stringExpression CloseParenthesis                # timeFromStringFunction
     ;
 
 durationFunction
     : DayTimeDurationFunction OpenParenthesis stringExpression CloseParenthesis     # dayTimeDurationFromStringFunction
     | YearMonthDurationFunction OpenParenthesis stringExpression CloseParenthesis   # yearMonthDurationFromStringFunction
+    ;
+
+sequenceFunction
+    : DistinctValuesFunction OpenParenthesis (sequenceExpression | variableReference) CloseParenthesis                                              # distinctValuesFunction
+    | UnionFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis        # unionFunction    
+    | IntersectFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis    # intersectFunction
+    | ExceptFunction OpenParenthesis (sequenceExpression | variableReference) Comma (sequenceExpression | variableReference) CloseParenthesis       # exceptFunction
     ;

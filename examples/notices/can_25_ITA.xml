@@ -9,12 +9,14 @@
 					<efac:NoticeResult>
 						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">4000000</cbc:EstimatedOverallFrameworkContractsAmount>
 						<efac:LotResult>
-							<cbc:HigherTenderAmount currencyID="EUR">5000000</cbc:HigherTenderAmount>
-							<cbc:LowerTenderAmount currencyID="EUR">4000000</cbc:LowerTenderAmount>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
+							<efac:FrameworkAgreementValues>
+								<cbc:EstimatedMaximumValueAmount currencyID="EUR">4000000</cbc:EstimatedMaximumValueAmount>
+								<cbc:MaximumValueAmount currencyID="EUR">4000000</cbc:MaximumValueAmount>
+							</efac:FrameworkAgreementValues>
 							<efac:ReceivedSubmissionsStatistics>
 								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
 								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
@@ -243,7 +245,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">904890c7-9743-410c-b75c-8c60d9930633</cbc:ID>
 	<cbc:ContractFolderID>5a695dd9-076c-419f-98f0-dc42d31ae277</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-15+01:00</cbc:IssueDate>

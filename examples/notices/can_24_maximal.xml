@@ -12,14 +12,6 @@
 						<cbc:TotalAmount currencyID="EUR">9999999.99</cbc:TotalAmount>
 						<!--BT-118-->
 						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">9999999.99</cbc:EstimatedOverallFrameworkContractsAmount>
-						<efac:GroupFramework>
-							<!--BT-156-->
-							<efbc:GroupFrameworkValueAmount currencyID="EUR">9999999.99</efbc:GroupFrameworkValueAmount>
-							<efac:TenderLot>
-								<!--BT-556-->
-								<cbc:ID schemeName="LotsGroup">GLO-0001</cbc:ID>
-							</efac:TenderLot>
-						</efac:GroupFramework>
 						<efac:LotResult>
 							<!--BT-142-->
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
@@ -1010,7 +1002,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-0.7</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">15377ca1-6cf7-4060-90f0-9290128957a3</cbc:ID>
 	<!--BT-04-->
