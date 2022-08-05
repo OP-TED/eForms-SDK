@@ -1,6 +1,6 @@
 // View 9
 // sdkVersion='1.0.0'
-// File generated from metadata database version 0.5.191 created on the 2022-08-01T12:04:59
+// File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40
 1 {ND-Root} #{auxiliary|text|buyer} // --- 1 Buyer ---
 	{ND-ContractingParty} #{auxiliary|text|buyer} // --- 1.1 Buyer ---
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value
@@ -285,19 +285,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-DocProvider]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-DocProvider} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
-				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		5 {OPT-301-Lot-TenderReceipt} #{auxiliary|text|organisation-tender-recipient} // --- 8.1.5 Organisation receiving requests to participate/Tender Recipient Organisation (Lot) ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt]} #{name|BT-500}: $value
 			{BT-633-Organization[OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt]} #{name|BT-633}: $value
@@ -316,18 +303,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-TenderReceipt} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		6 {OPT-301-Lot-TenderEval} #{auxiliary|text|organisation-tender-evaluation} // --- 8.1.6 Organisation receiving requests to participate/Tender Recipient Organisation (Lot) ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderEval]} #{name|BT-500}: $value
@@ -347,18 +322,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderEval]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-TenderEval} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		{OPT-300-Contract-Signatory} #{auxiliary|text|organisation-signing-contract}
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Contract-Signatory]} #{name|BT-500}: $value
@@ -471,18 +434,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-ReviewOrg]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-ReviewOrg} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		11 {OPT-301-Lot-ReviewInfo} #{auxiliary|text|organisation-providing-info-review} // --- 8.1.11 Appeal Information Providing Organisation (Lot) ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-ReviewInfo]} #{name|BT-500}: $value
@@ -502,18 +453,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-ReviewInfo]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-ReviewInfo} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		12 {OPT-301-Lot-Mediator} #{auxiliary|text|organisation-mediation} // --- 8.1.12 Mediation organisation (Lot) ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-Mediator]} #{name|BT-500}: $value
@@ -533,18 +472,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-Mediator]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-Mediator} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		13 {OPT-301-Lot-FiscalLegis} #{auxiliary|text|organisation-providing-info-taxes} // --- 8.1.13 Tax legislation information provider (Lot) ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-FiscalLegis]} #{name|BT-500}: $value
@@ -564,19 +491,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-FiscalLegis]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-FiscalLegis} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
-				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		14 {OPT-301-Lot-EnvironLegis} #{auxiliary|text|organisation-providing-info-environment} // --- 8.1.14 Environment legislation information provider (Lot) ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EnvironLegis]} #{name|BT-500}: $value
 			{BT-633-Organization[OPT-200-Organization-Company == OPT-301-Lot-EnvironLegis]} #{name|BT-633}: $value
@@ -595,19 +509,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EnvironLegis]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-EnvironLegis} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
-				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		15 {OPT-301-Lot-EmployLegis} #{auxiliary|text|organisation-providing-info-employment} --- 8.1.5 Employment legislation information provider (Lot) ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EmployLegis]} #{name|BT-500}: $value
 			{BT-633-Organization[OPT-200-Organization-Company == OPT-301-Lot-EmployLegis]} #{name|BT-633}: $value
@@ -626,18 +527,6 @@
 			{BT-509-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EmployLegis]} #{name|BT-509}: $value
 			{BT-508-Procedure-Buyer} #{name|BT-508}: ${BT-508-Procedure-Buyer}
 			{OPT-301-Lot-EmployLegis} #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name|BT-500}: ${BT-500-Organization-TouchPoint}
-				{BT-16-Organization-TouchPoint} #{name|BT-16}: ${BT-16-Organization-TouchPoint}
-				{BT-510(a)-Organization-TouchPoint} #{name|BT-510}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint}
-				{BT-513-Organization-TouchPoint} #{name|BT-513}: ${BT-513-Organization-TouchPoint}
-				{BT-512-Organization-TouchPoint} #{name|BT-512}: ${BT-512-Organization-TouchPoint}
-				{BT-507-Organization-TouchPoint} #{name|BT-507}: #{BT-507-Organization-TouchPoint}
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #{BT-514-Organization-TouchPoint}
-				{BT-502-Organization-TouchPoint} #{name|BT-502}: ${BT-502-Organization-TouchPoint}
-				{BT-506-Organization-TouchPoint} #{name|BT-506}: ${BT-506-Organization-TouchPoint}
-				{BT-503-Organization-TouchPoint} #{name|BT-503}: ${BT-503-Organization-TouchPoint}
-				{BT-739-Organization-TouchPoint} #{name|BT-739}: ${BT-739-Organization-TouchPoint}
-				{BT-505-Organization-TouchPoint} #{name|BT-505}: ${BT-505-Organization-TouchPoint}
 				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 		19 {OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']} #{auxiliary|text|organisation-esender} // --- 8.1.19 eSender organisation ---
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']]} #{name|BT-500}: $value
@@ -672,8 +561,8 @@
 				{BT-509-Organization-TouchPoint} #{name|BT-509}: ${BT-509-Organization-TouchPoint}
 	2 {ND-Root} #{auxiliary|text|organisation-roles} // --- 8.1.2 Roles of organisations ---
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|buyer}: $value // --- 8.2.1 Buyer ---
-		2 {BT-500-Organization-Company[OPP-052-Organization is present]} // --- 8.2.1 Central purchasing body acquiring --- TODO
-		3 {BT-500-Organization-Company[OPP-051-Organization is present]} // --- 8.2.3 Central purchasing body awarding --- TODO
+		2 {BT-500-Organization-Company[OPP-052-Organization == TRUE]} #{auxiliary|text|buyer}: $value // --- 8.2.1 Central purchasing body acquiring --- TODO
+		3 {BT-500-Organization-Company[OPP-051-Organization == TRUE]} #{auxiliary|text|buyer}: $value // --- 8.2.3 Central purchasing body awarding --- TODO
 		4 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']]} #{auxiliary|text|organisation-providing-procurement-service}: $value // --- 8.2.4 Procurement Service Provider organisation ---
 		5 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-AddInfo]} #{auxiliary|text|organisation-providing-info-procedure}: $value // --- 8.2. 5 Additional Information Providing Organisation (Lot) ---
 		6 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-DocProvider]} #{auxiliary|text|organisation-providing-docs}: $value // --- 8.2.6 Documents provider organisation (Lot) ---
@@ -688,9 +577,9 @@
 		15 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-FiscalLegis]} #{auxiliary|text|organisation-providing-info-taxes}: $value // --- 8.2.15 Tax legislation information provider (Lot) ---
 		16 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EnvironLegis]} #{auxiliary|text|organisation-providing-info-environment}: $value // --- 8.2.16 Environment legislation information provider (Lot) ---
 		17 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EmployLegis]} #{auxiliary|text|organisation-providing-info-employment}: $value // --- 8.2.17 Employment legislation information provider (Lot) ---
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer]} TODO
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont]} TODO
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-202-UBO]} TODO
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer]} #{name|BT-500}: $value // --- TODO ---
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont]} #{name|BT-500}: $value // --- TODO ---
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-202-UBO]} #{name|BT-500}: $value // --- TODO ---
 		21 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']]} #{auxiliary|text|organisation-providing-procurement-service}: $value // --- 8.2.21 eSender organisation ---
 10 {ND-Root} #{auxiliary|text|change} // 10 Change ---
 	1 {ND-Root} #{auxiliary|text|change} // --- 8.1 Change---
