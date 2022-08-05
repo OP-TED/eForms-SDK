@@ -42,7 +42,7 @@
    <svrl:ns-prefix-in-attribute-values prefix="pin"
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
    <svrl:ns-prefix-in-attribute-values prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
-   <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-1a" name="EFORMS-validation-stage-1a"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="cbc:CountrySubentityCode"/>
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
@@ -50,13 +50,13 @@
    <svrl:fired-rule context="cbc:ActivityTypeCode"/>
    <svrl:fired-rule context="cbc:ProcurementTypeCode"/>
    <svrl:fired-rule context="cbc:ItemClassificationCode"/>
-   <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-1b" name="EFORMS-validation-stage-1b"/>
    <svrl:fired-rule context="/*[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '1']"/>
-   <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-2a" name="EFORMS-validation-stage-2a"/>
    <svrl:fired-rule context="/*[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '1']"/>
@@ -64,7 +64,7 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '1']"/>
-   <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-2b" name="EFORMS-validation-stage-2b"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"/>
@@ -75,8 +75,8 @@
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Name"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Description"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"/>
-   <svrl:active-pattern id="EFORMS-stage-3-not-empty" name="EFORMS-stage-3-not-empty"/>
-   <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3a" name="EFORMS-validation-stage-3a"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b" name="EFORMS-validation-stage-3b"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"/>
@@ -104,7 +104,7 @@
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:ProcurementTypeCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName"/>
-   <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4" name="EFORMS-validation-stage-4"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '1']"/>
    <svrl:failed-assert id="BR-BT-00505-0004"
@@ -125,7 +125,7 @@ cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '1']"/>
-   <svrl:active-pattern id="EFORMS-stage-5" name="EFORMS-stage-5"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-5" name="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations"/>
@@ -134,6 +134,6 @@ cac:Contact/cbc:Telefax</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
-   <svrl:active-pattern id="EFORMS-stage-6" name="EFORMS-stage-6"/>
-   <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-6a" name="EFORMS-validation-stage-6a"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-6b" name="EFORMS-validation-stage-6b"/>
 </svrl:schematron-output>

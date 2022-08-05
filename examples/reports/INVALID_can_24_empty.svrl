@@ -42,7 +42,7 @@
    <svrl:ns-prefix-in-attribute-values prefix="pin"
                                        uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
    <svrl:ns-prefix-in-attribute-values prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
-   <svrl:active-pattern id="EFORMS-stage-1-preliminary" name="EFORMS-stage-1-preliminary"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-1a" name="EFORMS-validation-stage-1a"/>
    <svrl:fired-rule context="/*"/>
    <svrl:failed-assert id="P-0002"
                        location="/ContractAwardNotice"
@@ -53,7 +53,7 @@
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="cbc:NoticeTypeCode"/>
-   <svrl:active-pattern id="EFORMS-stage-1" name="EFORMS-stage-1"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-1b" name="EFORMS-validation-stage-1b"/>
    <svrl:fired-rule context="/*[$noticeSubType = '29']"/>
    <svrl:failed-assert id="ND-ProcedureProcurementScope-29"
                        location="/ContractAwardNotice"
@@ -81,7 +81,7 @@
       <svrl:text>rule|text|ND-Organizations-29</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '29']"/>
-   <svrl:active-pattern id="EFORMS-stage-2" name="EFORMS-stage-2"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-2a" name="EFORMS-validation-stage-2a"/>
    <svrl:fired-rule context="/*[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-00005-0088"
                        location="/ContractAwardNotice"
@@ -157,11 +157,11 @@ cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']</sv
       <svrl:diagnostic-reference diagnostic="BT-11-Procedure-Buyer">
 cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-stage-2-repeatable" name="EFORMS-stage-2-repeatable"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-2b" name="EFORMS-validation-stage-2b"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
-   <svrl:active-pattern id="EFORMS-stage-3-not-empty" name="EFORMS-stage-3-not-empty"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3a" name="EFORMS-validation-stage-3a"/>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
    <svrl:failed-assert id="element-not-empty"
                        location="/ContractAwardNotice/cbc:ContractFolderID"
@@ -180,7 +180,7 @@ cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:d
 			rule|text|element-not-empty
 		</svrl:text>
    </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-stage-3" name="EFORMS-stage-3"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b" name="EFORMS-validation-stage-3b"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:failed-assert id="BR-BT-00004-0052"
@@ -193,12 +193,12 @@ cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:d
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
    <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
    <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
-   <svrl:active-pattern id="EFORMS-stage-4" name="EFORMS-stage-4"/>
-   <svrl:active-pattern id="EFORMS-stage-5" name="EFORMS-stage-5"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4" name="EFORMS-validation-stage-4"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-5" name="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
-   <svrl:active-pattern id="EFORMS-stage-6" name="EFORMS-stage-6"/>
-   <svrl:active-pattern id="EFORMS-change-notices" name="EFORMS-change-notices"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-6a" name="EFORMS-validation-stage-6a"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-6b" name="EFORMS-validation-stage-6b"/>
 </svrl:schematron-output>

@@ -43,10 +43,12 @@ Schematron rules are now organised in 2 folders:
 * `static`: all rules that only use information in the notice being validated
 * `dynamic`: all rules in `static`, plus rules that use information in other notices.
 
+The files were renamed to be more consistent: `entry.sch` is now `complete-validation.sch`, and all stages are named `validation-stage-*.sch`
+
 Some rules in `dynamic` retrieve another notice based on its identifier, by making an HTTP request to an external service.
 The URL of this service is configured by a variable defined in the new file `config.sch`.
 
-The file `stage-4-custom.sch` was removed, all the rules it contained are now covered in `stage-5.sch`.
+The file `stage-4-custom.sch` was removed, all the rules it contained are now covered in `validation-stage-5.sch`.
 
 :construction: _This is a breaking change. If you use our Schematron rules you need to choose one of the 2 folders depending on your situation._
 
