@@ -48,7 +48,6 @@ OutlineNumber: [0-9]+ [ \t]*;
 // declaration block..
 StartContextExpression: '{' -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpression);
 
-
 /*
  * SKIP_WHITESPACE mode
  * ------------------------------------------------------------------------------------------------
@@ -86,8 +85,9 @@ fragment Dollar: '$';	// Used for label placeholders
 fragment Sharp: '#';	// Used for expression placeholders
 fragment OpenBrace: '{';
 
-ShorthandFieldValueReferenceFromContextField: Dollar 'value';
-ShorthandIndirectLabelReferenceFromContextField: Sharp 'value';
+ShorthandFieldValueReferenceFromContextField: Dollar ValueKeyword;
+ShorthandIndirectLabelReferenceFromContextField: Sharp ValueKeyword;
+ValueKeyword: 'value';
 
 ShorthandLabelType: LabelType -> type(LabelType);
 
