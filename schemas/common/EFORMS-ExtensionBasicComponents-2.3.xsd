@@ -73,6 +73,8 @@
 	<xsd:element name="TermDescription" type="TermDescriptionType"/>
 	<xsd:element name="TermIndicator" type="TermIndicatorType"/>
 	<xsd:element name="TermPercent" type="TermPercentType"/>
+	<xsd:element name="TransmissionDate" type="TransmissionDateType"/>
+	<xsd:element name="TransmissionTime" type="TransmissionTimeType"/>
 	<xsd:element name="ValueDescription" type="ValueDescriptionType"/>
 	<xsd:element name="ValueKnownIndicator" type="ValueKnownIndicatorType"/>
 	<xsd:element name="WithdrawnAppealDate" type="WithdrawnAppealDateType"/>
@@ -393,6 +395,16 @@
 	<xsd:complexType name="TermPercentType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:PercentType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="TransmissionDateType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:DateType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="TransmissionTimeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:TimeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="ValueDescriptionType">
