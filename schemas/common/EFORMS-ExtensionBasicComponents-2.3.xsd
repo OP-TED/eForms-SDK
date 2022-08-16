@@ -35,6 +35,7 @@
 	<xsd:element name="DPSTerminationIndicator" type="DPSTerminationIndicatorType"/>
 	<xsd:element name="ExtendedDurationIndicator" type="ExtendedDurationIndicatorType"/>
 	<xsd:element name="FieldIdentifierCode" type="FieldIdentifierCodeType"/>
+	<xsd:element name="FinancingIdentifier" type="FinancingIdentifierType"/>
 	<xsd:element name="GazetteID" type="GazetteIDType"/>
 	<xsd:element name="GroupType" type="GroupTypeType"/>
 	<xsd:element name="GroupTypeCode" type="GroupTypeCodeType"/>
@@ -200,6 +201,11 @@
 	<xsd:complexType name="FieldIdentifierCodeType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="FinancingIdentifierType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:IdentifierType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="GazetteIDType">
