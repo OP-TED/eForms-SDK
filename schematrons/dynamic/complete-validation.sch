@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40.-->
+<!--File generated from metadata database version 1.0.24 created on the 2022-08-16T15:09:12.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -590,6 +590,7 @@
     <diagnostic id="BT-765-Lot">cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']</diagnostic>
     <diagnostic id="BT-765-Part">cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']</diagnostic>
     <diagnostic id="BT-766-Lot">cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']</diagnostic>
+    <diagnostic id="BT-766-Part">cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']</diagnostic>
     <diagnostic id="BT-767-Lot">cbc:AuctionConstraintIndicator</diagnostic>
     <diagnostic id="BT-768-Contract">efbc:ContractFrameworkIndicator</diagnostic>
     <diagnostic id="BT-769-Lot">cbc:MultipleTendersCode</diagnostic>

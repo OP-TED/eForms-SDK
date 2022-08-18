@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40.-->
+<!--File generated from metadata database version 1.0.21 created on the 2022-08-16T15:07:43.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -580,6 +580,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']">
 		<assert id="BR-BT-00766-0052" role="ERROR" test="normalize-space(.) = ('dps-list', 'dps-nlist', 'none')">rule|text|BR-BT-00766-0052</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']">
+		<assert id="BR-BT-00766-0103" role="ERROR" test="normalize-space(.) = ('dps-list', 'dps-nlist', 'none')">rule|text|BR-BT-00766-0103</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:MultipleTendersCode">
 		<assert id="BR-BT-00769-0052" role="ERROR" test="normalize-space(.) = ('allowed', 'not-allowed', 'required')">rule|text|BR-BT-00769-0052</assert>
