@@ -29,6 +29,8 @@
 			<xsd:sequence>
 				<xsd:element ref="efbc:AccessToolName" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efbc:ProcedureRelaunchIndicator" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="efbc:TransmissionDate" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="efbc:TransmissionTime" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:AnswerReceptionPeriod" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:AppealRequestsStatistics" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:AppealsInformation" minOccurs="0" maxOccurs="unbounded"/>
@@ -37,6 +39,7 @@
 				<xsd:element ref="efac:Changes" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:ContractModification" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="efac:Funding" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:InterestExpressionReceptionPeriod" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:NoticeResult" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:NoticeSubType" minOccurs="0" maxOccurs="1"/>
