@@ -7,6 +7,10 @@
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
+					<!-- "id" : "BT-803(d)-notice", "name" : "Notice Dispatch Date eSender (date)"-->
+					<efbc:TransmissionDate>2023-03-23+01:00</efbc:TransmissionDate>
+					<!-- "id" : "BT-803(t)-notice", "name" : "Notice Dispatch Date eSender (time)"-->
+					<efbc:TransmissionTime>22:00:00+01:00</efbc:TransmissionTime>
 					<efac:NoticeSubType>
 						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
 					</efac:NoticeSubType>
