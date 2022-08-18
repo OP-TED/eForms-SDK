@@ -20,7 +20,9 @@
 	<xsd:element name="AppealProcessingPartyTypeCode" type="AppealProcessingPartyTypeCodeType"/>
 	<xsd:element name="AppealingPartyTypeDescription" type="AppealingPartyTypeDescriptionType"/>
 	<xsd:element name="AppealingPartyTypeCode" type="AppealingPartyTypeCodeType"/>
+	<xsd:element name="ApplicableLegalBasis" type="ApplicableLegalBasisType"/>
 	<xsd:element name="AreaCode" type="AreaCodeType"/>
+	<xsd:element name="AssetCategoryCode" type="AssetCategoryCodeType"/>
 	<xsd:element name="AssetDescription" type="AssetDescriptionType"/>
 	<xsd:element name="AssetPredominance" type="AssetPredominanceType"/>
 	<xsd:element name="AssetSignificance" type="AssetSignificanceType"/>
@@ -55,6 +57,7 @@
 	<xsd:element name="PublicationDate" type="PublicationDateType"/>
 	<xsd:element name="PublicTransportationCumulatedDistance" type="PublicTransportationCumulatedDistanceType"/>
 	<xsd:element name="ProcedureRelaunchIndicator" type="ProcedureRelaunchIndicatorType"/>
+	<xsd:element name="ProcurementCategoryCode" type="ProcurementCategoryCodeType"/>
 	<xsd:element name="ProcurementDocumentsChangeDate" type="ProcurementDocumentsChangeDateType"/>
 	<xsd:element name="ProcurementDocumentsChangeIndicator" type="ProcurementDocumentsChangeIndicatorType"/>
 	<xsd:element name="ReasonDescription" type="ReasonDescriptionType"/>
@@ -128,7 +131,17 @@
 			<xsd:restriction base="udt:IdentifierType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
+	<xsd:complexType name="ApplicableLegalBasisType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
 	<xsd:complexType name="AreaCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="AssetCategoryCodeType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
@@ -296,6 +309,11 @@
 	<xsd:complexType name="ProcedureRelaunchIndicatorType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:IndicatorType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ProcurementCategoryCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="ProcurementDocumentsChangeDateType">
