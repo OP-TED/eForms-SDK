@@ -1248,6 +1248,14 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
+							<efac:Funding>
+								<!--id": "BT-5010-Lot", "name": "EU Funds Financing Identifier"-->
+								<efbc:FinancingIdentifier>2021/5678</efbc:FinancingIdentifier>
+								<!--"id": "BT-7220-Lot", "name": "EU Funds Programme"-->
+								<cbc:FundingProgramCode listName="eu-funded">LIFE_2021</cbc:FundingProgramCode>
+								<!--"id": "BT-6140-Lot", "name": "EU Funds Details"-->
+								<cbc:Description languageID="ENG">Recovery Fund</cbc:Description>
+							</efac:Funding>
 							<efac:SelectionCriteria>
 								<!--BT-747-->
 								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
