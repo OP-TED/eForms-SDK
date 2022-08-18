@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.0.24 created on the 2022-08-16T15:09:12.-->
+<!--File generated from metadata database version 1.0.53 created on the 2022-08-18T13:34:16.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -388,7 +388,8 @@
     <diagnostic id="BT-501-Business-European">cac:PartyLegalEntity/cbc:CompanyID[@schemeName = 'EU']</diagnostic>
     <diagnostic id="BT-501-Business-National">cac:PartyLegalEntity/cbc:CompanyID[not(@schemeName = 'EU')]</diagnostic>
     <diagnostic id="BT-501-Organization-Company">cac:PartyLegalEntity/cbc:CompanyID</diagnostic>
-    <diagnostic id="BT-5011-Contract">cbc:FundingProgramCode</diagnostic>
+    <diagnostic id="BT-5010-Lot">efac:Funding/efbc:FinancingIdentifier</diagnostic>
+    <diagnostic id="BT-5011-Contract">efac:Funding/efbc:FinancingIdentifier</diagnostic>
     <diagnostic id="BT-502-Business">cbc:Name</diagnostic>
     <diagnostic id="BT-502-Organization-Company">cac:Contact/cbc:Name</diagnostic>
     <diagnostic id="BT-502-Organization-TouchPoint">cac:Contact/cbc:Name</diagnostic>
@@ -490,6 +491,8 @@
     <diagnostic id="BT-58-Lot">cbc:MaximumNumberNumeric</diagnostic>
     <diagnostic id="BT-60-Lot">cbc:FundingProgramCode[@listName='eu-funded']</diagnostic>
     <diagnostic id="BT-610-Procedure-Buyer">cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']</diagnostic>
+    <diagnostic id="BT-6110-Contract">cbc:Description</diagnostic>
+    <diagnostic id="BT-6140-Lot">cbc:Description</diagnostic>
     <diagnostic id="BT-615-Lot">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
     <diagnostic id="BT-615-Part">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
     <diagnostic id="BT-625-Lot">cbc:EstimatedOverallContractQuantity/@unitCode</diagnostic>
@@ -531,7 +534,8 @@
     <diagnostic id="BT-719-notice">efbc:ProcurementDocumentsChangeDate</diagnostic>
     <diagnostic id="BT-720-Tender">cac:LegalMonetaryTotal/cbc:PayableAmount</diagnostic>
     <diagnostic id="BT-721-Contract">cbc:Title</diagnostic>
-    <diagnostic id="BT-722-Contract">cbc:FundingProgram</diagnostic>
+    <diagnostic id="BT-722-Contract">efac:Funding/efbc:FundingProgramCode</diagnostic>
+    <diagnostic id="BT-7220-Lot">efac:Funding/efbc:FundingProgramCode</diagnostic>
     <diagnostic id="BT-726-Lot">cbc:SMESuitableIndicator</diagnostic>
     <diagnostic id="BT-726-LotsGroup">cbc:SMESuitableIndicator</diagnostic>
     <diagnostic id="BT-726-Part">cbc:SMESuitableIndicator</diagnostic>
@@ -624,6 +628,10 @@
     <diagnostic id="BT-799-ReviewBody">efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode</diagnostic>
     <diagnostic id="BT-800_d_-Lot">cbc:EndDate</diagnostic>
     <diagnostic id="BT-800_t_-Lot">cbc:EndTime</diagnostic>
+    <diagnostic id="BT-801-Lot">cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='nda']</diagnostic>
+    <diagnostic id="BT-802-Lot">cbc:Description</diagnostic>
+    <diagnostic id="BT-803_d_-notice">efbc:TransmissionDate</diagnostic>
+    <diagnostic id="BT-803_t_-notice">efbc:TransmissionTime</diagnostic>
     <diagnostic id="BT-88-Procedure">cbc:Description</diagnostic>
     <diagnostic id="BT-92-Lot">cbc:ElectronicOrderUsageIndicator</diagnostic>
     <diagnostic id="BT-93-Lot">cbc:ElectronicPaymentUsageIndicator</diagnostic>
@@ -650,6 +658,7 @@
     <diagnostic id="OPP-052-Organization">efbc:AcquiringCPBIndicator</diagnostic>
     <diagnostic id="OPP-070-notice">efac:NoticeSubType/cbc:SubTypeCode</diagnostic>
     <diagnostic id="OPP-080-Tender">efbc:PublicTransportationCumulatedDistance</diagnostic>
+    <diagnostic id="OPP-090-Procedure">cac:NoticeDocumentReference/cbc:ID</diagnostic>
     <diagnostic id="OPP-100-Business">cbc:PurposeCode</diagnostic>
     <diagnostic id="OPP-105-Business">cac:BusinessCapability/cbc:CapabilityTypeCode</diagnostic>
     <diagnostic id="OPP-110-Business">cbc:CityName</diagnostic>

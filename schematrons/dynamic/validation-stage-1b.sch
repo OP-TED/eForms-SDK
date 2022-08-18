@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.0.19 created on the 2022-08-16T14:37:18.-->
+<!--File generated from metadata database version 1.0.52 created on the 2022-08-18T13:31:39.-->
 <pattern id="EFORMS-validation-stage-1b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-GazetteReference-1" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-1</assert>
@@ -7,6 +7,7 @@
 		<assert id="ND-ContractingParty-1" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-1</assert>
 		<assert id="ND-ProcedureProcurementScope-1" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-1</assert>
 		<assert id="ND-SenderContact-1" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-1</assert>
+		<assert id="ND-ProcedureTenderingProcess-1" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-1</assert>
 		<assert id="ND-OperationType-1" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-1</assert>
 		<assert id="ND-RootExtension-1" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-1</assert>
 	</rule>
@@ -16,6 +17,7 @@
 		<assert id="ND-ContractingParty-2" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-2</assert>
 		<assert id="ND-ProcedureProcurementScope-2" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-2</assert>
 		<assert id="ND-SenderContact-2" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-2</assert>
+		<assert id="ND-ProcedureTenderingProcess-2" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-2</assert>
 		<assert id="ND-OperationType-2" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-2</assert>
 		<assert id="ND-RootExtension-2" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-2</assert>
 	</rule>
@@ -25,6 +27,7 @@
 		<assert id="ND-ContractingParty-3" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-3</assert>
 		<assert id="ND-ProcedureProcurementScope-3" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-3</assert>
 		<assert id="ND-SenderContact-3" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-3</assert>
+		<assert id="ND-ProcedureTenderingProcess-3" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-3</assert>
 		<assert id="ND-OperationType-3" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-3</assert>
 		<assert id="ND-RootExtension-3" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-3</assert>
 	</rule>
@@ -34,6 +37,7 @@
 		<assert id="ND-ContractingParty-4" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-4</assert>
 		<assert id="ND-ProcedureProcurementScope-4" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-4</assert>
 		<assert id="ND-SenderContact-4" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-4</assert>
+		<assert id="ND-ProcedureTenderingProcess-4" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-4</assert>
 		<assert id="ND-OperationType-4" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-4</assert>
 		<assert id="ND-RootExtension-4" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-4</assert>
 	</rule>
@@ -43,6 +47,7 @@
 		<assert id="ND-ContractingParty-5" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-5</assert>
 		<assert id="ND-ProcedureProcurementScope-5" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-5</assert>
 		<assert id="ND-SenderContact-5" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-5</assert>
+		<assert id="ND-ProcedureTenderingProcess-5" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-5</assert>
 		<assert id="ND-OperationType-5" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-5</assert>
 		<assert id="ND-RootExtension-5" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-5</assert>
 	</rule>
@@ -52,6 +57,7 @@
 		<assert id="ND-ContractingParty-6" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-6</assert>
 		<assert id="ND-ProcedureProcurementScope-6" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-6</assert>
 		<assert id="ND-SenderContact-6" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-6</assert>
+		<assert id="ND-ProcedureTenderingProcess-6" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-6</assert>
 		<assert id="ND-OperationType-6" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-6</assert>
 		<assert id="ND-RootExtension-6" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-6</assert>
 	</rule>
@@ -361,6 +367,7 @@
 		<assert id="ND-ContractingParty-38" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-38</assert>
 		<assert id="ND-ProcedureProcurementScope-38" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-38</assert>
 		<assert id="ND-SenderContact-38" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-38</assert>
+		<assert id="ND-ProcedureTenderingProcess-38" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-38</assert>
 		<assert id="ND-OperationType-38" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-38</assert>
 		<assert id="ND-RootExtension-38" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-38</assert>
 	</rule>
@@ -370,6 +377,7 @@
 		<assert id="ND-ContractingParty-39" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-39</assert>
 		<assert id="ND-ProcedureProcurementScope-39" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-39</assert>
 		<assert id="ND-SenderContact-39" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-39</assert>
+		<assert id="ND-ProcedureTenderingProcess-39" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-39</assert>
 		<assert id="ND-OperationType-39" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-39</assert>
 		<assert id="ND-RootExtension-39" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-39</assert>
 	</rule>
@@ -379,6 +387,7 @@
 		<assert id="ND-ContractingParty-40" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-40</assert>
 		<assert id="ND-ProcedureProcurementScope-40" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-40</assert>
 		<assert id="ND-SenderContact-40" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-40</assert>
+		<assert id="ND-ProcedureTenderingProcess-40" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-40</assert>
 		<assert id="ND-OperationType-40" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-40</assert>
 		<assert id="ND-RootExtension-40" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-40</assert>
 	</rule>
@@ -418,6 +427,7 @@
 		<assert id="ND-ContractingParty-X01" role="ERROR" test="count(cac:ContractingParty) = 0">rule|text|ND-ContractingParty-X01</assert>
 		<assert id="ND-ProcedureProcurementScope-X01" role="ERROR" test="count(cac:ProcurementProject) = 0">rule|text|ND-ProcedureProcurementScope-X01</assert>
 		<assert id="ND-SenderContact-X01" role="ERROR" test="count(cac:SenderParty/cac:Contact) &gt; 0">rule|text|ND-SenderContact-X01</assert>
+		<assert id="ND-ProcedureTenderingProcess-X01" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-X01</assert>
 		<assert id="ND-ProcedureTerms-X01" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-ProcedureTerms-X01</assert>
 		<assert id="ND-OperationType-X01" role="ERROR" test="count(efac:NoticePurpose) &gt; 0">rule|text|ND-OperationType-X01</assert>
 		<assert id="ND-RootExtension-X01" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-X01</assert>
@@ -428,6 +438,7 @@
 		<assert id="ND-ContractingParty-X02" role="ERROR" test="count(cac:ContractingParty) = 0">rule|text|ND-ContractingParty-X02</assert>
 		<assert id="ND-ProcedureProcurementScope-X02" role="ERROR" test="count(cac:ProcurementProject) = 0">rule|text|ND-ProcedureProcurementScope-X02</assert>
 		<assert id="ND-SenderContact-X02" role="ERROR" test="count(cac:SenderParty/cac:Contact) &gt; 0">rule|text|ND-SenderContact-X02</assert>
+		<assert id="ND-ProcedureTenderingProcess-X02" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-X02</assert>
 		<assert id="ND-ProcedureTerms-X02" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-ProcedureTerms-X02</assert>
 		<assert id="ND-OperationType-X02" role="ERROR" test="count(efac:NoticePurpose) &gt; 0">rule|text|ND-OperationType-X02</assert>
 		<assert id="ND-RootExtension-X02" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-X02</assert>
@@ -2879,30 +2890,6 @@
 		<assert id="ND-PartEnvironmentalLegislation-6" role="ERROR" test="count(cac:EnvironmentalLegislationDocumentReference) &gt; 0">rule|text|ND-PartEnvironmentalLegislation-6</assert>
 		<assert id="ND-PartFiscalLegislation-6" role="ERROR" test="count(cac:FiscalLegislationDocumentReference) &gt; 0">rule|text|ND-PartFiscalLegislation-6</assert>
 	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '1']">
-		<assert id="ND-AcceleratedProcedureJustification-1" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-1</assert>
-		<assert id="ND-ProcedureTypeUnpublish-1" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-1</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '2']">
-		<assert id="ND-AcceleratedProcedureJustification-2" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-2</assert>
-		<assert id="ND-ProcedureTypeUnpublish-2" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-2</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '3']">
-		<assert id="ND-AcceleratedProcedureJustification-3" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-3</assert>
-		<assert id="ND-ProcedureTypeUnpublish-3" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-3</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '4']">
-		<assert id="ND-AcceleratedProcedureJustification-4" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-4</assert>
-		<assert id="ND-ProcedureTypeUnpublish-4" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-4</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '5']">
-		<assert id="ND-AcceleratedProcedureJustification-5" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-5</assert>
-		<assert id="ND-ProcedureTypeUnpublish-5" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-5</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '6']">
-		<assert id="ND-AcceleratedProcedureJustification-6" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-6</assert>
-		<assert id="ND-ProcedureTypeUnpublish-6" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-6</assert>
-	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '7']">
 		<assert id="ND-AcceleratedProcedureJustification-7" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-7</assert>
 		<assert id="ND-ProcedureTypeUnpublish-7" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-7</assert>
@@ -3004,18 +2991,6 @@
 		<assert id="ND-AcceleratedProcedureJustification-37" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-37</assert>
 		<assert id="ND-ProcedureTypeUnpublish-37" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-37</assert>
 	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '38']">
-		<assert id="ND-AcceleratedProcedureJustification-38" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-38</assert>
-		<assert id="ND-ProcedureTypeUnpublish-38" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-38</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '39']">
-		<assert id="ND-AcceleratedProcedureJustification-39" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-39</assert>
-		<assert id="ND-ProcedureTypeUnpublish-39" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-39</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '40']">
-		<assert id="ND-AcceleratedProcedureJustification-40" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-40</assert>
-		<assert id="ND-ProcedureTypeUnpublish-40" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-40</assert>
-	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
 		<assert id="ND-AcceleratedProcedureJustification-CEI" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-CEI</assert>
 		<assert id="ND-ProcedureTypeUnpublish-CEI" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-CEI</assert>
@@ -3026,14 +3001,6 @@
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'T02']">
 		<assert id="ND-AcceleratedProcedureJustification-T02" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-T02</assert>
 		<assert id="ND-ProcedureTypeUnpublish-T02" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-T02</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'X01']">
-		<assert id="ND-AcceleratedProcedureJustification-X01" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-X01</assert>
-		<assert id="ND-ProcedureTypeUnpublish-X01" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-X01</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'X02']">
-		<assert id="ND-AcceleratedProcedureJustification-X02" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-X02</assert>
-		<assert id="ND-ProcedureTypeUnpublish-X02" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-X02</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '16']">
 		<assert id="ND-ProcedureAcceleratedUnpublish-16" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureAcceleratedUnpublish-16</assert>
@@ -3917,7 +3884,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = 'T02']">
 		<assert id="ND-ExtendedDurationJustification-T02" role="ERROR" test="count(efac:DurationJustification) &gt; 0">rule|text|ND-ExtendedDurationJustification-T02</assert>
-		<assert id="ND-ContractEUFunds-T02" role="ERROR" test="count(efac:Funding) = 0">rule|text|ND-ContractEUFunds-T02</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '1']">
 		<assert id="ND-Organization-1" role="ERROR" test="count(efac:Organization) &gt; 0">rule|text|ND-Organization-1</assert>

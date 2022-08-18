@@ -113,6 +113,7 @@
    <svrl:fired-rule context="/*/cac:BusinessCapability/cbc:CapabilityTypeCode"/>
    <svrl:fired-rule context="/*/efac:NoticePurpose/cbc:PurposeCode"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4" name="EFORMS-validation-stage-4"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X02']"/>
    <svrl:fired-rule context="/*/cac:BusinessParty/cac:PostalAddress[$noticeSubType = 'X02']"/>
    <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X02']"/>
    <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress[$noticeSubType = 'X02']"/>
