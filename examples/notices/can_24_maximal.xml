@@ -85,24 +85,34 @@
 								<!--"id" : "OPT-315-LotResult",   "name" : "Contract Identifier Reference"-->
 								<cbc:ID schemeName="contract">CON-0002</cbc:ID>
 							</efac:SettledContract>
-							<efac:StrategicProcurementStatistics>
-								<!--"id" : "OPT-155-LotResult",  "name" : "Vehicule Type"-->
-								<efbc:StatisticsCode listName="green-procurement">vehicles</efbc:StatisticsCode>
-								<!--"id" : "OPT-156-LotResult", "name" : "Vehicule Numeric"-->
-								<efbc:StatisticsNumeric>45</efbc:StatisticsNumeric>
-							</efac:StrategicProcurementStatistics>
-							<efac:StrategicProcurementStatistics>
-								<!--"id" : "OPT-155-LotResult",  "name" : "Vehicule Type"-->
-								<efbc:StatisticsCode listName="green-procurement">vehicles-zero-emission</efbc:StatisticsCode>
-								<!--"id" : "OPT-156-LotResult", "name" : "Vehicule Numeric"-->
-								<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
-							</efac:StrategicProcurementStatistics>
-							<efac:StrategicProcurementStatistics>
-								<!--"id" : "OPT-155-LotResult",  "name" : "Vehicule Type"-->
-								<efbc:StatisticsCode listName="green-procurement">vehicles-clean</efbc:StatisticsCode>
-								<!--"id" : "OPT-156-LotResult", "name" : "Vehicule Numeric"-->
-								<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
-							</efac:StrategicProcurementStatistics>
+							<efac:StrategicProcurement>
+								<efac:StrategicProcurementInformation>
+									<!--"id" : "BT-735-LotResult",   "name" : "CVD Contract Type"-->
+									<efbc:ProcurementCategoryCode listName="cvd-contract-type">oth-serv-contr</efbc:ProcurementCategoryCode>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-723-LotResult",   "name" : "Vehicle Category"-->
+										<efbc:AssetCategoryCode listName="vehicle-category">n2-n3</efbc:AssetCategoryCode>
+										<efac:StrategicProcurementStatistics>
+											<!--"id" : "OPT-155-LotResult",  "name" : "Vehicule Type"-->
+											<efbc:StatisticsCode listName="vehicles">vehicles</efbc:StatisticsCode>
+											<!--"id" : "OPT-156-LotResult", "name" : "Vehicule Numeric"-->
+											<efbc:StatisticsNumeric>45</efbc:StatisticsNumeric>
+										</efac:StrategicProcurementStatistics>
+										<efac:StrategicProcurementStatistics>
+											<!--"id" : "OPT-155-LotResult",  "name" : "Vehicule Type"-->
+											<efbc:StatisticsCode listName="vehicles">vehicles-zero-emission</efbc:StatisticsCode>
+											<!--"id" : "OPT-156-LotResult", "name" : "Vehicule Numeric"-->
+											<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+										</efac:StrategicProcurementStatistics>
+										<efac:StrategicProcurementStatistics>
+											<!--"id" : "OPT-155-LotResult",  "name" : "Vehicule Type"-->
+											<efbc:StatisticsCode listName="vehicles">vehicles-clean</efbc:StatisticsCode>
+											<!--"id" : "OPT-156-LotResult", "name" : "Vehicule Numeric"-->
+											<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
+										</efac:StrategicProcurementStatistics>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 							<efac:TenderLot>
 								<!-- "id" : "BT-13713-LotResult", "name" : "Result Lot Identifier" -->
 								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -1371,6 +1381,22 @@
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 		<!-- LOT-0001 - Tendering terms -->
 		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:StrategicProcurement>
+								<!--"id" : "BT-717-Lot",   "name" : "Clean Vehicles Directive"-->
+								<efbc:ApplicableLegalBasis listName="cvd-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<!--"id" : "BT-735-Lot",   "name" : "CVD Contract Type"-->
+									<efbc:ProcurementCategoryCode listName="cvd-contract-type">oth-serv-contr</efbc:ProcurementCategoryCode>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
 			<!--"id" : "BT-60-Lot", "name" : "EU Funds"-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!-- Organisation - Fiscal Legislation -->
