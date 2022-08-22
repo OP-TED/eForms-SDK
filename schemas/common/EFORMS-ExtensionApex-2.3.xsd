@@ -46,7 +46,7 @@
 				<xsd:element ref="efac:Organizations" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:Publication" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:SelectionCriteria" minOccurs="0" maxOccurs="unbounded"/>
-				<xsd:element ref="efac:StrategicProcurementStatistics" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="efac:StrategicProcurement" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:SubsidiaryClassification" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:ReferencedDocumentPart" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:TenderSubcontractingRequirements" minOccurs="0" maxOccurs="unbounded"/>
