@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.0.52 created on the 2022-08-18T13:31:39.-->
+<!--File generated from metadata database version 1.0.72 created on the 2022-08-22T12:18:06.-->
 <pattern id="EFORMS-validation-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X02']">
 		<assert id="BR-OPP-00113-0002" role="ERROR" diagnostics="OPP-113-Business-European" test="count(cbc:RegistrationDate) &gt; 0 or not(cbc:CompanyID[@schemeName = 'EU'])">rule|text|BR-OPP-00113-0002</assert>
@@ -52,6 +52,9 @@
 		<assert id="BR-BT-00010-0064" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0064</assert>
 		<assert id="BR-BT-00610-0044" role="ERROR" diagnostics="BT-610-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|text|BR-BT-00610-0044</assert>
 		<assert id="BR-BT-00610-0056" role="ERROR" diagnostics="BT-610-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|text|BR-BT-00610-0056</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00010-0041" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0041</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '30']">
 		<assert id="BR-BT-00010-0037" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0037</assert>
@@ -133,6 +136,9 @@
 		<assert id="BR-BT-00010-0014" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0014</assert>
 		<assert id="BR-BT-00610-0014" role="ERROR" diagnostics="BT-610-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|text|BR-BT-00610-0014</assert>
 	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00010-0011" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0011</assert>
+	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '15']">
 		<assert id="BR-BT-00010-0021" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0021</assert>
 		<assert id="BR-BT-00010-0058" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0058</assert>
@@ -151,12 +157,6 @@
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '27']">
 		<assert id="BR-BT-00010-0034" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0034</assert>
 		<assert id="BR-BT-00610-0034" role="ERROR" diagnostics="BT-610-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('pub-undert','pub-undert-cga','pub-undert-la','pub-undert-ra','spec-rights-entity'))">rule|text|BR-BT-00610-0034</assert>
-	</rule>
-	<rule context="/*/cac:ContractingParty[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00010-0011" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0011</assert>
-	</rule>
-	<rule context="/*/cac:ContractingParty[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00010-0041" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','eu-int-org','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra','rl-aut'))">rule|text|BR-BT-00010-0041</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '36']">
 		<assert id="BR-BT-00531-0045" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0045</assert>
@@ -181,6 +181,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '35']">
 		<assert id="BR-BT-00531-0044" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0044</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00531-0041" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0041</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '29']">
 		<assert id="BR-BT-00531-0036" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0036</assert>
@@ -242,6 +245,9 @@
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '11']">
 		<assert id="BR-BT-00531-0016" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0016</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00531-0017" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0017</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '4']">
 		<assert id="BR-BT-00531-0007" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0007</assert>
 	</rule>
@@ -260,6 +266,9 @@
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '9']">
 		<assert id="BR-BT-00531-0014" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0014</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00531-0011" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0011</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '15']">
 		<assert id="BR-BT-00531-0021" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0021</assert>
 	</rule>
@@ -277,15 +286,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '27']">
 		<assert id="BR-BT-00531-0034" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0034</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00531-0011" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0011</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00531-0041" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0041</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00531-0017" role="ERROR" diagnostics="BT-531-Procedure" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0017</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '36']">
 		<assert id="BR-BT-00026-0345" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0345</assert>
@@ -318,6 +318,10 @@
 	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '35']">
 		<assert id="BR-BT-00026-0344" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0344</assert>
 		<assert id="BR-BT-00026-0394" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0394</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00026-0341" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0341</assert>
+		<assert id="BR-BT-00026-0391" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0391</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '29']">
 		<assert id="BR-BT-00026-0336" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0336</assert>
@@ -399,6 +403,10 @@
 		<assert id="BR-BT-00026-0316" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0316</assert>
 		<assert id="BR-BT-00026-0366" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0366</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00026-0317" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0317</assert>
+		<assert id="BR-BT-00026-0367" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0367</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '4']">
 		<assert id="BR-BT-00026-0307" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0307</assert>
 		<assert id="BR-BT-00026-0357" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0357</assert>
@@ -423,6 +431,10 @@
 		<assert id="BR-BT-00026-0314" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0314</assert>
 		<assert id="BR-BT-00026-0364" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0364</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00026-0311" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0311</assert>
+		<assert id="BR-BT-00026-0361" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0361</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '15']">
 		<assert id="BR-BT-00026-0321" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0321</assert>
 		<assert id="BR-BT-00026-0371" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0371</assert>
@@ -446,18 +458,6 @@
 	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '27']">
 		<assert id="BR-BT-00026-0334" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0334</assert>
 		<assert id="BR-BT-00026-0384" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0384</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00026-0311" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0311</assert>
-		<assert id="BR-BT-00026-0361" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0361</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00026-0341" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0341</assert>
-		<assert id="BR-BT-00026-0391" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0391</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00026-0317" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0317</assert>
-		<assert id="BR-BT-00026-0367" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0367</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '36']">
 		<assert id="BR-BT-00026-0045" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0045</assert>
@@ -490,6 +490,10 @@
 	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '35']">
 		<assert id="BR-BT-00026-0044" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0044</assert>
 		<assert id="BR-BT-00026-0094" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0094</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00026-0041" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0041</assert>
+		<assert id="BR-BT-00026-0091" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0091</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '29']">
 		<assert id="BR-BT-00026-0036" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0036</assert>
@@ -571,6 +575,10 @@
 		<assert id="BR-BT-00026-0016" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0016</assert>
 		<assert id="BR-BT-00026-0066" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0066</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00026-0017" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0017</assert>
+		<assert id="BR-BT-00026-0067" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0067</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '4']">
 		<assert id="BR-BT-00026-0007" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0007</assert>
 		<assert id="BR-BT-00026-0057" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0057</assert>
@@ -595,6 +603,10 @@
 		<assert id="BR-BT-00026-0014" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0014</assert>
 		<assert id="BR-BT-00026-0064" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0064</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00026-0011" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0011</assert>
+		<assert id="BR-BT-00026-0061" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0061</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '15']">
 		<assert id="BR-BT-00026-0021" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0021</assert>
 		<assert id="BR-BT-00026-0071" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0071</assert>
@@ -618,18 +630,6 @@
 	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '27']">
 		<assert id="BR-BT-00026-0034" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0034</assert>
 		<assert id="BR-BT-00026-0084" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0084</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00026-0011" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0011</assert>
-		<assert id="BR-BT-00026-0061" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0061</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00026-0041" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0041</assert>
-		<assert id="BR-BT-00026-0091" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0091</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00026-0017" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0017</assert>
-		<assert id="BR-BT-00026-0067" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0067</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '36']">
 		<assert id="BR-BT-00728-0045" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0045</assert>
@@ -715,6 +715,9 @@
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '11']">
 		<assert id="BR-BT-00728-0016" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0016</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00728-0017" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0017</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '4']">
 		<assert id="BR-BT-00728-0007" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0007</assert>
 	</rule>
@@ -750,9 +753,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '27']">
 		<assert id="BR-BT-00728-0034" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0034</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00728-0017" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0017</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '36']">
 		<assert id="BR-BT-00727-0222" role="ERROR" diagnostics="BT-727-Procedure" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0222</assert>
@@ -1109,6 +1109,19 @@
 		<assert id="BR-BT-05141-0016" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) &gt; 0 or not(cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cbc:Region))">rule|text|BR-BT-05141-0016</assert>
 		<assert id="BR-BT-05141-0200" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) = 0 or (cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cbc:Region))">rule|text|BR-BT-05141-0200</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00727-0201" role="ERROR" diagnostics="BT-727-Procedure" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0201</assert>
+		<assert id="BR-BT-05071-0017" role="ERROR" diagnostics="BT-5071-Procedure" test="count(cbc:CountrySubentityCode) &gt; 0 or not((not(cbc:Region)) and cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0017</assert>
+		<assert id="BR-BT-05071-0201" role="ERROR" diagnostics="BT-5071-Procedure" test="count(cbc:CountrySubentityCode) = 0 or ((not(cbc:Region)) and cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05071-0201</assert>
+		<assert id="BR-BT-05101-0017" role="ERROR" diagnostics="BT-5101_a_-Procedure" test="count(cbc:StreetName) = 0 or (cbc:CityName)">rule|text|BR-BT-05101-0017</assert>
+		<assert id="BR-BT-05101-0068" role="ERROR" diagnostics="BT-5101_b_-Procedure" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName)">rule|text|BR-BT-05101-0068</assert>
+		<assert id="BR-BT-05101-0119" role="ERROR" diagnostics="BT-5101_c_-Procedure" test="count(cac:AddressLine/cbc:Line) = 0 or (cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0119</assert>
+		<assert id="BR-BT-05121-0017" role="ERROR" diagnostics="BT-5121-Procedure" test="count(cbc:PostalZone) = 0 or (cbc:CityName)">rule|text|BR-BT-05121-0017</assert>
+		<assert id="BR-BT-05121-0173" role="ERROR" diagnostics="BT-5121-Procedure" test="count(cbc:PostalZone) &gt; 0 or not(cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF') and cbc:StreetName)">rule|text|BR-BT-05121-0173</assert>
+		<assert id="BR-BT-05131-0017" role="ERROR" diagnostics="BT-5131-Procedure" test="count(cbc:CityName) = 0 or ((not(cbc:Region)) and cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05131-0017</assert>
+		<assert id="BR-BT-05141-0017" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) &gt; 0 or not(cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cbc:Region))">rule|text|BR-BT-05141-0017</assert>
+		<assert id="BR-BT-05141-0201" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) = 0 or (cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cbc:Region))">rule|text|BR-BT-05141-0201</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = '4']">
 		<assert id="BR-BT-00727-0193" role="ERROR" diagnostics="BT-727-Procedure" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0193</assert>
 		<assert id="BR-BT-05071-0007" role="ERROR" diagnostics="BT-5071-Procedure" test="count(cbc:CountrySubentityCode) &gt; 0 or not((not(cbc:Region)) and cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0007</assert>
@@ -1253,19 +1266,6 @@
 		<assert id="BR-BT-05121-0190" role="ERROR" diagnostics="BT-5121-Procedure" test="count(cbc:PostalZone) &gt; 0 or not(cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF') and cbc:StreetName)">rule|text|BR-BT-05121-0190</assert>
 		<assert id="BR-BT-05131-0034" role="ERROR" diagnostics="BT-5131-Procedure" test="count(cbc:CityName) = 0 or ((not(cbc:Region)) and cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05131-0034</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00727-0201" role="ERROR" diagnostics="BT-727-Procedure" test="count(cbc:Region) = 0 or (not(cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0201</assert>
-		<assert id="BR-BT-05071-0017" role="ERROR" diagnostics="BT-5071-Procedure" test="count(cbc:CountrySubentityCode) &gt; 0 or not((not(cbc:Region)) and cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0017</assert>
-		<assert id="BR-BT-05071-0201" role="ERROR" diagnostics="BT-5071-Procedure" test="count(cbc:CountrySubentityCode) = 0 or ((not(cbc:Region)) and cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05071-0201</assert>
-		<assert id="BR-BT-05101-0017" role="ERROR" diagnostics="BT-5101_a_-Procedure" test="count(cbc:StreetName) = 0 or (cbc:CityName)">rule|text|BR-BT-05101-0017</assert>
-		<assert id="BR-BT-05101-0068" role="ERROR" diagnostics="BT-5101_b_-Procedure" test="count(cbc:AdditionalStreetName) = 0 or (cbc:StreetName)">rule|text|BR-BT-05101-0068</assert>
-		<assert id="BR-BT-05101-0119" role="ERROR" diagnostics="BT-5101_c_-Procedure" test="count(cac:AddressLine/cbc:Line) = 0 or (cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0119</assert>
-		<assert id="BR-BT-05121-0017" role="ERROR" diagnostics="BT-5121-Procedure" test="count(cbc:PostalZone) = 0 or (cbc:CityName)">rule|text|BR-BT-05121-0017</assert>
-		<assert id="BR-BT-05121-0173" role="ERROR" diagnostics="BT-5121-Procedure" test="count(cbc:PostalZone) &gt; 0 or not(cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF') and cbc:StreetName)">rule|text|BR-BT-05121-0173</assert>
-		<assert id="BR-BT-05131-0017" role="ERROR" diagnostics="BT-5131-Procedure" test="count(cbc:CityName) = 0 or ((not(cbc:Region)) and cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05131-0017</assert>
-		<assert id="BR-BT-05141-0017" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) &gt; 0 or not(cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cbc:Region))">rule|text|BR-BT-05141-0017</assert>
-		<assert id="BR-BT-05141-0201" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) = 0 or (cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cbc:Region))">rule|text|BR-BT-05141-0201</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '36']">
 		<assert id="BR-BT-00531-0095" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0095</assert>
 	</rule>
@@ -1289,6 +1289,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '35']">
 		<assert id="BR-BT-00531-0094" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0094</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00531-0091" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0091</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '29']">
 		<assert id="BR-BT-00531-0086" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0086</assert>
@@ -1350,6 +1353,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '11']">
 		<assert id="BR-BT-00531-0066" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0066</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00531-0067" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0067</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '4']">
 		<assert id="BR-BT-00531-0057" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0057</assert>
 	</rule>
@@ -1368,6 +1374,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '9']">
 		<assert id="BR-BT-00531-0064" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0064</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00531-0061" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0061</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '15']">
 		<assert id="BR-BT-00531-0071" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0071</assert>
 	</rule>
@@ -1385,15 +1394,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '27']">
 		<assert id="BR-BT-00531-0084" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0084</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00531-0061" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0061</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00531-0091" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0091</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00531-0067" role="ERROR" diagnostics="BT-531-Lot" test="count(cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0067</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '36']">
 		<assert id="BR-BT-00026-0445" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0445</assert>
@@ -1426,6 +1426,10 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '35']">
 		<assert id="BR-BT-00026-0444" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0444</assert>
 		<assert id="BR-BT-00026-0494" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0494</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00026-0441" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0441</assert>
+		<assert id="BR-BT-00026-0491" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0491</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '29']">
 		<assert id="BR-BT-00026-0436" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0436</assert>
@@ -1495,6 +1499,10 @@
 		<assert id="BR-BT-00026-0416" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0416</assert>
 		<assert id="BR-BT-00026-0466" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0466</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00026-0417" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0417</assert>
+		<assert id="BR-BT-00026-0467" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0467</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '7']">
 		<assert id="BR-BT-00026-0412" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0412</assert>
 		<assert id="BR-BT-00026-0462" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0462</assert>
@@ -1506,6 +1514,10 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '9']">
 		<assert id="BR-BT-00026-0414" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0414</assert>
 		<assert id="BR-BT-00026-0464" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0464</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00026-0411" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0411</assert>
+		<assert id="BR-BT-00026-0461" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0461</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '15']">
 		<assert id="BR-BT-00026-0421" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0421</assert>
@@ -1530,18 +1542,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = '27']">
 		<assert id="BR-BT-00026-0434" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0434</assert>
 		<assert id="BR-BT-00026-0484" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0484</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00026-0411" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0411</assert>
-		<assert id="BR-BT-00026-0461" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0461</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00026-0441" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0441</assert>
-		<assert id="BR-BT-00026-0491" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0491</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00026-0417" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0417</assert>
-		<assert id="BR-BT-00026-0467" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0467</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension[$noticeSubType = '38']">
 		<assert id="BR-BT-00057-0047" role="ERROR" diagnostics="BT-57-Lot" test="count(cac:Renewal/cac:Period/cbc:Description) = 0 or (cbc:MaximumNumberNumeric/number() > 0)">rule|text|BR-BT-00057-0047</assert>
@@ -1664,6 +1664,10 @@
 		<assert id="BR-BT-00026-0144" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0144</assert>
 		<assert id="BR-BT-00026-0194" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0194</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00026-0141" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0141</assert>
+		<assert id="BR-BT-00026-0191" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0191</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '29']">
 		<assert id="BR-BT-00026-0136" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0136</assert>
 		<assert id="BR-BT-00026-0186" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0186</assert>
@@ -1732,6 +1736,10 @@
 		<assert id="BR-BT-00026-0116" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0116</assert>
 		<assert id="BR-BT-00026-0166" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0166</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00026-0117" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0117</assert>
+		<assert id="BR-BT-00026-0167" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0167</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '7']">
 		<assert id="BR-BT-00026-0112" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0112</assert>
 		<assert id="BR-BT-00026-0162" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0162</assert>
@@ -1743,6 +1751,10 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '9']">
 		<assert id="BR-BT-00026-0114" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0114</assert>
 		<assert id="BR-BT-00026-0164" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0164</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00026-0111" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0111</assert>
+		<assert id="BR-BT-00026-0161" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0161</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '15']">
 		<assert id="BR-BT-00026-0121" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0121</assert>
@@ -1767,18 +1779,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '27']">
 		<assert id="BR-BT-00026-0134" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0134</assert>
 		<assert id="BR-BT-00026-0184" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0184</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00026-0111" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0111</assert>
-		<assert id="BR-BT-00026-0161" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0161</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00026-0141" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0141</assert>
-		<assert id="BR-BT-00026-0191" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0191</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00026-0117" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) &gt; 0 or not(.)">rule|text|BR-BT-00026-0117</assert>
-		<assert id="BR-BT-00026-0167" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(@listName) = 0 or (.)">rule|text|BR-BT-00026-0167</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '38']">
 		<assert id="BR-BT-00036-0098" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or ((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0098</assert>
@@ -1821,6 +1821,16 @@
 		<assert id="BR-BT-00536-0138" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0138</assert>
 		<assert id="BR-BT-00537-0096" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0096</assert>
 		<assert id="BR-BT-00538-0095" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0095</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00036-0092" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0092</assert>
+		<assert id="BR-BT-00036-0116" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or ((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0116</assert>
+		<assert id="BR-BT-00536-0094" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0094</assert>
+		<assert id="BR-BT-00536-0118" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or (cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0118</assert>
+		<assert id="BR-BT-00537-0093" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0093</assert>
+		<assert id="BR-BT-00537-0118" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0118</assert>
+		<assert id="BR-BT-00538-0092" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0092</assert>
+		<assert id="BR-BT-00538-0118" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0118</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '29']">
 		<assert id="BR-BT-00036-0087" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or ((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0087</assert>
@@ -1945,6 +1955,10 @@
 		<assert id="BR-BT-00538-0067" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0067</assert>
 		<assert id="BR-BT-00538-0110" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0110</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00536-0069" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0069</assert>
+		<assert id="BR-BT-00536-0111" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or (cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0111</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '7']">
 		<assert id="BR-BT-00036-0063" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0063</assert>
 		<assert id="BR-BT-00036-0104" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or ((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0104</assert>
@@ -1974,6 +1988,16 @@
 		<assert id="BR-BT-00537-0108" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0108</assert>
 		<assert id="BR-BT-00538-0065" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0065</assert>
 		<assert id="BR-BT-00538-0108" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0108</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00036-0062" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0062</assert>
+		<assert id="BR-BT-00036-0103" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or ((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0103</assert>
+		<assert id="BR-BT-00536-0064" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:EndDate)">rule|text|BR-BT-00536-0064</assert>
+		<assert id="BR-BT-00536-0105" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or (cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0105</assert>
+		<assert id="BR-BT-00537-0063" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0063</assert>
+		<assert id="BR-BT-00537-0105" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0105</assert>
+		<assert id="BR-BT-00538-0062" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0062</assert>
+		<assert id="BR-BT-00538-0105" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0105</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '15']">
 		<assert id="BR-BT-00036-0072" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0072</assert>
@@ -2022,30 +2046,6 @@
 		<assert id="BR-BT-00536-0129" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0129</assert>
 		<assert id="BR-BT-00537-0086" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0086</assert>
 		<assert id="BR-BT-00538-0085" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0085</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00036-0062" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0062</assert>
-		<assert id="BR-BT-00036-0103" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or ((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0103</assert>
-		<assert id="BR-BT-00536-0064" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:EndDate)">rule|text|BR-BT-00536-0064</assert>
-		<assert id="BR-BT-00536-0105" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or (cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0105</assert>
-		<assert id="BR-BT-00537-0063" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0063</assert>
-		<assert id="BR-BT-00537-0105" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0105</assert>
-		<assert id="BR-BT-00538-0062" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0062</assert>
-		<assert id="BR-BT-00538-0105" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0105</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00036-0092" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0092</assert>
-		<assert id="BR-BT-00036-0116" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or ((not(cbc:EndDate)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00036-0116</assert>
-		<assert id="BR-BT-00536-0094" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0094</assert>
-		<assert id="BR-BT-00536-0118" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or (cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0118</assert>
-		<assert id="BR-BT-00537-0093" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0093</assert>
-		<assert id="BR-BT-00537-0118" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:DescriptionCode)))">rule|text|BR-BT-00537-0118</assert>
-		<assert id="BR-BT-00538-0092" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) &gt; 0 or not((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0092</assert>
-		<assert id="BR-BT-00538-0118" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or ((not(cbc:DurationMeasure)) and (not(cbc:EndDate)))">rule|text|BR-BT-00538-0118</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00536-0069" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or not(cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0069</assert>
-		<assert id="BR-BT-00536-0111" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or (cbc:DurationMeasure or cbc:EndDate)">rule|text|BR-BT-00536-0111</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility'][$noticeSubType = '36']">
 		<assert id="BR-BT-00755-0045" role="ERROR" diagnostics="BT-755-Lot" test="count(cbc:ProcurementType) &gt; 0 or not(cbc:ProcurementTypeCode[@listName='accessibility']/normalize-space(text()) = 'n-inc-just')">rule|text|BR-BT-00755-0045</assert>
@@ -2419,6 +2419,16 @@
 		<assert id="BR-BT-05141-0146" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0146</assert>
 		<assert id="BR-BT-05141-0184" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0184</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00727-0181" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0181</assert>
+		<assert id="BR-BT-05071-0143" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) &gt; 0 or not((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0143</assert>
+		<assert id="BR-BT-05071-0181" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05071-0181</assert>
+		<assert id="BR-BT-05101-0347" role="ERROR" diagnostics="BT-5101_a_-Lot" test="count(cac:Address/cbc:StreetName) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05101-0347</assert>
+		<assert id="BR-BT-05101-0398" role="ERROR" diagnostics="BT-5101_b_-Lot" test="count(cac:Address/cbc:AdditionalStreetName) = 0 or (cac:Address/cbc:StreetName)">rule|text|BR-BT-05101-0398</assert>
+		<assert id="BR-BT-05101-0449" role="ERROR" diagnostics="BT-5101_c_-Lot" test="count(cac:Address/cac:AddressLine/cbc:Line) = 0 or (cac:Address/cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0449</assert>
+		<assert id="BR-BT-05141-0143" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0143</assert>
+		<assert id="BR-BT-05141-0181" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0181</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '29']">
 		<assert id="BR-BT-00727-0177" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0177</assert>
 		<assert id="BR-BT-00728-0140" role="ERROR" diagnostics="BT-728-Lot" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0140</assert>
@@ -2657,6 +2667,20 @@
 		<assert id="BR-BT-05141-0118" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0118</assert>
 		<assert id="BR-BT-05141-0162" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0162</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00727-0163" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0163</assert>
+		<assert id="BR-BT-00728-0121" role="ERROR" diagnostics="BT-728-Lot" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0121</assert>
+		<assert id="BR-BT-05071-0119" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) &gt; 0 or not((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0119</assert>
+		<assert id="BR-BT-05071-0163" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05071-0163</assert>
+		<assert id="BR-BT-05101-0323" role="ERROR" diagnostics="BT-5101_a_-Lot" test="count(cac:Address/cbc:StreetName) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05101-0323</assert>
+		<assert id="BR-BT-05101-0374" role="ERROR" diagnostics="BT-5101_b_-Lot" test="count(cac:Address/cbc:AdditionalStreetName) = 0 or (cac:Address/cbc:StreetName)">rule|text|BR-BT-05101-0374</assert>
+		<assert id="BR-BT-05101-0425" role="ERROR" diagnostics="BT-5101_c_-Lot" test="count(cac:Address/cac:AddressLine/cbc:Line) = 0 or (cac:Address/cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0425</assert>
+		<assert id="BR-BT-05121-0119" role="ERROR" diagnostics="BT-5121-Lot" test="count(cac:Address/cbc:PostalZone) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05121-0119</assert>
+		<assert id="BR-BT-05121-0270" role="ERROR" diagnostics="BT-5121-Lot" test="count(cac:Address/cbc:PostalZone) &gt; 0 or not(cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF') and cac:Address/cbc:StreetName)">rule|text|BR-BT-05121-0270</assert>
+		<assert id="BR-BT-05131-0119" role="ERROR" diagnostics="BT-5131-Lot" test="count(cac:Address/cbc:CityName) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05131-0119</assert>
+		<assert id="BR-BT-05141-0119" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0119</assert>
+		<assert id="BR-BT-05141-0163" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0163</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '7']">
 		<assert id="BR-BT-00727-0158" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0158</assert>
 		<assert id="BR-BT-00728-0116" role="ERROR" diagnostics="BT-728-Lot" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0116</assert>
@@ -2698,6 +2722,16 @@
 		<assert id="BR-BT-05131-0116" role="ERROR" diagnostics="BT-5131-Lot" test="count(cac:Address/cbc:CityName) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05131-0116</assert>
 		<assert id="BR-BT-05141-0116" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0116</assert>
 		<assert id="BR-BT-05141-0160" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0160</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00727-0157" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0157</assert>
+		<assert id="BR-BT-05071-0113" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) &gt; 0 or not((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0113</assert>
+		<assert id="BR-BT-05071-0157" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05071-0157</assert>
+		<assert id="BR-BT-05101-0317" role="ERROR" diagnostics="BT-5101_a_-Lot" test="count(cac:Address/cbc:StreetName) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05101-0317</assert>
+		<assert id="BR-BT-05101-0368" role="ERROR" diagnostics="BT-5101_b_-Lot" test="count(cac:Address/cbc:AdditionalStreetName) = 0 or (cac:Address/cbc:StreetName)">rule|text|BR-BT-05101-0368</assert>
+		<assert id="BR-BT-05101-0419" role="ERROR" diagnostics="BT-5101_c_-Lot" test="count(cac:Address/cac:AddressLine/cbc:Line) = 0 or (cac:Address/cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0419</assert>
+		<assert id="BR-BT-05141-0113" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0113</assert>
+		<assert id="BR-BT-05141-0157" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0157</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '15']">
 		<assert id="BR-BT-00727-0167" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0167</assert>
@@ -2766,40 +2800,6 @@
 		<assert id="BR-BT-05121-0136" role="ERROR" diagnostics="BT-5121-Lot" test="count(cac:Address/cbc:PostalZone) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05121-0136</assert>
 		<assert id="BR-BT-05121-0287" role="ERROR" diagnostics="BT-5121-Lot" test="count(cac:Address/cbc:PostalZone) &gt; 0 or not(cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF') and cac:Address/cbc:StreetName)">rule|text|BR-BT-05121-0287</assert>
 		<assert id="BR-BT-05131-0136" role="ERROR" diagnostics="BT-5131-Lot" test="count(cac:Address/cbc:CityName) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05131-0136</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00727-0157" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0157</assert>
-		<assert id="BR-BT-05071-0113" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) &gt; 0 or not((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0113</assert>
-		<assert id="BR-BT-05071-0157" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05071-0157</assert>
-		<assert id="BR-BT-05101-0317" role="ERROR" diagnostics="BT-5101_a_-Lot" test="count(cac:Address/cbc:StreetName) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05101-0317</assert>
-		<assert id="BR-BT-05101-0368" role="ERROR" diagnostics="BT-5101_b_-Lot" test="count(cac:Address/cbc:AdditionalStreetName) = 0 or (cac:Address/cbc:StreetName)">rule|text|BR-BT-05101-0368</assert>
-		<assert id="BR-BT-05101-0419" role="ERROR" diagnostics="BT-5101_c_-Lot" test="count(cac:Address/cac:AddressLine/cbc:Line) = 0 or (cac:Address/cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0419</assert>
-		<assert id="BR-BT-05141-0113" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0113</assert>
-		<assert id="BR-BT-05141-0157" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0157</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00727-0181" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0181</assert>
-		<assert id="BR-BT-05071-0143" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) &gt; 0 or not((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0143</assert>
-		<assert id="BR-BT-05071-0181" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05071-0181</assert>
-		<assert id="BR-BT-05101-0347" role="ERROR" diagnostics="BT-5101_a_-Lot" test="count(cac:Address/cbc:StreetName) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05101-0347</assert>
-		<assert id="BR-BT-05101-0398" role="ERROR" diagnostics="BT-5101_b_-Lot" test="count(cac:Address/cbc:AdditionalStreetName) = 0 or (cac:Address/cbc:StreetName)">rule|text|BR-BT-05101-0398</assert>
-		<assert id="BR-BT-05101-0449" role="ERROR" diagnostics="BT-5101_c_-Lot" test="count(cac:Address/cac:AddressLine/cbc:Line) = 0 or (cac:Address/cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0449</assert>
-		<assert id="BR-BT-05141-0143" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0143</assert>
-		<assert id="BR-BT-05141-0181" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0181</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00727-0163" role="ERROR" diagnostics="BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0163</assert>
-		<assert id="BR-BT-00728-0121" role="ERROR" diagnostics="BT-728-Lot" test="count(cbc:Description) = 0 or (cac:Address/cbc:Region or cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00728-0121</assert>
-		<assert id="BR-BT-05071-0119" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) &gt; 0 or not((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-05071-0119</assert>
-		<assert id="BR-BT-05071-0163" role="ERROR" diagnostics="BT-5071-Lot" test="count(cac:Address/cbc:CountrySubentityCode) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05071-0163</assert>
-		<assert id="BR-BT-05101-0323" role="ERROR" diagnostics="BT-5101_a_-Lot" test="count(cac:Address/cbc:StreetName) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05101-0323</assert>
-		<assert id="BR-BT-05101-0374" role="ERROR" diagnostics="BT-5101_b_-Lot" test="count(cac:Address/cbc:AdditionalStreetName) = 0 or (cac:Address/cbc:StreetName)">rule|text|BR-BT-05101-0374</assert>
-		<assert id="BR-BT-05101-0425" role="ERROR" diagnostics="BT-5101_c_-Lot" test="count(cac:Address/cac:AddressLine/cbc:Line) = 0 or (cac:Address/cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0425</assert>
-		<assert id="BR-BT-05121-0119" role="ERROR" diagnostics="BT-5121-Lot" test="count(cac:Address/cbc:PostalZone) = 0 or (cac:Address/cbc:CityName)">rule|text|BR-BT-05121-0119</assert>
-		<assert id="BR-BT-05121-0270" role="ERROR" diagnostics="BT-5121-Lot" test="count(cac:Address/cbc:PostalZone) &gt; 0 or not(cac:Address/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF') and cac:Address/cbc:StreetName)">rule|text|BR-BT-05121-0270</assert>
-		<assert id="BR-BT-05131-0119" role="ERROR" diagnostics="BT-5131-Lot" test="count(cac:Address/cbc:CityName) = 0 or ((not(cac:Address/cbc:Region)) and cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-05131-0119</assert>
-		<assert id="BR-BT-05141-0119" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0119</assert>
-		<assert id="BR-BT-05141-0163" role="ERROR" diagnostics="BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or (cac:Address/cbc:Region/normalize-space(text()) = 'anyw-cou' or not(cac:Address/cbc:Region))">rule|text|BR-BT-05141-0163</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '36']">
 		<assert id="BR-BT-01251-0095" role="ERROR" diagnostics="BT-1251-Lot" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) &gt; 0 or not(cac:NoticeDocumentReference/cbc:ID)">rule|text|BR-BT-01251-0095</assert>
@@ -3690,6 +3690,11 @@
 		<assert id="BR-BT-00708-0112" role="ERROR" diagnostics="BT-708-Lot" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType)">rule|text|BR-BT-00708-0112</assert>
 		<assert id="BR-BT-00737-0112" role="ERROR" diagnostics="BT-737-Lot" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType)">rule|text|BR-BT-00737-0112</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00018-0017" role="ERROR" diagnostics="BT-18-Lot" test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) != 'not-allowed')">rule|text|BR-BT-00018-0017</assert>
+		<assert id="BR-BT-00018-0058" role="ERROR" diagnostics="BT-18-Lot" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) != 'not-allowed')">rule|text|BR-BT-00018-0058</assert>
+		<assert id="BR-BT-00079-0017" role="ERROR" diagnostics="BT-79-Lot" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text()) = 'services')">rule|text|BR-BT-00079-0017</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '7']">
 		<assert id="BR-BT-00018-0012" role="ERROR" diagnostics="BT-18-Lot" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) != 'not-allowed')">rule|text|BR-BT-00018-0012</assert>
 		<assert id="BR-BT-00063-0012" role="ERROR" diagnostics="BT-63-Lot" test="count(cbc:VariantConstraintCode) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) = 1)">rule|text|BR-BT-00063-0012</assert>
@@ -3751,11 +3756,6 @@
 		<assert id="BR-BT-00708-0124" role="ERROR" diagnostics="BT-708-Lot" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType)">rule|text|BR-BT-00708-0124</assert>
 		<assert id="BR-BT-00737-0124" role="ERROR" diagnostics="BT-737-Lot" test="count(cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) = 0 or (cac:CallForTendersDocumentReference/cbc:DocumentType)">rule|text|BR-BT-00737-0124</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00018-0017" role="ERROR" diagnostics="BT-18-Lot" test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) != 'not-allowed')">rule|text|BR-BT-00018-0017</assert>
-		<assert id="BR-BT-00018-0058" role="ERROR" diagnostics="BT-18-Lot" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) != 'not-allowed')">rule|text|BR-BT-00018-0058</assert>
-		<assert id="BR-BT-00079-0017" role="ERROR" diagnostics="BT-79-Lot" test="count(cbc:RequiredCurriculaCode) = 0 or (../cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/normalize-space(text()) = 'services')">rule|text|BR-BT-00079-0017</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[$noticeSubType = '18']">
 		<assert id="BR-BT-00064-0024" role="ERROR" diagnostics="BT-64-Lot" test="count(cbc:MinimumPercent) &gt; 0 or not(cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']/normalize-space(text()) = 'subc-min')">rule|text|BR-BT-00064-0024</assert>
 		<assert id="BR-BT-00064-0053" role="ERROR" diagnostics="BT-64-Lot" test="count(cbc:MinimumPercent) = 0 or (cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']/normalize-space(text()) = 'subc-min')">rule|text|BR-BT-00064-0053</assert>
@@ -3803,6 +3803,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '11']">
 		<assert id="BR-BT-00099-0016" role="ERROR" diagnostics="BT-99-Lot" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID))">rule|text|BR-BT-00099-0016</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = 'CEI']">
+		<assert id="BR-OPT-00301-1125" role="ERROR" diagnostics="OPT-301-Lot-ReviewInfo" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) = 0 or (cac:PresentationPeriod/cbc:Description)">rule|text|BR-OPT-00301-1125</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '7']">
 		<assert id="BR-BT-00099-0012" role="ERROR" diagnostics="BT-99-Lot" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID))">rule|text|BR-BT-00099-0012</assert>
 		<assert id="BR-OPT-00301-1120" role="ERROR" diagnostics="OPT-301-Lot-ReviewInfo" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description)">rule|text|BR-OPT-00301-1120</assert>
@@ -3812,9 +3815,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '9']">
 		<assert id="BR-BT-00099-0014" role="ERROR" diagnostics="BT-99-Lot" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID))">rule|text|BR-BT-00099-0014</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = 'CEI']">
-		<assert id="BR-OPT-00301-1125" role="ERROR" diagnostics="OPT-301-Lot-ReviewInfo" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) = 0 or (cac:PresentationPeriod/cbc:Description)">rule|text|BR-OPT-00301-1125</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '20']">
 		<assert id="BR-BT-00120-0027" role="ERROR" diagnostics="BT-120-Lot" test="count(cbc:NoFurtherNegotiationIndicator) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-w-call')">rule|text|BR-BT-00120-0027</assert>
@@ -4764,6 +4764,10 @@
 		<assert id="BR-OPT-00140-0067" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) &gt; 0 or not(cbc:DocumentType)">rule|text|BR-OPT-00140-0067</assert>
 		<assert id="BR-OPT-00140-0109" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-OPT-00140-0109</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = 'CEI']">
+		<assert id="BR-OPT-00140-0068" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) &gt; 0 or not(cbc:DocumentType)">rule|text|BR-OPT-00140-0068</assert>
+		<assert id="BR-OPT-00140-0122" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-OPT-00140-0122</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '7']">
 		<assert id="BR-OPT-00140-0063" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) &gt; 0 or not(cbc:DocumentType)">rule|text|BR-OPT-00140-0063</assert>
 		<assert id="BR-OPT-00140-0105" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-OPT-00140-0105</assert>
@@ -4783,10 +4787,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '22']">
 		<assert id="BR-OPT-00140-0080" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) &gt; 0 or not(cbc:DocumentType)">rule|text|BR-OPT-00140-0080</assert>
 		<assert id="BR-OPT-00140-0118" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-OPT-00140-0118</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = 'CEI']">
-		<assert id="BR-OPT-00140-0068" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) &gt; 0 or not(cbc:DocumentType)">rule|text|BR-OPT-00140-0068</assert>
-		<assert id="BR-OPT-00140-0122" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-OPT-00140-0122</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document'][$noticeSubType = '23']">
 		<assert id="BR-BT-00615-0081" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0081</assert>
@@ -4853,6 +4853,12 @@
 		<assert id="BR-BT-00615-0123" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0123</assert>
 		<assert id="BR-BT-00707-0067" role="ERROR" diagnostics="BT-707-Lot" test="count(cbc:DocumentTypeCode) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00707-0067</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document'][$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00615-0068" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0068</assert>
+		<assert id="BR-BT-00615-0105" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0105</assert>
+		<assert id="BR-BT-00707-0068" role="ERROR" diagnostics="BT-707-Lot" test="count(cbc:DocumentTypeCode) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00707-0068</assert>
+		<assert id="BR-BT-00707-0105" role="ERROR" diagnostics="BT-707-Lot" test="count(cbc:DocumentTypeCode) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00707-0105</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document'][$noticeSubType = '7']">
 		<assert id="BR-BT-00615-0063" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0063</assert>
 		<assert id="BR-BT-00615-0119" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0119</assert>
@@ -4877,12 +4883,6 @@
 		<assert id="BR-BT-00615-0080" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0080</assert>
 		<assert id="BR-BT-00615-0131" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0131</assert>
 		<assert id="BR-BT-00707-0080" role="ERROR" diagnostics="BT-707-Lot" test="count(cbc:DocumentTypeCode) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00707-0080</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document'][$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00615-0068" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0068</assert>
-		<assert id="BR-BT-00615-0105" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0105</assert>
-		<assert id="BR-BT-00707-0068" role="ERROR" diagnostics="BT-707-Lot" test="count(cbc:DocumentTypeCode) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00707-0068</assert>
-		<assert id="BR-BT-00707-0105" role="ERROR" diagnostics="BT-707-Lot" test="count(cbc:DocumentTypeCode) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00707-0105</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')][$noticeSubType = '23']">
 		<assert id="BR-BT-00015-0081" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0081</assert>
@@ -4936,6 +4936,10 @@
 		<assert id="BR-BT-00015-0067" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0067</assert>
 		<assert id="BR-BT-00015-0123" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0123</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')][$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00015-0068" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0068</assert>
+		<assert id="BR-BT-00015-0105" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0105</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')][$noticeSubType = '7']">
 		<assert id="BR-BT-00015-0063" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0063</assert>
 		<assert id="BR-BT-00015-0119" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0119</assert>
@@ -4955,10 +4959,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')][$noticeSubType = '22']">
 		<assert id="BR-BT-00015-0080" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0080</assert>
 		<assert id="BR-BT-00015-0136" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0136</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')][$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00015-0068" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0068</assert>
-		<assert id="BR-BT-00015-0105" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0105</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda'][$noticeSubType = '20']">
 		<assert id="BR-BT-00802-0027" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode[@listName='nda']/normalize-space(text()) = 'true')">rule|text|BR-BT-00802-0027</assert>
@@ -4993,6 +4993,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda'][$noticeSubType = '11']">
 		<assert id="BR-BT-00802-0016" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode[@listName='nda']/normalize-space(text()) = 'true')">rule|text|BR-BT-00802-0016</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda'][$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00802-0017" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode[@listName='nda']/normalize-space(text()) = 'true')">rule|text|BR-BT-00802-0017</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda'][$noticeSubType = '7']">
 		<assert id="BR-BT-00802-0012" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode[@listName='nda']/normalize-space(text()) = 'true')">rule|text|BR-BT-00802-0012</assert>
 	</rule>
@@ -5007,9 +5010,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda'][$noticeSubType = '22']">
 		<assert id="BR-BT-00802-0029" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode[@listName='nda']/normalize-space(text()) = 'true')">rule|text|BR-BT-00802-0029</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda'][$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00802-0017" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode[@listName='nda']/normalize-space(text()) = 'true')">rule|text|BR-BT-00802-0017</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution'][$noticeSubType = 'CEI']">
 		<assert id="BR-OPT-00070-0067" role="ERROR" diagnostics="OPT-070-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:ExecutionRequirementCode[@listName='reserved-execution']/normalize-space(text()) = 'true')">rule|text|BR-OPT-00070-0067</assert>
@@ -5196,6 +5196,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding[$noticeSubType = '11']">
 		<assert id="BR-BT-06140-0016" role="ERROR" diagnostics="BT-6140-Lot" test="count(cbc:Description) = 0 or ((efbc:FundingProgramCode) or (efbc:FinancingIdentifier))">rule|text|BR-BT-06140-0016</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-06140-0017" role="ERROR" diagnostics="BT-6140-Lot" test="count(cbc:Description) = 0 or ((efbc:FundingProgramCode) or (efbc:FinancingIdentifier))">rule|text|BR-BT-06140-0017</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding[$noticeSubType = '7']">
 		<assert id="BR-BT-06140-0012" role="ERROR" diagnostics="BT-6140-Lot" test="count(cbc:Description) = 0 or ((efbc:FundingProgramCode) or (efbc:FinancingIdentifier))">rule|text|BR-BT-06140-0012</assert>
 	</rule>
@@ -5210,9 +5213,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding[$noticeSubType = '22']">
 		<assert id="BR-BT-06140-0029" role="ERROR" diagnostics="BT-6140-Lot" test="count(cbc:Description) = 0 or ((efbc:FundingProgramCode) or (efbc:FinancingIdentifier))">rule|text|BR-BT-06140-0029</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-06140-0017" role="ERROR" diagnostics="BT-6140-Lot" test="count(cbc:Description) = 0 or ((efbc:FundingProgramCode) or (efbc:FinancingIdentifier))">rule|text|BR-BT-06140-0017</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '23']">
 		<assert id="BR-BT-00040-0030" role="ERROR" diagnostics="BT-40-Lot" test="count(efbc:SecondStageIndicator) &gt; 0 or not((../../../../../../cac:TenderingProcess/cbc:CandidateReductionConstraintIndicator = true()) and ../../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('comp-dial','innovation','neg-w-call','oth-mult','restricted'))">rule|text|BR-BT-00040-0030</assert>
@@ -5334,6 +5334,13 @@
 		<assert id="BR-BT-00750-0058" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) = 0 or (cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00750-0058</assert>
 		<assert id="BR-BT-00752-0016" role="ERROR" diagnostics="BT-752-Lot" test="count(efac:CriterionParameter/efbc:ParameterNumeric) = 0 or (efbc:SecondStageIndicator = true())">rule|text|BR-BT-00752-0016</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00748-0017" role="ERROR" diagnostics="BT-748-Lot" test="count(cbc:CalculationExpressionCode[@listName='usage']) &gt; 0 or not(cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00748-0017</assert>
+		<assert id="BR-BT-00748-0058" role="ERROR" diagnostics="BT-748-Lot" test="count(cbc:CalculationExpressionCode[@listName='usage']) = 0 or (cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00748-0058</assert>
+		<assert id="BR-BT-00749-0058" role="ERROR" diagnostics="BT-749-Lot" test="count(cbc:Name) = 0 or (cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00749-0058</assert>
+		<assert id="BR-BT-00750-0017" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:CalculationExpressionCode[@listName='usage']/normalize-space(text()) = 'used')">rule|text|BR-BT-00750-0017</assert>
+		<assert id="BR-BT-00750-0059" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) = 0 or (cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00750-0059</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '7']">
 		<assert id="BR-BT-00040-0012" role="ERROR" diagnostics="BT-40-Lot" test="count(efbc:SecondStageIndicator) = 0 or ((../../../../../../cac:TenderingProcess/cbc:CandidateReductionConstraintIndicator = true()) and ../../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('comp-dial','innovation','neg-w-call','oth-mult','restricted'))">rule|text|BR-BT-00040-0012</assert>
 		<assert id="BR-BT-00748-0012" role="ERROR" diagnostics="BT-748-Lot" test="count(cbc:CalculationExpressionCode[@listName='usage']) &gt; 0 or not(cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00748-0012</assert>
@@ -5379,13 +5386,6 @@
 		<assert id="BR-BT-00750-0029" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:CalculationExpressionCode[@listName='usage']/normalize-space(text()) = 'used')">rule|text|BR-BT-00750-0029</assert>
 		<assert id="BR-BT-00750-0070" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) = 0 or (cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00750-0070</assert>
 		<assert id="BR-BT-00752-0029" role="ERROR" diagnostics="BT-752-Lot" test="count(efac:CriterionParameter/efbc:ParameterNumeric) = 0 or (efbc:SecondStageIndicator = true())">rule|text|BR-BT-00752-0029</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00748-0017" role="ERROR" diagnostics="BT-748-Lot" test="count(cbc:CalculationExpressionCode[@listName='usage']) &gt; 0 or not(cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00748-0017</assert>
-		<assert id="BR-BT-00748-0058" role="ERROR" diagnostics="BT-748-Lot" test="count(cbc:CalculationExpressionCode[@listName='usage']) = 0 or (cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00748-0058</assert>
-		<assert id="BR-BT-00749-0058" role="ERROR" diagnostics="BT-749-Lot" test="count(cbc:Name) = 0 or (cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00749-0058</assert>
-		<assert id="BR-BT-00750-0017" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:CalculationExpressionCode[@listName='usage']/normalize-space(text()) = 'used')">rule|text|BR-BT-00750-0017</assert>
-		<assert id="BR-BT-00750-0059" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) = 0 or (cbc:CriterionTypeCode[@listName='selection-criterion'])">rule|text|BR-BT-00750-0059</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter[$noticeSubType = '23']">
 		<assert id="BR-BT-07531-0030" role="ERROR" diagnostics="BT-7531-Lot" test="count(efbc:ParameterCode[@listName='number-weight']) = 0 or (../efbc:SecondStageIndicator = true() and (not(efbc:ParameterCode[@listName='number-threshold'])))">rule|text|BR-BT-07531-0030</assert>
@@ -5482,6 +5482,72 @@
 		<assert id="BR-BT-07531-0081" role="ERROR" diagnostics="BT-7531-Lot" test="count(efbc:ParameterCode[@listName='number-weight']) &gt; 0 or not(../efbc:SecondStageIndicator = true() and (not(efbc:ParameterCode[@listName='number-threshold'])))">rule|text|BR-BT-07531-0081</assert>
 		<assert id="BR-BT-07532-0029" role="ERROR" diagnostics="BT-7532-Lot" test="count(efbc:ParameterCode[@listName='number-threshold']) = 0 or (../efbc:SecondStageIndicator = true() and (not(efbc:ParameterCode[@listName='number-weight'])))">rule|text|BR-BT-07532-0029</assert>
 		<assert id="BR-BT-07532-0081" role="ERROR" diagnostics="BT-7532-Lot" test="count(efbc:ParameterCode[@listName='number-threshold']) &gt; 0 or not(../efbc:SecondStageIndicator = true() and (not(efbc:ParameterCode[@listName='number-weight'])))">rule|text|BR-BT-07532-0081</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '38']">
+		<assert id="BR-BT-00735-0047" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0047</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '39']">
+		<assert id="BR-BT-00735-0048" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0048</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '40']">
+		<assert id="BR-BT-00735-0049" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0049</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '29']">
+		<assert id="BR-BT-00735-0036" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0036</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '30']">
+		<assert id="BR-BT-00735-0037" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0037</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '31']">
+		<assert id="BR-BT-00735-0038" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0038</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '20']">
+		<assert id="BR-BT-00735-0027" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0027</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '21']">
+		<assert id="BR-BT-00735-0028" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0028</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '16']">
+		<assert id="BR-BT-00735-0022" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0022</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '17']">
+		<assert id="BR-BT-00735-0023" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0023</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '19']">
+		<assert id="BR-BT-00735-0025" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0025</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '18']">
+		<assert id="BR-BT-00735-0024" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0024</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '12']">
+		<assert id="BR-BT-00735-0018" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0018</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '13']">
+		<assert id="BR-BT-00735-0019" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0019</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '14']">
+		<assert id="BR-BT-00735-0020" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0020</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '10']">
+		<assert id="BR-BT-00735-0015" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0015</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '11']">
+		<assert id="BR-BT-00735-0016" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0016</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '7']">
+		<assert id="BR-BT-00735-0012" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0012</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '8']">
+		<assert id="BR-BT-00735-0013" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0013</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '9']">
+		<assert id="BR-BT-00735-0014" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0014</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '15']">
+		<assert id="BR-BT-00735-0021" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0021</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '22']">
+		<assert id="BR-BT-00735-0029" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0029</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup'][$noticeSubType = '36']">
 		<assert id="BR-BT-00137-0096" role="ERROR" diagnostics="BT-137-LotsGroup" test="count(cbc:ID) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00137-0096</assert>
@@ -6507,6 +6573,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '35']">
 		<assert id="BR-BT-00531-0144" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0144</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00531-0141" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0141</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '29']">
 		<assert id="BR-BT-00531-0136" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0136</assert>
 	</rule>
@@ -6567,6 +6636,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '11']">
 		<assert id="BR-BT-00531-0116" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0116</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00531-0117" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0117</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '4']">
 		<assert id="BR-BT-00531-0107" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0107</assert>
 	</rule>
@@ -6585,6 +6657,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '9']">
 		<assert id="BR-BT-00531-0114" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0114</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00531-0111" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0111</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '15']">
 		<assert id="BR-BT-00531-0121" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0121</assert>
 	</rule>
@@ -6602,15 +6677,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = '27']">
 		<assert id="BR-BT-00531-0134" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0134</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00531-0111" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0111</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00531-0141" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0141</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00531-0117" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) = 0 or (../cbc:ProcurementTypeCode[@listName='contract-nature'])">rule|text|BR-BT-00531-0117</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '4']">
 		<assert id="BR-BT-00727-0187" role="ERROR" diagnostics="BT-727-Part" test="count(cac:Address/cbc:Region) = 0 or (not(cac:Address/cbc:CountrySubentityCode))">rule|text|BR-BT-00727-0187</assert>
@@ -6764,6 +6830,9 @@
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '11']">
 		<assert id="BR-BT-00763-0016" role="ERROR" diagnostics="BT-763-Procedure" test="count(cbc:PartPresentationCode) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00763-0016</assert>
 	</rule>
+	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00763-0017" role="ERROR" diagnostics="BT-763-Procedure" test="count(cbc:PartPresentationCode) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00763-0017</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '7']">
 		<assert id="BR-BT-00763-0012" role="ERROR" diagnostics="BT-763-Procedure" test="count(cbc:PartPresentationCode) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00763-0012</assert>
 	</rule>
@@ -6775,9 +6844,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '22']">
 		<assert id="BR-BT-00763-0029" role="ERROR" diagnostics="BT-763-Procedure" test="count(cbc:PartPresentationCode) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00763-0029</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00763-0017" role="ERROR" diagnostics="BT-763-Procedure" test="count(cbc:PartPresentationCode) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00763-0017</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '29']">
 		<assert id="BR-BT-00106-0036" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call'))">rule|text|BR-BT-00106-0036</assert>
@@ -6882,6 +6948,10 @@
 		<assert id="BR-BT-01252-0038" role="ERROR" diagnostics="BT-1252-Procedure" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text()) = ('repetition','unsuitable','existing','contest'))">rule|text|BR-BT-01252-0038</assert>
 		<assert id="BR-BT-01252-0060" role="ERROR" diagnostics="BT-1252-Procedure" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text()) = ('irregular','additional','repetition','unsuitable','existing','contest'))">rule|text|BR-BT-01252-0060</assert>
 	</rule>
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = 'T01']">
+		<assert id="BR-BT-00136-0011" role="ERROR" diagnostics="BT-136-Procedure" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00136-0011</assert>
+		<assert id="BR-BT-00136-0053" role="ERROR" diagnostics="BT-136-Procedure" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00136-0053</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = '25']">
 		<assert id="BR-BT-00135-0032" role="ERROR" diagnostics="BT-135-Procedure" test="count(cbc:ProcessReason) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00135-0032</assert>
 		<assert id="BR-BT-00135-0054" role="ERROR" diagnostics="BT-135-Procedure" test="count(cbc:ProcessReason) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00135-0054</assert>
@@ -6913,10 +6983,6 @@
 		<assert id="BR-BT-00136-0056" role="ERROR" diagnostics="BT-136-Procedure" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00136-0056</assert>
 		<assert id="BR-BT-01252-0034" role="ERROR" diagnostics="BT-1252-Procedure" test="count(cbc:Description) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text()) = ('repetition','unsuitable','existing','contest'))">rule|text|BR-BT-01252-0034</assert>
 		<assert id="BR-BT-01252-0056" role="ERROR" diagnostics="BT-1252-Procedure" test="count(cbc:Description) = 0 or (cbc:ProcessReasonCode/normalize-space(text()) = ('irregular','additional','repetition','unsuitable','existing','contest'))">rule|text|BR-BT-01252-0056</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification'][$noticeSubType = 'T01']">
-		<assert id="BR-BT-00136-0011" role="ERROR" diagnostics="BT-136-Procedure" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00136-0011</assert>
-		<assert id="BR-BT-00136-0053" role="ERROR" diagnostics="BT-136-Procedure" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00136-0053</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-jus'][$noticeSubType = '34']">
 		<assert id="BR-BT-00195-1723" role="ERROR" diagnostics="BT-195_BT-136_-Procedure" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcessReasonCode)">rule|text|BR-BT-00195-1723</assert>
@@ -7059,6 +7125,9 @@
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '35']">
 		<assert id="BR-BT-00009-0044" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0044</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00009-0041" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0041</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '29']">
 		<assert id="BR-BT-00009-0036" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0036</assert>
 	</rule>
@@ -7110,6 +7179,9 @@
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '11']">
 		<assert id="BR-BT-00009-0016" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0016</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00009-0017" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0017</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '7']">
 		<assert id="BR-BT-00009-0012" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0012</assert>
 	</rule>
@@ -7118,6 +7190,9 @@
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '9']">
 		<assert id="BR-BT-00009-0014" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0014</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00009-0011" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0011</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '22']">
 		<assert id="BR-BT-00009-0029" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0029</assert>
@@ -7133,15 +7208,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '27']">
 		<assert id="BR-BT-00009-0034" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0034</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00009-0011" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0011</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00009-0041" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0041</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00009-0017" role="ERROR" diagnostics="BT-09_a_-Procedure" test="count(cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']) &gt; 0 or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) != /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00009-0017</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = '23']">
 		<assert id="BR-BT-00031-0030" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00031-0030</assert>
@@ -7209,6 +7275,12 @@
 		<assert id="BR-BT-00031-0067" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(../../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All')">rule|text|BR-BT-00031-0067</assert>
 		<assert id="BR-BT-00033-0016" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00033-0016</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00031-0017" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00031-0017</assert>
+		<assert id="BR-BT-00031-0068" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(../../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All')">rule|text|BR-BT-00031-0068</assert>
+		<assert id="BR-BT-00033-0017" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) &gt; 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00033-0017</assert>
+		<assert id="BR-BT-00033-0052" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00033-0052</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = '7']">
 		<assert id="BR-BT-00031-0012" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00031-0012</assert>
 		<assert id="BR-BT-00031-0063" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(../../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All')">rule|text|BR-BT-00031-0063</assert>
@@ -7228,12 +7300,6 @@
 		<assert id="BR-BT-00031-0029" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00031-0029</assert>
 		<assert id="BR-BT-00031-0080" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(../../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All')">rule|text|BR-BT-00031-0080</assert>
 		<assert id="BR-BT-00033-0029" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00033-0029</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00031-0017" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00031-0017</assert>
-		<assert id="BR-BT-00031-0068" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(../../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All')">rule|text|BR-BT-00031-0068</assert>
-		<assert id="BR-BT-00033-0017" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) &gt; 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00033-0017</assert>
-		<assert id="BR-BT-00033-0052" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) = 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) > 1)">rule|text|BR-BT-00033-0052</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law'][$noticeSubType = '34']">
 		<assert id="BR-BT-00195-1468" role="ERROR" diagnostics="BT-195_BT-09_-Procedure" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../../cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription)">rule|text|BR-BT-00195-1468</assert>
@@ -7281,6 +7347,10 @@
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '35']">
 		<assert id="BR-BT-00009-0095" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0095</assert>
 		<assert id="BR-BT-00009-0137" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0137</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = 'T02']">
+		<assert id="BR-BT-00009-0092" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0092</assert>
+		<assert id="BR-BT-00009-0134" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0134</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '29']">
 		<assert id="BR-BT-00009-0087" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0087</assert>
@@ -7350,6 +7420,10 @@
 		<assert id="BR-BT-00009-0067" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0067</assert>
 		<assert id="BR-BT-00009-0110" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0110</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00009-0068" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0068</assert>
+		<assert id="BR-BT-00009-0111" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0111</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '7']">
 		<assert id="BR-BT-00009-0063" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0063</assert>
 		<assert id="BR-BT-00009-0106" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0106</assert>
@@ -7361,6 +7435,10 @@
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '9']">
 		<assert id="BR-BT-00009-0065" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0065</assert>
 		<assert id="BR-BT-00009-0108" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0108</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = 'T01']">
+		<assert id="BR-BT-00009-0062" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0062</assert>
+		<assert id="BR-BT-00009-0105" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0105</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '22']">
 		<assert id="BR-BT-00009-0080" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0080</assert>
@@ -7381,18 +7459,6 @@
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '27']">
 		<assert id="BR-BT-00009-0085" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0085</assert>
 		<assert id="BR-BT-00009-0127" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0127</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = 'T01']">
-		<assert id="BR-BT-00009-0062" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0062</assert>
-		<assert id="BR-BT-00009-0105" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0105</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = 'T02']">
-		<assert id="BR-BT-00009-0092" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0092</assert>
-		<assert id="BR-BT-00009-0134" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0134</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00009-0068" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0068</assert>
-		<assert id="BR-BT-00009-0111" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID[text()='CrossBorderLaw'])">rule|text|BR-BT-00009-0111</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '36']">
 		<assert id="BR-BT-00001-0149" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0149</assert>
@@ -7417,6 +7483,9 @@
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '35']">
 		<assert id="BR-BT-00001-0148" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0148</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'T02']">
+		<assert id="BR-BT-00001-0145" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0145</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '29']">
 		<assert id="BR-BT-00001-0140" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0140</assert>
@@ -7478,6 +7547,9 @@
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '11']">
 		<assert id="BR-BT-00001-0120" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0120</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00001-0121" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0121</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '4']">
 		<assert id="BR-BT-00001-0111" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0111</assert>
 	</rule>
@@ -7496,6 +7568,9 @@
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '9']">
 		<assert id="BR-BT-00001-0118" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0118</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'T01']">
+		<assert id="BR-BT-00001-0115" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0115</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '15']">
 		<assert id="BR-BT-00001-0125" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0125</assert>
 	</rule>
@@ -7513,15 +7588,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '27']">
 		<assert id="BR-BT-00001-0138" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0138</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'T01']">
-		<assert id="BR-BT-00001-0115" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0115</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'T02']">
-		<assert id="BR-BT-00001-0145" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0145</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00001-0121" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID[text()='LocalLegalBasis'])">rule|text|BR-BT-00001-0121</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = '23']">
 		<assert id="BR-BT-00067-0081" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0081</assert>
@@ -7571,6 +7637,10 @@
 		<assert id="BR-BT-00067-0067" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0067</assert>
 		<assert id="BR-BT-00067-0109" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) &gt; 0 or not(cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0109</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00067-0068" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0068</assert>
+		<assert id="BR-BT-00067-0110" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) &gt; 0 or not(cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0110</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = '7']">
 		<assert id="BR-BT-00067-0063" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0063</assert>
 		<assert id="BR-BT-00067-0105" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) &gt; 0 or not(cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0105</assert>
@@ -7590,10 +7660,6 @@
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = '22']">
 		<assert id="BR-BT-00067-0080" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0080</assert>
 		<assert id="BR-BT-00067-0121" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) &gt; 0 or not(cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0121</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00067-0068" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0068</assert>
-		<assert id="BR-BT-00067-0110" role="ERROR" diagnostics="BT-67_b_-Procedure" test="count(cbc:Description) &gt; 0 or not(cbc:TendererRequirementTypeCode[@listName='exclusion-ground'])">rule|text|BR-BT-00067-0110</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '36']">
 		<assert id="BR-BT-00803-0045" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0045</assert>
@@ -7626,6 +7692,10 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '35']">
 		<assert id="BR-BT-00803-0044" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0044</assert>
 		<assert id="BR-BT-00803-0094" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0094</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00803-0041" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0041</assert>
+		<assert id="BR-BT-00803-0091" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0091</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']">
 		<assert id="BR-BT-00803-0036" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0036</assert>
@@ -7707,6 +7777,10 @@
 		<assert id="BR-BT-00803-0016" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0016</assert>
 		<assert id="BR-BT-00803-0066" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0066</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00803-0017" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0017</assert>
+		<assert id="BR-BT-00803-0067" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0067</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']">
 		<assert id="BR-BT-00803-0007" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0007</assert>
 		<assert id="BR-BT-00803-0057" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0057</assert>
@@ -7730,6 +7804,10 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '9']">
 		<assert id="BR-BT-00803-0014" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0014</assert>
 		<assert id="BR-BT-00803-0064" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0064</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00803-0011" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0011</assert>
+		<assert id="BR-BT-00803-0061" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0061</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '15']">
 		<assert id="BR-BT-00803-0021" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0021</assert>
@@ -7759,21 +7837,9 @@
 		<assert id="BR-BT-00803-0002" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0002</assert>
 		<assert id="BR-BT-00803-0052" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00803-0011" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0011</assert>
-		<assert id="BR-BT-00803-0061" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0061</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00803-0041" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0041</assert>
-		<assert id="BR-BT-00803-0091" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0091</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X01']">
 		<assert id="BR-BT-00803-0001" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0001</assert>
 		<assert id="BR-BT-00803-0051" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0051</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00803-0017" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0017</assert>
-		<assert id="BR-BT-00803-0067" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0067</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = '36']">
 		<assert id="BR-BT-00758-0045" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0045</assert>
@@ -7806,6 +7872,10 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = '35']">
 		<assert id="BR-BT-00758-0044" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0044</assert>
 		<assert id="BR-BT-00758-0094" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0094</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00758-0041" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0041</assert>
+		<assert id="BR-BT-00758-0091" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0091</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = '29']">
 		<assert id="BR-BT-00758-0036" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0036</assert>
@@ -7887,6 +7957,10 @@
 		<assert id="BR-BT-00758-0016" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0016</assert>
 		<assert id="BR-BT-00758-0066" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0066</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00758-0017" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0017</assert>
+		<assert id="BR-BT-00758-0067" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0067</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = '4']">
 		<assert id="BR-BT-00758-0007" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0007</assert>
 		<assert id="BR-BT-00758-0057" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0057</assert>
@@ -7911,6 +7985,10 @@
 		<assert id="BR-BT-00758-0014" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0014</assert>
 		<assert id="BR-BT-00758-0064" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0064</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00758-0011" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0011</assert>
+		<assert id="BR-BT-00758-0061" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0061</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = '15']">
 		<assert id="BR-BT-00758-0021" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0021</assert>
 		<assert id="BR-BT-00758-0071" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0071</assert>
@@ -7934,18 +8012,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = '27']">
 		<assert id="BR-BT-00758-0034" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0034</assert>
 		<assert id="BR-BT-00758-0084" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0084</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00758-0011" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0011</assert>
-		<assert id="BR-BT-00758-0061" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0061</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00758-0041" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0041</assert>
-		<assert id="BR-BT-00758-0091" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0091</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00758-0017" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) &gt; 0 or not(../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0017</assert>
-		<assert id="BR-BT-00758-0067" role="ERROR" diagnostics="BT-758-notice" test="count(efbc:ChangedNoticeIdentifier) = 0 or (../../../../../cbc:NoticeTypeCode/@listName = 'change')">rule|text|BR-BT-00758-0067</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = '36']">
 		<assert id="BR-BT-00141-0045" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0045</assert>
@@ -8002,6 +8068,13 @@
 		<assert id="BR-BT-00719-0044" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) &gt; 0 or not(efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0044</assert>
 		<assert id="BR-BT-00719-0094" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0094</assert>
 		<assert id="BR-BT-13716-0093" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0093</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00141-0041" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0041</assert>
+		<assert id="BR-BT-00718-0041" role="ERROR" diagnostics="BT-718-notice" test="count(efbc:ProcurementDocumentsChangeIndicator) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00718-0041</assert>
+		<assert id="BR-BT-00719-0041" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) &gt; 0 or not(efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0041</assert>
+		<assert id="BR-BT-00719-0091" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0091</assert>
+		<assert id="BR-BT-13716-0090" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0090</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = '29']">
 		<assert id="BR-BT-00141-0036" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0036</assert>
@@ -8143,6 +8216,13 @@
 		<assert id="BR-BT-00719-0066" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0066</assert>
 		<assert id="BR-BT-13716-0065" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0065</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00141-0017" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0017</assert>
+		<assert id="BR-BT-00718-0017" role="ERROR" diagnostics="BT-718-notice" test="count(efbc:ProcurementDocumentsChangeIndicator) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00718-0017</assert>
+		<assert id="BR-BT-00719-0017" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) &gt; 0 or not(efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0017</assert>
+		<assert id="BR-BT-00719-0067" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0067</assert>
+		<assert id="BR-BT-13716-0066" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0066</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = '4']">
 		<assert id="BR-BT-00141-0007" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0007</assert>
 		<assert id="BR-BT-00718-0007" role="ERROR" diagnostics="BT-718-notice" test="count(efbc:ProcurementDocumentsChangeIndicator) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00718-0007</assert>
@@ -8184,6 +8264,13 @@
 		<assert id="BR-BT-00719-0014" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) &gt; 0 or not(efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0014</assert>
 		<assert id="BR-BT-00719-0064" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0064</assert>
 		<assert id="BR-BT-13716-0063" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0063</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00141-0011" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0011</assert>
+		<assert id="BR-BT-00718-0011" role="ERROR" diagnostics="BT-718-notice" test="count(efbc:ProcurementDocumentsChangeIndicator) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00718-0011</assert>
+		<assert id="BR-BT-00719-0011" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) &gt; 0 or not(efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0011</assert>
+		<assert id="BR-BT-00719-0061" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0061</assert>
+		<assert id="BR-BT-13716-0060" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0060</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = '15']">
 		<assert id="BR-BT-00141-0021" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0021</assert>
@@ -8227,27 +8314,6 @@
 		<assert id="BR-BT-00719-0084" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0084</assert>
 		<assert id="BR-BT-13716-0083" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0083</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00141-0011" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0011</assert>
-		<assert id="BR-BT-00718-0011" role="ERROR" diagnostics="BT-718-notice" test="count(efbc:ProcurementDocumentsChangeIndicator) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00718-0011</assert>
-		<assert id="BR-BT-00719-0011" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) &gt; 0 or not(efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0011</assert>
-		<assert id="BR-BT-00719-0061" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0061</assert>
-		<assert id="BR-BT-13716-0060" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0060</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00141-0041" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0041</assert>
-		<assert id="BR-BT-00718-0041" role="ERROR" diagnostics="BT-718-notice" test="count(efbc:ProcurementDocumentsChangeIndicator) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00718-0041</assert>
-		<assert id="BR-BT-00719-0041" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) &gt; 0 or not(efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0041</assert>
-		<assert id="BR-BT-00719-0091" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0091</assert>
-		<assert id="BR-BT-13716-0090" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0090</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00141-0017" role="ERROR" diagnostics="BT-141_a_-notice" test="count(efbc:ChangeDescription) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00141-0017</assert>
-		<assert id="BR-BT-00718-0017" role="ERROR" diagnostics="BT-718-notice" test="count(efbc:ProcurementDocumentsChangeIndicator) = 0 or (efbc:ChangedSectionIdentifier)">rule|text|BR-BT-00718-0017</assert>
-		<assert id="BR-BT-00719-0017" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) &gt; 0 or not(efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0017</assert>
-		<assert id="BR-BT-00719-0067" role="ERROR" diagnostics="BT-719-notice" test="count(efbc:ProcurementDocumentsChangeDate) = 0 or (efbc:ProcurementDocumentsChangeIndicator = true())">rule|text|BR-BT-00719-0067</assert>
-		<assert id="BR-BT-13716-0066" role="ERROR" diagnostics="BT-13716-notice" test="count(efbc:ChangedSectionIdentifier) = 0 or (../../../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'corr')">rule|text|BR-BT-13716-0066</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = '36']">
 		<assert id="BR-BT-00140-0045" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0045</assert>
 		<assert id="BR-BT-00140-0095" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0095</assert>
@@ -8287,6 +8353,11 @@
 		<assert id="BR-BT-00140-0044" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0044</assert>
 		<assert id="BR-BT-00140-0094" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0094</assert>
 		<assert id="BR-BT-00762-0044" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0044</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00140-0041" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0041</assert>
+		<assert id="BR-BT-00140-0091" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0091</assert>
+		<assert id="BR-BT-00762-0041" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0041</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = '29']">
 		<assert id="BR-BT-00140-0036" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0036</assert>
@@ -8388,6 +8459,11 @@
 		<assert id="BR-BT-00140-0066" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0066</assert>
 		<assert id="BR-BT-00762-0016" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0016</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00140-0017" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0017</assert>
+		<assert id="BR-BT-00140-0067" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0067</assert>
+		<assert id="BR-BT-00762-0017" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0017</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = '4']">
 		<assert id="BR-BT-00140-0007" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0007</assert>
 		<assert id="BR-BT-00140-0057" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0057</assert>
@@ -8418,6 +8494,11 @@
 		<assert id="BR-BT-00140-0064" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0064</assert>
 		<assert id="BR-BT-00762-0014" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0014</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00140-0011" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0011</assert>
+		<assert id="BR-BT-00140-0061" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0061</assert>
+		<assert id="BR-BT-00762-0011" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0011</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = '15']">
 		<assert id="BR-BT-00140-0021" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0021</assert>
 		<assert id="BR-BT-00140-0071" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0071</assert>
@@ -8447,21 +8528,6 @@
 		<assert id="BR-BT-00140-0034" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0034</assert>
 		<assert id="BR-BT-00140-0084" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0084</assert>
 		<assert id="BR-BT-00762-0034" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0034</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00140-0011" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0011</assert>
-		<assert id="BR-BT-00140-0061" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0061</assert>
-		<assert id="BR-BT-00762-0011" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0011</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00140-0041" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0041</assert>
-		<assert id="BR-BT-00140-0091" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0091</assert>
-		<assert id="BR-BT-00762-0041" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0041</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00140-0017" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) &gt; 0 or not(../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0017</assert>
-		<assert id="BR-BT-00140-0067" role="ERROR" diagnostics="BT-140-notice" test="count(cbc:ReasonCode) = 0 or (../efbc:ChangedNoticeIdentifier)">rule|text|BR-BT-00140-0067</assert>
-		<assert id="BR-BT-00762-0017" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0017</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '38']">
 		<assert id="BR-BT-00118-0047" role="ERROR" diagnostics="BT-118-NoticeResult" test="count(cbc:EstimatedOverallFrameworkContractsAmount) = 0 or ((efac:LotResult/efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc')]/normalize-space(text())) and ((efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount) or (efac:LotResult/efac:FrameworkAgreementValues/cbc:EstimatedMaximumValueAmount)))">rule|text|BR-BT-00118-0047</assert>
@@ -8969,6 +9035,12 @@
 		<assert id="BR-OPT-00320-0044" role="ERROR" diagnostics="OPT-320-LotResult" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00320-0044</assert>
 		<assert id="BR-OPT-00320-0060" role="ERROR" diagnostics="OPT-320-LotResult" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text()) != 'open-nw')">rule|text|BR-OPT-00320-0060</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00144-0041" role="ERROR" diagnostics="BT-144-LotResult" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|BR-BT-00144-0041</assert>
+		<assert id="BR-BT-00144-0062" role="ERROR" diagnostics="BT-144-LotResult" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|BR-BT-00144-0062</assert>
+		<assert id="BR-OPT-00320-0041" role="ERROR" diagnostics="OPT-320-LotResult" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00320-0041</assert>
+		<assert id="BR-OPT-00320-0057" role="ERROR" diagnostics="OPT-320-LotResult" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text()) != 'open-nw')">rule|text|BR-OPT-00320-0057</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '29']">
 		<assert id="BR-BT-00119-0036" role="ERROR" diagnostics="BT-119-LotResult" test="count(efbc:DPSTerminationIndicator) &gt; 0 or not(efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']/normalize-space(text()) = ('dps-list','dp-nlist')]/normalize-space(text()))">rule|text|BR-BT-00119-0036</assert>
 		<assert id="BR-BT-00119-0052" role="ERROR" diagnostics="BT-119-LotResult" test="count(efbc:DPSTerminationIndicator) = 0 or (efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingProcess/cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']/normalize-space(text()) = ('dps-list','dp-nlist')]/normalize-space(text()))">rule|text|BR-BT-00119-0052</assert>
@@ -9041,12 +9113,6 @@
 		<assert id="BR-OPT-00315-0054" role="ERROR" diagnostics="OPT-315-LotResult" test="count(efac:SettledContract/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00315-0054</assert>
 		<assert id="BR-OPT-00320-0038" role="ERROR" diagnostics="OPT-320-LotResult" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00320-0038</assert>
 		<assert id="BR-OPT-00320-0054" role="ERROR" diagnostics="OPT-320-LotResult" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text()) != 'open-nw')">rule|text|BR-OPT-00320-0054</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00144-0041" role="ERROR" diagnostics="BT-144-LotResult" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|BR-BT-00144-0041</assert>
-		<assert id="BR-BT-00144-0062" role="ERROR" diagnostics="BT-144-LotResult" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|BR-BT-00144-0062</assert>
-		<assert id="BR-OPT-00320-0041" role="ERROR" diagnostics="OPT-320-LotResult" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00320-0041</assert>
-		<assert id="BR-OPT-00320-0057" role="ERROR" diagnostics="OPT-320-LotResult" test="count(efac:LotTender/cbc:ID) = 0 or (cbc:TenderResultCode/normalize-space(text()) != 'open-nw')">rule|text|BR-OPT-00320-0057</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type'][$noticeSubType = '36']">
 		<assert id="BR-BT-00635-0045" role="ERROR" diagnostics="BT-635-LotResult" test="count(efbc:StatisticsNumeric) &gt; 0 or not(efbc:StatisticsCode)">rule|text|BR-BT-00635-0045</assert>
@@ -9827,25 +9893,61 @@
 		<assert id="BR-BT-00198-3144" role="ERROR" diagnostics="BT-198_BT-760_-LotResult" test="count(efbc:PublicationDate) &gt; 0 or not(efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-3144</assert>
 		<assert id="BR-BT-00198-3503" role="ERROR" diagnostics="BT-198_BT-760_-LotResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-3503</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '38']">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '38']">
+		<assert id="BR-BT-00735-0098" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) = 0 or (../../efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true']/normalize-space(text()))">rule|text|BR-BT-00735-0098</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '39']">
+		<assert id="BR-BT-00735-0099" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) = 0 or (../../efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true']/normalize-space(text()))">rule|text|BR-BT-00735-0099</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '40']">
+		<assert id="BR-BT-00735-0100" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) = 0 or (../../efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true']/normalize-space(text()))">rule|text|BR-BT-00735-0100</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '29']">
+		<assert id="BR-BT-00735-0087" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) = 0 or ((../../efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true']/normalize-space(text())) and (../../cbc:TenderResultCode/normalize-space(text()) = 'selec-w'))">rule|text|BR-BT-00735-0087</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '30']">
+		<assert id="BR-BT-00735-0088" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) = 0 or ((../../efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true']/normalize-space(text())) and (../../cbc:TenderResultCode/normalize-space(text()) = 'selec-w'))">rule|text|BR-BT-00735-0088</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '31']">
+		<assert id="BR-BT-00735-0089" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) = 0 or ((../../efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true']/normalize-space(text())) and (../../cbc:TenderResultCode/normalize-space(text()) = 'selec-w'))">rule|text|BR-BT-00735-0089</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = '38']">
+		<assert id="BR-BT-00723-0047" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) = 0 or (../efbc:ProcurementCategoryCode)">rule|text|BR-BT-00723-0047</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = '39']">
+		<assert id="BR-BT-00723-0048" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) = 0 or (../efbc:ProcurementCategoryCode)">rule|text|BR-BT-00723-0048</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = '40']">
+		<assert id="BR-BT-00723-0049" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) = 0 or (../efbc:ProcurementCategoryCode)">rule|text|BR-BT-00723-0049</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = '29']">
+		<assert id="BR-BT-00723-0036" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) = 0 or (../efbc:ProcurementCategoryCode)">rule|text|BR-BT-00723-0036</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = '30']">
+		<assert id="BR-BT-00723-0037" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) = 0 or (../efbc:ProcurementCategoryCode)">rule|text|BR-BT-00723-0037</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = '31']">
+		<assert id="BR-BT-00723-0038" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) = 0 or (../efbc:ProcurementCategoryCode)">rule|text|BR-BT-00723-0038</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = '38']">
 		<assert id="BR-OPT-00156-0047" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-OPT-00156-0047</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '39']">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = '39']">
 		<assert id="BR-OPT-00156-0048" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-OPT-00156-0048</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '40']">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = '40']">
 		<assert id="BR-OPT-00156-0049" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-OPT-00156-0049</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '29']">
-		<assert id="BR-OPT-00155-0036" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) = 0 or (../cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00155-0036</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = '29']">
+		<assert id="BR-OPT-00155-0036" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) = 0 or (../efbc:AssetCategoryCode)">rule|text|BR-OPT-00155-0036</assert>
 		<assert id="BR-OPT-00156-0036" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-OPT-00156-0036</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '30']">
-		<assert id="BR-OPT-00155-0037" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) = 0 or (../cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00155-0037</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = '30']">
+		<assert id="BR-OPT-00155-0037" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) = 0 or (../efbc:AssetCategoryCode)">rule|text|BR-OPT-00155-0037</assert>
 		<assert id="BR-OPT-00156-0037" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-OPT-00156-0037</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics[$noticeSubType = '31']">
-		<assert id="BR-OPT-00155-0038" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) = 0 or (../cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00155-0038</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = '31']">
+		<assert id="BR-OPT-00155-0038" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) = 0 or (../efbc:AssetCategoryCode)">rule|text|BR-OPT-00155-0038</assert>
 		<assert id="BR-OPT-00156-0038" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-OPT-00156-0038</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '36']">
@@ -9901,6 +10003,10 @@
 		<assert id="BR-BT-00720-0058" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (not(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text())))">rule|text|BR-BT-00720-0058</assert>
 		<assert id="BR-BT-13714-0044" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0044</assert>
 		<assert id="BR-BT-13714-0064" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0064</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'T02']">
+		<assert id="BR-BT-13714-0041" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0041</assert>
+		<assert id="BR-BT-13714-0071" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0071</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']">
 		<assert id="BR-BT-00171-0036" role="ERROR" diagnostics="BT-171-Tender" test="count(cbc:RankCode) &gt; 0 or not(not(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text())))">rule|text|BR-BT-00171-0036</assert>
@@ -9959,10 +10065,6 @@
 		<assert id="BR-BT-00720-0034" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or (not(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text())))">rule|text|BR-BT-00720-0034</assert>
 		<assert id="BR-BT-13714-0034" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0034</assert>
 		<assert id="BR-BT-13714-0055" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0055</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'T02']">
-		<assert id="BR-BT-13714-0041" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) &gt; 0 or not(efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0041</assert>
-		<assert id="BR-BT-13714-0071" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0071</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-buy'][$noticeSubType = '35']">
 		<assert id="BR-BT-00195-0857" role="ERROR" diagnostics="BT-195_BT-160_-Tender" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:RevenueBuyerAmount)">rule|text|BR-BT-00195-0857</assert>
@@ -11112,6 +11214,12 @@
 		<assert id="BR-OPT-00100-0044" role="ERROR" diagnostics="OPT-100-Contract" test="count(cac:NoticeDocumentReference/cbc:ID) &gt; 0 or not(efbc:ContractFrameworkIndicator = true())">rule|text|BR-OPT-00100-0044</assert>
 		<assert id="BR-OPT-00100-0060" role="ERROR" diagnostics="OPT-100-Contract" test="count(cac:NoticeDocumentReference/cbc:ID) = 0 or (efbc:ContractFrameworkIndicator = true())">rule|text|BR-OPT-00100-0060</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00150-0041" role="ERROR" diagnostics="BT-150-Contract" test="count(efac:ContractReference/cbc:ID) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-BT-00150-0041</assert>
+		<assert id="BR-BT-00150-0091" role="ERROR" diagnostics="BT-150-Contract" test="count(efac:ContractReference/cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-BT-00150-0091</assert>
+		<assert id="BR-BT-03202-0041" role="ERROR" diagnostics="BT-3202-Contract" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-BT-03202-0041</assert>
+		<assert id="BR-BT-03202-0064" role="ERROR" diagnostics="BT-3202-Contract" test="count(efac:LotTender/cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-BT-03202-0064</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']">
 		<assert id="BR-BT-00145-0036" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) &gt; 0 or not(../../../../../../cbc:RegulatoryDomain/normalize-space(text()) != '32018R1046' and ../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) != 'neg-wo-call' and efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0036</assert>
 		<assert id="BR-BT-00145-0053" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0053</assert>
@@ -11187,12 +11295,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '27']">
 		<assert id="BR-BT-00721-0034" role="ERROR" diagnostics="BT-721-Contract" test="count(cbc:Title) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00721-0034</assert>
 		<assert id="BR-BT-01451-0034" role="ERROR" diagnostics="BT-1451-Contract" test="count(cbc:AwardDate) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-01451-0034</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00150-0041" role="ERROR" diagnostics="BT-150-Contract" test="count(efac:ContractReference/cbc:ID) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-BT-00150-0041</assert>
-		<assert id="BR-BT-00150-0091" role="ERROR" diagnostics="BT-150-Contract" test="count(efac:ContractReference/cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-BT-00150-0091</assert>
-		<assert id="BR-BT-03202-0041" role="ERROR" diagnostics="BT-3202-Contract" test="count(efac:LotTender/cbc:ID) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-BT-03202-0041</assert>
-		<assert id="BR-BT-03202-0064" role="ERROR" diagnostics="BT-3202-Contract" test="count(efac:LotTender/cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-BT-03202-0064</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset[$noticeSubType = 'T02']">
 		<assert id="BR-OPP-00021-0041" role="ERROR" diagnostics="OPP-021-Contract" test="count(efbc:AssetDescription) &gt; 0 or not(../../efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00021-0041</assert>
@@ -11282,6 +11384,10 @@
 		<assert id="BR-OPT-00300-0094" role="ERROR" diagnostics="OPT-300-Tenderer" test="count(efac:Tenderer/cbc:ID) &gt; 0 or not(../efac:LotTender/cbc:ID)">rule|text|BR-OPT-00300-0094</assert>
 		<assert id="BR-OPT-00301-0144" role="ERROR" diagnostics="OPT-301-Tenderer-SubCont" test="count(efac:SubContractor/cbc:ID) = 0 or (efac:SubContractor/efac:MainContractor/cbc:ID)">rule|text|BR-OPT-00301-0144</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = 'T02']">
+		<assert id="BR-OPT-00300-0091" role="ERROR" diagnostics="OPT-300-Tenderer" test="count(efac:Tenderer/cbc:ID) &gt; 0 or not(../efac:LotTender/cbc:ID)">rule|text|BR-OPT-00300-0091</assert>
+		<assert id="BR-OPT-00301-0141" role="ERROR" diagnostics="OPT-301-Tenderer-SubCont" test="count(efac:SubContractor/cbc:ID) = 0 or (efac:SubContractor/efac:MainContractor/cbc:ID)">rule|text|BR-OPT-00301-0141</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']">
 		<assert id="BR-OPT-00300-0086" role="ERROR" diagnostics="OPT-300-Tenderer" test="count(efac:Tenderer/cbc:ID) &gt; 0 or not(../efac:LotTender/cbc:ID)">rule|text|BR-OPT-00300-0086</assert>
 		<assert id="BR-OPT-00301-0136" role="ERROR" diagnostics="OPT-301-Tenderer-SubCont" test="count(efac:SubContractor/cbc:ID) = 0 or (efac:SubContractor/efac:MainContractor/cbc:ID)">rule|text|BR-OPT-00301-0136</assert>
@@ -11314,10 +11420,6 @@
 		<assert id="BR-OPT-00300-0084" role="ERROR" diagnostics="OPT-300-Tenderer" test="count(efac:Tenderer/cbc:ID) &gt; 0 or not(../efac:LotTender/cbc:ID)">rule|text|BR-OPT-00300-0084</assert>
 		<assert id="BR-OPT-00301-0134" role="ERROR" diagnostics="OPT-301-Tenderer-SubCont" test="count(efac:SubContractor/cbc:ID) = 0 or (efac:SubContractor/efac:MainContractor/cbc:ID)">rule|text|BR-OPT-00301-0134</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = 'T02']">
-		<assert id="BR-OPT-00300-0091" role="ERROR" diagnostics="OPT-300-Tenderer" test="count(efac:Tenderer/cbc:ID) &gt; 0 or not(../efac:LotTender/cbc:ID)">rule|text|BR-OPT-00300-0091</assert>
-		<assert id="BR-OPT-00301-0141" role="ERROR" diagnostics="OPT-301-Tenderer-SubCont" test="count(efac:SubContractor/cbc:ID) = 0 or (efac:SubContractor/efac:MainContractor/cbc:ID)">rule|text|BR-OPT-00301-0141</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor[$noticeSubType = '36']">
 		<assert id="BR-OPT-00301-0196" role="ERROR" diagnostics="OPT-301-Tenderer-MainCont" test="count(efac:MainContractor/cbc:ID) &gt; 0 or not(../efac:Tenderer/cbc:ID)">rule|text|BR-OPT-00301-0196</assert>
 	</rule>
@@ -11342,6 +11444,9 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor[$noticeSubType = '35']">
 		<assert id="BR-OPT-00301-0195" role="ERROR" diagnostics="OPT-301-Tenderer-MainCont" test="count(efac:MainContractor/cbc:ID) &gt; 0 or not(../efac:Tenderer/cbc:ID)">rule|text|BR-OPT-00301-0195</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor[$noticeSubType = 'T02']">
+		<assert id="BR-OPT-00301-0192" role="ERROR" diagnostics="OPT-301-Tenderer-MainCont" test="count(efac:MainContractor/cbc:ID) &gt; 0 or not(../efac:Tenderer/cbc:ID)">rule|text|BR-OPT-00301-0192</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor[$noticeSubType = '29']">
 		<assert id="BR-OPT-00301-0187" role="ERROR" diagnostics="OPT-301-Tenderer-MainCont" test="count(efac:MainContractor/cbc:ID) &gt; 0 or not(../efac:Tenderer/cbc:ID)">rule|text|BR-OPT-00301-0187</assert>
 	</rule>
@@ -11365,9 +11470,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor[$noticeSubType = '27']">
 		<assert id="BR-OPT-00301-0185" role="ERROR" diagnostics="OPT-301-Tenderer-MainCont" test="count(efac:MainContractor/cbc:ID) &gt; 0 or not(../efac:Tenderer/cbc:ID)">rule|text|BR-OPT-00301-0185</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor[$noticeSubType = 'T02']">
-		<assert id="BR-OPT-00301-0192" role="ERROR" diagnostics="OPT-301-Tenderer-MainCont" test="count(efac:MainContractor/cbc:ID) &gt; 0 or not(../efac:Tenderer/cbc:ID)">rule|text|BR-OPT-00301-0192</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer[$noticeSubType = '36']">
 		<assert id="BR-OPT-00170-0045" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) &gt; 0 or not(../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0045</assert>
@@ -11401,6 +11503,10 @@
 		<assert id="BR-OPT-00170-0044" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) &gt; 0 or not(../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0044</assert>
 		<assert id="BR-OPT-00170-0063" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) = 0 or (../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0063</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer[$noticeSubType = 'T02']">
+		<assert id="BR-OPT-00170-0041" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) &gt; 0 or not(../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0041</assert>
+		<assert id="BR-OPT-00170-0060" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) = 0 or (../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0060</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer[$noticeSubType = '29']">
 		<assert id="BR-OPT-00170-0036" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) &gt; 0 or not(../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0036</assert>
 		<assert id="BR-OPT-00170-0055" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) = 0 or (../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0055</assert>
@@ -11433,10 +11539,6 @@
 		<assert id="BR-OPT-00170-0034" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) &gt; 0 or not(../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0034</assert>
 		<assert id="BR-OPT-00170-0053" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) = 0 or (../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0053</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer[$noticeSubType = 'T02']">
-		<assert id="BR-OPT-00170-0041" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) &gt; 0 or not(../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0041</assert>
-		<assert id="BR-OPT-00170-0060" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) = 0 or (../cbc:ID[count(../efac:Tenderer/cbc:ID) > 1])">rule|text|BR-OPT-00170-0060</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '36']">
 		<assert id="BR-OPT-00202-0045" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0045</assert>
 		<assert id="BR-OPT-00202-0066" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0066</assert>
@@ -11456,6 +11558,10 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '35']">
 		<assert id="BR-OPT-00202-0044" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0044</assert>
 		<assert id="BR-OPT-00202-0065" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0065</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = 'T02']">
+		<assert id="BR-OPT-00202-0041" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0041</assert>
+		<assert id="BR-OPT-00202-0062" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0062</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '29']">
 		<assert id="BR-OPT-00202-0036" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0036</assert>
@@ -11488,10 +11594,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '27']">
 		<assert id="BR-OPT-00202-0034" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0034</assert>
 		<assert id="BR-OPT-00202-0055" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0055</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = 'T02']">
-		<assert id="BR-OPT-00202-0041" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0041</assert>
-		<assert id="BR-OPT-00202-0062" role="ERROR" diagnostics="OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0062</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '36']">
 		<assert id="BR-BT-00633-0045" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text()))) and (not(efbc:ListedOnRegulatedMarketIndicator = true()))))">rule|text|BR-BT-00633-0045</assert>
@@ -11558,6 +11660,15 @@
 		<assert id="BR-OPP-00050-0094" role="ERROR" diagnostics="OPP-050-Organization" test="count(efbc:GroupLeadIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) and (count(../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) > 1))">rule|text|BR-OPP-00050-0094</assert>
 		<assert id="BR-OPT-00302-0044" role="ERROR" diagnostics="OPT-302-Organization" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text()))) and (efbc:ListedOnRegulatedMarketIndicator = false()) and not(efbc:NaturalPersonIndicator = true()))">rule|text|BR-OPT-00302-0044</assert>
 		<assert id="BR-OPT-00302-0064" role="ERROR" diagnostics="OPT-302-Organization" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text()))) and (efbc:ListedOnRegulatedMarketIndicator = false()) and not(efbc:NaturalPersonIndicator = true()))">rule|text|BR-OPT-00302-0064</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00633-0041" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text()))) and (not(efbc:ListedOnRegulatedMarketIndicator = true()))))">rule|text|BR-BT-00633-0041</assert>
+		<assert id="BR-BT-00746-0041" role="ERROR" diagnostics="BT-746-Organization" test="count(efbc:ListedOnRegulatedMarketIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text())))">rule|text|BR-BT-00746-0041</assert>
+		<assert id="BR-BT-00746-0060" role="ERROR" diagnostics="BT-746-Organization" test="count(efbc:ListedOnRegulatedMarketIndicator) &gt; 0 or not((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())))">rule|text|BR-BT-00746-0060</assert>
+		<assert id="BR-OPP-00051-0041" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0041</assert>
+		<assert id="BR-OPP-00052-0041" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0041</assert>
+		<assert id="BR-OPT-00302-0041" role="ERROR" diagnostics="OPT-302-Organization" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text()))) and (efbc:ListedOnRegulatedMarketIndicator = false()) and not(efbc:NaturalPersonIndicator = true()))">rule|text|BR-OPT-00302-0041</assert>
+		<assert id="BR-OPT-00302-0061" role="ERROR" diagnostics="OPT-302-Organization" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text()))) and (efbc:ListedOnRegulatedMarketIndicator = false()) and not(efbc:NaturalPersonIndicator = true()))">rule|text|BR-OPT-00302-0061</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']">
 		<assert id="BR-BT-00633-0036" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text()))) and (not(efbc:ListedOnRegulatedMarketIndicator = true()))))">rule|text|BR-BT-00633-0036</assert>
@@ -11689,6 +11800,11 @@
 		<assert id="BR-OPP-00051-0016" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0016</assert>
 		<assert id="BR-OPP-00052-0016" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0016</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00633-0017" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-BT-00633-0017</assert>
+		<assert id="BR-OPP-00051-0017" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0017</assert>
+		<assert id="BR-OPP-00052-0017" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0017</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '4']">
 		<assert id="BR-BT-00633-0007" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-BT-00633-0007</assert>
 		<assert id="BR-OPP-00050-0057" role="ERROR" diagnostics="OPP-050-Organization" test="count(efbc:GroupLeadIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) and (count(../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) > 1))">rule|text|BR-OPP-00050-0057</assert>
@@ -11728,6 +11844,11 @@
 		<assert id="BR-OPP-00050-0064" role="ERROR" diagnostics="OPP-050-Organization" test="count(efbc:GroupLeadIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) and (count(../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) > 1))">rule|text|BR-OPP-00050-0064</assert>
 		<assert id="BR-OPP-00051-0014" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0014</assert>
 		<assert id="BR-OPP-00052-0014" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0014</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00633-0011" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-BT-00633-0011</assert>
+		<assert id="BR-OPP-00051-0011" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0011</assert>
+		<assert id="BR-OPP-00052-0011" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0011</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '15']">
 		<assert id="BR-BT-00633-0021" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-BT-00633-0021</assert>
@@ -11780,25 +11901,6 @@
 		<assert id="BR-OPP-00052-0034" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0034</assert>
 		<assert id="BR-OPT-00302-0034" role="ERROR" diagnostics="OPT-302-Organization" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text()))) and (efbc:ListedOnRegulatedMarketIndicator = false()) and not(efbc:NaturalPersonIndicator = true()))">rule|text|BR-OPT-00302-0034</assert>
 		<assert id="BR-OPT-00302-0054" role="ERROR" diagnostics="OPT-302-Organization" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text()))) and (efbc:ListedOnRegulatedMarketIndicator = false()) and not(efbc:NaturalPersonIndicator = true()))">rule|text|BR-OPT-00302-0054</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00633-0011" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-BT-00633-0011</assert>
-		<assert id="BR-OPP-00051-0011" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0011</assert>
-		<assert id="BR-OPP-00052-0011" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0011</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00633-0041" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text()))) and (not(efbc:ListedOnRegulatedMarketIndicator = true()))))">rule|text|BR-BT-00633-0041</assert>
-		<assert id="BR-BT-00746-0041" role="ERROR" diagnostics="BT-746-Organization" test="count(efbc:ListedOnRegulatedMarketIndicator) = 0 or ((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text())))">rule|text|BR-BT-00746-0041</assert>
-		<assert id="BR-BT-00746-0060" role="ERROR" diagnostics="BT-746-Organization" test="count(efbc:ListedOnRegulatedMarketIndicator) &gt; 0 or not((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())))">rule|text|BR-BT-00746-0060</assert>
-		<assert id="BR-OPP-00051-0041" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0041</assert>
-		<assert id="BR-OPP-00052-0041" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0041</assert>
-		<assert id="BR-OPT-00302-0041" role="ERROR" diagnostics="OPT-302-Organization" test="count(efac:UltimateBeneficialOwner/cbc:ID) &gt; 0 or not(((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text()))) and (efbc:ListedOnRegulatedMarketIndicator = false()) and not(efbc:NaturalPersonIndicator = true()))">rule|text|BR-OPT-00302-0041</assert>
-		<assert id="BR-OPT-00302-0061" role="ERROR" diagnostics="OPT-302-Organization" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID/normalize-space(text()))) and (efbc:ListedOnRegulatedMarketIndicator = false()) and not(efbc:NaturalPersonIndicator = true()))">rule|text|BR-OPT-00302-0061</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00633-0017" role="ERROR" diagnostics="BT-633-Organization" test="count(efbc:NaturalPersonIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = /*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-BT-00633-0017</assert>
-		<assert id="BR-OPP-00051-0017" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0017</assert>
-		<assert id="BR-OPP-00052-0017" role="ERROR" diagnostics="OPP-052-Organization" test="count(efbc:AcquiringCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00052-0017</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '36']">
 		<assert id="BR-BT-00505-0196" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0196</assert>
@@ -11887,6 +11989,17 @@
 		<assert id="BR-BT-00512-0044" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0044</assert>
 		<assert id="BR-BT-00512-0246" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0246</assert>
 		<assert id="BR-BT-00739-0251" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0251</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00505-0192" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0192</assert>
+		<assert id="BR-BT-00507-0041" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0041</assert>
+		<assert id="BR-BT-00507-0243" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0243</assert>
+		<assert id="BR-BT-00510-0041" role="ERROR" diagnostics="BT-510_a_-Organization-Company" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0041</assert>
+		<assert id="BR-BT-00510-0092" role="ERROR" diagnostics="BT-510_b_-Organization-Company" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0092</assert>
+		<assert id="BR-BT-00510-0143" role="ERROR" diagnostics="BT-510_c_-Organization-Company" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0143</assert>
+		<assert id="BR-BT-00512-0041" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0041</assert>
+		<assert id="BR-BT-00512-0243" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0243</assert>
+		<assert id="BR-BT-00739-0248" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0248</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']">
 		<assert id="BR-BT-00505-0188" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0188</assert>
@@ -12108,6 +12221,17 @@
 		<assert id="BR-BT-00512-0220" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0220</assert>
 		<assert id="BR-BT-00739-0225" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0225</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00505-0170" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0170</assert>
+		<assert id="BR-BT-00507-0017" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0017</assert>
+		<assert id="BR-BT-00507-0221" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0221</assert>
+		<assert id="BR-BT-00510-0017" role="ERROR" diagnostics="BT-510_a_-Organization-Company" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0017</assert>
+		<assert id="BR-BT-00510-0068" role="ERROR" diagnostics="BT-510_b_-Organization-Company" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0068</assert>
+		<assert id="BR-BT-00510-0119" role="ERROR" diagnostics="BT-510_c_-Organization-Company" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0119</assert>
+		<assert id="BR-BT-00512-0017" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0017</assert>
+		<assert id="BR-BT-00512-0221" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0221</assert>
+		<assert id="BR-BT-00739-0226" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0226</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '4']">
 		<assert id="BR-BT-00505-0161" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0161</assert>
 		<assert id="BR-BT-00507-0007" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0007</assert>
@@ -12174,6 +12298,17 @@
 		<assert id="BR-BT-00512-0218" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0218</assert>
 		<assert id="BR-BT-00739-0223" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0223</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00505-0164" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0164</assert>
+		<assert id="BR-BT-00507-0011" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0011</assert>
+		<assert id="BR-BT-00507-0215" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0215</assert>
+		<assert id="BR-BT-00510-0011" role="ERROR" diagnostics="BT-510_a_-Organization-Company" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0011</assert>
+		<assert id="BR-BT-00510-0062" role="ERROR" diagnostics="BT-510_b_-Organization-Company" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0062</assert>
+		<assert id="BR-BT-00510-0113" role="ERROR" diagnostics="BT-510_c_-Organization-Company" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0113</assert>
+		<assert id="BR-BT-00512-0011" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0011</assert>
+		<assert id="BR-BT-00512-0215" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0215</assert>
+		<assert id="BR-BT-00739-0220" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0220</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '15']">
 		<assert id="BR-BT-00505-0174" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0174</assert>
 		<assert id="BR-BT-00507-0021" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0021</assert>
@@ -12239,39 +12374,6 @@
 		<assert id="BR-BT-00512-0034" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0034</assert>
 		<assert id="BR-BT-00512-0237" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0237</assert>
 		<assert id="BR-BT-00739-0242" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0242</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00505-0164" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0164</assert>
-		<assert id="BR-BT-00507-0011" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0011</assert>
-		<assert id="BR-BT-00507-0215" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0215</assert>
-		<assert id="BR-BT-00510-0011" role="ERROR" diagnostics="BT-510_a_-Organization-Company" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0011</assert>
-		<assert id="BR-BT-00510-0062" role="ERROR" diagnostics="BT-510_b_-Organization-Company" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0062</assert>
-		<assert id="BR-BT-00510-0113" role="ERROR" diagnostics="BT-510_c_-Organization-Company" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0113</assert>
-		<assert id="BR-BT-00512-0011" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0011</assert>
-		<assert id="BR-BT-00512-0215" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0215</assert>
-		<assert id="BR-BT-00739-0220" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0220</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00505-0192" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0192</assert>
-		<assert id="BR-BT-00507-0041" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0041</assert>
-		<assert id="BR-BT-00507-0243" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0243</assert>
-		<assert id="BR-BT-00510-0041" role="ERROR" diagnostics="BT-510_a_-Organization-Company" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0041</assert>
-		<assert id="BR-BT-00510-0092" role="ERROR" diagnostics="BT-510_b_-Organization-Company" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0092</assert>
-		<assert id="BR-BT-00510-0143" role="ERROR" diagnostics="BT-510_c_-Organization-Company" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0143</assert>
-		<assert id="BR-BT-00512-0041" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0041</assert>
-		<assert id="BR-BT-00512-0243" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0243</assert>
-		<assert id="BR-BT-00739-0248" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0248</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00505-0170" role="ERROR" diagnostics="BT-505-Organization-Company" test="count(cbc:WebsiteURI) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00505-0170</assert>
-		<assert id="BR-BT-00507-0017" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0017</assert>
-		<assert id="BR-BT-00507-0221" role="ERROR" diagnostics="BT-507-Organization-Company" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0221</assert>
-		<assert id="BR-BT-00510-0017" role="ERROR" diagnostics="BT-510_a_-Organization-Company" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0017</assert>
-		<assert id="BR-BT-00510-0068" role="ERROR" diagnostics="BT-510_b_-Organization-Company" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0068</assert>
-		<assert id="BR-BT-00510-0119" role="ERROR" diagnostics="BT-510_c_-Organization-Company" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0119</assert>
-		<assert id="BR-BT-00512-0017" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0017</assert>
-		<assert id="BR-BT-00512-0221" role="ERROR" diagnostics="BT-512-Organization-Company" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0221</assert>
-		<assert id="BR-BT-00739-0226" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00739-0226</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[(cac:PartyIdentification/cbc:ID/text() = //efac:TenderingParty/efac:Tenderer/cbc:ID/text()) or (cac:PartyIdentification/cbc:ID/text() = //efac:TenderingParty/efac:Subcontractor/cbc:ID/text())][$noticeSubType = '36']">
 		<assert id="BR-BT-00165-0045" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())) or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())))">rule|text|BR-BT-00165-0045</assert>
@@ -12479,6 +12581,25 @@
 		<assert id="BR-BT-00514-0095" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0095</assert>
 		<assert id="BR-BT-00514-0297" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0297</assert>
 		<assert id="BR-BT-00739-0096" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0096</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00016-0092" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0092</assert>
+		<assert id="BR-BT-00500-0093" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName/cbc:Name) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00500-0093</assert>
+		<assert id="BR-BT-00503-0093" role="ERROR" diagnostics="BT-503-Organization-TouchPoint" test="count(cac:Contact/cbc:Telephone) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00503-0093</assert>
+		<assert id="BR-BT-00505-0092" role="ERROR" diagnostics="BT-505-Organization-TouchPoint" test="count(cbc:WebsiteURI) &gt; 0 or not((not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00505-0092</assert>
+		<assert id="BR-BT-00506-0093" role="ERROR" diagnostics="BT-506-Organization-TouchPoint" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00506-0093</assert>
+		<assert id="BR-BT-00507-0092" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0092</assert>
+		<assert id="BR-BT-00507-0286" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0286</assert>
+		<assert id="BR-BT-00510-0194" role="ERROR" diagnostics="BT-510_a_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0194</assert>
+		<assert id="BR-BT-00510-0245" role="ERROR" diagnostics="BT-510_b_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0245</assert>
+		<assert id="BR-BT-00510-0296" role="ERROR" diagnostics="BT-510_c_-Organization-TouchPoint" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0296</assert>
+		<assert id="BR-BT-00512-0092" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0092</assert>
+		<assert id="BR-BT-00512-0285" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0285</assert>
+		<assert id="BR-BT-00513-0092" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0092</assert>
+		<assert id="BR-BT-00513-0294" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0294</assert>
+		<assert id="BR-BT-00514-0092" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0092</assert>
+		<assert id="BR-BT-00514-0294" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0294</assert>
+		<assert id="BR-BT-00739-0093" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0093</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = '29']">
 		<assert id="BR-BT-00016-0087" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0087</assert>
@@ -12879,6 +13000,26 @@
 		<assert id="BR-BT-00514-0269" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0269</assert>
 		<assert id="BR-BT-00739-0068" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0068</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00016-0068" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0068</assert>
+		<assert id="BR-BT-00500-0069" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName/cbc:Name) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00500-0069</assert>
+		<assert id="BR-BT-00503-0069" role="ERROR" diagnostics="BT-503-Organization-TouchPoint" test="count(cac:Contact/cbc:Telephone) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00503-0069</assert>
+		<assert id="BR-BT-00505-0068" role="ERROR" diagnostics="BT-505-Organization-TouchPoint" test="count(cbc:WebsiteURI) &gt; 0 or not((not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00505-0068</assert>
+		<assert id="BR-BT-00506-0069" role="ERROR" diagnostics="BT-506-Organization-TouchPoint" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00506-0069</assert>
+		<assert id="BR-BT-00507-0068" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0068</assert>
+		<assert id="BR-BT-00507-0264" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0264</assert>
+		<assert id="BR-BT-00509-0068" role="ERROR" diagnostics="BT-509-Organization-TouchPoint" test="count(cbc:EndpointID) &gt; 0 or not((not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:WebsiteURI)))">rule|text|BR-BT-00509-0068</assert>
+		<assert id="BR-BT-00510-0170" role="ERROR" diagnostics="BT-510_a_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0170</assert>
+		<assert id="BR-BT-00510-0221" role="ERROR" diagnostics="BT-510_b_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0221</assert>
+		<assert id="BR-BT-00510-0272" role="ERROR" diagnostics="BT-510_c_-Organization-TouchPoint" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0272</assert>
+		<assert id="BR-BT-00512-0068" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0068</assert>
+		<assert id="BR-BT-00512-0263" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0263</assert>
+		<assert id="BR-BT-00513-0068" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0068</assert>
+		<assert id="BR-BT-00513-0270" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0270</assert>
+		<assert id="BR-BT-00514-0068" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0068</assert>
+		<assert id="BR-BT-00514-0270" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0270</assert>
+		<assert id="BR-BT-00739-0069" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0069</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = '4']">
 		<assert id="BR-BT-00016-0058" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0058</assert>
 		<assert id="BR-BT-00500-0059" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName/cbc:Name) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00500-0059</assert>
@@ -12998,6 +13139,25 @@
 		<assert id="BR-BT-00514-0065" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0065</assert>
 		<assert id="BR-BT-00514-0267" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0267</assert>
 		<assert id="BR-BT-00739-0066" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0066</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00016-0062" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0062</assert>
+		<assert id="BR-BT-00500-0063" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName/cbc:Name) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00500-0063</assert>
+		<assert id="BR-BT-00503-0063" role="ERROR" diagnostics="BT-503-Organization-TouchPoint" test="count(cac:Contact/cbc:Telephone) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00503-0063</assert>
+		<assert id="BR-BT-00505-0062" role="ERROR" diagnostics="BT-505-Organization-TouchPoint" test="count(cbc:WebsiteURI) &gt; 0 or not((not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00505-0062</assert>
+		<assert id="BR-BT-00506-0063" role="ERROR" diagnostics="BT-506-Organization-TouchPoint" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00506-0063</assert>
+		<assert id="BR-BT-00507-0062" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0062</assert>
+		<assert id="BR-BT-00507-0258" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0258</assert>
+		<assert id="BR-BT-00510-0164" role="ERROR" diagnostics="BT-510_a_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0164</assert>
+		<assert id="BR-BT-00510-0215" role="ERROR" diagnostics="BT-510_b_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0215</assert>
+		<assert id="BR-BT-00510-0266" role="ERROR" diagnostics="BT-510_c_-Organization-TouchPoint" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0266</assert>
+		<assert id="BR-BT-00512-0062" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0062</assert>
+		<assert id="BR-BT-00512-0257" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0257</assert>
+		<assert id="BR-BT-00513-0062" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0062</assert>
+		<assert id="BR-BT-00513-0264" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0264</assert>
+		<assert id="BR-BT-00514-0062" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0062</assert>
+		<assert id="BR-BT-00514-0264" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0264</assert>
+		<assert id="BR-BT-00739-0063" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0063</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = '15']">
 		<assert id="BR-BT-00016-0072" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0072</assert>
@@ -13119,64 +13279,6 @@
 		<assert id="BR-BT-00514-0287" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0287</assert>
 		<assert id="BR-BT-00739-0086" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0086</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00016-0062" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0062</assert>
-		<assert id="BR-BT-00500-0063" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName/cbc:Name) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00500-0063</assert>
-		<assert id="BR-BT-00503-0063" role="ERROR" diagnostics="BT-503-Organization-TouchPoint" test="count(cac:Contact/cbc:Telephone) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00503-0063</assert>
-		<assert id="BR-BT-00505-0062" role="ERROR" diagnostics="BT-505-Organization-TouchPoint" test="count(cbc:WebsiteURI) &gt; 0 or not((not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00505-0062</assert>
-		<assert id="BR-BT-00506-0063" role="ERROR" diagnostics="BT-506-Organization-TouchPoint" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00506-0063</assert>
-		<assert id="BR-BT-00507-0062" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0062</assert>
-		<assert id="BR-BT-00507-0258" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0258</assert>
-		<assert id="BR-BT-00510-0164" role="ERROR" diagnostics="BT-510_a_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0164</assert>
-		<assert id="BR-BT-00510-0215" role="ERROR" diagnostics="BT-510_b_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0215</assert>
-		<assert id="BR-BT-00510-0266" role="ERROR" diagnostics="BT-510_c_-Organization-TouchPoint" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0266</assert>
-		<assert id="BR-BT-00512-0062" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0062</assert>
-		<assert id="BR-BT-00512-0257" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0257</assert>
-		<assert id="BR-BT-00513-0062" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0062</assert>
-		<assert id="BR-BT-00513-0264" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0264</assert>
-		<assert id="BR-BT-00514-0062" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0062</assert>
-		<assert id="BR-BT-00514-0264" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0264</assert>
-		<assert id="BR-BT-00739-0063" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0063</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00016-0092" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0092</assert>
-		<assert id="BR-BT-00500-0093" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName/cbc:Name) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00500-0093</assert>
-		<assert id="BR-BT-00503-0093" role="ERROR" diagnostics="BT-503-Organization-TouchPoint" test="count(cac:Contact/cbc:Telephone) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00503-0093</assert>
-		<assert id="BR-BT-00505-0092" role="ERROR" diagnostics="BT-505-Organization-TouchPoint" test="count(cbc:WebsiteURI) &gt; 0 or not((not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00505-0092</assert>
-		<assert id="BR-BT-00506-0093" role="ERROR" diagnostics="BT-506-Organization-TouchPoint" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00506-0093</assert>
-		<assert id="BR-BT-00507-0092" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0092</assert>
-		<assert id="BR-BT-00507-0286" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0286</assert>
-		<assert id="BR-BT-00510-0194" role="ERROR" diagnostics="BT-510_a_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0194</assert>
-		<assert id="BR-BT-00510-0245" role="ERROR" diagnostics="BT-510_b_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0245</assert>
-		<assert id="BR-BT-00510-0296" role="ERROR" diagnostics="BT-510_c_-Organization-TouchPoint" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0296</assert>
-		<assert id="BR-BT-00512-0092" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0092</assert>
-		<assert id="BR-BT-00512-0285" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0285</assert>
-		<assert id="BR-BT-00513-0092" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0092</assert>
-		<assert id="BR-BT-00513-0294" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0294</assert>
-		<assert id="BR-BT-00514-0092" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0092</assert>
-		<assert id="BR-BT-00514-0294" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0294</assert>
-		<assert id="BR-BT-00739-0093" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0093</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00016-0068" role="ERROR" diagnostics="BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00016-0068</assert>
-		<assert id="BR-BT-00500-0069" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName/cbc:Name) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00500-0069</assert>
-		<assert id="BR-BT-00503-0069" role="ERROR" diagnostics="BT-503-Organization-TouchPoint" test="count(cac:Contact/cbc:Telephone) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00503-0069</assert>
-		<assert id="BR-BT-00505-0068" role="ERROR" diagnostics="BT-505-Organization-TouchPoint" test="count(cbc:WebsiteURI) &gt; 0 or not((not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00505-0068</assert>
-		<assert id="BR-BT-00506-0069" role="ERROR" diagnostics="BT-506-Organization-TouchPoint" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00506-0069</assert>
-		<assert id="BR-BT-00507-0068" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0068</assert>
-		<assert id="BR-BT-00507-0264" role="ERROR" diagnostics="BT-507-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0264</assert>
-		<assert id="BR-BT-00509-0068" role="ERROR" diagnostics="BT-509-Organization-TouchPoint" test="count(cbc:EndpointID) &gt; 0 or not((not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:Contact/cbc:Telefax)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:WebsiteURI)))">rule|text|BR-BT-00509-0068</assert>
-		<assert id="BR-BT-00510-0170" role="ERROR" diagnostics="BT-510_a_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:StreetName) = 0 or (cac:PostalAddress/cbc:CityName)">rule|text|BR-BT-00510-0170</assert>
-		<assert id="BR-BT-00510-0221" role="ERROR" diagnostics="BT-510_b_-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:AdditionalStreetName) = 0 or (cac:PostalAddress/cbc:StreetName)">rule|text|BR-BT-00510-0221</assert>
-		<assert id="BR-BT-00510-0272" role="ERROR" diagnostics="BT-510_c_-Organization-TouchPoint" test="count(cac:PostalAddress/cac:AddressLine/cbc:Line) = 0 or (cac:PostalAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0272</assert>
-		<assert id="BR-BT-00512-0068" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0068</assert>
-		<assert id="BR-BT-00512-0263" role="ERROR" diagnostics="BT-512-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:PostalZone) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0263</assert>
-		<assert id="BR-BT-00513-0068" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0068</assert>
-		<assert id="BR-BT-00513-0270" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode)">rule|text|BR-BT-00513-0270</assert>
-		<assert id="BR-BT-00514-0068" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0068</assert>
-		<assert id="BR-BT-00514-0270" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) = 0 or (cac:PartyName/cbc:Name)">rule|text|BR-BT-00514-0270</assert>
-		<assert id="BR-BT-00739-0069" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &gt; 0 or not((not(cbc:WebsiteURI)) and (not(cac:Contact/cbc:ElectronicMail)) and (not(cac:Contact/cbc:Telephone)) and (not(cac:PartyName/cbc:Name)) and (not(cbc:EndpointID)))">rule|text|BR-BT-00739-0069</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner[$noticeSubType = '36']">
 		<assert id="BR-BT-00500-0149" role="ERROR" diagnostics="BT-500-UBO" test="count(cbc:FamilyName) = 0 or (efac:Nationality/cbc:NationalityID)">rule|text|BR-BT-00500-0149</assert>
 		<assert id="BR-BT-00503-0149" role="ERROR" diagnostics="BT-503-UBO" test="count(cac:Contact/cbc:Telephone) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00503-0149</assert>
@@ -13281,6 +13383,27 @@
 		<assert id="BR-BT-00739-0148" role="ERROR" diagnostics="BT-739-UBO" test="count(cac:Contact/cbc:Telefax) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00739-0148</assert>
 		<assert id="BR-OPT-00160-0044" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) = 0 or (cbc:FamilyName)">rule|text|BR-OPT-00160-0044</assert>
 		<assert id="BR-OPT-00160-0092" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) &gt; 0 or not(cbc:FamilyName)">rule|text|BR-OPT-00160-0092</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00500-0145" role="ERROR" diagnostics="BT-500-UBO" test="count(cbc:FamilyName) = 0 or (efac:Nationality/cbc:NationalityID)">rule|text|BR-BT-00500-0145</assert>
+		<assert id="BR-BT-00503-0145" role="ERROR" diagnostics="BT-503-UBO" test="count(cac:Contact/cbc:Telephone) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00503-0145</assert>
+		<assert id="BR-BT-00506-0145" role="ERROR" diagnostics="BT-506-UBO" test="count(cac:Contact/cbc:ElectronicMail) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00506-0145</assert>
+		<assert id="BR-BT-00507-0143" role="ERROR" diagnostics="BT-507-UBO" test="count(cac:ResidenceAddress/cbc:CountrySubentityCode) = 0 or (cac:ResidenceAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0143</assert>
+		<assert id="BR-BT-00507-0329" role="ERROR" diagnostics="BT-507-UBO" test="count(cac:ResidenceAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0329</assert>
+		<assert id="BR-BT-00510-0347" role="ERROR" diagnostics="BT-510_a_-UBO" test="count(cac:ResidenceAddress/cbc:StreetName) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00510-0347</assert>
+		<assert id="BR-BT-00510-0398" role="ERROR" diagnostics="BT-510_b_-UBO" test="count(cac:ResidenceAddress/cbc:AdditionalStreetName) = 0 or (cac:ResidenceAddress/cbc:StreetName)">rule|text|BR-BT-00510-0398</assert>
+		<assert id="BR-BT-00510-0449" role="ERROR" diagnostics="BT-510_c_-UBO" test="count(cac:ResidenceAddress/cac:AddressLine/cbc:Line) = 0 or (cac:ResidenceAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0449</assert>
+		<assert id="BR-BT-00512-0143" role="ERROR" diagnostics="BT-512-UBO" test="count(cac:ResidenceAddress/cbc:PostalZone) = 0 or (cac:ResidenceAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0143</assert>
+		<assert id="BR-BT-00512-0329" role="ERROR" diagnostics="BT-512-UBO" test="count(cac:ResidenceAddress/cbc:PostalZone) &gt; 0 or not(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0329</assert>
+		<assert id="BR-BT-00513-0143" role="ERROR" diagnostics="BT-513-UBO" test="count(cac:ResidenceAddress/cbc:CityName) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00513-0143</assert>
+		<assert id="BR-BT-00513-0248" role="ERROR" diagnostics="BT-513-UBO" test="count(cac:ResidenceAddress/cbc:CityName) &gt; 0 or not(cbc:FamilyName)">rule|text|BR-BT-00513-0248</assert>
+		<assert id="BR-BT-00514-0143" role="ERROR" diagnostics="BT-514-UBO" test="count(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00514-0143</assert>
+		<assert id="BR-BT-00514-0248" role="ERROR" diagnostics="BT-514-UBO" test="count(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cbc:FamilyName)">rule|text|BR-BT-00514-0248</assert>
+		<assert id="BR-BT-00706-0041" role="ERROR" diagnostics="BT-706-UBO" test="count(efac:Nationality/cbc:NationalityID) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-00706-0041</assert>
+		<assert id="BR-BT-00706-0061" role="ERROR" diagnostics="BT-706-UBO" test="count(efac:Nationality/cbc:NationalityID) = 0 or (cbc:ID)">rule|text|BR-BT-00706-0061</assert>
+		<assert id="BR-BT-00739-0145" role="ERROR" diagnostics="BT-739-UBO" test="count(cac:Contact/cbc:Telefax) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00739-0145</assert>
+		<assert id="BR-OPT-00160-0041" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) = 0 or (cbc:FamilyName)">rule|text|BR-OPT-00160-0041</assert>
+		<assert id="BR-OPT-00160-0089" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) &gt; 0 or not(cbc:FamilyName)">rule|text|BR-OPT-00160-0089</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner[$noticeSubType = '29']">
 		<assert id="BR-BT-00500-0140" role="ERROR" diagnostics="BT-500-UBO" test="count(cbc:FamilyName) = 0 or (efac:Nationality/cbc:NationalityID)">rule|text|BR-BT-00500-0140</assert>
@@ -13449,26 +13572,5 @@
 		<assert id="BR-BT-00739-0138" role="ERROR" diagnostics="BT-739-UBO" test="count(cac:Contact/cbc:Telefax) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00739-0138</assert>
 		<assert id="BR-OPT-00160-0034" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) = 0 or (cbc:FamilyName)">rule|text|BR-OPT-00160-0034</assert>
 		<assert id="BR-OPT-00160-0083" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) &gt; 0 or not(cbc:FamilyName)">rule|text|BR-OPT-00160-0083</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner[$noticeSubType = 'T02']">
-		<assert id="BR-BT-00500-0145" role="ERROR" diagnostics="BT-500-UBO" test="count(cbc:FamilyName) = 0 or (efac:Nationality/cbc:NationalityID)">rule|text|BR-BT-00500-0145</assert>
-		<assert id="BR-BT-00503-0145" role="ERROR" diagnostics="BT-503-UBO" test="count(cac:Contact/cbc:Telephone) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00503-0145</assert>
-		<assert id="BR-BT-00506-0145" role="ERROR" diagnostics="BT-506-UBO" test="count(cac:Contact/cbc:ElectronicMail) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00506-0145</assert>
-		<assert id="BR-BT-00507-0143" role="ERROR" diagnostics="BT-507-UBO" test="count(cac:ResidenceAddress/cbc:CountrySubentityCode) = 0 or (cac:ResidenceAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0143</assert>
-		<assert id="BR-BT-00507-0329" role="ERROR" diagnostics="BT-507-UBO" test="count(cac:ResidenceAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GBR','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR'))">rule|text|BR-BT-00507-0329</assert>
-		<assert id="BR-BT-00510-0347" role="ERROR" diagnostics="BT-510_a_-UBO" test="count(cac:ResidenceAddress/cbc:StreetName) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00510-0347</assert>
-		<assert id="BR-BT-00510-0398" role="ERROR" diagnostics="BT-510_b_-UBO" test="count(cac:ResidenceAddress/cbc:AdditionalStreetName) = 0 or (cac:ResidenceAddress/cbc:StreetName)">rule|text|BR-BT-00510-0398</assert>
-		<assert id="BR-BT-00510-0449" role="ERROR" diagnostics="BT-510_c_-UBO" test="count(cac:ResidenceAddress/cac:AddressLine/cbc:Line) = 0 or (cac:ResidenceAddress/cbc:AdditionalStreetName)">rule|text|BR-BT-00510-0449</assert>
-		<assert id="BR-BT-00512-0143" role="ERROR" diagnostics="BT-512-UBO" test="count(cac:ResidenceAddress/cbc:PostalZone) = 0 or (cac:ResidenceAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0143</assert>
-		<assert id="BR-BT-00512-0329" role="ERROR" diagnostics="BT-512-UBO" test="count(cac:ResidenceAddress/cbc:PostalZone) &gt; 0 or not(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('1A0','AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF'))">rule|text|BR-BT-00512-0329</assert>
-		<assert id="BR-BT-00513-0143" role="ERROR" diagnostics="BT-513-UBO" test="count(cac:ResidenceAddress/cbc:CityName) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00513-0143</assert>
-		<assert id="BR-BT-00513-0248" role="ERROR" diagnostics="BT-513-UBO" test="count(cac:ResidenceAddress/cbc:CityName) &gt; 0 or not(cbc:FamilyName)">rule|text|BR-BT-00513-0248</assert>
-		<assert id="BR-BT-00514-0143" role="ERROR" diagnostics="BT-514-UBO" test="count(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00514-0143</assert>
-		<assert id="BR-BT-00514-0248" role="ERROR" diagnostics="BT-514-UBO" test="count(cac:ResidenceAddress/cac:Country/cbc:IdentificationCode) &gt; 0 or not(cbc:FamilyName)">rule|text|BR-BT-00514-0248</assert>
-		<assert id="BR-BT-00706-0041" role="ERROR" diagnostics="BT-706-UBO" test="count(efac:Nationality/cbc:NationalityID) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-00706-0041</assert>
-		<assert id="BR-BT-00706-0061" role="ERROR" diagnostics="BT-706-UBO" test="count(efac:Nationality/cbc:NationalityID) = 0 or (cbc:ID)">rule|text|BR-BT-00706-0061</assert>
-		<assert id="BR-BT-00739-0145" role="ERROR" diagnostics="BT-739-UBO" test="count(cac:Contact/cbc:Telefax) = 0 or (cbc:FamilyName)">rule|text|BR-BT-00739-0145</assert>
-		<assert id="BR-OPT-00160-0041" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) = 0 or (cbc:FamilyName)">rule|text|BR-OPT-00160-0041</assert>
-		<assert id="BR-OPT-00160-0089" role="ERROR" diagnostics="OPT-160-UBO" test="count(cbc:FirstName) &gt; 0 or not(cbc:FamilyName)">rule|text|BR-OPT-00160-0089</assert>
 	</rule>
 </pattern>

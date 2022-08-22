@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.0.53 created on the 2022-08-18T13:34:16.-->
+<!--File generated from metadata database version 1.0.72 created on the 2022-08-22T12:18:06.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -530,12 +530,14 @@
     <diagnostic id="BT-711-LotResult">cbc:HigherTenderAmount</diagnostic>
     <diagnostic id="BT-712_a_-LotResult">efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efbc:StatisticsCode</diagnostic>
     <diagnostic id="BT-712_b_-LotResult">efbc:StatisticsNumeric</diagnostic>
+    <diagnostic id="BT-717-Lot">efbc:ApplicableLegalBasis</diagnostic>
     <diagnostic id="BT-718-notice">efbc:ProcurementDocumentsChangeIndicator</diagnostic>
     <diagnostic id="BT-719-notice">efbc:ProcurementDocumentsChangeDate</diagnostic>
     <diagnostic id="BT-720-Tender">cac:LegalMonetaryTotal/cbc:PayableAmount</diagnostic>
     <diagnostic id="BT-721-Contract">cbc:Title</diagnostic>
     <diagnostic id="BT-722-Contract">efac:Funding/efbc:FundingProgramCode</diagnostic>
     <diagnostic id="BT-7220-Lot">efac:Funding/efbc:FundingProgramCode</diagnostic>
+    <diagnostic id="BT-723-LotResult">efbc:AssetCategoryCode</diagnostic>
     <diagnostic id="BT-726-Lot">cbc:SMESuitableIndicator</diagnostic>
     <diagnostic id="BT-726-LotsGroup">cbc:SMESuitableIndicator</diagnostic>
     <diagnostic id="BT-726-Part">cbc:SMESuitableIndicator</diagnostic>
@@ -553,6 +555,8 @@
     <diagnostic id="BT-733-LotsGroup">cbc:Description</diagnostic>
     <diagnostic id="BT-734-Lot">cbc:Name</diagnostic>
     <diagnostic id="BT-734-LotsGroup">cbc:Name</diagnostic>
+    <diagnostic id="BT-735-Lot">efbc:ProcurementCategoryCode</diagnostic>
+    <diagnostic id="BT-735-LotResult">efbc:ProcurementCategoryCode</diagnostic>
     <diagnostic id="BT-736-Lot">cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']</diagnostic>
     <diagnostic id="BT-736-Part">cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']</diagnostic>
     <diagnostic id="BT-737-Lot">cac:CallForTendersDocumentReference/cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']</diagnostic>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.0.52 created on the 2022-08-18T13:31:39.-->
+<!--File generated from metadata database version 1.0.72 created on the 2022-08-22T12:18:06.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -483,6 +483,12 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter">
 		<assert id="BT-7531-Lot_R" role="ERROR" diagnostics="BT-7531-Lot" test="count(efbc:ParameterCode[@listName='number-weight']) &lt; 2">rule|text|BT-7531-Lot_R</assert>
 		<assert id="BT-7532-Lot_R" role="ERROR" diagnostics="BT-7532-Lot" test="count(efbc:ParameterCode[@listName='number-threshold']) &lt; 2">rule|text|BT-7532-Lot_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement">
+		<assert id="BT-717-Lot_R" role="ERROR" diagnostics="BT-717-Lot" test="count(efbc:ApplicableLegalBasis) &lt; 2">rule|text|BT-717-Lot_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation">
+		<assert id="BT-735-Lot_R" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) &lt; 2">rule|text|BT-735-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']">
 		<assert id="BT-137-LotsGroup_R" role="ERROR" diagnostics="BT-137-LotsGroup" test="count(cbc:ID) &lt; 2">rule|text|BT-137-LotsGroup_R</assert>
@@ -1029,7 +1035,13 @@
 		<assert id="BT-197_BT-760_-LotResult_R" role="ERROR" diagnostics="BT-197_BT-760_-LotResult" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-760_-LotResult_R</assert>
 		<assert id="BT-198_BT-760_-LotResult_R" role="ERROR" diagnostics="BT-198_BT-760_-LotResult" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-760_-LotResult_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurementStatistics">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation">
+		<assert id="BT-735-LotResult_R" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) &lt; 2">rule|text|BT-735-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails">
+		<assert id="BT-723-LotResult_R" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) &lt; 2">rule|text|BT-723-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics">
 		<assert id="OPT-155-LotResult_R" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) &lt; 2">rule|text|OPT-155-LotResult_R</assert>
 		<assert id="OPT-156-LotResult_R" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) &lt; 2">rule|text|OPT-156-LotResult_R</assert>
 	</rule>
