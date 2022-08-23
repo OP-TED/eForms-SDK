@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.0.72 created on the 2022-08-22T12:18:06.-->
+<!--File generated from metadata database version 1.0.84 created on the 2022-08-23T10:55:45.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -524,6 +524,9 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:Funding/efbc:FundingProgramCode">
 		<assert id="BR-BT-00722-0052" role="ERROR" test="normalize-space(.) = ('AFIS2020', 'AGR', 'AGRNET', 'AMF', 'AMIF', 'ANTIFRAUD', 'BMVI', 'CCEI', 'CDF2020', 'CEF', 'CEF_2021', 'CF', 'CFSP2020', 'CFSP_2021', 'CF_2021', 'CF_DET', 'CIFP_07_13', 'CIT2020', 'COMPREG', 'CONS', 'COPERNICUS', 'COSME', 'CPM_H3', 'CPM_H4', 'CREA', 'CREATIVEEU', 'CUST2020', 'CUSTOMS', 'DCI2020', 'DIGITALEU', 'E4A', 'EAFRD', 'EAFRD2020', 'EAFRD_2021', 'EAGF2020', 'EAGF_2021', 'EAR2020', 'EDF', 'EDIDP', 'EERP', 'EFSD', 'EFSI', 'EGF2020', 'EGF_2021', 'EIDHR2020', 'EINS', 'EMFAF', 'EMFF2020', 'EMFF_2021', 'ENI', 'EPF', 'ERASMUS_PLUS', 'ERDF', 'ERDF_2021', 'ESC', 'ESC_2021', 'ESF', 'ESF_PLUS', 'ESI_2021', 'ESP2017', 'ESP2020', 'EU4HEALTH', 'EUAV', 'EURATOM', 'EURATOM_07_13', 'EURATOM_19_20', 'EURATOM_21_27', 'EURI', 'EURODAC2020', 'EUSF2020', 'EUSF_2021', 'EUSF_H3', 'EUSF_H4', 'FEAD', 'FF2020', 'FINSER2020', 'FISC2020', 'FISCALIS', 'FP6', 'FP7', 'GAL2014', 'GRLD2020', 'H2020', 'HEALTH', 'HERC3', 'HFR2015', 'HFR_09_11', 'HFR_16_19', 'HFR_20_23', 'HORIZONEU', 'HUMA2020', 'HUMA_2021', 'ICFS', 'IES', 'IF', 'IFS2020', 'INSC2020', 'INVESTEU', 'IPA2', 'IPAIII', 'ISA2015', 'ISA2020', 'ISF', 'ISF_2021', 'ITER', 'ITER_19_20', 'ITER_2021', 'JTF', 'JUST', 'JUSTICE', 'LIFE2020', 'LIFE_2021', 'LOAN2020', 'MFA', 'MM_2021', 'ND', 'NDICI', 'ND_LITH', 'ND_OTHER', 'OCT', 'OUTREG', 'PERI2020', 'PERICLES', 'PI', 'PSCI', 'PSLF_JTM2021', 'REGCONV', 'RESCEU', 'RFMOs', 'RIGHTS_2021', 'RRF', 'SEAR_2021', 'SFAs', 'SINGLEMKT', 'SIS2020', 'SPACE', 'TA_IA', 'TCC', 'TCC_2021', 'TERRCOOP', 'TRANSREG', 'VIS2020', 'YEI')">rule|text|BR-BT-00722-0052</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode">
+		<assert id="BR-BT-00723-0051" role="ERROR" test="normalize-space(.) = ('m1', 'm1-m2-n1', 'm2', 'm3', 'n1', 'n2', 'n2-n3', 'n3')">rule|text|BR-BT-00723-0051</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region">
 		<assert id="BR-BT-00727-0154" role="ERROR" test="normalize-space(.) = ('anyw', 'anyw-cou', 'anyw-eea')">rule|text|BR-BT-00727-0154</assert>
 	</rule>
@@ -532,6 +535,12 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region">
 		<assert id="BR-BT-00727-0156" role="ERROR" test="normalize-space(.) = ('anyw', 'anyw-cou', 'anyw-eea')">rule|text|BR-BT-00727-0156</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode">
+		<assert id="BR-BT-00735-0051" role="ERROR" test="normalize-space(.) = ('oth-serv-contr', 'road-tran-contr', 'veh-acq')">rule|text|BR-BT-00735-0051</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode">
+		<assert id="BR-BT-00735-0102" role="ERROR" test="normalize-space(.) = ('oth-serv-contr', 'road-tran-contr', 'veh-acq')">rule|text|BR-BT-00735-0102</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']">
 		<assert id="BR-BT-00736-0103" role="ERROR" test="normalize-space(.) = ('no', 'not-known', 'yes')">rule|text|BR-BT-00736-0103</assert>
