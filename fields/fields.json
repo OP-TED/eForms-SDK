@@ -17,12 +17,6 @@
     "xpathRelative" : "cac:AdditionalDocumentReference",
     "repeatable" : false
   }, {
-    "id" : "ND-BusinessCapability",
-    "parentId" : "ND-Root",
-    "xpathAbsolute" : "/*/cac:BusinessCapability",
-    "xpathRelative" : "cac:BusinessCapability",
-    "repeatable" : true
-  }, {
     "id" : "ND-BusinessParty",
     "parentId" : "ND-Root",
     "xpathAbsolute" : "/*/cac:BusinessParty",
@@ -149,12 +143,6 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod",
     "xpathRelative" : "cac:PlannedPeriod",
     "repeatable" : false
-  }, {
-    "id" : "ND-ProcurementAdditionalType",
-    "parentId" : "ND-LotProcurementScope",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType",
-    "xpathRelative" : "cac:ProcurementAdditionalType",
-    "repeatable" : true
   }, {
     "id" : "ND-AccessibilityJustification",
     "parentId" : "ND-LotProcurementScope",
@@ -504,12 +492,6 @@
     "xpathRelative" : "efac:StrategicProcurementInformation",
     "repeatable" : true
   }, {
-    "id" : "ND-TenderSubcontractingRequirements",
-    "parentId" : "ND-NonUBLTenderingTerms",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:TenderSubcontractingRequirements",
-    "xpathRelative" : "efac:TenderSubcontractingRequirements",
-    "repeatable" : true
-  }, {
     "id" : "ND-LotsGroup",
     "parentId" : "ND-Root",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']",
@@ -836,12 +818,6 @@
     "xpathRelative" : "cac:LotDistribution",
     "repeatable" : false
   }, {
-    "id" : "ND-LotsGroupComposition",
-    "parentId" : "ND-LotDistribution",
-    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:LotDistribution/cac:LotDistribution",
-    "xpathRelative" : "cac:LotDistribution",
-    "repeatable" : true
-  }, {
     "id" : "ND-GroupComposition",
     "parentId" : "ND-LotDistribution",
     "xpathAbsolute" : "/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup",
@@ -1135,12 +1111,6 @@
     "parentId" : "ND-ConcessionRevenue",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='val-con-des']",
     "xpathRelative" : "efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='val-con-des']",
-    "repeatable" : false
-  }, {
-    "id" : "ND-FinancialContractExecutionConditions",
-    "parentId" : "ND-LotTender",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/@listName='contract-detail']",
-    "xpathRelative" : "efac:ContractTerm[efbc:TermCode/@listName='contract-detail']",
     "repeatable" : false
   }, {
     "id" : "ND-RewardsPenalties",
