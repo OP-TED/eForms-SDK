@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.0.0",
   "metadataDatabase" : {
-    "version" : "1.0.0",
-    "createdOn" : "2022-08-05T10:24:40"
+    "version" : "1.0.85",
+    "createdOn" : "2022-08-23T10:57:02"
   },
   "noticeId" : "33",
   "metadata" : [ {
@@ -2434,15 +2434,17 @@
           "content" : [ {
             "id" : "BT-5011-Contract",
             "contentType" : "field",
-            "displayType" : "COMBOBOX",
+            "displayType" : "TEXTBOX",
             "description" : "Contract EU Funds Identifier",
-            "_label" : "field|name|BT-5011-Contract"
+            "_label" : "field|name|BT-5011-Contract",
+            "_repeatable" : true
           }, {
             "id" : "BT-722-Contract",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
-            "description" : "Contract EU Funds Name",
-            "_label" : "field|name|BT-722-Contract"
+            "description" : "Contract EU Funds Programme",
+            "_label" : "field|name|BT-722-Contract",
+            "_repeatable" : true
           } ]
         } ]
       } ]

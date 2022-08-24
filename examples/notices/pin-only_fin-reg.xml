@@ -152,7 +152,6 @@
 			<cbc:Description languageID="ENG">RealizedLocDesc1234</cbc:Description>
 			<cac:Address>
 				<cbc:StreetName>RealizedLocStreet1234</cbc:StreetName>
-				<cbc:Department>RealizedLocDept1234</cbc:Department>
 				<cbc:CityName>RealizedLocCity1234</cbc:CityName>
 				<cbc:PostalZone>RealizedLocPostalZone1234</cbc:PostalZone>
 				<cbc:CountrySubentityCode listName="nuts">DE123</cbc:CountrySubentityCode>
@@ -204,7 +203,6 @@
 				<cbc:Description languageID="ENG">RealizedLocDesc1234</cbc:Description>
 				<cac:Address>
 					<cbc:StreetName>RealizedLocStreet1234</cbc:StreetName>
-					<cbc:Department>RealizedLocDept1234</cbc:Department>
 					<cbc:CityName>RealizedLocCity1234</cbc:CityName>
 					<cbc:PostalZone>RealizedLocPostalZone1234</cbc:PostalZone>
 					<cbc:CountrySubentityCode listName="nuts">DE123</cbc:CountrySubentityCode>

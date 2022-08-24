@@ -7,6 +7,10 @@
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
+					<!-- "id" : "BT-803(d)-notice", "name" : "Notice Dispatch Date eSender (date)"-->
+					<efbc:TransmissionDate>2023-03-23+01:00</efbc:TransmissionDate>
+					<!-- "id" : "BT-803(t)-notice", "name" : "Notice Dispatch Date eSender (time)"-->
+					<efbc:TransmissionTime>22:00:00+01:00</efbc:TransmissionTime>
 					<efac:NoticeSubType>
 						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
 					</efac:NoticeSubType>
@@ -939,6 +943,12 @@
 				<!--BT-744-->
 				<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<!--BT-801-->
+				<cbc:ExecutionRequirementCode listName="nda">true</cbc:ExecutionRequirementCode>
+				<!--BT-802-->
+				<cbc:Description languageID="ENG">Non Disclosure Agreement Description ---</cbc:Description>
+			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<!--BT-120-->
 				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
@@ -1242,6 +1252,14 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
+							<efac:Funding>
+								<!--id": "BT-5010-Lot", "name": "EU Funds Financing Identifier"-->
+								<efbc:FinancingIdentifier>2021/5678</efbc:FinancingIdentifier>
+								<!--"id": "BT-7220-Lot", "name": "EU Funds Programme"-->
+								<cbc:FundingProgramCode listName="eu-funded">LIFE_2021</cbc:FundingProgramCode>
+								<!--"id": "BT-6140-Lot", "name": "EU Funds Details"-->
+								<cbc:Description languageID="ENG">Recovery Fund</cbc:Description>
+							</efac:Funding>
 							<efac:SelectionCriteria>
 								<!--BT-747-->
 								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
