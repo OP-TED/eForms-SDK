@@ -28,15 +28,15 @@
 		"comment": "Type of buyer"
 	},
 	"award-criterion": {
-		"efx": "{ND-Root} ${BT-539-LotsGroup} ${BT-539-Lot}",
+		"efx": "{ND-Root} ${value-union(BT-539-LotsGroup, BT-539-Lot)}",
 		"comment": "award criterion"
 	},
 	"DD": {
-		"efx": "{ND-Root} ${BT-13(d)-Part}  ${BT-13(d)-Lot}",
+		"efx": "{ND-Root} ${value-union(BT-13(d)-Part, BT-13(d)-Lot)}",
 		"comment": "Deadline for requests for documents"
 	},
 	"DI": {
-		"efx": "{ND-Root} ${BT-01-notice} ${BT-01(c)-Procedure}",
+		"efx": "{ND-Root} ${value-union(BT-01-notice, BT-01(c)-Procedure)}",
 		"comment": "legal basis"
 	},
 	"DS": {
@@ -44,19 +44,19 @@
 		"comment": "Dispatch date"
 	},
 	"DT": {
-		"efx": "{ND-Root} ${BT-131(d)-Lot} ${BT-1311(d)-Lot} ${BT-630(d)-Lot}",
+		"efx": "{ND-Root} ${value-union(value-union(BT-131(d)-Lot, BT-1311(d)-Lot), BT-630(d)-Lot)}",
 		"comment": "Deadline for submission date"
 	},
 	"funding": {
-		"efx": "{ND-Root} ${BT-22-Procedure} ${BT-22-Part} ${BT-22-LotsGroup}",
+		"efx": "{ND-Root} ${value-union(value-union(value-union(BT-22-Procedure, BT-22-Part), BT-22-Lot), BT-22-LotsGroup)}",
 		"comment": "Funding"
 	},
 	"MA": {
-		"efx": "{ND-Root} ${BT-10-Procedure-Buyer} ${BT-610-Procedure-Buyer}",
+		"efx": "{ND-Root} ${value-union(BT-10-Procedure-Buyer, BT-610-Procedure-Buyer)}",
 		"comment": "Main activity"
 	},
 	"NC": {
-		"efx": "{ND-Root} ${BT-23-Procedure} ${BT-23-Part} ${BT-23-Lot} ${BT-531-Procedure} ${BT-531-Part} ${BT-531-Lot}",
+		"efx": "{ND-Root} ${value-union(value-union(value-union(value-union(value-union(BT-23-Procedure, BT-23-Part), BT-23-Lot), BT-531-Procedure), BT-531-Part), BT-531-Lot)}",
 		"comment": "Type of contract"
 	},
 	"ND": {
@@ -76,11 +76,11 @@
 		"comment": "(OJ) OJ S Issue number"
 	},
 	"OL": {
-		"efx": "{ND-Root} ${BT-702(a)-notice}  ${BT-702(b)-notice}",
+		"efx": "{ND-Root} ${value-union(BT-702(a)-notice, BT-702(b)-notice)}",
 		"comment": "(OL) Original language"
 	},
 	"PC": {
-		"efx": "{ND-Root} ${BT-262-Procedure} ${BT-263-Procedure} ${BT-262-Lot} ${BT-262-Part}  ${BT-263-Lot} ${BT-263-Part}",
+		"efx": "{ND-Root} ${value-union(value-union(value-union(value-union(value-union(BT-262-Procedure, BT-263-Procedure), BT-262-Lot), BT-262-Part), BT-263-Lot), BT-263-Part)}",
 		"comment": "(PC) Common procurement vocabulary (CPV)"
 	},
 	"PCMain": {
@@ -96,15 +96,15 @@
 		"comment": "Type of procedure"
 	},
 	"BT5071": {
-		"efx": "{ND-Root} ${BT-5071-Procedure} ${BT-5071-Part} ${BT-5071-Lot}",
+		"efx": "{ND-Root} ${value-union(value-union(BT-5071-Procedure, BT-5071-Part), BT-5071-Lot)}",
 		"comment": "Place of performance"
 	},
 	"BT5141": {
-		"efx": "{ND-Root} ${BT-5141-Procedure} ${BT-5141-Part} ${BT-5141-Lot}",
+		"efx": "{ND-Root} ${value-union(value-union(BT-5141-Procedure, BT-5141-Part), BT-5141-Lot)}",
 		"comment": "Place of performance"
 	},
 	"BT727": {
-		"efx": "{ND-Root} ${BT-727-Procedure} ${BT-727-Part} ${BT-727-Lot}",
+		"efx": "{ND-Root} ${value-union(value-union(BT-727-Procedure, BT-727-Part), BT-727-Lot)}",
 		"comment": "Place of performance"
 	},
 	"BT04": {
@@ -136,12 +136,12 @@
 		"comment": "(TI) Title (Title of the document)"
 	},
 	"TVE": {
-		"efx": "{ND-Root} ${BT-27-Procedure} ${BT-161-NoticeResult} ${BT-118-NoticeResult}",
+		"efx": "{ND-Root} ${value-union(value-union(BT-27-Procedure, BT-161-NoticeResult), BT-118-NoticeResult)}",
 		"comment": "(TV) Total value of the procurement"
 	},
 	"TVEC": {
-		"efx": "{ND-Root} ${BT-27-Procedure/@currencyID} ${BT-161-NoticeResult/@currencyID} ${BT-118-NoticeResult/@currencyID}",
-		"comment": "(TV_CUR) Currency of the estimated/total value of the procurement"
+		"efx": "{ND-Root} ${value-union(value-union(BT-27-Procedure/@currencyID, BT-161-NoticeResult/@currencyID), BT-118-NoticeResult/@currencyID)}",
+		"comment": "TODO (TV_CUR) Currency of the estimated/total value of the procurement"
 	},
 	"TVL": {
 		"efx": "{ND-Root} ${BT-710-LotResult}",
