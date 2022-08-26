@@ -72,7 +72,7 @@
 		"comment": "'Contract Identifier Reference' of a specific lot"
 	},
 	"VC_Tender_value": {
-		"efx": "{ND-Root, text:$vLOT, , text:$vCON} ${BT-720-Tender[(OPT-321-Tender == OPT-320-LotResult[BT-13714-Tender == '$vLOT']) and (OPT-321-Tender == BT-3202-Contract[OPT-316-Contract == '$vCON'])]}",
+		"efx": "{ND-Root, text:$vLOT, text:$vCON} ${BT-720-Tender[(OPT-321-Tender == OPT-320-LotResult[BT-13714-Tender == '$vLOT']) and (OPT-321-Tender == BT-3202-Contract[OPT-316-Contract == '$vCON'])]}",
 		"comment": "'Tender Value' of a specific contract in a specific lot"
 	},
 	"OL": {
