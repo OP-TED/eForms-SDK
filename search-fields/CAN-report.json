@@ -1,87 +1,86 @@
 {
-	"CA" : {
-	  "efx" : "{ND-Root} ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}",
-      "comment" : "Buyer name"
+	"CA": {
+		"efx": "{ND-Root} ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}",
+		"comment": "Buyer name"
 	},
-    "CN" : {
-	  "efx" : "{ND-Root} ${BT-150-Contract[OPT-316-Contract == [BT-13713-LotResult == '$vLOT' ] ]}",
-      "comment" : "List of 'Contract Identifier' of the result of a specific lot"
+	"CN": {
+		"efx": "{ND-Root, text:$vLOT} ${BT-150-Contract[OPT-316-Contract == [BT-13713-LotResult == '$vLOT']]}",
+		"comment": "List of 'Contract Identifier' of the result of a specific lot"
 	},
-    "CT" : {
-	  "efx" : "{ND-Root} ${BT-721-Contract[OPT-316-Contract == [BT-13713-LotResult == '$vLOT' ] ]}",
-      "comment" : "List of 'name of Contract'  of the result of a specific lot"
+	"CT": {
+		"efx": "{ND-Root, text:$vLOT} ${BT-721-Contract[OPT-316-Contract == [BT-13713-LotResult == '$vLOT']]}",
+		"comment": "List of 'name of Contract'  of the result of a specific lot"
 	},
-    "Con_award_list" : {
-	  "efx" : "{ND-Root} ${OPT-310-Tender[(OPT-321-Tender == OPT-320-LotResult[BT-13713-LotResult == '$vLOT']) and (OPT-321-Tender == BT-3202-Contract)]}",
-      "comment" : "Tendering Party ID Reference of a specific lot"
+	"Con_award_list": {
+		"efx": "{ND-Root, text:$vLOT} ${OPT-310-Tender[(OPT-321-Tender == OPT-320-LotResult[BT-13713-LotResult == '$vLOT']) and (OPT-321-Tender == BT-3202-Contract)]}",
+		"comment": "Tendering Party ID Reference of a specific lot"
 	},
-    "Con_award_names" : {
-	  "efx" : "{ND-Root} ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == '$vTPA']]}",
-      "comment" : "Contractor awarded (winning tenderer)"
+	"Con_award_names": {
+		"efx": "{ND-Root, text:$vTPA} ${BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == '$vTPA']]}",
+		"comment": "Contractor awarded (winning tenderer)"
 	},
-    "Currency" : {
-	  "efx" : "{ND-Root} ${ BT-720-Tender[(OPT-321-Tender == OPT-320-LotResult[BT-13714-Tender == '$vLOT']) and (OPT-321-Tender == BT-3202-Contract[OPT-316-Contract == '$vCON' ] ) ] /@currencyID}",
-      "comment" : "Currency"
+	"Currency": {
+		"efx": "{ND-Root, text:$vLOT, text:$vCON} ${ BT-720-Tender[(OPT-321-Tender == OPT-320-LotResult[BT-13714-Tender == '$vLOT']) and (OPT-321-Tender == BT-3202-Contract[OPT-316-Contract == '$vCON' ])] /@currencyID}",
+		"comment": "Currency"
 	},
-	"currency_backup" : {
-	  "efx" : "{ND-Root} ${BT-711-LotResult[BT-13713-LotResult == '$vLOT']/@currencyID}",
-      "comment" : "Currency"
+	"currency_backup": {
+		"efx": "{ND-Root, text:$vLOT} ${BT-711-LotResult[BT-13713-LotResult == '$vLOT']/@currencyID}",
+		"comment": "Currency"
 	},
-	"FA_contracts" : {
-	  "efx" : "{ND-Root} ${OPT-315-LotResult[BT-13713-LotResult == '$vLOT']}",
-      "comment" : "Contract Identifier Reference of a specific lot"
+	"FA_contracts": {
+		"efx": "{ND-Root, text:$vLOT} ${OPT-315-LotResult[BT-13713-LotResult == '$vLOT']}",
+		"comment": "Contract Identifier Reference of a specific lot"
 	},
-	"FA_indicator" : {
-	  "efx" : "{ND-Root} ${BT-768-Contract[OPT-316-Contract == '$vCON']}",
-      "comment" : "'Contract Framework Agreement' of a specific contract"
+	"FA_indicator": {
+		"efx": "{ND-Root, text:$vCON} ${BT-768-Contract[OPT-316-Contract == '$vCON']}",
+		"comment": "'Contract Framework Agreement' of a specific contract"
 	},
-	"HO" : {
-	  "efx" : "{ND-Root}  ${BT-711-LotResult[BT-13713-LotResult == '$vLOT']}",
-      "comment" : "'Tender Value Highest' of a specific lot"
+	"HO": {
+		"efx": "{ND-Root, text:$vLOT}  ${BT-711-LotResult[BT-13713-LotResult == '$vLOT']}",
+		"comment": "'Tender Value Highest' of a specific lot"
 	},
-	"LO" : {
-	  "efx" : "{ND-Root}  ${BT-710-LotResult[BT-13713-LotResult == '$vLOT']}",
-      "comment" : "'Tender Value Lowest' of a specific lot"
+	"LO": {
+		"efx": "{ND-Root, text:$vLOT}  ${BT-710-LotResult[BT-13713-LotResult == '$vLOT']}",
+		"comment": "'Tender Value Lowest' of a specific lot"
 	},
-	"LOL" : {
-	  "efx" : "{ND-Root}  ${BT-13713-LotResult[(BT-142-LotResult == 'selec-w') and (OPT-315-LotResult == OPT-315-LotResult )]}",
-      "comment" : "'Result Lot Identifier'when winner was chosen "
+	"LOL": {
+		"efx": "{ND-Root}  ${BT-13713-LotResult[(BT-142-LotResult == 'selec-w') and (OPT-315-LotResult == OPT-315-LotResult)]}",
+		"comment": "'Result Lot Identifier'when winner was chosen "
 	},
-	"NO" : {
-	  "efx" : "{ND-Root}  ${BT-759-LotResult[(BT-13713-LotResult == '$vLOT') and (BT-760-LotResult == 'tenders')]}",
-      "comment" : "'Received Submissions Count' of a specific lot"
+	"NO": {
+		"efx": "{ND-Root, text:$vLOT}  ${BT-759-LotResult[(BT-13713-LotResult == '$vLOT') and (BT-760-LotResult == 'tenders')]}",
+		"comment": "'Received Submissions Count' of a specific lot"
 	},
-	"PD" : {
-	  "efx" : "OPP-012-notice",
-      "comment" : "Publication date"
+	"PD": {
+		"efx": "OPP-012-notice",
+		"comment": "Publication date"
 	},
-	"PT" : {
-	  "efx" : "BT-105-Procedure",
-      "comment" : "Procedure Type"
+	"PT": {
+		"efx": "BT-105-Procedure",
+		"comment": "Procedure Type"
 	},
-	"TN" : {
-	  "efx" : "{ND-Root}  ${BT-21-Procedure}",
-      "comment" : "Procurement title"
+	"TN": {
+		"efx": "{ND-Root}  ${BT-21-Procedure}",
+		"comment": "Procurement title"
 	},
-	"NoticePublicationID" : {
-	  "efx" : "{ND-Root}  ${OPP-010-notice}",
-      "comment" : "Notice Publication Number"
+	"NoticePublicationID": {
+		"efx": "{ND-Root}  ${OPP-010-notice}",
+		"comment": "Notice Publication Number"
 	},
-	"VC_Contract_ID" : {
-	  "efx" : "{ND-Root}  ${OPT-315-LotResult[BT-13713-LotResult == '$vLOT']}",
-      "comment" : "'Contract Identifier Reference' of a specific lot"
+	"VC_Contract_ID": {
+		"efx": "{ND-Root, text:$vLOT}  ${OPT-315-LotResult[BT-13713-LotResult == '$vLOT']}",
+		"comment": "'Contract Identifier Reference' of a specific lot"
 	},
-	"VC_Tender_value" : {
-	  "efx" : "{ND-Root} ${BT-720-Tender[(OPT-321-Tender == OPT-320-LotResult[BT-13714-Tender == '$vLOT']) and (OPT-321-Tender == BT-3202-Contract[OPT-316-Contract == '$vCON'])]}",
-      "comment" : "'Tender Value' of a specific contract in a specific lot"
+	"VC_Tender_value": {
+		"efx": "{ND-Root, text:$vLOT, , text:$vCON} ${BT-720-Tender[(OPT-321-Tender == OPT-320-LotResult[BT-13714-Tender == '$vLOT']) and (OPT-321-Tender == BT-3202-Contract[OPT-316-Contract == '$vCON'])]}",
+		"comment": "'Tender Value' of a specific contract in a specific lot"
 	},
-	"OL" : {
-	  "efx" : "{ND-Root}  ${BT-702(a)-notice} ${BT-702(b)-notice}",
-      "comment" : "Notice Official Language"
+	"OL": {
+		"efx": "{ND-Root}  ${BT-702(a)-notice} ${BT-702(b)-notice}",
+		"comment": "Notice Official Language"
 	},
-	"NoAward" : {
-	  "efx" : "{ND-Root}  ${BT-13713-LotResult[(BT-142-LotResult == 'clos-nw') and (OPT-315-LotResult == OPT-315-LotResult )]}",
-      "comment" : "Result Lot Identifier'when no winner was chosen and the competition is closed"
+	"NoAward": {
+		"efx": "{ND-Root}  ${BT-13713-LotResult[(BT-142-LotResult == 'clos-nw') and (OPT-315-LotResult == OPT-315-LotResult )]}",
+		"comment": "Result Lot Identifier'when no winner was chosen and the competition is closed"
 	}
 }
-
