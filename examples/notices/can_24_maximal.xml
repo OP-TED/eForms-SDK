@@ -23,6 +23,8 @@
 						<!-- RESULTS - LOT-0001-->
 						<!-- -->
 						<efac:LotResult>
+							<!--"id" : "OPT-322-LotResult", "name" : "LotResult Technical Identifier"-->
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<!--"id" : "BT-142-LotResult", "name" : "Winner Chosen"-->
 							<!--selec-w: At least one winner was chosen"-->
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
@@ -122,6 +124,8 @@
 						<!-- RESULTS - LOT-0002-->
 						<!-- -->
 						<efac:LotResult>
+							<!--"id" : "OPT-322-LotResult", "name" : "LotResult Technical Identifier"-->
+							<cbc:ID schemeName="result">RES-0002</cbc:ID>
 							<!--"id" : "BT-711-LotResult", "name" : "Tender Value Highest"-->
 							<cbc:HigherTenderAmount currencyID="EUR">9999999.99</cbc:HigherTenderAmount>
 							<!--"id" : "BT-710-LotResult",  "name" : "Tender Value Lowest"-->

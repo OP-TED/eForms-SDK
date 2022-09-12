@@ -9,6 +9,7 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="GBP">60000000</cbc:TotalAmount>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:HigherTenderAmount currencyID="GBP">80000000</cbc:HigherTenderAmount>
 							<cbc:LowerTenderAmount currencyID="GBP">60000000</cbc:LowerTenderAmount>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>

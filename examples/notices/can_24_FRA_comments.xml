@@ -11,6 +11,8 @@
 						<!--BT-161 Notice Value-->
 						<cbc:TotalAmount currencyID="EUR">390697.84</cbc:TotalAmount>
 						<efac:LotResult>
+							<!--OPT-322-->
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<!--BT-711 Tender Value Highest-->
 							<cbc:HigherTenderAmount currencyID="EUR">95414</cbc:HigherTenderAmount>
 							<!--BT-710 Tender Value Lowest-->
@@ -75,6 +77,8 @@
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotResult>
+							<!---OPT-322-->
+							<cbc:ID schemeName="result">RES-0002</cbc:ID>
 							<!--BT-711 Tender Value Highest-->
 							<cbc:HigherTenderAmount currencyID="EUR">26500</cbc:HigherTenderAmount>
 							<!--BT-710 Tender Value Lowest-->

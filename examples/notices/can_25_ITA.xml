@@ -9,6 +9,7 @@
 					<efac:NoticeResult>
 						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">4000000</cbc:EstimatedOverallFrameworkContractsAmount>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

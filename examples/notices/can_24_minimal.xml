@@ -10,6 +10,7 @@ But with the minimal amount of information while still valid
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">390697.84</cbc:TotalAmount>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:HigherTenderAmount currencyID="EUR">95414</cbc:HigherTenderAmount>
 							<cbc:LowerTenderAmount currencyID="EUR">59299.64</cbc:LowerTenderAmount>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
