@@ -1602,7 +1602,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-775-Lot",	"name": "Social Procurement"-->
-				<cbc:ProcurementTypeCode listName="social-procurement">acc-all</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="social-objective">acc-all</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-776-Lot","Innovative Procurement"-->
@@ -1893,7 +1893,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-775-Lot",	"name": "Social Procurement"-->
-				<cbc:ProcurementTypeCode listName="social-procurement">acc-all</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="social-objective">acc-all</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-776-Lot","Innovative Procurement"-->
