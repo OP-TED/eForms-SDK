@@ -132,6 +132,14 @@ cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-r
       <svrl:diagnostic-reference diagnostic="BT-142-LotResult">
 cbc:TenderResultCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-OPT-00322-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="count(cbc:ID) &gt; 0">
+      <svrl:text>rule|text|BR-OPT-00322-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-322-LotResult">
+cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-03201-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"

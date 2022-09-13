@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.0.84 created on the 2022-08-23T10:55:45.-->
+<!--File generated from metadata database version 1.0.116 created on the 2022-09-13T11:49:04.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -611,7 +611,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='environmental-impact']">
 		<assert id="BR-BT-00774-0051" role="ERROR" test="normalize-space(.) = ('emas-com', 'ene-ef-com', 'iso-14001-com', 'iso-14024-com', 'other', 'reg-834-2007-com')">rule|text|BR-BT-00774-0051</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='social-procurement']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='social-objective']">
 		<assert id="BR-BT-00775-0051" role="ERROR" test="normalize-space(.) = ('acc-all', 'et-eq', 'gen-eq', 'hum-right', 'opp', 'other', 'work-cond')">rule|text|BR-BT-00775-0051</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='innovative-acquisition']">
@@ -1844,6 +1844,9 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
 		<assert id="BR-OPT-00321-0052" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-OPT-00321-0052</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID">
+		<assert id="BR-OPT-00322-0052" role="ERROR" test="matches(normalize-space(.),'^RES-\d{4}$')">rule|text|BR-OPT-00322-0052</assert>
 	</rule>
 
 </pattern>
