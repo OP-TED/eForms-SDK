@@ -187,7 +187,9 @@
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:Description languageID="ENG">The most economically advantageous tender in terms of the criteria stated in the specifications, in the invitation to tender or to negotiate or in the descriptive document</cbc:Description>
+					<cac:SubordinateAwardingCriterion>
+						<cbc:Description languageID="ENG">The most economically advantageous tender in terms of the criteria stated in the specifications, in the invitation to tender or to negotiate or in the descriptive document</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AppealTerms>

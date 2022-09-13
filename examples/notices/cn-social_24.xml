@@ -243,12 +243,14 @@
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:Description languageID="ENG">Evaluation of bidders responses in quality stage.</cbc:Description>
-					<cbc:CalculationExpression languageID="ENG">Quality Stage (60 %):</cbc:CalculationExpression>
-				</cac:AwardingCriterion>
-				<cac:AwardingCriterion>
-					<cbc:Description languageID="ENG">Evaluation of bidders responses in commercial stage. Scotland Excel reserves the right to negotiate on any element following submission, or to accept submissions without any further negotiation, to award in part or in whole, or not to make any award.</cbc:Description>
-					<cbc:CalculationExpression languageID="ENG">Commercial STAGE (40 %):</cbc:CalculationExpression>
+					<cac:SubordinateAwardingCriterion>
+						<cbc:Description languageID="ENG">Evaluation of bidders responses in quality stage.</cbc:Description>
+						<cbc:CalculationExpression languageID="ENG">Quality Stage (60 %):</cbc:CalculationExpression>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<cbc:Description languageID="ENG">Evaluation of bidders responses in commercial stage. Scotland Excel reserves the right to negotiate on any element following submission, or to accept submissions without any further negotiation, to award in part or in whole, or not to make any award.</cbc:Description>
+						<cbc:CalculationExpression languageID="ENG">Commercial STAGE (40 %):</cbc:CalculationExpression>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AppealTerms>

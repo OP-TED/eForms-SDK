@@ -624,8 +624,6 @@
 		<cac:TenderingTerms>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<!--BT-733-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -953,8 +951,6 @@
 				<!--BT-120-->
 				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
 				<cac:AwardingCriterion>
-					<!--BT-733-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -1500,8 +1496,6 @@
 				<!--BT-120-->
 				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
 				<cac:AwardingCriterion>
-					<!--BT-733-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
