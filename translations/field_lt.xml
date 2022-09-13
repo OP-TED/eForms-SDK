@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Lithuanian. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Lithuanian. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Procedūros teisinis pagrindas</entry>
 <entry key="field|name|BT-01(d)-Procedure">Procedūros teisinis pagrindas</entry>
 <entry key="field|name|BT-01(e)-Procedure">Procedūros teisinis pagrindas</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Bendrasis susitarimas</entry>
 <entry key="field|name|BT-765-Part">Bendrasis susitarimas</entry>
 <entry key="field|name|BT-766-Lot">Informacija apie dinaminę pirkimo sistemą</entry>
+<entry key="field|name|BT-766-Part">Informacija apie dinaminę pirkimo sistemą</entry>
 <entry key="field|name|BT-767-Lot">Naudojamas elektroninis aukcionas.</entry>
 <entry key="field|name|BT-768-Contract">Sutartis skiriama pagal preliminariąją sutartį.</entry>
 <entry key="field|name|BT-769-Lot">Konkurso dalyviai gali pateikti daugiau nei vieną pasiūlymą.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Kalbos, kuriomis galima teikti pasiūlymus, paraiškas dalyvauti arba pareikšti susidomėjimą</entry>
 <entry key="field|name|BT-98-Lot">Galutinis terminas, iki kurio pasiūlymas turi galioti</entry>
 <entry key="field|name|BT-99-Lot">Informacija apie peržiūros terminus</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Numatoma preliminariųjų susitarimų vertė pagal šią procedūrą</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Visų pagal šią procedūrą sudarytų sutarčių vertė</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Numatoma vertė be PVM</entry>
 <entry key="field|name|OPP-010-notice">Skelbimo paskelbimo numeris</entry>
 <entry key="field|name|OPP-011-notice">OL S numeris</entry>
 <entry key="field|name|OPP-012-notice">Paskelbimo data</entry>

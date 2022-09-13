@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Galician. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Galician. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Bunús dlí an nós imeachta</entry>
 <entry key="field|name|BT-01(d)-Procedure">Bunús dlí an nós imeachta</entry>
 <entry key="field|name|BT-01(e)-Procedure">Bunús dlí an nós imeachta</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Creat-chomhaontú</entry>
 <entry key="field|name|BT-765-Part">Creat-chomhaontú</entry>
 <entry key="field|name|BT-766-Lot">Faisnéis faoi chóras ceannaigh dinimiciúil</entry>
+<entry key="field|name|BT-766-Part">Faisnéis faoi chóras ceannaigh dinimiciúil</entry>
 <entry key="field|name|BT-767-Lot">Úsáidtear ceant leictreonach.</entry>
 <entry key="field|name|BT-768-Contract">Bronntar an conradh laistigh de chreat-chomhaontú.</entry>
 <entry key="field|name|BT-769-Lot">Féadfaidh tairgeoirí níos mó ná tairiscint amháin a chur isteach.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Na teangacha inar féidir tairiscintí, iarrataí ar rannpháirtíocht nó léiriú spéise a chur isteach</entry>
 <entry key="field|name|BT-98-Lot">An sprioc-am nach mór don tairiscint a bheith bailí go dtí sin</entry>
 <entry key="field|name|BT-99-Lot">Eolas faoi spriocdhátaí athbhreithnithe</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Luach measta na gcreat-chomhaontuithe sa nós imeachta seo</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Luach na gconarthaí uile arna ndámhachtain sa nós imeachta seo</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Luach measta gan CBL a áireamh</entry>
 <entry key="field|name|OPP-010-notice">Uimhir foilseacháin an fhógra</entry>
 <entry key="field|name|OPP-011-notice">Uimhir eisiúna IO S</entry>
 <entry key="field|name|OPP-012-notice">Dáta foilsithe</entry>

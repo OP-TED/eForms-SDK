@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in English. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>code in English. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="code|name|accessibility.inc">Accessibility criteria for persons with disabilities are included</entry>
 <entry key="code|name|accessibility.n-inc">Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons</entry>
 <entry key="code|name|accessibility.n-inc-just">Accessibility criteria for persons with disabilities are not included with the following justification</entry>
@@ -10072,6 +10072,9 @@
 <entry key="code|name|currency.ZWL">Zimbabwe dollar</entry>
 <entry key="code|name|currency.ZWN">Zimbabwe dollar</entry>
 <entry key="code|name|currency.ZWR">Zimbabwe dollar</entry>
+<entry key="code|name|cvd-contract-type.oth-serv-contr">Other service contract</entry>
+<entry key="code|name|cvd-contract-type.road-tran-contr">Passenger road transport services</entry>
+<entry key="code|name|cvd-contract-type.veh-acq">Vehicle purchase, lease or rent</entry>
 <entry key="code|name|direct-award-justification.additional">Need for additional works or services by the original contractor</entry>
 <entry key="code|name|direct-award-justification.artistic">The contract can be provided only by a particular economic operator because of creation or acquisition of a unique work of art or artistic performance</entry>
 <entry key="code|name|direct-award-justification.bargain">Bargain purchase taking advantage of a particularly advantageous opportunity available for a very short time at a price considerably lower than market prices</entry>
@@ -11029,6 +11032,14 @@
 <entry key="code|name|usage.n-used">Not used</entry>
 <entry key="code|name|usage.nyk">Not yet known</entry>
 <entry key="code|name|usage.used">Used</entry>
+<entry key="code|name|vehicle-category.m1">M1</entry>
+<entry key="code|name|vehicle-category.m1-m2-n1">Light-duty Vehicle (M1, M2, N1)</entry>
+<entry key="code|name|vehicle-category.m2">M2</entry>
+<entry key="code|name|vehicle-category.m3">Bus (M3)</entry>
+<entry key="code|name|vehicle-category.n1">N1</entry>
+<entry key="code|name|vehicle-category.n2">N2</entry>
+<entry key="code|name|vehicle-category.n2-n3">Truck (N2-N3)</entry>
+<entry key="code|name|vehicle-category.n3">N3</entry>
 <entry key="code|name|winner-selection-status.clos-nw">No winner was chosen and the competition is closed.</entry>
 <entry key="code|name|winner-selection-status.open-nw">The winner was not yet chosen, but the competition is still ongoing.</entry>
 <entry key="code|name|winner-selection-status.selec-w">At least one winner was chosen.</entry>

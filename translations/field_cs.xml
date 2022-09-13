@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Czech. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Czech. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Právní základ postupu</entry>
 <entry key="field|name|BT-01(d)-Procedure">Právní základ postupu</entry>
 <entry key="field|name|BT-01(e)-Procedure">Právní základ postupu</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Rámcová dohoda</entry>
 <entry key="field|name|BT-765-Part">Rámcová dohoda</entry>
 <entry key="field|name|BT-766-Lot">Informace o dynamickém nákupním systému</entry>
+<entry key="field|name|BT-766-Part">Informace o dynamickém nákupním systému</entry>
 <entry key="field|name|BT-767-Lot">Bude použita elektronická aukce.</entry>
 <entry key="field|name|BT-768-Contract">Zakázka je zadána na základě rámcové dohody.</entry>
 <entry key="field|name|BT-769-Lot">Uchazeči mohou předložit více než jednu nabídku.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Jazyky, v nichž lze podávat nabídky, žádosti o účast nebo vyjádření zájmu</entry>
 <entry key="field|name|BT-98-Lot">Lhůta, do které musí nabídka zůstat v platnosti</entry>
 <entry key="field|name|BT-99-Lot">Informace o lhůtách pro přezkum</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Odhadovaná hodnota rámcových dohod v tomto řízení</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Hodnota všech zakázek zadaných v rámci tohoto řízení</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Odhadovaná hodnota bez DPH</entry>
 <entry key="field|name|OPP-010-notice">Číslo zveřejnění oznámení</entry>
 <entry key="field|name|OPP-011-notice">Číslo vydání Úř. věst.</entry>
 <entry key="field|name|OPP-012-notice">Datum zveřejnění</entry>
