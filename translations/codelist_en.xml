@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>codelist in English. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>codelist in English. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="codelist|name|accelerated-procedure">List of codes to specify whether a procedure is accelerated or not.</entry>
 <entry key="codelist|name|accessibility">This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.</entry>
 <entry key="codelist|name|applicability">This table provides a list of the options pertinent to be chosen for a matter concerning the applicability of predefined fields. It is designed for but not restricted to the context of public procurement.</entry>
@@ -35,6 +35,8 @@
 <entry key="codelist|name|cpv">List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.</entry>
 <entry key="codelist|name|currency">List of currency codes</entry>
 <entry key="codelist|name|customer-service">This table provides a list of customer services.</entry>
+<entry key="codelist|name|cvd-contract-type">The type of contract of the procurement procedure within the scope of Clean Vehicles Directive 2009/33/EC.</entry>
+<entry key="codelist|name|cvd-scope">List of codes to specify whether the procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD).</entry>
 <entry key="codelist|name|dir-awa-pre">List of allowed Notice Type codes for a Direct Award Preannouncement Form Type</entry>
 <entry key="codelist|name|direct-award-justification">This table provides the list of reasons for using a procedure which allows awarding contracts directly without the requirement of publishing a call for competition in the Official Journal of the European Union.</entry>
 <entry key="codelist|name|document-distribution">List of codes to specify whether the document distribution is restricted or not.</entry>
@@ -73,6 +75,7 @@
 <entry key="codelist|name|measurement-unit">List of codes for the most commonly used Unit of Measures in international trades.</entry>
 <entry key="codelist|name|missing-info-submission">This table provides the list of codes indicating wether tenderer-related information (complete or parcial) can be supplemented even after the submission deadline.</entry>
 <entry key="codelist|name|modification-justification">This table provides the main reasons for modifying a contract within the domain of public procurement.</entry>
+<entry key="codelist|name|nda">List of codes to specify whether a non-disclosure agreement is required.</entry>
 <entry key="codelist|name|no-esubmission-justification">List of codes to justify the impossibility to submit electronically</entry>
 <entry key="codelist|name|non-award-justification">This table provides the list of reasons of the buyer for not choosing a winner in the procurement procedure.</entry>
 <entry key="codelist|name|non-publication-identifier">List of codes for the identification of the information whose publication shall be delayed.</entry>
@@ -163,6 +166,7 @@
 <entry key="codelist|name|transport-service">This table provides a list of transport services.</entry>
 <entry key="codelist|name|usage">List of codes to indicate whether the associated concept should be used or not.</entry>
 <entry key="codelist|name|veat">List of allowed Notice Subtype codes for a notice of Voluntary ex-ante Transparency Notice Type.</entry>
+<entry key="codelist|name|vehicle-category">The category of vehicle falling within the scope of Directive 2009/33/EC.</entry>
 <entry key="codelist|name|vehicles">List of codes for vehicle categories.</entry>
 <entry key="codelist|name|winner-selection-status">This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and wether the competiotion is open.</entry>
 </properties>

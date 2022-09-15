@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Italian. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Italian. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Base giuridica del procedimento</entry>
 <entry key="field|name|BT-01(d)-Procedure">Base giuridica del procedimento</entry>
 <entry key="field|name|BT-01(e)-Procedure">Base giuridica del procedimento</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Accordo quadro</entry>
 <entry key="field|name|BT-765-Part">Accordo quadro</entry>
 <entry key="field|name|BT-766-Lot">Informazioni sul sistema dinamico di acquisizione</entry>
+<entry key="field|name|BT-766-Part">Informazioni sul sistema dinamico di acquisizione</entry>
 <entry key="field|name|BT-767-Lot">Si fa ricorso a un'asta elettronica.</entry>
 <entry key="field|name|BT-768-Contract">L'appalto è aggiudicato nell'ambito di un accordo quadro.</entry>
 <entry key="field|name|BT-769-Lot">Gli offerenti possono presentare più di un'offerta.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Lingue in cui possono essere presentate le offerte, le domande di partecipazione o le manifestazioni di interesse</entry>
 <entry key="field|name|BT-98-Lot">Termine entro il quale l'offerta deve rimanere valida</entry>
 <entry key="field|name|BT-99-Lot">Informazioni sulle scadenze per il riesame</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Valore stimato degli accordi quadro nella presente procedura</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Valore di tutti gli appalti aggiudicati nell'ambito della presente procedura</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Valore stimato al netto dell'IVA</entry>
 <entry key="field|name|OPP-010-notice">Numero di pubblicazione dell'avviso</entry>
 <entry key="field|name|OPP-011-notice">Numero dell'edizione della GU S</entry>
 <entry key="field|name|OPP-012-notice">Data di pubblicazione</entry>

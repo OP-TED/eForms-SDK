@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in German. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in German. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Rechtsgrundlage des Verfahrens</entry>
 <entry key="field|name|BT-01(d)-Procedure">Rechtsgrundlage des Verfahrens</entry>
 <entry key="field|name|BT-01(e)-Procedure">Rechtsgrundlage des Verfahrens</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Rahmenvereinbarung</entry>
 <entry key="field|name|BT-765-Part">Rahmenvereinbarung</entry>
 <entry key="field|name|BT-766-Lot">Informationen über das dynamische Beschaffungssystem</entry>
+<entry key="field|name|BT-766-Part">Informationen über das dynamische Beschaffungssystem</entry>
 <entry key="field|name|BT-767-Lot">Eine elektronische Auktion findet Anwendung.</entry>
 <entry key="field|name|BT-768-Contract">Der Auftrag wird als Teil einer Rahmenvereinbarung vergeben.</entry>
 <entry key="field|name|BT-769-Lot">Die Bieter können mehr als ein Angebot einreichen.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Sprachen, in denen Angebote, Teilnahmeanträge oder Interessenbekundungen eingereicht werden können</entry>
 <entry key="field|name|BT-98-Lot">Frist, bis zu der das Angebot gültig bleiben muss</entry>
 <entry key="field|name|BT-99-Lot">Informationen über Überprüfungsfristen</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Geschätzter Wert der Rahmenvereinbarungen in diesem Verfahren</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Wert aller im Rahmen dieses Verfahrens vergebenen Aufträge</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Geschätzter Wert ohne MwSt.</entry>
 <entry key="field|name|OPP-010-notice">Veröffentlichungsnummer der Bekanntmachung</entry>
 <entry key="field|name|OPP-011-notice">ABl. S – Nummer der Ausgabe</entry>
 <entry key="field|name|OPP-012-notice">Veröffentlichung</entry>

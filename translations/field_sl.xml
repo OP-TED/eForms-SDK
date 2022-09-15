@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Slovene. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Slovene. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Pravna podlaga postopka</entry>
 <entry key="field|name|BT-01(d)-Procedure">Pravna podlaga postopka</entry>
 <entry key="field|name|BT-01(e)-Procedure">Pravna podlaga postopka</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Okvirni sporazum</entry>
 <entry key="field|name|BT-765-Part">Okvirni sporazum</entry>
 <entry key="field|name|BT-766-Lot">Informacije o dinamičnem nabavnem sistemu</entry>
+<entry key="field|name|BT-766-Part">Informacije o dinamičnem nabavnem sistemu</entry>
 <entry key="field|name|BT-767-Lot">Uporablja se elektronska dražba.</entry>
 <entry key="field|name|BT-768-Contract">Naročilo se oddaja v okvirnem sporazumu.</entry>
 <entry key="field|name|BT-769-Lot">Ponudniki lahko predložijo več kot eno ponudbo.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Jeziki, v katerih se lahko predložijo ponudbe, prijave za sodelovanje ali prijave interesa</entry>
 <entry key="field|name|BT-98-Lot">Rok, do katerega mora ponudba ostati veljavna</entry>
 <entry key="field|name|BT-99-Lot">Informacije o rokih za pregled</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Ocenjena vrednost okvirnih sporazumov v tem postopku</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Vrednost vseh naročil, oddanih v tem postopku</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Ocenjena vrednost brez DDV</entry>
 <entry key="field|name|OPP-010-notice">Številka objave obvestila</entry>
 <entry key="field|name|OPP-011-notice">Številka izdaje UL S</entry>
 <entry key="field|name|OPP-012-notice">Datum objave</entry>

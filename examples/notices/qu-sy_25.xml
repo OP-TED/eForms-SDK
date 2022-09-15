@@ -213,7 +213,9 @@
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:Description languageID="ITA">Il prezzo non è il solo criterio di aggiudicazione e tutti i criteri sono indicati solo nei documenti di gara</cbc:Description>
+					<cac:SubordinateAwardingCriterion>
+						<cbc:Description languageID="ITA">Il prezzo non è il solo criterio di aggiudicazione e tutti i criteri sono indicati solo nei documenti di gara</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>

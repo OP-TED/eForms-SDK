@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Polish. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Polish. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Podstawa prawna postępowania</entry>
 <entry key="field|name|BT-01(d)-Procedure">Podstawa prawna postępowania</entry>
 <entry key="field|name|BT-01(e)-Procedure">Podstawa prawna postępowania</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Umowa ramowa</entry>
 <entry key="field|name|BT-765-Part">Umowa ramowa</entry>
 <entry key="field|name|BT-766-Lot">Informacje na temat dynamicznego systemu zakupów</entry>
+<entry key="field|name|BT-766-Part">Informacje na temat dynamicznego systemu zakupów</entry>
 <entry key="field|name|BT-767-Lot">Stosuje się aukcję elektroniczną.</entry>
 <entry key="field|name|BT-768-Contract">Zamówienie jest udzielane w ramach umowy ramowej.</entry>
 <entry key="field|name|BT-769-Lot">Oferenci mogą złożyć więcej niż jedną ofertę.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Języki, w których można składać oferty, wnioski o dopuszczenie do udziału lub wyrażenia zainteresowania</entry>
 <entry key="field|name|BT-98-Lot">Termin, do którego oferta musi pozostać ważna</entry>
 <entry key="field|name|BT-99-Lot">Informacje na temat terminów przeglądu</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Szacunkowa wartość umów ramowych w ramach tej procedury</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Wartość wszystkich zamówień udzielonych w ramach tej procedury</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Wartość szacunkowa bez VAT</entry>
 <entry key="field|name|OPP-010-notice">Numer publikacji ogłoszenia</entry>
 <entry key="field|name|OPP-011-notice">Numer wydania Dz.U. S</entry>
 <entry key="field|name|OPP-012-notice">Data wydania</entry>

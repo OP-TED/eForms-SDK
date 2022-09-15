@@ -248,38 +248,40 @@
 				<cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
 				<cbc:BindingOnBuyerIndicator>true</cbc:BindingOnBuyerIndicator>
 				<cac:AwardingCriterion>
-					<cbc:Description languageID="FRA">Jugement des candidatures:
+					<cac:SubordinateAwardingCriterion>
+						<cbc:Description languageID="FRA">Jugement des candidatures:
 
-						— les candidatures seront jugées et sélectionnées au regard des critères suivants:
-						
-						1) pertinence de la composition de l'équipe au regard des compétences demandées et de la nature du projet (la présentation de compétences complémentaires pertinentes pourront être considérées comme un plus);
-						
-						2) pertinence des références présentées, de dimension et de complexité équivalente à celles du projet envisagé, parmi lesquelles:
-						
-						— références du ou des architectes:
-						
-						—— une référence minimale de projet de construction d'un accueil périscolaire;
-						
-						—— une référence minimale de projet présentant des performances énergétiques et — environnementales élevées, a minima supérieures à la RT 2012 — 30 %;
-						
-						—— une référence d'un projet réalisé dans le cadre d'un marché public au budget travaux compris entre 1 et 3 000 000 EUR HT;
-						
-						— les références de moins de cinq ans seront appréciées;
-						
-						3) moyens présentés par l'équipe, permettant de mener à bien une réalisation de dimension et de complexité équivalente à celle du projet envisagé.
-						
-						Jugement des prestations:
-						
-						— le jugement des propositions sera effectué dans les conditions prévues à l'article R. 2152 du code de la commande publique au moyen des critères suivants:
-						
-						1) respect du programme de l'opération;
-						
-						2) qualité architecturale du projet et cohérence de son insertion dans le site;
-						
-						3) respect et crédibilité du coût estimé des travaux;
-						
-						4) respect des délais et crédibilité du planning prévisionnel.
-					</cbc:Description>
+							— les candidatures seront jugées et sélectionnées au regard des critères suivants:
+							
+							1) pertinence de la composition de l'équipe au regard des compétences demandées et de la nature du projet (la présentation de compétences complémentaires pertinentes pourront être considérées comme un plus);
+							
+							2) pertinence des références présentées, de dimension et de complexité équivalente à celles du projet envisagé, parmi lesquelles:
+							
+							— références du ou des architectes:
+							
+							—— une référence minimale de projet de construction d'un accueil périscolaire;
+							
+							—— une référence minimale de projet présentant des performances énergétiques et — environnementales élevées, a minima supérieures à la RT 2012 — 30 %;
+							
+							—— une référence d'un projet réalisé dans le cadre d'un marché public au budget travaux compris entre 1 et 3 000 000 EUR HT;
+							
+							— les références de moins de cinq ans seront appréciées;
+							
+							3) moyens présentés par l'équipe, permettant de mener à bien une réalisation de dimension et de complexité équivalente à celle du projet envisagé.
+							
+							Jugement des prestations:
+							
+							— le jugement des propositions sera effectué dans les conditions prévues à l'article R. 2152 du code de la commande publique au moyen des critères suivants:
+							
+							1) respect du programme de l'opération;
+							
+							2) qualité architecturale du projet et cohérence de son insertion dans le site;
+							
+							3) respect et crédibilité du coût estimé des travaux;
+							
+							4) respect des délais et crédibilité du planning prévisionnel.
+						</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 				<cac:TechnicalCommitteePerson>
 					<cbc:FirstName>Sa composition n'est pas arrêtée à ce jour. Il sera composé selon le code de la commande publique</cbc:FirstName>

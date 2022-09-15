@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.0.72 created on the 2022-08-22T12:18:06.-->
+<!--File generated from metadata database version 1.0.116 created on the 2022-09-13T11:49:04.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -81,6 +81,7 @@
 		<assert id="BT-300-Procedure_A" role="ERROR" diagnostics="BT-300-Procedure" test="count(cbc:Note[@languageID = preceding-sibling::cbc:Note/@languageID]) = 0">rule|text|BT-300-Procedure_A</assert>
 		<assert id="BT-300-Procedure_B" role="ERROR" diagnostics="BT-300-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Note/@languageID = $lg) or count(cbc:Note) = 0">rule|text|BT-300-Procedure_B</assert>
 		<assert id="BT-300-Procedure_C" role="ERROR" diagnostics="BT-300-Procedure" test="(every $lg in (cbc:Note/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Note) = 0">rule|text|BT-300-Procedure_C</assert>
+		<assert id="OPA-27-Procedure-Currency_R" role="ERROR" diagnostics="OPA-27-Procedure-Currency" test="count(cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID) &lt; 2">rule|text|OPA-27-Procedure-Currency_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification">
 		<assert id="BT-26_a_-Procedure_R" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &lt; 2">rule|text|BT-26_a_-Procedure_R</assert>
@@ -899,6 +900,8 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult">
 		<assert id="BT-118-NoticeResult_R" role="ERROR" diagnostics="BT-118-NoticeResult" test="count(cbc:EstimatedOverallFrameworkContractsAmount) &lt; 2">rule|text|BT-118-NoticeResult_R</assert>
 		<assert id="BT-161-NoticeResult_R" role="ERROR" diagnostics="BT-161-NoticeResult" test="count(cbc:TotalAmount) &lt; 2">rule|text|BT-161-NoticeResult_R</assert>
+		<assert id="OPA-118-NoticeResult-Currency_R" role="ERROR" diagnostics="OPA-118-NoticeResult-Currency" test="count(cbc:EstimatedOverallFrameworkContractsAmount/@currencyID) &lt; 2">rule|text|OPA-118-NoticeResult-Currency_R</assert>
+		<assert id="OPA-161-NoticeResult-Currency_R" role="ERROR" diagnostics="OPA-161-NoticeResult-Currency" test="count(cbc:TotalAmount/@currencyID) &lt; 2">rule|text|OPA-161-NoticeResult-Currency_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val']">
 		<assert id="BT-195_BT-118_-NoticeResult_R" role="ERROR" diagnostics="BT-195_BT-118_-NoticeResult" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-118_-NoticeResult_R</assert>
@@ -944,6 +947,7 @@
 		<assert id="BT-710-LotResult_R" role="ERROR" diagnostics="BT-710-LotResult" test="count(cbc:LowerTenderAmount) &lt; 2">rule|text|BT-710-LotResult_R</assert>
 		<assert id="BT-711-LotResult_R" role="ERROR" diagnostics="BT-711-LotResult" test="count(cbc:HigherTenderAmount) &lt; 2">rule|text|BT-711-LotResult_R</assert>
 		<assert id="BT-712_a_-LotResult_R" role="ERROR" diagnostics="BT-712_a_-LotResult" test="count(efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efbc:StatisticsCode) &lt; 2">rule|text|BT-712_a_-LotResult_R</assert>
+		<assert id="OPT-322-LotResult_R" role="ERROR" diagnostics="OPT-322-LotResult" test="count(cbc:ID) &lt; 2">rule|text|OPT-322-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']">
 		<assert id="BT-635-LotResult_R" role="ERROR" diagnostics="BT-635-LotResult" test="count(efbc:StatisticsNumeric) &lt; 2">rule|text|BT-635-LotResult_R</assert>

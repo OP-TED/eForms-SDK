@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Hungarian. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Hungarian. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Az eljárás jogalapja</entry>
 <entry key="field|name|BT-01(d)-Procedure">Az eljárás jogalapja</entry>
 <entry key="field|name|BT-01(e)-Procedure">Az eljárás jogalapja</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Keretmegállapodás</entry>
 <entry key="field|name|BT-765-Part">Keretmegállapodás</entry>
 <entry key="field|name|BT-766-Lot">Információk a dinamikus beszerzési rendszerről</entry>
+<entry key="field|name|BT-766-Part">Információk a dinamikus beszerzési rendszerről</entry>
 <entry key="field|name|BT-767-Lot">Elektronikus árverés alkalmazására kerül sor.</entry>
 <entry key="field|name|BT-768-Contract">A szerződés odaítélésére keretmegállapodáson belül kerül sor.</entry>
 <entry key="field|name|BT-769-Lot">Az ajánlattevők több ajánlatot is benyújthatnak.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Az ajánlatok, részvételi jelentkezések vagy szándéknyilatkozatok benyújtási nyelvei</entry>
 <entry key="field|name|BT-98-Lot">Az ajánlat érvényességének határideje</entry>
 <entry key="field|name|BT-99-Lot">Tájékoztatás a felülvizsgálati határidőkről</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">A keretmegállapodások becsült értéke ebben az eljárásban</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Az ebben az eljárásban odaítélt összes szerződés értéke</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Becsült érték héa nélkül</entry>
 <entry key="field|name|OPP-010-notice">Hirdetmény közzétételi száma</entry>
 <entry key="field|name|OPP-011-notice">HL-szám („S” sorozat)</entry>
 <entry key="field|name|OPP-012-notice">Közzététel időpontja</entry>

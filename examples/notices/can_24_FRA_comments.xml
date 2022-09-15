@@ -11,6 +11,8 @@
 						<!--BT-161 Notice Value-->
 						<cbc:TotalAmount currencyID="EUR">390697.84</cbc:TotalAmount>
 						<efac:LotResult>
+							<!--OPT-322-->
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<!--BT-711 Tender Value Highest-->
 							<cbc:HigherTenderAmount currencyID="EUR">95414</cbc:HigherTenderAmount>
 							<!--BT-710 Tender Value Lowest-->
@@ -75,6 +77,8 @@
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotResult>
+							<!---OPT-322-->
+							<cbc:ID schemeName="result">RES-0002</cbc:ID>
 							<!--BT-711 Tender Value Highest-->
 							<cbc:HigherTenderAmount currencyID="EUR">26500</cbc:HigherTenderAmount>
 							<!--BT-710 Tender Value Lowest-->
@@ -469,7 +473,7 @@
 	<!-- Notive Version number, to distinguish versions of a same notice within a same procedure -->
 	<!--BT-757 Version Identifier-->
 	<cbc:VersionID>01</cbc:VersionID>
-	<cbc:RequestedPublicationDate>2020-01-28+01:00</cbc:RequestedPublicationDate>
+	<cbc:RequestedPublicationDate>2020-01-22+01:00</cbc:RequestedPublicationDate>
 	<!--BT-01 Procedure Legal Basis -->
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<!--BT-03 Form Type / BT-02 Notice Type-->

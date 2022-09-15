@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.0.0",
   "metadataDatabase" : {
-    "version" : "1.0.0",
-    "createdOn" : "2022-08-05T10:24:40"
+    "version" : "1.0.122",
+    "createdOn" : "2022-09-13T16:33:14"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -187,6 +187,17 @@
     "filename" : "customer-service.gc",
     "description" : "This table provides a list of customer services.",
     "_label" : "codelist|name|customer-service"
+  }, {
+    "id" : "cvd-contract-type",
+    "filename" : "cvd-contract-type.gc",
+    "description" : "The type of contract of the procurement procedure within the scope of Clean Vehicles Directive 2009/33/EC.",
+    "_label" : "codelist|name|cvd-contract-type"
+  }, {
+    "id" : "cvd-scope",
+    "parentId" : "indicator",
+    "filename" : "indicator_cvd-scope.gc",
+    "description" : "List of codes to specify whether the procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD).",
+    "_label" : "codelist|name|cvd-scope"
   }, {
     "id" : "dir-awa-pre",
     "parentId" : "notice-type",
@@ -395,6 +406,12 @@
     "filename" : "modification-justification.gc",
     "description" : "This table provides the main reasons for modifying a contract within the domain of public procurement.",
     "_label" : "codelist|name|modification-justification"
+  }, {
+    "id" : "nda",
+    "parentId" : "indicator",
+    "filename" : "indicator_nda.gc",
+    "description" : "List of codes to specify whether a non-disclosure agreement is required.",
+    "_label" : "codelist|name|nda"
   }, {
     "id" : "no-esubmission-justification",
     "parentId" : "communication-justification",
@@ -903,6 +920,11 @@
     "filename" : "notice-subtype_veat.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of Voluntary ex-ante Transparency Notice Type.",
     "_label" : "codelist|name|veat"
+  }, {
+    "id" : "vehicle-category",
+    "filename" : "vehicle-category.gc",
+    "description" : "The category of vehicle falling within the scope of Directive 2009/33/EC.",
+    "_label" : "codelist|name|vehicle-category"
   }, {
     "id" : "vehicles",
     "filename" : "vehicles.gc",

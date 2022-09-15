@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Swedish. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Swedish. File generated from metadata database version 1.0.123 created on the 2022-09-13T16:34:47</comment>
 <entry key="field|name|BT-01(c)-Procedure">Rättslig grund för förfarandet</entry>
 <entry key="field|name|BT-01(d)-Procedure">Rättslig grund för förfarandet</entry>
 <entry key="field|name|BT-01(e)-Procedure">Rättslig grund för förfarandet</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Ramavtalet</entry>
 <entry key="field|name|BT-765-Part">Ramavtalet</entry>
 <entry key="field|name|BT-766-Lot">Information om dynamiska inköpssystem</entry>
+<entry key="field|name|BT-766-Part">Information om dynamiska inköpssystem</entry>
 <entry key="field|name|BT-767-Lot">En elektronisk auktion används.</entry>
 <entry key="field|name|BT-768-Contract">Kontraktet tilldelas inom ett ramavtal.</entry>
 <entry key="field|name|BT-769-Lot">Anbudsgivarna får lämna in fler än ett anbud.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Språk på vilka anbud, anbudsansökningar eller intresseanmälningar får lämnas in</entry>
 <entry key="field|name|BT-98-Lot">Tidsfrist fram till vilken anbudet måste förbli giltigt</entry>
 <entry key="field|name|BT-99-Lot">Information om tidsfrister för översyn</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Ramavtalens uppskattade värde i detta förfarande</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Värdet av alla kontrakt som tilldelats inom ramen för detta förfarande</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Uppskattat värde, exkl. moms</entry>
 <entry key="field|name|OPP-010-notice">Meddelandets publiceringsnummer</entry>
 <entry key="field|name|OPP-011-notice">EUT s</entry>
 <entry key="field|name|OPP-012-notice">Datum för offentliggörande</entry>

@@ -8,6 +8,7 @@
 				<efext:EformsExtension>
 					<efac:NoticeResult>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status"></cbc:TenderResultCode>
 							<efac:ReceivedSubmissionsStatistics>
 								<efbc:StatisticsCode listName="received-submission-type"></efbc:StatisticsCode>
