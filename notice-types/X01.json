@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.0.0",
   "metadataDatabase" : {
-    "version" : "1.0.0",
-    "createdOn" : "2022-08-05T10:24:40"
+    "version" : "1.1.0",
+    "createdOn" : "2022-09-14T16:05:55"
   },
   "noticeId" : "X01",
   "metadata" : [ {
@@ -93,6 +93,33 @@
     "readOnly" : true
   } ],
   "content" : [ {
+    "id" : "GR-Change",
+    "contentType" : "group",
+    "displayType" : "SECTION",
+    "description" : "Change",
+    "_label" : "group|name|GR-Change",
+    "content" : [ {
+      "id" : "BT-140-notice",
+      "contentType" : "field",
+      "displayType" : "COMBOBOX",
+      "description" : "Change Reason Code",
+      "_label" : "field|name|BT-140-notice",
+      "readOnly" : true
+    }, {
+      "id" : "BT-762-notice",
+      "contentType" : "field",
+      "displayType" : "TEXTAREA",
+      "description" : "Change Reason Description",
+      "_label" : "field|name|BT-762-notice"
+    }, {
+      "id" : "BT-758-notice",
+      "contentType" : "field",
+      "displayType" : "TEXTBOX",
+      "description" : "Change Notice Version Identifier",
+      "_label" : "field|name|BT-758-notice",
+      "readOnly" : true
+    } ]
+  }, {
     "id" : "GR-Business-Section",
     "contentType" : "group",
     "displayType" : "SECTION",

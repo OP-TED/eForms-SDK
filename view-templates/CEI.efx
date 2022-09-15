@@ -1,6 +1,6 @@
 // View CEI
-// sdkVersion='1.1.0'
-// File generated from metadata database version 1.0.125 created on the 2022-09-14T16:05:55
+// sdkVersion='1.0.0'
+// File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55
 1 {ND-Root} #{auxiliary|text|buyer} // --- 1 Buyer ---
 	{ND-ContractingParty} #{auxiliary|text|buyer} // --- 1.1 Buyer ---
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value
@@ -20,6 +20,7 @@
 			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}  // --- Main classification ---
 			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure} // --- Additional classification --
 			1 {ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // --- 2.1.1 Purpose  ---
+			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
 		2 {ND-ProcedurePlacePerformance} #{auxiliary|text|place-performance} // --- 2.1.2 Place of performance  ---
 			{BT-5101(a)-Procedure}  #{name|BT-510}:  ${BT-5101(a)-Procedure} ${BT-5101(b)-Procedure}  ${BT-5101(c)-Procedure}  // --- Postal address ---
 			{BT-5131-Procedure}  #{name|BT-5131}:  $value  // --- City ---
@@ -42,6 +43,7 @@
 			{BT-763-Procedure} #{name|BT-763}: ${BT-763-Procedure}
 			{ND-Root} #{auxiliary|text|contract-terms}
 			{BT-33-Procedure} #{name|BT-33}: ${BT-33-Procedure}
+		1 {ND-ProcedureProcurementScope} #{auxiliary|text|place-performance} // --- 2.1.2 Place of performance - added by Frederic  ---
 5 {ND-Root} #{auxiliary|text|lot} // --- 5 Lots ---
 	1 {ND-Lot} #{name|BT-137}: ${BT-137-Lot} // --- LOT-XXXX ---
 		{BT-21-Lot} #{name|BT-21}: ${BT-21-Lot}

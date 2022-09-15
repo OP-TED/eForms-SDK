@@ -1,6 +1,6 @@
 // View 8
-// sdkVersion='1.1.0'
-// File generated from metadata database version 1.0.125 created on the 2022-09-14T16:05:55
+// sdkVersion='1.0.0'
+// File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55
 1 {ND-Root} #{auxiliary|text|buyer} // --- 1 Buyer ---
 	{ND-ContractingParty} #{auxiliary|text|buyer} // --- 1.1 Buyer ---
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value

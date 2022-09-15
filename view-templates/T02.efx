@@ -1,6 +1,6 @@
 // View T02
-// sdkVersion='1.1.0'
-// File generated from metadata database version 1.0.125 created on the 2022-09-14T16:05:55
+// sdkVersion='1.0.0'
+// File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55
 1 {ND-Root} #{auxiliary|text|buyer-competent} // --- 1 Competent authority ---
 	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer-competent}
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value
@@ -81,13 +81,26 @@
 6 {ND-Root} #{auxiliary|text|results} // --- 6 Results ---
 	1 {ND-LotResult }   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // --- 6.1 Lots: LOT-XXXX   (Result Lot Identifier)---
 		2 {ND-LotResult}  #{auxiliary|text|winner}  // --- 6.1.2. Winning tenders ---
+			{OPT-320-LotResult}  #{auxiliary|text|winner-info}: ${for text:$v117 in OPT-320-LotResult return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $v117]]]} // --- Information about winner ---
+			0 {OPT-320-LotResult}  #{auxiliary|text|winner-info}   // --- Information about winner ---
+				{OPT-320-LotResult} #{name|BT-500}: ${for text:$v18 in OPT-320-LotResult return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[(OPT-321-Tender == $v18) and (BT-3202-Contract == $v18)]]]} // --- Information about winner ---
+				{OPT-320-LotResult} #{name|BT-165}: ${for text:$v19 in OPT-320-LotResult return BT-165-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[(OPT-321-Tender == $v19) and (BT-3202-Contract == $v19)]]]} // --- Size of the economic operator ---
+				{OPT-320-LotResult} #{name|BT-746}: ${for text:$v21 in OPT-320-LotResult return indicator:BT-746-Organization[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[(OPT-321-Tender == $v21) and (BT-3202-Contract == $v21)]]]} // --- winner listed on a regulated market ---
+				0 {BT-500-UBO[OPT-202-UBO ==  OPT-302-Organization[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == OPT-320-LotResult]]]]  }  #{auxiliary|text|beneficial-owner} // --- Beneficial owner ---
+					{BT-500-UBO[OPT-202-UBO ==  OPT-302-Organization[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == OPT-320-LotResult]]]]  }  #{auxiliary|text|beneficial-owner}: ${OPT-160-UBO[OPT-202-UBO ==  OPT-302-Organization[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == OPT-320-LotResult]]]]  } $value  
 		1 {OPT-320-LotResult}  #{name|BT-3201-Tender}  ${for text:$v1 in OPT-320-LotResult return BT-3201-Tender[(OPT-321-Tender == $v1) and (BT-3202-Contract == $v1)]}  // --- Tender Identifier ---  
 			{OPT-320-LotResult}  #{name|BT-3201-Tender} ${for text:$v2 in OPT-320-LotResult return BT-3201-Tender[(OPT-321-Tender == $v2) and (BT-3202-Contract == $v2)]} // --- Tender identifier ---
+			{OPT-320-LotResult}  #{name|BT-3201-Tender} ${for text:$v2 in OPT-320-LotResult return BT-3201-Tender[OPT-321-Tender == $v2]} // --- Tender identifier ---
+			{BT-3201-Tender[OPT-321-Tender == BT-3202-Contract[OPT-316-Contract== OPT-315-LotResult]]} #{name}: $value // --- Tender identifier ---
+			{BT-3201-Tender[OPT-321-Tender == BT-3202-Contract[OPT-316-Contract== OPT-315-LotResult]]} #{name}: $value // --- Tender identifier ---
 			{OPT-320-LotResult}  #{name|BT-720-Tender} ${for text:$v4 in OPT-320-LotResult return number:BT-720-Tender[(OPT-321-Tender == $v4) and (BT-3202-Contract == $v4)]} ${for text:$v6 in OPT-320-LotResult return BT-720-Tender[OPT-321-Tender == $v6]/@currencyID}   // --- Tender Value ---   !!! TODO the format must be defined
+			{BT-720-Tender[OPT-321-Tender == BT-3202-Contract[OPT-316-Contract== OPT-315-LotResult]]} #{name}: $value ${BT-720-Tender[OPT-321-Tender == BT-3202-Contract[OPT-316-Contract== OPT-315-LotResult]]/@currencyID}
 			{OPP-080-Tender} #{name|OPP-080}
 			1  {OPT-320-LotResult}      #{auxiliary|text|contract-information}    // --- Contract information ---
 				{OPT-320-LotResult} #{name|BT-145-Contract} ${for text:$v11 in OPT-320-LotResult return  date:BT-145-Contract[BT-3202-Contract == $v11 ]} // --- Contract Conclusion Date ---
 			0 {OPT-316-Contract[BT-3202-Contract[OPT-316-Contract== OPT-315-LotResult] == OPT-321-Tender]}    #{auxiliary|text|contract-information} $value // --- Contract information ---
+			{OPT-320-LotResult}  #{auxiliary|text|winner-info}   // --- Information about winner ---
+		2 {BT-3201-Tender[OPT-321-Tender == OPT-320-LotResult[(BT-13713-LotResult == 'LOT-0001') and (BT-3202-Contract == OPT-320-LotResult  )]]}   #{auxiliary|text|winner}  // --- 6.1.2. Winning tenders ---
 11 {ND-Root} #{auxiliary|text|notice-information} // -- 11 Notice information ---
 	1 {ND-Root} #{auxiliary|text|notice-information} // --- 11.1 Notice information ---
 		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}
