@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Slovak. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Slovak. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Právny základ postupu</entry>
 <entry key="field|name|BT-01(d)-Procedure">Právny základ postupu</entry>
 <entry key="field|name|BT-01(e)-Procedure">Právny základ postupu</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Rámcová dohoda</entry>
 <entry key="field|name|BT-765-Part">Rámcová dohoda</entry>
 <entry key="field|name|BT-766-Lot">Informácie o dynamickom nákupnom systéme</entry>
+<entry key="field|name|BT-766-Part">Informácie o dynamickom nákupnom systéme</entry>
 <entry key="field|name|BT-767-Lot">Použije sa elektronická aukcia.</entry>
 <entry key="field|name|BT-768-Contract">Zmluva je uzavretá na základe rámcovej dohody.</entry>
 <entry key="field|name|BT-769-Lot">Uchádzači môžu predložiť viac ako jednu ponuku.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Jazyky, v ktorých sa môžu predkladať ponuky, žiadosti o účasť alebo vyjadrenia záujmu</entry>
 <entry key="field|name|BT-98-Lot">Lehota, do ktorej musí ponuka zostať v platnosti</entry>
 <entry key="field|name|BT-99-Lot">Informácie o lehotách na preskúmanie</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Odhadovaná hodnota rámcových dohôd v tomto postupe</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Hodnota všetkých zákaziek zadaných v rámci tohto postupu</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Odhadovaná hodnota bez DPH</entry>
 <entry key="field|name|OPP-010-notice">Číslo zverejnenia oznámenia</entry>
 <entry key="field|name|OPP-011-notice">Číslo vydania série S úradného vestníka</entry>
 <entry key="field|name|OPP-012-notice">Dátum uverejnenia</entry>

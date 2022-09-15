@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in English. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in English. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Procedure Legal Basis (ELI - celex)</entry>
 <entry key="field|name|BT-01(d)-Procedure">Procedure Legal Basis (text)</entry>
 <entry key="field|name|BT-01(e)-Procedure">Legal basis of the procedure</entry>
@@ -554,6 +554,7 @@
 <entry key="field|name|BT-765-Lot">Framework Agreement</entry>
 <entry key="field|name|BT-765-Part">Framework Agreement</entry>
 <entry key="field|name|BT-766-Lot">Dynamic Purchasing System</entry>
+<entry key="field|name|BT-766-Part">Information about dynamic purchasing system</entry>
 <entry key="field|name|BT-767-Lot">Electronic Auction</entry>
 <entry key="field|name|BT-768-Contract">Contract Framework Agreement</entry>
 <entry key="field|name|BT-769-Lot">Multiple Tenders</entry>
@@ -576,6 +577,9 @@
 <entry key="field|name|BT-97-Lot">Submission Language</entry>
 <entry key="field|name|BT-98-Lot">Tender Validity Deadline</entry>
 <entry key="field|name|BT-99-Lot">Review Deadline Description</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Estimated value of the framework agreements in this procedure</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Value of all contracts awarded in this procedure</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Estimated value excluding VAT</entry>
 <entry key="field|name|OPP-010-notice">Notice Publication Number</entry>
 <entry key="field|name|OPP-011-notice">OJEU Identifier</entry>
 <entry key="field|name|OPP-012-notice">OJEU Publication Date</entry>

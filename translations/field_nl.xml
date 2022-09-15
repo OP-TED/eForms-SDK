@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Dutch. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Dutch. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Rechtsgrondslag van de procedure</entry>
 <entry key="field|name|BT-01(d)-Procedure">Rechtsgrondslag van de procedure</entry>
 <entry key="field|name|BT-01(e)-Procedure">Rechtsgrondslag van de procedure</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Raamovereenkomst</entry>
 <entry key="field|name|BT-765-Part">Raamovereenkomst</entry>
 <entry key="field|name|BT-766-Lot">Informatie over dynamisch aankoopsysteem</entry>
+<entry key="field|name|BT-766-Part">Informatie over dynamisch aankoopsysteem</entry>
 <entry key="field|name|BT-767-Lot">Er wordt gebruikgemaakt van een elektronische veiling.</entry>
 <entry key="field|name|BT-768-Contract">De opdracht wordt gegund in het kader van een raamovereenkomst.</entry>
 <entry key="field|name|BT-769-Lot">De inschrijvers kunnen meer dan één inschrijving indienen.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Talen waarin inschrijvingen, verzoeken tot deelneming of blijken van belangstelling kunnen worden ingediend</entry>
 <entry key="field|name|BT-98-Lot">Uiterste datum waarop de inschrijving geldig moet blijven</entry>
 <entry key="field|name|BT-99-Lot">Informatie over de termijnen voor herziening</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Geraamde waarde van de raamovereenkomsten in het kader van deze procedure</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Waarde van alle in het kader van deze procedure gegunde opdrachten</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Geraamde waarde zonder btw</entry>
 <entry key="field|name|OPP-010-notice">Publicatienummer aankondiging</entry>
 <entry key="field|name|OPP-011-notice">Nummer PB S</entry>
 <entry key="field|name|OPP-012-notice">Publicatiedatum</entry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Romanian. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Romanian. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Temeiul juridic al procedurii</entry>
 <entry key="field|name|BT-01(d)-Procedure">Temeiul juridic al procedurii</entry>
 <entry key="field|name|BT-01(e)-Procedure">Temeiul juridic al procedurii</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Acord-cadru</entry>
 <entry key="field|name|BT-765-Part">Acord-cadru</entry>
 <entry key="field|name|BT-766-Lot">Informații privind sistemul dinamic de achiziții</entry>
+<entry key="field|name|BT-766-Part">Informații privind sistemul dinamic de achiziții</entry>
 <entry key="field|name|BT-767-Lot">Se utilizează o licitație electronică.</entry>
 <entry key="field|name|BT-768-Contract">Contractul este atribuit în cadrul unui acord-cadru.</entry>
 <entry key="field|name|BT-769-Lot">Ofertanții pot depune mai multe oferte.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Limbile în care pot fi depuse ofertele, cererile de participare sau manifestările de interes</entry>
 <entry key="field|name|BT-98-Lot">Termenul până la care oferta trebuie să rămână valabilă</entry>
 <entry key="field|name|BT-99-Lot">Informații privind termenele de revizuire</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Valoarea estimată a acordurilor-cadru în cadrul acestei proceduri</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Valoarea tuturor contractelor atribuite în cadrul acestei proceduri</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Valoarea totală estimată fără TVA</entry>
 <entry key="field|name|OPP-010-notice">Numărul de publicare al anunțului</entry>
 <entry key="field|name|OPP-011-notice">Numărul ediției JO S</entry>
 <entry key="field|name|OPP-012-notice">Data publicării</entry>

@@ -1,21 +1,29 @@
 // View T02
-// sdkVersion='1.0.0'
-// File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40
+// sdkVersion='1.1.0'
+// File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55
 1 {ND-Root} #{auxiliary|text|buyer-competent} // --- 1 Competent authority ---
 	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer-competent}
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value
 		{BT-11-Procedure-Buyer} #{name|BT-11-competent}: #{BT-11-Procedure-Buyer}
-2 {ND-Root} #{auxiliary|text|procedure} // --- 2 Procedure ---
+2 {ND-Root} #{auxiliary|text|procedure}  // --- 2 Procedure ---
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // --- 2.1 Procedure ---
 		{BT-21-Procedure} #{name|BT-21}: $value
 		{BT-04-notice} #{name|BT-04}: $value
 		{BT-22-Procedure} #{name|BT-22}: $value
 		{BT-105-Procedure} #{name|BT-105}: #value
-		1 {ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // --- 2.1.1 Purpose ---
-			{BT-23-Procedure} #{name|BT-23}: #value
+		1 {ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // --- 2.1.1 Purpose  ---
+			{BT-23-Procedure} #{name|BT-23}: #value // --- Nature of the contract ---
 			{OPP-040-Procedure} #{name|OPP-040}
-			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
-			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
+			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}  // --- Main classification ---
+			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure} // --- Additional classification --
+		2 {ND-ProcedurePlacePerformance} #{auxiliary|text|place-performance} // --- 2.1.2 Place of performance  ---
+			{BT-5101(a)-Procedure}  #{name|BT-510}:  ${BT-5101(a)-Procedure} ${BT-5101(b)-Procedure}  ${BT-5101(c)-Procedure}  // --- Postal address ---
+			{BT-5131-Procedure}  #{name|BT-5131}:  $value  // --- City ---
+			{BT-5121-Procedure}  #{name|BT-5121}:  $value  // --- Post Code ---
+			{BT-5071-Procedure}  #{name|BT-5071}:  $value  // --- Country subentity ---
+			{BT-5141-Procedure}  #{name|BT-5141}:  $value  // --- Country  ---
+			{BT-727-Procedure}  #{name|BT-727}:  $value  // --- Restrictions on the place of performance  ---
+			{BT-728-Procedure}  #{name|BT-728}:  $value  // --- Additional information ---
 		4 {ND-ProcedureProcurementScope} #{auxiliary|text|general-information} // --- 2.1.4 General information ---
 			{BT-300-Procedure} #{name|BT-300}: ${BT-300-Procedure}
 			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}
@@ -33,6 +41,14 @@
 			{BT-23-Lot} #{name|BT-23}: #{BT-23-Lot}
 			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
 			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
+		2 {ND-LotPlacePerformance} #{auxiliary|text|place-performance} // --- 5.1.2 Place of performance  ---
+			{BT-5101(a)-Lot}  #{name|BT-510}:  ${BT-5101(a)-Lot} ${BT-5101(b)-Lot}  ${BT-5101(c)-Lot}  // --- Postal address ---
+			{BT-5131-Lot}  #{name|BT-5131}:  $value  // --- City ---
+			{BT-5121-Lot}  #{name|BT-5121}:  $value  // --- Post Code ---
+			{BT-5071-Lot}  #{name|BT-5071}:  $value  // --- Country subentity ---
+			{BT-5141-Lot}  #{name|BT-5141}:  $value  // --- Country  ---
+			{BT-727-Lot}  #{name|BT-727}:  $value  // --- Restrictions on the place of performance  ---
+			{BT-728-Lot}  #{name|BT-728}:  $value  // --- Additional information ---
 		{BT-137-Lot} #{auxiliary|text|start-duration-contract}
 			{BT-536-Lot} #{name|BT-536}: ${BT-536-Lot}
 			{BT-537-Lot} #{name|BT-537}: ${BT-537-Lot}
@@ -50,28 +66,38 @@
 			{OPT-071-Lot} #{name|OPT-071}: ${OPT-071-Lot} ${OPT-072-Lot}
 			{OPP-033-Tender} #{name|OPP-033}: ${OPP-033-Tender} ${OPP-034-Tender}
 		16 {BT-137-Lot} #{auxiliary|text|organisations} // --- 5.1.16 Organisations ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-Mediator]}  #{auxiliary|text|organisation-mediation}:  $value // --- Mediation organisation ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-ReviewOrg]}  #{auxiliary|text|organisation-review}:  $value // --- Review organisation  ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-FiscalLegis]}  #{auxiliary|text|organisation-providing-info-taxes}:  $value // ---  Tax legislation information provider  ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EnvironLegis]} #{auxiliary|text|organisation-providing-info-environment}:  $value // --- Environment legislation information provider ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EmployLegis]}  #{auxiliary|text|organisation-providing-info-employment}:  $value // --- Employment legislation information provider   --- 
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-DocProvider]} #{auxiliary|text|organisation-providing-docs}:  $value // --- Documents provider organisation ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-ReviewInfo]}  #{auxiliary|text|organisation-providing-info-review}:  $value // --- Appeal Information Providing Organisation (Lot) ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt]}  #{auxiliary|text|organisation-tender-recipient}:  $value // --- Tender Recipient  ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderEval]}  #{auxiliary|text|organisation-tender-evaluation}:  $value  // --- Organisation receiving requests to participate/Tender Recipient Organisation ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']]} #{auxiliary|text|organisation-providing-procurement-service}: $value // ---  Service Provider organisation ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-AddInfo]} #{auxiliary|text|organisation-providing-info-procedure}:  $value // --- Additional Information Providing Organisation --- 
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']]} #{auxiliary|text|organisation-providing-procurement-service}: $value // --- eSender ---
 6 {ND-Root} #{auxiliary|text|results} // --- 6 Results ---
-	1 {BT-13713-LotResult} #{name|BT-13713}: ${BT-13713-LotResult} // --- 6.1 Lots: LOT-XXXX ---
-		2 {BT-137-Lot} #{auxiliary|text|winner} // --- 6.1.2. Winning tenders ---
-			{BT-3201-Tender[BT-3202-Contract is present]} #{auxiliary|text|tender} // --- Tender X ---
-				{BT-3201-Tender[BT-3202-Contract is present]} #{name|BT-3201}: ${BT-3201-Tender[BT-3202-Contract is present]}
-				{BT-720-Tender} #{name|BT-720}: ${BT-720-Tender} ${BT-720-Tender/@currencyID}
-				{OPP-080-Tender} #{name|OPP-080}
-				{BT-3201-Tender[BT-3202-Contract is present]} #{auxiliary|text|contract-information} // --- Contract information ---
-					{BT-145-Contract} #{name|BT-145}: ${BT-145-Contract}
-			{BT-137-Lot} #{auxiliary|text|winner-info} Information about winners
-			{BT-137-Lot} #{auxiliary|text|beneficial-owner} // --- Beneficial owner ---
-				{OPT-160-UBO} auxiliary.name.name: ${OPT-160-UBO} ${BT-500-UBO}
+	1 {ND-LotResult }   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // --- 6.1 Lots: LOT-XXXX   (Result Lot Identifier)---
+		2 {ND-LotResult}  #{auxiliary|text|winner}  // --- 6.1.2. Winning tenders ---
+		1 {OPT-320-LotResult}  #{name|BT-3201-Tender}  ${for text:$v1 in OPT-320-LotResult return BT-3201-Tender[(OPT-321-Tender == $v1) and (BT-3202-Contract == $v1)]}  // --- Tender Identifier ---  
+			{OPT-320-LotResult}  #{name|BT-3201-Tender} ${for text:$v2 in OPT-320-LotResult return BT-3201-Tender[(OPT-321-Tender == $v2) and (BT-3202-Contract == $v2)]} // --- Tender identifier ---
+			{OPT-320-LotResult}  #{name|BT-720-Tender} ${for text:$v4 in OPT-320-LotResult return number:BT-720-Tender[(OPT-321-Tender == $v4) and (BT-3202-Contract == $v4)]} ${for text:$v6 in OPT-320-LotResult return BT-720-Tender[OPT-321-Tender == $v6]/@currencyID}   // --- Tender Value ---   !!! TODO the format must be defined
+			{OPP-080-Tender} #{name|OPP-080}
+			1  {OPT-320-LotResult}      #{auxiliary|text|contract-information}    // --- Contract information ---
+				{OPT-320-LotResult} #{name|BT-145-Contract} ${for text:$v11 in OPT-320-LotResult return  date:BT-145-Contract[BT-3202-Contract == $v11 ]} // --- Contract Conclusion Date ---
+			0 {OPT-316-Contract[BT-3202-Contract[OPT-316-Contract== OPT-315-LotResult] == OPT-321-Tender]}    #{auxiliary|text|contract-information} $value // --- Contract information ---
 11 {ND-Root} #{auxiliary|text|notice-information} // -- 11 Notice information ---
 	1 {ND-Root} #{auxiliary|text|notice-information} // --- 11.1 Notice information ---
-		{BT-701-notice} #{name|BT-701}: ${BT-701-notice} - ${BT-757-notice}
+		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}
 		{BT-03-notice} #{name|BT-03}: #{BT-03-notice}
 		{BT-02-notice} #{name|BT-02}: #{BT-02-notice}
 		{OPP-070-notice} #{name|OPP-070}: ${OPP-070-notice}
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
 		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
 	2 {ND-Root} #{auxiliary|text|publication-information} // --- 11.2 Publication information ---
-		{ND-Root} #{name|BT-21}
+		{OPP-010-notice} #{name|OPP-010}: ${OPP-010-notice} // --- Title - 11.2 Publication information --- TO BE REVIEWED
 		{OPP-010-notice} #{name|OPP-010}: ${OPP-010-notice}
 		{OPP-011-notice} #{name|OPP-011}: ${OPP-011-notice}
 		{OPP-012-notice} #{name|OPP-012}: ${OPP-012-notice}

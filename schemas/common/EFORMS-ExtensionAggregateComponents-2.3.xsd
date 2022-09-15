@@ -54,12 +54,15 @@
 	<xsd:element name="Organization" type="OrganizationType"/>
 	<xsd:element name="Organizations" type="OrganizationsType"/>
 	<xsd:element name="Origin" type="OriginType"/>
+	<xsd:element name="ProcurementDetails" type="ProcurementDetailsType"/>
 	<xsd:element name="Publication" type="PublicationType"/>
 	<xsd:element name="ReceivedSubmissionsStatistics" type="ReceivedSubmissionsStatisticsType"/>
 	<xsd:element name="ReferencedDocumentPart" type="ReferencedDocumentPartType"/>
 	<xsd:element name="SelectionCriteria" type="CriterionType"/>
 	<xsd:element name="SettledContract" type="SettledContractType"/>
 	<xsd:element name="Statistics" type="StatisticsType"/>
+	<xsd:element name="StrategicProcurement" type="StrategicProcurementType"/>
+	<xsd:element name="StrategicProcurementInformation" type="StrategicProcurementInformationType"/>
 	<xsd:element name="StrategicProcurementStatistics" type="StatisticsType"/>
 	<xsd:element name="SubcontractingTerm" type="SubcontractingTermType"/>
 	<xsd:element name="SubContractor" type="SubContractorType"/>
@@ -270,8 +273,9 @@
 	</xsd:complexType>
 	<xsd:complexType name="FundingType">
 		<xsd:sequence>
-			<xsd:element ref="cbc:FundingProgramCode" minOccurs="1" maxOccurs="1"/>
-			<xsd:element ref="cbc:FundingProgram" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:FinancingIdentifier" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:FundingProgramCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:Description" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="GroupFrameworkType">
@@ -284,6 +288,7 @@
 	<xsd:complexType name="LotResultType">
 		<xsd:sequence>
 			<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:ID" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:HigherTenderAmount" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:LowerTenderAmount" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:TenderResultCode" minOccurs="0" maxOccurs="1"/>
@@ -296,7 +301,7 @@
 			<xsd:element ref="efac:FrameworkAgreementValues" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:ReceivedSubmissionsStatistics" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:SettledContract" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efac:StrategicProcurementStatistics" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:StrategicProcurement" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:TenderLot" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
@@ -388,6 +393,12 @@
 			<xsd:element ref="efbc:ParameterNumeric" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
+	<xsd:complexType name="ProcurementDetailsType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:AssetCategoryCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:StrategicProcurementStatistics" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
 	<xsd:complexType name="PublicationType">
 		<xsd:sequence>
 			<xsd:element ref="efbc:NoticePublicationID" minOccurs="1" maxOccurs="1"/>
@@ -434,6 +445,18 @@
 		<xsd:sequence>
 			<xsd:element ref="efbc:StatisticsCode" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:StatisticsNumeric" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="StrategicProcurementType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:ApplicableLegalBasis" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:StrategicProcurementInformation" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="StrategicProcurementInformationType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:ProcurementCategoryCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:ProcurementDetails" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="SubcontractingTermType">

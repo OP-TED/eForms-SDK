@@ -9,6 +9,7 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">3000000</cbc:TotalAmount>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -289,7 +290,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">f4308a76-5393-477c-ba91-f4c9fb8818a6</cbc:ID>
 	<cbc:ContractFolderID>37f6106b-c2e1-45f1-b88a-14888693ee36</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-10+01:00</cbc:IssueDate>
@@ -356,7 +357,6 @@
 			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:Description languageID="ENG">Quality</cbc:Description>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>

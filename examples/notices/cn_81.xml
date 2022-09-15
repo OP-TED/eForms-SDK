@@ -69,7 +69,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">fc9cfb17-81d0-4f26-9a00-0c4bd25cf0a2</cbc:ID>
 	<cbc:ContractFolderID>82c626cc-83e1-4644-9cf1-6ed82b3e3dbc</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
@@ -187,7 +187,9 @@
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:Description languageID="ENG">The most economically advantageous tender in terms of the criteria stated in the specifications, in the invitation to tender or to negotiate or in the descriptive document</cbc:Description>
+					<cac:SubordinateAwardingCriterion>
+						<cbc:Description languageID="ENG">The most economically advantageous tender in terms of the criteria stated in the specifications, in the invitation to tender or to negotiate or in the descriptive document</cbc:Description>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AppealTerms>

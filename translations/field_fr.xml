@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in French. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in French. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Base juridique de la procédure</entry>
 <entry key="field|name|BT-01(d)-Procedure">Base juridique de la procédure</entry>
 <entry key="field|name|BT-01(e)-Procedure">Base juridique de la procédure</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Accord-cadre</entry>
 <entry key="field|name|BT-765-Part">Accord-cadre</entry>
 <entry key="field|name|BT-766-Lot">Informations sur le système d’acquisition dynamique</entry>
+<entry key="field|name|BT-766-Part">Informations sur le système d’acquisition dynamique</entry>
 <entry key="field|name|BT-767-Lot">Une enchère électronique est utilisée.</entry>
 <entry key="field|name|BT-768-Contract">Le marché est attribué dans le contexte d’un accord-cadre.</entry>
 <entry key="field|name|BT-769-Lot">Les soumissionnaires peuvent soumettre plus d’une offre.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Langues dans lesquelles les offres, les demandes de participation ou les manifestations d’intérêt peuvent être présentées</entry>
 <entry key="field|name|BT-98-Lot">Délai de validité de l’offre</entry>
 <entry key="field|name|BT-99-Lot">Informations sur les délais de réexamen</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Valeur estimée des accords-cadres dans le cadre de cette procédure</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Valeur de tous les marchés attribués dans le cadre de cette procédure</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Valeur estimée hors TVA</entry>
 <entry key="field|name|OPP-010-notice">Numéro de publication de l’avis</entry>
 <entry key="field|name|OPP-011-notice">Numéro de publication au JO S</entry>
 <entry key="field|name|OPP-012-notice">Publications Date</entry>

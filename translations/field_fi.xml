@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Finnish. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Finnish. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Menettelyn oikeusperusta</entry>
 <entry key="field|name|BT-01(d)-Procedure">Menettelyn oikeusperusta</entry>
 <entry key="field|name|BT-01(e)-Procedure">Menettelyn oikeusperusta</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Puitesopimus</entry>
 <entry key="field|name|BT-765-Part">Puitesopimus</entry>
 <entry key="field|name|BT-766-Lot">Tiedot dynaamisesta hankintajärjestelmästä</entry>
+<entry key="field|name|BT-766-Part">Tiedot dynaamisesta hankintajärjestelmästä</entry>
 <entry key="field|name|BT-767-Lot">Sähköistä huutokauppaa käytetään.</entry>
 <entry key="field|name|BT-768-Contract">Sopimus tehdään puitejärjestelyn puitteissa.</entry>
 <entry key="field|name|BT-769-Lot">Tarjouksen tekijä voi jättää useamman kuin yhden tarjouksen.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Kielet, joilla tarjoukset, osallistumishakemukset tai kiinnostuksenilmaisut voidaan jättää</entry>
 <entry key="field|name|BT-98-Lot">Määräaika, johon asti tarjouksen on oltava voimassa</entry>
 <entry key="field|name|BT-99-Lot">Tiedot uudelleentarkastelun määräajoista</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Puitejärjestelyjen arvioitu arvo tässä menettelyssä</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Kaikkien tässä menettelyssä tehtyjen sopimusten arvo</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Ennakoitu arvo ilman arvonlisäveroa</entry>
 <entry key="field|name|OPP-010-notice">Ilmoituksen julkaisunumero</entry>
 <entry key="field|name|OPP-011-notice">EUVL S -lehden numero</entry>
 <entry key="field|name|OPP-012-notice">Julkaisupäivämäärä</entry>

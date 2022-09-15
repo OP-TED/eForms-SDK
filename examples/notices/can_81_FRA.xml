@@ -10,6 +10,7 @@
 						<!--BT-161-->
 						<cbc:TotalAmount currencyID="EUR">375950.00</cbc:TotalAmount>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:HigherTenderAmount currencyID="EUR">400000</cbc:HigherTenderAmount>
 							<cbc:LowerTenderAmount currencyID="EUR">300000</cbc:LowerTenderAmount>
 							<!--BT-142-->
@@ -298,7 +299,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
 	<!--BT-04-->

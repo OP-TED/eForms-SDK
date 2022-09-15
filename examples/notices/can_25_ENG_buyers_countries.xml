@@ -10,6 +10,7 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">9.99</cbc:TotalAmount>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:HigherTenderAmount currencyID="EUR">9999999</cbc:HigherTenderAmount>
 							<cbc:LowerTenderAmount currencyID="EUR">1</cbc:LowerTenderAmount>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
@@ -227,7 +228,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">9d917e58-4e5d-460a-9c53-a0f678a90979</cbc:ID>
 	<cbc:ContractFolderID>18d27a53-0109-4f93-9231-6659d931bce0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-10+01:00</cbc:IssueDate>

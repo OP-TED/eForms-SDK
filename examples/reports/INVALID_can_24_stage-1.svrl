@@ -132,6 +132,14 @@ cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-r
       <svrl:diagnostic-reference diagnostic="BT-142-LotResult">
 cbc:TenderResultCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-OPT-00322-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="count(cbc:ID) &gt; 0">
+      <svrl:text>rule|text|BR-OPT-00322-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-322-LotResult">
+cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-03201-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
@@ -296,14 +304,6 @@ cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-
       <svrl:text>rule|text|BR-OPT-00301-1094</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-301-Lot-ReviewOrg">
 cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="BR-OPT-00301-1194"
-                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
-                       role="WARN"
-                       test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00301-1194</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-301-Lot-Mediator">
-cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-00115-0087"
@@ -615,6 +615,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
       <svrl:text>rule|text|BR-BT-00137-0155</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-4" name="EFORMS-validation-stage-4"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-00759-0086"

@@ -8,6 +8,7 @@
 				<efext:EformsExtension>
 					<efac:NoticeResult>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status"></cbc:TenderResultCode>
 							<efac:ReceivedSubmissionsStatistics>
 								<efbc:StatisticsCode listName="received-submission-type"></efbc:StatisticsCode>
@@ -82,7 +83,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id"></cbc:ID>
 	<cbc:ContractFolderID></cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>

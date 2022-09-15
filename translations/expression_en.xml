@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>expression in English. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>expression in English. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="expression|name|1">the value chosen for the indicator of BT-740-Procedure-Buyer is 'NO'</entry>
 <entry key="expression|name|100">BT-541-Lot is present and BT-5421-Lot is not present and BT-5423-Lot is not present</entry>
 <entry key="expression|name|101">BT-541-Lot is present and BT-5421-Lot is not present and BT-5422-Lot is not present</entry>
@@ -344,8 +344,20 @@
 <entry key="expression|name|504">Buyer Review Requests Irregularity Type (BT-636-LotResult) exists</entry>
 <entry key="expression|name|505">Unpublished Identifier (BT-195(BT-635)-LotResult) exists</entry>
 <entry key="expression|name|506">Unpublished Identifier (BT-195(BT-636)-LotResult) exists</entry>
+<entry key="expression|name|507">Procedure Type (BT-105) is 'innovation partnership' or 'competitive dialogue'</entry>
+<entry key="expression|name|509">Procedure Type (BT-105) is 'innovation partnership' or 'competitive dialogue' and Value Prize (BT-644) exists</entry>
 <entry key="expression|name|51">the value chosen for BT-105-Lot is equal to 'Open'</entry>
+<entry key="expression|name|510">Notice Dispatch Date eSender (BT-803(d)-notice) exists</entry>
+<entry key="expression|name|511">Non Disclosure Agreement is required</entry>
+<entry key="expression|name|512">Contract EU Funds Identifier (BT-5011) or Contract EU Funds Name (BT-722) exists</entry>
+<entry key="expression|name|513">EU Funds Financing Identifier (BT-5010) or EU Funds Programme (BT-7220) exists</entry>
+<entry key="expression|name|514">Clean Vehicles Directive (BT-717) is true</entry>
+<entry key="expression|name|515">Clean Vehicles Directive (BT-717) is true for the given Lot, and the Lot has been awarded</entry>
+<entry key="expression|name|516">CVD Contract Type (BT-735-LotResult) exists</entry>
+<entry key="expression|name|517">Vehicle Category (BT-723-LotResult) exists</entry>
+<entry key="expression|name|518">Clean Vehicles Directive (BT-717) is true for the given Lot</entry>
 <entry key="expression|name|52">BT-761-Lot is equal to 'TRUE'</entry>
+<entry key="expression|name|520">Award Criterion Number Weight (BT-5421) value is equal to "Order of importance"</entry>
 <entry key="expression|name|53">the value chosen for BT-65_Lot is equal to 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC</entry>
 <entry key="expression|name|54">the value chosen for BT-65_Lot is equal to 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC</entry>
 <entry key="expression|name|55">the value chosen for BT-765-Lot is equal to one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition', 'Frame$work agreement, without reopening of competition'</entry>
