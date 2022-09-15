@@ -1,6 +1,6 @@
 # SDK 1.1.0 Release Notes
 
-This release of the SDK does not contain any backwards compatible changes: software that was able to use version 1.0.0 should also be able to use this version.
+This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.0.0 should also be able to use this version.
 
 This version brings various changes in the metadata content:
 
