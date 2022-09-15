@@ -1,5 +1,5 @@
 // View 29
-// sdkVersion='1.0.0'
+// sdkVersion='1.1.0'
 // File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55
 1 {ND-Root} #{auxiliary|text|buyer} // --- 1 Buyer ---
 	{ND-ContractingParty} #{auxiliary|text|buyer} // --- 1.1 Buyer ---
@@ -161,7 +161,6 @@
 			{BT-660-LotResult} #{name}: $value ${BT-660-LotResult/@currencyID} // --- Framework Estimated Value ---
 		1 {OPT-320-LotResult}  #{name|BT-3201-Tender}  ${for text:$v1 in OPT-320-LotResult return BT-3201-Tender[(OPT-321-Tender == $v1) and (BT-3202-Contract == $v1)]}  // --- Tender Identifier ---  
 			{OPT-320-LotResult} #{name|BT-13714-Tender}: ${for text:$v3 in OPT-320-LotResult return BT-13714-Tender[(OPT-321-Tender == $v3) and (BT-3202-Contract == $v3)]}  // --- Tender lot identifier ---
-			{OPT-320-LotResult} #{name|BT-13714-Tender}: ${for text:$v33 in OPT-320-LotResult return BT-13714-Tender[(OPT-321-Tender == $v33) and (BT-3202-Contract != $v33)]}  // --- Tender lot identifier ---
 			{OPT-320-LotResult}  #{name|BT-720-Tender} ${for text:$v4 in OPT-320-LotResult return number:BT-720-Tender[(OPT-321-Tender == $v4) and (BT-3202-Contract == $v4)]} ${for text:$v6 in OPT-320-LotResult return BT-720-Tender[OPT-321-Tender == $v6]/@currencyID}   // --- Tender Value ---   !!! TODO the format must be defined
 			{OPT-320-LotResult}  #{name|BT-171-Tender} ${for text:$v5 in OPT-320-LotResult return number:BT-171-Tender[(OPT-321-Tender == $v5) and (BT-3202-Contract == $v5)]}   // --- Tender Rank --- 
 			1  {OPT-320-LotResult}      #{auxiliary|text|contract-information}    // --- Contract information ---
