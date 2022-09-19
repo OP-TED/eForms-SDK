@@ -129,7 +129,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">76c82dad-10b1-4e6a-9326-9312b4bf9baf</cbc:ID>
 	<cbc:ContractFolderID>1adea6cf-8780-4298-a915-55f6796bf847</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-25+01:00</cbc:IssueDate>
@@ -243,12 +243,14 @@
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:Description languageID="ENG">Evaluation of bidders responses in quality stage.</cbc:Description>
-					<cbc:CalculationExpression languageID="ENG">Quality Stage (60 %):</cbc:CalculationExpression>
-				</cac:AwardingCriterion>
-				<cac:AwardingCriterion>
-					<cbc:Description languageID="ENG">Evaluation of bidders responses in commercial stage. Scotland Excel reserves the right to negotiate on any element following submission, or to accept submissions without any further negotiation, to award in part or in whole, or not to make any award.</cbc:Description>
-					<cbc:CalculationExpression languageID="ENG">Commercial STAGE (40 %):</cbc:CalculationExpression>
+					<cac:SubordinateAwardingCriterion>
+						<cbc:Description languageID="ENG">Evaluation of bidders responses in quality stage.</cbc:Description>
+						<cbc:CalculationExpression languageID="ENG">Quality Stage (60 %):</cbc:CalculationExpression>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<cbc:Description languageID="ENG">Evaluation of bidders responses in commercial stage. Scotland Excel reserves the right to negotiate on any element following submission, or to accept submissions without any further negotiation, to award in part or in whole, or not to make any award.</cbc:Description>
+						<cbc:CalculationExpression languageID="ENG">Commercial STAGE (40 %):</cbc:CalculationExpression>
+					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
 			<cac:AppealTerms>

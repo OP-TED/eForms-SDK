@@ -288,6 +288,7 @@
 	<xsd:complexType name="LotResultType">
 		<xsd:sequence>
 			<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:ID" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:HigherTenderAmount" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:LowerTenderAmount" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:TenderResultCode" minOccurs="0" maxOccurs="1"/>

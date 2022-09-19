@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.0.72 created on the 2022-08-22T12:18:06.-->
+<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55.-->
 <pattern id="EFORMS-validation-stage-1b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-GazetteReference-1" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-1</assert>
@@ -3524,17 +3524,21 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X01']">
 		<assert id="ND-ReviewRequests-X01" role="ERROR" test="count(efac:AppealsInformation) = 0">rule|text|ND-ReviewRequests-X01</assert>
-		<assert id="ND-Changes-X01" role="ERROR" test="count(efac:Changes) = 0">rule|text|ND-Changes-X01</assert>
 		<assert id="ND-ContractModification-X01" role="ERROR" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-X01</assert>
 		<assert id="ND-NoticeResult-X01" role="ERROR" test="count(efac:NoticeResult) = 0">rule|text|ND-NoticeResult-X01</assert>
 		<assert id="ND-Organizations-X01" role="ERROR" test="count(efac:Organizations) = 0">rule|text|ND-Organizations-X01</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X02']">
 		<assert id="ND-ReviewRequests-X02" role="ERROR" test="count(efac:AppealsInformation) = 0">rule|text|ND-ReviewRequests-X02</assert>
-		<assert id="ND-Changes-X02" role="ERROR" test="count(efac:Changes) = 0">rule|text|ND-Changes-X02</assert>
 		<assert id="ND-ContractModification-X02" role="ERROR" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-X02</assert>
 		<assert id="ND-NoticeResult-X02" role="ERROR" test="count(efac:NoticeResult) = 0">rule|text|ND-NoticeResult-X02</assert>
 		<assert id="ND-Organizations-X02" role="ERROR" test="count(efac:Organizations) = 0">rule|text|ND-Organizations-X02</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'X01']">
+		<assert id="ND-Change-X01" role="ERROR" test="count(efac:Change) = 0">rule|text|ND-Change-X01</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'X02']">
+		<assert id="ND-Change-X02" role="ERROR" test="count(efac:Change) = 0">rule|text|ND-Change-X02</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification[$noticeSubType = '38']">
 		<assert id="ND-Modification-38" role="ERROR" test="count(efac:Change) &gt; 0">rule|text|ND-Modification-38</assert>

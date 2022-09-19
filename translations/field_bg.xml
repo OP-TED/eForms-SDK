@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Bulgarian. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Bulgarian. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Правно основание на процедурата</entry>
 <entry key="field|name|BT-01(d)-Procedure">Правно основание на процедурата</entry>
 <entry key="field|name|BT-01(e)-Procedure">Правно основание на процедурата</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Рамково споразумение</entry>
 <entry key="field|name|BT-765-Part">Рамково споразумение</entry>
 <entry key="field|name|BT-766-Lot">Информация за динамичната система за покупки</entry>
+<entry key="field|name|BT-766-Part">Информация за динамичната система за покупки</entry>
 <entry key="field|name|BT-767-Lot">Използва се електронен търг.</entry>
 <entry key="field|name|BT-768-Contract">Поръчката е възложена по рамково споразумение.</entry>
 <entry key="field|name|BT-769-Lot">Оферентите могат да представят повече от една оферта.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Езици, на които могат да се подават оферти, заявления за участие или заявления за интерес</entry>
 <entry key="field|name|BT-98-Lot">Краен срок, до който офертата трябва да остане валидна</entry>
 <entry key="field|name|BT-99-Lot">Информация относно сроковете за преразглеждане</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Прогнозна стойност на рамковите споразумения в рамките на тази процедура</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Стойност на всички поръчки, възложени в рамките на настоящата процедура</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Прогнозна стойност, без да се включва ДДС:</entry>
 <entry key="field|name|OPP-010-notice">Номер на публикацията на обявлението</entry>
 <entry key="field|name|OPP-011-notice">Номер на броя на ОВ S</entry>
 <entry key="field|name|OPP-012-notice">Дата на публикуване</entry>

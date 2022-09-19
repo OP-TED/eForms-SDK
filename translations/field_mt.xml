@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Maltese. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Maltese. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Il-bażi legali tal-proċedura</entry>
 <entry key="field|name|BT-01(d)-Procedure">Il-bażi legali tal-proċedura</entry>
 <entry key="field|name|BT-01(e)-Procedure">Il-bażi legali tal-proċedura</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Ftehim strutturali</entry>
 <entry key="field|name|BT-765-Part">Ftehim strutturali</entry>
 <entry key="field|name|BT-766-Lot">Informazzjoni dwar is-sistema dinamika ta’ xiri</entry>
+<entry key="field|name|BT-766-Part">Informazzjoni dwar is-sistema dinamika ta’ xiri</entry>
 <entry key="field|name|BT-767-Lot">Intuża rkant elettroniku.</entry>
 <entry key="field|name|BT-768-Contract">Il-kuntratt jingħata fi ftehim qafas.</entry>
 <entry key="field|name|BT-769-Lot">L-offerenti jistgħu jitfgħu aktar minn offerta waħda.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Lingwi li bihom jistgħu jiġu sottomessi offerti, talbiet għall-parteċipazzjoni, jew espressjonijiet ta’ interess</entry>
 <entry key="field|name|BT-98-Lot">Skadenza sa meta l-offerta trid tibqa’ valida</entry>
 <entry key="field|name|BT-99-Lot">Informazzjoni dwar l-iskadenzi tar-rieżami</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Valur stmat tal-ftehimiet qafas f’din il-proċedura</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Valur tal-kuntratti kollha mogħtija f’din il-proċedura</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Valur stmat mingħajr VAT</entry>
 <entry key="field|name|OPP-010-notice">Numru tal-pubblikazzjoni tal-avviż</entry>
 <entry key="field|name|OPP-011-notice">Numru tal-ħarġa tal-ĠU S</entry>
 <entry key="field|name|OPP-012-notice">Data tal-pubblikazzjoni</entry>

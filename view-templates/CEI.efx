@@ -1,24 +1,33 @@
 // View CEI
-// sdkVersion='1.0.0'
-// File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40
+// sdkVersion='1.1.0'
+// File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55
 1 {ND-Root} #{auxiliary|text|buyer} // --- 1 Buyer ---
 	{ND-ContractingParty} #{auxiliary|text|buyer} // --- 1.1 Buyer ---
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value
 		2 {BT-11-Procedure-Buyer} #{name|BT-11}: #value
 		{BT-10-Procedure-Buyer} #{name|BT-10}: #value
-2 {ND-Root} #{auxiliary|text|procedure} // --- 2 Procedure ---
+2 {ND-Root} #{auxiliary|text|procedure}  // --- 2 Procedure ---
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // --- 2.1 Procedure ---
 		{BT-21-Procedure} #{name|BT-21}: $value
 		{BT-24-Procedure} #{name|BT-24}: $value
 		{BT-04-notice} #{name|BT-04}: $value
 		{BT-22-Procedure} #{name|BT-22}: $value
 		{BT-105-Procedure} #{name|BT-105}: #value
-		1 {ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // --- 2.1.1 Purpose ---
-			{BT-23-Procedure} #{name|BT-23}: #value
+		1 {ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // --- 2.1.1 Purpose  ---
+			{BT-23-Procedure} #{name|BT-23}: #value // --- Nature of the contract ---
 			{OPP-040-Procedure} #{name|OPP-040}
-			{BT-531-Procedure} #{name|BT-531}: #value
-			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
-			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
+			{BT-531-Procedure} #{name|BT-531}: #value  // --- Additional nature of the contract ---
+			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}  // --- Main classification ---
+			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure} // --- Additional classification --
+			1 {ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // --- 2.1.1 Purpose  ---
+		2 {ND-ProcedurePlacePerformance} #{auxiliary|text|place-performance} // --- 2.1.2 Place of performance  ---
+			{BT-5101(a)-Procedure}  #{name|BT-510}:  ${BT-5101(a)-Procedure} ${BT-5101(b)-Procedure}  ${BT-5101(c)-Procedure}  // --- Postal address ---
+			{BT-5131-Procedure}  #{name|BT-5131}:  $value  // --- City ---
+			{BT-5121-Procedure}  #{name|BT-5121}:  $value  // --- Post Code ---
+			{BT-5071-Procedure}  #{name|BT-5071}:  $value  // --- Country subentity ---
+			{BT-5141-Procedure}  #{name|BT-5141}:  $value  // --- Country  ---
+			{BT-727-Procedure}  #{name|BT-727}:  $value  // --- Restrictions on the place of performance  ---
+			{BT-728-Procedure}  #{name|BT-728}:  $value  // --- Additional information ---
 		4 {ND-ProcedureProcurementScope} #{auxiliary|text|general-information} // --- 2.1.4 General information ---
 			{BT-300-Procedure} #{name|BT-300}: ${BT-300-Procedure}
 			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}
@@ -27,7 +36,7 @@
 			{ND-Root} #{auxiliary|text|cross-border-law}
 			{BT-09(a)-Procedure} #{field|name|BT-09(a)-Procedure}: ${BT-09(a)-Procedure}
 			{BT-09(b)-Procedure} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure}
-		5 {ND-Root} #{auxiliary|text|procurement-terms} // --- 2.1.5 Procurement terms ---
+		5 {ND-Root} #{auxiliary|text|procurement-terms} // --- 2.1.5  Procurement terms ---
 			{ND-Root} #{auxiliary|text|submission-terms}
 			{BT-31-Procedure} #{name|BT-31}: ${BT-31-Procedure}
 			{BT-763-Procedure} #{name|BT-763}: ${BT-763-Procedure}
@@ -44,11 +53,19 @@
 			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}
 			{BT-263-Procedure} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure}
 			{BT-25-Lot} #{name|BT-25}: ${BT-25-Lot} ${BT-625-Lot}
+		2 {ND-LotPlacePerformance} #{auxiliary|text|place-performance} // --- 5.1.2 Place of performance  ---
+			{BT-5101(a)-Lot}  #{name|BT-510}:  ${BT-5101(a)-Lot} ${BT-5101(b)-Lot}  ${BT-5101(c)-Lot}  // --- Postal address ---
+			{BT-5131-Lot}  #{name|BT-5131}:  $value  // --- City ---
+			{BT-5121-Lot}  #{name|BT-5121}:  $value  // --- Post Code ---
+			{BT-5071-Lot}  #{name|BT-5071}:  $value  // --- Country subentity ---
+			{BT-5141-Lot}  #{name|BT-5141}:  $value  // --- Country  ---
+			{BT-727-Lot}  #{name|BT-727}:  $value  // --- Restrictions on the place of performance  ---
+			{BT-728-Lot}  #{name|BT-728}:  $value  // --- Additional information ---
 		{BT-137-Lot} #{auxiliary|text|duration-call-expressions-interest}
 			{BT-36-Lot} #{name|BT-538}: ${BT-36-Lot} ${BT-36-Lot/@unitCode}, ${BT-538-Lot}
 		6 {BT-137-Lot} #{auxiliary|text|general-information} // --- 5.1.6 General information ---
 		{BT-137-Lot} #{auxiliary|text|conditions-participation}
-			{BT-747-Lot} #{auxiliary|text|criterion} // --- Criterion x ---
+			0 {BT-747-Lot} #{auxiliary|text|criterion} // --- Criterion x ---
 				{BT-747-Lot} #{name|BT-747}: #{BT-747-Lot}
 				{BT-749-Lot} #{name|BT-749}: ${BT-749-Lot}
 				{BT-750-Lot} #{name|BT-750}: ${BT-750-Lot}
@@ -57,19 +74,31 @@
 			{BT-15-Lot} #{name|BT-15}: ${BT-15-Lot}
 			{BT-14-Lot} #{name|BT-615}: ${BT-615-Lot}, #{BT-14-Lot}
 			{BT-707-Lot} #{name|BT-707}: #{BT-707-Lot}
-			{BT-137-Lot} #{auxiliary|text|adhoc-communication} // --- Ad hoc communication channel ---
+			0 {BT-137-Lot} #{auxiliary|text|adhoc-communication} // ---  Ad hoc communication channel  ---
 				{BT-124-Lot} #{name|BT-124}: ${BT-124-Lot}
 		16 {BT-137-Lot} #{auxiliary|text|organisations} // --- 5.1.16 Organisations ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-Mediator]}  #{auxiliary|text|organisation-mediation}:  $value // --- Mediation organisation ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-ReviewOrg]}  #{auxiliary|text|organisation-review}:  $value // --- Review organisation  ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-FiscalLegis]}  #{auxiliary|text|organisation-providing-info-taxes}:  $value // ---  Tax legislation information provider  ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EnvironLegis]} #{auxiliary|text|organisation-providing-info-environment}:  $value // --- Environment legislation information provider ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-EmployLegis]}  #{auxiliary|text|organisation-providing-info-employment}:  $value // --- Employment legislation information provider   --- 
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-DocProvider]} #{auxiliary|text|organisation-providing-docs}:  $value // --- Documents provider organisation ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-ReviewInfo]}  #{auxiliary|text|organisation-providing-info-review}:  $value // --- Appeal Information Providing Organisation (Lot) ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt]}  #{auxiliary|text|organisation-tender-recipient}:  $value // --- Tender Recipient  ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderEval]}  #{auxiliary|text|organisation-tender-evaluation}:  $value  // --- Organisation receiving requests to participate/Tender Recipient Organisation ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']]} #{auxiliary|text|organisation-providing-procurement-service}: $value // ---  Service Provider organisation ---
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-AddInfo]} #{auxiliary|text|organisation-providing-info-procedure}:  $value // --- Additional Information Providing Organisation --- 
+			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']]} #{auxiliary|text|organisation-providing-procurement-service}: $value // --- eSender ---
 11 {ND-Root} #{auxiliary|text|notice-information} // -- 11 Notice information ---
 	1 {ND-Root} #{auxiliary|text|notice-information} // --- 11.1 Notice information ---
-		{BT-701-notice} #{name|BT-701}: ${BT-701-notice} - ${BT-757-notice}
+		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}
 		{BT-03-notice} #{name|BT-03}: #{BT-03-notice}
 		{BT-02-notice} #{name|BT-02}: #{BT-02-notice}
 		{OPP-070-notice} #{name|OPP-070}: ${OPP-070-notice}
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice}
 		{BT-702(a)-notice} #{name|BT-702}: ${BT-702(a)-notice} ${BT-702(b)-notice}
 	2 {ND-Root} #{auxiliary|text|publication-information} // --- 11.2 Publication information ---
-		{ND-Root} #{name|BT-21}
+		{OPP-010-notice} #{name|OPP-010}: ${OPP-010-notice} // --- Title - 11.2 Publication information --- TO BE REVIEWED
 		{OPP-010-notice} #{name|OPP-010}: ${OPP-010-notice}
 		{OPP-011-notice} #{name|OPP-011}: ${OPP-011-notice}
 		{OPP-012-notice} #{name|OPP-012}: ${OPP-012-notice}

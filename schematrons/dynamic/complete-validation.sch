@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.0.72 created on the 2022-08-22T12:18:06.-->
+<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -607,7 +607,7 @@
     <diagnostic id="BT-772-Lot">cac:SpecificTendererRequirement[./cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description</diagnostic>
     <diagnostic id="BT-773-Tender">efbc:TermCode</diagnostic>
     <diagnostic id="BT-774-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='environmental-impact']</diagnostic>
-    <diagnostic id="BT-775-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='social-procurement']</diagnostic>
+    <diagnostic id="BT-775-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='social-objective']</diagnostic>
     <diagnostic id="BT-776-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='innovative-acquisition']</diagnostic>
     <diagnostic id="BT-777-Lot">cbc:ProcurementType</diagnostic>
     <diagnostic id="BT-779-Tender">efac:AggregatedAmounts/cbc:PaidAmount</diagnostic>
@@ -647,6 +647,9 @@
     <diagnostic id="BT-97-Lot">cac:Language/cbc:ID</diagnostic>
     <diagnostic id="BT-98-Lot">cac:TenderValidityPeriod/cbc:DurationMeasure</diagnostic>
     <diagnostic id="BT-99-Lot">cac:PresentationPeriod/cbc:Description</diagnostic>
+    <diagnostic id="OPA-118-NoticeResult-Currency">cbc:EstimatedOverallFrameworkContractsAmount/@currencyID</diagnostic>
+    <diagnostic id="OPA-161-NoticeResult-Currency">cbc:TotalAmount/@currencyID</diagnostic>
+    <diagnostic id="OPA-27-Procedure-Currency">cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID</diagnostic>
     <diagnostic id="OPP-010-notice">efac:Publication/efbc:NoticePublicationID[@schemeName='ojs-notice-id']</diagnostic>
     <diagnostic id="OPP-011-notice">efac:Publication/efbc:GazetteID[@schemeName='ojs-id']</diagnostic>
     <diagnostic id="OPP-012-notice">efac:Publication/efbc:PublicationDate</diagnostic>
@@ -751,6 +754,7 @@
     <diagnostic id="OPT-316-Contract">cbc:ID</diagnostic>
     <diagnostic id="OPT-320-LotResult">efac:LotTender/cbc:ID</diagnostic>
     <diagnostic id="OPT-321-Tender">cbc:ID</diagnostic>
+    <diagnostic id="OPT-322-LotResult">cbc:ID</diagnostic>
     <diagnostic id="OPT-999">cac:TenderResult/cbc:AwardDate</diagnostic>
   </diagnostics>
 </schema>

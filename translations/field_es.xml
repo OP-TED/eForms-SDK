@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Spanish. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Spanish. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Base jurídica del procedimiento</entry>
 <entry key="field|name|BT-01(d)-Procedure">Base jurídica del procedimiento</entry>
 <entry key="field|name|BT-01(e)-Procedure">Base jurídica del procedimiento</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Acuerdo marco</entry>
 <entry key="field|name|BT-765-Part">Acuerdo marco</entry>
 <entry key="field|name|BT-766-Lot">Información sobre el sistema dinámico de adquisición</entry>
+<entry key="field|name|BT-766-Part">Información sobre el sistema dinámico de adquisición</entry>
 <entry key="field|name|BT-767-Lot">Se utiliza la subasta electrónica.</entry>
 <entry key="field|name|BT-768-Contract">El contrato se adjudica dentro de un acuerdo marco.</entry>
 <entry key="field|name|BT-769-Lot">Los licitadores podrán presentar más de una oferta.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Lenguas en las que pueden presentarse las ofertas, las solicitudes de participación o las manifestaciones de interés</entry>
 <entry key="field|name|BT-98-Lot">Plazo hasta el cual la oferta debe seguir siendo válida</entry>
 <entry key="field|name|BT-99-Lot">Información sobre los plazos de revisión</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Valor estimado de los acuerdos marco en este procedimiento</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Valor de todos los contratos adjudicados en este procedimiento</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Valor estimado IVA excluido:</entry>
 <entry key="field|name|OPP-010-notice">Número de publicación del anuncio</entry>
 <entry key="field|name|OPP-011-notice">Número de la edición del DO S</entry>
 <entry key="field|name|OPP-012-notice">Fecha de publicación</entry>

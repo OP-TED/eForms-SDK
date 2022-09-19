@@ -1,14 +1,14 @@
 // View X01
-// sdkVersion='1.0.0'
-// File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40
-2 {ND-Root} #{auxiliary|text|procedure} // --- 2 Procedure ---
+// sdkVersion='1.1.0'
+// File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55
+2 {ND-Root} #{auxiliary|text|procedure}  // --- 2 Procedure ---
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // --- 2.1 Procedure ---
 		4 {ND-ProcedureProcurementScope} #{auxiliary|text|general-information} // --- 2.1.4 General information ---
 			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}
 			{BT-01-notice} #{BT-01-notice} ${BT-01(c)-Procedure} ${BT-01(d)-Procedure}
 			{BT-01(d)-Procedure} #{name|BT-01}: ${BT-01(d)-Procedure}
 8 {ND-Root} #{auxiliary|text|organisations} // --- 8 Organisations ---
-	1 {ND-Root} #{auxiliary|text|organisations} // --- 8.1 Organisations ---
+	1 {ND-Root} #{auxiliary|text|organisations} // --- 8.1 Organisations --- 
 		{ND-Root} #{name|BT-500}
 			{BT-500-Business} #{name|BT-500}: ${BT-500-Business}
 			{BT-501-Business-European} #{name|BT-501}: ${BT-501-Business-European}
@@ -23,8 +23,8 @@
 			{BT-503-Business} #{name|BT-503}: ${BT-503-Business}
 			{BT-739-Business} #{name|BT-739}: ${BT-739-Business}
 			{BT-505-Business} #{name|BT-505}: ${BT-505-Business}
-	2 {ND-Root} #{auxiliary|text|organisation-roles} // --- 8.1.2 Roles of organisations ---
-		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} TODO
+	2 {ND-Root} #{auxiliary|text|additional-role} // --- 8.2 Roles of organisations ---
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} TODO 
 9 {ND-Root} #{auxiliary|text|object} // --- 9 Object ---
 	{ND-Root} #{auxiliary|text|legal-basis} // --- Legal basis ---
 		{BT-01-notice} #{BT-01-notice}
@@ -44,7 +44,7 @@
 	5 {OPP-130-Business} #{name|OPP-130}: ${OPP-130-Business} // --- 9.5 Additional information ---
 11 {ND-Root} #{auxiliary|text|notice-information} // -- 11 Notice information ---
 	1 {ND-Root} #{auxiliary|text|notice-information} // --- 11.1 Notice information ---
-		{BT-701-notice} #{name|BT-701}: ${BT-701-notice} - ${BT-757-notice}
+		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}
 		{BT-03-notice} #{name|BT-03}: #{BT-03-notice}
 		{BT-02-notice} #{name|BT-02}: #{BT-02-notice}
 		{OPP-070-notice} #{name|OPP-070}: ${OPP-070-notice}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>rule in Greek. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>rule in Greek. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="rule|template|mandatory">${field.id} είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο ${notice.id}</entry>
 <entry key="rule|text|BR-BT-00001-0001">BT-01-notice είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο X01</entry>
 <entry key="rule|text|BR-BT-00001-0002">BT-01-notice είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο X02</entry>
@@ -2272,6 +2272,23 @@
 <entry key="rule|text|BR-OPT-00321-0047">OPT-321-Tender είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 38</entry>
 <entry key="rule|text|BR-OPT-00321-0048">OPT-321-Tender είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 39</entry>
 <entry key="rule|text|BR-OPT-00321-0049">OPT-321-Tender είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 40</entry>
+<entry key="rule|text|BR-OPT-00322-0032">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 25</entry>
+<entry key="rule|text|BR-OPT-00322-0033">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 26</entry>
+<entry key="rule|text|BR-OPT-00322-0034">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 27</entry>
+<entry key="rule|text|BR-OPT-00322-0035">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 28</entry>
+<entry key="rule|text|BR-OPT-00322-0036">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 29</entry>
+<entry key="rule|text|BR-OPT-00322-0037">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 30</entry>
+<entry key="rule|text|BR-OPT-00322-0038">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 31</entry>
+<entry key="rule|text|BR-OPT-00322-0039">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 32</entry>
+<entry key="rule|text|BR-OPT-00322-0041">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο T02</entry>
+<entry key="rule|text|BR-OPT-00322-0042">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 33</entry>
+<entry key="rule|text|BR-OPT-00322-0043">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 34</entry>
+<entry key="rule|text|BR-OPT-00322-0044">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 35</entry>
+<entry key="rule|text|BR-OPT-00322-0045">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 36</entry>
+<entry key="rule|text|BR-OPT-00322-0046">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 37</entry>
+<entry key="rule|text|BR-OPT-00322-0047">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 38</entry>
+<entry key="rule|text|BR-OPT-00322-0048">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 39</entry>
+<entry key="rule|text|BR-OPT-00322-0049">OPT-322-LotResult είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 40</entry>
 <entry key="rule|text|BR-OPT-00999-0032">OPT-999 είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 25</entry>
 <entry key="rule|text|BR-OPT-00999-0033">OPT-999 είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 26</entry>
 <entry key="rule|text|BR-OPT-00999-0034">OPT-999 είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 27</entry>

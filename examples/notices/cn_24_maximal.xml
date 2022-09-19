@@ -429,7 +429,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">14549263-b47b-4e59-96a1-2d0d13e19343</cbc:ID>
 	<!--BT-04-->
@@ -624,8 +624,6 @@
 		<cac:TenderingTerms>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<!--BT-733-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -953,8 +951,6 @@
 				<!--BT-120-->
 				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
 				<cac:AwardingCriterion>
-					<!--BT-733-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -1167,7 +1163,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-775-->
-				<cbc:ProcurementTypeCode listName="social-procurement">acc-all</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="social-objective">acc-all</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-776-->
@@ -1500,8 +1496,6 @@
 				<!--BT-120-->
 				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
 				<cac:AwardingCriterion>
-					<!--BT-733-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -1718,7 +1712,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-775-->
-				<cbc:ProcurementTypeCode listName="social-procurement">acc-all</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="social-objective">acc-all</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-776-->

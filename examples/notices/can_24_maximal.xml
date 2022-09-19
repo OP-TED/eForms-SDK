@@ -23,6 +23,8 @@
 						<!-- RESULTS - LOT-0001-->
 						<!-- -->
 						<efac:LotResult>
+							<!--"id" : "OPT-322-LotResult", "name" : "LotResult Technical Identifier"-->
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<!--"id" : "BT-142-LotResult", "name" : "Winner Chosen"-->
 							<!--selec-w: At least one winner was chosen"-->
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
@@ -122,6 +124,8 @@
 						<!-- RESULTS - LOT-0002-->
 						<!-- -->
 						<efac:LotResult>
+							<!--"id" : "OPT-322-LotResult", "name" : "LotResult Technical Identifier"-->
+							<cbc:ID schemeName="result">RES-0002</cbc:ID>
 							<!--"id" : "BT-711-LotResult", "name" : "Tender Value Highest"-->
 							<cbc:HigherTenderAmount currencyID="EUR">9999999.99</cbc:HigherTenderAmount>
 							<!--"id" : "BT-710-LotResult",  "name" : "Tender Value Lowest"-->
@@ -1120,7 +1124,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<!--   "id" : "OPT-002-notice","name" : "Customization ID (UBL)" -->
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<!--     "id" : "BT-701-notice","name" : "Notice Identifier" -->
 	<cbc:ID schemeName="notice-id">15377ca1-6cf7-4060-90f0-9290128957a3</cbc:ID>
 	<!--"id" : "BT-04-notice", "name" : "Procedure Identifier"-->
@@ -1288,8 +1292,6 @@
 			<!-- GLO - Awarding Terms (Awaring Criteria) -->
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<!--"id" : "BT-733-LotsGroup", "name" : "Award Criteria Order Justification"-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<!--"id" : "BT-543-LotsGroup", "name" : "Award Criteria Complicated"-->
 					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<!-- -->
@@ -1435,8 +1437,6 @@
 			<!-- LOT-0001 - Awarding criteria -->
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<!--"id" : "BT-733-Lot", "name" : "Award Criteria Order Justification"-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<!--"id" : "BT-543-Lot",  "name" : "Award Criteria Complicated"-->
 					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<!-- -->
@@ -1602,7 +1602,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-775-Lot",	"name": "Social Procurement"-->
-				<cbc:ProcurementTypeCode listName="social-procurement">acc-all</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="social-objective">acc-all</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-776-Lot","Innovative Procurement"-->
@@ -1731,8 +1731,6 @@
 			<!-- Awarding criteria -->
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<!--"id" : "BT-733-Lot", "name" : "Award Criteria Order Justification"-->
-					<cbc:Description languageID="ENG">AC order justification ---</cbc:Description>
 					<!--"id" : "BT-543-Lot",  "name" : "Award Criteria Complicated"-->
 					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
@@ -1893,7 +1891,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-775-Lot",	"name": "Social Procurement"-->
-				<cbc:ProcurementTypeCode listName="social-procurement">acc-all</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="social-objective">acc-all</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-776-Lot","Innovative Procurement"-->

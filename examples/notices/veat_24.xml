@@ -9,6 +9,7 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">350000</cbc:TotalAmount>
 						<efac:LotResult>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
@@ -283,7 +284,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.0</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">6ea164b2-228c-4ae8-b3b5-26f3946b8300</cbc:ID>
 	<cbc:ContractFolderID>da39bc05-2d42-4d37-aa4f-2dc9937911a0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>

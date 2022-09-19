@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Greek. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Greek. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Νομική βάση της διαδικασίας</entry>
 <entry key="field|name|BT-01(d)-Procedure">Νομική βάση της διαδικασίας</entry>
 <entry key="field|name|BT-01(e)-Procedure">Νομική βάση της διαδικασίας</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Συμφωνία-πλαίσιο</entry>
 <entry key="field|name|BT-765-Part">Συμφωνία-πλαίσιο</entry>
 <entry key="field|name|BT-766-Lot">Πληροφορίες σχετικά με το δυναμικό σύστημα αγορών</entry>
+<entry key="field|name|BT-766-Part">Πληροφορίες σχετικά με το δυναμικό σύστημα αγορών</entry>
 <entry key="field|name|BT-767-Lot">Χρησιμοποιείται ηλεκτρονικός πλειστηριασμός.</entry>
 <entry key="field|name|BT-768-Contract">Η σύμβαση ανατίθεται στο πλαίσιο συμφωνίας-πλαίσιο.</entry>
 <entry key="field|name|BT-769-Lot">Οι προσφέροντες μπορούν να υποβάλουν περισσότερες από μία προσφορές.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Γλώσσες στις οποίες μπορούν να υποβάλλονται οι προσφορές, οι αιτήσεις συμμετοχής ή οι εκδηλώσεις ενδιαφέροντος</entry>
 <entry key="field|name|BT-98-Lot">Προθεσμία μέχρι την οποία η προσφορά πρέπει να παραμείνει σε ισχύ</entry>
 <entry key="field|name|BT-99-Lot">Πληροφορίες σχετικά με τις προθεσμίες επανεξέτασης</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Εκτιμώμενη αξία των συμφωνιών-πλαισίων στο πλαίσιο της παρούσας διαδικασίας</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Αξία όλων των συμβάσεων που ανατίθενται στο πλαίσιο της παρούσας διαδικασίας</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Εκτιμώμενη αξία χωρίς ΦΠΑ</entry>
 <entry key="field|name|OPP-010-notice">Αριθμός δημοσίευσης της προκήρυξης</entry>
 <entry key="field|name|OPP-011-notice">Αριθμός τεύχους ΕΕ S</entry>
 <entry key="field|name|OPP-012-notice">Ημερομηνία δημοσίευσης</entry>

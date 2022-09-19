@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Portuguese. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Portuguese. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Base jurídica do processo</entry>
 <entry key="field|name|BT-01(d)-Procedure">Base jurídica do processo</entry>
 <entry key="field|name|BT-01(e)-Procedure">Base jurídica do processo</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Acordo-quadro</entry>
 <entry key="field|name|BT-765-Part">Acordo-quadro</entry>
 <entry key="field|name|BT-766-Lot">Informações sobre o sistema de aquisição dinâmico</entry>
+<entry key="field|name|BT-766-Part">Informações sobre o sistema de aquisição dinâmico</entry>
 <entry key="field|name|BT-767-Lot">É utilizado um leilão eletrónico.</entry>
 <entry key="field|name|BT-768-Contract">O contrato é adjudicado no âmbito de um acordo-quadro.</entry>
 <entry key="field|name|BT-769-Lot">Os proponentes podem apresentar mais do que uma proposta.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Línguas em que podem ser apresentadas propostas, pedidos de participação ou manifestações de interesse</entry>
 <entry key="field|name|BT-98-Lot">Prazo até ao qual a proposta deve permanecer válida</entry>
 <entry key="field|name|BT-99-Lot">Informações sobre os prazos de revisão</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Valor estimado dos acordos-quadro neste procedimento</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Valor de todos os contratos adjudicados no âmbito deste procedimento</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Valor estimado, sem IVA</entry>
 <entry key="field|name|OPP-010-notice">Número de publicação do anúncio</entry>
 <entry key="field|name|OPP-011-notice">N.º de edição do JO S</entry>
 <entry key="field|name|OPP-012-notice">Data de publicação</entry>

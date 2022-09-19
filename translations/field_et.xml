@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Estonian. File generated from metadata database version 1.0.0 created on the 2022-08-05T10:24:40</comment>
+<comment>field in Estonian. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
 <entry key="field|name|BT-01(c)-Procedure">Menetluse õiguslik alus</entry>
 <entry key="field|name|BT-01(d)-Procedure">Menetluse õiguslik alus</entry>
 <entry key="field|name|BT-01(e)-Procedure">Menetluse õiguslik alus</entry>
@@ -339,6 +339,7 @@
 <entry key="field|name|BT-765-Lot">Raamleping</entry>
 <entry key="field|name|BT-765-Part">Raamleping</entry>
 <entry key="field|name|BT-766-Lot">Teave dünaamilise hankesüsteemi kohta</entry>
+<entry key="field|name|BT-766-Part">Teave dünaamilise hankesüsteemi kohta</entry>
 <entry key="field|name|BT-767-Lot">Kasutatakse elektroonilist oksjonit.</entry>
 <entry key="field|name|BT-768-Contract">Leping sõlmitakse raamlepingu alusel.</entry>
 <entry key="field|name|BT-769-Lot">Pakkujad võivad esitada rohkem kui ühe pakkumuse.</entry>
@@ -361,6 +362,9 @@
 <entry key="field|name|BT-97-Lot">Keeled, milles võib esitada pakkumisi, osalemistaotlusi või osalemiskutseid</entry>
 <entry key="field|name|BT-98-Lot">Tähtaeg, milleni pakkumus peab kehtima</entry>
 <entry key="field|name|BT-99-Lot">Teave läbivaatamise tähtaegade kohta</entry>
+<entry key="field|name|OPA-118-NoticeResult-Currency">Raamlepingute hinnanguline maksumus käesolevas menetluses</entry>
+<entry key="field|name|OPA-161-NoticeResult-Currency">Kõigi selle menetluse käigus sõlmitud lepingute maksumus</entry>
+<entry key="field|name|OPA-27-Procedure-Currency">Hinnanguline väärtus ilma käibemaksuta</entry>
 <entry key="field|name|OPP-010-notice">Teate avaldamisnumber</entry>
 <entry key="field|name|OPP-011-notice">ELT S väljaande number</entry>
 <entry key="field|name|OPP-012-notice">Avaldamise kuupäev</entry>
