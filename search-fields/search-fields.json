@@ -119,10 +119,6 @@
 		"efx": "{ND-Root} ${BT-125(i)-Lot}",
 		"comment": "Previous Planning Identifier"
 	},
-	"BT125v": {
-		"efx": "{ND-Root} ${BT-125(v)-Lot}",
-		"comment": "Previous Planning Identifier (Version ID)"
-	},
 	"SUB_LG": {
 		"efx": "{ND-Root} ${BT-97-Lot}",
 		"comment": "Languages in which tenders may be submitted"
@@ -140,8 +136,8 @@
 		"comment": "(TV) Total value of the procurement"
 	},
 	"TVEC": {
-		"efx": "{ND-Root} ${value-union(value-union(BT-27-Procedure/@currencyID, BT-161-NoticeResult/@currencyID), BT-118-NoticeResult/@currencyID)}",
-		"comment": "TODO (TV_CUR) Currency of the estimated/total value of the procurement"
+		"efx": "{ND-Root} ${value-union(value-union(OPA-27-Procedure-Currency, OPA-161-NoticeResult-Currency), OPA-118-NoticeResult-Currency)}",
+		"comment": "(TV_CUR) Currency of the estimated/total value of the procurement"
 	},
 	"TVL": {
 		"efx": "{ND-Root} ${BT-710-LotResult}",
@@ -166,5 +162,33 @@
 	"notice-version": {
 		"efx": "{ND-Root} ${BT-757-notice}",
 		"comment": "Notice Version"
+	},
+	"BT537": {
+		"efx": "{ND-Root} ${BT-537-Lot}",
+		"comment": "Duration end date (BT-537-Lot) - used to compute the non-active notice date"
+	},
+	"BT36": {
+		"efx": "{ND-Root} ${BT-36-Lot}",
+		"comment": "Duration period (BT-36-Lot) - used to compute the non-active notice date"
+	},
+	"BT538": {
+		"efx": "{ND-Root} {BT-538-Lot}",
+		"comment": "Duration period (BT-538-Lot) - used to compute the non-active notice date"
+	},
+	"BT140": {
+		"efx": "{ND-Root} ${BT-140-notice}",
+		"comment": "Change reason code (BT-140-notice) - used to compute the non-active notice date"
+	},
+	"BT131": {
+		"efx": "{ND-Root} ${BT-131(d)-Lot}",
+		"comment": "Deadline Deadline Receipt Tenders (BT-131(d)-Lot) - used to compute the non-active notice date"
+	},
+	"BT630": {
+	"efx": "{ND-Root} ${BT-630(d)-Lot}",
+	"comment": "Deadline Deadline Receipt Expressions (BT-630(d)-Lot) - used to compute the non-active notice date"
+	},
+	"BT762": {
+		"efx": "{ND-Root} ${for text:$v1 in ('BUL','SPA','CES','DAN','DEU','EST','ELL','ENG','FRA','GLE','HRV','ITA','LAV','LIT','HUN','MLT','NLD','POL','POR','RON','SLK','SLV','FIN','SWE') return BT-762-notice/@languageID == $v1}",
+		"comment": "Change Reason Description (BT-762-notice) - nullification of the notices"
 	}
 }
