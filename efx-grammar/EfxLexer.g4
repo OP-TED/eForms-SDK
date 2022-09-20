@@ -233,7 +233,7 @@ ContextTypeCast: 'context:';
 
 // Axes ------------------------------------------------------------------------------------------------
 
-Axis: Preceding | PrecedingSibling | Following | FollowingSibling | Child | Descendant | DescendantOrSelf | Ancestor | AncestorOrSelf;
+Axis: Preceding | PrecedingSibling | Following | FollowingSibling | Child | Descendant | DescendantOrSelf | Ancestor | AncestorOrSelf | Self | Parent;
 Preceding: 'preceding';
 Following: 'following';
 PrecedingSibling: 'preceding-sibling';
