@@ -172,7 +172,7 @@
 		"comment": "Duration period (BT-36-Lot) - used to compute the non-active notice date"
 	},
 	"BT538": {
-		"efx": "{ND-Root} {/BT-538-Lot}",
+		"efx": "{ND-Root} ${/BT-538-Lot}",
 		"comment": "Duration period (BT-538-Lot) - used to compute the non-active notice date"
 	},
 	"BT140": {
