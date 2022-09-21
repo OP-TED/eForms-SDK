@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.1.0",
   "metadataDatabase" : {
-    "version" : "1.1.0",
-    "createdOn" : "2022-09-14T16:05:55"
+    "version" : "1.1.12",
+    "createdOn" : "2022-09-20T17:20:53"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -14917,6 +14917,94 @@
     "btId" : "BT-27",
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount",
     "xpathRelative" : "cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount",
+    "type" : "amount",
+    "legalType" : "VALUE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "15", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "BT-271-Lot",
+    "parentNodeId" : "ND-LotValueEstimate",
+    "name" : "Framework Maximum Value",
+    "btId" : "BT-271",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallFrameworkContractsAmount",
+    "xpathRelative" : "cbc:EstimatedOverallFrameworkContractsAmount",
+    "type" : "amount",
+    "legalType" : "VALUE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "15", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "BT-271-LotsGroup",
+    "parentNodeId" : "ND-LotsGroupValueEstimate",
+    "name" : "Framework Maximum Value",
+    "btId" : "BT-271",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallFrameworkContractsAmount",
+    "xpathRelative" : "cbc:EstimatedOverallFrameworkContractsAmount",
+    "type" : "amount",
+    "legalType" : "VALUE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "15", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "BT-271-Part",
+    "parentNodeId" : "ND-PartValueEstimate",
+    "name" : "Framework Maximum Value",
+    "btId" : "BT-271",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallFrameworkContractsAmount",
+    "xpathRelative" : "cbc:EstimatedOverallFrameworkContractsAmount",
+    "type" : "amount",
+    "legalType" : "VALUE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "BT-271-Procedure",
+    "parentNodeId" : "ND-ProcedureProcurementScope",
+    "name" : "Framework Maximum Value",
+    "btId" : "BT-271",
+    "xpathAbsolute" : "/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallFrameworkContractsAmount",
+    "xpathRelative" : "cac:RequestedTenderTotal/cbc:EstimatedOverallFrameworkContractsAmount",
     "type" : "amount",
     "legalType" : "VALUE",
     "repeatable" : {
