@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55.-->
+<!--File generated from metadata database version 1.1.14 created on the 2022-09-21T13:34:47.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -365,6 +365,10 @@
     <diagnostic id="BT-27-LotsGroup">cbc:EstimatedOverallContractAmount</diagnostic>
     <diagnostic id="BT-27-Part">cbc:EstimatedOverallContractAmount</diagnostic>
     <diagnostic id="BT-27-Procedure">cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount</diagnostic>
+    <diagnostic id="BT-271-Lot">cbc:EstimatedOverallFrameworkContractsAmount</diagnostic>
+    <diagnostic id="BT-271-LotsGroup">cbc:EstimatedOverallFrameworkContractsAmount</diagnostic>
+    <diagnostic id="BT-271-Part">cbc:EstimatedOverallFrameworkContractsAmount</diagnostic>
+    <diagnostic id="BT-271-Procedure">cac:RequestedTenderTotal/cbc:EstimatedOverallFrameworkContractsAmount</diagnostic>
     <diagnostic id="BT-300-Lot">cbc:Note</diagnostic>
     <diagnostic id="BT-300-LotsGroup">cbc:Note</diagnostic>
     <diagnostic id="BT-300-Part">cbc:Note</diagnostic>
