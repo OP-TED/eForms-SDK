@@ -22,8 +22,7 @@ The adopted approach is to keep the whole set of UBL elements but only support t
 - `view-templates`: Structured information on the visualisation of notices.
 - `translations`: Translations of various labels and short texts used in eForms notices.
 
-You can download the latest release from Maven Central.
-
+You can download the latest release from Maven Central.  
 [![Maven Central](https://img.shields.io/maven-central/v/eu.europa.ted.eforms/eforms-sdk.svg?label=Download)](https://search.maven.org/search?q=g:%22eu.europa.ted.eforms%22%20AND%20a:%22eforms-sdk%22)
 
 The documentation is available at https://docs.ted.europa.eu/eforms/latest.
