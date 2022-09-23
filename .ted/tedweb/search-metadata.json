@@ -12,7 +12,7 @@
 		"comment": "corporate body (type of buyer)"
 	},
 	"CY": {
-		"efx": "{ND-Root} ${/BT-507-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}",
+		"efx": "{ND-Root} ${/BT-514-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}",
 		"comment": "Buyer country"
 	},
 	"TW": {
