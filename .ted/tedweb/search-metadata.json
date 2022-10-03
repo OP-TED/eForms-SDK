@@ -56,7 +56,7 @@
 		"comment": "Main activity"
 	},
 	"NC": {
-		"efx": "{ND-Root} ${value-union(value-union(value-union(value-union(value-union(/BT-23-Procedure, /BT-23-Part), /BT-23-Lot), /BT-531-Procedure), /BT-531-Part), /BT-531-Lot)}",
+		"efx": "{ND-Root} ${value-union(value-union(value-union(/BT-23-Procedure, /BT-23-Part), /BT-23-Lot)}",
 		"comment": "Type of contract"
 	},
 	"ND": {
