@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.1.13 created on the 2022-09-21T13:34:45.-->
+<!--File generated from metadata database version 1.1.92 created on the 2022-09-30T18:37:56.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -1267,6 +1267,7 @@
 		<assert id="BT-513-Organization-Company_R" role="ERROR" diagnostics="BT-513-Organization-Company" test="count(cac:PostalAddress/cbc:CityName) &lt; 2">rule|text|BT-513-Organization-Company_R</assert>
 		<assert id="BT-514-Organization-Company_R" role="ERROR" diagnostics="BT-514-Organization-Company" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &lt; 2">rule|text|BT-514-Organization-Company_R</assert>
 		<assert id="BT-739-Organization-Company_R" role="ERROR" diagnostics="BT-739-Organization-Company" test="count(cac:Contact/cbc:Telefax) &lt; 2">rule|text|BT-739-Organization-Company_R</assert>
+		<assert id="OPT-200-Organization-Company_R" role="ERROR" diagnostics="OPT-200-Organization-Company" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-200-Organization-Company_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[(cac:PartyIdentification/cbc:ID/text() = //efac:TenderingParty/efac:Tenderer/cbc:ID/text()) or (cac:PartyIdentification/cbc:ID/text() = //efac:TenderingParty/efac:Subcontractor/cbc:ID/text())]">
 		<assert id="BT-165-Organization-Company_R" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &lt; 2">rule|text|BT-165-Organization-Company_R</assert>
@@ -1289,7 +1290,6 @@
 		<assert id="BT-513-Organization-TouchPoint_R" role="ERROR" diagnostics="BT-513-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:CityName) &lt; 2">rule|text|BT-513-Organization-TouchPoint_R</assert>
 		<assert id="BT-514-Organization-TouchPoint_R" role="ERROR" diagnostics="BT-514-Organization-TouchPoint" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &lt; 2">rule|text|BT-514-Organization-TouchPoint_R</assert>
 		<assert id="BT-739-Organization-TouchPoint_R" role="ERROR" diagnostics="BT-739-Organization-TouchPoint" test="count(cac:Contact/cbc:Telefax) &lt; 2">rule|text|BT-739-Organization-TouchPoint_R</assert>
-		<assert id="OPT-201-Organization-TouchPoint_R" role="ERROR" diagnostics="OPT-201-Organization-TouchPoint" test="count(cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-201-Organization-TouchPoint_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner">
 		<assert id="BT-500-UBO_R" role="ERROR" diagnostics="BT-500-UBO" test="count(cbc:FamilyName) &lt; 2">rule|text|BT-500-UBO_R</assert>

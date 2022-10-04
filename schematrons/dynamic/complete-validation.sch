@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.1.14 created on the 2022-09-21T13:34:47.-->
+<!--File generated from metadata database version 1.1.92 created on the 2022-09-30T18:37:56.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -719,7 +719,7 @@
     <diagnostic id="OPT-160-UBO">cbc:FirstName</diagnostic>
     <diagnostic id="OPT-170-Tenderer">efbc:GroupLeadIndicator</diagnostic>
     <diagnostic id="OPT-200-Organization-Company">cac:PartyIdentification/cbc:ID</diagnostic>
-    <diagnostic id="OPT-201-Organization-TouchPoint">cac:PartyIdentification/cbc:ID</diagnostic>
+    <diagnostic id="OPT-201-Organization-TouchPoint">efac:TouchPoint/cac:PartyIdentification/cbc:ID</diagnostic>
     <diagnostic id="OPT-202-UBO">efac:UltimateBeneficialOwner/cbc:ID</diagnostic>
     <diagnostic id="OPT-210-Tenderer">cbc:ID</diagnostic>
     <diagnostic id="OPT-300-Contract-Signatory">cac:SignatoryParty/cac:PartyIdentification/cbc:ID</diagnostic>

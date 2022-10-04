@@ -791,7 +791,7 @@
    <svrl:failed-assert id="BR-BT-00018-0022"
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
-                       test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) != 'not-allowed')">
+                       test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">
       <svrl:text>rule|text|BR-BT-00018-0022</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-18-Lot">
 cac:TenderRecipientParty/cbc:EndpointID</svrl:diagnostic-reference>
@@ -799,7 +799,7 @@ cac:TenderRecipientParty/cbc:EndpointID</svrl:diagnostic-reference>
    <svrl:failed-assert id="BR-BT-00063-0055"
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
-                       test="count(cbc:VariantConstraintCode) &gt; 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) = 1)">
+                       test="count(cbc:VariantConstraintCode) &gt; 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) &gt; 1)">
       <svrl:text>rule|text|BR-BT-00063-0055</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-63-Lot">
 cbc:VariantConstraintCode</svrl:diagnostic-reference>
