@@ -21449,8 +21449,8 @@
     "parentNodeId" : "ND-SettledContract",
     "name" : "Contract EU Funds Programme",
     "btId" : "BT-722",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:Funding/efbc:FundingProgramCode",
-    "xpathRelative" : "efac:Funding/efbc:FundingProgramCode",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:Funding/cbc:FundingProgramCode",
+    "xpathRelative" : "efac:Funding/cbc:FundingProgramCode",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
@@ -21478,8 +21478,8 @@
     "parentNodeId" : "ND-NonUBLTenderingTerms",
     "name" : "EU Funds Programme",
     "btId" : "BT-7220",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding/efbc:FundingProgramCode",
-    "xpathRelative" : "efac:Funding/efbc:FundingProgramCode",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding/cbc:FundingProgramCode",
+    "xpathRelative" : "efac:Funding/cbc:FundingProgramCode",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
