@@ -134,8 +134,8 @@ lateBoundExpression
 
 booleanExpression
     : OpenParenthesis booleanExpression CloseParenthesis                        # parenthesizedBooleanExpression
-    | booleanExpression     operator=Or booleanExpression                       # logicalOrCondition
     | booleanExpression     operator=And booleanExpression                      # logicalAndCondition
+    | booleanExpression     operator=Or booleanExpression                       # logicalOrCondition
     | stringExpression      modifier=Not? In stringSequence                     # stringInListCondition
     | booleanExpression     modifier=Not? In booleanSequence                    # booleanInListCondition
     | numericExpression     modifier=Not? In numericSequence                    # numberInListCondition
