@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>expression in English. File generated from metadata database version 1.1.199 created on the 2022-10-04T14:26:23</comment>
+<comment>expression in English. File generated from metadata database version 1.1.235 created on the 2022-10-05T17:04:51</comment>
 <entry key="expression|name|1">the value chosen for the indicator of BT-740-Procedure-Buyer is 'NO'</entry>
 <entry key="expression|name|100">BT-541-Lot is present and BT-5421-Lot is not present and BT-5423-Lot is not present</entry>
 <entry key="expression|name|101">BT-541-Lot is present and BT-5421-Lot is not present and BT-5422-Lot is not present</entry>
@@ -358,6 +358,9 @@
 <entry key="expression|name|518">Clean Vehicles Directive (BT-717) is not true for the given Lot</entry>
 <entry key="expression|name|52">BT-761-Lot is not equal to 'TRUE'</entry>
 <entry key="expression|name|520">Award Criterion Number Weight (BT-5421) value is not equal to "Order of importance"</entry>
+<entry key="expression|name|523">Place Performance Services Other (BT-727) does not exist, and Place Performance Country Subdivision (BT-5071) does not exist, and Place Performance City (BT-5131) does not exist</entry>
+<entry key="expression|name|524">Place Performance Services Other (BT-727) does not exist, and Place Performance Country Subdivision (BT-5071) does not exist, and Place Performance City (BT-5131) does not exist</entry>
+<entry key="expression|name|525">Place Performance Services Other (BT-727) does not exist, and Place Performance Country Subdivision (BT-5071) does not exist, and Place Performance City (BT-5131) does not exist</entry>
 <entry key="expression|name|528">TouchPoint country (BT-514-Organization-TouchPoint) is not a country with post codes</entry>
 <entry key="expression|name|529">Review Deadline Description (BT-99-Lot) is not present</entry>
 <entry key="expression|name|53">the value chosen for BT-65_Lot is not equal to 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC</entry>
