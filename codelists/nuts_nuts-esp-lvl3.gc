@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsEspLvl3</ShortName>
       <LongName>nuts-esp-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.1.234</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>A Coruña</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES112</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Lugo</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ourense</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES114</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pontevedra</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Asturias</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES130</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Cantabria</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Araba/Álava</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES212</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Gipuzkoa</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bizkaia</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES220</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Navarra</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>La Rioja</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES241</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Huesca</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Teruel</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES243</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zaragoza</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Madrid</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Ávila</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Burgos</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES413</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>León</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Palencia</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES415</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Salamanca</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Segovia</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES417</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Soria</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Valladolid</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES419</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zamora</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Albacete</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES422</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Ciudad Real</SimpleValue>
          </Value>
       </Row>
@@ -336,12 +414,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cuenca</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES424</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Guadalajara</SimpleValue>
          </Value>
       </Row>
@@ -352,12 +436,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Toledo</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES431</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Badajoz</SimpleValue>
          </Value>
       </Row>
@@ -368,12 +458,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cáceres</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES511</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Barcelona</SimpleValue>
          </Value>
       </Row>
@@ -384,12 +480,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Girona</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES513</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Lleida</SimpleValue>
          </Value>
       </Row>
@@ -400,12 +502,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tarragona</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES521</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Alicante/Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Alicante/Alacant</SimpleValue>
          </Value>
       </Row>
@@ -416,12 +524,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Castellón/Castelló</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Castellón/Castelló</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES523</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Valencia/València</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Valencia/València</SimpleValue>
          </Value>
       </Row>
@@ -432,12 +546,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Eivissa y Formentera</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES532</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Mallorca</SimpleValue>
          </Value>
       </Row>
@@ -448,12 +568,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Menorca</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES611</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Almería</SimpleValue>
          </Value>
       </Row>
@@ -464,12 +590,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cádiz</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES613</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Córdoba</SimpleValue>
          </Value>
       </Row>
@@ -480,12 +612,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Granada</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES615</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Huelva</SimpleValue>
          </Value>
       </Row>
@@ -496,12 +634,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Jaén</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES617</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Málaga</SimpleValue>
          </Value>
       </Row>
@@ -512,12 +656,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Sevilla</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES620</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Murcia</SimpleValue>
          </Value>
       </Row>
@@ -528,12 +678,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ceuta</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES640</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Melilla</SimpleValue>
          </Value>
       </Row>
@@ -544,12 +700,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>El Hierro</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES704</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Fuerteventura</SimpleValue>
          </Value>
       </Row>
@@ -560,12 +722,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gran Canaria</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES706</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>La Gomera</SimpleValue>
          </Value>
       </Row>
@@ -576,12 +744,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>La Palma</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ES708</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Lanzarote</SimpleValue>
          </Value>
       </Row>
@@ -592,12 +766,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tenerife</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ESZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

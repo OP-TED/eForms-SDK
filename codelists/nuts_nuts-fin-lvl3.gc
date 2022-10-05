@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsFinLvl3</ShortName>
       <LongName>nuts-fin-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.1.234</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Keski-Suomi</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Keski-Suomi</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI194</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Etelä-Pohjanmaa</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Etelä-Pohjanmaa</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pohjanmaa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pohjanmaa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI196</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Satakunta</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Satakunta</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pirkanmaa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pirkanmaa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI1B1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Helsinki-Uusimaa</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Helsinki-Uusimaa</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Varsinais-Suomi</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Varsinais-Suomi</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI1C2</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Kanta-Häme</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Kanta-Häme</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Päijät-Häme</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Päijät-Häme</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI1C4</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Kymenlaakso</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Kymenlaakso</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Etelä-Karjala</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Etelä-Karjala</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI1D1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Etelä-Savo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Etelä-Savo</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pohjois-Savo</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pohjois-Savo</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI1D3</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pohjois-Karjala</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pohjois-Karjala</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Keski-Pohjanmaa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Keski-Pohjanmaa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI1D7</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Lappi</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Lappi</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Kainuu</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Kainuu</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FI1D9</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pohjois-Pohjanmaa</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pohjois-Pohjanmaa</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Åland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Åland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FIZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

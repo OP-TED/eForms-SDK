@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Duration</ShortName>
       <LongName>duration</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/timeperiod</LongName>
-      <LongName Identifier="eFormsParentId">timeperiods</LongName>
-      <Version>1.1.0</Version>
+      <LongName Identifier="eFormsParentId">timeperiod</LongName>
+      <Version>1.1.234</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -192,7 +192,7 @@
             <SimpleValue>Necunoscut</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nevedno</SimpleValue>
+            <SimpleValue>Neznámy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Neznano</SimpleValue>

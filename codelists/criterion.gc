@@ -2,12 +2,11 @@
 <!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>NutsTurLvl3</ShortName>
-      <LongName>nuts-tur-lvl3</LongName>
-      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
-      <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.234</Version>
-      <CanonicalUri/>
+      <ShortName>Criterion</ShortName>
+      <LongName>criterion</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/criterion</LongName>
+      <Version>20210616-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/criterion</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -123,904 +122,684 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR100</SimpleValue>
+            <SimpleValue>autorisation</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>İstanbul</SimpleValue>
+            <SimpleValue>For service contracts: authorisation of particular organisation needed</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>İstanbul</SimpleValue>
+            <SimpleValue>For service contracts: authorisation of particular organisation needed</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR211</SimpleValue>
+            <SimpleValue>aver-year-to</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tekirdağ</SimpleValue>
+            <SimpleValue>Average yearly turnover</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tekirdağ</SimpleValue>
+            <SimpleValue>Average yearly turnover</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR212</SimpleValue>
+            <SimpleValue>bankr-nat</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Edirne</SimpleValue>
+            <SimpleValue>Analogous situation like bankruptcy under national law</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Edirne</SimpleValue>
+            <SimpleValue>Analogous situation like bankruptcy under national law</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR213</SimpleValue>
+            <SimpleValue>bankruptcy</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kırklareli</SimpleValue>
+            <SimpleValue>Bankruptcy</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kırklareli</SimpleValue>
+            <SimpleValue>Bankruptcy</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR221</SimpleValue>
+            <SimpleValue>chain-manage</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Balıkesir</SimpleValue>
+            <SimpleValue>Supply chain management</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Balıkesir</SimpleValue>
+            <SimpleValue>Supply chain management</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR222</SimpleValue>
+            <SimpleValue>corruption</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Çanakkale</SimpleValue>
+            <SimpleValue>Corruption</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Çanakkale</SimpleValue>
+            <SimpleValue>Corruption</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR310</SimpleValue>
+            <SimpleValue>cred-arran</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>İzmir</SimpleValue>
+            <SimpleValue>Arrangement with creditors</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>İzmir</SimpleValue>
+            <SimpleValue>Arrangement with creditors</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR321</SimpleValue>
+            <SimpleValue>crime-org</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Aydın</SimpleValue>
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Aydın</SimpleValue>
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR322</SimpleValue>
+            <SimpleValue>distorsion</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Denizli</SimpleValue>
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Denizli</SimpleValue>
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR323</SimpleValue>
+            <SimpleValue>envir-certif-indep</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Muğla</SimpleValue>
+            <SimpleValue>Certificates by independent bodies about environmental management systems or standards</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Muğla</SimpleValue>
+            <SimpleValue>Certificates by independent bodies about environmental management systems or standards</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR331</SimpleValue>
+            <SimpleValue>envir-law</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Manisa</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Manisa</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR332</SimpleValue>
+            <SimpleValue>envir-measure</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Afyonkarahisar</SimpleValue>
+            <SimpleValue>Environmental management measures</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Afyonkarahisar</SimpleValue>
+            <SimpleValue>Environmental management measures</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR333</SimpleValue>
+            <SimpleValue>eo-group</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kütahya</SimpleValue>
+            <SimpleValue>Economic operator together with others</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kütahya</SimpleValue>
+            <SimpleValue>Economic operator together with others</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR334</SimpleValue>
+            <SimpleValue>finan-laund</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Uşak</SimpleValue>
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Uşak</SimpleValue>
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR411</SimpleValue>
+            <SimpleValue>finan-rat</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bursa</SimpleValue>
+            <SimpleValue>Financial ratio</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bursa</SimpleValue>
+            <SimpleValue>Financial ratio</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR412</SimpleValue>
+            <SimpleValue>finan-requ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Eskişehir</SimpleValue>
+            <SimpleValue>Other economic or financial requirements</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Eskişehir</SimpleValue>
+            <SimpleValue>Other economic or financial requirements</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR413</SimpleValue>
+            <SimpleValue>fraud</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bilecik</SimpleValue>
+            <SimpleValue>Fraud</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bilecik</SimpleValue>
+            <SimpleValue>Fraud</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR421</SimpleValue>
+            <SimpleValue>gen-year-to</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kocaeli</SimpleValue>
+            <SimpleValue>General yearly turnover</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kocaeli</SimpleValue>
+            <SimpleValue>General yearly turnover</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR422</SimpleValue>
+            <SimpleValue>human-traffic</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Sakarya</SimpleValue>
+            <SimpleValue>Child labour and other forms of trafficking in human beings</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Sakarya</SimpleValue>
+            <SimpleValue>Child labour and other forms of trafficking in human beings</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR423</SimpleValue>
+            <SimpleValue>indem-insu</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Düzce</SimpleValue>
+            <SimpleValue>Professional risk indemnity insurance</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Düzce</SimpleValue>
+            <SimpleValue>Professional risk indemnity insurance</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR424</SimpleValue>
+            <SimpleValue>insolvency</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bolu</SimpleValue>
+            <SimpleValue>Insolvency</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bolu</SimpleValue>
+            <SimpleValue>Insolvency</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR425</SimpleValue>
+            <SimpleValue>labour-law</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Yalova</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Yalova</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR510</SimpleValue>
+            <SimpleValue>liq-admin</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ankara</SimpleValue>
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ankara</SimpleValue>
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR521</SimpleValue>
+            <SimpleValue>manage-staff</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Konya</SimpleValue>
+            <SimpleValue>Number of managerial staff</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Konya</SimpleValue>
+            <SimpleValue>Number of managerial staff</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR522</SimpleValue>
+            <SimpleValue>membership</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Karaman</SimpleValue>
+            <SimpleValue>For service contracts: membership of particular organisation needed</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Karaman</SimpleValue>
+            <SimpleValue>For service contracts: membership of particular organisation needed</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR611</SimpleValue>
+            <SimpleValue>misinterpr</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Antalya</SimpleValue>
+            <SimpleValue>Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Antalya</SimpleValue>
+            <SimpleValue>Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR612</SimpleValue>
+            <SimpleValue>nati-ground</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Isparta</SimpleValue>
+            <SimpleValue>Purely national exclusion grounds</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Isparta</SimpleValue>
+            <SimpleValue>Purely national exclusion grounds</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR613</SimpleValue>
+            <SimpleValue>partic-confl</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Burdur</SimpleValue>
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Burdur</SimpleValue>
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR621</SimpleValue>
+            <SimpleValue>prep-confl</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Adana</SimpleValue>
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Adana</SimpleValue>
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR622</SimpleValue>
+            <SimpleValue>prof-misconduct</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Mersin</SimpleValue>
+            <SimpleValue>Guilty of grave professional misconduct</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Mersin</SimpleValue>
+            <SimpleValue>Guilty of grave professional misconduct</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR631</SimpleValue>
+            <SimpleValue>prof-regist</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Hatay</SimpleValue>
+            <SimpleValue>Enrolment in a relevant professional register</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Hatay</SimpleValue>
+            <SimpleValue>Enrolment in a relevant professional register</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR632</SimpleValue>
+            <SimpleValue>qa-certif-inst</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kahramanmaraş</SimpleValue>
+            <SimpleValue>For supply contracts: certificates by quality control institutes</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kahramanmaraş</SimpleValue>
+            <SimpleValue>For supply contracts: certificates by quality control institutes</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR633</SimpleValue>
+            <SimpleValue>qu-certif-indep</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Osmaniye</SimpleValue>
+            <SimpleValue>Certificates by independent bodies about quality assurance standards</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Osmaniye</SimpleValue>
+            <SimpleValue>Certificates by independent bodies about quality assurance standards</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR711</SimpleValue>
+            <SimpleValue>qual-cont-tech</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kırıkkale</SimpleValue>
+            <SimpleValue>Technicians or technical bodies for quality control</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kırıkkale</SimpleValue>
+            <SimpleValue>Technicians or technical bodies for quality control</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR712</SimpleValue>
+            <SimpleValue>qual-facil</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Aksaray</SimpleValue>
+            <SimpleValue>Technical facilities and measures for ensuring quality</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Aksaray</SimpleValue>
+            <SimpleValue>Technical facilities and measures for ensuring quality</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR713</SimpleValue>
+            <SimpleValue>qualification</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Niğde</SimpleValue>
+            <SimpleValue>Educational and professional qualifications</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Niğde</SimpleValue>
+            <SimpleValue>Educational and professional qualifications</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR714</SimpleValue>
+            <SimpleValue>registered</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Nevşehir</SimpleValue>
+            <SimpleValue>Economic operator registered in a pre qualification system</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Nevşehir</SimpleValue>
+            <SimpleValue>Economic operator registered in a pre qualification system</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR715</SimpleValue>
+            <SimpleValue>relied</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kırşehir</SimpleValue>
+            <SimpleValue>Relied on entities</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kırşehir</SimpleValue>
+            <SimpleValue>Relied on entities</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR721</SimpleValue>
+            <SimpleValue>research-fac</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kayseri</SimpleValue>
+            <SimpleValue>Study and research facilities</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kayseri</SimpleValue>
+            <SimpleValue>Study and research facilities</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR722</SimpleValue>
+            <SimpleValue>sanction</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Sivas</SimpleValue>
+            <SimpleValue>Early termination, damages or other comparable sanctions</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Sivas</SimpleValue>
+            <SimpleValue>Early termination, damages or other comparable sanctions</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR723</SimpleValue>
+            <SimpleValue>service-perform</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Yozgat</SimpleValue>
+            <SimpleValue>For service contracts: performance of services of the specified type</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Yozgat</SimpleValue>
+            <SimpleValue>For service contracts: performance of services of the specified type</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR811</SimpleValue>
+            <SimpleValue>shelt-worksh</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Zonguldak</SimpleValue>
+            <SimpleValue>Economic operator is a sheltered workshop</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Zonguldak</SimpleValue>
+            <SimpleValue>Economic operator is a sheltered workshop</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR812</SimpleValue>
+            <SimpleValue>sme</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Karabük</SimpleValue>
+            <SimpleValue>Economic operator micro, small or medium-sized enterprise</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Karabük</SimpleValue>
+            <SimpleValue>Economic operator micro, small or medium-sized enterprise</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR813</SimpleValue>
+            <SimpleValue>socsec-law</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bartın</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bartın</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR821</SimpleValue>
+            <SimpleValue>socsec-pay</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kastamonu</SimpleValue>
+            <SimpleValue>Payment of social security contributions</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kastamonu</SimpleValue>
+            <SimpleValue>Payment of social security contributions</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR822</SimpleValue>
+            <SimpleValue>spec-aver-to</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Çankırı</SimpleValue>
+            <SimpleValue>Specific average turnover</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Çankırı</SimpleValue>
+            <SimpleValue>Specific average turnover</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR823</SimpleValue>
+            <SimpleValue>spec-req-check</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Sinop</SimpleValue>
+            <SimpleValue>Special requierements check</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Sinop</SimpleValue>
+            <SimpleValue>Special requierements check</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR831</SimpleValue>
+            <SimpleValue>spec-year-to</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Samsun</SimpleValue>
+            <SimpleValue>Specific yearly turnover</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Samsun</SimpleValue>
+            <SimpleValue>Specific yearly turnover</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR832</SimpleValue>
+            <SimpleValue>staff-red</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tokat</SimpleValue>
+            <SimpleValue>Reduction of the number of qualified candidates</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tokat</SimpleValue>
+            <SimpleValue>Reduction of the number of qualified candidates</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR833</SimpleValue>
+            <SimpleValue>subco-ent</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Çorum</SimpleValue>
+            <SimpleValue>Subcontracted entities</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Çorum</SimpleValue>
+            <SimpleValue>Subcontracted entities</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR834</SimpleValue>
+            <SimpleValue>suncont-port</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Amasya</SimpleValue>
+            <SimpleValue>Subcontracting proportion</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Amasya</SimpleValue>
+            <SimpleValue>Subcontracting proportion</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR901</SimpleValue>
+            <SimpleValue>supply-perform</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Trabzon</SimpleValue>
+            <SimpleValue>For supply contracts: performance of deliveries of the specified type</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Trabzon</SimpleValue>
+            <SimpleValue>For supply contracts: performance of deliveries of the specified type</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR902</SimpleValue>
+            <SimpleValue>susp-act</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ordu</SimpleValue>
+            <SimpleValue>Business activities are suspended</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ordu</SimpleValue>
+            <SimpleValue>Business activities are suspended</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR903</SimpleValue>
+            <SimpleValue>tax-pay</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Giresun</SimpleValue>
+            <SimpleValue>Payment of taxes</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Giresun</SimpleValue>
+            <SimpleValue>Payment of taxes</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR904</SimpleValue>
+            <SimpleValue>tech-equip</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Rize</SimpleValue>
+            <SimpleValue>Tools, plant or technical equipment</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Rize</SimpleValue>
+            <SimpleValue>Tools, plant or technical equipment</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR905</SimpleValue>
+            <SimpleValue>terr-offence</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Artvin</SimpleValue>
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Artvin</SimpleValue>
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TR906</SimpleValue>
+            <SimpleValue>trade-regist</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Gümüşhane</SimpleValue>
+            <SimpleValue>Enrolment in a trade register</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Gümüşhane</SimpleValue>
+            <SimpleValue>Enrolment in a trade register</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRA11</SimpleValue>
+            <SimpleValue>w-autent</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Erzurum</SimpleValue>
+            <SimpleValue>For supply contracts: samples, descriptions or photographs with certification of authenticity</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Erzurum</SimpleValue>
+            <SimpleValue>For supply contracts: samples, descriptions or photographs with certification of authenticity</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRA12</SimpleValue>
+            <SimpleValue>wo-autent</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Erzincan</SimpleValue>
+            <SimpleValue>For supply contracts: samples, descriptions or photographs without certification of authenticity</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Erzincan</SimpleValue>
+            <SimpleValue>For supply contracts: samples, descriptions or photographs without certification of authenticity</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRA13</SimpleValue>
+            <SimpleValue>work-perform</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bayburt</SimpleValue>
+            <SimpleValue>For works contracts: performance of works of the specified type</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bayburt</SimpleValue>
+            <SimpleValue>For works contracts: performance of works of the specified type</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRA21</SimpleValue>
+            <SimpleValue>work-tech</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ağrı</SimpleValue>
+            <SimpleValue>For works contracts: technicians or technical bodies to carry out the work</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ağrı</SimpleValue>
+            <SimpleValue>For works contracts: technicians or technical bodies to carry out the work</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>TRA22</SimpleValue>
+            <SimpleValue>year-manpower</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kars</SimpleValue>
+            <SimpleValue>Average annual manpower</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kars</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRA23</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Iğdır</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Iğdır</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRA24</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ardahan</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Ardahan</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Malatya</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Malatya</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Elazığ</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Elazığ</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB13</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bingöl</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Bingöl</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB14</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Tunceli</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Tunceli</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Van</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Van</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Muş</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Muş</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB23</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bitlis</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Bitlis</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRB24</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Hakkari</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Hakkari</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC11</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Gaziantep</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Gaziantep</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC12</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Adıyaman</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Adıyaman</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC13</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kilis</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Kilis</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC21</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Şanlıurfa</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Şanlıurfa</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC22</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Diyarbakır</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Diyarbakır</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC31</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mardin</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Mardin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC32</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Batman</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Batman</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC33</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Şırnak</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Şırnak</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRC34</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Siirt</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Siirt</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>TRZZZ</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+            <SimpleValue>Average annual manpower</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

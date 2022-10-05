@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>ContractDetail</ShortName>
@@ -126,12 +126,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Allocation of revenues of sales from tickets</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Allocation of revenues of sales from tickets</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>cost-comp</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Cost parameters for compensation payments</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Cost parameters for compensation payments</SimpleValue>
          </Value>
       </Row>
@@ -142,12 +148,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Exclusive rights are granted</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Exclusive rights are granted</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>other</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Other particular conditions</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Other particular conditions</SimpleValue>
          </Value>
       </Row>
@@ -158,12 +170,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Public service obligations</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Public service obligations</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>soc-stand</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Social standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Social standards</SimpleValue>
          </Value>
       </Row>
