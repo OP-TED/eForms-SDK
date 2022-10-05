@@ -508,7 +508,7 @@
 		<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="BUL">Както е определено в документите за обществена поръчка.</cbc:Description>
 				<cbc:Description languageID="CES">Jak je uvedeno v zadávací dokumentaci.</cbc:Description>
 				<cbc:Description languageID="DAN">Som angivet i udbudsdokumenterne.</cbc:Description>
