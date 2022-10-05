@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.1.0",
   "metadataDatabase" : {
-    "version" : "1.1.104",
-    "createdOn" : "2022-10-03T19:00:19"
+    "version" : "1.1.235",
+    "createdOn" : "2022-10-05T17:04:51"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -18585,7 +18585,7 @@
       "value" : {
         "id" : "duration",
         "type" : "flat",
-        "parentId" : "timeperiods"
+        "parentId" : "timeperiod"
       },
       "severity" : "ERROR"
     },
@@ -18629,7 +18629,7 @@
       "value" : {
         "id" : "duration",
         "type" : "flat",
-        "parentId" : "timeperiods"
+        "parentId" : "timeperiod"
       },
       "severity" : "ERROR"
     }
@@ -20586,7 +20586,8 @@
     "codeList" : {
       "value" : {
         "id" : "exclusion-ground",
-        "type" : "flat"
+        "type" : "flat",
+        "parentId" : "criterion"
       },
       "severity" : "ERROR"
     }
@@ -21731,6 +21732,16 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02" ],
+        "condition" : "{ND-LotPlacePerformance} ${(BT-727-Lot is not present) and (BT-5071-Lot is not present) and (BT-5131-Lot is not present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
     }
   }, {
     "id" : "BT-728-Part",
@@ -21759,6 +21770,16 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "4", "5", "6" ],
+        "condition" : "{ND-PartPlacePerformance} ${(BT-727-Part is not present) and (BT-5071-Part is not present) and (BT-5131-Part is not present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
     }
   }, {
     "id" : "BT-728-Procedure",
@@ -21784,6 +21805,16 @@
       }, {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI" ],
         "condition" : "{ND-ProcedurePlacePerformanceAdditionalInformation} ${BT-727-Procedure is not present and BT-5141-Procedure is not present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "CEI" ],
+        "condition" : "{ND-ProcedurePlacePerformanceAdditionalInformation} ${(BT-727-Procedure is not present) and (BT-5071-Procedure is not present) and (BT-5131-Procedure is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -26473,7 +26504,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "organisation-role-service",
+        "id" : "review-requester-type",
         "type" : "flat",
         "parentId" : "organisation-role"
       },
