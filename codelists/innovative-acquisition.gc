@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>InnovativeAcquisition</ShortName>
       <LongName>innovative-acquisition</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/innovative-acquisition</LongName>
-      <Version>20190918-0</Version>
+      <Version>20220615-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/innovative-acquisition</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -285,79 +285,79 @@
             <SimpleValue>mar-nov</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>The procured works, supplies or services are novel for the whole market.</SimpleValue>
+            <SimpleValue>The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Строителството, доставките или услугите, които са предмет на поръчката, са новост за целия пазар.</SimpleValue>
+            <SimpleValue>Строителните дейности, доставките или услугите, които са предмет на поръчката, представляват новост или значително подобрение в сравнение с вече наличните на пазара други строителни дейности, доставки или услуги.</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Pořizované stavební práce, dodávky nebo služby jsou pro celý trh nové.</SimpleValue>
+            <SimpleValue>Pořizované stavební práce, dodávky nebo služby jsou nové nebo se výrazně zlepšily ve srovnání s jinými stavebními pracemi, dodávkami nebo službami, které jsou již na trhu.</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>De indkøbte bygge- og anlægsarbejder, vareleverancer eller tjenesteydelser er nye for hele markedet.</SimpleValue>
+            <SimpleValue>De indkøbte bygge- og anlægsarbejder, varer eller tjenesteydelser er nye eller væsentligt forbedrede sammenlignet med andre bygge- og anlægsarbejder, varer eller tjenesteydelser på markedet.</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Der in Auftrag gegebenen Bauleistungen, Lieferungen oder Dienstleistungen sind innovativ für den gesamten Markt.</SimpleValue>
+            <SimpleValue>Die erbrachten Bauleistungen, Dienstleistungen oder gelieferten Güter sind im Vergleich zu anderen bereits auf dem Markt verfügbaren Bauleistungen, Dienstleistungen oder Gütern neuartig.</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης είναι καινοφανή για το σύνολο της αγοράς.</SimpleValue>
+            <SimpleValue>Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης είναι καινοφανή ή σημαντικά βελτιωμένα σε σύγκριση με άλλα έργα, προμήθειες ή υπηρεσίες που διατίθενται ήδη στην αγορά.</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>The procured works, supplies or services are novel for the whole market.</SimpleValue>
+            <SimpleValue>The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Las obras, suministros o servicios contratados son nuevos para todo el mercado.</SimpleValue>
+            <SimpleValue>Las obras, suministros o servicios contratados son novedosos o mejoran significativamente en comparación con otras obras, suministros o servicios ya presentes en el mercado.</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Hangitud ehitustööd, asjad või teenused on kogu turu jaoks uudsed.</SimpleValue>
+            <SimpleValue>Hanke alusel tellitud ehitustööd, asjad või teenused on uudsed või oluliselt täiustatud võrreldes muude juba turul olevate ehitustööde, asjade või teenustega.</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Hankitut urakat, tavarat tai palvelut ovat koko markkinalle uusia.</SimpleValue>
+            <SimpleValue>Hankitut urakat, tavarat tai palvelut ovat uusia tai huomattavia parannuksia verrattuna jo markkinoilla oleviin urakoihin, tavaroihin tai palveluihin.</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Les travaux, fournitures ou services acquis sont innovants pour l’ensemble du marché.</SimpleValue>
+            <SimpleValue>Les travaux, fournitures ou services faisant l’objet du marché sont nouveaux ou sensiblement améliorés par rapport à d’autres travaux, fournitures ou services déjà présents sur le marché.</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tá na hoibreacha, na soláthairtí nó na seirbhísí atáthar a sholáthar nua don mhargadh ina iomláine.</SimpleValue>
+            <SimpleValue>Tá na saothair, na soláthairtí nó na seirbhísí atáthar a sholáthar nua nó feabhsaithe go mór i gcomparáid leis na saothair, na soláthairtí nó na seirbhísí atá ar an margadh cheana féin.</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Radovi, roba ili usluge koji se nabavljaju su novitet za cijelo tržište.</SimpleValue>
+            <SimpleValue>Nabavljeni su radovi, roba i usluge ili novi ili znatno poboljšani u odnosu na radove, robu odnosno usluge već prisutne ne tržištu.</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A beszerzett építési beruházás, áruk vagy szolgáltatások újdonságnak számítanak az egész piacon.</SimpleValue>
+            <SimpleValue>A beszerzett építési beruházás, áru vagy szolgáltatás újdonságnak számít vagy jelentősen továbbfejlesztett a már forgalomban lévő egyéb építési beruházásokhoz, árukhoz vagy szolgáltatásokhoz képest.</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>I lavori, le forniture o i servizi oggetto dell'appalto sono nuovi per l'intero mercato.</SimpleValue>
+            <SimpleValue>I lavori, le forniture o i servizi oggetto dell'appalto sono nuovi o sensibilmente migliorati rispetto ad altri lavori, forniture o servizi già presenti sul mercato.</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Perkami darbai, prekės ar paslaugos yra novatoriški visoje rinkoje.</SimpleValue>
+            <SimpleValue>Perkami darbai, prekės ar paslaugos yra novatoriški arba labai patobulinti, palyginti su kitais darbais, prekėmis ar paslaugomis, kurie jau yra rinkoje.</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Iepirktie būvdarbi, piegādes vai pakalpojumi ir jauni visam tirgum.</SimpleValue>
+            <SimpleValue>Iepirktie būvdarbi, piegādes vai pakalpojumi ir jauni vai ievērojami uzlaboti salīdzinājumā ar citiem tirgū jau esošiem būvdarbiem, piegādēm vai pakalpojumiem.</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Ix-xogħlijiet, il-provvisti jew is-servizzi jkunu ġodda għas-suq kollu.</SimpleValue>
+            <SimpleValue>Ix-xogħlijiet, il-provvisti jew is-servizzi akkwistati jkunu ġodda jew imtejba b’mod sinifikanti meta mqabblin ma’ xogħlijiet, provvisti jew servizzi oħrajn li diġà jinsabu fis-suq.</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>De aanbestede werken, leveringen of diensten zijn nieuw voor de markt als geheel.</SimpleValue>
+            <SimpleValue>De aanbestede werken, leveringen of diensten zijn nieuw of aanzienlijk verbeterd ten opzichte van andere werken, leveringen of diensten die reeds op de markt zijn.</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Zamawiane roboty budowlane, dostawy lub usługi stanowią nowatorskie rozwiązanie w skali całego rynku.</SimpleValue>
+            <SimpleValue>Zamawiane roboty budowlane, dostawy lub usługi są nowatorskie lub znacznie ulepszone w porównaniu z innymi robotami budowlanymi, dostawami lub usługami już dostępnymi na rynku.</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>As obras, fornecimentos ou serviços adjudicados são novos para todo o mercado.</SimpleValue>
+            <SimpleValue>As obras, fornecimentos ou serviços adquiridos são inovadores ou significativamente melhorados em comparação com obras, fornecimentos ou serviços já existentes no mercado.</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Lucrările, bunurile sau serviciile achiziționate sunt inovatoare pentru întreaga piață.</SimpleValue>
+            <SimpleValue>Lucrările, bunurile sau serviciile achiziționate sunt noi sau semnificativ îmbunătățite față de alte lucrări, bunuri sau servicii existente pe piață.</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Obstarávané stavebné práce, dodávky tovaru alebo služby sú nové pre celý trh.</SimpleValue>
+            <SimpleValue>Obstarávané stavebné práce, tovar alebo služby sú v porovnaní s inými stavebnými prácami, tovarom alebo službami, ktoré sú už na trhu, nové alebo výrazne lepšie.</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Gradnja, blago ali storitve, ki so predmet javnega naročila, so novost na celotnem trgu.</SimpleValue>
+            <SimpleValue>Naročene gradnje, blago ali storitve so novost ali so znatno izboljšani v primerjavi z drugimi gradnjami, blagom ali storitvami, ki so že na trgu.</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>De upphandlade byggentreprenaderna, varorna eller tjänsterna är nya för hela marknaden.</SimpleValue>
+            <SimpleValue>De upphandlade byggentreprenaderna, varorna eller tjänsterna är nya eller väsentligt förbättrade jämfört med andra byggentreprenader, varor eller tjänster som redan finns på marknaden.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -518,6 +518,160 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Annat</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>proc-innov</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue/>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Строителните дейности, доставките или услугите, които са предмет на поръчката, са свързани с иновация на процесите.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pořizované stavební práce, dodávky nebo služby zahrnují inovaci procesů.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De indkøbte bygge- og anlægsarbejder, varer eller tjenesteydelser indebærer procesinnovation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die erbrachten Bauleistungen, Dienstleistungen oder gelieferten Güter beinhalten Prozessinnovationen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης συνεπάγονται καινοτομία ως προς τη διεργασία.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las obras, los suministros o los servicios contratados implican la innovación de procesos.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke alusel tellitud tööd, asjad või teenused toovad endaga kaasa protsessiinnovatsiooni.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankittuihin urakoihin, tavaroihin tai palveluihin sisältyy prosessi-innovaatio.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Les travaux, fournitures ou services faisant l’objet du marché impliquent une innovation en matière de processus.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá nuálaíocht phróisis ag baint leis na saothair, na soláthairtí nó na seirbhísí atáthar a sholáthar.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nabavljeni radovi, roba i usluge podrazumijevaju inovacije procesa.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beszerzett építési beruházás, árubeszerzés vagy szolgáltatás eljárási innovációt eredményez.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>I lavori, le forniture o i servizi oggetto dell'appalto comportano un'innovazione di processo.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Perkami darbai, prekės ar paslaugos yra susiję su procesų inovacijomis.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirktie būvdarbi, piegādes vai pakalpojumi ir saistīti ar procesu inovāciju.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xogħlijiet, il-provvisti jew is-servizzi akkwistati jinvolvu innovazzjoni tal-proċess.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Voor de aanbestede werken, leveringen of diensten is procesinnovatie nodig.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamawiane roboty budowlane, dostawy lub usługi obejmują innowację procesową.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>As obras, fornecimentos ou serviços adquiridos implicam inovação de processos.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lucrările, bunurile sau serviciile achiziționate implică inovații în materie de procese.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Obstarávané stavebné práce, tovar alebo služby zahŕňajú inováciu procesov.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Naročene gradnje, blago ali storitve vključujejo procesne inovacije.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De upphandlade byggentreprenaderna, varorna eller tjänsterna innebär processinnovation.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>prod-innov</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue/>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Строителните дейности, доставките или услугите, които са предмет на поръчката, са свързани с продуктови иновации.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pořizované stavební práce, dodávky nebo služby zahrnují inovaci produktů.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De indkøbte bygge- og anlægsarbejder, varer eller tjenesteydelser indebærer procesinnovation.</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die erbrachten Bauleistungen, Dienstleistungen oder gelieferten Güter beinhalten Produktinnovationen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης συνεπάγονται καινοτομία ως προς το προϊόν.</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las obras, los suministros o los servicios contratados implican la innovación de productos.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke alusel tellitud tööd, asjad või teenused toovad endaga kaasa tooteinnovatsiooni.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankittuihin urakoihin, tavaroihin tai palveluihin sisältyy tuoteinnovaatio.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Les travaux, fournitures ou services faisant l’objet du marché impliquent une innovation en matière de produits.</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá nuálaíocht táirge ag baint leis na saothair, na soláthairtí nó na seirbhísí atáthar a sholáthar.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nabavljeni radovi, roba i usluge podrazumijevaju inovacije proizvoda.</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beszerzett építési beruházás, árubeszerzés vagy szolgáltatás termékinnovációt eredményez.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>I lavori, le forniture o i servizi oggetto dell'appalto comportano un'innovazione di prodotto.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Perkami darbai, prekės ar paslaugos yra susiję su produktų inovacijomis.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirktie būvdarbi, piegādes vai pakalpojumi ir saistīti ar produktu inovāciju.</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xogħlijiet, il-provvisti, jew is-servizzi akkwistati jinvolvu innovazzjoni tal-prodott.</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Voor de aanbestede werken, leveringen of diensten is productinnovatie nodig.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamawiane roboty budowlane, dostawy lub usługi obejmują innowację produktową.</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>As obras, fornecimentos ou serviços adquiridos implicam inovação de produtos.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lucrările, bunurile sau serviciile achiziționate implică inovații în materie de produse.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Obstarávané stavebné práce, tovar alebo služby zahŕňajú inováciu výrobkov.</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Naročene gradnje, blago ali storitve vključujejo produktne inovacije.</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De upphandlade byggentreprenaderna, varorna eller tjänsterna innebär produktinnovation.</SimpleValue>
          </Value>
       </Row>
       <Row>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>ReviewStatus</ShortName>
@@ -126,12 +126,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Decision has been made by the Review Body regarding the current request.</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Decision has been made by the Review Body regarding the current request.</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>requested</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Review has been requested and is still under process</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Review has been requested and is still under process</SimpleValue>
          </Value>
       </Row>

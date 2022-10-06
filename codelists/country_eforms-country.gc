@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>EformsCountry</ShortName>
       <LongName>eforms-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.1.234</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -1848,7 +1848,7 @@
             <SimpleValue>Bonaire, Sint Eustatius és Saba</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Bonaire, Sant'Eustachio e Saba</SimpleValue>
+            <SimpleValue>Bonaire, Sant’Eustachio e Saba</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Boneras, Sint Eustatijus ir Saba</SimpleValue>
@@ -1916,7 +1916,7 @@
             <SimpleValue>Burkina Faso</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Burkina</SimpleValue>
+            <SimpleValue>Burkina Faso</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Buircíne Fasó</SimpleValue>
@@ -2301,7 +2301,7 @@
             <SimpleValue>Bosnien und Herzegowina</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Βοσνία- και Ερζεγοβίνη</SimpleValue>
+            <SimpleValue>Βοσνία και Ερζεγοβίνη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Bosnia and Herzegovina</SimpleValue>
@@ -2316,7 +2316,7 @@
             <SimpleValue>Bosnia ja Hertsegovina</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Bosnie-et-Herzégovine</SimpleValue>
+            <SimpleValue>Bosnie-Herzégovine</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>An Bhoisnia agus an Heirseagaivéin</SimpleValue>
@@ -3113,7 +3113,7 @@
             <SimpleValue>Bouvet’ saar</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Bouvet'nsaari</SimpleValue>
+            <SimpleValue>Bouvet’nsaari</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Île Bouvet</SimpleValue>
@@ -12435,7 +12435,7 @@
             <SimpleValue>Maurícius</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Mauritius</SimpleValue>
+            <SimpleValue>Mavricij</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Mauritius</SimpleValue>
@@ -16349,7 +16349,7 @@
             <SimpleValue>São Tomé e Príncipe</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>São Tomé şi Principe</SimpleValue>
+            <SimpleValue>São Tomé și Príncipe</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>Svätý Tomáš a Princov ostrov</SimpleValue>

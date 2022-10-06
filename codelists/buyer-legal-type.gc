@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>BuyerLegalType</ShortName>
       <LongName>buyer-legal-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/buyer-legal-type</LongName>
-      <Version>20211208-0</Version>
+      <Version>20220615-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/buyer-legal-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>

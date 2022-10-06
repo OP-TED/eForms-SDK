@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.1.234 created on the 2022-10-05T15:24:19-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>VehicleCategory</ShortName>
       <LongName>vehicle-category</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/vehicle-category</LongName>
-      <Version>20220615-0</Version>
+      <Version>20220928-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/vehicle-category</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,7 +127,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>M1</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>M1</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>M1</SimpleValue>
          </Value>
       </Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Light-duty Vehicle (M1, M2, N1)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Лекотоварни превозни средства (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Lehká užitková vozidla (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lette køretøjer (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Leichte Nutzfahrzeuge (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ελαφρύ όχημα (M1, M2, N1)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Light-duty Vehicle (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Vehículos ligeros (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kergsõiduk (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kevyt hyötyajoneuvo (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Véhicule utilitaire léger (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Feithicil saothair éadroim (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Laka vozila (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Könnyűgépjármű (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Veicoli leggeri (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Lengvoji transporto priemonė (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Mazas noslodzes transportlīdzeklis (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Vettura light-duty (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Licht voertuig (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Pojazdy lekkie (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Veículo ligeiro (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Vehicul ușor (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ľahké vozidlo (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lahka tovorna vozila (M1, M2, N1)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Lätt fordon (M1, M2, N1)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,7 +287,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>M2</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>M2</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>M2</SimpleValue>
          </Value>
       </Row>
@@ -160,8 +367,74 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bus (M3)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Автобус (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Autobus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Λεωφορείο (M3)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Bus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Autobús (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Buss (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Linja-auto (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Bus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Autobus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Busz (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Autobus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Autobusas (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Autobuss (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Xarabank (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Autobus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Autocarro (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Autobuz (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Autobus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Avtobus (M3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Buss (M3)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -171,7 +444,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>N1</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>N1</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>N1</SimpleValue>
          </Value>
       </Row>
@@ -182,7 +524,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>N2</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>N2</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>N2</SimpleValue>
          </Value>
       </Row>
@@ -193,8 +604,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Truck (N2-N3)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Камион (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nákladní automobil (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lastbil (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>LKW (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Φορτηγό (N2-N3)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Truck (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Camión (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Veoauto (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kuorma-auto (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Camion (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Trucail (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kamion (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tehergépkocsi (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Autocarro (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sunkvežimis (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kravas automobilis (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Trakk (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrachtwagen (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Samochód ciężarowy (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Camião (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Camion (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nákladný automobil (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tovornjak (N2-N3)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Lastbil (N2-N3)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -204,7 +684,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>N3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>N3</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>N3</SimpleValue>
          </Value>
       </Row>

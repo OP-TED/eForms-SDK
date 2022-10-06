@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.1.0",
   "metadataDatabase" : {
-    "version" : "1.1.0",
-    "createdOn" : "2022-09-14T16:05:55"
+    "version" : "1.1.235",
+    "createdOn" : "2022-10-05T17:04:51"
   },
   "noticeId" : "4",
   "metadata" : [ {
@@ -1109,7 +1109,6 @@
           "description" : "Company Technical Identifier",
           "_label" : "field|name|OPT-200-Organization-Company",
           "_idScheme" : "ORG",
-          "_repeatable" : true,
           "hidden" : true
         }, {
           "id" : "BT-633-Organization",
@@ -1277,6 +1276,7 @@
             "description" : "TouchPoint Technical Identifier",
             "_label" : "field|name|OPT-201-Organization-TouchPoint",
             "_idScheme" : "TPO",
+            "_repeatable" : true,
             "hidden" : true
           }, {
             "id" : "BT-500-Organization-TouchPoint",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55.-->
+<!--File generated from metadata database version 1.1.215 created on the 2022-10-04T17:05:42.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -365,6 +365,10 @@
     <diagnostic id="BT-27-LotsGroup">cbc:EstimatedOverallContractAmount</diagnostic>
     <diagnostic id="BT-27-Part">cbc:EstimatedOverallContractAmount</diagnostic>
     <diagnostic id="BT-27-Procedure">cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount</diagnostic>
+    <diagnostic id="BT-271-Lot">cbc:EstimatedOverallFrameworkContractsAmount</diagnostic>
+    <diagnostic id="BT-271-LotsGroup">cbc:EstimatedOverallFrameworkContractsAmount</diagnostic>
+    <diagnostic id="BT-271-Part">cbc:EstimatedOverallFrameworkContractsAmount</diagnostic>
+    <diagnostic id="BT-271-Procedure">cac:RequestedTenderTotal/cbc:EstimatedOverallFrameworkContractsAmount</diagnostic>
     <diagnostic id="BT-300-Lot">cbc:Note</diagnostic>
     <diagnostic id="BT-300-LotsGroup">cbc:Note</diagnostic>
     <diagnostic id="BT-300-Part">cbc:Note</diagnostic>
@@ -538,8 +542,8 @@
     <diagnostic id="BT-719-notice">efbc:ProcurementDocumentsChangeDate</diagnostic>
     <diagnostic id="BT-720-Tender">cac:LegalMonetaryTotal/cbc:PayableAmount</diagnostic>
     <diagnostic id="BT-721-Contract">cbc:Title</diagnostic>
-    <diagnostic id="BT-722-Contract">efac:Funding/efbc:FundingProgramCode</diagnostic>
-    <diagnostic id="BT-7220-Lot">efac:Funding/efbc:FundingProgramCode</diagnostic>
+    <diagnostic id="BT-722-Contract">efac:Funding/cbc:FundingProgramCode</diagnostic>
+    <diagnostic id="BT-7220-Lot">efac:Funding/cbc:FundingProgramCode</diagnostic>
     <diagnostic id="BT-723-LotResult">efbc:AssetCategoryCode</diagnostic>
     <diagnostic id="BT-726-Lot">cbc:SMESuitableIndicator</diagnostic>
     <diagnostic id="BT-726-LotsGroup">cbc:SMESuitableIndicator</diagnostic>
@@ -715,7 +719,7 @@
     <diagnostic id="OPT-160-UBO">cbc:FirstName</diagnostic>
     <diagnostic id="OPT-170-Tenderer">efbc:GroupLeadIndicator</diagnostic>
     <diagnostic id="OPT-200-Organization-Company">cac:PartyIdentification/cbc:ID</diagnostic>
-    <diagnostic id="OPT-201-Organization-TouchPoint">cac:PartyIdentification/cbc:ID</diagnostic>
+    <diagnostic id="OPT-201-Organization-TouchPoint">efac:TouchPoint/cac:PartyIdentification/cbc:ID</diagnostic>
     <diagnostic id="OPT-202-UBO">efac:UltimateBeneficialOwner/cbc:ID</diagnostic>
     <diagnostic id="OPT-210-Tenderer">cbc:ID</diagnostic>
     <diagnostic id="OPT-300-Contract-Signatory">cac:SignatoryParty/cac:PartyIdentification/cbc:ID</diagnostic>
