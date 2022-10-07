@@ -143,7 +143,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.2</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">37f3f877-01ee-4671-a49f-5581cffe6388</cbc:ID>
 	<cbc:ContractFolderID>16c06d41-2232-4907-b836-07e0ee650c42</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-27+01:00</cbc:IssueDate>
@@ -183,7 +183,7 @@
 		<cac:TendererQualificationRequest>
 			<!-- The way this is marked will most likely be simplified. Use of /*/cac:TenderingTerms/cac:TendererQualificationRequest/cbc:Description instead. -->
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Applicants shall be excluded from participating in a contract if:
 (a) they are bankrupt, being wound up or have suspended business activities, their affairs are being administered by the court, they have entered into an arrangement with creditors or similar measures or are the subject of any proceedings of that nature, or are in any analogous situation arising from a similar procedure provided for in national legislation or regulations;
 (b) they have been convicted of an offence concerning their professional conduct by a judgment which is not open to appeal;

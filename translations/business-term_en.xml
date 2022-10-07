@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in English. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
+<comment>business-term in English. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
 <entry key="business-term|name|BG-125">Information about previous notices</entry>
 <entry key="business-term|name|BG-310">Contract information</entry>
 <entry key="business-term|name|BG-320">Tender</entry>
@@ -52,7 +52,7 @@
 <entry key="business-term|name|BT-13714">Identifier of lot or group of lots</entry>
 <entry key="business-term|name|BT-13716">Section to which the change applies</entry>
 <entry key="business-term|name|BT-1375">Lots included</entry>
-<entry key="business-term|name|BT-14"></entry>
+<entry key="business-term|name|BT-14">Documents Restricted</entry>
 <entry key="business-term|name|BT-140">Main reason for change</entry>
 <entry key="business-term|name|BT-141">Description of changes</entry>
 <entry key="business-term|name|BT-142">A winner was chosen</entry>
@@ -149,7 +149,7 @@
 <entry key="business-term|name|BT-632">Name</entry>
 <entry key="business-term|name|BT-633">The organisation is a natural person.</entry>
 <entry key="business-term|name|BT-634">This cancelled or unsuccessful procedure or lot will be relaunched.</entry>
-<entry key="business-term|name|BT-635">Artifical splitting of contracts</entry>
+<entry key="business-term|name|BT-635">Artificial splitting of contracts</entry>
 <entry key="business-term|name|BT-636">Type of alleged irregularity</entry>
 <entry key="business-term|name|BT-64">Minimum percentage of the contract value that the contractor must subcontract</entry>
 <entry key="business-term|name|BT-644">Value of the prize</entry>
@@ -200,11 +200,11 @@
 <entry key="business-term|name|BT-75">Description of the financial guarantee</entry>
 <entry key="business-term|name|BT-750">Description</entry>
 <entry key="business-term|name|BT-751">A guarantee is required</entry>
-<entry key="business-term|name|BT-752"></entry>
+<entry key="business-term|name|BT-752">Selection Criteria Second Stage Invite Number</entry>
 <entry key="business-term|name|BT-7531">Type of weight</entry>
 <entry key="business-term|name|BT-7532">Type of threshold</entry>
 <entry key="business-term|name|BT-755">Justification</entry>
-<entry key="business-term|name|BT-756">Call for competion is terminated.</entry>
+<entry key="business-term|name|BT-756">Call for competition is terminated.</entry>
 <entry key="business-term|name|BT-758">Version of the previous notice to be changed</entry>
 <entry key="business-term|name|BT-759">Number of tenders or requests to participate received</entry>
 <entry key="business-term|name|BT-76">Legal form that must be taken by a group of tenderers that is awarded a contract</entry>

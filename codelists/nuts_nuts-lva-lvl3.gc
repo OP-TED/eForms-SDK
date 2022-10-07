@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsLvaLvl3</ShortName>
       <LongName>nuts-lva-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Kurzeme</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Kurzeme</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>LV005</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Latgale</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Latgale</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Rīga</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rīga</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>LV007</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pierīga</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pierīga</SimpleValue>
          </Value>
       </Row>
@@ -160,6 +172,9 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vidzeme</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vidzeme</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -168,12 +183,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zemgale</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zemgale</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>LVZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

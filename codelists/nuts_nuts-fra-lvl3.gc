@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsFraLvl3</ShortName>
       <LongName>nuts-fra-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Paris</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Paris</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FR102</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Seine-et-Marne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Seine-et-Marne</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Yvelines</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Yvelines</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FR104</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Essonne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Essonne</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Hauts-de-Seine</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Hauts-de-Seine</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FR106</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Seine-Saint-Denis</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Seine-Saint-Denis</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Val-de-Marne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Val-de-Marne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FR108</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Val-d’Oise</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Val-d’Oise</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cher</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Cher</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRB02</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Eure-et-Loir</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Eure-et-Loir</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Indre</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Indre</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRB04</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Indre-et-Loire</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Indre-et-Loire</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Loir-et-Cher</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Loir-et-Cher</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRB06</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Loiret</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Loiret</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Côte-d’Or</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Côte-d’Or</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRC12</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Nièvre</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Nièvre</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Saône-et-Loire</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Saône-et-Loire</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRC14</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Yonne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Yonne</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Doubs</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Doubs</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRC22</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Jura</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Jura</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Haute-Saône</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Haute-Saône</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRC24</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Territoire de Belfort</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Territoire de Belfort</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Calvados</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Calvados</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRD12</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Manche</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Manche</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Orne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Orne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRD21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Eure</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Eure</SimpleValue>
          </Value>
       </Row>
@@ -336,12 +414,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Seine-Maritime</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Seine-Maritime</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRE11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Nord</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Nord</SimpleValue>
          </Value>
       </Row>
@@ -352,12 +436,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pas-de-Calais</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pas-de-Calais</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRE21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Aisne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Aisne</SimpleValue>
          </Value>
       </Row>
@@ -368,12 +458,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Oise</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Oise</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRE23</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Somme</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Somme</SimpleValue>
          </Value>
       </Row>
@@ -384,12 +480,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bas-Rhin</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bas-Rhin</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRF12</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Haut-Rhin</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Haut-Rhin</SimpleValue>
          </Value>
       </Row>
@@ -400,12 +502,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ardennes</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ardennes</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRF22</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Aube</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Aube</SimpleValue>
          </Value>
       </Row>
@@ -416,12 +524,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Marne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Marne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRF24</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Haute-Marne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Haute-Marne</SimpleValue>
          </Value>
       </Row>
@@ -432,12 +546,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Meurthe-et-Moselle</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Meurthe-et-Moselle</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRF32</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Meuse</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Meuse</SimpleValue>
          </Value>
       </Row>
@@ -448,12 +568,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Moselle</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Moselle</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRF34</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vosges</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vosges</SimpleValue>
          </Value>
       </Row>
@@ -464,12 +590,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Loire-Atlantique</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Loire-Atlantique</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRG02</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Maine-et-Loire</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Maine-et-Loire</SimpleValue>
          </Value>
       </Row>
@@ -480,12 +612,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mayenne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mayenne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRG04</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Sarthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Sarthe</SimpleValue>
          </Value>
       </Row>
@@ -496,12 +634,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vendée</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vendée</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRH01</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Côtes-d’Armor</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Côtes-d’Armor</SimpleValue>
          </Value>
       </Row>
@@ -512,12 +656,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Finistère</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Finistère</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRH03</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Ille-et-Vilaine</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Ille-et-Vilaine</SimpleValue>
          </Value>
       </Row>
@@ -528,12 +678,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Morbihan</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Morbihan</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRI11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Dordogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Dordogne</SimpleValue>
          </Value>
       </Row>
@@ -544,12 +700,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gironde</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gironde</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRI13</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Landes</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Landes</SimpleValue>
          </Value>
       </Row>
@@ -560,12 +722,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lot-et-Garonne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lot-et-Garonne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRI15</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pyrénées-Atlantiques</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pyrénées-Atlantiques</SimpleValue>
          </Value>
       </Row>
@@ -576,12 +744,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Corrèze</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Corrèze</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRI22</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Creuse</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Creuse</SimpleValue>
          </Value>
       </Row>
@@ -592,12 +766,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Haute-Vienne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Haute-Vienne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRI31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Charente</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Charente</SimpleValue>
          </Value>
       </Row>
@@ -608,12 +788,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Charente-Maritime</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Charente-Maritime</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRI33</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Deux-Sèvres</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Deux-Sèvres</SimpleValue>
          </Value>
       </Row>
@@ -624,12 +810,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vienne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vienne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRJ11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Aude</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Aude</SimpleValue>
          </Value>
       </Row>
@@ -640,12 +832,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gard</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gard</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRJ13</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Hérault</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Hérault</SimpleValue>
          </Value>
       </Row>
@@ -656,12 +854,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lozère</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lozère</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRJ15</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pyrénées-Orientales</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pyrénées-Orientales</SimpleValue>
          </Value>
       </Row>
@@ -672,12 +876,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ariège</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ariège</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRJ22</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Aveyron</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Aveyron</SimpleValue>
          </Value>
       </Row>
@@ -688,12 +898,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Haute-Garonne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Haute-Garonne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRJ24</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Gers</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Gers</SimpleValue>
          </Value>
       </Row>
@@ -704,12 +920,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lot</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lot</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRJ26</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Hautes-Pyrénées</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Hautes-Pyrénées</SimpleValue>
          </Value>
       </Row>
@@ -720,12 +942,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tarn</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tarn</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRJ28</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Tarn-et-Garonne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Tarn-et-Garonne</SimpleValue>
          </Value>
       </Row>
@@ -736,12 +964,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Allier</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Allier</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRK12</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Cantal</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Cantal</SimpleValue>
          </Value>
       </Row>
@@ -752,12 +986,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Haute-Loire</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Haute-Loire</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRK14</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Puy-de-Dôme</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Puy-de-Dôme</SimpleValue>
          </Value>
       </Row>
@@ -768,12 +1008,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ain</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ain</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRK22</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Ardèche</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Ardèche</SimpleValue>
          </Value>
       </Row>
@@ -784,12 +1030,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Drôme</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Drôme</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRK24</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Isère</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Isère</SimpleValue>
          </Value>
       </Row>
@@ -800,12 +1052,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Loire</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Loire</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRK26</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Rhône</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Rhône</SimpleValue>
          </Value>
       </Row>
@@ -816,12 +1074,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Savoie</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Savoie</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRK28</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Haute-Savoie</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Haute-Savoie</SimpleValue>
          </Value>
       </Row>
@@ -832,12 +1096,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alpes-de-Haute-Provence</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Alpes-de-Haute-Provence</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRL02</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Hautes-Alpes</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Hautes-Alpes</SimpleValue>
          </Value>
       </Row>
@@ -848,12 +1118,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alpes-Maritimes</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Alpes-Maritimes</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRL04</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bouches-du-Rhône</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bouches-du-Rhône</SimpleValue>
          </Value>
       </Row>
@@ -864,12 +1140,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Var</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Var</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRL06</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vaucluse</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vaucluse</SimpleValue>
          </Value>
       </Row>
@@ -880,12 +1162,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Corse-du-Sud</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Corse-du-Sud</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRM02</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Haute-Corse</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Haute-Corse</SimpleValue>
          </Value>
       </Row>
@@ -896,12 +1184,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Guadeloupe</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Guadeloupe</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRY20</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Martinique</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Martinique</SimpleValue>
          </Value>
       </Row>
@@ -912,12 +1206,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Guyane</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Guyane</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRY40</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>La Réunion</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>La Réunion</SimpleValue>
          </Value>
       </Row>
@@ -928,12 +1228,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mayotte</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mayotte</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>FRZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

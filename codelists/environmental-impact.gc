@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>EnvironmentalImpact</ShortName>
       <LongName>environmental-impact</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/environmental-impact</LongName>
-      <Version>20190918-0</Version>
+      <Version>20220615-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/environmental-impact</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -122,82 +122,402 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>biodiv-eco</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The protection and restoration of biodiversity and ecosystems</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Защита и възстановяване на водното биоразнообразие и на водните екосистеми</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ochrana a obnova biologické rozmanitosti a ekosystémů</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Beskyttelse og genopretning af biodiversitet og økosystemer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Schutz und Wiederherstellung der Biodiversität und der Ökosysteme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η προστασία και αποκατάσταση της βιοποικιλότητας και των οικοσυστημάτων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The protection and restoration of biodiversity and ecosystems</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Protección y recuperación de la biodiversidad y los ecosistemas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Elurikkuse ja ökosüsteemide kaitse ja taastamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Biologisen monimuotoisuuden ja ekosysteemien suojelu ja ennallistaminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La protection et la restauration de la biodiversité et des écosystèmes</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bithéagsúlacht agus éiceachórais a chosaint agus a athbhunú</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zaštita i obnova bioraznolikosti i ekosustavâ</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A biológiai sokféleség és az ökoszisztémák védelme és helyreállítása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>La protezione e il ripristino della biodiversità e degli ecosistemi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Biologinės įvairovės ir ekosistemų apsauga ir atkūrimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Bioloģiskās daudzveidības un ekosistēmu aizsardzība un atjaunošana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-protezzjoni u r-restawr tal-bijodiversità u l-ekosistemi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De bescherming en het herstel van de biodiversiteit en ecosystemen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ochrona i odbudowa bioróżnorodności i ekosystemów</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A proteção e o restauro da biodiversidade e dos ecossistemas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Protecția și refacerea biodiversității și a ecosistemelor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ochrana a obnova biodiverzity a ekosystémov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Varstvo in ohranjanje biotske raznovrstnosti in ekosistemov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Skydd och återställande av biologisk mångfald och ekosystem</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>circ-econ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The transition to a circular economy</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Преход към кръгова икономика</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přechod na oběhové hospodářství</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Omstilling til en cirkulær økonomi</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Übergang zu einer Kreislaufwirtschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η μετάβαση σε μια κυκλική οικονομία</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The transition to a circular economy</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Transición hacia una economía circular</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Üleminek ringmajandusele</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Siirtyminen kiertotalouteen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La transition vers une économie circulaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An t-aistriú chuig geilleagar ciorclach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prijelaz na kružno gospodarstvo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A körforgásos gazdaságra való átállás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>La transizione verso un’economia circolare</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Perėjimas prie žiedinės ekonomikos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pāreja uz aprites ekonomiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>It-transizzjoni lejn ekonomija ċirkolari</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De transitie naar een circulaire economie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przejście na gospodarkę o obiegu zamkniętym</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A transição para uma economia circular</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tranziția către o economie circulară</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prechod na obehové hospodárstvo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Prehod na krožno gospodarstvo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Omställning till en cirkulär ekonomi</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>clim-adapt</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Climate change adaptation</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Адаптиране към изменението на климата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přizpůsobování se změně klimatu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilpasning til klimaændringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anpassung an den Klimawandel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η προσαρμογή στην κλιματική αλλαγή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Climate change adaptation</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Adaptación al cambio climático</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kliimamuutustega kohanemine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmastonmuutokseen sopeutuminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L’adaptation au changement climatique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Oiriúnú don athrú aeráide</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prilagodba klimatskim promjenama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az éghajlatváltozáshoz való alkalmazkodás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L’adattamento ai cambiamenti climatici</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prisitaikymas prie klimato kaitos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pielāgošanās klimata pārmaiņām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-adattament għat-tibdil fil-klima</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De adaptatie aan klimaatverandering</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Adaptacja do zmian klimatu</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A adaptação às alterações climáticas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Adaptarea la schimbările climatice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Adaptácia na zmenu klímy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Prilagajanje podnebnim spremembam</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Anpassning till klimatförändringar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>clim-mitig</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Climate change mitigation</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Смекчаване на изменението на климата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zmírňování změny klimatu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Modvirkning af klimaændringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Klimaschutz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο μετριασμός της κλιματικής αλλαγής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Climate change mitigation</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Mitigación del cambio climático</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kliimamuutuste leevendamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmastonmuutoksen hillintä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L’atténuation du changement climatique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Maolú ar an athrú aeráide</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ublažavanje klimatskih promjena</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az éghajlatváltozás mérséklése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>La mitigazione dei cambiamenti climatici</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Klimato kaitos švelninimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Klimata pārmaiņu mazināšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-mitigazzjoni tat-tibdil fil-klima</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De mitigatie van klimaatverandering</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Łagodzenie zmian klimatu</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A mitigação das alterações climáticas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Atenuarea schimbărilor climatice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zmiernenie zmeny klímy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Blažitev podnebnih sprememb</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Begränsning av klimatförändringar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>emas-com</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>{Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009}</SimpleValue>
+            <SimpleValue>Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>{Изискване за спазване на Схемата на Общността за управление по околна среда и одит (EMAS), създадена с Регламент (ЕО) № 1221/2009}</SimpleValue>
+            <SimpleValue>Изискване за спазване на Схемата на Общността за управление по околна среда и одит (EMAS), създадена с Регламент (ЕО) № 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>{Požadující dodržování požadavků na systém pro environmentální řízení podniků a audit (EMAS) zřízený nařízením (ES) č. 1221/2009}</SimpleValue>
+            <SimpleValue>Požadující dodržování požadavků na systém pro environmentální řízení podniků a audit (EMAS) zřízený nařízením (ES) č. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>{Krav om overensstemmelse med ordningen for miljøledelse og miljørevision (EMAS), der er oprettet ved forordning (EF) nr. 1221/2009.}</SimpleValue>
+            <SimpleValue>Krav om overensstemmelse med ordningen for miljøledelse og miljørevision (EMAS), der er oprettet ved forordning (EF) nr. 1221/2009.</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>{Anforderung einer Übereinstimmung mit der durch die Verordnung (EG) Nr. 1221/2009 festgelegten Strategie für Umweltmanagement und -betriebsprüfung (EMAS)}</SimpleValue>
+            <SimpleValue>Anforderung einer Übereinstimmung mit der durch die Verordnung (EG) Nr. 1221/2009 festgelegten Strategie für Umweltmanagement und -betriebsprüfung (EMAS)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>{Απαίτηση συμμόρφωσης με το σύστημα οικολογικής διαχείρισης και οικολογικού ελέγχου (EMAS) που θεσπίστηκε με τον κανονισμό (ΕΚ) αριθ. 1221/2009}</SimpleValue>
+            <SimpleValue>Απαίτηση συμμόρφωσης με το σύστημα οικολογικής διαχείρισης και οικολογικού ελέγχου (EMAS) που θεσπίστηκε με τον κανονισμό (ΕΚ) αριθ. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>{Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009}</SimpleValue>
+            <SimpleValue>Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>{Exigencia de conformidad con el sistema comunitario de gestión y auditoría medioambientales (EMAS), establecido por el Reglamento (CE) n.º 1221/2009}</SimpleValue>
+            <SimpleValue>Exigencia de conformidad con el sistema comunitario de gestión y auditoría medioambientales (EMAS), establecido por el Reglamento (CE) n.º 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>{Nõutakse määrusega (EÜ) nr 1221/2009 asutatud keskkonnajuhtimis- ja -auditeerimissüsteemi (EMAS) kohaldamist}</SimpleValue>
+            <SimpleValue>Nõutakse määrusega (EÜ) nr 1221/2009 asutatud keskkonnajuhtimis- ja -auditeerimissüsteemi (EMAS) kohaldamist</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>{Asetuksen (EY) N:o 1221/2009 mukaisen EMAS-rekisteröinnin (ympäristöasioiden hallinta- ja auditointijärjestelmä) hakeminen}</SimpleValue>
+            <SimpleValue>Asetuksen (EY) N:o 1221/2009 mukaisen EMAS-rekisteröinnin (ympäristöasioiden hallinta- ja auditointijärjestelmä) hakeminen</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>{Demande de conformité au système de management environnemental et d’audit (EMAS) institué par le règlement (CE) nº 1221/2009}</SimpleValue>
+            <SimpleValue>Demande de conformité au système de management environnemental et d’audit (EMAS) institué par le règlement (CE) nº 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>{Comhlíonadh na scéime um éiceabhainistíocht agus um éiciniúchóireacht (EMAS), scéim a bunaíodh le Rialachán (CE) Uimh. 1221/2009, a iarraidh}</SimpleValue>
+            <SimpleValue>Comhlíonadh na scéime um éiceabhainistíocht agus um éiciniúchóireacht (EMAS), scéim a bunaíodh le Rialachán (CE) Uimh. 1221/2009, a iarraidh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>{Potrebna je usklađenost sa sustavom upravljanja okolišem i neovisnog ocjenjivanja (EMAS) uspostavljenim Uredbom (EZ) br. 1221/2009}</SimpleValue>
+            <SimpleValue>Potrebna je usklađenost sa sustavom upravljanja okolišem i neovisnog ocjenjivanja (EMAS) uspostavljenim Uredbom (EZ) br. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>{Az 1221/2009/EK rendeletben meghatározott uniós környezetvédelmi vezetési és hitelesítési rendszernek (EMAS) való megfelelés követelménye}</SimpleValue>
+            <SimpleValue>Az 1221/2009/EK rendeletben meghatározott uniós környezetvédelmi vezetési és hitelesítési rendszernek (EMAS) való megfelelés követelménye</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>{È richiesta la conformità al sistema di ecogestione e audit (EMAS) istituito dal regolamento (CE) n. 1221/2009}</SimpleValue>
+            <SimpleValue>È richiesta la conformità al sistema di ecogestione e audit (EMAS) istituito dal regolamento (CE) n. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>{Reikalaujama atitikties aplinkosaugos vadybos ir audito sistemai (EMAS), kaip nustatyta Reglamente (EB) Nr. 1221/2009}</SimpleValue>
+            <SimpleValue>Reikalaujama atitikties aplinkosaugos vadybos ir audito sistemai (EMAS), kaip nustatyta Reglamente (EB) Nr. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>{Prasīta atbilstība vides vadības un audita sistēmai (EMAS), kas izveidota ar Regulu (EK) Nr. 1221/2009}</SimpleValue>
+            <SimpleValue>Prasīta atbilstība vides vadības un audita sistēmai (EMAS), kas izveidota ar Regulu (EK) Nr. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>{Talba għal konformità ma’ skema ta’ ġestjoni u verifika ambjentali (EMAS), stabbilita bir-Regolament (KE) Nru 1221/2009}</SimpleValue>
+            <SimpleValue>Talba għal konformità ma’ skema ta’ ġestjoni u verifika ambjentali (EMAS), stabbilita bir-Regolament (KE) Nru 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>{Er wordt naleving verlangd van het bij Verordening (EG) nr. 1221/2009 ingestelde milieubeheer- en milieuauditsysteem (EMAS)}</SimpleValue>
+            <SimpleValue>Er wordt naleving verlangd van het bij Verordening (EG) nr. 1221/2009 ingestelde milieubeheer- en milieuauditsysteem (EMAS)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>{Obowiązek spełnienia wymogów systemu ekozarządzania i audytu (EMAS), ustanowionego na mocy rozporządzenia (WE) nr 1221/2009}</SimpleValue>
+            <SimpleValue>Obowiązek spełnienia wymogów systemu ekozarządzania i audytu (EMAS), ustanowionego na mocy rozporządzenia (WE) nr 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>{Que solicita a conformidade com o Sistema Comunitário de Ecogestão e Auditoria (EMAS), estabelecido pelo Regulamento (CE) n.º 1221/2009}</SimpleValue>
+            <SimpleValue>Que solicita a conformidade com o Sistema Comunitário de Ecogestão e Auditoria (EMAS), estabelecido pelo Regulamento (CE) n.º 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>{Solicitarea conformității cu sistemul de management de mediu și audit (EMAS) stabilit prin Regulamentul (CE) nr. 1221/2009}</SimpleValue>
+            <SimpleValue>Solicitarea conformității cu sistemul de management de mediu și audit (EMAS) stabilit prin Regulamentul (CE) nr. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>{Požiadavka na súlad so schémou pre environmentálne manažérstvo a audit (EMAS) vytvorenou nariadením (ES) č. 1221/2009}</SimpleValue>
+            <SimpleValue>Požiadavka na súlad so schémou pre environmentálne manažérstvo a audit (EMAS) vytvorenou nariadením (ES) č. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>{Potrebna skladnost s sistemom za okoljsko ravnanje in presojo (EMAS), vzpostavljenim z Uredbo (ES) št. 1221/2009}</SimpleValue>
+            <SimpleValue>Potrebna skladnost s sistemom za okoljsko ravnanje in presojo (EMAS), vzpostavljenim z Uredbo (ES) št. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>{Krav på överensstämmelse med miljölednings- och miljörevisionsordningen (Emas), som inrättats genom förordning (EG) nr 1221/2009}</SimpleValue>
+            <SimpleValue>Krav på överensstämmelse med miljölednings- och miljörevisionsordningen (Emas), som inrättats genom förordning (EG) nr 1221/2009</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -205,79 +525,79 @@
             <SimpleValue>ene-ef-com</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>{Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)}</SimpleValue>
+            <SimpleValue>Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>{Изискване за съответствие с най-високия клас за енергийна ефективност (съгласно определенията в различните законодателни актове, напр. Регламент (ЕС) № 626/2011 за климатичните инсталации)}</SimpleValue>
+            <SimpleValue>Изискване за съответствие с най-високия клас за енергийна ефективност (съгласно определенията в различните законодателни актове, напр. Регламент (ЕС) № 626/2011 за климатичните инсталации)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>{Požadující shodu s nejvyšší třídou energetické účinnosti (podle definice v různých právních předpisech, např. v nařízení (EU) č. 626/2011 o klimatizátorech vzduchu)}</SimpleValue>
+            <SimpleValue>Požadující shodu s nejvyšší třídou energetické účinnosti (podle definice v různých právních předpisech, např. v nařízení (EU) č. 626/2011 o klimatizátorech vzduchu)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>{Krav om overensstemmelse med den højeste energieffektivitetsklasse (som defineret i forskellige retsakter, f.eks. forordning (EU) nr. 626/2011 om klimaanlæg)}</SimpleValue>
+            <SimpleValue>Krav om overensstemmelse med den højeste energieffektivitetsklasse (som defineret i forskellige retsakter, f.eks. forordning (EU) nr. 626/2011 om klimaanlæg)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>{Anforderung einer Übereinstimmung mit der höchsten Energieeffizienzklasse (im Einklang mit der Definition in verschiedenen Rechtsvorschriften, z. B. in der Verordnung (EU) Nr. 626/2011 über Luftkonditionierer)}</SimpleValue>
+            <SimpleValue>Anforderung einer Übereinstimmung mit der höchsten Energieeffizienzklasse (im Einklang mit der Definition in verschiedenen Rechtsvorschriften, z. B. in der Verordnung (EU) Nr. 626/2011 über Luftkonditionierer)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>{Απαίτηση συμμόρφωσης με την υψηλότερη κατηγορία ενεργειακής απόδοσης [όπως έχει καθοριστεί από διάφορες νομοθετικές πράξεις, π.χ. από τον κανονισμό (ΕΕ) αριθ. 626/2011 για τα κλιματιστικά]}</SimpleValue>
+            <SimpleValue>Απαίτηση συμμόρφωσης με την υψηλότερη κατηγορία ενεργειακής απόδοσης [όπως έχει καθοριστεί από διάφορες νομοθετικές πράξεις, π.χ. από τον κανονισμό (ΕΕ) αριθ. 626/2011 για τα κλιματιστικά]</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>{Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)}</SimpleValue>
+            <SimpleValue>Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>{Exigencia de conformidad con la clase superior de eficiencia energética, definida con arreglo a diversas normativas, como, por ejemplo, el Reglamento (UE) n.º 626/2011, relativo a los acondicionadores de aire}</SimpleValue>
+            <SimpleValue>Exigencia de conformidad con la clase superior de eficiencia energética, definida con arreglo a diversas normativas, como, por ejemplo, el Reglamento (UE) n.º 626/2011, relativo a los acondicionadores de aire</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>{Nõutakse kõrgeima energiatõhususe klassi nõuete kohaldamist (nagu määratletud erinevates õigusaktides, näiteks kliimaseadmeid käsitlevas määruses (EL) 626/2011)}</SimpleValue>
+            <SimpleValue>Nõutakse kõrgeima energiatõhususe klassi nõuete kohaldamist (nagu määratletud erinevates õigusaktides, näiteks kliimaseadmeid käsitlevas määruses (EL) 626/2011)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>{Korkeimman energiatehokkuusluokan hakeminen (määritelty eri lainsäädännöissä, esimerkiksi huoneilmastointilaitteille asetuksessa (EU) N:o 626/2011)}</SimpleValue>
+            <SimpleValue>Korkeimman energiatehokkuusluokan hakeminen (määritelty eri lainsäädännöissä, esimerkiksi huoneilmastointilaitteille asetuksessa (EU) N:o 626/2011)</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>{Demande de conformité à la classe d’efficacité énergétique la plus haute [au sens de diverses législations, tel le règlement (UE) 626/2011 relatif aux climatiseurs]}</SimpleValue>
+            <SimpleValue>Demande de conformité à la classe d’efficacité énergétique la plus haute [au sens de diverses législations, tel le règlement (UE) 626/2011 relatif aux climatiseurs]</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>{Comhlíonadh na haicme éifeachtúlachta fuinnimh is airde (arna sainiú in ionstraimí éagsúla reachtaíochta amhail Rialachán (AE) Uimh. 626/2011 maidir le haerchóiritheoirí) a iarraidh}</SimpleValue>
+            <SimpleValue>Comhlíonadh na haicme éifeachtúlachta fuinnimh is airde (arna sainiú in ionstraimí éagsúla reachtaíochta amhail Rialachán (AE) Uimh. 626/2011 maidir le haerchóiritheoirí) a iarraidh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>{Potrebna je usklađenost s najvišim razredom energetske učinkovitosti (kako je definirano u različitim propisima, poput Uredbe (EU) br. 626/2011 o klimatizacijskim uređajima)}</SimpleValue>
+            <SimpleValue>Potrebna je usklađenost s najvišim razredom energetske učinkovitosti (kako je definirano u različitim propisima, poput Uredbe (EU) br. 626/2011 o klimatizacijskim uređajima)</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>{A legmagasabb energiahatékonysági osztálynak való megfelelés követelménye (amint azt többek között például a 626/2011/EU rendelet a légkondicionálók tekintetében meghatározza)}</SimpleValue>
+            <SimpleValue>A legmagasabb energiahatékonysági osztálynak való megfelelés követelménye (amint azt többek között például a 626/2011/EU rendelet a légkondicionálók tekintetében meghatározza)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>{È richiesta la conformità alla massima classe di efficienza energetica (come definita da vari atti legislativi, quale ad esempio il regolamento (UE) n. 626/2011 per i condizionatori d'aria)}</SimpleValue>
+            <SimpleValue>È richiesta la conformità alla massima classe di efficienza energetica (come definita da vari atti legislativi, quale ad esempio il regolamento (UE) n. 626/2011 per i condizionatori d'aria)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>{Reikalaujama atitikties aukščiausios energijos vartojimo efektyvumo klasei (kaip apibrėžta įvairiuose teisės aktuose, pvz., Reglamente (ES) Nr. 626/2011 dėl oro kondicionierių)}</SimpleValue>
+            <SimpleValue>Reikalaujama atitikties aukščiausios energijos vartojimo efektyvumo klasei (kaip apibrėžta įvairiuose teisės aktuose, pvz., Reglamente (ES) Nr. 626/2011 dėl oro kondicionierių)</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>{Prasīta atbilstība augstākajai energoefektivitātes klasei (kas noteikta dažādos tiesību aktos, piemēram, Regulā (ES) 626/2011 par gaisa kondicionētājiem)}</SimpleValue>
+            <SimpleValue>Prasīta atbilstība augstākajai energoefektivitātes klasei (kas noteikta dažādos tiesību aktos, piemēram, Regulā (ES) 626/2011 par gaisa kondicionētājiem)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>{Talba għal konformità mal-ogħla klassi tal-effiċjenza enerġetika (kif definit b’diversi leġiżlazzjonijiet bħal pereżempju r-Regolament (UE) 626/2011 dwar il-kundizzjonaturi tal-arja)}</SimpleValue>
+            <SimpleValue>Talba għal konformità mal-ogħla klassi tal-effiċjenza enerġetika (kif definit b’diversi leġiżlazzjonijiet bħal pereżempju r-Regolament (UE) 626/2011 dwar il-kundizzjonaturi tal-arja)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>{Er wordt conformiteit verlangd met de hoogste energie-efficiëntieklasse (zoals gedefinieerd in verschillende wetgevingshandelingen, bijvoorbeeld Verordening (EU) nr. 626/2011 inzake airconditioners)}</SimpleValue>
+            <SimpleValue>Er wordt conformiteit verlangd met de hoogste energie-efficiëntieklasse (zoals gedefinieerd in verschillende wetgevingshandelingen, bijvoorbeeld Verordening (EU) nr. 626/2011 inzake airconditioners)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>{Obowiązek spełnienia wymogów najwyższej klasy efektywności energetycznej (określonej w różnych przepisach, np. w rozporządzeniu (UE) 626/2011 w sprawie klimatyzatorów)}</SimpleValue>
+            <SimpleValue>Obowiązek spełnienia wymogów najwyższej klasy efektywności energetycznej (określonej w różnych przepisach, np. w rozporządzeniu (UE) 626/2011 w sprawie klimatyzatorów)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>{Que solicita a conformidade com a classe de eficiência energética mais elevada (tal como definida por vários atos legislativos, como, por ex., o Regulamento (UE) n.º 626/2011 relativo aos aparelhos de ar condicionado).}</SimpleValue>
+            <SimpleValue>Que solicita a conformidade com a classe de eficiência energética mais elevada (tal como definida por vários atos legislativos, como, por ex., o Regulamento (UE) n.º 626/2011 relativo aos aparelhos de ar condicionado).</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>{Solicitarea conformității cu cea mai înaltă clasă de eficiență energetică [conform definiției din diverse acte legislative precum, de exemplu, Regulamentul (UE) 626/2011 privind aparatele de climatizare]}</SimpleValue>
+            <SimpleValue>Solicitarea conformității cu cea mai înaltă clasă de eficiență energetică [conform definiției din diverse acte legislative precum, de exemplu, Regulamentul (UE) 626/2011 privind aparatele de climatizare]</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>{Požiadavka na súlad s najvyššou triedou energetickej účinnosti [vymedzenou v rôznych právnych predpisoch, ako napríklad v nariadení (EÚ) č. 626/2011 o klimatizátoroch]}</SimpleValue>
+            <SimpleValue>Požiadavka na súlad s najvyššou triedou energetickej účinnosti [vymedzenou v rôznych právnych predpisoch, ako napríklad v nariadení (EÚ) č. 626/2011 o klimatizátoroch]</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>{Potrebna skladnost z najvišjim energijskim razredom (kot je opredeljen z različnimi predpisi, na primer z Uredbo (EU) št. 626/2011 o klimatskih napravah)}</SimpleValue>
+            <SimpleValue>Potrebna skladnost z najvišjim energijskim razredom (kot je opredeljen z različnimi predpisi, na primer z Uredbo (EU) št. 626/2011 o klimatskih napravah)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>{Krav på överensstämmelse med den högsta energieffektivitetsklassen (såsom fastställs i olika rättsakter, t.ex. förordning (EU) nr 626/2011 om luftkonditioneringsapparater)}</SimpleValue>
+            <SimpleValue>Krav på överensstämmelse med den högsta energieffektivitetsklassen (såsom fastställs i olika rättsakter, t.ex. förordning (EU) nr 626/2011 om luftkonditioneringsapparater)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -285,79 +605,79 @@
             <SimpleValue>iso-14001-com</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>{Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009}</SimpleValue>
+            <SimpleValue>Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>{Изискване за спазване на система за управление по отношение на околната среда по стандарт ISO 14001, различна от Схемата на Общността за управление по околна среда и одит (EMAS), създадена с Регламент (ЕО) № 1221/2009}</SimpleValue>
+            <SimpleValue>Изискване за спазване на система за управление по отношение на околната среда по стандарт ISO 14001, различна от Схемата на Общността за управление по околна среда и одит (EMAS), създадена с Регламент (ЕО) № 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>{Požadující dodržování požadavků na systém environmentálního řízení podle normy ISO 14001, jiný než systém pro environmentální řízení podniků a audit (EMAS) zřízený nařízením (ES) č. 1221/2009}</SimpleValue>
+            <SimpleValue>Požadující dodržování požadavků na systém environmentálního řízení podle normy ISO 14001, jiný než systém pro environmentální řízení podniků a audit (EMAS) zřízený nařízením (ES) č. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>{Krav om overensstemmelse med et andet ISO 14001-miljøledelssystem end ordningen for miljøledelse og miljørevision (EMAS), der er oprettet ved forordning (EF) nr. 1221/2009}</SimpleValue>
+            <SimpleValue>Krav om overensstemmelse med et andet ISO 14001-miljøledelssystem end ordningen for miljøledelse og miljørevision (EMAS), der er oprettet ved forordning (EF) nr. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>{Anforderung einer Übereinstimmung mit einem Umweltmanagementsystem gemäß der Norm ISO 14001, mit Ausnahme der durch die Verordnung (EG) Nr. 1221/2009 festgelegten Strategie für Umweltmanagement und -betriebsprüfung (EMAS)}</SimpleValue>
+            <SimpleValue>Anforderung einer Übereinstimmung mit einem Umweltmanagementsystem gemäß der Norm ISO 14001, mit Ausnahme der durch die Verordnung (EG) Nr. 1221/2009 festgelegten Strategie für Umweltmanagement und -betriebsprüfung (EMAS)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>{Απαίτηση συμμόρφωσης με σύστημα περιβαλλοντικής διαχείρισης ISO 14001 διαφορετικό από το σύστημα οικολογικής διαχείρισης και οικολογικού ελέγχου (EMAS) που θεσπίστηκε με τον κανονισμό (ΕΚ) αριθ. 1221/2009}</SimpleValue>
+            <SimpleValue>Απαίτηση συμμόρφωσης με σύστημα περιβαλλοντικής διαχείρισης ISO 14001 διαφορετικό από το σύστημα οικολογικής διαχείρισης και οικολογικού ελέγχου (EMAS) που θεσπίστηκε με τον κανονισμό (ΕΚ) αριθ. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>{Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009}</SimpleValue>
+            <SimpleValue>Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>{Exigencia de conformidad con un sistema de gestión ambiental ISO 14001 distinto del sistema comunitario de gestión y auditoría medioambientales (EMAS), establecido por el Reglamento (CE) n.º 1221/2009}</SimpleValue>
+            <SimpleValue>Exigencia de conformidad con un sistema de gestión ambiental ISO 14001 distinto del sistema comunitario de gestión y auditoría medioambientales (EMAS), establecido por el Reglamento (CE) n.º 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>{Nõutakse keskkonnajuhtimissüsteemi ISO 14001 kohaldamist, mis ei ole määrusega (EÜ) nr 1221/2009 asutatud keskkonnajuhtimis- ja -auditeerimissüsteem (EMAS)}</SimpleValue>
+            <SimpleValue>Nõutakse keskkonnajuhtimissüsteemi ISO 14001 kohaldamist, mis ei ole määrusega (EÜ) nr 1221/2009 asutatud keskkonnajuhtimis- ja -auditeerimissüsteem (EMAS)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>{Muun ISO 14001 -sertifioidun ympäristöasioiden hallintajärjestelmän mukaisen rekisteröinnin kuin asetuksen (EY) N:o 1221/2009 mukaisen EMAS-rekisteröinnin (ympäristöasioiden hallinta- ja auditointijärjestelmä) hakeminen}</SimpleValue>
+            <SimpleValue>Muun ISO 14001 -sertifioidun ympäristöasioiden hallintajärjestelmän mukaisen rekisteröinnin kuin asetuksen (EY) N:o 1221/2009 mukaisen EMAS-rekisteröinnin (ympäristöasioiden hallinta- ja auditointijärjestelmä) hakeminen</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>{Demande de conformité à un système de management environnemental ISO 14001 autre que le système de management environnemental et d’audit (EMAS) institué par le règlement (CE) nº 1221/2009}</SimpleValue>
+            <SimpleValue>Demande de conformité à un système de management environnemental ISO 14001 autre que le système de management environnemental et d’audit (EMAS) institué par le règlement (CE) nº 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>{Comhlíonadh na scéime um éiceabhainistíocht agus um éiciniúchóireacht (EMAS), scéim a bunaíodh le Rialachán (CE) Uimh. 1221/2009, a iarraidh}</SimpleValue>
+            <SimpleValue>Comhlíonadh na scéime um éiceabhainistíocht agus um éiciniúchóireacht (EMAS), scéim a bunaíodh le Rialachán (CE) Uimh. 1221/2009, a iarraidh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>{Potrebna je usklađenost sa sustavom upravljanja okolišem ISO 14001 koji nije sustav upravljanja okolišem i neovisnog ocjenjivanja (EMAS) uspostavljen Uredbom (EZ) br. 1221/2009}</SimpleValue>
+            <SimpleValue>Potrebna je usklađenost sa sustavom upravljanja okolišem ISO 14001 koji nije sustav upravljanja okolišem i neovisnog ocjenjivanja (EMAS) uspostavljen Uredbom (EZ) br. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>{Az 1221/2009/EK rendeletben meghatározott uniós környezetvédelmi vezetési és hitelesítési rendszertől (EMAS) eltérő, ISO 14001 környezetvédelmi vezetési rendszernek való megfelelés követelménye}</SimpleValue>
+            <SimpleValue>Az 1221/2009/EK rendeletben meghatározott uniós környezetvédelmi vezetési és hitelesítési rendszertől (EMAS) eltérő, ISO 14001 környezetvédelmi vezetési rendszernek való megfelelés követelménye</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>{È richiesta la conformità a un sistema di ecogestione e audit ISO 14001 diverso dal sistema di ecogestione e audit (EMAS) istituito dal regolamento (CE) n. 1221/2009}</SimpleValue>
+            <SimpleValue>È richiesta la conformità a un sistema di ecogestione e audit ISO 14001 diverso dal sistema di ecogestione e audit (EMAS) istituito dal regolamento (CE) n. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>{Reikalaujama atitikties ISO 14001 aplinkosaugos vadybos sistemai, išskyrus aplinkosaugos vadybos ir audito sistemą (EMAS), kaip nustatyta Reglamente (EB) Nr. 1221/2009}</SimpleValue>
+            <SimpleValue>Reikalaujama atitikties ISO 14001 aplinkosaugos vadybos sistemai, išskyrus aplinkosaugos vadybos ir audito sistemą (EMAS), kaip nustatyta Reglamente (EB) Nr. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>{Prasīta atbilstība ar ISO 14001 saderīgai vides vadības sistēmai, kas nav ar Regulu (EK) Nr. 1221/2009 izveidotā vides vadības un audita sistēma (EMAS)}</SimpleValue>
+            <SimpleValue>Prasīta atbilstība ar ISO 14001 saderīgai vides vadības sistēmai, kas nav ar Regulu (EK) Nr. 1221/2009 izveidotā vides vadības un audita sistēma (EMAS)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>{Talba għal konformità ma’ sistema ta’ ġestjoni ambjentali tal-ISO 14001, għajr l-iskema ta’ ġestjoni u verifika ambjentali (EMAS), stabbilita bir-Regolament (KE) Nru 1221/2009}</SimpleValue>
+            <SimpleValue>Talba għal konformità ma’ sistema ta’ ġestjoni ambjentali tal-ISO 14001, għajr l-iskema ta’ ġestjoni u verifika ambjentali (EMAS), stabbilita bir-Regolament (KE) Nru 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>{Er wordt naleving verlangd van een ander op ISO 14001 gebaseerd milieubeheersysteem dan het bij Verordening (EG) nr. 1221/2009 ingestelde milieubeheer- en milieuauditsysteem (EMAS)}</SimpleValue>
+            <SimpleValue>Er wordt naleving verlangd van een ander op ISO 14001 gebaseerd milieubeheersysteem dan het bij Verordening (EG) nr. 1221/2009 ingestelde milieubeheer- en milieuauditsysteem (EMAS)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>{Obowiązek spełnienia wymogów systemu zarządzania środowiskowego ISO 14001, ustanowionego na mocy rozporządzenia (WE) nr 1221/2009}</SimpleValue>
+            <SimpleValue>Obowiązek spełnienia wymogów systemu zarządzania środowiskowego ISO 14001, ustanowionego na mocy rozporządzenia (WE) nr 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>{Que solicita a conformidade com um sistema de gestão ambiental ISO 14001 que não o Sistema Comunitário de Ecogestão e Auditoria (EMAS), estabelecido pelo Regulamento (CE) n.º 1221/2009}</SimpleValue>
+            <SimpleValue>Que solicita a conformidade com um sistema de gestão ambiental ISO 14001 que não o Sistema Comunitário de Ecogestão e Auditoria (EMAS), estabelecido pelo Regulamento (CE) n.º 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>{Solicitarea conformității cu un sistem de management de mediu conform ISO 14001, altul decât sistemul de management de mediu și audit (EMAS) stabilit prin Regulamentul (CE) nr. 1221/2009}</SimpleValue>
+            <SimpleValue>Solicitarea conformității cu un sistem de management de mediu conform ISO 14001, altul decât sistemul de management de mediu și audit (EMAS) stabilit prin Regulamentul (CE) nr. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>{Požiadavka na súlad so systémom environmentálneho riadenia podľa normy ISO 14001 iným než schémou pre environmentálne manažérstvo a audit (EMAS) vytvorenou nariadením (ES) č. 1221/2009}</SimpleValue>
+            <SimpleValue>Požiadavka na súlad so systémom environmentálneho riadenia podľa normy ISO 14001 iným než schémou pre environmentálne manažérstvo a audit (EMAS) vytvorenou nariadením (ES) č. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>{Potrebna skladnost s sistemom okoljskega ravnanja ISO 14001, ki ni sistem za okoljsko ravnanje in presojo (EMAS), vzpostavljen z Uredbo (ES) št. 1221/2009}</SimpleValue>
+            <SimpleValue>Potrebna skladnost s sistemom okoljskega ravnanja ISO 14001, ki ni sistem za okoljsko ravnanje in presojo (EMAS), vzpostavljen z Uredbo (ES) št. 1221/2009</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>{Krav på överensstämmelse med ett annat ISO 14001-miljöledningssystem än miljölednings- och miljörevisionsordningen (Emas), som inrättats genom förordning (EG) nr 1221/2009}</SimpleValue>
+            <SimpleValue>Krav på överensstämmelse med ett annat ISO 14001-miljöledningssystem än miljölednings- och miljörevisionsordningen (Emas), som inrättats genom förordning (EG) nr 1221/2009</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -368,7 +688,7 @@
             <SimpleValue>Requesting compliance with an ISO 14024 Type I environmental label</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>{Изискване за екологична маркировка (екоетикет) от вид І по стандарт ISO 14024}</SimpleValue>
+            <SimpleValue>Изискване за екологична маркировка (екоетикет) от вид І по стандарт ISO 14024</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Požadující dodržování požadavků na ekoznačku typu I podle normy ISO 14024</SimpleValue>
@@ -522,82 +842,242 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>pollu-prev</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pollution prevention and control</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Предотвратяване и контрол на замърсяването</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Prevence a omezování znečištění</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forebyggelse og bekæmpelse af forurening</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vermeidung und Verminderung der Umweltverschmutzung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η πρόληψη και έλεγχος της ρύπανσης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pollution prevention and control</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Prevención y control de la contaminación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Saastuse vältimine ja tõrje</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ympäristön pilaantumisen ehkäiseminen ja vähentäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La prévention et la réduction de la pollution</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cosc agus rialú ar thruailliú</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sprečavanje i kontrola onečišćenja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szennyezés megelőzése és csökkentése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>La prevenzione e la riduzione dell’inquinamento</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Taršos prevencija ir kontrolė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piesārņojuma novēršana un kontrole</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-prevenzjoni u l-kontroll tat-tniġġis</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De preventie en bestrijding van verontreiniging</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zapobieganie zanieczyszczeniu i jego kontrola</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A prevenção e o controlo da poluição</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Prevenirea și controlul poluării</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prevencia a kontrola znečisťovania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Preprečevanje in nadzorovanje onesnaževanja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förebyggande och begränsning av miljöföroreningar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>reg-834-2007-com</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>{Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products}</SimpleValue>
+            <SimpleValue>Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>{Изискване – за по-голямата част от съответната покупка – за спазване на Регламент (ЕО) № 834/2007 относно биологичното производство и етикетирането на биологични продукти}</SimpleValue>
+            <SimpleValue>Изискване – за по-голямата част от съответната покупка – за спазване на Регламент (ЕО) № 834/2007 относно биологичното производство и етикетирането на биологични продукти</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>{Požadující, aby bylo u většiny relevantních nákupů dodržováno nařízení (ES) č. 834/2007 o ekologické produkci a označování ekologických produktů}</SimpleValue>
+            <SimpleValue>Požadující, aby bylo u většiny relevantních nákupů dodržováno nařízení (ES) č. 834/2007 o ekologické produkci a označování ekologických produktů</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>{Krav om, at størstedelen af det pågældende indkøb skal være i overensstemmelse med forordning (EF) nr. 834/2007 om økologisk produktion og mærkning af økologiske produkter}</SimpleValue>
+            <SimpleValue>Krav om, at størstedelen af det pågældende indkøb skal være i overensstemmelse med forordning (EF) nr. 834/2007 om økologisk produktion og mærkning af økologiske produkter</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>{Anforderung einer Übereinstimmung, für den größten Teil der betreffenden Beschaffung, mit der Verordnung (EG) Nr. 834/2007 über die ökologische/biologische Produktion und die Kennzeichnung von ökologischen/biologischen Produkten}</SimpleValue>
+            <SimpleValue>Anforderung einer Übereinstimmung, für den größten Teil der betreffenden Beschaffung, mit der Verordnung (EG) Nr. 834/2007 über die ökologische/biologische Produktion und die Kennzeichnung von ökologischen/biologischen Produkten</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>{Απαίτηση συμμόρφωσης, για το μεγαλύτερο μέρος της σχετικής προμήθειας, με τον κανονισμό (ΕΚ) αριθ. 834/2007 για τη βιολογική παραγωγή και την επισήμανση των βιολογικών προϊόντων}</SimpleValue>
+            <SimpleValue>Απαίτηση συμμόρφωσης, για το μεγαλύτερο μέρος της σχετικής προμήθειας, με τον κανονισμό (ΕΚ) αριθ. 834/2007 για τη βιολογική παραγωγή και την επισήμανση των βιολογικών προϊόντων</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>{Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products}</SimpleValue>
+            <SimpleValue>Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>{Exigencia de conformidad de la mayor parte de la compra pertinente con el Reglamento (CE) n.º 834/2007, sobre producción y etiquetado de los productos ecológicos}</SimpleValue>
+            <SimpleValue>Exigencia de conformidad de la mayor parte de la compra pertinente con el Reglamento (CE) n.º 834/2007, sobre producción y etiquetado de los productos ecológicos</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>{Enamiku asjaomaste hangete puhul nõutakse määruse (EÜ) 834/2007 (mahepõllumajandusliku tootmise ning mahepõllumajanduslike toodete märgistamise kohta) kohaldamist}</SimpleValue>
+            <SimpleValue>Enamiku asjaomaste hangete puhul nõutakse määruse (EÜ) 834/2007 (mahepõllumajandusliku tootmise ning mahepõllumajanduslike toodete märgistamise kohta) kohaldamist</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>{Luonnonmukaisesta tuotannosta ja luonnonmukaisesti tuotettujen tuotteiden merkinnöistä annetun asetuksen (EY) N:o 834/2007 vaatimusten täyttymisvahvistuksen hakeminen asianomaisen hankinnan pääosilta}</SimpleValue>
+            <SimpleValue>Luonnonmukaisesta tuotannosta ja luonnonmukaisesti tuotettujen tuotteiden merkinnöistä annetun asetuksen (EY) N:o 834/2007 vaatimusten täyttymisvahvistuksen hakeminen asianomaisen hankinnan pääosilta</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>{Demande, pour la majorité des achats concernés, de conformité au règlement (CE) nº 834/2007 relatif à la production biologique et à l’étiquetage des produits biologiques}</SimpleValue>
+            <SimpleValue>Demande, pour la majorité des achats concernés, de conformité au règlement (CE) nº 834/2007 relatif à la production biologique et à l’étiquetage des produits biologiques</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>{I gcás fhormhór an cheannacháin ábhartha, comhlíonadh Rialachán (CE) Uimh. 834/2007 maidir le táirgeadh orgánach agus lipéadú táirgí orgánacha, a iarraidh}</SimpleValue>
+            <SimpleValue>I gcás fhormhór an cheannacháin ábhartha, comhlíonadh Rialachán (CE) Uimh. 834/2007 maidir le táirgeadh orgánach agus lipéadú táirgí orgánacha, a iarraidh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>{Za većinu relevantne nabave potrebna je usklađenost s Uredbom (EZ) br. 834/2007 o ekološkoj proizvodnji i označivanju ekoloških proizvoda}</SimpleValue>
+            <SimpleValue>Za većinu relevantne nabave potrebna je usklađenost s Uredbom (EZ) br. 834/2007 o ekološkoj proizvodnji i označivanju ekoloških proizvoda</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Az ökológiai termelésről és az ökológiai termékek címkézéséről szóló 837/2007/EK rendeletnek való megfelelés követelménye az érintett beszerzés túlnyomó része tekintetében</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>{È richiesta, per la maggior parte degli acquisti pertinenti, la conformità al regolamento (CE) n. 834/2007 relativo alla produzione biologica e all’etichettatura dei prodotti biologici}</SimpleValue>
+            <SimpleValue>È richiesta, per la maggior parte degli acquisti pertinenti, la conformità al regolamento (CE) n. 834/2007 relativo alla produzione biologica e all’etichettatura dei prodotti biologici</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>{Reikalaujama didžiosios atitinkamo pirkimo dalies atitikties Reglamentui (EB) 834/2007 dėl ekologinės gamybos ir ekologiškų produktų ženklinimo}</SimpleValue>
+            <SimpleValue>Reikalaujama didžiosios atitinkamo pirkimo dalies atitikties Reglamentui (EB) 834/2007 dėl ekologinės gamybos ir ekologiškų produktų ženklinimo</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>{Attiecībā uz lielāko daļu konkrētā iepirkuma prasīta atbilstība Regulai (EK) 834/2007 par bioloģisko ražošanu un bioloģisko produktu marķēšanu}</SimpleValue>
+            <SimpleValue>Attiecībā uz lielāko daļu konkrētā iepirkuma prasīta atbilstība Regulai (EK) 834/2007 par bioloģisko ražošanu un bioloģisko produktu marķēšanu</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>{Talba għal konformità mar-Regolament (KE) 834/2007 dwar il-produzzjoni organika u t-tikkettar ta’ prodotti organiċi, għall-maġġoranza tax-xiri rilevanti}</SimpleValue>
+            <SimpleValue>Talba għal konformità mar-Regolament (KE) 834/2007 dwar il-produzzjoni organika u t-tikkettar ta’ prodotti organiċi, għall-maġġoranza tax-xiri rilevanti</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>{Voor het grootste deel van de betrokken aankopen wordt naleving van Verordening (EG) nr. 834/2007 inzake de biologische productie en de etikettering van biologische producten verlangd}</SimpleValue>
+            <SimpleValue>Voor het grootste deel van de betrokken aankopen wordt naleving van Verordening (EG) nr. 834/2007 inzake de biologische productie en de etikettering van biologische producten verlangd</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>{Obowiązek spełnienia – w odniesieniu do większej części odpowiedniego zakupu – wymogów rozporządzenia (WE) nr 834/2007 w sprawie produkcji ekologicznej i znakowania produktów ekologicznych}</SimpleValue>
+            <SimpleValue>Obowiązek spełnienia – w odniesieniu do większej części odpowiedniego zakupu – wymogów rozporządzenia (WE) nr 834/2007 w sprawie produkcji ekologicznej i znakowania produktów ekologicznych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>{Que solicita, para a maior parte da aquisição em causa, a conformidade com o Regulamento (CE) n.º 834/2007 relativo à produção biológica e à rotulagem dos produtos biológicos}</SimpleValue>
+            <SimpleValue>Que solicita, para a maior parte da aquisição em causa, a conformidade com o Regulamento (CE) n.º 834/2007 relativo à produção biológica e à rotulagem dos produtos biológicos</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>{Pentru majoritatea achiziției relevante, solicitarea conformității cu Regulamentul (CE) 834/2007 privind producția ecologică și etichetarea produselor ecologice}</SimpleValue>
+            <SimpleValue>Pentru majoritatea achiziției relevante, solicitarea conformității cu Regulamentul (CE) 834/2007 privind producția ecologică și etichetarea produselor ecologice</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>{V prípade väčšiny relevantných zákaziek požiadavka na súlad s nariadením (ES) č. 834/2007 o ekologickej výrobe a označovaní ekologických produktov}</SimpleValue>
+            <SimpleValue>V prípade väčšiny relevantných zákaziek požiadavka na súlad s nariadením (ES) č. 834/2007 o ekologickej výrobe a označovaní ekologických produktov</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>{Za večino zadevne nabave potrebna skladnost z Uredbo (ES) št. 834/2007 o ekološki pridelavi in označevanju ekoloških proizvodov}</SimpleValue>
+            <SimpleValue>Za večino zadevne nabave potrebna skladnost z Uredbo (ES) št. 834/2007 o ekološki pridelavi in označevanju ekoloških proizvodov</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>{Krav på att merparten av de relevanta inköpen ska överensstämma med förordning (EG) nr 834/2007 om ekologisk produktion och märkning av ekologiska produkter}</SimpleValue>
+            <SimpleValue>Krav på att merparten av de relevanta inköpen ska överensstämma med förordning (EG) nr 834/2007 om ekologisk produktion och märkning av ekologiska produkter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>water-mar</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The sustainable use and protection of water and marine resources</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Устойчиво използване и опазване на водните и морските ресурси</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Udržitelné využívání a ochrana vodních a mořských zdrojů</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bæredygtig anvendelse og beskyttelse af vand- og havressourcer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die nachhaltige Nutzung und Schutz von Wasser- und Meeresressourcen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η βιώσιμη χρήση και προστασία των υδάτινων και των θαλάσσιων πόρων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The sustainable use and protection of water and marine resources</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Uso sostenible y protección de los recursos hídricos y marinos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vee ja mereressursside kestlik kasutamine ja kaitse</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vesivarojen ja merten luonnonvarojen kestävä käyttö ja suojelu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L’utilisation durable et la protection des ressources aquatiques et marines</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Úsáid inbhuanaithe a bhaint as uisce agus acmhainní mara agus iad a chosaint</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Održiva uporaba i zaštita vodnih i morskih resursa</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vízi és tengeri erőforrások fenntartható használata és védelme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L’uso sostenibile e la protezione delle acque e delle risorse marine</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tausus vandens ir jūrų išteklių naudojimas ir apsauga</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ilgtspējīga ūdens un jūras resursu izmantošana un aizsardzība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-użu sostenibbli u l-protezzjoni tar-riżorsi tal-ilma u tal-baħar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Het duurzaam gebruik en de bescherming van water en mariene hulpbronnen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zrównoważone wykorzystywanie i ochrona zasobów wodnych i morskich</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A utilização sustentável e proteção dos recursos hídricos e marinhos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Utilizarea durabilă și protecția resurselor de apă și a celor marine</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Udržateľné využívanie a ochrana vodných a morských zdrojov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Trajnostna raba ter varstvo vodnih in morskih virov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Hållbar användning och skydd av vatten och marina resurser</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

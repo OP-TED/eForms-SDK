@@ -1,14 +1,14 @@
 // Summary
 // sdkVersion='1.1.0'
-// File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55
+// File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10
 6 {ND-Root} #{auxiliary|text|results} // --- 6 Results ---
 	0 {ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value}  // --- Estimated value of the framework agreements in the group of lots ---
-		{BT-1375-Procedure} #{name|BT-1375} // TODO
-		{BT-156-NoticeResult} #{name}: $value ${BT-156-NoticeResult/@currencyID}
+		{BT-1375-Procedure} #{name|BT-1375} // TODO --- Lots included: LOT-0001, LOT-0003
+		{BT-156-NoticeResult} #{name}: $value ${BT-156-NoticeResult/@currencyID} // --- Estimated value of the framework agreements in this group of lots
 	1 {ND-LotResult }   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // --- 6.1 Lots: LOT-XXXX   (Result Lot Identifier)---
 		{BT-142-LotResult}  #{name|BT-142} #{BT-142-LotResult} // --- A winner was chosen? ---
 		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement} // --- Framework agreement ---
 			{BT-709-LotResult} #{name}: $value ${BT-709-LotResult/@currencyID} // --- Framework Maximum Value ---
 			{BT-660-LotResult} #{name}: $value ${BT-660-LotResult/@currencyID} // --- Framework Estimated Value ---
 		2 {ND-LotResult}  #{auxiliary|text|winner}  // --- 6.1.2. Winning tenders ---
-10 {ND-Root} #{auxiliary|text|change} // 10 Change ---
+10 {ND-Root} #{auxiliary|text|change} // 10. Change

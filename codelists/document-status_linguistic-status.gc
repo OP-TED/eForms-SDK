@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>LinguisticStatus</ShortName>
       <LongName>linguistic-status</LongName>
       <LongName Identifier="eFormsParentId">document-status</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,12 +127,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Non-official linguistic version</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Non-official linguistic version</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>official</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Official linguistic version</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Official linguistic version</SimpleValue>
          </Value>
       </Row>

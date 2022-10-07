@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsDnkLvl3</ShortName>
       <LongName>nuts-dnk-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Byen København</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Byen København</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>DK012</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Københavns omegn</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Københavns omegn</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Nordsjælland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Nordsjælland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>DK014</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bornholm</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bornholm</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Østsjælland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Østsjælland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>DK022</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vest- og Sydsjælland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vest- og Sydsjælland</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Fyn</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Fyn</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>DK032</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Sydjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Sydjylland</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vestjylland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vestjylland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>DK042</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Østjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Østjylland</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Nordjylland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Nordjylland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>DKZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

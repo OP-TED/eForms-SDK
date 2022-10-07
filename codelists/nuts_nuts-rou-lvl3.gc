@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsRouLvl3</ShortName>
       <LongName>nuts-rou-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bihor</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bihor</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO112</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bistriţa-Năsăud</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bistriţa-Năsăud</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cluj</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Cluj</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO114</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Maramureş</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Maramureş</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Satu Mare</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Satu Mare</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO116</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Sălaj</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Sălaj</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alba</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Alba</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO122</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Braşov</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Braşov</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Covasna</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Covasna</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO124</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Harghita</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Harghita</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mureş</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mureş</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO126</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Sibiu</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Sibiu</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bacău</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bacău</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO212</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Botoşani</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Botoşani</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Iaşi</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Iaşi</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO214</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Neamţ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Neamţ</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Suceava</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Suceava</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO216</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vaslui</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vaslui</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Brăila</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Brăila</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO222</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Buzău</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Buzău</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Constanţa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Constanţa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO224</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Galaţi</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Galaţi</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tulcea</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tulcea</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO226</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vrancea</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vrancea</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Argeş</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Argeş</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO312</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Călăraşi</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Călăraşi</SimpleValue>
          </Value>
       </Row>
@@ -336,12 +414,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Dâmboviţa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Dâmboviţa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO314</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Giurgiu</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Giurgiu</SimpleValue>
          </Value>
       </Row>
@@ -352,12 +436,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ialomiţa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ialomiţa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO316</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Prahova</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Prahova</SimpleValue>
          </Value>
       </Row>
@@ -368,12 +458,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Teleorman</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Teleorman</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bucureşti</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bucureşti</SimpleValue>
          </Value>
       </Row>
@@ -384,12 +480,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ilfov</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ilfov</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Dolj</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Dolj</SimpleValue>
          </Value>
       </Row>
@@ -400,12 +502,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gorj</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gorj</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO413</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Mehedinţi</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Mehedinţi</SimpleValue>
          </Value>
       </Row>
@@ -416,12 +524,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Olt</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Olt</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO415</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vâlcea</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vâlcea</SimpleValue>
          </Value>
       </Row>
@@ -432,12 +546,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arad</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arad</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>RO422</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Caraş-Severin</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Caraş-Severin</SimpleValue>
          </Value>
       </Row>
@@ -448,6 +568,9 @@
          <Value ColumnRef="Name">
             <SimpleValue>Hunedoara</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Hunedoara</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -456,12 +579,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Timiş</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Timiş</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ROZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

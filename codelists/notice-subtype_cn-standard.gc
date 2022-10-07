@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>CnStandard</ShortName>
       <LongName>cn-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,12 +127,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>16</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>16</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>17</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>17</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>17</SimpleValue>
          </Value>
       </Row>
@@ -141,6 +147,9 @@
             <SimpleValue>18</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>18</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>18</SimpleValue>
          </Value>
       </Row>
@@ -149,6 +158,9 @@
             <SimpleValue>19</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>19</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>19</SimpleValue>
          </Value>
       </Row>
@@ -157,7 +169,10 @@
             <SimpleValue>E3</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>e3</SimpleValue>
+            <SimpleValue>E3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>E3</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

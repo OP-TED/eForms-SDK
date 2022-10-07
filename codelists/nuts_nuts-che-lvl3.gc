@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsCheLvl3</ShortName>
       <LongName>nuts-che-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vaud</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vaud</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH012</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Valais/Wallis</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Valais/Wallis</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Genève</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Genève</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH021</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bern/Berne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bern/Berne</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Fribourg/Freiburg</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Fribourg/Freiburg</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH023</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Solothurn</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Solothurn</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Neuchâtel</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Neuchâtel</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH025</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Jura</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Jura</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Basel-Stadt</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Basel-Stadt</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH032</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Basel-Landschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Basel-Landschaft</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Aargau</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Aargau</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH040</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zürich</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zürich</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Glarus</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Glarus</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH052</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Schaffhausen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Schaffhausen</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Appenzell Ausserrhoden</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Appenzell Ausserrhoden</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH054</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Appenzell Innerrhoden</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Appenzell Innerrhoden</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>St. Gallen</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>St. Gallen</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH056</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Graubünden/Grigioni/Grischun</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Graubünden/Grigioni/Grischun</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Thurgau</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Thurgau</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH061</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Luzern</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Luzern</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Uri</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Uri</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH063</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Schwyz</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Schwyz</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Obwalden</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Obwalden</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CH065</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Nidwalden</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Nidwalden</SimpleValue>
          </Value>
       </Row>
@@ -320,6 +392,9 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zug</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zug</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -328,12 +403,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ticino</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ticino</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>CHZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

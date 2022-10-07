@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Currency</ShortName>
       <LongName>currency</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/currency</LongName>
-      <Version>20220316-0</Version>
+      <Version>20220928-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/currency</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -125,16 +125,16 @@
             <SimpleValue>ADF</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Andorran franc</SimpleValue>
+            <SimpleValue>Andorran francs</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Andorranischer Franc</SimpleValue>
+            <SimpleValue>Andorranische Francs</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Andorran franc</SimpleValue>
+            <SimpleValue>Andorran francs</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Franc andorran</SimpleValue>
+            <SimpleValue>Francs andorrans</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1108,7 +1108,7 @@
             <SimpleValue>Argentine peso ley</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Peso argentin temporaire</SimpleValue>
+            <SimpleValue>Pesos argentins temporaires</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3438,13 +3438,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cruzeiro</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Крузейро</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κρουζέιρο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cruzeiro</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Cruceiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kruseiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kruzeiras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kruzeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cruzeiro</SimpleValue>
          </Value>
       </Row>
@@ -3702,7 +3765,7 @@
             <SimpleValue>Běloruský rubl</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Hviderussisk rubel</SimpleValue>
+            <SimpleValue>Belarusisk rubel</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Belarussischer Rubel</SimpleValue>
@@ -4895,14 +4958,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Czechoslovak koruna</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Чехословашка крона</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Koruna československá</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjekkoslovakisk koruna</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Tschechoslowakische Krone</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κορόνα Τσεχοσλοβακίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Czechoslovak koruna</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Corona checoslovaca</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tšehhoslovakkia kroon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tšekkoslovakian koruna</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Couronne tchécoslovaque</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Koruna na Seicslóvaice</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Čehoslovačka kruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csehszlovák korona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Corona cecoslovacca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Čekoslovakijos krona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Čehoslovākijas koruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Koruna Ċekoslovakka</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Tsjechoslowaakse koruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Korona czechosłowacka</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Coroa checoslovaca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Coroană cehoslovacă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Československá koruna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Češkoslovaška krona</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjeckoslovakisk krona</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -10910,16 +11036,16 @@
             <SimpleValue>MCF</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Monegasque franc</SimpleValue>
+            <SimpleValue>Monegasque francs</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Monegassischer Franc</SimpleValue>
+            <SimpleValue>Monegassische Francs</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Monegasque franc</SimpleValue>
+            <SimpleValue>Monegasque francs</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Franc monégasque</SimpleValue>
+            <SimpleValue>Francs monégasques</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11247,16 +11373,16 @@
             <SimpleValue>MKN</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Denar A/93</SimpleValue>
+            <SimpleValue>Denars A/93</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Denar A/93</SimpleValue>
+            <SimpleValue>Denaren A/93</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Denar A/93</SimpleValue>
+            <SimpleValue>Denars A/93</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Denar A/93</SimpleValue>
+            <SimpleValue>Denars A/93</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11973,7 +12099,7 @@
             <SimpleValue>Maurícijská rupia</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Mauricijska rupija</SimpleValue>
+            <SimpleValue>Mavricijska rupija</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Mauritisk rupie</SimpleValue>
@@ -15747,13 +15873,13 @@
             <SimpleValue>San Marinese lira</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>San Marino-Lira</SimpleValue>
+            <SimpleValue>San Marino-Liren</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>San Marinese lira</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Lire de San Marin</SimpleValue>
+            <SimpleValue>Lires de San Marin</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15841,19 +15967,19 @@
             <SimpleValue>SQS</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Somaliland shilling</SimpleValue>
+            <SimpleValue>Somaliland shillings</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Somalilandský šilink</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Somaliland-Schilling</SimpleValue>
+            <SimpleValue>Somaliland-Schillingen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Σελίνι της Σομαλιλάνδης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Somaliland shilling</SimpleValue>
+            <SimpleValue>Somaliland shillings</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Chelín somalilandés</SimpleValue>
@@ -15862,7 +15988,7 @@
             <SimpleValue>Somalimaan shillinki</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Shilling du Somaliland</SimpleValue>
+            <SimpleValue>Shillings du Somaliland</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Somalilandski šiling</SimpleValue>
@@ -16220,7 +16346,7 @@
             <SimpleValue>Dobra</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Dobra</SimpleValue>
+            <SimpleValue>Dobras</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ντόμπρα</SimpleValue>
@@ -17488,19 +17614,19 @@
             <SimpleValue>TVD</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tuvaluan dollar</SimpleValue>
+            <SimpleValue>Tuvaluan dollars</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Tuvalský dolar</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Tuvaluischer Dollar</SimpleValue>
+            <SimpleValue>Tuvaluische Dollar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Δολάριο Τουβαλού</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tuvaluan dollar</SimpleValue>
+            <SimpleValue>Tuvaluan dollars</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Dólar tuvaluano</SimpleValue>
@@ -17509,7 +17635,7 @@
             <SimpleValue>Tuvalun dollari</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Dollar tuvaluan</SimpleValue>
+            <SimpleValue>Dollars tuvaluans</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Tuvaluški dolar</SimpleValue>
@@ -17704,7 +17830,7 @@
             <SimpleValue>Hřivna</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Grynia</SimpleValue>
+            <SimpleValue>Hryvnia</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Griwna</SimpleValue>
@@ -18658,13 +18784,13 @@
             <SimpleValue>Vatican lira</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Vatikanische Lira</SimpleValue>
+            <SimpleValue>Vatikanische Liren</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Vatican lira</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Lire vaticanaise</SimpleValue>
+            <SimpleValue>Lires vaticanaises</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -20994,14 +21120,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Югославски динар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jugoslávský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jugoslavisk dinar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Jugoslawischer Dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηνάριο Γιουγκοσλαβίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dinar yugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Jugoslaavia dinaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jugoslavian dinaari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dinar yougoslave</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dinar na hIúgslaive</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Jugoslavenski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jugoszláv dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nuovo dinaro iugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Jugoslavijos dinaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dienvidslāvijas dinārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dinar Jugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Joegoslavische dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dinar jugosłowiański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dinar jugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dinar iugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Juhoslovanský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Jugoslovanski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Jugoslavisk ny dinar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -21011,14 +21200,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Югославски динар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jugoslávský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jugoslavisk dinar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Jugoslawischer Dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηνάριο Γιουγκοσλαβίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dinar yugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Jugoslaavia dinaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jugoslavian dinaari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dinar yougoslave</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dinar na hIúgslaive</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Jugoslavenski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jugoszláv dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nuovo dinaro iugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Jugoslavijos dinaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dienvidslāvijas dinārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dinar Jugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Joegoslavische dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dinar jugosłowiański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dinar jugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dinar iugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Juhoslovanský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Jugoslovanski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Jugoslavisk ny dinar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -21026,16 +21278,16 @@
             <SimpleValue>YUG</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Yugoslav dinar</SimpleValue>
+            <SimpleValue>Yugoslav dinars</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Jugoslawischer Dinar</SimpleValue>
+            <SimpleValue>Jugoslawische Dinaren</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Yugoslav dinar</SimpleValue>
+            <SimpleValue>Yugoslav dinars</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Dinar yougoslave</SimpleValue>
+            <SimpleValue>Dinars yougoslaves</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -21125,14 +21377,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Югославски динар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jugoslávský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jugoslavisk dinar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Jugoslawischer Dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηνάριο Γιουγκοσλαβίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dinar yugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Jugoslaavia dinaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jugoslavian dinaari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dinar yougoslave</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dinar na hIúgslaive</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Jugoslavenski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jugoszláv dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nuovo dinaro iugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Jugoslavijos dinaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dienvidslāvijas dinārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dinar Jugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Joegoslavische dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dinar jugosłowiański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dinar jugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dinar iugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Juhoslovanský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Jugoslovanski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Jugoslavisk ny dinar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -21140,16 +21455,16 @@
             <SimpleValue>YUO</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Yugoslav dinar</SimpleValue>
+            <SimpleValue>Yugoslav dinars</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Jugoslawischer Dinar</SimpleValue>
+            <SimpleValue>Jugoslawische Dinaren</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Yugoslav dinar</SimpleValue>
+            <SimpleValue>Yugoslav dinars</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Dinar yougoslave</SimpleValue>
+            <SimpleValue>Dinars yougoslaves</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -21157,16 +21472,16 @@
             <SimpleValue>YUR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Yugoslav dinar</SimpleValue>
+            <SimpleValue>Yugoslav dinars</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Jugoslawischer Dinar</SimpleValue>
+            <SimpleValue>Jugoslawische Dinaren</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Yugoslav dinar</SimpleValue>
+            <SimpleValue>Yugoslav dinars</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Dinar yougoslave</SimpleValue>
+            <SimpleValue>Dinars yougoslaves</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -21176,14 +21491,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Югославски динар</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jugoslávský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jugoslavisk dinar</SimpleValue>
+         </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Jugoslawischer Dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηνάριο Γιουγκοσλαβίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Yugoslav dinar</SimpleValue>
          </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dinar yugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Jugoslaavia dinaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jugoslavian dinaari</SimpleValue>
+         </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dinar yougoslave</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dinar na hIúgslaive</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Jugoslavenski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jugoszláv dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nuovo dinaro iugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Jugoslavijos dinaras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dienvidslāvijas dinārs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dinar Jugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Joegoslavische dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dinar jugosłowiański</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dinar jugoslavo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dinar iugoslav</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Juhoslovanský dinár</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Jugoslovanski dinar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Jugoslavisk ny dinar</SimpleValue>
          </Value>
       </Row>
       <Row>

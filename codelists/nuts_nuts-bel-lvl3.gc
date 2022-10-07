@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsBelLvl3</ShortName>
       <LongName>nuts-bel-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE211</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Antwerpen</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Mechelen</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE213</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Turnhout</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Tongeren</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE224</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Hasselt</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Maaseik</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE231</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Aalst</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Dendermonde</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE233</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Eeklo</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Gent</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE235</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Oudenaarde</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE241</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Leuven</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE251</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Brugge</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Diksmuide</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE253</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Ieper</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Kortrijk</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE255</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Oostende</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Roeselare</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE257</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Tielt</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Veurne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE310</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Nivelles</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Mons</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE328</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
          </Value>
       </Row>
@@ -336,12 +414,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. La Louvière</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE32A</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Ath</SimpleValue>
          </Value>
       </Row>
@@ -352,12 +436,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Charleroi</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE32C</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Soignies</SimpleValue>
          </Value>
       </Row>
@@ -368,12 +458,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Thuin</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE331</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Huy</SimpleValue>
          </Value>
       </Row>
@@ -384,12 +480,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Liège</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE334</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Waremme</SimpleValue>
          </Value>
       </Row>
@@ -400,12 +502,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Verviers - communes francophones</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Verviers - communes francophones</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE336</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bezirk Verviers - Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bezirk Verviers - Deutschsprachige Gemeinschaft</SimpleValue>
          </Value>
       </Row>
@@ -416,12 +524,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Arlon</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE342</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Bastogne</SimpleValue>
          </Value>
       </Row>
@@ -432,12 +546,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE344</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Neufchâteau</SimpleValue>
          </Value>
       </Row>
@@ -448,12 +568,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Virton</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BE351</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arr. Dinant</SimpleValue>
          </Value>
       </Row>
@@ -464,6 +590,9 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Namur</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -472,12 +601,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Philippeville</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>BEZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

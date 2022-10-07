@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsPrtLvl3</ShortName>
       <LongName>nuts-prt-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alto Minho</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Alto Minho</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT112</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Cávado</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Cávado</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ave</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ave</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT11A</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Área Metropolitana do Porto</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Área Metropolitana do Porto</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alto Tâmega</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Alto Tâmega</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT11C</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Tâmega e Sousa</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Tâmega e Sousa</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Douro</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Douro</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT11E</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Terras de Trás-os-Montes</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Terras de Trás-os-Montes</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Algarve</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Algarve</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT16B</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Oeste</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Região de Aveiro</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Região de Aveiro</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT16E</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Região de Coimbra</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Região de Coimbra</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Região de Leiria</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Região de Leiria</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT16G</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Viseu Dão Lafões</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Viseu Dão Lafões</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Beira Baixa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Beira Baixa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT16I</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Médio Tejo</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Beiras e Serra da Estrela</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Beiras e Serra da Estrela</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT170</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alentejo Litoral</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Alentejo Litoral</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT184</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Baixo Alentejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Baixo Alentejo</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lezíria do Tejo</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT186</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Alto Alentejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Alto Alentejo</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alentejo Central</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Alentejo Central</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PT200</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Região Autónoma dos Açores</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Região Autónoma dos Açores</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Região Autónoma da Madeira</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Região Autónoma da Madeira</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PTZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

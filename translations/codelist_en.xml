@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>codelist in English. File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55</comment>
+<comment>codelist in English. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
 <entry key="codelist|name|accelerated-procedure">List of codes to specify whether a procedure is accelerated or not.</entry>
 <entry key="codelist|name|accessibility">This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.</entry>
 <entry key="codelist|name|applicability">This table provides a list of the options pertinent to be chosen for a matter concerning the applicability of predefined fields. It is designed for but not restricted to the context of public procurement.</entry>
@@ -33,6 +33,7 @@
 <entry key="codelist|name|corr">List of allowed Notice Subtype codes for a notice of CN Design Notice Type.</entry>
 <entry key="codelist|name|country">List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.</entry>
 <entry key="codelist|name|cpv">List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.</entry>
+<entry key="codelist|name|criterion">This table provides criteria used for public procurement procedures.</entry>
 <entry key="codelist|name|currency">List of currency codes</entry>
 <entry key="codelist|name|customer-service">This table provides a list of customer services.</entry>
 <entry key="codelist|name|cvd-contract-type">The type of contract of the procurement procedure within the scope of Clean Vehicles Directive 2009/33/EC.</entry>
@@ -149,6 +150,7 @@
 <entry key="codelist|name|result">List of allowed Notice Type codes for a Result Form Type</entry>
 <entry key="codelist|name|review-body-type">This table covers the list of organisations providing the review of a given procedure.</entry>
 <entry key="codelist|name|review-decision-type">This table describes the decision made a review body.</entry>
+<entry key="codelist|name|review-requester-type">Category of Stakeholders that requested a review</entry>
 <entry key="codelist|name|review-status">List of codes for the status of a given review request.</entry>
 <entry key="codelist|name|review-type">List of codes for the identification of the type of review requester</entry>
 <entry key="codelist|name|rewards-penalties">List of codes for rewards and penalties associated to a Public Transportation Service.</entry>
@@ -162,6 +164,7 @@
 <entry key="codelist|name|subcontracting-obligation">This table provides the list of codes and values used for the obligation of the economic operator of sharing parts of the original contract to third parties. The share may refer to the portion of work, services or supplies.</entry>
 <entry key="codelist|name|tender-guarantee-required">List of codes to specify whether a Tender Guarantee is required or not.</entry>
 <entry key="codelist|name|tenderlot-presentation">List of codes to specify whether the submission should deal with all the defined lots.</entry>
+<entry key="codelist|name|timeperiod">List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.</entry>
 <entry key="codelist|name|timeperiods">List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.</entry>
 <entry key="codelist|name|transport-service">This table provides a list of transport services.</entry>
 <entry key="codelist|name|usage">List of codes to indicate whether the associated concept should be used or not.</entry>

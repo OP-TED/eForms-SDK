@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsItaLvl3</ShortName>
       <LongName>nuts-ita-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Torino</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Torino</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC12</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vercelli</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vercelli</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Biella</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Biella</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC14</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Verbano-Cusio-Ossola</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Verbano-Cusio-Ossola</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Novara</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Novara</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC16</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Cuneo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Cuneo</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Asti</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Asti</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC18</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Alessandria</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Alessandria</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Valle d’Aosta/Vallée d’Aoste</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Valle d’Aosta/Vallée d’Aoste</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Imperia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Imperia</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Savona</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Savona</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC33</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Genova</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Genova</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>La Spezia</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>La Spezia</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC41</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Varese</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Varese</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Como</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Como</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC43</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Lecco</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Lecco</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Sondrio</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Sondrio</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC46</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bergamo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bergamo</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Brescia</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Brescia</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC48</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pavia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pavia</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lodi</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lodi</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC4A</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Cremona</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Cremona</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mantova</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mantova</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITC4C</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Milano</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Milano</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Monza e della Brianza</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Monza e della Brianza</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>L’Aquila</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>L’Aquila</SimpleValue>
          </Value>
       </Row>
@@ -336,12 +414,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Teramo</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Teramo</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF13</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pescara</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pescara</SimpleValue>
          </Value>
       </Row>
@@ -352,12 +436,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Chieti</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Chieti</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Isernia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Isernia</SimpleValue>
          </Value>
       </Row>
@@ -368,12 +458,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Campobasso</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Campobasso</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Caserta</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Caserta</SimpleValue>
          </Value>
       </Row>
@@ -384,12 +480,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Benevento</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Benevento</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF33</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Napoli</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Napoli</SimpleValue>
          </Value>
       </Row>
@@ -400,12 +502,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Avellino</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Avellino</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF35</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Salerno</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Salerno</SimpleValue>
          </Value>
       </Row>
@@ -416,12 +524,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Taranto</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Taranto</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF44</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Brindisi</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Brindisi</SimpleValue>
          </Value>
       </Row>
@@ -432,12 +546,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lecce</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lecce</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF46</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Foggia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Foggia</SimpleValue>
          </Value>
       </Row>
@@ -448,12 +568,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bari</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bari</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF48</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Barletta-Andria-Trani</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Barletta-Andria-Trani</SimpleValue>
          </Value>
       </Row>
@@ -464,12 +590,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Potenza</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Potenza</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF52</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Matera</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Matera</SimpleValue>
          </Value>
       </Row>
@@ -480,12 +612,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cosenza</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Cosenza</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF62</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Crotone</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Crotone</SimpleValue>
          </Value>
       </Row>
@@ -496,12 +634,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Catanzaro</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Catanzaro</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITF64</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vibo Valentia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vibo Valentia</SimpleValue>
          </Value>
       </Row>
@@ -512,12 +656,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Reggio di Calabria</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Reggio di Calabria</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITG11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Trapani</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Trapani</SimpleValue>
          </Value>
       </Row>
@@ -528,12 +678,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Palermo</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Palermo</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITG13</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Messina</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Messina</SimpleValue>
          </Value>
       </Row>
@@ -544,12 +700,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Agrigento</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Agrigento</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITG15</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Caltanissetta</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Caltanissetta</SimpleValue>
          </Value>
       </Row>
@@ -560,12 +722,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Enna</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Enna</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITG17</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Catania</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Catania</SimpleValue>
          </Value>
       </Row>
@@ -576,12 +744,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ragusa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ragusa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITG19</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Siracusa</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Siracusa</SimpleValue>
          </Value>
       </Row>
@@ -592,12 +766,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Sassari</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Sassari</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITG2E</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Nuoro</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Nuoro</SimpleValue>
          </Value>
       </Row>
@@ -608,12 +788,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cagliari</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Cagliari</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITG2G</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Oristano</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Oristano</SimpleValue>
          </Value>
       </Row>
@@ -624,12 +810,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Sud Sardegna</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Sud Sardegna</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH10</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bolzano-Bozen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bolzano-Bozen</SimpleValue>
          </Value>
       </Row>
@@ -640,12 +832,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Trento</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Trento</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Verona</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Verona</SimpleValue>
          </Value>
       </Row>
@@ -656,12 +854,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vicenza</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vicenza</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH33</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Belluno</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Belluno</SimpleValue>
          </Value>
       </Row>
@@ -672,12 +876,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Treviso</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Treviso</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH35</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Venezia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Venezia</SimpleValue>
          </Value>
       </Row>
@@ -688,12 +898,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Padova</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Padova</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH37</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Rovigo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Rovigo</SimpleValue>
          </Value>
       </Row>
@@ -704,12 +920,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pordenone</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pordenone</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH42</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Udine</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Udine</SimpleValue>
          </Value>
       </Row>
@@ -720,12 +942,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gorizia</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gorizia</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH44</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Trieste</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Trieste</SimpleValue>
          </Value>
       </Row>
@@ -736,12 +964,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Piacenza</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Piacenza</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH52</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Parma</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Parma</SimpleValue>
          </Value>
       </Row>
@@ -752,12 +986,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Reggio nell’Emilia</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Reggio nell’Emilia</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH54</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Modena</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Modena</SimpleValue>
          </Value>
       </Row>
@@ -768,12 +1008,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bologna</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bologna</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH56</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Ferrara</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Ferrara</SimpleValue>
          </Value>
       </Row>
@@ -784,12 +1030,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ravenna</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ravenna</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITH58</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Forlì-Cesena</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Forlì-Cesena</SimpleValue>
          </Value>
       </Row>
@@ -800,12 +1052,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Rimini</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rimini</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI11</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Massa-Carrara</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Massa-Carrara</SimpleValue>
          </Value>
       </Row>
@@ -816,12 +1074,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lucca</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lucca</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI13</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pistoia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pistoia</SimpleValue>
          </Value>
       </Row>
@@ -832,12 +1096,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Firenze</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Firenze</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI15</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Prato</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Prato</SimpleValue>
          </Value>
       </Row>
@@ -848,12 +1118,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Livorno</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Livorno</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI17</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pisa</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pisa</SimpleValue>
          </Value>
       </Row>
@@ -864,12 +1140,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arezzo</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arezzo</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI19</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Siena</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Siena</SimpleValue>
          </Value>
       </Row>
@@ -880,12 +1162,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Grosseto</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Grosseto</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI21</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Perugia</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Perugia</SimpleValue>
          </Value>
       </Row>
@@ -896,12 +1184,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Terni</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Terni</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI31</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pesaro e Urbino</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pesaro e Urbino</SimpleValue>
          </Value>
       </Row>
@@ -912,12 +1206,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ancona</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ancona</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI33</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Macerata</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Macerata</SimpleValue>
          </Value>
       </Row>
@@ -928,12 +1228,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ascoli Piceno</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ascoli Piceno</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI35</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Fermo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Fermo</SimpleValue>
          </Value>
       </Row>
@@ -944,12 +1250,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Viterbo</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Viterbo</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI42</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Rieti</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Rieti</SimpleValue>
          </Value>
       </Row>
@@ -960,12 +1272,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Roma</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Roma</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITI44</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Latina</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Latina</SimpleValue>
          </Value>
       </Row>
@@ -976,12 +1294,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Frosinone</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Frosinone</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ITZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

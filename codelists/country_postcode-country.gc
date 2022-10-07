@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PostcodeCountry</ShortName>
       <LongName>postcode-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.2.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -1261,7 +1261,7 @@
             <SimpleValue>Bosnien und Herzegowina</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Βοσνία- και Ερζεγοβίνη</SimpleValue>
+            <SimpleValue>Βοσνία και Ερζεγοβίνη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Bosnia and Herzegovina</SimpleValue>
@@ -1276,7 +1276,7 @@
             <SimpleValue>Bosnia ja Hertsegovina</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Bosnie-et-Herzégovine</SimpleValue>
+            <SimpleValue>Bosnie-Herzégovine</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>An Bhoisnia agus an Heirseagaivéin</SimpleValue>
@@ -8275,7 +8275,7 @@
             <SimpleValue>Maurícius</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Mauritius</SimpleValue>
+            <SimpleValue>Mavricij</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Mauritius</SimpleValue>

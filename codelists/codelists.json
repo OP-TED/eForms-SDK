@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.1.0",
   "metadataDatabase" : {
-    "version" : "1.1.0",
-    "createdOn" : "2022-09-14T16:05:55"
+    "version" : "1.2.0",
+    "createdOn" : "2022-10-06T17:10:00"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -178,6 +178,11 @@
     "description" : "List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.",
     "_label" : "codelist|name|cpv"
   }, {
+    "id" : "criterion",
+    "filename" : "criterion.gc",
+    "description" : "This table provides criteria used for public procurement procedures.",
+    "_label" : "codelist|name|criterion"
+  }, {
     "id" : "currency",
     "filename" : "currency.gc",
     "description" : "List of currency codes",
@@ -226,14 +231,14 @@
     "_label" : "codelist|name|dps-usage"
   }, {
     "id" : "duration",
-    "parentId" : "timeperiods",
-    "filename" : "timeperiods_duration.gc",
+    "parentId" : "timeperiod",
+    "filename" : "timeperiod_duration.gc",
     "description" : "List of codes for undefined duration",
     "_label" : "codelist|name|duration"
   }, {
     "id" : "duration-unit",
-    "parentId" : "timeperiods",
-    "filename" : "timeperiods_duration-unit.gc",
+    "parentId" : "timeperiod",
+    "filename" : "timeperiod_duration-unit.gc",
     "description" : "List of codes for eforms allowed duration unit of measure",
     "_label" : "codelist|name|duration-unit"
   }, {
@@ -295,12 +300,6 @@
     "description" : "This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor",
     "_label" : "codelist|name|environmental-impact"
   }, {
-    "id" : "eppn-country",
-    "parentId" : "country",
-    "filename" : "country_eppn-country.gc",
-    "description" : "List of codes for the European Plant Phenotyping Network countries",
-    "_label" : "codelist|name|eppn-country"
-  }, {
     "id" : "esignature-submission",
     "parentId" : "indicator",
     "filename" : "indicator_esignature-submission.gc",
@@ -336,7 +335,8 @@
     "_label" : "codelist|name|eu-programme"
   }, {
     "id" : "exclusion-ground",
-    "filename" : "exclusion-ground.gc",
+    "parentId" : "criterion",
+    "filename" : "criterion_exclusion-ground.gc",
     "description" : "List of codes for Exclusion Ground identification",
     "_label" : "codelist|name|exclusion-ground"
   }, {
@@ -831,6 +831,12 @@
     "description" : "This table describes the decision made a review body.",
     "_label" : "codelist|name|review-decision-type"
   }, {
+    "id" : "review-requester-type",
+    "parentId" : "organisation-role",
+    "filename" : "organisation-role_review-requester-type.gc",
+    "description" : "Category of Stakeholders that requested a review",
+    "_label" : "codelist|name|review-requester-type"
+  }, {
     "id" : "review-status",
     "filename" : "review-status.gc",
     "description" : "List of codes for the status of a given review request.",
@@ -900,10 +906,10 @@
     "description" : "List of codes to specify whether the submission should deal with all the defined lots.",
     "_label" : "codelist|name|tenderlot-presentation"
   }, {
-    "id" : "timeperiods",
-    "filename" : "timeperiods.gc",
+    "id" : "timeperiod",
+    "filename" : "timeperiod.gc",
     "description" : "List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.",
-    "_label" : "codelist|name|timeperiods"
+    "_label" : "codelist|name|timeperiod"
   }, {
     "id" : "transport-service",
     "filename" : "transport-service.gc",
