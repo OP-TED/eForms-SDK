@@ -1,6 +1,6 @@
 // Summary
 // sdkVersion='1.1.0'
-// File generated from metadata database version 1.1.235 created on the 2022-10-05T17:04:51
+// File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10
 6 {ND-Root} #{auxiliary|text|results} // --- 6 Results ---
 	0 {ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value}  // --- Estimated value of the framework agreements in the group of lots ---
 		{BT-1375-Procedure} #{name|BT-1375} // TODO --- Lots included: LOT-0001, LOT-0003
@@ -11,4 +11,4 @@
 			{BT-709-LotResult} #{name}: $value ${BT-709-LotResult/@currencyID} // --- Framework Maximum Value ---
 			{BT-660-LotResult} #{name}: $value ${BT-660-LotResult/@currencyID} // --- Framework Estimated Value ---
 		2 {ND-LotResult}  #{auxiliary|text|winner}  // --- 6.1.2. Winning tenders ---
-10 {ND-Root} #{auxiliary|text|change} // 10 Change ---
+10 {ND-Root} #{auxiliary|text|change} // 10. Change
