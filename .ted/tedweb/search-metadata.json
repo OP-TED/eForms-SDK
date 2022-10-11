@@ -119,6 +119,10 @@
 		"efx": "{ND-Root} ${/BT-125(i)-Lot}",
 		"comment": "Previous Planning Identifier"
 	},
+	"BT-1501-n": {
+		"efx": "{ND-Root} ${/BT-1501(n)-Contract}",
+		"comment": "Modification Previous Notice Identifier"
+	},
 	"SUB_LG": {
 		"efx": "{ND-Root} ${/BT-97-Lot}",
 		"comment": "Languages in which tenders may be submitted"
