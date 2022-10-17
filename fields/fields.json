@@ -26454,34 +26454,6 @@
       "severity" : "ERROR"
     }
   }, {
-    "id" : "OPT-090-LotsGroup",
-    "parentNodeId" : "ND-LotsGroupBuyerCategories",
-    "name" : "Buyer Categories",
-    "btId" : "OPT-090",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name",
-    "xpathRelative" : "cbc:Name",
-    "type" : "code",
-    "repeatable" : {
-      "value" : false,
-      "severity" : "ERROR"
-    },
-    "forbidden" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "14", "15", "19", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "codeList" : {
-      "value" : {
-        "id" : "buyer-categories",
-        "type" : "flat"
-      },
-      "severity" : "ERROR"
-    }
-  }, {
     "id" : "OPT-091-ReviewReq",
     "parentNodeId" : "ND-ReviewStatus",
     "name" : "Review Requester Type",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10.-->
+<!--File generated from metadata database version 1.2.12 created on the 2022-10-14T12:02:29.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -715,9 +715,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='customer-service']/cbc:ExecutionRequirementCode">
 		<assert id="BR-OPT-00071-0051" role="ERROR" test="normalize-space(.) = ('assistance', 'cancel', 'clean', 'complaint', 'info', 'other', 'reliability', 'sat-surv', 'ticket')">rule|text|BR-OPT-00071-0051</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name">
-		<assert id="BR-OPT-00090-0103" role="ERROR" test="normalize-space(.) = ('buyer-categories')">rule|text|BR-OPT-00090-0103</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name">
 		<assert id="BR-OPT-00090-0104" role="ERROR" test="normalize-space(.) = ('buyer-categories')">rule|text|BR-OPT-00090-0104</assert>
