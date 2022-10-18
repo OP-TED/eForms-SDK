@@ -16431,8 +16431,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "nuts",
-        "type" : "hierarchical"
+        "id" : "nuts-lvl3",
+        "type" : "flat",
+        "parentId" : "nuts"
       },
       "severity" : "ERROR"
     }
@@ -16474,8 +16475,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "nuts",
-        "type" : "hierarchical"
+        "id" : "nuts-lvl3",
+        "type" : "flat",
+        "parentId" : "nuts"
       },
       "severity" : "ERROR"
     }
@@ -16517,8 +16519,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "nuts",
-        "type" : "hierarchical"
+        "id" : "nuts-lvl3",
+        "type" : "flat",
+        "parentId" : "nuts"
       },
       "severity" : "ERROR"
     }
@@ -16560,8 +16563,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "nuts",
-        "type" : "hierarchical"
+        "id" : "nuts-lvl3",
+        "type" : "flat",
+        "parentId" : "nuts"
       },
       "severity" : "ERROR"
     }
@@ -16604,8 +16608,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "nuts",
-        "type" : "hierarchical"
+        "id" : "nuts-lvl3",
+        "type" : "flat",
+        "parentId" : "nuts"
       },
       "severity" : "ERROR"
     }
@@ -16648,8 +16653,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "nuts",
-        "type" : "hierarchical"
+        "id" : "nuts-lvl3",
+        "type" : "flat",
+        "parentId" : "nuts"
       },
       "severity" : "ERROR"
     }
@@ -16692,8 +16698,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "nuts",
-        "type" : "hierarchical"
+        "id" : "nuts-lvl3",
+        "type" : "flat",
+        "parentId" : "nuts"
       },
       "severity" : "ERROR"
     }
