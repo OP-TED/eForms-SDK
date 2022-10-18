@@ -38,10 +38,12 @@
 	<xsd:element name="ExtendedDurationIndicator" type="ExtendedDurationIndicatorType"/>
 	<xsd:element name="FieldIdentifierCode" type="FieldIdentifierCodeType"/>
 	<xsd:element name="FinancingIdentifier" type="FinancingIdentifierType"/>
+	<xsd:element name="FrameworkMaximumAmount" type="FrameworkMaximumAmountType"/>
 	<xsd:element name="GazetteID" type="GazetteIDType"/>
 	<xsd:element name="GroupType" type="GroupTypeType"/>
 	<xsd:element name="GroupTypeCode" type="GroupTypeCodeType"/>
-	<xsd:element name="GroupFrameworkValueAmount" type="GroupFrameworkValueAmountType"/>
+	<xsd:element name="GroupFrameworkMaximumValueAmount" type="GroupFrameworkMaximumValueAmountType"/>
+	<xsd:element name="GroupFrameworkReestimatedValueAmount" type="GroupFrameworkReestimatedValueAmountType"/>
 	<xsd:element name="GroupLeadIndicator" type="GroupLeadIndicatorType"/>
 	<xsd:element name="IrregularityTypeCode" type="IrregularityTypeCodeType"/>
 	<xsd:element name="ItemClassificationDescription" type="ItemClassificationDescriptionType"/>
@@ -49,6 +51,8 @@
 	<xsd:element name="NaturalPersonIndicator" type="NaturalPersonIndicatorType"/>
 	<xsd:element name="NonAwardJustificationCode" type="NonAwardJustificationCodeType"/>
 	<xsd:element name="NoticePublicationID" type="NoticePublicationIDType"/>
+	<xsd:element name="OverallApproximateFrameworkContractsAmount" type="OverallApproximateFrameworkContractsAmountType"/>
+	<xsd:element name="OverallMaximumFrameworkContractsAmount" type="OverallMaximumFrameworkContractsAmountType"/>
 	<xsd:element name="PaidAmountDescription" type="PaidAmountDescriptionType"/>
 	<xsd:element name="ParameterNumeric" type="ParameterNumericType"/>
 	<xsd:element name="ParameterCode" type="ParameterCodeType"/>
@@ -61,6 +65,7 @@
 	<xsd:element name="ProcurementDocumentsChangeDate" type="ProcurementDocumentsChangeDateType"/>
 	<xsd:element name="ProcurementDocumentsChangeIndicator" type="ProcurementDocumentsChangeIndicatorType"/>
 	<xsd:element name="ReasonDescription" type="ReasonDescriptionType"/>
+	<xsd:element name="ReestimatedValueAmount" type="ReestimatedValueAmountType"/>
 	<xsd:element name="RemedyAmount" type="RemedyAmountType"/>
 	<xsd:element name="RemedyTypeCode" type="RemedyTypeCodeType"/>
 	<xsd:element name="RevenueBuyerAmount" type="RevenueBuyerAmountType"/>
@@ -222,6 +227,11 @@
 			<xsd:restriction base="udt:IdentifierType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
+	<xsd:complexType name="FrameworkMaximumAmountType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:AmountType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
 	<xsd:complexType name="GazetteIDType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:IdentifierType"/>
@@ -237,7 +247,12 @@
 			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
-	<xsd:complexType name="GroupFrameworkValueAmountType">
+	<xsd:complexType name="GroupFrameworkMaximumValueAmountType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:AmountType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="GroupFrameworkReestimatedValueAmountType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:AmountType"/>
 		</xsd:simpleContent>
@@ -280,6 +295,16 @@
 	<xsd:complexType name="NoticeSubtypeCodeType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="OverallApproximateFrameworkContractsAmountType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:AmountType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="OverallMaximumFrameworkContractsAmountType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:AmountType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="PaidAmountDescriptionType">
@@ -340,6 +365,11 @@
 	<xsd:complexType name="ReasonDescriptionType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:TextType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ReestimatedValueAmountType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:AmountType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="RemedyAmountType">
