@@ -25116,6 +25116,105 @@
       } ]
     }
   }, {
+    "id" : "OPA-36-Lot-Number",
+    "parentNodeId" : "ND-LotDuration",
+    "name" : "Numeric value of the duration period",
+    "btId" : "BT-36",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure",
+    "xpathRelative" : "cbc:DurationMeasure",
+    "type" : "number",
+    "legalType" : "DURATION",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "36", "37", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "T01", "T02" ],
+        "condition" : "{ND-LotDuration} ${(BT-537-Lot is present) or (BT-538-Lot is present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "15", "16", "17", "18", "19", "22", "CEI", "T01", "T02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "OPA-36-Part-Number",
+    "parentNodeId" : "ND-PartDuration",
+    "name" : "Numeric value of the duration period",
+    "btId" : "BT-36",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure",
+    "xpathRelative" : "cbc:DurationMeasure",
+    "type" : "number",
+    "legalType" : "DURATION",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "4", "5", "6" ],
+        "condition" : "{ND-PartDuration} ${BT-537-Part is present or BT-538-Part is present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "OPA-98-Lot-Number",
+    "parentNodeId" : "ND-LotTenderingTerms",
+    "name" : "Numeric value of the tender validity deadline",
+    "btId" : "BT-98",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure",
+    "xpathRelative" : "cac:TenderValidityPeriod/cbc:DurationMeasure",
+    "type" : "number",
+    "legalType" : "DURATION",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22" ],
+        "condition" : "{ND-LotTenderingTerms} ${not(BT-105-Procedure == 'open')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "16", "17" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
     "id" : "OPP-010-notice",
     "parentNodeId" : "ND-RootExtension",
     "name" : "Notice Publication Number",
