@@ -69,6 +69,7 @@
 	<xsd:element name="StatisticsNumeric" type="StatisticsNumericType"/>
 	<xsd:element name="StatisticsCode" type="StatisticsCodeType"/>
 	<xsd:element name="SubTypeDescription" type="SubTypeDescriptionType"/>
+	<xsd:element name="TenderRankedIndicator" type="TenderRankedIndicatorType"/>
 	<xsd:element name="TenderSubcontractingRequirementsCode" type="TenderSubcontractingRequirementsCodeType"/>
 	<xsd:element name="TenderSubcontractingRequirementsDescription" type="TenderSubcontractingRequirementsDescriptionType"/>
 	<xsd:element name="TenderVariantIndicator" type="TenderVariantIndicatorType"/>
@@ -379,6 +380,11 @@
 	<xsd:complexType name="SubTypeDescriptionType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:TextType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="TenderRankedIndicatorType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:IndicatorType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="TenderSubcontractingRequirementsCodeType">
