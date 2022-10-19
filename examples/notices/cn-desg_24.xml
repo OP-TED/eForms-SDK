@@ -292,7 +292,7 @@
 					<cbc:Description languageID="FRA">Une indemnité forfaitaire d'un montant identique à celui versé aux concurrents non retenus sera payée à l'équipe lauréate sous forme d'avance sur le marché de maîtrise d'œuvre dès l'issue du concours; cette somme étant à valoir sur le montant des honoraires à percevoir ultérieurement au titre du marché de maîtrise d'œuvre.</cbc:Description>
 				</cac:Prize>
 				<cac:Prize>
-					<cbc:RankCode>>= 1</cbc:RankCode>
+					<cbc:RankCode>2</cbc:RankCode>
 					<cbc:ValueAmount currencyID="EUR">10000</cbc:ValueAmount>
 					<cbc:Description languageID="FRA">Les trois concurrents (candidats admis à concourir) recevront une indemnisation forfaitaire maximale de 10 000 EUR HT. Pour les prestations fournies, sous réserve de la recevabilité de leurs prestations au regard du règlement du concours et du respect du programme. Les indemnisations sont forfaitaires, conformément aux dispositions de l'article R. 2172-4 du code de la commande publique, l'acheteur, sur proposition du jury, se réserve le droit, dans le cas d'un projet qu'il jugerait incomplet ou dont les prestations seraient non conformes par rapport au règlement de concours et ou au programme, de supprimer totalement ou partiellement l'indemnité.</cbc:Description>
 				</cac:Prize>
