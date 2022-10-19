@@ -1348,11 +1348,6 @@
 			<cac:FrameworkAgreement>
 				<!--"id" : "BT-157-LotsGroup", "name" : "Group Framework Estimated Maximum Value"-->
 				<cbc:EstimatedMaximumValueAmount currencyID="EUR">10000</cbc:EstimatedMaximumValueAmount>
-				<cac:SubsequentProcessTenderRequirement>
-					<!--"id" : "OPT-090-LotsGroup", "name" : "Buyer Categories"-->
-					<!-- Note : Name element required in UBL - in addition to BT-111. A single value expected, the pattern "buyer-categories" -->
-					<cbc:Name>buyer-categories</cbc:Name>
-				</cac:SubsequentProcessTenderRequirement>
 			</cac:FrameworkAgreement>
 		</cac:TenderingProcess>
 		<!-- GLO - Procurement project -->

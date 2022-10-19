@@ -675,10 +675,6 @@
 			<cac:FrameworkAgreement>
 				<!--BT-157-->
 				<cbc:EstimatedMaximumValueAmount  currencyID="EUR">10000</cbc:EstimatedMaximumValueAmount>
-				<cac:SubsequentProcessTenderRequirement>
-					<!--OPT-090-->
-					<cbc:Name>buyer-categories</cbc:Name>
-				</cac:SubsequentProcessTenderRequirement>
 			</cac:FrameworkAgreement>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
