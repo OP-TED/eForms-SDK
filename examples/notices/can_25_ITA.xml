@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
-						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">4000000</cbc:EstimatedOverallFrameworkContractsAmount>
+						<efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">4000000</efbc:OverallMaximumFrameworkContractsAmount>
 						<efac:LotResult>
 							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
@@ -15,8 +15,8 @@
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
 							<efac:FrameworkAgreementValues>
-								<cbc:EstimatedMaximumValueAmount currencyID="EUR">4000000</cbc:EstimatedMaximumValueAmount>
 								<cbc:MaximumValueAmount currencyID="EUR">4000000</cbc:MaximumValueAmount>
+								<efbc:ReestimatedValueAmount currencyID="EUR">4000000</efbc:ReestimatedValueAmount>
 							</efac:FrameworkAgreementValues>
 							<efac:ReceivedSubmissionsStatistics>
 								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>

@@ -18,7 +18,7 @@
 						<!--"id" : "BT-161-NoticeResult", "name" : "Notice Value"-->
 						<cbc:TotalAmount currencyID="EUR">9999999.99</cbc:TotalAmount>
 						<!--"id" : "BT-118-NoticeResult",  "name" : "Notice Framework Value"-->
-						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="EUR">9999999.99</cbc:EstimatedOverallFrameworkContractsAmount>
+						<efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">9999999.99</efbc:OverallMaximumFrameworkContractsAmount>
 						<!-- -->
 						<!-- RESULTS - LOT-0001-->
 						<!-- -->
@@ -50,10 +50,10 @@
 								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							</efac:LotTender>
 							<efac:FrameworkAgreementValues>
-								<!--"id" : "BT-660-LotResult",  "name" : "Framework Estimated Value"-->
-								<cbc:EstimatedMaximumValueAmount currencyID="EUR">9999999.99</cbc:EstimatedMaximumValueAmount>
 								<!--"id" : "BT-709-LotResult", "name" : "Framework Maximum Value"-->
 								<cbc:MaximumValueAmount currencyID="EUR">9999999.99</cbc:MaximumValueAmount>
+								<!--"id" : "BT-660-LotResult",  "name" : "Framework Estimated Value"-->
+								<efbc:ReestimatedValueAmount currencyID="EUR">9999999.99</efbc:ReestimatedValueAmount>
 							</efac:FrameworkAgreementValues>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
