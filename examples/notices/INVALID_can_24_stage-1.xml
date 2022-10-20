@@ -41,6 +41,12 @@
 								<cac:PartyIdentification>
 									<cbc:ID></cbc:ID>
 								</cac:PartyIdentification>
+								<cac:PostalAddress>
+
+								</cac:PostalAddress>
+								<cac:Contact>
+
+								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 					</efac:Organizations>
@@ -67,6 +73,9 @@
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 
+		<cac:MainCommodityClassification>
+
+		</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot"></cbc:ID>

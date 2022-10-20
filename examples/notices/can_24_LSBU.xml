@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
-						<cbc:EstimatedOverallFrameworkContractsAmount currencyID="GBP">4500000</cbc:EstimatedOverallFrameworkContractsAmount>
+						<efbc:OverallMaximumFrameworkContractsAmount currencyID="GBP">4500000</efbc:OverallMaximumFrameworkContractsAmount>
 						<efac:LotResult>
 							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
@@ -15,7 +15,7 @@
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
 							<efac:FrameworkAgreementValues>
-								<cbc:EstimatedMaximumValueAmount currencyID="GBP">4500000</cbc:EstimatedMaximumValueAmount>
+								<cbc:MaximumValueAmount currencyID="GBP">4500000</cbc:MaximumValueAmount>
 							</efac:FrameworkAgreementValues>
 							<efac:ReceivedSubmissionsStatistics>
 								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
@@ -187,7 +187,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.3</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">34453177-5a72-4c6f-b531-19b5aaa217ba</cbc:ID>
 	<cbc:ContractFolderID>d5049cd6-caec-47cd-ab5f-2f7715f975e0</cbc:ContractFolderID>
 	<cbc:IssueDate>2018-08-02+01:00</cbc:IssueDate>
