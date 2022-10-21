@@ -91,7 +91,7 @@ cbc:CustomizationID</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|text|BR-OPT-00300-0107</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root|OPT-300-Procedure-Buyer">
+      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer">
 cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
@@ -119,7 +119,7 @@ cac:PartyLegalEntity/cbc:CompanyID</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:Contact/cbc:Telephone) &gt; 0">
       <svrl:text>rule|text|BR-BT-00503-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Company|BT-503-Organization-Company">
+      <svrl:diagnostic-reference diagnostic="ND-Company_BT-503-Organization-Company">
 cac:Contact/cbc:Telephone</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00506-0007"
@@ -127,7 +127,7 @@ cac:Contact/cbc:Telephone</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
       <svrl:text>rule|text|BR-BT-00506-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Company|BT-506-Organization-Company">
+      <svrl:diagnostic-reference diagnostic="ND-Company_BT-506-Organization-Company">
 cac:Contact/cbc:ElectronicMail</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00513-0007"
@@ -135,7 +135,7 @@ cac:Contact/cbc:ElectronicMail</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:PostalAddress/cbc:CityName) &gt; 0">
       <svrl:text>rule|text|BR-BT-00513-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Company|BT-513-Organization-Company">
+      <svrl:diagnostic-reference diagnostic="ND-Company_BT-513-Organization-Company">
 cac:PostalAddress/cbc:CityName</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00514-0007"
@@ -143,7 +143,7 @@ cac:PostalAddress/cbc:CityName</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">
       <svrl:text>rule|text|BR-BT-00514-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Company|BT-514-Organization-Company">
+      <svrl:diagnostic-reference diagnostic="ND-Company_BT-514-Organization-Company">
 cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
@@ -186,7 +186,7 @@ cbc:Description</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
       <svrl:text>rule|text|BR-BT-00262-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope|BT-262-Procedure">
+      <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope_BT-262-Procedure">
 cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '4']"/>
@@ -246,7 +246,7 @@ cbc:Description</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
       <svrl:text>rule|text|BR-BT-00262-0057</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-PartProcurementScope|BT-262-Part">
+      <svrl:diagnostic-reference diagnostic="ND-PartProcurementScope_BT-262-Part">
 cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-2b" name="EFORMS-validation-stage-2b"/>

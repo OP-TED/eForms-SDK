@@ -145,7 +145,7 @@ cbc:CustomizationID</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|text|BR-OPT-00300-0122</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root|OPT-300-Procedure-Buyer">
+      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer">
 cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
@@ -196,7 +196,7 @@ cbc:Description</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">
       <svrl:text>rule|text|BR-BT-00262-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope|BT-262-Procedure">
+      <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope_BT-262-Procedure">
 cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-2b" name="EFORMS-validation-stage-2b"/>

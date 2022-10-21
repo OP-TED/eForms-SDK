@@ -858,7 +858,7 @@ cbc:CalculationExpression</svrl:diagnostic-reference>
                        role="ERROR"
                        test="every $sps in cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID satisfies $sps != cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())">
       <svrl:text>rule|text|BR-OPT-00300-0254</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root|OPT-300-Procedure-Buyer">
+      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer">
 cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00300-0255"
@@ -866,7 +866,7 @@ cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-r
                        role="ERROR"
                        test="(every $tenderer in ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID satisfies $tenderer != cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) and (every $subcont in ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID satisfies $subcont != cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">
       <svrl:text>rule|text|BR-OPT-00300-0255</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root|OPT-300-Procedure-Buyer">
+      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer">
 cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
@@ -905,7 +905,7 @@ cbc:ID</svrl:diagnostic-reference>
                        role="ERROR"
                        test="every $mediator in /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID satisfies $mediator != efac:Tenderer/cbc:ID/normalize-space(text())">
       <svrl:text>rule|text|BR-OPT-00300-0256</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-TenderingParty|OPT-300-Tenderer">
+      <svrl:diagnostic-reference diagnostic="ND-TenderingParty_OPT-300-Tenderer">
 efac:Tenderer/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00300-0257"
@@ -913,7 +913,7 @@ efac:Tenderer/cbc:ID</svrl:diagnostic-reference>
                        role="ERROR"
                        test="every $psp in ../../../../../../cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID satisfies $psp != efac:Tenderer/cbc:ID/normalize-space(text())">
       <svrl:text>rule|text|BR-OPT-00300-0257</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-TenderingParty|OPT-300-Tenderer">
+      <svrl:diagnostic-reference diagnostic="ND-TenderingParty_OPT-300-Tenderer">
 efac:Tenderer/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00300-0258"
@@ -921,7 +921,7 @@ efac:Tenderer/cbc:ID</svrl:diagnostic-reference>
                        role="ERROR"
                        test="every $revOrg in /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID satisfies $revOrg != efac:Tenderer/cbc:ID/normalize-space(text())">
       <svrl:text>rule|text|BR-OPT-00300-0258</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-TenderingParty|OPT-300-Tenderer">
+      <svrl:diagnostic-reference diagnostic="ND-TenderingParty_OPT-300-Tenderer">
 efac:Tenderer/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations"/>
@@ -933,7 +933,7 @@ efac:Tenderer/cbc:ID</svrl:diagnostic-reference>
                        role="WARN"
                        test="((../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']/normalize-space(text()) = 'eu-funds') or (cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MDA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','UKR'))) or not(cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">
       <svrl:text>rule|text|BR-BT-00514-0304</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Company|BT-514-Organization-Company">
+      <svrl:diagnostic-reference diagnostic="ND-Company_BT-514-Organization-Company">
 cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
