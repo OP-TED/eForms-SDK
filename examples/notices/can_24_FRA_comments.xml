@@ -291,8 +291,8 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<!--BT-501 using ISO ICD list - Peppol codelist -->
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<!--BT-501 Organisation Identifier -->
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502 Organization Contact Point (Role or Department preferred, Individual name only when strictly necessary)-->
@@ -331,7 +331,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
@@ -363,7 +363,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -397,8 +397,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501 Organisation Identifier -->
-									<cbc:CompanyID schemeID="SIREN">326 912 557</cbc:CompanyID>
-									<!-- Beneficial owner of the winning organisation-->
+									<cbc:CompanyID>326 912 557</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 2 35 67 82 82</cbc:Telephone>
@@ -432,7 +431,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501 using ISO ICD list - Peppol codelist -->
-									<cbc:CompanyID schemeID="002">339 609 661</cbc:CompanyID>
+									<cbc:CompanyID>339 609 661</cbc:CompanyID>
 									<!-- Beneficial owner of the winning organisation-->
 								</cac:PartyLegalEntity>
 								<cac:Contact>

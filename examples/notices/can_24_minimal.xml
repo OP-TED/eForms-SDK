@@ -90,7 +90,7 @@ But with the minimal amount of information while still valid
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 235156161</cbc:Telephone>
@@ -115,7 +115,7 @@ But with the minimal amount of information while still valid
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 232081270</cbc:Telephone>
@@ -145,7 +145,7 @@ But with the minimal amount of information while still valid
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="SIREN">326 912 557</cbc:CompanyID>
+									<cbc:CompanyID>326 912 557</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 2 35 67 82 82</cbc:Telephone>

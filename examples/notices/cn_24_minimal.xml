@@ -28,7 +28,7 @@ But with the minimal amount of information while still valid
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="ABC">EU-PO</cbc:CompanyID>
+									<cbc:CompanyID>EU-PO</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 292944331</cbc:Telephone>
