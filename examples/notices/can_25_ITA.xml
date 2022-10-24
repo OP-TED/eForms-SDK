@@ -7,6 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<efbc:OverallApproximateFrameworkContractsAmount currencyID="EUR">4000000</efbc:OverallApproximateFrameworkContractsAmount>
 						<efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">4000000</efbc:OverallMaximumFrameworkContractsAmount>
 						<efac:LotResult>
 							<cbc:ID schemeName="result">RES-0001</cbc:ID>
