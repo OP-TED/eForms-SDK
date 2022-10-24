@@ -772,14 +772,6 @@ efbc:DPSTerminationIndicator</svrl:diagnostic-reference>
 efac:SettledContract/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
-   <svrl:failed-assert id="BR-BT-00171-0036"
-                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
-                       role="ERROR"
-                       test="count(cbc:RankCode) &gt; 0 or (cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text()))">
-      <svrl:text>rule|text|BR-BT-00171-0036</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-171-Tender">
-cbc:RankCode</svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00720-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
@@ -787,6 +779,14 @@ cbc:RankCode</svrl:diagnostic-reference>
       <svrl:text>rule|text|BR-BT-00720-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-720-Tender">
 cac:LegalMonetaryTotal/cbc:PayableAmount</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-01711-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+                       role="ERROR"
+                       test="count(efbc:TenderRankedIndicator) &gt; 0 or (cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text()))">
+      <svrl:text>rule|text|BR-BT-01711-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-1711-Tender">
+efbc:TenderRankedIndicator</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-13714-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"

@@ -650,13 +650,13 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
 efbc:DPSTerminationIndicator</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
-   <svrl:failed-assert id="BR-BT-00171-0036"
+   <svrl:failed-assert id="BR-BT-01711-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
-                       test="count(cbc:RankCode) &gt; 0 or (cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text()))">
-      <svrl:text>rule|text|BR-BT-00171-0036</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-171-Tender">
-cbc:RankCode</svrl:diagnostic-reference>
+                       test="count(efbc:TenderRankedIndicator) &gt; 0 or (cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text()))">
+      <svrl:text>rule|text|BR-BT-01711-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-1711-Tender">
+efbc:TenderRankedIndicator</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>

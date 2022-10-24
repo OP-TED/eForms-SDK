@@ -198,6 +198,7 @@
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Name"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Description"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address"/>
