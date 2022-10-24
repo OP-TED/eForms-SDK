@@ -189,6 +189,8 @@
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<!--"id": "BT-171-Tender",	"name": "Tender Rank"-->
 							<cbc:RankCode>3</cbc:RankCode>
+							<!--"id": "BT-1711-Tender",	"name": "Tender Ranked"-->
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--"id": "BT-193-Tender","name": "Tender Variant",-->
 							<efbc:TenderVariantIndicator>true</efbc:TenderVariantIndicator>
 							<cac:LegalMonetaryTotal>
@@ -230,6 +232,8 @@
 							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							<!--"id": "BT-171-Tender",	"name": "Tender Rank"-->
 							<cbc:RankCode>4</cbc:RankCode>
+							<!--"id": "BT-1711-Tender",	"name": "Tender Ranked"-->
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--"id": "BT-193-Tender","name": "Tender Variant",-->
 							<efbc:TenderVariantIndicator>true</efbc:TenderVariantIndicator>
 							<cac:LegalMonetaryTotal>

@@ -146,6 +146,8 @@
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<!--BT-171 Tender Rank-->
 							<cbc:RankCode>1</cbc:RankCode>
+							<!--BT-1711	Tender Ranked-->
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--BT-193 Tender Variant-->
 							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
 							<!--BT-720 Tender Value for lots & group of lots all together-->
@@ -174,6 +176,8 @@
 							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							<!--BT-171 Tender Rank-->
 							<cbc:RankCode>1</cbc:RankCode>
+							<!--BT-1711	Tender Ranked-->
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--BT-193 Tender Variant-->
 							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
 							<!--BT-720 Tender Value for lots & group of lots all together-->
