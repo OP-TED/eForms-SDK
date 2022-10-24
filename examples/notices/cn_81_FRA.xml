@@ -264,6 +264,7 @@ En tout état de cause, le mandataire doit être solidaire de tous les membres d
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
 						<cbc:Description languageID="FRA">Offre économiquement la plus avantageuse, appréciée en fonction des critères suivants des critères énoncés dans le cahier des charges, dans l’invitation à soumissionner ou à négocier, ou dans le document descriptif</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
