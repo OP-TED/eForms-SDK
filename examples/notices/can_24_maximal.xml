@@ -1597,7 +1597,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-774-Lot",	"name": "Green Procurement-->
-				<cbc:ProcurementTypeCode listName="environmental-impact">emas-com</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-775-Lot",	"name": "Social Procurement"-->
@@ -1886,7 +1886,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-774-Lot",	"name": "Green Procurement-->
-				<cbc:ProcurementTypeCode listName="environmental-impact">emas-com</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-775-Lot",	"name": "Social Procurement"-->

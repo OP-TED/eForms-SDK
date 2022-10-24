@@ -1155,7 +1155,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-774-->
-				<cbc:ProcurementTypeCode listName="environmental-impact">emas-com</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-775-->
@@ -1704,7 +1704,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-774-->
-				<cbc:ProcurementTypeCode listName="environmental-impact">emas-com</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-775-->
