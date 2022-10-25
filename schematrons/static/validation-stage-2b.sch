@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.2.130 created on the 2022-10-24T13:29:25.-->
+<!--File generated from metadata database version 1.2.151 created on the 2022-10-25T10:45:30.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -165,8 +165,8 @@
 		<assert id="BT-755-Lot_B" role="ERROR" diagnostics="BT-755-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:ProcurementType/@languageID = $lg) or count(cbc:ProcurementType) = 0">rule|text|BT-755-Lot_B</assert>
 		<assert id="BT-755-Lot_C" role="ERROR" diagnostics="BT-755-Lot" test="(every $lg in (cbc:ProcurementType/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:ProcurementType) = 0">rule|text|BT-755-Lot_C</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='green-procurement-criteria']">
-		<assert id="BT-805-Lot_R" role="ERROR" diagnostics="BT-805-Lot" test="count(cbc:ProcurementTypeCode[@listName='green-procurement-criteria']) &lt; 2">rule|text|BT-805-Lot_R</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='gpp-criteria']">
+		<assert id="BT-805-Lot_R" role="ERROR" diagnostics="BT-805-Lot" test="count(cbc:ProcurementTypeCode[@listName='gpp-criteria']) &lt; 2">rule|text|BT-805-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='strategic-procurement']">
 		<assert id="BT-777-Lot_A" role="ERROR" diagnostics="BT-777-Lot" test="count(cbc:ProcurementType[@languageID = preceding-sibling::cbc:ProcurementType/@languageID]) = 0">rule|text|BT-777-Lot_A</assert>

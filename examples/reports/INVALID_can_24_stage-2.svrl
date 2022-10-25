@@ -841,7 +841,7 @@ efbc:ListedOnRegulatedMarketIndicator</svrl:diagnostic-reference>
    <svrl:failed-assert id="BR-BT-00543-0088"
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion"
                        role="ERROR"
-                       test="count(cbc:CalculationExpression) &gt; 0 or not(not(cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric))">
+                       test="count(cbc:CalculationExpression) &gt; 0 or (cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric)">
       <svrl:text>rule|text|BR-BT-00543-0088</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-543-Lot">
 cbc:CalculationExpression</svrl:diagnostic-reference>

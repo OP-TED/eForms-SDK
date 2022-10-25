@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.2.132 created on the 2022-10-24T13:30:51.-->
+<!--File generated from metadata database version 1.2.151 created on the 2022-10-25T10:45:30.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -58,6 +58,7 @@
     <diagnostic id="BT-123-Lot">cbc:AuctionURI</diagnostic>
     <diagnostic id="BT-124-Lot">cbc:AccessToolsURI</diagnostic>
     <diagnostic id="BT-124-Part">cbc:AccessToolsURI</diagnostic>
+    <diagnostic id="BT-1251-Part">cbc:ReferencedDocumentInternalAddress</diagnostic>
     <diagnostic id="BT-1252-Procedure">cbc:Description</diagnostic>
     <diagnostic id="BT-125_i_-Lot">cbc:ID</diagnostic>
     <diagnostic id="BT-125_i_-Part">cbc:ID</diagnostic>
@@ -587,7 +588,7 @@
     <diagnostic id="BT-802-Lot">cbc:Description</diagnostic>
     <diagnostic id="BT-803_d_-notice">efbc:TransmissionDate</diagnostic>
     <diagnostic id="BT-803_t_-notice">efbc:TransmissionTime</diagnostic>
-    <diagnostic id="BT-805-Lot">cbc:ProcurementTypeCode[@listName='green-procurement-criteria']</diagnostic>
+    <diagnostic id="BT-805-Lot">cbc:ProcurementTypeCode[@listName='gpp-criteria']</diagnostic>
     <diagnostic id="BT-88-Procedure">cbc:Description</diagnostic>
     <diagnostic id="BT-92-Lot">cbc:ElectronicOrderUsageIndicator</diagnostic>
     <diagnostic id="BT-93-Lot">cbc:ElectronicPaymentUsageIndicator</diagnostic>
@@ -616,7 +617,7 @@
     <diagnostic id="ND-LotProcurementScope_BT-262-Lot">cac:MainCommodityClassification/cbc:ItemClassificationCode</diagnostic>
     <diagnostic id="ND-LotProcurementScope_BT-263-Lot">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode</diagnostic>
     <diagnostic id="ND-LotProcurementScope_BT-271-Lot">cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount</diagnostic>
-    <diagnostic id="ND-LotProcurementScope_BT-805-Lot">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='green-procurement-criteria']/cbc:ProcurementTypeCode[@listName='green-procurement-criteria']</diagnostic>
+    <diagnostic id="ND-LotProcurementScope_BT-805-Lot">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='gpp-criteria']/cbc:ProcurementTypeCode[@listName='gpp-criteria']</diagnostic>
     <diagnostic id="ND-LotResult_BT-636-LotResult">efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efbc:StatisticsCode</diagnostic>
     <diagnostic id="ND-LotResult_BT-712_a_-LotResult">efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efbc:StatisticsCode</diagnostic>
     <diagnostic id="ND-LotResult_BT-759-LotResult">efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric</diagnostic>
