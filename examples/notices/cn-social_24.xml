@@ -114,7 +114,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -244,10 +244,12 @@
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
 						<cbc:Description languageID="ENG">Evaluation of bidders responses in quality stage.</cbc:Description>
 						<cbc:CalculationExpression languageID="ENG">Quality Stage (60 %):</cbc:CalculationExpression>
 					</cac:SubordinateAwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
 						<cbc:Description languageID="ENG">Evaluation of bidders responses in commercial stage. Scotland Excel reserves the right to negotiate on any element following submission, or to accept submissions without any further negotiation, to award in part or in whole, or not to make any award.</cbc:Description>
 						<cbc:CalculationExpression languageID="ENG">Commercial STAGE (40 %):</cbc:CalculationExpression>
 					</cac:SubordinateAwardingCriterion>

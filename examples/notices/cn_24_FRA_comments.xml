@@ -39,7 +39,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!-- BT-501 using ISO ICD list - Peppol codelist -->
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502 Organization Contact Point (Role or Department preferred, Individual name only when strictly necessary)-->
@@ -78,7 +78,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
@@ -110,7 +110,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>

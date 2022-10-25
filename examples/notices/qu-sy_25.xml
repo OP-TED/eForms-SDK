@@ -109,7 +109,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -214,6 +214,7 @@
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
 						<cbc:Description languageID="ITA">Il prezzo non è il solo criterio di aggiudicazione e tutti i criteri sono indicati solo nei documenti di gara</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>

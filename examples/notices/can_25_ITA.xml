@@ -7,6 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<efbc:OverallApproximateFrameworkContractsAmount currencyID="EUR">4000000</efbc:OverallApproximateFrameworkContractsAmount>
 						<efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">4000000</efbc:OverallMaximumFrameworkContractsAmount>
 						<efac:LotResult>
 							<cbc:ID schemeName="result">RES-0001</cbc:ID>
@@ -39,7 +40,7 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
-							<cbc:RankCode>1</cbc:RankCode>
+							<efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
 							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
 							<cac:LegalMonetaryTotal>
 								<cbc:PayableAmount currencyID="EUR">4000000</cbc:PayableAmount>
@@ -107,7 +108,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Name>E Paolucci</cbc:Name>
@@ -137,7 +138,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>
@@ -192,7 +193,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -225,7 +226,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="222">222 222 222</cbc:CompanyID>
+									<cbc:CompanyID>222 222 222</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>

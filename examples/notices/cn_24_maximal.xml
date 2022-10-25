@@ -48,7 +48,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID schemeID="002">998298</cbc:CompanyID>
+									<cbc:CompanyID>998298</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -196,7 +196,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID schemeID="002">12345</cbc:CompanyID>
+									<cbc:CompanyID>12345</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -242,7 +242,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID schemeID="002">7812345</cbc:CompanyID>
+									<cbc:CompanyID>7812345</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -290,7 +290,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID schemeID="002">99283</cbc:CompanyID>
+									<cbc:CompanyID>99283</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -336,7 +336,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID schemeID="002">0986543</cbc:CompanyID>
+									<cbc:CompanyID>0986543</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -382,7 +382,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID schemeID="002">09812345</cbc:CompanyID>
+									<cbc:CompanyID>09812345</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -414,7 +414,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -1155,7 +1155,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-774-->
-				<cbc:ProcurementTypeCode listName="environmental-impact">emas-com</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-775-->
@@ -1704,7 +1704,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-774-->
-				<cbc:ProcurementTypeCode listName="environmental-impact">emas-com</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="environmental-impact">clim-mitig</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-775-->
