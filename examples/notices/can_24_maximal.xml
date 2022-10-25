@@ -1298,8 +1298,6 @@
 			<!-- GLO - Awarding Terms (Awaring Criteria) -->
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<!--"id" : "BT-543-LotsGroup", "name" : "Award Criteria Complicated"-->
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<!-- -->
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
@@ -1438,8 +1436,6 @@
 			<!-- LOT-0001 - Awarding criteria -->
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<!--"id" : "BT-543-Lot",  "name" : "Award Criteria Complicated"-->
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<!-- -->
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
@@ -1732,8 +1728,6 @@
 			<!-- Awarding criteria -->
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<!--"id" : "BT-543-Lot",  "name" : "Award Criteria Complicated"-->
-					<cbc:CalculationExpression languageID="ENG">Price-quality score calculation is based on …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
