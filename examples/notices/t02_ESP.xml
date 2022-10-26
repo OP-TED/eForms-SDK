@@ -230,11 +230,6 @@
 							</efac:Nationality>
 						</efac:UltimateBeneficialOwner>
 					</efac:Organizations>
-					<efac:Publication>
-						<efbc:NoticePublicationID schemeName="ojs-notice-id">483706-2020</efbc:NoticePublicationID>
-						<efbc:GazetteID schemeName="ojs-id">199/2020</efbc:GazetteID>
-						<efbc:PublicationDate>2020-10-13+01:00</efbc:PublicationDate>
-					</efac:Publication>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
