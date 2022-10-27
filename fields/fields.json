@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.225",
-    "createdOn" : "2022-10-27T10:30:25"
+    "version" : "1.2.232",
+    "createdOn" : "2022-10-27T13:45:03"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -24474,7 +24474,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5" ],
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40" ],
         "condition" : "{ND-SubcontractedContract} ${OPT-321-Tender is not present}",
         "value" : true,
         "severity" : "ERROR"

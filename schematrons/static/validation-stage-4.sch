@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.2.224 created on the 2022-10-27T10:27:36.-->
+<!--File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03.-->
 <pattern id="EFORMS-validation-stage-4" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU'][$noticeSubType = 'X02']">
 		<assert id="BR-OPP-00113-0002" role="ERROR" diagnostics="OPP-113-Business-European" test="count(cbc:RegistrationDate) &gt; 0 or not(cbc:CompanyID[@schemeName = 'EU'])">rule|text|BR-OPP-00113-0002</assert>
@@ -12449,9 +12449,6 @@
 		<assert id="BR-BT-00773-0038" role="ERROR" diagnostics="BT-773-Tender" test="count(efbc:TermCode) &gt; 0 or not(../cbc:ID)">rule|text|BR-BT-00773-0038</assert>
 		<assert id="BR-BT-00773-0055" role="ERROR" diagnostics="BT-773-Tender" test="count(efbc:TermCode) = 0 or (../cbc:ID)">rule|text|BR-BT-00773-0055</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability'][$noticeSubType = 'E4']">
-		<assert id="BR-BT-00773-0040" role="ERROR" diagnostics="BT-773-Tender" test="count(efbc:TermCode) = 0 or (../cbc:ID)">rule|text|BR-BT-00773-0040</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability'][$noticeSubType = '25']">
 		<assert id="BR-BT-00773-0032" role="ERROR" diagnostics="BT-773-Tender" test="count(efbc:TermCode) = 0 or (../cbc:ID)">rule|text|BR-BT-00773-0032</assert>
 	</rule>
@@ -12463,9 +12460,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability'][$noticeSubType = '27']">
 		<assert id="BR-BT-00773-0034" role="ERROR" diagnostics="BT-773-Tender" test="count(efbc:TermCode) = 0 or (../cbc:ID)">rule|text|BR-BT-00773-0034</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability'][$noticeSubType = 'E5']">
-		<assert id="BR-BT-00773-0050" role="ERROR" diagnostics="BT-773-Tender" test="count(efbc:TermCode) = 0 or (../cbc:ID)">rule|text|BR-BT-00773-0050</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '36']">
 		<assert id="BR-BT-00145-0045" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0045</assert>
