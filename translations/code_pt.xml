@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Portuguese. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Portuguese. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Os critérios de acessibilidade para as pessoas com deficiência estão incluídos</entry>
 <entry key="code|name|accessibility.n-inc">Os critérios de acessibilidade para as pessoas com deficiência não estão incluídos porque o contrato não se destina a pessoas singulares</entry>
 <entry key="code|name|accessibility.n-inc-just">Os critérios de acessibilidade para as pessoas com deficiência não estão incluídos, com a seguinte justificação</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Ilha Christmas</entry>
 <entry key="code|name|country.CYM">Ilhas Caimão</entry>
 <entry key="code|name|country.CYP">Chipre</entry>
-<entry key="code|name|country.CZE">República Checa</entry>
+<entry key="code|name|country.CZE">Chéquia</entry>
 <entry key="code|name|country.DDR">Alemanha Oriental</entry>
 <entry key="code|name|country.DEU">Alemanha</entry>
 <entry key="code|name|country.DHY">Daomé</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">México</entry>
 <entry key="code|name|country.MHL">Ilhas Marshall</entry>
 <entry key="code|name|country.MID">Ilhas Midway</entry>
-<entry key="code|name|country.MKD">Antiga República jugoslava da Macedónia</entry>
+<entry key="code|name|country.MKD">Macedónia do Norte</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Mianmar</entry>
+<entry key="code|name|country.MMR">Mianmar/Birmânia</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongólia</entry>
 <entry key="code|name|country.MNP">Ilhas Marianas do Norte</entry>
@@ -226,7 +226,7 @@
 <entry key="code|name|country.MUS">Maurícia</entry>
 <entry key="code|name|country.MWI">Malavi</entry>
 <entry key="code|name|country.MYS">Malásia</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
+<entry key="code|name|country.MYT">Maiote</entry>
 <entry key="code|name|country.NAM">Namíbia</entry>
 <entry key="code|name|country.NCL">Nova Caledónia</entry>
 <entry key="code|name|country.NER">Níger</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapura</entry>
 <entry key="code|name|country.SGS">Ilhas Geórgia do Sul e Sandwich do Sul</entry>
-<entry key="code|name|country.SHN">Santa Helena</entry>
+<entry key="code|name|country.SHN">Santa Helena, Ascensão e Tristão da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard e Jan Mayen</entry>
 <entry key="code|name|country.SKM">Siquim</entry>
 <entry key="code|name|country.SLB">Ilhas Salomão</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Eslováquia</entry>
 <entry key="code|name|country.SVN">Eslovénia</entry>
 <entry key="code|name|country.SWE">Suécia</entry>
-<entry key="code|name|country.SWZ">Suazilândia</entry>
+<entry key="code|name|country.SWZ">Essuatíni</entry>
 <entry key="code|name|country.SXM">São Martinho</entry>
 <entry key="code|name|country.SYC">Seicheles</entry>
 <entry key="code|name|country.SYR">Síria</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Ilha Wake</entry>
 <entry key="code|name|country.WLF">Wallis e Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Iémen do Sul</entry>
+<entry key="code|name|country.YEM">Iémen</entry>
 <entry key="code|name|country.YMD">Iémen do Norte</entry>
 <entry key="code|name|country.YUG">Jugoslávia</entry>
 <entry key="code|name|country.ZAF">África do Sul</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">A transição para uma economia circular</entry>
 <entry key="code|name|environmental-impact.clim-adapt">A adaptação às alterações climáticas</entry>
 <entry key="code|name|environmental-impact.clim-mitig">A mitigação das alterações climáticas</entry>
-<entry key="code|name|environmental-impact.emas-com">Que solicita a conformidade com o Sistema Comunitário de Ecogestão e Auditoria (EMAS), estabelecido pelo Regulamento (CE) n.º 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Que solicita a conformidade com a classe de eficiência energética mais elevada (tal como definida por vários atos legislativos, como, por ex., o Regulamento (UE) n.º 626/2011 relativo aos aparelhos de ar condicionado).</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Que solicita a conformidade com um sistema de gestão ambiental ISO 14001 que não o Sistema Comunitário de Ecogestão e Auditoria (EMAS), estabelecido pelo Regulamento (CE) n.º 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Pedido de conformidade com um rótulo ambiental ISO 14024 de tipo I</entry>
 <entry key="code|name|environmental-impact.other">Outros</entry>
 <entry key="code|name|environmental-impact.pollu-prev">A prevenção e o controlo da poluição</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Que solicita, para a maior parte da aquisição em causa, a conformidade com o Regulamento (CE) n.º 834/2007 relativo à produção biológica e à rotulagem dos produtos biológicos</entry>
 <entry key="code|name|environmental-impact.water-mar">A utilização sustentável e proteção dos recursos hídricos e marinhos</entry>
 <entry key="code|name|eu-programme.AFIS2020">Sistema de Informação Antifraude (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Fundo Europeu Agrícola de Garantia (após transferências entre o FEAGA e o FEADER)</entry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Polish. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Polish. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Kryteria dostępności dla osób niepełnosprawnych zostały uwzględnione</entry>
 <entry key="code|name|accessibility.n-inc">Kryteria dostępności dla osób niepełnosprawnych nie zostały uwzględnione, ponieważ przedmiot zamówienia nie jest przeznaczony dla osób fizycznych</entry>
 <entry key="code|name|accessibility.n-inc-just">Kryteria dostępności dla osób niepełnosprawnych nie zostały uwzględnione z uwagi na poniższe uzasadnienie</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Wyspa Bożego Narodzenia</entry>
 <entry key="code|name|country.CYM">Kajmany</entry>
 <entry key="code|name|country.CYP">Cypr</entry>
-<entry key="code|name|country.CZE">Republika Czeska</entry>
+<entry key="code|name|country.CZE">Czechy</entry>
 <entry key="code|name|country.DDR">Niemcy Wschodnie</entry>
 <entry key="code|name|country.DEU">Niemcy</entry>
 <entry key="code|name|country.DHY">Dahomej</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Meksyk</entry>
 <entry key="code|name|country.MHL">Wyspy Marshalla</entry>
 <entry key="code|name|country.MID">Midway</entry>
-<entry key="code|name|country.MKD">Była jugosłowiańska republika Macedonii</entry>
+<entry key="code|name|country.MKD">Macedonia Północna</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Mjanma/Birma</entry>
 <entry key="code|name|country.MNE">Czarnogóra</entry>
 <entry key="code|name|country.MNG">Mongolia</entry>
 <entry key="code|name|country.MNP">Mariany Północne</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapur</entry>
 <entry key="code|name|country.SGS">Georgia Południowa i Sandwich Południowy</entry>
-<entry key="code|name|country.SHN">Święta Helena</entry>
+<entry key="code|name|country.SHN">Święta Helena, Wyspa Wniebowstąpienia i Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard i Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Wyspy Salomona</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Słowacja</entry>
 <entry key="code|name|country.SVN">Słowenia</entry>
 <entry key="code|name|country.SWE">Szwecja</entry>
-<entry key="code|name|country.SWZ">Suazi</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint Maarten</entry>
 <entry key="code|name|country.SYC">Seszele</entry>
 <entry key="code|name|country.SYR">Syria</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Wake</entry>
 <entry key="code|name|country.WLF">Wallis i Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Jemen Południowy</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Jemen Północny</entry>
 <entry key="code|name|country.YUG">Jugosławia</entry>
 <entry key="code|name|country.ZAF">Republika Południowej Afryki</entry>
@@ -10119,13 +10119,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Przejście na gospodarkę o obiegu zamkniętym</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Adaptacja do zmian klimatu</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Łagodzenie zmian klimatu</entry>
-<entry key="code|name|environmental-impact.emas-com">Obowiązek spełnienia wymogów systemu ekozarządzania i audytu (EMAS), ustanowionego na mocy rozporządzenia (WE) nr 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Obowiązek spełnienia wymogów najwyższej klasy efektywności energetycznej (określonej w różnych przepisach, np. w rozporządzeniu (UE) 626/2011 w sprawie klimatyzatorów)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Obowiązek spełnienia wymogów systemu zarządzania środowiskowego ISO 14001, ustanowionego na mocy rozporządzenia (WE) nr 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Obowiązek spełnienia wymogów oznakowania ekologicznego ISO 14024 typu I</entry>
 <entry key="code|name|environmental-impact.other">Inne</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Zapobieganie zanieczyszczeniu i jego kontrola</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Obowiązek spełnienia – w odniesieniu do większej części odpowiedniego zakupu – wymogów rozporządzenia (WE) nr 834/2007 w sprawie produkcji ekologicznej i znakowania produktów ekologicznych</entry>
 <entry key="code|name|environmental-impact.water-mar">Zrównoważone wykorzystywanie i ochrona zasobów wodnych i morskich</entry>
 <entry key="code|name|eu-programme.AFIS2020">System informacji w celu zwalczania nadużyć finansowych (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Europejski Fundusz Rolniczy Gwarancji (po przesunięciach między EFRG i EFRROW)</entry>

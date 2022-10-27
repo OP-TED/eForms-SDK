@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Lithuanian. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Lithuanian. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Prieinamumo neįgaliesiems kriterijai įtraukti</entry>
 <entry key="code|name|accessibility.n-inc">Prieinamumo neįgaliesiems kriterijai neįtraukti, nes nenumatyta, kad pirkimo objektas bus naudojamas fizinių asmenų</entry>
 <entry key="code|name|accessibility.n-inc-just">Prieinamumo neįgaliesiems kriterijai neįtraukti dėl šių priežasčių</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Meksika</entry>
 <entry key="code|name|country.MHL">Maršalo Salos</entry>
 <entry key="code|name|country.MID">Midvėjaus salos</entry>
-<entry key="code|name|country.MKD">Buvusioji Jugoslavijos Respublika Makedonija</entry>
+<entry key="code|name|country.MKD">Šiaurės Makedonija</entry>
 <entry key="code|name|country.MLI">Malis</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Mianmaras</entry>
+<entry key="code|name|country.MMR">Mianmaras / Birma</entry>
 <entry key="code|name|country.MNE">Juodkalnija</entry>
 <entry key="code|name|country.MNG">Mongolija</entry>
 <entry key="code|name|country.MNP">Marianos Šiaurinės Salos</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegalas</entry>
 <entry key="code|name|country.SGP">Singapūras</entry>
 <entry key="code|name|country.SGS">Pietų Džordžija ir Pietų Sandvičas</entry>
-<entry key="code|name|country.SHN">Šv. Elenos Sala</entry>
+<entry key="code|name|country.SHN">Šv. Elenos, Dangun Žengimo ir Tristano da Kunjos Salos</entry>
 <entry key="code|name|country.SJM">Svalbardas ir Janas Majenas</entry>
 <entry key="code|name|country.SKM">Sikimas</entry>
 <entry key="code|name|country.SLB">Saliamono Salos</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovakija</entry>
 <entry key="code|name|country.SVN">Slovėnija</entry>
 <entry key="code|name|country.SWE">Švedija</entry>
-<entry key="code|name|country.SWZ">Svazilandas</entry>
+<entry key="code|name|country.SWZ">Esvatinis</entry>
 <entry key="code|name|country.SXM">Sint Martenas</entry>
 <entry key="code|name|country.SYC">Seišeliai</entry>
 <entry key="code|name|country.SYR">Sirija</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Veiko sala</entry>
 <entry key="code|name|country.WLF">Volisas ir Futūna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Pietų Jemenas</entry>
+<entry key="code|name|country.YEM">Jemenas</entry>
 <entry key="code|name|country.YMD">Šiaurės Jemenas</entry>
 <entry key="code|name|country.YUG">Jugoslavija</entry>
 <entry key="code|name|country.ZAF">Pietų Afrika</entry>
@@ -10118,13 +10118,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Perėjimas prie žiedinės ekonomikos</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Prisitaikymas prie klimato kaitos</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Klimato kaitos švelninimas</entry>
-<entry key="code|name|environmental-impact.emas-com">Reikalaujama atitikties aplinkosaugos vadybos ir audito sistemai (EMAS), kaip nustatyta Reglamente (EB) Nr. 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Reikalaujama atitikties aukščiausios energijos vartojimo efektyvumo klasei (kaip apibrėžta įvairiuose teisės aktuose, pvz., Reglamente (ES) Nr. 626/2011 dėl oro kondicionierių)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Reikalaujama atitikties ISO 14001 aplinkosaugos vadybos sistemai, išskyrus aplinkosaugos vadybos ir audito sistemą (EMAS), kaip nustatyta Reglamente (EB) Nr. 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Reikalaujama atitikties ISO 14024 I tipo ekologiniam ženklui</entry>
 <entry key="code|name|environmental-impact.other">Kita</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Taršos prevencija ir kontrolė</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Reikalaujama didžiosios atitinkamo pirkimo dalies atitikties Reglamentui (EB) 834/2007 dėl ekologinės gamybos ir ekologiškų produktų ženklinimo</entry>
 <entry key="code|name|environmental-impact.water-mar">Tausus vandens ir jūrų išteklių naudojimas ir apsauga</entry>
 <entry key="code|name|eu-programme.AFIS2020">Kovos su sukčiavimu informacinė sistema (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Europos žemės ūkio garantijų fondas (atlikus EŽŪGF ir EŽŪFKP lėšų tarpusavio perkėlimus)</entry>

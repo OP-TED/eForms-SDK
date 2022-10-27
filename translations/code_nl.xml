@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Dutch. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Dutch. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Er zijn criteria opgenomen inzake de toegankelijkheid voor personen met een handicap</entry>
 <entry key="code|name|accessibility.n-inc">Er zijn geen criteria opgenomen inzake de toegankelijkheid voor personen met een handicap, omdat de aanbesteding niet bestemd is voor gebruik door natuurlijke personen</entry>
 <entry key="code|name|accessibility.n-inc-just">Er zijn geen criteria opgenomen inzake de toegankelijkheid voor personen met een handicap, om de volgende reden</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexico</entry>
 <entry key="code|name|country.MHL">Marshalleilanden</entry>
 <entry key="code|name|country.MID">Midway-eilanden</entry>
-<entry key="code|name|country.MKD">Voormalige Joegoslavische Republiek Macedonië</entry>
+<entry key="code|name|country.MKD">Noord-Macedonië</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Birma</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongolië</entry>
 <entry key="code|name|country.MNP">Noordelijke Marianen</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapore</entry>
 <entry key="code|name|country.SGS">Zuid-Georgië en de Zuid-Sandwicheilanden</entry>
-<entry key="code|name|country.SHN">Sint-Helena</entry>
+<entry key="code|name|country.SHN">Sint-Helena, Ascension en Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard en Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Salomonseilanden</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slowakije</entry>
 <entry key="code|name|country.SVN">Slovenië</entry>
 <entry key="code|name|country.SWE">Zweden</entry>
-<entry key="code|name|country.SWZ">Swaziland</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint-Maarten</entry>
 <entry key="code|name|country.SYC">Seychellen</entry>
 <entry key="code|name|country.SYR">Syrië</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Wake-eiland</entry>
 <entry key="code|name|country.WLF">Wallis en Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Zuid-Jemen</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Noord-Jemen</entry>
 <entry key="code|name|country.YUG">Joegoslavië</entry>
 <entry key="code|name|country.ZAF">Zuid-Afrika</entry>
@@ -10118,13 +10118,8 @@
 <entry key="code|name|environmental-impact.circ-econ">De transitie naar een circulaire economie</entry>
 <entry key="code|name|environmental-impact.clim-adapt">De adaptatie aan klimaatverandering</entry>
 <entry key="code|name|environmental-impact.clim-mitig">De mitigatie van klimaatverandering</entry>
-<entry key="code|name|environmental-impact.emas-com">Er wordt naleving verlangd van het bij Verordening (EG) nr. 1221/2009 ingestelde milieubeheer- en milieuauditsysteem (EMAS)</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Er wordt conformiteit verlangd met de hoogste energie-efficiëntieklasse (zoals gedefinieerd in verschillende wetgevingshandelingen, bijvoorbeeld Verordening (EU) nr. 626/2011 inzake airconditioners)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Er wordt naleving verlangd van een ander op ISO 14001 gebaseerd milieubeheersysteem dan het bij Verordening (EG) nr. 1221/2009 ingestelde milieubeheer- en milieuauditsysteem (EMAS)</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Er wordt naleving verlangd van een type I-milieulabel conform ISO 14024</entry>
 <entry key="code|name|environmental-impact.other">Andere</entry>
 <entry key="code|name|environmental-impact.pollu-prev">De preventie en bestrijding van verontreiniging</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Voor het grootste deel van de betrokken aankopen wordt naleving van Verordening (EG) nr. 834/2007 inzake de biologische productie en de etikettering van biologische producten verlangd</entry>
 <entry key="code|name|environmental-impact.water-mar">Het duurzaam gebruik en de bescherming van water en mariene hulpbronnen</entry>
 <entry key="code|name|eu-programme.AFIS2020">Antifraude-informatiesysteem (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Europees Landbouwgarantiefonds (na overdrachten tussen ELGF en Elfpo)</entry>

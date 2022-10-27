@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in German. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in German. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Zugänglichkeitskriterien für Menschen mit Behinderungen wurden berücksichtigt</entry>
 <entry key="code|name|accessibility.n-inc">Kriterien für die Zugänglichkeit für Menschen mit Behinderungen wurden nicht berücksichtigt, da die Beschaffung nicht für die Nutzung durch natürliche Personen vorgesehen ist</entry>
 <entry key="code|name|accessibility.n-inc-just">Zugänglichkeitskriterien für Menschen mit Behinderungen wurden mit folgender Begründung nicht berücksichtigt</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Weihnachtsinsel</entry>
 <entry key="code|name|country.CYM">Kaimaninseln</entry>
 <entry key="code|name|country.CYP">Zypern</entry>
-<entry key="code|name|country.CZE">Tschechische Republik</entry>
+<entry key="code|name|country.CZE">Tschechien</entry>
 <entry key="code|name|country.DDR">Ostdeutschland</entry>
 <entry key="code|name|country.DEU">Deutschland</entry>
 <entry key="code|name|country.DHY">Dahome</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexiko</entry>
 <entry key="code|name|country.MHL">Marshallinseln</entry>
 <entry key="code|name|country.MID">Midway-Inseln</entry>
-<entry key="code|name|country.MKD">Ehemalige jugoslawische Republik Mazedonien</entry>
+<entry key="code|name|country.MKD">Nordmazedonien</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Birma</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongolei</entry>
 <entry key="code|name|country.MNP">Nördlichen Marianen</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapur</entry>
 <entry key="code|name|country.SGS">Südgeorgien und die Südlichen Sandwichinseln</entry>
-<entry key="code|name|country.SHN">St. Helena</entry>
+<entry key="code|name|country.SHN">St. Helena, Ascension und Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard und Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Salomonen</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slowakei</entry>
 <entry key="code|name|country.SVN">Slowenien</entry>
 <entry key="code|name|country.SWE">Schweden</entry>
-<entry key="code|name|country.SWZ">Swasiland</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint Maarten</entry>
 <entry key="code|name|country.SYC">Seychellen</entry>
 <entry key="code|name|country.SYR">Syrien</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Wake</entry>
 <entry key="code|name|country.WLF">Wallis und Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Südjemen</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Nordjemen</entry>
 <entry key="code|name|country.YUG">Jugoslawien</entry>
 <entry key="code|name|country.ZAF">Südafrika</entry>
@@ -10127,13 +10127,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Der Übergang zu einer Kreislaufwirtschaft</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Anpassung an den Klimawandel</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Klimaschutz</entry>
-<entry key="code|name|environmental-impact.emas-com">Anforderung einer Übereinstimmung mit der durch die Verordnung (EG) Nr. 1221/2009 festgelegten Strategie für Umweltmanagement und -betriebsprüfung (EMAS)</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Anforderung einer Übereinstimmung mit der höchsten Energieeffizienzklasse (im Einklang mit der Definition in verschiedenen Rechtsvorschriften, z. B. in der Verordnung (EU) Nr. 626/2011 über Luftkonditionierer)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Anforderung einer Übereinstimmung mit einem Umweltmanagementsystem gemäß der Norm ISO 14001, mit Ausnahme der durch die Verordnung (EG) Nr. 1221/2009 festgelegten Strategie für Umweltmanagement und -betriebsprüfung (EMAS)</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Anforderung der Erfüllung der Voraussetzungen eines ISO-14024-Typ-I-Umweltzeichens</entry>
 <entry key="code|name|environmental-impact.other">Sonstiges</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Vermeidung und Verminderung der Umweltverschmutzung</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Anforderung einer Übereinstimmung, für den größten Teil der betreffenden Beschaffung, mit der Verordnung (EG) Nr. 834/2007 über die ökologische/biologische Produktion und die Kennzeichnung von ökologischen/biologischen Produkten</entry>
 <entry key="code|name|environmental-impact.water-mar">Die nachhaltige Nutzung und Schutz von Wasser- und Meeresressourcen</entry>
 <entry key="code|name|eu-programme.AFIS2020">Informationssystem für die Betrugsbekämpfung (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Europäischer Garantiefonds für die Landwirtschaft (nach Mittelübertragungen zwischen dem EGFL und dem ELER)</entry>
