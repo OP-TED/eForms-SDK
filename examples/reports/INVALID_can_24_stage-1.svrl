@@ -143,24 +143,6 @@ cbc:TenderResultCode</svrl:diagnostic-reference>
 cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
-   <svrl:failed-assert id="BR-BT-03201-0036"
-                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
-                       role="ERROR"
-                       test="count(efac:TenderReference/cbc:ID) &gt; 0">
-      <svrl:text>rule|text|BR-BT-03201-0036</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-3201-Tender">
-efac:TenderReference/cbc:ID</svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="BR-OPT-00310-0036"
-                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
-                       role="ERROR"
-                       test="count(efac:TenderingParty/cbc:ID) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00310-0036</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-310-Tender">
-efac:TenderingParty/cbc:ID</svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-00500-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
@@ -226,15 +208,6 @@ cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']</sv
       <svrl:text>rule|text|BR-BT-00011-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-11-Procedure-Buyer">
 cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '29']"/>
-   <svrl:failed-assert id="BR-OPT-00030-0036"
-                       location="/ContractAwardNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
-                       role="ERROR"
-                       test="count(cbc:ServiceTypeCode) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00030-0036</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-030-Procedure-SProvider">
-cbc:ServiceTypeCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-00105-0036"
@@ -649,6 +622,14 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
       <svrl:diagnostic-reference diagnostic="BT-119-LotResult">
 efbc:DPSTerminationIndicator</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-13713-0057"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="count(efac:TenderLot/cbc:ID) = 0 or (cbc:ID)">
+      <svrl:text>rule|text|BR-BT-13713-0057</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-13713-LotResult">
+efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-01711-0036"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
@@ -658,13 +639,70 @@ efbc:DPSTerminationIndicator</svrl:diagnostic-reference>
       <svrl:diagnostic-reference diagnostic="BT-1711-Tender">
 efbc:TenderRankedIndicator</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-03201-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+                       role="ERROR"
+                       test="count(efac:TenderReference/cbc:ID) &gt; 0 or not(cbc:ID)">
+      <svrl:text>rule|text|BR-BT-03201-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-3201-Tender">
+efac:TenderReference/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-OPT-00310-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+                       role="ERROR"
+                       test="count(efac:TenderingParty/cbc:ID) &gt; 0 or not(cbc:ID)">
+      <svrl:text>rule|text|BR-OPT-00310-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-310-Tender">
+efac:TenderingParty/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-OPT-00321-0057"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
+                       role="ERROR"
+                       test="count(cbc:ID) = 0 or not(not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w') and not(../efac:LotResult/efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text()) != 'no-rece'))">
+      <svrl:text>rule|text|BR-OPT-00321-0057</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-321-Tender">
+cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00150-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
+                       role="ERROR"
+                       test="count(efac:ContractReference/cbc:ID) &gt; 0 or ((not(cbc:ID)))">
+      <svrl:text>rule|text|BR-BT-00150-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-150-Contract">
+efac:ContractReference/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-03202-0036"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
+                       role="ERROR"
+                       test="count(efac:LotTender/cbc:ID) &gt; 0 or ((not(cbc:ID)) or (not(../efac:LotTender/cbc:ID)))">
+      <svrl:text>rule|text|BR-BT-03202-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-3202-Contract">
+efac:LotTender/cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-OPT-00316-0053"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
+                       role="ERROR"
+                       test="count(cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">
+      <svrl:text>rule|text|BR-OPT-00316-0053</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-316-Contract">
+cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-OPT-00210-0057"
+                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty"
+                       role="ERROR"
+                       test="count(cbc:ID) = 0 or (../efac:LotTender/efac:TenderingParty/cbc:ID)">
+      <svrl:text>rule|text|BR-OPT-00210-0057</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-210-Tenderer">
+cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '29']"/>
    <svrl:failed-assert id="BR-BT-00543-0088"
