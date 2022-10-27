@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.226",
-    "createdOn" : "2022-10-27T12:16:24"
+    "version" : "1.2.232",
+    "createdOn" : "2022-10-27T13:45:03"
   },
   "noticeId" : "1",
   "metadata" : [ {
@@ -119,6 +119,7 @@
     "displayType" : "SECTION",
     "description" : "Contracting Authority",
     "_label" : "group|name|GR-ContractingAuthority",
+    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-ContractingAuthority-Buyer",
       "contentType" : "group",
@@ -182,18 +183,21 @@
     "displayType" : "SECTION",
     "description" : "Procedure",
     "_label" : "group|name|GR-Procedure",
+    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-Procedure-Purpose",
       "contentType" : "group",
       "displayType" : "SECTION",
       "description" : "Purpose",
       "_label" : "group|name|GR-Procedure-Purpose",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Procedure-MainLegalBasis",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Main Legal Basis",
         "_label" : "group|name|GR-Procedure-MainLegalBasis",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01-notice",
           "contentType" : "field",
@@ -237,6 +241,7 @@
         "displayType" : "GROUP",
         "description" : "Description",
         "_label" : "group|name|GR-Procedure-Description",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-22-Procedure",
           "contentType" : "field",
@@ -275,12 +280,14 @@
         "displayType" : "GROUP",
         "description" : "Scope",
         "_label" : "group|name|GR-Procedure-Scope",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "GR-Procedure-Scope-MainClassification",
           "contentType" : "group",
           "displayType" : "GROUP",
           "description" : "Main Classification",
           "_label" : "group|name|GR-Procedure-Scope-MainClassification",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(m)-Procedure",
             "contentType" : "field",
@@ -386,12 +393,14 @@
       "displayType" : "SECTION",
       "description" : "Procedure",
       "_label" : "group|name|GR-Procedure-Procedure-subsection",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Procedure-AdditionalInformation",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Additional Information",
         "_label" : "group|name|GR-Procedure-AdditionalInformation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-300-Procedure",
           "contentType" : "field",
@@ -407,6 +416,7 @@
     "displayType" : "SECTION",
     "description" : "Change",
     "_label" : "group|name|GR-Change",
+    "_repeatable" : true,
     "content" : [ {
       "id" : "BT-140-notice",
       "contentType" : "field",
@@ -468,12 +478,14 @@
     "displayType" : "SECTION",
     "description" : "Organisations",
     "_label" : "group|name|GR-Organisations-Section",
+    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-Organisations-Subsection",
       "contentType" : "group",
       "displayType" : "SECTION",
       "description" : "Organisations",
       "_label" : "group|name|GR-Organisations-Subsection",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Organisations",
         "contentType" : "group",
@@ -504,6 +516,7 @@
           "displayType" : "GROUP",
           "description" : "Organisation",
           "_label" : "group|name|GR-Company",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-500-Organization-Company",
             "contentType" : "field",
@@ -542,6 +555,7 @@
           "displayType" : "GROUP",
           "description" : "Organisation Address",
           "_label" : "group|name|GR-Company-Address",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-510(a)-Organization-Company",
             "contentType" : "field",
@@ -591,6 +605,7 @@
           "displayType" : "GROUP",
           "description" : "Organisation Contact",
           "_label" : "group|name|GR-Company-Contact",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-502-Organization-Company",
             "contentType" : "field",
@@ -664,6 +679,7 @@
             "displayType" : "GROUP",
             "description" : "TouchPoint Address",
             "_label" : "group|name|GR-TouchPoint-Address",
+            "_repeatable" : true,
             "content" : [ {
               "id" : "BT-510(a)-Organization-TouchPoint",
               "contentType" : "field",
@@ -713,6 +729,7 @@
             "displayType" : "GROUP",
             "description" : "TouchPoint Contact",
             "_label" : "group|name|GR-TouchPoint-Contact",
+            "_repeatable" : true,
             "content" : [ {
               "id" : "BT-502-Organization-TouchPoint",
               "contentType" : "field",
