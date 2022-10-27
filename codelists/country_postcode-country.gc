@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
+<!--File generated from metadata database version 1.2.226 created on the 2022-10-27T12:16:24-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PostcodeCountry</ShortName>
       <LongName>postcode-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.2.0</Version>
+      <Version>1.2.226</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -2766,73 +2766,73 @@
             <SimpleValue>CZE</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Czech Republic</SimpleValue>
+            <SimpleValue>Czechia</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Чешка република</SimpleValue>
+            <SimpleValue>Чехия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Česká republika</SimpleValue>
+            <SimpleValue>Česko</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tjekkiet</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Tschechische Republik</SimpleValue>
+            <SimpleValue>Tschechien</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Τσεχική Δημοκρατία</SimpleValue>
+            <SimpleValue>Τσεχία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Czech Republic</SimpleValue>
+            <SimpleValue>Czechia</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Chequia</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Tšehhi Vabariik</SimpleValue>
+            <SimpleValue>Tšehhi</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Tšekki</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>République tchèque</SimpleValue>
+            <SimpleValue>Tchéquie</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Poblacht na Seice</SimpleValue>
+            <SimpleValue>An tSeicia</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Češka</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Cseh Köztársaság</SimpleValue>
+            <SimpleValue>Csehország</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Repubblica ceca</SimpleValue>
+            <SimpleValue>Cechia</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Čekija</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Čehijas Republika</SimpleValue>
+            <SimpleValue>Čehija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Ir-Repubblika Ċeka</SimpleValue>
+            <SimpleValue>Iċ-Ċekja</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Tsjechië</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Republika Czeska</SimpleValue>
+            <SimpleValue>Czechy</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>República Checa</SimpleValue>
+            <SimpleValue>Chéquia</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Republica Cehă</SimpleValue>
+            <SimpleValue>Cehia</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Česká republika</SimpleValue>
+            <SimpleValue>Česko</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Češka</SimpleValue>
@@ -4417,7 +4417,7 @@
             <SimpleValue>Grieķija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Greċja</SimpleValue>
+            <SimpleValue>Il-Greċja</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Griekenland</SimpleValue>
@@ -7806,79 +7806,79 @@
             <SimpleValue>MMR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Мианмар</SimpleValue>
+            <SimpleValue>Мианмар/Бирма</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Barma</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Birma</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Μιανμάρ</SimpleValue>
+            <SimpleValue>Μιανμάρ/Βιρμανία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Birmania</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Birma</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Birmanie</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Maenmar</SimpleValue>
+            <SimpleValue>Maenmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Mjanmar</SimpleValue>
+            <SimpleValue>Mjanmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Mianmar</SimpleValue>
+            <SimpleValue>Mianmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Birmania</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Mianmaras</SimpleValue>
+            <SimpleValue>Mianmaras / Birma</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Mjanma</SimpleValue>
+            <SimpleValue>Mjanma/Birma</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Il-Mjanmar</SimpleValue>
+            <SimpleValue>Il-Myanmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Birma</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Mjanma/Birma</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Mianmar</SimpleValue>
+            <SimpleValue>Mianmar/Birmânia</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Birmania</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Mjanmarsko</SimpleValue>
+            <SimpleValue>Mjanmarsko/Barma</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Mjanmar</SimpleValue>
+            <SimpleValue>Mjanmar/Burma</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Myanmar</SimpleValue>
+            <SimpleValue>Myanmar/Burma</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -8577,7 +8577,7 @@
             <SimpleValue>Jaunkaledonija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Il-Kaledonja Ġdida</SimpleValue>
+            <SimpleValue>New Caledonia</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Nieuw-Caledonië</SimpleValue>
@@ -11246,79 +11246,79 @@
             <SimpleValue>SWZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Swaziland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Свазиленд</SimpleValue>
+            <SimpleValue>Есватини</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Svazijsko</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Swaziland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Swasiland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Σουαζιλάνδη</SimpleValue>
+            <SimpleValue>Εσουατίνι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Swaziland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Suazilandia</SimpleValue>
+            <SimpleValue>Esuatini</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Svaasimaa</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Swazimaa</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Swaziland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>An tSuasalainn</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Svazi</SimpleValue>
+            <SimpleValue>Esvatini</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szváziföld</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Swaziland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Svazilandas</SimpleValue>
+            <SimpleValue>Esvatinis</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Svazilenda</SimpleValue>
+            <SimpleValue>Svatini</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Is-Sważiland</SimpleValue>
+            <SimpleValue>L-Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Swaziland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Suazi</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Suazilândia</SimpleValue>
+            <SimpleValue>Essuatíni</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Swaziland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Svazijsko</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Svazi</SimpleValue>
+            <SimpleValue>Esvatini</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Swaziland</SimpleValue>
+            <SimpleValue>Eswatini</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11806,7 +11806,7 @@
             <SimpleValue>TUR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Turkey</SimpleValue>
+            <SimpleValue>Türkiye</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Typция</SimpleValue>
@@ -11824,7 +11824,7 @@
             <SimpleValue>Τουρκία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Turkey</SimpleValue>
+            <SimpleValue>Türkiye</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Turquía</SimpleValue>
@@ -12565,7 +12565,7 @@
             <SimpleValue>Vijetnam</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Vietnam</SimpleValue>
+            <SimpleValue>Vietnám</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Vietnam</SimpleValue>
@@ -12612,7 +12612,7 @@
             <SimpleValue>Уолис и Футуна</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Ostrovy Wallis a Futuna</SimpleValue>
+            <SimpleValue>Wallis a Futuna</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Wallis og Futuna</SimpleValue>
