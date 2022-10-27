@@ -46,7 +46,7 @@
 							<cbc:LowerTenderAmount currencyID="GBP">1</cbc:LowerTenderAmount>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
-								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							</efac:LotTender>
 							<efac:ReceivedSubmissionsStatistics>
 								<efac:FieldsPrivacy>
@@ -85,6 +85,54 @@
 								<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
 							</efac:FieldsPrivacy>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<cbc:RankCode>1</cbc:RankCode>
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="GBP">9.99</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
+							<efac:Origin>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">cou-ori</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efbc:AreaCode listName="country">GBR</efbc:AreaCode>
+							</efac:Origin>
+							<efac:SubcontractingTerm>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">sub-con</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+							</efac:SubcontractingTerm>
+							<efac:TenderingParty>
+								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							</efac:TenderingParty>
+							<efac:TenderLot>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+							</efac:TenderLot>
+							<efac:TenderReference>
+								<cbc:ID>TENDER-01 2021/ABC</cbc:ID>
+							</efac:TenderReference>
+						</efac:LotTender>
+						<efac:LotTender>
+							<efac:FieldsPrivacy>
+								<efbc:FieldIdentifierCode listName="non-publication-identifier">ten-ran</efbc:FieldIdentifierCode>
+								<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+								<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+								<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+							</efac:FieldsPrivacy>
+							<efac:FieldsPrivacy>
+								<efbc:FieldIdentifierCode listName="non-publication-identifier">win-ten-var</efbc:FieldIdentifierCode>
+								<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+								<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+								<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+							</efac:FieldsPrivacy>
+							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							<cbc:RankCode>1</cbc:RankCode>
 							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
