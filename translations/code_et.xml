@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Estonian. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Estonian. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Lisatud on puuetega inimeste juurdepääsukriteeriumid</entry>
 <entry key="code|name|accessibility.n-inc">Puuetega inimeste juurdepääsukriteeriume pole lisatud, sest hange ei ole mõeldud kasutamiseks füüsilistele isikutele</entry>
 <entry key="code|name|accessibility.n-inc-just">Puuetega inimeste juurdepääsukriteeriume ei ole lisatud järgmise põhjendusega</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Jõulusaar</entry>
 <entry key="code|name|country.CYM">Kaimanisaared</entry>
 <entry key="code|name|country.CYP">Küpros</entry>
-<entry key="code|name|country.CZE">Tšehhi Vabariik</entry>
+<entry key="code|name|country.CZE">Tšehhi</entry>
 <entry key="code|name|country.DDR">Ida-Saksamaa</entry>
 <entry key="code|name|country.DEU">Saksamaa</entry>
 <entry key="code|name|country.DHY">Dahomee</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mehhiko</entry>
 <entry key="code|name|country.MHL">Marshalli Saared</entry>
 <entry key="code|name|country.MID">Midway saared</entry>
-<entry key="code|name|country.MKD">Endine Jugoslaavia Makedoonia vabariik</entry>
+<entry key="code|name|country.MKD">Põhja-Makedoonia</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Birma</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongoolia</entry>
 <entry key="code|name|country.MNP">Põhja-Mariaanid</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapur</entry>
 <entry key="code|name|country.SGS">Lõuna-Georgia ja Lõuna-Sandwichi saared</entry>
-<entry key="code|name|country.SHN">Saint Helena</entry>
+<entry key="code|name|country.SHN">Saint Helena, Ascension ja Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard ja Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Saalomoni Saared</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovakkia</entry>
 <entry key="code|name|country.SVN">Sloveenia</entry>
 <entry key="code|name|country.SWE">Rootsi</entry>
-<entry key="code|name|country.SWZ">Svaasimaa</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint-Maarten</entry>
 <entry key="code|name|country.SYC">Seišellid</entry>
 <entry key="code|name|country.SYR">Süüria</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Wake</entry>
 <entry key="code|name|country.WLF">Wallis ja Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Lõuna-Jeemen</entry>
+<entry key="code|name|country.YEM">Jeemen</entry>
 <entry key="code|name|country.YMD">Põhja-Jeemen</entry>
 <entry key="code|name|country.YUG">Jugoslaavia</entry>
 <entry key="code|name|country.ZAF">Lõuna-Aafrika</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Üleminek ringmajandusele</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Kliimamuutustega kohanemine</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Kliimamuutuste leevendamine</entry>
-<entry key="code|name|environmental-impact.emas-com">Nõutakse määrusega (EÜ) nr 1221/2009 asutatud keskkonnajuhtimis- ja -auditeerimissüsteemi (EMAS) kohaldamist</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Nõutakse kõrgeima energiatõhususe klassi nõuete kohaldamist (nagu määratletud erinevates õigusaktides, näiteks kliimaseadmeid käsitlevas määruses (EL) 626/2011)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Nõutakse keskkonnajuhtimissüsteemi ISO 14001 kohaldamist, mis ei ole määrusega (EÜ) nr 1221/2009 asutatud keskkonnajuhtimis- ja -auditeerimissüsteem (EMAS)</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Nõutakse ISO14024 I tüübi keskkonnamärgise kohaldamist</entry>
 <entry key="code|name|environmental-impact.other">Muu</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Saastuse vältimine ja tõrje</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Enamiku asjaomaste hangete puhul nõutakse määruse (EÜ) 834/2007 (mahepõllumajandusliku tootmise ning mahepõllumajanduslike toodete märgistamise kohta) kohaldamist</entry>
 <entry key="code|name|environmental-impact.water-mar">Vee ja mereressursside kestlik kasutamine ja kaitse</entry>
 <entry key="code|name|eu-programme.AFIS2020">Pettustevastane teabesüsteem (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Euroopa Põllumajanduse Tagatisfond (pärast EAGFi ja EAFRD vahelist vahendite ümberpaigutamist)</entry>

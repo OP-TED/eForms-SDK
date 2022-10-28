@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Latvian. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Latvian. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Ir iekļauti kritēriji par pieejamību personām ar invaliditāti</entry>
 <entry key="code|name|accessibility.n-inc">Kritēriji par pieejamību personām ar invaliditāti nav iekļauti, jo iepirkums nav paredzēts fiziskām personām</entry>
 <entry key="code|name|accessibility.n-inc-just">Kritēriji par pieejamību personām ar invaliditāti nav iekļauti ar šādu pamatojumu</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Ziemassvētku sala</entry>
 <entry key="code|name|country.CYM">Kaimanu Salas</entry>
 <entry key="code|name|country.CYP">Kipra</entry>
-<entry key="code|name|country.CZE">Čehijas Republika</entry>
+<entry key="code|name|country.CZE">Čehija</entry>
 <entry key="code|name|country.DDR">Austrumvācija</entry>
 <entry key="code|name|country.DEU">Vācija</entry>
 <entry key="code|name|country.DHY">Dahomeja</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Meksika</entry>
 <entry key="code|name|country.MHL">Māršala salas</entry>
 <entry key="code|name|country.MID">Midveja Salas</entry>
-<entry key="code|name|country.MKD">Bijusī Dienvidslāvijas Maķedonijas Republika</entry>
+<entry key="code|name|country.MKD">Ziemeļmaķedonija</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Mjanma</entry>
+<entry key="code|name|country.MMR">Mjanma/Birma</entry>
 <entry key="code|name|country.MNE">Melnkalne</entry>
 <entry key="code|name|country.MNG">Mongolija</entry>
 <entry key="code|name|country.MNP">Ziemeļu Marianas salas</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegāla</entry>
 <entry key="code|name|country.SGP">Singapūra</entry>
 <entry key="code|name|country.SGS">Dienviddžordžija un Dienvidsendviču salas</entry>
-<entry key="code|name|country.SHN">Sv. Helēnas sala</entry>
+<entry key="code|name|country.SHN">Svētās Helēnas, Debesbraukšanas un Tristana da Kuņas Salas</entry>
 <entry key="code|name|country.SJM">Svālbara un Jana Majena Sala</entry>
 <entry key="code|name|country.SKM">Sikima</entry>
 <entry key="code|name|country.SLB">Zālamana salas</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovākija</entry>
 <entry key="code|name|country.SVN">Slovānija</entry>
 <entry key="code|name|country.SWE">Zviedrija</entry>
-<entry key="code|name|country.SWZ">Svazilenda</entry>
+<entry key="code|name|country.SWZ">Svatini</entry>
 <entry key="code|name|country.SXM">Sentmartēna</entry>
 <entry key="code|name|country.SYC">Seišela salas</entry>
 <entry key="code|name|country.SYR">Sīrija</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Veika Sala</entry>
 <entry key="code|name|country.WLF">Volisa un Futunas salas</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Dienvidjemena</entry>
+<entry key="code|name|country.YEM">Jemena</entry>
 <entry key="code|name|country.YMD">Ziemeļjemena</entry>
 <entry key="code|name|country.YUG">Dienvidslāvija</entry>
 <entry key="code|name|country.ZAF">Dienvidāfrika</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Pāreja uz aprites ekonomiku</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Pielāgošanās klimata pārmaiņām</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Klimata pārmaiņu mazināšana</entry>
-<entry key="code|name|environmental-impact.emas-com">Prasīta atbilstība vides vadības un audita sistēmai (EMAS), kas izveidota ar Regulu (EK) Nr. 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Prasīta atbilstība augstākajai energoefektivitātes klasei (kas noteikta dažādos tiesību aktos, piemēram, Regulā (ES) 626/2011 par gaisa kondicionētājiem)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Prasīta atbilstība ar ISO 14001 saderīgai vides vadības sistēmai, kas nav ar Regulu (EK) Nr. 1221/2009 izveidotā vides vadības un audita sistēma (EMAS)</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Prasīta atbilstība ISO 14024 I tipa vides marķējumam</entry>
 <entry key="code|name|environmental-impact.other">Cits</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Piesārņojuma novēršana un kontrole</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Attiecībā uz lielāko daļu konkrētā iepirkuma prasīta atbilstība Regulai (EK) 834/2007 par bioloģisko ražošanu un bioloģisko produktu marķēšanu</entry>
 <entry key="code|name|environmental-impact.water-mar">Ilgtspējīga ūdens un jūras resursu izmantošana un aizsardzība</entry>
 <entry key="code|name|eu-programme.AFIS2020">Krāpšanas apkarošanas informācijas sistēma (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Eiropas Lauksaimniecības garantiju fonds (pēc pārvietojumiem starp ELGF un ELFLA)</entry>

@@ -290,11 +290,6 @@
 							</efac:Nationality>
 						</efac:UltimateBeneficialOwner>
 					</efac:Organizations>
-					<efac:Publication>
-						<efbc:NoticePublicationID schemeName="ojs-notice-id">245489-2021</efbc:NoticePublicationID>
-						<efbc:GazetteID schemeName="ojs-id">93/2021</efbc:GazetteID>
-						<efbc:PublicationDate>2021-05-14+02:00</efbc:PublicationDate>
-					</efac:Publication>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>

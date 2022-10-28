@@ -147,15 +147,6 @@ cac:PostalAddress/cbc:CityName</svrl:diagnostic-reference>
 cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '4']"/>
-   <svrl:failed-assert id="BR-OPT-00030-0007"
-                       location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"
-                       role="ERROR"
-                       test="count(cbc:ServiceTypeCode) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00030-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-030-Procedure-SProvider">
-cbc:ServiceTypeCode</svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-BT-00021-0007"
                        location="/PriorInformationNotice/cac:ProcurementProject"
@@ -384,6 +375,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '4']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5" name="EFORMS-validation-stage-5"/>

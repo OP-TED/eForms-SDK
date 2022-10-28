@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.2.1",
+  "sdkVersion" : "1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.0",
-    "createdOn" : "2022-10-06T17:10:00"
+    "version" : "1.2.232",
+    "createdOn" : "2022-10-27T13:45:03"
   },
   "noticeId" : "10",
   "metadata" : [ {
@@ -126,6 +126,7 @@
     "displayType" : "SECTION",
     "description" : "Contracting Authority",
     "_label" : "group|name|GR-ContractingAuthority",
+    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-ContractingAuthority-Buyer",
       "contentType" : "group",
@@ -140,8 +141,7 @@
         "displayType" : "COMBOBOX",
         "description" : "Buyer Technical Identifier Reference",
         "_label" : "field|name|OPT-300-Procedure-Buyer",
-        "_idSchemes" : [ "ORG" ],
-        "_repeatable" : true
+        "_idSchemes" : [ "ORG" ]
       }, {
         "id" : "BT-11-Procedure-Buyer",
         "contentType" : "field",
@@ -175,8 +175,7 @@
         "displayType" : "COMBOBOX",
         "description" : "Service Provider Technical Identifier Reference",
         "_label" : "field|name|OPT-300-Procedure-SProvider",
-        "_idSchemes" : [ "ORG" ],
-        "_repeatable" : true
+        "_idSchemes" : [ "ORG" ]
       }, {
         "id" : "OPT-030-Procedure-SProvider",
         "contentType" : "field",
@@ -191,18 +190,36 @@
     "displayType" : "SECTION",
     "description" : "Procedure",
     "_label" : "group|name|GR-Procedure",
+    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-Procedure-Purpose",
       "contentType" : "group",
       "displayType" : "SECTION",
       "description" : "Purpose",
       "_label" : "group|name|GR-Procedure-Purpose",
+      "_repeatable" : true,
       "content" : [ {
+        "id" : "GR-Previous-Notice",
+        "contentType" : "group",
+        "displayType" : "SECTION",
+        "description" : "Previous Notice",
+        "_label" : "group|name|GR-Previous-Notice",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPP-090-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Previous Notice Identifier",
+          "_label" : "field|name|OPP-090-Procedure",
+          "_repeatable" : true
+        } ]
+      }, {
         "id" : "GR-Procedure-MainLegalBasis",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Main Legal Basis",
         "_label" : "group|name|GR-Procedure-MainLegalBasis",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01-notice",
           "contentType" : "field",
@@ -213,9 +230,10 @@
       }, {
         "id" : "GR-Procedure-LocalCrossBorderLaw",
         "contentType" : "group",
+        "nodeId" : "ND-CrossBorderLaw",
         "displayType" : "GROUP",
-        "description" : "Local Law",
-        "_label" : "group|name|GR-Procedure-LocalCrossBorderLaw",
+        "description" : "Cross Border Law",
+        "_label" : "group|name|ND-CrossBorderLaw",
         "content" : [ {
           "id" : "BT-01(c)-Procedure",
           "contentType" : "field",
@@ -224,11 +242,20 @@
           "_label" : "field|name|BT-01(c)-Procedure",
           "_repeatable" : true
         }, {
-          "id" : "BT-01(d)-Procedure",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Procedure Legal Basis (Description)",
-          "_label" : "field|name|BT-01(d)-Procedure"
+          "id" : "GR-Procedure-LocalLegalBasisWithID",
+          "contentType" : "group",
+          "nodeId" : "ND-LocalLegalBasisWithID",
+          "displayType" : "GROUP",
+          "description" : "Legislation impacting the procurement and for which an ID is known",
+          "_label" : "group|name|ND-LocalLegalBasisWithID",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-01(d)-Procedure",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Procedure Legal Basis (Description)",
+            "_label" : "field|name|BT-01(d)-Procedure"
+          } ]
         } ]
       }, {
         "id" : "GR-Procedure-Description",
@@ -236,6 +263,7 @@
         "displayType" : "GROUP",
         "description" : "Description",
         "_label" : "group|name|GR-Procedure-Description",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-22-Procedure",
           "contentType" : "field",
@@ -274,6 +302,7 @@
         "displayType" : "GROUP",
         "description" : "Scope",
         "_label" : "group|name|GR-Procedure-Scope",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-27-Procedure",
           "contentType" : "field",
@@ -286,6 +315,7 @@
           "displayType" : "GROUP",
           "description" : "Main Classification",
           "_label" : "group|name|GR-Procedure-Scope-MainClassification",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(m)-Procedure",
             "contentType" : "field",
@@ -318,8 +348,7 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Additional Classification Code",
-            "_label" : "field|name|BT-263-Procedure",
-            "_repeatable" : true
+            "_label" : "field|name|BT-263-Procedure"
           } ]
         } ]
       }, {
@@ -392,6 +421,7 @@
       "displayType" : "SECTION",
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-Procedure-TenderingTerms",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Procedure-ExclusionGrounds",
         "contentType" : "group",
@@ -419,6 +449,7 @@
         "displayType" : "GROUP",
         "description" : "Cross Border Law",
         "_label" : "group|name|GR-Procedure-CrossBorderLaw",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-09(a)-Procedure",
           "contentType" : "field",
@@ -438,6 +469,7 @@
         "displayType" : "GROUP",
         "description" : "Max Lots",
         "_label" : "group|name|GR-Procedure-MaxLots",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-31-Procedure",
           "contentType" : "field",
@@ -458,12 +490,14 @@
       "displayType" : "SECTION",
       "description" : "Procedure",
       "_label" : "group|name|GR-Procedure-Procedure-subsection",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Procedure-Procedure",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Procedure",
         "_label" : "group|name|GR-Procedure-Procedure",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-634-Procedure",
           "contentType" : "field",
@@ -495,6 +529,7 @@
         "displayType" : "GROUP",
         "description" : "Additional Information",
         "_label" : "group|name|GR-Procedure-AdditionalInformation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-300-Procedure",
           "contentType" : "field",
@@ -520,6 +555,7 @@
       "displayType" : "SECTION",
       "description" : "Purpose",
       "_label" : "group|name|GR-Lot-Purpose",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "BT-137-Lot",
         "contentType" : "field",
@@ -556,6 +592,7 @@
         "displayType" : "GROUP",
         "description" : "Description",
         "_label" : "group|name|GR-Lot-Description",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-22-Lot",
           "contentType" : "field",
@@ -594,6 +631,7 @@
         "displayType" : "GROUP",
         "description" : "Scope",
         "_label" : "group|name|GR-Lot-Scope",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-25-Lot",
           "contentType" : "field",
@@ -624,6 +662,7 @@
           "displayType" : "GROUP",
           "description" : "Main Classification",
           "_label" : "group|name|GR-Lot-Scope-MainClassification",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(m)-Lot",
             "contentType" : "field",
@@ -656,8 +695,7 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Additional Classification Code",
-            "_label" : "field|name|BT-263-Lot",
-            "_repeatable" : true
+            "_label" : "field|name|BT-263-Lot"
           } ]
         } ]
       }, {
@@ -666,6 +704,7 @@
         "displayType" : "GROUP",
         "description" : "Procurement Type",
         "_label" : "group|name|GR-Lot-ProcurementType",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-774-Lot",
           "contentType" : "field",
@@ -693,6 +732,7 @@
           "displayType" : "GROUP",
           "description" : "Strategic Procurement",
           "_label" : "group|name|GR-Lot-ProcurementType-Strategic",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-06-Lot",
             "contentType" : "field",
@@ -713,6 +753,7 @@
           "displayType" : "GROUP",
           "description" : "Accessibility",
           "_label" : "group|name|GR-Lot-ProcurementType-Accessibility",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-754-Lot",
             "contentType" : "field",
@@ -797,12 +838,14 @@
         "displayType" : "GROUP",
         "description" : "Planned Duration",
         "_label" : "group|name|GR-Lot-PlannedDuration",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "GR-Lot-PlannedDuration-Dates",
           "contentType" : "group",
           "displayType" : "GROUP",
           "description" : "Duration Dates",
           "_label" : "group|name|GR-Lot-PlannedDuration-Dates",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-536-Lot",
             "contentType" : "field",
@@ -822,6 +865,7 @@
           "displayType" : "GROUP",
           "description" : "Duration Period",
           "_label" : "group|name|GR-Lot-PlannedDuration-Period",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-36-Lot",
             "contentType" : "field",
@@ -842,6 +886,7 @@
         "displayType" : "GROUP",
         "description" : "Contract Extension",
         "_label" : "group|name|GR-Lot-ContractExtension",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-54-Lot",
           "contentType" : "field",
@@ -867,6 +912,7 @@
         "displayType" : "GROUP",
         "description" : "Auction Terms",
         "_label" : "group|name|GR-Lot-AuctionTerms",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-767-Lot",
           "contentType" : "field",
@@ -892,6 +938,7 @@
         "displayType" : "GROUP",
         "description" : "GPA Agreement",
         "_label" : "group|name|GR-Lot-GpaAgreement",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-115-Lot",
           "contentType" : "field",
@@ -905,6 +952,7 @@
         "displayType" : "GROUP",
         "description" : "EU Funds Availability",
         "_label" : "group|name|GR-Lot-EUFunds",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-60-Lot",
           "contentType" : "field",
@@ -918,6 +966,7 @@
         "displayType" : "GROUP",
         "description" : "Contracting System / Technique",
         "_label" : "group|name|GR-Lot-ContractingSystem",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-765-Lot",
           "contentType" : "field",
@@ -937,6 +986,7 @@
         "displayType" : "GROUP",
         "description" : "Framework Agreement",
         "_label" : "group|name|GR-Lot-FrameworkAgreement",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-113-Lot",
           "contentType" : "field",
@@ -969,6 +1019,7 @@
         "displayType" : "GROUP",
         "description" : "Fiscal Legislation",
         "_label" : "group|name|GR-Lot-FiscalLegis",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-FiscalLegis",
           "contentType" : "field",
@@ -995,6 +1046,7 @@
         "displayType" : "GROUP",
         "description" : "Environmental Legislation",
         "_label" : "group|name|GR-Lot-EnvironLegis",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-EnvironLegis",
           "contentType" : "field",
@@ -1021,6 +1073,7 @@
         "displayType" : "GROUP",
         "description" : "Employment Legislation",
         "_label" : "group|name|GR-Lot-EmployLegis",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-EmployLegis",
           "contentType" : "field",
@@ -1047,6 +1100,7 @@
         "displayType" : "GROUP",
         "description" : "Additional Information",
         "_label" : "group|name|GR-Lot-AdditionalInformation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-300-Lot",
           "contentType" : "field",
@@ -1061,6 +1115,7 @@
       "displayType" : "SECTION",
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-Lot-TenderingTerms",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Lot-SelectionCriteria",
         "contentType" : "group",
@@ -1074,8 +1129,7 @@
           "contentType" : "field",
           "displayType" : "COMBOBOX",
           "description" : "Selection Criteria Type",
-          "_label" : "field|name|BT-747-Lot",
-          "_repeatable" : true
+          "_label" : "field|name|BT-747-Lot"
         }, {
           "id" : "BT-749-Lot",
           "contentType" : "field",
@@ -1106,6 +1160,7 @@
           "displayType" : "GROUP",
           "description" : "Selection Criteria Second Stage Invite",
           "_label" : "group|name|GR-Lot-SelectionCriteria-SecondStageInvite",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-7531-Lot",
             "contentType" : "field",
@@ -1123,8 +1178,7 @@
             "contentType" : "field",
             "displayType" : "TEXTBOX",
             "description" : "Selection Criteria Second Stage Invite Number",
-            "_label" : "field|name|BT-752-Lot",
-            "_repeatable" : true
+            "_label" : "field|name|BT-752-Lot"
           } ]
         } ]
       }, {
@@ -1133,6 +1187,7 @@
         "displayType" : "GROUP",
         "description" : "Candidates",
         "_label" : "group|name|GR-Lot-Candidates",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-52-Lot",
           "contentType" : "field",
@@ -1163,74 +1218,89 @@
         "contentType" : "group",
         "nodeId" : "ND-LotAwardCriteria",
         "displayType" : "GROUP",
-        "description" : "Award Criteria related information (Descrition, Justification, Individual Criterion …) for a Lot",
+        "description" : "Award Criteria related information (Description, Justification, Individual Criterion …) for a Lot",
         "_label" : "group|name|ND-LotAwardCriteria",
         "_repeatable" : true,
         "content" : [ {
-          "id" : "BT-733-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Award Criteria Order Justification",
-          "_label" : "field|name|BT-733-Lot"
-        }, {
-          "id" : "BT-543-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Award Criteria Complicated",
-          "_label" : "field|name|BT-543-Lot"
-        }, {
           "id" : "GR-Lot-AwardCriteria-Criterion",
           "contentType" : "group",
           "nodeId" : "ND-LotAwardCriterion",
           "displayType" : "GROUP",
-          "description" : "Award Criterion related information (Descrition, Name, Parameter, Code …) for a Lot",
+          "description" : "Award Criterion related information (Description, Name, Parameter, Code …) for a Lot",
           "_label" : "group|name|ND-LotAwardCriterion",
           "_repeatable" : true,
           "content" : [ {
-            "id" : "BT-5421-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Award Criterion Number Weight",
-            "_label" : "field|name|BT-5421-Lot"
-          }, {
-            "id" : "BT-5422-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Award Criterion Number Fixed",
-            "_label" : "field|name|BT-5422-Lot"
-          }, {
-            "id" : "BT-5423-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Award Criterion Number Threshold",
-            "_label" : "field|name|BT-5423-Lot"
-          }, {
-            "id" : "BT-541-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Award Criterion Number",
-            "_label" : "field|name|BT-541-Lot",
-            "_repeatable" : true
-          }, {
             "id" : "BT-539-Lot",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Award Criterion Type",
-            "_label" : "field|name|BT-539-Lot",
-            "_repeatable" : true
-          }, {
-            "id" : "BT-734-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Award Criterion Name",
-            "_label" : "field|name|BT-734-Lot"
+            "_label" : "field|name|BT-539-Lot"
           }, {
             "id" : "BT-540-Lot",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Award Criterion Description",
             "_label" : "field|name|BT-540-Lot"
+          }, {
+            "id" : "GR-Lot-AwardCriteria-Criterion-Parameters",
+            "contentType" : "group",
+            "nodeId" : "ND-LotAwardCriterionParameters",
+            "displayType" : "GROUP",
+            "description" : "Non UBL Native Subordinate Award Criteria elements for a Lot",
+            "_label" : "group|name|ND-LotAwardCriterionParameters",
+            "content" : [ {
+              "id" : "GR-Lot-AwardCriteria-Criterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotAwardCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Lot Award Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotAwardCriterionParameter",
+              "_repeatable" : true,
+              "content" : [ {
+                "id" : "BT-541-Lot",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Number",
+                "_label" : "field|name|BT-541-Lot"
+              }, {
+                "id" : "BT-5421-Lot",
+                "contentType" : "field",
+                "displayType" : "COMBOBOX",
+                "description" : "Award Criterion Number Weight",
+                "_label" : "field|name|BT-5421-Lot"
+              }, {
+                "id" : "BT-5422-Lot",
+                "contentType" : "field",
+                "displayType" : "COMBOBOX",
+                "description" : "Award Criterion Number Fixed",
+                "_label" : "field|name|BT-5422-Lot"
+              }, {
+                "id" : "BT-5423-Lot",
+                "contentType" : "field",
+                "displayType" : "COMBOBOX",
+                "description" : "Award Criterion Number Threshold",
+                "_label" : "field|name|BT-5423-Lot"
+              } ]
+            } ]
+          }, {
+            "id" : "BT-543-Lot",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Award Criteria Complicated",
+            "_label" : "field|name|BT-543-Lot"
+          }, {
+            "id" : "BT-734-Lot",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Award Criterion Name",
+            "_label" : "field|name|BT-734-Lot"
           } ]
+        }, {
+          "id" : "BT-733-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Award Criteria Order Justification",
+          "_label" : "field|name|BT-733-Lot"
         } ]
       }, {
         "id" : "GR-Lot-TendererQualification",
@@ -1238,6 +1308,7 @@
         "displayType" : "GROUP",
         "description" : "Tenderer Qualification",
         "_label" : "group|name|GR-Lot-TendererQualification",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-761-Lot",
           "contentType" : "field",
@@ -1276,6 +1347,7 @@
         "displayType" : "GROUP",
         "description" : "Variants",
         "_label" : "group|name|GR-Lot-Variants",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-63-Lot",
           "contentType" : "field",
@@ -1289,6 +1361,7 @@
         "displayType" : "GROUP",
         "description" : "Information about Recurrence",
         "_label" : "group|name|GR-132001",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-769-Lot",
           "contentType" : "field",
@@ -1302,6 +1375,7 @@
         "displayType" : "GROUP",
         "description" : "Contract Execution Requirements",
         "_label" : "group|name|GR-Lot-ContractExecutionRequirements",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-736-Lot",
           "contentType" : "field",
@@ -1327,6 +1401,7 @@
         "displayType" : "GROUP",
         "description" : "Requirements II / Security Clearance I",
         "_label" : "group|name|GR-Lot-Requirements2SecurityClearance1",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-79-Lot",
           "contentType" : "field",
@@ -1346,6 +1421,7 @@
         "displayType" : "GROUP",
         "description" : "Security Clearance II",
         "_label" : "group|name|GR-Lot-SecurityClearance2",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-578-Lot",
           "contentType" : "field",
@@ -1365,6 +1441,7 @@
         "displayType" : "GROUP",
         "description" : "Electronic Catalog",
         "_label" : "group|name|GR-Lot-ElectronicCatalog",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-764-Lot",
           "contentType" : "field",
@@ -1378,6 +1455,7 @@
         "displayType" : "GROUP",
         "description" : "Electronic Signature Required",
         "_label" : "group|name|GR-Lot-ElectronicSignatureRequired",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-744-Lot",
           "contentType" : "field",
@@ -1391,6 +1469,7 @@
         "displayType" : "GROUP",
         "description" : "Post Award Process",
         "_label" : "group|name|GR-Lot-PostAwardProcess",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-92-Lot",
           "contentType" : "field",
@@ -1410,6 +1489,7 @@
         "displayType" : "GROUP",
         "description" : "Financial Terms",
         "_label" : "group|name|GR-Lot-FinancialTerms",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-77-Lot",
           "contentType" : "field",
@@ -1423,6 +1503,7 @@
         "displayType" : "GROUP",
         "description" : "Tender Recipient Organisation",
         "_label" : "group|name|GR-Lot-TenderReceipt",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-TenderReceipt",
           "contentType" : "field",
@@ -1437,6 +1518,7 @@
         "displayType" : "GROUP",
         "description" : "Tender Evaluation Organisation",
         "_label" : "group|name|GR-Lot-TenderEval",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-TenderEval",
           "contentType" : "field",
@@ -1452,12 +1534,14 @@
       "displayType" : "SECTION",
       "description" : "Submission Info",
       "_label" : "group|name|GR-Lot-SubmissionInfo",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Lot-Procedure",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Procedure",
         "_label" : "group|name|GR-Lot-Procedure",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-634-Lot",
           "contentType" : "field",
@@ -1471,6 +1555,7 @@
         "displayType" : "GROUP",
         "description" : "Deadlines I",
         "_label" : "group|name|GR-Lot-Deadlines1",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-130-Lot",
           "contentType" : "field",
@@ -1502,6 +1587,7 @@
         "displayType" : "GROUP",
         "description" : "Deadlines II",
         "_label" : "group|name|GR-Lot-Deadlines2",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-630(d)-Lot",
           "contentType" : "field",
@@ -1521,6 +1607,7 @@
         "displayType" : "GROUP",
         "description" : "Submission Language",
         "_label" : "group|name|GR-Lot-Submission Language",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-97-Lot",
           "contentType" : "field",
@@ -1535,6 +1622,7 @@
         "displayType" : "GROUP",
         "description" : "Financial Guarantee",
         "_label" : "group|name|GR-Lot-FinancialGuarantee",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-751-Lot",
           "contentType" : "field",
@@ -1554,6 +1642,7 @@
         "displayType" : "GROUP",
         "description" : "Submission Method",
         "_label" : "group|name|GR-Lot-SubmissionMethod",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-17-Lot",
           "contentType" : "field",
@@ -1585,6 +1674,7 @@
         "displayType" : "GROUP",
         "description" : "Procurement Documents",
         "_label" : "group|name|GR-Lot-ProcurementDocuments",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-14-Lot",
           "contentType" : "field",
@@ -1608,15 +1698,13 @@
           "contentType" : "field",
           "displayType" : "COMBOBOX",
           "description" : "Documents Official Language",
-          "_label" : "field|name|BT-708-Lot",
-          "_repeatable" : true
+          "_label" : "field|name|BT-708-Lot"
         }, {
           "id" : "BT-737-Lot",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
           "description" : "Documents Unofficial Language",
-          "_label" : "field|name|BT-737-Lot",
-          "_repeatable" : true
+          "_label" : "field|name|BT-737-Lot"
         }, {
           "id" : "BT-15-Lot",
           "contentType" : "field",
@@ -1642,6 +1730,7 @@
         "displayType" : "GROUP",
         "description" : "Submission Tool",
         "_label" : "group|name|GR-Lot-SubmissionTool",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-632-Lot",
           "contentType" : "field",
@@ -1662,6 +1751,7 @@
         "displayType" : "GROUP",
         "description" : "Additional Information Providing Organisation",
         "_label" : "group|name|GR-Lot-AddInfo",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-AddInfo",
           "contentType" : "field",
@@ -1676,6 +1766,7 @@
         "displayType" : "GROUP",
         "description" : "Documents Providing Organisation",
         "_label" : "group|name|GR-Lot-DocProvider",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-DocProvider",
           "contentType" : "field",
@@ -1691,12 +1782,14 @@
       "displayType" : "SECTION",
       "description" : "Review",
       "_label" : "group|name|GR-Lot-Review",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Lot-Deadline",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Review Deadlines",
         "_label" : "group|name|GR-Lot-Deadline",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-99-Lot",
           "contentType" : "field",
@@ -1710,6 +1803,7 @@
         "displayType" : "GROUP",
         "description" : "Review Organisation",
         "_label" : "group|name|GR-Lot-ReviewOrg",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-ReviewOrg",
           "contentType" : "field",
@@ -1724,6 +1818,7 @@
         "displayType" : "GROUP",
         "description" : "Review Information Providing Organisation",
         "_label" : "group|name|GR-Lot-ReviewInfo",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-ReviewInfo",
           "contentType" : "field",
@@ -1738,6 +1833,7 @@
         "displayType" : "GROUP",
         "description" : "Mediation Organisation",
         "_label" : "group|name|GR-Lot-Mediator",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Lot-Mediator",
           "contentType" : "field",
@@ -1764,6 +1860,7 @@
       "displayType" : "SECTION",
       "description" : "Purpose",
       "_label" : "group|name|GR-LotsGroup-Purpose",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "BT-137-LotsGroup",
         "contentType" : "field",
@@ -1778,6 +1875,7 @@
         "displayType" : "GROUP",
         "description" : "Lot Distribution ",
         "_label" : "group|name|GR-LotsGroup-LotDistribution",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-330-Procedure",
           "contentType" : "field",
@@ -1785,7 +1883,6 @@
           "description" : "Group Identifier",
           "_label" : "field|name|BT-330-Procedure",
           "valueSource" : "BT-137-LotsGroup",
-          "_repeatable" : true,
           "hidden" : true
         }, {
           "id" : "BT-1375-Procedure",
@@ -1802,6 +1899,7 @@
         "displayType" : "GROUP",
         "description" : "Description",
         "_label" : "group|name|GR-LotsGroup-Description",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-22-LotsGroup",
           "contentType" : "field",
@@ -1827,6 +1925,7 @@
         "displayType" : "GROUP",
         "description" : "Scope",
         "_label" : "group|name|GR-LotsGroup-Scope",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-726-LotsGroup",
           "contentType" : "field",
@@ -1846,19 +1945,13 @@
         "displayType" : "GROUP",
         "description" : "Framework Agreement",
         "_label" : "group|name|GR-LotsGroup-FrameworkAgreement",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-157-LotsGroup",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Group Framework Estimated Maximum Value",
           "_label" : "field|name|BT-157-LotsGroup"
-        }, {
-          "id" : "OPT-090-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Buyer Categories",
-          "_label" : "field|name|OPT-090-LotsGroup",
-          "hidden" : true
         } ]
       }, {
         "id" : "GR-LotsGroup-AdditionalInformation",
@@ -1866,6 +1959,7 @@
         "displayType" : "GROUP",
         "description" : "Additional Information",
         "_label" : "group|name|GR-LotsGroup-AdditionalInformation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-300-LotsGroup",
           "contentType" : "field",
@@ -1880,12 +1974,13 @@
       "displayType" : "SECTION",
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-LotsGroup-TenderingTerms",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-LotsGroup-AwardCriteria",
         "contentType" : "group",
         "nodeId" : "ND-LotsGroupAwardCriteria",
         "displayType" : "GROUP",
-        "description" : "Award Criteria related information (Descrition, Justification, Individual Criterion …) for a Group of Lots",
+        "description" : "Award Criteria related information (Description, Justification, Individual Criterion …) for a Group of Lots",
         "_label" : "group|name|ND-LotsGroupAwardCriteria",
         "_repeatable" : true,
         "content" : [ {
@@ -1905,7 +2000,7 @@
           "contentType" : "group",
           "nodeId" : "ND-LotsGroupAwardCriterion",
           "displayType" : "GROUP",
-          "description" : "Award Criterion related information (Descrition, Name, Parameter, Code …) for a Group of Lots",
+          "description" : "Award Criterion related information (Description, Name, Parameter, Code …) for a Group of Lots",
           "_label" : "group|name|ND-LotsGroupAwardCriterion",
           "_repeatable" : true,
           "content" : [ {
@@ -1931,15 +2026,13 @@
             "contentType" : "field",
             "displayType" : "TEXTBOX",
             "description" : "Award Criterion Number",
-            "_label" : "field|name|BT-541-LotsGroup",
-            "_repeatable" : true
+            "_label" : "field|name|BT-541-LotsGroup"
           }, {
             "id" : "BT-539-LotsGroup",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Award Criterion Type",
-            "_label" : "field|name|BT-539-LotsGroup",
-            "_repeatable" : true
+            "_label" : "field|name|BT-539-LotsGroup"
           }, {
             "id" : "BT-734-LotsGroup",
             "contentType" : "field",
@@ -1962,6 +2055,7 @@
     "displayType" : "SECTION",
     "description" : "Change",
     "_label" : "group|name|GR-Change",
+    "_repeatable" : true,
     "content" : [ {
       "id" : "BT-140-notice",
       "contentType" : "field",
@@ -2023,12 +2117,14 @@
     "displayType" : "SECTION",
     "description" : "Organisations",
     "_label" : "group|name|GR-Organisations-Section",
+    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-Organisations-Subsection",
       "contentType" : "group",
       "displayType" : "SECTION",
       "description" : "Organisations",
       "_label" : "group|name|GR-Organisations-Subsection",
+      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Organisations",
         "contentType" : "group",
@@ -2057,8 +2153,9 @@
           "id" : "GR-Company",
           "contentType" : "group",
           "displayType" : "GROUP",
-          "description" : "Company",
+          "description" : "Organisation",
           "_label" : "group|name|GR-Company",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-500-Organization-Company",
             "contentType" : "field",
@@ -2095,8 +2192,9 @@
           "id" : "GR-Company-Address",
           "contentType" : "group",
           "displayType" : "GROUP",
-          "description" : "Company Address",
+          "description" : "Organisation Address",
           "_label" : "group|name|GR-Company-Address",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-510(a)-Organization-Company",
             "contentType" : "field",
@@ -2144,8 +2242,9 @@
           "id" : "GR-Company-Contact",
           "contentType" : "group",
           "displayType" : "GROUP",
-          "description" : "Company Contact",
+          "description" : "Organisation Contact",
           "_label" : "group|name|GR-Company-Contact",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-502-Organization-Company",
             "contentType" : "field",
@@ -2177,6 +2276,7 @@
           "displayType" : "GROUP",
           "description" : "Buyer Exclusive",
           "_label" : "group|name|GR-Company-BuyerExclusive",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "OPP-050-Organization",
             "contentType" : "field",
@@ -2213,7 +2313,6 @@
             "description" : "TouchPoint Technical Identifier",
             "_label" : "field|name|OPT-201-Organization-TouchPoint",
             "_idScheme" : "TPO",
-            "_repeatable" : true,
             "hidden" : true
           }, {
             "id" : "BT-500-Organization-TouchPoint",
@@ -2245,6 +2344,7 @@
             "displayType" : "GROUP",
             "description" : "TouchPoint Address",
             "_label" : "group|name|GR-TouchPoint-Address",
+            "_repeatable" : true,
             "content" : [ {
               "id" : "BT-510(a)-Organization-TouchPoint",
               "contentType" : "field",
@@ -2294,6 +2394,7 @@
             "displayType" : "GROUP",
             "description" : "TouchPoint Contact",
             "_label" : "group|name|GR-TouchPoint-Contact",
+            "_repeatable" : true,
             "content" : [ {
               "id" : "BT-502-Organization-TouchPoint",
               "contentType" : "field",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Finnish. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Finnish. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Vammaisia koskevat esteettömyysvaatimukset on otettu huomioon</entry>
 <entry key="code|name|accessibility.n-inc">Vammaisia koskevia esteettömyysvaatimuksia ei ole otettu huomioon, koska hankintaa ei ole tarkoitettu luonnollisten henkilöiden käyttöön</entry>
 <entry key="code|name|accessibility.n-inc-just">Vammaisia koskevia esteettömyysvaatimuksia ei ole otettu huomioon seuraavin perustein</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Meksiko</entry>
 <entry key="code|name|country.MHL">Marshallinsaaret</entry>
 <entry key="code|name|country.MID">Midwaysaaret</entry>
-<entry key="code|name|country.MKD">Entinen Jugoslavian tasavalta Makedonia</entry>
+<entry key="code|name|country.MKD">Pohjois-Makedonia</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Burma</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongolia</entry>
 <entry key="code|name|country.MNP">Pohjois-Mariaanit</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapore</entry>
 <entry key="code|name|country.SGS">Etelä-Georgia ja Eteläiset Sandwichsaaret</entry>
-<entry key="code|name|country.SHN">Saint Helena</entry>
+<entry key="code|name|country.SHN">Saint Helena, Ascension ja Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard ja Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Salomonsaaret</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Wakensaari</entry>
 <entry key="code|name|country.WLF">Wallis ja Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Etelä-Jemen</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Pohjois-Jemen</entry>
 <entry key="code|name|country.YUG">Jugoslavia</entry>
 <entry key="code|name|country.ZAF">Etelä-Afrikka</entry>
@@ -10119,13 +10119,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Siirtyminen kiertotalouteen</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Ilmastonmuutokseen sopeutuminen</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Ilmastonmuutoksen hillintä</entry>
-<entry key="code|name|environmental-impact.emas-com">Asetuksen (EY) N:o 1221/2009 mukaisen EMAS-rekisteröinnin (ympäristöasioiden hallinta- ja auditointijärjestelmä) hakeminen</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Korkeimman energiatehokkuusluokan hakeminen (määritelty eri lainsäädännöissä, esimerkiksi huoneilmastointilaitteille asetuksessa (EU) N:o 626/2011)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Muun ISO 14001 -sertifioidun ympäristöasioiden hallintajärjestelmän mukaisen rekisteröinnin kuin asetuksen (EY) N:o 1221/2009 mukaisen EMAS-rekisteröinnin (ympäristöasioiden hallinta- ja auditointijärjestelmä) hakeminen</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">ISO 14024 -standardin mukaisen tyypin I ympäristömerkin hakeminen</entry>
 <entry key="code|name|environmental-impact.other">Muu</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Ympäristön pilaantumisen ehkäiseminen ja vähentäminen</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Luonnonmukaisesta tuotannosta ja luonnonmukaisesti tuotettujen tuotteiden merkinnöistä annetun asetuksen (EY) N:o 834/2007 vaatimusten täyttymisvahvistuksen hakeminen asianomaisen hankinnan pääosilta</entry>
 <entry key="code|name|environmental-impact.water-mar">Vesivarojen ja merten luonnonvarojen kestävä käyttö ja suojelu</entry>
 <entry key="code|name|eu-programme.AFIS2020">Petostentorjunnan tietojärjestelmä (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Euroopan maatalouden tukirahasto (maataloustukirahaston ja maaseuturahaston välisten siirtojen jälkeen)</entry>

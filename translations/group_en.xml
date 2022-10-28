@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>group in English. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
@@ -9,10 +9,10 @@
 <entry key="group|name|GR-Business-Publication">Publication</entry>
 <entry key="group|name|GR-Business-Section">Notice</entry>
 <entry key="group|name|GR-Change">Change</entry>
-<entry key="group|name|GR-Company">Company</entry>
-<entry key="group|name|GR-Company-Address">Company Address</entry>
+<entry key="group|name|GR-Company">Organisation</entry>
+<entry key="group|name|GR-Company-Address">Organisation Address</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Buyer Exclusive</entry>
-<entry key="group|name|GR-Company-Contact">Company Contact</entry>
+<entry key="group|name|GR-Company-Contact">Organisation Contact</entry>
 <entry key="group|name|GR-Company-EconomicOperatorExclusive">Economic Operator Exclusive</entry>
 <entry key="group|name|GR-Content">Content</entry>
 <entry key="group|name|GR-ContractingAuthority">Contracting Authority</entry>
@@ -122,6 +122,7 @@
 <entry key="group|name|GR-Part-TenderReceipt">Tender Recipient Organisation</entry>
 <entry key="group|name|GR-Part-TendererQualification">Tenderer Qualification</entry>
 <entry key="group|name|GR-Part-TenderingTerms">Tendering Terms</entry>
+<entry key="group|name|GR-Previous-Notice">Previous Notice</entry>
 <entry key="group|name|GR-Procedure">Procedure</entry>
 <entry key="group|name|GR-Procedure-AdditionalInformation">Additional Information</entry>
 <entry key="group|name|GR-Procedure-CrossBorderLaw">Cross Border Law</entry>
@@ -151,6 +152,7 @@
 <entry key="group|name|GR-Unpublish-BT-09">Unpublish - BT-09</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Unpublish - BT-105</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Unpublish - BT-106</entry>
+<entry key="group|name|GR-Unpublish-BT-1118">Unpublish - BT-1118</entry>
 <entry key="group|name|GR-Unpublish-BT-118">Unpublish - BT-118</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Unpublish - BT-1252</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Unpublish - BT-135</entry>
@@ -203,12 +205,17 @@
 <entry key="group|name|GR-Winner">Winner</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Statistics regarding the number of Organizations requesting review for a given Irregularity Type (Number &amp; Code)</entry>
 <entry key="group|name|ND-Change">Information associated to a single Change (Section, Description &amp; Procurement Documents)</entry>
+<entry key="group|name|ND-ContractEUFunds">EU Funds (Code, Description) involved in a contract.</entry>
 <entry key="group|name|ND-ContractingParty">Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)</entry>
+<entry key="group|name|ND-CrossBorderLaw">Cross Border Law</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion Grounds (Code &amp; Description)</entry>
+<entry key="group|name|ND-LocalLegalBasisWithID">Legislation impacting the procurement and for which an ID is known</entry>
 <entry key="group|name|ND-Lot">Lot related information covering Tendering Terms, Tendering Process and Purpose</entry>
 <entry key="group|name|ND-LotAdditionalClassification">Classification for an Additional Commodity of a Lot</entry>
 <entry key="group|name|ND-LotAwardCriteria">Award Criteria related information (Description, Justification, Individual Criterion …) for a Lot</entry>
 <entry key="group|name|ND-LotAwardCriterion">Award Criterion related information (Description, Name, Parameter, Code …) for a Lot</entry>
+<entry key="group|name|ND-LotAwardCriterionParameter">Lot Award Criterion Parameter (Value and associated Code)</entry>
+<entry key="group|name|ND-LotAwardCriterionParameters">Non UBL Native Subordinate Award Criteria elements for a Lot</entry>
 <entry key="group|name|ND-LotPlacePerformance">A location where the Procurement, for the Lot, should take place</entry>
 <entry key="group|name|ND-LotPreviousPlanning">Lot Previous Planning Reference</entry>
 <entry key="group|name|ND-LotResult">Outcome of the Procurement Procedure for a given Lot</entry>

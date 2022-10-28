@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Greek. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Greek. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Συμπεριλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες</entry>
 <entry key="code|name|accessibility.n-inc">Δεν περιλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες επειδή η προμήθεια δεν προορίζεται για χρήση από φυσικά πρόσωπα</entry>
 <entry key="code|name|accessibility.n-inc-just">Δεν περιλαμβάνονται κριτήρια προσβασιμότητας για τα άτομα με αναπηρίες με την ακόλουθη αιτιολόγηση</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Νήσος των Χριστουγέννων</entry>
 <entry key="code|name|country.CYM">Νήσοι Κέιμαν</entry>
 <entry key="code|name|country.CYP">Κύπρος</entry>
-<entry key="code|name|country.CZE">Τσεχική Δημοκρατία</entry>
+<entry key="code|name|country.CZE">Τσεχία</entry>
 <entry key="code|name|country.DDR">Ανατολική Γερμανία</entry>
 <entry key="code|name|country.DEU">Γερμανία</entry>
 <entry key="code|name|country.DHY">Δαχομέη</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Μεξικό</entry>
 <entry key="code|name|country.MHL">Νήσοι Μάρσαλ</entry>
 <entry key="code|name|country.MID">Νήσοι Μίντγουαιη</entry>
-<entry key="code|name|country.MKD">Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας</entry>
+<entry key="code|name|country.MKD">Βόρεια Μακεδονία</entry>
 <entry key="code|name|country.MLI">Μαλί</entry>
 <entry key="code|name|country.MLT">Μάλτα</entry>
-<entry key="code|name|country.MMR">Μιανμάρ</entry>
+<entry key="code|name|country.MMR">Μιανμάρ/Βιρμανία</entry>
 <entry key="code|name|country.MNE">Μαυροβούνιο</entry>
 <entry key="code|name|country.MNG">Μογγολία</entry>
 <entry key="code|name|country.MNP">Βόρειες Μαριάνες Νήσοι</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Σενεγάλη</entry>
 <entry key="code|name|country.SGP">Σιγκαπούρη</entry>
 <entry key="code|name|country.SGS">Νήσοι Νότια Γεωργία και Νότιες Σάντουιτς</entry>
-<entry key="code|name|country.SHN">Αγία Ελένη</entry>
+<entry key="code|name|country.SHN">Αγία Ελένη, Ασένσιον και Τριστάν ντα Κούνα</entry>
 <entry key="code|name|country.SJM">Σβάλμπαρντ και Γιαν Μαγιέν</entry>
 <entry key="code|name|country.SKM">Σικκίμ</entry>
 <entry key="code|name|country.SLB">Νήσοι Σολομώντος</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Σλοβακία</entry>
 <entry key="code|name|country.SVN">Σλοβενία</entry>
 <entry key="code|name|country.SWE">Σουηδία</entry>
-<entry key="code|name|country.SWZ">Σουαζιλάνδη</entry>
+<entry key="code|name|country.SWZ">Εσουατίνι</entry>
 <entry key="code|name|country.SXM">Άγιος Μαρτίνος</entry>
 <entry key="code|name|country.SYC">Σεϋχέλλες</entry>
 <entry key="code|name|country.SYR">Συρία</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Νήσος Ουέηκ</entry>
 <entry key="code|name|country.WLF">Ουάλις και Φουτούνα</entry>
 <entry key="code|name|country.WSM">Σαμόα</entry>
-<entry key="code|name|country.YEM">Νότια Υεμένη</entry>
+<entry key="code|name|country.YEM">Υεμένη</entry>
 <entry key="code|name|country.YMD">Βόρεια Υεμένη</entry>
 <entry key="code|name|country.YUG">Γιουγκοσλαβία</entry>
 <entry key="code|name|country.ZAF">Νότια Αφρική</entry>
@@ -10119,13 +10119,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Η μετάβαση σε μια κυκλική οικονομία</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Η προσαρμογή στην κλιματική αλλαγή</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Ο μετριασμός της κλιματικής αλλαγής</entry>
-<entry key="code|name|environmental-impact.emas-com">Απαίτηση συμμόρφωσης με το σύστημα οικολογικής διαχείρισης και οικολογικού ελέγχου (EMAS) που θεσπίστηκε με τον κανονισμό (ΕΚ) αριθ. 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Απαίτηση συμμόρφωσης με την υψηλότερη κατηγορία ενεργειακής απόδοσης [όπως έχει καθοριστεί από διάφορες νομοθετικές πράξεις, π.χ. από τον κανονισμό (ΕΕ) αριθ. 626/2011 για τα κλιματιστικά]</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Απαίτηση συμμόρφωσης με σύστημα περιβαλλοντικής διαχείρισης ISO 14001 διαφορετικό από το σύστημα οικολογικής διαχείρισης και οικολογικού ελέγχου (EMAS) που θεσπίστηκε με τον κανονισμό (ΕΚ) αριθ. 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Απαίτηση συμμόρφωσης με περιβαλλοντικό σήμα ISO 14024 τύπου Ι</entry>
 <entry key="code|name|environmental-impact.other">Άλλη</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Η πρόληψη και έλεγχος της ρύπανσης</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Απαίτηση συμμόρφωσης, για το μεγαλύτερο μέρος της σχετικής προμήθειας, με τον κανονισμό (ΕΚ) αριθ. 834/2007 για τη βιολογική παραγωγή και την επισήμανση των βιολογικών προϊόντων</entry>
 <entry key="code|name|environmental-impact.water-mar">Η βιώσιμη χρήση και προστασία των υδάτινων και των θαλάσσιων πόρων</entry>
 <entry key="code|name|eu-programme.AFIS2020">Σύστημα πληροφοριών κατά της απάτης (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Ευρωπαϊκό Γεωργικό Ταμείο Εγγυήσεων (μετά τις μεταφορές μεταξύ ΕΓΤE και ΕΓΤΑΑ)</entry>

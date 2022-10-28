@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.2.151 created on the 2022-10-25T10:45:30.-->
+<!--File generated from metadata database version 1.2.225 created on the 2022-10-27T10:30:25.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -42,7 +42,7 @@
     <diagnostic id="BT-05_a_-notice">cbc:IssueDate</diagnostic>
     <diagnostic id="BT-05_b_-notice">cbc:IssueTime</diagnostic>
     <diagnostic id="BT-06-Lot">cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='strategic-procurement']</diagnostic>
-    <diagnostic id="BT-09_a_-Procedure">cac:ProcurementLegislationDocumentReference/cbc:ID[text()='CrossBorderLaw']</diagnostic>
+    <diagnostic id="BT-09_a_-Procedure">cbc:ID[text()='CrossBorderLaw']</diagnostic>
     <diagnostic id="BT-09_b_-Procedure">cbc:DocumentDescription</diagnostic>
     <diagnostic id="BT-10-Procedure-Buyer">cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']</diagnostic>
     <diagnostic id="BT-105-Procedure">cbc:ProcedureCode</diagnostic>
@@ -670,6 +670,7 @@
     <diagnostic id="ND-ProcedureProcurementScope_BT-262-Procedure">cac:MainCommodityClassification/cbc:ItemClassificationCode</diagnostic>
     <diagnostic id="ND-ProcedureProcurementScope_BT-263-Procedure">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode</diagnostic>
     <diagnostic id="ND-ProcedureProcurementScope_BT-271-Procedure">cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount</diagnostic>
+    <diagnostic id="ND-ProcedureTerms_BT-09_a_-Procedure">cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:ID[text()='CrossBorderLaw']</diagnostic>
     <diagnostic id="ND-ReviewStatus_BT-799-ReviewBody">efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode</diagnostic>
     <diagnostic id="ND-ReviewStatus_OPT-091-ReviewReq">efac:AppealingParty/efbc:AppealingPartyTypeCode</diagnostic>
     <diagnostic id="ND-ReviewStatus_OPT-301-ReviewBody">efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID</diagnostic>

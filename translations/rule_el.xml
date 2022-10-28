@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>rule in Greek. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>rule in Greek. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="rule|template|mandatory">${field.id} είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο ${notice.id}</entry>
 <entry key="rule|text|BR-BT-00001-0001">BT-01-notice είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο X01</entry>
 <entry key="rule|text|BR-BT-00001-0002">BT-01-notice είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο X02</entry>
@@ -1631,6 +1631,7 @@
 <entry key="rule|text|BR-OPT-00030-0047">OPT-030-Procedure-SProvider είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 38</entry>
 <entry key="rule|text|BR-OPT-00030-0048">OPT-030-Procedure-SProvider είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 39</entry>
 <entry key="rule|text|BR-OPT-00030-0049">OPT-030-Procedure-SProvider είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 40</entry>
+<entry key="rule|text|BR-OPT-00036-0068">OPA-36-Lot-Number είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο CEI</entry>
 <entry key="rule|text|BR-OPT-00071-0041">OPT-071-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο T02</entry>
 <entry key="rule|text|BR-OPT-00072-0041">OPT-072-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο T02</entry>
 <entry key="rule|text|BR-OPT-00150-0017">OPT-150-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο CEI</entry>

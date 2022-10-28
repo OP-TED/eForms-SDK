@@ -64,11 +64,6 @@
 							</efac:Company>
 						</efac:Organization>
 					</efac:Organizations>
-					<efac:Publication>
-						<efbc:NoticePublicationID schemeName="ojs-notice-id">362098-2020</efbc:NoticePublicationID>
-						<efbc:GazetteID schemeName="ojs-id">147/2020</efbc:GazetteID>
-						<efbc:PublicationDate>2020-07-31+02:00</efbc:PublicationDate>
-					</efac:Publication>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Danish. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Danish. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Der er anvendt kriterier vedrørende adgangsmuligheder for personer med handicap</entry>
 <entry key="code|name|accessibility.n-inc">Der er ikke anvendt kriterier vedrørende adgangsmuligheder for personer med handicap, fordi udbuddet ikke er beregnet til at blive anvendt af fysiske personer</entry>
 <entry key="code|name|accessibility.n-inc-just">Der er ikke anvendt kriterier vedrørende adgangsmuligheder for personer med handicap med følgende begrundelse</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexico</entry>
 <entry key="code|name|country.MHL">Marshalløerne</entry>
 <entry key="code|name|country.MID">Øerne Midway</entry>
-<entry key="code|name|country.MKD">Tidligere jugoslaviske republik Makedonien</entry>
+<entry key="code|name|country.MKD">Nordmakedonien</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Burma</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongoliet</entry>
 <entry key="code|name|country.MNP">Nordmarianerne</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapore</entry>
 <entry key="code|name|country.SGS">Sydgeorgien og Sydsandwichøerne</entry>
-<entry key="code|name|country.SHN">Sankt Helene</entry>
+<entry key="code|name|country.SHN">Saint Helena, Ascension og Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard og Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Salomonøerne</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovakiet</entry>
 <entry key="code|name|country.SVN">Slovenien</entry>
 <entry key="code|name|country.SWE">Sverige</entry>
-<entry key="code|name|country.SWZ">Swaziland</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint-Maarten</entry>
 <entry key="code|name|country.SYC">Seychellerne</entry>
 <entry key="code|name|country.SYR">Syrien</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Øen Wake</entry>
 <entry key="code|name|country.WLF">Wallis og Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Sydyemen</entry>
+<entry key="code|name|country.YEM">Yemen</entry>
 <entry key="code|name|country.YMD">Nordyemen</entry>
 <entry key="code|name|country.YUG">Jugoslavien</entry>
 <entry key="code|name|country.ZAF">Sydafrika</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Omstilling til en cirkulær økonomi</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Tilpasning til klimaændringer</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Modvirkning af klimaændringer</entry>
-<entry key="code|name|environmental-impact.emas-com">Krav om overensstemmelse med ordningen for miljøledelse og miljørevision (EMAS), der er oprettet ved forordning (EF) nr. 1221/2009.</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Krav om overensstemmelse med den højeste energieffektivitetsklasse (som defineret i forskellige retsakter, f.eks. forordning (EU) nr. 626/2011 om klimaanlæg)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Krav om overensstemmelse med et andet ISO 14001-miljøledelssystem end ordningen for miljøledelse og miljørevision (EMAS), der er oprettet ved forordning (EF) nr. 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Krav om overensstemmelse med et ISO 14024 type I-miljømærke</entry>
 <entry key="code|name|environmental-impact.other">Andet</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Forebyggelse og bekæmpelse af forurening</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Krav om, at størstedelen af det pågældende indkøb skal være i overensstemmelse med forordning (EF) nr. 834/2007 om økologisk produktion og mærkning af økologiske produkter</entry>
 <entry key="code|name|environmental-impact.water-mar">Bæredygtig anvendelse og beskyttelse af vand- og havressourcer</entry>
 <entry key="code|name|eu-programme.AFIS2020">Informationssystem til bekæmpelse af svig (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Den Europæiske Garantifond for Landbruget (efter overførsler mellem EGFL og ELFUL)</entry>

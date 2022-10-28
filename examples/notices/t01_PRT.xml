@@ -67,11 +67,6 @@
 							</efac:Company>
 						</efac:Organization>
 					</efac:Organizations>
-					<efac:Publication>
-						<efbc:NoticePublicationID schemeName="ojs-notice-id">276106-2018</efbc:NoticePublicationID>
-						<efbc:GazetteID schemeName="ojs-id">121/2018</efbc:GazetteID>
-						<efbc:PublicationDate>2018-06-27+02:00</efbc:PublicationDate>
-					</efac:Publication>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>

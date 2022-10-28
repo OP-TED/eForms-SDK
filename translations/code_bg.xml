@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Bulgarian. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Bulgarian. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Включени са критерии за достъпността за лицата с увреждания</entry>
 <entry key="code|name|accessibility.n-inc">Критерии за достъпността за лицата с увреждания не са включени, защото поръчката не е предназначена за използване от физически лица</entry>
 <entry key="code|name|accessibility.n-inc-just">Критерии за достъпността за лицата с увреждания не са включени, а обосновката е следната</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Oстров Рождество</entry>
 <entry key="code|name|country.CYM">Кайманови острови</entry>
 <entry key="code|name|country.CYP">Кипъp</entry>
-<entry key="code|name|country.CZE">Чешка република</entry>
+<entry key="code|name|country.CZE">Чехия</entry>
 <entry key="code|name|country.DDR">Източна Германия</entry>
 <entry key="code|name|country.DEU">Гepмaния</entry>
 <entry key="code|name|country.DHY">Дахомей</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Мексико</entry>
 <entry key="code|name|country.MHL">Маршалови острови</entry>
 <entry key="code|name|country.MID">Острови Мидуей</entry>
-<entry key="code|name|country.MKD">Бивша югославска република Македония</entry>
+<entry key="code|name|country.MKD">Северна Македония</entry>
 <entry key="code|name|country.MLI">Мали</entry>
 <entry key="code|name|country.MLT">Малта</entry>
-<entry key="code|name|country.MMR">Мианмар</entry>
+<entry key="code|name|country.MMR">Мианмар/Бирма</entry>
 <entry key="code|name|country.MNE">Черна гора</entry>
 <entry key="code|name|country.MNG">Монголия</entry>
 <entry key="code|name|country.MNP">Северни Мариански острови</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Сенегал</entry>
 <entry key="code|name|country.SGP">Сингапур</entry>
 <entry key="code|name|country.SGS">Южна Джорджия и Южни Сандвичеви острови</entry>
-<entry key="code|name|country.SHN">Света Елена</entry>
+<entry key="code|name|country.SHN">Света Елена, Възнесение и Тристан да Куня</entry>
 <entry key="code|name|country.SJM">Свалбард и Ян Майен</entry>
 <entry key="code|name|country.SKM">Сиким</entry>
 <entry key="code|name|country.SLB">Соломонови острови</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Словакия</entry>
 <entry key="code|name|country.SVN">Cлoвeния</entry>
 <entry key="code|name|country.SWE">Швeция</entry>
-<entry key="code|name|country.SWZ">Свазиленд</entry>
+<entry key="code|name|country.SWZ">Есватини</entry>
 <entry key="code|name|country.SXM">Синт Мартен</entry>
 <entry key="code|name|country.SYC">Сейшелски острови</entry>
 <entry key="code|name|country.SYR">Сирия</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Остров Уейк</entry>
 <entry key="code|name|country.WLF">Уолис и Футуна</entry>
 <entry key="code|name|country.WSM">Самоа</entry>
-<entry key="code|name|country.YEM">Южен Йемен</entry>
+<entry key="code|name|country.YEM">Йемен</entry>
 <entry key="code|name|country.YMD">Северен Йемен</entry>
 <entry key="code|name|country.YUG">Югославия</entry>
 <entry key="code|name|country.ZAF">Южна Африка</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Преход към кръгова икономика</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Адаптиране към изменението на климата</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Смекчаване на изменението на климата</entry>
-<entry key="code|name|environmental-impact.emas-com">Изискване за спазване на Схемата на Общността за управление по околна среда и одит (EMAS), създадена с Регламент (ЕО) № 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Изискване за съответствие с най-високия клас за енергийна ефективност (съгласно определенията в различните законодателни актове, напр. Регламент (ЕС) № 626/2011 за климатичните инсталации)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Изискване за спазване на система за управление по отношение на околната среда по стандарт ISO 14001, различна от Схемата на Общността за управление по околна среда и одит (EMAS), създадена с Регламент (ЕО) № 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Изискване за екологична маркировка (екоетикет) от вид І по стандарт ISO 14024</entry>
 <entry key="code|name|environmental-impact.other">Друго</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Предотвратяване и контрол на замърсяването</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Изискване – за по-голямата част от съответната покупка – за спазване на Регламент (ЕО) № 834/2007 относно биологичното производство и етикетирането на биологични продукти</entry>
 <entry key="code|name|environmental-impact.water-mar">Устойчиво използване и опазване на водните и морските ресурси</entry>
 <entry key="code|name|eu-programme.AFIS2020">Информационна система за борба с измамите (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Европейски фонд за гарантиране на земеделието (след трансфери между ЕФГЗ и ЕЗФРСР)</entry>

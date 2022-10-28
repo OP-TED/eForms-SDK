@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Hungarian. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Hungarian. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok be vannak építve</entry>
 <entry key="code|name|accessibility.n-inc">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok nincsenek beépítve, mivel a beszerzést nem fogják természetes személyek használni</entry>
 <entry key="code|name|accessibility.n-inc-just">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok nincsenek beépítve az alábbi indoklás szerint</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Karácsony-sziget</entry>
 <entry key="code|name|country.CYM">Kajmán-szigetek</entry>
 <entry key="code|name|country.CYP">Ciprus</entry>
-<entry key="code|name|country.CZE">Cseh Köztársaság</entry>
+<entry key="code|name|country.CZE">Csehország</entry>
 <entry key="code|name|country.DDR">Kelet-Németország</entry>
 <entry key="code|name|country.DEU">Németország</entry>
 <entry key="code|name|country.DHY">Dahomey</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexikó</entry>
 <entry key="code|name|country.MHL">Marshall-szigetek</entry>
 <entry key="code|name|country.MID">Midway-szigetek</entry>
-<entry key="code|name|country.MKD">Macedónia Volt Jugoszláv Köztársaság</entry>
+<entry key="code|name|country.MKD">Észak-Macedónia</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Málta</entry>
-<entry key="code|name|country.MMR">Mianmar</entry>
+<entry key="code|name|country.MMR">Mianmar/Burma</entry>
 <entry key="code|name|country.MNE">Montenegró</entry>
 <entry key="code|name|country.MNG">Mongólia</entry>
 <entry key="code|name|country.MNP">Északi-Mariana-szigetek</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Szenegál</entry>
 <entry key="code|name|country.SGP">Szingapúr</entry>
 <entry key="code|name|country.SGS">Dél-Georgia és Déli-Sandwich-szigetek</entry>
-<entry key="code|name|country.SHN">Szent Ilona</entry>
+<entry key="code|name|country.SHN">Szent Ilona, Ascension és Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard és Jan Mayen</entry>
 <entry key="code|name|country.SKM">Szikkim</entry>
 <entry key="code|name|country.SLB">Salamon-szigetek</entry>
@@ -320,12 +320,12 @@
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Brit Virgin-szigetek</entry>
 <entry key="code|name|country.VIR">Amerikai Virgin-szigetek</entry>
-<entry key="code|name|country.VNM">Vietnam</entry>
+<entry key="code|name|country.VNM">Vietnám</entry>
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WAK">Wake-sziget</entry>
 <entry key="code|name|country.WLF">Wallis és Futuna</entry>
 <entry key="code|name|country.WSM">Szamoa</entry>
-<entry key="code|name|country.YEM">Dél-Jemen</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Észak-Jemen</entry>
 <entry key="code|name|country.YUG">Jugoszlávia</entry>
 <entry key="code|name|country.ZAF">Dél-Afrika</entry>
@@ -10119,13 +10119,8 @@
 <entry key="code|name|environmental-impact.circ-econ">A körforgásos gazdaságra való átállás</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Az éghajlatváltozáshoz való alkalmazkodás</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Az éghajlatváltozás mérséklése</entry>
-<entry key="code|name|environmental-impact.emas-com">Az 1221/2009/EK rendeletben meghatározott uniós környezetvédelmi vezetési és hitelesítési rendszernek (EMAS) való megfelelés követelménye</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">A legmagasabb energiahatékonysági osztálynak való megfelelés követelménye (amint azt többek között például a 626/2011/EU rendelet a légkondicionálók tekintetében meghatározza)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Az 1221/2009/EK rendeletben meghatározott uniós környezetvédelmi vezetési és hitelesítési rendszertől (EMAS) eltérő, ISO 14001 környezetvédelmi vezetési rendszernek való megfelelés követelménye</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Az ISO 14024 1. típusú környezetvédelmi címkének való megfelelés követelménye</entry>
 <entry key="code|name|environmental-impact.other">Egyéb</entry>
 <entry key="code|name|environmental-impact.pollu-prev">A szennyezés megelőzése és csökkentése</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Az ökológiai termelésről és az ökológiai termékek címkézéséről szóló 837/2007/EK rendeletnek való megfelelés követelménye az érintett beszerzés túlnyomó része tekintetében</entry>
 <entry key="code|name|environmental-impact.water-mar">A vízi és tengeri erőforrások fenntartható használata és védelme</entry>
 <entry key="code|name|eu-programme.AFIS2020">Csalás Elleni Információs Rendszer (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Európai Mezőgazdasági Garanciaalap (az EMGA és az EMVA közötti átcsoportosítások után)</entry>

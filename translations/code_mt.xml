@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Maltese. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Maltese. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
 <entry key="code|name|accessibility.inc">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà huma inklużi</entry>
 <entry key="code|name|accessibility.n-inc">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà ma jkunux inklużi minħabba li l-akkwist ma jkunx maħsub għall-użu minn persuni fiżiċi</entry>
 <entry key="code|name|accessibility.n-inc-just">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà ma jkunux inklużi bil-ġustifikazzjoni li ġejja</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Il-Gżira Christmas</entry>
 <entry key="code|name|country.CYM">Il-Gżejjer Cayman</entry>
 <entry key="code|name|country.CYP">Ċipru</entry>
-<entry key="code|name|country.CZE">Ir-Repubblika Ċeka</entry>
+<entry key="code|name|country.CZE">Iċ-Ċekja</entry>
 <entry key="code|name|country.DDR">Ġermanja tal-Lvant</entry>
 <entry key="code|name|country.DEU">Il-Ġermanja</entry>
 <entry key="code|name|country.DHY">Dahomey</entry>
@@ -154,7 +154,7 @@
 <entry key="code|name|country.GMB">Il-Gambja</entry>
 <entry key="code|name|country.GNB">Il-Guinea-Bissau</entry>
 <entry key="code|name|country.GNQ">Il-Guinea Ekwatorjali</entry>
-<entry key="code|name|country.GRC">Greċja</entry>
+<entry key="code|name|country.GRC">Il-Greċja</entry>
 <entry key="code|name|country.GRD">Grenada</entry>
 <entry key="code|name|country.GRL">Greenland</entry>
 <entry key="code|name|country.GTM">Il-Gwatemala</entry>
@@ -202,7 +202,7 @@
 <entry key="code|name|country.LTU">Il-Litwanja</entry>
 <entry key="code|name|country.LUX">Il-Lussemburgu</entry>
 <entry key="code|name|country.LVA">Il-Latvja</entry>
-<entry key="code|name|country.MAC">Il-Makaw</entry>
+<entry key="code|name|country.MAC">Il-Macao</entry>
 <entry key="code|name|country.MAF">Saint Martin</entry>
 <entry key="code|name|country.MAR">Il-Marokk</entry>
 <entry key="code|name|country.MCO">Monaco</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Il-Messiku</entry>
 <entry key="code|name|country.MHL">Il-Gżejjer Marshall</entry>
 <entry key="code|name|country.MID">Il-Gżejjer Midway</entry>
-<entry key="code|name|country.MKD">Dik li kienet ir-Repubblika Jugoslava tal-Maċedonja</entry>
+<entry key="code|name|country.MKD">Il-Maċedonja ta’ Fuq</entry>
 <entry key="code|name|country.MLI">Il-Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Il-Mjanmar</entry>
+<entry key="code|name|country.MMR">Il-Myanmar/Burma</entry>
 <entry key="code|name|country.MNE">Il-Montenegro</entry>
 <entry key="code|name|country.MNG">Il-Mongolja</entry>
 <entry key="code|name|country.MNP">Il-Gżejjer Mariana tat-Tramuntana</entry>
@@ -226,9 +226,9 @@
 <entry key="code|name|country.MUS">Mauritius</entry>
 <entry key="code|name|country.MWI">Il-Malawi</entry>
 <entry key="code|name|country.MYS">Il-Malażja</entry>
-<entry key="code|name|country.MYT">Il-Majott</entry>
+<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">In-Namibja</entry>
-<entry key="code|name|country.NCL">Il-Kaledonja Ġdida</entry>
+<entry key="code|name|country.NCL">New Caledonia</entry>
 <entry key="code|name|country.NER">In-Niġer</entry>
 <entry key="code|name|country.NFK">Il-Gżira Norfolk</entry>
 <entry key="code|name|country.NGA">In-Niġerja</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Is-Senegal</entry>
 <entry key="code|name|country.SGP">Singapore</entry>
 <entry key="code|name|country.SGS">Il-Georgia tan-Nofsinhar u l-Gżejjer Sandwich tan-Nofsinhar</entry>
-<entry key="code|name|country.SHN">Sant’Elena</entry>
+<entry key="code|name|country.SHN">Saint Helena, Ascension u Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard u Jan Mayen</entry>
 <entry key="code|name|country.SKM">Is-Sikkim</entry>
 <entry key="code|name|country.SLB">Il-Gżejjer Solomon</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Is-Slovakkja</entry>
 <entry key="code|name|country.SVN">Is-Slovenja</entry>
 <entry key="code|name|country.SWE">L-Iżvezja</entry>
-<entry key="code|name|country.SWZ">Is-Sważiland</entry>
+<entry key="code|name|country.SWZ">L-Eswatini</entry>
 <entry key="code|name|country.SXM">Sint Maarten</entry>
 <entry key="code|name|country.SYC">Is-Seychelles</entry>
 <entry key="code|name|country.SYR">Is-Sirja</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Il-Gżira ta’ Wake</entry>
 <entry key="code|name|country.WLF">Wallis u Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Il-Jemen t’Isfel</entry>
+<entry key="code|name|country.YEM">Il-Jemen</entry>
 <entry key="code|name|country.YMD">Il-Jemen ta’ Fuq</entry>
 <entry key="code|name|country.YUG">Jugoslavja</entry>
 <entry key="code|name|country.ZAF">L-Afrika t’Isfel</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">It-transizzjoni lejn ekonomija ċirkolari</entry>
 <entry key="code|name|environmental-impact.clim-adapt">L-adattament għat-tibdil fil-klima</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Il-mitigazzjoni tat-tibdil fil-klima</entry>
-<entry key="code|name|environmental-impact.emas-com">Talba għal konformità ma’ skema ta’ ġestjoni u verifika ambjentali (EMAS), stabbilita bir-Regolament (KE) Nru 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Talba għal konformità mal-ogħla klassi tal-effiċjenza enerġetika (kif definit b’diversi leġiżlazzjonijiet bħal pereżempju r-Regolament (UE) 626/2011 dwar il-kundizzjonaturi tal-arja)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Talba għal konformità ma’ sistema ta’ ġestjoni ambjentali tal-ISO 14001, għajr l-iskema ta’ ġestjoni u verifika ambjentali (EMAS), stabbilita bir-Regolament (KE) Nru 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Talba għal konformità ma’ tikketta ambjentali tat-Tip I tal-ISO 14024</entry>
 <entry key="code|name|environmental-impact.other">Oħrajn</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Il-prevenzjoni u l-kontroll tat-tniġġis</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Talba għal konformità mar-Regolament (KE) 834/2007 dwar il-produzzjoni organika u t-tikkettar ta’ prodotti organiċi, għall-maġġoranza tax-xiri rilevanti</entry>
 <entry key="code|name|environmental-impact.water-mar">L-użu sostenibbli u l-protezzjoni tar-riżorsi tal-ilma u tal-baħar</entry>
 <entry key="code|name|eu-programme.AFIS2020">Sistema ta' Informazzjoni għal Kontra l-Frodi (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Fond Agrikolu Ewropew ta' Garanzija (wara trasferimenti bejn il-FAEG u l-FAEŻR)</entry>

@@ -1,14 +1,80 @@
 // Summary
-// sdkVersion='1.2.1'
-// File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10
-6 {ND-Root} #{auxiliary|text|results} // --- 6 Results ---
-	0 {ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value}  // --- Estimated value of the framework agreements in the group of lots ---
-		{BT-1375-Procedure} #{name|BT-1375} // TODO --- Lots included: LOT-0001, LOT-0003
-		{BT-156-NoticeResult} #{name}: $value ${BT-156-NoticeResult/@currencyID} // --- Estimated value of the framework agreements in this group of lots
-	1 {ND-LotResult }   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // --- 6.1 Lots: LOT-XXXX   (Result Lot Identifier)---
-		{BT-142-LotResult}  #{name|BT-142} #{BT-142-LotResult} // --- A winner was chosen? ---
-		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement} // --- Framework agreement ---
-			{BT-709-LotResult} #{name}: $value ${BT-709-LotResult/@currencyID} // --- Framework Maximum Value ---
-			{BT-660-LotResult} #{name}: $value ${BT-660-LotResult/@currencyID} // --- Framework Estimated Value ---
-		2 {ND-LotResult}  #{auxiliary|text|winner}  // --- 6.1.2. Winning tenders ---
-10 {ND-Root} #{auxiliary|text|change} // 10. Change
+// sdkVersion='1.3.0'
+// File generated from metadata database version 1.2.226 created on the 2022-10-27T12:16:24
+1 {ND-Root} #{auxiliary|text|buyer} // 1. Buyer
+	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
+		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value // Official name
+2 {ND-Root} #{auxiliary|text|procedure}  // 2. Procedure
+	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
+		{BT-21-Procedure} #{name|BT-21}: $value // Procedure Title
+		0 {BT-105-Procedure} #{name|BT-105}: #value // Type of the procedure
+			{BT-197(BT-105)-Procedure} #{name|BT-197(BT-105)-Procedure}: #{BT-197(BT-105)-Procedure} // Unpublished Justification Code
+			{BT-196(BT-105)-Procedure} #{name|BT-196(BT-105)-Procedure}: ${BT-196(BT-105)-Procedure} // Unpublished Justification Description
+			{BT-198(BT-105)-Procedure} #{name|BT-198(BT-105)-Procedure}: ${BT-198(BT-105)-Procedure} // Unpublished Accessibility Date
+		1 {ND-ProcedureProcurementScope} #{auxiliary|text|purpose} // 2.1.1 Purpose
+			{BT-262-Procedure} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}  // Main classification
+		2 {ND-ProcedurePlacePerformance} #{auxiliary|text|place-performance} // 2.1.2 Place of performance
+			{BT-5071-Procedure}  #{name|BT-5071}:  #value ($value)  // Country Subdivision
+			{BT-5141-Procedure}  #{name|BT-5141}:  #value  // Country
+			{BT-727-Procedure}  #value  // Restrictions on the place of performance
+		3 {ND-ProcedureProcurementScope} #{auxiliary|text|value}  // 2.1.3 Value
+			{BT-27-Procedure} #{name|BT-27}: ${string(BT-27-Procedure)} ${BT-27-Procedure/@currencyID} // Estimated value
+		4 {ND-ProcedureProcurementScope} #{auxiliary|text|general-information} // 2.1.4 General information
+			{BT-756-Procedure} #{name|BT-756}: ${BT-756-Procedure}
+3 {ND-Root} #{auxiliary|text|part} // --- 3 Parts ---
+	1 {BT-137-Part} #{name|BT-137}: ${BT-137-Part} // --- 3.1 Part: PAR-XXXX ---
+		{BT-21-Part} #{name|BT-21}: ${BT-21-Part}
+		1 {BT-137-Part} #{auxiliary|text|purpose} // --- 3.1.1 Purpose ---
+			{BT-262-Part} #{name|BT-262} (${BT-26(m)-Part}): ${BT-262-Part} #{BT-262-Part}
+		2 {BT-137-Part} #{auxiliary|text|place-performance} // --- 3.1.2 Place of performance  ---
+			{BT-5071-Part}  #{name|BT-5071}:  $value  // --- Country subentity ---
+			{BT-5141-Part}  #{name|BT-5141}:  #value  // --- Country  ---
+			{BT-727-Part}  #value  // --- Restrictions on the place of performance  --- {BT-727-Part}  #{name|BT-727}:  $value
+		3 {BT-137-Part} #{auxiliary|text|duration} // --- 3.1.3 Duration ---
+			{BT-536-Part} #{name|BT-536}: ${BT-536-Part}
+			{BT-537-Part} #{name|BT-537}: ${BT-537-Part}
+			{BT-36-Part} #{name|BT-36}: ${OPA-36-Part-Number} ${BT-36-Part/@unitCode}
+		4 {BT-137-Part} #{auxiliary|text|value} // --- 3.1.4 Value ---
+			{BT-27-Part} #{name|BT-27}: ${BT-27-Part} ${BT-27-Part/@currencyID}
+			{BT-157-LotsGroup} #{name|BT-157}: ${BT-157-LotsGroup} ${BT-157-LotsGroup/@currencyID}
+4 {BT-137-LotsGroup[ND-Root::preceding::BT-137-LotsGroup is not present]} #{auxiliary|text|group-of-lots} // 4. Group of lots
+	1 {BT-137-LotsGroup} #{name|BT-330}: ${BT-137-LotsGroup} // 4.1 Group of lots
+		1 {BT-137-LotsGroup} #{auxiliary|text|value} // 4.1.1 Value
+			{BT-27-LotsGroup} #{name|BT-27}: ${string(BT-27-LotsGroup)} ${BT-27-LotsGroup/@currencyID} // Estimated value
+			{BT-157-LotsGroup} #{name|BT-157}: ${string(BT-157-LotsGroup)} ${BT-157-LotsGroup/@currencyID} // Maximum value of the framework agreement within the group of lots
+5 {ND-Root} #{auxiliary|text|lot} // 5. Lots
+	1 {ND-Lot} #{name|BT-137}: ${BT-137-Lot} // 5.1 Lot
+		{BT-21-Lot} #{name|BT-21}: ${BT-21-Lot} // Title
+		1 {BT-137-Lot} #{auxiliary|text|purpose} // 5.1.1 Purpose
+			{BT-262-Lot} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} #{BT-262-Lot} // Main classification
+		2 {ND-LotPlacePerformance} #{auxiliary|text|place-performance} // 5.1.2 Place of performance
+			{BT-5071-Lot}  #{name|BT-5071}:  #value ($value)  // Country Subdivision
+			{BT-5141-Lot}  #{name|BT-5141}:  #value  // Country
+			{BT-727-Lot} #value // Restrictions on the place of performance
+		3 {BT-137-Lot} #{auxiliary|text|estimated-duration} // 5.1.3 Estimated duration
+			{BT-536-Lot} #{name|BT-536}: ${BT-536-Lot} // Start date
+			{BT-537-Lot} #{name|BT-537}: ${BT-537-Lot} // End date
+			{BT-36-Lot} #{name|BT-36}: ${OPA-36-Lot-Number} ${BT-36-Lot/@unitCode} // Period
+		5 {ND-LotValueEstimate} #{auxiliary|text|value} // 5.1.5 Value
+			{BT-27-Lot} #{name|BT-27}: ${string(BT-27-Lot)} // Estimated value
+			{BT-137-Lot[some text:$glo in (for text:$lotid in BT-137-Lot, text:$gloid in BT-330-Procedure[BT-1375-Procedure == $lotid] return $gloid) satisfies $glo != '']} #{name|BT-157}: ${for text:$lotid1 in BT-137-Lot, text:$gloid1 in BT-330-Procedure[BT-1375-Procedure == $lotid1] return string(BT-157-LotsGroup[BT-137-LotsGroup == $gloid1])} ${for text:$lotid2 in BT-137-Lot, text:$gloid2 in BT-330-Procedure[BT-1375-Procedure == $lotid2] return BT-157-LotsGroup[BT-137-LotsGroup == $gloid2]/@currencyID} // Maximum value of the framework agreement within the group of lots
+		12 {BT-137-Lot} #{auxiliary|text|procurement-terms} // 5.1.12 Procurement terms
+			0 {BT-137-Lot} #{auxiliary|text|design-contest-terms} // + Terms of the design contest regime
+				{BT-644-Lot} #{name|BT-644}: ${BT-644-Lot} ${BT-644-Lot/@currencyID} // Value of the prize
+			0 {BT-137-Lot} #{auxiliary|text|submission-terms} // + Terms of submission
+				{BT-630(d)-Lot} #{name|BT-630}: ${BT-630(d)-Lot} ${BT-630(t)-Lot} // Deadline for receipt of expressions of interest
+				{BT-1311(d)-Lot} #{name|BT-1311}: ${BT-1311(d)-Lot} ${BT-1311(t)-Lot} // Deadline for receipt of requests to participate
+				{BT-131(d)-Lot} #{name|BT-131}: ${BT-131(d)-Lot} ${BT-131(t)-Lot} // Deadline for receipt of tenders
+				{BT-98-Lot} #{name|BT-98}: ${OPA-98-Lot-Number} ${BT-98-Lot/@unitCode} // Deadline until which the tender must remain valid
+6 {ND-Root} #{auxiliary|text|results} // 6. Results
+	{BT-161-NoticeResult} #{name}: $value ${BT-161-NoticeResult/@currencyID} // Notice Value (Value of all contracts awarded in this procedure)
+	0 {ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value} ${BT-556-NoticeResult} // --- Estimated value of the framework agreements in the group of lots ---
+		{ND-NoticeResultGroupFA} #{name|BT-1375} ${for text:$gloid in BT-556-NoticeResult return BT-1375-Procedure[BT-330-Procedure == $gloid] } // TODO --- Lots included: LOT-0001, LOT-0003
+		{ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value} ${format-number(BT-156-NoticeResult, '0.##')} ${BT-156-NoticeResult/@currencyID} // --- Estimated value of the framework agreements in this group of lots
+	1 {ND-LotResult}   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // 6.1 Result Lot Identifier (LOT-XXXX)
+		{BT-144-LotResult} #{name}: #{BT-144-LotResult}  // Not awarded reason
+		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement} // Framework agreement
+			{BT-709-LotResult} #{name}: $value ${BT-709-LotResult/@currencyID} // Framework Maximum Value
+			{BT-660-LotResult} #{name}: $value ${BT-660-LotResult/@currencyID} // Framework Estimated Value
+	0 {ND-Root} #{auxiliary|text|results-procurement-procedure} // --- Result of the procurement procedure ---
+		{BT-118-NoticeResult} #{name}: $value ${BT-118-NoticeResult/@currencyID} // --- Estimated value of the framework agreements in this procedure
