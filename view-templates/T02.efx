@@ -1,6 +1,6 @@
 // View T02
 // sdkVersion='1.3.0'
-// File generated from metadata database version 1.2.226 created on the 2022-10-27T12:16:24
+// File generated from metadata database version 1.2.233 created on the 2022-10-28T15:44:53
 1 {ND-Root} #{auxiliary|text|buyer-competent} // --- 1 Competent authority ---
 	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer-competent}
 		{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{name|BT-500}: $value // Official name
