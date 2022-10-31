@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.232",
-    "createdOn" : "2022-10-27T13:45:03"
+    "version" : "1.2.233",
+    "createdOn" : "2022-10-28T15:44:53"
   },
   "noticeId" : "10",
   "metadata" : [ {
@@ -123,17 +123,17 @@
   "content" : [ {
     "id" : "GR-ContractingAuthority",
     "contentType" : "group",
+    "nodeId" : "ND-ContractingParty",
     "displayType" : "SECTION",
-    "description" : "Contracting Authority",
-    "_label" : "group|name|GR-ContractingAuthority",
+    "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
+    "_label" : "group|name|ND-ContractingParty",
     "_repeatable" : true,
     "content" : [ {
       "id" : "GR-ContractingAuthority-Buyer",
       "contentType" : "group",
-      "nodeId" : "ND-ContractingParty",
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
-      "_label" : "group|name|ND-ContractingParty",
+      "_label" : "group|name|GR-ContractingAuthority-Buyer",
       "_repeatable" : true,
       "content" : [ {
         "id" : "OPT-300-Procedure-Buyer",
