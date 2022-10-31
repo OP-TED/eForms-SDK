@@ -221,41 +221,41 @@
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt]}  #{auxiliary|text|organisation-tender-recipient}:  $value // Organisation receiving requests to participate/Tender
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-Lot-TenderEval]}  #{auxiliary|text|organisation-tender-evaluation}:  $value  // --- Organisation processing requests to participate/Tender Evaluation Organisation:  Authorithy Proc-Request
 8 {ND-Root} #{auxiliary|text|organisations} // 8. Organisations
+	1 {OPT-200-Organization-Company} Organisation // --- 8.1.1 Organisation --- 
+		{OPT-200-Organization-Company}  #{field|name|OPT-200-Organization-Company}: $value //  Company Technical Identifier
+		{BT-501-Organization-Company} #{name|BT-501}: $value // Organization Identifier
+		{BT-16-Organization-Company} #{name|BT-16}: $value // Organization Part Name
+		{BT-510(a)-Organization-Company} #{name|BT-510}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
+		{BT-513-Organization-Company} #{name|BT-513}: $value // Organization City
+		{BT-512-Organization-Company} #{name|BT-512}: $value // Organization Post Code
+		{BT-507-Organization-Company} #{name|BT-507}: #value ($value) // Organization Country Subdivision
+		{BT-514-Organization-Company} #{name|BT-514}: #value // Organization Country
+		{BT-502-Organization-Company} #{name|BT-502}: $value // Organization Contact Point
+		{BT-506-Organization-Company} #{name|BT-506}: $value // Organization Contact Email Address
+		{BT-503-Organization-Company} #{name|BT-503}: $value // Organization Contact Telephone Number
+		{BT-739-Organization-Company} #{name|BT-739}: $value // Organization Contact Fax
+		{BT-505-Organization-Company} #{name|BT-505}: $value // Organization Internet Address
+		{BT-509-Organization-Company} #{name|BT-509}: $value  // Organization eDelivery Gateway
+		{OPT-200-Organization-Company[some text:$bpurl in (for text:$orgid in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid]) satisfies $bpurl != '']} #{name|BT-508}: ${for text:$orgid1 in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid1]} // Buyer Profile URL
+		0 {OPT-201-Organization-TouchPoint}  #{auxiliary|text|other-contact-point}
+			{BT-500-Organization-TouchPoint} #{name}: $value // Buyer Touchpoint Name
+			{BT-16-Organization-TouchPoint} #{name}: $value // Touchpoint Part Name
+			{BT-510(a)-Organization-TouchPoint} #{name}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} // Touchpoint Postal Address
+			{BT-513-Organization-TouchPoint} #{name}: $value // Touchpoint City
+			{BT-512-Organization-TouchPoint} #{name}: $value // Touchpoint Post Code
+			{BT-507-Organization-TouchPoint} #{name}: #value ($value) // Touchpoint Country Subdivision
+			{BT-514-Organization-TouchPoint} #{name|BT-514}: #value // Touchpoint Country
+			{BT-502-Organization-TouchPoint} #{name}: $value // Touchpoint Contact Point
+			{BT-506-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name}: $value // Touchpoint Contact Email Address
+			{BT-503-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name}: $value // Touchpoint Contact Telephone Number
+			{BT-739-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-739}: $value // Touchpoint Contact Fax
+			{BT-505-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-505}: $value // Touchpoint Internet Address
+			{BT-509-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-509}: $value // Touchpoint eDelivery Gateway
+		0 {OPT-200-Organization-Company} Roles of this organisation // Roles of this organisation
+			{OPT-200-Organization-Company[(OPT-200-Organization-Company == OPT-301-Lot-AddInfo) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-AddInfo)]} #{auxiliary|text|organisation-providing-info-procedure} // Additional Information Providing Organisation
+			{OPT-200-Organization-Company[(OPT-200-Organization-Company == OPT-301-Lot-DocProvider) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-DocProvider)]}  #{auxiliary|text|organisation-providing-docs} // Documents provider organisation
+			{OPT-200-Organization-Company[(OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-TenderReceipt)]} #{auxiliary|text|organisation-tender-recipient} // Organisation receiving requests to participate/Tender Recipient Organisation
 	1 {ND-Root} #{auxiliary|text|organisations} // 8.1 Organisations
-		1 {OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|buyer} // --- 8.1.1 Buyer --- 
-			{OPT-200-Organization-Company}  #{field|name|OPT-200-Organization-Company}: $value //  Company Technical Identifier
-			{BT-501-Organization-Company} #{name|BT-501}: $value // Organization Identifier
-			{BT-16-Organization-Company} #{name|BT-16}: $value // Organization Part Name
-			{BT-510(a)-Organization-Company} #{name|BT-510}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
-			{BT-513-Organization-Company} #{name|BT-513}: $value // Organization City
-			{BT-512-Organization-Company} #{name|BT-512}: $value // Organization Post Code
-			{BT-507-Organization-Company} #{name|BT-507}: #value ($value) // Organization Country Subdivision
-			{BT-514-Organization-Company} #{name|BT-514}: #value // Organization Country
-			{BT-502-Organization-Company} #{name|BT-502}: $value // Organization Contact Point
-			{BT-506-Organization-Company} #{name|BT-506}: $value // Organization Contact Email Address
-			{BT-503-Organization-Company} #{name|BT-503}: $value // Organization Contact Telephone Number
-			{BT-739-Organization-Company} #{name|BT-739}: $value // Organization Contact Fax
-			{BT-505-Organization-Company} #{name|BT-505}: $value // Organization Internet Address
-			{BT-509-Organization-Company} #{name|BT-509}: $value  // Organization eDelivery Gateway
-			{OPT-200-Organization-Company[some text:$bpurl in (for text:$orgid in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid]) satisfies $bpurl != '']} #{name|BT-508}: ${for text:$orgid1 in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid1]} // Buyer Profile URL
-			0 {OPT-201-Organization-TouchPoint}  #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name}: $value // Buyer Touchpoint Name
-				{BT-16-Organization-TouchPoint} #{name}: $value // Touchpoint Part Name
-				{BT-510(a)-Organization-TouchPoint} #{name}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} // Touchpoint Postal Address
-				{BT-513-Organization-TouchPoint} #{name}: $value // Touchpoint City
-				{BT-512-Organization-TouchPoint} #{name}: $value // Touchpoint Post Code
-				{BT-507-Organization-TouchPoint} #{name}: #value ($value) // Touchpoint Country Subdivision
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #value // Touchpoint Country
-				{BT-502-Organization-TouchPoint} #{name}: $value // Touchpoint Contact Point
-				{BT-506-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name}: $value // Touchpoint Contact Email Address
-				{BT-503-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name}: $value // Touchpoint Contact Telephone Number
-				{BT-739-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-739}: $value // Touchpoint Contact Fax
-				{BT-505-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-505}: $value // Touchpoint Internet Address
-				{BT-509-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-509}: $value // Touchpoint eDelivery Gateway
-			0 {OPT-300-Procedure-Buyer[OPT-300-Procedure-Buyer == 'true']} #{auxiliary|text|additional-role} // Additional roles
-				{OPP-050-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-group-leader} // Leader of the group
-				{OPP-052-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-cpb-acquiring} // CPB acquiring supplies/services 
-				{OPP-051-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-cpb-awarding} // CPB awarding public contracts
 	2 {ND-Root} #{auxiliary|text|additional-role} // 8.2 Roles of organisations
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}  #{auxiliary|text|buyer}: $value // 8.2.1 Buyer
 		2 {BT-500-Organization-Company[OPP-052-Organization == TRUE]}  #{auxiliary|text|organisation-cpb-acquiring}: $value // --- 8.2.2 Central purchasing body acquiring --- 

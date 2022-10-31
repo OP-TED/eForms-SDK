@@ -219,9 +219,8 @@
 				{OPT-320-LotResult} #{field|name|BT-500-Organization-Company} ${for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$org in BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]]  return concat('[', $org, '] --- ')} // Name of this winner
 				{OPT-320-LotResult}  #{field|name|BT-165-Organization-Company} ${for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender] return BT-165-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]]} // Winner Size
 				{OPT-320-LotResult[some indicator:$bool in (for text:$tender1 in OPT-320-LotResult return (BT-746-Organization[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]] )) satisfies $bool == TRUE ]}  #{business-term|name|BT-746} ${for text:$tender in OPT-320-LotResult, text:$orgid in OPT-200-Organization-Company[OPT-200-Organization-Company[BT-746-Organization == TRUE] == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]]  return $orgid } // The winner is listed on a regulated market
-				0 {OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]], text:$uboid1 in OPT-302-Organization[OPT-200-Organization-Company == $orgid1] return OPT-160-UBO[OPT-202-UBO == $uboid1]) satisfies $name != '']} #{auxiliary|text|beneficial-owner} // Beneficial Owner Heading
-					{OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]], text:$uboid1 in OPT-302-Organization[OPT-200-Organization-Company == $orgid1] return OPT-160-UBO[OPT-202-UBO == $uboid1]) satisfies $name != '']} #{field|name|OPT-160-UBO} ${for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender], text:$orgid in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]], text:$uboid in OPT-302-Organization[OPT-200-Organization-Company == $orgid] return OPT-160-UBO[OPT-202-UBO == $uboid] } // Beneficial Owner First Name
-					{OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]], text:$uboid1 in OPT-302-Organization[OPT-200-Organization-Company == $orgid1] return OPT-160-UBO[OPT-202-UBO == $uboid1]) satisfies $name != '']} Last Name ${for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender], text:$orgid in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]], text:$uboid in OPT-302-Organization[OPT-200-Organization-Company == $orgid] return BT-500-UBO[OPT-202-UBO == $uboid] } // Beneficial Owner Last Name
+				0 {OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]], text:$uboid1 in OPT-302-Organization[OPT-200-Organization-Company == $orgid1] return OPT-160-UBO[OPT-202-UBO == $uboid1]) satisfies $name != '']} #{auxiliary|text|beneficial-owner} ${for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender], text:$orgid in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]], text:$uboid in OPT-302-Organization[OPT-200-Organization-Company == $orgid] return concat(OPT-160-UBO[OPT-202-UBO == $uboid], ' ', BT-500-UBO[OPT-202-UBO == $uboid]) } // Beneficial Owner 
+					{OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]], text:$uboid1 in OPT-302-Organization[OPT-200-Organization-Company == $orgid1] return OPT-160-UBO[OPT-202-UBO == $uboid1]) satisfies $name != '']} #{field|name|BT-500-UBO} ${for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender], text:$orgid in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]], text:$uboid in OPT-302-Organization[OPT-200-Organization-Company == $orgid] return concat(OPT-160-UBO[OPT-202-UBO == $uboid], ' ', BT-500-UBO[OPT-202-UBO == $uboid]) } // Beneficial Owner First Name
 				0 {OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]] return BT-500-Organization-Company[OPT-200-Organization-Company == $orgid1]) satisfies $name != '']} #{auxiliary|text|winner-subcontractor} // Subcontractors of the winner
 					{OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]] return BT-500-Organization-Company[OPT-200-Organization-Company == $orgid1]) satisfies $name != '']} #{field|name|BT-500-Business} ${for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender], text:$orgid in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]] return BT-500-Organization-Company[OPT-200-Organization-Company == $orgid]} // Subcontractor name
 				{OPT-320-LotResult[count(for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]])>0]} Tender // Tender
@@ -259,41 +258,41 @@
 			0 {ND-LotResult} #{auxiliary|text|received-submissions} // Received tenders or requests to participate
 				{BT-760-LotResult} #{BT-760-LotResult}: ${BT-759-LotResult}
 8 {ND-Root} #{auxiliary|text|organisations} // 8. Organisations
+	1 {OPT-200-Organization-Company} Organisation // --- 8.1.1 Organisation --- 
+		{OPT-200-Organization-Company}  #{field|name|OPT-200-Organization-Company}: $value //  Company Technical Identifier
+		{BT-501-Organization-Company} #{name|BT-501}: $value // Organization Identifier
+		{BT-16-Organization-Company} #{name|BT-16}: $value // Organization Part Name
+		{BT-510(a)-Organization-Company} #{name|BT-510}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
+		{BT-513-Organization-Company} #{name|BT-513}: $value // Organization City
+		{BT-512-Organization-Company} #{name|BT-512}: $value // Organization Post Code
+		{BT-507-Organization-Company} #{name|BT-507}: #value ($value) // Organization Country Subdivision
+		{BT-514-Organization-Company} #{name|BT-514}: #value // Organization Country
+		{BT-502-Organization-Company} #{name|BT-502}: $value // Organization Contact Point
+		{BT-506-Organization-Company} #{name|BT-506}: $value // Organization Contact Email Address
+		{BT-503-Organization-Company} #{name|BT-503}: $value // Organization Contact Telephone Number
+		{BT-739-Organization-Company} #{name|BT-739}: $value // Organization Contact Fax
+		{BT-505-Organization-Company} #{name|BT-505}: $value // Organization Internet Address
+		{BT-509-Organization-Company} #{name|BT-509}: $value  // Organization eDelivery Gateway
+		{OPT-200-Organization-Company[some text:$bpurl in (for text:$orgid in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid]) satisfies $bpurl != '']} #{name|BT-508}: ${for text:$orgid1 in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid1]} // Buyer Profile URL
+		0 {OPT-201-Organization-TouchPoint}  #{auxiliary|text|other-contact-point}
+			{BT-500-Organization-TouchPoint} #{name}: $value // Buyer Touchpoint Name
+			{BT-16-Organization-TouchPoint} #{name}: $value // Touchpoint Part Name
+			{BT-510(a)-Organization-TouchPoint} #{name}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} // Touchpoint Postal Address
+			{BT-513-Organization-TouchPoint} #{name}: $value // Touchpoint City
+			{BT-512-Organization-TouchPoint} #{name}: $value // Touchpoint Post Code
+			{BT-507-Organization-TouchPoint} #{name}: #value ($value) // Touchpoint Country Subdivision
+			{BT-514-Organization-TouchPoint} #{name|BT-514}: #value // Touchpoint Country
+			{BT-502-Organization-TouchPoint} #{name}: $value // Touchpoint Contact Point
+			{BT-506-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name}: $value // Touchpoint Contact Email Address
+			{BT-503-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name}: $value // Touchpoint Contact Telephone Number
+			{BT-739-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-739}: $value // Touchpoint Contact Fax
+			{BT-505-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-505}: $value // Touchpoint Internet Address
+			{BT-509-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-509}: $value // Touchpoint eDelivery Gateway
+		0 {OPT-200-Organization-Company} Roles of this organisation // Roles of this organisation
+			{OPT-200-Organization-Company[(OPT-200-Organization-Company == OPT-301-Lot-AddInfo) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-AddInfo)]} #{auxiliary|text|organisation-providing-info-procedure} // Additional Information Providing Organisation
+			{OPT-200-Organization-Company[(OPT-200-Organization-Company == OPT-301-Lot-DocProvider) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-DocProvider)]}  #{auxiliary|text|organisation-providing-docs} // Documents provider organisation
+			{OPT-200-Organization-Company[(OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-TenderReceipt)]} #{auxiliary|text|organisation-tender-recipient} // Organisation receiving requests to participate/Tender Recipient Organisation
 	1 {ND-Root} #{auxiliary|text|organisations} // 8.1 Organisations
-		1 {OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|buyer} // --- 8.1.1 Buyer --- 
-			{OPT-200-Organization-Company}  #{field|name|OPT-200-Organization-Company}: $value //  Company Technical Identifier
-			{BT-501-Organization-Company} #{name|BT-501}: $value // Organization Identifier
-			{BT-16-Organization-Company} #{name|BT-16}: $value // Organization Part Name
-			{BT-510(a)-Organization-Company} #{name|BT-510}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
-			{BT-513-Organization-Company} #{name|BT-513}: $value // Organization City
-			{BT-512-Organization-Company} #{name|BT-512}: $value // Organization Post Code
-			{BT-507-Organization-Company} #{name|BT-507}: #value ($value) // Organization Country Subdivision
-			{BT-514-Organization-Company} #{name|BT-514}: #value // Organization Country
-			{BT-502-Organization-Company} #{name|BT-502}: $value // Organization Contact Point
-			{BT-506-Organization-Company} #{name|BT-506}: $value // Organization Contact Email Address
-			{BT-503-Organization-Company} #{name|BT-503}: $value // Organization Contact Telephone Number
-			{BT-739-Organization-Company} #{name|BT-739}: $value // Organization Contact Fax
-			{BT-505-Organization-Company} #{name|BT-505}: $value // Organization Internet Address
-			{BT-509-Organization-Company} #{name|BT-509}: $value  // Organization eDelivery Gateway
-			{OPT-200-Organization-Company[some text:$bpurl in (for text:$orgid in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid]) satisfies $bpurl != '']} #{name|BT-508}: ${for text:$orgid1 in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid1]} // Buyer Profile URL
-			0 {OPT-201-Organization-TouchPoint}  #{auxiliary|text|other-contact-point}
-				{BT-500-Organization-TouchPoint} #{name}: $value // Buyer Touchpoint Name
-				{BT-16-Organization-TouchPoint} #{name}: $value // Touchpoint Part Name
-				{BT-510(a)-Organization-TouchPoint} #{name}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} // Touchpoint Postal Address
-				{BT-513-Organization-TouchPoint} #{name}: $value // Touchpoint City
-				{BT-512-Organization-TouchPoint} #{name}: $value // Touchpoint Post Code
-				{BT-507-Organization-TouchPoint} #{name}: #value ($value) // Touchpoint Country Subdivision
-				{BT-514-Organization-TouchPoint} #{name|BT-514}: #value // Touchpoint Country
-				{BT-502-Organization-TouchPoint} #{name}: $value // Touchpoint Contact Point
-				{BT-506-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name}: $value // Touchpoint Contact Email Address
-				{BT-503-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name}: $value // Touchpoint Contact Telephone Number
-				{BT-739-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-739}: $value // Touchpoint Contact Fax
-				{BT-505-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-505}: $value // Touchpoint Internet Address
-				{BT-509-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{name|BT-509}: $value // Touchpoint eDelivery Gateway
-			0 {OPT-300-Procedure-Buyer[OPT-300-Procedure-Buyer == 'true']} #{auxiliary|text|additional-role} // Additional roles
-				{OPP-050-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-group-leader} // Leader of the group
-				{OPP-052-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-cpb-acquiring} // CPB acquiring supplies/services 
-				{OPP-051-Organization[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]} #{auxiliary|text|organisation-cpb-awarding} // CPB awarding public contracts
 	2 {ND-Root} #{auxiliary|text|additional-role} // 8.2 Roles of organisations
 		1 {BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}  #{auxiliary|text|buyer}: $value // 8.2.1 Buyer
 		2 {BT-500-Organization-Company[OPP-052-Organization == TRUE]}  #{auxiliary|text|organisation-cpb-acquiring}: $value // --- 8.2.2 Central purchasing body acquiring --- 

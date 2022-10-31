@@ -90,8 +90,6 @@
 	1 {ND-LotResult}   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // 6.1 Result Lot Identifier (LOT-XXXX)
 		2 {BT-142-LotResult[BT-142-LotResult == 'selec-w']} #{auxiliary|text|winner}  // 6.1.2. Winning tenders
 			0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]])>0]}  Winner // Winner
-		1 {OPT-320-LotResult}  #{name|BT-3201-Tender}  ${for text:$v1d in OPT-320-LotResult return BT-3201-Tender[(OPT-321-Tender == $v1d) and (BT-3202-Contract == $v1d)]} // --- Tender Identifier ---   TOREMOVE 
-			{OPT-320-LotResult}  #{name|BT-3201-Tender} ${for text:$v2 in OPT-320-LotResult return BT-3201-Tender[(OPT-321-Tender == $v2) and (BT-3202-Contract == $v2)]} // --- Tender identifier ---
 11 {ND-Root} #{auxiliary|text|notice-information} // 11. Notice information
 	1 {ND-Root} #{auxiliary|text|notice-information} // 11.1 Notice information
 		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}  // Notice identifier / version
