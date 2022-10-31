@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
+<comment>group in English. File generated from metadata database version 1.2.233 created on the 2022-10-28T15:44:53</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
@@ -16,6 +16,7 @@
 <entry key="group|name|GR-Company-EconomicOperatorExclusive">Economic Operator Exclusive</entry>
 <entry key="group|name|GR-Content">Content</entry>
 <entry key="group|name|GR-ContractingAuthority">Contracting Authority</entry>
+<entry key="group|name|GR-ContractingAuthority-Buyer">Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)</entry>
 <entry key="group|name|GR-Lot-AddInfo">Additional Information Providing Organisation</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Additional Information</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Auction Terms</entry>
