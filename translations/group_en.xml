@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.2.233 created on the 2022-10-28T15:44:53</comment>
+<comment>group in English. File generated from metadata database version 1.2.240 created on the 2022-11-02T13:54:05</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
@@ -207,6 +207,7 @@
 <entry key="group|name|ND-BuyerReviewComplainants">Statistics regarding the number of Organizations requesting review for a given Irregularity Type (Number &amp; Code)</entry>
 <entry key="group|name|ND-Change">Information associated to a single Change (Section, Description &amp; Procurement Documents)</entry>
 <entry key="group|name|ND-ContractEUFunds">EU Funds (Code, Description) involved in a contract.</entry>
+<entry key="group|name|ND-ContractModification">Elements related to the Modification (Section, Description, Reason)</entry>
 <entry key="group|name|ND-ContractingParty">Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Cross Border Law</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion Grounds (Code &amp; Description)</entry>
@@ -225,6 +226,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriteria">Award Criteria related information (Description, Justification, Individual Criterion …) for a Group of Lots</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterion">Award Criterion related information (Description, Name, Parameter, Code …) for a Group of Lots</entry>
 <entry key="group|name|ND-Modification">Contract Modification (Section and Description)</entry>
+<entry key="group|name|ND-ModificationReason">Contract Modification Reason (Code and Description)</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximal Value and the associated awarded Group of Lots of the Result Notice</entry>
 <entry key="group|name|ND-Organization">A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)</entry>
 <entry key="group|name|ND-Part">Part related information covering Tendering Terms, Tendering Process and Purpose</entry>
