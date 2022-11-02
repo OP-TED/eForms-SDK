@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.2.224 created on the 2022-10-27T10:27:36.-->
+<!--File generated from metadata database version 1.2.239 created on the 2022-11-02T10:43:38.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -192,6 +192,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess">
 		<assert id="BT-115-Lot_R" role="ERROR" diagnostics="BT-115-Lot" test="count(cbc:GovernmentAgreementConstraintIndicator) &lt; 2">rule|text|BT-115-Lot_R</assert>
+		<assert id="BT-124-Lot_R" role="ERROR" diagnostics="BT-124-Lot" test="count(cbc:AccessToolsURI) &lt; 2">rule|text|BT-124-Lot_R</assert>
 		<assert id="BT-130-Lot_R" role="ERROR" diagnostics="BT-130-Lot" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) &lt; 2">rule|text|BT-130-Lot_R</assert>
 		<assert id="BT-1311_d_-Lot_R" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_d_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndDate) &lt; 2">rule|text|BT-1311_d_-Lot_R</assert>
 		<assert id="BT-1311_t_-Lot_R" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_t_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndTime) &lt; 2">rule|text|BT-1311_t_-Lot_R</assert>
@@ -690,6 +691,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess">
 		<assert id="BT-115-Part_R" role="ERROR" diagnostics="BT-115-Part" test="count(cbc:GovernmentAgreementConstraintIndicator) &lt; 2">rule|text|BT-115-Part_R</assert>
+		<assert id="BT-124-Part_R" role="ERROR" diagnostics="BT-124-Part" test="count(cbc:AccessToolsURI) &lt; 2">rule|text|BT-124-Part_R</assert>
 		<assert id="BT-13_d_-Part_R" role="ERROR" diagnostics="ND-PartTenderingProcess_BT-13_d_-Part" test="count(cac:AdditionalInformationRequestPeriod/cbc:EndDate) &lt; 2">rule|text|BT-13_d_-Part_R</assert>
 		<assert id="BT-13_t_-Part_R" role="ERROR" diagnostics="ND-PartTenderingProcess_BT-13_t_-Part" test="count(cac:AdditionalInformationRequestPeriod/cbc:EndTime) &lt; 2">rule|text|BT-13_t_-Part_R</assert>
 		<assert id="BT-765-Part_R" role="ERROR" diagnostics="BT-765-Part" test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']) &lt; 2">rule|text|BT-765-Part_R</assert>

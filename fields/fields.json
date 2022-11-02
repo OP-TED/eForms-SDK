@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.232",
-    "createdOn" : "2022-10-27T13:45:03"
+    "version" : "1.2.240",
+    "createdOn" : "2022-11-02T13:54:05"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -2570,7 +2570,7 @@
     "legalType" : "URL",
     "maxLength" : 400,
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -2597,7 +2597,7 @@
     "legalType" : "URL",
     "maxLength" : 400,
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
