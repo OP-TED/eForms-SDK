@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.233",
-    "createdOn" : "2022-10-28T15:44:53"
+    "version" : "1.2.240",
+    "createdOn" : "2022-11-02T13:54:05"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -953,55 +953,6 @@
         "_identifierFieldId" : "OPT-316-Contract",
         "_repeatable" : true,
         "content" : [ {
-          "id" : "GR-SettledContract-Modification",
-          "contentType" : "group",
-          "nodeId" : "ND-Modification",
-          "displayType" : "GROUP",
-          "description" : "Contract Modification (Section and Description)",
-          "_label" : "group|name|ND-Modification",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-1501(n)-Contract",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Modification Previous Notice Identifier",
-            "_label" : "field|name|BT-1501(n)-Contract"
-          }, {
-            "id" : "BT-200-Contract",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Modification Reason Code",
-            "_label" : "field|name|BT-200-Contract"
-          }, {
-            "id" : "BT-201-Contract",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Modification Reason Description",
-            "_label" : "field|name|BT-201-Contract"
-          }, {
-            "id" : "GR-SettledContract-ChangedSection",
-            "contentType" : "group",
-            "nodeId" : "ND-Modification",
-            "displayType" : "GROUP",
-            "description" : "Contract Modification (Section and Description)",
-            "_label" : "group|name|ND-Modification",
-            "_repeatable" : true,
-            "content" : [ {
-              "id" : "BT-1501(s)-Contract",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Modification Previous Notice Section Identifier",
-              "_label" : "field|name|BT-1501(s)-Contract",
-              "_repeatable" : true
-            }, {
-              "id" : "BT-202-Contract",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Modification Description",
-              "_label" : "field|name|BT-202-Contract"
-            } ]
-          } ]
-        }, {
           "id" : "GR-SettledContract-1",
           "contentType" : "group",
           "displayType" : "GROUP",
@@ -1143,6 +1094,63 @@
             "_repeatable" : true
           } ]
         } ]
+      } ]
+    } ]
+  }, {
+    "id" : "GR-ContractModification",
+    "contentType" : "group",
+    "nodeId" : "ND-ContractModification",
+    "displayType" : "SECTION",
+    "description" : "Elements related to the Modification (Section, Description, Reason)",
+    "_label" : "group|name|ND-ContractModification",
+    "_repeatable" : true,
+    "content" : [ {
+      "id" : "BT-1501(n)-Contract",
+      "contentType" : "field",
+      "displayType" : "TEXTBOX",
+      "description" : "Modification Previous Notice Identifier",
+      "_label" : "field|name|BT-1501(n)-Contract"
+    }, {
+      "id" : "GR-ContractModification-ModificationReason",
+      "contentType" : "group",
+      "nodeId" : "ND-ModificationReason",
+      "displayType" : "GROUP",
+      "description" : "Contract Modification Reason (Code and Description)",
+      "_label" : "group|name|ND-ModificationReason",
+      "content" : [ {
+        "id" : "BT-200-Contract",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Modification Reason Code",
+        "_label" : "field|name|BT-200-Contract"
+      }, {
+        "id" : "BT-201-Contract",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Modification Reason Description",
+        "_label" : "field|name|BT-201-Contract"
+      } ]
+    }, {
+      "id" : "GR-ContractModification-Modification",
+      "contentType" : "group",
+      "nodeId" : "ND-Modification",
+      "displayType" : "GROUP",
+      "description" : "Contract Modification (Section and Description)",
+      "_label" : "group|name|ND-Modification",
+      "_repeatable" : true,
+      "content" : [ {
+        "id" : "BT-1501(s)-Contract",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Modification Previous Notice Section Identifier",
+        "_label" : "field|name|BT-1501(s)-Contract",
+        "_repeatable" : true
+      }, {
+        "id" : "BT-202-Contract",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Modification Description",
+        "_label" : "field|name|BT-202-Contract"
       } ]
     } ]
   }, {
