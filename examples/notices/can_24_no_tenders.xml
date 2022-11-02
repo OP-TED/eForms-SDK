@@ -9,12 +9,12 @@
 					<efac:NoticeResult>
 						<efac:LotResult>
 							<cbc:ID>RES-0001</cbc:ID>
-							<cbc:TenderResultCode listName="">clos-nw</cbc:TenderResultCode>
+							<cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
 							<efac:DecisionReason>
 								<efbc:DecisionReasonCode>no-rece</efbc:DecisionReasonCode>
 							</efac:DecisionReason>
 							<efac:ReceivedSubmissionsStatistics>
-								<efbc:StatisticsCode listName="">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
 								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:TenderLot>
@@ -35,7 +35,7 @@
 									<cbc:Name languageID="ENG">foo</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
-									<cbc:CityName>foo</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<cbc:PostalZone>1234</cbc:PostalZone>
 									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
@@ -43,7 +43,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>foo</cbc:CompanyID>
+									<cbc:CompanyID>123456</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>123465798</cbc:Telephone>
@@ -80,12 +80,12 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
-		<cbc:ProcedureCode listName="">oth-single</cbc:ProcedureCode>
+		<cbc:ProcedureCode listName="procurement-procedure-type">oth-single</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">foo</cbc:Name>
 		<cbc:Description languageID="ENG">foo</cbc:Description>
-		<cbc:ProcurementTypeCode listName="">services</cbc:ProcurementTypeCode>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
