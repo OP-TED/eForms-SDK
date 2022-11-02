@@ -18,9 +18,6 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID></cbc:ID>
-							<efac:SubcontractingTerm>
-								<efbc:TermCode></efbc:TermCode>
-							</efac:SubcontractingTerm>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID></cbc:ID>
@@ -61,11 +58,6 @@
 	<cac:ContractingParty>
 		<cac:Party>
 
-			<cac:ServiceProviderParty>
-				<cac:Party>
-
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
@@ -91,9 +83,6 @@
 				<cac:AppealReceiverParty>
 
 				</cac:AppealReceiverParty>
-				<cac:MediationParty>
-
-				</cac:MediationParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>

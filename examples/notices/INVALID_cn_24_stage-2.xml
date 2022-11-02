@@ -59,14 +59,6 @@
 			<cac:PartyIdentification>
 				<cbc:ID></cbc:ID>
 			</cac:PartyIdentification>
-			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode></cbc:ServiceTypeCode>
-				<cac:Party>
-					<cac:PartyIdentification>
-						<cbc:ID></cbc:ID>
-					</cac:PartyIdentification>
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingTerms>
@@ -136,11 +128,6 @@
 						<cbc:ID></cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
-				<cac:MediationParty>
-					<cac:PartyIdentification>
-						<cbc:ID></cbc:ID>
-					</cac:PartyIdentification>
-				</cac:MediationParty>
 			</cac:AppealTerms>
 			<cac:Language>
 				<cbc:ID></cbc:ID>

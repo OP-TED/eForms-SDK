@@ -228,8 +228,6 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:active-pattern id="EFORMS-validation-stage-3a" name="EFORMS-validation-stage-3a"/>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
@@ -261,7 +259,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
    <svrl:failed-assert id="element-not-empty"
-                       location="/PriorInformationNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"
+                       location="/PriorInformationNotice/cac:ContractingParty/cac:Party"
                        role="ERROR"
                        test="false()">
       <svrl:text>
@@ -294,7 +292,6 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '1']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '1']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '1']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5" name="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>

@@ -434,8 +434,6 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
@@ -488,7 +486,7 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
    <svrl:failed-assert id="element-not-empty"
-                       location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"
+                       location="/ContractNotice/cac:ContractingParty/cac:Party"
                        role="ERROR"
                        test="false()">
       <svrl:text>
@@ -578,15 +576,6 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
    <svrl:failed-assert id="element-not-empty"
-                       location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty"
-                       role="ERROR"
-                       test="false()">
-      <svrl:text>
-			rule|text|element-not-empty
-		</svrl:text>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert id="element-not-empty"
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:PostAwardProcess"
                        role="ERROR"
                        test="false()">
@@ -642,7 +631,6 @@ cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:diagnostic-refe
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '16']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>

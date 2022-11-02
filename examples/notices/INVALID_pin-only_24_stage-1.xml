@@ -45,11 +45,6 @@
 		</cac:ContractingActivity>
 		<cac:Party>
 			
-			<cac:ServiceProviderParty>
-				<cac:Party>
-
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
@@ -65,9 +60,6 @@
 				<cac:AppealReceiverParty>
 
 				</cac:AppealReceiverParty>
-				<cac:MediationParty>
-					
-				</cac:MediationParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
