@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.2.225 created on the 2022-10-27T10:30:25.-->
+<!--File generated from metadata database version 1.2.247 created on the 2022-11-03T12:18:19.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -61,6 +61,7 @@
     <diagnostic id="BT-123-Lot">cbc:AuctionURI</diagnostic>
     <diagnostic id="BT-124-Lot">cbc:AccessToolsURI</diagnostic>
     <diagnostic id="BT-124-Part">cbc:AccessToolsURI</diagnostic>
+    <diagnostic id="BT-1251-Lot">cbc:ReferencedDocumentInternalAddress</diagnostic>
     <diagnostic id="BT-1251-Part">cbc:ReferencedDocumentInternalAddress</diagnostic>
     <diagnostic id="BT-1252-Procedure">cbc:Description</diagnostic>
     <diagnostic id="BT-125_i_-Lot">cbc:ID</diagnostic>

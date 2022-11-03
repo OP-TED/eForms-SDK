@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.245",
-    "createdOn" : "2022-11-03T10:04:21"
+    "version" : "1.2.247",
+    "createdOn" : "2022-11-03T12:18:19"
   },
   "noticeId" : "22",
   "metadata" : [ {
@@ -583,8 +583,7 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Previous Planning Part Identifier",
-          "_label" : "field|name|BT-1251-Lot",
-          "_repeatable" : true
+          "_label" : "field|name|BT-1251-Lot"
         } ]
       }, {
         "id" : "GR-Lot-Description",
