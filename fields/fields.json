@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.240",
-    "createdOn" : "2022-11-02T13:54:05"
+    "version" : "1.2.245",
+    "createdOn" : "2022-11-03T10:04:21"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -21658,15 +21658,6 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{ND-LotReservedParticipation} ${((BT-71-Lot == 'nyk') and (OPP-070-notice in ('7','8','9','10','11','12','13','14'))) or not(BT-71-Lot == 'nyk')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00071-0150"
-      } ]
     }
   }, {
     "id" : "BT-71-Part",
@@ -21696,15 +21687,6 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{ND-PartReservedParticipation} ${((BT-71-Part == 'nyk') and (OPP-070-notice in ('4','5','6','E2'))) or not(BT-71-Part == 'nyk')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00071-0151"
-      } ]
     }
   }, {
     "id" : "BT-710-LotResult",
