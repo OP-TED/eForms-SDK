@@ -2176,7 +2176,6 @@
     "displayType" : "SECTION",
     "description" : "Organisations",
     "_label" : "group|name|GR-Organisations-Section",
-    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-Organisations-Subsection",
       "contentType" : "group",

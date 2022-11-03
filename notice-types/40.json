@@ -1684,7 +1684,7 @@
   }, {
     "id" : "GR-Modification",
     "contentType" : "group",
-    "displayType" : "SECTION",
+    "displayType" : "GROUP",
     "description" : "Modification",
     "_label" : "group|name|GR-Modification",
     "content" : [ {
@@ -1812,7 +1812,6 @@
     "displayType" : "SECTION",
     "description" : "Organisations",
     "_label" : "group|name|GR-Organisations-Section",
-    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-Organisations-Subsection",
       "contentType" : "group",
