@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.0",
   "metadataDatabase" : {
-    "version" : "1.2.240",
-    "createdOn" : "2022-11-02T13:54:05"
+    "version" : "1.2.245",
+    "createdOn" : "2022-11-03T10:04:21"
   },
   "noticeId" : "12",
   "metadata" : [ {
@@ -121,67 +121,74 @@
     "hidden" : true
   } ],
   "content" : [ {
-    "id" : "GR-ContractingAuthority",
+    "id" : "GR-Buyer",
     "contentType" : "group",
-    "nodeId" : "ND-ContractingParty",
     "displayType" : "SECTION",
-    "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
-    "_label" : "group|name|ND-ContractingParty",
-    "_repeatable" : true,
+    "description" : "Contracting Party and Provider related Information",
+    "_label" : "group|name|GR-Buyer",
     "content" : [ {
-      "id" : "GR-ContractingAuthority-Buyer",
+      "id" : "GR-ContractingAuthority",
       "contentType" : "group",
-      "displayType" : "GROUP",
+      "nodeId" : "ND-ContractingParty",
+      "displayType" : "SECTION",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
-      "_label" : "group|name|GR-ContractingAuthority-Buyer",
+      "_label" : "group|name|ND-ContractingParty",
       "_repeatable" : true,
       "content" : [ {
-        "id" : "OPT-300-Procedure-Buyer",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Buyer Technical Identifier Reference",
-        "_label" : "field|name|OPT-300-Procedure-Buyer",
-        "_idSchemes" : [ "ORG" ]
+        "id" : "GR-ContractingAuthority-Buyer",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
+        "_label" : "group|name|GR-ContractingAuthority-Buyer",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPT-300-Procedure-Buyer",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Buyer Technical Identifier Reference",
+          "_label" : "field|name|OPT-300-Procedure-Buyer",
+          "_idSchemes" : [ "ORG" ]
+        }, {
+          "id" : "BT-11-Procedure-Buyer",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Buyer Legal Type",
+          "_label" : "field|name|BT-11-Procedure-Buyer"
+        }, {
+          "id" : "BT-10-Procedure-Buyer",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Activity Authority",
+          "_label" : "field|name|BT-10-Procedure-Buyer"
+        }, {
+          "id" : "BT-508-Procedure-Buyer",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Buyer Profile URL",
+          "_label" : "field|name|BT-508-Procedure-Buyer"
+        } ]
       }, {
-        "id" : "BT-11-Procedure-Buyer",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Buyer Legal Type",
-        "_label" : "field|name|BT-11-Procedure-Buyer"
-      }, {
-        "id" : "BT-10-Procedure-Buyer",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Activity Authority",
-        "_label" : "field|name|BT-10-Procedure-Buyer"
-      }, {
-        "id" : "BT-508-Procedure-Buyer",
-        "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Buyer Profile URL",
-        "_label" : "field|name|BT-508-Procedure-Buyer"
-      } ]
-    }, {
-      "id" : "GR-Procedure-SProvider",
-      "contentType" : "group",
-      "nodeId" : "ND-ServiceProviderParty",
-      "displayType" : "GROUP",
-      "description" : "Provided Service (code) and Provider (Reference to Organization)",
-      "_label" : "group|name|ND-ServiceProviderParty",
-      "_repeatable" : true,
-      "content" : [ {
-        "id" : "OPT-300-Procedure-SProvider",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Service Provider Technical Identifier Reference",
-        "_label" : "field|name|OPT-300-Procedure-SProvider",
-        "_idSchemes" : [ "ORG" ]
-      }, {
-        "id" : "OPT-030-Procedure-SProvider",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Provided Service Type",
-        "_label" : "field|name|OPT-030-Procedure-SProvider"
+        "id" : "GR-Procedure-SProvider",
+        "contentType" : "group",
+        "nodeId" : "ND-ServiceProviderParty",
+        "displayType" : "GROUP",
+        "description" : "Provided Service (code) and Provider (Reference to Organization)",
+        "_label" : "group|name|ND-ServiceProviderParty",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPT-300-Procedure-SProvider",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Service Provider Technical Identifier Reference",
+          "_label" : "field|name|OPT-300-Procedure-SProvider",
+          "_idSchemes" : [ "ORG" ]
+        }, {
+          "id" : "OPT-030-Procedure-SProvider",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Provided Service Type",
+          "_label" : "field|name|OPT-030-Procedure-SProvider"
+        } ]
       } ]
     } ]
   }, {
@@ -190,7 +197,6 @@
     "displayType" : "SECTION",
     "description" : "Procedure",
     "_label" : "group|name|GR-Procedure",
-    "_repeatable" : true,
     "content" : [ {
       "id" : "GR-Procedure-Purpose",
       "contentType" : "group",
@@ -2040,7 +2046,6 @@
     "displayType" : "SECTION",
     "description" : "Change",
     "_label" : "group|name|GR-Change",
-    "_repeatable" : true,
     "content" : [ {
       "id" : "BT-140-notice",
       "contentType" : "field",
