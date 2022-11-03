@@ -28,6 +28,7 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element ref="efbc:AccessToolName" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="efbc:FrameworkMaximumAmount" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efbc:ProcedureRelaunchIndicator" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efbc:TransmissionDate" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efbc:TransmissionTime" minOccurs="0" maxOccurs="1"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Galician. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Galician. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Tá critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh</entry>
 <entry key="code|name|accessibility.n-inc">Níl critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh mar níl an soláthar beartaithe lena úsáid ag daoine nádúrtha</entry>
 <entry key="code|name|accessibility.n-inc-just">Níl critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh ar na cúiseanna seo a leanas</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Oileán na Nollag</entry>
 <entry key="code|name|country.CYM">Oileáin Cayman</entry>
 <entry key="code|name|country.CYP">An Chipir</entry>
-<entry key="code|name|country.CZE">Poblacht na Seice</entry>
+<entry key="code|name|country.CZE">An tSeicia</entry>
 <entry key="code|name|country.DDR">Oirthear na Gearmáine</entry>
 <entry key="code|name|country.DEU">An Ghearmáin</entry>
 <entry key="code|name|country.DHY">Dahomey</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Meicsiceo</entry>
 <entry key="code|name|country.MHL">Oileáin Marshall</entry>
 <entry key="code|name|country.MID">Oileáin Midway</entry>
-<entry key="code|name|country.MKD">Poblacht iar-Iúgslavach na Macadóine</entry>
+<entry key="code|name|country.MKD">An Mhacadóin Thuaidh</entry>
 <entry key="code|name|country.MLI">Mailí</entry>
 <entry key="code|name|country.MLT">Málta</entry>
-<entry key="code|name|country.MMR">Maenmar</entry>
+<entry key="code|name|country.MMR">Maenmar/Burma</entry>
 <entry key="code|name|country.MNE">Montainéagró</entry>
 <entry key="code|name|country.MNG">An Mhongóil</entry>
 <entry key="code|name|country.MNP">Na hOileáin Mháirianacha Thuaidh</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">An tSeineagáil</entry>
 <entry key="code|name|country.SGP">Singeapór</entry>
 <entry key="code|name|country.SGS">An tSeoirsia Theas agus Oileáin Sandwich Theas</entry>
-<entry key="code|name|country.SHN">Sainte-Hélène</entry>
+<entry key="code|name|country.SHN">San Héilin, Oileán na Deascabhála agus Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard agus Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Oileáin Sholomón</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">An tSlóvaic</entry>
 <entry key="code|name|country.SVN">An tSlóivéin</entry>
 <entry key="code|name|country.SWE">An tSualainn</entry>
-<entry key="code|name|country.SWZ">An tSuasalainn</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint Maarten</entry>
 <entry key="code|name|country.SYC">Na Séiséil</entry>
 <entry key="code|name|country.SYR">An tSiria</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Oileán Wake</entry>
 <entry key="code|name|country.WLF">Vailís agus Futúna</entry>
 <entry key="code|name|country.WSM">Samó</entry>
-<entry key="code|name|country.YEM">Éimin Theas</entry>
+<entry key="code|name|country.YEM">Éimin</entry>
 <entry key="code|name|country.YMD">Éimin Thuaidh</entry>
 <entry key="code|name|country.YUG">Iúgslaiv</entry>
 <entry key="code|name|country.ZAF">An Afraic Theas</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">An t-aistriú chuig geilleagar ciorclach</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Oiriúnú don athrú aeráide</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Maolú ar an athrú aeráide</entry>
-<entry key="code|name|environmental-impact.emas-com">Comhlíonadh na scéime um éiceabhainistíocht agus um éiciniúchóireacht (EMAS), scéim a bunaíodh le Rialachán (CE) Uimh. 1221/2009, a iarraidh</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Comhlíonadh na haicme éifeachtúlachta fuinnimh is airde (arna sainiú in ionstraimí éagsúla reachtaíochta amhail Rialachán (AE) Uimh. 626/2011 maidir le haerchóiritheoirí) a iarraidh</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Comhlíonadh na scéime um éiceabhainistíocht agus um éiciniúchóireacht (EMAS), scéim a bunaíodh le Rialachán (CE) Uimh. 1221/2009, a iarraidh</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Comhlíonadh lipéid comhshaoil de chuid ISO 14024 Cineál I a iarraidh</entry>
 <entry key="code|name|environmental-impact.other">Eile</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Cosc agus rialú ar thruailliú</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">I gcás fhormhór an cheannacháin ábhartha, comhlíonadh Rialachán (CE) Uimh. 834/2007 maidir le táirgeadh orgánach agus lipéadú táirgí orgánacha, a iarraidh</entry>
 <entry key="code|name|environmental-impact.water-mar">Úsáid inbhuanaithe a bhaint as uisce agus acmhainní mara agus iad a chosaint</entry>
 <entry key="code|name|eu-programme.CERV">Cearta agus Luachanna</entry>
 <entry key="code|name|eu-programme.EFSD">Ciste Eorpach um Fhorbairt Inbhuanaithe (CEFI)</entry>

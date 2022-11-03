@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Swedish. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Swedish. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Tillgänglighetskriterier för personer med funktionsnedsättning ingår</entry>
 <entry key="code|name|accessibility.n-inc">Tillgänglighetskriterier för personer med funktionsnedsättning ingår inte eftersom upphandlingen inte är avsedd att användas av fysiska personer</entry>
 <entry key="code|name|accessibility.n-inc-just">Tillgänglighetskriterier för personer med funktionsnedsättning ingår inte med följande motivering</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexiko</entry>
 <entry key="code|name|country.MHL">Marshallöarna</entry>
 <entry key="code|name|country.MID">Midwayöarna</entry>
-<entry key="code|name|country.MKD">F. d. jugoslaviska republiken Makedonien</entry>
+<entry key="code|name|country.MKD">Nordmakedonien</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Burma</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongoliet</entry>
 <entry key="code|name|country.MNP">Nordmarianerna</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapore</entry>
 <entry key="code|name|country.SGS">Sydgeorgien och Sydsandwichöarna</entry>
-<entry key="code|name|country.SHN">Saint Helena</entry>
+<entry key="code|name|country.SHN">Sankt Helena, Ascension och Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard och Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Salomonöarna</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovakien</entry>
 <entry key="code|name|country.SVN">Slovenien</entry>
 <entry key="code|name|country.SWE">Sverige</entry>
-<entry key="code|name|country.SWZ">Swaziland</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint-Maarten</entry>
 <entry key="code|name|country.SYC">Seychellerna</entry>
 <entry key="code|name|country.SYR">Syrien</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Wake</entry>
 <entry key="code|name|country.WLF">Wallis och Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Sydjemen</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Nordjemen</entry>
 <entry key="code|name|country.YUG">Jugoslavien</entry>
 <entry key="code|name|country.ZAF">Sydafrika</entry>
@@ -10118,13 +10118,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Omställning till en cirkulär ekonomi</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Anpassning till klimatförändringar</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Begränsning av klimatförändringar</entry>
-<entry key="code|name|environmental-impact.emas-com">Krav på överensstämmelse med miljölednings- och miljörevisionsordningen (Emas), som inrättats genom förordning (EG) nr 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Krav på överensstämmelse med den högsta energieffektivitetsklassen (såsom fastställs i olika rättsakter, t.ex. förordning (EU) nr 626/2011 om luftkonditioneringsapparater)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Krav på överensstämmelse med ett annat ISO 14001-miljöledningssystem än miljölednings- och miljörevisionsordningen (Emas), som inrättats genom förordning (EG) nr 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Krav på överensstämmelse med ISO 14024 typ I-miljömärkning</entry>
 <entry key="code|name|environmental-impact.other">Annat</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Förebyggande och begränsning av miljöföroreningar</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Krav på att merparten av de relevanta inköpen ska överensstämma med förordning (EG) nr 834/2007 om ekologisk produktion och märkning av ekologiska produkter</entry>
 <entry key="code|name|environmental-impact.water-mar">Hållbar användning och skydd av vatten och marina resurser</entry>
 <entry key="code|name|eu-programme.AFIS2020">Informationssystem för bedrägeribekämpning (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Europeiska garantifonden för jordbruket (efter överföringar mellan EGFJ och EJFLU)</entry>

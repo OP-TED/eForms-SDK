@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in French. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in French. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Des critères d’accessibilité pour les personnes handicapées sont appliqués</entry>
 <entry key="code|name|accessibility.n-inc">Des critères d’accessibilité pour les personnes handicapées ne sont pas appliqués parce que le marché n’est pas destiné aux personnes physiques</entry>
 <entry key="code|name|accessibility.n-inc-just">Des critères d’accessibilité pour les personnes handicapées ne sont pas appliqués avec la justification suivante</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Île Christmas</entry>
 <entry key="code|name|country.CYM">Îles Caïmans</entry>
 <entry key="code|name|country.CYP">Chypre</entry>
-<entry key="code|name|country.CZE">République tchèque</entry>
+<entry key="code|name|country.CZE">Tchéquie</entry>
 <entry key="code|name|country.DDR">Allemagne de l’Est</entry>
 <entry key="code|name|country.DEU">Allemagne</entry>
 <entry key="code|name|country.DHY">Dahomey</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexique</entry>
 <entry key="code|name|country.MHL">Îles Marshall</entry>
 <entry key="code|name|country.MID">Îles Midway</entry>
-<entry key="code|name|country.MKD">Ancienne République yougoslave de Macédoine</entry>
+<entry key="code|name|country.MKD">Macédoine du Nord</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malte</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Birmanie</entry>
 <entry key="code|name|country.MNE">Monténégro</entry>
 <entry key="code|name|country.MNG">Mongolie</entry>
 <entry key="code|name|country.MNP">Îles Mariannes du Nord</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Sénégal</entry>
 <entry key="code|name|country.SGP">Singapour</entry>
 <entry key="code|name|country.SGS">Îles Géorgie du Sud et Sandwich du Sud</entry>
-<entry key="code|name|country.SHN">Sainte-Hélène</entry>
+<entry key="code|name|country.SHN">Sainte-Hélène, Ascension et Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard et Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Îles Salomon</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovaquie</entry>
 <entry key="code|name|country.SVN">Slovénie</entry>
 <entry key="code|name|country.SWE">Suède</entry>
-<entry key="code|name|country.SWZ">Swaziland</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint-Maarten</entry>
 <entry key="code|name|country.SYC">Seychelles</entry>
 <entry key="code|name|country.SYR">Syrie</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Île de Wake</entry>
 <entry key="code|name|country.WLF">Wallis-et-Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Yémen du Sud</entry>
+<entry key="code|name|country.YEM">Yémen</entry>
 <entry key="code|name|country.YMD">Yémen du Nord</entry>
 <entry key="code|name|country.YUG">Yougoslavie</entry>
 <entry key="code|name|country.ZAF">Afrique du Sud</entry>
@@ -10128,13 +10128,8 @@
 <entry key="code|name|environmental-impact.circ-econ">La transition vers une économie circulaire</entry>
 <entry key="code|name|environmental-impact.clim-adapt">L’adaptation au changement climatique</entry>
 <entry key="code|name|environmental-impact.clim-mitig">L’atténuation du changement climatique</entry>
-<entry key="code|name|environmental-impact.emas-com">Demande de conformité au système de management environnemental et d’audit (EMAS) institué par le règlement (CE) nº 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Demande de conformité à la classe d’efficacité énergétique la plus haute [au sens de diverses législations, tel le règlement (UE) 626/2011 relatif aux climatiseurs]</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Demande de conformité à un système de management environnemental ISO 14001 autre que le système de management environnemental et d’audit (EMAS) institué par le règlement (CE) nº 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Demande de conformité à un label environnemental de type I ISO 14024</entry>
 <entry key="code|name|environmental-impact.other">Autre</entry>
 <entry key="code|name|environmental-impact.pollu-prev">La prévention et la réduction de la pollution</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Demande, pour la majorité des achats concernés, de conformité au règlement (CE) nº 834/2007 relatif à la production biologique et à l’étiquetage des produits biologiques</entry>
 <entry key="code|name|environmental-impact.water-mar">L’utilisation durable et la protection des ressources aquatiques et marines</entry>
 <entry key="code|name|eu-programme.AFIS2020">Système d’information antifraude (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Fonds européen agricole de garantie (après transferts entre le FEAGA et le Feader)</entry>

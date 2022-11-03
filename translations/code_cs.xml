@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Czech. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Czech. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Kritéria přístupnosti pro osoby s postižením jsou zahrnuta</entry>
 <entry key="code|name|accessibility.n-inc">Kritéria přístupnosti pro osoby s postižením nejsou zahrnuta, neboť zakázka není určena k použití fyzickými osobami</entry>
 <entry key="code|name|accessibility.n-inc-just">Kritéria přístupnosti pro osoby s postižením nejsou zahrnuta s následujícím odůvodněním</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Vánoční ostrov</entry>
 <entry key="code|name|country.CYM">Kajmanské ostrovy</entry>
 <entry key="code|name|country.CYP">Kypr</entry>
-<entry key="code|name|country.CZE">Česká republika</entry>
+<entry key="code|name|country.CZE">Česko</entry>
 <entry key="code|name|country.DDR">Východní Německo</entry>
 <entry key="code|name|country.DEU">Německo</entry>
 <entry key="code|name|country.DHY">Dahome</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexiko</entry>
 <entry key="code|name|country.MHL">Marshallovy ostrovy</entry>
 <entry key="code|name|country.MID">Ostrovy Midway</entry>
-<entry key="code|name|country.MKD">Bývalá jugoslávská republika Makedonie</entry>
+<entry key="code|name|country.MKD">Severní Makedonie</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Barma</entry>
 <entry key="code|name|country.MNE">Černá Hora</entry>
 <entry key="code|name|country.MNG">Mongolsko</entry>
 <entry key="code|name|country.MNP">Ostrovy Severní Mariany</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapur</entry>
 <entry key="code|name|country.SGS">Jižní Georgie a Jižní Sandwichovy ostrovy</entry>
-<entry key="code|name|country.SHN">Svatá Helena</entry>
+<entry key="code|name|country.SHN">Svatá Helena, Ascension a Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard a Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Šalomounovy ostrovy</entry>
@@ -323,9 +323,9 @@
 <entry key="code|name|country.VNM">Vietnam</entry>
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WAK">Ostrov Wake</entry>
-<entry key="code|name|country.WLF">Ostrovy Wallis a Futuna</entry>
+<entry key="code|name|country.WLF">Wallis a Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Jižní Jemen</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Severní Jemen</entry>
 <entry key="code|name|country.YUG">Jugoslávie</entry>
 <entry key="code|name|country.ZAF">Jižní Afrika</entry>
@@ -10119,13 +10119,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Přechod na oběhové hospodářství</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Přizpůsobování se změně klimatu</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Zmírňování změny klimatu</entry>
-<entry key="code|name|environmental-impact.emas-com">Požadující dodržování požadavků na systém pro environmentální řízení podniků a audit (EMAS) zřízený nařízením (ES) č. 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Požadující shodu s nejvyšší třídou energetické účinnosti (podle definice v různých právních předpisech, např. v nařízení (EU) č. 626/2011 o klimatizátorech vzduchu)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Požadující dodržování požadavků na systém environmentálního řízení podle normy ISO 14001, jiný než systém pro environmentální řízení podniků a audit (EMAS) zřízený nařízením (ES) č. 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Požadující dodržování požadavků na ekoznačku typu I podle normy ISO 14024</entry>
 <entry key="code|name|environmental-impact.other">Jiné</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Prevence a omezování znečištění</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Požadující, aby bylo u většiny relevantních nákupů dodržováno nařízení (ES) č. 834/2007 o ekologické produkci a označování ekologických produktů</entry>
 <entry key="code|name|environmental-impact.water-mar">Udržitelné využívání a ochrana vodních a mořských zdrojů</entry>
 <entry key="code|name|eu-programme.AFIS2020">Informační systém pro boj proti podvodům (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Evropský zemědělský záruční fond (po převodech mezi EZZF a EZFRV)</entry>

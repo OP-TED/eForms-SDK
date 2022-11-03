@@ -89,7 +89,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 388212323</cbc:Telephone>
@@ -117,7 +117,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 383342565</cbc:Telephone>
@@ -144,7 +144,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -159,7 +159,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.3</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">f37b9a55-0684-4d4b-a98f-0ba819d6d6f2</cbc:ID>
 	<cbc:ContractFolderID>8655f8a5-b5e9-4d6e-9dee-a360f820ecbe</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-11+01:00</cbc:IssueDate>
@@ -249,6 +249,7 @@
 				<cbc:BindingOnBuyerIndicator>true</cbc:BindingOnBuyerIndicator>
 				<cac:AwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
 						<cbc:Description languageID="FRA">Jugement des candidatures:
 
 							— les candidatures seront jugées et sélectionnées au regard des critères suivants:
@@ -292,7 +293,7 @@
 					<cbc:Description languageID="FRA">Une indemnité forfaitaire d'un montant identique à celui versé aux concurrents non retenus sera payée à l'équipe lauréate sous forme d'avance sur le marché de maîtrise d'œuvre dès l'issue du concours; cette somme étant à valoir sur le montant des honoraires à percevoir ultérieurement au titre du marché de maîtrise d'œuvre.</cbc:Description>
 				</cac:Prize>
 				<cac:Prize>
-					<cbc:RankCode>>= 1</cbc:RankCode>
+					<cbc:RankCode>2</cbc:RankCode>
 					<cbc:ValueAmount currencyID="EUR">10000</cbc:ValueAmount>
 					<cbc:Description languageID="FRA">Les trois concurrents (candidats admis à concourir) recevront une indemnisation forfaitaire maximale de 10 000 EUR HT. Pour les prestations fournies, sous réserve de la recevabilité de leurs prestations au regard du règlement du concours et du respect du programme. Les indemnisations sont forfaitaires, conformément aux dispositions de l'article R. 2172-4 du code de la commande publique, l'acheteur, sur proposition du jury, se réserve le droit, dans le cas d'un projet qu'il jugerait incomplet ou dont les prestations seraient non conformes par rapport au règlement de concours et ou au programme, de supprimer totalement ou partiellement l'indemnité.</cbc:Description>
 				</cac:Prize>

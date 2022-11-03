@@ -267,8 +267,8 @@
 	<xsd:complexType name="FrameworkAgreementValuesType">
 		<xsd:sequence>
 			<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="cbc:EstimatedMaximumValueAmount" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="cbc:MaximumValueAmount" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ReestimatedValueAmount" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="FundingType">
@@ -281,7 +281,8 @@
 	<xsd:complexType name="GroupFrameworkType">
 		<xsd:sequence>
 			<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efbc:GroupFrameworkValueAmount" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:GroupFrameworkMaximumValueAmount" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:GroupFrameworkReestimatedValueAmount" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:TenderLot" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
@@ -311,6 +312,7 @@
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="cbc:RankCode" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:PublicTransportationCumulatedDistance" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:TenderRankedIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:TenderVariantIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cac:LegalMonetaryTotal" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:AggregatedAmounts" minOccurs="0" maxOccurs="1"/>
@@ -349,7 +351,8 @@
 		<xsd:sequence>
 			<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:TotalAmount" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="cbc:EstimatedOverallFrameworkContractsAmount" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:OverallApproximateFrameworkContractsAmount" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:OverallMaximumFrameworkContractsAmount" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:GroupFramework" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:LotResult" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:LotTender" minOccurs="0" maxOccurs="unbounded"/>
@@ -426,7 +429,6 @@
 	</xsd:complexType>
 	<xsd:complexType name="SettledContractType">
 		<xsd:sequence>
-			<xsd:element ref="efac:ContractModification" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="cbc:AwardDate" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="cbc:IssueDate" minOccurs="0" maxOccurs="1"/>

@@ -15,6 +15,12 @@
 								<cac:PartyIdentification>
 									<cbc:ID></cbc:ID>
 								</cac:PartyIdentification>
+								<cac:PostalAddress>
+
+								</cac:PostalAddress>
+								<cac:Contact>
+
+								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 					</efac:Organizations>
@@ -27,14 +33,13 @@
 	<cbc:NoticeTypeCode listName="planning">pin-buyer</cbc:NoticeTypeCode>
 	<cac:ContractingParty>
 		<cac:Party>
-			<cac:ServiceProviderParty>
-				<cac:Party>
 
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
 
+		<cac:MainCommodityClassification>
+
+		</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 </PriorInformationNotice>

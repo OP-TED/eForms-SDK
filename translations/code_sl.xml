@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Slovene. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Slovene. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Vključeni so pogoji dostopnosti za invalidne osebe</entry>
 <entry key="code|name|accessibility.n-inc">Pogoji dostopnosti za invalidne osebe niso vključeni, ker predmet javnega naročila ni namenjen temu, da bi ga uporabljale fizične osebe</entry>
 <entry key="code|name|accessibility.n-inc-just">Pogoji dostopnosti za invalidne osebe niso vključeni iz naslednjih razlogov</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mehika</entry>
 <entry key="code|name|country.MHL">Marshallovi otoki</entry>
 <entry key="code|name|country.MID">Otoki Midway</entry>
-<entry key="code|name|country.MKD">Nekdanja jugoslovanska republika Makedonija</entry>
+<entry key="code|name|country.MKD">Severna Makedonija</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Mjanmar</entry>
+<entry key="code|name|country.MMR">Mjanmar/Burma</entry>
 <entry key="code|name|country.MNE">Črna gora</entry>
 <entry key="code|name|country.MNG">Mongolija</entry>
 <entry key="code|name|country.MNP">Severni Marianski otoki</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapur</entry>
 <entry key="code|name|country.SGS">Južna Georgia in Južni Sandwichevi otoki</entry>
-<entry key="code|name|country.SHN">Saint Helena</entry>
+<entry key="code|name|country.SHN">Sveta Helena, Ascension in Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard in Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikim</entry>
 <entry key="code|name|country.SLB">Salomonovi otoki</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovaška</entry>
 <entry key="code|name|country.SVN">Slovenija</entry>
 <entry key="code|name|country.SWE">Švedska</entry>
-<entry key="code|name|country.SWZ">Svazi</entry>
+<entry key="code|name|country.SWZ">Esvatini</entry>
 <entry key="code|name|country.SXM">Sint Maarten</entry>
 <entry key="code|name|country.SYC">Sejšeli</entry>
 <entry key="code|name|country.SYR">Sirija</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Otok Wake</entry>
 <entry key="code|name|country.WLF">Wallis in Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Južni Jemen</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Severni Jemen</entry>
 <entry key="code|name|country.YUG">Jugoslavija</entry>
 <entry key="code|name|country.ZAF">Južna Afrika</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Prehod na krožno gospodarstvo</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Prilagajanje podnebnim spremembam</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Blažitev podnebnih sprememb</entry>
-<entry key="code|name|environmental-impact.emas-com">Potrebna skladnost s sistemom za okoljsko ravnanje in presojo (EMAS), vzpostavljenim z Uredbo (ES) št. 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Potrebna skladnost z najvišjim energijskim razredom (kot je opredeljen z različnimi predpisi, na primer z Uredbo (EU) št. 626/2011 o klimatskih napravah)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Potrebna skladnost s sistemom okoljskega ravnanja ISO 14001, ki ni sistem za okoljsko ravnanje in presojo (EMAS), vzpostavljen z Uredbo (ES) št. 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Potrebna skladnost z okoljskim znakom ISO 14024 tipa I</entry>
 <entry key="code|name|environmental-impact.other">Drugo</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Preprečevanje in nadzorovanje onesnaževanja</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Za večino zadevne nabave potrebna skladnost z Uredbo (ES) št. 834/2007 o ekološki pridelavi in označevanju ekoloških proizvodov</entry>
 <entry key="code|name|environmental-impact.water-mar">Trajnostna raba ter varstvo vodnih in morskih virov</entry>
 <entry key="code|name|eu-programme.AFIS2020">Informacijski sistem za boj proti goljufijam</entry>
 <entry key="code|name|eu-programme.AGR">Evropski kmetijski jamstveni sklad (EKJS) (po prerazporeditvah med EKJS in EKSRP)</entry>

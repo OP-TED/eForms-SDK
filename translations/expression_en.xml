@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>expression in English. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>expression in English. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="expression|name|1">the value chosen for the indicator of BT-740-Procedure-Buyer is 'NO'</entry>
 <entry key="expression|name|100">BT-541-Lot is present and BT-5421-Lot is not present and BT-5423-Lot is not present</entry>
 <entry key="expression|name|101">BT-541-Lot is present and BT-5421-Lot is not present and BT-5422-Lot is not present</entry>
@@ -367,8 +367,31 @@
 <entry key="expression|name|530">there is no organization with a reference to a UBO (OPT-302-Organization)</entry>
 <entry key="expression|name|531">Company Technical Identifier (OPT-200-Organization-Company) does not exist</entry>
 <entry key="expression|name|532">Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) does not exist</entry>
+<entry key="expression|name|534">Tender Ranked (BT-1711) is set to "false" or does not exist</entry>
+<entry key="expression|name|535">The lot does not involve a Framework agreement</entry>
+<entry key="expression|name|537">no lot involves a framework agreement</entry>
+<entry key="expression|name|538">There is no lot in the group for which a framework agreement is defined</entry>
+<entry key="expression|name|539">no framework agreement is involved or Framework Estimated Value (BT-660-LotResult) is not present</entry>
 <entry key="expression|name|54">the value chosen for BT-65_Lot is not equal to 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC</entry>
+<entry key="expression|name|540">no winner was chosen or no framework agreement was involved or Framework Estimated Value (BT-660-LotResult) is not present</entry>
+<entry key="expression|name|542">the Group Framework Value Lot Identifier (BT-556) is present and the Group Framework Re-estimated Value is not present</entry>
+<entry key="expression|name|543">the Group Framework Value Lot Identifier (BT-556) is present and the Group Framework Value is not present</entry>
+<entry key="expression|name|544">Notice Framework Approximate Value (BT-1118-NoticeResult) is not present</entry>
+<entry key="expression|name|545">Unpublished Identifier (BT-195(BT-1118)-NoticeResult) is not present</entry>
+<entry key="expression|name|546">Group Framework Re-estimated Value (BT-1561-NoticeResult) is not present</entry>
+<entry key="expression|name|547">Unpublished Identifier (BT-195(BT-1561)-NoticeResult) is not present</entry>
+<entry key="expression|name|548">no lot has been awarded and there is no other non-awarding reason than "no received tenders".</entry>
+<entry key="expression|name|549">there is at least one awarded lot</entry>
 <entry key="expression|name|55">the value chosen for BT-765-Lot is not equal to one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition', 'Frame$work agreement, without reopening of competition'</entry>
+<entry key="expression|name|550">Tender Technical ID (OPT-321-Tender) does not exist</entry>
+<entry key="expression|name|551">no tender exists</entry>
+<entry key="expression|name|552">LotResult Technical ID (OPT-322) does not exist</entry>
+<entry key="expression|name|553">there is no LotResult, or there is no Tender for the Lot covered by the LotResult and no Tender for any Group of Lot that would contain the Lot of the LotResult, or there is no tender and no lot is specified for the LotResult, or the competition is ongoing</entry>
+<entry key="expression|name|554">no lot has been awarded</entry>
+<entry key="expression|name|555">Contract Technical ID (OPT-316-Contract) does not exist or there is no Tender (OPT-321-Tender)</entry>
+<entry key="expression|name|556">Contract Technical ID (OPT-316-Contract) does not exist</entry>
+<entry key="expression|name|557">LotsGroup Purpose Lot ID is not present</entry>
+<entry key="expression|name|558">the Service Provider is not identified</entry>
 <entry key="expression|name|56">the value chosen for BT-766-Lot is either 'Dynamic purchasing system, also usable by buyers not listed in this notice' or 'Dynamic purchasing system, only usable by buyers listed in this notice'</entry>
 <entry key="expression|name|57">BT-765-Lot is equal to 'None'</entry>
 <entry key="expression|name|58">The value chosen for the field BT-765-Lot is either 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition' or 'Framework agreement, without reopening of competition'</entry>

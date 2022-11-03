@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Romanian. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Romanian. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Sunt incluse criterii de accesibilitate pentru persoanele cu handicap</entry>
 <entry key="code|name|accessibility.n-inc">Nu sunt incluse criterii de accesibilitate pentru persoanele cu handicap, deoarece achizițiile nu sunt destinate a fi utilizate de către persoane fizice</entry>
 <entry key="code|name|accessibility.n-inc-just">Nu sunt incluse criterii de accesibilitate pentru persoanele cu handicap, din următorul motiv</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Insula Christmas</entry>
 <entry key="code|name|country.CYM">Insulele Cayman</entry>
 <entry key="code|name|country.CYP">Cipru</entry>
-<entry key="code|name|country.CZE">Republica Cehă</entry>
+<entry key="code|name|country.CZE">Cehia</entry>
 <entry key="code|name|country.DDR">Germania de Est</entry>
 <entry key="code|name|country.DEU">Germania</entry>
 <entry key="code|name|country.DHY">Dahomey</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexic</entry>
 <entry key="code|name|country.MHL">Insulele Marshall</entry>
 <entry key="code|name|country.MID">Insulele Midway</entry>
-<entry key="code|name|country.MKD">Fosta Republică iugoslavă a Macedoniei</entry>
+<entry key="code|name|country.MKD">Macedonia de Nord</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Birmania</entry>
 <entry key="code|name|country.MNE">Muntenegru</entry>
 <entry key="code|name|country.MNG">Mongolia</entry>
 <entry key="code|name|country.MNP">Insulele Mariane de Nord</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapore</entry>
 <entry key="code|name|country.SGS">Georgia de Sud şi Insulele Sandwich de Sud</entry>
-<entry key="code|name|country.SHN">Sfânta Elena</entry>
+<entry key="code|name|country.SHN">Sfânta Elena, Ascension și Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard şi Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Insulele Solomon</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovacia</entry>
 <entry key="code|name|country.SVN">Slovenia</entry>
 <entry key="code|name|country.SWE">Suedia</entry>
-<entry key="code|name|country.SWZ">Swaziland</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint-Maarten</entry>
 <entry key="code|name|country.SYC">Seychelles</entry>
 <entry key="code|name|country.SYR">Siria</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Insula Wake</entry>
 <entry key="code|name|country.WLF">Wallis şi Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Yemenul de Sud</entry>
+<entry key="code|name|country.YEM">Yemen</entry>
 <entry key="code|name|country.YMD">Yemenul de Nord</entry>
 <entry key="code|name|country.YUG">Iugoslavia</entry>
 <entry key="code|name|country.ZAF">Africa de Sud</entry>
@@ -10118,13 +10118,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Tranziția către o economie circulară</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Adaptarea la schimbările climatice</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Atenuarea schimbărilor climatice</entry>
-<entry key="code|name|environmental-impact.emas-com">Solicitarea conformității cu sistemul de management de mediu și audit (EMAS) stabilit prin Regulamentul (CE) nr. 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Solicitarea conformității cu cea mai înaltă clasă de eficiență energetică [conform definiției din diverse acte legislative precum, de exemplu, Regulamentul (UE) 626/2011 privind aparatele de climatizare]</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Solicitarea conformității cu un sistem de management de mediu conform ISO 14001, altul decât sistemul de management de mediu și audit (EMAS) stabilit prin Regulamentul (CE) nr. 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Solicitarea conformității cu o etichetă de mediu de tip I conform ISO 14024</entry>
 <entry key="code|name|environmental-impact.other">Altele</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Prevenirea și controlul poluării</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Pentru majoritatea achiziției relevante, solicitarea conformității cu Regulamentul (CE) 834/2007 privind producția ecologică și etichetarea produselor ecologice</entry>
 <entry key="code|name|environmental-impact.water-mar">Utilizarea durabilă și protecția resurselor de apă și a celor marine</entry>
 <entry key="code|name|eu-programme.AFIS2020">Sistemul de informații antifraudă (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Fondul european de garantare agricolă (după transferurile între FEGA și FEADR)</entry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in English. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in English. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Accessibility criteria for persons with disabilities are included</entry>
 <entry key="code|name|accessibility.n-inc">Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons</entry>
 <entry key="code|name|accessibility.n-inc-just">Accessibility criteria for persons with disabilities are not included with the following justification</entry>
@@ -128,7 +128,7 @@
 <entry key="code|name|country.CXR">Christmas Island</entry>
 <entry key="code|name|country.CYM">Cayman Islands</entry>
 <entry key="code|name|country.CYP">Cyprus</entry>
-<entry key="code|name|country.CZE">Czech Republic</entry>
+<entry key="code|name|country.CZE">Czechia</entry>
 <entry key="code|name|country.DDR">East Germany</entry>
 <entry key="code|name|country.DEU">Germany</entry>
 <entry key="code|name|country.DHY">Dahomey</entry>
@@ -223,10 +223,10 @@
 <entry key="code|name|country.MEX">Mexico</entry>
 <entry key="code|name|country.MHL">Marshall Islands</entry>
 <entry key="code|name|country.MID">Midway Islands</entry>
-<entry key="code|name|country.MKD">Former Yugoslav Republic of Macedonia</entry>
+<entry key="code|name|country.MKD">North Macedonia</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Burma</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongolia</entry>
 <entry key="code|name|country.MNP">Northern Mariana Islands</entry>
@@ -282,7 +282,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapore</entry>
 <entry key="code|name|country.SGS">South Georgia and the South Sandwich Islands</entry>
-<entry key="code|name|country.SHN">Saint Helena</entry>
+<entry key="code|name|country.SHN">Saint Helena, Ascension and Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard and Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Solomon Islands</entry>
@@ -299,7 +299,7 @@
 <entry key="code|name|country.SVK">Slovakia</entry>
 <entry key="code|name|country.SVN">Slovenia</entry>
 <entry key="code|name|country.SWE">Sweden</entry>
-<entry key="code|name|country.SWZ">Swaziland</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Sint Maarten</entry>
 <entry key="code|name|country.SYC">Seychelles</entry>
 <entry key="code|name|country.SYR">Syria</entry>
@@ -315,7 +315,7 @@
 <entry key="code|name|country.TON">Tonga</entry>
 <entry key="code|name|country.TTO">Trinidad and Tobago</entry>
 <entry key="code|name|country.TUN">Tunisia</entry>
-<entry key="code|name|country.TUR">Turkey</entry>
+<entry key="code|name|country.TUR">Türkiye</entry>
 <entry key="code|name|country.TUV">Tuvalu</entry>
 <entry key="code|name|country.TWN">Taiwan</entry>
 <entry key="code|name|country.TZA">Tanzania</entry>
@@ -336,7 +336,7 @@
 <entry key="code|name|country.WAK">Wake Island</entry>
 <entry key="code|name|country.WLF">Wallis and Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">South Yemen</entry>
+<entry key="code|name|country.YEM">Yemen</entry>
 <entry key="code|name|country.YMD">North Yemen</entry>
 <entry key="code|name|country.YUG">Yugoslavia</entry>
 <entry key="code|name|country.ZAF">South Africa</entry>
@@ -10214,13 +10214,8 @@
 <entry key="code|name|environmental-impact.circ-econ">The transition to a circular economy</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Climate change adaptation</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Climate change mitigation</entry>
-<entry key="code|name|environmental-impact.emas-com">Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Requesting compliance with an ISO 14024 Type I environmental label</entry>
 <entry key="code|name|environmental-impact.other">Other</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Pollution prevention and control</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products</entry>
 <entry key="code|name|environmental-impact.water-mar">The sustainable use and protection of water and marine resources</entry>
 <entry key="code|name|eu-funded.eu-funds">Procurement Project partly financed with EU Funds.</entry>
 <entry key="code|name|eu-funded.no-eu-funds">Procurement Project not financed with EU Funds.</entry>
@@ -10379,6 +10374,10 @@
 <entry key="code|name|framework-agreement.fa-w-rc">Framework agreement, with reopening of competition</entry>
 <entry key="code|name|framework-agreement.fa-wo-rc">Framework agreement, without reopening of competition</entry>
 <entry key="code|name|framework-agreement.none">None</entry>
+<entry key="code|name|gpp-criteria.eu">EU GPP criteria</entry>
+<entry key="code|name|gpp-criteria.national">National GPP criteria</entry>
+<entry key="code|name|gpp-criteria.none">No GPP criteria</entry>
+<entry key="code|name|gpp-criteria.other">Other GPP criteria</entry>
 <entry key="code|name|indicator.false">False</entry>
 <entry key="code|name|indicator.true">True</entry>
 <entry key="code|name|innovative-acquisition.buy-eff">The procured works, supplies or services are likely to make the work of the buyer more effective.</entry>

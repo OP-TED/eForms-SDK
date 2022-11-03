@@ -42,6 +42,7 @@
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<cbc:RankCode>1</cbc:RankCode>
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<cac:LegalMonetaryTotal>
 								<cbc:PayableAmount currencyID="EUR">375950</cbc:PayableAmount>
 							</cac:LegalMonetaryTotal>
@@ -137,7 +138,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -289,17 +290,12 @@
 							</efac:Nationality>
 						</efac:UltimateBeneficialOwner>
 					</efac:Organizations>
-					<efac:Publication>
-						<efbc:NoticePublicationID schemeName="ojs-notice-id">245489-2021</efbc:NoticePublicationID>
-						<efbc:GazetteID schemeName="ojs-id">93/2021</efbc:GazetteID>
-						<efbc:PublicationDate>2021-05-14+02:00</efbc:PublicationDate>
-					</efac:Publication>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.3</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
 	<!--BT-04-->

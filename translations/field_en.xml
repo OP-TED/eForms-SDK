@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in English. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>field in English. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="field|name|BT-01(c)-Procedure">Procedure Legal Basis (ELI - celex)</entry>
 <entry key="field|name|BT-01(d)-Procedure">Procedure Legal Basis (text)</entry>
-<entry key="field|name|BT-01(e)-Procedure">Legal basis of the procedure</entry>
-<entry key="field|name|BT-01(f)-Procedure">Legal basis of the procedure</entry>
+<entry key="field|name|BT-01(e)-Procedure">Legal basis</entry>
+<entry key="field|name|BT-01(f)-Procedure">Legal basis</entry>
 <entry key="field|name|BT-01-notice">Procedure Legal Basis</entry>
 <entry key="field|name|BT-02-notice">Notice Type</entry>
 <entry key="field|name|BT-03-notice">Form Type</entry>
@@ -21,6 +21,7 @@
 <entry key="field|name|BT-109-Lot">Framework Duration Justification</entry>
 <entry key="field|name|BT-11-Procedure-Buyer">Buyer Legal Type</entry>
 <entry key="field|name|BT-111-Lot">Framework Buyer Categories</entry>
+<entry key="field|name|BT-1118-NoticeResult">Notice Framework Approximate Value</entry>
 <entry key="field|name|BT-113-Lot">Framework Maximum Participants Number</entry>
 <entry key="field|name|BT-115-Lot">GPA Coverage</entry>
 <entry key="field|name|BT-115-Part">GPA Coverage</entry>
@@ -75,6 +76,7 @@
 <entry key="field|name|BT-1501(s)-Contract">Modification Previous Notice Section Identifier</entry>
 <entry key="field|name|BT-151-Contract">Contract URL</entry>
 <entry key="field|name|BT-156-NoticeResult">Group Framework Value</entry>
+<entry key="field|name|BT-1561-NoticeResult">Re-estimated value of the framework agreements within a group of lots</entry>
 <entry key="field|name|BT-157-LotsGroup">Group Framework Estimated Maximum Value</entry>
 <entry key="field|name|BT-16-Organization-Company">Organisation Part Name</entry>
 <entry key="field|name|BT-16-Organization-TouchPoint">Part Name</entry>
@@ -85,6 +87,7 @@
 <entry key="field|name|BT-165-Organization-Company">Winner Size</entry>
 <entry key="field|name|BT-17-Lot">SubmissionElectronic</entry>
 <entry key="field|name|BT-171-Tender">Tender Rank</entry>
+<entry key="field|name|BT-1711-Tender">Tender Ranked</entry>
 <entry key="field|name|BT-18-Lot">Submission URL</entry>
 <entry key="field|name|BT-19-Lot">Submission Nonelectronic Justification</entry>
 <entry key="field|name|BT-191-Tender">Country Origin</entry>
@@ -92,6 +95,7 @@
 <entry key="field|name|BT-195(BT-09)-Procedure">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-105)-Procedure">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-106)-Procedure">Unpublished Identifier</entry>
+<entry key="field|name|BT-195(BT-1118)-NoticeResult">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-118)-NoticeResult">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-1252)-Procedure">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-135)-Procedure">Unpublished Identifier</entry>
@@ -100,6 +104,7 @@
 <entry key="field|name|BT-195(BT-142)-LotResult">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-144)-LotResult">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-156)-NoticeResult">Unpublished Identifier</entry>
+<entry key="field|name|BT-195(BT-1561)-NoticeResult">Field to publish later</entry>
 <entry key="field|name|BT-195(BT-160)-Tender">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-161)-NoticeResult">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-162)-Tender">Unpublished Identifier</entry>
@@ -125,6 +130,8 @@
 <entry key="field|name|BT-195(BT-554)-Tender">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-555)-Tender">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-556)-NoticeResult">Unpublished Identifier</entry>
+<entry key="field|name|BT-195(BT-635)-LotResult">Field to publish later</entry>
+<entry key="field|name|BT-195(BT-636)-LotResult">Field to publish later</entry>
 <entry key="field|name|BT-195(BT-709)-LotResult">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-710)-LotResult">Unpublished Identifier</entry>
 <entry key="field|name|BT-195(BT-711)-LotResult">Unpublished Identifier</entry>
@@ -143,6 +150,7 @@
 <entry key="field|name|BT-196(BT-09)-Procedure">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-105)-Procedure">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-106)-Procedure">Unpublished Justification Description</entry>
+<entry key="field|name|BT-196(BT-1118)-NoticeResult">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-118)-NoticeResult">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-1252)-Procedure">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-135)-Procedure">Unpublished Justification Description</entry>
@@ -151,6 +159,7 @@
 <entry key="field|name|BT-196(BT-142)-LotResult">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-144)-LotResult">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-156)-NoticeResult">Unpublished Justification Description</entry>
+<entry key="field|name|BT-196(BT-1561)-NoticeResult">Justification for publishing later</entry>
 <entry key="field|name|BT-196(BT-160)-Tender">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-161)-NoticeResult">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-162)-Tender">Unpublished Justification Description</entry>
@@ -176,6 +185,8 @@
 <entry key="field|name|BT-196(BT-554)-Tender">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-555)-Tender">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-556)-NoticeResult">Unpublished Justification Description</entry>
+<entry key="field|name|BT-196(BT-635)-LotResult">Justification for publishing later</entry>
+<entry key="field|name|BT-196(BT-636)-LotResult">Justification for publishing later</entry>
 <entry key="field|name|BT-196(BT-709)-LotResult">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-710)-LotResult">Unpublished Justification Description</entry>
 <entry key="field|name|BT-196(BT-711)-LotResult">Unpublished Justification Description</entry>
@@ -194,6 +205,7 @@
 <entry key="field|name|BT-197(BT-09)-Procedure">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-105)-Procedure">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-106)-Procedure">Unpublished Justification Code</entry>
+<entry key="field|name|BT-197(BT-1118)-NoticeResult">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-118)-NoticeResult">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-1252)-Procedure">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-135)-Procedure">Unpublished Justification Code</entry>
@@ -202,6 +214,7 @@
 <entry key="field|name|BT-197(BT-142)-LotResult">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-144)-LotResult">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-156)-NoticeResult">Unpublished Justification Code</entry>
+<entry key="field|name|BT-197(BT-1561)-NoticeResult">Justification code</entry>
 <entry key="field|name|BT-197(BT-160)-Tender">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-161)-NoticeResult">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-162)-Tender">Unpublished Justification Code</entry>
@@ -227,6 +240,8 @@
 <entry key="field|name|BT-197(BT-554)-Tender">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-555)-Tender">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-556)-NoticeResult">Unpublished Justification Code</entry>
+<entry key="field|name|BT-197(BT-635)-LotResult">Justification code</entry>
+<entry key="field|name|BT-197(BT-636)-LotResult">Justification code</entry>
 <entry key="field|name|BT-197(BT-709)-LotResult">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-710)-LotResult">Unpublished Justification Code</entry>
 <entry key="field|name|BT-197(BT-711)-LotResult">Unpublished Justification Code</entry>
@@ -245,6 +260,7 @@
 <entry key="field|name|BT-198(BT-09)-Procedure">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-105)-Procedure">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-106)-Procedure">Unpublished Accessibility Date</entry>
+<entry key="field|name|BT-198(BT-1118)-NoticeResult">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-118)-NoticeResult">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-1252)-Procedure">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-135)-Procedure">Unpublished Accessibility Date</entry>
@@ -253,6 +269,7 @@
 <entry key="field|name|BT-198(BT-142)-LotResult">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-144)-LotResult">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-156)-NoticeResult">Unpublished Accessibility Date</entry>
+<entry key="field|name|BT-198(BT-1561)-NoticeResult">Date of when this will be published</entry>
 <entry key="field|name|BT-198(BT-160)-Tender">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-161)-NoticeResult">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-162)-Tender">Unpublished Accessibility Date</entry>
@@ -278,6 +295,8 @@
 <entry key="field|name|BT-198(BT-554)-Tender">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-555)-Tender">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-556)-NoticeResult">Unpublished Accessibility Date</entry>
+<entry key="field|name|BT-198(BT-635)-LotResult">Date of when this will be published</entry>
+<entry key="field|name|BT-198(BT-636)-LotResult">Date of when this will be published</entry>
 <entry key="field|name|BT-198(BT-709)-LotResult">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-710)-LotResult">Unpublished Accessibility Date</entry>
 <entry key="field|name|BT-198(BT-711)-LotResult">Unpublished Accessibility Date</entry>
@@ -328,6 +347,9 @@
 <entry key="field|name|BT-27-LotsGroup">Estimated Value</entry>
 <entry key="field|name|BT-27-Part">Estimated Value</entry>
 <entry key="field|name|BT-27-Procedure">Estimated Value</entry>
+<entry key="field|name|BT-271-Lot">Maximum value of the framework agreement</entry>
+<entry key="field|name|BT-271-LotsGroup">Maximum value of the framework agreement</entry>
+<entry key="field|name|BT-271-Procedure">Maximum value of the framework agreement</entry>
 <entry key="field|name|BT-300-Lot">Additional Information</entry>
 <entry key="field|name|BT-300-LotsGroup">Additional Information</entry>
 <entry key="field|name|BT-300-Part">Additional Information</entry>
@@ -354,6 +376,7 @@
 <entry key="field|name|BT-501-Business-European">EU Registration Number</entry>
 <entry key="field|name|BT-501-Business-National">National registration number</entry>
 <entry key="field|name|BT-501-Organization-Company">Organisation Identifier</entry>
+<entry key="field|name|BT-5010-Lot">Identifier</entry>
 <entry key="field|name|BT-5011-Contract">Contract EU Funds Identifier</entry>
 <entry key="field|name|BT-502-Business">Contact person</entry>
 <entry key="field|name|BT-502-Organization-Company">Organisation Contact Point</entry>
@@ -456,6 +479,8 @@
 <entry key="field|name|BT-58-Lot">Renewal Maximum</entry>
 <entry key="field|name|BT-60-Lot">EU Funds</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Activity Entity</entry>
+<entry key="field|name|BT-6110-Contract">EU fund details</entry>
+<entry key="field|name|BT-6140-Lot">Further information about the Union programme or project used at least partially finance the procurement</entry>
 <entry key="field|name|BT-615-Lot">Documents Restricted URL</entry>
 <entry key="field|name|BT-615-Part">Documents Restricted URL</entry>
 <entry key="field|name|BT-625-Lot">Unit</entry>
@@ -494,11 +519,14 @@
 <entry key="field|name|BT-711-LotResult">Tender Value Highest</entry>
 <entry key="field|name|BT-712(a)-LotResult">Buyer Review Complainants (Code)</entry>
 <entry key="field|name|BT-712(b)-LotResult">Buyer Review Complainants (Number)</entry>
+<entry key="field|name|BT-717-Lot">The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD).</entry>
 <entry key="field|name|BT-718-notice">Change Procurement Documents</entry>
 <entry key="field|name|BT-719-notice">Change Procurement Documents Date</entry>
 <entry key="field|name|BT-720-Tender">Tender Value</entry>
 <entry key="field|name|BT-721-Contract">Contract Title</entry>
 <entry key="field|name|BT-722-Contract">Contract EU Funds Name</entry>
+<entry key="field|name|BT-7220-Lot">The programme of the Union funds used to at least partially finance the contract</entry>
+<entry key="field|name|BT-723-LotResult">The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3.</entry>
 <entry key="field|name|BT-726-Lot">Suitable For SMEs</entry>
 <entry key="field|name|BT-726-LotsGroup">Suitable For SMEs</entry>
 <entry key="field|name|BT-726-Part">Suitable For SMEs</entry>
@@ -516,6 +544,8 @@
 <entry key="field|name|BT-733-LotsGroup">Award Criteria Order Justification</entry>
 <entry key="field|name|BT-734-Lot">Award Criterion Name</entry>
 <entry key="field|name|BT-734-LotsGroup">Award Criterion Name</entry>
+<entry key="field|name|BT-735-Lot">The CVD legal basis to establish which category of procurement procedure applies</entry>
+<entry key="field|name|BT-735-LotResult">The CVD legal basis to establish which category of procurement procedure applies</entry>
 <entry key="field|name|BT-736-Lot">Reserved Execution</entry>
 <entry key="field|name|BT-736-Part">Reserved Execution</entry>
 <entry key="field|name|BT-737-Lot">Documents Unofficial Language</entry>
@@ -554,7 +584,7 @@
 <entry key="field|name|BT-765-Lot">Framework Agreement</entry>
 <entry key="field|name|BT-765-Part">Framework Agreement</entry>
 <entry key="field|name|BT-766-Lot">Dynamic Purchasing System</entry>
-<entry key="field|name|BT-766-Part">Information about dynamic purchasing system</entry>
+<entry key="field|name|BT-766-Part">Dynamic purchasing system is involved</entry>
 <entry key="field|name|BT-767-Lot">Electronic Auction</entry>
 <entry key="field|name|BT-768-Contract">Contract Framework Agreement</entry>
 <entry key="field|name|BT-769-Lot">Multiple Tenders</entry>
@@ -566,9 +596,36 @@
 <entry key="field|name|BT-775-Lot">Social Procurement</entry>
 <entry key="field|name|BT-776-Lot">Innovative Procurement</entry>
 <entry key="field|name|BT-777-Lot">Strategic Procurement Description</entry>
+<entry key="field|name|BT-779-Tender">Tender Payment Value</entry>
 <entry key="field|name|BT-78-Lot">Security Clearance Deadline</entry>
+<entry key="field|name|BT-780-Tender">Tender Payment Value Additional Information</entry>
+<entry key="field|name|BT-781-Lot">Duration Additional Information</entry>
+<entry key="field|name|BT-782-Tender">Tender Penalties</entry>
+<entry key="field|name|BT-783-Review">Review Request or Decision</entry>
+<entry key="field|name|BT-784-Review">Review Identifier</entry>
+<entry key="field|name|BT-785-Review">Review Previous Identifier</entry>
+<entry key="field|name|BT-786-Review">Review Notice Section Identifier</entry>
+<entry key="field|name|BT-787-Review">Review Date</entry>
+<entry key="field|name|BT-788-Review">Review Title</entry>
+<entry key="field|name|BT-789-Review">Review Description</entry>
 <entry key="field|name|BT-79-Lot">Performing Staff Qualification</entry>
-<entry key="field|name|BT-796-Review">The review request was withdrawn.</entry>
+<entry key="field|name|BT-790-Review">Review Decision Type</entry>
+<entry key="field|name|BT-791-Review">Review Irregularity Type</entry>
+<entry key="field|name|BT-792-Review">Review Remedy Type</entry>
+<entry key="field|name|BT-793-Review">Review Remedy Value</entry>
+<entry key="field|name|BT-794-Review">Review URL</entry>
+<entry key="field|name|BT-795-Review">Review Request Fee</entry>
+<entry key="field|name|BT-796-Review">Review Request Withdrawn</entry>
+<entry key="field|name|BT-797-Review">Review Request Withdrawn Date</entry>
+<entry key="field|name|BT-798-Review">Review Request Withdrawn Reasons</entry>
+<entry key="field|name|BT-799-ReviewBody">Review Body Type</entry>
+<entry key="field|name|BT-800(d)-Lot">Deadline Receipt Answers</entry>
+<entry key="field|name|BT-800(t)-Lot">Deadline Receipt Answers</entry>
+<entry key="field|name|BT-801-Lot">A non-disclosure agreement is required.</entry>
+<entry key="field|name|BT-802-Lot">Additional information about the non-disclosure agreement</entry>
+<entry key="field|name|BT-803(d)-notice">Notice dispatch date (eSender)</entry>
+<entry key="field|name|BT-803(t)-notice">Notice dispatch date (eSender)</entry>
+<entry key="field|name|BT-805-Lot">Green Procurement Criteria</entry>
 <entry key="field|name|BT-88-Procedure">Procedure Features</entry>
 <entry key="field|name|BT-92-Lot">Electronic Ordering</entry>
 <entry key="field|name|BT-93-Lot">Electronic Payment</entry>
@@ -580,6 +637,9 @@
 <entry key="field|name|OPA-118-NoticeResult-Currency">Estimated value of the framework agreements in this procedure</entry>
 <entry key="field|name|OPA-161-NoticeResult-Currency">Value of all contracts awarded in this procedure</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Estimated value excluding VAT</entry>
+<entry key="field|name|OPA-36-Lot-Number">Duration</entry>
+<entry key="field|name|OPA-36-Part-Number">Duration</entry>
+<entry key="field|name|OPA-98-Lot-Number">Deadline until which the tender must remain valid</entry>
 <entry key="field|name|OPP-010-notice">Notice Publication Number</entry>
 <entry key="field|name|OPP-011-notice">OJEU Identifier</entry>
 <entry key="field|name|OPP-012-notice">OJEU Publication Date</entry>
@@ -598,6 +658,7 @@
 <entry key="field|name|OPP-052-Organization">Acquiring CPB Buyer Indicator</entry>
 <entry key="field|name|OPP-070-notice">Notice Subtype</entry>
 <entry key="field|name|OPP-080-Tender">Kilometers Public Transport</entry>
+<entry key="field|name|OPP-090-Procedure">Previous Notice Identifier</entry>
 <entry key="field|name|OPP-100-Business">Notice Purpose</entry>
 <entry key="field|name|OPP-105-Business">Sector of activity</entry>
 <entry key="field|name|OPP-110-Business">Place of registration - Town</entry>
@@ -619,7 +680,9 @@
 <entry key="field|name|OPT-071-Lot">Quality Target Code</entry>
 <entry key="field|name|OPT-072-Lot">Quality Target Description</entry>
 <entry key="field|name|OPT-090-Lot">Buyer Categories</entry>
-<entry key="field|name|OPT-090-LotsGroup">Buyer Categories</entry>
+<entry key="field|name|OPT-091-ReviewReq">Review requester type</entry>
+<entry key="field|name|OPT-092-ReviewBody">Review body type description</entry>
+<entry key="field|name|OPT-092-ReviewReq">Review body type description</entry>
 <entry key="field|name|OPT-100-Contract">Framework Notice Identifier</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">URL to Fiscal Legislation</entry>
 <entry key="field|name|OPT-110-Part-FiscalLegis">URL to Fiscal Legislation</entry>
@@ -670,6 +733,8 @@
 <entry key="field|name|OPT-301-Part-ReviewOrg">Review Organization Technical Identifier Reference</entry>
 <entry key="field|name|OPT-301-Part-TenderEval">Tender Evaluator Technical Identifier Reference</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Tender Recipient Technical Identifier Reference</entry>
+<entry key="field|name|OPT-301-ReviewBody">Organisation touchpoint ID</entry>
+<entry key="field|name|OPT-301-ReviewReq">Organisation touchpoint ID</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Main Contractor ID Reference</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Subcontractor ID Reference</entry>
 <entry key="field|name|OPT-302-Organization">Beneficial Owner Reference</entry>
@@ -678,5 +743,6 @@
 <entry key="field|name|OPT-316-Contract">Contract Technical Identifier</entry>
 <entry key="field|name|OPT-320-LotResult">Tender Identifier Reference</entry>
 <entry key="field|name|OPT-321-Tender">Tender Technical Identifier</entry>
+<entry key="field|name|OPT-322-LotResult">LotResult Technical Identifier</entry>
 <entry key="field|name|OPT-999">Dummy Tender Award Date</entry>
 </properties>

@@ -157,7 +157,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Name>Karen Towers</cbc:Name>
@@ -208,7 +208,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -240,7 +240,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="222">222 222 222</cbc:CompanyID>
+									<cbc:CompanyID>222 222 222</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>321 654 987</cbc:Telephone>
@@ -269,7 +269,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="222">333 333 333</cbc:CompanyID>
+									<cbc:CompanyID>333 333 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>123 456 789</cbc:Telephone>
@@ -290,7 +290,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.3</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">f4308a76-5393-477c-ba91-f4c9fb8818a6</cbc:ID>
 	<cbc:ContractFolderID>37f6106b-c2e1-45f1-b88a-14888693ee36</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-10+01:00</cbc:IssueDate>

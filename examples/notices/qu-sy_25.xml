@@ -109,7 +109,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -124,7 +124,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.2</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.3</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">8439f5f1-ad52-46a0-b363-533779a02e4b</cbc:ID>
 	<cbc:ContractFolderID>0bc9e721-7916-4b3d-bbd0-2350efc3f00e</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-03+01:00</cbc:IssueDate>
@@ -214,6 +214,7 @@
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
 						<cbc:Description languageID="ITA">Il prezzo non è il solo criterio di aggiudicazione e tutti i criteri sono indicati solo nei documenti di gara</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>

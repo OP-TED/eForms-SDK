@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Spanish. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Spanish. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Se incluyen criterios de accesibilidad para las personas con discapacidad</entry>
 <entry key="code|name|accessibility.n-inc">No se incluyen criterios de accesibilidad para las personas con discapacidad porque la contratación no está destinada a ser utilizada por personas físicas</entry>
 <entry key="code|name|accessibility.n-inc-just">No se incluyen criterios de accesibilidad para las personas con discapacidad por la siguiente justificación</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">México</entry>
 <entry key="code|name|country.MHL">Islas Marshall</entry>
 <entry key="code|name|country.MID">Islas Midway</entry>
-<entry key="code|name|country.MKD">Antigua República Yugoslava de Macedonia</entry>
+<entry key="code|name|country.MKD">Macedonia del Norte</entry>
 <entry key="code|name|country.MLI">Malí</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Myanmar</entry>
+<entry key="code|name|country.MMR">Myanmar/Birmania</entry>
 <entry key="code|name|country.MNE">Montenegro</entry>
 <entry key="code|name|country.MNG">Mongolia</entry>
 <entry key="code|name|country.MNP">Islas Marianas del Norte</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapur</entry>
 <entry key="code|name|country.SGS">Islas Georgias del Sur y Sandwich del Sur</entry>
-<entry key="code|name|country.SHN">Santa Elena</entry>
+<entry key="code|name|country.SHN">Santa Elena, Ascensión y Tristán da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard y Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Islas Salomón</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Eslovaquia</entry>
 <entry key="code|name|country.SVN">Eslovenia</entry>
 <entry key="code|name|country.SWE">Suecia</entry>
-<entry key="code|name|country.SWZ">Suazilandia</entry>
+<entry key="code|name|country.SWZ">Esuatini</entry>
 <entry key="code|name|country.SXM">San Martín</entry>
 <entry key="code|name|country.SYC">Seychelles</entry>
 <entry key="code|name|country.SYR">Siria</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Isla Wake</entry>
 <entry key="code|name|country.WLF">Wallis y Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Yemen del Sur</entry>
+<entry key="code|name|country.YEM">Yemen</entry>
 <entry key="code|name|country.YMD">Yemen del Norte</entry>
 <entry key="code|name|country.YUG">Yugoslavia</entry>
 <entry key="code|name|country.ZAF">Sudáfrica</entry>
@@ -10119,13 +10119,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Transición hacia una economía circular</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Adaptación al cambio climático</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Mitigación del cambio climático</entry>
-<entry key="code|name|environmental-impact.emas-com">Exigencia de conformidad con el sistema comunitario de gestión y auditoría medioambientales (EMAS), establecido por el Reglamento (CE) n.º 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Exigencia de conformidad con la clase superior de eficiencia energética, definida con arreglo a diversas normativas, como, por ejemplo, el Reglamento (UE) n.º 626/2011, relativo a los acondicionadores de aire</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Exigencia de conformidad con un sistema de gestión ambiental ISO 14001 distinto del sistema comunitario de gestión y auditoría medioambientales (EMAS), establecido por el Reglamento (CE) n.º 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Exigencia de conformidad con la etiqueta ambiental Tipo I ISO 14024</entry>
 <entry key="code|name|environmental-impact.other">Otros</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Prevención y control de la contaminación</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">Exigencia de conformidad de la mayor parte de la compra pertinente con el Reglamento (CE) n.º 834/2007, sobre producción y etiquetado de los productos ecológicos</entry>
 <entry key="code|name|environmental-impact.water-mar">Uso sostenible y protección de los recursos hídricos y marinos</entry>
 <entry key="code|name|eu-programme.AFIS2020">Sistema de información contra el fraude (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Fondo Europeo Agrícola de Garantía (después de transferencias entre FEAGA y Feader)</entry>

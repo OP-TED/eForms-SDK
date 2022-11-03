@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Slovak. File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10</comment>
+<comment>code in Slovak. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
 <entry key="code|name|accessibility.inc">Kritériá prístupnosti pre osoby so zdravotným postihnutím sú zahrnuté</entry>
 <entry key="code|name|accessibility.n-inc">Kritériá prístupnosti pre osoby so zdravotným postihnutím nie sú zahrnuté, keďže zákazka nie je určená na použitie fyzickými osobami</entry>
 <entry key="code|name|accessibility.n-inc-just">Kritériá prístupnosti pre osoby so zdravotným postihnutím nie sú zahrnuté s nasledujúcim odôvodnením</entry>
@@ -117,7 +117,7 @@
 <entry key="code|name|country.CXR">Vianočný ostrov</entry>
 <entry key="code|name|country.CYM">Kajmanie ostrovy</entry>
 <entry key="code|name|country.CYP">Cyprus</entry>
-<entry key="code|name|country.CZE">Česká republika</entry>
+<entry key="code|name|country.CZE">Česko</entry>
 <entry key="code|name|country.DDR">Východné Nemecko</entry>
 <entry key="code|name|country.DEU">Nemecko</entry>
 <entry key="code|name|country.DHY">Dahome</entry>
@@ -212,10 +212,10 @@
 <entry key="code|name|country.MEX">Mexiko</entry>
 <entry key="code|name|country.MHL">Marshallove ostrovy</entry>
 <entry key="code|name|country.MID">Midwayské ostrovy</entry>
-<entry key="code|name|country.MKD">Bývalá Juhoslovanská republika Macedónsko</entry>
+<entry key="code|name|country.MKD">Severné Macedónsko</entry>
 <entry key="code|name|country.MLI">Mali</entry>
 <entry key="code|name|country.MLT">Malta</entry>
-<entry key="code|name|country.MMR">Mjanmarsko</entry>
+<entry key="code|name|country.MMR">Mjanmarsko/Barma</entry>
 <entry key="code|name|country.MNE">Čierna Hora</entry>
 <entry key="code|name|country.MNG">Mongolsko</entry>
 <entry key="code|name|country.MNP">Ostrovy Severné Mariány</entry>
@@ -271,7 +271,7 @@
 <entry key="code|name|country.SEN">Senegal</entry>
 <entry key="code|name|country.SGP">Singapur</entry>
 <entry key="code|name|country.SGS">Južná Georgia a Južné Sandwichove ostrovy</entry>
-<entry key="code|name|country.SHN">Svätá Helena</entry>
+<entry key="code|name|country.SHN">Svätá Helena, Ascension a Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard a Jan Mayen</entry>
 <entry key="code|name|country.SKM">Sikkim</entry>
 <entry key="code|name|country.SLB">Šalamúnove ostrovy</entry>
@@ -288,7 +288,7 @@
 <entry key="code|name|country.SVK">Slovensko</entry>
 <entry key="code|name|country.SVN">Slovinsko</entry>
 <entry key="code|name|country.SWE">Švédsko</entry>
-<entry key="code|name|country.SWZ">Svazijsko</entry>
+<entry key="code|name|country.SWZ">Eswatini</entry>
 <entry key="code|name|country.SXM">Svätý Martin</entry>
 <entry key="code|name|country.SYC">Seychely</entry>
 <entry key="code|name|country.SYR">Sýria</entry>
@@ -325,7 +325,7 @@
 <entry key="code|name|country.WAK">Ostrov Wake</entry>
 <entry key="code|name|country.WLF">Wallis a Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
-<entry key="code|name|country.YEM">Južný Jemen</entry>
+<entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.YMD">Severný Jemen</entry>
 <entry key="code|name|country.YUG">Juhoslávia</entry>
 <entry key="code|name|country.ZAF">Južná Afrika</entry>
@@ -10117,13 +10117,8 @@
 <entry key="code|name|environmental-impact.circ-econ">Prechod na obehové hospodárstvo</entry>
 <entry key="code|name|environmental-impact.clim-adapt">Adaptácia na zmenu klímy</entry>
 <entry key="code|name|environmental-impact.clim-mitig">Zmiernenie zmeny klímy</entry>
-<entry key="code|name|environmental-impact.emas-com">Požiadavka na súlad so schémou pre environmentálne manažérstvo a audit (EMAS) vytvorenou nariadením (ES) č. 1221/2009</entry>
-<entry key="code|name|environmental-impact.ene-ef-com">Požiadavka na súlad s najvyššou triedou energetickej účinnosti [vymedzenou v rôznych právnych predpisoch, ako napríklad v nariadení (EÚ) č. 626/2011 o klimatizátoroch]</entry>
-<entry key="code|name|environmental-impact.iso-14001-com">Požiadavka na súlad so systémom environmentálneho riadenia podľa normy ISO 14001 iným než schémou pre environmentálne manažérstvo a audit (EMAS) vytvorenou nariadením (ES) č. 1221/2009</entry>
-<entry key="code|name|environmental-impact.iso-14024-com">Požiadavka na súlad s environmentálnym označovaním typu I podľa normy ISO 14024</entry>
 <entry key="code|name|environmental-impact.other">Iné</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Prevencia a kontrola znečisťovania</entry>
-<entry key="code|name|environmental-impact.reg-834-2007-com">V prípade väčšiny relevantných zákaziek požiadavka na súlad s nariadením (ES) č. 834/2007 o ekologickej výrobe a označovaní ekologických produktov</entry>
 <entry key="code|name|environmental-impact.water-mar">Udržateľné využívanie a ochrana vodných a morských zdrojov</entry>
 <entry key="code|name|eu-programme.AFIS2020">Informačný systém pre boj proti podvodom (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">Európsky poľnohospodársky záručný fond (po presunoch medzi EPZF a EPFRV)</entry>

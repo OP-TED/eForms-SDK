@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.2.0 created on the 2022-10-06T17:10-->
+<!--File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>EformsLegalBasis</ShortName>
       <LongName>eforms-legal-basis</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/legal-basis</LongName>
       <LongName Identifier="eFormsParentId">legal-basis</LongName>
-      <Version>1.2.0</Version>
+      <Version>1.3.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -123,46 +123,322 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>1995_499-XIII</SimpleValue>
+            <SimpleValue>31985R2137</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ratified Parliament Decision (1995) No 499-XIII</SimpleValue>
+            <SimpleValue>Regulation (EEC) No 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Регламент (ЕИО) № 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nařízení (EHS) č. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forordning (EØF) nr. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verordnung (EWG) Nr. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κανονισμός (ΕΟΚ) αριθ. 2137/85</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ratified Parliament Decision (1995) No 499-XIII</SimpleValue>
+            <SimpleValue>Regulation (EEC) No 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Reglamento (CEE) n.º 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Määrus (EMÜ) nr 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Asetus (ETY) N:o 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Règlement (CEE) n° 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rialachán (CEE) Uimh. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Uredba (EEZ) br. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>2137/85/EGK rendelet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Regolamento (CEE) n. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Reglamentas (EEB) Nr. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Regula (EEK) Nr. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Regolament (KEE) Nru 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verordening (EEG) nr. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rozporządzenie (EWG) nr 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Regulamento (CEE) n.° 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Regulamentul (CEE) nr. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nariadenie (EHS) č. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Uredba (EGS) št. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förordning (EEG) nr 2137/85</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>2011CEB_PROC_EXT</SimpleValue>
+            <SimpleValue>32001R2157</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Guidelines for Procurement of Supplies, Works and Services</SimpleValue>
+            <SimpleValue>Regulation (EC) No 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Регламент (ЕО) № 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nařízení (ES) č. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forordning (EF) nr. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verordnung (EG) Nr. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κανονισμός (ΕΚ) αριθ. 2157/2001</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Guidelines for Procurement of Supplies, Works and Services</SimpleValue>
+            <SimpleValue>Regulation (EC) No 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Reglamento (CE) n.º 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Määrus (EÜ) nr 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Asetus (EY) N:o 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Règlement (CE) n° 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rialachán (CE) Uimh. 2137/85</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Uredba (EZ) br. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>2157/2001/EK rendelet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Regolamento (CE) n. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Reglamentas (EB) Nr. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Regula (EK) Nr. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Regolament (KE) Nru 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verordening (EG) nr. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rozporządzenie (WE) nr 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Regulamento (CE) n.° 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Regulamentul (CE) nr. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nariadenie (ES) č. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Uredba (ES) št. 2157/2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förordning (EG) nr 2157/2001</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>2014CEB_PROC_INT</SimpleValue>
+            <SimpleValue>32003R1435</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Guidelines on the internal procurement of services, supplies and works by the CEB</SimpleValue>
+            <SimpleValue>Regulation (EC) No 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Регламент (ЕО) 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nařízení (ES) č. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forordning (EF) nr. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verordnung (EG) Nr. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κανονισμός (ΕΚ) αριθ. 1435/2003</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Guidelines on the internal procurement of services, supplies and works by the CEB</SimpleValue>
+            <SimpleValue>Regulation (EC) No 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Reglamento (CE) n.º 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Määrus (EÜ) nr 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Asetus (EY) N:o 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Règlement (CE) n° 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rialachán (CE) Uimh. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Uredba (EZ) br. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>1435/2003/EK rendelet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Regolamento (CE) n. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Reglamentas (EB) Nr. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Regula (EK) Nr. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Regolament (KE) Nru 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verordening (EG) nr. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rozporządzenie (WE) nr 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Regulamento (CE) n.° 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Regulamentul (CE) nr. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nariadenie (ES) č. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Uredba (ES) št. 1435/2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förordning (EG) nr 1435/2003</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>2020CEB_GRANT</SimpleValue>
+            <SimpleValue>32007R1370</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>CEB’s competitive procedures to award grants</SimpleValue>
+            <SimpleValue>Regulation (EC) No 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Регламент (ЕО) № 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nařízení (ES) č. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forordning (EF) nr. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verordnung (EG) Nr. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κανονισμός (ΕΚ) αριθ. 1370/2007</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>CEB’s competitive procedures to award grants</SimpleValue>
+            <SimpleValue>Regulation (EC) No 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Reglamento (CE) n.º 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Määrus (EÜ) nr 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Asetus (EY) N:o 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Règlement (CE) n° 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rialachán (CE) Uimh. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Uredba (EZ) br. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>1370/2007/EK rendelet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Regolamento (CE) n. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Reglamentas (EB) Nr. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Regula (EK) Nr. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Regolament (KE) Nru 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verordening (EG) nr. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rozporządzenie (WE) nr 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Regulamento (CE) n.° 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Regulamentul (CE) nr. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nariadenie (ES) č. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Uredba (ES) št. 1370/2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förordning (EG) nr 1370/2007</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -243,86 +519,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Direktiv 2009/81/EG</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>32014D0691</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Decision 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Решение 2014/691/ЕС</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Rozhodnutí 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Afgørelse 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Beschluss 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Απόφαση 2014/691/EΕ</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Decision 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Decisión 2014/691/UE</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Otsus 2014/691/EL</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Päätös 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Décision 2014/691/UE</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Cinneadh 2014/691/AE</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Odluka 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>2014/691/EU határozat</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Decisione 2014/691/UE</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Sprendimas 2014/691/ES</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Lēmums 2014/691/ES</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Deċiżjoni 2014/691/UE</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Besluit 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Decyzja 2014/691/UE</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Decisão 2014/691/UE</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Decizia 2014/691/UE</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Rozhodnutie 2014/691/EÚ</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Sklep 2014/691/EU</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Beslut 2014/691/EU</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -567,86 +763,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>32016D0002</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Decision (EU) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Решение (ЕС) 2016/245 (ЕЦБ/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Rozhodnutí (EU) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Afgørelse (EU) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Beschluss (EU) 2016/245 (EZB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Απόφαση (ΕΕ) 2016/245 (ΕΚΤ/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Decision (EU) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Decisión (UE) 2016/245 (BCE/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Otsus (EL) 2016/245 (EKP/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Päätös (EU) 2016/245 (EKP/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Décision (UE) 2016/245 (BCE/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Cinneadh (AE) 2016/245 (BCE/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Odluka (EU) 2016/245 (ESB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>(EU) 2016/245 határozat (EKB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Decisione (UE) 2016/245 (BCE/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Sprendimas (ES) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Lēmums (ES) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Deċiżjoni (UE) 2016/245 (BĊE/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Besluit (EU) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Decyzja (UE) 2016/245 (EBC/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Decisão (UE) 2016/245</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Decizia (UE) 2016/245 (BCE/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Rozhodnutie (EÚ) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Sklep (EU) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Beslut (EU) 2016/245 (ECB/2016/2)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>32018R1046</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -723,39 +839,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Förordning (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>C2019_3277</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Decision C(2019) 3277</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Decision C(2019) 3277</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>C2019_5515</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Decision C(2019) 5515</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Decision C(2019) 5515</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CFSP2017_34</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>CFSP/2017/34/EUMM Georgia</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>CFSP/2017/34/EUMM Georgia</SimpleValue>
          </Value>
       </Row>
       <Row>
