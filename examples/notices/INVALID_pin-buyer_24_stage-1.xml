@@ -33,11 +33,7 @@
 	<cbc:NoticeTypeCode listName="planning">pin-buyer</cbc:NoticeTypeCode>
 	<cac:ContractingParty>
 		<cac:Party>
-			<cac:ServiceProviderParty>
-				<cac:Party>
 
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>

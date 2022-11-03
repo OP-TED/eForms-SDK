@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.2.224 created on the 2022-10-27T10:27:36.-->
+<!--File generated from metadata database version 1.2.246 created on the 2022-11-03T12:18:01.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -192,6 +192,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess">
 		<assert id="BT-115-Lot_R" role="ERROR" diagnostics="BT-115-Lot" test="count(cbc:GovernmentAgreementConstraintIndicator) &lt; 2">rule|text|BT-115-Lot_R</assert>
+		<assert id="BT-124-Lot_R" role="ERROR" diagnostics="BT-124-Lot" test="count(cbc:AccessToolsURI) &lt; 2">rule|text|BT-124-Lot_R</assert>
 		<assert id="BT-130-Lot_R" role="ERROR" diagnostics="BT-130-Lot" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) &lt; 2">rule|text|BT-130-Lot_R</assert>
 		<assert id="BT-1311_d_-Lot_R" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_d_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndDate) &lt; 2">rule|text|BT-1311_d_-Lot_R</assert>
 		<assert id="BT-1311_t_-Lot_R" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_t_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndTime) &lt; 2">rule|text|BT-1311_t_-Lot_R</assert>
@@ -232,6 +233,7 @@
 		<assert id="BT-111-Lot_C" role="ERROR" diagnostics="BT-111-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-111-Lot_C</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference">
+		<assert id="BT-1251-Lot_R" role="ERROR" diagnostics="BT-1251-Lot" test="count(cbc:ReferencedDocumentInternalAddress) &lt; 2">rule|text|BT-1251-Lot_R</assert>
 		<assert id="BT-125_i_-Lot_R" role="ERROR" diagnostics="BT-125_i_-Lot" test="count(cbc:ID) &lt; 2">rule|text|BT-125_i_-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent">
@@ -672,6 +674,9 @@
 		<assert id="BT-538-Part_R" role="ERROR" diagnostics="BT-538-Part" test="count(cbc:DescriptionCode) &lt; 2">rule|text|BT-538-Part_R</assert>
 		<assert id="OPA-36-Part-Number_R" role="ERROR" diagnostics="OPA-36-Part-Number" test="count(cbc:DurationMeasure) &lt; 2">rule|text|OPA-36-Part-Number_R</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType">
+		<assert id="BT-531-Part_R" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) &lt; 2">rule|text|BT-531-Part_R</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RealizedLocation">
 		<assert id="BT-5071-Part_R" role="ERROR" diagnostics="ND-PartPlacePerformance_BT-5071-Part" test="count(cac:Address/cbc:CountrySubentityCode) &lt; 2">rule|text|BT-5071-Part_R</assert>
 		<assert id="BT-5101_a_-Part_R" role="ERROR" diagnostics="ND-PartPlacePerformance_BT-5101_a_-Part" test="count(cac:Address/cbc:StreetName) &lt; 2">rule|text|BT-5101_a_-Part_R</assert>
@@ -690,12 +695,14 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess">
 		<assert id="BT-115-Part_R" role="ERROR" diagnostics="BT-115-Part" test="count(cbc:GovernmentAgreementConstraintIndicator) &lt; 2">rule|text|BT-115-Part_R</assert>
+		<assert id="BT-124-Part_R" role="ERROR" diagnostics="BT-124-Part" test="count(cbc:AccessToolsURI) &lt; 2">rule|text|BT-124-Part_R</assert>
 		<assert id="BT-13_d_-Part_R" role="ERROR" diagnostics="ND-PartTenderingProcess_BT-13_d_-Part" test="count(cac:AdditionalInformationRequestPeriod/cbc:EndDate) &lt; 2">rule|text|BT-13_d_-Part_R</assert>
 		<assert id="BT-13_t_-Part_R" role="ERROR" diagnostics="ND-PartTenderingProcess_BT-13_t_-Part" test="count(cac:AdditionalInformationRequestPeriod/cbc:EndTime) &lt; 2">rule|text|BT-13_t_-Part_R</assert>
 		<assert id="BT-765-Part_R" role="ERROR" diagnostics="BT-765-Part" test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']) &lt; 2">rule|text|BT-765-Part_R</assert>
 		<assert id="BT-766-Part_R" role="ERROR" diagnostics="BT-766-Part" test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']) &lt; 2">rule|text|BT-766-Part_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:NoticeDocumentReference">
+		<assert id="BT-1251-Part_R" role="ERROR" diagnostics="BT-1251-Part" test="count(cbc:ReferencedDocumentInternalAddress) &lt; 2">rule|text|BT-1251-Part_R</assert>
 		<assert id="BT-125_i_-Part_R" role="ERROR" diagnostics="BT-125_i_-Part" test="count(cbc:ID) &lt; 2">rule|text|BT-125_i_-Part_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension">
@@ -715,6 +722,8 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference">
 		<assert id="BT-14-Part_R" role="ERROR" diagnostics="BT-14-Part" test="count(cbc:DocumentType) &lt; 2">rule|text|BT-14-Part_R</assert>
+		<assert id="BT-708-Part_R" role="ERROR" diagnostics="BT-708-Part" test="count(cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]) &lt; 2">rule|text|BT-708-Part_R</assert>
+		<assert id="BT-737-Part_R" role="ERROR" diagnostics="BT-737-Part" test="count(cbc:LanguageID[../cbc:DocumentStatusCode/text()='non-official']) &lt; 2">rule|text|BT-737-Part_R</assert>
 		<assert id="OPT-050-Part_R" role="ERROR" diagnostics="OPT-050-Part" test="count(cbc:DocumentStatusCode) &lt; 2">rule|text|OPT-050-Part_R</assert>
 		<assert id="OPT-140-Part_R" role="ERROR" diagnostics="OPT-140-Part" test="count(cbc:ID) &lt; 2">rule|text|OPT-140-Part_R</assert>
 	</rule>
@@ -885,6 +894,9 @@
 		<assert id="BT-789-Review_A" role="ERROR" diagnostics="BT-789-Review" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-789-Review_A</assert>
 		<assert id="BT-789-Review_B" role="ERROR" diagnostics="BT-789-Review" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-789-Review_B</assert>
 		<assert id="BT-789-Review_C" role="ERROR" diagnostics="BT-789-Review" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-789-Review_C</assert>
+		<assert id="BT-790-Review_R" role="ERROR" diagnostics="BT-790-Review" test="count(efbc:DecisionTypeCode) &lt; 2">rule|text|BT-790-Review_R</assert>
+		<assert id="BT-791-Review_R" role="ERROR" diagnostics="BT-791-Review" test="count(efbc:IrregularityTypeCode) &lt; 2">rule|text|BT-791-Review_R</assert>
+		<assert id="BT-792-Review_R" role="ERROR" diagnostics="BT-792-Review" test="count(efbc:RemedyTypeCode) &lt; 2">rule|text|BT-792-Review_R</assert>
 		<assert id="BT-793-Review_R" role="ERROR" diagnostics="BT-793-Review" test="count(efbc:RemedyAmount) &lt; 2">rule|text|BT-793-Review_R</assert>
 		<assert id="BT-794-Review_R" role="ERROR" diagnostics="BT-794-Review" test="count(cbc:URI) &lt; 2">rule|text|BT-794-Review_R</assert>
 		<assert id="BT-795-Review_R" role="ERROR" diagnostics="BT-795-Review" test="count(cbc:FeeAmount) &lt; 2">rule|text|BT-795-Review_R</assert>

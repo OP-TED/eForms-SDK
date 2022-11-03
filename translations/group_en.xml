@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.2.232 created on the 2022-10-27T13:45:03</comment>
+<comment>group in English. File generated from metadata database version 1.2.245 created on the 2022-11-03T10:04:21</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
 <entry key="group|name|GR-Business-Party">Business Party</entry>
 <entry key="group|name|GR-Business-Publication">Publication</entry>
 <entry key="group|name|GR-Business-Section">Notice</entry>
+<entry key="group|name|GR-Buyer">Contracting Party and Provider related Information</entry>
 <entry key="group|name|GR-Change">Change</entry>
 <entry key="group|name|GR-Company">Organisation</entry>
 <entry key="group|name|GR-Company-Address">Organisation Address</entry>
@@ -16,6 +17,7 @@
 <entry key="group|name|GR-Company-EconomicOperatorExclusive">Economic Operator Exclusive</entry>
 <entry key="group|name|GR-Content">Content</entry>
 <entry key="group|name|GR-ContractingAuthority">Contracting Authority</entry>
+<entry key="group|name|GR-ContractingAuthority-Buyer">Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)</entry>
 <entry key="group|name|GR-Lot-AddInfo">Additional Information Providing Organisation</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Additional Information</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Auction Terms</entry>
@@ -91,6 +93,7 @@
 <entry key="group|name|GR-LotsGroup-Scope">Scope</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Tendering Terms</entry>
 <entry key="group|name|GR-Metadata">Metadata</entry>
+<entry key="group|name|GR-Modification">Modification</entry>
 <entry key="group|name|GR-NoticeResult-Section">Notice Result</entry>
 <entry key="group|name|GR-Organisations-Section">Organisations</entry>
 <entry key="group|name|GR-Organisations-Subsection">Organisations</entry>
@@ -206,6 +209,7 @@
 <entry key="group|name|ND-BuyerReviewComplainants">Statistics regarding the number of Organizations requesting review for a given Irregularity Type (Number &amp; Code)</entry>
 <entry key="group|name|ND-Change">Information associated to a single Change (Section, Description &amp; Procurement Documents)</entry>
 <entry key="group|name|ND-ContractEUFunds">EU Funds (Code, Description) involved in a contract.</entry>
+<entry key="group|name|ND-ContractModification">Elements related to the Modification (Section, Description, Reason)</entry>
 <entry key="group|name|ND-ContractingParty">Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Cross Border Law</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion Grounds (Code &amp; Description)</entry>
@@ -224,6 +228,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriteria">Award Criteria related information (Description, Justification, Individual Criterion …) for a Group of Lots</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterion">Award Criterion related information (Description, Name, Parameter, Code …) for a Group of Lots</entry>
 <entry key="group|name|ND-Modification">Contract Modification (Section and Description)</entry>
+<entry key="group|name|ND-ModificationReason">Contract Modification Reason (Code and Description)</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximal Value and the associated awarded Group of Lots of the Result Notice</entry>
 <entry key="group|name|ND-Organization">A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)</entry>
 <entry key="group|name|ND-Part">Part related information covering Tendering Terms, Tendering Process and Purpose</entry>

@@ -33,11 +33,7 @@
 	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
 	<cac:ContractingParty>
 		<cac:Party>
-			<cac:ServiceProviderParty>
-				<cac:Party>
 
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingTerms>
@@ -83,9 +79,6 @@
 				<cac:AppealReceiverParty>
 
 				</cac:AppealReceiverParty>
-				<cac:MediationParty>
-
-				</cac:MediationParty>
 			</cac:AppealTerms>
 			<cac:PostAwardProcess>
 

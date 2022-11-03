@@ -110,8 +110,6 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:Description"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess"/>
@@ -245,24 +243,6 @@
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
    <svrl:failed-assert id="element-not-empty"
                        location="/ContractNotice/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID"
-                       role="ERROR"
-                       test="false()">
-      <svrl:text>
-			rule|text|element-not-empty
-		</svrl:text>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert id="element-not-empty"
-                       location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"
-                       role="ERROR"
-                       test="false()">
-      <svrl:text>
-			rule|text|element-not-empty
-		</svrl:text>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert id="element-not-empty"
-                       location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
                        test="false()">
       <svrl:text>
@@ -451,15 +431,6 @@
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
    <svrl:failed-assert id="element-not-empty"
-                       location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID"
-                       role="ERROR"
-                       test="false()">
-      <svrl:text>
-			rule|text|element-not-empty
-		</svrl:text>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
-   <svrl:failed-assert id="element-not-empty"
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:Language/cbc:ID"
                        role="ERROR"
                        test="false()">
@@ -605,20 +576,6 @@
                        test="normalize-space(.) = ('defence', 'econ-aff', 'education', 'env-pro', 'gen-pub', 'hc-am', 'health', 'pub-os', 'rcr', 'soc-pro')">
       <svrl:text>rule|text|BR-BT-00010-0052</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"/>
-   <svrl:failed-assert id="BR-OPT-00030-0051"
-                       location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode"
-                       role="ERROR"
-                       test="normalize-space(.) = ('serv-prov', 'ted-esen')">
-      <svrl:text>rule|text|BR-OPT-00030-0051</svrl:text>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"/>
-   <svrl:failed-assert id="BR-OPT-00300-0201"
-                       location="/ContractNotice/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^ORG-\d4$')">
-      <svrl:text>rule|text|BR-OPT-00300-0201</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='exclusion-ground']"/>
    <svrl:failed-assert id="BR-BT-00067-0104"
                        location="/ContractNotice/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode"
@@ -729,13 +686,6 @@
                        test="matches(normalize-space(.),'^(ORG|TPO)-\d4$')">
       <svrl:text>rule|text|BR-OPT-00301-1216</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID"/>
-   <svrl:failed-assert id="BR-OPT-00301-1214"
-                       location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID"
-                       role="ERROR"
-                       test="matches(normalize-space(.),'^(ORG|TPO)-\d4$')">
-      <svrl:text>rule|text|BR-OPT-00301-1214</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:Language/cbc:ID"/>
    <svrl:failed-assert id="BR-BT-00097-0051"
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:Language/cbc:ID"
@@ -785,7 +735,6 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '16']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
@@ -824,14 +773,6 @@ cac:AppealInformationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-refer
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '16']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5" name="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
-   <svrl:failed-assert id="BR-OPT-00300-0254"
-                       location="/ContractNotice"
-                       role="ERROR"
-                       test="every $sps in cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID satisfies $sps != cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())">
-      <svrl:text>rule|text|BR-OPT-00300-0254</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer">
-cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"/>
