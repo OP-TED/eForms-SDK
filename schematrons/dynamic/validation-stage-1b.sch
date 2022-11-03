@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.2.224 created on the 2022-10-27T10:27:36.-->
+<!--File generated from metadata database version 1.2.251 created on the 2022-11-03T17:44:53.-->
 <pattern id="EFORMS-validation-stage-1b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-GazetteReference-1" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-1</assert>
@@ -727,6 +727,126 @@
 		<assert id="ND-ProcedurePlacePerformanceAdditionalInformation-T02" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-ProcedurePlacePerformanceAdditionalInformation-T02</assert>
 		<assert id="ND-ProcedureValueEstimate-T02" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-ProcedureValueEstimate-T02</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '1']">
+		<assert id="ND-ProcedureMainClassificationCode-1" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-1</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '2']">
+		<assert id="ND-ProcedureMainClassificationCode-2" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-2</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '3']">
+		<assert id="ND-ProcedureMainClassificationCode-3" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-3</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '4']">
+		<assert id="ND-ProcedureMainClassificationCode-4" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-4</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '5']">
+		<assert id="ND-ProcedureMainClassificationCode-5" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-5</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '6']">
+		<assert id="ND-ProcedureMainClassificationCode-6" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-6</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '7']">
+		<assert id="ND-ProcedureMainClassificationCode-7" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-7</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '8']">
+		<assert id="ND-ProcedureMainClassificationCode-8" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-8</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '9']">
+		<assert id="ND-ProcedureMainClassificationCode-9" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-9</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '10']">
+		<assert id="ND-ProcedureMainClassificationCode-10" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-10</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '11']">
+		<assert id="ND-ProcedureMainClassificationCode-11" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-11</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '12']">
+		<assert id="ND-ProcedureMainClassificationCode-12" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-12</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '13']">
+		<assert id="ND-ProcedureMainClassificationCode-13" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-13</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '14']">
+		<assert id="ND-ProcedureMainClassificationCode-14" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-14</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '15']">
+		<assert id="ND-ProcedureMainClassificationCode-15" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-15</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '16']">
+		<assert id="ND-ProcedureMainClassificationCode-16" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-16</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '17']">
+		<assert id="ND-ProcedureMainClassificationCode-17" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-17</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '18']">
+		<assert id="ND-ProcedureMainClassificationCode-18" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-18</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '19']">
+		<assert id="ND-ProcedureMainClassificationCode-19" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-19</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '20']">
+		<assert id="ND-ProcedureMainClassificationCode-20" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-20</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '21']">
+		<assert id="ND-ProcedureMainClassificationCode-21" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-21</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '22']">
+		<assert id="ND-ProcedureMainClassificationCode-22" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-22</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '23']">
+		<assert id="ND-ProcedureMainClassificationCode-23" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-23</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '24']">
+		<assert id="ND-ProcedureMainClassificationCode-24" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-24</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '25']">
+		<assert id="ND-ProcedureMainClassificationCode-25" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-25</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '26']">
+		<assert id="ND-ProcedureMainClassificationCode-26" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-26</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '27']">
+		<assert id="ND-ProcedureMainClassificationCode-27" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-27</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '28']">
+		<assert id="ND-ProcedureMainClassificationCode-28" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-28</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '29']">
+		<assert id="ND-ProcedureMainClassificationCode-29" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-29</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '30']">
+		<assert id="ND-ProcedureMainClassificationCode-30" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-30</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '31']">
+		<assert id="ND-ProcedureMainClassificationCode-31" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-31</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '32']">
+		<assert id="ND-ProcedureMainClassificationCode-32" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-32</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '33']">
+		<assert id="ND-ProcedureMainClassificationCode-33" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-33</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '34']">
+		<assert id="ND-ProcedureMainClassificationCode-34" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-34</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '35']">
+		<assert id="ND-ProcedureMainClassificationCode-35" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-35</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '36']">
+		<assert id="ND-ProcedureMainClassificationCode-36" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-36</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '37']">
+		<assert id="ND-ProcedureMainClassificationCode-37" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-37</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'CEI']">
+		<assert id="ND-ProcedureMainClassificationCode-CEI" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-CEI</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'T01']">
+		<assert id="ND-ProcedureMainClassificationCode-T01" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-T01</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'T02']">
+		<assert id="ND-ProcedureMainClassificationCode-T02" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-ProcedureMainClassificationCode-T02</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '1']">
 		<assert id="ND-LotTenderingProcess-1" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-1</assert>
 		<assert id="ND-LotTenderingTerms-1" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-LotTenderingTerms-1</assert>
@@ -1106,6 +1226,108 @@
 		<assert id="ND-OptionsAndRenewals-T02" role="ERROR" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-T02</assert>
 		<assert id="ND-LotMainClassification-T02" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|text|ND-LotMainClassification-T02</assert>
 		<assert id="ND-LotValueEstimate-T02" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-T02</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '7']">
+		<assert id="ND-LotMainClassificationCode-7" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-7</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '8']">
+		<assert id="ND-LotMainClassificationCode-8" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-8</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '9']">
+		<assert id="ND-LotMainClassificationCode-9" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-9</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '10']">
+		<assert id="ND-LotMainClassificationCode-10" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-10</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '11']">
+		<assert id="ND-LotMainClassificationCode-11" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-11</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '12']">
+		<assert id="ND-LotMainClassificationCode-12" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-12</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '13']">
+		<assert id="ND-LotMainClassificationCode-13" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-13</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '14']">
+		<assert id="ND-LotMainClassificationCode-14" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-14</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '15']">
+		<assert id="ND-LotMainClassificationCode-15" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-15</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '16']">
+		<assert id="ND-LotMainClassificationCode-16" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-16</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '17']">
+		<assert id="ND-LotMainClassificationCode-17" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-17</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '18']">
+		<assert id="ND-LotMainClassificationCode-18" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-18</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '19']">
+		<assert id="ND-LotMainClassificationCode-19" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-19</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '20']">
+		<assert id="ND-LotMainClassificationCode-20" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-20</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '21']">
+		<assert id="ND-LotMainClassificationCode-21" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-21</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '22']">
+		<assert id="ND-LotMainClassificationCode-22" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-22</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '23']">
+		<assert id="ND-LotMainClassificationCode-23" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-23</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '24']">
+		<assert id="ND-LotMainClassificationCode-24" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-24</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '25']">
+		<assert id="ND-LotMainClassificationCode-25" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-25</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '26']">
+		<assert id="ND-LotMainClassificationCode-26" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-26</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '27']">
+		<assert id="ND-LotMainClassificationCode-27" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-27</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '28']">
+		<assert id="ND-LotMainClassificationCode-28" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-28</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '29']">
+		<assert id="ND-LotMainClassificationCode-29" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-29</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '30']">
+		<assert id="ND-LotMainClassificationCode-30" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-30</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '31']">
+		<assert id="ND-LotMainClassificationCode-31" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-31</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '32']">
+		<assert id="ND-LotMainClassificationCode-32" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-32</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '33']">
+		<assert id="ND-LotMainClassificationCode-33" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-33</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '34']">
+		<assert id="ND-LotMainClassificationCode-34" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-34</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '35']">
+		<assert id="ND-LotMainClassificationCode-35" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-35</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '36']">
+		<assert id="ND-LotMainClassificationCode-36" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-36</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '37']">
+		<assert id="ND-LotMainClassificationCode-37" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-37</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'CEI']">
+		<assert id="ND-LotMainClassificationCode-CEI" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-CEI</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'T01']">
+		<assert id="ND-LotMainClassificationCode-T01" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-T01</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'T02']">
+		<assert id="ND-LotMainClassificationCode-T02" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-LotMainClassificationCode-T02</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '7']">
 		<assert id="ND-PublicOpening-7" role="ERROR" test="count(cac:OpenTenderEvent) = 0">rule|text|ND-PublicOpening-7</assert>
@@ -3039,6 +3261,15 @@
 		<assert id="ND-PartDuration-T02" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-T02</assert>
 		<assert id="ND-PartPlacePerformance-T02" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-T02</assert>
 		<assert id="ND-PartValueEstimate-T02" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-T02</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '4']">
+		<assert id="ND-PartMainClassificationCode-4" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-PartMainClassificationCode-4</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '5']">
+		<assert id="ND-PartMainClassificationCode-5" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-PartMainClassificationCode-5</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '6']">
+		<assert id="ND-PartMainClassificationCode-6" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-PartMainClassificationCode-6</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms[$noticeSubType = '4']">
 		<assert id="ND-PartReviewTerms-4" role="ERROR" test="count(cac:AppealTerms) &gt; 0">rule|text|ND-PartReviewTerms-4</assert>
