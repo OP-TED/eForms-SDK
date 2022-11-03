@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.2.240 created on the 2022-11-02T13:54:05</comment>
+<comment>group in English. File generated from metadata database version 1.2.245 created on the 2022-11-03T10:04:21</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
 <entry key="group|name|GR-Business-Party">Business Party</entry>
 <entry key="group|name|GR-Business-Publication">Publication</entry>
 <entry key="group|name|GR-Business-Section">Notice</entry>
+<entry key="group|name|GR-Buyer">Contracting Party and Provider related Information</entry>
 <entry key="group|name|GR-Change">Change</entry>
 <entry key="group|name|GR-Company">Organisation</entry>
 <entry key="group|name|GR-Company-Address">Organisation Address</entry>
@@ -92,6 +93,7 @@
 <entry key="group|name|GR-LotsGroup-Scope">Scope</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Tendering Terms</entry>
 <entry key="group|name|GR-Metadata">Metadata</entry>
+<entry key="group|name|GR-Modification">Modification</entry>
 <entry key="group|name|GR-NoticeResult-Section">Notice Result</entry>
 <entry key="group|name|GR-Organisations-Section">Organisations</entry>
 <entry key="group|name|GR-Organisations-Subsection">Organisations</entry>
