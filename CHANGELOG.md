@@ -1,21 +1,20 @@
-# SDK 1.2.1 Release Notes
+# SDK 1.3.0 Release Notes
 
-This release corrects the value of the "sdkVersion" property in JSON and EFX files. It was incorrectly left at "1.1.0" in files included in version 1.2.0.
-
-# SDK 1.2.0 Release Notes
-
-This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.1.0 should also be able to use this version.
+This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.2.0 should also be able to use this version.
 
 This version brings various changes in the metadata content:
 
-* Codelists were updated based on the latest publication on [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/e-procurement/tables). This included the addition, renaming and removal of a few codelists.
+* Several new elements were added in the eForms schemas, and a few elements were removed.
+* Codelists were updated based on the latest publication on [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/e-procurement/tables). Several codelists specific to eForms were added.
 * Schematron rules were added and updated.
-* Examples were updated accordingly, along with their validation reports.
-* A few fields were added, and existing fields were updated and corrected.
-* Small changes were made to several notice type definitions.
+* Examples were updated accordingly, along with their validation reports. An example of a CAN with no tenders received was added.
+* The node structure was modified to better correspond to the "conceptual" or visual structure of notices. A few fields were added, and existing fields were updated and corrected.
+* All notice type definitions were updated and corrected.
 * View templates were updated, but their content is still a work in progress and might contain mistakes.
-* New translations were added for rules and codes, and a few were corrected for business terms.
+* Translations were added and corrected for all asset types.
 
-As new rules were added, a notice that was valid with SDK 1.1.0 might not be valid with this version.
+As new rules were added, a notice that was valid with SDK 1.2.0 might not be valid with this version.
+
+This release removes rules that made fields forbidden and/or mandatory under some condition. Having less strict rules will make it initially easier to fill in notices for end users of applications like eNotices2 but also making them more responsible for providing coherent data. The rules will be added back in future SDKs, allowing users and systems to integrate them progressively and to improve data quality.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
