@@ -18888,6 +18888,20 @@
       "severity" : "ERROR"
     }
   }, {
+    "id" : "BT-762-notice",
+    "parentNodeId" : "ND-ChangeReason",
+    "name" : "Change Reason Description",
+    "btId" : "BT-762",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason/efbc:ReasonDescription",
+    "xpathRelative" : "efbc:ReasonDescription",
+    "type" : "text-multilingual",
+    "legalType" : "TEXT",
+    "maxLength" : 6000,
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    }
+  }, {
     "id" : "BT-763-Procedure",
     "parentNodeId" : "ND-ProcedureTenderingProcess",
     "name" : "Lots All Required",
@@ -20087,6 +20101,19 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate",
     "xpathRelative" : "efbc:TransmissionDate",
     "type" : "date",
+    "legalType" : "DATE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    }
+  }, {
+    "id" : "BT-803(t)-notice",
+    "parentNodeId" : "ND-RootExtension",
+    "name" : "Notice Dispatch Date eSender (time)",
+    "btId" : "BT-803",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionTime",
+    "xpathRelative" : "efbc:TransmissionTime",
+    "type" : "time",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
