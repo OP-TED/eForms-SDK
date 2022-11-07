@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.3.0",
+  "sdkVersion" : "1.3.1",
   "metadataDatabase" : {
-    "version" : "1.3.0",
-    "createdOn" : "2022-11-03T17:46:06"
+    "version" : "1.3.6",
+    "createdOn" : "2022-11-07T11:28:17"
   },
   "noticeId" : "5",
   "metadata" : [ {
@@ -123,7 +123,7 @@
       "id" : "GR-ContractingAuthority",
       "contentType" : "group",
       "nodeId" : "ND-ContractingParty",
-      "displayType" : "SECTION",
+      "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
       "_label" : "group|name|ND-ContractingParty",
       "_repeatable" : true,
@@ -133,7 +133,6 @@
         "displayType" : "GROUP",
         "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
         "_label" : "group|name|GR-ContractingAuthority-Buyer",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-300-Procedure-Buyer",
           "contentType" : "field",
@@ -202,14 +201,12 @@
       "displayType" : "SECTION",
       "description" : "Purpose",
       "_label" : "group|name|GR-Procedure-Purpose",
-      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Procedure-MainLegalBasis",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Main Legal Basis",
         "_label" : "group|name|GR-Procedure-MainLegalBasis",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01-notice",
           "contentType" : "field",
@@ -253,7 +250,6 @@
         "displayType" : "GROUP",
         "description" : "Description",
         "_label" : "group|name|GR-Procedure-Description",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-127-notice",
           "contentType" : "field",
@@ -298,7 +294,6 @@
         "displayType" : "GROUP",
         "description" : "Scope",
         "_label" : "group|name|GR-Procedure-Scope",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-27-Procedure",
           "contentType" : "field",
@@ -311,7 +306,6 @@
           "displayType" : "GROUP",
           "description" : "Main Classification",
           "_label" : "group|name|GR-Procedure-Scope-MainClassification",
-          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(m)-Procedure",
             "contentType" : "field",
@@ -417,14 +411,12 @@
       "displayType" : "SECTION",
       "description" : "Procedure",
       "_label" : "group|name|GR-Procedure-Procedure-subsection",
-      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Procedure-AdditionalInformation",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Additional Information",
         "_label" : "group|name|GR-Procedure-AdditionalInformation",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-300-Procedure",
           "contentType" : "field",
@@ -450,7 +442,6 @@
       "displayType" : "SECTION",
       "description" : "Purpose",
       "_label" : "group|name|GR-Part-Purpose",
-      "_repeatable" : true,
       "content" : [ {
         "id" : "BT-137-Part",
         "contentType" : "field",
@@ -486,7 +477,6 @@
         "displayType" : "GROUP",
         "description" : "Description",
         "_label" : "group|name|GR-Part-Description",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-22-Part",
           "contentType" : "field",
@@ -524,7 +514,6 @@
         "displayType" : "GROUP",
         "description" : "Scope",
         "_label" : "group|name|GR-Part-Scope",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-726-Part",
           "contentType" : "field",
@@ -543,7 +532,6 @@
           "displayType" : "GROUP",
           "description" : "Main Classification",
           "_label" : "group|name|GR-Part-Scope-MainClassification",
-          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(m)-Part",
             "contentType" : "field",
@@ -648,14 +636,12 @@
         "displayType" : "GROUP",
         "description" : "Planned Duration",
         "_label" : "group|name|GR-Part-PlannedDuration",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "GR-Part-PlannedDuration-Dates",
           "contentType" : "group",
           "displayType" : "GROUP",
           "description" : "Duration Dates",
           "_label" : "group|name|GR-Part-PlannedDuration-Dates",
-          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-536-Part",
             "contentType" : "field",
@@ -675,7 +661,6 @@
           "displayType" : "GROUP",
           "description" : "Duration Period",
           "_label" : "group|name|GR-Part-PlannedDuration-Period",
-          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-36-Part",
             "contentType" : "field",
@@ -696,7 +681,6 @@
         "displayType" : "GROUP",
         "description" : "GPA Agreement",
         "_label" : "group|name|GR-Part-GpaAgreement",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-115-Part",
           "contentType" : "field",
@@ -710,7 +694,6 @@
         "displayType" : "GROUP",
         "description" : "Contracting System / Technique",
         "_label" : "group|name|GR-Part-ContractingSystem",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-765-Part",
           "contentType" : "field",
@@ -724,7 +707,6 @@
         "displayType" : "GROUP",
         "description" : "Fiscal Legislation",
         "_label" : "group|name|GR-Part-FiscalLegis",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-FiscalLegis",
           "contentType" : "field",
@@ -751,7 +733,6 @@
         "displayType" : "GROUP",
         "description" : "Environmental Legislation",
         "_label" : "group|name|GR-Part-EnvironLegis",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-EnvironLegis",
           "contentType" : "field",
@@ -778,7 +759,6 @@
         "displayType" : "GROUP",
         "description" : "Employment Legislation",
         "_label" : "group|name|GR-Part-EmployLegis",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-EmployLegis",
           "contentType" : "field",
@@ -805,7 +785,6 @@
         "displayType" : "GROUP",
         "description" : "Tender Recipient Organisation",
         "_label" : "group|name|GR-Part-TenderReceipt",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-TenderReceipt",
           "contentType" : "field",
@@ -820,7 +799,6 @@
         "displayType" : "GROUP",
         "description" : "Tender Evaluation Organisation",
         "_label" : "group|name|GR-Part-TenderEval",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-TenderEval",
           "contentType" : "field",
@@ -835,7 +813,6 @@
         "displayType" : "GROUP",
         "description" : "Additional Information",
         "_label" : "group|name|GR-Part-AdditionalInformation",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-300-Part",
           "contentType" : "field",
@@ -850,14 +827,12 @@
       "displayType" : "SECTION",
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-Part-TenderingTerms",
-      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Part-TendererQualification",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Tenderer Qualification",
         "_label" : "group|name|GR-Part-TendererQualification",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-71-Part",
           "contentType" : "field",
@@ -871,7 +846,6 @@
         "displayType" : "GROUP",
         "description" : "Contract Execution Requirements",
         "_label" : "group|name|GR-Part-ContractExecutionRequirements",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-736-Part",
           "contentType" : "field",
@@ -886,14 +860,12 @@
       "displayType" : "SECTION",
       "description" : "Submission Info",
       "_label" : "group|name|GR-Part-SubmissionInfo",
-      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Part-Deadlines",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Deadlines",
         "_label" : "group|name|GR-Part-Deadlines",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-13(d)-Part",
           "contentType" : "field",
@@ -969,7 +941,6 @@
         "displayType" : "GROUP",
         "description" : "Submission Tool",
         "_label" : "group|name|GR-Part-SubmissionTool",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-632-Part",
           "contentType" : "field",
@@ -989,7 +960,6 @@
         "displayType" : "GROUP",
         "description" : "Additional Information Providing Organisation",
         "_label" : "group|name|GR-Part-AddInfo",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-AddInfo",
           "contentType" : "field",
@@ -1004,7 +974,6 @@
         "displayType" : "GROUP",
         "description" : "Documents Providing Organisation",
         "_label" : "group|name|GR-Part-DocProvider",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-DocProvider",
           "contentType" : "field",
@@ -1020,14 +989,12 @@
       "displayType" : "SECTION",
       "description" : "Review",
       "_label" : "group|name|GR-Part-Review",
-      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Part-ReviewOrg",
         "contentType" : "group",
         "displayType" : "GROUP",
         "description" : "Review Organisation",
         "_label" : "group|name|GR-Part-ReviewOrg",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-ReviewOrg",
           "contentType" : "field",
@@ -1042,7 +1009,6 @@
         "displayType" : "GROUP",
         "description" : "Review Information Providing Organisation",
         "_label" : "group|name|GR-Part-ReviewInfo",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-ReviewInfo",
           "contentType" : "field",
@@ -1057,7 +1023,6 @@
         "displayType" : "GROUP",
         "description" : "Mediation Organisation",
         "_label" : "group|name|GR-Part-Mediator",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-301-Part-Mediator",
           "contentType" : "field",
@@ -1095,18 +1060,6 @@
       "_label" : "field|name|BT-758-notice",
       "readOnly" : true
     }, {
-      "id" : "BT-718-notice",
-      "contentType" : "field",
-      "displayType" : "RADIO",
-      "description" : "Change Procurement Documents",
-      "_label" : "field|name|BT-718-notice"
-    }, {
-      "id" : "BT-719-notice",
-      "contentType" : "field",
-      "displayType" : "TEXTBOX",
-      "description" : "Change Procurement Documents Date",
-      "_label" : "field|name|BT-719-notice"
-    }, {
       "id" : "GR-ChangeSections",
       "contentType" : "group",
       "nodeId" : "ND-Change",
@@ -1127,6 +1080,18 @@
         "displayType" : "TEXTAREA",
         "description" : "Change Description",
         "_label" : "field|name|BT-141(a)-notice"
+      }, {
+        "id" : "BT-718-notice",
+        "contentType" : "field",
+        "displayType" : "RADIO",
+        "description" : "Change Procurement Documents",
+        "_label" : "field|name|BT-718-notice"
+      }, {
+        "id" : "BT-719-notice",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Change Procurement Documents Date",
+        "_label" : "field|name|BT-719-notice"
       } ]
     } ]
   }, {
@@ -1141,7 +1106,6 @@
       "displayType" : "SECTION",
       "description" : "Organisations",
       "_label" : "group|name|GR-Organisations-Subsection",
-      "_repeatable" : true,
       "content" : [ {
         "id" : "GR-Organisations",
         "contentType" : "group",
@@ -1172,7 +1136,6 @@
           "displayType" : "GROUP",
           "description" : "Organisation",
           "_label" : "group|name|GR-Company",
-          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-500-Organization-Company",
             "contentType" : "field",
@@ -1211,7 +1174,6 @@
           "displayType" : "GROUP",
           "description" : "Organisation Address",
           "_label" : "group|name|GR-Company-Address",
-          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-510(a)-Organization-Company",
             "contentType" : "field",
@@ -1261,7 +1223,6 @@
           "displayType" : "GROUP",
           "description" : "Organisation Contact",
           "_label" : "group|name|GR-Company-Contact",
-          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-502-Organization-Company",
             "contentType" : "field",
@@ -1293,7 +1254,6 @@
           "displayType" : "GROUP",
           "description" : "Buyer Exclusive",
           "_label" : "group|name|GR-Company-BuyerExclusive",
-          "_repeatable" : true,
           "content" : [ {
             "id" : "OPP-050-Organization",
             "contentType" : "field",
@@ -1361,7 +1321,6 @@
             "displayType" : "GROUP",
             "description" : "TouchPoint Address",
             "_label" : "group|name|GR-TouchPoint-Address",
-            "_repeatable" : true,
             "content" : [ {
               "id" : "BT-510(a)-Organization-TouchPoint",
               "contentType" : "field",
@@ -1411,7 +1370,6 @@
             "displayType" : "GROUP",
             "description" : "TouchPoint Contact",
             "_label" : "group|name|GR-TouchPoint-Contact",
-            "_repeatable" : true,
             "content" : [ {
               "id" : "BT-502-Organization-TouchPoint",
               "contentType" : "field",

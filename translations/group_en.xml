@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>group in English. File generated from metadata database version 1.3.6 created on the 2022-11-07T11:28:17</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
@@ -141,6 +141,7 @@
 <entry key="group|name|GR-Procedure-Scope">Scope</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Main Classification</entry>
 <entry key="group|name|GR-Procedure-TenderingTerms">Tendering Terms</entry>
+<entry key="group|name|GR-Recurrence">Information about Recurrence</entry>
 <entry key="group|name|GR-Result">Result</entry>
 <entry key="group|name|GR-SettledContract-1">SettledContract 1</entry>
 <entry key="group|name|GR-SettledContract-2">SettledContract 2</entry>
@@ -172,18 +173,25 @@
 <entry key="group|name|GR-Unpublish-BT-191">Unpublish - BT-191</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Unpublish - BT-193</entry>
 <entry key="group|name|GR-Unpublish-BT-539">Unpublish - BT-539</entry>
+<entry key="group|name|GR-Unpublish-BT-539-Lot">Unpublish - BT-539</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Unpublish - BT-539</entry>
 <entry key="group|name|GR-Unpublish-BT-540">Unpublish - BT-540</entry>
+<entry key="group|name|GR-Unpublish-BT-540-Lot">Unpublish - BT-540</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Unpublish - BT-540</entry>
 <entry key="group|name|GR-Unpublish-BT-541">Unpublish - BT-541</entry>
+<entry key="group|name|GR-Unpublish-BT-541-Lot">Unpublish - BT-541</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Unpublish - BT-541</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Unpublish - BT-5421</entry>
+<entry key="group|name|GR-Unpublish-BT-5421-Lot">Unpublish - BT-5421</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Unpublish - BT-5421</entry>
 <entry key="group|name|GR-Unpublish-BT-5422">Unpublish - BT-5422</entry>
+<entry key="group|name|GR-Unpublish-BT-5422-Lot">Unpublish - BT-5422</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Unpublish - BT-5422</entry>
 <entry key="group|name|GR-Unpublish-BT-5423">Unpublish - BT-5423</entry>
+<entry key="group|name|GR-Unpublish-BT-5423-Lot">Unpublish - BT-5423</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Unpublish - BT-5423</entry>
 <entry key="group|name|GR-Unpublish-BT-543">Unpublish - BT-543</entry>
+<entry key="group|name|GR-Unpublish-BT-543-Lot">Unpublish - BT-543</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Unpublish - BT-543</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Unpublish - BT-553</entry>
 <entry key="group|name|GR-Unpublish-BT-554">Unpublish - BT-554</entry>
@@ -200,6 +208,7 @@
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Unpublish - BT-733</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Unpublish - BT-733</entry>
 <entry key="group|name|GR-Unpublish-BT-734">Unpublish - BT-734</entry>
+<entry key="group|name|GR-Unpublish-BT-734-Lot">Unpublish - BT-734</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Unpublish - BT-734</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Unpublish - BT-759</entry>
 <entry key="group|name|GR-Unpublish-BT-760">Unpublish - BT-760</entry>
@@ -227,6 +236,8 @@
 <entry key="group|name|ND-LotsGroup">LotsGroup related information covering Tendering Terms, Tendering Process and Purpose</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteria">Award Criteria related information (Description, Justification, Individual Criterion …) for a Group of Lots</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterion">Award Criterion related information (Description, Name, Parameter, Code …) for a Group of Lots</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Group of Lots Award Criterion Parameter (Value and associated Code)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameters">Non UBL Native Subordinate Award Criteria elements for a Group of Lots</entry>
 <entry key="group|name|ND-Modification">Contract Modification (Section and Description)</entry>
 <entry key="group|name|ND-ModificationReason">Contract Modification Reason (Code and Description)</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximal Value and the associated awarded Group of Lots of the Result Notice</entry>

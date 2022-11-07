@@ -689,7 +689,7 @@
    <svrl:failed-assert id="BR-OPT-00300-0255"
                        location="/ContractAwardNotice"
                        role="ERROR"
-                       test="(every $tenderer in ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID satisfies $tenderer != cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) and (every $subcont in ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID satisfies $subcont != cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">
+                       test="(every $tenderer in ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID satisfies not($tenderer = cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID)) and (every $subcont in ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID satisfies not($subcont = cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID))">
       <svrl:text>rule|text|BR-OPT-00300-0255</svrl:text>
       <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer">
 cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
@@ -700,7 +700,7 @@ cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-r
    <svrl:failed-assert id="BR-BT-13713-0110"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"
-                       test="efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())">
+                       test="efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID">
       <svrl:text>rule|text|BR-BT-13713-0110</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-13713-LotResult">
 efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
@@ -710,7 +710,7 @@ efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
    <svrl:failed-assert id="BR-BT-13714-0100"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
-                       test="(efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) or (efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cbc:ID/normalize-space(text()))">
+                       test="(efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID) or (efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cbc:ID)">
       <svrl:text>rule|text|BR-BT-13714-0100</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-13714-Tender">
 efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
@@ -718,7 +718,7 @@ efac:TenderLot/cbc:ID</svrl:diagnostic-reference>
    <svrl:failed-assert id="BR-OPT-00321-0101"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
                        role="ERROR"
-                       test="(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID/normalize-space(text()))">
+                       test="(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID)">
       <svrl:text>rule|text|BR-OPT-00321-0101</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-321-Tender">
 cbc:ID</svrl:diagnostic-reference>
@@ -728,7 +728,7 @@ cbc:ID</svrl:diagnostic-reference>
    <svrl:failed-assert id="BR-OPT-00300-0258"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty"
                        role="ERROR"
-                       test="every $revOrg in /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID satisfies $revOrg != efac:Tenderer/cbc:ID/normalize-space(text())">
+                       test="every $revOrg in /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID satisfies not($revOrg = efac:Tenderer/cbc:ID)">
       <svrl:text>rule|text|BR-OPT-00300-0258</svrl:text>
       <svrl:diagnostic-reference diagnostic="ND-TenderingParty_OPT-300-Tenderer">
 efac:Tenderer/cbc:ID</svrl:diagnostic-reference>
@@ -740,7 +740,7 @@ efac:Tenderer/cbc:ID</svrl:diagnostic-reference>
                        id="BR-BT-00514-0304"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="WARN"
-                       test="((../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']/normalize-space(text()) = 'eu-funds') or (cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MDA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','UKR'))) or not(cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">
+                       test="((../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']/normalize-space(text()) = 'eu-funds') or (cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID]/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MDA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','UKR'))) or not(cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID)">
       <svrl:text>rule|text|BR-BT-00514-0304</svrl:text>
       <svrl:diagnostic-reference diagnostic="ND-Company_BT-514-Organization-Company">
 cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
@@ -753,7 +753,7 @@ cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:diagnostic-reference>
    <svrl:failed-assert id="BR-BT-00137-0209"
                        location="/ContractAwardNotice/cac:ProcurementProjectLot"
                        role="ERROR"
-                       test="((cbc:ID/normalize-space(text()) = ../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID/normalize-space(text()))) or not((../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5')))">
+                       test="((cbc:ID/normalize-space(text()) = ../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID)) or not((../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5')))">
       <svrl:text>rule|text|BR-BT-00137-0209</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-137-Lot">
 cbc:ID</svrl:diagnostic-reference>
