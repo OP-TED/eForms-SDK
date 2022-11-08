@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.3.0",
+  "sdkVersion" : "eforms-sdk-1.3.1",
   "metadataDatabase" : {
-    "version" : "1.3.0",
-    "createdOn" : "2022-11-03T17:46:06"
+    "version" : "1.3.6",
+    "createdOn" : "2022-11-07T11:28:17"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3142,7 +3142,7 @@
         "message" : "rule|text|BR-BT-00137-0207"
       }, {
         "condition" : "{ND-Lot} ${(OPP-070-notice in ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5'))}",
-        "value" : "{ND-Lot} ${(BT-137-Lot == BT-13713-LotResult)}",
+        "value" : "{ND-Lot} ${(BT-137-Lot in BT-13713-LotResult)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0209"
       } ]
@@ -3182,11 +3182,11 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0203"
       }, {
-        "value" : "{ND-LotsGroup} ${number:BT-157-LotsGroup <= sum(for text:$groupID in BT-137-LotsGroup, number:$lotValue in BT-27-Lot[BT-137-Lot == BT-1375-Procedure[(BT-330-Procedure == $groupID) and (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))]] return $lotValue)}",
+        "value" : "{ND-LotsGroup} ${number:BT-157-LotsGroup <= sum(for text:$groupID in BT-137-LotsGroup, number:$lotValue in BT-27-Lot[BT-137-Lot in BT-1375-Procedure[(BT-330-Procedure == $groupID) and (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))]] return $lotValue)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0204"
       }, {
-        "value" : "{ND-LotsGroup} ${(BT-137-LotsGroup == BT-330-Procedure)}",
+        "value" : "{ND-LotsGroup} ${(BT-137-LotsGroup in BT-330-Procedure)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0210"
       } ]
@@ -3296,15 +3296,15 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0105"
       }, {
-        "value" : "{ND-LotResult} ${every context:$highestBid in ND-LotResult[BT-711-LotResult is present], context:$lot in ND-Lot[BT-137-Lot == $highestBid::BT-13713-LotResult] satisfies (($highestBid::BT-711-LotResult <= (100 * $lot::BT-27-Lot)) and ($lot::BT-137-Lot == $highestBid::BT-13713-LotResult)) or not($lot::BT-137-Lot == $highestBid::BT-13713-LotResult) or not($lot::BT-27-Lot is present)}",
+        "value" : "{ND-LotResult} ${every context:$highestBid in ND-LotResult[BT-711-LotResult is present], context:$lot in ND-Lot[BT-137-Lot in $highestBid::BT-13713-LotResult] satisfies (($highestBid::BT-711-LotResult <= (100 * $lot::BT-27-Lot)) and ($lot::BT-137-Lot == $highestBid::BT-13713-LotResult)) or not($lot::BT-137-Lot == $highestBid::BT-13713-LotResult) or not($lot::BT-27-Lot is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0106"
       }, {
-        "value" : "{ND-LotResult} ${every context:$result in ND-LotResult[OPT-315-LotResult is present], context:$lot in ND-Lot[BT-137-Lot == $result::BT-13713-LotResult], context:$tender in ND-LotTender[(OPT-321-Tender == $result::OPT-320-LotResult) and (BT-720-Tender is present)] satisfies (($tender::BT-720-Tender <= (100 * $lot::BT-27-Lot)) and ($lot::BT-137-Lot == $result::BT-13713-LotResult) and ($tender::OPT-321-Tender == $result::OPT-320-LotResult)) or not($lot::BT-137-Lot == $tender::BT-13714-Tender) or not($tender::OPT-321-Tender == $result::OPT-320-LotResult) or not($lot::BT-27-Lot is present) or not ($tender::BT-720-Tender is present)}",
+        "value" : "{ND-LotResult} ${every context:$result in ND-LotResult[OPT-315-LotResult is present], context:$lot in ND-Lot[BT-137-Lot in $result::BT-13713-LotResult], context:$tender in ND-LotTender[(OPT-321-Tender in $result::OPT-320-LotResult) and (BT-720-Tender is present)] satisfies (($tender::BT-720-Tender <= (100 * $lot::BT-27-Lot)) and ($lot::BT-137-Lot == $result::BT-13713-LotResult) and ($tender::OPT-321-Tender == $result::OPT-320-LotResult)) or not($lot::BT-137-Lot == $tender::BT-13714-Tender) or not($tender::OPT-321-Tender == $result::OPT-320-LotResult) or not($lot::BT-27-Lot is present) or not ($tender::BT-720-Tender is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0108"
       }, {
-        "value" : "{ND-LotResult} ${BT-13713-LotResult == /BT-137-Lot}",
+        "value" : "{ND-LotResult} ${BT-13713-LotResult in /BT-137-Lot}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0110"
       } ]
@@ -3340,7 +3340,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotTender} ${(BT-13714-Tender == /BT-137-Lot) or (BT-13714-Tender == /BT-137-LotsGroup)}",
+        "value" : "{ND-LotTender} ${(BT-13714-Tender in /BT-137-Lot) or (BT-13714-Tender in /BT-137-LotsGroup)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13714-0100"
       } ]
@@ -3419,7 +3419,7 @@
         "message" : "rule|text|BR-BT-01375-0101"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-1375-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lot in BT-1375-Procedure satisfies ($lot == /BT-137-Lot)}",
+        "value" : "{ND-GroupComposition} ${every text:$lot in BT-1375-Procedure satisfies ($lot in /BT-137-Lot)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0102"
       }, {
@@ -11308,7 +11308,7 @@
         "message" : "rule|text|BR-BT-00023-0200"
       }, {
         "condition" : "{ND-LotProcurementScope} ${(BT-23-Lot is present) and (BT-531-Lot is present)}",
-        "value" : "{ND-LotProcurementScope} ${BT-23-Lot != BT-531-Lot}",
+        "value" : "{ND-LotProcurementScope} ${not(BT-23-Lot in BT-531-Lot)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00023-0203"
       } ]
@@ -11357,7 +11357,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartProcurementScope} ${(BT-23-Part is present) and (BT-531-Part is present)}",
-        "value" : "{ND-PartProcurementScope} ${BT-23-Part != BT-531-Part}",
+        "value" : "{ND-PartProcurementScope} ${not(BT-23-Part in BT-531-Part)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00023-0204"
       } ]
@@ -11411,7 +11411,7 @@
         "message" : "rule|text|BR-BT-00023-0201"
       }, {
         "condition" : "{ND-ProcedureProcurementScope} ${(BT-23-Procedure is present) and (BT-531-Procedure is present)}",
-        "value" : "{ND-ProcedureProcurementScope} ${BT-23-Procedure != BT-531-Procedure}",
+        "value" : "{ND-ProcedureProcurementScope} ${BT-23-Procedure not in BT-531-Procedure}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00023-0202"
       } ]
@@ -12400,7 +12400,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-SettledContract} ${BT-3202-Contract is present}",
-        "value" : "{ND-SettledContract} ${every text:$tender in BT-3202-Contract satisfies ($tender == /OPT-321-Tender)}",
+        "value" : "{ND-SettledContract} ${every text:$tender in BT-3202-Contract satisfies ($tender in /OPT-321-Tender)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-03202-0100"
       } ]
@@ -12469,7 +12469,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotDistribution} ${BT-330-Procedure is present}",
-        "value" : "{ND-LotDistribution} ${every text:$group in BT-330-Procedure satisfies ($group == /BT-137-LotsGroup)}",
+        "value" : "{ND-LotDistribution} ${every text:$group in BT-330-Procedure satisfies ($group in /BT-137-LotsGroup)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00330-0100"
       } ]
@@ -15042,7 +15042,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotDuration} ${not(BT-538-Lot == 'UNKNOWN') or (not(BT-03-notice in ('cont-modif','dir-awa-pre') ) and not(BT-137-Lot == BT-13713-LotResult[BT-142-LotResult == 'selec-w']))}",
+        "value" : "{ND-LotDuration} ${not(BT-538-Lot == 'UNKNOWN') or (not(BT-03-notice in ('cont-modif','dir-awa-pre') ) and not(BT-137-Lot in BT-13713-LotResult[BT-142-LotResult == 'selec-w']))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00538-0130"
       } ]
@@ -15813,7 +15813,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-NoticeResultGroupFA} ${BT-556-NoticeResult == /BT-137-LotsGroup}",
+        "value" : "{ND-NoticeResultGroupFA} ${BT-556-NoticeResult in /BT-137-LotsGroup}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00556-0100"
       } ]
@@ -16770,7 +16770,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-Root} ${BT-702(b)-notice is present}",
-        "value" : "{ND-Root} ${not(BT-702(a)-notice == BT-702(b)-notice)}",
+        "value" : "{ND-Root} ${not(BT-702(a)-notice in BT-702(b)-notice)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00702-0150"
       } ]
@@ -18888,6 +18888,20 @@
       "severity" : "ERROR"
     }
   }, {
+    "id" : "BT-762-notice",
+    "parentNodeId" : "ND-ChangeReason",
+    "name" : "Change Reason Description",
+    "btId" : "BT-762",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason/efbc:ReasonDescription",
+    "xpathRelative" : "efbc:ReasonDescription",
+    "type" : "text-multilingual",
+    "legalType" : "TEXT",
+    "maxLength" : 6000,
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    }
+  }, {
     "id" : "BT-763-Procedure",
     "parentNodeId" : "ND-ProcedureTenderingProcess",
     "name" : "Lots All Required",
@@ -20087,6 +20101,19 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate",
     "xpathRelative" : "efbc:TransmissionDate",
     "type" : "date",
+    "legalType" : "DATE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    }
+  }, {
+    "id" : "BT-803(t)-notice",
+    "parentNodeId" : "ND-RootExtension",
+    "name" : "Notice Dispatch Date eSender (time)",
+    "btId" : "BT-803",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionTime",
+    "xpathRelative" : "efbc:TransmissionTime",
+    "type" : "time",
     "legalType" : "DATE",
     "repeatable" : {
       "value" : false,
@@ -22270,17 +22297,17 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00200-0100"
       }, {
-        "condition" : "{ND-Company} ${OPT-200-Organization-Company == OPT-300-Tenderer}",
+        "condition" : "{ND-Company} ${OPT-200-Organization-Company in OPT-300-Tenderer}",
         "value" : "{ND-Company} ${not(OPT-201-Organization-TouchPoint is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00200-0101"
       }, {
-        "condition" : "{ND-Company} ${OPT-200-Organization-Company == OPT-301-Tenderer-SubCont}",
+        "condition" : "{ND-Company} ${OPT-200-Organization-Company in OPT-301-Tenderer-SubCont}",
         "value" : "{ND-Company} ${not(OPT-201-Organization-TouchPoint is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00200-0102"
       }, {
-        "value" : "{ND-Company} ${((OPT-200-Organization-Company == OPT-300-Contract-Signatory) or (OPT-200-Organization-Company == OPT-300-Procedure-Buyer) or (OPT-200-Organization-Company == OPT-300-Procedure-SProvider) or (OPT-200-Organization-Company == OPT-300-Tenderer) or (OPT-200-Organization-Company == OPT-301-Lot-AddInfo) or (OPT-200-Organization-Company == OPT-301-Lot-DocProvider) or (OPT-200-Organization-Company == OPT-301-Lot-EmployLegis) or (OPT-200-Organization-Company == OPT-301-Lot-EnvironLegis) or (OPT-200-Organization-Company == OPT-301-Lot-FiscalLegis) or (OPT-200-Organization-Company == OPT-301-Lot-Mediator) or (OPT-200-Organization-Company == OPT-301-Lot-ReviewInfo) or (OPT-200-Organization-Company == OPT-301-Lot-ReviewOrg) or (OPT-200-Organization-Company == OPT-301-Lot-TenderEval) or (OPT-200-Organization-Company == OPT-301-Lot-TenderReceipt) or (OPT-200-Organization-Company == OPT-301-LotResult-Financing) or (OPT-200-Organization-Company == OPT-301-LotResult-Paying) or (OPT-200-Organization-Company == OPT-301-Part-AddInfo) or (OPT-200-Organization-Company == OPT-301-Part-DocProvider) or (OPT-200-Organization-Company == OPT-301-Part-EmployLegis) or (OPT-200-Organization-Company == OPT-301-Part-EnvironLegis) or (OPT-200-Organization-Company == OPT-301-Part-FiscalLegis) or (OPT-200-Organization-Company == OPT-301-Part-Mediator) or (OPT-200-Organization-Company == OPT-301-Part-ReviewInfo) or (OPT-200-Organization-Company == OPT-301-Part-ReviewOrg) or (OPT-200-Organization-Company == OPT-301-Part-TenderEval) or (OPT-200-Organization-Company == OPT-301-Part-TenderReceipt) or (OPT-200-Organization-Company == OPT-301-ReviewBody) or (OPT-200-Organization-Company == OPT-301-ReviewReq) or (OPT-200-Organization-Company == OPT-301-Tenderer-MainCont) or (OPT-200-Organization-Company == OPT-301-Tenderer-SubCont))}",
+        "value" : "{ND-Company} ${((OPT-200-Organization-Company in OPT-300-Contract-Signatory) or (OPT-200-Organization-Company in OPT-300-Procedure-Buyer) or (OPT-200-Organization-Company in OPT-300-Procedure-SProvider) or (OPT-200-Organization-Company in OPT-300-Tenderer) or (OPT-200-Organization-Company in OPT-301-Lot-AddInfo) or (OPT-200-Organization-Company in OPT-301-Lot-DocProvider) or (OPT-200-Organization-Company in OPT-301-Lot-EmployLegis) or (OPT-200-Organization-Company in OPT-301-Lot-EnvironLegis) or (OPT-200-Organization-Company in OPT-301-Lot-FiscalLegis) or (OPT-200-Organization-Company in OPT-301-Lot-Mediator) or (OPT-200-Organization-Company in OPT-301-Lot-ReviewInfo) or (OPT-200-Organization-Company in OPT-301-Lot-ReviewOrg) or (OPT-200-Organization-Company in OPT-301-Lot-TenderEval) or (OPT-200-Organization-Company in OPT-301-Lot-TenderReceipt) or (OPT-200-Organization-Company in OPT-301-LotResult-Financing) or (OPT-200-Organization-Company in OPT-301-LotResult-Paying) or (OPT-200-Organization-Company in OPT-301-Part-AddInfo) or (OPT-200-Organization-Company in OPT-301-Part-DocProvider) or (OPT-200-Organization-Company in OPT-301-Part-EmployLegis) or (OPT-200-Organization-Company in OPT-301-Part-EnvironLegis) or (OPT-200-Organization-Company in OPT-301-Part-FiscalLegis) or (OPT-200-Organization-Company in OPT-301-Part-Mediator) or (OPT-200-Organization-Company in OPT-301-Part-ReviewInfo) or (OPT-200-Organization-Company in OPT-301-Part-ReviewOrg) or (OPT-200-Organization-Company in OPT-301-Part-TenderEval) or (OPT-200-Organization-Company in OPT-301-Part-TenderReceipt) or (OPT-200-Organization-Company in OPT-301-ReviewBody) or (OPT-200-Organization-Company in OPT-301-ReviewReq) or (OPT-200-Organization-Company in OPT-301-Tenderer-MainCont) or (OPT-200-Organization-Company in OPT-301-Tenderer-SubCont))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00200-0103"
       } ]
@@ -22321,7 +22348,7 @@
         "message" : "rule|text|BR-OPT-00201-0100"
       }, {
         "condition" : "{ND-Organization} ${OPT-201-Organization-TouchPoint is present}",
-        "value" : "{ND-Organization} ${((OPT-201-Organization-TouchPoint == OPT-301-Lot-AddInfo) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-DocProvider) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-EmployLegis) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-EnvironLegis) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-FiscalLegis) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-Mediator) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-ReviewInfo) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-ReviewOrg) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-TenderEval) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-TenderReceipt) or (OPT-201-Organization-TouchPoint == OPT-301-Part-AddInfo) or (OPT-201-Organization-TouchPoint == OPT-301-Part-DocProvider) or (OPT-201-Organization-TouchPoint == OPT-301-Part-EmployLegis) or (OPT-201-Organization-TouchPoint == OPT-301-Part-EnvironLegis) or (OPT-201-Organization-TouchPoint == OPT-301-Part-FiscalLegis) or (OPT-201-Organization-TouchPoint == OPT-301-Part-Mediator) or (OPT-201-Organization-TouchPoint == OPT-301-Part-ReviewInfo) or (OPT-201-Organization-TouchPoint == OPT-301-Part-ReviewOrg) or (OPT-201-Organization-TouchPoint == OPT-301-Part-TenderEval) or (OPT-201-Organization-TouchPoint == OPT-301-Part-TenderReceipt) or (OPT-201-Organization-TouchPoint == OPT-301-ReviewBody) or (OPT-201-Organization-TouchPoint == OPT-301-ReviewReq))}",
+        "value" : "{ND-Organization} ${((OPT-201-Organization-TouchPoint in OPT-301-Lot-AddInfo) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-DocProvider) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-EmployLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-EnvironLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-FiscalLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-Mediator) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-ReviewInfo) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-ReviewOrg) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-TenderEval) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-TenderReceipt) or (OPT-201-Organization-TouchPoint in OPT-301-Part-AddInfo) or (OPT-201-Organization-TouchPoint in OPT-301-Part-DocProvider) or (OPT-201-Organization-TouchPoint in OPT-301-Part-EmployLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Part-EnvironLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Part-FiscalLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Part-Mediator) or (OPT-201-Organization-TouchPoint in OPT-301-Part-ReviewInfo) or (OPT-201-Organization-TouchPoint in OPT-301-Part-ReviewOrg) or (OPT-201-Organization-TouchPoint in OPT-301-Part-TenderEval) or (OPT-201-Organization-TouchPoint in OPT-301-Part-TenderReceipt) or (OPT-201-Organization-TouchPoint in OPT-301-ReviewBody) or (OPT-201-Organization-TouchPoint in OPT-301-ReviewReq))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00201-0101"
       } ]
@@ -22362,7 +22389,7 @@
         "message" : "rule|text|BR-OPT-00202-0100"
       }, {
         "condition" : "{ND-Organizations} ${OPT-202-UBO is present}",
-        "value" : "{ND-Organizations} ${(OPT-202-UBO == OPT-302-Organization)}",
+        "value" : "{ND-Organizations} ${(OPT-202-UBO in OPT-302-Organization)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00202-0101"
       } ]
@@ -22405,7 +22432,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00210-0101"
       }, {
-        "value" : "{ND-TenderingParty} ${(OPT-210-Tenderer == OPT-310-Tender)}",
+        "value" : "{ND-TenderingParty} ${(OPT-210-Tenderer in OPT-310-Tender)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00210-0102"
       } ]
@@ -22441,7 +22468,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-SettledContract} ${OPT-300-Contract-Signatory is present}",
-        "value" : "{ND-SettledContract} ${every text:$signatory in OPT-300-Contract-Signatory satisfies ($signatory == /OPT-200-Organization-Company)}",
+        "value" : "{ND-SettledContract} ${every text:$signatory in OPT-300-Contract-Signatory satisfies ($signatory in /OPT-200-Organization-Company)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0252"
       } ]
@@ -22482,15 +22509,15 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-Root} ${OPT-300-Procedure-Buyer is present}",
-        "value" : "{ND-Root} ${every text:$buyer in OPT-300-Procedure-Buyer satisfies ($buyer == /OPT-200-Organization-Company)}",
+        "value" : "{ND-Root} ${every text:$buyer in OPT-300-Procedure-Buyer satisfies ($buyer in /OPT-200-Organization-Company)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0250"
       }, {
-        "value" : "{ND-Root} ${every text:$sps in OPT-300-Procedure-SProvider satisfies $sps != OPT-300-Procedure-Buyer}",
+        "value" : "{ND-Root} ${every text:$sps in OPT-300-Procedure-SProvider satisfies $sps not in OPT-300-Procedure-Buyer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0254"
       }, {
-        "value" : "{ND-Root} ${(every text:$tenderer in OPT-300-Tenderer satisfies $tenderer != OPT-300-Procedure-Buyer) and (every text:$subcont in OPT-301-Tenderer-SubCont satisfies $subcont != OPT-300-Procedure-Buyer)}",
+        "value" : "{ND-Root} ${(every text:$tenderer in OPT-300-Tenderer satisfies $tenderer not in OPT-300-Procedure-Buyer) and (every text:$subcont in OPT-301-Tenderer-SubCont satisfies $subcont not in OPT-300-Procedure-Buyer)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0255"
       } ]
@@ -22526,7 +22553,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-ServiceProvider} ${OPT-300-Procedure-SProvider is present}",
-        "value" : "{ND-ServiceProvider} ${every text:$provider in OPT-300-Procedure-SProvider satisfies ($provider == /OPT-200-Organization-Company)}",
+        "value" : "{ND-ServiceProvider} ${every text:$provider in OPT-300-Procedure-SProvider satisfies ($provider in /OPT-200-Organization-Company)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0251"
       } ]
@@ -22562,63 +22589,63 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-TenderingParty} ${OPT-300-Tenderer is present}",
-        "value" : "{ND-TenderingParty} ${every text:$tenderer in OPT-300-Tenderer satisfies ($tenderer == /OPT-200-Organization-Company)}",
+        "value" : "{ND-TenderingParty} ${every text:$tenderer in OPT-300-Tenderer satisfies ($tenderer in /OPT-200-Organization-Company)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0253"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$mediator in /OPT-301-Lot-Mediator satisfies $mediator != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$mediator in /OPT-301-Lot-Mediator satisfies $mediator not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0256"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$psp in OPT-300-Procedure-SProvider satisfies $psp != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$psp in OPT-300-Procedure-SProvider satisfies $psp not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0257"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$revOrg in /OPT-301-Lot-ReviewOrg satisfies $revOrg != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$revOrg in /OPT-301-Lot-ReviewOrg satisfies $revOrg not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0258"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$addInfo in /OPT-301-Lot-AddInfo satisfies $addInfo != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$addInfo in /OPT-301-Lot-AddInfo satisfies $addInfo not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0259"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$employ in /OPT-301-Lot-EmployLegis satisfies $employ != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$employ in /OPT-301-Lot-EmployLegis satisfies $employ not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0260"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$environ in /OPT-301-Lot-EnvironLegis satisfies $environ != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$environ in /OPT-301-Lot-EnvironLegis satisfies $environ not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0261"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$tax in /OPT-301-Lot-FiscalLegis satisfies $tax != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$tax in /OPT-301-Lot-FiscalLegis satisfies $tax not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0262"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$doc in /OPT-301-Lot-DocProvider satisfies $doc != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$doc in /OPT-301-Lot-DocProvider satisfies $doc not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0263"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$reviewInfo in /OPT-301-Lot-ReviewInfo satisfies $reviewInfo != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$reviewInfo in /OPT-301-Lot-ReviewInfo satisfies $reviewInfo not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0264"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$recepient in /OPT-301-Lot-TenderReceipt satisfies $recepient != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$recepient in /OPT-301-Lot-TenderReceipt satisfies $recepient not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0265"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$eval in /OPT-301-Lot-TenderEval satisfies $eval != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$eval in /OPT-301-Lot-TenderEval satisfies $eval not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0266"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$sign in /OPT-300-Contract-Signatory satisfies $sign != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$sign in /OPT-300-Contract-Signatory satisfies $sign not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0267"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$fund in /OPT-301-LotResult-Financing satisfies $fund != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$fund in /OPT-301-LotResult-Financing satisfies $fund not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0268"
       }, {
-        "value" : "{ND-TenderingParty} ${every text:$pay in /OPT-301-LotResult-Paying satisfies $pay != OPT-300-Tenderer}",
+        "value" : "{ND-TenderingParty} ${every text:$pay in /OPT-301-LotResult-Paying satisfies $pay not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0269"
       } ]
@@ -22663,7 +22690,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotTenderingTerms} ${OPT-301-Lot-AddInfo is present}",
-        "value" : "{ND-LotTenderingTerms} ${((OPT-301-Lot-AddInfo == /OPT-200-Organization-Company) or (OPT-301-Lot-AddInfo == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-LotTenderingTerms} ${((OPT-301-Lot-AddInfo in /OPT-200-Organization-Company) or (OPT-301-Lot-AddInfo in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1400"
       } ]
@@ -22699,7 +22726,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotTenderingTerms} ${OPT-301-Lot-DocProvider is present}",
-        "value" : "{ND-LotTenderingTerms} ${((OPT-301-Lot-DocProvider == /OPT-200-Organization-Company) or (OPT-301-Lot-DocProvider == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-LotTenderingTerms} ${((OPT-301-Lot-DocProvider in /OPT-200-Organization-Company) or (OPT-301-Lot-DocProvider in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1402"
       } ]
@@ -22744,7 +22771,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotEmploymentLegislation} ${OPT-301-Lot-EmployLegis is present}",
-        "value" : "{ND-LotEmploymentLegislation} ${((OPT-301-Lot-EmployLegis == /OPT-200-Organization-Company) or (OPT-301-Lot-EmployLegis == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-LotEmploymentLegislation} ${((OPT-301-Lot-EmployLegis in /OPT-200-Organization-Company) or (OPT-301-Lot-EmployLegis in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1404"
       } ]
@@ -22789,7 +22816,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotEnvironmentalLegislation} ${OPT-301-Lot-EnvironLegis is present}",
-        "value" : "{ND-LotEnvironmentalLegislation} ${((OPT-301-Lot-EnvironLegis == /OPT-200-Organization-Company) or (OPT-301-Lot-EnvironLegis == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-LotEnvironmentalLegislation} ${((OPT-301-Lot-EnvironLegis in /OPT-200-Organization-Company) or (OPT-301-Lot-EnvironLegis in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1406"
       } ]
@@ -22834,7 +22861,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotFiscalLegislation} ${OPT-301-Lot-FiscalLegis is present}",
-        "value" : "{ND-LotFiscalLegislation} ${((OPT-301-Lot-FiscalLegis == /OPT-200-Organization-Company) or (OPT-301-Lot-FiscalLegis == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-LotFiscalLegislation} ${((OPT-301-Lot-FiscalLegis in /OPT-200-Organization-Company) or (OPT-301-Lot-FiscalLegis in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1408"
       } ]
@@ -22870,7 +22897,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotReviewTerms} ${OPT-301-Lot-Mediator is present}",
-        "value" : "{ND-LotReviewTerms} ${(OPT-301-Lot-Mediator == /OPT-200-Organization-Company) or (OPT-301-Lot-Mediator == /OPT-201-Organization-TouchPoint)}",
+        "value" : "{ND-LotReviewTerms} ${(OPT-301-Lot-Mediator in /OPT-200-Organization-Company) or (OPT-301-Lot-Mediator in /OPT-201-Organization-TouchPoint)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1412"
       } ]
@@ -22906,7 +22933,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotReviewTerms} ${OPT-301-Lot-ReviewInfo is present}",
-        "value" : "{ND-LotReviewTerms} ${(OPT-301-Lot-ReviewInfo == /OPT-200-Organization-Company) or (OPT-301-Lot-ReviewInfo == /OPT-201-Organization-TouchPoint)}",
+        "value" : "{ND-LotReviewTerms} ${(OPT-301-Lot-ReviewInfo in /OPT-200-Organization-Company) or (OPT-301-Lot-ReviewInfo in /OPT-201-Organization-TouchPoint)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1415"
       } ]
@@ -22951,7 +22978,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotReviewTerms} ${OPT-301-Lot-ReviewOrg is present}",
-        "value" : "{ND-LotReviewTerms} ${(OPT-301-Lot-ReviewOrg == /OPT-200-Organization-Company) or (OPT-301-Lot-ReviewOrg == /OPT-201-Organization-TouchPoint)}",
+        "value" : "{ND-LotReviewTerms} ${(OPT-301-Lot-ReviewOrg in /OPT-200-Organization-Company) or (OPT-301-Lot-ReviewOrg in /OPT-201-Organization-TouchPoint)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1417"
       } ]
@@ -22987,7 +23014,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotTenderingTerms} ${OPT-301-Lot-TenderEval is present}",
-        "value" : "{ND-LotTenderingTerms} ${((OPT-301-Lot-TenderEval == /OPT-200-Organization-Company) or (OPT-301-Lot-TenderEval == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-LotTenderingTerms} ${((OPT-301-Lot-TenderEval in /OPT-200-Organization-Company) or (OPT-301-Lot-TenderEval in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1420"
       } ]
@@ -23023,7 +23050,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotTenderingTerms} ${OPT-301-Lot-TenderReceipt is present}",
-        "value" : "{ND-LotTenderingTerms} ${((OPT-301-Lot-TenderReceipt == /OPT-200-Organization-Company) or (OPT-301-Lot-TenderReceipt == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-LotTenderingTerms} ${((OPT-301-Lot-TenderReceipt in /OPT-200-Organization-Company) or (OPT-301-Lot-TenderReceipt in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1422"
       } ]
@@ -23059,7 +23086,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotResult} ${OPT-301-LotResult-Financing is present}",
-        "value" : "{ND-LotResult} ${every text:$financing in OPT-301-LotResult-Financing satisfies ($financing == /OPT-200-Organization-Company)}",
+        "value" : "{ND-LotResult} ${every text:$financing in OPT-301-LotResult-Financing satisfies ($financing in /OPT-200-Organization-Company)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1410"
       } ]
@@ -23095,7 +23122,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotResult} ${OPT-301-LotResult-Paying is present}",
-        "value" : "{ND-LotResult} ${every text:$payer in OPT-301-LotResult-Paying satisfies ($payer == /OPT-200-Organization-Company)}",
+        "value" : "{ND-LotResult} ${every text:$payer in OPT-301-LotResult-Paying satisfies ($payer in /OPT-200-Organization-Company)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1414"
       } ]
@@ -23140,7 +23167,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartTenderingTerms} ${OPT-301-Part-AddInfo is present}",
-        "value" : "{ND-PartTenderingTerms} ${((OPT-301-Part-AddInfo == /OPT-200-Organization-Company) or (OPT-301-Part-AddInfo == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-PartTenderingTerms} ${((OPT-301-Part-AddInfo in /OPT-200-Organization-Company) or (OPT-301-Part-AddInfo in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1401"
       } ]
@@ -23176,7 +23203,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartTenderingTerms} ${OPT-301-Part-DocProvider is present}",
-        "value" : "{ND-PartTenderingTerms} ${((OPT-301-Part-DocProvider == /OPT-200-Organization-Company) or (OPT-301-Part-DocProvider == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-PartTenderingTerms} ${((OPT-301-Part-DocProvider in /OPT-200-Organization-Company) or (OPT-301-Part-DocProvider in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1403"
       } ]
@@ -23221,7 +23248,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartEmploymentLegislation} ${OPT-301-Part-EmployLegis is present}",
-        "value" : "{ND-PartEmploymentLegislation} ${((OPT-301-Part-EmployLegis == /OPT-200-Organization-Company) or (OPT-301-Part-EmployLegis == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-PartEmploymentLegislation} ${((OPT-301-Part-EmployLegis in /OPT-200-Organization-Company) or (OPT-301-Part-EmployLegis in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1405"
       } ]
@@ -23266,7 +23293,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartEnvironmentalLegislation} ${OPT-301-Part-EnvironLegis is present}",
-        "value" : "{ND-PartEnvironmentalLegislation} ${((OPT-301-Part-EnvironLegis == /OPT-200-Organization-Company) or (OPT-301-Part-EnvironLegis == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-PartEnvironmentalLegislation} ${((OPT-301-Part-EnvironLegis in /OPT-200-Organization-Company) or (OPT-301-Part-EnvironLegis in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1407"
       } ]
@@ -23311,7 +23338,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartFiscalLegislation} ${OPT-301-Part-FiscalLegis is present}",
-        "value" : "{ND-PartFiscalLegislation} ${((OPT-301-Part-FiscalLegis == /OPT-200-Organization-Company) or (OPT-301-Part-FiscalLegis == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-PartFiscalLegislation} ${((OPT-301-Part-FiscalLegis in /OPT-200-Organization-Company) or (OPT-301-Part-FiscalLegis in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1409"
       } ]
@@ -23356,7 +23383,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartReviewTerms} ${OPT-301-Part-Mediator is present}",
-        "value" : "{ND-PartReviewTerms} ${(OPT-301-Part-Mediator == /OPT-200-Organization-Company) or (OPT-301-Part-Mediator == /OPT-201-Organization-TouchPoint)}",
+        "value" : "{ND-PartReviewTerms} ${(OPT-301-Part-Mediator in /OPT-200-Organization-Company) or (OPT-301-Part-Mediator in /OPT-201-Organization-TouchPoint)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1413"
       } ]
@@ -23392,7 +23419,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartReviewTerms} ${OPT-301-Part-ReviewInfo is present}",
-        "value" : "{ND-PartReviewTerms} ${(OPT-301-Part-ReviewInfo == /OPT-200-Organization-Company) or (OPT-301-Part-ReviewInfo == /OPT-201-Organization-TouchPoint)}",
+        "value" : "{ND-PartReviewTerms} ${(OPT-301-Part-ReviewInfo in /OPT-200-Organization-Company) or (OPT-301-Part-ReviewInfo in /OPT-201-Organization-TouchPoint)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1416"
       } ]
@@ -23437,7 +23464,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartReviewTerms} ${OPT-301-Part-ReviewOrg is present}",
-        "value" : "{ND-PartReviewTerms} ${(OPT-301-Part-ReviewOrg == /OPT-200-Organization-Company) or (OPT-301-Part-ReviewOrg == /OPT-201-Organization-TouchPoint)}",
+        "value" : "{ND-PartReviewTerms} ${(OPT-301-Part-ReviewOrg in /OPT-200-Organization-Company) or (OPT-301-Part-ReviewOrg in /OPT-201-Organization-TouchPoint)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1418"
       } ]
@@ -23473,7 +23500,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartTenderingTerms} ${OPT-301-Part-TenderEval is present}",
-        "value" : "{ND-PartTenderingTerms} ${((OPT-301-Part-TenderEval == /OPT-200-Organization-Company) or (OPT-301-Part-TenderEval == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-PartTenderingTerms} ${((OPT-301-Part-TenderEval in /OPT-200-Organization-Company) or (OPT-301-Part-TenderEval in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1421"
       } ]
@@ -23509,7 +23536,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-PartTenderingTerms} ${OPT-301-Part-TenderReceipt is present}",
-        "value" : "{ND-PartTenderingTerms} ${((OPT-301-Part-TenderReceipt == /OPT-200-Organization-Company) or (OPT-301-Part-TenderReceipt == /OPT-201-Organization-TouchPoint))}",
+        "value" : "{ND-PartTenderingTerms} ${((OPT-301-Part-TenderReceipt in /OPT-200-Organization-Company) or (OPT-301-Part-TenderReceipt in /OPT-201-Organization-TouchPoint))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1423"
       } ]
@@ -23595,7 +23622,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-SubContractor} ${OPT-301-Tenderer-MainCont is present}",
-        "value" : "{ND-SubContractor} ${every text:$main in OPT-301-Tenderer-MainCont satisfies ($main == OPT-300-Tenderer)}",
+        "value" : "{ND-SubContractor} ${every text:$main in OPT-301-Tenderer-MainCont satisfies ($main in OPT-300-Tenderer)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1411"
       } ]
@@ -23631,82 +23658,82 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$subCon in OPT-301-Tenderer-SubCont satisfies ($subCon == /OPT-200-Organization-Company)}",
+        "value" : "{ND-TenderingParty} ${every text:$subCon in OPT-301-Tenderer-SubCont satisfies ($subCon in /OPT-200-Organization-Company)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1419"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$maincont in OPT-300-Tenderer satisfies $maincont != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$maincont in OPT-300-Tenderer satisfies $maincont not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1424"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$mediator in /OPT-301-Lot-Mediator satisfies $mediator != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$mediator in /OPT-301-Lot-Mediator satisfies $mediator not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1425"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$psp in OPT-300-Procedure-SProvider satisfies $psp != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$psp in OPT-300-Procedure-SProvider satisfies $psp not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1426"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$revOrg in /OPT-301-Lot-ReviewOrg satisfies $revOrg != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$revOrg in /OPT-301-Lot-ReviewOrg satisfies $revOrg not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1427"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$addInfo in /OPT-301-Lot-AddInfo satisfies $addInfo != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$addInfo in /OPT-301-Lot-AddInfo satisfies $addInfo not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1428"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$employ in /OPT-301-Lot-EmployLegis satisfies $employ != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$employ in /OPT-301-Lot-EmployLegis satisfies $employ not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1429"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$environ in /OPT-301-Lot-EnvironLegis satisfies $environ != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$environ in /OPT-301-Lot-EnvironLegis satisfies $environ not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1430"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$tax in /OPT-301-Lot-FiscalLegis satisfies $tax != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$tax in /OPT-301-Lot-FiscalLegis satisfies $tax not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1431"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$doc in /OPT-301-Lot-DocProvider satisfies $doc != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$doc in /OPT-301-Lot-DocProvider satisfies $doc not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1432"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$reviewInfo in /OPT-301-Lot-ReviewInfo satisfies $reviewInfo != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$reviewInfo in /OPT-301-Lot-ReviewInfo satisfies $reviewInfo not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1433"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$recepient in /OPT-301-Lot-TenderReceipt satisfies $recepient != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$recepient in /OPT-301-Lot-TenderReceipt satisfies $recepient not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1434"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$eval in /OPT-301-Lot-TenderEval satisfies $eval != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$eval in /OPT-301-Lot-TenderEval satisfies $eval not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1435"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$sign in /OPT-300-Contract-Signatory satisfies $sign != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$sign in /OPT-300-Contract-Signatory satisfies $sign not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1436"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$fund in /OPT-301-LotResult-Financing satisfies $fund != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$fund in /OPT-301-LotResult-Financing satisfies $fund not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1437"
       }, {
         "condition" : "{ND-TenderingParty} ${OPT-301-Tenderer-SubCont is present}",
-        "value" : "{ND-TenderingParty} ${every text:$pay in /OPT-301-LotResult-Paying satisfies $pay != OPT-301-Tenderer-SubCont}",
+        "value" : "{ND-TenderingParty} ${every text:$pay in /OPT-301-LotResult-Paying satisfies $pay not in OPT-301-Tenderer-SubCont}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00301-1438"
       } ]
@@ -23742,7 +23769,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-Organization} ${OPT-302-Organization is present}",
-        "value" : "{ND-Organization} ${every text:$ubo in OPT-302-Organization satisfies ($ubo == OPT-202-UBO)}",
+        "value" : "{ND-Organization} ${every text:$ubo in OPT-302-Organization satisfies ($ubo in OPT-202-UBO)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00302-0100"
       } ]
@@ -23777,7 +23804,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotTender} ${OPT-310-Tender == OPT-210-Tenderer}",
+        "value" : "{ND-LotTender} ${OPT-310-Tender in  OPT-210-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00310-0100"
       } ]
@@ -23813,7 +23840,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotResult} ${OPT-315-LotResult is present}",
-        "value" : "{ND-LotResult} ${every text:$contract in OPT-315-LotResult satisfies ($contract == OPT-316-Contract)}",
+        "value" : "{ND-LotResult} ${every text:$contract in OPT-315-LotResult satisfies ($contract in OPT-316-Contract)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00315-0100"
       } ]
@@ -23861,7 +23888,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00316-0100"
       }, {
-        "value" : "{ND-SettledContract} ${(OPT-316-Contract == OPT-315-LotResult)}",
+        "value" : "{ND-SettledContract} ${(OPT-316-Contract in OPT-315-LotResult)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00316-0101"
       } ]
@@ -23897,7 +23924,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-LotResult} ${OPT-320-LotResult is present}",
-        "value" : "{ND-LotResult} ${every text:$tender in OPT-320-LotResult satisfies ($tender == OPT-321-Tender)}",
+        "value" : "{ND-LotResult} ${every text:$tender in OPT-320-LotResult satisfies ($tender in OPT-321-Tender)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00320-0100"
       } ]
@@ -23945,7 +23972,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00321-0100"
       }, {
-        "value" : "{ND-LotTender} ${(OPT-321-Tender == OPT-320-LotResult)}",
+        "value" : "{ND-LotTender} ${(OPT-321-Tender in OPT-320-LotResult)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00321-0101"
       } ]
