@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Czech. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>field in Czech. File generated from metadata database version 1.3.9 created on the 2022-11-08T17:09:40</comment>
 <entry key="field|name|BT-01(c)-Procedure">Právní základ</entry>
 <entry key="field|name|BT-01(d)-Procedure">Právní základ</entry>
 <entry key="field|name|BT-01(e)-Procedure">Právní základ</entry>
@@ -555,7 +555,7 @@
 <entry key="field|name|BT-739-Organization-Company">Fax</entry>
 <entry key="field|name|BT-739-Organization-TouchPoint">Fax</entry>
 <entry key="field|name|BT-739-UBO">Fax</entry>
-<entry key="field|name|BT-740-Procedure-Buyer">L’acheteur est une entité adjudicatrice.</entry>
+<entry key="field|name|BT-740-Procedure-Buyer">Kupující je zadavatelem.</entry>
 <entry key="field|name|BT-743-Lot">Elektronická fakturace</entry>
 <entry key="field|name|BT-744-Lot">Požaduje se zaručený nebo kvalifikovaný elektronický podpis nebo pečeť (podle definice v nařízení (EU) č. 910/2014).</entry>
 <entry key="field|name|BT-745-Lot">Popis</entry>
@@ -574,7 +574,7 @@
 <entry key="field|name|BT-756-Procedure">Výzva k soutěžení je ukončena.</entry>
 <entry key="field|name|BT-757-notice">Všimněte si verze</entry>
 <entry key="field|name|BT-758-notice">Znění předchozího oznámení, které má být změněno</entry>
-<entry key="field|name|BT-759-LotResult">Nombre d’offres ou de demandes de participation reçues</entry>
+<entry key="field|name|BT-759-LotResult">Počet doručených nabídek nebo žádostí o účast</entry>
 <entry key="field|name|BT-76-Lot">Právní forma, kterou musí mít skupina uchazečů, které byla zadána zakázka</entry>
 <entry key="field|name|BT-760-LotResult">Druh obdržených podání</entry>
 <entry key="field|name|BT-761-Lot">Určitou právní formu musí mít skupina uchazečů, kterým byla zadána zakázka.</entry>

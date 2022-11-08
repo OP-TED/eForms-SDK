@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Estonian. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>field in Estonian. File generated from metadata database version 1.3.9 created on the 2022-11-08T17:09:40</comment>
 <entry key="field|name|BT-01(c)-Procedure">Õiguslik alus</entry>
 <entry key="field|name|BT-01(d)-Procedure">Õiguslik alus</entry>
 <entry key="field|name|BT-01(e)-Procedure">Õiguslik alus</entry>
@@ -555,7 +555,7 @@
 <entry key="field|name|BT-739-Organization-Company">Faks</entry>
 <entry key="field|name|BT-739-Organization-TouchPoint">Faks</entry>
 <entry key="field|name|BT-739-UBO">Faks</entry>
-<entry key="field|name|BT-740-Procedure-Buyer">El comprador es una entidad adjudicadora.</entry>
+<entry key="field|name|BT-740-Procedure-Buyer">Hankija on võrgustiku sektori hankija.</entry>
 <entry key="field|name|BT-743-Lot">E-arveldamine</entry>
 <entry key="field|name|BT-744-Lot">Nõutav on täiustatud või kvalifitseeritud e-allkiri või e-tempel (nagu on määratletud määruses (EL) nr 910/2014).</entry>
 <entry key="field|name|BT-745-Lot">Kirjeldus</entry>
@@ -574,7 +574,7 @@
 <entry key="field|name|BT-756-Procedure">Hanke väljakuulutamine on lõpetatud.</entry>
 <entry key="field|name|BT-757-notice">Teate versioon</entry>
 <entry key="field|name|BT-758-notice">Eelmise teate versioon, mida muudetakse</entry>
-<entry key="field|name|BT-759-LotResult">Número de ofertas o solicitudes de participación recibidas</entry>
+<entry key="field|name|BT-759-LotResult">Esitatud pakkumuste või osalemistaotluste arv</entry>
 <entry key="field|name|BT-76-Lot">Õiguslik vorm, mida eeldatakse pakkujate rühmalt, kellega sõlmitakse leping</entry>
 <entry key="field|name|BT-760-LotResult">Saadud esildiste liik</entry>
 <entry key="field|name|BT-761-Lot">Teatava õigusliku vormi peab võtma pakkujate rühm, kellega on sõlmitud leping.</entry>
