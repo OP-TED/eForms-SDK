@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.3.1",
   "metadataDatabase" : {
-    "version" : "1.3.6",
-    "createdOn" : "2022-11-07T11:28:17"
+    "version" : "1.3.9",
+    "createdOn" : "2022-11-08T17:09:40"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -20078,7 +20078,7 @@
     "btId" : "BT-802",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']/cbc:Description",
     "xpathRelative" : "cbc:Description",
-    "type" : "code",
+    "type" : "text-multilingual",
     "legalType" : "INDICATOR",
     "repeatable" : {
       "value" : false,
