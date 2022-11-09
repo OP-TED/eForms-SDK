@@ -169,7 +169,7 @@
 							<efac:TouchPoint>
 								<cbc:WebsiteURI>http://www.wakefield.gov.uk</cbc:WebsiteURI>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Corporate Procurement Team Wakefield</cbc:Name>
@@ -387,17 +387,17 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:MediationParty>
 			</cac:AppealTerms>
