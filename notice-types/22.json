@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.11",
-    "createdOn" : "2022-11-10T10:05:58"
+    "version" : "1.3.14",
+    "createdOn" : "2022-11-10T14:08:37"
   },
   "noticeId" : "22",
   "metadata" : [ {
@@ -1604,7 +1604,6 @@
         "displayType" : "GROUP",
         "description" : "Procurement Documents",
         "_label" : "group|name|GR-Lot-ProcurementDocuments",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-14-Lot",
           "contentType" : "field",
