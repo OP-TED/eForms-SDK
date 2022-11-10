@@ -40,7 +40,7 @@
 							<efac:TouchPoint>
 								<cbc:WebsiteURI>http://www.carabinieri.it/Internet/</cbc:WebsiteURI>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ITA">Ufficio Approvvigionamenti</cbc:Name>
@@ -63,7 +63,7 @@
 							<efac:TouchPoint>
 								<cbc:WebsiteURI>http://www.carabinieri.it/Internet/</cbc:WebsiteURI>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ITA">Direzione di Commissariato</cbc:Name>
@@ -349,7 +349,7 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:TenderRecipientParty>
@@ -372,7 +372,7 @@
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>

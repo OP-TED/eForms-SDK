@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.3.1",
+  "sdkVersion" : "eforms-sdk-1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.6",
-    "createdOn" : "2022-11-07T11:28:17"
+    "version" : "1.3.14",
+    "createdOn" : "2022-11-10T14:08:37"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -2953,7 +2953,7 @@
     "btId" : "BT-133",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cac:OccurenceLocation/cbc:Description",
     "xpathRelative" : "cac:OccurenceLocation/cbc:Description",
-    "type" : "text-multilingual",
+    "type" : "text",
     "legalType" : "TEXT",
     "maxLength" : 1000,
     "repeatable" : {
@@ -19469,7 +19469,7 @@
     "btId" : "BT-780",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PaidAmountDescription",
     "xpathRelative" : "efac:AggregatedAmounts/efbc:PaidAmountDescription",
-    "type" : "text-multilingual",
+    "type" : "text",
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "repeatable" : {
@@ -20078,7 +20078,7 @@
     "btId" : "BT-802",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']/cbc:Description",
     "xpathRelative" : "cbc:Description",
-    "type" : "code",
+    "type" : "text-multilingual",
     "legalType" : "INDICATOR",
     "repeatable" : {
       "value" : false,
@@ -20361,7 +20361,7 @@
     "btId" : "BT-99",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description",
     "xpathRelative" : "cac:PresentationPeriod/cbc:Description",
-    "type" : "text-multilingual",
+    "type" : "text",
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "repeatable" : {
@@ -20621,7 +20621,7 @@
     "btId" : "OPP-021",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset/efbc:AssetDescription",
     "xpathRelative" : "efbc:AssetDescription",
-    "type" : "text-multilingual",
+    "type" : "text",
     "maxLength" : 4000,
     "repeatable" : {
       "value" : false,
@@ -20643,7 +20643,7 @@
     "btId" : "OPP-022",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset/efbc:AssetSignificance",
     "xpathRelative" : "efbc:AssetSignificance",
-    "type" : "text-multilingual",
+    "type" : "text",
     "maxLength" : 30,
     "repeatable" : {
       "value" : false,
@@ -20665,7 +20665,7 @@
     "btId" : "OPP-023",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset/efbc:AssetPredominance",
     "xpathRelative" : "efbc:AssetPredominance",
-    "type" : "text-multilingual",
+    "type" : "text",
     "maxLength" : 30,
     "repeatable" : {
       "value" : false,
@@ -21741,7 +21741,7 @@
     "btId" : "OPT-092",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription",
     "xpathRelative" : "efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription",
-    "type" : "text-multilingual",
+    "type" : "text",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -22257,7 +22257,7 @@
   }, {
     "id" : "OPT-200-Organization-Company",
     "parentNodeId" : "ND-Company",
-    "name" : "Company Technical Identifier",
+    "name" : "Organisation Technical Identifier",
     "btId" : "OPT-200",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID",
     "xpathRelative" : "cac:PartyIdentification/cbc:ID",

@@ -44,7 +44,7 @@
 							<efac:TouchPoint>
 								<cbc:WebsiteURI>https://www.gov.uk/government/organisations/land-registry</cbc:WebsiteURI>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Procurement Department</cbc:Name>
@@ -329,7 +329,7 @@
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>
