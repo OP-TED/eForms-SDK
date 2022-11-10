@@ -1,10 +1,25 @@
+# SDK 1.3.2 Release Notes
+
+[![Maven Central](https://img.shields.io/maven-central/v/eu.europa.ted.eforms/eforms-sdk?label=Download%20from%20Maven%20Central&versionPrefix=1.3.2)](https://search.maven.org/search?q=g:%22eu.europa.ted.eforms%22%20AND%20a:%22eforms-sdk%22)
+
+This release includes several corrections and small updates:
+
+* The type of field BT-802-Lot was corrected.
+* Several fields were changed to not be multilingual, to avoid creating invalid XML notices. This will be fully addressed in a future version, and those fields with be changed back to being multilingual.
+* Some incorrect "_repeatable" properties were removed in notice type definitions.
+* View templates were corrected and updated.
+* Translations were added and updated for various asset types.
+
+The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
+
+
 # SDK 1.3.1 Release Notes
 
 This release includes several corrections and small updates:
 
 * Add back missing fields "BT-762-notice" and "BT-803(t)-notice" in fields.json.
 * Correct EFX expressions to use "in" when the right-hand side is a sequence.
-* Various correction in notice type definitions.
+* Various corrections in notice type definitions.
 * Add and update translations for "group" and "notice" asset types.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
