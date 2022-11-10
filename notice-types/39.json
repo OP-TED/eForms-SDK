@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.3.1",
+  "sdkVersion" : "1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.6",
-    "createdOn" : "2022-11-07T11:28:17"
+    "version" : "1.3.11",
+    "createdOn" : "2022-11-10T10:05:58"
   },
   "noticeId" : "39",
   "metadata" : [ {
@@ -1793,7 +1793,7 @@
           "id" : "OPT-200-Organization-Company",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Company Technical Identifier",
+          "description" : "Organisation Technical Identifier",
           "_label" : "field|name|OPT-200-Organization-Company",
           "_idScheme" : "ORG",
           "hidden" : true
