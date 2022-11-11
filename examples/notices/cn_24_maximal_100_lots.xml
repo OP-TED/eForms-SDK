@@ -639,23 +639,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -664,7 +664,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -1007,23 +1007,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -1032,7 +1032,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -1375,23 +1375,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -1400,7 +1400,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -1743,23 +1743,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -1768,7 +1768,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -2111,23 +2111,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -2136,7 +2136,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -2479,23 +2479,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -2504,7 +2504,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -2847,23 +2847,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -2872,7 +2872,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -3215,23 +3215,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -3240,7 +3240,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -3583,23 +3583,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -3608,7 +3608,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -3951,23 +3951,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -3976,7 +3976,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -4319,23 +4319,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -4344,7 +4344,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -4687,23 +4687,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -4712,7 +4712,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -5055,23 +5055,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -5080,7 +5080,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -5423,23 +5423,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -5448,7 +5448,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -5791,23 +5791,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -5816,7 +5816,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -6159,23 +6159,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -6184,7 +6184,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -6527,23 +6527,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -6552,7 +6552,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -6895,23 +6895,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -6920,7 +6920,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -7263,23 +7263,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -7288,7 +7288,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -7631,23 +7631,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -7656,7 +7656,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -7999,23 +7999,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -8024,7 +8024,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -8367,23 +8367,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -8392,7 +8392,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -8735,23 +8735,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -8760,7 +8760,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -9103,23 +9103,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -9128,7 +9128,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -9471,23 +9471,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -9496,7 +9496,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -9839,23 +9839,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -9864,7 +9864,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -10207,23 +10207,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -10232,7 +10232,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -10575,23 +10575,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -10600,7 +10600,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -10943,23 +10943,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -10968,7 +10968,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -11311,23 +11311,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -11336,7 +11336,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -11679,23 +11679,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -11704,7 +11704,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -12047,23 +12047,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -12072,7 +12072,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -12415,23 +12415,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -12440,7 +12440,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -12783,23 +12783,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -12808,7 +12808,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -13151,23 +13151,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -13176,7 +13176,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -13519,23 +13519,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -13544,7 +13544,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -13887,23 +13887,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -13912,7 +13912,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -14255,23 +14255,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -14280,7 +14280,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -14623,23 +14623,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -14648,7 +14648,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -14991,23 +14991,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -15016,7 +15016,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -15359,23 +15359,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -15384,7 +15384,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -15727,23 +15727,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -15752,7 +15752,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -16095,23 +16095,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -16120,7 +16120,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -16463,23 +16463,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -16488,7 +16488,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -16831,23 +16831,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -16856,7 +16856,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -17199,23 +17199,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -17224,7 +17224,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -17567,23 +17567,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -17592,7 +17592,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -17935,23 +17935,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -17960,7 +17960,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -18303,23 +18303,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -18328,7 +18328,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -18671,23 +18671,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -18696,7 +18696,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -19039,23 +19039,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -19064,7 +19064,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -19407,23 +19407,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -19432,7 +19432,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -19775,23 +19775,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -19800,7 +19800,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -20143,23 +20143,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -20168,7 +20168,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -20511,23 +20511,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -20536,7 +20536,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -20879,23 +20879,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -20904,7 +20904,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -21247,23 +21247,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -21272,7 +21272,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -21615,23 +21615,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -21640,7 +21640,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -21983,23 +21983,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -22008,7 +22008,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -22351,23 +22351,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -22376,7 +22376,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -22719,23 +22719,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -22744,7 +22744,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -23087,23 +23087,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -23112,7 +23112,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -23455,23 +23455,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -23480,7 +23480,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -23823,23 +23823,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -23848,7 +23848,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -24191,23 +24191,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -24216,7 +24216,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -24559,23 +24559,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -24584,7 +24584,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -24927,23 +24927,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -24952,7 +24952,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -25295,23 +25295,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -25320,7 +25320,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -25663,23 +25663,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -25688,7 +25688,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -26031,23 +26031,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -26056,7 +26056,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -26399,23 +26399,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -26424,7 +26424,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -26767,23 +26767,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -26792,7 +26792,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -27135,23 +27135,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -27160,7 +27160,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -27503,23 +27503,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -27528,7 +27528,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -27871,23 +27871,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -27896,7 +27896,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -28239,23 +28239,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -28264,7 +28264,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -28607,23 +28607,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -28632,7 +28632,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -28975,23 +28975,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -29000,7 +29000,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -29343,23 +29343,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -29368,7 +29368,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -29711,23 +29711,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -29736,7 +29736,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -30079,23 +30079,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -30104,7 +30104,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -30447,23 +30447,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -30472,7 +30472,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -30815,23 +30815,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -30840,7 +30840,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -31183,23 +31183,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -31208,7 +31208,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -31551,23 +31551,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -31576,7 +31576,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -31919,23 +31919,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -31944,7 +31944,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -32287,23 +32287,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -32312,7 +32312,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -32655,23 +32655,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -32680,7 +32680,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -33023,23 +33023,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -33048,7 +33048,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -33391,23 +33391,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -33416,7 +33416,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -33759,23 +33759,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -33784,7 +33784,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -34127,23 +34127,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -34152,7 +34152,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -34495,23 +34495,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -34520,7 +34520,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -34863,23 +34863,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -34888,7 +34888,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -35231,23 +35231,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -35256,7 +35256,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -35599,23 +35599,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -35624,7 +35624,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -35967,23 +35967,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -35992,7 +35992,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -36335,23 +36335,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -36360,7 +36360,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -36703,23 +36703,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -36728,7 +36728,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
@@ -37071,23 +37071,23 @@
 			</cac:AwardingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0002</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0002</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://tender-submit.fin-adm.com/esubmission</cbc:EndpointID>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderRecipientParty>
 			<cac:TenderEvaluationParty>
 				<cac:PartyIdentification>
-					<cbc:ID schemeName="organization">TPO-0003</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0003</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:TenderEvaluationParty>
 			<cac:AppealTerms>
@@ -37096,7 +37096,7 @@
 				</cac:PresentationPeriod>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>

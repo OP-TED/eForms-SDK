@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Bulgarian. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>business-term in Bulgarian. File generated from metadata database version 1.3.9 created on the 2022-11-08T17:09:40</comment>
 <entry key="business-term|name|BG-1">Забележете</entry>
 <entry key="business-term|name|BG-100">Комуникация</entry>
 <entry key="business-term|name|BG-101">Документация за обществената поръчка</entry>
@@ -270,7 +270,7 @@
 <entry key="business-term|name|BT-737">Езици, на които документацията за обществената поръчка (или части от нея) са неофициално достъпни</entry>
 <entry key="business-term|name|BT-738">Предпочитана дата на публикуване</entry>
 <entry key="business-term|name|BT-739">Факс</entry>
-<entry key="business-term|name|BT-740">Der Erwerber ist ein Auftraggeber</entry>
+<entry key="business-term|name|BT-740">Купувачът е възложител.</entry>
 <entry key="business-term|name|BT-743">Електронно фактуриране</entry>
 <entry key="business-term|name|BT-744">Изисква се усъвършенстван или квалифициран електронен подпис или печат (съгласно определенията в Регламент (ЕС) № 910/2014).</entry>
 <entry key="business-term|name|BT-745">Описание</entry>
@@ -289,7 +289,7 @@
 <entry key="business-term|name|BT-756">Поканата за участие в състезателна процедура се прекратява.</entry>
 <entry key="business-term|name|BT-757">Версия на известието</entry>
 <entry key="business-term|name|BT-758">Версия на предишното обявление, което трябва да бъде променено</entry>
-<entry key="business-term|name|BT-759">Anzahl der eingegangenen Angebote oder Teilnahmeanträge</entry>
+<entry key="business-term|name|BT-759">Брой на получените оферти или заявления за участие</entry>
 <entry key="business-term|name|BT-76">Правна форма, която трябва да бъде приета от група оференти, на която е възложена поръчка</entry>
 <entry key="business-term|name|BT-760">Вид на получените заявления</entry>
 <entry key="business-term|name|BT-761">Определена правна форма трябва да бъде приета от група оференти, на която е възложена поръчка.</entry>
