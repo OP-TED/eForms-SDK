@@ -116,7 +116,7 @@
 		This requirement is subject to approval.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cac:RequestedTenderTotal>
-			<cbc:EstimatedOverallContractAmount currencyID="EUR">0000000000</cbc:EstimatedOverallContractAmount>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">0</cbc:EstimatedOverallContractAmount>
 		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">80512000</cbc:ItemClassificationCode>
