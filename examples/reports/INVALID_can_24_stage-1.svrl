@@ -643,14 +643,6 @@ efac:TenderingParty/cbc:ID</svrl:diagnostic-reference>
 cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"/>
-   <svrl:failed-assert id="BR-BT-00150-0101"
-                       location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
-                       role="ERROR"
-                       test="count(for $x in efac:ContractReference/cbc:ID, $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID[. = $x] return $y) = 1">
-      <svrl:text>rule|text|BR-BT-00150-0101</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-150-Contract">
-efac:ContractReference/cbc:ID</svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00316-0101"
                        location="/ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
                        role="ERROR"
