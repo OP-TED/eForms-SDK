@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.14",
-    "createdOn" : "2022-11-10T14:08:37"
+    "version" : "1.3.16",
+    "createdOn" : "2022-11-17T14:17:30"
   },
   "noticeId" : "39",
   "metadata" : [ {
@@ -1602,14 +1602,14 @@
             "id" : "OPT-300-Tenderer",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
-            "description" : "Tenderer ID Reference ",
+            "description" : "Tenderer ID Reference",
             "_label" : "field|name|OPT-300-Tenderer",
             "_idSchemes" : [ "ORG" ]
           }, {
             "id" : "OPT-170-Tenderer",
             "contentType" : "field",
             "displayType" : "RADIO",
-            "description" : "Tendering Party Leader ",
+            "description" : "Tendering Party Leader",
             "_label" : "field|name|OPT-170-Tenderer"
           } ]
         }, {

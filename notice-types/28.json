@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.14",
-    "createdOn" : "2022-11-10T14:08:37"
+    "version" : "1.3.16",
+    "createdOn" : "2022-11-17T14:17:30"
   },
   "noticeId" : "28",
   "metadata" : [ {
@@ -1371,77 +1371,6 @@
         } ]
       } ]
     }, {
-      "id" : "GR-LotResult-Section",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Lot Results",
-      "_label" : "group|name|GR-LotResult-Section",
-      "content" : [ {
-        "id" : "GR-LotResult",
-        "contentType" : "group",
-        "nodeId" : "ND-LotResult",
-        "displayType" : "GROUP",
-        "description" : "Outcome of the Procurement Procedure for a given Lot",
-        "_label" : "group|name|ND-LotResult",
-        "_idScheme" : "RES",
-        "_identifierFieldId" : "OPT-322-LotResult",
-        "_repeatable" : true,
-        "content" : [ {
-          "id" : "OPT-322-LotResult",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "LotResult Technical Identifier",
-          "_label" : "field|name|OPT-322-LotResult",
-          "_idScheme" : "RES",
-          "hidden" : true
-        }, {
-          "id" : "GR-LotResult-1",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "LotResult 1",
-          "_label" : "group|name|GR-LotResult-1",
-          "content" : [ {
-            "id" : "BT-13713-LotResult",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Result Lot Identifier",
-            "_label" : "field|name|BT-13713-LotResult",
-            "_idSchemes" : [ "LOT" ]
-          }, {
-            "id" : "OPT-315-LotResult",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Contract Identifier Reference",
-            "_label" : "field|name|OPT-315-LotResult",
-            "_idSchemes" : [ "CON" ],
-            "_repeatable" : true
-          } ]
-        }, {
-          "id" : "GR-LotResult-Parties",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Parties",
-          "_label" : "group|name|GR-LotResult-Parties",
-          "content" : [ {
-            "id" : "OPT-301-LotResult-Financing",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Financing Party (ID reference)",
-            "_label" : "field|name|OPT-301-LotResult-Financing",
-            "_idSchemes" : [ "ORG" ],
-            "_repeatable" : true
-          }, {
-            "id" : "OPT-301-LotResult-Paying",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Payer Party (ID reference)",
-            "_label" : "field|name|OPT-301-LotResult-Paying",
-            "_idSchemes" : [ "ORG" ],
-            "_repeatable" : true
-          } ]
-        } ]
-      } ]
-    }, {
       "id" : "GR-LotTender-Section",
       "contentType" : "group",
       "displayType" : "SECTION",
@@ -2026,14 +1955,14 @@
             "id" : "OPT-300-Tenderer",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
-            "description" : "Tenderer ID Reference ",
+            "description" : "Tenderer ID Reference",
             "_label" : "field|name|OPT-300-Tenderer",
             "_idSchemes" : [ "ORG" ]
           }, {
             "id" : "OPT-170-Tenderer",
             "contentType" : "field",
             "displayType" : "RADIO",
-            "description" : "Tendering Party Leader ",
+            "description" : "Tendering Party Leader",
             "_label" : "field|name|OPT-170-Tenderer"
           } ]
         }, {

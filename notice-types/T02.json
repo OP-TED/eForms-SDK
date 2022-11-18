@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.14",
-    "createdOn" : "2022-11-10T14:08:37"
+    "version" : "1.3.16",
+    "createdOn" : "2022-11-17T14:17:30"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -359,21 +359,6 @@
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-Procedure-TenderingTerms",
       "content" : [ {
-        "id" : "GR-Procedure-ExclusionGrounds",
-        "contentType" : "group",
-        "nodeId" : "ND-ExclusionGrounds",
-        "displayType" : "GROUP",
-        "description" : "Exclusion Grounds (Code & Description)",
-        "_label" : "group|name|ND-ExclusionGrounds",
-        "_repeatable" : true,
-        "content" : [ {
-          "id" : "BT-67(b)-Procedure",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Exclusion Grounds",
-          "_label" : "field|name|BT-67(b)-Procedure"
-        } ]
-      }, {
         "id" : "GR-Procedure-CrossBorderLaw",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -1030,14 +1015,14 @@
             "id" : "OPT-300-Tenderer",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
-            "description" : "Tenderer ID Reference ",
+            "description" : "Tenderer ID Reference",
             "_label" : "field|name|OPT-300-Tenderer",
             "_idSchemes" : [ "ORG" ]
           }, {
             "id" : "OPT-170-Tenderer",
             "contentType" : "field",
             "displayType" : "RADIO",
-            "description" : "Tendering Party Leader ",
+            "description" : "Tendering Party Leader",
             "_label" : "field|name|OPT-170-Tenderer"
           } ]
         }, {
