@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.14",
-    "createdOn" : "2022-11-10T14:08:37"
+    "version" : "1.3.16",
+    "createdOn" : "2022-11-17T14:17:30"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3831,7 +3831,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SettledContract} ${BT-150-Contract is unique in /BT-150-Contract}",
+        "value" : "{BT-150-Contract} ${BT-150-Contract is unique in /BT-150-Contract}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00150-0101"
       } ]
@@ -22236,7 +22236,7 @@
   }, {
     "id" : "OPT-170-Tenderer",
     "parentNodeId" : "ND-Tenderer",
-    "name" : "Tendering Party Leader ",
+    "name" : "Tendering Party Leader",
     "btId" : "OPT-170",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/efbc:GroupLeadIndicator",
     "xpathRelative" : "efbc:GroupLeadIndicator",
@@ -22561,7 +22561,7 @@
   }, {
     "id" : "OPT-300-Tenderer",
     "parentNodeId" : "ND-Tenderer",
-    "name" : "Tenderer ID Reference ",
+    "name" : "Tenderer ID Reference",
     "btId" : "OPT-300",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID",
     "xpathRelative" : "cbc:ID",

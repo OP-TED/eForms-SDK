@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.3.6 created on the 2022-11-07T11:28:17.-->
+<!--File generated from metadata database version 1.3.16 created on the 2022-11-17T14:17:30.-->
 <pattern id="EFORMS-validation-stage-5" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BR-BT-00002-0100" role="ERROR" diagnostics="BT-02-notice" test="((cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023') and (cbc:NoticeTypeCode/normalize-space(text()) = ('pin-cfc-social','cn-standard','veat','can-standard','can-social'))) or not(cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023')">rule|text|BR-BT-00002-0100</assert>
@@ -555,13 +555,15 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract">
 		<assert id="BR-BT-00145-0100" role="ERROR" diagnostics="BT-145-Contract" test="(cbc:IssueDate/xs:date(text()) &lt; ../../../../../../cbc:IssueDate/xs:date(text())) or not((cbc:IssueDate) and (../../../../../../cbc:IssueDate) and (../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5')))">rule|text|BR-BT-00145-0100</assert>
-		<assert id="BR-BT-00150-0101" role="ERROR" diagnostics="BT-150-Contract" test="count(for $x in efac:ContractReference/cbc:ID, $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID[. = $x] return $y) = 1">rule|text|BR-BT-00150-0101</assert>
 		<assert id="BR-BT-01451-0100" role="ERROR" diagnostics="BT-1451-Contract" test="(cbc:AwardDate/xs:date(text()) &lt; cbc:IssueDate/xs:date(text())) or not((cbc:AwardDate) and (cbc:IssueDate))">rule|text|BR-BT-01451-0100</assert>
 		<assert id="BR-BT-01451-0101" role="ERROR" diagnostics="BT-1451-Contract" test="(cbc:AwardDate/xs:date(text()) &lt; ../../../../../../cbc:IssueDate/xs:date(text())) or not((cbc:AwardDate) and (../../../../../../cbc:IssueDate))">rule|text|BR-BT-01451-0101</assert>
 		<assert id="BR-BT-03202-0100" role="ERROR" diagnostics="BT-3202-Contract" test="(every $tender in efac:LotTender/cbc:ID satisfies ($tender = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID)) or not(efac:LotTender/cbc:ID)">rule|text|BR-BT-03202-0100</assert>
 		<assert id="BR-OPT-00300-0252" role="ERROR" diagnostics="OPT-300-Contract-Signatory" test="(every $signatory in cac:SignatoryParty/cac:PartyIdentification/cbc:ID satisfies ($signatory = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID)) or not(cac:SignatoryParty/cac:PartyIdentification/cbc:ID)">rule|text|BR-OPT-00300-0252</assert>
 		<assert id="BR-OPT-00316-0100" role="ERROR" diagnostics="OPT-316-Contract" test="count(for $x in cbc:ID, $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID[. = $x] return $y) = 1">rule|text|BR-OPT-00316-0100</assert>
 		<assert id="BR-OPT-00316-0101" role="ERROR" diagnostics="OPT-316-Contract" test="(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:SettledContract/cbc:ID)">rule|text|BR-OPT-00316-0101</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID">
+		<assert id="BR-BT-00150-0101" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID[. = $x] return $y) = 1">rule|text|BR-BT-00150-0101</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty">
 		<assert id="BR-OPT-00210-0100" role="ERROR" diagnostics="OPT-210-Tenderer" test="count(for $x in cbc:ID, $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID[. = $x] return $y) = 1">rule|text|BR-OPT-00210-0100</assert>
