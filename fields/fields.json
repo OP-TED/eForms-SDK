@@ -246,6 +246,12 @@
     "xpathRelative" : "cac:OpenTenderEvent",
     "repeatable" : false
   }, {
+    "id" : "ND-PublicOpeningPlace",
+    "parentId" : "ND-PublicOpening",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cac:OccurenceLocation",
+    "xpathRelative" : "cac:OccurenceLocation",
+    "repeatable" : false
+  }, {
     "id" : "ND-ParticipationRequestPeriod",
     "parentId" : "ND-LotTenderingProcess",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod",
@@ -2954,12 +2960,12 @@
     }
   }, {
     "id" : "BT-133-Lot",
-    "parentNodeId" : "ND-PublicOpening",
+    "parentNodeId" : "ND-PublicOpeningPlace",
     "name" : "Public Opening Place",
     "btId" : "BT-133",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cac:OccurenceLocation/cbc:Description",
-    "xpathRelative" : "cac:OccurenceLocation/cbc:Description",
-    "type" : "text",
+    "xpathRelative" : "cbc:Description",
+    "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 1000,
     "repeatable" : {
