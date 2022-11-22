@@ -1198,6 +1198,12 @@
     "repeatable" : true,
     "identifierFieldId" : "OPT-321-Tender"
   }, {
+    "id" : "ND-LotTenderPaidAmounts",
+    "parentId" : "ND-LotTender",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts",
+    "xpathRelative" : "efac:AggregatedAmounts",
+    "repeatable" : false
+  }, {
     "id" : "ND-TenderAggregatedAmounts",
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts",
@@ -19482,12 +19488,12 @@
     }
   }, {
     "id" : "BT-780-Tender",
-    "parentNodeId" : "ND-LotTender",
+    "parentNodeId" : "ND-LotTenderPaidAmounts",
     "name" : "Tender Payment Value Additional Information",
     "btId" : "BT-780",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PaidAmountDescription",
-    "xpathRelative" : "efac:AggregatedAmounts/efbc:PaidAmountDescription",
-    "type" : "text",
+    "xpathRelative" : "efbc:PaidAmountDescription",
+    "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "repeatable" : {
