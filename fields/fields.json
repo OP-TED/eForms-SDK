@@ -14824,15 +14824,15 @@
     }
   }, {
     "id" : "BT-531-Part",
-    "parentNodeId" : "ND-PartAdditionalNature",
+    "parentNodeId" : "ND-PartProcurementScope",
     "name" : "Additional Nature (different from Main)",
     "btId" : "BT-531",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']",
-    "xpathRelative" : "cbc:ProcurementTypeCode[@listName='contract-nature']",
+    "xpathRelative" : "cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : false,
+      "value" : true,
       "severity" : "ERROR"
     },
     "forbidden" : {
