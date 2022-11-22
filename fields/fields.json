@@ -21761,12 +21761,12 @@
     }
   }, {
     "id" : "OPT-092-ReviewBody",
-    "parentNodeId" : "ND-ReviewStatus",
+    "parentNodeId" : "ND-AppealProcessingParty",
     "name" : "Review Body Type Description",
     "btId" : "OPT-092",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription",
-    "xpathRelative" : "efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription",
-    "type" : "text",
+    "xpathRelative" : "efbc:AppealProcessingPartyTypeDescription",
+    "type" : "text-multilingual",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
