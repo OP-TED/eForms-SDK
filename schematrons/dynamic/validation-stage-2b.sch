@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.3.13 created on the 2022-11-10T13:56:32.-->
+<!--File generated from metadata database version 1.3.31 created on the 2022-11-22T15:25:26.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -239,10 +239,14 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent">
 		<assert id="BT-132_d_-Lot_R" role="ERROR" diagnostics="BT-132_d_-Lot" test="count(cbc:OccurrenceDate) &lt; 2">rule|text|BT-132_d_-Lot_R</assert>
 		<assert id="BT-132_t_-Lot_R" role="ERROR" diagnostics="BT-132_t_-Lot" test="count(cbc:OccurrenceTime) &lt; 2">rule|text|BT-132_t_-Lot_R</assert>
-		<assert id="BT-133-Lot_R" role="ERROR" diagnostics="BT-133-Lot" test="count(cac:OccurenceLocation/cbc:Description) &lt; 2">rule|text|BT-133-Lot_R</assert>
 		<assert id="BT-134-Lot_A" role="ERROR" diagnostics="BT-134-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-134-Lot_A</assert>
 		<assert id="BT-134-Lot_B" role="ERROR" diagnostics="BT-134-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-134-Lot_B</assert>
 		<assert id="BT-134-Lot_C" role="ERROR" diagnostics="BT-134-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-134-Lot_C</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cac:OccurenceLocation">
+		<assert id="BT-133-Lot_A" role="ERROR" diagnostics="BT-133-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-133-Lot_A</assert>
+		<assert id="BT-133-Lot_B" role="ERROR" diagnostics="BT-133-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-133-Lot_B</assert>
+		<assert id="BT-133-Lot_C" role="ERROR" diagnostics="BT-133-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-133-Lot_C</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification">
 		<assert id="BT-19-Lot_R" role="ERROR" diagnostics="BT-19-Lot" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &lt; 2">rule|text|BT-19-Lot_R</assert>
@@ -271,9 +275,6 @@
 		<assert id="BT-736-Lot_R" role="ERROR" diagnostics="BT-736-Lot" test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']) &lt; 2">rule|text|BT-736-Lot_R</assert>
 		<assert id="BT-743-Lot_R" role="ERROR" diagnostics="BT-743-Lot" test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']) &lt; 2">rule|text|BT-743-Lot_R</assert>
 		<assert id="BT-744-Lot_R" role="ERROR" diagnostics="BT-744-Lot" test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='esignature-submission']) &lt; 2">rule|text|BT-744-Lot_R</assert>
-		<assert id="BT-75-Lot_A" role="ERROR" diagnostics="BT-75-Lot" test="count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-75-Lot_A</assert>
-		<assert id="BT-75-Lot_B" role="ERROR" diagnostics="BT-75-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description/@languageID = $lg) or count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) = 0">rule|text|BT-75-Lot_B</assert>
-		<assert id="BT-75-Lot_C" role="ERROR" diagnostics="BT-75-Lot" test="(every $lg in (cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description) = 0">rule|text|BT-75-Lot_C</assert>
 		<assert id="BT-751-Lot_R" role="ERROR" diagnostics="ND-LotTenderingTerms_BT-751-Lot" test="count(cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']) &lt; 2">rule|text|BT-751-Lot_R</assert>
 		<assert id="BT-761-Lot_R" role="ERROR" diagnostics="ND-LotTenderingTerms_BT-761-Lot" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode) &lt; 2">rule|text|BT-761-Lot_R</assert>
 		<assert id="BT-764-Lot_R" role="ERROR" diagnostics="BT-764-Lot" test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']) &lt; 2">rule|text|BT-764-Lot_R</assert>
@@ -303,10 +304,14 @@
 		<assert id="BT-65-Lot_R" role="ERROR" diagnostics="BT-65-Lot" test="count(cbc:SubcontractingConditionsCode) &lt; 2">rule|text|BT-65-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms">
-		<assert id="BT-99-Lot_R" role="ERROR" diagnostics="BT-99-Lot" test="count(cac:PresentationPeriod/cbc:Description) &lt; 2">rule|text|BT-99-Lot_R</assert>
 		<assert id="OPT-301-Lot-Mediator_R" role="ERROR" diagnostics="OPT-301-Lot-Mediator" test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-Lot-Mediator_R</assert>
 		<assert id="OPT-301-Lot-ReviewInfo_R" role="ERROR" diagnostics="OPT-301-Lot-ReviewInfo" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-Lot-ReviewInfo_R</assert>
 		<assert id="OPT-301-Lot-ReviewOrg_R" role="ERROR" diagnostics="OPT-301-Lot-ReviewOrg" test="count(cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-Lot-ReviewOrg_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod">
+		<assert id="BT-99-Lot_A" role="ERROR" diagnostics="BT-99-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-99-Lot_A</assert>
+		<assert id="BT-99-Lot_B" role="ERROR" diagnostics="BT-99-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-99-Lot_B</assert>
+		<assert id="BT-99-Lot_C" role="ERROR" diagnostics="BT-99-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-99-Lot_C</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms">
 		<assert id="BT-120-Lot_R" role="ERROR" diagnostics="BT-120-Lot" test="count(cbc:NoFurtherNegotiationIndicator) &lt; 2">rule|text|BT-120-Lot_R</assert>
@@ -474,6 +479,11 @@
 		<assert id="BT-92-Lot_R" role="ERROR" diagnostics="BT-92-Lot" test="count(cbc:ElectronicOrderUsageIndicator) &lt; 2">rule|text|BT-92-Lot_R</assert>
 		<assert id="BT-93-Lot_R" role="ERROR" diagnostics="BT-93-Lot" test="count(cbc:ElectronicPaymentUsageIndicator) &lt; 2">rule|text|BT-93-Lot_R</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:RequiredFinancialGuarantee">
+		<assert id="BT-75-Lot_A" role="ERROR" diagnostics="BT-75-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-75-Lot_A</assert>
+		<assert id="BT-75-Lot_B" role="ERROR" diagnostics="BT-75-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-75-Lot_B</assert>
+		<assert id="BT-75-Lot_C" role="ERROR" diagnostics="BT-75-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-75-Lot_C</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:SecurityClearanceTerm">
 		<assert id="BT-578-Lot_R" role="ERROR" diagnostics="BT-578-Lot" test="count(cbc:Code) &lt; 2">rule|text|BT-578-Lot_R</assert>
 		<assert id="BT-732-Lot_A" role="ERROR" diagnostics="BT-732-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-732-Lot_A</assert>
@@ -490,6 +500,9 @@
 		<assert id="BT-772-Lot_A" role="ERROR" diagnostics="BT-772-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-772-Lot_A</assert>
 		<assert id="BT-772-Lot_B" role="ERROR" diagnostics="BT-772-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-772-Lot_B</assert>
 		<assert id="BT-772-Lot_C" role="ERROR" diagnostics="BT-772-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-772-Lot_C</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']">
+		<assert id="BT-71-Lot_R" role="ERROR" diagnostics="BT-71-Lot" test="count(cbc:TendererRequirementTypeCode[@listName='reserved-procurement']) &lt; 2">rule|text|BT-71-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding">
 		<assert id="BT-5010-Lot_R" role="ERROR" diagnostics="BT-5010-Lot" test="count(efbc:FinancingIdentifier) &lt; 2">rule|text|BT-5010-Lot_R</assert>
@@ -669,9 +682,6 @@
 		<assert id="BT-537-Part_R" role="ERROR" diagnostics="BT-537-Part" test="count(cbc:EndDate) &lt; 2">rule|text|BT-537-Part_R</assert>
 		<assert id="BT-538-Part_R" role="ERROR" diagnostics="BT-538-Part" test="count(cbc:DescriptionCode) &lt; 2">rule|text|BT-538-Part_R</assert>
 		<assert id="OPA-36-Part-Number_R" role="ERROR" diagnostics="OPA-36-Part-Number" test="count(cbc:DurationMeasure) &lt; 2">rule|text|OPA-36-Part-Number_R</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType">
-		<assert id="BT-531-Part_R" role="ERROR" diagnostics="BT-531-Part" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) &lt; 2">rule|text|BT-531-Part_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RealizedLocation">
 		<assert id="BT-5071-Part_R" role="ERROR" diagnostics="ND-PartPlacePerformance_BT-5071-Part" test="count(cac:Address/cbc:CountrySubentityCode) &lt; 2">rule|text|BT-5071-Part_R</assert>
@@ -853,11 +863,13 @@
 		<assert id="BT-198_BT-09_-Procedure_R" role="ERROR" diagnostics="BT-198_BT-09_-Procedure" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-09_-Procedure_R</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']">
+		<assert id="BT-01_e_-Procedure_R" role="ERROR" diagnostics="BT-01_e_-Procedure" test="count(cbc:ID[text()='LocalLegalBasis']) &lt; 2">rule|text|BT-01_e_-Procedure_R</assert>
 		<assert id="BT-01_f_-Procedure_A" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">rule|text|BT-01_f_-Procedure_A</assert>
 		<assert id="BT-01_f_-Procedure_B" role="ERROR" diagnostics="BT-01_f_-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:DocumentDescription/@languageID = $lg) or count(cbc:DocumentDescription) = 0">rule|text|BT-01_f_-Procedure_B</assert>
 		<assert id="BT-01_f_-Procedure_C" role="ERROR" diagnostics="BT-01_f_-Procedure" test="(every $lg in (cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:DocumentDescription) = 0">rule|text|BT-01_f_-Procedure_C</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]">
+		<assert id="BT-01_c_-Procedure_R" role="ERROR" diagnostics="BT-01_c_-Procedure" test="count(cbc:ID[not(text()=('CrossBorderLaw','LocalLegalBasis'))]) &lt; 2">rule|text|BT-01_c_-Procedure_R</assert>
 		<assert id="BT-01_d_-Procedure_A" role="ERROR" diagnostics="BT-01_d_-Procedure" test="count(cbc:DocumentDescription[@languageID = preceding-sibling::cbc:DocumentDescription/@languageID]) = 0">rule|text|BT-01_d_-Procedure_A</assert>
 		<assert id="BT-01_d_-Procedure_B" role="ERROR" diagnostics="BT-01_d_-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:DocumentDescription/@languageID = $lg) or count(cbc:DocumentDescription) = 0">rule|text|BT-01_d_-Procedure_B</assert>
 		<assert id="BT-01_d_-Procedure_C" role="ERROR" diagnostics="BT-01_d_-Procedure" test="(every $lg in (cbc:DocumentDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:DocumentDescription) = 0">rule|text|BT-01_d_-Procedure_C</assert>
@@ -902,8 +914,12 @@
 		<assert id="BT-798-Review_B" role="ERROR" diagnostics="BT-798-Review" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:WithdrawnAppealReasons/@languageID = $lg) or count(efbc:WithdrawnAppealReasons) = 0">rule|text|BT-798-Review_B</assert>
 		<assert id="BT-798-Review_C" role="ERROR" diagnostics="BT-798-Review" test="(every $lg in (efbc:WithdrawnAppealReasons/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:WithdrawnAppealReasons) = 0">rule|text|BT-798-Review_C</assert>
 		<assert id="BT-799-ReviewBody_R" role="ERROR" diagnostics="ND-ReviewStatus_BT-799-ReviewBody" test="count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode) &lt; 2">rule|text|BT-799-ReviewBody_R</assert>
-		<assert id="OPT-092-ReviewBody_R" role="ERROR" diagnostics="OPT-092-ReviewBody" test="count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription) &lt; 2">rule|text|OPT-092-ReviewBody_R</assert>
 		<assert id="OPT-301-ReviewBody_R" role="ERROR" diagnostics="ND-ReviewStatus_OPT-301-ReviewBody" test="count(efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-ReviewBody_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty">
+		<assert id="OPT-092-ReviewBody_A" role="ERROR" diagnostics="OPT-092-ReviewBody" test="count(efbc:AppealProcessingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealProcessingPartyTypeDescription/@languageID]) = 0">rule|text|OPT-092-ReviewBody_A</assert>
+		<assert id="OPT-092-ReviewBody_B" role="ERROR" diagnostics="OPT-092-ReviewBody" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:AppealProcessingPartyTypeDescription/@languageID = $lg) or count(efbc:AppealProcessingPartyTypeDescription) = 0">rule|text|OPT-092-ReviewBody_B</assert>
+		<assert id="OPT-092-ReviewBody_C" role="ERROR" diagnostics="OPT-092-ReviewBody" test="(every $lg in (efbc:AppealProcessingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:AppealProcessingPartyTypeDescription) = 0">rule|text|OPT-092-ReviewBody_C</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty">
 		<assert id="OPT-091-ReviewReq_R" role="ERROR" diagnostics="OPT-091-ReviewReq" test="count(efbc:AppealingPartyTypeCode) &lt; 2">rule|text|OPT-091-ReviewReq_R</assert>
@@ -1125,12 +1141,16 @@
 		<assert id="BT-3201-Tender_R" role="ERROR" diagnostics="BT-3201-Tender" test="count(efac:TenderReference/cbc:ID) &lt; 2">rule|text|BT-3201-Tender_R</assert>
 		<assert id="BT-720-Tender_R" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &lt; 2">rule|text|BT-720-Tender_R</assert>
 		<assert id="BT-779-Tender_R" role="ERROR" diagnostics="ND-LotTender_BT-779-Tender" test="count(efac:AggregatedAmounts/cbc:PaidAmount) &lt; 2">rule|text|BT-779-Tender_R</assert>
-		<assert id="BT-780-Tender_R" role="ERROR" diagnostics="BT-780-Tender" test="count(efac:AggregatedAmounts/efbc:PaidAmountDescription) &lt; 2">rule|text|BT-780-Tender_R</assert>
 		<assert id="BT-782-Tender_R" role="ERROR" diagnostics="ND-LotTender_BT-782-Tender" test="count(efac:AggregatedAmounts/efbc:PenaltiesAmount) &lt; 2">rule|text|BT-782-Tender_R</assert>
 		<assert id="OPP-033-Tender_R" role="ERROR" diagnostics="ND-LotTender_OPP-033-Tender" test="count(efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']/efbc:TermCode) &lt; 2">rule|text|OPP-033-Tender_R</assert>
 		<assert id="OPP-080-Tender_R" role="ERROR" diagnostics="OPP-080-Tender" test="count(efbc:PublicTransportationCumulatedDistance) &lt; 2">rule|text|OPP-080-Tender_R</assert>
 		<assert id="OPT-310-Tender_R" role="ERROR" diagnostics="OPT-310-Tender" test="count(efac:TenderingParty/cbc:ID) &lt; 2">rule|text|OPT-310-Tender_R</assert>
 		<assert id="OPT-321-Tender_R" role="ERROR" diagnostics="OPT-321-Tender" test="count(cbc:ID) &lt; 2">rule|text|OPT-321-Tender_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts">
+		<assert id="BT-780-Tender_A" role="ERROR" diagnostics="BT-780-Tender" test="count(efbc:PaidAmountDescription[@languageID = preceding-sibling::efbc:PaidAmountDescription/@languageID]) = 0">rule|text|BT-780-Tender_A</assert>
+		<assert id="BT-780-Tender_B" role="ERROR" diagnostics="BT-780-Tender" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:PaidAmountDescription/@languageID = $lg) or count(efbc:PaidAmountDescription) = 0">rule|text|BT-780-Tender_B</assert>
+		<assert id="BT-780-Tender_C" role="ERROR" diagnostics="BT-780-Tender" test="(every $lg in (efbc:PaidAmountDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:PaidAmountDescription) = 0">rule|text|BT-780-Tender_C</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue">
 		<assert id="BT-160-Tender_R" role="ERROR" diagnostics="BT-160-Tender" test="count(efbc:RevenueBuyerAmount) &lt; 2">rule|text|BT-160-Tender_R</assert>
@@ -1388,6 +1408,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms/cbc:Description">
 		<assert id="BT-122-Lot_D" role="ERROR" test="@languageID">rule|text|BT-122-Lot_D</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cac:OccurenceLocation/cbc:Description">
+		<assert id="BT-133-Lot_D" role="ERROR" test="@languageID">rule|text|BT-133-Lot_D</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cbc:Description">
 		<assert id="BT-134-Lot_D" role="ERROR" test="@languageID">rule|text|BT-134-Lot_D</assert>
@@ -1686,7 +1709,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:Name">
 		<assert id="BT-749-Lot_D" role="ERROR" test="@languageID">rule|text|BT-749-Lot_D</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:RequiredFinancialGuarantee/cbc:Description">
 		<assert id="BT-75-Lot_D" role="ERROR" test="@languageID">rule|text|BT-75-Lot_D</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:Description">
@@ -1710,6 +1733,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='strategic-procurement']/cbc:ProcurementType">
 		<assert id="BT-777-Lot_D" role="ERROR" test="@languageID">rule|text|BT-777-Lot_D</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PaidAmountDescription">
+		<assert id="BT-780-Tender_D" role="ERROR" test="@languageID">rule|text|BT-780-Tender_D</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:Description">
 		<assert id="BT-781-Lot_D" role="ERROR" test="@languageID">rule|text|BT-781-Lot_D</assert>
 	</rule>
@@ -1731,6 +1757,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:RecurringProcurementDescription">
 		<assert id="BT-95-Lot_D" role="ERROR" test="@languageID">rule|text|BT-95-Lot_D</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description">
+		<assert id="BT-99-Lot_D" role="ERROR" test="@languageID">rule|text|BT-99-Lot_D</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[not(efbc:TermCode/text()='all-rev-tic')][efbc:TermCode/@listName='contract-detail']/efbc:TermDescription">
 		<assert id="OPP-031-Tender_D" role="ERROR" test="@languageID">rule|text|OPP-031-Tender_D</assert>
 	</rule>
@@ -1745,6 +1774,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='customer-service']/cbc:Description">
 		<assert id="OPT-072-Lot_D" role="ERROR" test="@languageID">rule|text|OPT-072-Lot_D</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription">
+		<assert id="OPT-092-ReviewBody_D" role="ERROR" test="@languageID">rule|text|OPT-092-ReviewBody_D</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/efbc:AppealingPartyTypeDescription">
 		<assert id="OPT-092-ReviewReq_D" role="ERROR" test="@languageID">rule|text|OPT-092-ReviewReq_D</assert>
