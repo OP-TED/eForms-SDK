@@ -510,6 +510,12 @@
     "xpathRelative" : "cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]",
     "repeatable" : false
   }, {
+    "id" : "ND-LotReservedProcurement",
+    "parentId" : "ND-LotReservedParticipation",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']",
+    "xpathRelative" : "cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']",
+    "repeatable" : true
+  }, {
     "id" : "ND-LateTendererInformation",
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement[not(cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]",
@@ -810,7 +816,7 @@
     "parentId" : "ND-PartReservedParticipation",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']",
     "xpathRelative" : "cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']",
-    "repeatable" : false
+    "repeatable" : true
   }, {
     "id" : "ND-SenderContact",
     "parentId" : "ND-Root",
@@ -16984,15 +16990,15 @@
     }
   }, {
     "id" : "BT-71-Lot",
-    "parentNodeId" : "ND-LotReservedParticipation",
+    "parentNodeId" : "ND-LotReservedProcurement",
     "name" : "Reserved Participation",
     "btId" : "BT-71",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']",
-    "xpathRelative" : "cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']",
+    "xpathRelative" : "cbc:TendererRequirementTypeCode[@listName='reserved-procurement']",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
