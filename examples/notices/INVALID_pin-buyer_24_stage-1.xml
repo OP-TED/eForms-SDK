@@ -39,7 +39,7 @@
 	<cac:ProcurementProject>
 
 		<cac:MainCommodityClassification>
-
+			<cbc:ItemClassificationCode listName=""></cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 </PriorInformationNotice>
