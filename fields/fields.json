@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.16",
-    "createdOn" : "2022-11-17T14:17:30"
+    "version" : "1.3.28",
+    "createdOn" : "2022-11-21T12:38:08"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -322,6 +322,12 @@
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms",
     "xpathRelative" : "cac:AppealTerms",
+    "repeatable" : false
+  }, {
+    "id" : "ND-ReviewPresentationPeriod",
+    "parentId" : "ND-LotReviewTerms",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod",
+    "xpathRelative" : "cac:PresentationPeriod",
     "repeatable" : false
   }, {
     "id" : "ND-AwardingTerms",
@@ -20369,12 +20375,12 @@
     }
   }, {
     "id" : "BT-99-Lot",
-    "parentNodeId" : "ND-LotReviewTerms",
+    "parentNodeId" : "ND-ReviewPresentationPeriod",
     "name" : "Review Deadline Description",
     "btId" : "BT-99",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description",
-    "xpathRelative" : "cac:PresentationPeriod/cbc:Description",
-    "type" : "text",
+    "xpathRelative" : "cbc:Description",
+    "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "repeatable" : {
