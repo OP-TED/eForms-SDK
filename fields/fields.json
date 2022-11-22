@@ -18482,11 +18482,11 @@
     }
   }, {
     "id" : "BT-75-Lot",
-    "parentNodeId" : "ND-LotTenderingTerms",
+    "parentNodeId" : "ND-FinancialGuarantee",
     "name" : "Guarantee Required Description",
     "btId" : "BT-75",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description",
-    "xpathRelative" : "cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:RequiredFinancialGuarantee/cbc:Description",
+    "xpathRelative" : "cbc:Description",
     "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
