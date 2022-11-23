@@ -277,6 +277,12 @@
     "description" : "List of country codes allowed in eforms",
     "_label" : "codelist|name|eforms-country"
   }, {
+    "id" : "eforms-currency",
+    "parentId" : "currency",
+    "filename" : "currency_eforms-currency.gc",
+    "description" : "List of currency codes allowed in eforms",
+    "_label" : "codelist|name|eforms-currency"
+  }, {
     "id" : "eforms-language",
     "parentId" : "language",
     "filename" : "language_eforms-language.gc",
