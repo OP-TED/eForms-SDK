@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.3.0",
+  "sdkVersion" : "1.4.0",
   "metadataDatabase" : {
-    "version" : "1.3.0",
-    "createdOn" : "2022-11-03T17:46:06"
+    "version" : "1.3.46",
+    "createdOn" : "2022-11-23T14:15:14"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -258,6 +258,12 @@
     "filename" : "country_eea-country.gc",
     "description" : "List of codes of the European Economic Area countries",
     "_label" : "codelist|name|eea-country"
+  }, {
+    "id" : "eforms-buyer-legal-type",
+    "parentId" : "buyer-legal-type",
+    "filename" : "buyer-legal-type_eforms-buyer-legal-type.gc",
+    "description" : "List of buyer-legal-type codes allowed in eforms",
+    "_label" : "codelist|name|eforms-buyer-legal-type"
   }, {
     "id" : "eforms-contract-nature",
     "parentId" : "contract-nature",
