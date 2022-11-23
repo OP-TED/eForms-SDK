@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.16",
-    "createdOn" : "2022-11-17T14:17:30"
+    "version" : "1.3.48",
+    "createdOn" : "2022-11-23T16:59:21"
   },
   "noticeId" : "28",
   "metadata" : [ {
@@ -253,8 +253,7 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (ID)",
-          "_label" : "field|name|BT-01(c)-Procedure",
-          "_repeatable" : true
+          "_label" : "field|name|BT-01(c)-Procedure"
         }, {
           "id" : "GR-Procedure-LocalLegalBasisWithID",
           "contentType" : "group",
