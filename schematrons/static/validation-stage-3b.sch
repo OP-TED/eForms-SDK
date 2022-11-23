@@ -425,6 +425,12 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']/cbc:ReasonCode">
 		<assert id="BR-BT-00197-3755" role="ERROR" test="normalize-space(.) = ('eo-int', 'fair-comp', 'law-enf', 'oth-int', 'rd-ser')">rule|text|BR-BT-00197-3755</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-cou']/cbc:ReasonCode">
+		<assert id="BR-BT-00197-4075" role="ERROR" test="normalize-space(.) = ('eo-int', 'fair-comp', 'law-enf', 'oth-int', 'rd-ser')">rule|text|BR-BT-00197-4075</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-typ']/cbc:ReasonCode">
+		<assert id="BR-BT-00197-4076" role="ERROR" test="normalize-space(.) = ('eo-int', 'fair-comp', 'law-enf', 'oth-int', 'rd-ser')">rule|text|BR-BT-00197-4076</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:ChangeReason/cbc:ReasonCode">
 		<assert id="BR-BT-00200-0052" role="ERROR" test="normalize-space(.) = ('add-wss', 'mod-cir', 'mod-minv', 'mod-nons', 'mod-repl', 'mod-rev', 'other')">rule|text|BR-BT-00200-0052</assert>
 	</rule>

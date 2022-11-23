@@ -8424,6 +8424,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-197(BT-636)-LotResult",
@@ -8446,6 +8453,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-197(BT-709)-LotResult",
@@ -16440,6 +16454,13 @@
     "xpathRelative" : "efbc:StatisticsNumeric",
     "type" : "number",
     "legalType" : "NUMBER",
+    "privacy" : {
+      "code" : "buy-rev-cou",
+      "unpublishedFieldId" : "BT-195(BT-635)-LotResult",
+      "reasonCodeFieldId" : "BT-197(BT-635)-LotResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-635)-LotResult",
+      "publicationDateFieldId" : "BT-198(BT-635)-LotResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -16462,6 +16483,13 @@
     "xpathRelative" : "efbc:StatisticsCode",
     "type" : "code",
     "legalType" : "CODE",
+    "privacy" : {
+      "code" : "buy-rev-typ",
+      "unpublishedFieldId" : "BT-195(BT-636)-LotResult",
+      "reasonCodeFieldId" : "BT-197(BT-636)-LotResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-636)-LotResult",
+      "publicationDateFieldId" : "BT-198(BT-636)-LotResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
