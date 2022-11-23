@@ -2138,6 +2138,13 @@
     "xpathRelative" : "efbc:OverallApproximateFrameworkContractsAmount",
     "type" : "amount",
     "legalType" : "VALUE",
+    "privacy" : {
+      "code" : "not-app-val",
+      "unpublishedFieldId" : "BT-195(BT-1118)-NoticeResult",
+      "reasonCodeFieldId" : "BT-197(BT-1118)-NoticeResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-1118)-NoticeResult",
+      "publicationDateFieldId" : "BT-198(BT-1118)-NoticeResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -3996,6 +4003,13 @@
     "xpathRelative" : "efbc:GroupFrameworkReestimatedValueAmount",
     "type" : "amount",
     "legalType" : "VALUE",
+    "privacy" : {
+      "code" : "not-ree-val",
+      "unpublishedFieldId" : "BT-195(BT-1561)-NoticeResult",
+      "reasonCodeFieldId" : "BT-197(BT-1561)-NoticeResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-1561)-NoticeResult",
+      "publicationDateFieldId" : "BT-198(BT-1561)-NoticeResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
