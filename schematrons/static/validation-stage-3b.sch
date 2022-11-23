@@ -3,7 +3,7 @@
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
-		<assert id="BR-BT-00001-0155" role="ERROR" test="normalize-space(.) = ('1995_499-XIII', '2011CEB_PROC_EXT', '2014CEB_PROC_INT', '2020CEB_GRANT', '31985R2137', '31992L0013', '31994D0001', '31994D0800', '32001R2157', '32002D0309', '32002R2342', '32003R1435', '32004L0017', '32004L0018', '32005D0015', '32007D0005_01', '32007L0066', '32007R0718', '32007R1370', '32008E0124', '32008R1008', '32009L0081', '32012R0966', '32012R1268', '32013L0016', '32014D0115', '32014D0486', '32014D0691', '32014L0023', '32014L0024', '32014L0025', '32014R0230', '32014R0231', '32014R0232', '32014R0233', '32014R0236', '32014R0237', '32015R0323', '32016D0002', '32017D2263', '32018R1046', '32019D0312', 'C2019_3277', 'C2019_5515', 'CFSP2017_34', 'other')">rule|text|BR-BT-00001-0155</assert>
+		<assert id="BR-BT-00001-0155" role="ERROR" test="normalize-space(.) = ('31985R2137', '32001R2157', '32003R1435', '32007R1370', '32009L0081', '32014L0023', '32014L0024', '32014L0025', '32018R1046', 'other')">rule|text|BR-BT-00001-0155</assert>
 	</rule>
 	<rule context="/*/cbc:NoticeTypeCode">
 		<assert id="BR-BT-00002-0052" role="ERROR" test="normalize-space(.) = ('brin-ecs', 'brin-eeig', 'can-desg', 'can-modif', 'can-social', 'can-standard', 'can-tran', 'cn-desg', 'cn-social', 'cn-standard', 'corr', 'pin-buyer', 'pin-cfc-social', 'pin-cfc-standard', 'pin-only', 'pin-rtl', 'pin-tran', 'qu-sy', 'subco', 'veat')">rule|text|BR-BT-00002-0052</assert>
