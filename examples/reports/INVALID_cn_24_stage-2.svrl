@@ -569,7 +569,7 @@
    <svrl:failed-assert id="BR-BT-00011-0052"
                        location="/ContractNotice/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode"
                        role="ERROR"
-                       test="normalize-space(.) = ('body-pl', 'body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'eu-int-org', 'grp-p-aut', 'int-org', 'la', 'org-sub', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'rl-aut', 'spec-rights-entity')">
+                       test="normalize-space(.) = ('body-pl', 'body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'grp-p-aut', 'int-org', 'la', 'org-sub', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'spec-rights-entity')">
       <svrl:text>rule|text|BR-BT-00011-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>

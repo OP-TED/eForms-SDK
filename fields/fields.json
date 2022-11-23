@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.3.2",
+  "sdkVersion" : "eforms-sdk-1.4.0",
   "metadataDatabase" : {
-    "version" : "1.3.30",
-    "createdOn" : "2022-11-21T18:12:06"
+    "version" : "1.3.45",
+    "createdOn" : "2022-11-23T13:33:05"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -2100,8 +2100,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "buyer-legal-type",
-        "type" : "flat"
+        "id" : "eforms-buyer-legal-type",
+        "type" : "flat",
+        "parentId" : "buyer-legal-type"
       },
       "severity" : "ERROR"
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.3.31 created on the 2022-11-22T15:25:26.-->
+<!--File generated from metadata database version 1.3.45 created on the 2022-11-23T13:33:05.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -18,7 +18,7 @@
 		<assert id="BR-BT-00010-0052" role="ERROR" test="normalize-space(.) = ('defence', 'econ-aff', 'education', 'env-pro', 'gen-pub', 'hc-am', 'health', 'pub-os', 'rcr', 'soc-pro')">rule|text|BR-BT-00010-0052</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']">
-		<assert id="BR-BT-00011-0052" role="ERROR" test="normalize-space(.) = ('body-pl', 'body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'eu-int-org', 'grp-p-aut', 'int-org', 'la', 'org-sub', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'rl-aut', 'spec-rights-entity')">rule|text|BR-BT-00011-0052</assert>
+		<assert id="BR-BT-00011-0052" role="ERROR" test="normalize-space(.) = ('body-pl', 'body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'grp-p-aut', 'int-org', 'la', 'org-sub', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'spec-rights-entity')">rule|text|BR-BT-00011-0052</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType">
 		<assert id="BR-BT-00014-0103" role="ERROR" test="normalize-space(.) = ('non-restricted-document', 'restricted-document')">rule|text|BR-BT-00014-0103</assert>
