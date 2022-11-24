@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.16",
-    "createdOn" : "2022-11-17T14:17:30"
+    "version" : "1.3.50",
+    "createdOn" : "2022-11-24T12:02:54"
   },
   "noticeId" : "30",
   "metadata" : [ {
@@ -236,34 +236,46 @@
           "_label" : "field|name|BT-01-notice"
         } ]
       }, {
-        "id" : "GR-Procedure-LocalCrossBorderLaw",
+        "id" : "GR-Procedure-LocalLegalBasisWithID",
         "contentType" : "group",
-        "nodeId" : "ND-CrossBorderLaw",
+        "nodeId" : "ND-LocalLegalBasisWithID",
         "displayType" : "GROUP",
-        "description" : "Cross Border Law",
-        "_label" : "group|name|ND-CrossBorderLaw",
+        "description" : "Legislation impacting the procurement and for which an ID is known",
+        "_label" : "group|name|ND-LocalLegalBasisWithID",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01(c)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (ID)",
-          "_label" : "field|name|BT-01(c)-Procedure",
-          "_repeatable" : true
+          "_label" : "field|name|BT-01(c)-Procedure"
         }, {
-          "id" : "GR-Procedure-LocalLegalBasisWithID",
-          "contentType" : "group",
-          "nodeId" : "ND-LocalLegalBasisWithID",
-          "displayType" : "GROUP",
-          "description" : "Legislation impacting the procurement and for which an ID is known",
-          "_label" : "group|name|ND-LocalLegalBasisWithID",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-01(d)-Procedure",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Procedure Legal Basis (Description)",
-            "_label" : "field|name|BT-01(d)-Procedure"
-          } ]
+          "id" : "BT-01(d)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Procedure Legal Basis (Description)",
+          "_label" : "field|name|BT-01(d)-Procedure"
+        } ]
+      }, {
+        "id" : "GR-Procedure-LocalLegalBasisNoID",
+        "contentType" : "group",
+        "nodeId" : "ND-LocalLegalBasisNoID",
+        "displayType" : "GROUP",
+        "description" : "Legislation impacting the procurement and for which no ID is known",
+        "_label" : "group|name|ND-LocalLegalBasisNoID",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-01(e)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Procedure Legal Basis (NoID)",
+          "_label" : "field|name|BT-01(e)-Procedure"
+        }, {
+          "id" : "BT-01(f)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Procedure Legal Basis (NoID Description)",
+          "_label" : "field|name|BT-01(f)-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-Description",
