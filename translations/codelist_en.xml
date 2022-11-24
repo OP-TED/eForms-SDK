@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>codelist in English. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>codelist in English. File generated from metadata database version 1.3.46 created on the 2022-11-23T14:15:14</comment>
 <entry key="codelist|name|accelerated-procedure">List of codes to specify whether a procedure is accelerated or not.</entry>
 <entry key="codelist|name|accessibility">This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.</entry>
 <entry key="codelist|name|applicability">This table provides a list of the options pertinent to be chosen for a matter concerning the applicability of predefined fields. It is designed for but not restricted to the context of public procurement.</entry>
@@ -48,8 +48,10 @@
 <entry key="codelist|name|ecatalog-submission">List of codes to specify whether the submission of electronic catalogues is allowed or not.</entry>
 <entry key="codelist|name|economic-operator-size">This table provides the different categories in which the tenderers to whom a contract can be awarded are classified, according to their size (using as criteria the number of employees).</entry>
 <entry key="codelist|name|eea-country">List of codes of the European Economic Area countries</entry>
+<entry key="codelist|name|eforms-buyer-legal-type">List of buyer-legal-type codes allowed in eforms</entry>
 <entry key="codelist|name|eforms-contract-nature">List of eforms allowed codes to specify the main and additional natures of a purchase</entry>
 <entry key="codelist|name|eforms-country">List of country codes allowed in eforms</entry>
+<entry key="codelist|name|eforms-currency">List of currency codes allowed in eforms</entry>
 <entry key="codelist|name|eforms-language">List of language codes allowed in eforms</entry>
 <entry key="codelist|name|eforms-legal-basis">List of Legal Basis codes allowed in eForms</entry>
 <entry key="codelist|name|einvoicing">List of codes to specify whether the use of electronic invoicing is allowed or not.</entry>

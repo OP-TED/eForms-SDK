@@ -74,7 +74,6 @@
                        test="count(efac:Organizations) &gt; 0">
       <svrl:text>rule|text|ND-Organizations-16</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:failed-assert id="ND-ProcedureMainClassification-16"
                        location="/ContractNotice/cac:ProcurementProject"

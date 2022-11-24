@@ -68,7 +68,6 @@
                        test="count(efac:Organizations) &gt; 0">
       <svrl:text>rule|text|ND-Organizations-4</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-2a" name="EFORMS-validation-stage-2a"/>
    <svrl:fired-rule context="/*[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-BT-00005-0059"

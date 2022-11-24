@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in English. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>code in English. File generated from metadata database version 1.3.46 created on the 2022-11-23T14:15:14</comment>
 <entry key="code|name|accessibility.inc">Accessibility criteria for persons with disabilities are included</entry>
 <entry key="code|name|accessibility.n-inc">Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons</entry>
 <entry key="code|name|accessibility.n-inc-just">Accessibility criteria for persons with disabilities are not included with the following justification</entry>
@@ -18755,9 +18755,11 @@
 <entry key="code|name|non-publication-identifier.gro-max-val">Group Maximum Value (BT-156)</entry>
 <entry key="code|name|non-publication-identifier.max-val">Maximum Value (BT-709)</entry>
 <entry key="code|name|non-publication-identifier.no-awa-rea">Not Awarded Reason (BT-144)</entry>
+<entry key="code|name|non-publication-identifier.not-app-val">Notice Framework Approximate Value (BT-1118)</entry>
 <entry key="code|name|non-publication-identifier.not-dis-dat">Notice Dispatch Date (BT-05)</entry>
 <entry key="code|name|non-publication-identifier.not-max-val">Notice Maximum Value (BT-118)</entry>
 <entry key="code|name|non-publication-identifier.not-pub-dat">Notice Publication Date Preferred (BT-738)</entry>
+<entry key="code|name|non-publication-identifier.not-ree-val">Group Framework Re-estimated Value (BT-1561)</entry>
 <entry key="code|name|non-publication-identifier.not-val">Notice Value (BT-161)</entry>
 <entry key="code|name|non-publication-identifier.pro-acc">Procedure Accelerated (BT-106)</entry>
 <entry key="code|name|non-publication-identifier.pro-acc-jus">Procedure Accelerated Justification (BT-1351)</entry>
