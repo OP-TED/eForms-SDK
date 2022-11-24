@@ -1,6 +1,6 @@
 // View X02
-// sdkVersion='1.3.2'
-// File generated from metadata database version 1.3.14 created on the 2022-11-10T14:08:37
+// sdkVersion='1.4.0'
+// File generated from metadata database version 1.3.49 created on the 2022-11-23T23:20:44
 9 {ND-Root} #{auxiliary|text|object} // --- 9 Object ---
 	0 {ND-Root} #{auxiliary|text|legal-basis} // --- Legal basis ---
 		{BT-01-notice} #{BT-01-notice}
@@ -36,8 +36,8 @@
 		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}  // Notice identifier / version
 		{BT-03-notice} #{name|BT-03}: #{BT-03-notice}  // Form type
 		{BT-02-notice} #{name|BT-02}: #{BT-02-notice} // Notice type
-		{OPP-070-notice} #{name|OPP-070}: ${OPP-070-notice}
-		{OPP-131-Business} #{name|OPP-131}: ${OPP-131-Business}
+		{OPP-070-notice} #{name|OPP-070}: ${OPP-070-notice} // Notice subtype
+		{OPP-131-Business} #{name|OPP-131}: ${OPP-131-Business} // Sender's email address
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice} // Notice dispatch date and time
 		{BT-702(a)-notice} #{name|BT-702}: #{BT-702(a)-notice} #{BT-702(b)-notice} // Languages in which this notice is officially available
 	2 {ND-Root} #{auxiliary|text|publication-information} // 11.2 Publication information
