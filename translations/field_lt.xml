@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Lithuanian. File generated from metadata database version 1.3.10 created on the 2022-11-09T15:29:52</comment>
+<comment>field in Lithuanian. File generated from metadata database version 1.3.49 created on the 2022-11-23T23:20:44</comment>
+<entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
+<entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
+<entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
+<entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|name|BT-01(c)-Procedure">Procedūros teisinis pagrindas (ELI – CELEX)</entry>
 <entry key="field|name|BT-01(d)-Procedure">Procedūros teisinis pagrindas (aprašas)</entry>
 <entry key="field|name|BT-01(e)-Procedure">Teisinis pagrindas</entry>
@@ -707,36 +711,36 @@
 <entry key="field|name|OPT-201-Organization-TouchPoint">Touchpoint technical identifier</entry>
 <entry key="field|name|OPT-202-UBO">Beneficial owner technical identifier</entry>
 <entry key="field|name|OPT-210-Tenderer">Tendering party ID</entry>
-<entry key="field|name|OPT-300-Contract-Signatory">Signatory Identifier Reference</entry>
-<entry key="field|name|OPT-300-Procedure-Buyer">Buyer Technical Identifier Reference</entry>
-<entry key="field|name|OPT-300-Procedure-SProvider">Service Provider Technical Identifier Reference</entry>
-<entry key="field|name|OPT-300-Tenderer">Tenderer ID Reference</entry>
-<entry key="field|name|OPT-301-Lot-AddInfo">Additional Info Provider Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-DocProvider">Document Provider Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-EmployLegis">Employment Legislation Organization Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-EnvironLegis">Environmental Legislation Organization Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-FiscalLegis">Fiscal Legislation Organization Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-Mediator">Mediator Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-ReviewInfo">Review Info Provider Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-ReviewOrg">Review Organization Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-TenderEval">Tender Evaluator Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Lot-TenderReceipt">Tender Recipient Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-LotResult-Financing">Financing Party (ID reference)</entry>
-<entry key="field|name|OPT-301-LotResult-Paying">Payer Party (ID reference)</entry>
-<entry key="field|name|OPT-301-Part-AddInfo">Additional Info Provider Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-DocProvider">Document Provider Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-EmployLegis">Employment Legislation Organization Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-EnvironLegis">Environmental Legislation Organization Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-FiscalLegis">Fiscal Legislation Organization Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-Mediator">Mediator Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-ReviewInfo">Review Info Provider Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-ReviewOrg">Review Organization Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-TenderEval">Tender Evaluator Technical Identifier Reference</entry>
-<entry key="field|name|OPT-301-Part-TenderReceipt">Tender Recipient Technical Identifier Reference</entry>
+<entry key="field|name|OPT-300-Contract-Signatory">ID – Pasirašiusysis asmuo</entry>
+<entry key="field|name|OPT-300-Procedure-Buyer">ID – Pirkėjas</entry>
+<entry key="field|name|OPT-300-Procedure-SProvider">ID – paslaugų teikėjas</entry>
+<entry key="field|name|OPT-300-Tenderer">ID – Konkurso dalyvis</entry>
+<entry key="field|name|OPT-301-Lot-AddInfo">ID – papildomos informacijos teikėjas</entry>
+<entry key="field|name|OPT-301-Lot-DocProvider">ID – dokumentų teikėjas</entry>
+<entry key="field|name|OPT-301-Lot-EmployLegis">ID – informacijos apie užimtumo teisės aktus teikėjas</entry>
+<entry key="field|name|OPT-301-Lot-EnvironLegis">ID – informacijos apie aplinkos teisės aktus teikėjas</entry>
+<entry key="field|name|OPT-301-Lot-FiscalLegis">ID – informacijos apie mokesčių teisės aktus teikėjas</entry>
+<entry key="field|name|OPT-301-Lot-Mediator">ID – Tarpininkas</entry>
+<entry key="field|name|OPT-301-Lot-ReviewInfo">ID – Peržiūros informacijos teikėjas</entry>
+<entry key="field|name|OPT-301-Lot-ReviewOrg">ID – peržiūros organizacija</entry>
+<entry key="field|name|OPT-301-Lot-TenderEval">ID – pasiūlymo vertintojas</entry>
+<entry key="field|name|OPT-301-Lot-TenderReceipt">ID – pasiūlymo gavėjas</entry>
+<entry key="field|name|OPT-301-LotResult-Financing">ID – Finansavimo šalis</entry>
+<entry key="field|name|OPT-301-LotResult-Paying">ID – mokėjimo šalis</entry>
+<entry key="field|name|OPT-301-Part-AddInfo">ID – papildomos informacijos teikėjas</entry>
+<entry key="field|name|OPT-301-Part-DocProvider">ID – dokumentų teikėjas</entry>
+<entry key="field|name|OPT-301-Part-EmployLegis">ID – informacijos apie užimtumo teisės aktus teikėjas</entry>
+<entry key="field|name|OPT-301-Part-EnvironLegis">ID – informacijos apie aplinkos teisės aktus teikėjas</entry>
+<entry key="field|name|OPT-301-Part-FiscalLegis">ID – informacijos apie mokesčių teisės aktus teikėjas</entry>
+<entry key="field|name|OPT-301-Part-Mediator">ID – Tarpininkas</entry>
+<entry key="field|name|OPT-301-Part-ReviewInfo">ID – Peržiūros informacijos teikėjas</entry>
+<entry key="field|name|OPT-301-Part-ReviewOrg">ID – peržiūros organizacija</entry>
+<entry key="field|name|OPT-301-Part-TenderEval">ID – pasiūlymo vertintojas</entry>
+<entry key="field|name|OPT-301-Part-TenderReceipt">ID – pasiūlymo gavėjas</entry>
 <entry key="field|name|OPT-301-ReviewBody">Organisation touchpoint ID</entry>
 <entry key="field|name|OPT-301-ReviewReq">Organisation touchpoint ID</entry>
-<entry key="field|name|OPT-301-Tenderer-MainCont">Main Contractor ID Reference</entry>
-<entry key="field|name|OPT-301-Tenderer-SubCont">Subcontractor ID Reference</entry>
+<entry key="field|name|OPT-301-Tenderer-MainCont">ID – pagrindinis rangovas</entry>
+<entry key="field|name|OPT-301-Tenderer-SubCont">ID – Subrangovas</entry>
 <entry key="field|name|OPT-302-Organization">Beneficial owner reference</entry>
 <entry key="field|name|OPT-310-Tender">Tendering party ID reference</entry>
 <entry key="field|name|OPT-315-LotResult">Contract identifier reference</entry>
