@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in German. File generated from metadata database version 1.3.49 created on the 2022-11-23T23:20:44</comment>
+<comment>field in German. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -487,7 +487,7 @@
 <entry key="field|name|BT-6140-Lot">Weitere Informationen über das Programm oder Projekt der Union, das die Auftragsvergabe zumindest teilweise finanziert</entry>
 <entry key="field|name|BT-615-Lot">Informationen über zugangsbeschränkte Dokumente einsehbar unter</entry>
 <entry key="field|name|BT-615-Part">Informationen über zugangsbeschränkte Dokumente einsehbar unter</entry>
-<entry key="field|name|BT-625-Lot">Jednotka</entry>
+<entry key="field|name|BT-625-Lot">Einheit</entry>
 <entry key="field|name|BT-63-Lot">Varianten</entry>
 <entry key="field|name|BT-630(d)-Lot">Frist für den Eingang der Interessenbekundungen</entry>
 <entry key="field|name|BT-630(t)-Lot">Frist für den Eingang der Interessenbekundungen</entry>
@@ -680,37 +680,37 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Provided service type</entry>
 <entry key="field|name|OPT-050-Lot">Document status</entry>
 <entry key="field|name|OPT-050-Part">Document status</entry>
-<entry key="field|name|OPT-070-Lot">Die Erbringung der Dienstleistung ist einem bestimmten Beruf vorbehalten. Verweis auf die einschlägigen Rechts- und Verwaltungsvorschriften oder Verwaltungsverfahren</entry>
+<entry key="field|name|OPT-070-Lot">Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure</entry>
 <entry key="field|name|OPT-071-Lot">Quality target code</entry>
 <entry key="field|name|OPT-072-Lot">Quality target description</entry>
 <entry key="field|name|OPT-090-Lot">Buyer categories</entry>
 <entry key="field|name|OPT-091-ReviewReq">Review requester type</entry>
 <entry key="field|name|OPT-092-ReviewBody">Review body type description</entry>
 <entry key="field|name|OPT-092-ReviewReq">Review body type description</entry>
-<entry key="field|name|OPT-100-Contract">Framework notice identifier</entry>
-<entry key="field|name|OPT-110-Lot-FiscalLegis">Notice publication ID</entry>
-<entry key="field|name|OPT-110-Part-FiscalLegis">Notice publication ID</entry>
-<entry key="field|name|OPT-111-Lot-FiscalLegis">Tax legislation document ID</entry>
-<entry key="field|name|OPT-111-Part-FiscalLegis">Tax legislation document ID</entry>
-<entry key="field|name|OPT-112-Lot-EnvironLegis">Environmental legislation document ID</entry>
-<entry key="field|name|OPT-112-Part-EnvironLegis">Environmental legislation document ID</entry>
-<entry key="field|name|OPT-113-Lot-EmployLegis">Employment legislation document ID</entry>
-<entry key="field|name|OPT-113-Part-EmployLegis">Employment legislation document ID</entry>
+<entry key="field|name|OPT-100-Contract">ID – Framework notice</entry>
+<entry key="field|name|OPT-110-Lot-FiscalLegis">ID – Notice publication</entry>
+<entry key="field|name|OPT-110-Part-FiscalLegis">ID – Notice publication</entry>
+<entry key="field|name|OPT-111-Lot-FiscalLegis">ID – Tax legislation document</entry>
+<entry key="field|name|OPT-111-Part-FiscalLegis">ID – Tax legislation document</entry>
+<entry key="field|name|OPT-112-Lot-EnvironLegis">ID – Environmental legislation document</entry>
+<entry key="field|name|OPT-112-Part-EnvironLegis">ID – Environmental legislation document</entry>
+<entry key="field|name|OPT-113-Lot-EmployLegis">ID – Employment legislation document</entry>
+<entry key="field|name|OPT-113-Part-EmployLegis">ID – Employment legislation document</entry>
 <entry key="field|name|OPT-120-Lot-EnvironLegis">URL to environmental legislation</entry>
 <entry key="field|name|OPT-120-Part-EnvironLegis">URL to environmental legislation</entry>
 <entry key="field|name|OPT-130-Lot-EmployLegis">URL to employment legislation</entry>
 <entry key="field|name|OPT-130-Part-EmployLegis">URL to employment legislation</entry>
-<entry key="field|name|OPT-140-Lot">Procurement documents ID</entry>
-<entry key="field|name|OPT-140-Part">Procurement documents ID</entry>
+<entry key="field|name|OPT-140-Lot">ID – Procurement documents</entry>
+<entry key="field|name|OPT-140-Part">ID – Procurement documents</entry>
 <entry key="field|name|OPT-150-Lot">Die Vergabe von Unteraufträgen ist zulässig.</entry>
 <entry key="field|name|OPT-155-LotResult">Vehicle type</entry>
 <entry key="field|name|OPT-156-LotResult">Vehicle numeric</entry>
 <entry key="field|name|OPT-160-UBO">Concession revenue buyer</entry>
-<entry key="field|name|OPT-170-Tenderer">Tendering party leader</entry>
-<entry key="field|name|OPT-200-Organization-Company">Company technical identifier</entry>
-<entry key="field|name|OPT-201-Organization-TouchPoint">Touchpoint technical identifier</entry>
-<entry key="field|name|OPT-202-UBO">Beneficial owner technical identifier</entry>
-<entry key="field|name|OPT-210-Tenderer">Tendering party ID</entry>
+<entry key="field|name|OPT-170-Tenderer">Leader of tendering party</entry>
+<entry key="field|name|OPT-200-Organization-Company">ID – Company</entry>
+<entry key="field|name|OPT-201-Organization-TouchPoint">ID – Touchpoint</entry>
+<entry key="field|name|OPT-202-UBO">ID – Beneficial owner</entry>
+<entry key="field|name|OPT-210-Tenderer">ID – Tendering party</entry>
 <entry key="field|name|OPT-300-Contract-Signatory">ID – Vertragsunterzeichner</entry>
 <entry key="field|name|OPT-300-Procedure-Buyer">ID – Käufer</entry>
 <entry key="field|name|OPT-300-Procedure-SProvider">ID – Dienstleister</entry>
@@ -737,16 +737,16 @@
 <entry key="field|name|OPT-301-Part-ReviewOrg">ID – Überprüfungsorganisation</entry>
 <entry key="field|name|OPT-301-Part-TenderEval">ID – Bewerter des Angebots</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">ID – Empfänger des Angebots</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organisation touchpoint ID</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organisation touchpoint ID</entry>
+<entry key="field|name|OPT-301-ReviewBody">ID – Organisation contact point</entry>
+<entry key="field|name|OPT-301-ReviewReq">ID – Organisation contact point</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">ID – Hauptauftragnehmer</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">ID – Unterauftragnehmer</entry>
 <entry key="field|name|OPT-302-Organization">Beneficial owner reference</entry>
-<entry key="field|name|OPT-310-Tender">Tendering party ID reference</entry>
-<entry key="field|name|OPT-315-LotResult">Contract identifier reference</entry>
-<entry key="field|name|OPT-316-Contract">Contract technical ID</entry>
+<entry key="field|name|OPT-310-Tender">ID – Tendering party</entry>
+<entry key="field|name|OPT-315-LotResult">ID – Contract</entry>
+<entry key="field|name|OPT-316-Contract">ID – Contract</entry>
 <entry key="field|name|OPT-320-LotResult">Tender identifier reference</entry>
-<entry key="field|name|OPT-321-Tender">Tender technical identifier</entry>
-<entry key="field|name|OPT-322-LotResult">Lotresult technical identifier</entry>
+<entry key="field|name|OPT-321-Tender">ID – Tender</entry>
+<entry key="field|name|OPT-322-LotResult">ID – Lot result</entry>
 <entry key="field|name|OPT-999">Dummy tender award date</entry>
 </properties>

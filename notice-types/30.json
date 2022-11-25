@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.3.2",
+  "sdkVersion" : "1.4.0",
   "metadataDatabase" : {
-    "version" : "1.3.50",
-    "createdOn" : "2022-11-24T12:02:54"
+    "version" : "1.4.0",
+    "createdOn" : "2022-11-25T09:30:00"
   },
   "noticeId" : "30",
   "metadata" : [ {
@@ -2837,11 +2837,77 @@
             "description" : "Buyer Review Requests Irregularity Type",
             "_label" : "field|name|BT-636-LotResult"
           }, {
+            "id" : "GR-Unpublish-BT-636-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-ReviewRequestsStatisticsTypeUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (RevewRequests irregularity type )",
+            "_label" : "group|name|ND-ReviewRequestsStatisticsTypeUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-636)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-636)-LotResult"
+            }, {
+              "id" : "BT-196(BT-636)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-636)-LotResult"
+            }, {
+              "id" : "BT-197(BT-636)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-636)-LotResult"
+            }, {
+              "id" : "BT-198(BT-636)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-636)-LotResult"
+            } ]
+          }, {
             "id" : "BT-635-LotResult",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
             "description" : "Buyer Review Requests Count",
             "_label" : "field|name|BT-635-LotResult"
+          }, {
+            "id" : "GR-Unpublish-BT-635-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-ReviewRequestsStatisticsCountUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (RevewRequests irregularity count )",
+            "_label" : "group|name|ND-ReviewRequestsStatisticsCountUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-635)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-635)-LotResult"
+            }, {
+              "id" : "BT-196(BT-635)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-635)-LotResult"
+            }, {
+              "id" : "BT-197(BT-635)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-635)-LotResult"
+            }, {
+              "id" : "BT-198(BT-635)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-635)-LotResult"
+            } ]
           } ]
         }, {
           "id" : "GR-LotResult-ReviewComplainants",
