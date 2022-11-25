@@ -1,6 +1,6 @@
 // View T02
 // sdkVersion='1.4.0'
-// File generated from metadata database version 1.3.52 created on the 2022-11-24T16:52:33
+// File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30
 1 {ND-Root} #{auxiliary|text|buyer-competent} // --- 1 Competent authority ---
 	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer-competent}
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
