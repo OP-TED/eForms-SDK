@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.4.0",
+  "sdkVersion" : "eforms-sdk-1.4.1",
   "metadataDatabase" : {
-    "version" : "1.4.0",
-    "createdOn" : "2022-11-25T09:30:00"
+    "version" : "1.4.3",
+    "createdOn" : "2022-11-28T11:14:04"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -5578,6 +5578,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-identifier",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-195(BT-636)-LotResult",
@@ -5600,6 +5607,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-identifier",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-195(BT-709)-LotResult",
