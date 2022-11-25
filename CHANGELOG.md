@@ -1,8 +1,8 @@
 # SDK 1.4.0 Release Notes
 
-This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.2.0 should also be able to use this version.
+This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.3.0 should also be able to use this version.
 
-This version brings various changes in the metadata content:
+This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency:
 
 * Two tailored codelists specific to eForms were added, and codes were added in one codelist.
 * Schematron rules were added and updated.
