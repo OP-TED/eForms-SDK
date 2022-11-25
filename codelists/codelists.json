@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.3.0",
+  "sdkVersion" : "1.4.0",
   "metadataDatabase" : {
-    "version" : "1.3.0",
-    "createdOn" : "2022-11-03T17:46:06"
+    "version" : "1.4.0",
+    "createdOn" : "2022-11-25T09:30:00"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -259,6 +259,12 @@
     "description" : "List of codes of the European Economic Area countries",
     "_label" : "codelist|name|eea-country"
   }, {
+    "id" : "eforms-buyer-legal-type",
+    "parentId" : "buyer-legal-type",
+    "filename" : "buyer-legal-type_eforms-buyer-legal-type.gc",
+    "description" : "List of buyer-legal-type codes allowed in eforms",
+    "_label" : "codelist|name|eforms-buyer-legal-type"
+  }, {
     "id" : "eforms-contract-nature",
     "parentId" : "contract-nature",
     "filename" : "contract-nature_eforms-contract-nature.gc",
@@ -270,6 +276,12 @@
     "filename" : "country_eforms-country.gc",
     "description" : "List of country codes allowed in eforms",
     "_label" : "codelist|name|eforms-country"
+  }, {
+    "id" : "eforms-currency",
+    "parentId" : "currency",
+    "filename" : "currency_eforms-currency.gc",
+    "description" : "List of currency codes allowed in eforms",
+    "_label" : "codelist|name|eforms-currency"
   }, {
     "id" : "eforms-language",
     "parentId" : "language",

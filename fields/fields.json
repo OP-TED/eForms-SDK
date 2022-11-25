@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.3.2",
+  "sdkVersion" : "eforms-sdk-1.4.0",
   "metadataDatabase" : {
-    "version" : "1.3.14",
-    "createdOn" : "2022-11-10T14:08:37"
+    "version" : "1.4.0",
+    "createdOn" : "2022-11-25T09:30:00"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -246,6 +246,12 @@
     "xpathRelative" : "cac:OpenTenderEvent",
     "repeatable" : false
   }, {
+    "id" : "ND-PublicOpeningPlace",
+    "parentId" : "ND-PublicOpening",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cac:OccurenceLocation",
+    "xpathRelative" : "cac:OccurenceLocation",
+    "repeatable" : false
+  }, {
     "id" : "ND-ParticipationRequestPeriod",
     "parentId" : "ND-LotTenderingProcess",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod",
@@ -316,6 +322,12 @@
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms",
     "xpathRelative" : "cac:AppealTerms",
+    "repeatable" : false
+  }, {
+    "id" : "ND-ReviewPresentationPeriod",
+    "parentId" : "ND-LotReviewTerms",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod",
+    "xpathRelative" : "cac:PresentationPeriod",
     "repeatable" : false
   }, {
     "id" : "ND-AwardingTerms",
@@ -509,6 +521,12 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]",
     "xpathRelative" : "cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]",
     "repeatable" : false
+  }, {
+    "id" : "ND-LotReservedProcurement",
+    "parentId" : "ND-LotReservedParticipation",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']",
+    "xpathRelative" : "cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']",
+    "repeatable" : true
   }, {
     "id" : "ND-LateTendererInformation",
     "parentId" : "ND-LotTenderingTerms",
@@ -810,7 +828,7 @@
     "parentId" : "ND-PartReservedParticipation",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']",
     "xpathRelative" : "cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']",
-    "repeatable" : false
+    "repeatable" : true
   }, {
     "id" : "ND-SenderContact",
     "parentId" : "ND-Root",
@@ -1180,6 +1198,12 @@
     "repeatable" : true,
     "identifierFieldId" : "OPT-321-Tender"
   }, {
+    "id" : "ND-LotTenderPaidAmounts",
+    "parentId" : "ND-LotTender",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts",
+    "xpathRelative" : "efac:AggregatedAmounts",
+    "repeatable" : false
+  }, {
     "id" : "ND-TenderAggregatedAmounts",
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts",
@@ -1433,15 +1457,15 @@
   } ],
   "fields" : [ {
     "id" : "BT-01(c)-Procedure",
-    "parentNodeId" : "ND-ProcedureTerms",
+    "parentNodeId" : "ND-LocalLegalBasisWithID",
     "name" : "Procedure Legal Basis (ID)",
     "btId" : "BT-01",
-    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID[not(text()=('CrossBorderLaw','LocalLegalBasis'))]",
-    "xpathRelative" : "cac:ProcurementLegislationDocumentReference/cbc:ID[not(text()=('CrossBorderLaw','LocalLegalBasis'))]",
+    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]/cbc:ID[not(text()=('CrossBorderLaw','LocalLegalBasis'))]",
+    "xpathRelative" : "cbc:ID[not(text()=('CrossBorderLaw','LocalLegalBasis'))]",
     "type" : "id",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -1478,15 +1502,15 @@
     }
   }, {
     "id" : "BT-01(e)-Procedure",
-    "parentNodeId" : "ND-ProcedureTerms",
+    "parentNodeId" : "ND-LocalLegalBasisNoID",
     "name" : "Procedure Legal Basis (NoID)",
     "btId" : "BT-01",
-    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID[text()='LocalLegalBasis']",
-    "xpathRelative" : "cac:ProcurementLegislationDocumentReference/cbc:ID[text()='LocalLegalBasis']",
+    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:ID[text()='LocalLegalBasis']",
+    "xpathRelative" : "cbc:ID[text()='LocalLegalBasis']",
     "type" : "id",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -1545,7 +1569,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "legal-basis",
+        "id" : "eforms-legal-basis",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -2076,8 +2100,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "buyer-legal-type",
-        "type" : "flat"
+        "id" : "eforms-buyer-legal-type",
+        "type" : "flat",
+        "parentId" : "buyer-legal-type"
       },
       "severity" : "ERROR"
     }
@@ -2113,6 +2138,13 @@
     "xpathRelative" : "efbc:OverallApproximateFrameworkContractsAmount",
     "type" : "amount",
     "legalType" : "VALUE",
+    "privacy" : {
+      "code" : "not-app-val",
+      "unpublishedFieldId" : "BT-195(BT-1118)-NoticeResult",
+      "reasonCodeFieldId" : "BT-197(BT-1118)-NoticeResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-1118)-NoticeResult",
+      "publicationDateFieldId" : "BT-198(BT-1118)-NoticeResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -2948,12 +2980,12 @@
     }
   }, {
     "id" : "BT-133-Lot",
-    "parentNodeId" : "ND-PublicOpening",
+    "parentNodeId" : "ND-PublicOpeningPlace",
     "name" : "Public Opening Place",
     "btId" : "BT-133",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cac:OccurenceLocation/cbc:Description",
-    "xpathRelative" : "cac:OccurenceLocation/cbc:Description",
-    "type" : "text",
+    "xpathRelative" : "cbc:Description",
+    "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 1000,
     "repeatable" : {
@@ -3141,7 +3173,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0207"
       }, {
-        "condition" : "{ND-Lot} ${(OPP-070-notice in ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5'))}",
+        "condition" : "{ND-Lot} ${(OPP-070-notice in ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5')) and BT-13713-LotResult is present}",
         "value" : "{ND-Lot} ${(BT-137-Lot in BT-13713-LotResult)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0209"
@@ -3831,7 +3863,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SettledContract} ${BT-150-Contract is unique in /BT-150-Contract}",
+        "value" : "{BT-150-Contract} ${BT-150-Contract is unique in /BT-150-Contract}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00150-0101"
       } ]
@@ -3971,6 +4003,13 @@
     "xpathRelative" : "efbc:GroupFrameworkReestimatedValueAmount",
     "type" : "amount",
     "legalType" : "VALUE",
+    "privacy" : {
+      "code" : "not-ree-val",
+      "unpublishedFieldId" : "BT-195(BT-1561)-NoticeResult",
+      "reasonCodeFieldId" : "BT-197(BT-1561)-NoticeResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-1561)-NoticeResult",
+      "publicationDateFieldId" : "BT-198(BT-1561)-NoticeResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -4433,7 +4472,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4462,7 +4501,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4491,7 +4530,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4520,7 +4559,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4549,7 +4588,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4578,7 +4617,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4607,7 +4646,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4636,7 +4675,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4665,7 +4704,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4694,7 +4733,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4723,7 +4762,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4752,7 +4791,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4781,7 +4820,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4810,7 +4849,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4839,7 +4878,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4868,7 +4907,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4897,7 +4936,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4926,7 +4965,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4984,7 +5023,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5013,7 +5052,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5042,7 +5081,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5071,7 +5110,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5100,7 +5139,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5129,7 +5168,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5158,7 +5197,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5187,7 +5226,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5216,7 +5255,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5245,7 +5284,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5274,7 +5313,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5303,7 +5342,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5332,7 +5371,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5361,7 +5400,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5390,7 +5429,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5419,7 +5458,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5448,7 +5487,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5477,7 +5516,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5506,7 +5545,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5579,7 +5618,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5666,7 +5705,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5695,7 +5734,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5724,7 +5763,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5753,7 +5792,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5782,7 +5821,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5811,7 +5850,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5840,7 +5879,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5869,7 +5908,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5898,7 +5937,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5927,7 +5966,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5956,7 +5995,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5985,7 +6024,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6015,7 +6054,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6038,7 +6077,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6061,7 +6100,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6084,7 +6123,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6107,7 +6146,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6130,7 +6169,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6153,7 +6192,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6176,7 +6215,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6199,7 +6238,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6222,7 +6261,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6245,7 +6284,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6268,7 +6307,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6291,7 +6330,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6314,7 +6353,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6337,7 +6376,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6360,7 +6399,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6383,7 +6422,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6406,7 +6445,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6452,7 +6491,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6475,7 +6514,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6498,7 +6537,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6521,7 +6560,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6544,7 +6583,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6567,7 +6606,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6590,7 +6629,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6613,7 +6652,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6636,7 +6675,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6659,7 +6698,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6682,7 +6721,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6705,7 +6744,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6728,7 +6767,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6751,7 +6790,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6774,7 +6813,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6797,7 +6836,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6820,7 +6859,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6843,7 +6882,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6866,7 +6905,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6935,7 +6974,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7004,7 +7043,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7027,7 +7066,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7050,7 +7089,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7073,7 +7112,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7096,7 +7135,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7119,7 +7158,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7142,7 +7181,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7165,7 +7204,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7188,7 +7227,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7211,7 +7250,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7234,7 +7273,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7257,7 +7296,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7279,7 +7318,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7308,7 +7347,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7337,7 +7376,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7366,7 +7405,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7395,7 +7434,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7424,7 +7463,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7453,7 +7492,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7482,7 +7521,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7511,7 +7550,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7540,7 +7579,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7569,7 +7608,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7598,7 +7637,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7627,7 +7666,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7656,7 +7695,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7685,7 +7724,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7714,7 +7753,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7743,7 +7782,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7772,7 +7811,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7830,7 +7869,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7859,7 +7898,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7888,7 +7927,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7917,7 +7956,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7946,7 +7985,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7975,7 +8014,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8004,7 +8043,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8033,7 +8072,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8062,7 +8101,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8091,7 +8130,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8120,7 +8159,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8149,7 +8188,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8178,7 +8217,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8207,7 +8246,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8236,7 +8275,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8265,7 +8304,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8294,7 +8333,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8323,7 +8362,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8352,7 +8391,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8385,6 +8424,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-197(BT-636)-LotResult",
@@ -8407,6 +8453,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-197(BT-709)-LotResult",
@@ -8425,7 +8478,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8512,7 +8565,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8541,7 +8594,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8570,7 +8623,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8599,7 +8652,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8628,7 +8681,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8657,7 +8710,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8686,7 +8739,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8715,7 +8768,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8744,7 +8797,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8773,7 +8826,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8802,7 +8855,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8831,7 +8884,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8860,7 +8913,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8899,7 +8952,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8938,7 +8991,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8977,7 +9030,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9012,7 +9065,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9051,7 +9104,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9090,7 +9143,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9129,7 +9182,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9168,7 +9221,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9207,7 +9260,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9246,7 +9299,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9285,7 +9338,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9324,7 +9377,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9363,7 +9416,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9402,7 +9455,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9441,7 +9494,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9480,7 +9533,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "29", "30", "31", "33", "34", "36", "37", "38", "39", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9519,7 +9572,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9597,7 +9650,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9636,7 +9689,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9675,7 +9728,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9714,7 +9767,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9753,7 +9806,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9792,7 +9845,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9831,7 +9884,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9870,7 +9923,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9909,7 +9962,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9948,7 +10001,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9987,7 +10040,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10026,7 +10079,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10065,7 +10118,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10104,7 +10157,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10143,7 +10196,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10182,7 +10235,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10221,7 +10274,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10260,7 +10313,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10299,7 +10352,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10382,7 +10435,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10499,7 +10552,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10538,7 +10591,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10577,7 +10630,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10616,7 +10669,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10655,7 +10708,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10694,7 +10747,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10733,7 +10786,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10772,7 +10825,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10811,7 +10864,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10850,7 +10903,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10889,7 +10942,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10928,7 +10981,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "31", "32", "33", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -14818,15 +14871,15 @@
     }
   }, {
     "id" : "BT-531-Part",
-    "parentNodeId" : "ND-PartAdditionalNature",
+    "parentNodeId" : "ND-PartProcurementScope",
     "name" : "Additional Nature (different from Main)",
     "btId" : "BT-531",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']",
-    "xpathRelative" : "cbc:ProcurementTypeCode[@listName='contract-nature']",
+    "xpathRelative" : "cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : false,
+      "value" : true,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -16164,7 +16217,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "9", "15", "16", "17", "18", "19", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "15", "16", "17", "18", "19", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -16173,7 +16226,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "8", "10", "11", "12", "13", "14", "CEI" ],
+        "noticeTypes" : [ "10", "11", "12", "13", "14", "CEI" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -16209,7 +16262,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "9", "15", "16", "17", "18", "19", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "15", "16", "17", "18", "19", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -16218,7 +16271,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "8", "10", "11", "12", "13", "14", "CEI" ],
+        "noticeTypes" : [ "10", "11", "12", "13", "14", "CEI" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -16401,6 +16454,13 @@
     "xpathRelative" : "efbc:StatisticsNumeric",
     "type" : "number",
     "legalType" : "NUMBER",
+    "privacy" : {
+      "code" : "buy-rev-cou",
+      "unpublishedFieldId" : "BT-195(BT-635)-LotResult",
+      "reasonCodeFieldId" : "BT-197(BT-635)-LotResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-635)-LotResult",
+      "publicationDateFieldId" : "BT-198(BT-635)-LotResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -16423,6 +16483,13 @@
     "xpathRelative" : "efbc:StatisticsCode",
     "type" : "code",
     "legalType" : "CODE",
+    "privacy" : {
+      "code" : "buy-rev-typ",
+      "unpublishedFieldId" : "BT-195(BT-636)-LotResult",
+      "reasonCodeFieldId" : "BT-197(BT-636)-LotResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-636)-LotResult",
+      "publicationDateFieldId" : "BT-198(BT-636)-LotResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -16984,15 +17051,15 @@
     }
   }, {
     "id" : "BT-71-Lot",
-    "parentNodeId" : "ND-LotReservedParticipation",
+    "parentNodeId" : "ND-LotReservedProcurement",
     "name" : "Reserved Participation",
     "btId" : "BT-71",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']",
-    "xpathRelative" : "cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']",
+    "xpathRelative" : "cbc:TendererRequirementTypeCode[@listName='reserved-procurement']",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -18482,11 +18549,11 @@
     }
   }, {
     "id" : "BT-75-Lot",
-    "parentNodeId" : "ND-LotTenderingTerms",
+    "parentNodeId" : "ND-FinancialGuarantee",
     "name" : "Guarantee Required Description",
     "btId" : "BT-75",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description",
-    "xpathRelative" : "cac:RequiredFinancialGuarantee[cbc:GuaranteeTypeCode/text()='true']/cbc:Description",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:RequiredFinancialGuarantee/cbc:Description",
+    "xpathRelative" : "cbc:Description",
     "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
@@ -19464,12 +19531,12 @@
     }
   }, {
     "id" : "BT-780-Tender",
-    "parentNodeId" : "ND-LotTender",
+    "parentNodeId" : "ND-LotTenderPaidAmounts",
     "name" : "Tender Payment Value Additional Information",
     "btId" : "BT-780",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PaidAmountDescription",
-    "xpathRelative" : "efac:AggregatedAmounts/efbc:PaidAmountDescription",
-    "type" : "text",
+    "xpathRelative" : "efbc:PaidAmountDescription",
+    "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "repeatable" : {
@@ -20327,8 +20394,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "language",
-        "type" : "flat"
+        "id" : "eforms-language",
+        "type" : "flat",
+        "parentId" : "language"
       },
       "severity" : "ERROR"
     }
@@ -20356,12 +20424,12 @@
     }
   }, {
     "id" : "BT-99-Lot",
-    "parentNodeId" : "ND-LotReviewTerms",
+    "parentNodeId" : "ND-ReviewPresentationPeriod",
     "name" : "Review Deadline Description",
     "btId" : "BT-99",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description",
-    "xpathRelative" : "cac:PresentationPeriod/cbc:Description",
-    "type" : "text",
+    "xpathRelative" : "cbc:Description",
+    "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "repeatable" : {
@@ -21736,12 +21804,12 @@
     }
   }, {
     "id" : "OPT-092-ReviewBody",
-    "parentNodeId" : "ND-ReviewStatus",
+    "parentNodeId" : "ND-AppealProcessingParty",
     "name" : "Review Body Type Description",
     "btId" : "OPT-092",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription",
-    "xpathRelative" : "efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription",
-    "type" : "text",
+    "xpathRelative" : "efbc:AppealProcessingPartyTypeDescription",
+    "type" : "text-multilingual",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -22236,7 +22304,7 @@
   }, {
     "id" : "OPT-170-Tenderer",
     "parentNodeId" : "ND-Tenderer",
-    "name" : "Tendering Party Leader ",
+    "name" : "Tendering Party Leader",
     "btId" : "OPT-170",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/efbc:GroupLeadIndicator",
     "xpathRelative" : "efbc:GroupLeadIndicator",
@@ -22561,7 +22629,7 @@
   }, {
     "id" : "OPT-300-Tenderer",
     "parentNodeId" : "ND-Tenderer",
-    "name" : "Tenderer ID Reference ",
+    "name" : "Tenderer ID Reference",
     "btId" : "OPT-300",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID",
     "xpathRelative" : "cbc:ID",
@@ -23072,7 +23140,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23108,7 +23176,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23888,6 +23956,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00316-0100"
       }, {
+        "condition" : "{ND-SettledContract} ${OPP-070-notice in ('29','30','31','32','E4','T02','33','34','35','36','37','E5')}",
         "value" : "{ND-SettledContract} ${(OPT-316-Contract in OPT-315-LotResult)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00316-0101"
@@ -23972,6 +24041,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00321-0100"
       }, {
+        "condition" : "{ND-LotTender} ${OPP-070-notice in ('29','30','31','32','E4','T02','33','34','35','36','37','E5')}",
         "value" : "{ND-LotTender} ${(OPT-321-Tender in OPT-320-LotResult)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00321-0101"
