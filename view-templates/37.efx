@@ -1,6 +1,6 @@
 // View 37
 // sdkVersion='1.4.0'
-// File generated from metadata database version 1.3.49 created on the 2022-11-23T23:20:44
+// File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30
 1 {ND-Root} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -123,7 +123,7 @@
 		{BT-142-LotResult} #{BT-142-LotResult} // A winner was chosen ?
 		{BT-144-LotResult} #{name}: #{BT-144-LotResult}  // Not awarded reason
 		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement} // Framework agreement
-		2 {BT-142-LotResult[BT-142-LotResult == 'selec-w' or BT-142-LotResult == 'unpublished']} #{auxiliary|text|winner}  // 6.1.2. Winning tenders PMD: TODO: remove 'unpublished' test
+		2 {BT-142-LotResult[BT-142-LotResult == 'selec-w']} #{auxiliary|text|winner}  // 6.1.2. Winning tenders PMD: TODO: remove 'unpublished' test or BT-142-LotResult == 'unpublished'
 			0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]])>0]}  #{auxiliary|text|winner} // Winner
 				{OPT-320-LotResult} #{field|name|BT-500-Organization-Company} ${for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$tpa in OPT-310-Tender[OPT-321-Tender == $tender1], text:$orgid in OPT-300-Tenderer[OPT-210-Tenderer == $tpa], text:$org in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid]  return concat('[', $org, '] --- ')} // Name of this winner
 				0 {OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]] return BT-500-Organization-Company[OPT-200-Organization-Company == $orgid1]) satisfies $name != '']} #{auxiliary|text|winner-subcontractor} // Subcontractors of the winner

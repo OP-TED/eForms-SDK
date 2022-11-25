@@ -1,6 +1,6 @@
 // View 34
 // sdkVersion='1.4.0'
-// File generated from metadata database version 1.3.49 created on the 2022-11-23T23:20:44
+// File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30
 1 {ND-Root} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -147,7 +147,7 @@
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-301-LotResult-Paying]}  #{auxiliary|text|organisation-paying}:  $value // Paying Organisation (LotResult)
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Contract-Signatory]}  #{auxiliary|text|organisation-signing-contract}:  $value // Contract Signatory (LotResult)
 6 {ND-Root[(BT-13713-LotResult is present)]} #{auxiliary|text|results} // 6. Results
-	{BT-161-NoticeResult} #{name}: $value ${BT-161-NoticeResult/@currencyID} // Notice Value (Value of all contracts awarded in this procedure)
+	{BT-161-NoticeResult} #{name}: $value ${BT-161-NoticeResult[BT-161-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Notice Value (Value of all contracts awarded in this procedure)
 	{BT-118-NoticeResult} #{name}: $value ${BT-118-NoticeResult/@currencyID} // Estimated value of the framework agreements in this procedure
 	0 {ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value} ${BT-556-NoticeResult} // Estimated value of the framework agreements in the group of lots
 		0 {ND-NoticeResultGroupFA} #{name|BT-1375} ${for text:$gloid in BT-556-NoticeResult return BT-1375-Procedure[BT-330-Procedure == $gloid] } // Lots included: LOT-0001, LOT-0003
@@ -162,7 +162,7 @@
 		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement} // Framework agreement
 			0 {BT-709-LotResult} #{name}: $value ${BT-709-LotResult/@currencyID} // Framework Maximum Value
 			{BT-660-LotResult} #{name}: $value ${BT-660-LotResult/@currencyID} // Framework Estimated Value
-		2 {BT-142-LotResult[BT-142-LotResult == 'selec-w' or BT-142-LotResult == 'unpublished']} #{auxiliary|text|winner}  // 6.1.2. Winning tenders PMD: TODO: remove 'unpublished' test
+		2 {BT-142-LotResult[BT-142-LotResult == 'selec-w']} #{auxiliary|text|winner}  // 6.1.2. Winning tenders PMD: TODO: remove 'unpublished' test or BT-142-LotResult == 'unpublished'
 			0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]])>0]}  #{auxiliary|text|winner} // Winner
 				{OPT-320-LotResult} #{field|name|BT-500-Organization-Company} ${for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$tpa in OPT-310-Tender[OPT-321-Tender == $tender1], text:$orgid in OPT-300-Tenderer[OPT-210-Tenderer == $tpa], text:$org in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid]  return concat('[', $org, '] --- ')} // Name of this winner
 				0 {OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]] return BT-500-Organization-Company[OPT-200-Organization-Company == $orgid1]) satisfies $name != '']} #{auxiliary|text|winner-subcontractor} // Subcontractors of the winner
@@ -173,8 +173,8 @@
 				0 {OPT-320-LotResult} #{field|name|BT-720-Tender} ${for text:$tender in OPT-320-LotResult return string(BT-720-Tender[OPT-321-Tender == $tender])} ${for text:$tender1 in OPT-320-LotResult return BT-720-Tender[OPT-321-Tender == $tender1]/@currencyID} // Value of the tender
 				0 {OPT-320-LotResult} #{name|BT-171-Tender} ${for text:$tender in OPT-320-LotResult return string(BT-171-Tender[OPT-321-Tender == $tender])} // Tender Rank
 				0 {OPT-320-LotResult[some indicator:$bool in (for text:$tender in OPT-320-LotResult return BT-193-Tender[BT-193-Tender[OPT-321-Tender == $tender]] == TRUE) satisfies $bool == TRUE ]} #{business-term|name|BT-193}  // The tender is a variant
-				{OPT-320-LotResult}  #{field|name|BT-773-Tender} ${for text:$tender in OPT-320-LotResult return BT-773-Tender[OPT-321-Tender == $tender]} // --- Subcontracting ---
-				{OPT-320-LotResult[some text:$subcont in (for text:$tender in OPT-320-LotResult return BT-773-Tender[OPT-321-Tender == $tender]) satisfies $subcont == 'yes']} #{field|name|BT-553-Tender}   ${for text:$tender1 in OPT-320-LotResult return string(BT-553-Tender[OPT-321-Tender == $tender1])}  ${for text:$tender2 in OPT-320-LotResult return BT-553-Tender[OPT-321-Tender == $tender2]/@currencyID} // Estimated value of the part of the contract that the contractor will subcontract to third parties
+				0 {OPT-320-LotResult}  #{field|name|BT-773-Tender} ${for text:$tender in OPT-320-LotResult return BT-773-Tender[OPT-321-Tender == $tender]} // --- Subcontracting ---
+				0 {OPT-320-LotResult[some text:$subcont in (for text:$tender in OPT-320-LotResult return BT-773-Tender[OPT-321-Tender == $tender]) satisfies $subcont == 'yes']} #{field|name|BT-553-Tender}   ${for text:$tender1 in OPT-320-LotResult return string(BT-553-Tender[OPT-321-Tender == $tender1])}  ${for text:$tender2 in OPT-320-LotResult return BT-553-Tender[OPT-321-Tender == $tender2]/@currencyID} // Estimated value of the part of the contract that the contractor will subcontract to third parties
 				{OPT-320-LotResult[some indicator:$subcontpercknown in (for text:$tender in OPT-320-LotResult return BT-731-Tender[OPT-321-Tender == $tender]) satisfies $subcontpercknown == TRUE]} #{field|name|BT-555-Tender}   ${for text:$tender1 in OPT-320-LotResult return format-number(BT-555-Tender[OPT-321-Tender == $tender1], '0.##')}  // Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract
 				{OPT-320-LotResult[some text:$subcondesc in (for text:$tender in OPT-320-LotResult return BT-554-Tender[OPT-321-Tender == $tender]) satisfies $subcondesc  != '']} #{field|name|BT-554-Tender}   ${for text:$tender1 in OPT-320-LotResult return BT-554-Tender[OPT-321-Tender == $tender1]}  // Subcontracting Description
 				0 {OPT-320-LotResult} #{auxiliary|text|contract-information} // Contract info for this tender

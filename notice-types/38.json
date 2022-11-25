@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.3.2",
+  "sdkVersion" : "1.4.0",
   "metadataDatabase" : {
-    "version" : "1.3.50",
-    "createdOn" : "2022-11-24T12:02:54"
+    "version" : "1.4.0",
+    "createdOn" : "2022-11-25T09:30:00"
   },
   "noticeId" : "38",
   "metadata" : [ {
@@ -1132,11 +1132,77 @@
         "description" : "Notice Value",
         "_label" : "field|name|BT-161-NoticeResult"
       }, {
+        "id" : "GR-Unpublish-BT-161-NoticeResult",
+        "contentType" : "group",
+        "nodeId" : "ND-NoticeValueUnpublish",
+        "displayType" : "GROUP",
+        "description" : "Not Immediately Published (NoticeValue)",
+        "_label" : "group|name|ND-NoticeValueUnpublish",
+        "collapsed" : true,
+        "content" : [ {
+          "id" : "BT-195(BT-161)-NoticeResult",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Unpublished Identifier",
+          "_label" : "field|name|BT-195(BT-161)-NoticeResult"
+        }, {
+          "id" : "BT-196(BT-161)-NoticeResult",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Unpublished Justification Description",
+          "_label" : "field|name|BT-196(BT-161)-NoticeResult"
+        }, {
+          "id" : "BT-197(BT-161)-NoticeResult",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Unpublished Justification Code",
+          "_label" : "field|name|BT-197(BT-161)-NoticeResult"
+        }, {
+          "id" : "BT-198(BT-161)-NoticeResult",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Unpublished Accessibility Date",
+          "_label" : "field|name|BT-198(BT-161)-NoticeResult"
+        } ]
+      }, {
         "id" : "BT-118-NoticeResult",
         "contentType" : "field",
         "displayType" : "TEXTBOX",
         "description" : "Notice Framework Value",
         "_label" : "field|name|BT-118-NoticeResult"
+      }, {
+        "id" : "GR-Unpublish-BT-118-NoticeResult",
+        "contentType" : "group",
+        "nodeId" : "ND-NoticeMaximumValueUnpublish",
+        "displayType" : "GROUP",
+        "description" : "Not Immediately Published (NoticeMaximumValue)",
+        "_label" : "group|name|ND-NoticeMaximumValueUnpublish",
+        "collapsed" : true,
+        "content" : [ {
+          "id" : "BT-195(BT-118)-NoticeResult",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Unpublished Identifier",
+          "_label" : "field|name|BT-195(BT-118)-NoticeResult"
+        }, {
+          "id" : "BT-196(BT-118)-NoticeResult",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Unpublished Justification Description",
+          "_label" : "field|name|BT-196(BT-118)-NoticeResult"
+        }, {
+          "id" : "BT-197(BT-118)-NoticeResult",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Unpublished Justification Code",
+          "_label" : "field|name|BT-197(BT-118)-NoticeResult"
+        }, {
+          "id" : "BT-198(BT-118)-NoticeResult",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Unpublished Accessibility Date",
+          "_label" : "field|name|BT-198(BT-118)-NoticeResult"
+        } ]
       }, {
         "id" : "GR-GroupFramework",
         "contentType" : "group",
@@ -1153,11 +1219,77 @@
           "_label" : "field|name|BT-556-NoticeResult",
           "_idSchemes" : [ "GLO" ]
         }, {
+          "id" : "GR-Unpublish-BT-556-NoticeResult",
+          "contentType" : "group",
+          "nodeId" : "ND-GroupMaximalValueIdentifierUnpublish",
+          "displayType" : "GROUP",
+          "description" : "Not Immediately Published (GroupMaximalValueIdentifier)",
+          "_label" : "group|name|ND-GroupMaximalValueIdentifierUnpublish",
+          "collapsed" : true,
+          "content" : [ {
+            "id" : "BT-195(BT-556)-NoticeResult",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Unpublished Identifier",
+            "_label" : "field|name|BT-195(BT-556)-NoticeResult"
+          }, {
+            "id" : "BT-196(BT-556)-NoticeResult",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Unpublished Justification Description",
+            "_label" : "field|name|BT-196(BT-556)-NoticeResult"
+          }, {
+            "id" : "BT-197(BT-556)-NoticeResult",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Unpublished Justification Code",
+            "_label" : "field|name|BT-197(BT-556)-NoticeResult"
+          }, {
+            "id" : "BT-198(BT-556)-NoticeResult",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Unpublished Accessibility Date",
+            "_label" : "field|name|BT-198(BT-556)-NoticeResult"
+          } ]
+        }, {
           "id" : "BT-156-NoticeResult",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Group Framework Value",
           "_label" : "field|name|BT-156-NoticeResult"
+        }, {
+          "id" : "GR-Unpublish-BT-156-NoticeResult",
+          "contentType" : "group",
+          "nodeId" : "ND-GroupMaximumValueUnpublish",
+          "displayType" : "GROUP",
+          "description" : "Not Immediately Published (GroupMaximumValue)",
+          "_label" : "group|name|ND-GroupMaximumValueUnpublish",
+          "collapsed" : true,
+          "content" : [ {
+            "id" : "BT-195(BT-156)-NoticeResult",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Unpublished Identifier",
+            "_label" : "field|name|BT-195(BT-156)-NoticeResult"
+          }, {
+            "id" : "BT-196(BT-156)-NoticeResult",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Unpublished Justification Description",
+            "_label" : "field|name|BT-196(BT-156)-NoticeResult"
+          }, {
+            "id" : "BT-197(BT-156)-NoticeResult",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Unpublished Justification Code",
+            "_label" : "field|name|BT-197(BT-156)-NoticeResult"
+          }, {
+            "id" : "BT-198(BT-156)-NoticeResult",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Unpublished Accessibility Date",
+            "_label" : "field|name|BT-198(BT-156)-NoticeResult"
+          } ]
         } ]
       }, {
         "id" : "BT-1118-NoticeResult",
@@ -1271,6 +1403,39 @@
             "description" : "Framework Maximum Value",
             "_label" : "field|name|BT-709-LotResult"
           }, {
+            "id" : "GR-Unpublish-BT-709-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-MaximalValueUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (MaximalValue)",
+            "_label" : "group|name|ND-MaximalValueUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-709)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-709)-LotResult"
+            }, {
+              "id" : "BT-196(BT-709)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-709)-LotResult"
+            }, {
+              "id" : "BT-197(BT-709)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-709)-LotResult"
+            }, {
+              "id" : "BT-198(BT-709)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-709)-LotResult"
+            } ]
+          }, {
             "id" : "OPT-155-LotResult",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
@@ -1321,11 +1486,77 @@
             "description" : "Buyer Review Requests Irregularity Type",
             "_label" : "field|name|BT-636-LotResult"
           }, {
+            "id" : "GR-Unpublish-BT-636-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-ReviewRequestsStatisticsTypeUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (RevewRequests irregularity type )",
+            "_label" : "group|name|ND-ReviewRequestsStatisticsTypeUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-636)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-636)-LotResult"
+            }, {
+              "id" : "BT-196(BT-636)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-636)-LotResult"
+            }, {
+              "id" : "BT-197(BT-636)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-636)-LotResult"
+            }, {
+              "id" : "BT-198(BT-636)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-636)-LotResult"
+            } ]
+          }, {
             "id" : "BT-635-LotResult",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
             "description" : "Buyer Review Requests Count",
             "_label" : "field|name|BT-635-LotResult"
+          }, {
+            "id" : "GR-Unpublish-BT-635-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-ReviewRequestsStatisticsCountUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (RevewRequests irregularity count )",
+            "_label" : "group|name|ND-ReviewRequestsStatisticsCountUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-635)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-635)-LotResult"
+            }, {
+              "id" : "BT-196(BT-635)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-635)-LotResult"
+            }, {
+              "id" : "BT-197(BT-635)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-635)-LotResult"
+            }, {
+              "id" : "BT-198(BT-635)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-635)-LotResult"
+            } ]
           } ]
         }, {
           "id" : "GR-LotResult-ReviewComplainants",
@@ -1406,11 +1637,77 @@
             "description" : "Tender Rank",
             "_label" : "field|name|BT-171-Tender"
           }, {
+            "id" : "GR-Unpublish-BT-171-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-TenderRankUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (TenderRank)",
+            "_label" : "group|name|ND-TenderRankUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-171)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-171)-Tender"
+            }, {
+              "id" : "BT-196(BT-171)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-171)-Tender"
+            }, {
+              "id" : "BT-197(BT-171)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-171)-Tender"
+            }, {
+              "id" : "BT-198(BT-171)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-171)-Tender"
+            } ]
+          }, {
             "id" : "BT-720-Tender",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
             "description" : "Tender Value",
             "_label" : "field|name|BT-720-Tender"
+          }, {
+            "id" : "GR-Unpublish-BT-720-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-WinningTenderValueUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (WinningTenderValue)",
+            "_label" : "group|name|ND-WinningTenderValueUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-720)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-720)-Tender"
+            }, {
+              "id" : "BT-196(BT-720)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-720)-Tender"
+            }, {
+              "id" : "BT-197(BT-720)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-720)-Tender"
+            }, {
+              "id" : "BT-198(BT-720)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-720)-Tender"
+            } ]
           } ]
         }, {
           "id" : "GR-LotTender-1",
@@ -1446,11 +1743,77 @@
             "description" : "Subcontracting Value",
             "_label" : "field|name|BT-553-Tender"
           }, {
+            "id" : "GR-Unpublish-BT-553-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-SubcontractingValueUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (SubcontractingValue)",
+            "_label" : "group|name|ND-SubcontractingValueUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-553)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-553)-Tender"
+            }, {
+              "id" : "BT-196(BT-553)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-553)-Tender"
+            }, {
+              "id" : "BT-197(BT-553)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-553)-Tender"
+            }, {
+              "id" : "BT-198(BT-553)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-553)-Tender"
+            } ]
+          }, {
             "id" : "BT-554-Tender",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Subcontracting Description",
             "_label" : "field|name|BT-554-Tender"
+          }, {
+            "id" : "GR-Unpublish-BT-554-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-SubcontractingDescriptionUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (SubcontractingDescription)",
+            "_label" : "group|name|ND-SubcontractingDescriptionUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-554)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-554)-Tender"
+            }, {
+              "id" : "BT-196(BT-554)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-554)-Tender"
+            }, {
+              "id" : "BT-197(BT-554)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-554)-Tender"
+            }, {
+              "id" : "BT-198(BT-554)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-554)-Tender"
+            } ]
           }, {
             "id" : "BT-555-Tender",
             "contentType" : "field",
@@ -1458,11 +1821,77 @@
             "description" : "Subcontracting Percentage",
             "_label" : "field|name|BT-555-Tender"
           }, {
+            "id" : "GR-Unpublish-BT-555-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-SubcontractingPercentageUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (SubcontractingPercentage)",
+            "_label" : "group|name|ND-SubcontractingPercentageUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-555)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-555)-Tender"
+            }, {
+              "id" : "BT-196(BT-555)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-555)-Tender"
+            }, {
+              "id" : "BT-197(BT-555)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-555)-Tender"
+            }, {
+              "id" : "BT-198(BT-555)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-555)-Tender"
+            } ]
+          }, {
             "id" : "BT-773-Tender",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Subcontracting",
             "_label" : "field|name|BT-773-Tender"
+          }, {
+            "id" : "GR-Unpublish-BT-773-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-SubcontractingUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (Subcontracting)",
+            "_label" : "group|name|ND-SubcontractingUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-773)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-773)-Tender"
+            }, {
+              "id" : "BT-196(BT-773)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-773)-Tender"
+            }, {
+              "id" : "BT-197(BT-773)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-773)-Tender"
+            }, {
+              "id" : "BT-198(BT-773)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-773)-Tender"
+            } ]
           }, {
             "id" : "BT-730-Tender",
             "contentType" : "field",
@@ -1470,11 +1899,77 @@
             "description" : "Subcontracting Value Known",
             "_label" : "field|name|BT-730-Tender"
           }, {
+            "id" : "GR-Unpublish-BT-730-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-SubcontractingValueKnownUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (SubcontractingValueKnown)",
+            "_label" : "group|name|ND-SubcontractingValueKnownUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-730)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-730)-Tender"
+            }, {
+              "id" : "BT-196(BT-730)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-730)-Tender"
+            }, {
+              "id" : "BT-197(BT-730)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-730)-Tender"
+            }, {
+              "id" : "BT-198(BT-730)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-730)-Tender"
+            } ]
+          }, {
             "id" : "BT-731-Tender",
             "contentType" : "field",
             "displayType" : "RADIO",
             "description" : "Subcontracting Percentage Known",
             "_label" : "field|name|BT-731-Tender"
+          }, {
+            "id" : "GR-Unpublish-BT-731-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-SubcontractingPercentageKnownUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (SubcontractingPercentageKnown)",
+            "_label" : "group|name|ND-SubcontractingPercentageKnownUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-731)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-731)-Tender"
+            }, {
+              "id" : "BT-196(BT-731)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-731)-Tender"
+            }, {
+              "id" : "BT-197(BT-731)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-731)-Tender"
+            }, {
+              "id" : "BT-198(BT-731)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-731)-Tender"
+            } ]
           } ]
         } ]
       } ]

@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.3.2",
+  "sdkVersion" : "1.4.0",
   "metadataDatabase" : {
-    "version" : "1.3.50",
-    "createdOn" : "2022-11-24T12:02:54"
+    "version" : "1.4.0",
+    "createdOn" : "2022-11-25T09:30:00"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -408,6 +408,39 @@
           "displayType" : "COMBOBOX",
           "description" : "Procedure Type",
           "_label" : "field|name|BT-105-Procedure"
+        }, {
+          "id" : "GR-Unpublish-BT-105-Procedure",
+          "contentType" : "group",
+          "nodeId" : "ND-ProcedureTypeUnpublish",
+          "displayType" : "GROUP",
+          "description" : "Not Immediately Published (Procedure Type)",
+          "_label" : "group|name|ND-ProcedureTypeUnpublish",
+          "collapsed" : true,
+          "content" : [ {
+            "id" : "BT-195(BT-105)-Procedure",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Unpublished Identifier",
+            "_label" : "field|name|BT-195(BT-105)-Procedure"
+          }, {
+            "id" : "BT-196(BT-105)-Procedure",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Unpublished Justification Description",
+            "_label" : "field|name|BT-196(BT-105)-Procedure"
+          }, {
+            "id" : "BT-197(BT-105)-Procedure",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Unpublished Justification Code",
+            "_label" : "field|name|BT-197(BT-105)-Procedure"
+          }, {
+            "id" : "BT-198(BT-105)-Procedure",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Unpublished Accessibility Date",
+            "_label" : "field|name|BT-198(BT-105)-Procedure"
+          } ]
         } ]
       }, {
         "id" : "GR-Procedure-AdditionalInformation",
@@ -752,11 +785,77 @@
             "description" : "Winner Chosen",
             "_label" : "field|name|BT-142-LotResult"
           }, {
+            "id" : "GR-Unpublish-BT-142-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-WinnerChosenUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (WinnerChosen)",
+            "_label" : "group|name|ND-WinnerChosenUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-142)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-142)-LotResult"
+            }, {
+              "id" : "BT-196(BT-142)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-142)-LotResult"
+            }, {
+              "id" : "BT-197(BT-142)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-142)-LotResult"
+            }, {
+              "id" : "BT-198(BT-142)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-142)-LotResult"
+            } ]
+          }, {
             "id" : "BT-144-LotResult",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Not Awarded Reason",
             "_label" : "field|name|BT-144-LotResult"
+          }, {
+            "id" : "GR-Unpublish-BT-144-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-NotAwardedReasonUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (NotAwardedReason)",
+            "_label" : "group|name|ND-NotAwardedReasonUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-144)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-144)-LotResult"
+            }, {
+              "id" : "BT-196(BT-144)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-144)-LotResult"
+            }, {
+              "id" : "BT-197(BT-144)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-144)-LotResult"
+            }, {
+              "id" : "BT-198(BT-144)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-144)-LotResult"
+            } ]
           } ]
         }, {
           "id" : "GR-LotResult-1",
@@ -839,6 +938,39 @@
             "displayType" : "TEXTBOX",
             "description" : "Tender Value",
             "_label" : "field|name|BT-720-Tender"
+          }, {
+            "id" : "GR-Unpublish-BT-720-Tender",
+            "contentType" : "group",
+            "nodeId" : "ND-WinningTenderValueUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (WinningTenderValue)",
+            "_label" : "group|name|ND-WinningTenderValueUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-720)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-720)-Tender"
+            }, {
+              "id" : "BT-196(BT-720)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-720)-Tender"
+            }, {
+              "id" : "BT-197(BT-720)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-720)-Tender"
+            }, {
+              "id" : "BT-198(BT-720)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Accessibility Date",
+              "_label" : "field|name|BT-198(BT-720)-Tender"
+            } ]
           } ]
         }, {
           "id" : "GR-LotTender-1",
