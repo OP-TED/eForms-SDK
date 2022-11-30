@@ -1,3 +1,12 @@
+# SDK 1.4.1 Release Notes
+
+This release include several corrections:
+
+* Add missing codes in the "non-publication-identifier" codelist.
+* Add missing codelist constraints for 2 fields, along with the corresponding Schematron rules.
+
+The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
+
 # SDK 1.4.0 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.3.0 should also be able to use this version.
