@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30-->
+<!--File generated from metadata database version 1.4.3 created on the 2022-11-28T11:14:04-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NonPublicationIdentifier</ShortName>
@@ -216,6 +216,28 @@
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Award Criterion Number Weight (BT-5421)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>buy-rev-cou</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Buyer Review Requests Count (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Buyer Review Requests Count (BT-635)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>buy-rev-typ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Buyer Review Requests Irregularity Type (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Buyer Review Requests Irregularity Type (BT-636)</SimpleValue>
          </Value>
       </Row>
       <Row>
