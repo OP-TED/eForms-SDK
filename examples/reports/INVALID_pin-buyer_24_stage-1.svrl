@@ -275,7 +275,7 @@ cbc:Description</svrl:diagnostic-reference>
    <svrl:failed-assert id="BR-OPT-00200-0051"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^ORG-\d4$')">
+                       test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00200-0051</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
