@@ -128,7 +128,7 @@
 		"comment": "Languages in which tenders may be submitted"
 	},
 	"TI-Title": {
-		"efx": "{ND-Root} ${/BT-21-Procedure}",
+		"efx": "{ND-Root} ${value-union(/BT-21-Procedure,/OPP-121-Business)}",
 		"comment": "(TI) Title (Title of the document)"
 	},
 	"TI-CPV": {
