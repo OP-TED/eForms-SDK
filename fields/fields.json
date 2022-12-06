@@ -23261,15 +23261,6 @@
         "severity" : "ERROR"
       } ]
     },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "4", "5" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
     "pattern" : {
       "value" : "^(ORG|TPO)-\\d{4}$",
       "severity" : "ERROR"
