@@ -20125,11 +20125,11 @@
     }
   }, {
     "id" : "BT-801-Lot",
-    "parentNodeId" : "ND-LotTenderingTerms",
+    "parentNodeId" : "ND-NDA",
     "name" : "Non Disclosure Agreement",
     "btId" : "BT-801",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='nda']",
-    "xpathRelative" : "cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='nda']",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']/cbc:ExecutionRequirementCode[@listName='nda']",
+    "xpathRelative" : "cbc:ExecutionRequirementCode[@listName='nda']",
     "type" : "code",
     "legalType" : "INDICATOR",
     "repeatable" : {
