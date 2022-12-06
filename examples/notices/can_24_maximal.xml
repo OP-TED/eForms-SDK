@@ -320,8 +320,6 @@
 							<cac:NoticeDocumentReference>
 								<!--id": "OPT-100-Contract", "name": "Framework Notice Identifier"-->
 								<cbc:ID>12345678-2023</cbc:ID>
-								<!--OPT-101 ???? -->
-								<cbc:VersionID>02</cbc:VersionID>
 							</cac:NoticeDocumentReference>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
@@ -364,8 +362,6 @@
 							<cac:NoticeDocumentReference>
 								<!--id": "OPT-100-Contract", "name": "Framework Notice Identifier"-->
 								<cbc:ID>12345678-2023</cbc:ID>
-								<!--OPT-101-->
-								<cbc:VersionID>02</cbc:VersionID>
 							</cac:NoticeDocumentReference>
 							<cac:SignatoryParty>
 								<cac:PartyIdentification>
