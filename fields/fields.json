@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.4.1",
   "metadataDatabase" : {
-    "version" : "1.4.3",
-    "createdOn" : "2022-11-28T11:14:04"
+    "version" : "1.4.20",
+    "createdOn" : "2022-12-06T14:03:13"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -197,6 +197,12 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation",
     "xpathRelative" : "cac:RealizedLocation",
     "repeatable" : true
+  }, {
+    "id" : "ND-LotPerformanceAddress",
+    "parentId" : "ND-LotPlacePerformance",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address",
+    "xpathRelative" : "cac:Address",
+    "repeatable" : false
   }, {
     "id" : "ND-LotValueEstimate",
     "parentId" : "ND-LotProcurementScope",
@@ -13604,11 +13610,11 @@
     }
   }, {
     "id" : "BT-5071-Lot",
-    "parentNodeId" : "ND-LotPlacePerformance",
+    "parentNodeId" : "ND-LotPerformanceAddress",
     "name" : "Place Performance Country Subdivision",
     "btId" : "BT-5071",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode",
-    "xpathRelative" : "cac:Address/cbc:CountrySubentityCode",
+    "xpathRelative" : "cbc:CountrySubentityCode",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
@@ -14091,11 +14097,11 @@
     }
   }, {
     "id" : "BT-5101(a)-Lot",
-    "parentNodeId" : "ND-LotPlacePerformance",
+    "parentNodeId" : "ND-LotPerformanceAddress",
     "name" : "Place Performance Street",
     "btId" : "BT-5101",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:StreetName",
-    "xpathRelative" : "cac:Address/cbc:StreetName",
+    "xpathRelative" : "cbc:StreetName",
     "type" : "text",
     "legalType" : "TEXT",
     "maxLength" : 400,
@@ -14160,11 +14166,11 @@
     }
   }, {
     "id" : "BT-5101(b)-Lot",
-    "parentNodeId" : "ND-LotPlacePerformance",
+    "parentNodeId" : "ND-LotPerformanceAddress",
     "name" : "Place Performance Streetline 1",
     "btId" : "BT-5101",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:AdditionalStreetName",
-    "xpathRelative" : "cac:Address/cbc:AdditionalStreetName",
+    "xpathRelative" : "cbc:AdditionalStreetName",
     "type" : "text",
     "legalType" : "TEXT",
     "maxLength" : 400,
@@ -14229,11 +14235,11 @@
     }
   }, {
     "id" : "BT-5101(c)-Lot",
-    "parentNodeId" : "ND-LotPlacePerformance",
+    "parentNodeId" : "ND-LotPerformanceAddress",
     "name" : "Place Performance Streetline 2",
     "btId" : "BT-5101",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:AddressLine/cbc:Line",
-    "xpathRelative" : "cac:Address/cac:AddressLine/cbc:Line",
+    "xpathRelative" : "cac:AddressLine/cbc:Line",
     "type" : "text",
     "legalType" : "TEXT",
     "maxLength" : 400,
@@ -14390,11 +14396,11 @@
     }
   }, {
     "id" : "BT-5121-Lot",
-    "parentNodeId" : "ND-LotPlacePerformance",
+    "parentNodeId" : "ND-LotPerformanceAddress",
     "name" : "Place Performance Post Code",
     "btId" : "BT-5121",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:PostalZone",
-    "xpathRelative" : "cac:Address/cbc:PostalZone",
+    "xpathRelative" : "cbc:PostalZone",
     "type" : "text",
     "legalType" : "TEXT",
     "maxLength" : 400,
@@ -14560,11 +14566,11 @@
     }
   }, {
     "id" : "BT-5131-Lot",
-    "parentNodeId" : "ND-LotPlacePerformance",
+    "parentNodeId" : "ND-LotPerformanceAddress",
     "name" : "Place Performance City",
     "btId" : "BT-5131",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CityName",
-    "xpathRelative" : "cac:Address/cbc:CityName",
+    "xpathRelative" : "cbc:CityName",
     "type" : "text",
     "legalType" : "TEXT",
     "maxLength" : 400,
@@ -14767,11 +14773,11 @@
     }
   }, {
     "id" : "BT-5141-Lot",
-    "parentNodeId" : "ND-LotPlacePerformance",
+    "parentNodeId" : "ND-LotPerformanceAddress",
     "name" : "Place Performance Country Code",
     "btId" : "BT-5141",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode",
-    "xpathRelative" : "cac:Address/cac:Country/cbc:IdentificationCode",
+    "xpathRelative" : "cac:Country/cbc:IdentificationCode",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
@@ -17595,11 +17601,11 @@
     }
   }, {
     "id" : "BT-727-Lot",
-    "parentNodeId" : "ND-LotPlacePerformance",
+    "parentNodeId" : "ND-LotPerformanceAddress",
     "name" : "Place Performance Services Other",
     "btId" : "BT-727",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:Region",
-    "xpathRelative" : "cac:Address/cbc:Region",
+    "xpathRelative" : "cbc:Region",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
