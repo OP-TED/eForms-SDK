@@ -144,6 +144,12 @@
     "xpathRelative" : "cac:ContractExtension",
     "repeatable" : false
   }, {
+    "id" : "ND-OptionsDescription",
+    "parentId" : "ND-OptionsAndRenewals",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cac:Renewal/cac:Period",
+    "xpathRelative" : "cac:Renewal/cac:Period",
+    "repeatable" : false
+  }, {
     "id" : "ND-LotMainClassification",
     "parentId" : "ND-LotProcurementScope",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification",
@@ -15887,11 +15893,11 @@
     }
   }, {
     "id" : "BT-57-Lot",
-    "parentNodeId" : "ND-OptionsAndRenewals",
+    "parentNodeId" : "ND-OptionsDescription",
     "name" : "Renewal Description",
     "btId" : "BT-57",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cac:Renewal/cac:Period/cbc:Description",
-    "xpathRelative" : "cac:Renewal/cac:Period/cbc:Description",
+    "xpathRelative" : "cbc:Description",
     "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
