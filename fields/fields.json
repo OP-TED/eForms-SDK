@@ -119,6 +119,12 @@
     "xpathRelative" : "cac:RequestedTenderTotal",
     "repeatable" : false
   }, {
+    "id" : "ND-ProcedureValueEstimateExtension",
+    "parentId" : "ND-ProcedureValueEstimate",
+    "xpathAbsolute" : "/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension",
+    "xpathRelative" : "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension",
+    "repeatable" : false
+  }, {
     "id" : "ND-Lot",
     "parentId" : "ND-Root",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']",
@@ -196,6 +202,12 @@
     "parentId" : "ND-LotProcurementScope",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal",
     "xpathRelative" : "cac:RequestedTenderTotal",
+    "repeatable" : false
+  }, {
+    "id" : "ND-LotValueEstimateExtension",
+    "parentId" : "ND-LotValueEstimate",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension",
+    "xpathRelative" : "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension",
     "repeatable" : false
   }, {
     "id" : "ND-LotTenderingProcess",
@@ -599,6 +611,12 @@
     "parentId" : "ND-LotsGroupProcurementScope",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal",
     "xpathRelative" : "cac:RequestedTenderTotal",
+    "repeatable" : false
+  }, {
+    "id" : "ND-LotsGroupValueEstimateExtension",
+    "parentId" : "ND-LotsGroupValueEstimate",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension",
+    "xpathRelative" : "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension",
     "repeatable" : false
   }, {
     "id" : "ND-LotsGroupFA",
@@ -12222,11 +12240,11 @@
     }
   }, {
     "id" : "BT-271-Lot",
-    "parentNodeId" : "ND-LotValueEstimate",
+    "parentNodeId" : "ND-LotValueEstimateExtension",
     "name" : "Framework Maximum Value",
     "btId" : "BT-271",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount",
-    "xpathRelative" : "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount",
+    "xpathRelative" : "efbc:FrameworkMaximumAmount",
     "type" : "amount",
     "legalType" : "VALUE",
     "repeatable" : {
@@ -12244,11 +12262,11 @@
     }
   }, {
     "id" : "BT-271-LotsGroup",
-    "parentNodeId" : "ND-LotsGroupValueEstimate",
+    "parentNodeId" : "ND-LotsGroupValueEstimateExtension",
     "name" : "Framework Maximum Value",
     "btId" : "BT-271",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount",
-    "xpathRelative" : "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount",
+    "xpathRelative" : "efbc:FrameworkMaximumAmount",
     "type" : "amount",
     "legalType" : "VALUE",
     "repeatable" : {
@@ -12266,11 +12284,11 @@
     }
   }, {
     "id" : "BT-271-Procedure",
-    "parentNodeId" : "ND-ProcedureValueEstimate",
+    "parentNodeId" : "ND-ProcedureValueEstimateExtension",
     "name" : "Framework Maximum Value",
     "btId" : "BT-271",
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount",
-    "xpathRelative" : "ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount",
+    "xpathRelative" : "efbc:FrameworkMaximumAmount",
     "type" : "amount",
     "legalType" : "VALUE",
     "repeatable" : {
