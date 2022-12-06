@@ -166,7 +166,7 @@
     "parentId" : "ND-LotProcurementScope",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']",
     "xpathRelative" : "cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']",
-    "repeatable" : false
+    "repeatable" : true
   }, {
     "id" : "ND-LotGreenCriteria",
     "parentId" : "ND-LotProcurementScope",
@@ -18727,15 +18727,15 @@
     }
   }, {
     "id" : "BT-754-Lot",
-    "parentNodeId" : "ND-LotProcurementScope",
+    "parentNodeId" : "ND-AccessibilityJustification",
     "name" : "Accessibility",
     "btId" : "BT-754",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='accessibility']",
-    "xpathRelative" : "cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='accessibility']",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']/cbc:ProcurementTypeCode[@listName='accessibility']",
+    "xpathRelative" : "cbc:ProcurementTypeCode[@listName='accessibility']",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
