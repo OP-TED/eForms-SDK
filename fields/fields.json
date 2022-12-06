@@ -1785,15 +1785,15 @@
     }
   }, {
     "id" : "BT-06-Lot",
-    "parentNodeId" : "ND-LotProcurementScope",
+    "parentNodeId" : "ND-StrategicProcurementType",
     "name" : "Strategic Procurement",
     "btId" : "BT-06",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='strategic-procurement']",
-    "xpathRelative" : "cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='strategic-procurement']",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='strategic-procurement']/cbc:ProcurementTypeCode[@listName='strategic-procurement']",
+    "xpathRelative" : "cbc:ProcurementTypeCode[@listName='strategic-procurement']",
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
