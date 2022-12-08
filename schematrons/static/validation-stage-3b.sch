@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.4.21 created on the 2022-12-06T15:43:59.-->
+<!--File generated from metadata database version 1.4.31 created on the 2022-12-08T17:07:56.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -1727,9 +1727,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier">
 		<assert id="BR-BT-01501-0102" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">rule|text|BR-BT-01501-0102</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangedSectionIdentifier">
-		<assert id="BR-BT-01501-0103" role="ERROR" test="matches(normalize-space(.),'^RESULT$')">rule|text|BR-BT-01501-0103</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID">
 		<assert id="BR-BT-03202-0051" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-BT-03202-0051</assert>

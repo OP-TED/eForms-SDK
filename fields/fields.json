@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.4.1",
   "metadataDatabase" : {
-    "version" : "1.4.27",
-    "createdOn" : "2022-12-07T14:22:52"
+    "version" : "1.4.31",
+    "createdOn" : "2022-12-08T17:07:56"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3964,9 +3964,18 @@
         "severity" : "ERROR"
       } ]
     },
-    "pattern" : {
-      "value" : "^RESULT$",
-      "severity" : "ERROR"
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{ND-ContractModification} ${count(BT-1501(s)-Contract[BT-1501(s)-Contract == OPT-316-Contract]) == 1}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-01501-0106"
+      }, {
+        "value" : "{ND-ContractModification} ${BT-1501(s)-Contract[BT-1501(s)-Contract like '^CON-\\d{4}$'] is unique in /BT-1501(s)-Contract}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-01501-0107"
+      } ]
     }
   }, {
     "id" : "BT-151-Contract",

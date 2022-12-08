@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.4.21 created on the 2022-12-06T15:43:59.-->
+<!--File generated from metadata database version 1.4.31 created on the 2022-12-08T17:07:56.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -615,6 +615,7 @@
     <diagnostic id="ND-Company_BT-513-Organization-Company">cac:PostalAddress/cbc:CityName</diagnostic>
     <diagnostic id="ND-Company_BT-514-Organization-Company">cac:PostalAddress/cac:Country/cbc:IdentificationCode</diagnostic>
     <diagnostic id="ND-Company_BT-739-Organization-Company">cac:Contact/cbc:Telefax</diagnostic>
+    <diagnostic id="ND-ContractModification_BT-1501_s_-Contract">efac:Change/efbc:ChangedSectionIdentifier</diagnostic>
     <diagnostic id="ND-LotAwardCriteria_BT-539-Lot">cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
     <diagnostic id="ND-LotAwardCriterionParameters_BT-541-Lot">efac:AwardCriterionParameter/efbc:ParameterNumeric</diagnostic>
     <diagnostic id="ND-LotDistribution_BT-330-Procedure">cac:LotsGroup/cbc:LotsGroupID</diagnostic>
