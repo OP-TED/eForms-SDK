@@ -20181,7 +20181,7 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']/cbc:Description",
     "xpathRelative" : "cbc:Description",
     "type" : "text-multilingual",
-    "legalType" : "INDICATOR",
+    "legalType" : "TEXT",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
