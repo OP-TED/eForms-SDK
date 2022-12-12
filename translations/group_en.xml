@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>group in English. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
@@ -215,6 +215,7 @@
 <entry key="group|name|GR-Unpublish-BT-773">Subcontracting (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-88">Description of the procedure (published later)</entry>
 <entry key="group|name|GR-Winner">Winner</entry>
+<entry key="group|name|ND-AccessibilityJustification">Justification for absence of Accessibility Criteria</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Requests to review decisions</entry>
 <entry key="group|name|ND-Change">Information about the change</entry>
 <entry key="group|name|ND-ConcessionRevenueBuyerUnpublish">Not Immediately Published (ConcessionRevenueBuyer)</entry>
@@ -229,6 +230,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Not Immediately Published (GroupMaximalValueIdentifier)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Not Immediately Published (GroupMaximumValue)</entry>
+<entry key="group|name|ND-GroupReestimatedValueUnpublish">Not Immediately Published (GroupReestimatedValue)</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Legislation impacting the procurement and for which no ID is known</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Other legal basis with an identifier</entry>
 <entry key="group|name|ND-Lot">Information about the lot</entry>
@@ -248,6 +250,7 @@
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Not Immediately Published (LotAwardCriterionType)</entry>
 <entry key="group|name|ND-LotPlacePerformance">Place of performance</entry>
 <entry key="group|name|ND-LotPreviousPlanning">Reference to previous planning</entry>
+<entry key="group|name|ND-LotProcurementDocument">Procurement Document information for a Lot, independent from the restricted aspect</entry>
 <entry key="group|name|ND-LotReservedProcurement">Reserved Procurement</entry>
 <entry key="group|name|ND-LotResult">Result of the lot</entry>
 <entry key="group|name|ND-LotTender">Submitted tender</entry>
@@ -268,10 +271,12 @@
 <entry key="group|name|ND-MaximalValueUnpublish">Not Immediately Published (MaximalValue)</entry>
 <entry key="group|name|ND-Modification">Contract modification</entry>
 <entry key="group|name|ND-ModificationReason">Reason for contract modification</entry>
+<entry key="group|name|ND-NDA">Description of the NDA</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Not Immediately Published (NotAwardedReason)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Not Immediately Published (NoticeMaximumValue)</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximum value of group of lots</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Not Immediately Published (NoticeValue)</entry>
+<entry key="group|name|ND-OptionsDescription">Description of Options or Renewals</entry>
 <entry key="group|name|ND-Organization">Organisations mentioned in the notice</entry>
 <entry key="group|name|ND-Part">Information about the part</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Additional classification</entry>
@@ -293,6 +298,7 @@
 <entry key="group|name|ND-SelectionCriteria">Selection criteria</entry>
 <entry key="group|name|ND-ServiceProviderParty">Service provider</entry>
 <entry key="group|name|ND-SettledContract">Settled contract</entry>
+<entry key="group|name|ND-StrategicProcurementType">Information (Description) about Strategic Procurement Type</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Not Immediately Published (SubcontractingDescription)</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Not Immediately Published (SubcontractingPercentageKnown)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Not Immediately Published (SubcontractingPercentage)</entry>
