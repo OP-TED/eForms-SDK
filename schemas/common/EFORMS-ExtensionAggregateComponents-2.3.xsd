@@ -260,7 +260,7 @@
 		<xsd:sequence>
 			<xsd:element ref="efbc:FieldIdentifierCode" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:ReasonCode" minOccurs="1" maxOccurs="1"/>
-			<xsd:element ref="efbc:ReasonDescription" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ReasonDescription" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:PublicationDate" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
