@@ -1,6 +1,6 @@
 // View T02
-// sdkVersion='1.4.0'
-// File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30
+// sdkVersion='1.5.0'
+// File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11
 1 {ND-Root} #{auxiliary|text|buyer-competent} // --- 1 Competent authority ---
 	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer-competent}
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -85,7 +85,7 @@
 			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']]} #{auxiliary|text|organisation-providing-procurement-service}: $value // --- eSender ---
 6 {ND-Root[(BT-13713-LotResult is present)]} #{auxiliary|text|results} // 6. Results
 	1 {ND-LotResult}   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // 6.1 Result Lot Identifier (LOT-XXXX)
-		2 {BT-142-LotResult[BT-142-LotResult == 'selec-w']} #{auxiliary|text|winner}  // 6.1.2. Winning tenders PMD: TODO: remove 'unpublished' test or BT-142-LotResult == 'unpublished'
+		2 {BT-142-LotResult[BT-142-LotResult == 'selec-w' or BT-142-LotResult == 'unpublished']} #{auxiliary|text|winner}  // 6.1.2. Winning tenders PMD: TODO: remove 'unpublished' test
 			0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]])>0]}  #{auxiliary|text|winner} // Winner
 8 {ND-Root} #{auxiliary|text|organisations} // 8. Organisations
 	1 {ND-Organization} Organisation Technical Identifier: ${OPT-200-Organization-Company} // 8.1.1 Organisation Technical Identifier
