@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.4.31 created on the 2022-12-08T17:07:56.-->
+<!--File generated from metadata database version 1.4.39 created on the 2022-12-12T17:53:31.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -692,6 +692,9 @@
     <diagnostic id="ND-ProcedureTerms_BT-01_e_-Procedure">cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:ID[text()='LocalLegalBasis']</diagnostic>
     <diagnostic id="ND-ProcedureTerms_BT-09_a_-Procedure">cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:ID[text()='CrossBorderLaw']</diagnostic>
     <diagnostic id="ND-PublicOpening_BT-133-Lot">cac:OccurenceLocation/cbc:Description</diagnostic>
+    <diagnostic id="ND-ReviewStatus_BT-790-Review">efac:AppealDecision/efbc:DecisionTypeCode</diagnostic>
+    <diagnostic id="ND-ReviewStatus_BT-791-Review">efac:AppealIrregularity/efbc:IrregularityTypeCode</diagnostic>
+    <diagnostic id="ND-ReviewStatus_BT-792-Review">efac:AppealRemedy/efbc:RemedyTypeCode</diagnostic>
     <diagnostic id="ND-ReviewStatus_BT-799-ReviewBody">efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode</diagnostic>
     <diagnostic id="ND-ReviewStatus_OPT-091-ReviewReq">efac:AppealingParty/efbc:AppealingPartyTypeCode</diagnostic>
     <diagnostic id="ND-ReviewStatus_OPT-092-ReviewBody">efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription</diagnostic>

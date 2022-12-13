@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.4.1",
+  "sdkVersion" : "eforms-sdk-1.5.0",
   "metadataDatabase" : {
-    "version" : "1.4.31",
-    "createdOn" : "2022-12-08T17:07:56"
+    "version" : "1.4.39",
+    "createdOn" : "2022-12-12T17:53:31"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -1010,10 +1010,22 @@
     "xpathRelative" : "efac:AppealStatus",
     "repeatable" : true
   }, {
+    "id" : "ND-AppealDecision",
+    "parentId" : "ND-ReviewStatus",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealDecision",
+    "xpathRelative" : "efac:AppealDecision",
+    "repeatable" : true
+  }, {
     "id" : "ND-AppealingParty",
     "parentId" : "ND-ReviewStatus",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty",
     "xpathRelative" : "efac:AppealingParty",
+    "repeatable" : true
+  }, {
+    "id" : "ND-AppealIrregularity",
+    "parentId" : "ND-ReviewStatus",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealIrregularity",
+    "xpathRelative" : "efac:AppealIrregularity",
     "repeatable" : true
   }, {
     "id" : "ND-AppealProcessingParty",
@@ -1021,6 +1033,12 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty",
     "xpathRelative" : "efac:AppealProcessingParty",
     "repeatable" : false
+  }, {
+    "id" : "ND-AppealRemedy",
+    "parentId" : "ND-ReviewStatus",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealRemedy",
+    "xpathRelative" : "efac:AppealRemedy",
+    "repeatable" : true
   }, {
     "id" : "ND-Changes",
     "parentId" : "ND-RootExtension",
@@ -19840,10 +19858,10 @@
     }
   }, {
     "id" : "BT-790-Review",
-    "parentNodeId" : "ND-ReviewStatus",
+    "parentNodeId" : "ND-AppealDecision",
     "name" : "Review Decision Type",
     "btId" : "BT-790",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:DecisionTypeCode",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealDecision/efbc:DecisionTypeCode",
     "xpathRelative" : "efbc:DecisionTypeCode",
     "type" : "code",
     "legalType" : "CODE",
@@ -19869,10 +19887,10 @@
     }
   }, {
     "id" : "BT-791-Review",
-    "parentNodeId" : "ND-ReviewStatus",
+    "parentNodeId" : "ND-AppealIrregularity",
     "name" : "Review Irregularity Type",
     "btId" : "BT-791",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:IrregularityTypeCode",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealIrregularity/efbc:IrregularityTypeCode",
     "xpathRelative" : "efbc:IrregularityTypeCode",
     "type" : "code",
     "legalType" : "CODE",
@@ -19898,10 +19916,10 @@
     }
   }, {
     "id" : "BT-792-Review",
-    "parentNodeId" : "ND-ReviewStatus",
+    "parentNodeId" : "ND-AppealRemedy",
     "name" : "Review Remedy Type",
     "btId" : "BT-792",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:RemedyTypeCode",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealRemedy/efbc:RemedyTypeCode",
     "xpathRelative" : "efbc:RemedyTypeCode",
     "type" : "code",
     "legalType" : "CODE",

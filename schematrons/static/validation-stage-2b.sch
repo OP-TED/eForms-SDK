@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.4.20 created on the 2022-12-06T14:03:13.-->
+<!--File generated from metadata database version 1.4.39 created on the 2022-12-12T17:53:31.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -914,9 +914,6 @@
 		<assert id="BT-789-Review_A" role="ERROR" diagnostics="BT-789-Review" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-789-Review_A</assert>
 		<assert id="BT-789-Review_B" role="ERROR" diagnostics="BT-789-Review" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-789-Review_B</assert>
 		<assert id="BT-789-Review_C" role="ERROR" diagnostics="BT-789-Review" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-789-Review_C</assert>
-		<assert id="BT-790-Review_R" role="ERROR" diagnostics="BT-790-Review" test="count(efbc:DecisionTypeCode) &lt; 2">rule|text|BT-790-Review_R</assert>
-		<assert id="BT-791-Review_R" role="ERROR" diagnostics="BT-791-Review" test="count(efbc:IrregularityTypeCode) &lt; 2">rule|text|BT-791-Review_R</assert>
-		<assert id="BT-792-Review_R" role="ERROR" diagnostics="BT-792-Review" test="count(efbc:RemedyTypeCode) &lt; 2">rule|text|BT-792-Review_R</assert>
 		<assert id="BT-793-Review_R" role="ERROR" diagnostics="BT-793-Review" test="count(efbc:RemedyAmount) &lt; 2">rule|text|BT-793-Review_R</assert>
 		<assert id="BT-794-Review_R" role="ERROR" diagnostics="BT-794-Review" test="count(cbc:URI) &lt; 2">rule|text|BT-794-Review_R</assert>
 		<assert id="BT-795-Review_R" role="ERROR" diagnostics="BT-795-Review" test="count(cbc:FeeAmount) &lt; 2">rule|text|BT-795-Review_R</assert>
@@ -928,10 +925,19 @@
 		<assert id="BT-799-ReviewBody_R" role="ERROR" diagnostics="ND-ReviewStatus_BT-799-ReviewBody" test="count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode) &lt; 2">rule|text|BT-799-ReviewBody_R</assert>
 		<assert id="OPT-301-ReviewBody_R" role="ERROR" diagnostics="ND-ReviewStatus_OPT-301-ReviewBody" test="count(efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-ReviewBody_R</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealDecision">
+		<assert id="BT-790-Review_R" role="ERROR" diagnostics="BT-790-Review" test="count(efbc:DecisionTypeCode) &lt; 2">rule|text|BT-790-Review_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealIrregularity">
+		<assert id="BT-791-Review_R" role="ERROR" diagnostics="BT-791-Review" test="count(efbc:IrregularityTypeCode) &lt; 2">rule|text|BT-791-Review_R</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty">
 		<assert id="OPT-092-ReviewBody_A" role="ERROR" diagnostics="OPT-092-ReviewBody" test="count(efbc:AppealProcessingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealProcessingPartyTypeDescription/@languageID]) = 0">rule|text|OPT-092-ReviewBody_A</assert>
 		<assert id="OPT-092-ReviewBody_B" role="ERROR" diagnostics="OPT-092-ReviewBody" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:AppealProcessingPartyTypeDescription/@languageID = $lg) or count(efbc:AppealProcessingPartyTypeDescription) = 0">rule|text|OPT-092-ReviewBody_B</assert>
 		<assert id="OPT-092-ReviewBody_C" role="ERROR" diagnostics="OPT-092-ReviewBody" test="(every $lg in (efbc:AppealProcessingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:AppealProcessingPartyTypeDescription) = 0">rule|text|OPT-092-ReviewBody_C</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealRemedy">
+		<assert id="BT-792-Review_R" role="ERROR" diagnostics="BT-792-Review" test="count(efbc:RemedyTypeCode) &lt; 2">rule|text|BT-792-Review_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty">
 		<assert id="OPT-091-ReviewReq_R" role="ERROR" diagnostics="OPT-091-ReviewReq" test="count(efbc:AppealingPartyTypeCode) &lt; 2">rule|text|OPT-091-ReviewReq_R</assert>

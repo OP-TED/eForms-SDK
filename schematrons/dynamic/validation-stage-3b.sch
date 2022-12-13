@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.4.31 created on the 2022-12-08T17:07:56.-->
+<!--File generated from metadata database version 1.4.39 created on the 2022-12-12T17:53:31.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -644,13 +644,13 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageCode">
 		<assert id="BR-BT-00783-0052" role="ERROR" test="normalize-space(.) = ('decided', 'requested')">rule|text|BR-BT-00783-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:DecisionTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealDecision/efbc:DecisionTypeCode">
 		<assert id="BR-BT-00790-0051" role="ERROR" test="normalize-space(.) = ('accepted', 'other', 'rej-dl-passed', 'rej-ncomp', 'rej-nirreg', 'rej-npaid', 'rej-other', 'rej-resolv', 'rej-signed')">rule|text|BR-BT-00790-0051</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:IrregularityTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealIrregularity/efbc:IrregularityTypeCode">
 		<assert id="BR-BT-00791-0051" role="ERROR" test="normalize-space(.) = ('ab-low', 'ar-split', 'bid-rigging', 'change-eval', 'conf-int', 'cp-mod-cond', 'elem-mod', 'eva-add-crit', 'eva-diff-crit', 'formal', 'ins-audit', 'insuf-timl', 'irr-involv', 'mod-inco', 'nc-proc-eap', 'nc-timl', 'ncompl-awcrit', 'ncompl-cn', 'ncompl-com', 'ncompl-sub', 'no-notice', 'noex-addinfo', 'noex-timl', 'nojust-nolots', 'npub-limit', 'other', 'restr-not-tlim', 'unj-comp-pro', 'unj-excl', 'unj-lim-subc', 'unj-na-ppr', 'unj-nrl', 'unj-nrl-other')">rule|text|BR-BT-00791-0051</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:RemedyTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealRemedy/efbc:RemedyTypeCode">
 		<assert id="BR-BT-00792-0051" role="ERROR" test="normalize-space(.) = ('alt-penalty', 'damage', 'ineffectiveness', 'interim', 'set-aside')">rule|text|BR-BT-00792-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealIndicator">
