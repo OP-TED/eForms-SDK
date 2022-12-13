@@ -20733,7 +20733,7 @@
     "btId" : "OPP-021",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset/efbc:AssetDescription",
     "xpathRelative" : "efbc:AssetDescription",
-    "type" : "text",
+    "type" : "text-multilingual",
     "maxLength" : 4000,
     "repeatable" : {
       "value" : false,

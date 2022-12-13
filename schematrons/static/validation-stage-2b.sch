@@ -1317,7 +1317,9 @@
 		<assert id="OPP-020-Contract_R" role="ERROR" diagnostics="OPP-020-Contract" test="count(efbc:ExtendedDurationIndicator) &lt; 2">rule|text|OPP-020-Contract_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset">
-		<assert id="OPP-021-Contract_R" role="ERROR" diagnostics="OPP-021-Contract" test="count(efbc:AssetDescription) &lt; 2">rule|text|OPP-021-Contract_R</assert>
+		<assert id="OPP-021-Contract_A" role="ERROR" diagnostics="OPP-021-Contract" test="count(efbc:AssetDescription[@languageID = preceding-sibling::efbc:AssetDescription/@languageID]) = 0">rule|text|OPP-021-Contract_A</assert>
+		<assert id="OPP-021-Contract_B" role="ERROR" diagnostics="OPP-021-Contract" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:AssetDescription/@languageID = $lg) or count(efbc:AssetDescription) = 0">rule|text|OPP-021-Contract_B</assert>
+		<assert id="OPP-021-Contract_C" role="ERROR" diagnostics="OPP-021-Contract" test="(every $lg in (efbc:AssetDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:AssetDescription) = 0">rule|text|OPP-021-Contract_C</assert>
 		<assert id="OPP-022-Contract_R" role="ERROR" diagnostics="OPP-022-Contract" test="count(efbc:AssetSignificance) &lt; 2">rule|text|OPP-022-Contract_R</assert>
 		<assert id="OPP-023-Contract_R" role="ERROR" diagnostics="OPP-023-Contract" test="count(efbc:AssetPredominance) &lt; 2">rule|text|OPP-023-Contract_R</assert>
 	</rule>
@@ -1771,6 +1773,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description">
 		<assert id="BT-99-Lot_D" role="ERROR" test="@languageID">rule|text|BT-99-Lot_D</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset/efbc:AssetDescription">
+		<assert id="OPP-021-Contract_D" role="ERROR" test="@languageID">rule|text|OPP-021-Contract_D</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[not(efbc:TermCode/text()='all-rev-tic')][efbc:TermCode/@listName='contract-detail']/efbc:TermDescription">
 		<assert id="OPP-031-Tender_D" role="ERROR" test="@languageID">rule|text|OPP-031-Tender_D</assert>
