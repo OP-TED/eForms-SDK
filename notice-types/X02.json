@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.4.0",
+  "sdkVersion" : "1.5.0",
   "metadataDatabase" : {
-    "version" : "1.4.0",
-    "createdOn" : "2022-11-25T09:30:00"
+    "version" : "1.4.39",
+    "createdOn" : "2022-12-12T17:53:31"
   },
   "noticeId" : "X02",
   "metadata" : [ {
@@ -69,6 +69,13 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Dispatch Time",
     "_label" : "field|name|BT-05(b)-notice",
+    "hidden" : true
+  }, {
+    "id" : "BT-738-notice",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Notice Publication Date Preferred",
+    "_label" : "field|name|BT-738-notice",
     "hidden" : true
   }, {
     "id" : "OPT-001-notice",

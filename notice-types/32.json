@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.4.0",
+  "sdkVersion" : "1.5.0",
   "metadataDatabase" : {
-    "version" : "1.4.0",
-    "createdOn" : "2022-11-25T09:30:00"
+    "version" : "1.4.39",
+    "createdOn" : "2022-12-12T17:53:31"
   },
   "noticeId" : "32",
   "metadata" : [ {
@@ -76,6 +76,13 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Publication Date Preferred",
     "_label" : "field|name|BT-738-notice",
+    "hidden" : true
+  }, {
+    "id" : "OPT-999",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Dummy Tender Award Date",
+    "_label" : "field|name|OPT-999",
     "hidden" : true
   }, {
     "id" : "OPT-001-notice",
@@ -839,16 +846,17 @@
         }, {
           "id" : "GR-Lot-ProcurementType-Strategic",
           "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementType",
           "displayType" : "GROUP",
-          "description" : "Strategic Procurement",
-          "_label" : "group|name|GR-Lot-ProcurementType-Strategic",
+          "description" : "Information (Description) about Strategic Procurement Type",
+          "_label" : "group|name|ND-StrategicProcurementType",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-06-Lot",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Strategic Procurement",
-            "_label" : "field|name|BT-06-Lot",
-            "_repeatable" : true
+            "_label" : "field|name|BT-06-Lot"
           }, {
             "id" : "BT-777-Lot",
             "contentType" : "field",
@@ -859,16 +867,17 @@
         }, {
           "id" : "GR-Lot-ProcurementType-Accessibility",
           "contentType" : "group",
+          "nodeId" : "ND-AccessibilityJustification",
           "displayType" : "GROUP",
-          "description" : "Accessibility",
-          "_label" : "group|name|GR-Lot-ProcurementType-Accessibility",
+          "description" : "Justification for absence of Accessibility Criteria",
+          "_label" : "group|name|ND-AccessibilityJustification",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-754-Lot",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Accessibility",
-            "_label" : "field|name|BT-754-Lot",
-            "_repeatable" : true
+            "_label" : "field|name|BT-754-Lot"
           }, {
             "id" : "BT-755-Lot",
             "contentType" : "field",
@@ -1004,11 +1013,19 @@
           "description" : "Renewal Maximum",
           "_label" : "field|name|BT-58-Lot"
         }, {
-          "id" : "BT-57-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Renewal Description",
-          "_label" : "field|name|BT-57-Lot"
+          "id" : "GR-OptionsDescription",
+          "contentType" : "group",
+          "nodeId" : "ND-OptionsDescription",
+          "displayType" : "GROUP",
+          "description" : "Description of Options or Renewals",
+          "_label" : "group|name|ND-OptionsDescription",
+          "content" : [ {
+            "id" : "BT-57-Lot",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Renewal Description",
+            "_label" : "field|name|BT-57-Lot"
+          } ]
         } ]
       }, {
         "id" : "GR-Lot-AuctionTerms",
@@ -2588,13 +2605,6 @@
             "displayType" : "TEXTBOX",
             "description" : "Tender Identifier",
             "_label" : "field|name|BT-3201-Tender"
-          }, {
-            "id" : "OPT-999",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Dummy Tender Award Date",
-            "_label" : "field|name|OPT-999",
-            "hidden" : true
           }, {
             "id" : "BT-193-Tender",
             "contentType" : "field",
