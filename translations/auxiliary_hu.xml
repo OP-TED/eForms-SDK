@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Hungarian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in Hungarian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="auxiliary|text|BT-01">Jogalap</entry>
 <entry key="auxiliary|text|BT-08">A szervezet szerepe</entry>
 <entry key="auxiliary|text|BT-36">Időtartam</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Információ a szerződés finanszírozásához használt európai uniós alapokról</entry>
 <entry key="auxiliary|text|exclusion-grounds">Kizárási okok</entry>
 <entry key="auxiliary|text|framework-agreement">Keretmegállapodás</entry>
+<entry key="auxiliary|text|further-info">További információk, közvetítés és felülvizsgálat</entry>
 <entry key="auxiliary|text|general-information">Általános információk</entry>
 <entry key="auxiliary|text|group-framework-value">A részcsoporton belüli keretmegállapodás becsült értéke</entry>
 <entry key="auxiliary|text|group-of-lots">Részcsoport</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">A közbeszerzési eljárás eredménye</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Az állítólagos szabálytalanság típusa</entry>
 <entry key="auxiliary|text|review-requests-summary">Az ajánlatkérő szervezethez beérkezett felülvizsgálati kérelmek összefoglalása</entry>
-<entry key="auxiliary|text|roles">Szerep(ek)</entry>
+<entry key="auxiliary|text|roles">Ennek a szervezetnek a szerepei</entry>
 <entry key="auxiliary|text|second-stage">A kétszakaszos eljárás második szakaszára vonatkozó információk</entry>
 <entry key="auxiliary|text|selection-criteria">Alkalmassági követelmények</entry>
 <entry key="auxiliary|text|start-duration-contract">A szerződés tervezett kezdőnapja és időtartama</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Érték</entry>
 <entry key="auxiliary|text|winner">Nyertes</entry>
 <entry key="auxiliary|text|winner-info">Információk a nyertesekről</entry>
+<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
 <entry key="auxiliary|text|winner-subcontractor">A nyertes alvállalkozói</entry>
 </properties>

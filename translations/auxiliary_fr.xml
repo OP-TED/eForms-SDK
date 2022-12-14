@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in French. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in French. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="auxiliary|text|BT-01">Base juridique</entry>
 <entry key="auxiliary|text|BT-08">Rôle de l’organisation</entry>
 <entry key="auxiliary|text|BT-36">Durée</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Informations sur les fonds de l’Union européenne utilisés pour financer le marché</entry>
 <entry key="auxiliary|text|exclusion-grounds">Motifs d’exclusion</entry>
 <entry key="auxiliary|text|framework-agreement">Accord-cadre</entry>
+<entry key="auxiliary|text|further-info">Informations complémentaires, médiation et révision</entry>
 <entry key="auxiliary|text|general-information">Informations générales</entry>
 <entry key="auxiliary|text|group-framework-value">Valeur estimée des accords-cadres dans le groupe de lots</entry>
 <entry key="auxiliary|text|group-of-lots">Groupe de lots</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Résultat de la procédure de passation de marché</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Type d’irrégularité alléguée</entry>
 <entry key="auxiliary|text|review-requests-summary">Résumé des demandes de réexamen reçues par l’acheteur</entry>
-<entry key="auxiliary|text|roles">Rôle(s)</entry>
+<entry key="auxiliary|text|roles">Rôles de cette organisation</entry>
 <entry key="auxiliary|text|second-stage">Informations sur la seconde étape d’une procédure en deux étapes</entry>
 <entry key="auxiliary|text|selection-criteria">Critères de sélection</entry>
 <entry key="auxiliary|text|start-duration-contract">Date de début et durée du marché</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Valeur</entry>
 <entry key="auxiliary|text|winner">Lauréat</entry>
 <entry key="auxiliary|text|winner-info">Informations sur les lauréats</entry>
+<entry key="auxiliary|text|winner-lots">Lauréat de ces lots</entry>
 <entry key="auxiliary|text|winner-subcontractor">Sous-traitants du lauréat</entry>
 </properties>

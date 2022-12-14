@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Maltese. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in Maltese. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="auxiliary|text|BT-01">Bażi legali</entry>
 <entry key="auxiliary|text|BT-08">Ir-rwol tal-organizzazzjoni</entry>
 <entry key="auxiliary|text|BT-36">Tul ta’ żmien</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Informazzjoni dwar il-fondi tal-Unjoni Ewropea użati għall-finanzjament tal-kuntratt</entry>
 <entry key="auxiliary|text|exclusion-grounds">Raġunijiet għall-esklużjoni</entry>
 <entry key="auxiliary|text|framework-agreement">Ftehim qafas</entry>
+<entry key="auxiliary|text|further-info">Aktar informazzjoni, medjazzjoni u reviżjoni</entry>
 <entry key="auxiliary|text|general-information">Informazzjoni ġenerali</entry>
 <entry key="auxiliary|text|group-framework-value">Valur stmat tal-ftehimiet qafas fi ħdan il-grupp ta’ lottijiet</entry>
 <entry key="auxiliary|text|group-of-lots">Grupp ta’ lottijiet</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Riżultat tal-proċedura ta’ akkwist</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Tip ta’ irregolarità allegata</entry>
 <entry key="auxiliary|text|review-requests-summary">Sommarju tat-talbiet għal rieżami li rċieva x-xerrej</entry>
-<entry key="auxiliary|text|roles">Rwol(i)</entry>
+<entry key="auxiliary|text|roles">Rwoli ta’ din l-organizzazzjoni</entry>
 <entry key="auxiliary|text|second-stage">Informazzjoni dwar it-tieni stadju ta’ proċedura b’żewġ stadji</entry>
 <entry key="auxiliary|text|selection-criteria">Kriterji tal-għażla</entry>
 <entry key="auxiliary|text|start-duration-contract">Data tal-bidu u tul ta’ żmien tal-kuntratt</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Valur</entry>
 <entry key="auxiliary|text|winner">Rebbieħ</entry>
 <entry key="auxiliary|text|winner-info">Informazzjoni dwar ir-rebbieħa</entry>
+<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
 <entry key="auxiliary|text|winner-subcontractor">Sottokuntratturi tar-rebbieħ</entry>
 </properties>
