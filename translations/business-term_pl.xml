@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Polish. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Polish. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Podstawowe informacje o ogłoszeniu.</entry>
 <entry key="business-term|description|BG-100">Ogólne informacje na temat komunikacji z nabywcą(-ami). Informacje te mogą się różnić w zależności od części zamówienia. W przypadku wstępnego ogłoszenia informacyjnego, które wykorzystuje się wyłącznie do celów informacyjnych, informacje te mogą być różne dla poszczególnych części ogłoszenia, które mogą stać się później częściami zamówienia lub odrębnymi postępowaniami.</entry>
 <entry key="business-term|description|BG-101">Informacje na temat dokumentów zamówienia. Informacje te mogą się różnić w zależności od części zamówienia. W przypadku wstępnego ogłoszenia informacyjnego, które wykorzystuje się wyłącznie do celów informacyjnych, informacje te mogą być różne dla poszczególnych części ogłoszenia, które mogą stać się później częściami zamówienia lub odrębnymi postępowaniami.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Maksymalna liczba wznowień</entry>
 <entry key="business-term|name|BT-60">Zamówienie jest przynajmniej częściowo finansowane ze środków Unii Europejskiej.</entry>
 <entry key="business-term|name|BT-610">Sektor działalności podmiotu zamawiającego</entry>
-<entry key="business-term|name|BT-6110">Szczegóły dotyczące funduszu UE</entry>
+<entry key="business-term|name|BT-6110">Opis</entry>
 <entry key="business-term|name|BT-6140">Dalsze informacje na temat unijnego programu lub projektu wykorzystanego co najmniej częściowo finansują zamówienia</entry>
 <entry key="business-term|name|BT-615">Informacje o zastrzeżonych dokumentach są dostępne pod adresem</entry>
 <entry key="business-term|name|BT-625">Jednostka</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Dodatkowe informacje o umowie o nieujawnianiu informacji</entry>
 <entry key="business-term|name|BT-803">Data wysyłki zawiadomienia (eSender)</entry>
 <entry key="business-term|name|BT-805">Kryteria zielonych zamówień</entry>
-<entry key="business-term|name|BT-88">Opis procedury</entry>
+<entry key="business-term|name|BT-88">Główne aspekty procedury</entry>
 <entry key="business-term|name|BT-92">Stosowane będą zlecenia elektroniczne</entry>
 <entry key="business-term|name|BT-93">Stosowane będą płatności elektroniczne</entry>
 <entry key="business-term|name|BT-94">To jest zamówienie powtarzalne.</entry>

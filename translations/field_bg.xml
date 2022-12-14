@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Bulgarian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Bulgarian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Максимален брой подновявания</entry>
 <entry key="field|name|BT-60-Lot">Обществената поръчка е поне частично финансирана със средства на Европейския съюз.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Дейност на възложителя</entry>
-<entry key="field|name|BT-6110-Contract">Данни за фонда на ЕС</entry>
+<entry key="field|name|BT-6110-Contract">Описание</entry>
 <entry key="field|name|BT-6140-Lot">Допълнителна информация за използваната програма или проект на Съюза за поне частично финансиране на обществената поръчка</entry>
 <entry key="field|name|BT-615-Lot">Информация за документи с ограничен достъп може да бъде намерена на адрес</entry>
 <entry key="field|name|BT-615-Part">Информация за документи с ограничен достъп може да бъде намерена на адрес</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Дата на изпращане на обявлението (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Дата на изпращане на обявлението (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Критерии за екологосъобразни обществени поръчки</entry>
-<entry key="field|name|BT-88-Procedure">Описание на процедурата</entry>
+<entry key="field|name|BT-88-Procedure">Главните характеристики на процедурата</entry>
 <entry key="field|name|BT-92-Lot">Ще се използва електронно поръчване</entry>
 <entry key="field|name|BT-93-Lot">Ще се използва електронно плащане</entry>
 <entry key="field|name|BT-94-Lot">Това е повтаряща се обществена поръчка.</entry>

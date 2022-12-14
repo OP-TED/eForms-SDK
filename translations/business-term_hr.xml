@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Croatian. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Croatian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Osnovne informacije o obavijesti.</entry>
 <entry key="business-term|description|BG-100">Opće informacije o komunikaciji s kupcem ili kupcima. Te se informacije mogu razlikovati po grupi. U slučaju prethodne informacijske obavijesti upotrijebljene samo u informativne svrhe, te se informacije mogu razlikovati u onim dijelovima obavijesti koji se kasnije mogu pretvoriti u grupu ili samostalni postupak.</entry>
 <entry key="business-term|description|BG-101">Informacije o dokumentaciji o nabavi. Te se informacije mogu razlikovati po grupi. U slučaju prethodne informacijske obavijesti upotrijebljene samo u informativne svrhe, te se informacije mogu razlikovati u onim dijelovima obavijesti koji se kasnije mogu pretvoriti u grupu ili samostalni postupak.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Maksimalan broj obnavljanja</entry>
 <entry key="business-term|name|BT-60">Javna nabava barem se djelomično financira sredstvima Europske unije.</entry>
 <entry key="business-term|name|BT-610">Djelatnost naručitelja</entry>
-<entry key="business-term|name|BT-6110">Pojedinosti o fondu EU-a</entry>
+<entry key="business-term|name|BT-6110">Opis</entry>
 <entry key="business-term|name|BT-6140">Dodatne informacije o programu ili projektu Unije kojim se barem djelomično financira javna nabava</entry>
 <entry key="business-term|name|BT-615">Informacije o dokumentima s ograničenim pristupom dostupne su ovdje</entry>
 <entry key="business-term|name|BT-625">Jedinica</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Dodatne informacije o ugovoru o neobjavljivanju</entry>
 <entry key="business-term|name|BT-803">Datum slanja obavijesti (ePošiljatelj)</entry>
 <entry key="business-term|name|BT-805">Kriteriji zelene nabave</entry>
-<entry key="business-term|name|BT-88">Opis postupka</entry>
+<entry key="business-term|name|BT-88">Glavne značajke postupka</entry>
 <entry key="business-term|name|BT-92">Naručivanje će biti elektroničko</entry>
 <entry key="business-term|name|BT-93">Plaćanje će biti elektroničko</entry>
 <entry key="business-term|name|BT-94">Riječ je o javnoj nabavi koja se ponavlja.</entry>

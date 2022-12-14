@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Spanish. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Spanish. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Información básica sobre el anuncio</entry>
 <entry key="business-term|description|BG-100">Información general sobre la comunicación con el comprador o compradores. Esta información podrá diferir según el lote. En el caso de un anuncio de información previa usado solo con fines informativos, esta información podrá diferir según la parte del anuncio que pueda convertirse posteriormente en un lote o en un procedimiento independiente.</entry>
 <entry key="business-term|description|BG-101">Información sobre los documentos de contratación Esta información podrá diferir según el lote. En el caso de un anuncio de información previa usado solo con fines informativos, esta información podrá diferir según la parte del anuncio que pueda convertirse posteriormente en un lote o en un procedimiento independiente.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Número máximo de renovaciones</entry>
 <entry key="business-term|name|BT-60">La contratación pública se financia, al menos parcialmente, con fondos de la Unión Europea.</entry>
 <entry key="business-term|name|BT-610">Actividad de la entidad adjudicadora</entry>
-<entry key="business-term|name|BT-6110">Detalles del fondo de la UE</entry>
+<entry key="business-term|name|BT-6110">Descripción</entry>
 <entry key="business-term|name|BT-6140">Más información sobre el programa o proyecto de la Unión utilizado al menos parcialmente para financiar la contratación pública</entry>
 <entry key="business-term|name|BT-615">La información sobre los documentos restringidos está disponible en</entry>
 <entry key="business-term|name|BT-625">Unidad</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Información adicional sobre el acuerdo de no divulgación</entry>
 <entry key="business-term|name|BT-803">Fecha de envío del anuncio (eSender)</entry>
 <entry key="business-term|name|BT-805">Criterios de contratación pública ecológica</entry>
-<entry key="business-term|name|BT-88">Descripción del procedimiento</entry>
+<entry key="business-term|name|BT-88">Las principales características del procedimiento</entry>
 <entry key="business-term|name|BT-92">Se utilizarán pedidos electrónicos</entry>
 <entry key="business-term|name|BT-93">Se utilizará el pago electrónico</entry>
 <entry key="business-term|name|BT-94">Se trata de una contratación recurrente.</entry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Finnish. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Finnish. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Perustiedot ilmoituksesta.</entry>
 <entry key="business-term|description|BG-100">Yleiset tiedot yhteydenpidosta ostajan (ostajien) kanssa. Nämä tiedot voivat vaihdella erän mukaan. Jos kyseessä on ennakkoilmoitus vain tietotarkoituksiin, nämä tiedot voivat vaihdella ilmoituksen osien mukaan, jotka voidaan myöhemmin erotella omiksi erikseen tai menettelyikseen.</entry>
 <entry key="business-term|description|BG-101">Hankinta-asiakirjoja koskevat tiedot. Nämä tiedot voivat vaihdella erän mukaan. Jos kyseessä on ennakkoilmoitus vain tietotarkoituksiin, nämä tiedot voivat vaihdella ilmoituksen osien mukaan, jotka voidaan myöhemmin erotella omiksi erikseen tai menettelyikseen.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Uusimisten enimmäismäärä</entry>
 <entry key="business-term|name|BT-60">Hankinta rahoitetaan ainakin osittain Euroopan unionin varoista.</entry>
 <entry key="business-term|name|BT-610">Hankintayksikön toiminta</entry>
-<entry key="business-term|name|BT-6110">EU:n rahaston tiedot</entry>
+<entry key="business-term|name|BT-6110">Kuvaus</entry>
 <entry key="business-term|name|BT-6140">Lisätietoja ainakin osittain hankinnan rahoituksesta käytetystä unionin ohjelmasta tai hankkeesta</entry>
 <entry key="business-term|name|BT-615">Tietoa asiakirjojen saatavuuden rajoittamisesta on osoitteessa</entry>
 <entry key="business-term|name|BT-625">Yksikkö</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Lisätietoja salassapitosopimuksesta</entry>
 <entry key="business-term|name|BT-803">Ilmoituksen lähetyspäivä (eSender)</entry>
 <entry key="business-term|name|BT-805">Ympäristöä säästävien hankintojen kriteerit</entry>
-<entry key="business-term|name|BT-88">Menettelyn kuvaus</entry>
+<entry key="business-term|name|BT-88">Menettelyn tärkeimmät piirteet</entry>
 <entry key="business-term|name|BT-92">Tilaukset tehdään sähköisesti</entry>
 <entry key="business-term|name|BT-93">Maksut tehdään sähköisesti</entry>
 <entry key="business-term|name|BT-94">Tämä on toistuva hankinta.</entry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in German. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in German. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Grundlegende Informationen zur Bekanntmachung.</entry>
 <entry key="business-term|description|BG-100">Allgemeine Angaben zur Kommunikation mit dem(den) Beschaffer(n). Diese Angaben können je nach Los unterschiedlich ausfallen. Im Falle einer nur zu Informationszwecken verwendeten Vorinformation können diese Angaben auch in den verschiedenen Abschnitten einer Bekanntmachung, die ggf. zu einem späteren Zeitpunkt zu einem Los oder einem eigenen Verfahren umgewandelt werden, unterschiedlich ausfallen.</entry>
 <entry key="business-term|description|BG-101">Angaben zu den Auftragsunterlagen. Diese Angaben können je nach Los unterschiedlich ausfallen. Im Falle einer nur zu Informationszwecken verwendeten Vorinformation können diese Angaben auch in den verschiedenen Abschnitten einer Bekanntmachung, die ggf. zu einem späteren Zeitpunkt zu einem Los oder einem eigenen Verfahren umgewandelt werden, unterschiedlich ausfallen.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Maximale Verlängerungen</entry>
 <entry key="business-term|name|BT-60">Die Auftragsvergabe wird zumindest teilweise aus Mitteln der Europäischen Union finanziert.</entry>
 <entry key="business-term|name|BT-610">Tätigkeit des Auftraggebers</entry>
-<entry key="business-term|name|BT-6110">Details zum EU-Fonds</entry>
+<entry key="business-term|name|BT-6110">Beschreibung</entry>
 <entry key="business-term|name|BT-6140">Weitere Informationen über das Programm oder Projekt der Union, das die Auftragsvergabe zumindest teilweise finanziert</entry>
 <entry key="business-term|name|BT-615">Informationen über zugangsbeschränkte Dokumente einsehbar unter</entry>
 <entry key="business-term|name|BT-625">Einheit</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Weitere Informationen zur Geheimhaltungsvereinbarung</entry>
 <entry key="business-term|name|BT-803">Mitteilungsversanddatum (eSender)</entry>
 <entry key="business-term|name|BT-805">Kriterien für grünes Beschaffungswesen</entry>
-<entry key="business-term|name|BT-88">Beschreibung des Verfahrens</entry>
+<entry key="business-term|name|BT-88">Die wichtigsten Merkmale des Verfahrens</entry>
 <entry key="business-term|name|BT-92">Aufträge werden elektronisch erteilt.</entry>
 <entry key="business-term|name|BT-93">Zahlungen werden elektronisch geleistet.</entry>
 <entry key="business-term|name|BT-94">Es handelt sich um die Vergabe wiederkehrender Aufträge.</entry>

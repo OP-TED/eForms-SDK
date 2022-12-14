@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Lithuanian. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Lithuanian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Pagrindinė informacija apie skelbimą.</entry>
 <entry key="business-term|description|BG-100">Bendra informacija apie bendravimą su pirkėju (-ais). Ši informacija gali įvairuoti priklausomai nuo pirkimo dalies. Jeigu išankstinis informacinis skelbimas naudojamas tik kaip informacija, ši informacija gali įvairuoti priklausomai nuo skelbimo dalies, kuri vėliau gali tapti pirkimo dalimi arba atskira procedūra.</entry>
 <entry key="business-term|description|BG-101">Informacija apie pirkimo dokumentus. Ši informacija gali įvairuoti priklausomai nuo pirkimo dalies. Jeigu išankstinis informacinis skelbimas naudojamas tik kaip informacija, ši informacija gali įvairuoti priklausomai nuo skelbimo dalies, kuri vėliau gali tapti pirkimo dalimi arba atskira procedūra.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Daugiausiai atnaujinimų</entry>
 <entry key="business-term|name|BT-60">Bent dalis pirkimo yra iš dalies finansuojama iš Europos Sąjungos fondų.</entry>
 <entry key="business-term|name|BT-610">Perkančiojo subjekto veiklos sritis</entry>
-<entry key="business-term|name|BT-6110">Išsami informacija apie ES fondą</entry>
+<entry key="business-term|name|BT-6110">Aprašymas</entry>
 <entry key="business-term|name|BT-6140">Daugiau informacijos apie Sąjungos programą arba projektą, kuriais bent iš dalies finansuojamas viešasis pirkimas</entry>
 <entry key="business-term|name|BT-615">Informacija apie ribotos prieigos pirkimo dokumentus pateikiama adresu</entry>
 <entry key="business-term|name|BT-625">Vienetas</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Papildoma informacija apie neatskleidimo susitarimą</entry>
 <entry key="business-term|name|BT-803">Pranešimo išsiuntimo data (eSender)</entry>
 <entry key="business-term|name|BT-805">Žaliųjų viešųjų pirkimų kriterijai</entry>
-<entry key="business-term|name|BT-88">Procedūros aprašymas</entry>
+<entry key="business-term|name|BT-88">Pagrindiniai procedūros ypatumai</entry>
 <entry key="business-term|name|BT-92">Bus naudojami elektroniniai užsakymai</entry>
 <entry key="business-term|name|BT-93">Bus naudojami elektroniniai mokėjimai</entry>
 <entry key="business-term|name|BT-94">Tai pasikartojantis pirkimas.</entry>

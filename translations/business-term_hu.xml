@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Hungarian. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Hungarian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Alapvető információ a hirdetményről.</entry>
 <entry key="business-term|description|BG-100">Általános információ az ajánlatkérő szervezettel (ajánlatkérő szervezetekkel) folytatott kommunikációról. Ez az információ részenként eltérő lehet. Kizárólag tájékoztatás céljából alkalmazott előzetes tájékoztató esetén ez az információ a később résszé vagy önálló eljárássá váló hirdetmény egyes részei tekintetében eltérő lehet.</entry>
 <entry key="business-term|description|BG-101">A közbeszerzési dokumentumokra vonatkozó információ. Ez az információ részenként eltérő lehet. Kizárólag tájékoztatás céljából alkalmazott előzetes tájékoztató esetén ez az információ a később résszé vagy önálló eljárássá váló hirdetmény egyes részei tekintetében eltérő lehet.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">A megújítások maximális száma</entry>
 <entry key="business-term|name|BT-60">A közbeszerzést legalább részben európai uniós forrásokból finanszírozzák.</entry>
 <entry key="business-term|name|BT-610">A közszolgáltató ajánlatkérő tevékenysége</entry>
-<entry key="business-term|name|BT-6110">Az uniós alap részletei</entry>
+<entry key="business-term|name|BT-6110">Leírás</entry>
 <entry key="business-term|name|BT-6140">További információk a közbeszerzést legalább részben finanszírozó uniós programról vagy projektről</entry>
 <entry key="business-term|name|BT-615">A korlátozott hozzáférésű dokumentumokra vonatkozó információk elérhetők itt</entry>
 <entry key="business-term|name|BT-625">Egység</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">További információk a titoktartási megállapodásról</entry>
 <entry key="business-term|name|BT-803">Értesítés feladásának időpontja (eSender)</entry>
 <entry key="business-term|name|BT-805">Zöld beszerzési kritériumok</entry>
-<entry key="business-term|name|BT-88">Az eljárás leírása</entry>
+<entry key="business-term|name|BT-88">Az eljárás fő jellemzői</entry>
 <entry key="business-term|name|BT-92">Elektronikus megrendelésre fog sor kerülni</entry>
 <entry key="business-term|name|BT-93">Elektronikus fizetésre fog sor kerülni</entry>
 <entry key="business-term|name|BT-94">Ez egy ismétlődő közbeszerzés.</entry>

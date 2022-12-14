@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Czech. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Czech. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Základní informace o oznámení.</entry>
 <entry key="business-term|description|BG-100">Obecné informace o komunikaci s kupujícím (kupujícími). Tyto informace se mohou lišit podle částí zakázky. U předběžného oznámení použitého pouze pro informační účely se uvedené informace mohou lišit i v jednotlivých částech oznámení, které se později mohou stát částí zakázky nebo samostatnou zakázkou.</entry>
 <entry key="business-term|description|BG-101">Informace o zadávací dokumentaci. Tyto informace se mohou lišit podle částí zakázky. U předběžného oznámení použitého pouze pro informační účely se uvedené informace mohou lišit i v jednotlivých částech oznámení, které se později mohou stát částí zakázky nebo samostatnou zakázkou.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Maximální počet obnovení</entry>
 <entry key="business-term|name|BT-60">Veřejná zakázka je alespoň částečně financována z prostředků Evropské unie.</entry>
 <entry key="business-term|name|BT-610">Činnost zadavatele</entry>
-<entry key="business-term|name|BT-6110">Podrobnosti o fondu EU</entry>
+<entry key="business-term|name|BT-6110">Popis</entry>
 <entry key="business-term|name|BT-6140">Další informace o programu nebo projektu Unie alespoň částečně financované veřejné zakázky</entry>
 <entry key="business-term|name|BT-615">Informace o důvěrných dokumentech jsou k dispozici na</entry>
 <entry key="business-term|name|BT-625">Jednotka</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Další informace o dohodě o mlčenlivosti</entry>
 <entry key="business-term|name|BT-803">Datum odeslání oznámení (eSender)</entry>
 <entry key="business-term|name|BT-805">Kritéria pro zelené zadávání veřejných zakázek</entry>
-<entry key="business-term|name|BT-88">Popis řízení</entry>
+<entry key="business-term|name|BT-88">Hlavní rysy řízení</entry>
 <entry key="business-term|name|BT-92">Bude použito elektronické objednávání</entry>
 <entry key="business-term|name|BT-93">Bude použita elektronická platba</entry>
 <entry key="business-term|name|BT-94">Jedná se o opakující se zadávací řízení.</entry>

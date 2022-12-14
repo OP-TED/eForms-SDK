@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Estonian. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Estonian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Teate põhiteave.</entry>
 <entry key="business-term|description|BG-100">Üldine teave hankija(te)ga suhtlemise kohta. See teave võib hanke ositi erineda. Üksnes teabe eesmärgil kasutatud eelteate puhul võib see teave varieeruda teate osade lõikes, millest võib hiljem saada hanke osa või eraldiseisev hange.</entry>
 <entry key="business-term|description|BG-101">Teave hankedokumentide kohta. See teave võib hanke ositi erineda. Üksnes teabe eesmärgil kasutatud eelteate puhul võib see teave varieeruda teate osade lõikes, millest võib hiljem saada hanke osa või eraldiseisev hange.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Maksimaalne uuendamiste arv</entry>
 <entry key="business-term|name|BT-60">Hankeid rahastatakse vähemalt osaliselt Euroopa Liidu vahenditest</entry>
 <entry key="business-term|name|BT-610">Võrgustiku sektori hankija tegevus</entry>
-<entry key="business-term|name|BT-6110">ELi fondi andmed</entry>
+<entry key="business-term|name|BT-6110">Kirjeldus</entry>
 <entry key="business-term|name|BT-6140">Lisateave liidu programmi või projekti kohta, mida kasutati vähemalt osaliselt hanke rahastamiseks</entry>
 <entry key="business-term|name|BT-615">Teave piiratud juurdepääsuga dokumentide kohta on kättesaadav aadressil</entry>
 <entry key="business-term|name|BT-625">Üksus</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Lisateave avalikustamata jätmise lepingu kohta</entry>
 <entry key="business-term|name|BT-803">Teate saatmise kuupäev (eSender)</entry>
 <entry key="business-term|name|BT-805">Keskkonnahoidlike riigihangete kriteeriumid</entry>
-<entry key="business-term|name|BT-88">Menetluse kirjeldus</entry>
+<entry key="business-term|name|BT-88">Menetluse peamised põhimõtted</entry>
 <entry key="business-term|name|BT-92">Kasutatakse elektroonilisi tellimusi</entry>
 <entry key="business-term|name|BT-93">Kasutatakse elektroonilisi makseid</entry>
 <entry key="business-term|name|BT-94">Tegemist on korduva hankega.</entry>

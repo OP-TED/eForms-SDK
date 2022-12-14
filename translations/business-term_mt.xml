@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Maltese. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Maltese. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Informazzjoni bażika dwar l-avviż.</entry>
 <entry key="business-term|description|BG-100">Informazzjoni ġenerali dwar il-komunikazzjoni max-xerrej(ja). Din l-informazzjoni tista’ tvarja għal kull lott. F’każ ta’ avviż informattiv minn qabel li ntuża għall-informazzjoni biss, din l-informazzjoni tista’ tvarja għal kull parti mill-avviż li iktar tard tista’ ssir lott jew proċedura awtonoma.</entry>
 <entry key="business-term|description|BG-101">Informazzjoni dwar id-dokumenti tal-akkwist. Din l-informazzjoni tista’ tvarja għal kull lott. F’każ ta’ avviż informattiv minn qabel li ntuża għall-informazzjoni biss, din l-informazzjoni tista’ tvarja għal kull parti mill-avviż li iktar tard tista’ ssir lott jew proċedura awtonoma.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Numru massimu ta’ tiġdid</entry>
 <entry key="business-term|name|BT-60">L-akkwist huwa mill-inqas parzjalment iffinanzjat mill-fondi tal-Unjoni Ewropea.</entry>
 <entry key="business-term|name|BT-610">Attività tal-entità kontraenti</entry>
-<entry key="business-term|name|BT-6110">Dettalji tal-fond tal-UE</entry>
+<entry key="business-term|name|BT-6110">Deskrizzjoni</entry>
 <entry key="business-term|name|BT-6140">Aktar informazzjoni dwar il-programm jew il-proġett tal-Unjoni użat mill-inqas parzjalment jiffinanzja l-akkwist</entry>
 <entry key="business-term|name|BT-615">Informazzjoni dwar id-dokumenti ristretti hija disponibbli fuq</entry>
 <entry key="business-term|name|BT-625">Unità</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Informazzjoni addizzjonali dwar il-ftehim ta’ nuqqas ta’ divulgazzjoni</entry>
 <entry key="business-term|name|BT-803">Data tad-dispaċċ tal-avviż (eSender)</entry>
 <entry key="business-term|name|BT-805">Kriterji ta’ Akkwist Ekoloġiku</entry>
-<entry key="business-term|name|BT-88">Deskrizzjoni tal-proċedura</entry>
+<entry key="business-term|name|BT-88">Il-karatteristiki prinċipali tal-proċedura</entry>
 <entry key="business-term|name|BT-92">Se tintuża l-ordni elettronika</entry>
 <entry key="business-term|name|BT-93">Se jintuża l-pagament elettroniku</entry>
 <entry key="business-term|name|BT-94">Dan huwa akkwist rikorrenti.</entry>

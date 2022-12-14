@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Bulgarian. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Bulgarian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Основна информация за обявлението.</entry>
 <entry key="business-term|description|BG-100">Обща информация за съобщенията с купувача или купувачите. Тази информация може да се различава според обособената позиция. При обявление за предварителна информация, използвано само за информация, тази информация може да се различава според частта на обявлението, която по-късно може да стане обособена позиция или самостоятелна процедура.</entry>
 <entry key="business-term|description|BG-101">Информация за документацията за поръчката. Тази информация може да се различава според обособената позиция. При обявление за предварителна информация, използвано само за информация, тази информация може да се различава според частта на обявлението, която по-късно може да стане обособена позиция или самостоятелна процедура.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Максимален брой подновявания</entry>
 <entry key="business-term|name|BT-60">Обществената поръчка е поне частично финансирана със средства на Европейския съюз.</entry>
 <entry key="business-term|name|BT-610">Дейност на възложителя</entry>
-<entry key="business-term|name|BT-6110">Данни за фонда на ЕС</entry>
+<entry key="business-term|name|BT-6110">Описание</entry>
 <entry key="business-term|name|BT-6140">Допълнителна информация за използваната програма или проект на Съюза за поне частично финансиране на обществената поръчка</entry>
 <entry key="business-term|name|BT-615">Информация за документи с ограничен достъп може да бъде намерена на адрес</entry>
 <entry key="business-term|name|BT-625">Единица</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Допълнителна информация относно споразумението за неразкриване на информация</entry>
 <entry key="business-term|name|BT-803">Дата на изпращане на обявлението (eSender)</entry>
 <entry key="business-term|name|BT-805">Критерии за екологосъобразни обществени поръчки</entry>
-<entry key="business-term|name|BT-88">Описание на процедурата</entry>
+<entry key="business-term|name|BT-88">Главните характеристики на процедурата</entry>
 <entry key="business-term|name|BT-92">Ще се използва електронно поръчване</entry>
 <entry key="business-term|name|BT-93">Ще се използва електронно плащане</entry>
 <entry key="business-term|name|BT-94">Това е повтаряща се обществена поръчка.</entry>

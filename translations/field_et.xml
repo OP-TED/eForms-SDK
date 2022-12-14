@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Estonian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Estonian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Maksimaalne uuendamiste arv</entry>
 <entry key="field|name|BT-60-Lot">Hankeid rahastatakse vähemalt osaliselt Euroopa Liidu vahenditest</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Võrgustiku sektori hankija tegevus</entry>
-<entry key="field|name|BT-6110-Contract">ELi fondi andmed</entry>
+<entry key="field|name|BT-6110-Contract">Kirjeldus</entry>
 <entry key="field|name|BT-6140-Lot">Lisateave liidu programmi või projekti kohta, mida kasutati vähemalt osaliselt hanke rahastamiseks</entry>
 <entry key="field|name|BT-615-Lot">Teave piiratud juurdepääsuga dokumentide kohta on kättesaadav aadressil</entry>
 <entry key="field|name|BT-615-Part">Teave piiratud juurdepääsuga dokumentide kohta on kättesaadav aadressil</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Teate saatmise kuupäev (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Teate saatmise kuupäev (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Keskkonnahoidlike riigihangete kriteeriumid</entry>
-<entry key="field|name|BT-88-Procedure">Menetluse kirjeldus</entry>
+<entry key="field|name|BT-88-Procedure">Menetluse peamised põhimõtted</entry>
 <entry key="field|name|BT-92-Lot">Kasutatakse elektroonilisi tellimusi</entry>
 <entry key="field|name|BT-93-Lot">Kasutatakse elektroonilisi makseid</entry>
 <entry key="field|name|BT-94-Lot">Tegemist on korduva hankega.</entry>

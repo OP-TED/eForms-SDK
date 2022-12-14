@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Italian. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Italian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Informazioni di base sull'avviso o bando.</entry>
 <entry key="business-term|description|BG-100">Informazioni generali sulle comunicazioni con il committente o i committenti. Tali informazioni possono essere diverse a seconda dei lotti. Nel caso di un avviso di preinformazione a fini unicamente informativi, tali informazioni possono essere diverse a seconda della parte dell'avviso che può successivamente diventare un lotto o una procedura a sé stante.</entry>
 <entry key="business-term|description|BG-101">Informazioni sui documenti di gara. Tali informazioni possono essere diverse a seconda dei lotti. Nel caso di un avviso di preinformazione a fini unicamente informativi, tali informazioni possono essere diverse a seconda della parte dell'avviso che può successivamente diventare un lotto o una procedura a sé stante.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Rinnovi massimi</entry>
 <entry key="business-term|name|BT-60">L'appalto è finanziato almeno in parte da fondi dell'Unione europea.</entry>
 <entry key="business-term|name|BT-610">Attività dell'ente aggiudicatore</entry>
-<entry key="business-term|name|BT-6110">Dettagli del fondo UE</entry>
+<entry key="business-term|name|BT-6110">Descrizione</entry>
 <entry key="business-term|name|BT-6140">Ulteriori informazioni sul programma o sul progetto dell'Unione utilizzati almeno parzialmente per finanziare l'appalto</entry>
 <entry key="business-term|name|BT-615">Le informazioni sui documenti riservati sono disponibili all'indirizzo seguente</entry>
 <entry key="business-term|name|BT-625">Unità</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Ulteriori informazioni sull'accordo di non divulgazione</entry>
 <entry key="business-term|name|BT-803">Data di invio dell'avviso (eSender)</entry>
 <entry key="business-term|name|BT-805">Criteri di aggiudicazione verde</entry>
-<entry key="business-term|name|BT-88">Descrizione della procedura</entry>
+<entry key="business-term|name|BT-88">Caratteristiche principali della procedura</entry>
 <entry key="business-term|name|BT-92">Si farà ricorso all'ordinazione elettronica</entry>
 <entry key="business-term|name|BT-93">Sarà utilizzato il pagamento elettronico</entry>
 <entry key="business-term|name|BT-94">Si tratta di un appalto rinnovabile.</entry>

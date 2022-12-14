@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>business-term in Danish. File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11</comment>
+<comment>business-term in Danish. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="business-term|description|BG-1">Basisoplysninger om bekendtgørelsen.</entry>
 <entry key="business-term|description|BG-100">Generelle oplysninger om kommunikation med køberen eller køberne. Disse oplysninger kan være forskellige for hver delkontrakt. I forbindelse med en forhåndsmeddelelse, der kun er anvendt til informationsformål, kan disse oplysninger være forskellige for hver del i bekendtgørelsen, som senere kan blive en delkontrakt eller en selvstændig procedure.</entry>
 <entry key="business-term|description|BG-101">Oplysninger om udbudsdokumenterne. Disse oplysninger kan være forskellige for hver delkontrakt. I forbindelse med en forhåndsmeddelelse, der kun er anvendt til informationsformål, kan disse oplysninger være forskellige for hver del i bekendtgørelsen, som senere kan blive en delkontrakt eller en selvstændig procedure.</entry>
@@ -516,7 +516,7 @@
 <entry key="business-term|name|BT-58">Højeste antal fornyelser</entry>
 <entry key="business-term|name|BT-60">Udbuddet er som minimum delvist finansieret ved hjælp af EU-støtte</entry>
 <entry key="business-term|name|BT-610">Den ordregivende enheds aktiviteter</entry>
-<entry key="business-term|name|BT-6110">Oplysninger om EU-fonden</entry>
+<entry key="business-term|name|BT-6110">Beskrivelse</entry>
 <entry key="business-term|name|BT-6140">Yderligere oplysninger om det EU-program eller -projekt, der i det mindste delvist finansierer udbuddet</entry>
 <entry key="business-term|name|BT-615">Oplysninger om begrænsede dokumenter findes på</entry>
 <entry key="business-term|name|BT-625">Enhed</entry>
@@ -641,7 +641,7 @@
 <entry key="business-term|name|BT-802">Yderligere oplysninger om fortrolighedsaftalen</entry>
 <entry key="business-term|name|BT-803">Meddelelse om afsendelsesdato (eSender)</entry>
 <entry key="business-term|name|BT-805">Kriterier for grønne indkøb</entry>
-<entry key="business-term|name|BT-88">Beskrivelse af proceduren</entry>
+<entry key="business-term|name|BT-88">De vigtigste kendetegn ved proceduren</entry>
 <entry key="business-term|name|BT-92">Der vil blive anvendt elektronisk bestilling</entry>
 <entry key="business-term|name|BT-93">Der vil blive anvendt elektronisk betaling</entry>
 <entry key="business-term|name|BT-94">Dette er et tilbagevendende udbud</entry>
