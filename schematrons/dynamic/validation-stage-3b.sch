@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.4.3 created on the 2022-11-28T11:14:04.-->
+<!--File generated from metadata database version 1.4.39 created on the 2022-12-12T17:53:31.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -11,7 +11,7 @@
 	<rule context="/*/cbc:NoticeTypeCode/@listName">
 		<assert id="BR-BT-00003-0052" role="ERROR" test="normalize-space(.) = ('bri', 'change', 'competition', 'cont-modif', 'dir-awa-pre', 'planning', 'result')">rule|text|BR-BT-00003-0052</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='strategic-procurement']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='strategic-procurement']/cbc:ProcurementTypeCode[@listName='strategic-procurement']">
 		<assert id="BR-BT-00006-0051" role="ERROR" test="normalize-space(.) = ('env-imp', 'inn-pur', 'none', 'soc-obj')">rule|text|BR-BT-00006-0051</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']">
@@ -596,7 +596,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']">
 		<assert id="BR-BT-00751-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00751-0052</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='accessibility']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']/cbc:ProcurementTypeCode[@listName='accessibility']">
 		<assert id="BR-BT-00754-0051" role="ERROR" test="normalize-space(.) = ('inc', 'n-inc', 'n-inc-just')">rule|text|BR-BT-00754-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode">
@@ -644,13 +644,13 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageCode">
 		<assert id="BR-BT-00783-0052" role="ERROR" test="normalize-space(.) = ('decided', 'requested')">rule|text|BR-BT-00783-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:DecisionTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealDecision/efbc:DecisionTypeCode">
 		<assert id="BR-BT-00790-0051" role="ERROR" test="normalize-space(.) = ('accepted', 'other', 'rej-dl-passed', 'rej-ncomp', 'rej-nirreg', 'rej-npaid', 'rej-other', 'rej-resolv', 'rej-signed')">rule|text|BR-BT-00790-0051</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:IrregularityTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealIrregularity/efbc:IrregularityTypeCode">
 		<assert id="BR-BT-00791-0051" role="ERROR" test="normalize-space(.) = ('ab-low', 'ar-split', 'bid-rigging', 'change-eval', 'conf-int', 'cp-mod-cond', 'elem-mod', 'eva-add-crit', 'eva-diff-crit', 'formal', 'ins-audit', 'insuf-timl', 'irr-involv', 'mod-inco', 'nc-proc-eap', 'nc-timl', 'ncompl-awcrit', 'ncompl-cn', 'ncompl-com', 'ncompl-sub', 'no-notice', 'noex-addinfo', 'noex-timl', 'nojust-nolots', 'npub-limit', 'other', 'restr-not-tlim', 'unj-comp-pro', 'unj-excl', 'unj-lim-subc', 'unj-na-ppr', 'unj-nrl', 'unj-nrl-other')">rule|text|BR-BT-00791-0051</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:RemedyTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealRemedy/efbc:RemedyTypeCode">
 		<assert id="BR-BT-00792-0051" role="ERROR" test="normalize-space(.) = ('alt-penalty', 'damage', 'ineffectiveness', 'interim', 'set-aside')">rule|text|BR-BT-00792-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealIndicator">
@@ -659,7 +659,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode">
 		<assert id="BR-BT-00799-0052" role="ERROR" test="normalize-space(.) = ('1-inst', '2-inst', '3-inst', '4-inst', '5-inst', 'buyer', 'other')">rule|text|BR-BT-00799-0052</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='nda']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']/cbc:ExecutionRequirementCode[@listName='nda']">
 		<assert id="BR-BT-00801-0051" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00801-0051</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='gpp-criteria']/cbc:ProcurementTypeCode[@listName='gpp-criteria']">
@@ -1727,9 +1727,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier">
 		<assert id="BR-BT-01501-0102" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">rule|text|BR-BT-01501-0102</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangedSectionIdentifier">
-		<assert id="BR-BT-01501-0103" role="ERROR" test="matches(normalize-space(.),'^RESULT$')">rule|text|BR-BT-01501-0103</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID">
 		<assert id="BR-BT-03202-0051" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-BT-03202-0051</assert>

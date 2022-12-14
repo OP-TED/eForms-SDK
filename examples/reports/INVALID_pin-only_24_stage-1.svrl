@@ -176,15 +176,6 @@ cbc:Description</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[$noticeSubType = '4']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '4']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms[$noticeSubType = '4']"/>
-   <svrl:failed-assert id="BR-OPT-00301-0358"
-                       location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
-                       role="ERROR"
-                       test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00301-0358</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-301-Part-AddInfo">
-cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-OPT-00301-0562"
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"

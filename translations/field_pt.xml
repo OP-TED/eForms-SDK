@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Portuguese. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Portuguese. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Renovações máximas</entry>
 <entry key="field|name|BT-60-Lot">O concurso é, pelo menos parcialmente, financiado por fundos da União Europeia.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Atividade da entidade adjudicante</entry>
-<entry key="field|name|BT-6110-Contract">Dados relativos ao fundo da UE</entry>
+<entry key="field|name|BT-6110-Contract">Descrição</entry>
 <entry key="field|name|BT-6140-Lot">Mais informações sobre o programa ou projeto da União utilizado, pelo menos parcialmente, financiam a contratação pública</entry>
 <entry key="field|name|BT-615-Lot">As informações sobre documentos restritos estão disponíveis em</entry>
 <entry key="field|name|BT-615-Part">As informações sobre documentos restritos estão disponíveis em</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Data de envio do anúncio (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Data de envio do anúncio (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Critérios de contratação pública ecológica</entry>
-<entry key="field|name|BT-88-Procedure">Descrição do procedimento</entry>
+<entry key="field|name|BT-88-Procedure">As principais características do processo</entry>
 <entry key="field|name|BT-92-Lot">Serão utilizadas encomendas eletrónicas</entry>
 <entry key="field|name|BT-93-Lot">Será utilizado o pagamento eletrónico</entry>
 <entry key="field|name|BT-94-Lot">Trata-se de um concurso recorrente.</entry>

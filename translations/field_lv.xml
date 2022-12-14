@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Latvian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Latvian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Maksimālais pārjaunojumu skaits</entry>
 <entry key="field|name|BT-60-Lot">Iepirkumu vismaz daļēji finansē no Eiropas Savienības līdzekļiem.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Līgumslēdzēja darbības joma</entry>
-<entry key="field|name|BT-6110-Contract">Informācija par ES fondu</entry>
+<entry key="field|name|BT-6110-Contract">Apraksts</entry>
 <entry key="field|name|BT-6140-Lot">Papildu informācija par Savienības programmu vai projektu, kas vismaz daļēji izmantots iepirkuma finansēšanai</entry>
 <entry key="field|name|BT-615-Lot">Adrese, kur pieejama informācija par dokumentiem ar ierobežotu piekļuvi</entry>
 <entry key="field|name|BT-615-Part">Adrese, kur pieejama informācija par dokumentiem ar ierobežotu piekļuvi</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Paziņojuma nosūtīšanas datums (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Paziņojuma nosūtīšanas datums (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Zaļā iepirkuma kritēriji</entry>
-<entry key="field|name|BT-88-Procedure">Procedūras apraksts</entry>
+<entry key="field|name|BT-88-Procedure">Procedūras galvenās iezīmes</entry>
 <entry key="field|name|BT-92-Lot">Tiks izmantoti elektroniskie pasūtījumi</entry>
 <entry key="field|name|BT-93-Lot">Tiks izmantoti elektroniskie maksājumi</entry>
 <entry key="field|name|BT-94-Lot">Šis ir kārtējs iepirkums.</entry>

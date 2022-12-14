@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Estonian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in Estonian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="auxiliary|text|BT-01">Õiguslik alus</entry>
 <entry key="auxiliary|text|BT-08">Organisatsiooni roll</entry>
 <entry key="auxiliary|text|BT-36">Kestus</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Teave lepingu rahastamiseks kasutatud Euroopa Liidu vahendite kohta</entry>
 <entry key="auxiliary|text|exclusion-grounds">Kõrvalejätmise alused</entry>
 <entry key="auxiliary|text|framework-agreement">Raamleping</entry>
+<entry key="auxiliary|text|further-info">Lisateave, vahendamine ja läbivaatamine</entry>
 <entry key="auxiliary|text|general-information">Üldine teave</entry>
 <entry key="auxiliary|text|group-framework-value">Raamlepingute eeldatav maksumus osade rühma lõikes</entry>
 <entry key="auxiliary|text|group-of-lots">Osade rühm</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Hankemenetluse tulemus</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Väidetava eeskirjade eiramise liik</entry>
 <entry key="auxiliary|text|review-requests-summary">Ostjale esitatud läbivaatamistaotluste kokkuvõte</entry>
-<entry key="auxiliary|text|roles">Ülesanne (ülesanded)</entry>
+<entry key="auxiliary|text|roles">Selle organisatsiooni rollidRollid</entry>
 <entry key="auxiliary|text|second-stage">Teave kaheetapilise menetluse teise etapi kohta</entry>
 <entry key="auxiliary|text|selection-criteria">Valikukriteeriumid</entry>
 <entry key="auxiliary|text|start-duration-contract">Lepingu alguskuupäev ja kestus</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Väärtus</entry>
 <entry key="auxiliary|text|winner">Edukas pakkuja</entry>
 <entry key="auxiliary|text|winner-info">Teave võitjate kohta</entry>
+<entry key="auxiliary|text|winner-lots">Nende looside edukas pakkuja</entry>
 <entry key="auxiliary|text|winner-subcontractor">Võitja alltöövõtjad</entry>
 </properties>

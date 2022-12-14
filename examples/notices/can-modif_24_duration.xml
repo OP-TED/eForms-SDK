@@ -9,12 +9,9 @@
 					<efac:ContractModification>
 						<efbc:ChangedNoticeIdentifier>268231-2010</efbc:ChangedNoticeIdentifier>
 						<efac:Change>
-							<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
-							<efbc:ChangeDescription languageID="ENG">Extension of six (6) months</efbc:ChangeDescription>
-						</efac:Change>
-						<efac:Change>
-							<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
-							<efbc:ChangeDescription languageID="ENG">Updated total contract value before the modifications (taking into account possible earlier contract modifications and price adaptions and, in the case of Directive 2014/23/EU, average inflation in the Member State concerned) Value excluding VAT: 95 000 000.00 GBP Total contract value after the modifications Value excluding VAT: 105 000 000.00 GBP</efbc:ChangeDescription>
+							<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
+							<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
+							<efbc:ChangeDescription languageID="ENG">Extension of six (6) months and increased contract value from GBP 95 000 000 to GBP 105 000 000.</efbc:ChangeDescription>
 						</efac:Change>
 						<efac:ChangeReason>
 							<cbc:ReasonCode listName="modification-justification">mod-cir</cbc:ReasonCode>
@@ -226,7 +223,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.4</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.5</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">1f8687c9-8cca-493a-b0ee-553ed23d8402</cbc:ID>
 	<cbc:ContractFolderID>b492c659-4893-4796-b7db-4e511d85e0c8</cbc:ContractFolderID>
 	<cbc:IssueDate>2010-10-07+01:00</cbc:IssueDate>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Lithuanian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in Lithuanian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="auxiliary|text|BT-01">Teisinis pagrindas</entry>
 <entry key="auxiliary|text|BT-08">Organizacijos vaidmuo</entry>
 <entry key="auxiliary|text|BT-36">Galiojimas</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Informacija apie Europos Sąjungos fondus, naudojamus sutarčiai finansuoti</entry>
 <entry key="auxiliary|text|exclusion-grounds">Pašalinimo pagrindai</entry>
 <entry key="auxiliary|text|framework-agreement">Preliminarioji sutartis</entry>
+<entry key="auxiliary|text|further-info">Papildoma informacija, tarpininkavimas ir peržiūra</entry>
 <entry key="auxiliary|text|general-information">Bendra informacija</entry>
 <entry key="auxiliary|text|group-framework-value">Pirkimo dalių grupės numatoma vertė pagal preliminariąsias sutartis</entry>
 <entry key="auxiliary|text|group-of-lots">Pirkimo dalių grupė</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Pirkimo procedūros rezultatai</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Galimo pažeidimo rūšis</entry>
 <entry key="auxiliary|text|review-requests-summary">Pirkėjo gautų peržiūros prašymų santrauka</entry>
-<entry key="auxiliary|text|roles">Vaidmuo (-enys)</entry>
+<entry key="auxiliary|text|roles">Šios organizacijos vaidmenys</entry>
 <entry key="auxiliary|text|second-stage">Informacija apie dviejų etapų procedūros antrąjį etapą.</entry>
 <entry key="auxiliary|text|selection-criteria">Atrankos kriterijai</entry>
 <entry key="auxiliary|text|start-duration-contract">Sutarties pradžios data ir galiojimas</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Vertė</entry>
 <entry key="auxiliary|text|winner">Laimėtojas</entry>
 <entry key="auxiliary|text|winner-info">Informacija apie laimėtojus</entry>
+<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
 <entry key="auxiliary|text|winner-subcontractor">Laimėtojo subrangovai</entry>
 </properties>

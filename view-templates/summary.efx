@@ -1,6 +1,6 @@
 // Summary
-// sdkVersion='1.4.0'
-// File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30
+// sdkVersion='1.5.0'
+// File generated from metadata database version 1.4.36 created on the 2022-12-09T15:05:11
 1 {ND-Root} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -71,11 +71,11 @@
 	{BT-161-NoticeResult} #{name}: $value ${BT-161-NoticeResult[BT-161-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Notice Value (Value of all contracts awarded in this procedure)
 	0 {ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value} ${BT-556-NoticeResult} // Estimated value of the framework agreements in the group of lots
 		0 {ND-NoticeResultGroupFA} #{name|BT-1375} ${for text:$gloid in BT-556-NoticeResult return BT-1375-Procedure[BT-330-Procedure == $gloid] } // Lots included: LOT-0001, LOT-0003
-		0 {ND-NoticeResultGroupFA} #{field|name|BT-156-NoticeResult} ${format-number(BT-156-NoticeResult, '0.##')} ${BT-156-NoticeResult/@currencyID} // Estimated value of the framework agreements in this group of lots
+		0 {ND-NoticeResultGroupFA} Estimated value of the framework agreements in this group of lots ${format-number(BT-156-NoticeResult, '0.##')} ${BT-156-NoticeResult[BT-156-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Estimated value of the framework agreements in this group of lots
 	1 {ND-LotResult}   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // 6.1 Result Lot Identifier (LOT-XXXX)
 		{BT-144-LotResult} #{name}: #{BT-144-LotResult}  // Not awarded reason
 		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement} // Framework agreement
-			0 {BT-709-LotResult} #{name}: $value ${BT-709-LotResult/@currencyID} // Framework Maximum Value
+			0 {BT-709-LotResult} #{name}: $value ${BT-709-LotResult[BT-709-LotResult/@currencyID != 'unpublished']/@currencyID} // Framework Maximum Value
 			{BT-660-LotResult} #{name}: $value ${BT-660-LotResult/@currencyID} // Framework Estimated Value
 	0 {ND-Root} #{auxiliary|text|results-procurement-procedure} // Result of the procurement procedure
 		{BT-118-NoticeResult} #{name}: $value ${BT-118-NoticeResult/@currencyID} // --- Estimated value of the framework agreements in this procedure

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Lithuanian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Lithuanian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Daugiausiai atnaujinimų</entry>
 <entry key="field|name|BT-60-Lot">Bent dalis pirkimo yra iš dalies finansuojama iš Europos Sąjungos fondų.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Perkančiojo subjekto veiklos sritis</entry>
-<entry key="field|name|BT-6110-Contract">Išsami informacija apie ES fondą</entry>
+<entry key="field|name|BT-6110-Contract">Aprašymas</entry>
 <entry key="field|name|BT-6140-Lot">Daugiau informacijos apie Sąjungos programą arba projektą, kuriais bent iš dalies finansuojamas viešasis pirkimas</entry>
 <entry key="field|name|BT-615-Lot">Informacija apie ribotos prieigos pirkimo dokumentus pateikiama adresu</entry>
 <entry key="field|name|BT-615-Part">Informacija apie ribotos prieigos pirkimo dokumentus pateikiama adresu</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Pranešimo išsiuntimo data (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Pranešimo išsiuntimo data (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Žaliųjų viešųjų pirkimų kriterijai</entry>
-<entry key="field|name|BT-88-Procedure">Procedūros aprašymas</entry>
+<entry key="field|name|BT-88-Procedure">Pagrindiniai procedūros ypatumai</entry>
 <entry key="field|name|BT-92-Lot">Bus naudojami elektroniniai užsakymai</entry>
 <entry key="field|name|BT-93-Lot">Bus naudojami elektroniniai mokėjimai</entry>
 <entry key="field|name|BT-94-Lot">Tai pasikartojantis pirkimas.</entry>

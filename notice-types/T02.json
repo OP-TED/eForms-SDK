@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.4.0",
+  "sdkVersion" : "1.5.0",
   "metadataDatabase" : {
-    "version" : "1.4.0",
-    "createdOn" : "2022-11-25T09:30:00"
+    "version" : "1.4.39",
+    "createdOn" : "2022-12-12T17:53:31"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -76,6 +76,13 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Publication Date Preferred",
     "_label" : "field|name|BT-738-notice",
+    "hidden" : true
+  }, {
+    "id" : "OPT-999",
+    "contentType" : "field",
+    "displayType" : "TEXTBOX",
+    "description" : "Dummy Tender Award Date",
+    "_label" : "field|name|OPT-999",
     "hidden" : true
   }, {
     "id" : "OPT-001-notice",
@@ -926,13 +933,6 @@
             "description" : "Tender Identifier",
             "_label" : "field|name|BT-3201-Tender"
           }, {
-            "id" : "OPT-999",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Dummy Tender Award Date",
-            "_label" : "field|name|OPT-999",
-            "hidden" : true
-          }, {
             "id" : "BT-720-Tender",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
@@ -989,9 +989,11 @@
         }, {
           "id" : "GR-LotTender-3",
           "contentType" : "group",
+          "nodeId" : "ND-LotTender",
           "displayType" : "GROUP",
-          "description" : "LotTender 3",
-          "_label" : "group|name|GR-LotTender-3",
+          "description" : "Tender (or fragment of a Tender) submitted for a given Lot",
+          "_label" : "group|name|ND-LotTender",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "OPP-080-Tender",
             "contentType" : "field",

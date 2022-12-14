@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Croatian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Croatian. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Maksimalan broj obnavljanja</entry>
 <entry key="field|name|BT-60-Lot">Javna nabava barem se djelomično financira sredstvima Europske unije.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Djelatnost naručitelja</entry>
-<entry key="field|name|BT-6110-Contract">Pojedinosti o fondu EU-a</entry>
+<entry key="field|name|BT-6110-Contract">Opis</entry>
 <entry key="field|name|BT-6140-Lot">Dodatne informacije o programu ili projektu Unije kojim se barem djelomično financira javna nabava</entry>
 <entry key="field|name|BT-615-Lot">Informacije o dokumentima s ograničenim pristupom dostupne su ovdje</entry>
 <entry key="field|name|BT-615-Part">Informacije o dokumentima s ograničenim pristupom dostupne su ovdje</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Datum slanja obavijesti (ePošiljatelj)</entry>
 <entry key="field|name|BT-803(t)-notice">Datum slanja obavijesti (ePošiljatelj)</entry>
 <entry key="field|name|BT-805-Lot">Kriteriji zelene nabave</entry>
-<entry key="field|name|BT-88-Procedure">Opis postupka</entry>
+<entry key="field|name|BT-88-Procedure">Glavne značajke postupka</entry>
 <entry key="field|name|BT-92-Lot">Naručivanje će biti elektroničko</entry>
 <entry key="field|name|BT-93-Lot">Plaćanje će biti elektroničko</entry>
 <entry key="field|name|BT-94-Lot">Riječ je o javnoj nabavi koja se ponavlja.</entry>

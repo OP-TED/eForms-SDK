@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in English. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in English. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Maximum renewals</entry>
 <entry key="field|name|BT-60-Lot">The procurement is at least partially financed by European Union funds.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Activity of the contracting entity</entry>
-<entry key="field|name|BT-6110-Contract">EU fund details</entry>
+<entry key="field|name|BT-6110-Contract">Description</entry>
 <entry key="field|name|BT-6140-Lot">Further information about the Union programme or project used at least partially finance the procurement</entry>
 <entry key="field|name|BT-615-Lot">Information about restricted documents is available at</entry>
 <entry key="field|name|BT-615-Part">Information about restricted documents is available at</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Notice dispatch date (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Notice dispatch date (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Green Procurement Criteria</entry>
-<entry key="field|name|BT-88-Procedure">Description of the procedure</entry>
+<entry key="field|name|BT-88-Procedure">Main features of the procedure</entry>
 <entry key="field|name|BT-92-Lot">Electronic ordering will be used</entry>
 <entry key="field|name|BT-93-Lot">Electronic payment will be used</entry>
 <entry key="field|name|BT-94-Lot">This is a recurrent procurement.</entry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Polish. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Polish. File generated from metadata database version 1.4.42 created on the 2022-12-14T09:22:03</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Maksymalna liczba wznowień</entry>
 <entry key="field|name|BT-60-Lot">Zamówienie jest przynajmniej częściowo finansowane ze środków Unii Europejskiej.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Sektor działalności podmiotu zamawiającego</entry>
-<entry key="field|name|BT-6110-Contract">Szczegóły dotyczące funduszu UE</entry>
+<entry key="field|name|BT-6110-Contract">Opis</entry>
 <entry key="field|name|BT-6140-Lot">Dalsze informacje na temat unijnego programu lub projektu wykorzystanego co najmniej częściowo finansują zamówienia</entry>
 <entry key="field|name|BT-615-Lot">Informacje o zastrzeżonych dokumentach są dostępne pod adresem</entry>
 <entry key="field|name|BT-615-Part">Informacje o zastrzeżonych dokumentach są dostępne pod adresem</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Data wysyłki zawiadomienia (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Data wysyłki zawiadomienia (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Kryteria zielonych zamówień</entry>
-<entry key="field|name|BT-88-Procedure">Opis procedury</entry>
+<entry key="field|name|BT-88-Procedure">Główne aspekty procedury</entry>
 <entry key="field|name|BT-92-Lot">Stosowane będą zlecenia elektroniczne</entry>
 <entry key="field|name|BT-93-Lot">Stosowane będą płatności elektroniczne</entry>
 <entry key="field|name|BT-94-Lot">To jest zamówienie powtarzalne.</entry>
