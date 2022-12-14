@@ -7,7 +7,7 @@ This version brings various changes in the metadata content that were needed for
 * Several elements in the eForms schema were updated, to remove incorrect restrictions.
 * Schematron rules were added and updated.
 * Examples were updated accordingly, along with their validation reports.
-* The node structure was corrected, along with the definition of corresponding fields. The definition of several fields was corrected.
+* The node structure was corrected, along with the definition of corresponding fields. The definitions of several fields were corrected.
 * All notice type definitions were updated and corrected.
 * View templates were corrected and updated.
 * Translations were added and corrected for various asset types.
