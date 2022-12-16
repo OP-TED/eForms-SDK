@@ -1,6 +1,6 @@
 // View 6
-// sdkVersion='1.4.0'
-// File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30
+// sdkVersion='1.5.0'
+// File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00
 1 {ND-Root} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -75,6 +75,7 @@
 			{BT-137-Part} #{name|BT-737}: ${distinct-values(for text:$lang in BT-737-Part return $lang)} // Languages in which the procurement documents are unofficially available (PART)
 			{BT-137-Part} #{name|BT-615}: ${distinct-values(for text:$url in BT-615-Part return concat('[', $url, '] --- '))} // Information about restricted documents is available at (PART) 
 			{BT-137-Part} #{name|BT-15}: ${distinct-values(for text:$url in BT-15-Part return concat('[', $url, '] --- '))} // Information about non-restricted documents is available at (PART) 
+			{BT-137-Part[BT-13(d)-Part is present]} #{field|name|BT-13(d)-Part}: ${BT-13(d)-Part} ${BT-13(t)-Part} // Deadline for requesting additional information
 			0 {BT-137-Part[(BT-632-Part is present) or (BT-124-Part is present)]} #{auxiliary|text|adhoc-communication} // + Ad hoc communication channel
 				{BT-632-Part} #{name|BT-632}: ${BT-632-Part} // Tool Name (Part)
 				{BT-124-Part} #{name|BT-124}: ${BT-124-Part} // Tool Atypical URL (Part)

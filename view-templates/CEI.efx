@@ -1,6 +1,6 @@
 // View CEI
-// sdkVersion='1.4.0'
-// File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30
+// sdkVersion='1.5.0'
+// File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00
 1 {ND-Root} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -74,7 +74,7 @@
 				{BT-750-Lot} #{name|BT-750}: ${BT-750-Lot} // Description
 				{BT-748-Lot} #{name|BT-748}: #{BT-748-Lot} // Use of this criterion
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{name|BT-40} // Selection Criteria Second Stage Invite
-		11 {BT-137-Lot[BT-14-Lot is present]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement document
+		11 {BT-137-Lot[BT-14-Lot is present]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
 			{BT-707-Lot} #{name|BT-707}: #{BT-707-Lot} // Justification for restricting access to certain procurement documents (Lot)
 			{BT-137-Lot[BT-615-Lot is present]} #{name|BT-615}: ${distinct-values(for text:$url in BT-615-Lot return concat('[', $url, '] --- '))} // Information about restricted documents is available at (Lot) 
 			{BT-137-Lot[BT-15-Lot is present]} #{name|BT-15}: ${distinct-values(for text:$url in BT-15-Lot return concat('[', $url, '] --- '))} // Information about non-restricted documents is available at (Lot) 

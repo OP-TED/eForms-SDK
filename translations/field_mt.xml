@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Maltese. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Maltese. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Numru massimu ta’ tiġdid</entry>
 <entry key="field|name|BT-60-Lot">L-akkwist huwa mill-inqas parzjalment iffinanzjat mill-fondi tal-Unjoni Ewropea.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Attività tal-entità kontraenti</entry>
-<entry key="field|name|BT-6110-Contract">Dettalji tal-fond tal-UE</entry>
+<entry key="field|name|BT-6110-Contract">Deskrizzjoni</entry>
 <entry key="field|name|BT-6140-Lot">Aktar informazzjoni dwar il-programm jew il-proġett tal-Unjoni użat mill-inqas parzjalment jiffinanzja l-akkwist</entry>
 <entry key="field|name|BT-615-Lot">Informazzjoni dwar id-dokumenti ristretti hija disponibbli fuq</entry>
 <entry key="field|name|BT-615-Part">Informazzjoni dwar id-dokumenti ristretti hija disponibbli fuq</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Data tad-dispaċċ tal-avviż (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Data tad-dispaċċ tal-avviż (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Kriterji ta’ Akkwist Ekoloġiku</entry>
-<entry key="field|name|BT-88-Procedure">Deskrizzjoni tal-proċedura</entry>
+<entry key="field|name|BT-88-Procedure">Il-karatteristiki prinċipali tal-proċedura</entry>
 <entry key="field|name|BT-92-Lot">Se tintuża l-ordni elettronika</entry>
 <entry key="field|name|BT-93-Lot">Se jintuża l-pagament elettroniku</entry>
 <entry key="field|name|BT-94-Lot">Dan huwa akkwist rikorrenti.</entry>

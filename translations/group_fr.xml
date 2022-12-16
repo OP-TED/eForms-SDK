@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in French. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>group in French. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="group|name|GR-Business-Address">Adresse</entry>
 <entry key="group|name|GR-Business-Contact">Contactez</entry>
 <entry key="group|name|GR-Business-Party">Business party</entry>
@@ -85,6 +85,8 @@
 <entry key="group|name|GR-LotTender-Section">Offres</entry>
 <entry key="group|name|GR-LotTender-Subcontracting">Sous-traitance</entry>
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Renseignements complémentaires</entry>
+<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Award criterion</entry>
+<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Award criteria</entry>
 <entry key="group|name|GR-LotsGroup-Description">Description du groupe de lots</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informations sur l’accord-cadre</entry>
 <entry key="group|name|GR-LotsGroup-LotDistribution">Lots inclus dans le groupe de lots</entry>
@@ -131,9 +133,11 @@
 <entry key="group|name|GR-Procedure-Description">Descriptif</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Attribution directe</entry>
 <entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Référence à la législation locale</entry>
+<entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Other legal basis without an identifier</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Base juridique</entry>
 <entry key="group|name|GR-Procedure-MaxLots">Nombre maximal de lots</entry>
 <entry key="group|name|GR-Procedure-PinTerminated">Épingles terminées</entry>
+<entry key="group|name|GR-Procedure-PlaceOfPerformance">Place of performance</entry>
 <entry key="group|name|GR-Procedure-Procedure">Procédure</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Procédure</entry>
 <entry key="group|name|GR-Procedure-Purpose">Objet</entry>
@@ -141,6 +145,7 @@
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Classement</entry>
 <entry key="group|name|GR-Procedure-TenderingTerms">Conditions de l’appel d’offres</entry>
 <entry key="group|name|GR-Recurrence">Informations sur la récurrence</entry>
+<entry key="group|name|GR-ReservedParticipation">Reserved procurement</entry>
 <entry key="group|name|GR-Result">Résultat</entry>
 <entry key="group|name|GR-SettledContract-1">Contrat 1</entry>
 <entry key="group|name|GR-SettledContract-2">Contrat 2</entry>
@@ -154,15 +159,20 @@
 <entry key="group|name|GR-UBO-Winner">Nationalité du propriétaire du lauréat</entry>
 <entry key="group|name|GR-Unpublish-BT-09">Droit transfrontalier (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Type de procédure (publiée ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-105-Procedure">Type of procedure (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Procédure accélérée (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Valeur estimée de l’accord-cadre (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-118">Valeur estimée de l’accord-cadre (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Identifiant de la procédure précédente justifiant l’attribution directe (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID of the previous procedure justifying direct award (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Description de l’attribution directe (publiée ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-135-Procedure">Description of direct award (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-1351">Justification de la procédure accélérée (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Justification de l’attribution directe (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Statut de sélection du lauréat (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-142-LotResult">Winner selection status (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">La raison pour laquelle un lauréat n’a pas été choisi (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-144-LotResult">The reason why a winner was not chosen (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-156">Valeur estimée des accords-cadres dans le groupe de lots (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Estimation des recettes de l’acheteur ayant accordé la concession (publiées ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valeur de tous les marchés attribués dans le cadre de la présente procédure (publiée ultérieurement)</entry>
@@ -172,18 +182,25 @@
 <entry key="group|name|GR-Unpublish-BT-191">Pays d’origine du produit ou du service (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">L’offre est une variante (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-539">Type (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-539-Lot">Type (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Type (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-540">Description (publiée ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-540-Lot">Description (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Description (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-541">Numéro du critère d’attribution (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-541-Lot">Award criterion number (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Numéro du critère d’attribution (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Numéro est un type de poids (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-5421-Lot">Number is a type of weight (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Numéro est un type de poids (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422">Numéro est une valeur fixe (publiée ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-5422-Lot">Number is a fixed value (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Numéro est une valeur fixe (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423">Numéro est un type de seuil (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-5423-Lot">Number is a type of threshold (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Numéro est un type de seuil (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-543">Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères (publiée ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-543-Lot">Description of the method to be used if weighting cannot be expressed by criteria (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Valeur de la sous-traitance (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-554">Description (publiée ultérieurement)</entry>
@@ -194,17 +211,20 @@
 <entry key="group|name|GR-Unpublish-BT-711">Valeur de l’offre recevable la plus élevée (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-712">Nombre de plaignants (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-720">Valeur du résultat (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-720-Tender">Valeur du résultat (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-730">Valeur estimée de la partie du marché que le contractant sous-traitera à des tiers (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Pourcentage estimé du contrat que le contractant sous-traitera à des tiers par rapport à l’ensemble du contrat (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-733">Justification de la non-indication de la pondération des critères d’attribution (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Justification de la non-indication de la pondération des critères d’attribution (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Justification de la non-indication de la pondération des critères d’attribution (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-734">Nom (publié ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-734-Lot">Name (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Nom (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Nombre d’offres ou de demandes de participation reçues (publiées ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-760">Type de contributions reçues (publiées ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-773">Sous-traitance (publiée ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-88">Description de la procédure (publiée ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-88-Procedure">Description of the procedure (published later)</entry>
 <entry key="group|name|GR-Winner">Lauréat</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Requests to review decisions</entry>
 <entry key="group|name|ND-Change">Information about the change</entry>
@@ -218,8 +238,8 @@
 <entry key="group|name|ND-LotAdditionalClassification">Additional classification</entry>
 <entry key="group|name|ND-LotAwardCriteria">Award criteria</entry>
 <entry key="group|name|ND-LotAwardCriterion">Award criterion</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Award criterion parameter</entry>
-<entry key="group|name|ND-LotAwardCriterionParameters">Award criteria parameters</entry>
+<entry key="group|name|ND-LotAwardCriterionParameter">Award criterion</entry>
+<entry key="group|name|ND-LotAwardCriterionParameters">Award criteria</entry>
 <entry key="group|name|ND-LotPlacePerformance">Place of performance</entry>
 <entry key="group|name|ND-LotPreviousPlanning">Reference to previous planning</entry>
 <entry key="group|name|ND-LotResult">Result of the lot</entry>

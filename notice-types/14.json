@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.4.0",
+  "sdkVersion" : "1.5.0",
   "metadataDatabase" : {
-    "version" : "1.4.0",
-    "createdOn" : "2022-11-25T09:30:00"
+    "version" : "1.5.0",
+    "createdOn" : "2022-12-14T11:00:00"
   },
   "noticeId" : "14",
   "metadata" : [ {
@@ -728,16 +728,17 @@
         }, {
           "id" : "GR-Lot-ProcurementType-Strategic",
           "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementType",
           "displayType" : "GROUP",
-          "description" : "Strategic Procurement",
-          "_label" : "group|name|GR-Lot-ProcurementType-Strategic",
+          "description" : "Information (Description) about Strategic Procurement Type",
+          "_label" : "group|name|ND-StrategicProcurementType",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-06-Lot",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Strategic Procurement",
-            "_label" : "field|name|BT-06-Lot",
-            "_repeatable" : true
+            "_label" : "field|name|BT-06-Lot"
           }, {
             "id" : "BT-777-Lot",
             "contentType" : "field",
@@ -748,16 +749,17 @@
         }, {
           "id" : "GR-Lot-ProcurementType-Accessibility",
           "contentType" : "group",
+          "nodeId" : "ND-AccessibilityJustification",
           "displayType" : "GROUP",
-          "description" : "Accessibility",
-          "_label" : "group|name|GR-Lot-ProcurementType-Accessibility",
+          "description" : "Justification for absence of Accessibility Criteria",
+          "_label" : "group|name|ND-AccessibilityJustification",
+          "_repeatable" : true,
           "content" : [ {
             "id" : "BT-754-Lot",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Accessibility",
-            "_label" : "field|name|BT-754-Lot",
-            "_repeatable" : true
+            "_label" : "field|name|BT-754-Lot"
           }, {
             "id" : "BT-755-Lot",
             "contentType" : "field",
@@ -1312,931 +1314,390 @@
           "_label" : "field|name|BT-732-Lot"
         } ]
       }, {
-        "id" : "GR-Lot-ElectronicSignatureRequired",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Electronic Signature Required",
-        "_label" : "group|name|GR-Lot-ElectronicSignatureRequired",
-        "content" : [ {
-          "id" : "BT-744-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Submission Electronic Signature",
-          "_label" : "field|name|BT-744-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-PostAwardProcess",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Post Award Process",
-        "_label" : "group|name|GR-Lot-PostAwardProcess",
-        "content" : [ {
-          "id" : "BT-92-Lot",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Electronic Ordering",
-          "_label" : "field|name|BT-92-Lot"
-        }, {
-          "id" : "BT-93-Lot",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Electronic Payment",
-          "_label" : "field|name|BT-93-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-FinancialTerms",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Financial Terms",
-        "_label" : "group|name|GR-Lot-FinancialTerms",
-        "content" : [ {
-          "id" : "BT-77-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Terms Financial",
-          "_label" : "field|name|BT-77-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-TenderReceipt",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Tender Recipient Organisation",
-        "_label" : "group|name|GR-Lot-TenderReceipt",
-        "content" : [ {
-          "id" : "OPT-301-Lot-TenderReceipt",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Tender Recipient Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-TenderReceipt",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
-      }, {
-        "id" : "GR-Lot-TenderEval",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Tender Evaluation Organisation",
-        "_label" : "group|name|GR-Lot-TenderEval",
-        "content" : [ {
-          "id" : "OPT-301-Lot-TenderEval",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Tender Evaluator Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-TenderEval",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
-      } ]
-    }, {
-      "id" : "GR-Lot-SubmissionInfo",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Submission Info",
-      "_label" : "group|name|GR-Lot-SubmissionInfo",
-      "content" : [ {
-        "id" : "GR-Lot-Procedure",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Procedure",
-        "_label" : "group|name|GR-Lot-Procedure",
-        "content" : [ {
-          "id" : "BT-634-Lot",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Procurement Relaunch",
-          "_label" : "field|name|BT-634-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-Deadlines1",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Deadlines I",
-        "_label" : "group|name|GR-Lot-Deadlines1",
-        "content" : [ {
-          "id" : "BT-130-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Dispatch Invitation Tender",
-          "_label" : "field|name|BT-130-Lot"
-        }, {
-          "id" : "BT-631-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Dispatch Invitation Interest",
-          "_label" : "field|name|BT-631-Lot"
-        }, {
-          "id" : "BT-13(d)-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Additional Information Deadline",
-          "_label" : "field|name|BT-13(d)-Lot"
-        }, {
-          "id" : "BT-13(t)-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Additional Information Deadline",
-          "_label" : "field|name|BT-13(t)-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-Deadlines2",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Deadlines II",
-        "_label" : "group|name|GR-Lot-Deadlines2",
-        "content" : [ {
-          "id" : "BT-630(d)-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Deadline Receipt Expressions",
-          "_label" : "field|name|BT-630(d)-Lot"
-        }, {
-          "id" : "BT-630(t)-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Deadline Receipt Expressions",
-          "_label" : "field|name|BT-630(t)-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-Submission Language",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Submission Language",
-        "_label" : "group|name|GR-Lot-Submission Language",
-        "content" : [ {
-          "id" : "BT-97-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Submission Language",
-          "_label" : "field|name|BT-97-Lot",
-          "_repeatable" : true
-        } ]
-      }, {
-        "id" : "GR-Lot-FinancialGuarantee",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Financial Guarantee",
-        "_label" : "group|name|GR-Lot-FinancialGuarantee",
-        "content" : [ {
-          "id" : "BT-751-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Guarantee Required",
-          "_label" : "field|name|BT-751-Lot"
-        }, {
-          "id" : "BT-75-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Guarantee Required Description",
-          "_label" : "field|name|BT-75-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-SubmissionMethod",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Submission Method",
-        "_label" : "group|name|GR-Lot-SubmissionMethod",
-        "content" : [ {
-          "id" : "BT-17-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "SubmissionElectronic",
-          "_label" : "field|name|BT-17-Lot"
-        }, {
-          "id" : "BT-18-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Submission URL",
-          "_label" : "field|name|BT-18-Lot"
-        }, {
-          "id" : "BT-19-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Submission Nonelectronic Justification",
-          "_label" : "field|name|BT-19-Lot"
-        }, {
-          "id" : "BT-745-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Submission Nonelectronic Description",
-          "_label" : "field|name|BT-745-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-ProcurementDocuments",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Procurement Documents",
-        "_label" : "group|name|GR-Lot-ProcurementDocuments",
-        "content" : [ {
-          "id" : "BT-14-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Documents Restricted",
-          "_label" : "field|name|BT-14-Lot"
-        }, {
-          "id" : "OPT-050-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Document Status",
-          "_label" : "field|name|OPT-050-Lot"
-        }, {
-          "id" : "BT-707-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Documents Restricted Justification",
-          "_label" : "field|name|BT-707-Lot"
-        }, {
-          "id" : "BT-708-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Documents Official Language",
-          "_label" : "field|name|BT-708-Lot"
-        }, {
-          "id" : "BT-737-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Documents Unofficial Language",
-          "_label" : "field|name|BT-737-Lot"
-        }, {
-          "id" : "BT-15-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Documents URL",
-          "_label" : "field|name|BT-15-Lot"
-        }, {
-          "id" : "BT-615-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Documents Restricted URL",
-          "_label" : "field|name|BT-615-Lot"
-        }, {
-          "id" : "OPT-140-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Procurement Documents ID",
-          "_label" : "field|name|OPT-140-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-SubmissionTool",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Submission Tool",
-        "_label" : "group|name|GR-Lot-SubmissionTool",
-        "content" : [ {
-          "id" : "BT-632-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Tool Name",
-          "_label" : "field|name|BT-632-Lot"
-        }, {
-          "id" : "BT-124-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Tool Atypical URL",
-          "_label" : "field|name|BT-124-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-AddInfo",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Additional Information Providing Organisation",
-        "_label" : "group|name|GR-Lot-AddInfo",
-        "content" : [ {
-          "id" : "OPT-301-Lot-AddInfo",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Additional Info Provider Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-AddInfo",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
-      }, {
-        "id" : "GR-Lot-DocProvider",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Documents Providing Organisation",
-        "_label" : "group|name|GR-Lot-DocProvider",
-        "content" : [ {
-          "id" : "OPT-301-Lot-DocProvider",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Document Provider Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-DocProvider",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
-      } ]
-    }, {
-      "id" : "GR-Lot-Review",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Review",
-      "_label" : "group|name|GR-Lot-Review",
-      "content" : [ {
-        "id" : "GR-Lot-Deadline",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Review Deadlines",
-        "_label" : "group|name|GR-Lot-Deadline",
-        "content" : [ {
-          "id" : "BT-99-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Review Deadline Description",
-          "_label" : "field|name|BT-99-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-ReviewOrg",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Review Organisation",
-        "_label" : "group|name|GR-Lot-ReviewOrg",
-        "content" : [ {
-          "id" : "OPT-301-Lot-ReviewOrg",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Review Organization Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-ReviewOrg",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
-      }, {
-        "id" : "GR-Lot-ReviewInfo",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Review Information Providing Organisation",
-        "_label" : "group|name|GR-Lot-ReviewInfo",
-        "content" : [ {
-          "id" : "OPT-301-Lot-ReviewInfo",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Review Info Provider Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-ReviewInfo",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
-      }, {
-        "id" : "GR-Lot-Mediator",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Mediation Organisation",
-        "_label" : "group|name|GR-Lot-Mediator",
-        "content" : [ {
-          "id" : "OPT-301-Lot-Mediator",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Mediator Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-Mediator",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
-      } ]
-    } ]
-  }, {
-    "id" : "GR-LotsGroup",
-    "contentType" : "group",
-    "nodeId" : "ND-LotsGroup",
-    "displayType" : "SECTION",
-    "description" : "LotsGroup related information covering Tendering Terms, Tendering Process and Purpose",
-    "_label" : "group|name|ND-LotsGroup",
-    "_idScheme" : "GLO",
-    "_identifierFieldId" : "BT-137-LotsGroup",
-    "_repeatable" : true,
-    "content" : [ {
-      "id" : "GR-LotsGroup-Purpose",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Purpose",
-      "_label" : "group|name|GR-LotsGroup-Purpose",
-      "content" : [ {
-        "id" : "BT-137-LotsGroup",
+        "id" : "BT-801-Lot",
         "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Purpose Lot Identifier",
-        "_label" : "field|name|BT-137-LotsGroup",
-        "_idScheme" : "GLO",
-        "hidden" : true
+        "displayType" : "COMBOBOX",
+        "description" : "Non Disclosure Agreement",
+        "_label" : "field|name|BT-801-Lot"
       }, {
-        "id" : "GR-LotsGroup-LotDistribution",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Lot Distribution ",
-        "_label" : "group|name|GR-LotsGroup-LotDistribution",
-        "content" : [ {
-          "id" : "BT-330-Procedure",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Group Identifier",
-          "_label" : "field|name|BT-330-Procedure",
-          "valueSource" : "BT-137-LotsGroup",
-          "hidden" : true
-        }, {
-          "id" : "BT-1375-Procedure",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Group Lot Identifier",
-          "_label" : "field|name|BT-1375-Procedure",
-          "_idSchemes" : [ "LOT" ],
-          "_repeatable" : true
-        } ]
-      }, {
-        "id" : "GR-LotsGroup-Description",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Description",
-        "_label" : "group|name|GR-LotsGroup-Description",
-        "content" : [ {
-          "id" : "BT-22-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Internal Identifier",
-          "_label" : "field|name|BT-22-LotsGroup"
-        }, {
-          "id" : "BT-21-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Title",
-          "_label" : "field|name|BT-21-LotsGroup"
-        }, {
-          "id" : "BT-24-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Description",
-          "_label" : "field|name|BT-24-LotsGroup"
-        } ]
-      }, {
-        "id" : "GR-LotsGroup-Scope",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Scope",
-        "_label" : "group|name|GR-LotsGroup-Scope",
-        "content" : [ {
-          "id" : "BT-726-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Suitable For SMEs",
-          "_label" : "field|name|BT-726-LotsGroup"
-        }, {
-          "id" : "BT-27-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Estimated Value",
-          "_label" : "field|name|BT-27-LotsGroup"
-        } ]
-      }, {
-        "id" : "GR-LotsGroup-AdditionalInformation",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Additional Information",
-        "_label" : "group|name|GR-LotsGroup-AdditionalInformation",
-        "content" : [ {
-          "id" : "BT-300-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Additional Information",
-          "_label" : "field|name|BT-300-LotsGroup"
-        } ]
-      } ]
-    }, {
-      "id" : "GR-LotsGroup-TenderingTerms",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Tendering Terms",
-      "_label" : "group|name|GR-LotsGroup-TenderingTerms",
-      "content" : [ {
-        "id" : "GR-LotsGroup-AwardCriteria",
-        "contentType" : "group",
-        "nodeId" : "ND-LotsGroupAwardCriteria",
-        "displayType" : "GROUP",
-        "description" : "Award Criteria related information (Description, Justification, Individual Criterion …) for a Group of Lots",
-        "_label" : "group|name|ND-LotsGroupAwardCriteria",
-        "_repeatable" : true,
-        "content" : [ {
-          "id" : "GR-LotsGroup-AwardCriteria-Criterion",
-          "contentType" : "group",
-          "nodeId" : "ND-LotsGroupAwardCriterion",
-          "displayType" : "GROUP",
-          "description" : "Award Criterion related information (Description, Name, Parameter, Code …) for a Group of Lots",
-          "_label" : "group|name|ND-LotsGroupAwardCriterion",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-539-LotsGroup",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Award Criterion Type",
-            "_label" : "field|name|BT-539-LotsGroup"
-          }, {
-            "id" : "BT-540-LotsGroup",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Award Criterion Description",
-            "_label" : "field|name|BT-540-LotsGroup"
-          }, {
-            "id" : "GR-LotsGroup-AwardCriteria-Criterion-Parameters",
-            "contentType" : "group",
-            "nodeId" : "ND-LotsGroupAwardCriterionParameters",
-            "displayType" : "GROUP",
-            "description" : "Non UBL Native Subordinate Award Criteria elements for a Group of Lots",
-            "_label" : "group|name|ND-LotsGroupAwardCriterionParameters",
-            "content" : [ {
-              "id" : "GR-LotsGroup-AwardCriteria-Criterion-Parameter",
-              "contentType" : "group",
-              "nodeId" : "ND-LotsGroupAwardCriterionParameter",
-              "displayType" : "GROUP",
-              "description" : "Group of Lots Award Criterion Parameter (Value and associated Code)",
-              "_label" : "group|name|ND-LotsGroupAwardCriterionParameter",
-              "content" : [ {
-                "id" : "BT-541-LotsGroup",
-                "contentType" : "field",
-                "displayType" : "TEXTBOX",
-                "description" : "Award Criterion Number",
-                "_label" : "field|name|BT-541-LotsGroup"
-              }, {
-                "id" : "BT-5421-LotsGroup",
-                "contentType" : "field",
-                "displayType" : "COMBOBOX",
-                "description" : "Award Criterion Number Weight",
-                "_label" : "field|name|BT-5421-LotsGroup"
-              }, {
-                "id" : "BT-5422-LotsGroup",
-                "contentType" : "field",
-                "displayType" : "COMBOBOX",
-                "description" : "Award Criterion Number Fixed",
-                "_label" : "field|name|BT-5422-LotsGroup"
-              }, {
-                "id" : "BT-5423-LotsGroup",
-                "contentType" : "field",
-                "displayType" : "COMBOBOX",
-                "description" : "Award Criterion Number Threshold",
-                "_label" : "field|name|BT-5423-LotsGroup"
-              } ]
-            } ]
-          }, {
-            "id" : "BT-734-LotsGroup",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Award Criterion Name",
-            "_label" : "field|name|BT-734-LotsGroup"
-          } ]
-        }, {
-          "id" : "BT-543-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Award Criteria Complicated",
-          "_label" : "field|name|BT-543-LotsGroup"
-        }, {
-          "id" : "BT-733-LotsGroup",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Award Criteria Order Justification",
-          "_label" : "field|name|BT-733-LotsGroup"
-        } ]
-      } ]
-    } ]
-  }, {
-    "id" : "GR-Change",
-    "contentType" : "group",
-    "displayType" : "SECTION",
-    "description" : "Change",
-    "_label" : "group|name|GR-Change",
-    "content" : [ {
-      "id" : "BT-140-notice",
-      "contentType" : "field",
-      "displayType" : "COMBOBOX",
-      "description" : "Change Reason Code",
-      "_label" : "field|name|BT-140-notice",
-      "readOnly" : true
-    }, {
-      "id" : "BT-762-notice",
-      "contentType" : "field",
-      "displayType" : "TEXTAREA",
-      "description" : "Change Reason Description",
-      "_label" : "field|name|BT-762-notice"
-    }, {
-      "id" : "BT-758-notice",
-      "contentType" : "field",
-      "displayType" : "TEXTBOX",
-      "description" : "Change Notice Version Identifier",
-      "_label" : "field|name|BT-758-notice",
-      "readOnly" : true
-    }, {
-      "id" : "GR-ChangeSections",
-      "contentType" : "group",
-      "nodeId" : "ND-Change",
-      "displayType" : "GROUP",
-      "description" : "Information associated to a single Change (Section, Description & Procurement Documents)",
-      "_label" : "group|name|ND-Change",
-      "_repeatable" : true,
-      "content" : [ {
-        "id" : "BT-13716-notice",
-        "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Change Previous Section Identifier",
-        "_label" : "field|name|BT-13716-notice",
-        "_repeatable" : true
-      }, {
-        "id" : "BT-141(a)-notice",
+        "id" : "BT-802-Lot",
         "contentType" : "field",
         "displayType" : "TEXTAREA",
-        "description" : "Change Description",
-        "_label" : "field|name|BT-141(a)-notice"
-      }, {
-        "id" : "BT-718-notice",
+        "description" : "Non Disclosure Agreement Description",
+        "_label" : "field|name|BT-802-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-ElectronicSignatureRequired",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Electronic Signature Required",
+      "_label" : "group|name|GR-Lot-ElectronicSignatureRequired",
+      "content" : [ {
+        "id" : "BT-744-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Submission Electronic Signature",
+        "_label" : "field|name|BT-744-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-PostAwardProcess",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Post Award Process",
+      "_label" : "group|name|GR-Lot-PostAwardProcess",
+      "content" : [ {
+        "id" : "BT-92-Lot",
         "contentType" : "field",
         "displayType" : "RADIO",
-        "description" : "Change Procurement Documents",
-        "_label" : "field|name|BT-718-notice"
+        "description" : "Electronic Ordering",
+        "_label" : "field|name|BT-92-Lot"
       }, {
-        "id" : "BT-719-notice",
+        "id" : "BT-93-Lot",
         "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Change Procurement Documents Date",
-        "_label" : "field|name|BT-719-notice"
+        "displayType" : "RADIO",
+        "description" : "Electronic Payment",
+        "_label" : "field|name|BT-93-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-FinancialTerms",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Financial Terms",
+      "_label" : "group|name|GR-Lot-FinancialTerms",
+      "content" : [ {
+        "id" : "BT-77-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Terms Financial",
+        "_label" : "field|name|BT-77-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-TenderReceipt",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Tender Recipient Organisation",
+      "_label" : "group|name|GR-Lot-TenderReceipt",
+      "content" : [ {
+        "id" : "OPT-301-Lot-TenderReceipt",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Tender Recipient Technical Identifier Reference",
+        "_label" : "field|name|OPT-301-Lot-TenderReceipt",
+        "_idSchemes" : [ "ORG", "TPO" ]
+      } ]
+    }, {
+      "id" : "GR-Lot-TenderEval",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Tender Evaluation Organisation",
+      "_label" : "group|name|GR-Lot-TenderEval",
+      "content" : [ {
+        "id" : "OPT-301-Lot-TenderEval",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Tender Evaluator Technical Identifier Reference",
+        "_label" : "field|name|OPT-301-Lot-TenderEval",
+        "_idSchemes" : [ "ORG", "TPO" ]
       } ]
     } ]
   }, {
-    "id" : "GR-Organisations-Section",
+    "id" : "GR-Lot-SubmissionInfo",
     "contentType" : "group",
     "displayType" : "SECTION",
-    "description" : "Organisations",
-    "_label" : "group|name|GR-Organisations-Section",
+    "description" : "Submission Info",
+    "_label" : "group|name|GR-Lot-SubmissionInfo",
     "content" : [ {
-      "id" : "GR-Organisations-Subsection",
+      "id" : "GR-Lot-Procedure",
       "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Organisations",
-      "_label" : "group|name|GR-Organisations-Subsection",
+      "displayType" : "GROUP",
+      "description" : "Procedure",
+      "_label" : "group|name|GR-Lot-Procedure",
       "content" : [ {
-        "id" : "GR-Organisations",
-        "contentType" : "group",
-        "nodeId" : "ND-Organization",
-        "displayType" : "GROUP",
-        "description" : "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
-        "_label" : "group|name|ND-Organization",
-        "_idScheme" : "ORG",
-        "_identifierFieldId" : "OPT-200-Organization-Company",
-        "_repeatable" : true,
-        "content" : [ {
-          "id" : "OPT-200-Organization-Company",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Organisation Technical Identifier",
-          "_label" : "field|name|OPT-200-Organization-Company",
-          "_idScheme" : "ORG",
-          "hidden" : true
-        }, {
-          "id" : "BT-633-Organization",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Organisation Natural Person",
-          "_label" : "field|name|BT-633-Organization"
-        }, {
-          "id" : "GR-Company",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Organisation",
-          "_label" : "group|name|GR-Company",
-          "content" : [ {
-            "id" : "BT-500-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Organisation Name",
-            "_label" : "field|name|BT-500-Organization-Company"
-          }, {
-            "id" : "BT-501-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Organisation Identifier",
-            "_label" : "field|name|BT-501-Organization-Company",
-            "_repeatable" : true
-          }, {
-            "id" : "BT-16-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Organisation Part Name",
-            "_label" : "field|name|BT-16-Organization-Company"
-          }, {
-            "id" : "BT-505-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Organisation Internet Address",
-            "_label" : "field|name|BT-505-Organization-Company"
-          }, {
-            "id" : "BT-509-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Organisation eDelivery Gateway",
-            "_label" : "field|name|BT-509-Organization-Company"
-          } ]
-        }, {
-          "id" : "GR-Company-Address",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Organisation Address",
-          "_label" : "group|name|GR-Company-Address",
-          "content" : [ {
-            "id" : "BT-510(a)-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Street",
-            "_label" : "field|name|BT-510(a)-Organization-Company"
-          }, {
-            "id" : "BT-510(b)-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Streetline 1",
-            "_label" : "field|name|BT-510(b)-Organization-Company"
-          }, {
-            "id" : "BT-510(c)-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Streetline 2",
-            "_label" : "field|name|BT-510(c)-Organization-Company"
-          }, {
-            "id" : "BT-513-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Organisation City",
-            "_label" : "field|name|BT-513-Organization-Company"
-          }, {
-            "id" : "BT-512-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Organisation Post Code",
-            "_label" : "field|name|BT-512-Organization-Company"
-          }, {
-            "id" : "BT-507-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Organisation Country Subdivision",
-            "_label" : "field|name|BT-507-Organization-Company"
-          }, {
-            "id" : "BT-514-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Organisation Country Code",
-            "_label" : "field|name|BT-514-Organization-Company"
-          } ]
-        }, {
-          "id" : "GR-Company-Contact",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Organisation Contact",
-          "_label" : "group|name|GR-Company-Contact",
-          "content" : [ {
-            "id" : "BT-502-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Organisation Contact Point",
-            "_label" : "field|name|BT-502-Organization-Company"
-          }, {
-            "id" : "BT-506-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Organisation Contact Email Address",
-            "_label" : "field|name|BT-506-Organization-Company"
-          }, {
-            "id" : "BT-503-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Organisation Contact Telephone Number",
-            "_label" : "field|name|BT-503-Organization-Company"
-          }, {
-            "id" : "BT-739-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Organisation Contact Fax",
-            "_label" : "field|name|BT-739-Organization-Company"
-          } ]
-        }, {
-          "id" : "GR-Company-BuyerExclusive",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Buyer Exclusive",
-          "_label" : "group|name|GR-Company-BuyerExclusive",
-          "content" : [ {
-            "id" : "OPP-050-Organization",
-            "contentType" : "field",
-            "displayType" : "RADIO",
-            "description" : "Buyers Group Lead Indicator",
-            "_label" : "field|name|OPP-050-Organization"
-          } ]
-        }, {
-          "id" : "GR-Touch-Point",
-          "contentType" : "group",
-          "nodeId" : "ND-Touchpoint",
-          "displayType" : "GROUP",
-          "description" : "Contact details associated to a given role",
-          "_label" : "group|name|ND-Touchpoint",
-          "_idScheme" : "TPO",
-          "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "OPT-201-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "TouchPoint Technical Identifier",
-            "_label" : "field|name|OPT-201-Organization-TouchPoint",
-            "_idScheme" : "TPO",
-            "hidden" : true
-          }, {
-            "id" : "BT-500-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Name",
-            "_label" : "field|name|BT-500-Organization-TouchPoint"
-          }, {
-            "id" : "BT-16-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Part Name",
-            "_label" : "field|name|BT-16-Organization-TouchPoint"
-          }, {
-            "id" : "BT-505-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Internet Address",
-            "_label" : "field|name|BT-505-Organization-TouchPoint"
-          }, {
-            "id" : "BT-509-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "eDelivery Gateway",
-            "_label" : "field|name|BT-509-Organization-TouchPoint"
-          }, {
-            "id" : "GR-TouchPoint-Address",
-            "contentType" : "group",
-            "displayType" : "GROUP",
-            "description" : "TouchPoint Address",
-            "_label" : "group|name|GR-TouchPoint-Address",
-            "content" : [ {
-              "id" : "BT-510(a)-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Street",
-              "_label" : "field|name|BT-510(a)-Organization-TouchPoint"
-            }, {
-              "id" : "BT-510(b)-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Streetline 1",
-              "_label" : "field|name|BT-510(b)-Organization-TouchPoint"
-            }, {
-              "id" : "BT-510(c)-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Streetline 2",
-              "_label" : "field|name|BT-510(c)-Organization-TouchPoint"
-            }, {
-              "id" : "BT-513-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "City",
-              "_label" : "field|name|BT-513-Organization-TouchPoint"
-            }, {
-              "id" : "BT-512-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Post Code",
-              "_label" : "field|name|BT-512-Organization-TouchPoint"
-            }, {
-              "id" : "BT-507-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Country Subdivision",
-              "_label" : "field|name|BT-507-Organization-TouchPoint"
-            }, {
-              "id" : "BT-514-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Country Code",
-              "_label" : "field|name|BT-514-Organization-TouchPoint"
-            } ]
-          }, {
-            "id" : "GR-TouchPoint-Contact",
-            "contentType" : "group",
-            "displayType" : "GROUP",
-            "description" : "TouchPoint Contact",
-            "_label" : "group|name|GR-TouchPoint-Contact",
-            "content" : [ {
-              "id" : "BT-502-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Contact Point",
-              "_label" : "field|name|BT-502-Organization-TouchPoint"
-            }, {
-              "id" : "BT-506-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Contact Email Address",
-              "_label" : "field|name|BT-506-Organization-TouchPoint"
-            }, {
-              "id" : "BT-503-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Contact Telephone Number",
-              "_label" : "field|name|BT-503-Organization-TouchPoint"
-            }, {
-              "id" : "BT-739-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Contact Fax",
-              "_label" : "field|name|BT-739-Organization-TouchPoint"
-            } ]
-          } ]
-        } ]
+        "id" : "BT-634-Lot",
+        "contentType" : "field",
+        "displayType" : "RADIO",
+        "description" : "Procurement Relaunch",
+        "_label" : "field|name|BT-634-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-Deadlines1",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Deadlines I",
+      "_label" : "group|name|GR-Lot-Deadlines1",
+      "content" : [ {
+        "id" : "BT-130-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Dispatch Invitation Tender",
+        "_label" : "field|name|BT-130-Lot"
+      }, {
+        "id" : "BT-631-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Dispatch Invitation Interest",
+        "_label" : "field|name|BT-631-Lot"
+      }, {
+        "id" : "BT-13(d)-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Additional Information Deadline",
+        "_label" : "field|name|BT-13(d)-Lot"
+      }, {
+        "id" : "BT-13(t)-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Additional Information Deadline",
+        "_label" : "field|name|BT-13(t)-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-Deadlines2",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Deadlines II",
+      "_label" : "group|name|GR-Lot-Deadlines2",
+      "content" : [ {
+        "id" : "BT-630(d)-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Deadline Receipt Expressions",
+        "_label" : "field|name|BT-630(d)-Lot"
+      }, {
+        "id" : "BT-630(t)-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Deadline Receipt Expressions",
+        "_label" : "field|name|BT-630(t)-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-Submission Language",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Submission Language",
+      "_label" : "group|name|GR-Lot-Submission Language",
+      "content" : [ {
+        "id" : "BT-97-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Submission Language",
+        "_label" : "field|name|BT-97-Lot",
+        "_repeatable" : true
+      } ]
+    }, {
+      "id" : "GR-Lot-FinancialGuarantee",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Financial Guarantee",
+      "_label" : "group|name|GR-Lot-FinancialGuarantee",
+      "content" : [ {
+        "id" : "BT-751-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Guarantee Required",
+        "_label" : "field|name|BT-751-Lot"
+      }, {
+        "id" : "BT-75-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Guarantee Required Description",
+        "_label" : "field|name|BT-75-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-SubmissionMethod",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Submission Method",
+      "_label" : "group|name|GR-Lot-SubmissionMethod",
+      "content" : [ {
+        "id" : "BT-17-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "SubmissionElectronic",
+        "_label" : "field|name|BT-17-Lot"
+      }, {
+        "id" : "BT-18-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Submission URL",
+        "_label" : "field|name|BT-18-Lot"
+      }, {
+        "id" : "BT-19-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Submission Nonelectronic Justification",
+        "_label" : "field|name|BT-19-Lot"
+      }, {
+        "id" : "BT-745-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Submission Nonelectronic Description",
+        "_label" : "field|name|BT-745-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-ProcurementDocuments",
+      "contentType" : "group",
+      "nodeId" : "ND-LotProcurementDocument",
+      "displayType" : "GROUP",
+      "description" : "Procurement Document information for a Lot, independent from the restricted aspect",
+      "_label" : "group|name|ND-LotProcurementDocument",
+      "_repeatable" : true,
+      "content" : [ {
+        "id" : "BT-14-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Documents Restricted",
+        "_label" : "field|name|BT-14-Lot"
+      }, {
+        "id" : "OPT-050-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Document Status",
+        "_label" : "field|name|OPT-050-Lot"
+      }, {
+        "id" : "BT-707-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Documents Restricted Justification",
+        "_label" : "field|name|BT-707-Lot"
+      }, {
+        "id" : "BT-708-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Documents Official Language",
+        "_label" : "field|name|BT-708-Lot"
+      }, {
+        "id" : "BT-737-Lot",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Documents Unofficial Language",
+        "_label" : "field|name|BT-737-Lot"
+      }, {
+        "id" : "BT-15-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Documents URL",
+        "_label" : "field|name|BT-15-Lot"
+      }, {
+        "id" : "BT-615-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Documents Restricted URL",
+        "_label" : "field|name|BT-615-Lot"
+      }, {
+        "id" : "OPT-140-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Procurement Documents ID",
+        "_label" : "field|name|OPT-140-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-SubmissionTool",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Submission Tool",
+      "_label" : "group|name|GR-Lot-SubmissionTool",
+      "content" : [ {
+        "id" : "BT-632-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Tool Name",
+        "_label" : "field|name|BT-632-Lot"
+      }, {
+        "id" : "BT-124-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Tool Atypical URL",
+        "_label" : "field|name|BT-124-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-AddInfo",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Additional Information Providing Organisation",
+      "_label" : "group|name|GR-Lot-AddInfo",
+      "content" : [ {
+        "id" : "OPT-301-Lot-AddInfo",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Additional Info Provider Technical Identifier Reference",
+        "_label" : "field|name|OPT-301-Lot-AddInfo",
+        "_idSchemes" : [ "ORG", "TPO" ]
+      } ]
+    }, {
+      "id" : "GR-Lot-DocProvider",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Documents Providing Organisation",
+      "_label" : "group|name|GR-Lot-DocProvider",
+      "content" : [ {
+        "id" : "OPT-301-Lot-DocProvider",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Document Provider Technical Identifier Reference",
+        "_label" : "field|name|OPT-301-Lot-DocProvider",
+        "_idSchemes" : [ "ORG", "TPO" ]
+      } ]
+    } ]
+  }, {
+    "id" : "GR-Lot-Review",
+    "contentType" : "group",
+    "displayType" : "SECTION",
+    "description" : "Review",
+    "_label" : "group|name|GR-Lot-Review",
+    "content" : [ {
+      "id" : "GR-Lot-Deadline",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Review Deadlines",
+      "_label" : "group|name|GR-Lot-Deadline",
+      "content" : [ {
+        "id" : "BT-99-Lot",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Review Deadline Description",
+        "_label" : "field|name|BT-99-Lot"
+      } ]
+    }, {
+      "id" : "GR-Lot-ReviewOrg",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Review Organisation",
+      "_label" : "group|name|GR-Lot-ReviewOrg",
+      "content" : [ {
+        "id" : "OPT-301-Lot-ReviewOrg",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Review Organization Technical Identifier Reference",
+        "_label" : "field|name|OPT-301-Lot-ReviewOrg",
+        "_idSchemes" : [ "ORG", "TPO" ]
+      } ]
+    }, {
+      "id" : "GR-Lot-ReviewInfo",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Review Information Providing Organisation",
+      "_label" : "group|name|GR-Lot-ReviewInfo",
+      "content" : [ {
+        "id" : "OPT-301-Lot-ReviewInfo",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Review Info Provider Technical Identifier Reference",
+        "_label" : "field|name|OPT-301-Lot-ReviewInfo",
+        "_idSchemes" : [ "ORG", "TPO" ]
+      } ]
+    }, {
+      "id" : "GR-Lot-Mediator",
+      "contentType" : "group",
+      "displayType" : "GROUP",
+      "description" : "Mediation Organisation",
+      "_label" : "group|name|GR-Lot-Mediator",
+      "content" : [ {
+        "id" : "OPT-301-Lot-Mediator",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Mediator Technical Identifier Reference",
+        "_label" : "field|name|OPT-301-Lot-Mediator",
+        "_idSchemes" : [ "ORG", "TPO" ]
       } ]
     } ]
   } ]

@@ -16,7 +16,10 @@
 	<!-- ===== Element Declarations ===== -->
 	<xsd:element name="AnswerReceptionPeriod" type="cac:PeriodType"/>
 	<xsd:element name="AggregatedAmounts" type="AggregatedAmountsType"/>
+	<xsd:element name="AppealDecision" type="AppealDecisionType"/>
+	<xsd:element name="AppealIrregularity" type="AppealIrregularityType"/>
 	<xsd:element name="AppealRequestsStatistics" type="AppealRequestsStatisticsType"/>
+	<xsd:element name="AppealRemedy" type="AppealRemedyType"/>
 	<xsd:element name="AppealStatus" type="AppealStatusType"/>
 	<xsd:element name="AppealedItem" type="AppealedItemType"/>
 	<xsd:element name="AppealProcessingParty" type="AppealProcessingPartyType"/>
@@ -84,9 +87,19 @@
 			<xsd:element ref="efbc:PenaltiesAmount" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
+	<xsd:complexType name="AppealDecisionType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:DecisionTypeCode" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
 	<xsd:complexType name="AppealedItemType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AppealIrregularityType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:IrregularityTypeCode" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="AppealProcessingPartyType">
@@ -94,6 +107,11 @@
 			<xsd:element ref="efbc:AppealProcessingPartyTypeCode" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:AppealProcessingPartyTypeDescription" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="cac:Party" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AppealRemedyType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:RemedyTypeCode" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="AppealRequestsStatisticsType">
@@ -113,14 +131,14 @@
 			<xsd:element ref="efbc:AppealStageCode" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:AppealStageID" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:AppealPreviousStageID" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="efbc:DecisionTypeCode" minOccurs="1" maxOccurs="1"/>
-			<xsd:element ref="efbc:IrregularityTypeCode" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:RemedyAmount" minOccurs="1" maxOccurs="1"/>
-			<xsd:element ref="efbc:RemedyTypeCode" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealDate" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealReasons" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:AppealDecision" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:AppealIrregularity" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:AppealProcessingParty" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efac:AppealRemedy" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:AppealedItem" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:AppealingParty" minOccurs="1" maxOccurs="unbounded"/>
 		</xsd:sequence>
@@ -139,7 +157,7 @@
 	</xsd:complexType>
 	<xsd:complexType name="AssetType">
 		<xsd:sequence>
-			<xsd:element ref="efbc:AssetDescription" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:AssetDescription" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:AssetSignificance" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:AssetPredominance" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
@@ -260,7 +278,7 @@
 		<xsd:sequence>
 			<xsd:element ref="efbc:FieldIdentifierCode" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:ReasonCode" minOccurs="1" maxOccurs="1"/>
-			<xsd:element ref="efbc:ReasonDescription" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element ref="efbc:ReasonDescription" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:PublicationDate" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>

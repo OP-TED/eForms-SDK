@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Slovene. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in Slovene. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="auxiliary|text|BT-01">Pravna podlaga</entry>
 <entry key="auxiliary|text|BT-08">Vloga organizacije</entry>
 <entry key="auxiliary|text|BT-36">Trajanje</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Informacije o skladih Evropske unije, uporabljenih za financiranje javnega naročila</entry>
 <entry key="auxiliary|text|exclusion-grounds">Razlogi za izključitev</entry>
 <entry key="auxiliary|text|framework-agreement">Okvirni sporazum</entry>
+<entry key="auxiliary|text|further-info">Dodatne informacije, mediacija in pregled</entry>
 <entry key="auxiliary|text|general-information">Splošne informacije</entry>
 <entry key="auxiliary|text|group-framework-value">Predvidena vrednost okvirnih sporazumov v skupini sklopov</entry>
 <entry key="auxiliary|text|group-of-lots">Skupina sklopov</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Rezultat postopka oddaje javnega naročila</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Vrsta domnevne nepravilnosti</entry>
 <entry key="auxiliary|text|review-requests-summary">Povzetek zahtevkov za pregled, ki jih je prejel kupec</entry>
-<entry key="auxiliary|text|roles">Vloge</entry>
+<entry key="auxiliary|text|roles">Vloge te organizacije</entry>
 <entry key="auxiliary|text|second-stage">Informacija o drugi stopnji dvostopenjskega postopka</entry>
 <entry key="auxiliary|text|selection-criteria">Merila za izbor</entry>
 <entry key="auxiliary|text|start-duration-contract">Datum začetka in trajanje javnega naročila</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Vrednost</entry>
 <entry key="auxiliary|text|winner">Zmagovalec</entry>
 <entry key="auxiliary|text|winner-info">Informacije o zmagovalcih</entry>
+<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
 <entry key="auxiliary|text|winner-subcontractor">Podizvajalci zmagovalca</entry>
 </properties>

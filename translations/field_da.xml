@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Danish. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Danish. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Højeste antal fornyelser</entry>
 <entry key="field|name|BT-60-Lot">Udbuddet er som minimum delvist finansieret ved hjælp af EU-støtte</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Den ordregivende enheds aktiviteter</entry>
-<entry key="field|name|BT-6110-Contract">Oplysninger om EU-fonden</entry>
+<entry key="field|name|BT-6110-Contract">Beskrivelse</entry>
 <entry key="field|name|BT-6140-Lot">Yderligere oplysninger om det EU-program eller -projekt, der i det mindste delvist finansierer udbuddet</entry>
 <entry key="field|name|BT-615-Lot">Oplysninger om begrænsede dokumenter findes på</entry>
 <entry key="field|name|BT-615-Part">Oplysninger om begrænsede dokumenter findes på</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Meddelelse om afsendelsesdato (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Meddelelse om afsendelsesdato (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Kriterier for grønne indkøb</entry>
-<entry key="field|name|BT-88-Procedure">Beskrivelse af proceduren</entry>
+<entry key="field|name|BT-88-Procedure">De vigtigste kendetegn ved proceduren</entry>
 <entry key="field|name|BT-92-Lot">Der vil blive anvendt elektronisk bestilling</entry>
 <entry key="field|name|BT-93-Lot">Der vil blive anvendt elektronisk betaling</entry>
 <entry key="field|name|BT-94-Lot">Dette er et tilbagevendende udbud</entry>

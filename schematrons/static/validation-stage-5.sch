@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30.-->
+<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00.-->
 <pattern id="EFORMS-validation-stage-5" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BR-BT-00002-0100" role="ERROR" diagnostics="BT-02-notice" test="((cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023') and (cbc:NoticeTypeCode/normalize-space(text()) = ('pin-cfc-social','cn-standard','veat','can-standard','can-social'))) or not(cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023')">rule|text|BR-BT-00002-0100</assert>
@@ -383,6 +383,10 @@
 		<assert id="BR-OPP-00070-0117" role="ERROR" diagnostics="OPP-070-notice" test="((../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'qu-sy') and (efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('15'))) or not(../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'qu-sy')">rule|text|BR-OPP-00070-0117</assert>
 		<assert id="BR-OPP-00070-0118" role="ERROR" diagnostics="OPP-070-notice" test="((../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'subco') and (efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('22'))) or not(../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'subco')">rule|text|BR-OPP-00070-0118</assert>
 		<assert id="BR-OPP-00070-0119" role="ERROR" diagnostics="OPP-070-notice" test="((../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'veat') and (efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28'))) or not(../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'veat')">rule|text|BR-OPP-00070-0119</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification">
+		<assert id="BR-BT-01501-0106" role="ERROR" diagnostics="ND-ContractModification_BT-1501_s_-Contract" test="count(efac:Change/efbc:ChangedSectionIdentifier[./normalize-space(text()) = ../../../efac:NoticeResult/efac:SettledContract/cbc:ID/normalize-space(text())]) = 1">rule|text|BR-BT-01501-0106</assert>
+		<assert id="BR-BT-01501-0107" role="ERROR" diagnostics="ND-ContractModification_BT-1501_s_-Contract" test="count(for $x in efac:Change/efbc:ChangedSectionIdentifier[fn:matches(normalize-space(./normalize-space(text())), '^CON-\d{4}$')], $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangedSectionIdentifier[. = $x] return $y) = 1">rule|text|BR-BT-01501-0107</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult">
 		<assert id="BR-BT-00118-0100" role="ERROR" diagnostics="BT-118-NoticeResult" test="((not(efac:GroupFramework/efbc:GroupFrameworkMaximumValueAmount) and ((every $faMaxCurr in (efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount/@currencyID) satisfies $faMaxCurr = efbc:OverallMaximumFrameworkContractsAmount/@currencyID) and (efbc:OverallMaximumFrameworkContractsAmount/number() = sum(efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount)))) or (efac:GroupFramework/efbc:GroupFrameworkMaximumValueAmount) or not(every $faMax in (efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount/@currencyID) satisfies $faMax = efbc:OverallMaximumFrameworkContractsAmount/@currencyID)) or not(efbc:OverallMaximumFrameworkContractsAmount)">rule|text|BR-BT-00118-0100</assert>

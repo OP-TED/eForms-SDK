@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.4.0",
+  "sdkVersion" : "1.5.0",
   "metadataDatabase" : {
-    "version" : "1.4.0",
-    "createdOn" : "2022-11-25T09:30:00"
+    "version" : "1.5.0",
+    "createdOn" : "2022-12-14T11:00:00"
   },
   "noticeId" : "CEI",
   "metadata" : [ {
@@ -932,9 +932,11 @@
       }, {
         "id" : "GR-Lot-ProcurementDocuments",
         "contentType" : "group",
+        "nodeId" : "ND-LotProcurementDocument",
         "displayType" : "GROUP",
-        "description" : "Procurement Documents",
-        "_label" : "group|name|GR-Lot-ProcurementDocuments",
+        "description" : "Procurement Document information for a Lot, independent from the restricted aspect",
+        "_label" : "group|name|ND-LotProcurementDocument",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-14-Lot",
           "contentType" : "field",

@@ -510,7 +510,7 @@
    <svrl:failed-assert id="BR-OPT-00200-0051"
                        location="/ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^ORG-\d4$')">
+                       test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00200-0051</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"/>
@@ -533,7 +533,7 @@
    <svrl:failed-assert id="BR-BT-00506-0052"
                        location="/ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]2 63$')">
+                       test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}$')">
       <svrl:text>rule|text|BR-BT-00506-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:UBLVersionID"/>
@@ -542,14 +542,14 @@
    <svrl:failed-assert id="BR-BT-00701-0052"
                        location="/ContractNotice/cbc:ID"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^[a-f0-9]8-[a-f0-9]4-4[a-f0-9]3-[89ab][a-f0-9]3-[a-f0-9]12$')">
+                       test="matches(normalize-space(.),'^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$')">
       <svrl:text>rule|text|BR-BT-00701-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:failed-assert id="BR-BT-00004-0052"
                        location="/ContractNotice/cbc:ContractFolderID"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^[a-f0-9]8-[a-f0-9]4-4[a-f0-9]3-[89ab][a-f0-9]3-[a-f0-9]12$')">
+                       test="matches(normalize-space(.),'^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$')">
       <svrl:text>rule|text|BR-BT-00004-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
@@ -615,7 +615,7 @@
    <svrl:failed-assert id="BR-BT-00137-0155"
                        location="/ContractNotice/cac:ProcurementProjectLot/cbc:ID"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^LOT-\d4$')">
+                       test="matches(normalize-space(.),'^LOT-\d{4}$')">
       <svrl:text>rule|text|BR-BT-00137-0155</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']"/>
@@ -678,7 +678,7 @@
    <svrl:failed-assert id="BR-OPT-00301-1218"
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^(ORG|TPO)-\d4$')">
+                       test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00301-1218</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description"/>
@@ -686,7 +686,7 @@
    <svrl:failed-assert id="BR-OPT-00301-1216"
                        location="/ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^(ORG|TPO)-\d4$')">
+                       test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00301-1216</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:Language/cbc:ID"/>
