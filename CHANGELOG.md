@@ -15,3 +15,22 @@ This version brings various changes in the metadata content that were needed for
 As new rules were added, a notice that was valid with SDK 1.4.x might not be valid with this version.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
+
+A comprehensive list of changes between SDK 1.4.1 and SDK 1.5.0 can seen at <https://github.com/OP-TED/eForms-SDK/compare/1.4.1...1.5.0>
+
+The following non-exhaustive list can help to provide an overview of the changes:
+
+* Changed some rules for Contract modification fields.
+* OPT-301-Part-AddInfo is no longer mandatory for notice subtypes 4 and 5 (PIN only).
+* Aligned forbidden rules for BT-133-Lot Public Opening Place and BT-134-Lot Public Opening Description.
+* BT-196(BT-xxx) Unpublished Justification Description is no longer always mandatory (schema change).
+* Form T02: OPP-021-Contract is made multilingual and can now have more than one occurrence (schema change).
+* Added fields to allow Group Framework Re-estimated Value BT-1561-NoticeResult to be unpublished.
+* Place of performance fields for lots are now aligned with parts and procedures.
+* BT-738-notice preferred publication date was added to forms X01 and X02.
+* Accessibility code and justification BT-754 and BT-755 accessibility now share the same repeatable parent node.
+* Renewal description BT-57-Lot, a multilingual field, now has its direct parent as parent node.
+* Framework Maximum value BT-271 was added to the notice type definitions.
+* Non-disclosure agreement fields BT-801 and BT-802 were added to the notice type definitions and the same parent node
+* Strategic procurement code and description BT-06 and BT-777 Strategic procurement now share the same parent node.
+* Removed BT-630 from notice subtype 8 in the notice type definitions.
