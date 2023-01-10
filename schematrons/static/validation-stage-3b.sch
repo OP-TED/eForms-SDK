@@ -746,7 +746,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='customer-service']/cbc:ExecutionRequirementCode">
 		<assert id="BR-OPT-00071-0051" role="ERROR" test="normalize-space(.) = ('assistance', 'cancel', 'clean', 'complaint', 'info', 'other', 'reliability', 'sat-surv', 'ticket')">rule|text|BR-OPT-00071-0051</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']/cbc:Name">
 		<assert id="BR-OPT-00090-0104" role="ERROR" test="normalize-space(.) = ('buyer-categories')">rule|text|BR-OPT-00090-0104</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/efbc:AppealingPartyTypeCode">

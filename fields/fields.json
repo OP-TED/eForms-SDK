@@ -246,12 +246,6 @@
     "xpathRelative" : "cac:FrameworkAgreement",
     "repeatable" : false
   }, {
-    "id" : "ND-LotBuyerCategories",
-    "parentId" : "ND-FA",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement",
-    "xpathRelative" : "cac:SubsequentProcessTenderRequirement",
-    "repeatable" : true
-  }, {
     "id" : "ND-FABuyerCategories",
     "parentId" : "ND-FA",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']",
@@ -21795,10 +21789,10 @@
     }
   }, {
     "id" : "OPT-090-Lot",
-    "parentNodeId" : "ND-LotBuyerCategories",
+    "parentNodeId" : "ND-FABuyerCategories",
     "name" : "Buyer Categories",
     "btId" : "OPT-090",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']/cbc:Name",
     "xpathRelative" : "cbc:Name",
     "type" : "code",
     "repeatable" : {

@@ -234,13 +234,11 @@
 		<assert id="BT-109-Lot_C" role="ERROR" diagnostics="BT-109-Lot" test="(every $lg in (cbc:Justification/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Justification) = 0">rule|text|BT-109-Lot_C</assert>
 		<assert id="BT-113-Lot_R" role="ERROR" diagnostics="BT-113-Lot" test="count(cbc:MaximumOperatorQuantity) &lt; 2">rule|text|BT-113-Lot_R</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement">
-		<assert id="OPT-090-Lot_R" role="ERROR" diagnostics="OPT-090-Lot" test="count(cbc:Name) &lt; 2">rule|text|OPT-090-Lot_R</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']">
 		<assert id="BT-111-Lot_A" role="ERROR" diagnostics="BT-111-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-111-Lot_A</assert>
 		<assert id="BT-111-Lot_B" role="ERROR" diagnostics="BT-111-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-111-Lot_B</assert>
 		<assert id="BT-111-Lot_C" role="ERROR" diagnostics="BT-111-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-111-Lot_C</assert>
+		<assert id="OPT-090-Lot_R" role="ERROR" diagnostics="OPT-090-Lot" test="count(cbc:Name) &lt; 2">rule|text|OPT-090-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference">
 		<assert id="BT-1251-Lot_R" role="ERROR" diagnostics="BT-1251-Lot" test="count(cbc:ReferencedDocumentInternalAddress) &lt; 2">rule|text|BT-1251-Lot_R</assert>
