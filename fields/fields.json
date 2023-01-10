@@ -508,7 +508,7 @@
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference",
     "xpathRelative" : "cac:FiscalLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-PaymentTerms",
     "parentId" : "ND-LotTenderingTerms",
@@ -846,7 +846,7 @@
     "parentId" : "ND-PartTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference",
     "xpathRelative" : "cac:FiscalLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-PartReservedParticipation",
     "parentId" : "ND-PartTenderingTerms",
