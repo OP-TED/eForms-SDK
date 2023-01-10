@@ -16062,20 +16062,6 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "condition" : "{ND-LotTenderingTerms} ${BT-01-notice == '32018R1046'}",
-        "value" : "{ND-LotTenderingTerms} ${BT-60-Lot == 'eu-funds'}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00060-0070"
-      }, {
-        "value" : "{ND-LotTenderingTerms} ${(BT-01-notice == '32016D0002' and BT-60-Lot == 'eu-funds') or not(BT-01-notice == '32016D0002')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00060-0071"
-      } ]
     }
   }, {
     "id" : "BT-610-Procedure-Buyer",
