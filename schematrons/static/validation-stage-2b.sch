@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00.-->
+<!--File generated from metadata database version 1.5.11 created on the 2023-01-10T11:02:25.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -780,10 +780,8 @@
 		<assert id="BT-88-Procedure_B" role="ERROR" diagnostics="BT-88-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-88-Procedure_B</assert>
 		<assert id="BT-88-Procedure_C" role="ERROR" diagnostics="BT-88-Procedure" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-88-Procedure_C</assert>
 	</rule>
-	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification">
-		<assert id="BT-106-Procedure_R" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) &lt; 2">rule|text|BT-106-Procedure_R</assert>
-	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']">
+		<assert id="BT-106-Procedure_R" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode[@listName='accelerated-procedure']) &lt; 2">rule|text|BT-106-Procedure_R</assert>
 		<assert id="BT-1351-Procedure_A" role="ERROR" diagnostics="BT-1351-Procedure" test="count(cbc:ProcessReason[@languageID = preceding-sibling::cbc:ProcessReason/@languageID]) = 0">rule|text|BT-1351-Procedure_A</assert>
 		<assert id="BT-1351-Procedure_B" role="ERROR" diagnostics="BT-1351-Procedure" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:ProcessReason/@languageID = $lg) or count(cbc:ProcessReason) = 0">rule|text|BT-1351-Procedure_B</assert>
 		<assert id="BT-1351-Procedure_C" role="ERROR" diagnostics="BT-1351-Procedure" test="(every $lg in (cbc:ProcessReason/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:ProcessReason) = 0">rule|text|BT-1351-Procedure_C</assert>

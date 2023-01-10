@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00.-->
+<!--File generated from metadata database version 1.5.11 created on the 2023-01-10T11:02:25.-->
 <pattern id="EFORMS-validation-stage-1b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-GazetteReference-1" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-1</assert>
@@ -2423,39 +2423,39 @@
 		<assert id="ND-PartFiscalLegislation-6" role="ERROR" test="count(cac:FiscalLegislationDocumentReference) &gt; 0">rule|text|ND-PartFiscalLegislation-6</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '7']">
-		<assert id="ND-AcceleratedProcedureJustification-7" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-7</assert>
+		<assert id="ND-AcceleratedProcedure-7" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-7</assert>
 		<assert id="ND-ProcedureTypeUnpublish-7" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-7</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '8']">
-		<assert id="ND-AcceleratedProcedureJustification-8" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-8</assert>
+		<assert id="ND-AcceleratedProcedure-8" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-8</assert>
 		<assert id="ND-ProcedureTypeUnpublish-8" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-8</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '9']">
-		<assert id="ND-AcceleratedProcedureJustification-9" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-9</assert>
+		<assert id="ND-AcceleratedProcedure-9" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-9</assert>
 		<assert id="ND-ProcedureTypeUnpublish-9" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-9</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '10']">
-		<assert id="ND-AcceleratedProcedureJustification-10" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-10</assert>
+		<assert id="ND-AcceleratedProcedure-10" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-10</assert>
 		<assert id="ND-ProcedureTypeUnpublish-10" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-10</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '11']">
-		<assert id="ND-AcceleratedProcedureJustification-11" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-11</assert>
+		<assert id="ND-AcceleratedProcedure-11" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-11</assert>
 		<assert id="ND-ProcedureTypeUnpublish-11" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-11</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '12']">
-		<assert id="ND-AcceleratedProcedureJustification-12" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-12</assert>
+		<assert id="ND-AcceleratedProcedure-12" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-12</assert>
 		<assert id="ND-ProcedureTypeUnpublish-12" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-12</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '13']">
-		<assert id="ND-AcceleratedProcedureJustification-13" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-13</assert>
+		<assert id="ND-AcceleratedProcedure-13" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-13</assert>
 		<assert id="ND-ProcedureTypeUnpublish-13" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-13</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '14']">
-		<assert id="ND-AcceleratedProcedureJustification-14" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-14</assert>
+		<assert id="ND-AcceleratedProcedure-14" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-14</assert>
 		<assert id="ND-ProcedureTypeUnpublish-14" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-14</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '15']">
-		<assert id="ND-AcceleratedProcedureJustification-15" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-15</assert>
+		<assert id="ND-AcceleratedProcedure-15" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-15</assert>
 		<assert id="ND-ProcedureTypeUnpublish-15" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-15</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '16']">
@@ -2468,44 +2468,44 @@
 		<assert id="ND-ProcedureTypeUnpublish-18" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-18</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '19']">
-		<assert id="ND-AcceleratedProcedureJustification-19" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-19</assert>
+		<assert id="ND-AcceleratedProcedure-19" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-19</assert>
 		<assert id="ND-ProcedureTypeUnpublish-19" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-19</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '20']">
-		<assert id="ND-AcceleratedProcedureJustification-20" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-20</assert>
+		<assert id="ND-AcceleratedProcedure-20" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-20</assert>
 		<assert id="ND-ProcedureTypeUnpublish-20" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-20</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '21']">
-		<assert id="ND-AcceleratedProcedureJustification-21" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-21</assert>
+		<assert id="ND-AcceleratedProcedure-21" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-21</assert>
 		<assert id="ND-ProcedureTypeUnpublish-21" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-21</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '22']">
-		<assert id="ND-AcceleratedProcedureJustification-22" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-22</assert>
+		<assert id="ND-AcceleratedProcedure-22" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-22</assert>
 		<assert id="ND-ProcedureTypeUnpublish-22" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-22</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '23']">
-		<assert id="ND-AcceleratedProcedureJustification-23" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-23</assert>
+		<assert id="ND-AcceleratedProcedure-23" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-23</assert>
 		<assert id="ND-ProcedureTypeUnpublish-23" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-23</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '24']">
-		<assert id="ND-AcceleratedProcedureJustification-24" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-24</assert>
+		<assert id="ND-AcceleratedProcedure-24" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-24</assert>
 		<assert id="ND-ProcedureTypeUnpublish-24" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-24</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '36']">
-		<assert id="ND-AcceleratedProcedureJustification-36" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-36</assert>
+		<assert id="ND-AcceleratedProcedure-36" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-36</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '37']">
-		<assert id="ND-AcceleratedProcedureJustification-37" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-37</assert>
+		<assert id="ND-AcceleratedProcedure-37" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-37</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
-		<assert id="ND-AcceleratedProcedureJustification-CEI" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-CEI</assert>
+		<assert id="ND-AcceleratedProcedure-CEI" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-CEI</assert>
 		<assert id="ND-ProcedureTypeUnpublish-CEI" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-CEI</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'T01']">
 		<assert id="ND-ProcedureTypeUnpublish-T01" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-T01</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'T02']">
-		<assert id="ND-AcceleratedProcedureJustification-T02" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-T02</assert>
+		<assert id="ND-AcceleratedProcedure-T02" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-T02</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '16']">
 		<assert id="ND-ProcedureAcceleratedUnpublish-16" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureAcceleratedUnpublish-16</assert>

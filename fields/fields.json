@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.5.1",
   "metadataDatabase" : {
-    "version" : "1.5.0",
-    "createdOn" : "2022-12-14T11:00:00"
+    "version" : "1.5.8",
+    "createdOn" : "2023-01-09T17:29:26"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -865,12 +865,6 @@
     "xpathAbsolute" : "/*/cac:TenderingProcess",
     "xpathRelative" : "cac:TenderingProcess",
     "repeatable" : false
-  }, {
-    "id" : "ND-AcceleratedProcedureJustification",
-    "parentId" : "ND-ProcedureTenderingProcess",
-    "xpathAbsolute" : "/*/cac:TenderingProcess/cac:ProcessJustification",
-    "xpathRelative" : "cac:ProcessJustification",
-    "repeatable" : true
   }, {
     "id" : "ND-AcceleratedProcedure",
     "parentId" : "ND-ProcedureTenderingProcess",
@@ -2052,10 +2046,10 @@
     }
   }, {
     "id" : "BT-106-Procedure",
-    "parentNodeId" : "ND-AcceleratedProcedureJustification",
+    "parentNodeId" : "ND-AcceleratedProcedure",
     "name" : "Procedure Accelerated",
     "btId" : "BT-106",
-    "xpathAbsolute" : "/*/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='accelerated-procedure']",
+    "xpathAbsolute" : "/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode[@listName='accelerated-procedure']",
     "xpathRelative" : "cbc:ProcessReasonCode[@listName='accelerated-procedure']",
     "type" : "code",
     "legalType" : "INDICATOR",

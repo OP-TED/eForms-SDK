@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00.-->
+<!--File generated from metadata database version 1.5.11 created on the 2023-01-10T11:02:25.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -86,7 +86,7 @@
 	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode">
 		<assert id="BR-BT-00105-0052" role="ERROR" test="normalize-space(.) = ('comp-dial', 'comp-tend', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0052</assert>
 	</rule>
-	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='accelerated-procedure']">
+	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode[@listName='accelerated-procedure']">
 		<assert id="BR-BT-00106-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00106-0052</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/cbc:ProcessReasonCode">
