@@ -502,7 +502,7 @@
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference",
     "xpathRelative" : "cac:EnvironmentalLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-LotFiscalLegislation",
     "parentId" : "ND-LotTenderingTerms",
@@ -840,7 +840,7 @@
     "parentId" : "ND-PartTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference",
     "xpathRelative" : "cac:EnvironmentalLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-PartFiscalLegislation",
     "parentId" : "ND-PartTenderingTerms",
