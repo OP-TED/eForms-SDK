@@ -185,14 +185,6 @@ cbc:Description</svrl:diagnostic-reference>
       <svrl:diagnostic-reference diagnostic="OPT-301-Part-ReviewOrg">
 cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:failed-assert id="BR-OPT-00301-0664"
-                       location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms"
-                       role="ERROR"
-                       test="count(cac:MediationParty/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00301-0664</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-301-Part-Mediator">
-cac:MediationParty/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-BT-00021-0059"
                        location="/PriorInformationNotice/cac:ProcurementProjectLot/cac:ProcurementProject"

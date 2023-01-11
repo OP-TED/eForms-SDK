@@ -61,6 +61,12 @@
                        test="count(cac:ProcurementProject) &gt; 0">
       <svrl:text>rule|text|ND-ProcedureProcurementScope-4</svrl:text>
    </svrl:failed-assert>
+   <svrl:failed-assert id="ND-Part-4"
+                       location="/PriorInformationNotice"
+                       role="ERROR"
+                       test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">
+      <svrl:text>rule|text|ND-Part-4</svrl:text>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:failed-assert id="ND-Organizations-4"
                        location="/PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
