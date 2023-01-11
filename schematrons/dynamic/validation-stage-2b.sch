@@ -1351,7 +1351,7 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company">
 		<assert id="BT-16-Organization-Company_R" role="ERROR" diagnostics="ND-Company_BT-16-Organization-Company" test="count(cac:PostalAddress/cbc:Department) &lt; 2">rule|text|BT-16-Organization-Company_R</assert>
-		<assert id="BT-500-Organization-Company_A" role="ERROR" diagnostics="BT-500-Organization-Company" test="count(cac:PartyName/cbc:Name[@languageID = preceding-sibling::cbc:Name/@languageID]) = 0">rule|text|BT-500-Organization-Company_A</assert>
+		<assert id="BT-500-Organization-Company_A" role="ERROR" diagnostics="BT-500-Organization-Company" test="count(cac:PartyName[cbc:Name/@languageID = preceding-sibling::cac:PartyName/cbc:Name/@languageID]) = 0">rule|text|BT-500-Organization-Company_A</assert>
 		<assert id="BT-500-Organization-Company_B" role="ERROR" diagnostics="BT-500-Organization-Company" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:PartyName/cbc:Name/@languageID = $lg) or count(cac:PartyName/cbc:Name) = 0">rule|text|BT-500-Organization-Company_B</assert>
 		<assert id="BT-500-Organization-Company_C" role="ERROR" diagnostics="BT-500-Organization-Company" test="(every $lg in (cac:PartyName/cbc:Name/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:PartyName/cbc:Name) = 0">rule|text|BT-500-Organization-Company_C</assert>
 		<assert id="BT-502-Organization-Company_R" role="ERROR" diagnostics="ND-Company_BT-502-Organization-Company" test="count(cac:Contact/cbc:Name) &lt; 2">rule|text|BT-502-Organization-Company_R</assert>
@@ -1374,7 +1374,7 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint">
 		<assert id="BT-16-Organization-TouchPoint_R" role="ERROR" diagnostics="ND-Touchpoint_BT-16-Organization-TouchPoint" test="count(cac:PostalAddress/cbc:Department) &lt; 2">rule|text|BT-16-Organization-TouchPoint_R</assert>
-		<assert id="BT-500-Organization-TouchPoint_A" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName/cbc:Name[@languageID = preceding-sibling::cbc:Name/@languageID]) = 0">rule|text|BT-500-Organization-TouchPoint_A</assert>
+		<assert id="BT-500-Organization-TouchPoint_A" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="count(cac:PartyName[cbc:Name/@languageID = preceding-sibling::cac:PartyName/cbc:Name/@languageID]) = 0">rule|text|BT-500-Organization-TouchPoint_A</assert>
 		<assert id="BT-500-Organization-TouchPoint_B" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cac:PartyName/cbc:Name/@languageID = $lg) or count(cac:PartyName/cbc:Name) = 0">rule|text|BT-500-Organization-TouchPoint_B</assert>
 		<assert id="BT-500-Organization-TouchPoint_C" role="ERROR" diagnostics="BT-500-Organization-TouchPoint" test="(every $lg in (cac:PartyName/cbc:Name/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cac:PartyName/cbc:Name) = 0">rule|text|BT-500-Organization-TouchPoint_C</assert>
 		<assert id="BT-502-Organization-TouchPoint_R" role="ERROR" diagnostics="ND-Touchpoint_BT-502-Organization-TouchPoint" test="count(cac:Contact/cbc:Name) &lt; 2">rule|text|BT-502-Organization-TouchPoint_R</assert>
