@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.5.0",
   "metadataDatabase" : {
-    "version" : "1.5.0",
-    "createdOn" : "2022-12-14T11:00:00"
+    "version" : "1.5.12",
+    "createdOn" : "2023-01-12T09:49:36"
   },
   "noticeId" : "38",
   "metadata" : [ {
@@ -1530,10 +1530,10 @@
         }, {
           "id" : "GR-LotResult-ReviewRequests",
           "contentType" : "group",
-          "nodeId" : "ND-LotResult",
+          "nodeId" : "ND-ReviewRequestsStatistics",
           "displayType" : "GROUP",
-          "description" : "Outcome of the Procurement Procedure for a given Lot",
-          "_label" : "group|name|ND-LotResult",
+          "description" : "Statistics about Review Requests (number and code)",
+          "_label" : "group|name|ND-ReviewRequestsStatistics",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-636-LotResult",

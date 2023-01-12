@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.5.0",
   "metadataDatabase" : {
-    "version" : "1.5.0",
-    "createdOn" : "2022-12-14T11:00:00"
+    "version" : "1.5.12",
+    "createdOn" : "2023-01-12T09:49:36"
   },
   "noticeId" : "23",
   "metadata" : [ {
@@ -1176,11 +1176,12 @@
           "_repeatable" : true
         } ]
       }, {
-        "id" : "GR-Lot-TendererQualification",
+        "id" : "GR-LateTendererInformation",
         "contentType" : "group",
+        "nodeId" : "ND-LateTendererInformation",
         "displayType" : "GROUP",
-        "description" : "Tenderer Qualification",
-        "_label" : "group|name|GR-Lot-TendererQualification",
+        "description" : "Information about late provision of information by the tenderer (possibility and description of the information)",
+        "_label" : "group|name|ND-LateTendererInformation",
         "content" : [ {
           "id" : "BT-771-Lot",
           "contentType" : "field",

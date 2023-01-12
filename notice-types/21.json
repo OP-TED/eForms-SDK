@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.5.0",
   "metadataDatabase" : {
-    "version" : "1.5.0",
-    "createdOn" : "2022-12-14T11:00:00"
+    "version" : "1.5.12",
+    "createdOn" : "2023-01-12T09:49:36"
   },
   "noticeId" : "21",
   "metadata" : [ {
@@ -1316,17 +1316,25 @@
           "description" : "Tenderer Legal Form Description",
           "_label" : "field|name|BT-76-Lot"
         }, {
-          "id" : "BT-771-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Late Tenderer Information",
-          "_label" : "field|name|BT-771-Lot"
-        }, {
-          "id" : "BT-772-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Late Tenderer Information Description",
-          "_label" : "field|name|BT-772-Lot"
+          "id" : "GR-LateTendererInformation",
+          "contentType" : "group",
+          "nodeId" : "ND-LateTendererInformation",
+          "displayType" : "GROUP",
+          "description" : "Information about late provision of information by the tenderer (possibility and description of the information)",
+          "_label" : "group|name|ND-LateTendererInformation",
+          "content" : [ {
+            "id" : "BT-771-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Late Tenderer Information",
+            "_label" : "field|name|BT-771-Lot"
+          }, {
+            "id" : "BT-772-Lot",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Late Tenderer Information Description",
+            "_label" : "field|name|BT-772-Lot"
+          } ]
         }, {
           "id" : "GR-ReservedParticipation",
           "contentType" : "group",
