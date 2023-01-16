@@ -1,4 +1,4 @@
-name: Publish package to the Maven Central Repository
+name: Analyze eForms SDK
 
 on:
   push:
@@ -19,7 +19,6 @@ jobs:
       - name: Checkout eforms-sdk-analyzer
         uses: actions/checkout@v3
         with:
-          ref: develop
           path: eforms-sdk-analyzer
           repository: OP-TED/eforms-sdk-analyzer
 
