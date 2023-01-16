@@ -1,0 +1,35 @@
+name: Publish package to the Maven Central Repository
+
+on:
+  push:
+
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout self
+        uses: actions/checkout@v3
+
+      - name: Checkout eforms-sdk-analyzer
+        uses: actions/checkout@v3
+        with:
+          repository: OP-TED/eforms-sdk-analyzer
+          path: eforms-sdk-analyzer
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+
+      - name: Build eforms-sdk-analyzer
+        run: mvn --batch-mode -f eforms-sdk-analyzer -DfinalName=eforms-sdk-analyzer clean install
+
+      - name: Analyze SDK
+        run: java -jar eforms-sdk-analyzer/target/eforms-sdk-analyzer.jar .
