@@ -7,21 +7,21 @@
   },
   "noticeId" : "1",
   "metadata" : [ {
-    "id" : "BT-02-notice",
+    "id" : "BT-02-sssssnotice",
     "contentType" : "field",
     "displayType" : "COMBOBOX",
     "description" : "Notice Type",
     "_label" : "field|name|BT-02-notice",
     "readOnly" : true
   }, {
-    "id" : "BT-03-notice",
+    "id" : "BT-03-fff",
     "contentType" : "field",
     "displayType" : "COMBOBOX",
     "description" : "Form Type",
     "_label" : "field|name|BT-03-notice",
     "readOnly" : true
   }, {
-    "id" : "BT-701-notice",
+    "id" : "BT-701-notiasdasdce",
     "contentType" : "field",
     "displayType" : "TEXTBOX",
     "description" : "Notice Identifier",
@@ -730,7 +730,7 @@
               "description" : "Contact Telephone Number",
               "_label" : "field|name|BT-503-Organization-TouchPoint"
             }, {
-              "id" : "BT-739-Organization-TouchPoint",
+              "id" : "BT-739-Orgdfdfanization-TouchPoint",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
               "description" : "Contact Fax",
