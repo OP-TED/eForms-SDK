@@ -19,8 +19,9 @@ jobs:
       - name: Checkout eforms-sdk-analyzer
         uses: actions/checkout@v3
         with:
-          repository: OP-TED/eforms-sdk-analyzer
+          github-token: ${{ github.token }} 
           path: eforms-sdk-analyzer
+          repository: OP-TED/eforms-sdk-analyzer
 
       - name: Set up Java
         uses: actions/setup-java@v3
