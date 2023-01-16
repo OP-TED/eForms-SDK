@@ -19,7 +19,7 @@ jobs:
       - name: Checkout eforms-sdk-analyzer
         uses: actions/checkout@v3
         with:
-          github-token: ${{ github.token }} 
+          token: ${{ github.token }} 
           path: eforms-sdk-analyzer
           repository: OP-TED/eforms-sdk-analyzer
 
