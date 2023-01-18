@@ -1,0 +1,28 @@
+name: Build and analyze eForms SDK
+
+on:
+  push:
+  pull_request:
+
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+
+      - name: Build and analyze SDK
+        run: mvn clean install -Panalyze
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

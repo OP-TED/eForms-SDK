@@ -49,6 +49,14 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.outputTimestamp>1</project.build.outputTimestamp>
+
+    <version.eforms-sdk-analyzer>1.5.0-SNAPSHOT</version.eforms-sdk-analyzer>
+
+    <!-- Versions - Plugins -->
+    <version.dependency.plugin>3.5.0</version.dependency.plugin>
+    <version.exec.plugin>3.1.0</version.exec.plugin>
+    <version.install.plugin>2.5.2</version.install.plugin>
+    <version.jar.plugin>3.3.0</version.jar.plugin>
   </properties>
 
   <build>
@@ -75,20 +83,71 @@
       <plugins>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
-          <version>2.5.2</version>
+          <version>${version.install.plugin}</version>
           <configuration>
             <createChecksum>true</createChecksum>
           </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>${version.jar.plugin}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>${version.exec.plugin}</version>
         </plugin>
       </plugins>
     </pluginManagement>
   </build>
 
   <profiles>
+    <profile>
+      <id>analyze</id>
+      <dependencies>
+        <dependency>
+          <groupId>eu.europa.ted.eforms</groupId>
+          <artifactId>eforms-sdk-analyzer</artifactId>
+          <version>${version.eforms-sdk-analyzer}</version>
+        </dependency>
+      </dependencies>
+      <repositories>
+        <repository>
+          <id>github</id>
+          <name>Github Packages</name>
+          <url>https://public:${env.GITHUB_TOKEN}@maven.pkg.github.com/OP-TED/*</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>validate</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>java</executable>
+                  <arguments>
+                    <argument>-classpath</argument>
+                    <classpath/>
+                    <argument>eu.europa.ted.eforms.sdk.analysis.Application</argument>
+                    <argument>${project.basedir}</argument>
+                  </arguments>
+                  <classpath/>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
     <profile>
       <id>release</id>
       <build>
