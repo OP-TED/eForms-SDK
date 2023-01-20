@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in English. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>code in English. File generated from metadata database version 1.5.12 created on the 2023-01-12T09:49:36</comment>
 <entry key="code|name|accessibility.inc">Accessibility criteria for persons with disabilities are included</entry>
 <entry key="code|name|accessibility.n-inc">Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons</entry>
 <entry key="code|name|accessibility.n-inc-just">Accessibility criteria for persons with disabilities are not included with the following justification</entry>
@@ -10385,8 +10385,8 @@
 <entry key="code|name|innovative-acquisition.mar-nov">The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.</entry>
 <entry key="code|name|innovative-acquisition.org-nov">The procured works, supplies or services are novel for the organisation.</entry>
 <entry key="code|name|innovative-acquisition.other">Other</entry>
-<entry key="code|name|innovative-acquisition.proc-innov"></entry>
-<entry key="code|name|innovative-acquisition.prod-innov"></entry>
+<entry key="code|name|innovative-acquisition.proc-innov">The procured works, supplies, or services entail process innovation.</entry>
+<entry key="code|name|innovative-acquisition.prod-innov">The procured works, supplies, or services entail product innovation.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">The procured works, supplies or services involve research and development activities.</entry>
 <entry key="code|name|irregularity-type.ab-low">Unjustified rejection of abnormally low tenders</entry>
 <entry key="code|name|irregularity-type.ar-split">Artificial splitting of contracts</entry>

@@ -1,3 +1,15 @@
+# SDK 1.5.1 Release Notes
+
+This release includes several corrections:
+
+* Correct notice type definition for subtype 14, add and correct a few groups for other subtypes.
+* Add missing English texts for 2 codes in the "innovative-acquisition" codelist.
+
+A comprehensive list of changes between SDK 1.5.0 and SDK 1.5.1 can seen at <https://github.com/OP-TED/eForms-SDK/compare/1.5.0...1.5.1>
+
+The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
+
+
 # SDK 1.5.0 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.4.0 should also be able to use this version.
