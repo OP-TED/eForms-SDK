@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>group in English. File generated from metadata database version 1.5.12 created on the 2023-01-12T09:49:36</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
@@ -243,6 +243,7 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Not Immediately Published (GroupMaximalValueIdentifier)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Not Immediately Published (GroupMaximumValue)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Not Immediately Published (GroupReestimatedValue)</entry>
+<entry key="group|name|ND-LateTendererInformation">Information about late provision of information by the tenderer (possibility and description of the information)</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Legislation impacting the procurement and for which no ID is known</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Other legal basis with an identifier</entry>
 <entry key="group|name|ND-Lot">Information about the lot</entry>
@@ -304,6 +305,8 @@
 <entry key="group|name|ND-ProcedureTypeUnpublish">Not Immediately Published (Procedure Type)</entry>
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Not Immediately Published (ReceivedSubmissionCount)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Not Immediately Published (ReceivedSubmissionType)</entry>
+<entry key="group|name|ND-ReceivedSubmissions">Container for Received Submissions Statististics Numeric value and associated code.</entry>
+<entry key="group|name|ND-ReviewRequestsStatistics">Statistics about Review Requests (number and code)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Not Immediately Published (RevewRequests irregularity count )</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Not Immediately Published (RevewRequests irregularity type )</entry>
 <entry key="group|name|ND-RewardsPenalties">Information on rewards and penalties</entry>
