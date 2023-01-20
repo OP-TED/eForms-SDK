@@ -217,6 +217,6 @@ But with the minimal amount of information while still valid
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">72230000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
-	</cac:ProcurementProject>
-</cac:ProcurementProjectLot>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
 </ContractNotice>
