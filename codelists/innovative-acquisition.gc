@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00-->
+<!--File generated from metadata database version 1.5.12 created on the 2023-01-12T09:49:36-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>InnovativeAcquisition</ShortName>
@@ -525,7 +525,7 @@
             <SimpleValue>proc-innov</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue/>
+            <SimpleValue>The procured works, supplies, or services entail process innovation</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Строителните дейности, доставките или услугите, които са предмет на поръчката, са свързани с иновация на процесите.</SimpleValue>
@@ -541,6 +541,9 @@
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης συνεπάγονται καινοτομία ως προς τη διεργασία.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The procured works, supplies, or services entail process innovation.</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Las obras, los suministros o los servicios contratados implican la innovación de procesos.</SimpleValue>
@@ -602,7 +605,7 @@
             <SimpleValue>prod-innov</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue/>
+            <SimpleValue>The procured works, supplies, or services entail product innovation</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Строителните дейности, доставките или услугите, които са предмет на поръчката, са свързани с продуктови иновации.</SimpleValue>
@@ -618,6 +621,9 @@
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης συνεπάγονται καινοτομία ως προς το προϊόν.</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The procured works, supplies, or services entail product innovation.</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Las obras, los suministros o los servicios contratados implican la innovación de productos.</SimpleValue>
