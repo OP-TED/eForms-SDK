@@ -1000,22 +1000,46 @@
             "description" : "Tendering Party ID Reference",
             "_label" : "field|name|OPT-310-Tender",
             "_idSchemes" : [ "TPA" ]
-          } ]
-        }, {
-          "id" : "GR-LotTender-3",
-          "contentType" : "group",
-          "nodeId" : "ND-LotTender",
-          "displayType" : "GROUP",
-          "description" : "Tender (or fragment of a Tender) submitted for a given Lot",
-          "_label" : "group|name|ND-LotTender",
-          "_repeatable" : true,
-          "content" : [ {
+          }, {
+            "id" : "BT-1711-Tender",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Tender Ranked",
+            "_label" : "field|name|BT-1711-Tender"
+          }, {
+            "id" : "BT-171-Tender",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Tender Rank",
+            "_label" : "field|name|BT-171-Tender"
+          }, {
+            "id" : "BT-193-Tender",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Tender Variant",
+            "_label" : "field|name|BT-193-Tender"
+          }, {
             "id" : "OPP-080-Tender",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
             "description" : "Kilometers Public Transport",
             "_label" : "field|name|OPP-080-Tender"
           }, {
+            "id" : "OPP-032-Tender",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Revenues Allocation",
+            "_label" : "field|name|OPP-032-Tender"
+          } ]
+        }, {
+          "id" : "GR-LotTender-3",
+          "contentType" : "group",
+          "nodeId" : "ND-OtherContractExecutionConditions",
+          "displayType" : "GROUP",
+          "description" : "Conditions other than Revenue Allocation",
+          "_label" : "group|name|ND-OtherContractExecutionConditions",
+          "_repeatable" : true,
+          "content" : [ {
             "id" : "OPP-030-Tender",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
@@ -1027,12 +1051,6 @@
             "displayType" : "TEXTAREA",
             "description" : "Contract Conditions Description (other than revenue allocation)",
             "_label" : "field|name|OPP-031-Tender"
-          }, {
-            "id" : "OPP-032-Tender",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Revenues Allocation",
-            "_label" : "field|name|OPP-032-Tender"
           } ]
         }, {
           "id" : "GR-LotTender-Penalties",
