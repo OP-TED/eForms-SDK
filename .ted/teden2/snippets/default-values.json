@@ -1,0 +1,132 @@
+{
+   "groupId":"",
+   "name":"Default values",
+   "label":"",
+   "fields":[
+      {
+         "fieldId":"BT-11-Procedure-Buyer",
+         "label":"field|name|BT-11-Procedure-Buyer",
+         "name":"Buyer Legal Type",
+         "displayType":"COMBOBOX"
+      },
+      {
+         "fieldId":"BT-10-Procedure-Buyer",
+         "label":"field|name|BT-10-Procedure-Buyer",
+         "name":"Activity Authority",
+         "displayType":"COMBOBOX"
+      },
+      {
+         "fieldId":"BT-610-Procedure-Buyer",
+         "label":"field|name|BT-610-Procedure-Buyer",
+         "name":"Activity Entity",
+         "displayType":"COMBOBOX"
+      },
+      {
+         "fieldId":"BT-508-Procedure-Buyer",
+         "label":"field|name|BT-508-Procedure-Buyer",
+         "name":"Buyer Profile URL",
+         "displayType":"TEXTBOX"
+      },
+      {
+         "fieldId":"BT-67(a)-Procedure",
+         "label":"field|name|BT-67(a)-Procedure",
+         "name":"Exclusion Grounds",
+         "displayType":"COMBOBOX"
+      },
+      {
+         "fieldId":"BT-67(b)-Procedure",
+         "label":"field|name|BT-67(b)-Procedure",
+         "name":"Exclusion Grounds",
+         "displayType":"TEXTAREA"
+      },
+      {
+         "fieldId":"BT-5101(a)-Procedure",
+         "label":"field|name|BT-5101(a)-Procedure",
+         "name":"Place Performance Street",
+         "displayType":"TEXTAREA"
+      },
+      {
+         "fieldId":"BT-5101(b)-Procedure",
+         "label":"field|name|BT-5101(b)-Procedure",
+         "name":"Place Performance Streetline 1",
+         "displayType":"TEXTAREA"
+      },
+      {
+         "fieldId":"BT-5101(c)-Procedure",
+         "label":"field|name|BT-5101(c)-Procedure",
+         "name":"Place Performance Streetline 2",
+         "displayType":"TEXTAREA"
+      },
+      {
+         "fieldId":"BT-5131-Procedure",
+         "label":"field|name|BT-5131-Procedure",
+         "name":"Place Performance City",
+         "displayType":"TEXTAREA"
+      },
+      {
+         "fieldId":"BT-5121-Procedure",
+         "label":"field|name|BT-5121-Procedure",
+         "name":"Place Performance Post Code",
+         "displayType":"TEXTAREA"
+      },
+      {
+         "fieldId":"BT-5071-Procedure",
+         "label":"field|name|BT-5071-Procedure",
+         "name":"Place Performance Country Subdivision",
+         "displayType":"COMBOBOX"
+      },
+      {
+         "fieldId":"BT-5141-Procedure",
+         "label":"field|name|BT-5141-Procedure",
+         "name":"Place Performance Country Code",
+         "displayType":"COMBOBOX"
+      },
+      {
+         "fieldId":"BT-727-Procedure",
+         "label":"field|name|BT-727-Procedure",
+         "name":"Place Performance Services Other",
+         "displayType":"COMBOBOX"
+      },
+      {
+         "fieldId":"BT-728-Procedure",
+         "label":"field|name|BT-728-Procedure",
+         "name":"Place Performance Additional Information",
+         "displayType":"TEXTAREA"
+      },
+      {
+         "groupId":"GR-Part",
+         "label":"group|name|ND-Part",
+         "name":"Part",
+         "fields":[
+            {
+               "fieldId":"BT-708-Part",
+               "label":"field|name|BT-708-Part",
+               "name":"Documents Official Language",
+               "repeatable":true,
+               "displayType":"COMBOBOX"
+            }
+         ]
+      },
+      {
+         "groupId":"GR-Lot",
+         "label":"group|name|ND-Lot",
+         "name":"Lot",
+         "fields":[
+            {
+               "fieldId":"BT-708-Lot",
+               "label":"field|name|BT-708-Lot",
+               "name":"Documents Official Language",
+               "repeatable":true,
+               "displayType":"COMBOBOX"
+            },
+            {
+               "fieldId":"BT-97-Lot",
+               "label":"field|name|BT-97-Lot",
+               "name":"Submission Language",
+               "repeatable":true,
+               "displayType":"COMBOBOX"
+            }
+         ]
+      }
+   ]
+}
