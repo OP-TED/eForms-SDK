@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.5.1",
   "metadataDatabase" : {
-    "version" : "1.5.0",
-    "createdOn" : "2022-12-14T11:00:00"
+    "version" : "1.5.8",
+    "createdOn" : "2023-01-09T17:29:26"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -245,12 +245,6 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement",
     "xpathRelative" : "cac:FrameworkAgreement",
     "repeatable" : false
-  }, {
-    "id" : "ND-LotBuyerCategories",
-    "parentId" : "ND-FA",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement",
-    "xpathRelative" : "cac:SubsequentProcessTenderRequirement",
-    "repeatable" : true
   }, {
     "id" : "ND-FABuyerCategories",
     "parentId" : "ND-FA",
@@ -496,19 +490,19 @@
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference",
     "xpathRelative" : "cac:EmploymentLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-LotEnvironmentalLegislation",
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference",
     "xpathRelative" : "cac:EnvironmentalLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-LotFiscalLegislation",
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference",
     "xpathRelative" : "cac:FiscalLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-PaymentTerms",
     "parentId" : "ND-LotTenderingTerms",
@@ -556,7 +550,7 @@
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement[not(cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]",
     "xpathRelative" : "cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement[not(cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-TenderRecipient",
     "parentId" : "ND-LotTenderingTerms",
@@ -834,19 +828,19 @@
     "parentId" : "ND-PartTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference",
     "xpathRelative" : "cac:EmploymentLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-PartEnvironmentalLegislation",
     "parentId" : "ND-PartTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference",
     "xpathRelative" : "cac:EnvironmentalLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-PartFiscalLegislation",
     "parentId" : "ND-PartTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference",
     "xpathRelative" : "cac:FiscalLegislationDocumentReference",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-PartReservedParticipation",
     "parentId" : "ND-PartTenderingTerms",
@@ -871,12 +865,6 @@
     "xpathAbsolute" : "/*/cac:TenderingProcess",
     "xpathRelative" : "cac:TenderingProcess",
     "repeatable" : false
-  }, {
-    "id" : "ND-AcceleratedProcedureJustification",
-    "parentId" : "ND-ProcedureTenderingProcess",
-    "xpathAbsolute" : "/*/cac:TenderingProcess/cac:ProcessJustification",
-    "xpathRelative" : "cac:ProcessJustification",
-    "repeatable" : true
   }, {
     "id" : "ND-AcceleratedProcedure",
     "parentId" : "ND-ProcedureTenderingProcess",
@@ -2058,10 +2046,10 @@
     }
   }, {
     "id" : "BT-106-Procedure",
-    "parentNodeId" : "ND-AcceleratedProcedureJustification",
+    "parentNodeId" : "ND-AcceleratedProcedure",
     "name" : "Procedure Accelerated",
     "btId" : "BT-106",
-    "xpathAbsolute" : "/*/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='accelerated-procedure']",
+    "xpathAbsolute" : "/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode[@listName='accelerated-procedure']",
     "xpathRelative" : "cbc:ProcessReasonCode[@listName='accelerated-procedure']",
     "type" : "code",
     "legalType" : "INDICATOR",
@@ -14957,7 +14945,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -16062,20 +16050,6 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "condition" : "{ND-LotTenderingTerms} ${BT-01-notice == '32018R1046'}",
-        "value" : "{ND-LotTenderingTerms} ${BT-60-Lot == 'eu-funds'}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00060-0070"
-      }, {
-        "value" : "{ND-LotTenderingTerms} ${(BT-01-notice == '32016D0002' and BT-60-Lot == 'eu-funds') or not(BT-01-notice == '32016D0002')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00060-0071"
-      } ]
     }
   }, {
     "id" : "BT-610-Procedure-Buyer",
@@ -21809,10 +21783,10 @@
     }
   }, {
     "id" : "OPT-090-Lot",
-    "parentNodeId" : "ND-LotBuyerCategories",
+    "parentNodeId" : "ND-FABuyerCategories",
     "name" : "Buyer Categories",
     "btId" : "OPT-090",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement/cbc:Name",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']/cbc:Name",
     "xpathRelative" : "cbc:Name",
     "type" : "code",
     "repeatable" : {
@@ -23482,15 +23456,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "4", "5" ],
         "value" : true,
         "severity" : "ERROR"
       } ]

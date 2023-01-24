@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00.-->
+<!--File generated from metadata database version 1.5.11 created on the 2023-01-10T11:02:25.-->
 <pattern id="EFORMS-validation-stage-1b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-GazetteReference-1" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-1</assert>
 		<assert id="ND-BusinessParty-1" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-1</assert>
 		<assert id="ND-ContractingParty-1" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-1</assert>
 		<assert id="ND-ProcedureProcurementScope-1" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-1</assert>
+		<assert id="ND-Part-1" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-1</assert>
 		<assert id="ND-SenderContact-1" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-1</assert>
 		<assert id="ND-ProcedureTenderingProcess-1" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-1</assert>
 		<assert id="ND-OperationType-1" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-1</assert>
@@ -16,6 +17,7 @@
 		<assert id="ND-BusinessParty-2" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-2</assert>
 		<assert id="ND-ContractingParty-2" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-2</assert>
 		<assert id="ND-ProcedureProcurementScope-2" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-2</assert>
+		<assert id="ND-Part-2" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-2</assert>
 		<assert id="ND-SenderContact-2" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-2</assert>
 		<assert id="ND-ProcedureTenderingProcess-2" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-2</assert>
 		<assert id="ND-OperationType-2" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-2</assert>
@@ -26,6 +28,7 @@
 		<assert id="ND-BusinessParty-3" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-3</assert>
 		<assert id="ND-ContractingParty-3" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-3</assert>
 		<assert id="ND-ProcedureProcurementScope-3" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-3</assert>
+		<assert id="ND-Part-3" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-3</assert>
 		<assert id="ND-SenderContact-3" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-3</assert>
 		<assert id="ND-ProcedureTenderingProcess-3" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-3</assert>
 		<assert id="ND-OperationType-3" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-3</assert>
@@ -36,6 +39,7 @@
 		<assert id="ND-BusinessParty-4" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-4</assert>
 		<assert id="ND-ContractingParty-4" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-4</assert>
 		<assert id="ND-ProcedureProcurementScope-4" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-4</assert>
+		<assert id="ND-Part-4" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">rule|text|ND-Part-4</assert>
 		<assert id="ND-SenderContact-4" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-4</assert>
 		<assert id="ND-ProcedureTenderingProcess-4" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-4</assert>
 		<assert id="ND-OperationType-4" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-4</assert>
@@ -46,6 +50,7 @@
 		<assert id="ND-BusinessParty-5" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-5</assert>
 		<assert id="ND-ContractingParty-5" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-5</assert>
 		<assert id="ND-ProcedureProcurementScope-5" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-5</assert>
+		<assert id="ND-Part-5" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">rule|text|ND-Part-5</assert>
 		<assert id="ND-SenderContact-5" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-5</assert>
 		<assert id="ND-ProcedureTenderingProcess-5" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-5</assert>
 		<assert id="ND-OperationType-5" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-5</assert>
@@ -55,6 +60,7 @@
 		<assert id="ND-GazetteReference-6" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-6</assert>
 		<assert id="ND-BusinessParty-6" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-6</assert>
 		<assert id="ND-ProcedureProcurementScope-6" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-6</assert>
+		<assert id="ND-Part-6" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">rule|text|ND-Part-6</assert>
 		<assert id="ND-SenderContact-6" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-6</assert>
 		<assert id="ND-ProcedureTenderingProcess-6" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-6</assert>
 		<assert id="ND-OperationType-6" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-6</assert>
@@ -65,6 +71,7 @@
 		<assert id="ND-BusinessParty-7" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-7</assert>
 		<assert id="ND-ContractingParty-7" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-7</assert>
 		<assert id="ND-ProcedureProcurementScope-7" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-7</assert>
+		<assert id="ND-Part-7" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-7</assert>
 		<assert id="ND-SenderContact-7" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-7</assert>
 		<assert id="ND-OperationType-7" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-7</assert>
 		<assert id="ND-RootExtension-7" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-7</assert>
@@ -74,6 +81,7 @@
 		<assert id="ND-BusinessParty-8" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-8</assert>
 		<assert id="ND-ContractingParty-8" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-8</assert>
 		<assert id="ND-ProcedureProcurementScope-8" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-8</assert>
+		<assert id="ND-Part-8" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-8</assert>
 		<assert id="ND-SenderContact-8" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-8</assert>
 		<assert id="ND-OperationType-8" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-8</assert>
 		<assert id="ND-RootExtension-8" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-8</assert>
@@ -82,6 +90,7 @@
 		<assert id="ND-GazetteReference-9" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-9</assert>
 		<assert id="ND-BusinessParty-9" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-9</assert>
 		<assert id="ND-ProcedureProcurementScope-9" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-9</assert>
+		<assert id="ND-Part-9" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-9</assert>
 		<assert id="ND-SenderContact-9" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-9</assert>
 		<assert id="ND-OperationType-9" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-9</assert>
 		<assert id="ND-RootExtension-9" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-9</assert>
@@ -91,6 +100,7 @@
 		<assert id="ND-BusinessParty-10" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-10</assert>
 		<assert id="ND-ContractingParty-10" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-10</assert>
 		<assert id="ND-ProcedureProcurementScope-10" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-10</assert>
+		<assert id="ND-Part-10" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-10</assert>
 		<assert id="ND-SenderContact-10" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-10</assert>
 		<assert id="ND-ProcedureTenderingProcess-10" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-10</assert>
 		<assert id="ND-OperationType-10" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-10</assert>
@@ -101,6 +111,7 @@
 		<assert id="ND-BusinessParty-11" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-11</assert>
 		<assert id="ND-ContractingParty-11" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-11</assert>
 		<assert id="ND-ProcedureProcurementScope-11" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-11</assert>
+		<assert id="ND-Part-11" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-11</assert>
 		<assert id="ND-SenderContact-11" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-11</assert>
 		<assert id="ND-ProcedureTenderingProcess-11" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-11</assert>
 		<assert id="ND-OperationType-11" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-11</assert>
@@ -110,6 +121,7 @@
 		<assert id="ND-GazetteReference-12" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-12</assert>
 		<assert id="ND-BusinessParty-12" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-12</assert>
 		<assert id="ND-ProcedureProcurementScope-12" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-12</assert>
+		<assert id="ND-Part-12" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-12</assert>
 		<assert id="ND-SenderContact-12" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-12</assert>
 		<assert id="ND-ProcedureTenderingProcess-12" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-12</assert>
 		<assert id="ND-OperationType-12" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-12</assert>
@@ -119,6 +131,7 @@
 		<assert id="ND-GazetteReference-13" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-13</assert>
 		<assert id="ND-BusinessParty-13" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-13</assert>
 		<assert id="ND-ProcedureProcurementScope-13" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-13</assert>
+		<assert id="ND-Part-13" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-13</assert>
 		<assert id="ND-SenderContact-13" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-13</assert>
 		<assert id="ND-ProcedureTenderingProcess-13" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-13</assert>
 		<assert id="ND-OperationType-13" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-13</assert>
@@ -129,6 +142,7 @@
 		<assert id="ND-BusinessParty-14" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-14</assert>
 		<assert id="ND-ContractingParty-14" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-14</assert>
 		<assert id="ND-ProcedureProcurementScope-14" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-14</assert>
+		<assert id="ND-Part-14" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-14</assert>
 		<assert id="ND-SenderContact-14" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-14</assert>
 		<assert id="ND-OperationType-14" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-14</assert>
 		<assert id="ND-RootExtension-14" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-14</assert>
@@ -138,6 +152,7 @@
 		<assert id="ND-BusinessParty-15" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-15</assert>
 		<assert id="ND-ContractingParty-15" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-15</assert>
 		<assert id="ND-ProcedureProcurementScope-15" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-15</assert>
+		<assert id="ND-Part-15" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-15</assert>
 		<assert id="ND-SenderContact-15" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-15</assert>
 		<assert id="ND-OperationType-15" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-15</assert>
 		<assert id="ND-RootExtension-15" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-15</assert>
@@ -147,6 +162,7 @@
 		<assert id="ND-BusinessParty-16" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-16</assert>
 		<assert id="ND-ContractingParty-16" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-16</assert>
 		<assert id="ND-ProcedureProcurementScope-16" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-16</assert>
+		<assert id="ND-Part-16" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-16</assert>
 		<assert id="ND-SenderContact-16" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-16</assert>
 		<assert id="ND-ProcedureTenderingProcess-16" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-16</assert>
 		<assert id="ND-ProcedureTerms-16" role="ERROR" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-ProcedureTerms-16</assert>
@@ -158,6 +174,7 @@
 		<assert id="ND-BusinessParty-17" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-17</assert>
 		<assert id="ND-ContractingParty-17" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-17</assert>
 		<assert id="ND-ProcedureProcurementScope-17" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-17</assert>
+		<assert id="ND-Part-17" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-17</assert>
 		<assert id="ND-SenderContact-17" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-17</assert>
 		<assert id="ND-ProcedureTenderingProcess-17" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-17</assert>
 		<assert id="ND-OperationType-17" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-17</assert>
@@ -167,6 +184,7 @@
 		<assert id="ND-GazetteReference-18" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-18</assert>
 		<assert id="ND-BusinessParty-18" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-18</assert>
 		<assert id="ND-ProcedureProcurementScope-18" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-18</assert>
+		<assert id="ND-Part-18" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-18</assert>
 		<assert id="ND-SenderContact-18" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-18</assert>
 		<assert id="ND-ProcedureTenderingProcess-18" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-18</assert>
 		<assert id="ND-OperationType-18" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-18</assert>
@@ -177,6 +195,7 @@
 		<assert id="ND-BusinessParty-19" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-19</assert>
 		<assert id="ND-ContractingParty-19" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-19</assert>
 		<assert id="ND-ProcedureProcurementScope-19" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-19</assert>
+		<assert id="ND-Part-19" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-19</assert>
 		<assert id="ND-SenderContact-19" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-19</assert>
 		<assert id="ND-OperationType-19" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-19</assert>
 		<assert id="ND-RootExtension-19" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-19</assert>
@@ -185,6 +204,7 @@
 		<assert id="ND-GazetteReference-20" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-20</assert>
 		<assert id="ND-BusinessParty-20" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-20</assert>
 		<assert id="ND-ProcedureProcurementScope-20" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-20</assert>
+		<assert id="ND-Part-20" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-20</assert>
 		<assert id="ND-SenderContact-20" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-20</assert>
 		<assert id="ND-ProcedureTenderingProcess-20" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-20</assert>
 		<assert id="ND-OperationType-20" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-20</assert>
@@ -194,6 +214,7 @@
 		<assert id="ND-GazetteReference-21" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-21</assert>
 		<assert id="ND-BusinessParty-21" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-21</assert>
 		<assert id="ND-ProcedureProcurementScope-21" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-21</assert>
+		<assert id="ND-Part-21" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-21</assert>
 		<assert id="ND-SenderContact-21" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-21</assert>
 		<assert id="ND-ProcedureTenderingProcess-21" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-21</assert>
 		<assert id="ND-OperationType-21" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-21</assert>
@@ -203,6 +224,7 @@
 		<assert id="ND-GazetteReference-22" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-22</assert>
 		<assert id="ND-BusinessParty-22" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-22</assert>
 		<assert id="ND-ProcedureProcurementScope-22" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-22</assert>
+		<assert id="ND-Part-22" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-22</assert>
 		<assert id="ND-SenderContact-22" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-22</assert>
 		<assert id="ND-OperationType-22" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-22</assert>
 		<assert id="ND-RootExtension-22" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-22</assert>
@@ -212,6 +234,7 @@
 		<assert id="ND-BusinessParty-23" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-23</assert>
 		<assert id="ND-ContractingParty-23" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-23</assert>
 		<assert id="ND-ProcedureProcurementScope-23" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-23</assert>
+		<assert id="ND-Part-23" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-23</assert>
 		<assert id="ND-SenderContact-23" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-23</assert>
 		<assert id="ND-ProcedureTenderingProcess-23" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-23</assert>
 		<assert id="ND-OperationType-23" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-23</assert>
@@ -222,6 +245,7 @@
 		<assert id="ND-BusinessParty-24" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-24</assert>
 		<assert id="ND-ContractingParty-24" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-24</assert>
 		<assert id="ND-ProcedureProcurementScope-24" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-24</assert>
+		<assert id="ND-Part-24" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-24</assert>
 		<assert id="ND-SenderContact-24" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-24</assert>
 		<assert id="ND-ProcedureTenderingProcess-24" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-24</assert>
 		<assert id="ND-OperationType-24" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-24</assert>
@@ -231,6 +255,7 @@
 		<assert id="ND-GazetteReference-25" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-25</assert>
 		<assert id="ND-BusinessParty-25" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-25</assert>
 		<assert id="ND-ProcedureProcurementScope-25" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-25</assert>
+		<assert id="ND-Part-25" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-25</assert>
 		<assert id="ND-SenderContact-25" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-25</assert>
 		<assert id="ND-ProcedureTenderingProcess-25" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-25</assert>
 		<assert id="ND-OperationType-25" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-25</assert>
@@ -240,6 +265,7 @@
 		<assert id="ND-GazetteReference-26" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-26</assert>
 		<assert id="ND-BusinessParty-26" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-26</assert>
 		<assert id="ND-ProcedureProcurementScope-26" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-26</assert>
+		<assert id="ND-Part-26" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-26</assert>
 		<assert id="ND-SenderContact-26" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-26</assert>
 		<assert id="ND-ProcedureTenderingProcess-26" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-26</assert>
 		<assert id="ND-OperationType-26" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-26</assert>
@@ -249,6 +275,7 @@
 		<assert id="ND-GazetteReference-27" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-27</assert>
 		<assert id="ND-BusinessParty-27" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-27</assert>
 		<assert id="ND-ProcedureProcurementScope-27" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-27</assert>
+		<assert id="ND-Part-27" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-27</assert>
 		<assert id="ND-SenderContact-27" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-27</assert>
 		<assert id="ND-ProcedureTenderingProcess-27" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-27</assert>
 		<assert id="ND-OperationType-27" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-27</assert>
@@ -258,6 +285,7 @@
 		<assert id="ND-GazetteReference-28" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-28</assert>
 		<assert id="ND-BusinessParty-28" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-28</assert>
 		<assert id="ND-ProcedureProcurementScope-28" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-28</assert>
+		<assert id="ND-Part-28" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-28</assert>
 		<assert id="ND-SenderContact-28" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-28</assert>
 		<assert id="ND-ProcedureTenderingProcess-28" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-28</assert>
 		<assert id="ND-OperationType-28" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-28</assert>
@@ -268,6 +296,7 @@
 		<assert id="ND-BusinessParty-29" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-29</assert>
 		<assert id="ND-ContractingParty-29" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-29</assert>
 		<assert id="ND-ProcedureProcurementScope-29" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-29</assert>
+		<assert id="ND-Part-29" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-29</assert>
 		<assert id="ND-SenderContact-29" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-29</assert>
 		<assert id="ND-ProcedureTenderingProcess-29" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-29</assert>
 		<assert id="ND-OperationType-29" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-29</assert>
@@ -278,6 +307,7 @@
 		<assert id="ND-BusinessParty-30" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-30</assert>
 		<assert id="ND-ContractingParty-30" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-30</assert>
 		<assert id="ND-ProcedureProcurementScope-30" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-30</assert>
+		<assert id="ND-Part-30" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-30</assert>
 		<assert id="ND-SenderContact-30" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-30</assert>
 		<assert id="ND-ProcedureTenderingProcess-30" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-30</assert>
 		<assert id="ND-OperationType-30" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-30</assert>
@@ -287,6 +317,7 @@
 		<assert id="ND-GazetteReference-31" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-31</assert>
 		<assert id="ND-BusinessParty-31" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-31</assert>
 		<assert id="ND-ProcedureProcurementScope-31" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-31</assert>
+		<assert id="ND-Part-31" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-31</assert>
 		<assert id="ND-SenderContact-31" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-31</assert>
 		<assert id="ND-ProcedureTenderingProcess-31" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-31</assert>
 		<assert id="ND-OperationType-31" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-31</assert>
@@ -297,6 +328,7 @@
 		<assert id="ND-BusinessParty-32" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-32</assert>
 		<assert id="ND-ContractingParty-32" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-32</assert>
 		<assert id="ND-ProcedureProcurementScope-32" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-32</assert>
+		<assert id="ND-Part-32" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-32</assert>
 		<assert id="ND-SenderContact-32" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-32</assert>
 		<assert id="ND-OperationType-32" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-32</assert>
 		<assert id="ND-RootExtension-32" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-32</assert>
@@ -305,6 +337,7 @@
 		<assert id="ND-GazetteReference-33" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-33</assert>
 		<assert id="ND-BusinessParty-33" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-33</assert>
 		<assert id="ND-ProcedureProcurementScope-33" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-33</assert>
+		<assert id="ND-Part-33" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-33</assert>
 		<assert id="ND-SenderContact-33" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-33</assert>
 		<assert id="ND-OperationType-33" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-33</assert>
 		<assert id="ND-RootExtension-33" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-33</assert>
@@ -313,6 +346,7 @@
 		<assert id="ND-GazetteReference-34" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-34</assert>
 		<assert id="ND-BusinessParty-34" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-34</assert>
 		<assert id="ND-ProcedureProcurementScope-34" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-34</assert>
+		<assert id="ND-Part-34" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-34</assert>
 		<assert id="ND-SenderContact-34" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-34</assert>
 		<assert id="ND-OperationType-34" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-34</assert>
 		<assert id="ND-RootExtension-34" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-34</assert>
@@ -322,6 +356,7 @@
 		<assert id="ND-BusinessParty-35" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-35</assert>
 		<assert id="ND-ContractingParty-35" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-35</assert>
 		<assert id="ND-ProcedureProcurementScope-35" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-35</assert>
+		<assert id="ND-Part-35" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-35</assert>
 		<assert id="ND-SenderContact-35" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-35</assert>
 		<assert id="ND-OperationType-35" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-35</assert>
 		<assert id="ND-RootExtension-35" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-35</assert>
@@ -331,6 +366,7 @@
 		<assert id="ND-BusinessParty-36" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-36</assert>
 		<assert id="ND-ContractingParty-36" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-36</assert>
 		<assert id="ND-ProcedureProcurementScope-36" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-36</assert>
+		<assert id="ND-Part-36" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-36</assert>
 		<assert id="ND-SenderContact-36" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-36</assert>
 		<assert id="ND-ProcedureTenderingProcess-36" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-36</assert>
 		<assert id="ND-OperationType-36" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-36</assert>
@@ -341,6 +377,7 @@
 		<assert id="ND-BusinessParty-37" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-37</assert>
 		<assert id="ND-ContractingParty-37" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-37</assert>
 		<assert id="ND-ProcedureProcurementScope-37" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-37</assert>
+		<assert id="ND-Part-37" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-37</assert>
 		<assert id="ND-SenderContact-37" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-37</assert>
 		<assert id="ND-ProcedureTenderingProcess-37" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-37</assert>
 		<assert id="ND-OperationType-37" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-37</assert>
@@ -350,6 +387,7 @@
 		<assert id="ND-GazetteReference-38" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-38</assert>
 		<assert id="ND-BusinessParty-38" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-38</assert>
 		<assert id="ND-ProcedureProcurementScope-38" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-38</assert>
+		<assert id="ND-Part-38" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-38</assert>
 		<assert id="ND-SenderContact-38" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-38</assert>
 		<assert id="ND-ProcedureTenderingProcess-38" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-38</assert>
 		<assert id="ND-OperationType-38" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-38</assert>
@@ -359,6 +397,7 @@
 		<assert id="ND-GazetteReference-39" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-39</assert>
 		<assert id="ND-BusinessParty-39" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-39</assert>
 		<assert id="ND-ProcedureProcurementScope-39" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-39</assert>
+		<assert id="ND-Part-39" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-39</assert>
 		<assert id="ND-SenderContact-39" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-39</assert>
 		<assert id="ND-ProcedureTenderingProcess-39" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-39</assert>
 		<assert id="ND-OperationType-39" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-39</assert>
@@ -368,6 +407,7 @@
 		<assert id="ND-GazetteReference-40" role="ERROR" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-40</assert>
 		<assert id="ND-BusinessParty-40" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-40</assert>
 		<assert id="ND-ProcedureProcurementScope-40" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-40</assert>
+		<assert id="ND-Part-40" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-40</assert>
 		<assert id="ND-SenderContact-40" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-40</assert>
 		<assert id="ND-ProcedureTenderingProcess-40" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-40</assert>
 		<assert id="ND-OperationType-40" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-40</assert>
@@ -378,6 +418,7 @@
 		<assert id="ND-BusinessParty-CEI" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-CEI</assert>
 		<assert id="ND-ContractingParty-CEI" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-CEI</assert>
 		<assert id="ND-ProcedureProcurementScope-CEI" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-CEI</assert>
+		<assert id="ND-Part-CEI" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-CEI</assert>
 		<assert id="ND-SenderContact-CEI" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-CEI</assert>
 		<assert id="ND-ProcedureTenderingProcess-CEI" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-CEI</assert>
 		<assert id="ND-OperationType-CEI" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-CEI</assert>
@@ -388,6 +429,7 @@
 		<assert id="ND-BusinessParty-T01" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-T01</assert>
 		<assert id="ND-ContractingParty-T01" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-T01</assert>
 		<assert id="ND-ProcedureProcurementScope-T01" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-T01</assert>
+		<assert id="ND-Part-T01" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-T01</assert>
 		<assert id="ND-SenderContact-T01" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-T01</assert>
 		<assert id="ND-ProcedureTenderingProcess-T01" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-T01</assert>
 		<assert id="ND-OperationType-T01" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-T01</assert>
@@ -398,6 +440,7 @@
 		<assert id="ND-BusinessParty-T02" role="ERROR" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-T02</assert>
 		<assert id="ND-ContractingParty-T02" role="ERROR" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-T02</assert>
 		<assert id="ND-ProcedureProcurementScope-T02" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-T02</assert>
+		<assert id="ND-Part-T02" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-T02</assert>
 		<assert id="ND-SenderContact-T02" role="ERROR" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-T02</assert>
 		<assert id="ND-ProcedureTenderingProcess-T02" role="ERROR" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-T02</assert>
 		<assert id="ND-OperationType-T02" role="ERROR" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-T02</assert>
@@ -408,6 +451,7 @@
 		<assert id="ND-BusinessParty-X01" role="ERROR" test="count(cac:BusinessParty) &gt; 0">rule|text|ND-BusinessParty-X01</assert>
 		<assert id="ND-ContractingParty-X01" role="ERROR" test="count(cac:ContractingParty) = 0">rule|text|ND-ContractingParty-X01</assert>
 		<assert id="ND-ProcedureProcurementScope-X01" role="ERROR" test="count(cac:ProcurementProject) = 0">rule|text|ND-ProcedureProcurementScope-X01</assert>
+		<assert id="ND-Part-X01" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-X01</assert>
 		<assert id="ND-SenderContact-X01" role="ERROR" test="count(cac:SenderParty/cac:Contact) &gt; 0">rule|text|ND-SenderContact-X01</assert>
 		<assert id="ND-ProcedureTenderingProcess-X01" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-X01</assert>
 		<assert id="ND-ProcedureTerms-X01" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-ProcedureTerms-X01</assert>
@@ -419,6 +463,7 @@
 		<assert id="ND-BusinessParty-X02" role="ERROR" test="count(cac:BusinessParty) &gt; 0">rule|text|ND-BusinessParty-X02</assert>
 		<assert id="ND-ContractingParty-X02" role="ERROR" test="count(cac:ContractingParty) = 0">rule|text|ND-ContractingParty-X02</assert>
 		<assert id="ND-ProcedureProcurementScope-X02" role="ERROR" test="count(cac:ProcurementProject) = 0">rule|text|ND-ProcedureProcurementScope-X02</assert>
+		<assert id="ND-Part-X02" role="ERROR" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-X02</assert>
 		<assert id="ND-SenderContact-X02" role="ERROR" test="count(cac:SenderParty/cac:Contact) &gt; 0">rule|text|ND-SenderContact-X02</assert>
 		<assert id="ND-ProcedureTenderingProcess-X02" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-X02</assert>
 		<assert id="ND-ProcedureTerms-X02" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-ProcedureTerms-X02</assert>
@@ -2336,18 +2381,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[$noticeSubType = '24']">
 		<assert id="ND-LotsGroupAwardCriterionNumberUnpublish-24" role="ERROR" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-LotsGroupAwardCriterionNumberUnpublish-24</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '1']">
-		<assert id="ND-PartTenderingProcess-1" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-1</assert>
-		<assert id="ND-PartTenderingTerms-1" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-1</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '2']">
-		<assert id="ND-PartTenderingProcess-2" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-2</assert>
-		<assert id="ND-PartTenderingTerms-2" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-2</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '3']">
-		<assert id="ND-PartTenderingProcess-3" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-3</assert>
-		<assert id="ND-PartTenderingTerms-3" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-3</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '4']">
 		<assert id="ND-PartProcurementScope-4" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-PartProcurementScope-4</assert>
 		<assert id="ND-PartTenderingTerms-4" role="ERROR" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-PartTenderingTerms-4</assert>
@@ -2360,175 +2393,6 @@
 		<assert id="ND-PartProcurementScope-6" role="ERROR" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-PartProcurementScope-6</assert>
 		<assert id="ND-PartTenderingTerms-6" role="ERROR" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-PartTenderingTerms-6</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '7']">
-		<assert id="ND-PartTenderingProcess-7" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-7</assert>
-		<assert id="ND-PartTenderingTerms-7" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-7</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '8']">
-		<assert id="ND-PartTenderingProcess-8" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-8</assert>
-		<assert id="ND-PartTenderingTerms-8" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-8</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '9']">
-		<assert id="ND-PartTenderingProcess-9" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-9</assert>
-		<assert id="ND-PartTenderingTerms-9" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-9</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '10']">
-		<assert id="ND-PartTenderingProcess-10" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-10</assert>
-		<assert id="ND-PartTenderingTerms-10" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-10</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '11']">
-		<assert id="ND-PartTenderingProcess-11" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-11</assert>
-		<assert id="ND-PartTenderingTerms-11" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-11</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '12']">
-		<assert id="ND-PartTenderingProcess-12" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-12</assert>
-		<assert id="ND-PartTenderingTerms-12" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-12</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '13']">
-		<assert id="ND-PartTenderingProcess-13" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-13</assert>
-		<assert id="ND-PartTenderingTerms-13" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-13</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '14']">
-		<assert id="ND-PartTenderingProcess-14" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-14</assert>
-		<assert id="ND-PartTenderingTerms-14" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-14</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '15']">
-		<assert id="ND-PartTenderingProcess-15" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-15</assert>
-		<assert id="ND-PartTenderingTerms-15" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-15</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '16']">
-		<assert id="ND-PartTenderingProcess-16" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-16</assert>
-		<assert id="ND-PartTenderingTerms-16" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-16</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '17']">
-		<assert id="ND-PartTenderingProcess-17" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-17</assert>
-		<assert id="ND-PartTenderingTerms-17" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-17</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '18']">
-		<assert id="ND-PartTenderingProcess-18" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-18</assert>
-		<assert id="ND-PartTenderingTerms-18" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-18</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '19']">
-		<assert id="ND-PartTenderingProcess-19" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-19</assert>
-		<assert id="ND-PartTenderingTerms-19" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-19</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '20']">
-		<assert id="ND-PartTenderingProcess-20" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-20</assert>
-		<assert id="ND-PartTenderingTerms-20" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-20</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '21']">
-		<assert id="ND-PartTenderingProcess-21" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-21</assert>
-		<assert id="ND-PartTenderingTerms-21" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-21</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '22']">
-		<assert id="ND-PartTenderingProcess-22" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-22</assert>
-		<assert id="ND-PartTenderingTerms-22" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-22</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '23']">
-		<assert id="ND-PartTenderingProcess-23" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-23</assert>
-		<assert id="ND-PartTenderingTerms-23" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-23</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '24']">
-		<assert id="ND-PartTenderingProcess-24" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-24</assert>
-		<assert id="ND-PartTenderingTerms-24" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-24</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '25']">
-		<assert id="ND-PartTenderingProcess-25" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-25</assert>
-		<assert id="ND-PartTenderingTerms-25" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-25</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '26']">
-		<assert id="ND-PartTenderingProcess-26" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-26</assert>
-		<assert id="ND-PartTenderingTerms-26" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-26</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '27']">
-		<assert id="ND-PartTenderingProcess-27" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-27</assert>
-		<assert id="ND-PartTenderingTerms-27" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-27</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '28']">
-		<assert id="ND-PartTenderingProcess-28" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-28</assert>
-		<assert id="ND-PartTenderingTerms-28" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-28</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '29']">
-		<assert id="ND-PartTenderingProcess-29" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-29</assert>
-		<assert id="ND-PartTenderingTerms-29" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-29</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '30']">
-		<assert id="ND-PartTenderingProcess-30" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-30</assert>
-		<assert id="ND-PartTenderingTerms-30" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-30</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '31']">
-		<assert id="ND-PartTenderingProcess-31" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-31</assert>
-		<assert id="ND-PartTenderingTerms-31" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-31</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '32']">
-		<assert id="ND-PartTenderingProcess-32" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-32</assert>
-		<assert id="ND-PartTenderingTerms-32" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-32</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '33']">
-		<assert id="ND-PartTenderingProcess-33" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-33</assert>
-		<assert id="ND-PartTenderingTerms-33" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-33</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '34']">
-		<assert id="ND-PartTenderingProcess-34" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-34</assert>
-		<assert id="ND-PartTenderingTerms-34" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-34</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '35']">
-		<assert id="ND-PartTenderingProcess-35" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-35</assert>
-		<assert id="ND-PartTenderingTerms-35" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-35</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '36']">
-		<assert id="ND-PartTenderingProcess-36" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-36</assert>
-		<assert id="ND-PartTenderingTerms-36" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-36</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '37']">
-		<assert id="ND-PartTenderingProcess-37" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-37</assert>
-		<assert id="ND-PartTenderingTerms-37" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-37</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '38']">
-		<assert id="ND-PartTenderingProcess-38" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-38</assert>
-		<assert id="ND-PartTenderingTerms-38" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-38</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '39']">
-		<assert id="ND-PartTenderingProcess-39" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-39</assert>
-		<assert id="ND-PartTenderingTerms-39" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-39</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '40']">
-		<assert id="ND-PartTenderingProcess-40" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-40</assert>
-		<assert id="ND-PartTenderingTerms-40" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-40</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = 'CEI']">
-		<assert id="ND-PartTenderingProcess-CEI" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-CEI</assert>
-		<assert id="ND-PartTenderingTerms-CEI" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-CEI</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = 'T01']">
-		<assert id="ND-PartTenderingProcess-T01" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-T01</assert>
-		<assert id="ND-PartTenderingTerms-T01" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-T01</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = 'T02']">
-		<assert id="ND-PartTenderingProcess-T02" role="ERROR" test="count(cac:TenderingProcess) = 0">rule|text|ND-PartTenderingProcess-T02</assert>
-		<assert id="ND-PartTenderingTerms-T02" role="ERROR" test="count(cac:TenderingTerms) = 0">rule|text|ND-PartTenderingTerms-T02</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '1']">
-		<assert id="ND-PartAdditionalClassification-1" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-1</assert>
-		<assert id="ND-PartMainClassification-1" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-1</assert>
-		<assert id="ND-PartDuration-1" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-1</assert>
-		<assert id="ND-PartPlacePerformance-1" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-1</assert>
-		<assert id="ND-PartValueEstimate-1" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-1</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '2']">
-		<assert id="ND-PartAdditionalClassification-2" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-2</assert>
-		<assert id="ND-PartMainClassification-2" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-2</assert>
-		<assert id="ND-PartDuration-2" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-2</assert>
-		<assert id="ND-PartPlacePerformance-2" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-2</assert>
-		<assert id="ND-PartValueEstimate-2" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-2</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '3']">
-		<assert id="ND-PartAdditionalClassification-3" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-3</assert>
-		<assert id="ND-PartMainClassification-3" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-3</assert>
-		<assert id="ND-PartDuration-3" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-3</assert>
-		<assert id="ND-PartPlacePerformance-3" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-3</assert>
-		<assert id="ND-PartValueEstimate-3" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-3</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '4']">
 		<assert id="ND-PartMainClassification-4" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|text|ND-PartMainClassification-4</assert>
 	</rule>
@@ -2537,265 +2401,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '6']">
 		<assert id="ND-PartMainClassification-6" role="ERROR" test="count(cac:MainCommodityClassification) &gt; 0">rule|text|ND-PartMainClassification-6</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '7']">
-		<assert id="ND-PartAdditionalClassification-7" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-7</assert>
-		<assert id="ND-PartMainClassification-7" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-7</assert>
-		<assert id="ND-PartDuration-7" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-7</assert>
-		<assert id="ND-PartPlacePerformance-7" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-7</assert>
-		<assert id="ND-PartValueEstimate-7" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-7</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '8']">
-		<assert id="ND-PartAdditionalClassification-8" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-8</assert>
-		<assert id="ND-PartMainClassification-8" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-8</assert>
-		<assert id="ND-PartDuration-8" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-8</assert>
-		<assert id="ND-PartPlacePerformance-8" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-8</assert>
-		<assert id="ND-PartValueEstimate-8" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-8</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '9']">
-		<assert id="ND-PartAdditionalClassification-9" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-9</assert>
-		<assert id="ND-PartMainClassification-9" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-9</assert>
-		<assert id="ND-PartDuration-9" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-9</assert>
-		<assert id="ND-PartPlacePerformance-9" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-9</assert>
-		<assert id="ND-PartValueEstimate-9" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-9</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '10']">
-		<assert id="ND-PartAdditionalClassification-10" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-10</assert>
-		<assert id="ND-PartMainClassification-10" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-10</assert>
-		<assert id="ND-PartDuration-10" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-10</assert>
-		<assert id="ND-PartPlacePerformance-10" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-10</assert>
-		<assert id="ND-PartValueEstimate-10" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-10</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '11']">
-		<assert id="ND-PartAdditionalClassification-11" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-11</assert>
-		<assert id="ND-PartMainClassification-11" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-11</assert>
-		<assert id="ND-PartDuration-11" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-11</assert>
-		<assert id="ND-PartPlacePerformance-11" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-11</assert>
-		<assert id="ND-PartValueEstimate-11" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-11</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '12']">
-		<assert id="ND-PartAdditionalClassification-12" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-12</assert>
-		<assert id="ND-PartMainClassification-12" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-12</assert>
-		<assert id="ND-PartDuration-12" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-12</assert>
-		<assert id="ND-PartPlacePerformance-12" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-12</assert>
-		<assert id="ND-PartValueEstimate-12" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-12</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '13']">
-		<assert id="ND-PartAdditionalClassification-13" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-13</assert>
-		<assert id="ND-PartMainClassification-13" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-13</assert>
-		<assert id="ND-PartDuration-13" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-13</assert>
-		<assert id="ND-PartPlacePerformance-13" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-13</assert>
-		<assert id="ND-PartValueEstimate-13" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-13</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '14']">
-		<assert id="ND-PartAdditionalClassification-14" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-14</assert>
-		<assert id="ND-PartMainClassification-14" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-14</assert>
-		<assert id="ND-PartDuration-14" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-14</assert>
-		<assert id="ND-PartPlacePerformance-14" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-14</assert>
-		<assert id="ND-PartValueEstimate-14" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-14</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '15']">
-		<assert id="ND-PartAdditionalClassification-15" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-15</assert>
-		<assert id="ND-PartMainClassification-15" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-15</assert>
-		<assert id="ND-PartDuration-15" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-15</assert>
-		<assert id="ND-PartPlacePerformance-15" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-15</assert>
-		<assert id="ND-PartValueEstimate-15" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-15</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '16']">
-		<assert id="ND-PartAdditionalClassification-16" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-16</assert>
-		<assert id="ND-PartMainClassification-16" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-16</assert>
-		<assert id="ND-PartDuration-16" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-16</assert>
-		<assert id="ND-PartPlacePerformance-16" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-16</assert>
-		<assert id="ND-PartValueEstimate-16" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-16</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '17']">
-		<assert id="ND-PartAdditionalClassification-17" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-17</assert>
-		<assert id="ND-PartMainClassification-17" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-17</assert>
-		<assert id="ND-PartDuration-17" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-17</assert>
-		<assert id="ND-PartPlacePerformance-17" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-17</assert>
-		<assert id="ND-PartValueEstimate-17" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-17</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '18']">
-		<assert id="ND-PartAdditionalClassification-18" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-18</assert>
-		<assert id="ND-PartMainClassification-18" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-18</assert>
-		<assert id="ND-PartDuration-18" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-18</assert>
-		<assert id="ND-PartPlacePerformance-18" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-18</assert>
-		<assert id="ND-PartValueEstimate-18" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-18</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '19']">
-		<assert id="ND-PartAdditionalClassification-19" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-19</assert>
-		<assert id="ND-PartMainClassification-19" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-19</assert>
-		<assert id="ND-PartDuration-19" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-19</assert>
-		<assert id="ND-PartPlacePerformance-19" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-19</assert>
-		<assert id="ND-PartValueEstimate-19" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-19</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '20']">
-		<assert id="ND-PartAdditionalClassification-20" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-20</assert>
-		<assert id="ND-PartMainClassification-20" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-20</assert>
-		<assert id="ND-PartDuration-20" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-20</assert>
-		<assert id="ND-PartPlacePerformance-20" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-20</assert>
-		<assert id="ND-PartValueEstimate-20" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-20</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '21']">
-		<assert id="ND-PartAdditionalClassification-21" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-21</assert>
-		<assert id="ND-PartMainClassification-21" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-21</assert>
-		<assert id="ND-PartDuration-21" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-21</assert>
-		<assert id="ND-PartPlacePerformance-21" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-21</assert>
-		<assert id="ND-PartValueEstimate-21" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-21</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '22']">
-		<assert id="ND-PartAdditionalClassification-22" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-22</assert>
-		<assert id="ND-PartMainClassification-22" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-22</assert>
-		<assert id="ND-PartDuration-22" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-22</assert>
-		<assert id="ND-PartPlacePerformance-22" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-22</assert>
-		<assert id="ND-PartValueEstimate-22" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-22</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '23']">
-		<assert id="ND-PartAdditionalClassification-23" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-23</assert>
-		<assert id="ND-PartMainClassification-23" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-23</assert>
-		<assert id="ND-PartDuration-23" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-23</assert>
-		<assert id="ND-PartPlacePerformance-23" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-23</assert>
-		<assert id="ND-PartValueEstimate-23" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-23</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '24']">
-		<assert id="ND-PartAdditionalClassification-24" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-24</assert>
-		<assert id="ND-PartMainClassification-24" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-24</assert>
-		<assert id="ND-PartDuration-24" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-24</assert>
-		<assert id="ND-PartPlacePerformance-24" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-24</assert>
-		<assert id="ND-PartValueEstimate-24" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-24</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '25']">
-		<assert id="ND-PartAdditionalClassification-25" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-25</assert>
-		<assert id="ND-PartMainClassification-25" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-25</assert>
-		<assert id="ND-PartDuration-25" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-25</assert>
-		<assert id="ND-PartPlacePerformance-25" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-25</assert>
-		<assert id="ND-PartValueEstimate-25" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-25</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '26']">
-		<assert id="ND-PartAdditionalClassification-26" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-26</assert>
-		<assert id="ND-PartMainClassification-26" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-26</assert>
-		<assert id="ND-PartDuration-26" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-26</assert>
-		<assert id="ND-PartPlacePerformance-26" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-26</assert>
-		<assert id="ND-PartValueEstimate-26" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-26</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '27']">
-		<assert id="ND-PartAdditionalClassification-27" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-27</assert>
-		<assert id="ND-PartMainClassification-27" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-27</assert>
-		<assert id="ND-PartDuration-27" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-27</assert>
-		<assert id="ND-PartPlacePerformance-27" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-27</assert>
-		<assert id="ND-PartValueEstimate-27" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-27</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '28']">
-		<assert id="ND-PartAdditionalClassification-28" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-28</assert>
-		<assert id="ND-PartMainClassification-28" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-28</assert>
-		<assert id="ND-PartDuration-28" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-28</assert>
-		<assert id="ND-PartPlacePerformance-28" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-28</assert>
-		<assert id="ND-PartValueEstimate-28" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-28</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '29']">
-		<assert id="ND-PartAdditionalClassification-29" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-29</assert>
-		<assert id="ND-PartMainClassification-29" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-29</assert>
-		<assert id="ND-PartDuration-29" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-29</assert>
-		<assert id="ND-PartPlacePerformance-29" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-29</assert>
-		<assert id="ND-PartValueEstimate-29" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-29</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '30']">
-		<assert id="ND-PartAdditionalClassification-30" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-30</assert>
-		<assert id="ND-PartMainClassification-30" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-30</assert>
-		<assert id="ND-PartDuration-30" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-30</assert>
-		<assert id="ND-PartPlacePerformance-30" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-30</assert>
-		<assert id="ND-PartValueEstimate-30" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-30</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '31']">
-		<assert id="ND-PartAdditionalClassification-31" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-31</assert>
-		<assert id="ND-PartMainClassification-31" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-31</assert>
-		<assert id="ND-PartDuration-31" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-31</assert>
-		<assert id="ND-PartPlacePerformance-31" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-31</assert>
-		<assert id="ND-PartValueEstimate-31" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-31</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '32']">
-		<assert id="ND-PartAdditionalClassification-32" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-32</assert>
-		<assert id="ND-PartMainClassification-32" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-32</assert>
-		<assert id="ND-PartDuration-32" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-32</assert>
-		<assert id="ND-PartPlacePerformance-32" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-32</assert>
-		<assert id="ND-PartValueEstimate-32" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-32</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '33']">
-		<assert id="ND-PartAdditionalClassification-33" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-33</assert>
-		<assert id="ND-PartMainClassification-33" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-33</assert>
-		<assert id="ND-PartDuration-33" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-33</assert>
-		<assert id="ND-PartPlacePerformance-33" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-33</assert>
-		<assert id="ND-PartValueEstimate-33" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-33</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '34']">
-		<assert id="ND-PartAdditionalClassification-34" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-34</assert>
-		<assert id="ND-PartMainClassification-34" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-34</assert>
-		<assert id="ND-PartDuration-34" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-34</assert>
-		<assert id="ND-PartPlacePerformance-34" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-34</assert>
-		<assert id="ND-PartValueEstimate-34" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-34</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '35']">
-		<assert id="ND-PartAdditionalClassification-35" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-35</assert>
-		<assert id="ND-PartMainClassification-35" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-35</assert>
-		<assert id="ND-PartDuration-35" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-35</assert>
-		<assert id="ND-PartPlacePerformance-35" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-35</assert>
-		<assert id="ND-PartValueEstimate-35" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-35</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '36']">
-		<assert id="ND-PartAdditionalClassification-36" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-36</assert>
-		<assert id="ND-PartMainClassification-36" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-36</assert>
-		<assert id="ND-PartDuration-36" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-36</assert>
-		<assert id="ND-PartPlacePerformance-36" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-36</assert>
-		<assert id="ND-PartValueEstimate-36" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-36</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '37']">
-		<assert id="ND-PartAdditionalClassification-37" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-37</assert>
-		<assert id="ND-PartMainClassification-37" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-37</assert>
-		<assert id="ND-PartDuration-37" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-37</assert>
-		<assert id="ND-PartPlacePerformance-37" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-37</assert>
-		<assert id="ND-PartValueEstimate-37" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-37</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '38']">
-		<assert id="ND-PartAdditionalClassification-38" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-38</assert>
-		<assert id="ND-PartMainClassification-38" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-38</assert>
-		<assert id="ND-PartDuration-38" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-38</assert>
-		<assert id="ND-PartPlacePerformance-38" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-38</assert>
-		<assert id="ND-PartValueEstimate-38" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-38</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '39']">
-		<assert id="ND-PartAdditionalClassification-39" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-39</assert>
-		<assert id="ND-PartMainClassification-39" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-39</assert>
-		<assert id="ND-PartDuration-39" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-39</assert>
-		<assert id="ND-PartPlacePerformance-39" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-39</assert>
-		<assert id="ND-PartValueEstimate-39" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-39</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = '40']">
-		<assert id="ND-PartAdditionalClassification-40" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-40</assert>
-		<assert id="ND-PartMainClassification-40" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-40</assert>
-		<assert id="ND-PartDuration-40" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-40</assert>
-		<assert id="ND-PartPlacePerformance-40" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-40</assert>
-		<assert id="ND-PartValueEstimate-40" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-40</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = 'CEI']">
-		<assert id="ND-PartAdditionalClassification-CEI" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-CEI</assert>
-		<assert id="ND-PartMainClassification-CEI" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-CEI</assert>
-		<assert id="ND-PartDuration-CEI" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-CEI</assert>
-		<assert id="ND-PartPlacePerformance-CEI" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-CEI</assert>
-		<assert id="ND-PartValueEstimate-CEI" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-CEI</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = 'T01']">
-		<assert id="ND-PartAdditionalClassification-T01" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-T01</assert>
-		<assert id="ND-PartMainClassification-T01" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-T01</assert>
-		<assert id="ND-PartDuration-T01" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-T01</assert>
-		<assert id="ND-PartPlacePerformance-T01" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-T01</assert>
-		<assert id="ND-PartValueEstimate-T01" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-T01</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = 'T02']">
-		<assert id="ND-PartAdditionalClassification-T02" role="ERROR" test="count(cac:AdditionalCommodityClassification) = 0">rule|text|ND-PartAdditionalClassification-T02</assert>
-		<assert id="ND-PartMainClassification-T02" role="ERROR" test="count(cac:MainCommodityClassification) = 0">rule|text|ND-PartMainClassification-T02</assert>
-		<assert id="ND-PartDuration-T02" role="ERROR" test="count(cac:PlannedPeriod) = 0">rule|text|ND-PartDuration-T02</assert>
-		<assert id="ND-PartPlacePerformance-T02" role="ERROR" test="count(cac:RealizedLocation) = 0">rule|text|ND-PartPlacePerformance-T02</assert>
-		<assert id="ND-PartValueEstimate-T02" role="ERROR" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-T02</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '4']">
 		<assert id="ND-PartMainClassificationCode-4" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|ND-PartMainClassificationCode-4</assert>
@@ -2818,39 +2423,39 @@
 		<assert id="ND-PartFiscalLegislation-6" role="ERROR" test="count(cac:FiscalLegislationDocumentReference) &gt; 0">rule|text|ND-PartFiscalLegislation-6</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '7']">
-		<assert id="ND-AcceleratedProcedureJustification-7" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-7</assert>
+		<assert id="ND-AcceleratedProcedure-7" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-7</assert>
 		<assert id="ND-ProcedureTypeUnpublish-7" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-7</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '8']">
-		<assert id="ND-AcceleratedProcedureJustification-8" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-8</assert>
+		<assert id="ND-AcceleratedProcedure-8" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-8</assert>
 		<assert id="ND-ProcedureTypeUnpublish-8" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-8</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '9']">
-		<assert id="ND-AcceleratedProcedureJustification-9" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-9</assert>
+		<assert id="ND-AcceleratedProcedure-9" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-9</assert>
 		<assert id="ND-ProcedureTypeUnpublish-9" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-9</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '10']">
-		<assert id="ND-AcceleratedProcedureJustification-10" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-10</assert>
+		<assert id="ND-AcceleratedProcedure-10" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-10</assert>
 		<assert id="ND-ProcedureTypeUnpublish-10" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-10</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '11']">
-		<assert id="ND-AcceleratedProcedureJustification-11" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-11</assert>
+		<assert id="ND-AcceleratedProcedure-11" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-11</assert>
 		<assert id="ND-ProcedureTypeUnpublish-11" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-11</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '12']">
-		<assert id="ND-AcceleratedProcedureJustification-12" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-12</assert>
+		<assert id="ND-AcceleratedProcedure-12" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-12</assert>
 		<assert id="ND-ProcedureTypeUnpublish-12" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-12</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '13']">
-		<assert id="ND-AcceleratedProcedureJustification-13" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-13</assert>
+		<assert id="ND-AcceleratedProcedure-13" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-13</assert>
 		<assert id="ND-ProcedureTypeUnpublish-13" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-13</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '14']">
-		<assert id="ND-AcceleratedProcedureJustification-14" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-14</assert>
+		<assert id="ND-AcceleratedProcedure-14" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-14</assert>
 		<assert id="ND-ProcedureTypeUnpublish-14" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-14</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '15']">
-		<assert id="ND-AcceleratedProcedureJustification-15" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-15</assert>
+		<assert id="ND-AcceleratedProcedure-15" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-15</assert>
 		<assert id="ND-ProcedureTypeUnpublish-15" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-15</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '16']">
@@ -2863,44 +2468,44 @@
 		<assert id="ND-ProcedureTypeUnpublish-18" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-18</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '19']">
-		<assert id="ND-AcceleratedProcedureJustification-19" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-19</assert>
+		<assert id="ND-AcceleratedProcedure-19" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-19</assert>
 		<assert id="ND-ProcedureTypeUnpublish-19" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-19</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '20']">
-		<assert id="ND-AcceleratedProcedureJustification-20" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-20</assert>
+		<assert id="ND-AcceleratedProcedure-20" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-20</assert>
 		<assert id="ND-ProcedureTypeUnpublish-20" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-20</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '21']">
-		<assert id="ND-AcceleratedProcedureJustification-21" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-21</assert>
+		<assert id="ND-AcceleratedProcedure-21" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-21</assert>
 		<assert id="ND-ProcedureTypeUnpublish-21" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-21</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '22']">
-		<assert id="ND-AcceleratedProcedureJustification-22" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-22</assert>
+		<assert id="ND-AcceleratedProcedure-22" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-22</assert>
 		<assert id="ND-ProcedureTypeUnpublish-22" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-22</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '23']">
-		<assert id="ND-AcceleratedProcedureJustification-23" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-23</assert>
+		<assert id="ND-AcceleratedProcedure-23" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-23</assert>
 		<assert id="ND-ProcedureTypeUnpublish-23" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-23</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '24']">
-		<assert id="ND-AcceleratedProcedureJustification-24" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-24</assert>
+		<assert id="ND-AcceleratedProcedure-24" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-24</assert>
 		<assert id="ND-ProcedureTypeUnpublish-24" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-24</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '36']">
-		<assert id="ND-AcceleratedProcedureJustification-36" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-36</assert>
+		<assert id="ND-AcceleratedProcedure-36" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-36</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '37']">
-		<assert id="ND-AcceleratedProcedureJustification-37" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-37</assert>
+		<assert id="ND-AcceleratedProcedure-37" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-37</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
-		<assert id="ND-AcceleratedProcedureJustification-CEI" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-CEI</assert>
+		<assert id="ND-AcceleratedProcedure-CEI" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-CEI</assert>
 		<assert id="ND-ProcedureTypeUnpublish-CEI" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-CEI</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'T01']">
 		<assert id="ND-ProcedureTypeUnpublish-T01" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-T01</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'T02']">
-		<assert id="ND-AcceleratedProcedureJustification-T02" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedureJustification-T02</assert>
+		<assert id="ND-AcceleratedProcedure-T02" role="ERROR" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-T02</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = '16']">
 		<assert id="ND-ProcedureAcceleratedUnpublish-16" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureAcceleratedUnpublish-16</assert>

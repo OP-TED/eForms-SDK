@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.5.12 created on the 2023-01-12T09:49:36</comment>
+<comment>group in English. File generated from metadata database version 1.5.29 created on the 2023-01-24T11:03:12</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
@@ -291,6 +291,7 @@
 <entry key="group|name|ND-NoticeValueUnpublish">Not Immediately Published (NoticeValue)</entry>
 <entry key="group|name|ND-OptionsDescription">Description of Options or Renewals</entry>
 <entry key="group|name|ND-Organization">Organisations mentioned in the notice</entry>
+<entry key="group|name|ND-OtherContractExecutionConditions">Conditions other than Revenue Allocation</entry>
 <entry key="group|name|ND-Part">Information about the part</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Additional classification</entry>
 <entry key="group|name|ND-PartPlacePerformance">Place of performance</entry>
@@ -314,6 +315,7 @@
 <entry key="group|name|ND-ServiceProviderParty">Service provider</entry>
 <entry key="group|name|ND-SettledContract">Settled contract</entry>
 <entry key="group|name|ND-StrategicProcurementType">Information (Description) about Strategic Procurement Type</entry>
+<entry key="group|name|ND-SubContractor">Organization identified as a contractor of one at least of the Main Tenderers of a Tendering Party</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Not Immediately Published (SubcontractingDescription)</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Not Immediately Published (SubcontractingPercentageKnown)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Not Immediately Published (SubcontractingPercentage)</entry>
