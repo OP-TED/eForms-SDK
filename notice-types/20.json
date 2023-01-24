@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.5.0",
+  "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.12",
-    "createdOn" : "2023-01-12T09:49:36"
+    "version" : "1.5.29",
+    "createdOn" : "2023-01-24T11:03:12"
   },
   "noticeId" : "20",
   "metadata" : [ {
@@ -62,6 +62,7 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Dispatch Date",
     "_label" : "field|name|BT-05(a)-notice",
+    "_presetValue" : "{NOW}",
     "hidden" : true
   }, {
     "id" : "BT-05(b)-notice",
@@ -69,6 +70,7 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Dispatch Time",
     "_label" : "field|name|BT-05(b)-notice",
+    "_presetValue" : "{NOW}",
     "hidden" : true
   }, {
     "id" : "BT-738-notice",
@@ -263,7 +265,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (NoID)",
-          "_label" : "field|name|BT-01(e)-Procedure"
+          "_label" : "field|name|BT-01(e)-Procedure",
+          "readOnly" : true,
+          "_presetValue" : "LocalLegalBasis"
         }, {
           "id" : "BT-01(f)-Procedure",
           "contentType" : "field",
@@ -470,7 +474,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Cross Border Law",
-          "_label" : "field|name|BT-09(a)-Procedure"
+          "_label" : "field|name|BT-09(a)-Procedure",
+          "readOnly" : true,
+          "_presetValue" : "CrossBorderLaw"
         }, {
           "id" : "BT-09(b)-Procedure",
           "contentType" : "field",
@@ -995,7 +1001,9 @@
           "contentType" : "field",
           "displayType" : "COMBOBOX",
           "description" : "Buyer Categories",
-          "_label" : "field|name|OPT-090-Lot"
+          "_label" : "field|name|OPT-090-Lot",
+          "readOnly" : true,
+          "_presetValue" : "buyer-categories"
         }, {
           "id" : "BT-111-Lot",
           "contentType" : "field",
