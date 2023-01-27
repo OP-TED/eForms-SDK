@@ -1,10 +1,10 @@
 // Summary
-// sdkVersion='1.5.0'
-// File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00
-1 {ND-Root} #{auxiliary|text|buyer} // 1. Buyer
+// sdkVersion='1.6.0'
+// File generated from metadata database version 1.5.29 created on the 2023-01-24T11:03:12
+1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
-2 {ND-Root} #{auxiliary|text|procedure}  // 2. Procedure
+2 {ND-Root[BT-21-Procedure is present]} #{auxiliary|text|procedure}  // 2. Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{BT-21-Procedure} #{name|BT-21}: $value // Procedure Title
 		0 {BT-105-Procedure} #{name|BT-105}: #value // Type of the procedure
@@ -59,7 +59,7 @@
 		5 {ND-LotValueEstimate} #{auxiliary|text|value} // 5.1.5 Value
 			{BT-27-Lot} #{name|BT-27}: ${string(BT-27-Lot)} ${BT-27-Lot/@currencyID} // Estimated value
 			{BT-137-Lot[some text:$glo in (for text:$lotid in BT-137-Lot, text:$ldgloid in BT-330-Procedure[BT-1375-Procedure == $lotid], text:$gloid in BT-137-LotsGroup[BT-137-LotsGroup[BT-157-LotsGroup is present] == $ldgloid] return $gloid) satisfies $glo != '']} #{name|BT-157}: ${for text:$lotid1 in BT-137-Lot, text:$ldgloid1 in BT-330-Procedure[BT-1375-Procedure == $lotid1], number:$gfemv in BT-157-LotsGroup[BT-137-LotsGroup == $ldgloid1] return string($gfemv)} ${for text:$lotid2 in BT-137-Lot, text:$ldgloid2 in BT-330-Procedure[BT-1375-Procedure == $lotid2] return BT-157-LotsGroup[BT-137-LotsGroup == $ldgloid2]/@currencyID} // Maximum value of the framework agreement within the group of lots
-		12 {BT-137-Lot} #{auxiliary|text|procurement-terms} // 5.1.12 Procurement terms
+		12 {BT-137-Lot[BT-99-Lot is present]} #{auxiliary|text|procurement-terms} // 5.1.12 Procurement terms
 			0 {BT-137-Lot} #{auxiliary|text|design-contest-terms} // + Terms of the design contest regime
 				{BT-644-Lot} #{name|BT-644}: ${BT-644-Lot} ${BT-644-Lot/@currencyID} // Value of the prize
 			0 {BT-137-Lot} #{auxiliary|text|submission-terms} // + Terms of submission
@@ -69,13 +69,11 @@
 				{BT-98-Lot} #{name|BT-98}: ${OPA-98-Lot-Number} ${BT-98-Lot/@unitCode} // Deadline until which the tender must remain valid
 6 {ND-Root[(BT-13713-LotResult is present)]} #{auxiliary|text|results} // 6. Results
 	{BT-161-NoticeResult} #{name}: $value ${BT-161-NoticeResult[BT-161-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Notice Value (Value of all contracts awarded in this procedure)
-	0 {ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value} ${BT-556-NoticeResult} // Estimated value of the framework agreements in the group of lots
-		0 {ND-NoticeResultGroupFA} #{name|BT-1375} ${for text:$gloid in BT-556-NoticeResult return BT-1375-Procedure[BT-330-Procedure == $gloid] } // Lots included: LOT-0001, LOT-0003
+	0 {ND-NoticeResultGroupFA} #{auxiliary|text|group-framework-value}: ${BT-556-NoticeResult} // Estimated value of the framework agreements in the group of lots
+		0 {ND-NoticeResultGroupFA} #{name|BT-1375}: ${for text:$gloid in BT-556-NoticeResult return BT-1375-Procedure[BT-330-Procedure == $gloid] } // Lots included: LOT-0001, LOT-0003
 		0 {ND-NoticeResultGroupFA} Estimated value of the framework agreements in this group of lots ${format-number(BT-156-NoticeResult, '0.##')} ${BT-156-NoticeResult[BT-156-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Estimated value of the framework agreements in this group of lots
 	1 {ND-LotResult}   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // 6.1 Result Lot Identifier (LOT-XXXX)
 		{BT-144-LotResult} #{name}: #{BT-144-LotResult}  // Not awarded reason
 		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement} // Framework agreement
 			0 {BT-709-LotResult} #{name}: $value ${BT-709-LotResult[BT-709-LotResult/@currencyID != 'unpublished']/@currencyID} // Framework Maximum Value
 			{BT-660-LotResult} #{name}: $value ${BT-660-LotResult/@currencyID} // Framework Estimated Value
-	0 {ND-Root} #{auxiliary|text|results-procurement-procedure} // Result of the procurement procedure
-		{BT-118-NoticeResult} #{name}: $value ${BT-118-NoticeResult/@currencyID} // --- Estimated value of the framework agreements in this procedure

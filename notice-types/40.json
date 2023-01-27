@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.5.0",
+  "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.12",
-    "createdOn" : "2023-01-12T09:49:36"
+    "version" : "1.5.29",
+    "createdOn" : "2023-01-24T11:03:12"
   },
   "noticeId" : "40",
   "metadata" : [ {
@@ -62,6 +62,7 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Dispatch Date",
     "_label" : "field|name|BT-05(a)-notice",
+    "_presetValue" : "{NOW}",
     "hidden" : true
   }, {
     "id" : "BT-05(b)-notice",
@@ -69,6 +70,7 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Dispatch Time",
     "_label" : "field|name|BT-05(b)-notice",
+    "_presetValue" : "{NOW}",
     "hidden" : true
   }, {
     "id" : "BT-738-notice",
@@ -83,6 +85,7 @@
     "displayType" : "TEXTBOX",
     "description" : "Dummy Tender Award Date",
     "_label" : "field|name|OPT-999",
+    "_presetValue" : "2000-01-01Z",
     "hidden" : true
   }, {
     "id" : "OPT-001-notice",
@@ -238,7 +241,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (NoID)",
-          "_label" : "field|name|BT-01(e)-Procedure"
+          "_label" : "field|name|BT-01(e)-Procedure",
+          "readOnly" : true,
+          "_presetValue" : "LocalLegalBasis"
         }, {
           "id" : "BT-01(f)-Procedure",
           "contentType" : "field",
@@ -467,7 +472,7 @@
         }, {
           "id" : "BT-23-Lot",
           "contentType" : "field",
-          "displayType" : "RADIO",
+          "displayType" : "COMBOBOX",
           "description" : "Main Nature",
           "_label" : "field|name|BT-23-Lot"
         }, {
@@ -1161,7 +1166,9 @@
           "contentType" : "field",
           "displayType" : "COMBOBOX",
           "description" : "Unpublished Identifier",
-          "_label" : "field|name|BT-195(BT-161)-NoticeResult"
+          "_label" : "field|name|BT-195(BT-161)-NoticeResult",
+          "readOnly" : true,
+          "_presetValue" : "not-val"
         }, {
           "id" : "BT-196(BT-161)-NoticeResult",
           "contentType" : "field",
@@ -1305,7 +1312,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-636)-LotResult"
+              "_label" : "field|name|BT-195(BT-636)-LotResult",
+              "readOnly" : true,
+              "_presetValue" : "buy-rev-typ"
             }, {
               "id" : "BT-196(BT-636)-LotResult",
               "contentType" : "field",
@@ -1344,7 +1353,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-635)-LotResult"
+              "_label" : "field|name|BT-195(BT-635)-LotResult",
+              "readOnly" : true,
+              "_presetValue" : "buy-rev-cou"
             }, {
               "id" : "BT-196(BT-635)-LotResult",
               "contentType" : "field",
@@ -1449,7 +1460,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-171)-Tender"
+              "_label" : "field|name|BT-195(BT-171)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "ten-ran"
             }, {
               "id" : "BT-196(BT-171)-Tender",
               "contentType" : "field",
@@ -1488,7 +1501,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-720)-Tender"
+              "_label" : "field|name|BT-195(BT-720)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "win-ten-val"
             }, {
               "id" : "BT-196(BT-720)-Tender",
               "contentType" : "field",
@@ -1555,7 +1570,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-160)-Tender"
+              "_label" : "field|name|BT-195(BT-160)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "con-rev-buy"
             }, {
               "id" : "BT-196(BT-160)-Tender",
               "contentType" : "field",
@@ -1594,7 +1611,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-162)-Tender"
+              "_label" : "field|name|BT-195(BT-162)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "con-rev-use"
             }, {
               "id" : "BT-196(BT-162)-Tender",
               "contentType" : "field",
@@ -1633,7 +1652,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-163)-Tender"
+              "_label" : "field|name|BT-195(BT-163)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "val-con-des"
             }, {
               "id" : "BT-196(BT-163)-Tender",
               "contentType" : "field",
@@ -1679,7 +1700,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-553)-Tender"
+              "_label" : "field|name|BT-195(BT-553)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "sub-val"
             }, {
               "id" : "BT-196(BT-553)-Tender",
               "contentType" : "field",
@@ -1718,7 +1741,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-554)-Tender"
+              "_label" : "field|name|BT-195(BT-554)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "sub-des"
             }, {
               "id" : "BT-196(BT-554)-Tender",
               "contentType" : "field",
@@ -1757,7 +1782,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-555)-Tender"
+              "_label" : "field|name|BT-195(BT-555)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "sub-per"
             }, {
               "id" : "BT-196(BT-555)-Tender",
               "contentType" : "field",
@@ -1796,7 +1823,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-773)-Tender"
+              "_label" : "field|name|BT-195(BT-773)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "sub-con"
             }, {
               "id" : "BT-196(BT-773)-Tender",
               "contentType" : "field",
@@ -1835,7 +1864,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-730)-Tender"
+              "_label" : "field|name|BT-195(BT-730)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "sub-val-kno"
             }, {
               "id" : "BT-196(BT-730)-Tender",
               "contentType" : "field",
@@ -1874,7 +1905,9 @@
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-731)-Tender"
+              "_label" : "field|name|BT-195(BT-731)-Tender",
+              "readOnly" : true,
+              "_presetValue" : "sub-per-kno"
             }, {
               "id" : "BT-196(BT-731)-Tender",
               "contentType" : "field",
@@ -2046,10 +2079,10 @@
         }, {
           "id" : "GR-Subcontractor",
           "contentType" : "group",
-          "nodeId" : "ND-TenderingParty",
+          "nodeId" : "ND-SubContractor",
           "displayType" : "GROUP",
-          "description" : "Party formed of one or more organizations than jointly submitted a Tender",
-          "_label" : "group|name|ND-TenderingParty",
+          "description" : "Organization identified as a contractor of one at least of the Main Tenderers of a Tendering Party",
+          "_label" : "group|name|ND-SubContractor",
           "_repeatable" : true,
           "content" : [ {
             "id" : "OPT-301-Tenderer-SubCont",
