@@ -63,6 +63,15 @@
     <resources>
       <resource>
         <directory>${basedir}</directory>
+        <filtering>true</filtering>
+        <targetPath>eforms-sdk</targetPath>
+        <includes>
+          <include>VERSION</include>
+        </includes>
+      </resource>
+
+      <resource>
+        <directory>${basedir}</directory>
         <targetPath>eforms-sdk</targetPath>
         <excludes>
           <exclude>**/.antlr/</exclude>
