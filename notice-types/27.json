@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.29",
-    "createdOn" : "2023-01-24T11:03:12"
+    "version" : "1.5.35",
+    "createdOn" : "2023-02-01T14:36:56"
   },
   "noticeId" : "27",
   "metadata" : [ {
@@ -76,7 +76,7 @@
     "id" : "BT-738-notice",
     "contentType" : "field",
     "displayType" : "TEXTBOX",
-    "description" : "Notice Publication Date Preferred",
+    "description" : "Notice Preferred Publication Date",
     "_label" : "field|name|BT-738-notice",
     "hidden" : true
   }, {
@@ -522,7 +522,7 @@
             "id" : "BT-198(BT-105)-Procedure",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-105)-Procedure"
           } ]
         } ]
@@ -570,7 +570,7 @@
             "id" : "BT-198(BT-136)-Procedure",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-136)-Procedure"
           } ]
         }, {
@@ -611,7 +611,7 @@
             "id" : "BT-198(BT-135)-Procedure",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-135)-Procedure"
           } ]
         }, {
@@ -652,7 +652,7 @@
             "id" : "BT-198(BT-1252)-Procedure",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-1252)-Procedure"
           } ]
         } ]
@@ -837,7 +837,7 @@
           "id" : "BT-776-Lot",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
-          "description" : "Innovative Procurement",
+          "description" : "Procurement of Innovation",
           "_label" : "field|name|BT-776-Lot",
           "_repeatable" : true
         }, {
@@ -1229,7 +1229,7 @@
               "id" : "BT-198(BT-539)-Lot",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-539)-Lot"
             } ]
           }, {
@@ -1270,7 +1270,7 @@
               "id" : "BT-198(BT-540)-Lot",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-540)-Lot"
             } ]
           }, {
@@ -1326,7 +1326,7 @@
                   "id" : "BT-198(BT-541)-Lot",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
-                  "description" : "Unpublished Accessibility Date",
+                  "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-541)-Lot"
                 } ]
               }, {
@@ -1367,7 +1367,7 @@
                   "id" : "BT-198(BT-5421)-Lot",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
-                  "description" : "Unpublished Accessibility Date",
+                  "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5421)-Lot"
                 } ]
               }, {
@@ -1408,7 +1408,7 @@
                   "id" : "BT-198(BT-5422)-Lot",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
-                  "description" : "Unpublished Accessibility Date",
+                  "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5422)-Lot"
                 } ]
               }, {
@@ -1449,7 +1449,7 @@
                   "id" : "BT-198(BT-5423)-Lot",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
-                  "description" : "Unpublished Accessibility Date",
+                  "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5423)-Lot"
                 } ]
               } ]
@@ -1492,7 +1492,7 @@
               "id" : "BT-198(BT-734)-Lot",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-734)-Lot"
             } ]
           } ]
@@ -1534,7 +1534,7 @@
             "id" : "BT-198(BT-543)-Lot",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-543)-Lot"
           } ]
         }, {
@@ -1575,7 +1575,7 @@
             "id" : "BT-198(BT-733)-Lot",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-733)-Lot"
           } ]
         } ]
@@ -1737,7 +1737,7 @@
           "id" : "BT-157-LotsGroup",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Group Framework Estimated Maximum Value",
+          "description" : "Group Framework Maximum Value",
           "_label" : "field|name|BT-157-LotsGroup"
         } ]
       }, {
@@ -1814,7 +1814,7 @@
               "id" : "BT-198(BT-539)-LotsGroup",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-539)-LotsGroup"
             } ]
           }, {
@@ -1855,7 +1855,7 @@
               "id" : "BT-198(BT-540)-LotsGroup",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-540)-LotsGroup"
             } ]
           }, {
@@ -1910,7 +1910,7 @@
                   "id" : "BT-198(BT-541)-LotsGroup",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
-                  "description" : "Unpublished Accessibility Date",
+                  "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-541)-LotsGroup"
                 } ]
               }, {
@@ -1951,7 +1951,7 @@
                   "id" : "BT-198(BT-5421)-LotsGroup",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
-                  "description" : "Unpublished Accessibility Date",
+                  "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5421)-LotsGroup"
                 } ]
               }, {
@@ -1992,7 +1992,7 @@
                   "id" : "BT-198(BT-5422)-LotsGroup",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
-                  "description" : "Unpublished Accessibility Date",
+                  "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5422)-LotsGroup"
                 } ]
               }, {
@@ -2033,7 +2033,7 @@
                   "id" : "BT-198(BT-5423)-LotsGroup",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
-                  "description" : "Unpublished Accessibility Date",
+                  "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5423)-LotsGroup"
                 } ]
               } ]
@@ -2076,7 +2076,7 @@
               "id" : "BT-198(BT-734)-LotsGroup",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-734)-LotsGroup"
             } ]
           } ]
@@ -2118,7 +2118,7 @@
             "id" : "BT-198(BT-543)-LotsGroup",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-543)-LotsGroup"
           } ]
         }, {
@@ -2159,7 +2159,7 @@
             "id" : "BT-198(BT-733)-LotsGroup",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-733)-LotsGroup"
           } ]
         } ]
@@ -2214,14 +2214,14 @@
           "id" : "BT-198(BT-161)-NoticeResult",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Unpublished Accessibility Date",
+          "description" : "Unpublished Access Date",
           "_label" : "field|name|BT-198(BT-161)-NoticeResult"
         } ]
       }, {
         "id" : "BT-118-NoticeResult",
         "contentType" : "field",
         "displayType" : "TEXTBOX",
-        "description" : "Notice Framework Value",
+        "description" : "Notice Framework Maximum Value",
         "_label" : "field|name|BT-118-NoticeResult"
       }, {
         "id" : "GR-Unpublish-BT-118",
@@ -2254,7 +2254,7 @@
           "id" : "BT-198(BT-118)-NoticeResult",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Unpublished Accessibility Date",
+          "description" : "Unpublished Access Date",
           "_label" : "field|name|BT-198(BT-118)-NoticeResult"
         } ]
       }, {
@@ -2294,7 +2294,7 @@
           "id" : "BT-198(BT-1118)-NoticeResult",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Unpublished Accessibility Date",
+          "description" : "Unpublished Access Date",
           "_label" : "field|name|BT-198(BT-1118)-NoticeResult"
         } ]
       }, {
@@ -2343,14 +2343,14 @@
             "id" : "BT-198(BT-556)-NoticeResult",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-556)-NoticeResult"
           } ]
         }, {
           "id" : "BT-156-NoticeResult",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Group Framework Value",
+          "description" : "Group Framework Maximum Value",
           "_label" : "field|name|BT-156-NoticeResult"
         }, {
           "id" : "GR-Unpublish-BT-156",
@@ -2383,7 +2383,7 @@
             "id" : "BT-198(BT-156)-NoticeResult",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-156)-NoticeResult"
           } ]
         }, {
@@ -2424,7 +2424,7 @@
             "id" : "BT-198(BT-1561)-NoticeResult",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Unpublished Accessibility Date",
+            "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-1561)-NoticeResult"
           } ]
         } ]
@@ -2485,7 +2485,7 @@
             "id" : "BT-660-LotResult",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Framework Estimated Value",
+            "description" : "Framework Re-estimated Value",
             "_label" : "field|name|BT-660-LotResult"
           }, {
             "id" : "BT-709-LotResult",
@@ -2524,7 +2524,7 @@
               "id" : "BT-198(BT-709)-LotResult",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-709)-LotResult"
             } ]
           } ]
@@ -2632,7 +2632,7 @@
               "id" : "BT-198(BT-171)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-171)-Tender"
             } ]
           }, {
@@ -2672,7 +2672,7 @@
               "id" : "BT-198(BT-720)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-720)-Tender"
             } ]
           } ]
@@ -2740,7 +2740,7 @@
               "id" : "BT-198(BT-553)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-553)-Tender"
             } ]
           }, {
@@ -2780,7 +2780,7 @@
               "id" : "BT-198(BT-554)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-554)-Tender"
             } ]
           }, {
@@ -2820,7 +2820,7 @@
               "id" : "BT-198(BT-555)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-555)-Tender"
             } ]
           }, {
@@ -2860,7 +2860,7 @@
               "id" : "BT-198(BT-773)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-773)-Tender"
             } ]
           }, {
@@ -2900,7 +2900,7 @@
               "id" : "BT-198(BT-730)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-730)-Tender"
             } ]
           }, {
@@ -2940,7 +2940,7 @@
               "id" : "BT-198(BT-731)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
-              "description" : "Unpublished Accessibility Date",
+              "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-731)-Tender"
             } ]
           } ]
@@ -3023,7 +3023,7 @@
             "id" : "BT-5011-Contract",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Contract EU Funds Identifier",
+            "description" : "Contract EU Funds Financing Identifier",
             "_label" : "field|name|BT-5011-Contract"
           }, {
             "id" : "BT-722-Contract",
