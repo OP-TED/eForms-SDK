@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.29",
-    "createdOn" : "2023-01-24T11:03:12"
+    "version" : "1.5.35",
+    "createdOn" : "2023-02-01T14:36:56"
   },
   "noticeId" : "2",
   "metadata" : [ {
@@ -69,7 +69,7 @@
     "id" : "BT-738-notice",
     "contentType" : "field",
     "displayType" : "TEXTBOX",
-    "description" : "Notice Publication Date Preferred",
+    "description" : "Notice Preferred Publication Date",
     "_label" : "field|name|BT-738-notice",
     "hidden" : true
   }, {

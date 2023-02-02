@@ -62,12 +62,17 @@
                        role="ERROR"
                        test="count(cac:ProcurementProject) &gt; 0">
       <svrl:text>rule|text|ND-ProcedureProcurementScope-4</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope"
+                                 see="node:ND-ProcedureProcurementScope">
+cac:ProcurementProject</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="ND-Part-4"
                        location="/PriorInformationNotice"
                        role="ERROR"
                        test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">
       <svrl:text>rule|text|ND-Part-4</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-Part" see="node:ND-Part">
+cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:failed-assert id="ND-Organizations-4"
@@ -75,6 +80,8 @@
                        role="ERROR"
                        test="count(efac:Organizations) &gt; 0">
       <svrl:text>rule|text|ND-Organizations-4</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-Organizations" see="node:ND-Organizations">
+efac:Organizations</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-2a" name="EFORMS-validation-stage-2a"/>
    <svrl:fired-rule context="/*[$noticeSubType = '4']"/>
@@ -83,7 +90,7 @@
                        role="ERROR"
                        test="count(cbc:IssueTime) &gt; 0">
       <svrl:text>rule|text|BR-BT-00005-0059</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-05_b_-notice">
+      <svrl:diagnostic-reference diagnostic="BT-05_b_-notice" see="field:BT-05(b)-notice">
 cbc:IssueTime</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00127-0007"
@@ -91,7 +98,7 @@ cbc:IssueTime</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:PlannedDate) &gt; 0">
       <svrl:text>rule|text|BR-BT-00127-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-127-notice">
+      <svrl:diagnostic-reference diagnostic="BT-127-notice" see="field:BT-127-notice">
 cbc:PlannedDate</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00701-0007"
@@ -99,7 +106,7 @@ cbc:PlannedDate</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:ID[@schemeName='notice-id']) &gt; 0">
       <svrl:text>rule|text|BR-BT-00701-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-701-notice">
+      <svrl:diagnostic-reference diagnostic="BT-701-notice" see="field:BT-701-notice">
 cbc:ID[@schemeName='notice-id']</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00001-0007"
@@ -107,7 +114,7 @@ cbc:ID[@schemeName='notice-id']</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:UBLVersionID) &gt; 0">
       <svrl:text>rule|text|BR-OPT-00001-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-001-notice">
+      <svrl:diagnostic-reference diagnostic="OPT-001-notice" see="field:OPT-001-notice">
 cbc:UBLVersionID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00002-0007"
@@ -115,7 +122,7 @@ cbc:UBLVersionID</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cbc:CustomizationID) &gt; 0">
       <svrl:text>rule|text|BR-OPT-00002-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-002-notice">
+      <svrl:diagnostic-reference diagnostic="OPT-002-notice" see="field:OPT-002-notice">
 cbc:CustomizationID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00300-0107"
@@ -123,7 +130,8 @@ cbc:CustomizationID</svrl:diagnostic-reference>
                        role="ERROR"
                        test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
       <svrl:text>rule|text|BR-OPT-00300-0107</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer">
+      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer"
+                                 see="field:OPT-300-Procedure-Buyer">
 cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
