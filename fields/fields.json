@@ -9044,11 +9044,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-CrossBorderLawUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-09)-Procedure - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-CrossBorderLawUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-09)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-09)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4000"
       }, {
-        "value" : "{ND-CrossBorderLawUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-09)-Procedure - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-CrossBorderLawUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-09)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-09)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4051"
       } ]
@@ -9083,11 +9083,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ProcedureTypeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-105)-Procedure - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ProcedureTypeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-105)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-105)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1301"
       }, {
-        "value" : "{ND-ProcedureTypeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-105)-Procedure - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ProcedureTypeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-105)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-105)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4052"
       } ]
@@ -9122,11 +9122,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ProcedureAcceleratedUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-106)-Procedure - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ProcedureAcceleratedUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-106)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-106)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1302"
       }, {
-        "value" : "{ND-ProcedureAcceleratedUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-106)-Procedure - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ProcedureAcceleratedUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-106)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-106)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4053"
       } ]
@@ -9196,11 +9196,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-NoticeMaximumValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-118)-NoticeResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-NoticeMaximumValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-118)-NoticeResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-118)-NoticeResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4003"
       }, {
-        "value" : "{ND-NoticeMaximumValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-118)-NoticeResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-NoticeMaximumValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-118)-NoticeResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-118)-NoticeResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4054"
       } ]
@@ -9235,11 +9235,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-DirectAwardJustificationPreviousUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-1252)-Procedure - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-DirectAwardJustificationPreviousUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-1252)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-1252)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1304"
       }, {
-        "value" : "{ND-DirectAwardJustificationPreviousUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-1252)-Procedure - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-DirectAwardJustificationPreviousUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-1252)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-1252)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4055"
       } ]
@@ -9274,11 +9274,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-DirectAwardJustificationTextUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-135)-Procedure - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-DirectAwardJustificationTextUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-135)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-135)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1305"
       }, {
-        "value" : "{ND-DirectAwardJustificationTextUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-135)-Procedure - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-DirectAwardJustificationTextUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-135)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-135)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4056"
       } ]
@@ -9313,11 +9313,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ProcedureAcceleratedJustificationUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-1351)-Procedure - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ProcedureAcceleratedJustificationUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-1351)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-1351)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1306"
       }, {
-        "value" : "{ND-ProcedureAcceleratedJustificationUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-1351)-Procedure - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ProcedureAcceleratedJustificationUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-1351)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-1351)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4057"
       } ]
@@ -9352,11 +9352,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-DirectAwardJustificationCodeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-136)-Procedure - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-DirectAwardJustificationCodeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-136)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-136)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1307"
       }, {
-        "value" : "{ND-DirectAwardJustificationCodeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-136)-Procedure - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-DirectAwardJustificationCodeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-136)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-136)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4058"
       } ]
@@ -9391,11 +9391,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-WinnerChosenUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-142)-LotResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-WinnerChosenUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-142)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-142)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1308"
       }, {
-        "value" : "{ND-WinnerChosenUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-142)-LotResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-WinnerChosenUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-142)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-142)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4059"
       } ]
@@ -9430,11 +9430,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-NotAwardedReasonUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-144)-LotResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-NotAwardedReasonUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-144)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-144)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1309"
       }, {
-        "value" : "{ND-NotAwardedReasonUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-144)-LotResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-NotAwardedReasonUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-144)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-144)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4060"
       } ]
@@ -9469,11 +9469,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-GroupMaximumValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-156)-NoticeResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-GroupMaximumValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-156)-NoticeResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-156)-NoticeResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1310"
       }, {
-        "value" : "{ND-GroupMaximumValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-156)-NoticeResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-GroupMaximumValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-156)-NoticeResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-156)-NoticeResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4061"
       } ]
@@ -9547,11 +9547,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ConcessionRevenueBuyerUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-160)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ConcessionRevenueBuyerUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-160)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-160)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1311"
       }, {
-        "value" : "{ND-ConcessionRevenueBuyerUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-160)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ConcessionRevenueBuyerUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-160)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-160)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4062"
       } ]
@@ -9586,11 +9586,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-NoticeValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-161)-NoticeResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-NoticeValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-161)-NoticeResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-161)-NoticeResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1312"
       }, {
-        "value" : "{ND-NoticeValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-161)-NoticeResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-NoticeValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-161)-NoticeResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-161)-NoticeResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4063"
       } ]
@@ -9625,11 +9625,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ConcessionRevenueUserUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-162)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ConcessionRevenueUserUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-162)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-162)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1313"
       }, {
-        "value" : "{ND-ConcessionRevenueUserUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-162)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ConcessionRevenueUserUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-162)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-162)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4064"
       } ]
@@ -9664,11 +9664,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ValueConcessionDescriptionUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-163)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ValueConcessionDescriptionUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-163)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-163)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1314"
       }, {
-        "value" : "{ND-ValueConcessionDescriptionUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-163)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ValueConcessionDescriptionUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-163)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-163)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4065"
       } ]
@@ -9703,11 +9703,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-TenderRankUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-171)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-TenderRankUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-171)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-171)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1315"
       }, {
-        "value" : "{ND-TenderRankUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-171)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-TenderRankUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-171)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-171)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4066"
       } ]
@@ -9742,11 +9742,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-CountryOriginUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-191)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-CountryOriginUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-191)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-191)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1316"
       }, {
-        "value" : "{ND-CountryOriginUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-191)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-CountryOriginUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-191)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-191)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4067"
       } ]
@@ -9781,11 +9781,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-WinningTenderVariantUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-193)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-WinningTenderVariantUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-193)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-193)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1317"
       }, {
-        "value" : "{ND-WinningTenderVariantUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-193)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-WinningTenderVariantUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-193)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-193)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4068"
       } ]
@@ -9820,11 +9820,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriterionTypeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-539)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionTypeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-539)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-539)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1318"
       }, {
-        "value" : "{ND-LotAwardCriterionTypeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-539)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionTypeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-539)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-539)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4069"
       } ]
@@ -9859,11 +9859,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriterionTypeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-539)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionTypeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-539)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-539)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1319"
       }, {
-        "value" : "{ND-LotsGroupAwardCriterionTypeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-539)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionTypeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-539)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-539)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4070"
       } ]
@@ -9898,11 +9898,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriterionDescriptionUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-540)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionDescriptionUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-540)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-540)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1320"
       }, {
-        "value" : "{ND-LotAwardCriterionDescriptionUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-540)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionDescriptionUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-540)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-540)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4071"
       } ]
@@ -9937,11 +9937,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriterionDescriptionUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-540)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionDescriptionUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-540)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-540)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1321"
       }, {
-        "value" : "{ND-LotsGroupAwardCriterionDescriptionUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-540)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionDescriptionUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-540)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-540)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4072"
       } ]
@@ -9976,11 +9976,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriterionNumberUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-541)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-541)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-541)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1322"
       }, {
-        "value" : "{ND-LotAwardCriterionNumberUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-541)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-541)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-541)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4073"
       } ]
@@ -10015,11 +10015,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriterionNumberUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-541)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-541)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-541)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1323"
       }, {
-        "value" : "{ND-LotsGroupAwardCriterionNumberUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-541)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-541)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-541)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4074"
       } ]
@@ -10054,11 +10054,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriterionNumberWeightUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-5421)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberWeightUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-5421)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5421)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1324"
       }, {
-        "value" : "{ND-LotAwardCriterionNumberWeightUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-5421)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberWeightUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-5421)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5421)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4075"
       } ]
@@ -10093,11 +10093,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriterionNumberWeightUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-5421)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberWeightUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-5421)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5421)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1325"
       }, {
-        "value" : "{ND-LotsGroupAwardCriterionNumberWeightUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-5421)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberWeightUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-5421)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5421)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4076"
       } ]
@@ -10132,11 +10132,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriterionNumberFixUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-5422)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberFixUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-5422)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5422)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1326"
       }, {
-        "value" : "{ND-LotAwardCriterionNumberFixUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-5422)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberFixUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-5422)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5422)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4077"
       } ]
@@ -10171,11 +10171,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriterionNumberFixUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-5422)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberFixUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-5422)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5422)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1327"
       }, {
-        "value" : "{ND-LotsGroupAwardCriterionNumberFixUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-5422)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberFixUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-5422)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5422)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4078"
       } ]
@@ -10210,11 +10210,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriterionNumberThresholdUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-5423)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberThresholdUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-5423)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5423)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1328"
       }, {
-        "value" : "{ND-LotAwardCriterionNumberThresholdUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-5423)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberThresholdUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-5423)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5423)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4079"
       } ]
@@ -10249,11 +10249,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriterionNumberThresholdUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-5423)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberThresholdUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-5423)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5423)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1329"
       }, {
-        "value" : "{ND-LotsGroupAwardCriterionNumberThresholdUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-5423)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberThresholdUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-5423)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-5423)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4080"
       } ]
@@ -10288,11 +10288,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriterionNumberComplicatedUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-543)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberComplicatedUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-543)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-543)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1330"
       }, {
-        "value" : "{ND-LotAwardCriterionNumberComplicatedUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-543)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriterionNumberComplicatedUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-543)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-543)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4081"
       } ]
@@ -10327,11 +10327,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriterionNumberComplicatedUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-543)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberComplicatedUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-543)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-543)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1331"
       }, {
-        "value" : "{ND-LotsGroupAwardCriterionNumberComplicatedUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-543)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriterionNumberComplicatedUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-543)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-543)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4082"
       } ]
@@ -10366,11 +10366,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SubcontractingValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-553)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-SubcontractingValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-553)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-553)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1332"
       }, {
-        "value" : "{ND-SubcontractingValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-553)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-SubcontractingValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-553)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-553)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4083"
       } ]
@@ -10405,11 +10405,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SubcontractingDescriptionUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-554)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-SubcontractingDescriptionUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-554)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-554)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1333"
       }, {
-        "value" : "{ND-SubcontractingDescriptionUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-554)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-SubcontractingDescriptionUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-554)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-554)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4084"
       } ]
@@ -10444,11 +10444,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SubcontractingPercentageUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-555)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-SubcontractingPercentageUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-555)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-555)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1334"
       }, {
-        "value" : "{ND-SubcontractingPercentageUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-555)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-SubcontractingPercentageUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-555)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-555)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4085"
       } ]
@@ -10483,11 +10483,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-GroupMaximalValueIdentifierUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-556)-NoticeResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-GroupMaximalValueIdentifierUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-556)-NoticeResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-556)-NoticeResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1335"
       }, {
-        "value" : "{ND-GroupMaximalValueIdentifierUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-556)-NoticeResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-GroupMaximalValueIdentifierUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-556)-NoticeResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-556)-NoticeResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4086"
       } ]
@@ -10566,11 +10566,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-MaximalValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-709)-LotResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-MaximalValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-709)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-709)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1336"
       }, {
-        "value" : "{ND-MaximalValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-709)-LotResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-MaximalValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-709)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-709)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4087"
       } ]
@@ -10605,11 +10605,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-TenderValueLowestUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-710)-LotResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-TenderValueLowestUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-710)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-710)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1337"
       }, {
-        "value" : "{ND-TenderValueLowestUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-710)-LotResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-TenderValueLowestUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-710)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-710)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4088"
       } ]
@@ -10644,11 +10644,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-TenderValueHighestUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-711)-LotResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-TenderValueHighestUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-711)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-711)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1338"
       }, {
-        "value" : "{ND-TenderValueHighestUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-711)-LotResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-TenderValueHighestUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-711)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-711)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4089"
       } ]
@@ -10683,11 +10683,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-RevewRequestsUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-712)-LotResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-RevewRequestsUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-712)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-712)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1339"
       }, {
-        "value" : "{ND-RevewRequestsUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-712)-LotResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-RevewRequestsUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-712)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-712)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4090"
       } ]
@@ -10722,11 +10722,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-WinningTenderValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-720)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-WinningTenderValueUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-720)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-720)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1340"
       }, {
-        "value" : "{ND-WinningTenderValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-720)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-WinningTenderValueUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-720)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-720)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4091"
       } ]
@@ -10761,11 +10761,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SubcontractingValueKnownUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-730)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-SubcontractingValueKnownUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-730)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-730)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1341"
       }, {
-        "value" : "{ND-SubcontractingValueKnownUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-730)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-SubcontractingValueKnownUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-730)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-730)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4092"
       } ]
@@ -10800,11 +10800,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SubcontractingPercentageKnownUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-731)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-SubcontractingPercentageKnownUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-731)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-731)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1342"
       }, {
-        "value" : "{ND-SubcontractingPercentageKnownUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-731)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-SubcontractingPercentageKnownUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-731)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-731)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4093"
       } ]
@@ -10839,11 +10839,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriteriaOrderJustificationUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-733)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriteriaOrderJustificationUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-733)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-733)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1343"
       }, {
-        "value" : "{ND-LotAwardCriteriaOrderJustificationUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-733)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriteriaOrderJustificationUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-733)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-733)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4094"
       } ]
@@ -10878,11 +10878,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriteriaOrderJustificationUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-733)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriteriaOrderJustificationUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-733)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-733)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1344"
       }, {
-        "value" : "{ND-LotsGroupAwardCriteriaOrderJustificationUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-733)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriteriaOrderJustificationUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-733)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-733)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4095"
       } ]
@@ -10917,11 +10917,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriteriaNameUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-734)-Lot - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotAwardCriteriaNameUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-734)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-734)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1345"
       }, {
-        "value" : "{ND-LotAwardCriteriaNameUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-734)-Lot - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotAwardCriteriaNameUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-734)-Lot - BT-05(a)-notice) < P10Y) and ((BT-198(BT-734)-Lot - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4096"
       } ]
@@ -10956,11 +10956,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriteriaNameUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-734)-LotsGroup - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriteriaNameUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-734)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-734)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1346"
       }, {
-        "value" : "{ND-LotsGroupAwardCriteriaNameUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-734)-LotsGroup - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-LotsGroupAwardCriteriaNameUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-734)-LotsGroup - BT-05(a)-notice) < P10Y) and ((BT-198(BT-734)-LotsGroup - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4097"
       } ]
@@ -10995,11 +10995,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ReceivedSubmissionCountUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-759)-LotResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ReceivedSubmissionCountUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-759)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-759)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1347"
       }, {
-        "value" : "{ND-ReceivedSubmissionCountUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-759)-LotResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ReceivedSubmissionCountUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-759)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-759)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4098"
       } ]
@@ -11034,11 +11034,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ReceivedSubmissionTypeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-760)-LotResult - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ReceivedSubmissionTypeUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-760)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-760)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1348"
       }, {
-        "value" : "{ND-ReceivedSubmissionTypeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-760)-LotResult - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ReceivedSubmissionTypeUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-760)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-760)-LotResult - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4099"
       } ]
@@ -11073,11 +11073,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SubcontractingUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-773)-Tender - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-SubcontractingUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-773)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-773)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1349"
       }, {
-        "value" : "{ND-SubcontractingUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-773)-Tender - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-SubcontractingUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-773)-Tender - BT-05(a)-notice) < P10Y) and ((BT-198(BT-773)-Tender - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4100"
       } ]
@@ -11112,11 +11112,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ProcedureFeaturesUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081'))) and ((BT-198(BT-88)-Procedure - BT-05(a)-notice) < P5Y)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
+        "value" : "{ND-ProcedureFeaturesUnpublish} ${(((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))  and ((BT-198(BT-88)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-88)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('25','26','28','29','30','32','E4','33','34','35')) or ((OPP-070-notice == 'E5') and (BT-01-notice != '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-1350"
       }, {
-        "value" : "{ND-ProcedureFeaturesUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and ((BT-198(BT-88)-Procedure - BT-05(a)-notice) < P30Y)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
+        "value" : "{ND-ProcedureFeaturesUnpublish} ${(((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))  and ((BT-198(BT-88)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-88)-Procedure - BT-05(a)-notice) >= P2D)) or not((OPP-070-notice in ('27','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081')))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00198-4101"
       } ]
