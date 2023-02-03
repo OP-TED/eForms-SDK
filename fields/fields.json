@@ -1141,7 +1141,7 @@
     "parentId" : "ND-LotResult",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']",
     "xpathRelative" : "efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']",
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-RevewRequestsUnpublish",
     "parentId" : "ND-BuyerReviewComplainants",
