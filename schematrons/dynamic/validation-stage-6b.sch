@@ -14,7 +14,7 @@
 <let name="parentNotice" value="$getParentNotice($parentNoticeId)"/>
 
 <!-- Rules applying at root or Procedure level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']">
+<rule context="/*[$isChangeNotice = true()]">
 	<!-- Notice subtype -->
 	<assert role="ERROR" test="$noticeSubType eq $parentNotice/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/fn:normalize-space(text())">
 		The notice subtype must be the same as for the parent notice.
@@ -102,7 +102,7 @@
 </rule>
 
 <!-- Rules applying at ContractingParty level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ContractingParty">
+<rule context="/*[$isChangeNotice = true()]/cac:ContractingParty">
 	<!-- BT-11 Buyer Legal Type -->
 	<assert role="ERROR" test="deep-equal( cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()), $parentNotice/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/fn:normalize-space(text()) )">
 		The BT-11 Buyer Legal Type must be the same as for the parent notice.
@@ -125,7 +125,7 @@
 </rule>
 
 <!-- Rules applying at lot distribution level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup">
+<rule context="/*[$isChangeNotice = true()]/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup">
 	<let name="glo-id" value="cbc:LotsGroupID[@schemeName='LotsGroup']/fn:normalize-space(text())"/>
 
 	<!-- BT-1375 Group Lot Identifier -->
@@ -135,7 +135,7 @@
 </rule>
 
 <!-- Rules applying at Part level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']">
+<rule context="/*[$isChangeNotice = true()]/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']">
 	<let name="part-id" value="cbc:ID[@schemeName='Part']/fn:normalize-space(text())"/>
 	
 	<!-- BT-115 GPA Coverage -->
@@ -145,7 +145,7 @@
 </rule>
 
 <!-- Rules applying at Lot level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']">
+<rule context="/*[$isChangeNotice = true()]/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']">
 	<let name="lot-id" value="cbc:ID[@schemeName='Lot']/fn:normalize-space(text())"/>
 
 	<!-- BT-63 Variants -->
@@ -236,7 +236,7 @@
 <!-- END OF Rules applying at Lot level -->
 
 <!-- Rules applying at Lot MainCommodityClassification level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification">
+<rule context="/*[$isChangeNotice = true()]/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification">
 	<let name="lot-id" value="../../cbc:ID/fn:normalize-space(text())"/>
 	<let name="list-name" value="cbc:ItemClassificationCode/fn:normalize-space(@listName)"/>
 	
@@ -246,7 +246,7 @@
 </rule>
 
 <!-- Rules applying at Lot SpecificTendererRequirement level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement">
+<rule context="/*[$isChangeNotice = true()]/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement">
 	<let name="lot-id" value="../../../cbc:ID/fn:normalize-space(text())"/>
 	
 	<!-- BT-71 Reserved Participation -->
@@ -256,7 +256,7 @@
 </rule>
 
 <!-- Rules applying at Lot Subcontracting Obligation level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms">
+<rule context="/*[$isChangeNotice = true()]/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms">
 	<let name="lot-id" value="../../cbc:ID/fn:normalize-space(text())"/>
 	<let name="subcontracting-conditions-code" value="cbc:SubcontractingConditionsCode[@listName='subcontracting-obligation']/fn:normalize-space(text())"/>
 
@@ -277,7 +277,7 @@
 </rule>
 
 <!-- Rules applying at NoticeResult level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult">
+<rule context="/*[$isChangeNotice = true()]/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult">
 
 	<!-- BT-13713-LotResult -->
 	<assert role="ERROR" test="deep-equal( sort(efac:LotResult/efac:TenderLot/cbc:ID[@schemeName='Lot']/fn:normalize-space(text())), sort($parentNotice/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID[@schemeName='Lot']/fn:normalize-space(text())) )">
@@ -296,7 +296,7 @@
 </rule>
 
 <!-- Rules applying at LotResult level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult">
+<rule context="/*[$isChangeNotice = true()]/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult">
 	<!-- the identity of a LotResult is given by the ID of the Lot it is for -->
 	<let name="lot-id" value="efac:TenderLot/cbc:ID[@schemeName='Lot']/fn:normalize-space(text())"/>
 
@@ -307,7 +307,7 @@
 </rule>
 
 <!-- Rules applying at LotTender level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender">
+<rule context="/*[$isChangeNotice = true()]/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender">
 	<let name="tender-id" value="cbc:ID[@schemeName='tender']/fn:normalize-space(text())"/>
 
 	<!-- BT-13714 Tender Lot Identifier -->
@@ -317,7 +317,7 @@
 </rule>
 
 <!-- Rules applying at SettledContract level -->
-<rule context="/*[cbc:NoticeTypeCode/@listName='change']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract">
+<rule context="/*[$isChangeNotice = true()]/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract">
 	<let name="contract-id" value="cbc:ID[@schemeName='contract']/fn:normalize-space(text())"/>
 	
 	<!-- BT-3202 Contract Tender Identifier -->

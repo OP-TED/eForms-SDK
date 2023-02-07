@@ -1660,10 +1660,6 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00002-0103"
       }, {
-        "value" : "{ND-Root} ${((BT-03-notice == 'change') and (BT-02-notice in (change))) or not(BT-03-notice == 'change')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00002-0104"
-      }, {
         "value" : "{ND-Root} ${((BT-03-notice == 'competition') and (BT-02-notice in (competition))) or not(BT-03-notice == 'competition')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00002-0105"
@@ -1783,10 +1779,6 @@
         "value" : "{ND-Root} ${(BT-05(a)-notice < BT-738-notice) or not(BT-738-notice is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00005-0150"
-      }, {
-        "value" : "{ND-Root} ${((BT-03-notice == 'change') and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice in ('cancel','cancel-intent'))) or not((BT-03-notice == 'change') and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00005-0151"
       } ]
     }
   }, {
@@ -21180,10 +21172,6 @@
         "value" : "{ND-RootExtension} ${((BT-02-notice == 'cn-standard') and (OPP-070-notice in (cn-standard))) or not(BT-02-notice == 'cn-standard')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPP-00070-0109"
-      }, {
-        "value" : "{ND-RootExtension} ${((BT-02-notice == 'corr') and (OPP-070-notice in (corr))) or not(BT-02-notice == 'corr')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-OPP-00070-0110"
       }, {
         "value" : "{ND-RootExtension} ${((BT-02-notice == 'pin-buyer') and (OPP-070-notice in (pin-buyer))) or not(BT-02-notice == 'pin-buyer')}",
         "severity" : "ERROR",

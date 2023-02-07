@@ -18,6 +18,9 @@
 	
 	<let name="noticeSubType" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text()"/>
 	
+	<!-- True if the current notice is a change notice. -->
+	<let name="isChangeNotice" value="boolean(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efbc:ChangedNoticeIdentifier)"/>
+
 	<include href="config.sch"/>
 	<include href="validation-stage-1a.sch"/>
 	<include href="validation-stage-1b.sch"/>
