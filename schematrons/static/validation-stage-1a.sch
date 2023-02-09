@@ -4,7 +4,7 @@
 		<assert id="P-0001" role="ERROR" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode) &gt; 0">
 			rule|text|P-0001
 		</assert>
-		<assert id="P-0002" role="ERROR" test="(cbc:NoticeTypeCode/text() = ('pin-buyer', 'brin-eeig', 'brin-ecs') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('pin-buyer', 'brin-eeig', 'brin-ecs')) and count(cac:ProcurementProjectLot) > 0)">
+		<assert id="P-0002" role="ERROR" test="($noticeSubType = ('1', '2', '3', 'X01', 'X02') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('1', '2', '3', 'X01', 'X02')) and count(cac:ProcurementProjectLot) > 0)">
 			rule|text|P-0002
 		</assert>
 	</rule>

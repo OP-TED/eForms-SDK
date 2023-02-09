@@ -47,7 +47,7 @@
    <svrl:failed-assert id="P-0002"
                        location="/ContractAwardNotice"
                        role="ERROR"
-                       test="(cbc:NoticeTypeCode/text() = ('pin-buyer', 'brin-eeig', 'brin-ecs') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('pin-buyer', 'brin-eeig', 'brin-ecs')) and count(cac:ProcurementProjectLot) &gt; 0)">
+                       test="($noticeSubType = ('1', '2', '3', 'X01', 'X02') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('1', '2', '3', 'X01', 'X02')) and count(cac:ProcurementProjectLot) &gt; 0)">
       <svrl:text>
 			rule|text|P-0002
 		</svrl:text>
