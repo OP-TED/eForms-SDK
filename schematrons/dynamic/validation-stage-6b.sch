@@ -24,6 +24,19 @@
 <!-- XML document of the parent notice. -->
 <let name="parentNotice" value="$getParentNotice($parentNoticeId)"/>
 
+<!-- URL of the request to the TED website API to search for a notice by its identifier
+	 The marker ##NOTICE_ID## must be replaced by the notice identifier value. -->
+<let name="tedSearchUrlPattern" value="'https://ted.europa.eu/api/v3.0/notices/search?q=notice-identifier=[##NOTICE_ID##]&amp;scope=3'"/>
+
+<!-- Function that takes a notice id, calls the search API and return the response as text. -->
+<let name="searchNotice" value="function($id) { fn:unparsed-text(replace($tedSearchUrlPattern, '##NOTICE_ID##', $id)) }"/>
+
+<rule context="/*/cbc:ID">
+	<assert role="ERROR" test="matches($searchNotice(normalize-space(.)), '&quot;total&quot;\s*:\s*0')">
+		There is already a published notice with this identifier.
+	</assert>
+</rule>
+
 <!-- Rules applying at root or Procedure level -->
 <rule context="/*[$isChangeNotice = true()]">
 	<!-- Notice subtype -->
