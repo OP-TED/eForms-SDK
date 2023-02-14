@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in English. File generated from metadata database version 1.5.29 created on the 2023-01-24T11:03:12</comment>
+<comment>group in English. File generated from metadata database version 1.5.58 created on the 2023-02-14T10:02:21</comment>
 <entry key="group|name|GR-132001">Information about Recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
@@ -240,6 +240,7 @@
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Not Immediately Published (DirectAwardJustificationPrevious)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Not Immediately Published (DirectAwardJustificationText)</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
+<entry key="group|name|ND-GroupComposition">Composition of a given Group of lots</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Not Immediately Published (GroupMaximalValueIdentifier)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Not Immediately Published (GroupMaximumValue)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Not Immediately Published (GroupReestimatedValue)</entry>
@@ -261,12 +262,15 @@
 <entry key="group|name|ND-LotAwardCriterionParameter">Award criterion</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Award criteria</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Not Immediately Published (LotAwardCriterionType)</entry>
+<entry key="group|name|ND-LotDistribution">Lots Distribution Information (Max number of Lots a same tenderer may win, Max number of lots a tenderer may tender for, Group of lots and their composition)</entry>
+<entry key="group|name|ND-LotMainClassification">Classification for the Main Commodity of a Lot</entry>
 <entry key="group|name|ND-LotPlacePerformance">Place of performance</entry>
 <entry key="group|name|ND-LotPreviousPlanning">Reference to previous planning</entry>
 <entry key="group|name|ND-LotProcurementDocument">Procurement Document information for a Lot, independent from the restricted aspect</entry>
 <entry key="group|name|ND-LotReservedProcurement">Reserved Procurement</entry>
 <entry key="group|name|ND-LotResult">Result of the lot</entry>
 <entry key="group|name|ND-LotTender">Submitted tender</entry>
+<entry key="group|name|ND-LotTenderingProcess">Tendering Procedure information (GPA, Atypical Tool, Deadlines, techniques) for a Lot</entry>
 <entry key="group|name|ND-LotsGroup">Information about groups of lots</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteria">Award criteria</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteriaNameUnpublish">Not Immediately Published (LotsGroupAwardCriteriaName)</entry>
@@ -287,6 +291,7 @@
 <entry key="group|name|ND-NDA">Description of the NDA</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Not Immediately Published (NotAwardedReason)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Not Immediately Published (NoticeMaximumValue)</entry>
+<entry key="group|name|ND-NoticeResult">Outcome of the Procurement Procedure for all lots listed in the notice (also contains individual Lot Results)</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximum value of group of lots</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Not Immediately Published (NoticeValue)</entry>
 <entry key="group|name|ND-OptionsDescription">Description of Options or Renewals</entry>
@@ -294,6 +299,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Conditions other than Revenue Allocation</entry>
 <entry key="group|name|ND-Part">Information about the part</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Additional classification</entry>
+<entry key="group|name|ND-PartMainClassification">Classification for the Main Commodity of a Part</entry>
 <entry key="group|name|ND-PartPlacePerformance">Place of performance</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Previous planning reference</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserved Procurement</entry>
@@ -302,7 +308,10 @@
 <entry key="group|name|ND-ProcedureAcceleratedUnpublish">Not Immediately Published (Procedure Accelerated)</entry>
 <entry key="group|name|ND-ProcedureAdditionalCommodityClassification">Additional classification</entry>
 <entry key="group|name|ND-ProcedureFeaturesUnpublish">Not Immediately Published (ProcedureFeatures)</entry>
+<entry key="group|name|ND-ProcedureMainClassification">Classification for the Main Commodity of the Procedure</entry>
 <entry key="group|name|ND-ProcedurePlacePerformanceAdditionalInformation">Additional information about place of performance</entry>
+<entry key="group|name|ND-ProcedureProcurementScope">Scope of the Procurement addressed with the whole notice</entry>
+<entry key="group|name|ND-ProcedureTenderingProcess">Properties (Type, Relaunch, Termination, tendering for all lots) of the Tendering Process of the Procurement Procedure as a whole</entry>
 <entry key="group|name|ND-ProcedureTypeUnpublish">Not Immediately Published (Procedure Type)</entry>
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Not Immediately Published (ReceivedSubmissionCount)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Not Immediately Published (ReceivedSubmissionType)</entry>
