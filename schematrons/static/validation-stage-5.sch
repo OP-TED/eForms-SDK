@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.5.56 created on the 2023-02-08T15:03:22.-->
+<!--File generated from metadata database version 1.5.58 created on the 2023-02-14T10:02:21.-->
 <pattern id="EFORMS-validation-stage-5" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BR-BT-00002-0100" role="ERROR" diagnostics="BT-02-notice" test="((cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023') and (cbc:NoticeTypeCode/normalize-space(text()) = ('pin-cfc-social','cn-standard','veat','can-standard','can-social'))) or not(cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023')">rule|text|BR-BT-00002-0100</assert>
@@ -109,9 +109,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion">
 		<assert id="BR-BT-00540-0150" role="ERROR" diagnostics="BT-540-Lot" test="(count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterCode[@listName='number-threshold'][./normalize-space(text()) = 'min-score']) &lt;= 1) and (count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterCode[@listName='number-threshold'][./normalize-space(text()) = 'max-pass']) &lt;= 1)">rule|text|BR-BT-00540-0150</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
-		<assert id="BR-BT-00539-0198" role="ERROR" test="(count(for $x in ../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric[../efbc:ParameterCode[@listName='number-weight']/normalize-space(text()) = 'ord-imp'], $y in /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric[../efbc:ParameterCode[@listName='number-weight']/normalize-space(text()) = 'ord-imp'][. = $x] return $y) = 1) or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efbc:ParameterNumeric[../efbc:ParameterCode[@listName='number-weight']/normalize-space(text()) = 'ord-imp'])">rule|text|BR-BT-00539-0198</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter">
 		<assert id="BR-BT-05421-0250" role="ERROR" diagnostics="BT-5421-Lot" test="(efbc:ParameterCode[@listName='number-weight']/normalize-space(text()) = ('dec-exa','ord-imp','per-exa','poi-exa')) or not((../../../../../../../../../../cbc:NoticeTypeCode/@listName = ('result','cont-modif','dir-awa-pre')) and (efbc:ParameterCode[@listName='number-weight']))">rule|text|BR-BT-05421-0250</assert>

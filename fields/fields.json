@@ -15090,11 +15090,6 @@
         "value" : "{ND-LotAwardCriteria} ${every number:$ordImp in BT-541-Lot[BT-5421-Lot == 'ord-imp'] satisfies($ordImp <= count(BT-541-Lot[BT-5421-Lot == 'ord-imp']))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0197"
-      }, {
-        "condition" : "{BT-539-Lot} ${BT-541-Lot[BT-5421-Lot == 'ord-imp'] is present}",
-        "value" : "{BT-539-Lot} ${BT-541-Lot[BT-5421-Lot == 'ord-imp'] is unique in /BT-541-Lot[BT-5421-Lot == 'ord-imp']}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00539-0198"
       } ]
     }
   }, {
