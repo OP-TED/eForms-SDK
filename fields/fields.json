@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.56",
-    "createdOn" : "2023-02-08T15:03:22"
+    "version" : "1.5.58",
+    "createdOn" : "2023-02-14T10:02:21"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3161,6 +3161,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "LOT",
+    "schemeName" : "Lot",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -3220,6 +3221,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "GLO",
+    "schemeName" : "LotsGroup",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -3264,6 +3266,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "PAR",
+    "schemeName" : "Part",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -3381,7 +3384,7 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderLot/cbc:ID",
     "xpathRelative" : "efac:TenderLot/cbc:ID",
     "type" : "id-ref",
-    "idSchemes" : [ "LOT", "GLO" ],
+    "idSchemes" : [ "GLO", "LOT" ],
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -22198,6 +22201,7 @@
     "xpathRelative" : "cac:PartyIdentification/cbc:ID",
     "type" : "id",
     "idScheme" : "ORG",
+    "schemeName" : "organization",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -22256,6 +22260,7 @@
     "xpathRelative" : "cac:PartyIdentification/cbc:ID",
     "type" : "id",
     "idScheme" : "TPO",
+    "schemeName" : "touchpoint",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -22297,6 +22302,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "UBO",
+    "schemeName" : "ubo",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -22338,6 +22344,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "TPA",
+    "schemeName" : "Tendering-party",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -23771,6 +23778,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "CON",
+    "schemeName" : "contract",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -23856,6 +23864,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "TEN",
+    "schemeName" : "tender",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -23905,6 +23914,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "RES",
+    "schemeName" : "result",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
