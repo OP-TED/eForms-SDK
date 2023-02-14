@@ -1,6 +1,6 @@
 // View 24
-// sdkVersion='1.4.0'
-// File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30
+// sdkVersion='1.5.0'
+// File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00
 1 {ND-Root} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -114,7 +114,7 @@
 				{BT-661-Lot[BT-51-Lot is present]} #{name|BT-51}: ${BT-51-Lot} // Maximum Candidates
 				{BT-52-Lot[BT-52-Lot == TRUE]} #{name|BT-52} // The procedure will take place in successive stages. In each stage, some participants may be eliminated.
 				{BT-120-Lot[BT-120-Lot == TRUE]} #{name|BT-120} // The buyer reserves the right to award the contract on the basis of the initial tenders without any further negotiations.
-		10 {BT-137-Lot[(BT-539-Lot is present)]} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria
+		10 {BT-137-Lot[(BT-539-Lot is present or BT-543-Lot is present)]} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria
 			0 {BT-539-Lot} #{auxiliary|text|criterion} // + Award Criterion
 				0 {BT-539-Lot} #{name|BT-539}: #{BT-539-Lot} // Type
 				0 {BT-734-Lot} #{name|BT-734}: ${BT-734-Lot} // Name
@@ -124,7 +124,7 @@
 				0 {BT-5423-Lot} #{BT-5423-Lot} - ${BT-541-Lot} // Award Criterion Number Threshold / Award Criterion Number
 				0 {BT-543-Lot} #{name|BT-543}: ${BT-543-Lot} // Award Criteria Complicated
 				0 {BT-733-Lot} #{name|BT-733}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
-		11 {BT-137-Lot[BT-14-Lot is present]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement document
+		11 {BT-137-Lot[BT-14-Lot is present]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
 			{BT-137-Lot[some text:$restricted in (for text:$somerestricted in BT-14-Lot return $somerestricted) satisfies $restricted == 'restricted-document']} #{business-term|name|BT-14} // The access to certain procurement documents is restricted. (Lot)
 			{BT-707-Lot} #{name|BT-707}: #{BT-707-Lot} // Justification for restricting access to certain procurement documents (Lot)
 			{BT-137-Lot} #{name|BT-708}: ${distinct-values(for text:$lang in BT-708-Lot return $lang)} // Languages in which the procurement documents are officially available (Lot)
