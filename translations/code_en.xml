@@ -10217,7 +10217,7 @@
 <entry key="code|name|environmental-impact.other">Other</entry>
 <entry key="code|name|environmental-impact.pollu-prev">Pollution prevention and control</entry>
 <entry key="code|name|environmental-impact.water-mar">The sustainable use and protection of water and marine resources</entry>
-<entry key="code|name|eu-funded.eu-funds">Procurement Project partly financed with EU Funds.</entry>
+<entry key="code|name|eu-funded.eu-funds">Procurement Project fully or partially financed with EU Funds.</entry>
 <entry key="code|name|eu-funded.no-eu-funds">Procurement Project not financed with EU Funds.</entry>
 <entry key="code|name|eu-programme.AFIS2020">Anti Fraud Information System (AFIS)</entry>
 <entry key="code|name|eu-programme.AGR">European Agricultural Guarantee Fund (after transfers between EAGF and EAFRD)</entry>
@@ -10385,8 +10385,8 @@
 <entry key="code|name|innovative-acquisition.mar-nov">The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.</entry>
 <entry key="code|name|innovative-acquisition.org-nov">The procured works, supplies or services are novel for the organisation.</entry>
 <entry key="code|name|innovative-acquisition.other">Other</entry>
-<entry key="code|name|innovative-acquisition.proc-innov"></entry>
-<entry key="code|name|innovative-acquisition.prod-innov"></entry>
+<entry key="code|name|innovative-acquisition.proc-innov">The procured works, supplies, or services entail process innovation.</entry>
+<entry key="code|name|innovative-acquisition.prod-innov">The procured works, supplies, or services entail product innovation.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">The procured works, supplies or services involve research and development activities.</entry>
 <entry key="code|name|irregularity-type.ab-low">Unjustified rejection of abnormally low tenders</entry>
 <entry key="code|name|irregularity-type.ar-split">Artificial splitting of contracts</entry>
@@ -18744,6 +18744,8 @@
 <entry key="code|name|non-publication-identifier.awa-cri-thr">Award Criterion Number Threshold (BT-5423)</entry>
 <entry key="code|name|non-publication-identifier.awa-cri-typ">Award Criterion Type (BT-539)</entry>
 <entry key="code|name|non-publication-identifier.awa-cri-wei">Award Criterion Number Weight (BT-5421)</entry>
+<entry key="code|name|non-publication-identifier.buy-rev-cou">Buyer Review Requests Count (BT-635)</entry>
+<entry key="code|name|non-publication-identifier.buy-rev-typ">Buyer Review Requests Irregularity Type (BT-636)</entry>
 <entry key="code|name|non-publication-identifier.con-rev-buy">Concession Revenue Buyer (BT-160)</entry>
 <entry key="code|name|non-publication-identifier.con-rev-use">Concession Revenue User (BT-162)</entry>
 <entry key="code|name|non-publication-identifier.cou-ori">Country Origin (BT-191)</entry>
@@ -18755,9 +18757,11 @@
 <entry key="code|name|non-publication-identifier.gro-max-val">Group Maximum Value (BT-156)</entry>
 <entry key="code|name|non-publication-identifier.max-val">Maximum Value (BT-709)</entry>
 <entry key="code|name|non-publication-identifier.no-awa-rea">Not Awarded Reason (BT-144)</entry>
+<entry key="code|name|non-publication-identifier.not-app-val">Notice Framework Approximate Value (BT-1118)</entry>
 <entry key="code|name|non-publication-identifier.not-dis-dat">Notice Dispatch Date (BT-05)</entry>
 <entry key="code|name|non-publication-identifier.not-max-val">Notice Maximum Value (BT-118)</entry>
 <entry key="code|name|non-publication-identifier.not-pub-dat">Notice Publication Date Preferred (BT-738)</entry>
+<entry key="code|name|non-publication-identifier.not-ree-val">Group Framework Re-estimated Value (BT-1561)</entry>
 <entry key="code|name|non-publication-identifier.not-val">Notice Value (BT-161)</entry>
 <entry key="code|name|non-publication-identifier.pro-acc">Procedure Accelerated (BT-106)</entry>
 <entry key="code|name|non-publication-identifier.pro-acc-jus">Procedure Accelerated Justification (BT-1351)</entry>
