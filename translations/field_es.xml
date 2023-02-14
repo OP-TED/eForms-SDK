@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Spanish. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Spanish. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Número máximo de renovaciones</entry>
 <entry key="field|name|BT-60-Lot">La contratación pública se financia, al menos parcialmente, con fondos de la Unión Europea.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Actividad de la entidad adjudicadora</entry>
-<entry key="field|name|BT-6110-Contract">Detalles del fondo de la UE</entry>
+<entry key="field|name|BT-6110-Contract">Descripción</entry>
 <entry key="field|name|BT-6140-Lot">Más información sobre el programa o proyecto de la Unión utilizado al menos parcialmente para financiar la contratación pública</entry>
 <entry key="field|name|BT-615-Lot">La información sobre los documentos restringidos está disponible en</entry>
 <entry key="field|name|BT-615-Part">La información sobre los documentos restringidos está disponible en</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Fecha de envío del anuncio (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Fecha de envío del anuncio (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Criterios de contratación pública ecológica</entry>
-<entry key="field|name|BT-88-Procedure">Descripción del procedimiento</entry>
+<entry key="field|name|BT-88-Procedure">Las principales características del procedimiento</entry>
 <entry key="field|name|BT-92-Lot">Se utilizarán pedidos electrónicos</entry>
 <entry key="field|name|BT-93-Lot">Se utilizará el pago electrónico</entry>
 <entry key="field|name|BT-94-Lot">Se trata de una contratación recurrente.</entry>

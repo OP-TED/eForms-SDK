@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Bulgarian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in Bulgarian. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="auxiliary|text|BT-01">Правно основание</entry>
 <entry key="auxiliary|text|BT-08">Роля на организацията</entry>
 <entry key="auxiliary|text|BT-36">Продължителност</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Информация за средствата от Европейския съюз, използвани за финансиране на договора</entry>
 <entry key="auxiliary|text|exclusion-grounds">Основания за изключване</entry>
 <entry key="auxiliary|text|framework-agreement">Рамково споразумение</entry>
+<entry key="auxiliary|text|further-info">Допълнителна информация, медиация и преглед</entry>
 <entry key="auxiliary|text|general-information">Обща информация</entry>
 <entry key="auxiliary|text|group-framework-value">Прогнозна стойност на рамковите споразумения в групата обособени позиции</entry>
 <entry key="auxiliary|text|group-of-lots">Група обособени позиции</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Резултат от процедурата за възлагане на обществена поръчка</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Вид на предполагаемата нередност</entry>
 <entry key="auxiliary|text|review-requests-summary">Обобщение на получените от купувача искания за преразглеждане</entry>
-<entry key="auxiliary|text|roles">Роля(и)</entry>
+<entry key="auxiliary|text|roles">Ролите на тази организация</entry>
 <entry key="auxiliary|text|second-stage">Информация за втория етап на двуетапна процедура</entry>
 <entry key="auxiliary|text|selection-criteria">Критерии за подбор</entry>
 <entry key="auxiliary|text|start-duration-contract">Начална дата и продължителност на договора</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Стойност</entry>
 <entry key="auxiliary|text|winner">Победител</entry>
 <entry key="auxiliary|text|winner-info">Информация за победителите</entry>
+<entry key="auxiliary|text|winner-lots">Победител в тези лотове</entry>
 <entry key="auxiliary|text|winner-subcontractor">Подизпълнители на победителя</entry>
 </properties>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Finnish. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Finnish. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Uusimisten enimmäismäärä</entry>
 <entry key="field|name|BT-60-Lot">Hankinta rahoitetaan ainakin osittain Euroopan unionin varoista.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Hankintayksikön toiminta</entry>
-<entry key="field|name|BT-6110-Contract">EU:n rahaston tiedot</entry>
+<entry key="field|name|BT-6110-Contract">Kuvaus</entry>
 <entry key="field|name|BT-6140-Lot">Lisätietoja ainakin osittain hankinnan rahoituksesta käytetystä unionin ohjelmasta tai hankkeesta</entry>
 <entry key="field|name|BT-615-Lot">Tietoa asiakirjojen saatavuuden rajoittamisesta on osoitteessa</entry>
 <entry key="field|name|BT-615-Part">Tietoa asiakirjojen saatavuuden rajoittamisesta on osoitteessa</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Ilmoituksen lähetyspäivä (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Ilmoituksen lähetyspäivä (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Ympäristöä säästävien hankintojen kriteerit</entry>
-<entry key="field|name|BT-88-Procedure">Menettelyn kuvaus</entry>
+<entry key="field|name|BT-88-Procedure">Menettelyn tärkeimmät piirteet</entry>
 <entry key="field|name|BT-92-Lot">Tilaukset tehdään sähköisesti</entry>
 <entry key="field|name|BT-93-Lot">Maksut tehdään sähköisesti</entry>
 <entry key="field|name|BT-94-Lot">Tämä on toistuva hankinta.</entry>

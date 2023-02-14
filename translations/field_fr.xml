@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in French. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in French. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Nombre maximal de renouvellements</entry>
 <entry key="field|name|BT-60-Lot">Le marché est au moins partiellement financé par des fonds de l’Union européenne.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Activité de l’entité adjudicatrice</entry>
-<entry key="field|name|BT-6110-Contract">Détails des fonds de l’UE</entry>
+<entry key="field|name|BT-6110-Contract">Description</entry>
 <entry key="field|name|BT-6140-Lot">Plus d’informations sur le programme ou le projet de l’Union utilisé pour financer au moins partiellement la passation de marchés</entry>
 <entry key="field|name|BT-615-Lot">Des informations sur les documents restreints sont disponibles à l’adresse suivante</entry>
 <entry key="field|name|BT-615-Part">Des informations sur les documents restreints sont disponibles à l’adresse suivante</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Date d’envoi de l’avis (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Date d’envoi de l’avis (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Critères d’approvisionnement écologique</entry>
-<entry key="field|name|BT-88-Procedure">Description de la procédure</entry>
+<entry key="field|name|BT-88-Procedure">Principales caractéristiques de la procédure</entry>
 <entry key="field|name|BT-92-Lot">La commande en ligne sera utilisée</entry>
 <entry key="field|name|BT-93-Lot">Le paiement en ligne sera utilisé</entry>
 <entry key="field|name|BT-94-Lot">Il s’agit d’un marché récurrent.</entry>

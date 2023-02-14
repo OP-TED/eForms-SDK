@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Swedish. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Swedish. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Högst antal förlängningar</entry>
 <entry key="field|name|BT-60-Lot">Upphandlingen finansieras åtminstone delvis av EU-medel.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Den upphandlande enhetens verksamhet</entry>
-<entry key="field|name|BT-6110-Contract">Uppgifter om EU-fonden</entry>
+<entry key="field|name|BT-6110-Contract">Beskrivning</entry>
 <entry key="field|name|BT-6140-Lot">Ytterligare information om det unionsprogram eller det unionsprojekt som används åtminstone delvis finansierar upphandlingen</entry>
 <entry key="field|name|BT-615-Lot">Information om begränsade dokument finns på</entry>
 <entry key="field|name|BT-615-Part">Information om begränsade dokument finns på</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Meddelande om avsändningsdatum (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Meddelande om avsändningsdatum (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Kriterier för grön upphandling</entry>
-<entry key="field|name|BT-88-Procedure">Beskrivning av förfarandet</entry>
+<entry key="field|name|BT-88-Procedure">De viktigaste kännetecknen för förfarandet</entry>
 <entry key="field|name|BT-92-Lot">Elektronisk beställning kommer att användas</entry>
 <entry key="field|name|BT-93-Lot">Elektronisk betalning kommer att användas</entry>
 <entry key="field|name|BT-94-Lot">Det här är en återkommande upphandling.</entry>
