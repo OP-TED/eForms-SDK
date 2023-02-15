@@ -22353,7 +22353,7 @@
     "xpathRelative" : "cbc:ID",
     "type" : "id",
     "idScheme" : "TPA",
-    "schemeName" : "Tendering-party",
+    "schemeName" : "tendering-party",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
