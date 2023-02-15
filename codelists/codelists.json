@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.5.0",
+  "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.0",
-    "createdOn" : "2022-12-14T11:00:00"
+    "version" : "1.5.55",
+    "createdOn" : "2023-02-08T10:39:24"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -48,7 +48,7 @@
     "id" : "brin-eeig",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_brin-eeig.gc",
-    "description" : "List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration procesing.",
+    "description" : "List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration processing.",
     "_label" : "codelist|name|brin-eeig"
   }, {
     "id" : "buyer-categories",
@@ -104,7 +104,7 @@
   }, {
     "id" : "change-corrig-justification",
     "filename" : "change-corrig-justification.gc",
-    "description" : "This table provides the codes and values used in case of justification of correcions applied to a notice within the context of public procurement.",
+    "description" : "This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.",
     "_label" : "codelist|name|change-corrig-justification"
   }, {
     "id" : "classification-type",
@@ -227,7 +227,7 @@
   }, {
     "id" : "dps-usage",
     "filename" : "dps-usage.gc",
-    "description" : "This table provides a list wether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.",
+    "description" : "This table provides a list whether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.",
     "_label" : "codelist|name|dps-usage"
   }, {
     "id" : "duration",
@@ -716,7 +716,7 @@
   }, {
     "id" : "missing-info-submission",
     "filename" : "missing-info-submission.gc",
-    "description" : "This table provides the list of codes indicating wether tenderer-related information (complete or parcial) can be supplemented even after the submission deadline.",
+    "description" : "This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.",
     "_label" : "codelist|name|missing-info-submission"
   }, {
     "id" : "modification-justification",
@@ -1399,7 +1399,7 @@
   }, {
     "id" : "selection-criterion",
     "filename" : "selection-criterion.gc",
-    "description" : "List of codes to express condictions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.",
+    "description" : "List of codes to express conditions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.",
     "_label" : "codelist|name|selection-criterion"
   }, {
     "id" : "social-objective",
@@ -1484,7 +1484,7 @@
   }, {
     "id" : "winner-selection-status",
     "filename" : "winner-selection-status.gc",
-    "description" : "This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and wether the competiotion is open.",
+    "description" : "This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and whether the competition is open.",
     "_label" : "codelist|name|winner-selection-status"
   } ]
 }

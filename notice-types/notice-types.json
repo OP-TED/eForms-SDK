@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.35",
-    "createdOn" : "2023-02-01T14:36:56"
+    "version" : "1.5.52",
+    "createdOn" : "2023-02-07T16:21:08"
   },
   "noticeSubTypes" : [ {
     "documentType" : "PIN",
@@ -378,7 +378,7 @@
     "documentType" : "PIN",
     "legalBasis" : "32007R1370",
     "formType" : "planning",
-    "type" : "pin-rtl",
+    "type" : "pin-tran",
     "description" : "Planning notice for public passenger transport services by rail and by road",
     "subTypeId" : "T01",
     "_label" : "notice|name|T01",
@@ -387,7 +387,7 @@
     "documentType" : "CAN",
     "legalBasis" : "32007R1370",
     "formType" : "result",
-    "type" : "can-social",
+    "type" : "can-tran",
     "description" : "Result notice for public passenger transport services by rail and by road",
     "subTypeId" : "T02",
     "_label" : "notice|name|T02",
@@ -395,7 +395,7 @@
   }, {
     "documentType" : "BRIN",
     "legalBasis" : "31985R2137",
-    "formType" : "bsri",
+    "formType" : "bri",
     "type" : "brin-eeig",
     "description" : "Notice containing information relevant to Formation or Completion of the liquidation of a EEIG.",
     "subTypeId" : "X01",
@@ -404,7 +404,7 @@
   }, {
     "documentType" : "BRIN",
     "legalBasis" : "32001R2157",
-    "formType" : "bsri",
+    "formType" : "bri",
     "type" : "brin-ecs",
     "description" : "Notice containing information about Registration, Deletion, Transfer-registration or Transfer-deletion of a European Company or European Cooperative Society",
     "subTypeId" : "X02",

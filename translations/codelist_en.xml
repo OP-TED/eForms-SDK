@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>codelist in English. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>codelist in English. File generated from metadata database version 1.5.55 created on the 2023-02-08T10:39:24</comment>
 <entry key="codelist|name|accelerated-procedure">List of codes to specify whether a procedure is accelerated or not.</entry>
 <entry key="codelist|name|accessibility">This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.</entry>
 <entry key="codelist|name|applicability">This table provides a list of the options pertinent to be chosen for a matter concerning the applicability of predefined fields. It is designed for but not restricted to the context of public procurement.</entry>
@@ -9,7 +9,7 @@
 <entry key="codelist|name|award-criterion-type">List of award criterion codes for award decisions within public procurement procedures.</entry>
 <entry key="codelist|name|bri">List of allowed Notice Type codes for a Business Register Information document</entry>
 <entry key="codelist|name|brin-ecs">List of allowed Notice Subtype codes for a notice concerning a European Company or a European Cooperative Society registration processing.</entry>
-<entry key="codelist|name|brin-eeig">List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration procesing.</entry>
+<entry key="codelist|name|brin-eeig">List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration processing.</entry>
 <entry key="codelist|name|buyer-categories">List of codes used to characterize the buyers for the subsequent contracts of a given Framework Agreement.</entry>
 <entry key="codelist|name|buyer-contracting-type">List of codes to specify whether a Buyer is a Contracting Entity or not.</entry>
 <entry key="codelist|name|buyer-legal-type">This table provides a list of the the type of procuring authorities within the domain of public procurement according to legislation.</entry>
@@ -19,7 +19,7 @@
 <entry key="codelist|name|can-standard">List of allowed Notice Subtype codes for a notice of CAN Standard Notice Type .</entry>
 <entry key="codelist|name|can-tran">List of allowed Notice Subtype codes for a notice of CAN Public Transport Service Notice Type .</entry>
 <entry key="codelist|name|change">List of allowed Notice Subtype codes for a notice of Change Notice Type .</entry>
-<entry key="codelist|name|change-corrig-justification">This table provides the codes and values used in case of justification of correcions applied to a notice within the context of public procurement.</entry>
+<entry key="codelist|name|change-corrig-justification">This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.</entry>
 <entry key="codelist|name|classification-type">List of commodity classifications</entry>
 <entry key="codelist|name|cn-desg">List of allowed Notice Subtype codes for a notice of CN Design Notice Type.</entry>
 <entry key="codelist|name|cn-social">List of allowed Notice Subtype codes for a notice of CN Social Notice Type.</entry>
@@ -42,7 +42,7 @@
 <entry key="codelist|name|direct-award-justification">This table provides the list of reasons for using a procedure which allows awarding contracts directly without the requirement of publishing a call for competition in the Official Journal of the European Union.</entry>
 <entry key="codelist|name|document-distribution">List of codes to specify whether the document distribution is restricted or not.</entry>
 <entry key="codelist|name|document-status">List of codes to specify whether a document has or not a legal status.</entry>
-<entry key="codelist|name|dps-usage">This table provides a list wether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.</entry>
+<entry key="codelist|name|dps-usage">This table provides a list whether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.</entry>
 <entry key="codelist|name|duration">List of codes for undefined duration</entry>
 <entry key="codelist|name|duration-unit">List of codes for eforms allowed duration unit of measure</entry>
 <entry key="codelist|name|ecatalog-submission">List of codes to specify whether the submission of electronic catalogues is allowed or not.</entry>
@@ -127,7 +127,7 @@
 <entry key="codelist|name|linguistic-status">List of codes to specify whether a linguistic version has or not a legal status.</entry>
 <entry key="codelist|name|main-activity">List of codes for the main activities of the buyers.</entry>
 <entry key="codelist|name|measurement-unit">List of codes for the most commonly used Unit of Measures in international trades.</entry>
-<entry key="codelist|name|missing-info-submission">This table provides the list of codes indicating wether tenderer-related information (complete or parcial) can be supplemented even after the submission deadline.</entry>
+<entry key="codelist|name|missing-info-submission">This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.</entry>
 <entry key="codelist|name|modification-justification">This table provides the main reasons for modifying a contract within the domain of public procurement.</entry>
 <entry key="codelist|name|nda">List of codes to specify whether a non-disclosure agreement is required.</entry>
 <entry key="codelist|name|no-esubmission-justification">List of codes to justify the impossibility to submit electronically</entry>
@@ -245,7 +245,7 @@
 <entry key="codelist|name|review-status">List of codes for the status of a given review request.</entry>
 <entry key="codelist|name|review-type">List of codes for the identification of the type of review requester</entry>
 <entry key="codelist|name|rewards-penalties">List of codes for rewards and penalties associated to a Public Transportation Service.</entry>
-<entry key="codelist|name|selection-criterion">List of codes to express condictions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.</entry>
+<entry key="codelist|name|selection-criterion">List of codes to express conditions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.</entry>
 <entry key="codelist|name|social-objective">List of codes for values linked to any social objective promoted by the specifications, award / selection criteria or contract performance conditions included in a procurement.</entry>
 <entry key="codelist|name|social-service-cpv">Codes for social service of CPV</entry>
 <entry key="codelist|name|strategic-procurement">This table provides the values linked to any social objective promoted by the technical specifications, award criteria, selection criteria or contract performance conditions included in a procurement.</entry>
@@ -262,5 +262,5 @@
 <entry key="codelist|name|veat">List of allowed Notice Subtype codes for a notice of Voluntary ex-ante Transparency Notice Type.</entry>
 <entry key="codelist|name|vehicle-category">The category of vehicle falling within the scope of Directive 2009/33/EC.</entry>
 <entry key="codelist|name|vehicles">List of codes for vehicle categories.</entry>
-<entry key="codelist|name|winner-selection-status">This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and wether the competiotion is open.</entry>
+<entry key="codelist|name|winner-selection-status">This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and whether the competition is open.</entry>
 </properties>
