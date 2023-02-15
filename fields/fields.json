@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.58",
-    "createdOn" : "2023-02-14T10:02:21"
+    "version" : "1.5.63",
+    "createdOn" : "2023-02-15T12:17:18"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -130,7 +130,8 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']",
     "xpathRelative" : "cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']",
     "repeatable" : true,
-    "identifierFieldId" : "BT-137-Lot"
+    "identifierFieldId" : "BT-137-Lot",
+    "captionFieldId" : "BT-21-Lot"
   }, {
     "id" : "ND-LotProcurementScope",
     "parentId" : "ND-Lot",
@@ -599,7 +600,8 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']",
     "xpathRelative" : "cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']",
     "repeatable" : true,
-    "identifierFieldId" : "BT-137-LotsGroup"
+    "identifierFieldId" : "BT-137-LotsGroup",
+    "captionFieldId" : "BT-21-LotsGroup"
   }, {
     "id" : "ND-LotsGroupProcurementScope",
     "parentId" : "ND-LotsGroup",
@@ -714,7 +716,8 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']",
     "xpathRelative" : "cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']",
     "repeatable" : true,
-    "identifierFieldId" : "BT-137-Part"
+    "identifierFieldId" : "BT-137-Part",
+    "captionFieldId" : "BT-21-Part"
   }, {
     "id" : "ND-PartProcurementScope",
     "parentId" : "ND-Part",
@@ -1117,7 +1120,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult",
     "xpathRelative" : "efac:LotResult",
     "repeatable" : true,
-    "identifierFieldId" : "OPT-322-LotResult"
+    "identifierFieldId" : "OPT-322-LotResult",
+    "captionFieldId" : "BT-13713-LotResult"
   }, {
     "id" : "ND-ReviewRequestsStatistics",
     "parentId" : "ND-LotResult",
@@ -1232,7 +1236,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender",
     "xpathRelative" : "efac:LotTender",
     "repeatable" : true,
-    "identifierFieldId" : "OPT-321-Tender"
+    "identifierFieldId" : "OPT-321-Tender",
+    "captionFieldId" : "BT-3201-Tender"
   }, {
     "id" : "ND-LotTenderPaidAmounts",
     "parentId" : "ND-LotTender",
@@ -1365,7 +1370,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract",
     "xpathRelative" : "efac:SettledContract",
     "repeatable" : true,
-    "identifierFieldId" : "OPT-316-Contract"
+    "identifierFieldId" : "OPT-316-Contract",
+    "captionFieldId" : "BT-150-Contract"
   }, {
     "id" : "ND-ExtendedDurationJustification",
     "parentId" : "ND-SettledContract",
@@ -1421,7 +1427,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization",
     "xpathRelative" : "efac:Organization",
     "repeatable" : true,
-    "identifierFieldId" : "OPT-200-Organization-Company"
+    "identifierFieldId" : "OPT-200-Organization-Company",
+    "captionFieldId" : "BT-500-Organization-Company"
   }, {
     "id" : "ND-Company",
     "parentId" : "ND-Organization",
@@ -1452,7 +1459,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint",
     "xpathRelative" : "efac:TouchPoint",
     "repeatable" : true,
-    "identifierFieldId" : "OPT-201-Organization-TouchPoint"
+    "identifierFieldId" : "OPT-201-Organization-TouchPoint",
+    "captionFieldId" : "BT-500-Organization-TouchPoint"
   }, {
     "id" : "ND-TouchpointContact",
     "parentId" : "ND-Touchpoint",
@@ -1471,7 +1479,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner",
     "xpathRelative" : "efac:UltimateBeneficialOwner",
     "repeatable" : true,
-    "identifierFieldId" : "OPT-202-UBO"
+    "identifierFieldId" : "OPT-202-UBO",
+    "captionFieldId" : "BT-500-UBO"
   }, {
     "id" : "ND-UBOContact",
     "parentId" : "ND-UBO",
