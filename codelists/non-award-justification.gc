@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00-->
+<!--File generated from metadata database version 1.5.67 created on the 2023-02-16T14:19:14-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NonAwardJustification</ShortName>
       <LongName>non-award-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/non-award-justification</LongName>
-      <Version>20220316-0</Version>
+      <Version>20221214-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/non-award-justification</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -445,79 +445,79 @@
             <SimpleValue>no-signed</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>The highest ranked tenderer(s) refused to sign the contract.</SimpleValue>
+            <SimpleValue>The highest ranked tenderer(s) refused to sign the contract</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Класираният най-напред оферент (оференти) е отказал да подпише договора.</SimpleValue>
+            <SimpleValue>Класираният най-напред оферент (оференти) е отказал да подпише договора</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nejvýše ohodnocený uchazeč nebo uchazeči odmítli podepsat smlouvu.</SimpleValue>
+            <SimpleValue>Nejvýše ohodnocený uchazeč nebo uchazeči odmítli podepsat smlouvu</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Den/de bedst placerede tilbudsgiver(e) afviste at underskrive kontrakten.</SimpleValue>
+            <SimpleValue>Den/de bedst placerede tilbudsgiver(e) afviste at underskrive kontrakten</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Der (die) am höchsten platzierte(n) Bieter lehnte(n) es (ab), den Auftrag zu unterschreiben.</SimpleValue>
+            <SimpleValue>Der (die) am höchsten platzierte(n) Bieter lehnte(n) es (ab), den Auftrag zu unterschreiben</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ο/οι προσφέρων/-οντες με την υψηλότερη κατάταξη αρνήθηκε/-αν να υπογράψει/-ουν τη σύμβαση.</SimpleValue>
+            <SimpleValue>Ο/οι προσφέρων/-οντες με την υψηλότερη κατάταξη αρνήθηκε/-αν να υπογράψει/-ουν τη σύμβαση</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>The highest ranked tenderer(s) refused to sign the contract.</SimpleValue>
+            <SimpleValue>The highest ranked tenderer(s) refused to sign the contract</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>El licitador / los licitadores con mejor posición se negó / se negaron a firmar el contrato.</SimpleValue>
+            <SimpleValue>El licitador / los licitadores con mejor posición se negó / se negaron a firmar el contrato</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Paremusjärjestuses esikohal olev(ad) pakkuja(d) keeldus(id) lepingule alla kirjutamast.</SimpleValue>
+            <SimpleValue>Paremusjärjestuses esikohal olev(ad) pakkuja(d) keeldus(id) lepingule alla kirjutamast</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Parhaimmiksi arvioidut tarjoajat kieltäytyivät allekirjoittamasta sopimusta.</SimpleValue>
+            <SimpleValue>Parhaimmiksi arvioidut tarjoajat kieltäytyivät allekirjoittamasta sopimusta</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Le(s) soumissionnaire(s) le(s) mieux classé(s) a (ont) refusé de signer le marché.</SimpleValue>
+            <SimpleValue>Le(s) soumissionnaire(s) le(s) mieux classé(s) a (ont) refusé de signer le marché</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Dhiúltaigh an tairgeoir nó na tairgeoirí ab airde rangú an conradh a shíniú.</SimpleValue>
+            <SimpleValue>Dhiúltaigh an tairgeoir nó na tairgeoirí ab airde rangú an conradh a shíniú</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ponuditelj ili ponuditelji s najviše bodova odbili su potpisati ugovor.</SimpleValue>
+            <SimpleValue>Ponuditelj ili ponuditelji s najviše bodova odbili su potpisati ugovor</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A legmagasabb pontszámmal rendelkező ajánlattevő(k) elutasította (elutasították) a szerződés aláírását.</SimpleValue>
+            <SimpleValue>A legmagasabb pontszámmal rendelkező ajánlattevő(k) elutasította (elutasították) a szerződés aláírását</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>L'offerente o gli offerenti meglio classificati hanno rifiutato di firmare il contratto.</SimpleValue>
+            <SimpleValue>L'offerente o gli offerenti meglio classificati hanno rifiutato di firmare il contratto</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Geriausiai įvertintas dalyvis (-iai) atsisakė pasirašyti sutartį.</SimpleValue>
+            <SimpleValue>Geriausiai įvertintas dalyvis (-iai) atsisakė pasirašyti sutartį</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Visaugstāk novērtētais(-ie) pretendents(-i) atteicies parakstīt līgumu.</SimpleValue>
+            <SimpleValue>Visaugstāk novērtētais(-ie) pretendents(-i) atteicies parakstīt līgumu</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>{L-offerent(i) bl-ogħla punteġġ irrifjuta(w) li jiffirma(w} (i)l-kuntratt.)</SimpleValue>
+            <SimpleValue>L-offerent(i) bl-ogħla punteġġ irrifjuta(w) li jiffirma(w) (i)l-kuntratt</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>De hoogst gerangschikte inschrijver(s) weigerde(n) het contract te ondertekenen.</SimpleValue>
+            <SimpleValue>De hoogst gerangschikte inschrijver(s) weigerde(n) het contract te ondertekenen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Najwyżej oceniony oferent (ocenieni oferenci) odmówił(-li) podpisania umowy.</SimpleValue>
+            <SimpleValue>Najwyżej oceniony oferent (ocenieni oferenci) odmówił(-li) podpisania umowy</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>O(s) proponente(s) com a classificação mais elevada recusaram-se a assinar o contrato.</SimpleValue>
+            <SimpleValue>O(s) proponente(s) com a classificação mais elevada recusaram-se a assinar o contrato</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Ofertantul sau ofertanții cel mai bine clasați au refuzat să semneze contractul.</SimpleValue>
+            <SimpleValue>Ofertantul sau ofertanții cel mai bine clasați au refuzat să semneze contractul</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Uchádzač(-i) sa najvyšším počtom bodov odmietol(-tli) podpísať zmluvu.</SimpleValue>
+            <SimpleValue>Uchádzač(-i) sa najvyšším počtom bodov odmietol(-tli) podpísať zmluvu</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ponudniki z največjim doseženim številom točk so odklonili podpis pogodbe.</SimpleValue>
+            <SimpleValue>Ponudniki z največjim doseženim številom točk so odklonili podpis pogodbe</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Den eller de högst rankade anbudsgivarna vägrade att underteckna kontraktet.</SimpleValue>
+            <SimpleValue>Den eller de högst rankade anbudsgivarna vägrade att underteckna kontraktet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -525,79 +525,79 @@
             <SimpleValue>one-admis</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Only one admissible tender, request to participate or project was received.</SimpleValue>
+            <SimpleValue>Only one admissible tender, request to participate or project was received</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Получена е само една допустима оферта, искане за участие или проект.</SimpleValue>
+            <SimpleValue>Получена е само една допустима оферта, искане за участие или проект</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Byla obdržena pouze jedna přijatelná nabídka, žádost o účast nebo projekt.</SimpleValue>
+            <SimpleValue>Byla obdržena pouze jedna přijatelná nabídka, žádost o účast nebo projekt</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Der er kun modtaget ét antageligt tilbud, én ansøgning om deltagelse eller ét projekt.</SimpleValue>
+            <SimpleValue>Der er kun modtaget ét antageligt tilbud, én ansøgning om deltagelse eller ét projekt</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Es ist nur ein Angebot, Teilnahmeantrag oder Projekt eingegangen.</SimpleValue>
+            <SimpleValue>Es ist nur ein Angebot, Teilnahmeantrag oder Projekt eingegangen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Υποβλήθηκε μόνο μία αποδεκτή προσφορά, αίτηση συμμετοχής ή έργο.</SimpleValue>
+            <SimpleValue>Υποβλήθηκε μόνο μία αποδεκτή προσφορά, αίτηση συμμετοχής ή έργο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Only one admissible tender, request to participate or project was received.</SimpleValue>
+            <SimpleValue>Only one admissible tender, request to participate or project was received</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Solo se recibió una oferta, solicitud de participación o proyecto admisible.</SimpleValue>
+            <SimpleValue>Solo se recibió una oferta, solicitud de participación o proyecto admisible</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Esitatud on ainult üks vastuvõetav pakkumus, osalemistaotlus või kavand.</SimpleValue>
+            <SimpleValue>Esitatud on ainult üks vastuvõetav pakkumus, osalemistaotlus või kavand</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Hyväksyttävissä olevia tarjouksia, osallistumishakemuksia tai hankkeita saatiin vain yksi.</SimpleValue>
+            <SimpleValue>Hyväksyttävissä olevia tarjouksia, osallistumishakemuksia tai hankkeita saatiin vain yksi</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Une seule offre, une seule demande de participation ou un seul projet recevable a été reçu(e).</SimpleValue>
+            <SimpleValue>Une seule offre, une seule demande de participation ou un seul projet recevable a été reçu(e)</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Ní bhfuarthas ach aon tairiscint amháin, aon iarraidh amháin ar rannpháirtíocht nó aon tionscadal amháin a bhí inghlactha.</SimpleValue>
+            <SimpleValue>Ní bhfuarthas ach aon tairiscint amháin, aon iarraidh amháin ar rannpháirtíocht nó aon tionscadal amháin a bhí inghlactha</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Zaprimljena je samo jedna prihvatljiva ponuda, zahtjev za sudjelovanje ili projekt.</SimpleValue>
+            <SimpleValue>Zaprimljena je samo jedna prihvatljiva ponuda, zahtjev za sudjelovanje ili projekt</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Csak egy elfogadható ajánlat, részvételi jelentkezés vagy projekt érkezett.</SimpleValue>
+            <SimpleValue>Csak egy elfogadható ajánlat, részvételi jelentkezés vagy projekt érkezett</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>È stato ricevuto un solo progetto, una sola offerta o una sola domanda di partecipazione ammissibile.</SimpleValue>
+            <SimpleValue>È stato ricevuto un solo progetto, una sola offerta o una sola domanda di partecipazione ammissibile</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Gautas tik vienas priimtinas pasiūlymas, dalyvavimo prašymas ar projektas.</SimpleValue>
+            <SimpleValue>Gautas tik vienas priimtinas pasiūlymas, dalyvavimo prašymas ar projektas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Tika saņemts tikai viens pieņemams piedāvājums, dalības pieprasījums vai projekts.</SimpleValue>
+            <SimpleValue>Tika saņemts tikai viens pieņemams piedāvājums, dalības pieprasījums vai projekts</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Waslet offerta jew talba għall-parteċipazzjoni waħda biss, jew wasal proġett wieħed biss.</SimpleValue>
+            <SimpleValue>Waslet offerta jew talba għall-parteċipazzjoni waħda biss, jew wasal proġett wieħed biss</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Er is slechts één ontvankelijk(e) inschrijving, verzoek tot deelname of project ontvangen.</SimpleValue>
+            <SimpleValue>Er is slechts één ontvankelijk(e) inschrijving, verzoek tot deelname of project ontvangen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Otrzymano tylko jedną dopuszczalną ofertę, jeden wniosek o dopuszczenie do udziału lub jeden projekt.</SimpleValue>
+            <SimpleValue>Otrzymano tylko jedną dopuszczalną ofertę, jeden wniosek o dopuszczenie do udziału lub jeden projekt</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Só foi recebida uma proposta, pedido de participação ou projeto admissível.</SimpleValue>
+            <SimpleValue>Só foi recebida uma proposta, pedido de participação ou projeto admissível</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>A fost primită o singură ofertă admisibilă sau o singură cerere de participare sau un singur proiect.</SimpleValue>
+            <SimpleValue>A fost primită o singură ofertă admisibilă sau o singură cerere de participare sau un singur proiect</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Prijatá bola len jedna prípustná ponuka, žiadosť o účasť alebo projekt.</SimpleValue>
+            <SimpleValue>Prijatá bola len jedna prípustná ponuka, žiadosť o účasť alebo projekt</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Prejeta je bila samo ena sprejemljiva ponudba, prijava za sodelovanje ali projekt.</SimpleValue>
+            <SimpleValue>Prejeta je bila samo ena sprejemljiva ponudba, prijava za sodelovanje ali projekt</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Endast ett godtagbart anbud, en anbudsansökan eller ett projekt mottogs.</SimpleValue>
+            <SimpleValue>Endast ett godtagbart anbud, en anbudsansökan eller ett projekt mottogs</SimpleValue>
          </Value>
       </Row>
       <Row>
