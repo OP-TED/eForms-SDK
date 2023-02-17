@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00-->
+<!--File generated from metadata database version 1.5.67 created on the 2023-02-16T14:19:14-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>EformsCountry</ShortName>
       <LongName>eforms-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.5.0</Version>
+      <Version>1.5.67</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -1163,86 +1163,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ATF</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>French Southern Lands</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Френски южни територии</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Francouzská jižní území</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>De franske besiddelser i det sydlige Indiske Ocean</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Französischen Südgebiete</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Γαλλικές περιοχές του νοτίου ημισφαιρίου</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>French Southern Lands</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Territorios Australes Franceses</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Prantsuse Lõunaalad</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Ranskan eteläiset alueet</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Terres australes françaises</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Críocha an Deiscirt de chuid na Fraince</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Francuske Južne Zemlje</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Francia Déli Területek</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Terre australi francesi</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Prancūzijos Pietų Sritys</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Francijas Dienvidjūru Zemes</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>It-Territorji Franċiżi tan-Nofsinhar</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Franse Zuidelijke Gebieden</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Francuskie Terytoria Południowe</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Terras Austrais Francesas</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Teritoriile Australe Franceze</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Francúzske južné územia</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Francoska južna ozemlja</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>De franska territorierna i södra Indiska oceanen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>ATG</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2346,7 +2266,7 @@
             <SimpleValue>Bośnia i Hercegowina</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Bósnia e Herzegovina</SimpleValue>
+            <SimpleValue>Bósnia-Herzegovina</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Bosnia şi Herţegovina</SimpleValue>
@@ -5626,7 +5546,7 @@
             <SimpleValue>Egipt</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Egipto</SimpleValue>
+            <SimpleValue>Egito</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Egipt</SimpleValue>
@@ -9795,7 +9715,7 @@
             <SimpleValue>Svätý Krištof a Nevis</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Saint Kitts in Nevis</SimpleValue>
+            <SimpleValue>Sveti Krištof in Nevis</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Saint Kitts och Nevis</SimpleValue>
@@ -16355,7 +16275,7 @@
             <SimpleValue>Svätý Tomáš a Princov ostrov</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>São Tomé in Príncipe</SimpleValue>
+            <SimpleValue>Sveti Tomaž in Princ</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>São Tomé och Príncipe</SimpleValue>
@@ -18835,7 +18755,7 @@
             <SimpleValue>Svätý Vincent a Grenadíny</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Saint Vincent in Grenadine</SimpleValue>
+            <SimpleValue>Sveti Vincencij in Grenadine</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Saint Vincent och Grenadinerna</SimpleValue>

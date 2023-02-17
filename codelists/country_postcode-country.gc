@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00-->
+<!--File generated from metadata database version 1.5.67 created on the 2023-02-16T14:19:14-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PostcodeCountry</ShortName>
       <LongName>postcode-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.5.0</Version>
+      <Version>1.5.67</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -1306,7 +1306,7 @@
             <SimpleValue>Bośnia i Hercegowina</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Bósnia e Herzegovina</SimpleValue>
+            <SimpleValue>Bósnia-Herzegovina</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Bosnia şi Herţegovina</SimpleValue>
@@ -3386,7 +3386,7 @@
             <SimpleValue>Egipt</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Egipto</SimpleValue>
+            <SimpleValue>Egito</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Egipt</SimpleValue>
@@ -12275,7 +12275,7 @@
             <SimpleValue>Svätý Vincent a Grenadíny</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Saint Vincent in Grenadine</SimpleValue>
+            <SimpleValue>Sveti Vincencij in Grenadine</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Saint Vincent och Grenadinerna</SimpleValue>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00-->
+<!--File generated from metadata database version 1.5.67 created on the 2023-02-16T14:19:14-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>EformsCurrency</ShortName>
       <LongName>eforms-currency</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/currency</LongName>
       <LongName Identifier="eFormsParentId">currency</LongName>
-      <Version>1.5.0</Version>
+      <Version>1.5.67</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -1235,7 +1235,7 @@
             <SimpleValue>Lev</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Lev</SimpleValue>
+            <SimpleValue>Bolgarski lev</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Lev</SimpleValue>
@@ -1639,86 +1639,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Boliviano</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BOV</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Мвдол</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Μβντολ</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Mvdols</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Mvdol</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Mvdol</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2363,86 +2283,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CHE</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>WIR Euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>WIR евро</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Euro WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>WIR Euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>WIR-Euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Ευρώ WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>WIR Euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Euro WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>WIR euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>WIR-euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Euro WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>WIR Euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>WIR euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>WIR-euró</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>WIR Euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>WIR euras</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>WIR eiro</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>WIR Euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>WIR-euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Euro WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Euro WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Euro WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>WIR euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>WIR Euro</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>WIR euro</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>CHF</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2519,166 +2359,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Schweizisk franc</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CHW</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>WIR Franc</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>WIR франк</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Frank WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>WIR Franc</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>WIR-Franc</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Φράγκο WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>WIR Franc</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Franco WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>WIR frank</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>WIR-frangi</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Franc WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>WIR Franc</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>WIR franak</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>WIR-frank</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>WIR Franc</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>WIR frankas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>WIR franks</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>WIR Franc</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>WIR-frank</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Frank WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Franco WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Franc WIR</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>WIR frank</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>WIR Franc</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>WIR franc</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CLF</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Unidades de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Unidad de fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Unidades de fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Unidad de fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Unidad de fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Unidad de Fomento</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2919,86 +2599,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Colombiansk peso</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>COU</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Unidad de valor real</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Unidad de valor real</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Unidad de Valor Real</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7315,7 +6915,7 @@
             <SimpleValue>Moldavský leu</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Moldavijski leu</SimpleValue>
+            <SimpleValue>Moldavski lev</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Moldavisk leu</SimpleValue>
@@ -8123,86 +7723,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>MXV</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Mexican Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Mexican Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Unidad de Inversion (Mexiko)</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Mexicansk Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Mexiko Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Unidad de Inversion Μεξικού</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Mexican Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad de Inversión Mexicana</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Mehhiko Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Meksikon Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unidad de Inversion mexicaine</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Mexican Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Mexican Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Mexikói Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unidad de Inversion messicana</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Meksikos Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Meksikas Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Mexican Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Mexicaanse unidad de inversión</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Unidad de Inversion (Meksyk)</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade de Investimento Mexicana</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Mexican Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Mexická Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Mexican Unidad de Inversion</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Mexikansk Unidad de Inversion</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>MYR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -9006,79 +8526,79 @@
             <SimpleValue>PEN</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Nuevo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Нов сол</SimpleValue>
+            <SimpleValue>Сол</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nový sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Nuevo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Neuer Sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Νέο σολ</SimpleValue>
+            <SimpleValue>Σολ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Nuevo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Nuevo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Uus soll</SimpleValue>
+            <SimpleValue>Soll</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Uusi sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Nouveau sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Nuevo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Novi sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Új sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Nuovo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Naujasis solis</SimpleValue>
+            <SimpleValue>Solis</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Jaunais sols</SimpleValue>
+            <SimpleValue>Sols</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Sol ġdid</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Nuevo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Nuevo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Novo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Sol nou</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nový sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Novi sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Nuevo sol</SimpleValue>
+            <SimpleValue>Sol</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9635,7 +9155,7 @@
             <SimpleValue>Rumunský leu</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Romunski leu</SimpleValue>
+            <SimpleValue>Romunski lev</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Rumänsk leu</SimpleValue>
@@ -9709,7 +9229,7 @@
             <SimpleValue>Dinar sérvio</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Dinar sârb</SimpleValue>
+            <SimpleValue>Dinar sârbesc</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>Srbský dinár</SimpleValue>
@@ -10778,7 +10298,7 @@
             <SimpleValue>Dobra</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Dobras</SimpleValue>
+            <SimpleValue>Dobra</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ντόμπρα</SimpleValue>
@@ -12123,86 +11643,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UYI</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Peso en Unidades Indexadas (Uruguay)</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Uruguayansk Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Πέσο Ουρουγουάης και Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Peso Uruguayo en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Uruguayn peso en unidades indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Urugvajski pezo en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Urugvajaus Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Urugvajas Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Uruguayaanse peso in geïndexeerde eenheden</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Peso en Unidades Indexadas (Urugwaj)</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Peso Uruguaio em Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Uruguajské peso a jednotné indexové listy</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Uruguay Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Uruguayansk Peso en Unidades Indexadas</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UYU</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12283,86 +11723,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UYW</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Unidad previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Unidad previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Unidad previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Unidad previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Unidad Previsional</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>UZS</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -12439,86 +11799,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Uzbekistansk som</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>VED</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bolívar digital</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Цифров боливар</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Digitální bolívar</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Digital bolivar</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Bolívar digital</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Ψηφιακό Bolívar</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Bolívar digital</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Bolívar digital</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Digitaalne boliivar</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Digitaalinen bolivar</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Bolivar numérique</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Bolívar digiteach</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Bolívar digital</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Digitális bolívar</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Bolívar digitale</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Skaitmeninis bolivaras</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Digitālais bolivars</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Bolívar diġitali</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Digitale bolivar</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Boliwar cyfrowy</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Bolívar digital</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Bolívar digital</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Digitálny bolívar</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Digitalni bolivar</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Digital bolivar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12923,566 +12203,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>XAG</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Silver</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Сребро</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Stříbro</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Sølv</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Silber</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Άργυρος</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Silver</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Plata</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Hõbe</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Hopea</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Argent</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Airgead</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Srebro</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Ezüst uncia</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Argento</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Sidabras</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Sudrabs</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Fidda</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Zilver</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Srebro</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Prata</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Argint</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Striebro</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Srebro</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Silver</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XAU</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Gold</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Злато</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Zlato</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Guld</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Gold</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Χρυσός</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Gold</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Oro</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Kuld</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Kulta</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Or</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Ór</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Zlato</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Arany uncia</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Oro</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Auksas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Zelts</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Deheb</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Goud</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Złoto</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Ouro</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Aur</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Zlato</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Zlato</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Guld</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XBA</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bond Markets Unit European Composite Unit (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Eдиница на пазарите на облигации, европейска съставна единица (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Evropská smíšená jednotka EURCO</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>European Composite Unit (EURCO) (Enhed anvendt på obligationsmarkederne)</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Bond Markets Unit European Composite Unit (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Μονάδα αγορών ομολόγων Σύνθεση ευρωπαϊκής μονάδας (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Bond Markets Unit European Composite Unit (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad de mercados de obligaciones – Unidad compuesta europea (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Võlakirjaturgude üksus – European Composite Unit (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>EURCO (Bond Markets Unit)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unité des marchés obligataires – Unité composite européenne (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Aonad Ilchodach Eorpach Aonad na Margaí Bannaí (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Jedinice tržišta vrijednosnica – europska složena jedinica (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Európai Összetett Egység (EURCO) (Kötvénypiaci egység)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unità composita europea (EURCO) (Unità per il mercato obbligazionario)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Obligacijų rinkų apskaitos vienetas: Europos valiutų sudėtinis vienetas (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Obligāciju tirgus vienība, Eiropas kompozītā vienība (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unità tas-Swieq tal-Bonds Unità Komposta Ewropea (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Europese samengestelde eenheid (EURCO) (Eenheid Europese obligatiemarkten)</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Bond Markets Unit European Composite Unit (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade Composta Europeia (EURCO) – Unidade dos Mercados de Obrigações</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Unitate compozită europeană (EURCO) – pentru piețele de obligațiuni</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Jednotky trhov s dlhopismi, európska zmiešaná jednotka (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Enota trga obveznic – evropska sestavljena enota (EURCO)</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>European Composite Unit (EURCO) (Enhet använd på obligationsmarknaden)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XBB</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bond Markets Unit European Monetary Unit (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Eдиница на пазарите на облигации, европейска парична единица (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Evropská peněžní jednotka EMU-6</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>European Monetary Unit (E.M.U.-6) (Enhed anvendt på obligationsmarkederne)</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Bond Markets Unit European Monetary Unit (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Μονάδα αγορών ομολόγων Ευρωπαϊκή νομισματική μονάδα (Ε.Ν.Μ.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Bond Markets Unit European Monetary Unit (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad de mercados de obligaciones – Unidad monetaria europea (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Võlakirjaturgude üksus – European Monetary Unit (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Euroopan rahayksikkö (EMU-6) (Bond Markets Unit)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unité des marchés obligataires – Unité monétaire européenne (U.M.E.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Aonad Airgeadaíochta Eorpach Aonad na Margaí Bannaí (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Jedinice tržišta vrijednosnica – europska monetarna jedinica (EMU-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Európai Pénzegység (E.M.U.-6) (Kötvénypiaci egység)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unità monetaria europea (E.M.U.-6) (Unità per il mercato obbligazionario)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Obligacijų rinkų apskaitos vienetas: Europos pinigų sąjungos vienetas (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Obligāciju tirgu vienība, Eiropas monetārā vienība (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unità tas-Swieq tal-Bonds Unità Monetarja Ewropea (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Europese monetaire eenheid (E.M.U.-6) (Eenheid Europese obligatiemarkten)</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Bond Markets Unit European Monetary Unit (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade Monetária Europeia (E.M.U.-6) – Unidade dos Mercados de Obrigações</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Unitate monetară europeană (E.M.U.-6) – pentru piețele de obligațiuni</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Jednotky trhov s dlhopismi, európska menová jednotka (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Enota trga obveznic – evropska monetarna enota (E.M.U.-6)</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>European Monetary Unit (E.M.U.-6) (Enhet använd på obligationsmarknaden)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XBC</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Единица на пазарите на облигации, европейска разчетна единица 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Evropská zúčtovací jednotka EUA-9</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>European Unit of Account 9 (E.U.A.-9) (Enhed anvendt på obligationsmarkederne)</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Μονάδα αγορών ομολόγων Ευρωπαϊκή λογιστική μονάδα 9 (Ε.Λ.Μ.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad de mercados de obligaciones – Unidad de cuenta europea 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Võlakirjaturgude üksus – European Unit of Account 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Euroopan laskentayksikkö 9 (EUA-9) (Bond Markets Unit)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unité des marchés obligataires – Unité de compte européenne 9 (U.C.E.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Aonad Cuntais Eorpach Aonad na Margaí Bannaí 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Jedinice tržišta vrijednosnica – europska jedinica za račun 9 (EUA-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Európai Egység a 9-es számlához (E.U.A.-9) (Kötvénypiaci egység)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unità di acconto europea 9 (E.U.A.-9) (Unità per il mercato obbligazionario)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Obligacijų rinkų apskaitos vienetas: Europos sąskaitų 9 vienetas (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Obligāciju tirgus vienība, Eiropas 9. konta vienība (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unità tas-Swieq tal-Bonds Unità ta’ Kont Ewropea 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Europese rekeneenheid 9 (E.U.A.-9) (Eenheid Europese obligatiemarkten)</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade de Conta 9 (E.U.A.-9) – Unidade dos Mercados de Obrigações</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Unitate de cont europeană 9 (E.U.A.-9) – pentru piețele de obligațiuni</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Jednotky trhov s dlhopismi, európska zúčtovacia jednotka 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Enota trga obveznic – evropska obračunska enota 9 (E.U.A.-9)</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>European Unit of Account 9 (E.U.A.-9) (Enhet använd på obligationsmarknaden)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XBD</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Единица на пазарите на облигации, европейска разчетна единица 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Evropská zúčtovací jednotka EUA-17</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>European Unit of Account 17 (E.U.A.-17) (Enhed anvendt på obligationsmarkederne)</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Μονάδα αγορών ομολόγων Ευρωπαϊκή λογιστική μονάδα 17 (Ε.Λ.Μ.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad de mercados de obligaciones – Unidad de cuenta europea 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Võlakirjaturgude üksus – European Unit of Account 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Euroopan laskentayksikkö 17 (EUA-17) (Bond Markets Unit)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unité des marchés obligataires – Unité de compte européenne 17 (U.C.E.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Aonad Cuntais Eorpach Aonad na Margaí Bannaí 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Jedinice tržišta vrijednosnica – europska jedinica za račun 17 (EUA-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Európai Egység a 17-es számlához (E.U.A.-17) (Kötvénypiaci egység)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unità di acconto europea 17 (E.U.A.-17) (Unità per il mercato obbligazionario)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Obligacijų rinkų apskaitos vienetas: Europos sąskaitų 17 vienetas (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Obligāciju tirgus vienība Eiropas 17. konta vienība (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unità Ewropea tal-Kont 17 tal-Unità ta’ Kont Ewropea (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Europese rekeneenheid 17 (E.U.A.-17) (Eenheid Europese obligatiemarkten)</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade de Conta 17 (E.U.A.-17) – Unidade dos Mercados de Obrigações</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Unitate de cont europeană 17 (E.U.A.-17) – pentru piețele de obligațiuni</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Jednotky trhov s dlhopismi, európska zúčtovacia jednotka 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Enota trga obveznic – evropska obračunska enota 17 (E.U.A.-17)</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>European Unit of Account 17 (E.U.A.-17) (Enhet använd på obligationsmarknaden)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XBT</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Биткойн</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Bitkoinas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Bitmonēta</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Bitcoin</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>XCD</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13559,86 +12279,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Östkaribisk dollar</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XDR</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>SDR (Special Drawing Right)</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>СПТ (специални права на тираж)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>SDR (zvláštní práva čerpání)</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>SDR (den særlige trækningsrettighed)</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>SZR (Sonderziehungsrecht)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>ΕΤΔ (Ειδικά Τραβηκτικά Δικαιώματα)</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>SDR (Special Drawing Right)</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>DEG (derechos especiales de giro)</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>SDR (eriarveldusühik)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>SDR (erityisnosto-oikeus)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>DTS (droit de tirage spécial)</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>CST (Ceart Tarraingthe Speisialta)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>SDR (posebna prava vučenja)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>SDR (különleges lehívási jog)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>DSP (diritto speciale di prelievo)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>SST (specialiosios skolinimosi teisės)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>SDR (speciālās aizņēmuma tiesības)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>SDR (Dritt Speċjali ta’ Ġbid)</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>SDR (bijzonder trekkingsrecht)</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>SDR (specjalne prawo ciągnienia)</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>DSE (Direito de Saque Especial)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>DST (drept special de tragere)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>ZPČ (Zvláštne práva čerpania)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>SDR (posebne pravice črpanja)</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>SDR (särskild dragningsrätt)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13723,86 +12363,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>XPD</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Palladium</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Паладий</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Paladium</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Palladium</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Palladium</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Παλλάδιο</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Palladium</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Paladio</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Pallaadium</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Palladium</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Palladium</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Pallaidiam</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Paladij</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Palládium uncia</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Palladio</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Paladis</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Pallādijs</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Palladju</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Palladium</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Pallad</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Paládio</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Paladiu</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Paládium</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Paladij</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Palladium</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>XPF</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -13879,406 +12439,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>CFP-franc</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XPT</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Platinum</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Платина</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Platin</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Platin</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Πλατίνα</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Platinum</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Platino</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Plaatina</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Platine</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Platanam</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Platina uncia</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Platino</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Platīns</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Platinu</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Platyna</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Platină</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Platina</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XSU</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Сукре</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Σούκρε</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Sucre</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XTS</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Code reserved for testing purposes</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Код, предназначен само за тестване</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Kód pouze pro účely testování</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Kode til testformål</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Code nur für Testzwecke</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Κωδικός για λόγους τεστ</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Code reserved for testing purposes</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Código reservado a efectos de ensayo</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Katsetamiseks mõeldud kood</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Koodi testitarkoituksiin</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Code réservé spécifiquement à des fins d’essai</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Cód chun críocha tástála amháin</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Kôd za potrebe testiranja</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Tesztelési célra szolgáló kód</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Codice riservato ai test</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Kodas skirtas testavimo tikslams</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Testa kods</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Kodiċi riżervata għal finijiet ta’ ttestjar</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Code voor testdoeleinden</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Kod przeznaczony wyłącznie do testów</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Código reservado para fins de teste</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Cod rezervat pentru teste</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Kód rezervovaný na účely testovania</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Oznaka, rezervirana za testiranje</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Testkod</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XUA</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>ADB Unit of Account</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Разчетна единица на Африканската банка за развитие</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Zúčtovací jednotka Africké rozvojové banky</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>ADB-beregningsenhed</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Recheneinheit der Afrikanischen Entwicklungsbank</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Λογιστική μονάδα ADB</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>ADB Unit of Account</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unidad de cuenta del BAFD</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>ADB arvestusühik</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Afrikkalainen ADB-laskentayksikkö ADB</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Unité de compte de la BAD</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Aonad Cuntais ADB</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Obračunska jedinica ADB</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>ADB elszámolási egység</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unità di conto della Banca africana di sviluppo</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>APB apskaitos vienetas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Āfrikas Attīstības bankas (ADB) norēķinu vienība</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unità tal-Kont ADB</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>ADB-rekeneenheid</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Jednostka rozliczeniowa ADB</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Unidade de Conta do Banco Africano de Desenvolvimento</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Unitatea de cont – Banca Africană de Dezvoltare</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>ADB zúčtovacia jednotka</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Obračunska enota ADB</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>ADB-beräkningsenhet</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>XXX</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>No currency</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Няма валута</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Žádná měna</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Ingen valuta</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Keine Währung</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Κανένα νόμισμα</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>No currency</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Sin moneda</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Vääring puudub</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Ei valuuttaa</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Sans monnaie</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Gan airgeadra</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Bez valute</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Nincs pénznem megadva</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Nessuna valuta</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Valiutos nėra</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Nav valūta</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Ebda munita</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Geen munteenheid</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Brak waluty</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Sem moeda</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Fără monedă</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Bez meny</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Ni valute</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Ingen valuta</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -14519,86 +12679,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Zambisk kwacha</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ZWL</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zimbabwe dollar</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Зимбабвийски долар</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Zimbabwský dolar</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Zimbabwisk dollar</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Simbabwe-Dollar</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Δολάριο Ζιμπάμπουε</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Zimbabwe dollar</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Dólar zimbabuense</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Zimbabwe dollar</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Zimbabwen dollari</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Dollar zimbabwéen</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Dollar na Siombáibe</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Zimbabveanski dolar</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Zimbabwei dollár</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Dollaro dello Zimbabwe</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Zimbabvės doleris</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Zimbabves dolārs</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Dollaru Żimbabwen</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Zimbabwaanse dollar</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Dolar Zimbabwe</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Dólar zimbabuense</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Dolar zimbabwean</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Zimbabwiansky dolár</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Zimbabvejski dolar</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Zimbabwisk dollar</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
