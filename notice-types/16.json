@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.5.35",
-    "createdOn" : "2023-02-01T14:36:56"
+    "version" : "1.5.67",
+    "createdOn" : "2023-02-16T14:19:14"
   },
   "noticeId" : "16",
   "metadata" : [ {
@@ -266,7 +266,6 @@
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (NoID)",
           "_label" : "field|name|BT-01(e)-Procedure",
-          "readOnly" : true,
           "_presetValue" : "LocalLegalBasis"
         }, {
           "id" : "BT-01(f)-Procedure",
@@ -475,7 +474,6 @@
           "displayType" : "TEXTBOX",
           "description" : "Cross Border Law",
           "_label" : "field|name|BT-09(a)-Procedure",
-          "readOnly" : true,
           "_presetValue" : "CrossBorderLaw"
         }, {
           "id" : "BT-09(b)-Procedure",
@@ -576,7 +574,9 @@
     "description" : "Lot related information covering Tendering Terms, Tendering Process and Purpose",
     "_label" : "group|name|ND-Lot",
     "_idScheme" : "LOT",
+    "_schemeName" : "Lot",
     "_identifierFieldId" : "BT-137-Lot",
+    "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
     "content" : [ {
       "id" : "GR-Lot-Purpose",
@@ -591,6 +591,7 @@
         "description" : "Purpose Lot Identifier",
         "_label" : "field|name|BT-137-Lot",
         "_idScheme" : "LOT",
+        "_schemeName" : "Lot",
         "hidden" : true
       }, {
         "id" : "GR-Lot-PreviousPlanning",
@@ -640,7 +641,7 @@
         }, {
           "id" : "BT-23-Lot",
           "contentType" : "field",
-          "displayType" : "COMBOBOX",
+          "displayType" : "RADIO",
           "description" : "Main Nature",
           "_label" : "field|name|BT-23-Lot"
         }, {
@@ -1027,7 +1028,6 @@
           "displayType" : "COMBOBOX",
           "description" : "Buyer Categories",
           "_label" : "field|name|OPT-090-Lot",
-          "readOnly" : true,
           "_presetValue" : "buyer-categories"
         }, {
           "id" : "BT-111-Lot",
@@ -1356,25 +1356,17 @@
           "description" : "Tenderer Legal Form Description",
           "_label" : "field|name|BT-76-Lot"
         }, {
-          "id" : "GR-LateTendererInformation",
-          "contentType" : "group",
-          "nodeId" : "ND-LateTendererInformation",
-          "displayType" : "GROUP",
-          "description" : "Information about late provision of information by the tenderer (possibility and description of the information)",
-          "_label" : "group|name|ND-LateTendererInformation",
-          "content" : [ {
-            "id" : "BT-771-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Late Tenderer Information",
-            "_label" : "field|name|BT-771-Lot"
-          }, {
-            "id" : "BT-772-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Late Tenderer Information Description",
-            "_label" : "field|name|BT-772-Lot"
-          } ]
+          "id" : "BT-771-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Late Tenderer Information",
+          "_label" : "field|name|BT-771-Lot"
+        }, {
+          "id" : "BT-772-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Late Tenderer Information Description",
+          "_label" : "field|name|BT-772-Lot"
         }, {
           "id" : "GR-ReservedParticipation",
           "contentType" : "group",
@@ -1951,7 +1943,9 @@
     "description" : "LotsGroup related information covering Tendering Terms, Tendering Process and Purpose",
     "_label" : "group|name|ND-LotsGroup",
     "_idScheme" : "GLO",
+    "_schemeName" : "LotsGroup",
     "_identifierFieldId" : "BT-137-LotsGroup",
+    "_captionFieldId" : "BT-21-LotsGroup",
     "_repeatable" : true,
     "content" : [ {
       "id" : "GR-LotsGroup-Purpose",
@@ -1966,6 +1960,7 @@
         "description" : "Purpose Lot Identifier",
         "_label" : "field|name|BT-137-LotsGroup",
         "_idScheme" : "GLO",
+        "_schemeName" : "LotsGroup",
         "hidden" : true
       }, {
         "id" : "GR-LotsGroup-LotDistribution",
@@ -1976,11 +1971,10 @@
         "content" : [ {
           "id" : "BT-330-Procedure",
           "contentType" : "field",
-          "displayType" : "TEXTBOX",
+          "displayType" : "COMBOBOX",
           "description" : "Group Identifier",
           "_label" : "field|name|BT-330-Procedure",
-          "valueSource" : "BT-137-LotsGroup",
-          "hidden" : true
+          "_idSchemes" : [ "GLO" ]
         }, {
           "id" : "BT-1375-Procedure",
           "contentType" : "field",
@@ -2244,7 +2238,9 @@
         "description" : "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
         "_label" : "group|name|ND-Organization",
         "_idScheme" : "ORG",
+        "_schemeName" : "organization",
         "_identifierFieldId" : "OPT-200-Organization-Company",
+        "_captionFieldId" : "BT-500-Organization-Company",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-200-Organization-Company",
@@ -2253,6 +2249,7 @@
           "description" : "Organisation Technical Identifier",
           "_label" : "field|name|OPT-200-Organization-Company",
           "_idScheme" : "ORG",
+          "_schemeName" : "organization",
           "hidden" : true
         }, {
           "id" : "BT-633-Organization",
@@ -2411,7 +2408,9 @@
           "description" : "Contact details associated to a given role",
           "_label" : "group|name|ND-Touchpoint",
           "_idScheme" : "TPO",
+          "_schemeName" : "touchpoint",
           "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
+          "_captionFieldId" : "BT-500-Organization-TouchPoint",
           "_repeatable" : true,
           "content" : [ {
             "id" : "OPT-201-Organization-TouchPoint",
@@ -2420,6 +2419,7 @@
             "description" : "TouchPoint Technical Identifier",
             "_label" : "field|name|OPT-201-Organization-TouchPoint",
             "_idScheme" : "TPO",
+            "_schemeName" : "touchpoint",
             "hidden" : true
           }, {
             "id" : "BT-500-Organization-TouchPoint",
