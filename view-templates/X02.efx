@@ -1,36 +1,36 @@
 // View X02
 // sdkVersion='1.6.0'
-// File generated from metadata database version 1.5.29 created on the 2023-01-24T11:03:12
-9 {ND-Root} #{auxiliary|text|object} // --- 9 Object ---
-	0 {ND-Root} #{auxiliary|text|legal-basis} // --- Legal basis ---
-		{BT-01-notice} #{BT-01-notice}
-		{OPP-100-Business} #{name|OPP-100}: #{OPP-100-Business}
-	1 {BT-500-Business} #{auxiliary|text|company} // --- 9.1 Name and address of the company/society ---
-		{BT-500-Business} #{name|BT-500}: ${BT-500-Business}
-		{BT-501-Business-National} #{name|BT-501}: ${BT-501-Business-National}
-		{BT-510(a)-Business} #{name|BT-510}: ${BT-510(a)-Business} ${BT-510(b)-Business} ${BT-510(c)-Business}
-		{BT-513-Business} #{name|BT-513}: ${BT-513-Business}
-		{BT-512-Business} #{name|BT-512}: ${BT-512-Business}
-		{BT-507-Business} #{name|BT-507}: #{BT-507-Business}
-		{BT-514-Business} #{name|BT-514}: #{BT-514-Business}
-		{BT-502-Business} #{name|BT-502}: ${BT-502-Business}
-		{BT-506-Business} #{name|BT-506}: ${BT-506-Business}
-		{BT-503-Business} #{name|BT-503}: ${BT-503-Business}
-		{BT-739-Business} #{name|BT-739}: ${BT-739-Business}
-		{BT-505-Business} #{name|BT-505}: ${BT-505-Business}
-	2 {OPP-105-Business} #{name|OPP-105-Business}: #{OPP-105-Business}  // --- 9.2 Sector of activity:  ---
-	3 {ND-Root} #{auxiliary|text|place-registration} // --- 9.3 Place of registration ---
-		{OPP-110-Business} #{name|OPP-110}: ${OPP-110-Business}
-		{OPP-111-Business} #{name|OPP-111}: ${OPP-111-Business}
-		{OPP-112-Business} #{name|OPP-112}: ${OPP-112-Business}
-		{BT-501-Business-European} #{name|BT-501}: ${BT-501-Business-European}
-		{OPP-113-Business-European} #{name|OPP-113}: ${OPP-113-Business-European}
-	4 {ND-Root} #{auxiliary|text|publication-gazette} // --- 9.4 Publication in the official gazette ---
-		{OPP-120-Business} #{name|OPP-120}: ${OPP-120-Business}
-		{OPP-121-Business} #{name|OPP-121}: ${OPP-121-Business}
-		{OPP-122-Business} #{name|OPP-122}: ${OPP-122-Business}
-		{OPP-123-Business} #{name|OPP-123}: ${OPP-123-Business}
-	5 {OPP-130-Business} #{name|OPP-130}: ${OPP-130-Business} // --- 9.5 Additional information ---
+// File generated from metadata database version 1.5.67 created on the 2023-02-16T14:19:14
+9 {ND-Root} #{auxiliary|text|object} // 9. Object
+	0 {ND-Root} #{auxiliary|text|legal-basis} // Legal basis
+		{BT-01-notice} #{BT-01-notice} // Regulation reference
+		{OPP-100-Business} #{name|OPP-100}: #{OPP-100-Business} // This notice contains information relevant to
+	1 {BT-500-Business} #{auxiliary|text|company} // 9.1 Name and address of the company-society
+		{BT-500-Business} #{name|BT-500}: ${BT-500-Business} // Official name
+		{BT-501-Business-National} #{name|BT-501}: ${BT-501-Business-National} // Identifier of the organisation
+		{BT-510(a)-Business} #{name|BT-510}: ${BT-510(a)-Business} ${BT-510(b)-Business} ${BT-510(c)-Business} // Postal address
+		{BT-513-Business} #{name|BT-513}: ${BT-513-Business} // Town
+		{BT-512-Business} #{name|BT-512}: ${BT-512-Business} // Postal code
+		{BT-507-Business} #{name|BT-507}: #{BT-507-Business} // Country subentity
+		{BT-514-Business} #{name|BT-514}: #{BT-514-Business} // Country
+		{BT-502-Business} #{name|BT-502}: ${BT-502-Business} // Contact point
+		{BT-506-Business} #{name|BT-506}: ${BT-506-Business} // E-mail
+		{BT-503-Business} #{name|BT-503}: ${BT-503-Business} // Telephone
+		{BT-739-Business} #{name|BT-739}: ${BT-739-Business} // Fax
+		{BT-505-Business} #{name|BT-505}: ${BT-505-Business} // Internet address
+	2 {OPP-105-Business} #{name|OPP-105-Business}: #{OPP-105-Business}  // 9.2 Sector of activity
+	3 {ND-Root} #{auxiliary|text|place-registration} // 9.3 Place of registration
+		{OPP-110-Business} #{name|OPP-110}: ${OPP-110-Business} // Town
+		{OPP-111-Business} #{name|OPP-111}: ${OPP-111-Business} // Post code
+		{OPP-112-Business} #{name|OPP-112}: ${OPP-112-Business} // Country
+		{BT-501-Business-European} #{name|BT-501}: ${BT-501-Business-European} // Registration number
+		{OPP-113-Business-European} #{name|OPP-113}: ${OPP-113-Business-European} // Date of registration
+	4 {ND-Root} #{auxiliary|text|publication-gazette} // 9.4 Publication in the official gazette
+		{OPP-120-Business} #{name|OPP-120}: ${OPP-120-Business} // Name of publication
+		{OPP-121-Business} #{name|OPP-121}: ${OPP-121-Business} // Title of the announcement: A company is born
+		{OPP-122-Business} #{name|OPP-122}: ${OPP-122-Business} // URL of the announcement
+		{OPP-123-Business} #{name|OPP-123}: ${OPP-123-Business} // Date of publication of the announcement
+	5 {OPP-130-Business} #{name|OPP-130}: ${OPP-130-Business} // 9.5 Additional information
 11 {ND-Root} #{auxiliary|text|notice-information} // 11. Notice information
 	1 {ND-Root} #{auxiliary|text|notice-information} // 11.1 Notice information
 		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}  // Notice identifier / version
@@ -39,6 +39,9 @@
 		{OPP-070-notice} #{name|OPP-070}: ${OPP-070-notice} // Notice subtype
 		{OPP-131-Business} #{name|OPP-131}: ${OPP-131-Business} // Sender's email address
 		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice} // Notice dispatch date and time
+			// {BT-197(BT-05)-Notice} #{name|BT-197(BT-05)-Notice}: #{BT-197(BT-05)-Notice} // Unpublished Justification Code
+			// {BT-196(BT-05)-Notice} #{name|BT-196(BT-05)-Notice}: ${BT-196(BT-05)-Notice} // Unpublished Justification Description
+			// {BT-198(BT-05)-Notice} #{name|BT-198(BT-05)-Notice}: ${BT-198(BT-05)-Notice} // Unpublished Access Date
 		{BT-702(a)-notice} #{name|BT-702}: #{BT-702(a)-notice} #{BT-702(b)-notice} // Languages in which this notice is officially available
 	2 {ND-Root} #{auxiliary|text|publication-information} // 11.2 Publication information
 		{OPP-010-notice} #{name|OPP-010}: ${OPP-010-notice} // Notice publication number
