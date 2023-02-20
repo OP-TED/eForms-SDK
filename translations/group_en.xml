@@ -270,7 +270,7 @@
 <entry key="group|name|ND-LotReservedProcurement">Reserved Procurement</entry>
 <entry key="group|name|ND-LotResult">Result of the lot</entry>
 <entry key="group|name|ND-LotTender">Submitted tender</entry>
-<entry key="group|name|ND-LotTenderingProcess">Tendering Procedure information (GPA, Atypical Tool, Deadlines, techniques) for a Lot</entry>
+<entry key="group|name|ND-LotTenderingProcess">Tendering Procedure information</entry>
 <entry key="group|name|ND-LotsGroup">Information about groups of lots</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteria">Award criteria</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteriaNameUnpublish">Not Immediately Published (LotsGroupAwardCriteriaName)</entry>
@@ -291,7 +291,7 @@
 <entry key="group|name|ND-NDA">Description of the NDA</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Not Immediately Published (NotAwardedReason)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Not Immediately Published (NoticeMaximumValue)</entry>
-<entry key="group|name|ND-NoticeResult">Outcome of the Procurement Procedure for all lots listed in the notice (also contains individual Lot Results)</entry>
+<entry key="group|name|ND-NoticeResult">Notice Result</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximum value of group of lots</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Not Immediately Published (NoticeValue)</entry>
 <entry key="group|name|ND-OptionsDescription">Description of Options or Renewals</entry>
