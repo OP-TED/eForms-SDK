@@ -506,9 +506,10 @@
     "content" : [ {
       "id" : "GR-Lot-Purpose",
       "contentType" : "group",
+      "nodeId" : "ND-LotTenderingProcess",
       "displayType" : "SECTION",
-      "description" : "Purpose",
-      "_label" : "group|name|GR-Lot-Purpose",
+      "description" : "Tendering Procedure information (GPA, Atypical Tool, Deadlines, techniques) for a Lot",
+      "_label" : "group|name|ND-LotTenderingProcess",
       "content" : [ {
         "id" : "BT-137-Lot",
         "contentType" : "field",
