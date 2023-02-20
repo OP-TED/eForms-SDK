@@ -12,7 +12,7 @@ Several new properties were added in fields.json:
 
 The files "notice-types.json" now also contains information on all XML namespaces and prefixes.
 
-Schematron rule now indicate the identifier of the field or node to which the rule applies, and this information is present in validation reports.
+Schematron rules now indicate the identifier of the field or node to which each rule applies, and this information is present in validation reports.
 
 ## Updated metadata content
 
@@ -21,7 +21,7 @@ This version brings various changes in the metadata content that were needed for
 * The content of codelists was updated.
 * Schematron rules were added and updated.
 * Examples were updated accordingly, along with their validation reports. A new invalid example was added.
-* The node structure was corrected, along with the definition of corresponding fields. The definitions of several fields were corrected.
+* The node structure was corrected, along with the definitions of corresponding fields. The definitions of several fields were corrected.
 * All notice type definitions were updated and corrected.
 * View templates were corrected and updated.
 * Translations were added and corrected for various asset types.
