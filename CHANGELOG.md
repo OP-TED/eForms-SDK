@@ -18,7 +18,7 @@ Schematron rule now indicate the identifier of the field or node to which the ru
 
 This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency:
 
-* The content of codelists were updated.
+* The content of codelists was updated.
 * Schematron rules were added and updated.
 * Examples were updated accordingly, along with their validation reports. A new invalid example was added.
 * The node structure was corrected, along with the definition of corresponding fields. The definitions of several fields were corrected.
@@ -30,4 +30,4 @@ As new rules were added, a notice that was valid with SDK 1.5.x might not be val
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
-A comprehensive list of changes between SDK 1.5.1 and SDK 1.6.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.5.1...1.5.0>
+A comprehensive list of changes between SDK 1.5.1 and SDK 1.6.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.5.1...1.6.0>
