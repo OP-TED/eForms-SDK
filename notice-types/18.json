@@ -3,7 +3,7 @@
   "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
     "version" : "1.6.0",
-    "createdOn" : "2023-02-17T12:00:00"
+    "createdOn" : "2023-02-23T10:00:00"
   },
   "noticeId" : "18",
   "metadata" : [ {
@@ -548,57 +548,6 @@
           "_label" : "field|name|BT-763-Procedure"
         } ]
       }, {
-        "id" : "GR-Procedure-LotDistribution",
-        "contentType" : "group",
-        "nodeId" : "ND-LotDistribution",
-        "displayType" : "GROUP",
-        "description" : "Lots Distribution Information (Max number of Lots a same tenderer may win, Max number of lots a tenderer may tender for, Group of lots and their composition)",
-        "_label" : "group|name|ND-LotDistribution",
-        "content" : [ {
-          "id" : "GR-Procedure-GroupComposition",
-          "contentType" : "group",
-          "nodeId" : "ND-GroupComposition",
-          "displayType" : "GROUP",
-          "description" : "Composition of a given Group of lots",
-          "_label" : "group|name|ND-GroupComposition",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-330-Procedure",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Group Identifier",
-            "_label" : "field|name|BT-330-Procedure",
-            "_idSchemes" : [ "GLO" ]
-          }, {
-            "id" : "BT-1375-Procedure",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Group Lot Identifier",
-            "_label" : "field|name|BT-1375-Procedure",
-            "_idSchemes" : [ "LOT" ],
-            "_repeatable" : true
-          } ]
-        }, {
-          "id" : "GR-Procedure-MaxLots",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Max Lots",
-          "_label" : "group|name|GR-Procedure-MaxLots",
-          "content" : [ {
-            "id" : "BT-31-Procedure",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Lots Max Allowed",
-            "_label" : "field|name|BT-31-Procedure"
-          }, {
-            "id" : "BT-33-Procedure",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Lots Max Awarded",
-            "_label" : "field|name|BT-33-Procedure"
-          } ]
-        } ]
-      }, {
         "id" : "GR-Procedure-AdditionalInformation",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -610,6 +559,57 @@
           "displayType" : "TEXTAREA",
           "description" : "Additional Information",
           "_label" : "field|name|BT-300-Procedure"
+        } ]
+      } ]
+    }, {
+      "id" : "GR-Procedure-LotDistribution",
+      "contentType" : "group",
+      "nodeId" : "ND-LotDistribution",
+      "displayType" : "SECTION",
+      "description" : "Lots Distribution Information (Max number of Lots a same tenderer may win, Max number of lots a tenderer may tender for, Group of lots and their composition)",
+      "_label" : "group|name|ND-LotDistribution",
+      "content" : [ {
+        "id" : "GR-Procedure-GroupComposition",
+        "contentType" : "group",
+        "nodeId" : "ND-GroupComposition",
+        "displayType" : "GROUP",
+        "description" : "Composition of a given Group of lots",
+        "_label" : "group|name|ND-GroupComposition",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-330-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Group Identifier",
+          "_label" : "field|name|BT-330-Procedure",
+          "_idSchemes" : [ "GLO" ]
+        }, {
+          "id" : "BT-1375-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Group Lot Identifier",
+          "_label" : "field|name|BT-1375-Procedure",
+          "_idSchemes" : [ "LOT" ],
+          "_repeatable" : true
+        } ]
+      }, {
+        "id" : "GR-Procedure-MaxLots",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Max Lots",
+        "_label" : "group|name|GR-Procedure-MaxLots",
+        "content" : [ {
+          "id" : "BT-31-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Lots Max Allowed",
+          "_label" : "field|name|BT-31-Procedure"
+        }, {
+          "id" : "BT-33-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Lots Max Awarded",
+          "_label" : "field|name|BT-33-Procedure"
         } ]
       } ]
     } ]
