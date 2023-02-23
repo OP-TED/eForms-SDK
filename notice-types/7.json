@@ -3,7 +3,7 @@
   "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
     "version" : "1.6.0",
-    "createdOn" : "2023-02-17T12:00:00"
+    "createdOn" : "2023-02-23T10:00:00"
   },
   "noticeId" : "7",
   "metadata" : [ {
@@ -1742,6 +1742,12 @@
           "displayType" : "TEXTBOX",
           "description" : "Documents URL",
           "_label" : "field|name|BT-15-Lot"
+        }, {
+          "id" : "BT-615-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Documents Restricted URL",
+          "_label" : "field|name|BT-615-Lot"
         }, {
           "id" : "OPT-140-Lot",
           "contentType" : "field",
