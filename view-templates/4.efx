@@ -1,6 +1,6 @@
 // View 4
 // sdkVersion='1.6.0'
-// File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00
+// File generated from metadata database version 1.6.0 created on the 2023-02-23T10:00
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -34,7 +34,7 @@
 			{BT-01-notice} #{BT-01-notice} // Procedure Legal Basis
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure}// Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 3 {ND-Root[(BT-21-Part is present)]} #{auxiliary|text|part} // 3. Parts
-	1 {ND-Part} #{name|BT-137}: ${BT-137-Part} // 3.1 Part: PAR-XXXX
+	1 {ND-Part} #{name|BT-137}: ${BT-137-Part} // 3.1 Part
 		{BT-21-Part} #{name|BT-21}: ${BT-21-Part} // Title
 		{BT-24-Part} #{name|BT-24}: ${BT-24-Part} // Description
 		{BT-22-Part} #{name|BT-22}: ${BT-22-Part} // Internal identifier
