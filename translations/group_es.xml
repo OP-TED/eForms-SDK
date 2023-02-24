@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in Spanish. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>group in Spanish. File generated from metadata database version 1.6.0 created on the 2023-02-24T12:00</comment>
 <entry key="group|name|GR-Business-Address">Dirección</entry>
 <entry key="group|name|GR-Business-Contact">Contacto</entry>
 <entry key="group|name|GR-Business-Party">Partido empresarial</entry>
@@ -227,9 +227,9 @@
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Description of the procedure (published later)</entry>
 <entry key="group|name|GR-Winner">Ganador</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Requests to review decisions</entry>
-<entry key="group|name|ND-Change">Information about the change</entry>
+<entry key="group|name|ND-Change">Cambio</entry>
 <entry key="group|name|ND-ContractEUFunds">EU funds used in the contract</entry>
-<entry key="group|name|ND-ContractModification">Information about the modification</entry>
+<entry key="group|name|ND-ContractModification">Modificación</entry>
 <entry key="group|name|ND-ContractingParty">Buyer</entry>
 <entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
@@ -242,7 +242,7 @@
 <entry key="group|name|ND-LotAwardCriterionParameters">Award criteria</entry>
 <entry key="group|name|ND-LotPlacePerformance">Place of performance</entry>
 <entry key="group|name|ND-LotPreviousPlanning">Reference to previous planning</entry>
-<entry key="group|name|ND-LotResult">Result of the lot</entry>
+<entry key="group|name|ND-LotResult">Resultado</entry>
 <entry key="group|name|ND-LotTender">Submitted tender</entry>
 <entry key="group|name|ND-LotsGroup">Information about groups of lots</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteria">Award criteria</entry>
