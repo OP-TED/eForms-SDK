@@ -1,6 +1,6 @@
 // Summary
 // sdkVersion='1.6.0'
-// File generated from metadata database version 1.5.67 created on the 2023-02-16T14:19:14
+// File generated from metadata database version 1.6.0 created on the 2023-02-23T10:00
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -21,7 +21,7 @@
 			{BT-756-Procedure} #{name|BT-756} // Call for competition is terminated
 			{BT-01-notice} #{BT-01-notice} // Procedure Legal Basis
 3 {ND-Root[(BT-21-Part is present)]} #{auxiliary|text|part} // 3. Parts
-	1 {ND-Part} #{name|BT-137}: ${BT-137-Part} // 3.1 Part: PAR-XXXX
+	1 {ND-Part} #{name|BT-137}: ${BT-137-Part} // 3.1 Part
 		{BT-21-Part} #{name|BT-21}: ${BT-21-Part} // Title
 		1 {BT-137-Part[(BT-23-Part is present) or (BT-531-Part is present) or (BT-262-Part is present) or (BT-263-Part is present)]} #{auxiliary|text|purpose} // 3.1.1 Purpose
 			{BT-262-Part} #{name|BT-262} (${BT-26(m)-Part}): ${BT-262-Part} #{BT-262-Part} // Main classification

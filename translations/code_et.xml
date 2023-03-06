@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Estonian. File generated from metadata database version 1.5.67 created on the 2023-02-16T14:19:14</comment>
+<comment>code in Estonian. File generated from metadata database version 1.6.0 created on the 2023-02-24T14:00</comment>
 <entry key="code|name|accessibility.inc">Lisatud on puuetega inimeste juurdepääsukriteeriumid</entry>
 <entry key="code|name|accessibility.n-inc">Puuetega inimeste juurdepääsukriteeriume pole lisatud, sest hange ei ole mõeldud kasutamiseks füüsilistele isikutele</entry>
 <entry key="code|name|accessibility.n-inc-just">Puuetega inimeste juurdepääsukriteeriume ei ole lisatud järgmise põhjendusega</entry>
@@ -10786,7 +10786,7 @@
 <entry key="code|name|vehicle-category.n2">N2</entry>
 <entry key="code|name|vehicle-category.n2-n3">Veoauto (N2-N3)</entry>
 <entry key="code|name|vehicle-category.n3">N3</entry>
-<entry key="code|name|winner-selection-status.clos-nw">Edukas pakkuja on välja valitud ja hange lõpetatud.</entry>
+<entry key="code|name|winner-selection-status.clos-nw">Edukat pakkujat välja ei valitud ja hange on lõpetatud.</entry>
 <entry key="code|name|winner-selection-status.open-nw">Edukat pakkujat ei ole veel valitud, kuid hange on veel pooleli.</entry>
 <entry key="code|name|winner-selection-status.selec-w">Vähemalt üks edukas pakkuja on välja valitud.</entry>
 </properties>
