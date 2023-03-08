@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Slovene. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>code in Slovene. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Vključeni so pogoji dostopnosti za invalidne osebe</entry>
 <entry key="code|name|accessibility.n-inc">Pogoji dostopnosti za invalidne osebe niso vključeni, ker predmet javnega naročila ni namenjen temu, da bi ga uporabljale fizične osebe</entry>
 <entry key="code|name|accessibility.n-inc-just">Pogoji dostopnosti za invalidne osebe niso vključeni iz naslednjih razlogov</entry>
@@ -188,7 +188,7 @@
 <entry key="code|name|country.KGZ">Kirgizistan</entry>
 <entry key="code|name|country.KHM">Kambodža</entry>
 <entry key="code|name|country.KIR">Kiribati</entry>
-<entry key="code|name|country.KNA">Saint Kitts in Nevis</entry>
+<entry key="code|name|country.KNA">Sveti Krištof in Nevis</entry>
 <entry key="code|name|country.KOR">Južna Koreja</entry>
 <entry key="code|name|country.KWT">Kuvajt</entry>
 <entry key="code|name|country.LAO">Laos</entry>
@@ -282,7 +282,7 @@
 <entry key="code|name|country.SPM">Saint Pierre in Miquelon</entry>
 <entry key="code|name|country.SRB">Sŕbija</entry>
 <entry key="code|name|country.SSD">Južni Sudan</entry>
-<entry key="code|name|country.STP">São Tomé in Príncipe</entry>
+<entry key="code|name|country.STP">Sveti Tomaž in Princ</entry>
 <entry key="code|name|country.SUN">Sovjetska zveza</entry>
 <entry key="code|name|country.SUR">Surinam</entry>
 <entry key="code|name|country.SVK">Slovaška</entry>
@@ -315,7 +315,7 @@
 <entry key="code|name|country.USA">Združene države</entry>
 <entry key="code|name|country.UZB">Uzbekistan</entry>
 <entry key="code|name|country.VAT">Vatikanska mestna država</entry>
-<entry key="code|name|country.VCT">Saint Vincent in Grenadine</entry>
+<entry key="code|name|country.VCT">Sveti Vincencij in Grenadine</entry>
 <entry key="code|name|country.VDR">Demokratična republika Vietnam</entry>
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Britanski Deviški otoki</entry>
@@ -9813,7 +9813,7 @@
 <entry key="code|name|currency.BGJ">Lev</entry>
 <entry key="code|name|currency.BGK">Lev</entry>
 <entry key="code|name|currency.BGL">Lev</entry>
-<entry key="code|name|currency.BGN">Lev</entry>
+<entry key="code|name|currency.BGN">Bolgarski lev</entry>
 <entry key="code|name|currency.BHD">Bahrajnski dinar</entry>
 <entry key="code|name|currency.BIF">Burundijski frank</entry>
 <entry key="code|name|currency.BMD">Bermudski dolar</entry>
@@ -9922,7 +9922,7 @@
 <entry key="code|name|currency.LVL">Lats</entry>
 <entry key="code|name|currency.LYD">Libijski dinar</entry>
 <entry key="code|name|currency.MAD">Maroški dirham</entry>
-<entry key="code|name|currency.MDL">Moldavijski leu</entry>
+<entry key="code|name|currency.MDL">Moldavski lev</entry>
 <entry key="code|name|currency.MGA">Ariary</entry>
 <entry key="code|name|currency.MGF">Malgaški frank</entry>
 <entry key="code|name|currency.MKD">Denar</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Nepalska rupija</entry>
 <entry key="code|name|currency.NZD">Novozelandski dolar</entry>
 <entry key="code|name|currency.OMR">Omanski rial</entry>
+<entry key="code|name|currency.OP_DATPRO">Začasni podatki</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Novi sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Filipinski peso</entry>
 <entry key="code|name|currency.PKR">Pakistanska rupija</entry>
@@ -9966,7 +9967,7 @@
 <entry key="code|name|currency.PYG">Gvarani</entry>
 <entry key="code|name|currency.QAR">Katarski rial</entry>
 <entry key="code|name|currency.ROL">Romunski leu</entry>
-<entry key="code|name|currency.RON">Romunski leu</entry>
+<entry key="code|name|currency.RON">Romunski lev</entry>
 <entry key="code|name|currency.RSD">Srbski dinar</entry>
 <entry key="code|name|currency.RUB">Ruski rubelj</entry>
 <entry key="code|name|currency.RUR">Ruski rubelj</entry>
@@ -10129,8 +10130,8 @@
 <entry key="code|name|eu-programme.BMVI">Sklad za integrirano upravljanje meja – instrument za upravljanje meja in vizume</entry>
 <entry key="code|name|eu-programme.CCEI">Sklad za integrirano upravljanje meja – instrument za finančno podporo za opremo za carinske kontrole</entry>
 <entry key="code|name|eu-programme.CDF2020">Program za pravice, enakost in državljanstvo</entry>
-<entry key="code|name|eu-programme.CEF">Instrument za povezovanje Evrope</entry>
-<entry key="code|name|eu-programme.CEF_2021">Instrument za povezovanje Evrope (NPE)</entry>
+<entry key="code|name|eu-programme.CEF">Instrument za povezovanje Evrope (2014–2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Instrument za povezovanje Evrope (NPE 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Državljani, enakost, pravice in vrednote</entry>
 <entry key="code|name|eu-programme.CF">Kohezijski sklad</entry>
 <entry key="code|name|eu-programme.CFSP2020">Skupna zunanja in varnostna politika (SZVP)</entry>
@@ -10238,6 +10239,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Razgradnja jedrskih elektrarn (Litva)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Jedrska varnost in razgradnja (tudi za Bolgarijo in Slovaško)</entry>
 <entry key="code|name|eu-programme.OCT">Čezmorske države in ozemlja (tudi Grenlandija)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Začasni podatki</entry>
 <entry key="code|name|eu-programme.OUTREG">Najbolj oddaljene in redko poseljene regije</entry>
 <entry key="code|name|eu-programme.PERI2020">Program izmenjave, pomoči in usposabljanja za zaščito eura pred ponarejanjem (Pericles 2020)</entry>
 <entry key="code|name|eu-programme.PERICLES">Zaščita eura pred ponarejanjem (program „Pericles IV“)</entry>
@@ -10777,8 +10779,8 @@
 <entry key="code|name|non-award-justification.chan-need">Kupčeva odločitev zaradi spremembe potreb</entry>
 <entry key="code|name|non-award-justification.ins-fund">Kupčeva odločitev zaradi pomanjkanja sredstev</entry>
 <entry key="code|name|non-award-justification.no-rece">Ni bilo ponudb, prijav za sodelovanje ali projektov</entry>
-<entry key="code|name|non-award-justification.no-signed">Ponudniki z največjim doseženim številom točk so odklonili podpis pogodbe.</entry>
-<entry key="code|name|non-award-justification.one-admis">Prejeta je bila samo ena sprejemljiva ponudba, prijava za sodelovanje ali projekt.</entry>
+<entry key="code|name|non-award-justification.no-signed">Ponudniki z največjim doseženim številom točk so odklonili podpis pogodbe</entry>
+<entry key="code|name|non-award-justification.one-admis">Prejeta je bila samo ena sprejemljiva ponudba, prijava za sodelovanje ali projekt</entry>
 <entry key="code|name|non-award-justification.other">Drugo</entry>
 <entry key="code|name|non-award-justification.rev-body">Odločitev revizijskega organa ali drugega sodnega organa</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Kupčeva odločitev, da ugodi ponudnikovi zahtevi za pregled oddaje</entry>

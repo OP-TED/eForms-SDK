@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Maltese. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>code in Maltese. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà huma inklużi</entry>
 <entry key="code|name|accessibility.n-inc">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà ma jkunux inklużi minħabba li l-akkwist ma jkunx maħsub għall-użu minn persuni fiżiċi</entry>
 <entry key="code|name|accessibility.n-inc-just">Il-kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà ma jkunux inklużi bil-ġustifikazzjoni li ġejja</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Rupee Nepaliż</entry>
 <entry key="code|name|currency.NZD">Dollaru New Zealandiż</entry>
 <entry key="code|name|currency.OMR">Rial Omani</entry>
+<entry key="code|name|currency.OP_DATPRO">Dejta provviżorja</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Sol ġdid</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Peso Filippin</entry>
 <entry key="code|name|currency.PKR">Rupee Pakistani</entry>
@@ -10129,8 +10130,8 @@
 <entry key="code|name|eu-programme.BMVI">Fond għall-Ġestjoni Integrata tal-Fruntieri (IBMF) — Strument għall-ġestjoni tal-fruntieri u l-viża (BMVI)</entry>
 <entry key="code|name|eu-programme.CCEI">Fond għall-Ġestjoni Integrata tal-Fruntieri (IBMF) — Strument ta’ appoġġ finanzjarju għat-tagħmir ta’ kontroll doganali (CCEi)</entry>
 <entry key="code|name|eu-programme.CDF2020">Programm dwar id-Drittijiet, Ugwaljanza u Ċittadinanza</entry>
-<entry key="code|name|eu-programme.CEF">Faċilità Nikkollegaw l-Ewropa (CEF)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Faċilità Nikkollegaw l-Ewropa (CEF)</entry>
+<entry key="code|name|eu-programme.CEF">Faċilità Nikkollegaw l-Ewropa (CEF 2014–2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Faċilità Nikkollegaw l-Ewropa (CEF 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Iċ-Ċittadini, l-Ugwaljanza, id-Drittijiet u l-Valuri</entry>
 <entry key="code|name|eu-programme.CF">Fond ta’ Koeżjoni (FK)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Politika Estera u ta' Sigurtа Komuni (PESK)</entry>
@@ -10238,6 +10239,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Żmantellar tas-siti nukleari (il-Litwanja)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Sikurezza Nukleari u l-Iżmantellar (inklużi l-Bulgarija u s-Slovakkja)</entry>
 <entry key="code|name|eu-programme.OCT">Pajjiżi u territorji extra-Ewropej (OCT) (inkluż Greenland)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Dejta provviżorja</entry>
 <entry key="code|name|eu-programme.OUTREG">Reġjuni ultraperiferiċi u sottopopolati</entry>
 <entry key="code|name|eu-programme.PERI2020">Programm ta’ skambju, assistenza u taħriġ għall-protezzjoni tal-euro kontra l-falsifikar (Pericles 2020)</entry>
 <entry key="code|name|eu-programme.PERICLES">Protezzjoni tal-euro kontra l-falsifikazzjoni (il- “programm Pericles IV”)</entry>
@@ -10776,8 +10778,8 @@
 <entry key="code|name|non-award-justification.chan-need">Deċiżjoni tax-xerrej, minħabba bidla fil-ħtiġijiet</entry>
 <entry key="code|name|non-award-justification.ins-fund">Deċiżjoni tax-xerrej, minħabba fondi insuffiċjenti</entry>
 <entry key="code|name|non-award-justification.no-rece">Ma waslet l-ebda offerta jew talba għall-parteċipazzjoni u ma wasal l-ebda proġett</entry>
-<entry key="code|name|non-award-justification.no-signed">{L-offerent(i) bl-ogħla punteġġ irrifjuta(w) li jiffirma(w} (i)l-kuntratt.)</entry>
-<entry key="code|name|non-award-justification.one-admis">Waslet offerta jew talba għall-parteċipazzjoni waħda biss, jew wasal proġett wieħed biss.</entry>
+<entry key="code|name|non-award-justification.no-signed">L-offerent(i) bl-ogħla punteġġ irrifjuta(w) li jiffirma(w) (i)l-kuntratt</entry>
+<entry key="code|name|non-award-justification.one-admis">Waslet offerta jew talba għall-parteċipazzjoni waħda biss, jew wasal proġett wieħed biss</entry>
 <entry key="code|name|non-award-justification.other">Oħrajn</entry>
 <entry key="code|name|non-award-justification.rev-body">Deċiżjoni ta’ korp ta’ rieżami jew ta’ korp ġudizzjarju ieħor</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Deċiżjoni tax-xerrej, wara talba ta’ offerent li jsir rieżami tal-għotja</entry>

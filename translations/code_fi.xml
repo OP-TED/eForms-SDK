@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Finnish. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>code in Finnish. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Vammaisia koskevat esteettömyysvaatimukset on otettu huomioon</entry>
 <entry key="code|name|accessibility.n-inc">Vammaisia koskevia esteettömyysvaatimuksia ei ole otettu huomioon, koska hankintaa ei ole tarkoitettu luonnollisten henkilöiden käyttöön</entry>
 <entry key="code|name|accessibility.n-inc-just">Vammaisia koskevia esteettömyysvaatimuksia ei ole otettu huomioon seuraavin perustein</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Nepalin rupia</entry>
 <entry key="code|name|currency.NZD">Uuden-Seelannin dollari</entry>
 <entry key="code|name|currency.OMR">Omanin rial</entry>
+<entry key="code|name|currency.OP_DATPRO">Alustavat tiedot</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Uusi sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Filippiinien peso</entry>
 <entry key="code|name|currency.PKR">Pakistanin rupia</entry>
@@ -10131,8 +10132,8 @@
 <entry key="code|name|eu-programme.BMVI">Yhdennetyn rajaturvallisuuden rahasto (IBMF) – rajaturvallisuuden ja viisumipolitiikan rahoitusväline (BMVI)</entry>
 <entry key="code|name|eu-programme.CCEI">Yhdennetyn rajaturvallisuuden rahasto (IBMF) – tullitarkastuslaitteiden rahoitusväline</entry>
 <entry key="code|name|eu-programme.CDF2020">Perusoikeus-, tasa-arvo- ja kansalaisuusohjelma</entry>
-<entry key="code|name|eu-programme.CEF">Verkkojen Eurooppa -väline</entry>
-<entry key="code|name|eu-programme.CEF_2021">Verkkojen Eurooppa -väline (CEF)</entry>
+<entry key="code|name|eu-programme.CEF">Verkkojen Eurooppa -väline (2014–2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Verkkojen Eurooppa -väline (CEF 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Kansalaiset, tasa-arvo, perusoikeudet ja arvot</entry>
 <entry key="code|name|eu-programme.CF">Koheesiorahasto</entry>
 <entry key="code|name|eu-programme.CFSP2020">Yhteinen ulko- ja turvallisuuspolitiikka (YUTP)</entry>
@@ -10240,6 +10241,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Ydinvoimaloiden käytöstäpoisto (Liettua)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Ydinturvallisuus ja ydinvoimaloiden käytöstäpoisto (ml. Bulgaria ja Slovakia)</entry>
 <entry key="code|name|eu-programme.OCT">Merentakaiset maat ja alueet (MMA) (ml. Grönlanti)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Alustavat tiedot</entry>
 <entry key="code|name|eu-programme.OUTREG">Syrjäisimmät ja harvaan asutut alueet</entry>
 <entry key="code|name|eu-programme.PERI2020">Tietojenvaihtoa, avunantoa ja koulutusta koskeva toimintaohjelma euron suojaamiseksi rahanväärennykseltä (Perikles 2020 -ohjelma)</entry>
 <entry key="code|name|eu-programme.PERICLES">Euron suojaaminen rahanväärennykseltä (Perikles IV -ohjelma)</entry>
@@ -10779,8 +10781,8 @@
 <entry key="code|name|non-award-justification.chan-need">Tarpeiden muuttumisesta johtuva ostajan päätös</entry>
 <entry key="code|name|non-award-justification.ins-fund">Riittämättömistä varoista johtuva ostajan päätös</entry>
 <entry key="code|name|non-award-justification.no-rece">Tarjouksia, osallistumishakemuksia tai hankkeita ei saatu</entry>
-<entry key="code|name|non-award-justification.no-signed">Parhaimmiksi arvioidut tarjoajat kieltäytyivät allekirjoittamasta sopimusta.</entry>
-<entry key="code|name|non-award-justification.one-admis">Hyväksyttävissä olevia tarjouksia, osallistumishakemuksia tai hankkeita saatiin vain yksi.</entry>
+<entry key="code|name|non-award-justification.no-signed">Parhaimmiksi arvioidut tarjoajat kieltäytyivät allekirjoittamasta sopimusta</entry>
+<entry key="code|name|non-award-justification.one-admis">Hyväksyttävissä olevia tarjouksia, osallistumishakemuksia tai hankkeita saatiin vain yksi</entry>
 <entry key="code|name|non-award-justification.other">Muu</entry>
 <entry key="code|name|non-award-justification.rev-body">Muutoksenhakuelimen tai muun lainkäyttöelimen päätös</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Ostajan päätös, joka perustuu tarjoajan muutoksenhakupyyntöön</entry>

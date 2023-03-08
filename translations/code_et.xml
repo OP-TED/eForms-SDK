@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Estonian. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>code in Estonian. File generated from metadata database version 1.6.0 created on the 2023-02-24T14:00</comment>
 <entry key="code|name|accessibility.inc">Lisatud on puuetega inimeste juurdepääsukriteeriumid</entry>
 <entry key="code|name|accessibility.n-inc">Puuetega inimeste juurdepääsukriteeriume pole lisatud, sest hange ei ole mõeldud kasutamiseks füüsilistele isikutele</entry>
 <entry key="code|name|accessibility.n-inc-just">Puuetega inimeste juurdepääsukriteeriume ei ole lisatud järgmise põhjendusega</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Nepali ruupia</entry>
 <entry key="code|name|currency.NZD">Uus-Meremaa dollar</entry>
 <entry key="code|name|currency.OMR">Omaani riaal</entry>
+<entry key="code|name|currency.OP_DATPRO">Esialgsed andmed</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Soll</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Uus soll</entry>
+<entry key="code|name|currency.PEN">Soll</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Filipiini peeso</entry>
 <entry key="code|name|currency.PKR">Pakistani ruupia</entry>
@@ -10129,8 +10130,8 @@
 <entry key="code|name|eu-programme.BMVI">Integreeritud piirihalduse fond – Piirihalduse ja viisade rahastamisvahend</entry>
 <entry key="code|name|eu-programme.CCEI">Integreeritud piirihalduse fond – Tollikontrolli seadmete rahastamisvahend</entry>
 <entry key="code|name|eu-programme.CDF2020">Õiguste, võrdõiguslikkuse ja kodakondsuse programm</entry>
-<entry key="code|name|eu-programme.CEF">Euroopa Ühendamise Rahastu (CEF)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Euroopa ühendamise rahastu</entry>
+<entry key="code|name|eu-programme.CEF">Euroopa Ühendamise Rahastu (CEF 2014–2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Euroopa ühendamise rahastu (2021)</entry>
 <entry key="code|name|eu-programme.CERV">Kodanikud, võrdõiguslikkus, õigused ja väärtused</entry>
 <entry key="code|name|eu-programme.CF">Ühtekuuluvusfond</entry>
 <entry key="code|name|eu-programme.CFSP2020">Ühine välis- ja julgeolekupoliitika (ÜVJP)</entry>
@@ -10238,6 +10239,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Tuumarajatiste dekomisjoneerimine (Leedu)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Tuumaohutus ja tuumarajatiste dekomisjoneerimine (sh Bulgaarias ja Slovakkias)</entry>
 <entry key="code|name|eu-programme.OCT">Ülemeremaad ja -territooriumid (ÜMTd) (sh Gröönimaa)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Esialgsed andmed</entry>
 <entry key="code|name|eu-programme.OUTREG">Äärepoolseimad ja hõredalt asustatud piirkonnad</entry>
 <entry key="code|name|eu-programme.PERI2020">Vahetus-, abi- ja koolitusprogramm euro kaitsmiseks võltsimise eest („Perikles 2020”)</entry>
 <entry key="code|name|eu-programme.PERICLES">Euro kaitsmine võltsimise eest (programm „Perikles IV“)</entry>
@@ -10778,8 +10780,8 @@
 <entry key="code|name|non-award-justification.chan-need">Hankija otsus muutunud vajaduste tõttu</entry>
 <entry key="code|name|non-award-justification.ins-fund">Hankija otsus ebapiisavate vahendite tõttu</entry>
 <entry key="code|name|non-award-justification.no-rece">Ei saadud ühtegi pakkumust, osalemistaotlust ega kavandit</entry>
-<entry key="code|name|non-award-justification.no-signed">Paremusjärjestuses esikohal olev(ad) pakkuja(d) keeldus(id) lepingule alla kirjutamast.</entry>
-<entry key="code|name|non-award-justification.one-admis">Esitatud on ainult üks vastuvõetav pakkumus, osalemistaotlus või kavand.</entry>
+<entry key="code|name|non-award-justification.no-signed">Paremusjärjestuses esikohal olev(ad) pakkuja(d) keeldus(id) lepingule alla kirjutamast</entry>
+<entry key="code|name|non-award-justification.one-admis">Esitatud on ainult üks vastuvõetav pakkumus, osalemistaotlus või kavand</entry>
 <entry key="code|name|non-award-justification.other">Muu</entry>
 <entry key="code|name|non-award-justification.rev-body">Läbivaatamisasutuse või muu õigusasutuse otsus</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Hankija otsus rahuldada pakkuja taotlus vaadata leping läbi tehniliste või menetlusvigade tõttu</entry>
@@ -10962,7 +10964,7 @@
 <entry key="code|name|vehicle-category.n2">N2</entry>
 <entry key="code|name|vehicle-category.n2-n3">Veoauto (N2-N3)</entry>
 <entry key="code|name|vehicle-category.n3">N3</entry>
-<entry key="code|name|winner-selection-status.clos-nw">Edukas pakkuja on välja valitud ja hange lõpetatud.</entry>
+<entry key="code|name|winner-selection-status.clos-nw">Edukat pakkujat välja ei valitud ja hange on lõpetatud.</entry>
 <entry key="code|name|winner-selection-status.open-nw">Edukat pakkujat ei ole veel valitud, kuid hange on veel pooleli.</entry>
 <entry key="code|name|winner-selection-status.selec-w">Vähemalt üks edukas pakkuja on välja valitud.</entry>
 </properties>
