@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.3.2",
   "metadataDatabase" : {
-    "version" : "1.3.14",
-    "createdOn" : "2022-11-10T14:08:37"
+    "version" : "1.3.16",
+    "createdOn" : "2022-11-17T14:17:30"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3831,7 +3831,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SettledContract} ${BT-150-Contract is unique in /BT-150-Contract}",
+        "value" : "{BT-150-Contract} ${BT-150-Contract is unique in /BT-150-Contract}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00150-0101"
       } ]
