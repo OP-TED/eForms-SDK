@@ -3141,7 +3141,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0207"
       }, {
-        "condition" : "{ND-Lot} ${(OPP-070-notice in ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5'))}",
+        "condition" : "{ND-Lot} ${(OPP-070-notice in ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5')) and BT-13713-LotResult is present}",
         "value" : "{ND-Lot} ${(BT-137-Lot in BT-13713-LotResult)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0209"
