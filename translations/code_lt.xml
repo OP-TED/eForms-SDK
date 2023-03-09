@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Lithuanian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>code in Lithuanian. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Prieinamumo neįgaliesiems kriterijai įtraukti</entry>
 <entry key="code|name|accessibility.n-inc">Prieinamumo neįgaliesiems kriterijai neįtraukti, nes nenumatyta, kad pirkimo objektas bus naudojamas fizinių asmenų</entry>
 <entry key="code|name|accessibility.n-inc-just">Prieinamumo neįgaliesiems kriterijai neįtraukti dėl šių priežasčių</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Nepalo rupija</entry>
 <entry key="code|name|currency.NZD">Naujosios Zelandijos doleris</entry>
 <entry key="code|name|currency.OMR">Omano rialas</entry>
+<entry key="code|name|currency.OP_DATPRO">Laikinieji duomenys</entry>
 <entry key="code|name|currency.PAB">Balboja</entry>
 <entry key="code|name|currency.PEH">Solis</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Naujasis solis</entry>
+<entry key="code|name|currency.PEN">Solis</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Filipinų pesas</entry>
 <entry key="code|name|currency.PKR">Pakistano rupija</entry>
@@ -10130,8 +10131,8 @@
 <entry key="code|name|eu-programme.BMVI">Integruoto sienų valdymo fondas (ISVF) – Sienų valdymo ir vizų priemonė</entry>
 <entry key="code|name|eu-programme.CCEI">Integruoto sienų valdymo fondas (ISVF) – Muitinio tikrinimo įrangos finansavimo priemonė</entry>
 <entry key="code|name|eu-programme.CDF2020">Teisės, lygybės ir pilietiškumo programa</entry>
-<entry key="code|name|eu-programme.CEF">Europos infrastruktūros tinklų priemonė (EITP)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Europos infrastruktūros tinklų priemonė (EITP)</entry>
+<entry key="code|name|eu-programme.CEF">Europos infrastruktūros tinklų priemonė (EITP 2014–2020 m.)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Europos infrastruktūros tinklų priemonė (EITP 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Piliečiai, lygybė, teisės ir vertybės</entry>
 <entry key="code|name|eu-programme.CF">Sanglaudos fondas (SF)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Bendra užsienio ir saugumo politika (BUSP)</entry>
@@ -10239,6 +10240,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Atominės elektrinės eksploatacijos nutraukimas (Lietuva)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Branduolinė sauga ir atominės elektrinės eksploatacijos nutraukimas (be kita ko, Bulgarijoje ir Slovakijoje)</entry>
 <entry key="code|name|eu-programme.OCT">Užjūrio šalys ir teritorijos (UŠT) (įskaitant Grenlandiją)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Laikinieji duomenys</entry>
 <entry key="code|name|eu-programme.OUTREG">Atokiausi ir retai apgyvendinti regionai</entry>
 <entry key="code|name|eu-programme.PERI2020">Mainų, pagalbos ir mokymo programa, skirta apsaugai nuo eurų padirbinėjimo („Pericles 2020“)</entry>
 <entry key="code|name|eu-programme.PERICLES">Euro apsauga nuo padirbinėjimo (programa „Pericles IV“)</entry>
@@ -10778,8 +10780,8 @@
 <entry key="code|name|non-award-justification.chan-need">Pirkėjo sprendimas dėl pasikeitusių poreikių</entry>
 <entry key="code|name|non-award-justification.ins-fund">Pirkėjo sprendimas dėl nepakankamų lėšų</entry>
 <entry key="code|name|non-award-justification.no-rece">Pasiūlymų, dalyvavimo prašymų ar projektų negauta</entry>
-<entry key="code|name|non-award-justification.no-signed">Geriausiai įvertintas dalyvis (-iai) atsisakė pasirašyti sutartį.</entry>
-<entry key="code|name|non-award-justification.one-admis">Gautas tik vienas priimtinas pasiūlymas, dalyvavimo prašymas ar projektas.</entry>
+<entry key="code|name|non-award-justification.no-signed">Geriausiai įvertintas dalyvis (-iai) atsisakė pasirašyti sutartį</entry>
+<entry key="code|name|non-award-justification.one-admis">Gautas tik vienas priimtinas pasiūlymas, dalyvavimo prašymas ar projektas</entry>
 <entry key="code|name|non-award-justification.other">Kita</entry>
 <entry key="code|name|non-award-justification.rev-body">Peržiūros institucijos arba kitos teisminės institucijos sprendimas</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Pirkėjo sprendimas, gavus dalyvio prašymą peržiūrėti sprendimą dėl sutarties skyrimo</entry>

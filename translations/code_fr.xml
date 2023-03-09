@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in French. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>code in French. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Des critères d’accessibilité pour les personnes handicapées sont appliqués</entry>
 <entry key="code|name|accessibility.n-inc">Des critères d’accessibilité pour les personnes handicapées ne sont pas appliqués parce que le marché n’est pas destiné aux personnes physiques</entry>
 <entry key="code|name|accessibility.n-inc-just">Des critères d’accessibilité pour les personnes handicapées ne sont pas appliqués avec la justification suivante</entry>
@@ -9957,10 +9957,11 @@
 <entry key="code|name|currency.NPR">Roupie népalaise</entry>
 <entry key="code|name|currency.NZD">Dollar néo-zélandais</entry>
 <entry key="code|name|currency.OMR">Rial d’Oman</entry>
+<entry key="code|name|currency.OP_DATPRO">Données provisoires</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Nouveau sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Peso philippin</entry>
 <entry key="code|name|currency.PKR">Roupie pakistanaise</entry>
@@ -9988,7 +9989,7 @@
 <entry key="code|name|currency.SLL">Leone</entry>
 <entry key="code|name|currency.SML">Lires de San Marin</entry>
 <entry key="code|name|currency.SOS">Shilling somalien</entry>
-<entry key="code|name|currency.SQS">Shillings du Somaliland</entry>
+<entry key="code|name|currency.SQS">Shilling du Somaliland</entry>
 <entry key="code|name|currency.SRD">Dollar surinamais</entry>
 <entry key="code|name|currency.SRG">Florin surinamais</entry>
 <entry key="code|name|currency.SSP">Livre sud-soudanaise</entry>
@@ -10009,7 +10010,7 @@
 <entry key="code|name|currency.TRL">Livre turque</entry>
 <entry key="code|name|currency.TRY">Livre turque</entry>
 <entry key="code|name|currency.TTD">Dollar de Trinité-et-Tobago</entry>
-<entry key="code|name|currency.TVD">Dollars tuvaluans</entry>
+<entry key="code|name|currency.TVD">Dollar tuvaluan</entry>
 <entry key="code|name|currency.TWD">Nouveau dollar de Taïwan</entry>
 <entry key="code|name|currency.TZS">Shilling tanzanien</entry>
 <entry key="code|name|currency.UAH">Hryvnia</entry>
@@ -10140,8 +10141,8 @@
 <entry key="code|name|eu-programme.BMVI">Fonds pour la gestion intégrée des frontières (FGIF) - instrument relatif à la gestion des frontières et aux visas (IGFV)</entry>
 <entry key="code|name|eu-programme.CCEI">Fonds pour la gestion intégrée des frontières (FGIF) - instrument de soutien financier relatif aux équipements de contrôle douanier</entry>
 <entry key="code|name|eu-programme.CDF2020">Programme «Droits, égalité et citoyenneté»</entry>
-<entry key="code|name|eu-programme.CEF">Mécanisme pour l’interconnexion en Europe (MIE)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Mécanisme pour l’interconnexion en Europe (MIE)</entry>
+<entry key="code|name|eu-programme.CEF">Mécanisme pour l’interconnexion en Europe (MIE 2014-2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Mécanisme pour l’interconnexion en Europe (MIE 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Citoyens, égalité, droits et valeurs</entry>
 <entry key="code|name|eu-programme.CF">Fonds de cohésion (FC)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Politique étrangère et de sécurité commune (PESC)</entry>
@@ -10249,6 +10250,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Déclassement d’installations nucléaires (Lituanie)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Sûreté nucléaire et déclassement d’installations (y compris pour la Bulgarie et la Slovaquie)</entry>
 <entry key="code|name|eu-programme.OCT">Pays et territoires d’outre-mer (PTOM) (y compris le Groenland)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Données provisoires</entry>
 <entry key="code|name|eu-programme.OUTREG">Régions ultrapériphériques et à faible densité de population</entry>
 <entry key="code|name|eu-programme.PERI2020">Programme d’action en matière d’échanges, d’assistance et de formation, pour la protection de l’euro contre le faux monnayage (Pericles 2020)</entry>
 <entry key="code|name|eu-programme.PERICLES">Protection de l’euro contre le faux-monnayage («programme Pericles IV»)</entry>
@@ -10790,8 +10792,8 @@
 <entry key="code|name|non-award-justification.chan-need">Décision de l’acheteur, en raison d’un changement des besoins</entry>
 <entry key="code|name|non-award-justification.ins-fund">Décision de l’acheteur, faute de fonds suffisants</entry>
 <entry key="code|name|non-award-justification.no-rece">Aucune offre, aucune demande de participation, ni aucun projet n’a été reçu</entry>
-<entry key="code|name|non-award-justification.no-signed">Le(s) soumissionnaire(s) le(s) mieux classé(s) a (ont) refusé de signer le marché.</entry>
-<entry key="code|name|non-award-justification.one-admis">Une seule offre, une seule demande de participation ou un seul projet recevable a été reçu(e).</entry>
+<entry key="code|name|non-award-justification.no-signed">Le(s) soumissionnaire(s) le(s) mieux classé(s) a (ont) refusé de signer le marché</entry>
+<entry key="code|name|non-award-justification.one-admis">Une seule offre, une seule demande de participation ou un seul projet recevable a été reçu(e)</entry>
 <entry key="code|name|non-award-justification.other">Autre</entry>
 <entry key="code|name|non-award-justification.rev-body">Décision d’une instance chargée des procédures de recours ou d’une autre instance judiciaire</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Décision de l’acheteur consécutive à une demande de réexamen de l’attribution par un soumissionnaire</entry>

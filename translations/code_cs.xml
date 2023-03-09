@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Czech. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>code in Czech. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Kritéria přístupnosti pro osoby s postižením jsou zahrnuta</entry>
 <entry key="code|name|accessibility.n-inc">Kritéria přístupnosti pro osoby s postižením nejsou zahrnuta, neboť zakázka není určena k použití fyzickými osobami</entry>
 <entry key="code|name|accessibility.n-inc-just">Kritéria přístupnosti pro osoby s postižením nejsou zahrnuta s následujícím odůvodněním</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Nepálská rupie</entry>
 <entry key="code|name|currency.NZD">Novozélandský dolar</entry>
 <entry key="code|name|currency.OMR">Ománský rijál</entry>
+<entry key="code|name|currency.OP_DATPRO">Předběžné údaje</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Nový sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Filipínské peso</entry>
 <entry key="code|name|currency.PKR">Pákistánská rupie</entry>
@@ -10131,8 +10132,8 @@
 <entry key="code|name|eu-programme.BMVI">Fond pro integrovanou správu hranic (IBMF) – nástroj pro správu hranic a víza (BMVI)</entry>
 <entry key="code|name|eu-programme.CCEI">Fond pro integrovanou správu hranic (IBMF) – nástroj pro finanční podporu vybavení pro celní kontroly</entry>
 <entry key="code|name|eu-programme.CDF2020">Program Práva, rovnost a občanství</entry>
-<entry key="code|name|eu-programme.CEF">Nástroj pro propojení Evropy</entry>
-<entry key="code|name|eu-programme.CEF_2021">Nástroj pro propojení Evropy</entry>
+<entry key="code|name|eu-programme.CEF">Nástroj pro propojení Evropy (2014–2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Nástroj pro propojení Evropy (2021)</entry>
 <entry key="code|name|eu-programme.CERV">Občané, rovnost, práva a hodnoty</entry>
 <entry key="code|name|eu-programme.CF">Fond soudržnosti</entry>
 <entry key="code|name|eu-programme.CFSP2020">Společná zahraniční a bezpečnostní politika (SZBP)</entry>
@@ -10240,6 +10241,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Vyřazování jaderných zařízení z provozu (Litva)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Jaderná bezpečnost a vyřazování jaderných zařízení z provozu (mimo jiné pro Bulharsko a Slovensko)</entry>
 <entry key="code|name|eu-programme.OCT">Zámořské země a území (včetně Grónska)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Předběžné údaje</entry>
 <entry key="code|name|eu-programme.OUTREG">Nejvzdálenější a řídce osídlené regiony</entry>
 <entry key="code|name|eu-programme.PERI2020">Program výměny, pomoci a odborného vzdělávání za účelem ochrany eura proti padělání (Pericles 2020)</entry>
 <entry key="code|name|eu-programme.PERICLES">Ochrana eura proti padělání („program Pericles IV“)</entry>
@@ -10780,8 +10782,8 @@
 <entry key="code|name|non-award-justification.chan-need">Rozhodnutí kupujícího z důvodu změny potřeb</entry>
 <entry key="code|name|non-award-justification.ins-fund">Rozhodnutí kupujícího z důvodu nedostatečných prostředků</entry>
 <entry key="code|name|non-award-justification.no-rece">Nebyly obdrženy žádné nabídky, žádosti o účast ani projekty</entry>
-<entry key="code|name|non-award-justification.no-signed">Nejvýše ohodnocený uchazeč nebo uchazeči odmítli podepsat smlouvu.</entry>
-<entry key="code|name|non-award-justification.one-admis">Byla obdržena pouze jedna přijatelná nabídka, žádost o účast nebo projekt.</entry>
+<entry key="code|name|non-award-justification.no-signed">Nejvýše ohodnocený uchazeč nebo uchazeči odmítli podepsat smlouvu</entry>
+<entry key="code|name|non-award-justification.one-admis">Byla obdržena pouze jedna přijatelná nabídka, žádost o účast nebo projekt</entry>
 <entry key="code|name|non-award-justification.other">Jiné</entry>
 <entry key="code|name|non-award-justification.rev-body">Rozhodnutí orgánu příslušného k přezkumu nebo jiného justičního orgánu</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Rozhodnutí kupujícího, které je založeno na žádosti uchazeče o přezkoumání rozhodnutí o zadání</entry>
