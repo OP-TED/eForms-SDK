@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Italian. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>code in Italian. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Sono compresi criteri di accessibilità per le persone con disabilità</entry>
 <entry key="code|name|accessibility.n-inc">Non sono compresi criteri di accessibilità per le persone con disabilità perché l'oggetto dell'appalto non è destinato all'uso da parte di persone fisiche</entry>
 <entry key="code|name|accessibility.n-inc-just">Non sono compresi criteri di accessibilità per le persone con disabilità con la giustificazione seguente</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Rupia nepalese</entry>
 <entry key="code|name|currency.NZD">Dollaro neozelandese</entry>
 <entry key="code|name|currency.OMR">Rial omanita</entry>
+<entry key="code|name|currency.OP_DATPRO">Dati provvisori</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Nuovo sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Peso filippino</entry>
 <entry key="code|name|currency.PKR">Rupia pakistana</entry>
@@ -10131,8 +10132,8 @@
 <entry key="code|name|eu-programme.BMVI">Fondo per la gestione integrata delle frontiere (IBMF) - Strumento per la gestione delle frontiere e i visti (BMVI)</entry>
 <entry key="code|name|eu-programme.CCEI">Fondo per la gestione integrata delle frontiere (IBMF) - Strumento di sostegno finanziario relativo alle attrezzature per il controllo doganale (CCEI)</entry>
 <entry key="code|name|eu-programme.CDF2020">Programma Diritti, uguaglianza e cittadinanza</entry>
-<entry key="code|name|eu-programme.CEF">Meccanismo per collegare l’Europa (CEF)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Meccanismo per collegare l’Europa (MCE)</entry>
+<entry key="code|name|eu-programme.CEF">Meccanismo per collegare l’Europa (CEF 2014-2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Meccanismo per collegare l’Europa (MCE 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Cittadini, uguaglianza, diritti e valori</entry>
 <entry key="code|name|eu-programme.CF">Fondo di coesione (FC)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Politica estera e di sicurezza comune (PESC)</entry>
@@ -10240,6 +10241,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Disattivazione nucleare (Lituania)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Sicurezza nucleare e disattivazione (anche per Bulgaria e Slovacchia)</entry>
 <entry key="code|name|eu-programme.OCT">Paesi e territori d’oltremare (PTOM) (compresa la Groenlandia)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Dati provvisori</entry>
 <entry key="code|name|eu-programme.OUTREG">Regioni ultraperiferiche e scarsamente popolate</entry>
 <entry key="code|name|eu-programme.PERI2020">Programma di scambi, assistenza e formazione per la protezione dell’euro contro la falsificazione (Pericles 2020)</entry>
 <entry key="code|name|eu-programme.PERICLES">Protezione dell’euro contro la contraffazione monetaria («programma Pericle IV»)</entry>
@@ -10780,8 +10782,8 @@
 <entry key="code|name|non-award-justification.chan-need">Decisione del committente per sopravvenuti cambiamenti delle esigenze</entry>
 <entry key="code|name|non-award-justification.ins-fund">Decisione del committente dovuta a insufficiente disponibilità finanziaria</entry>
 <entry key="code|name|non-award-justification.no-rece">Non sono pervenuti offerte, domande di partecipazione o progetti</entry>
-<entry key="code|name|non-award-justification.no-signed">L'offerente o gli offerenti meglio classificati hanno rifiutato di firmare il contratto.</entry>
-<entry key="code|name|non-award-justification.one-admis">È stato ricevuto un solo progetto, una sola offerta o una sola domanda di partecipazione ammissibile.</entry>
+<entry key="code|name|non-award-justification.no-signed">L'offerente o gli offerenti meglio classificati hanno rifiutato di firmare il contratto</entry>
+<entry key="code|name|non-award-justification.one-admis">È stato ricevuto un solo progetto, una sola offerta o una sola domanda di partecipazione ammissibile</entry>
 <entry key="code|name|non-award-justification.other">Altro</entry>
 <entry key="code|name|non-award-justification.rev-body">Decisione dell'organismo competente per i ricorsi o di altra autorità giudiziaria</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Decisione del committente correlata a una richiesta dell'offerente di rivedere l'aggiudicazione</entry>

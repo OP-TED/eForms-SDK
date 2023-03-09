@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Romanian. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>code in Romanian. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Sunt incluse criterii de accesibilitate pentru persoanele cu handicap</entry>
 <entry key="code|name|accessibility.n-inc">Nu sunt incluse criterii de accesibilitate pentru persoanele cu handicap, deoarece achizițiile nu sunt destinate a fi utilizate de către persoane fizice</entry>
 <entry key="code|name|accessibility.n-inc-just">Nu sunt incluse criterii de accesibilitate pentru persoanele cu handicap, din următorul motiv</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Rupie nepaleză</entry>
 <entry key="code|name|currency.NZD">Dolar neozeelandez</entry>
 <entry key="code|name|currency.OMR">Rial omanez</entry>
+<entry key="code|name|currency.OP_DATPRO">Date provizorii</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Sol nou</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Peso filipinez</entry>
 <entry key="code|name|currency.PKR">Rupie pakistaneză</entry>
@@ -9967,7 +9968,7 @@
 <entry key="code|name|currency.QAR">Rial qatarian</entry>
 <entry key="code|name|currency.ROL">Leu românesc</entry>
 <entry key="code|name|currency.RON">Leu românesc</entry>
-<entry key="code|name|currency.RSD">Dinar sârb</entry>
+<entry key="code|name|currency.RSD">Dinar sârbesc</entry>
 <entry key="code|name|currency.RUB">Rublă rusească</entry>
 <entry key="code|name|currency.RUR">Rublă rusească</entry>
 <entry key="code|name|currency.RWF">Franc ruandez</entry>
@@ -10130,8 +10131,8 @@
 <entry key="code|name|eu-programme.BMVI">Fondul de gestionare integrată a frontierelor (FGIF) – Instrumentul pentru gestionarea frontierelor și vize (IGFV)</entry>
 <entry key="code|name|eu-programme.CCEI">Fondul de gestionare integrată a frontierelor (FGIF) – Instrumentul de sprijin financiar pentru echipamente de control vamal (IECV)</entry>
 <entry key="code|name|eu-programme.CDF2020">Programul „Drepturi, egalitate și cetățenie”</entry>
-<entry key="code|name|eu-programme.CEF">Mecanismul Conectarea Europei (MCE)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Mecanismul pentru interconectarea Europei (MIE)</entry>
+<entry key="code|name|eu-programme.CEF">Mecanismul Conectarea Europei (MCE 2014-2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Mecanismul pentru interconectarea Europei (MIE 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Cetățeni, egalitate, drepturi și valori</entry>
 <entry key="code|name|eu-programme.CF">Fondul de coeziune (FC)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Politica externă și de securitate comună (PESC)</entry>
@@ -10239,6 +10240,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Dezafectarea nucleară (Lituania)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Securitatea nucleară și dezafectarea (inclusiv în cazul Bulgariei și al Slovaciei)</entry>
 <entry key="code|name|eu-programme.OCT">Țările și teritoriile de peste mări (TTPM) (inclusiv Groenlanda)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Date provizorii</entry>
 <entry key="code|name|eu-programme.OUTREG">Regiuni ultraperiferice și slab populate</entry>
 <entry key="code|name|eu-programme.PERI2020">Programul de schimb, asistență și formare profesională pentru protecția monedei euro împotriva falsificării („Pericles 2020”)</entry>
 <entry key="code|name|eu-programme.PERICLES">Protecția monedei euro împotriva contrafacerii („programul Pericles IV”)</entry>
@@ -10779,8 +10781,8 @@
 <entry key="code|name|non-award-justification.chan-need">Decizie a cumpărătorului din cauza schimbării nevoilor</entry>
 <entry key="code|name|non-award-justification.ins-fund">Decizie a cumpărătorului din cauza insuficienței fondurilor</entry>
 <entry key="code|name|non-award-justification.no-rece">Nu a fost primit(ă) nicio ofertă, nicio cerere de participare și niciun proiect</entry>
-<entry key="code|name|non-award-justification.no-signed">Ofertantul sau ofertanții cel mai bine clasați au refuzat să semneze contractul.</entry>
-<entry key="code|name|non-award-justification.one-admis">A fost primită o singură ofertă admisibilă sau o singură cerere de participare sau un singur proiect.</entry>
+<entry key="code|name|non-award-justification.no-signed">Ofertantul sau ofertanții cel mai bine clasați au refuzat să semneze contractul</entry>
+<entry key="code|name|non-award-justification.one-admis">A fost primită o singură ofertă admisibilă sau o singură cerere de participare sau un singur proiect</entry>
 <entry key="code|name|non-award-justification.other">Altele</entry>
 <entry key="code|name|non-award-justification.rev-body">Decizie a unei autorități însărcinate cu soluționarea căilor de atac sau a unei alte autorități judiciare</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Decizie a cumpărătorului în urma unei cereri a ofertantului de soluționare a căilor de atac privind atribuirea</entry>
