@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Slovene. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Slovene. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Največje število podaljšanj</entry>
 <entry key="field|name|BT-60-Lot">Javno naročilo se vsaj delno financira iz skladov Evropske unije.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Dejavnost naročnika</entry>
-<entry key="field|name|BT-6110-Contract">Podrobnosti o skladih EU</entry>
+<entry key="field|name|BT-6110-Contract">Opis</entry>
 <entry key="field|name|BT-6140-Lot">Dodatne informacije o programu ali projektu Unije, ki se vsaj delno financira iz javnega naročanja</entry>
 <entry key="field|name|BT-615-Lot">Informacije o zaupnih dokumentih so na voljo na</entry>
 <entry key="field|name|BT-615-Part">Informacije o zaupnih dokumentih so na voljo na</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Datum pošiljanja obvestila (e-pošiljatelj)</entry>
 <entry key="field|name|BT-803(t)-notice">Datum pošiljanja obvestila (e-pošiljatelj)</entry>
 <entry key="field|name|BT-805-Lot">Merila za zelena javna naročila</entry>
-<entry key="field|name|BT-88-Procedure">Opis postopka</entry>
+<entry key="field|name|BT-88-Procedure">Glavne značilnosti postopka</entry>
 <entry key="field|name|BT-92-Lot">Uporabljeno bo elektronsko naročanje</entry>
 <entry key="field|name|BT-93-Lot">Uporabljeno bo elektronsko plačevanje</entry>
 <entry key="field|name|BT-94-Lot">Gre za ponovljeno javno naročilo.</entry>

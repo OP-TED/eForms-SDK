@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Polish. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in Polish. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="auxiliary|text|BT-01">Podstawa prawna</entry>
 <entry key="auxiliary|text|BT-08">Rola organizacji</entry>
 <entry key="auxiliary|text|BT-36">Okres obowiązywania</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Informacje na temat funduszy Unii Europejskiej wykorzystanych do sfinansowania umowy</entry>
 <entry key="auxiliary|text|exclusion-grounds">Podstawy wykluczenia</entry>
 <entry key="auxiliary|text|framework-agreement">Umowa ramowa</entry>
+<entry key="auxiliary|text|further-info">Dalsze informacje, mediacja i przegląd</entry>
 <entry key="auxiliary|text|general-information">Informacje ogólne</entry>
 <entry key="auxiliary|text|group-framework-value">Szacowana wartość umów ramowych w grupie części zamówienia</entry>
 <entry key="auxiliary|text|group-of-lots">Grupa części zamówienia</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Wynik postępowania o udzielenie zamówienia</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Rodzaj domniemanej nieprawidłowości</entry>
 <entry key="auxiliary|text|review-requests-summary">Podsumowanie odwołań otrzymanych przez nabywcę</entry>
-<entry key="auxiliary|text|roles">Rola(-e)</entry>
+<entry key="auxiliary|text|roles">Role tej organizacji</entry>
 <entry key="auxiliary|text|second-stage">Informacje dotyczące drugiego etapu procedury dwustopniowej</entry>
 <entry key="auxiliary|text|selection-criteria">Kryteria kwalifikacji</entry>
 <entry key="auxiliary|text|start-duration-contract">Data początkowa i okres obowiązywania umowy</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Wartość</entry>
 <entry key="auxiliary|text|winner">Zwycięzca</entry>
 <entry key="auxiliary|text|winner-info">Informacje o zwycięzcach</entry>
+<entry key="auxiliary|text|winner-lots">Zwycięzca tych losów</entry>
 <entry key="auxiliary|text|winner-subcontractor">Podwykonawcy zwycięzcy</entry>
 </properties>

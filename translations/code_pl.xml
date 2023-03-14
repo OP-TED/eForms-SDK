@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Polish. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>code in Polish. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Kryteria dostępności dla osób niepełnosprawnych zostały uwzględnione</entry>
 <entry key="code|name|accessibility.n-inc">Kryteria dostępności dla osób niepełnosprawnych nie zostały uwzględnione, ponieważ przedmiot zamówienia nie jest przeznaczony dla osób fizycznych</entry>
 <entry key="code|name|accessibility.n-inc-just">Kryteria dostępności dla osób niepełnosprawnych nie zostały uwzględnione z uwagi na poniższe uzasadnienie</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Rupia nepalska</entry>
 <entry key="code|name|currency.NZD">Dolar nowozelandzki</entry>
 <entry key="code|name|currency.OMR">Rial omański</entry>
+<entry key="code|name|currency.OP_DATPRO">Dane tymczasowe</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Nuevo sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Peso filipińskie</entry>
 <entry key="code|name|currency.PKR">Rupia pakistańska</entry>
@@ -10131,8 +10132,8 @@
 <entry key="code|name|eu-programme.BMVI">Fundusz Zintegrowanego Zarządzania Granicami – Instrument na rzecz Zarządzania Granicami i Wiz</entry>
 <entry key="code|name|eu-programme.CCEI">Fundusz Zintegrowanego Zarządzania Granicami – instrument wsparcia finansowego na rzecz sprzętu do kontroli celnej</entry>
 <entry key="code|name|eu-programme.CDF2020">Program „Prawa i obywatelstwo”</entry>
-<entry key="code|name|eu-programme.CEF">Instrument „Łącząc Europę” (CEF)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Instrument „Łącząc Europę”</entry>
+<entry key="code|name|eu-programme.CEF">Instrument „Łącząc Europę” (CEF 2014–2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Instrument „Łącząc Europę” (2021)</entry>
 <entry key="code|name|eu-programme.CERV">Obywatele, równość, prawa i wartości</entry>
 <entry key="code|name|eu-programme.CF">Fundusz Spójności</entry>
 <entry key="code|name|eu-programme.CFSP2020">Wspólna polityka zagraniczna i bezpieczeństwa (WPZiB)</entry>
@@ -10240,6 +10241,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Likwidacja obiektów jądrowych (Litwa)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Bezpieczeństwo jądrowe i likwidacja obiektów jądrowych (w tym Bułgaria i Słowacja)</entry>
 <entry key="code|name|eu-programme.OCT">Kraje i terytoria zamorskie (KTZ) (w tym Grenlandia)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Dane tymczasowe</entry>
 <entry key="code|name|eu-programme.OUTREG">Regiony najbardziej oddalone i słabo zaludnione</entry>
 <entry key="code|name|eu-programme.PERI2020">Program wymiany, pomocy i szkoleń dla ochrony euro przed fałszowaniem (Perykles 2020)</entry>
 <entry key="code|name|eu-programme.PERICLES">Ochrona euro przed fałszowaniem (program „Perykles IV”)</entry>
@@ -10780,8 +10782,8 @@
 <entry key="code|name|non-award-justification.chan-need">Decyzja nabywcy z powodu zmiany w zakresie potrzeb</entry>
 <entry key="code|name|non-award-justification.ins-fund">Decyzja nabywcy z powodu niewystarczających środków</entry>
 <entry key="code|name|non-award-justification.no-rece">Nie otrzymano żadnych ofert, wniosków o dopuszczenie do udziału lub projektów</entry>
-<entry key="code|name|non-award-justification.no-signed">Najwyżej oceniony oferent (ocenieni oferenci) odmówił(-li) podpisania umowy.</entry>
-<entry key="code|name|non-award-justification.one-admis">Otrzymano tylko jedną dopuszczalną ofertę, jeden wniosek o dopuszczenie do udziału lub jeden projekt.</entry>
+<entry key="code|name|non-award-justification.no-signed">Najwyżej oceniony oferent (ocenieni oferenci) odmówił(-li) podpisania umowy</entry>
+<entry key="code|name|non-award-justification.one-admis">Otrzymano tylko jedną dopuszczalną ofertę, jeden wniosek o dopuszczenie do udziału lub jeden projekt</entry>
 <entry key="code|name|non-award-justification.other">Inne</entry>
 <entry key="code|name|non-award-justification.rev-body">Decyzja organu odwoławczego lub innego organu sądowego</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Decyzja nabywcy będąca następstwem wniosku oferenta o rewizję rozstrzygnięcia</entry>

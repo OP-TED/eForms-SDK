@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Italian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Italian. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Rinnovi massimi</entry>
 <entry key="field|name|BT-60-Lot">L'appalto è finanziato almeno in parte da fondi dell'Unione europea.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Attività dell'ente aggiudicatore</entry>
-<entry key="field|name|BT-6110-Contract">Dettagli del fondo UE</entry>
+<entry key="field|name|BT-6110-Contract">Descrizione</entry>
 <entry key="field|name|BT-6140-Lot">Ulteriori informazioni sul programma o sul progetto dell'Unione utilizzati almeno parzialmente per finanziare l'appalto</entry>
 <entry key="field|name|BT-615-Lot">Le informazioni sui documenti riservati sono disponibili all'indirizzo seguente</entry>
 <entry key="field|name|BT-615-Part">Le informazioni sui documenti riservati sono disponibili all'indirizzo seguente</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Data di invio dell'avviso (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Data di invio dell'avviso (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Criteri di aggiudicazione verde</entry>
-<entry key="field|name|BT-88-Procedure">Descrizione della procedura</entry>
+<entry key="field|name|BT-88-Procedure">Caratteristiche principali della procedura</entry>
 <entry key="field|name|BT-92-Lot">Si farà ricorso all'ordinazione elettronica</entry>
 <entry key="field|name|BT-93-Lot">Sarà utilizzato il pagamento elettronico</entry>
 <entry key="field|name|BT-94-Lot">Si tratta di un appalto rinnovabile.</entry>

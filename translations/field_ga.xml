@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Galician. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Galician. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Athnuachaintí uasta</entry>
 <entry key="field|name|BT-60-Lot">Is le cistí an Aontais Eorpaigh a mhaoinítear an soláthar i bpáirt ar a laghad.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Gníomhaíocht an eintitis chonarthaigh</entry>
-<entry key="field|name|BT-6110-Contract">Sonraí faoi chiste an AE</entry>
+<entry key="field|name|BT-6110-Contract">Cur síos</entry>
 <entry key="field|name|BT-6140-Lot">Tuilleadh faisnéise faoi chlár nó faoi thionscadal an Aontais a úsáideadh chun an soláthar a mhaoiniú i bpáirt ar a laghad</entry>
 <entry key="field|name|BT-615-Lot">Tá eolas faoi dhoiciméid shrianta le fáil ag</entry>
 <entry key="field|name|BT-615-Part">Tá eolas faoi dhoiciméid shrianta le fáil ag</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Dáta seolta an fhógra (ríomhsheoltóir)</entry>
 <entry key="field|name|BT-803(t)-notice">Dáta seolta an fhógra (ríomhsheoltóir)</entry>
 <entry key="field|name|BT-805-Lot">Critéir an tSoláthair Ghlais</entry>
-<entry key="field|name|BT-88-Procedure">Cur síos ar an nós imeachta</entry>
+<entry key="field|name|BT-88-Procedure">Príomhghnéithe an nós imeachta</entry>
 <entry key="field|name|BT-92-Lot">Úsáidfear ordú leictreonach</entry>
 <entry key="field|name|BT-93-Lot">Úsáidfear íocaíocht leictreonach</entry>
 <entry key="field|name|BT-94-Lot">Is soláthar athfhillteach é seo.</entry>

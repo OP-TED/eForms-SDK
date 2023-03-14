@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>group in Lithuanian. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>group in Lithuanian. File generated from metadata database version 1.6.0 created on the 2023-02-24T12:00</comment>
 <entry key="group|name|GR-Business-Address">Adresas</entry>
 <entry key="group|name|GR-Business-Contact">Susisiekti</entry>
 <entry key="group|name|GR-Business-Party">Verslo subjektas</entry>
@@ -85,6 +85,8 @@
 <entry key="group|name|GR-LotTender-Section">Pasiūlymai</entry>
 <entry key="group|name|GR-LotTender-Subcontracting">Subrangos sutarčių sudarymas</entry>
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Papildoma informacija</entry>
+<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Award criterion</entry>
+<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Award criteria</entry>
 <entry key="group|name|GR-LotsGroup-Description">Partijų grupės aprašymas</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informacija apie preliminarųjį susitarimą</entry>
 <entry key="group|name|GR-LotsGroup-LotDistribution">Pirkimo dalių grupei priklausančios partijos</entry>
@@ -131,9 +133,11 @@
 <entry key="group|name|GR-Procedure-Description">Aprašymas</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Tiesioginis skyrimas</entry>
 <entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Nuoroda į vietos teisę</entry>
+<entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Other legal basis without an identifier</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Teisinis pagrindas</entry>
 <entry key="group|name|GR-Procedure-MaxLots">Didžiausias dalių skaičius</entry>
 <entry key="group|name|GR-Procedure-PinTerminated">PIN nutrūko</entry>
+<entry key="group|name|GR-Procedure-PlaceOfPerformance">Place of performance</entry>
 <entry key="group|name|GR-Procedure-Procedure">Procedūrą</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Procedūrą</entry>
 <entry key="group|name|GR-Procedure-Purpose">Tikslas</entry>
@@ -141,6 +145,7 @@
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Klasifikavimas</entry>
 <entry key="group|name|GR-Procedure-TenderingTerms">Konkurso sąlygos</entry>
 <entry key="group|name|GR-Recurrence">Informacija apie periodiškumą</entry>
+<entry key="group|name|GR-ReservedParticipation">Reserved procurement</entry>
 <entry key="group|name|GR-Result">Rezultatas</entry>
 <entry key="group|name|GR-SettledContract-1">1 sutartis</entry>
 <entry key="group|name|GR-SettledContract-2">2 sutartis</entry>
@@ -154,15 +159,20 @@
 <entry key="group|name|GR-UBO-Winner">Laureato savininko pilietybė</entry>
 <entry key="group|name|GR-Unpublish-BT-09">Tarpvalstybinė teisė (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Procedūros rūšis (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-105-Procedure">Type of procedure (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Pagreitinta procedūra (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Preliminariosios sutarties (paskelbtos vėliau) numatoma vertė</entry>
 <entry key="group|name|GR-Unpublish-BT-118">Preliminariosios sutarties (paskelbtos vėliau) numatoma vertė</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Ankstesnės procedūros, pateisinančios tiesioginį sutarties skyrimą, ID (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID of the previous procedure justifying direct award (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Tiesioginio sutarties sudarymo aprašymas (paskelbtas vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-135-Procedure">Description of direct award (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-1351">Pagreitintos procedūros pagrindimas (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Tiesioginio sutarties sudarymo pagrindimas (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Laureato atrankos statusas (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-142-LotResult">Winner selection status (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Priežastis, dėl kurios laimėtojas nebuvo atrinktas (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-144-LotResult">The reason why a winner was not chosen (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-156">Preliminariųjų sutarčių vertė pirkimo dalių grupėje (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Numatomos pajamos iš koncesiją suteikusio pirkėjo (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Visų pagal šią procedūrą sudarytų sutarčių vertė (paskelbta vėliau)</entry>
@@ -172,18 +182,25 @@
 <entry key="group|name|GR-Unpublish-BT-191">Produkto arba paslaugos kilmės šalis (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Pasiūlymas yra variantas (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-539">Tipas (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-539-Lot">Type (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Tipas (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-540">Aprašymas (paskelbtas vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-540-Lot">Description (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Aprašymas (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-541">Sutarties sudarymo kriterijaus numeris (paskelbtas vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-541-Lot">Award criterion number (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Sutarties sudarymo kriterijaus numeris (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Skaičius yra svorio rūšis (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-5421-Lot">Number is a type of weight (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Skaičius yra svorio rūšis (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422">Numeris yra fiksuota vertė (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-5422-Lot">Number is a fixed value (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Numeris yra fiksuota vertė (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423">Skaičius yra ribinės vertės rūšis (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-5423-Lot">Number is a type of threshold (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Skaičius yra ribinės vertės rūšis (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-543">Metodo, taikytino tuo atveju, kai svorių negalima išreikšti kriterijais, aprašymas (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-543-Lot">Description of the method to be used if weighting cannot be expressed by criteria (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Metodo, taikytino tuo atveju, kai svorių negalima išreikšti kriterijais, aprašymas (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Subrangos vertė (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-554">Aprašymas (paskelbtas vėliau)</entry>
@@ -194,22 +211,25 @@
 <entry key="group|name|GR-Unpublish-BT-711">Didžiausio priimtino pasiūlymo (paskelbto vėliau) vertė</entry>
 <entry key="group|name|GR-Unpublish-BT-712">Skundų pateikėjų skaičius (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-720">Rezultato vertė (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-720-Tender">Rezultato vertė (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-730">Numatoma sutarties dalies, kurią rangovas subrangos sutartimi perduos trečiosioms šalims, vertė (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Numatoma sutarties, kurią rangovas subrangovams perduos trečiosioms šalims, procentinė dalis, palyginti su visa sutartimi (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-733">Pagrindimas, kodėl nenurodytas sutarties sudarymo kriterijų lyginamasis svoris (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Pagrindimas, kodėl nenurodytas sutarties sudarymo kriterijų lyginamasis svoris (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Pagrindimas, kodėl nenurodytas sutarties sudarymo kriterijų lyginamasis svoris (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-734">Pavadinimas (paskelbtas vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-734-Lot">Name (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Pavadinimas (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Gautų pasiūlymų arba prašymų dalyvauti konkurse skaičius (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-760">Gautų paraiškų rūšis (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-773">Subranga (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-88">Procedūros aprašymas (paskelbta vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-88-Procedure">Description of the procedure (published later)</entry>
 <entry key="group|name|GR-Winner">Laimėtojas</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Requests to review decisions</entry>
-<entry key="group|name|ND-Change">Information about the change</entry>
+<entry key="group|name|ND-Change">Pokytis</entry>
 <entry key="group|name|ND-ContractEUFunds">EU funds used in the contract</entry>
-<entry key="group|name|ND-ContractModification">Information about the modification</entry>
+<entry key="group|name|ND-ContractModification">Pakeitimas</entry>
 <entry key="group|name|ND-ContractingParty">Buyer</entry>
 <entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
@@ -218,11 +238,11 @@
 <entry key="group|name|ND-LotAdditionalClassification">Additional classification</entry>
 <entry key="group|name|ND-LotAwardCriteria">Award criteria</entry>
 <entry key="group|name|ND-LotAwardCriterion">Award criterion</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Award criterion parameter</entry>
-<entry key="group|name|ND-LotAwardCriterionParameters">Award criteria parameters</entry>
+<entry key="group|name|ND-LotAwardCriterionParameter">Award criterion</entry>
+<entry key="group|name|ND-LotAwardCriterionParameters">Award criteria</entry>
 <entry key="group|name|ND-LotPlacePerformance">Place of performance</entry>
 <entry key="group|name|ND-LotPreviousPlanning">Reference to previous planning</entry>
-<entry key="group|name|ND-LotResult">Result of the lot</entry>
+<entry key="group|name|ND-LotResult">Rezultatas</entry>
 <entry key="group|name|ND-LotTender">Submitted tender</entry>
 <entry key="group|name|ND-LotsGroup">Information about groups of lots</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteria">Award criteria</entry>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Greek. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in Greek. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="auxiliary|text|BT-01">Νομική βάση</entry>
 <entry key="auxiliary|text|BT-08">Ο ρόλος της οργάνωσης</entry>
 <entry key="auxiliary|text|BT-36">Διάρκεια</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Πληροφορίες σχετικά με τα ταμεία της Ευρωπαϊκής Ένωσης που χρησιμοποιούνται για τη χρηματοδότηση της σύμβασης</entry>
 <entry key="auxiliary|text|exclusion-grounds">Λόγοι αποκλεισμού</entry>
 <entry key="auxiliary|text|framework-agreement">Συμφωνία-πλαίσιο</entry>
+<entry key="auxiliary|text|further-info">Περισσότερες πληροφορίες, διαμεσολάβηση και επανεξέταση</entry>
 <entry key="auxiliary|text|general-information">Γενικές πληροφορίες</entry>
 <entry key="auxiliary|text|group-framework-value">Εκτιμώμενη αξία των συμφωνιών-πλαισίων στη ομάδα παρτίδων</entry>
 <entry key="auxiliary|text|group-of-lots">Ομάδα παρτίδων</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Αποτέλεσμα της διαδικασίας δημοσίων συμβάσεων</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Είδος εικαζόμενης παρατυπίας</entry>
 <entry key="auxiliary|text|review-requests-summary">Σύνοψη των αιτήσεων επανεξέτασης που έλαβε ο αγοραστής</entry>
-<entry key="auxiliary|text|roles">Ρόλος/-οι</entry>
+<entry key="auxiliary|text|roles">Οι ρόλοι αυτής της οργάνωσης</entry>
 <entry key="auxiliary|text|second-stage">Πληροφορίες σχετικά με το δεύτερο στάδιο σε διαδικασία δύο σταδίων.</entry>
 <entry key="auxiliary|text|selection-criteria">Κριτήρια επιλογής</entry>
 <entry key="auxiliary|text|start-duration-contract">Ημερομηνία έναρξης και διάρκεια της σύμβασης</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Αξία</entry>
 <entry key="auxiliary|text|winner">Νικητής</entry>
 <entry key="auxiliary|text|winner-info">Πληροφορίες σχετικά με τους νικητές</entry>
+<entry key="auxiliary|text|winner-lots">Νικητής αυτών των παρτίδων</entry>
 <entry key="auxiliary|text|winner-subcontractor">Υπεργολάβοι του νικητή</entry>
 </properties>

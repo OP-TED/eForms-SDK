@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in German. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in German. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Maximale Verlängerungen</entry>
 <entry key="field|name|BT-60-Lot">Die Auftragsvergabe wird zumindest teilweise aus Mitteln der Europäischen Union finanziert.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Tätigkeit des Auftraggebers</entry>
-<entry key="field|name|BT-6110-Contract">Details zum EU-Fonds</entry>
+<entry key="field|name|BT-6110-Contract">Beschreibung</entry>
 <entry key="field|name|BT-6140-Lot">Weitere Informationen über das Programm oder Projekt der Union, das die Auftragsvergabe zumindest teilweise finanziert</entry>
 <entry key="field|name|BT-615-Lot">Informationen über zugangsbeschränkte Dokumente einsehbar unter</entry>
 <entry key="field|name|BT-615-Part">Informationen über zugangsbeschränkte Dokumente einsehbar unter</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Mitteilungsversanddatum (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Mitteilungsversanddatum (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Kriterien für grünes Beschaffungswesen</entry>
-<entry key="field|name|BT-88-Procedure">Beschreibung des Verfahrens</entry>
+<entry key="field|name|BT-88-Procedure">Die wichtigsten Merkmale des Verfahrens</entry>
 <entry key="field|name|BT-92-Lot">Aufträge werden elektronisch erteilt.</entry>
 <entry key="field|name|BT-93-Lot">Zahlungen werden elektronisch geleistet.</entry>
 <entry key="field|name|BT-94-Lot">Es handelt sich um die Vergabe wiederkehrender Aufträge.</entry>

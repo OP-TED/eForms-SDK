@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>field in Slovak. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>field in Slovak. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
@@ -483,7 +483,7 @@
 <entry key="field|name|BT-58-Lot">Maximálny počet obnovení</entry>
 <entry key="field|name|BT-60-Lot">Verejné obstarávanie sa aspoň čiastočne financuje z finančných prostriedkov Európskej únie.</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Činnosť obstarávateľa</entry>
-<entry key="field|name|BT-6110-Contract">Podrobnosti o fonde EÚ</entry>
+<entry key="field|name|BT-6110-Contract">Opis</entry>
 <entry key="field|name|BT-6140-Lot">Ďalšie informácie o programe alebo projekte Únie, ktoré sa použili aspoň čiastočne na financovanie obstarávania</entry>
 <entry key="field|name|BT-615-Lot">Informácie o súťažných podkladoch sú dostupné na</entry>
 <entry key="field|name|BT-615-Part">Informácie o súťažných podkladoch sú dostupné na</entry>
@@ -630,7 +630,7 @@
 <entry key="field|name|BT-803(d)-notice">Dátum odoslania oznámenia (eSender)</entry>
 <entry key="field|name|BT-803(t)-notice">Dátum odoslania oznámenia (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Kritériá zeleného obstarávania</entry>
-<entry key="field|name|BT-88-Procedure">Opis postupu</entry>
+<entry key="field|name|BT-88-Procedure">Hlavné charakteristiky postupu</entry>
 <entry key="field|name|BT-92-Lot">Bude sa využívať elektronické objednávanie</entry>
 <entry key="field|name|BT-93-Lot">Bude sa využívať elektronická platba</entry>
 <entry key="field|name|BT-94-Lot">Toto je opakujúce sa verejné obstarávanie.</entry>

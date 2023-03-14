@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in German. File generated from metadata database version 1.4.0 created on the 2022-11-25T09:30</comment>
+<comment>auxiliary in German. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="auxiliary|text|BT-01">Rechtsgrundlage</entry>
 <entry key="auxiliary|text|BT-08">Rolle der Organisation</entry>
 <entry key="auxiliary|text|BT-36">Dauer</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Informationen über die für die Finanzierung des Auftrags verwendeten Mittel der Europäischen Union</entry>
 <entry key="auxiliary|text|exclusion-grounds">Ausschlussgründe</entry>
 <entry key="auxiliary|text|framework-agreement">Rahmenvereinbarung</entry>
+<entry key="auxiliary|text|further-info">Weitere Informationen, Mediation und Überprüfung</entry>
 <entry key="auxiliary|text|general-information">Allgemeine Informationen</entry>
 <entry key="auxiliary|text|group-framework-value">Geschätzter Wert der Rahmenvereinbarung innerhalb der Gruppe von Losen</entry>
 <entry key="auxiliary|text|group-of-lots">Gruppe von Losen</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Ergebnis des Vergabeverfahrens</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Art der behaupteten Unregelmäßigkeit</entry>
 <entry key="auxiliary|text|review-requests-summary">Zusammenfassung der beim Erwerber eingegangenen Überprüfungsanträge</entry>
-<entry key="auxiliary|text|roles">Funktion(en)</entry>
+<entry key="auxiliary|text|roles">Rollen dieser Organisation</entry>
 <entry key="auxiliary|text|second-stage">Informationen über die zweite Phase eines zweiphasigen Verfahrens</entry>
 <entry key="auxiliary|text|selection-criteria">Eignungskriterien</entry>
 <entry key="auxiliary|text|start-duration-contract">Beginn und Laufzeit des Vertrags</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Wert</entry>
 <entry key="auxiliary|text|winner">Wettbewerbsgewinner</entry>
 <entry key="auxiliary|text|winner-info">Informationen über die Gewinner</entry>
+<entry key="auxiliary|text|winner-lots">Gewinner dieser Lose</entry>
 <entry key="auxiliary|text|winner-subcontractor">Unterauftragnehmer des Gewinners</entry>
 </properties>
