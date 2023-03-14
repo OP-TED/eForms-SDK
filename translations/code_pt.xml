@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Portuguese. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>code in Portuguese. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Os critérios de acessibilidade para as pessoas com deficiência estão incluídos</entry>
 <entry key="code|name|accessibility.n-inc">Os critérios de acessibilidade para as pessoas com deficiência não estão incluídos porque o contrato não se destina a pessoas singulares</entry>
 <entry key="code|name|accessibility.n-inc-just">Os critérios de acessibilidade para as pessoas com deficiência não estão incluídos, com a seguinte justificação</entry>
@@ -80,7 +80,7 @@
 <entry key="code|name|country.BGR">Bulgária</entry>
 <entry key="code|name|country.BHR">Barém</entry>
 <entry key="code|name|country.BHS">Baamas</entry>
-<entry key="code|name|country.BIH">Bósnia e Herzegovina</entry>
+<entry key="code|name|country.BIH">Bósnia-Herzegovina</entry>
 <entry key="code|name|country.BLM">São Bartolomeu</entry>
 <entry key="code|name|country.BLR">Bielorrússia</entry>
 <entry key="code|name|country.BLZ">Belize</entry>
@@ -127,7 +127,7 @@
 <entry key="code|name|country.DOM">República Dominicana</entry>
 <entry key="code|name|country.DZA">Argélia</entry>
 <entry key="code|name|country.ECU">Equador</entry>
-<entry key="code|name|country.EGY">Egipto</entry>
+<entry key="code|name|country.EGY">Egito</entry>
 <entry key="code|name|country.ERI">Eritreia</entry>
 <entry key="code|name|country.ESH">Sara Ocidental</entry>
 <entry key="code|name|country.ESP">Espanha</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Rupia nepalesa</entry>
 <entry key="code|name|currency.NZD">Dólar neozelandês</entry>
 <entry key="code|name|currency.OMR">Rial omanense</entry>
+<entry key="code|name|currency.OP_DATPRO">Dados provisórios</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Ínti</entry>
-<entry key="code|name|currency.PEN">Novo sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Peso filipino</entry>
 <entry key="code|name|currency.PKR">Rupia paquistanesa</entry>
@@ -10129,8 +10130,8 @@
 <entry key="code|name|eu-programme.BMVI">Fundo de Gestão Integrada das Fronteiras (FGIF) - Instrumento de Gestão das Fronteiras e dos Vistos (IGFV)</entry>
 <entry key="code|name|eu-programme.CCEI">Fundo de Gestão Integrada das Fronteiras (FGIF) - Instrumento de apoio financeiro aos equipamentos de controlo aduaneiro</entry>
 <entry key="code|name|eu-programme.CDF2020">Programa «Direitos, Igualdade e Cidadania»</entry>
-<entry key="code|name|eu-programme.CEF">Mecanismo Interligar a Europa (MIE)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Mecanismo Interligar a Europa (MIE)</entry>
+<entry key="code|name|eu-programme.CEF">Mecanismo Interligar a Europa (MIE 2014–2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Mecanismo Interligar a Europa (MIE 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Cidadãos, Igualdade, Direitos e Valores</entry>
 <entry key="code|name|eu-programme.CF">Fundo de Coesão (FC)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Política Externa e de Segurança Comum (PESC)</entry>
@@ -10238,6 +10239,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Desmantelamento de instalações nucleares (Lituânia)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Segurança nuclear e desmantelamento de instalações nucleares (incluindo a Bulgária e a Eslováquia)</entry>
 <entry key="code|name|eu-programme.OCT">Países e Territórios Ultramarinos (PTU) (incluindo a Gronelândia)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Dados provisórios</entry>
 <entry key="code|name|eu-programme.OUTREG">Regiões ultraperiféricas e escassamente povoadas</entry>
 <entry key="code|name|eu-programme.PERI2020">Programa de intercâmbio, de assistência e de formação para a proteção do euro contra a falsificação (Pericles 2020)</entry>
 <entry key="code|name|eu-programme.PERICLES">Proteção do euro contra a falsificação (programa «Pericles IV»)</entry>
@@ -10777,8 +10779,8 @@
 <entry key="code|name|non-award-justification.chan-need">Decisão do adquirente devido a uma alteração das necessidades</entry>
 <entry key="code|name|non-award-justification.ins-fund">Decisão do adquirente devido à insuficiência de fundos</entry>
 <entry key="code|name|non-award-justification.no-rece">Não foram recebidas propostas, pedidos de participação ou projetos</entry>
-<entry key="code|name|non-award-justification.no-signed">O(s) proponente(s) com a classificação mais elevada recusaram-se a assinar o contrato.</entry>
-<entry key="code|name|non-award-justification.one-admis">Só foi recebida uma proposta, pedido de participação ou projeto admissível.</entry>
+<entry key="code|name|non-award-justification.no-signed">O(s) proponente(s) com a classificação mais elevada recusaram-se a assinar o contrato</entry>
+<entry key="code|name|non-award-justification.one-admis">Só foi recebida uma proposta, pedido de participação ou projeto admissível</entry>
 <entry key="code|name|non-award-justification.other">Outros</entry>
 <entry key="code|name|non-award-justification.rev-body">Decisão de uma instância de recurso ou de outro órgão judicial</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Decisão do adquirente na sequência do pedido de reexame da adjudicação apresentado por um proponente</entry>

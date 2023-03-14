@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Hungarian. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>code in Hungarian. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok be vannak építve</entry>
 <entry key="code|name|accessibility.n-inc">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok nincsenek beépítve, mivel a beszerzést nem fogják természetes személyek használni</entry>
 <entry key="code|name|accessibility.n-inc-just">A fogyatékossággal élő személyekre vonatkozó, akadálymentesítési kritériumok nincsenek beépítve az alábbi indoklás szerint</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Nepáli rúpia</entry>
 <entry key="code|name|currency.NZD">Új-zélandi dollár</entry>
 <entry key="code|name|currency.OMR">Ománi riál</entry>
+<entry key="code|name|currency.OP_DATPRO">Ideiglenes adatok</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Új sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Fülöp-szigeteki peso</entry>
 <entry key="code|name|currency.PKR">Pakisztáni rúpia</entry>
@@ -10131,8 +10132,8 @@
 <entry key="code|name|eu-programme.BMVI">Integrált Határigazgatási Alap (IHA) – Határigazgatási és Vízumeszköz (HAVE)</entry>
 <entry key="code|name|eu-programme.CCEI">Integrált Határigazgatási Alap (IHA) – A vámellenőrzési berendezések pénzügyi támogató eszköze (CCEi)</entry>
 <entry key="code|name|eu-programme.CDF2020">Jogok, egyenlőség és polgárság program</entry>
-<entry key="code|name|eu-programme.CEF">Európai Hálózatfinanszírozási Eszköz (CEF)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Európai Hálózatfinanszírozási Eszköz (CEF)</entry>
+<entry key="code|name|eu-programme.CEF">Európai Hálózatfinanszírozási Eszköz (CEF 2014–2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Európai Hálózatfinanszírozási Eszköz (CEF 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Uniós polgárok, egyenlőség, jogok és értékek</entry>
 <entry key="code|name|eu-programme.CF">Kohéziós Alap (CF)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Közös kül- és biztonságpolitika (KKBP)</entry>
@@ -10240,6 +10241,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Nukleáris létesítmények leszerelése (Litvánia)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Nukleáris biztonság és leszerelés (Bulgáriára és Szlovákiára vonatkozóan is)</entry>
 <entry key="code|name|eu-programme.OCT">Tengerentúli országok és területek (TOT-ok) (Grönlandot is beleértve)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Ideiglenes adatok</entry>
 <entry key="code|name|eu-programme.OUTREG">Legkülső és gyéren lakott régiók</entry>
 <entry key="code|name|eu-programme.PERI2020">Az euro pénzhamisítás elleni védelmét szolgáló csere-, segítségnyújtási és képzési program (Periklész 2020 program)</entry>
 <entry key="code|name|eu-programme.PERICLES">Az euró pénzhamisítás elleni védelme (a „Periklész IV program”)</entry>
@@ -10779,8 +10781,8 @@
 <entry key="code|name|non-award-justification.chan-need">A vevő döntése az igények megváltozása miatt</entry>
 <entry key="code|name|non-award-justification.ins-fund">A vevő döntése a nem elegendő finanszírozás miatt</entry>
 <entry key="code|name|non-award-justification.no-rece">Nem érkeztek be ajánlatok, részvételi jelentkezések vagy projektek</entry>
-<entry key="code|name|non-award-justification.no-signed">A legmagasabb pontszámmal rendelkező ajánlattevő(k) elutasította (elutasították) a szerződés aláírását.</entry>
-<entry key="code|name|non-award-justification.one-admis">Csak egy elfogadható ajánlat, részvételi jelentkezés vagy projekt érkezett.</entry>
+<entry key="code|name|non-award-justification.no-signed">A legmagasabb pontszámmal rendelkező ajánlattevő(k) elutasította (elutasították) a szerződés aláírását</entry>
+<entry key="code|name|non-award-justification.one-admis">Csak egy elfogadható ajánlat, részvételi jelentkezés vagy projekt érkezett</entry>
 <entry key="code|name|non-award-justification.other">Egyéb</entry>
 <entry key="code|name|non-award-justification.rev-body">A felülvizsgálati szerv vagy egyéb igazságügyi szerv döntése</entry>
 <entry key="code|name|non-award-justification.rev-buyer">A vevő döntése az ajánlattevőnek az odaítélés felülvizsgálatára vonatkozó kérelmét követően</entry>
