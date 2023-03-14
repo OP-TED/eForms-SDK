@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Galician. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>auxiliary in Galician. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="auxiliary|text|BT-01">Bunús dlí</entry>
 <entry key="auxiliary|text|BT-08">Ról na heagraíochta</entry>
 <entry key="auxiliary|text|BT-36">Fad</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Eolas faoi chistí an Aontais Eorpaigh a úsáidtear chun an conradh a mhaoiniú</entry>
 <entry key="auxiliary|text|exclusion-grounds">Forais eisiaimh</entry>
 <entry key="auxiliary|text|framework-agreement">Creat-chomhaontú</entry>
+<entry key="auxiliary|text|further-info">Tuilleadh eolais, idirghabháil agus athbhreithniú</entry>
 <entry key="auxiliary|text|general-information">Eolas ginearálta</entry>
 <entry key="auxiliary|text|group-framework-value">Luach measta na gcreat-chomhaontuithe sa ghrúpa luchtóg</entry>
 <entry key="auxiliary|text|group-of-lots">Grúpa luchtóg</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Toradh an nóis imeachta soláthair</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Cineál na neamhrialtachta líomhnaithe</entry>
 <entry key="auxiliary|text|review-requests-summary">Achoimre ar na hiarrataí ar athbhreithniú a fuair an ceannaitheoir</entry>
-<entry key="auxiliary|text|roles">Ról/róil</entry>
+<entry key="auxiliary|text|roles">Róil na heagraíochta seo</entry>
 <entry key="auxiliary|text|second-stage">Eolas faoin dara céim de nós imeachta dhá chéim</entry>
 <entry key="auxiliary|text|selection-criteria">Critéir roghnúcháin</entry>
 <entry key="auxiliary|text|start-duration-contract">Dáta tosaigh agus fad an chonartha</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Luach</entry>
 <entry key="auxiliary|text|winner">Buaiteoir12</entry>
 <entry key="auxiliary|text|winner-info">Eolas faoi bhuaiteoirí</entry>
+<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
 <entry key="auxiliary|text|winner-subcontractor">Fochonraitheoirí an bhuaiteora</entry>
 </properties>

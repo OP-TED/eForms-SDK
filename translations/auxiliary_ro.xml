@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Romanian. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>auxiliary in Romanian. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
 <entry key="auxiliary|text|BT-01">Temei juridic</entry>
 <entry key="auxiliary|text|BT-08">Rolul organizației</entry>
 <entry key="auxiliary|text|BT-36">Durata</entry>
@@ -34,6 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Informații despre fondurile Uniunii Europene utilizate pentru finanțarea contractului</entry>
 <entry key="auxiliary|text|exclusion-grounds">Motive de excludere</entry>
 <entry key="auxiliary|text|framework-agreement">Acord-cadru</entry>
+<entry key="auxiliary|text|further-info">Informații suplimentare, mediere și revizuire</entry>
 <entry key="auxiliary|text|general-information">Informații generale</entry>
 <entry key="auxiliary|text|group-framework-value">Valoarea estimată a acordurilor-cadru pentru grupul de loturi</entry>
 <entry key="auxiliary|text|group-of-lots">Grup de loturi</entry>
@@ -94,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Rezultatul procedurii de achiziție publică</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Tipul de presupusă neregulă</entry>
 <entry key="auxiliary|text|review-requests-summary">Rezumatul cererilor de reexaminare primite de achizitor</entry>
-<entry key="auxiliary|text|roles">Rol(uri)</entry>
+<entry key="auxiliary|text|roles">Rolurile acestei organizații</entry>
 <entry key="auxiliary|text|second-stage">Informații privind a doua etapă a unei proceduri în două etape</entry>
 <entry key="auxiliary|text|selection-criteria">Criterii de selecție</entry>
 <entry key="auxiliary|text|start-duration-contract">Data începerii și durata contractului</entry>
@@ -108,5 +109,6 @@
 <entry key="auxiliary|text|value">Valoare</entry>
 <entry key="auxiliary|text|winner">Câștigător</entry>
 <entry key="auxiliary|text|winner-info">Informații despre câștigători</entry>
+<entry key="auxiliary|text|winner-lots">Câștigătorul acestor loturi</entry>
 <entry key="auxiliary|text|winner-subcontractor">Subcontractanții câștigătorului</entry>
 </properties>

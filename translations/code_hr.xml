@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Croatian. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>code in Croatian. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">U obzir su uzeti uvjeti pristupačnosti za osobe s invaliditetom</entry>
 <entry key="code|name|accessibility.n-inc">Uvjeti pristupačnosti za osobe s invaliditetom nisu uzeti u obzir jer javna nabava nije namijenjena fizičkim osobama</entry>
 <entry key="code|name|accessibility.n-inc-just">Uvjeti pristupačnosti za osobe s invaliditetom nisu uzeti u obzir zbog sljedećeg obrazloženja</entry>
@@ -499,10 +499,11 @@
 <entry key="code|name|currency.NPR">Nepalska rupija</entry>
 <entry key="code|name|currency.NZD">Novozelandski dolar</entry>
 <entry key="code|name|currency.OMR">Omanski rijal</entry>
+<entry key="code|name|currency.OP_DATPRO">Privremeni podaci</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Novi sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Filipinski pezo</entry>
 <entry key="code|name|currency.PKR">Pakistanska rupija</entry>
@@ -677,8 +678,8 @@
 <entry key="code|name|eu-programme.BMVI">Fond za integrirano upravljanje granicama (IBMF) – Instrument za upravljanje granicama i vize (BMVi)</entry>
 <entry key="code|name|eu-programme.CCEI">Fond za integrirano upravljanje granicama (IBMF) – Instrument za upravljanje granicama i vize (BMVi)</entry>
 <entry key="code|name|eu-programme.CDF2020">Program za prava, jednakost i građanstvo</entry>
-<entry key="code|name|eu-programme.CEF">Instrument za povezivanje Europe (CEF)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Instrument za povezivanje Europe (CEF)</entry>
+<entry key="code|name|eu-programme.CEF">Instrument za povezivanje Europe (CEF 2014. – 2020.)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Instrument za povezivanje Europe (CEF 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Građani, ravnopravnost, prava i vrijednosti</entry>
 <entry key="code|name|eu-programme.CF">Kohezijski fond (CF)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Zajednička vanjska i sigurnosna politika (ZVSP)</entry>
@@ -786,6 +787,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Razgradnja nuklearnih postrojenja (Litva)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Nuklearna sigurnost i razgradnja nuklearnih postrojenja (među ostalim u Bugarskoj i Slovačkoj)</entry>
 <entry key="code|name|eu-programme.OCT">Prekomorske zemlje i područja (PZP) (uključujući Grenland)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Privremeni podaci</entry>
 <entry key="code|name|eu-programme.OUTREG">Najudaljenije i slabo naseljene regije</entry>
 <entry key="code|name|eu-programme.PERI2020">Program razmjene, pomoći i osposobljavanja za zaštitu eura od krivotvorenja (Periklo 2020.)</entry>
 <entry key="code|name|eu-programme.PERICLES">Zaštita eura od krivotvorenja (program „Periklo IV”)</entry>
@@ -1324,8 +1326,8 @@
 <entry key="code|name|non-award-justification.chan-need">Odluka kupca, zbog promjene potreba</entry>
 <entry key="code|name|non-award-justification.ins-fund">Odluka kupca, zbog nedovoljno sredstava</entry>
 <entry key="code|name|non-award-justification.no-rece">Nisu zaprimljene ponude, zahtjevi za sudjelovanje ili projekti</entry>
-<entry key="code|name|non-award-justification.no-signed">Ponuditelj ili ponuditelji s najviše bodova odbili su potpisati ugovor.</entry>
-<entry key="code|name|non-award-justification.one-admis">Zaprimljena je samo jedna prihvatljiva ponuda, zahtjev za sudjelovanje ili projekt.</entry>
+<entry key="code|name|non-award-justification.no-signed">Ponuditelj ili ponuditelji s najviše bodova odbili su potpisati ugovor</entry>
+<entry key="code|name|non-award-justification.one-admis">Zaprimljena je samo jedna prihvatljiva ponuda, zahtjev za sudjelovanje ili projekt</entry>
 <entry key="code|name|non-award-justification.other">Ostalo</entry>
 <entry key="code|name|non-award-justification.rev-body">Odluka tijela za preispitivanje (pravnu zaštitu) ili drugog sudskog tijela</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Odluka kupca, koja jest posljedica zahtjeva ponuditelja da se preispita dodjela</entry>

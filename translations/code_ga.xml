@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Galician. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>code in Galician. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Tá critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh</entry>
 <entry key="code|name|accessibility.n-inc">Níl critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh mar níl an soláthar beartaithe lena úsáid ag daoine nádúrtha</entry>
 <entry key="code|name|accessibility.n-inc-just">Níl critéir inrochtaineachta do dhaoine faoi mhíchumas ar áireamh ar na cúiseanna seo a leanas</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Rúipí Neipeal</entry>
 <entry key="code|name|currency.NZD">Dollar na Nua-Shéalainne</entry>
 <entry key="code|name|currency.OMR">Rial Óman</entry>
+<entry key="code|name|currency.OP_DATPRO">Sonraí sealadacha</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Nuevo sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Peso na nOileán Filipíneach</entry>
 <entry key="code|name|currency.PKR">Rúipí na Pacastáine</entry>
@@ -10123,6 +10124,7 @@
 <entry key="code|name|eu-programme.CERV">Cearta agus Luachanna</entry>
 <entry key="code|name|eu-programme.EFSD">Ciste Eorpach um Fhorbairt Inbhuanaithe (CEFI)</entry>
 <entry key="code|name|eu-programme.EMFAF">An Ciste Eorpach Muirí, Iascaigh agus Dobharshaothraithe (CEMID)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Sonraí sealadacha</entry>
 <entry key="code|name|form-type.bri">Eolas faoi chlárú gnó</entry>
 <entry key="code|name|form-type.change">Athrú</entry>
 <entry key="code|name|form-type.competition">Iomaíocht</entry>
@@ -10638,8 +10640,8 @@
 <entry key="code|name|non-award-justification.chan-need">Cinneadh an cheannaitheora, mar gheall ar athrú ar riachtanais</entry>
 <entry key="code|name|non-award-justification.ins-fund">Cinneadh an cheannaitheora, mar gheall ar easpa airgid</entry>
 <entry key="code|name|non-award-justification.no-rece">Ní bhfuarthas aon tairiscintí, iarratais ar rannpháirtíocht ná tionscadail</entry>
-<entry key="code|name|non-award-justification.no-signed">Dhiúltaigh an tairgeoir nó na tairgeoirí ab airde rangú an conradh a shíniú.</entry>
-<entry key="code|name|non-award-justification.one-admis">Ní bhfuarthas ach aon tairiscint amháin, aon iarraidh amháin ar rannpháirtíocht nó aon tionscadal amháin a bhí inghlactha.</entry>
+<entry key="code|name|non-award-justification.no-signed">Dhiúltaigh an tairgeoir nó na tairgeoirí ab airde rangú an conradh a shíniú</entry>
+<entry key="code|name|non-award-justification.one-admis">Ní bhfuarthas ach aon tairiscint amháin, aon iarraidh amháin ar rannpháirtíocht nó aon tionscadal amháin a bhí inghlactha</entry>
 <entry key="code|name|non-award-justification.other">Eile</entry>
 <entry key="code|name|non-award-justification.rev-body">Cinneadh comhlachta athbhreithnithe nó comhlachta breithiúnaigh eile</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Cinneadh an cheannaitheora a leanann iarraidh ó thairgeoir an dámhachtain a athbhreithniú</entry>

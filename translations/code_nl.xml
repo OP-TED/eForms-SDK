@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>code in Dutch. File generated from metadata database version 1.3.0 created on the 2022-11-03T17:46:06</comment>
+<comment>code in Dutch. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
 <entry key="code|name|accessibility.inc">Er zijn criteria opgenomen inzake de toegankelijkheid voor personen met een handicap</entry>
 <entry key="code|name|accessibility.n-inc">Er zijn geen criteria opgenomen inzake de toegankelijkheid voor personen met een handicap, omdat de aanbesteding niet bestemd is voor gebruik door natuurlijke personen</entry>
 <entry key="code|name|accessibility.n-inc-just">Er zijn geen criteria opgenomen inzake de toegankelijkheid voor personen met een handicap, om de volgende reden</entry>
@@ -9953,10 +9953,11 @@
 <entry key="code|name|currency.NPR">Nepalese roepie</entry>
 <entry key="code|name|currency.NZD">Nieuw-Zeelandse dollar</entry>
 <entry key="code|name|currency.OMR">Omaanse rial</entry>
+<entry key="code|name|currency.OP_DATPRO">Voorlopige gegevens</entry>
 <entry key="code|name|currency.PAB">Balboa</entry>
 <entry key="code|name|currency.PEH">Nuevo sol</entry>
 <entry key="code|name|currency.PEI">Inti</entry>
-<entry key="code|name|currency.PEN">Nuevo sol</entry>
+<entry key="code|name|currency.PEN">Sol</entry>
 <entry key="code|name|currency.PGK">Kina</entry>
 <entry key="code|name|currency.PHP">Filipijnse peso</entry>
 <entry key="code|name|currency.PKR">Pakistaanse roepie</entry>
@@ -10130,8 +10131,8 @@
 <entry key="code|name|eu-programme.BMVI">Fonds voor geïntegreerd grensbeheer (IBMF) - Instrument voor grensbeheer en visa (BMVI)</entry>
 <entry key="code|name|eu-programme.CCEI">Fonds voor geïntegreerd grensbeheer (IBMF) - Instrument voor financiële steun voor douanecontroleapparatuur (CCEi)</entry>
 <entry key="code|name|eu-programme.CDF2020">Programma „Rechten, gelijkheid en burgerschap”</entry>
-<entry key="code|name|eu-programme.CEF">Financieringsfaciliteit voor Europese verbindingen (CEF)</entry>
-<entry key="code|name|eu-programme.CEF_2021">Connecting Europe Facility (CEF)</entry>
+<entry key="code|name|eu-programme.CEF">Financieringsfaciliteit voor Europese verbindingen (CEF 2014-2020)</entry>
+<entry key="code|name|eu-programme.CEF_2021">Connecting Europe Facility (CEF 2021)</entry>
 <entry key="code|name|eu-programme.CERV">Burgers, gelijkheid, rechten en waarden</entry>
 <entry key="code|name|eu-programme.CF">Cohesiefonds (CF)</entry>
 <entry key="code|name|eu-programme.CFSP2020">Gemeenschappelijk buitenlands en veiligheidsbeleid (GBVB)</entry>
@@ -10239,6 +10240,7 @@
 <entry key="code|name|eu-programme.ND_LITH">Ontmanteling van nucleaire installaties (Litouwen)</entry>
 <entry key="code|name|eu-programme.ND_OTHER">Nucleaire veiligheid en ontmanteling (incl. voor Bulgarije en Slowakije)</entry>
 <entry key="code|name|eu-programme.OCT">Landen en gebieden overzee (LGO) (incl. Groenland)</entry>
+<entry key="code|name|eu-programme.OP_DATPRO">Voorlopige gegevens</entry>
 <entry key="code|name|eu-programme.OUTREG">Ultraperifere en dunbevolkte regio's</entry>
 <entry key="code|name|eu-programme.PERI2020">Programma inzake uitwisselingen, bijstand en opleiding voor de bescherming van de euro tegen valsemunterij (Pericles 2020)</entry>
 <entry key="code|name|eu-programme.PERICLES">Bescherming van de euro tegen valsemunterij (programma Pericles IV)</entry>
@@ -10779,8 +10781,8 @@
 <entry key="code|name|non-award-justification.chan-need">Besluit van de koper, wegens gewijzigde behoeften</entry>
 <entry key="code|name|non-award-justification.ins-fund">Besluit van de koper, wegens ontoereikende middelen</entry>
 <entry key="code|name|non-award-justification.no-rece">Er zijn geen inschrijvingen, verzoeken tot deelname of projecten ontvangen</entry>
-<entry key="code|name|non-award-justification.no-signed">De hoogst gerangschikte inschrijver(s) weigerde(n) het contract te ondertekenen.</entry>
-<entry key="code|name|non-award-justification.one-admis">Er is slechts één ontvankelijk(e) inschrijving, verzoek tot deelname of project ontvangen.</entry>
+<entry key="code|name|non-award-justification.no-signed">De hoogst gerangschikte inschrijver(s) weigerde(n) het contract te ondertekenen</entry>
+<entry key="code|name|non-award-justification.one-admis">Er is slechts één ontvankelijk(e) inschrijving, verzoek tot deelname of project ontvangen</entry>
 <entry key="code|name|non-award-justification.other">Andere</entry>
 <entry key="code|name|non-award-justification.rev-body">Besluit van een beroepsinstantie of een andere rechterlijke instantie</entry>
 <entry key="code|name|non-award-justification.rev-buyer">Besluit van de koper, volgend op een verzoek van een inschrijver tot herziening van de gunning</entry>
