@@ -12275,7 +12275,7 @@
     "btId" : "BT-31",
     "xpathAbsolute" : "/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric",
     "xpathRelative" : "cbc:MaximumLotsSubmittedNumeric",
-    "type" : "number",
+    "type" : "integer",
     "legalType" : "NUMBER",
     "repeatable" : {
       "value" : false,
@@ -12375,7 +12375,7 @@
     "btId" : "BT-33",
     "xpathAbsolute" : "/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric",
     "xpathRelative" : "cbc:MaximumLotsAwardedNumeric",
-    "type" : "number",
+    "type" : "integer",
     "legalType" : "NUMBER",
     "repeatable" : {
       "value" : false,
