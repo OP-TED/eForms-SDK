@@ -880,6 +880,7 @@
 		<diagnostic id="OPT-030-Procedure-SProvider" see="field:OPT-030-Procedure-SProvider">cbc:ServiceTypeCode</diagnostic>
 		<diagnostic id="OPT-050-Lot" see="field:OPT-050-Lot">cbc:DocumentStatusCode</diagnostic>
 		<diagnostic id="OPT-050-Part" see="field:OPT-050-Part">cbc:DocumentStatusCode</diagnostic>
+		<diagnostic id="OPT-060-Lot" see="field:OPT-060-Lot">cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='conditions']</diagnostic>
 		<diagnostic id="OPT-070-Lot" see="field:OPT-070-Lot">cbc:Description</diagnostic>
 		<diagnostic id="OPT-071-Lot" see="field:OPT-071-Lot">cbc:ExecutionRequirementCode</diagnostic>
 		<diagnostic id="OPT-072-Lot" see="field:OPT-072-Lot">cbc:Description</diagnostic>

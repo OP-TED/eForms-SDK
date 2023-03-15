@@ -921,8 +921,9 @@
 				<cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>
-				<!--BT-70-->
+				<!--OPT-060-->
 				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<!--BT-70-->
 				<cbc:Description languageID="ENG">Terms Performance ---</cbc:Description>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>
@@ -1472,8 +1473,9 @@
 				<cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>
-				<!--BT-70-->
+				<!--OPT-060-->
 				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<!--BT-70-->
 				<cbc:Description languageID="ENG">Terms Performance ---</cbc:Description>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>

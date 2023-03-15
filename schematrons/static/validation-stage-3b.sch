@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00.-->
+<!--File generated from metadata database version 1.6.22 created on the 2023-03-15T14:25:34.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -742,6 +742,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentStatusCode">
 		<assert id="BR-OPT-00050-0102" role="ERROR" test="normalize-space(.) = ('non-official', 'official')">rule|text|BR-OPT-00050-0102</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='conditions']">
+		<assert id="BR-OPT-00060-0051" role="ERROR" test="normalize-space(.) = ('performance')">rule|text|BR-OPT-00060-0051</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='customer-service']/cbc:ExecutionRequirementCode">
 		<assert id="BR-OPT-00071-0051" role="ERROR" test="normalize-space(.) = ('assistance', 'cancel', 'clean', 'complaint', 'info', 'other', 'reliability', 'sat-surv', 'ticket')">rule|text|BR-OPT-00071-0051</assert>
