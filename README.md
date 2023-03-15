@@ -1,4 +1,4 @@
-**[:memo: Latest Release Notes](CHANGELOG.md)** | **[:package: Latest Release Artifacts](https://search.maven.org/search?q=g:%22eu.europa.ted.eforms%22%20AND%20a:%22eforms-sdk%22)**
+**[:memo: Latest Release Notes](CHANGELOG.md)** | **[:package: Latest Release Artifacts](https://central.sonatype.com/search?q=eforms-sdk&namespace=eu.europa.ted.eforms)**
 
 ---
 
