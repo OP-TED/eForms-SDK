@@ -15431,7 +15431,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "X01", "X02" ],
+        "noticeTypes" : [ "4", "5", "6", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
