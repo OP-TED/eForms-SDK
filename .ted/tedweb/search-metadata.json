@@ -167,6 +167,10 @@
 		"efx": "{ND-Root} ${/BT-757-notice}",
 		"comment": "Notice Version"
 	},
+	"notice-subtypecode": {
+		"efx": "{ND-Root} ${/OPP-070-notice}",
+		 "comment": "notice-sub-type-code"
+	},
 	"BT537": {
 		"efx": "{ND-Root} ${/BT-537-Lot}",
 		"comment": "Duration end date (BT-537-Lot) - used to compute the non-active notice date"
