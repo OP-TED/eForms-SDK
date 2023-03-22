@@ -439,6 +439,15 @@
    </svrl:failed-assert>
    <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
    <svrl:failed-assert id="element-not-empty"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:ID"
+                       role="ERROR"
+                       test="false()">
+      <svrl:text>
+			rule|text|element-not-empty
+		</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="//*[not(child::*) and normalize-space(text()) = '']"/>
+   <svrl:failed-assert id="element-not-empty"
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject/cbc:Name"
                        role="ERROR"
                        test="false()">
