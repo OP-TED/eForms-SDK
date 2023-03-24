@@ -57,7 +57,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -67,17 +67,12 @@
 							</efac:Company>
 						</efac:Organization>
 					</efac:Organizations>
-					<efac:Publication>
-						<efbc:NoticePublicationID schemeName="ojs-notice-id">276106-2018</efbc:NoticePublicationID>
-						<efbc:GazetteID schemeName="ojs-id">121/2018</efbc:GazetteID>
-						<efbc:PublicationDate>2018-06-27+02:00</efbc:PublicationDate>
-					</efac:Publication>
 				</efext:EformsExtension>
 			</ext:ExtensionContent>
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">468ad654-621e-43f2-bc58-e774eb03926b</cbc:ID>
 	<cbc:IssueDate>2018-06-20+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>

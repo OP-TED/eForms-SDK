@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsPolLvl3</ShortName>
       <LongName>nuts-pol-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Miasto Kraków</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Miasto Kraków</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL214</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Krakowski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Krakowski</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tarnowski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tarnowski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL218</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Nowosądecki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Nowosądecki</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Nowotarski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Nowotarski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL21A</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Oświęcimski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Oświęcimski</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Częstochowski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Częstochowski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL225</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bielski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bielski</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Rybnicki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rybnicki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL228</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bytomski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bytomski</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gliwicki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gliwicki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL22A</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Katowicki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Katowicki</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Sosnowiecki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Sosnowiecki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL22C</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Tyski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Tyski</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pilski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pilski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL414</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Koniński</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Koniński</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Miasto Poznań</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Miasto Poznań</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL416</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Kaliski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Kaliski</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Leszczyński</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Leszczyński</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL418</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Poznański</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Poznański</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Miasto Szczecin</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Miasto Szczecin</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL426</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Koszaliński</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Koszaliński</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Szczecinecko-pyrzycki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Szczecinecko-pyrzycki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL428</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Szczeciński</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Szczeciński</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gorzowski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gorzowski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL432</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zielonogórski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zielonogórski</SimpleValue>
          </Value>
       </Row>
@@ -336,12 +414,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Miasto Wrocław</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Miasto Wrocław</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL515</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Jeleniogórski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Jeleniogórski</SimpleValue>
          </Value>
       </Row>
@@ -352,12 +436,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Legnicko-głogowski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Legnicko-głogowski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL517</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Wałbrzyski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Wałbrzyski</SimpleValue>
          </Value>
       </Row>
@@ -368,12 +458,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Wrocławski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Wrocławski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL523</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Nyski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Nyski</SimpleValue>
          </Value>
       </Row>
@@ -384,12 +480,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Opolski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Opolski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL613</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bydgosko-toruński</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bydgosko-toruński</SimpleValue>
          </Value>
       </Row>
@@ -400,12 +502,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Grudziądzki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Grudziądzki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL617</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Inowrocławski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Inowrocławski</SimpleValue>
          </Value>
       </Row>
@@ -416,12 +524,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Świecki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Świecki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL619</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Włocławski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Włocławski</SimpleValue>
          </Value>
       </Row>
@@ -432,12 +546,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Elbląski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Elbląski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL622</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Olsztyński</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Olsztyński</SimpleValue>
          </Value>
       </Row>
@@ -448,12 +568,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ełcki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ełcki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL633</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Trójmiejski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Trójmiejski</SimpleValue>
          </Value>
       </Row>
@@ -464,12 +590,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gdański</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gdański</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL636</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Słupski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Słupski</SimpleValue>
          </Value>
       </Row>
@@ -480,12 +612,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Chojnicki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Chojnicki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL638</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Starogardzki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Starogardzki</SimpleValue>
          </Value>
       </Row>
@@ -496,12 +634,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Miasto Łódź</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Miasto Łódź</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL712</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Łódzki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Łódzki</SimpleValue>
          </Value>
       </Row>
@@ -512,12 +656,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Piotrkowski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Piotrkowski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL714</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Sieradzki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Sieradzki</SimpleValue>
          </Value>
       </Row>
@@ -528,12 +678,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Skierniewicki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Skierniewicki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL721</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Kielecki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Kielecki</SimpleValue>
          </Value>
       </Row>
@@ -544,12 +700,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Sandomiersko-jędrzejowski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Sandomiersko-jędrzejowski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL811</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bialski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bialski</SimpleValue>
          </Value>
       </Row>
@@ -560,12 +722,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Chełmsko-zamojski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Chełmsko-zamojski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL814</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Lubelski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Lubelski</SimpleValue>
          </Value>
       </Row>
@@ -576,12 +744,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Puławski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Puławski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL821</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Krośnieński</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Krośnieński</SimpleValue>
          </Value>
       </Row>
@@ -592,12 +766,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Przemyski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Przemyski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL823</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Rzeszowski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Rzeszowski</SimpleValue>
          </Value>
       </Row>
@@ -608,12 +788,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tarnobrzeski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tarnobrzeski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL841</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Białostocki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Białostocki</SimpleValue>
          </Value>
       </Row>
@@ -624,12 +810,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Łomżyński</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Łomżyński</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL843</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Suwalski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Suwalski</SimpleValue>
          </Value>
       </Row>
@@ -640,12 +832,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Miasto Warszawa</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Miasto Warszawa</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL912</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Warszawski wschodni</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Warszawski wschodni</SimpleValue>
          </Value>
       </Row>
@@ -656,12 +854,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Warszawski zachodni</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Warszawski zachodni</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL921</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Radomski</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Radomski</SimpleValue>
          </Value>
       </Row>
@@ -672,12 +876,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ciechanowski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ciechanowski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL923</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Płocki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Płocki</SimpleValue>
          </Value>
       </Row>
@@ -688,12 +898,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ostrołęcki</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ostrołęcki</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PL925</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Siedlecki</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Siedlecki</SimpleValue>
          </Value>
       </Row>
@@ -704,12 +920,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Żyrardowski</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Żyrardowski</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>PLZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

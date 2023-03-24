@@ -15,8 +15,8 @@
 
   <licenses>
     <license>
-      <name>European Union Public Licence, Version 1.2</name>
-      <url>https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt</url>
+      <name>Creative Commons Attribution 4.0 International Public License</name>
+      <url>https://creativecommons.org/licenses/by/4.0/legalcode.txt</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -48,19 +48,39 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.outputTimestamp>2023-02-17T13:32:05Z</project.build.outputTimestamp>
+
+    <version.eforms-sdk-analyzer>1.6.0-SNAPSHOT</version.eforms-sdk-analyzer>
+
+    <!-- Versions - Plugins -->
+    <version.dependency.plugin>3.5.0</version.dependency.plugin>
+    <version.exec.plugin>3.1.0</version.exec.plugin>
+    <version.install.plugin>2.5.2</version.install.plugin>
+    <version.jar.plugin>3.3.0</version.jar.plugin>
   </properties>
 
   <build>
     <resources>
       <resource>
         <directory>${basedir}</directory>
-        <targetPath>${project.build.outputDirectory}/eforms-sdk</targetPath>
+        <filtering>true</filtering>
+        <targetPath>eforms-sdk</targetPath>
+        <includes>
+          <include>VERSION</include>
+        </includes>
+      </resource>
+
+      <resource>
+        <directory>${basedir}</directory>
+        <targetPath>eforms-sdk</targetPath>
         <excludes>
+          <exclude>**/.antlr/</exclude>
           <exclude>.classpath</exclude>
           <exclude>.git*/**</exclude>
           <exclude>.mvn/</exclude>
           <exclude>.project</exclude>
           <exclude>.settings/</exclude>
+          <exclude>.vscode/</exclude>
           <exclude>pom.xml</exclude>
           <exclude>mvnw*</exclude>
           <exclude>target/</exclude>
@@ -72,16 +92,71 @@
       <plugins>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
-          <version>2.5.2</version>
+          <version>${version.install.plugin}</version>
           <configuration>
             <createChecksum>true</createChecksum>
           </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>${version.jar.plugin}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>${version.exec.plugin}</version>
         </plugin>
       </plugins>
     </pluginManagement>
   </build>
 
   <profiles>
+    <profile>
+      <id>analyze</id>
+      <dependencies>
+        <dependency>
+          <groupId>eu.europa.ted.eforms</groupId>
+          <artifactId>eforms-sdk-analyzer</artifactId>
+          <version>${version.eforms-sdk-analyzer}</version>
+        </dependency>
+      </dependencies>
+      <repositories>
+        <repository>
+          <id>github</id>
+          <name>Github Packages</name>
+          <url>https://public:${env.GITHUB_TOKEN}@maven.pkg.github.com/OP-TED/*</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>validate</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>java</executable>
+                  <arguments>
+                    <argument>-classpath</argument>
+                    <classpath/>
+                    <argument>eu.europa.ted.eforms.sdk.analysis.Application</argument>
+                    <argument>${project.basedir}</argument>
+                  </arguments>
+                  <classpath/>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
     <profile>
       <id>release</id>
       <build>

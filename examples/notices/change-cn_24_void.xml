@@ -10,7 +10,7 @@
 						<efbc:ChangedNoticeIdentifier>f42be27e-09cf-4f0e-a745-63ec689631e6-01</efbc:ChangedNoticeIdentifier>
 						<efac:ChangeReason>
 							<cbc:ReasonCode listName="change-corrig-justification">cancel</cbc:ReasonCode>
-							<efbc:ReasonDescription languageID="ENG">the procurement is cancelled and will be relaunched</efbc:ReasonDescription>
+							<efbc:ReasonDescription languageID="ENG">We cancel because...</efbc:ReasonDescription>
 						</efac:ChangeReason>
 					</efac:Changes>
 					<efac:NoticeSubType>
@@ -19,7 +19,6 @@
 					<efac:Organizations>
 						<efac:Organization>
 							<efac:Company>
-								<cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
@@ -35,18 +34,16 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="ABC">EU-PO</cbc:CompanyID>
+									<cbc:CompanyID>EU-PO</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 292944331</cbc:Telephone>
-									<cbc:Telefax>+352 2929443319</cbc:Telefax>
 									<cbc:ElectronicMail>op-appels-offres@publications.europa.eu</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
 							<efac:Company>
-								<cbc:WebsiteURI>https://curia.europa.eu</cbc:WebsiteURI>
 								<cac:PartyIdentification>
 									<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 								</cac:PartyIdentification>
@@ -66,35 +63,7 @@
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 4303-1</cbc:Telephone>
-									<cbc:Telefax>+352 4303-19</cbc:Telefax>
 									<cbc:ElectronicMail>GeneralCourt.Registry@curia.europa.eu</cbc:ElectronicMail>
-								</cac:Contact>
-							</efac:Company>
-						</efac:Organization>
-						<efac:Organization>
-							<efac:Company>
-								<cbc:WebsiteURI>https://example-mediator.eu</cbc:WebsiteURI>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
-								</cac:PartyIdentification>
-								<cac:PartyName>
-									<cbc:Name languageID="ENG">Example Mediator</cbc:Name>
-								</cac:PartyName>
-								<cac:PostalAddress>
-									<cbc:CityName>Example City</cbc:CityName>
-									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
-									<cac:Country>
-										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
-									</cac:Country>
-								</cac:PostalAddress>
-								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeName="abc">111 111 111</cbc:CompanyID>
-								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+123 456 789</cbc:Telephone>
-									<cbc:Telefax>+123 456 7899</cbc:Telefax>
-									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
@@ -104,7 +73,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">1d192942-a4a3-4833-8775-ca38f7ec09ca</cbc:ID>
 	<cbc:ContractFolderID>4805c409-5939-4be9-8abd-837f7a5fee23</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-12-21+01:00</cbc:IssueDate>
@@ -129,7 +98,7 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
@@ -220,11 +189,6 @@
 						<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
-				<cac:MediationParty>
-					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
-					</cac:PartyIdentification>
-				</cac:MediationParty>
 			</cac:AppealTerms>
 			<cac:Language>
 				<cbc:ID>ENG</cbc:ID>

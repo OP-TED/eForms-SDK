@@ -98,7 +98,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="ABC">EU-PO</cbc:CompanyID>
+									<cbc:CompanyID>EU-PO</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Name>Procurement Unit</cbc:Name>
@@ -389,7 +389,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -404,7 +404,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">55aae64f-88a8-44a5-b2fb-8228e97fe6ee</cbc:ID>
 	<cbc:ContractFolderID>46c9ce89-5986-40d9-992f-e1a2469a48f8</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
@@ -508,7 +508,7 @@
 		<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">CRITERION.EXCLUSION.BUSINESS.INSOLVENCY</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="BUL">Както е определено в документите за обществена поръчка.</cbc:Description>
 				<cbc:Description languageID="CES">Jak je uvedeno v zadávací dokumentaci.</cbc:Description>
 				<cbc:Description languageID="DAN">Som angivet i udbudsdokumenterne.</cbc:Description>
@@ -869,15 +869,15 @@
 					<cbc:Description languageID="HRV">U roku od 2 mjeseca od slanja obavijesti podnositelju žalbe, a u slučaju izostanka obavijesti, od datuma primanja na znanje okolnosti koje su povod žalbi. Podnošenjem pritužbe Europskom ombudsmanu to se razdoblje ne obustavlja niti se ne otvara novo razdoblje za podnošenje žalbi.</cbc:Description>
 					<cbc:Description languageID="HUN">A vesztes fél értesítésétől, illetve – ennek hiányában – az eredmény ismertté válásától számított 2 hónapon belül. Az európai ombudsmanhoz benyújtott panasz nem eredményezi sem ezen időszak felfüggesztését, sem új fellebbezési időszak megnyílását.</cbc:Description>
 					<cbc:Description languageID="ITA">Entro 2 mesi dalla notifica al ricorrente o, in assenza, dal giorno in cui ne è venuto a conoscenza. La denuncia al Mediatore europeo non produce né l'effetto di sospendere tale periodo, né di aprirne uno nuovo per la presentazione di ricorsi.</cbc:Description>
-					<cbc:Description languageID="LAV">2 mēnešu laikā no prasītāja informēšanas vai, ja tā nav notikusi, no dienas, kad prasītājs to uzzinājis. Sūdzības iesniegšana Eiropas Ombudam nevar ne atlikt šo periodu, ne arī atklāt jaunu periodu pārsūdzību iesniegšanai.</cbc:Description>
+					<cbc:Description languageID="LAV">2 mēnešu laikā no prasītāja informēšanas vai, ja tā nav notikusi, no dienas, kad prasītājs to uzzinājis. Sūdzības iesniegšana Eiropas Ombudam nevar ne atlikt šo periodu, ne arī atklāt jaunu periodu pārsūdzību iesniegšanai.</cbc:Description>
 					<cbc:Description languageID="LIT">Per 2 mėnesius po to, kai apie tai pranešta ieškovui, arba, jei pranešimas neparengiamas, nuo dienos, kai informacija tampa žinoma. Dėl Europos ombudsmenui pateikto skundo šis laikotarpis nebus sustabdytas ar inicijuotas naujas apeliacijų teikimo laikotarpis.</cbc:Description>
-					<cbc:Description languageID="MLT">Fi żmien xahrejn (2) mill-avviż li jintbagħat lil min qiegħed iressaq l-ilment, jew, fin-nuqqas ta' dan, mill-jum li fih min qiegħed iressaq l-ilment isir jaf b'dan. It-tressiq ta' lment quddiem l-Ombudsman Ewropew mhux se jkollu effett biex jew jissospendi dan il-perijodu jew biex jinfetaħ perijodu ġdid għat-tressiq tal-appelli.</cbc:Description>
+					<cbc:Description languageID="MLT">Fi żmien xahrejn (2) mill-avviż li jintbagħat lil min qiegħed iressaq l-ilment, jew, fin-nuqqas ta' dan, mill-jum li fih min qiegħed iressaq l-ilment isir jaf b'dan. It-tressiq ta' lment quddiem l-Ombudsman Ewropew mhux se jkollu effett biex jew jissospendi dan il-perijodu jew biex jinfetaħ perijodu ġdid għat-tressiq tal-appelli.</cbc:Description>
 					<cbc:Description languageID="NLD">Binnen 2 maanden na de kennisgeving aan de klager of, bij ontbreken daarvan, binnen 2 maanden na de dag waarop het de klager bekend werd. Een klacht bij de Europese Ombudsman leidt niet tot een opschorting van die periode, noch tot de opening van een nieuwe periode voor het instellen van een beroep.</cbc:Description>
 					<cbc:Description languageID="POL">W ciągu 2 miesięcy od zawiadomienia strony skarżącej lub, w przypadku braku zawiadomienia, od dnia podania do wiadomości. Wniesienie skargi do Europejskiego Rzecznika Praw Obywatelskich nie skutkuje zawieszeniem ani rozpoczęciem na nowo biegu terminu składania odwołań.</cbc:Description>
 					<cbc:Description languageID="POR">Num prazo de 2 meses a contar da data de notificação ao requerente ou, na sua falta, a contar do dia em que o requerente tenha tomado conhecimento do ato. As queixas efetuadas ao Provedor de Justiça Europeu não têm como efeito a suspensão do período em questão, nem a abertura de um novo prazo para a interposição de recursos.</cbc:Description>
 					<cbc:Description languageID="RON">În termen de 2 luni de la notificarea reclamantului sau, în lipsa acesteia, de la ziua în care acesta a luat cunoștință de actul respectiv. O plângere depusă la Ombudsmanul European nu are drept efect suspendarea acestui termen sau deschiderea unui nou termen pentru utilizarea căilor de atac.</cbc:Description>
 					<cbc:Description languageID="SLK">Do 2 mesiacov od vyrozumenia osoby podávajúcej odvolanie alebo, ak to nie je možné, odo dňa, keď túto skutočnosť zistila. Sťažnosť predložená európskemu ombudsmanovi nebude mať za následok prerušenie tohto obdobia, ani začatie novej lehoty na predloženie odvolaní.</cbc:Description>
-					<cbc:Description languageID="SLV">V 2 mesecih od uradnega obvestila tožniku ali, če tega ni bilo, od dneva, ko je tožnik zanj izvedel. Pritožba Evropskemu varuhu človekovih pravic ne prekine navedenega obdobja niti ne začne novega obdobja za vložitev pritožb.</cbc:Description>
+					<cbc:Description languageID="SLV">V 2 mesecih od uradnega obvestila tožniku ali, če tega ni bilo, od dneva, ko je tožnik zanj izvedel. Pritožba Evropskemu varuhu človekovih pravic ne prekine navedenega obdobja niti ne začne novega obdobja za vložitev pritožb.</cbc:Description>
 					<cbc:Description languageID="SPA">En un plazo de 2 meses a partir de la notificación al recurrente o, en su defecto, del día en que este haya tenido conocimiento del acto en cuestión. Una reclamación ante el Defensor del Pueblo Europeo no tendrá como efecto la suspensión de dicho plazo ni la apertura de un nuevo plazo de presentación de recursos.</cbc:Description>
 					<cbc:Description languageID="SWE">Inom 2 månader efter att käranden fick meddelandet eller, om så inte skett, från den dag då käranden fick kännedom om saken. Ett klagomål till Europeiska ombudsmannen leder varken till att denna period avbryts eller till att en ny period för inlämning av ett överklagande inleds.</cbc:Description>
 				</cac:PresentationPeriod>

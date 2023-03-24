@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>ReviewRequesterType</ShortName>
+      <LongName>review-requester-type</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/organisation-role</LongName>
+      <LongName Identifier="eFormsParentId">organisation-role</LongName>
+      <Version>1.6.0</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rev-req</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация (или лице), искаща преразглеждане (обжалване), която има или е имала интерес по отношение на поръчката и която е понесла или има опасност да понесе щети при предполагаемо нарушение</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace (nebo osoba) žádající o přezkum, která má nebo měla na zakázce zájem a které v důsledku domnělého protiprávního jednání vznikla nebo hrozí škoda</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Klagende organisation (eller person), der har eller har haft interesse i en kontrakt, og som har lidt eller risikerer at lide skade som følge af en påstået overtrædelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die den Antrag auf Überprüfung stellende Einrichtung (oder Person), die ein Interesse an einem Auftrag hat oder hatte und der durch einen behaupteten Verstoß ein Schaden entstanden ist bzw. zu entstehen droht</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός (ή πρόσωπο) που ασκεί προσφυγή και έχει ή είχε συμφέρον σε μια σύμβαση και που υπέστη ή κινδυνεύει να υποστεί ζημία από κατ’ ισχυρισμόν παράβαση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización (o persona) que interpone un recurso, que tiene o ha tenido un interés en un contrato y que se ha visto o corre el riesgo de verse perjudicada por una presunta infracción</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Läbivaatamist taotlev organisatsioon (või isik), kellel on või on olnud huvi lepingu vastu ja kes on väidetava rikkumise tõttu kahju kannatanud või võib kahju kannatada</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muutoksenhakua pyytävä organisaatio (tai henkilö), joka on tai on ollut tavoittelemassa tiettyä sopimusta ja jonka etua väitetty virheellinen menettely on loukannut tai saattaa loukata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation (ou personne) introduisant une demande de recours qui est ou a été intéressée par un marché et a été ou risque d’être lésée par une violation alléguée</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht (nó duine) a iarrann athbhreithniú a bhfuil nó a raibh leas acu i gconradh agus ar ndearnadh díobháil dóibh nó a bhfuil riosca ann go ndéanfaí díobháil dóibh mar gheall ar shárú líomhnaithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija (ili osoba) koja traži pravnu zaštitu (preispitivanje), koja ima ili je imala interes za dobivanje ugovora i koja je pretrpjela ili bi mogla pretrpjeti štetu zbog navodnog kršenja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jogorvoslatot kérő szervezet (vagy személy), amelynek (akinek) érdeke fűződik vagy fűződött egy szerződéshez, és amelynek (akinek) az állítólagos jogsértés kárt okozhat vagy okozhatott</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione (o persona) che presenta ricorso, che abbia o abbia avuto interesse a ottenere l'aggiudicazione di un appalto e sia stata o rischi di essere lesa a causa di una presunta violazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Peržiūros prašanti organizacija (arba asmuo), turinti ar turėjusi interesą sudaryti sutartį ir dėl įtariamo pažeidimo galėjusi arba galinti patirti žalą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārskatīšanas pieprasītāja organizācija (vai persona), kura ir vai ir bijusi ieinteresēta kādā līgumā un kurai ir nodarīts vai draud kaitējums aizdomu par pārkāpumu dēļ</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni (jew persuna) li titlob għal rieżami, li jkollha jew kellha interess f’kuntratt, u li ġarrbet jew qed tissogra li ġġarrab danni minħabba ksur allegat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie (of persoon) die beroep instelt en die belang heeft of heeft gehad bij een opdracht en door een beweerde inbreuk is of dreigt te worden geschaad</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja (lub osoba) składająca odwołanie, która ma lub miała interes w uzyskaniu zamówienia i która poniósła szkodę lub może ponieść szkodę w wyniku domniemanego naruszenia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização (ou pessoa) que interpõe um recurso, que esteja ou tenha estado interessada num contrato e que tenha sido ou possa vir a ser lesada por uma alegada violação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizația (sau persoana) care depune cererea de soluționare a căilor de atac, care are sau a avut un interes în obținerea unui contract și care a fost prejudiciată sau riscă să fie prejudiciată printr-o presupusă încălcare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia (alebo osoba) požadujúca preskúmanie, ktorá má alebo mala záujem o zákazku a ktorá je alebo by mohla byť poškodená údajným porušením právnych predpisov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacija (ali oseba), ki zahteva revizijo in ki ima ali je imela pogodbeni interes ter bi ji domnevna kršitev lahko škodovala</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>En organisation (eller person) som begär omprövning, har ett intresse i ett avtal och har blivit skadad eller kan skadas av en påstådd överträdelse</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

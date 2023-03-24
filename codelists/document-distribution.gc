@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>DocumentDistribution</ShortName>
@@ -126,12 +126,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Not Restricted Document</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Not Restricted Document</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>restricted-document</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Restricted Document</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Restricted Document</SimpleValue>
          </Value>
       </Row>

@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.1.0",
+  "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.1.0",
-    "createdOn" : "2022-09-14T16:05:55"
+    "version" : "1.6.0",
+    "createdOn" : "2023-02-17T12:00:00"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -48,7 +48,7 @@
     "id" : "brin-eeig",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_brin-eeig.gc",
-    "description" : "List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration procesing.",
+    "description" : "List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration processing.",
     "_label" : "codelist|name|brin-eeig"
   }, {
     "id" : "buyer-categories",
@@ -104,7 +104,7 @@
   }, {
     "id" : "change-corrig-justification",
     "filename" : "change-corrig-justification.gc",
-    "description" : "This table provides the codes and values used in case of justification of correcions applied to a notice within the context of public procurement.",
+    "description" : "This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.",
     "_label" : "codelist|name|change-corrig-justification"
   }, {
     "id" : "classification-type",
@@ -178,6 +178,11 @@
     "description" : "List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.",
     "_label" : "codelist|name|cpv"
   }, {
+    "id" : "criterion",
+    "filename" : "criterion.gc",
+    "description" : "This table provides criteria used for public procurement procedures.",
+    "_label" : "codelist|name|criterion"
+  }, {
     "id" : "currency",
     "filename" : "currency.gc",
     "description" : "List of currency codes",
@@ -222,18 +227,18 @@
   }, {
     "id" : "dps-usage",
     "filename" : "dps-usage.gc",
-    "description" : "This table provides a list wether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.",
+    "description" : "This table provides a list whether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.",
     "_label" : "codelist|name|dps-usage"
   }, {
     "id" : "duration",
-    "parentId" : "timeperiods",
-    "filename" : "timeperiods_duration.gc",
+    "parentId" : "timeperiod",
+    "filename" : "timeperiod_duration.gc",
     "description" : "List of codes for undefined duration",
     "_label" : "codelist|name|duration"
   }, {
     "id" : "duration-unit",
-    "parentId" : "timeperiods",
-    "filename" : "timeperiods_duration-unit.gc",
+    "parentId" : "timeperiod",
+    "filename" : "timeperiod_duration-unit.gc",
     "description" : "List of codes for eforms allowed duration unit of measure",
     "_label" : "codelist|name|duration-unit"
   }, {
@@ -254,6 +259,12 @@
     "description" : "List of codes of the European Economic Area countries",
     "_label" : "codelist|name|eea-country"
   }, {
+    "id" : "eforms-buyer-legal-type",
+    "parentId" : "buyer-legal-type",
+    "filename" : "buyer-legal-type_eforms-buyer-legal-type.gc",
+    "description" : "List of buyer-legal-type codes allowed in eforms",
+    "_label" : "codelist|name|eforms-buyer-legal-type"
+  }, {
     "id" : "eforms-contract-nature",
     "parentId" : "contract-nature",
     "filename" : "contract-nature_eforms-contract-nature.gc",
@@ -265,6 +276,12 @@
     "filename" : "country_eforms-country.gc",
     "description" : "List of country codes allowed in eforms",
     "_label" : "codelist|name|eforms-country"
+  }, {
+    "id" : "eforms-currency",
+    "parentId" : "currency",
+    "filename" : "currency_eforms-currency.gc",
+    "description" : "List of currency codes allowed in eforms",
+    "_label" : "codelist|name|eforms-currency"
   }, {
     "id" : "eforms-language",
     "parentId" : "language",
@@ -294,12 +311,6 @@
     "filename" : "environmental-impact.gc",
     "description" : "This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor",
     "_label" : "codelist|name|environmental-impact"
-  }, {
-    "id" : "eppn-country",
-    "parentId" : "country",
-    "filename" : "country_eppn-country.gc",
-    "description" : "List of codes for the European Plant Phenotyping Network countries",
-    "_label" : "codelist|name|eppn-country"
   }, {
     "id" : "esignature-submission",
     "parentId" : "indicator",
@@ -336,7 +347,8 @@
     "_label" : "codelist|name|eu-programme"
   }, {
     "id" : "exclusion-ground",
-    "filename" : "exclusion-ground.gc",
+    "parentId" : "criterion",
+    "filename" : "criterion_exclusion-ground.gc",
     "description" : "List of codes for Exclusion Ground identification",
     "_label" : "codelist|name|exclusion-ground"
   }, {
@@ -349,6 +361,11 @@
     "filename" : "framework-agreement.gc",
     "description" : "This table provides the list of codes to distinguish the different type framework agreement involved in a tender.",
     "_label" : "codelist|name|framework-agreement"
+  }, {
+    "id" : "gpp-criteria",
+    "filename" : "gpp-criteria.gc",
+    "description" : "Green Public Procurement Criteria",
+    "_label" : "codelist|name|gpp-criteria"
   }, {
     "id" : "indicator",
     "filename" : "indicator.gc",
@@ -381,6 +398,306 @@
     "description" : "This table provides the legal basis  based on the legal acts  used for a given public procurement procedure. The table is provided by the Publications Office.",
     "_label" : "codelist|name|legal-basis"
   }, {
+    "id" : "legal-basis-1",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-1.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 1",
+    "_label" : "codelist|name|legal-basis-1"
+  }, {
+    "id" : "legal-basis-10",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-10.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 10",
+    "_label" : "codelist|name|legal-basis-10"
+  }, {
+    "id" : "legal-basis-11",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-11.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 11",
+    "_label" : "codelist|name|legal-basis-11"
+  }, {
+    "id" : "legal-basis-12",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-12.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 12",
+    "_label" : "codelist|name|legal-basis-12"
+  }, {
+    "id" : "legal-basis-13",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-13.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 13",
+    "_label" : "codelist|name|legal-basis-13"
+  }, {
+    "id" : "legal-basis-14",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-14.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 14",
+    "_label" : "codelist|name|legal-basis-14"
+  }, {
+    "id" : "legal-basis-15",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-15.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 15",
+    "_label" : "codelist|name|legal-basis-15"
+  }, {
+    "id" : "legal-basis-16",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-16.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 16",
+    "_label" : "codelist|name|legal-basis-16"
+  }, {
+    "id" : "legal-basis-17",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-17.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 17",
+    "_label" : "codelist|name|legal-basis-17"
+  }, {
+    "id" : "legal-basis-18",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-18.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 18",
+    "_label" : "codelist|name|legal-basis-18"
+  }, {
+    "id" : "legal-basis-19",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-19.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 19",
+    "_label" : "codelist|name|legal-basis-19"
+  }, {
+    "id" : "legal-basis-2",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-2.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 2",
+    "_label" : "codelist|name|legal-basis-2"
+  }, {
+    "id" : "legal-basis-20",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-20.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 20",
+    "_label" : "codelist|name|legal-basis-20"
+  }, {
+    "id" : "legal-basis-21",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-21.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 21",
+    "_label" : "codelist|name|legal-basis-21"
+  }, {
+    "id" : "legal-basis-22",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-22.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 22",
+    "_label" : "codelist|name|legal-basis-22"
+  }, {
+    "id" : "legal-basis-23",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-23.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 23",
+    "_label" : "codelist|name|legal-basis-23"
+  }, {
+    "id" : "legal-basis-24",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-24.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 24",
+    "_label" : "codelist|name|legal-basis-24"
+  }, {
+    "id" : "legal-basis-25",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-25.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 25",
+    "_label" : "codelist|name|legal-basis-25"
+  }, {
+    "id" : "legal-basis-26",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-26.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 26",
+    "_label" : "codelist|name|legal-basis-26"
+  }, {
+    "id" : "legal-basis-27",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-27.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 27",
+    "_label" : "codelist|name|legal-basis-27"
+  }, {
+    "id" : "legal-basis-28",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-28.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 28",
+    "_label" : "codelist|name|legal-basis-28"
+  }, {
+    "id" : "legal-basis-29",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-29.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 29",
+    "_label" : "codelist|name|legal-basis-29"
+  }, {
+    "id" : "legal-basis-3",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-3.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 3",
+    "_label" : "codelist|name|legal-basis-3"
+  }, {
+    "id" : "legal-basis-30",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-30.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 30",
+    "_label" : "codelist|name|legal-basis-30"
+  }, {
+    "id" : "legal-basis-31",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-31.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 31",
+    "_label" : "codelist|name|legal-basis-31"
+  }, {
+    "id" : "legal-basis-32",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-32.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 32",
+    "_label" : "codelist|name|legal-basis-32"
+  }, {
+    "id" : "legal-basis-33",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-33.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 33",
+    "_label" : "codelist|name|legal-basis-33"
+  }, {
+    "id" : "legal-basis-34",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-34.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 34",
+    "_label" : "codelist|name|legal-basis-34"
+  }, {
+    "id" : "legal-basis-35",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-35.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 35",
+    "_label" : "codelist|name|legal-basis-35"
+  }, {
+    "id" : "legal-basis-36",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-36.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 36",
+    "_label" : "codelist|name|legal-basis-36"
+  }, {
+    "id" : "legal-basis-37",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-37.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 37",
+    "_label" : "codelist|name|legal-basis-37"
+  }, {
+    "id" : "legal-basis-38",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-38.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 38",
+    "_label" : "codelist|name|legal-basis-38"
+  }, {
+    "id" : "legal-basis-39",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-39.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 39",
+    "_label" : "codelist|name|legal-basis-39"
+  }, {
+    "id" : "legal-basis-4",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-4.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 4",
+    "_label" : "codelist|name|legal-basis-4"
+  }, {
+    "id" : "legal-basis-40",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-40.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 40",
+    "_label" : "codelist|name|legal-basis-40"
+  }, {
+    "id" : "legal-basis-5",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-5.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 5",
+    "_label" : "codelist|name|legal-basis-5"
+  }, {
+    "id" : "legal-basis-6",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-6.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 6",
+    "_label" : "codelist|name|legal-basis-6"
+  }, {
+    "id" : "legal-basis-7",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-7.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 7",
+    "_label" : "codelist|name|legal-basis-7"
+  }, {
+    "id" : "legal-basis-8",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-8.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 8",
+    "_label" : "codelist|name|legal-basis-8"
+  }, {
+    "id" : "legal-basis-9",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-9.gc",
+    "description" : "Allowed Legal Basis values for notice subtype 9",
+    "_label" : "codelist|name|legal-basis-9"
+  }, {
+    "id" : "legal-basis-cei",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-cei.gc",
+    "description" : "Allowed Legal Basis values for notice subtype CEI",
+    "_label" : "codelist|name|legal-basis-cei"
+  }, {
+    "id" : "legal-basis-e1",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-e1.gc",
+    "description" : "Allowed Legal Basis values for notice subtype E1",
+    "_label" : "codelist|name|legal-basis-e1"
+  }, {
+    "id" : "legal-basis-e2",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-e2.gc",
+    "description" : "Allowed Legal Basis values for notice subtype E2",
+    "_label" : "codelist|name|legal-basis-e2"
+  }, {
+    "id" : "legal-basis-e3",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-e3.gc",
+    "description" : "Allowed Legal Basis values for notice subtype E3",
+    "_label" : "codelist|name|legal-basis-e3"
+  }, {
+    "id" : "legal-basis-e4",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-e4.gc",
+    "description" : "Allowed Legal Basis values for notice subtype E4",
+    "_label" : "codelist|name|legal-basis-e4"
+  }, {
+    "id" : "legal-basis-e5",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-e5.gc",
+    "description" : "Allowed Legal Basis values for notice subtype E5",
+    "_label" : "codelist|name|legal-basis-e5"
+  }, {
+    "id" : "legal-basis-t01",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-t01.gc",
+    "description" : "Allowed Legal Basis values for notice subtype T01",
+    "_label" : "codelist|name|legal-basis-t01"
+  }, {
+    "id" : "legal-basis-t02",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-t02.gc",
+    "description" : "Allowed Legal Basis values for notice subtype T02",
+    "_label" : "codelist|name|legal-basis-t02"
+  }, {
+    "id" : "legal-basis-x01",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-x01.gc",
+    "description" : "Allowed Legal Basis values for notice subtype X01",
+    "_label" : "codelist|name|legal-basis-x01"
+  }, {
+    "id" : "legal-basis-x02",
+    "parentId" : "legal-basis",
+    "filename" : "legal-basis_legal-basis-x02.gc",
+    "description" : "Allowed Legal Basis values for notice subtype X02",
+    "_label" : "codelist|name|legal-basis-x02"
+  }, {
     "id" : "linguistic-status",
     "parentId" : "document-status",
     "filename" : "document-status_linguistic-status.gc",
@@ -399,7 +716,7 @@
   }, {
     "id" : "missing-info-submission",
     "filename" : "missing-info-submission.gc",
-    "description" : "This table provides the list of codes indicating wether tenderer-related information (complete or parcial) can be supplemented even after the submission deadline.",
+    "description" : "This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.",
     "_label" : "codelist|name|missing-info-submission"
   }, {
     "id" : "modification-justification",
@@ -772,6 +1089,234 @@
     "description" : "List of country codes for countries having postcodes and requiring their use",
     "_label" : "codelist|name|postcode-country"
   }, {
+    "id" : "procedure-type-10",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-10.gc",
+    "description" : "Allowed procedure type for notice subtype 10",
+    "_label" : "codelist|name|procedure-type-10"
+  }, {
+    "id" : "procedure-type-11",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-11.gc",
+    "description" : "Allowed procedure type for notice subtype 11",
+    "_label" : "codelist|name|procedure-type-11"
+  }, {
+    "id" : "procedure-type-12",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-12.gc",
+    "description" : "Allowed procedure type for notice subtype 12",
+    "_label" : "codelist|name|procedure-type-12"
+  }, {
+    "id" : "procedure-type-13",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-13.gc",
+    "description" : "Allowed procedure type for notice subtype 13",
+    "_label" : "codelist|name|procedure-type-13"
+  }, {
+    "id" : "procedure-type-14",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-14.gc",
+    "description" : "Allowed procedure type for notice subtype 14",
+    "_label" : "codelist|name|procedure-type-14"
+  }, {
+    "id" : "procedure-type-16",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-16.gc",
+    "description" : "Allowed procedure type for notice subtype 16",
+    "_label" : "codelist|name|procedure-type-16"
+  }, {
+    "id" : "procedure-type-17",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-17.gc",
+    "description" : "Allowed procedure type for notice subtype 17",
+    "_label" : "codelist|name|procedure-type-17"
+  }, {
+    "id" : "procedure-type-18",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-18.gc",
+    "description" : "Allowed procedure type for notice subtype 18",
+    "_label" : "codelist|name|procedure-type-18"
+  }, {
+    "id" : "procedure-type-19",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-19.gc",
+    "description" : "Allowed procedure type for notice subtype 19",
+    "_label" : "codelist|name|procedure-type-19"
+  }, {
+    "id" : "procedure-type-20",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-20.gc",
+    "description" : "Allowed procedure type for notice subtype 20",
+    "_label" : "codelist|name|procedure-type-20"
+  }, {
+    "id" : "procedure-type-21",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-21.gc",
+    "description" : "Allowed procedure type for notice subtype 21",
+    "_label" : "codelist|name|procedure-type-21"
+  }, {
+    "id" : "procedure-type-22",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-22.gc",
+    "description" : "Allowed procedure type for notice subtype 22",
+    "_label" : "codelist|name|procedure-type-22"
+  }, {
+    "id" : "procedure-type-23",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-23.gc",
+    "description" : "Allowed procedure type for notice subtype 23",
+    "_label" : "codelist|name|procedure-type-23"
+  }, {
+    "id" : "procedure-type-24",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-24.gc",
+    "description" : "Allowed procedure type for notice subtype 24",
+    "_label" : "codelist|name|procedure-type-24"
+  }, {
+    "id" : "procedure-type-25",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-25.gc",
+    "description" : "Allowed procedure type for notice subtype 25",
+    "_label" : "codelist|name|procedure-type-25"
+  }, {
+    "id" : "procedure-type-26",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-26.gc",
+    "description" : "Allowed procedure type for notice subtype 26",
+    "_label" : "codelist|name|procedure-type-26"
+  }, {
+    "id" : "procedure-type-27",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-27.gc",
+    "description" : "Allowed procedure type for notice subtype 27",
+    "_label" : "codelist|name|procedure-type-27"
+  }, {
+    "id" : "procedure-type-28",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-28.gc",
+    "description" : "Allowed procedure type for notice subtype 28",
+    "_label" : "codelist|name|procedure-type-28"
+  }, {
+    "id" : "procedure-type-29",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-29.gc",
+    "description" : "Allowed procedure type for notice subtype 29",
+    "_label" : "codelist|name|procedure-type-29"
+  }, {
+    "id" : "procedure-type-30",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-30.gc",
+    "description" : "Allowed procedure type for notice subtype 30",
+    "_label" : "codelist|name|procedure-type-30"
+  }, {
+    "id" : "procedure-type-31",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-31.gc",
+    "description" : "Allowed procedure type for notice subtype 31",
+    "_label" : "codelist|name|procedure-type-31"
+  }, {
+    "id" : "procedure-type-32",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-32.gc",
+    "description" : "Allowed procedure type for notice subtype 32",
+    "_label" : "codelist|name|procedure-type-32"
+  }, {
+    "id" : "procedure-type-33",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-33.gc",
+    "description" : "Allowed procedure type for notice subtype 33",
+    "_label" : "codelist|name|procedure-type-33"
+  }, {
+    "id" : "procedure-type-34",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-34.gc",
+    "description" : "Allowed procedure type for notice subtype 34",
+    "_label" : "codelist|name|procedure-type-34"
+  }, {
+    "id" : "procedure-type-35",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-35.gc",
+    "description" : "Allowed procedure type for notice subtype 35",
+    "_label" : "codelist|name|procedure-type-35"
+  }, {
+    "id" : "procedure-type-36",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-36.gc",
+    "description" : "Allowed procedure type for notice subtype 36",
+    "_label" : "codelist|name|procedure-type-36"
+  }, {
+    "id" : "procedure-type-37",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-37.gc",
+    "description" : "Allowed procedure type for notice subtype 37",
+    "_label" : "codelist|name|procedure-type-37"
+  }, {
+    "id" : "procedure-type-7",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-7.gc",
+    "description" : "Allowed procedure type for notice subtype 7",
+    "_label" : "codelist|name|procedure-type-7"
+  }, {
+    "id" : "procedure-type-8",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-8.gc",
+    "description" : "Allowed procedure type for notice subtype 8",
+    "_label" : "codelist|name|procedure-type-8"
+  }, {
+    "id" : "procedure-type-9",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-9.gc",
+    "description" : "Allowed procedure type for notice subtype 9",
+    "_label" : "codelist|name|procedure-type-9"
+  }, {
+    "id" : "procedure-type-cei",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-cei.gc",
+    "description" : "Allowed procedure type for notice subtype CEI",
+    "_label" : "codelist|name|procedure-type-cei"
+  }, {
+    "id" : "procedure-type-e1",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-e1.gc",
+    "description" : "Allowed procedure type for notice subtype E1",
+    "_label" : "codelist|name|procedure-type-e1"
+  }, {
+    "id" : "procedure-type-e2",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-e2.gc",
+    "description" : "Allowed procedure type for notice subtype E2",
+    "_label" : "codelist|name|procedure-type-e2"
+  }, {
+    "id" : "procedure-type-e3",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-e3.gc",
+    "description" : "Allowed procedure type for notice subtype E3",
+    "_label" : "codelist|name|procedure-type-e3"
+  }, {
+    "id" : "procedure-type-e4",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-e4.gc",
+    "description" : "Allowed procedure type for notice subtype E4",
+    "_label" : "codelist|name|procedure-type-e4"
+  }, {
+    "id" : "procedure-type-e5",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-e5.gc",
+    "description" : "Allowed procedure type for notice subtype E5",
+    "_label" : "codelist|name|procedure-type-e5"
+  }, {
+    "id" : "procedure-type-t01",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-t01.gc",
+    "description" : "Allowed procedure type for notice subtype T01",
+    "_label" : "codelist|name|procedure-type-t01"
+  }, {
+    "id" : "procedure-type-t02",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-t02.gc",
+    "description" : "Allowed procedure type for notice subtype T02",
+    "_label" : "codelist|name|procedure-type-t02"
+  }, {
     "id" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type.gc",
     "description" : "This table provides a list of activities leading to the conclusion of public contracts used in public procurement according to the legislation.",
@@ -831,6 +1376,12 @@
     "description" : "This table describes the decision made a review body.",
     "_label" : "codelist|name|review-decision-type"
   }, {
+    "id" : "review-requester-type",
+    "parentId" : "organisation-role",
+    "filename" : "organisation-role_review-requester-type.gc",
+    "description" : "Category of Stakeholders that requested a review",
+    "_label" : "codelist|name|review-requester-type"
+  }, {
     "id" : "review-status",
     "filename" : "review-status.gc",
     "description" : "List of codes for the status of a given review request.",
@@ -848,7 +1399,7 @@
   }, {
     "id" : "selection-criterion",
     "filename" : "selection-criterion.gc",
-    "description" : "List of codes to express condictions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.",
+    "description" : "List of codes to express conditions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.",
     "_label" : "codelist|name|selection-criterion"
   }, {
     "id" : "social-objective",
@@ -900,10 +1451,10 @@
     "description" : "List of codes to specify whether the submission should deal with all the defined lots.",
     "_label" : "codelist|name|tenderlot-presentation"
   }, {
-    "id" : "timeperiods",
-    "filename" : "timeperiods.gc",
+    "id" : "timeperiod",
+    "filename" : "timeperiod.gc",
     "description" : "List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.",
-    "_label" : "codelist|name|timeperiods"
+    "_label" : "codelist|name|timeperiod"
   }, {
     "id" : "transport-service",
     "filename" : "transport-service.gc",
@@ -933,7 +1484,7 @@
   }, {
     "id" : "winner-selection-status",
     "filename" : "winner-selection-status.gc",
-    "description" : "This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and wether the competiotion is open.",
+    "description" : "This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and whether the competition is open.",
     "_label" : "codelist|name|winner-selection-status"
   } ]
 }

@@ -12,8 +12,8 @@
 		"comment": "corporate body (type of buyer)"
 	},
 	"CY": {
-		"efx": "{ND-Root} ${/BT-514-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}",
-		"comment": "Buyer country"
+		"efx": "{ND-Root} ${value-union(/BT-514-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer], /OPP-112-Business)}",
+		"comment": "Buyer country or Place of registration(Country)"
 	},
 	"TW": {
 		"efx": "{ND-Root} ${/BT-513-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}",
@@ -36,7 +36,7 @@
 		"comment": "Deadline for requests for documents"
 	},
 	"DI": {
-		"efx": "{ND-Root} ${value-union(/BT-01-notice, /BT-01(c)-Procedure)}",
+		"efx": "{ND-Root} ${/BT-01-notice}",
 		"comment": "legal basis"
 	},
 	"DS": {
@@ -56,7 +56,7 @@
 		"comment": "Main activity"
 	},
 	"NC": {
-		"efx": "{ND-Root} ${value-union(value-union(value-union(value-union(value-union(/BT-23-Procedure, /BT-23-Part), /BT-23-Lot), /BT-531-Procedure), /BT-531-Part), /BT-531-Lot)}",
+		"efx": "{ND-Root} ${value-union(value-union(/BT-23-Procedure, /BT-23-Part), /BT-23-Lot)}",
 		"comment": "Type of contract"
 	},
 	"ND": {
@@ -119,6 +119,10 @@
 		"efx": "{ND-Root} ${/BT-125(i)-Lot}",
 		"comment": "Previous Planning Identifier"
 	},
+	"BT-1501-n": {
+		"efx": "{ND-Root} ${/BT-1501(n)-Contract}",
+		"comment": "Modification Previous Notice Identifier"
+	},
 	"SUB_LG": {
 		"efx": "{ND-Root} ${/BT-97-Lot}",
 		"comment": "Languages in which tenders may be submitted"
@@ -162,6 +166,10 @@
 	"notice-version": {
 		"efx": "{ND-Root} ${/BT-757-notice}",
 		"comment": "Notice Version"
+	},
+	"notice-subtypecode": {
+		"efx": "{ND-Root} ${/OPP-070-notice}",
+		"comment": "notice-sub-type-code"
 	},
 	"BT537": {
 		"efx": "{ND-Root} ${/BT-537-Lot}",

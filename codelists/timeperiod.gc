@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>TimePeriod</ShortName>
-      <LongName>timeperiods</LongName>
+      <ShortName>Timeperiod</ShortName>
+      <LongName>timeperiod</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/timeperiod</LongName>
-      <Version>20190918-0</Version>
+      <Version>20220316-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/timeperiod</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -445,79 +445,79 @@
             <SimpleValue>DAY</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>(_S | Day) (_P | Days)</SimpleValue>
+            <SimpleValue>Day</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>(_S | Ден) (_P | Дни)</SimpleValue>
+            <SimpleValue>Ден</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>(_S | Den) (_P | Dny)</SimpleValue>
+            <SimpleValue>Den</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>(_S | Døgn) (_P | Døgn)</SimpleValue>
+            <SimpleValue>Døgn</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>(_S | Tag) (_P | Tage)</SimpleValue>
+            <SimpleValue>Tag</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>(_S | Ημέρα) (_P | Ημέρες)</SimpleValue>
+            <SimpleValue>Ημέρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>(_S | Day) (_P | Days)</SimpleValue>
+            <SimpleValue>Day</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>(_S | Día) (_P | Días)</SimpleValue>
+            <SimpleValue>Día</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>(_S | Päev) (_P | Päevad)</SimpleValue>
+            <SimpleValue>Päev</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>(_S | Päivä) (_P | Päivät)</SimpleValue>
+            <SimpleValue>Päivä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>(_S | Jour) (_P | Jours)</SimpleValue>
+            <SimpleValue>Jour</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>(_S | Lá) (_P | Laethanta)</SimpleValue>
+            <SimpleValue>Lá</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>(_S | Dan) (_P | Dani)</SimpleValue>
+            <SimpleValue>Dan</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>(_S | Nap) (_P | Napok)</SimpleValue>
+            <SimpleValue>Nap</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>(_S | Giorno) (_P | Giorni)</SimpleValue>
+            <SimpleValue>Giorno</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>(_S | Diena) (_P | Dienos)</SimpleValue>
+            <SimpleValue>Diena</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>(_S | Diena) (_P | Dienas)</SimpleValue>
+            <SimpleValue>Diena</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>(_S | Jum) (_P | Jiem)</SimpleValue>
+            <SimpleValue>Jum</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>(_S | Dag) (_P | Dagen)</SimpleValue>
+            <SimpleValue>Dag</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>(_S | Dzień) (_P | Dni)</SimpleValue>
+            <SimpleValue>Dzień</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>(_S | Dia) (_P | Dias)</SimpleValue>
+            <SimpleValue>Dia</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>(_S | Zi) (_P | Zile)</SimpleValue>
+            <SimpleValue>Zi</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>(_S | Deň) (_P | Dni)</SimpleValue>
+            <SimpleValue>Deň</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>(_S | Dan) (_P | Dnevi)</SimpleValue>
+            <SimpleValue>Dan</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>(_S | Dag) (_P | Dagar)</SimpleValue>
+            <SimpleValue>Dag</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -765,79 +765,79 @@
             <SimpleValue>HOUR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>(_S | Hour) (_P | Hours)</SimpleValue>
+            <SimpleValue>Hour</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>(_S | Час) (_P | Часове)</SimpleValue>
+            <SimpleValue>Час</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>(_S | Hodina) (_P | Hodiny)</SimpleValue>
+            <SimpleValue>Hodina</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>(_S | Time) (_P | Timer)</SimpleValue>
+            <SimpleValue>Time</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>(_S | Stunde) (_P | Stunden)</SimpleValue>
+            <SimpleValue>Stunde</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>(_S | Ώρα) (_P | Ώρες)</SimpleValue>
+            <SimpleValue>Ώρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>(_S | Hour) (_P | Hours)</SimpleValue>
+            <SimpleValue>Hour</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>(_S | Hora) (_P | Horas)</SimpleValue>
+            <SimpleValue>Hora</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>(_S | Tund) (_P | Tunnid)</SimpleValue>
+            <SimpleValue>Tund</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>(_S | Tunti) (_P | Tunnit)</SimpleValue>
+            <SimpleValue>Tunti</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>(_S | Heure) (_P | Heures)</SimpleValue>
+            <SimpleValue>Heure</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>(_S | Uair) (_P | Uaireanta)</SimpleValue>
+            <SimpleValue>Uair</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>(_S | Sat) (_P | Sati)</SimpleValue>
+            <SimpleValue>Sat</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>(_S | Óra) (_P | Órák)</SimpleValue>
+            <SimpleValue>Óra</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>(_S | Ora) (_P | Ore)</SimpleValue>
+            <SimpleValue>Ora</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>(_S | Valanda) (_P | Valandos)</SimpleValue>
+            <SimpleValue>Valanda</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>(_S | Stunda) (_P | Stundas)</SimpleValue>
+            <SimpleValue>Stunda</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>(_S | Siegħa) (_P | Sigħat)</SimpleValue>
+            <SimpleValue>Siegħa</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>(_S | Uur) (_P | Uren)</SimpleValue>
+            <SimpleValue>Uur</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>(_S | Godzina) (_P | Godziny)</SimpleValue>
+            <SimpleValue>Godzina</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>(_S | Hora) (_P | Horas)</SimpleValue>
+            <SimpleValue>Hora</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>(_S | Oră) (_P | Ore)</SimpleValue>
+            <SimpleValue>Oră</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>(_S | Hodina) (_P | Hodiny)</SimpleValue>
+            <SimpleValue>Hodina</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>(_S | Ura) (_D | Uri) (_P | Ure)</SimpleValue>
+            <SimpleValue>Ura</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>(_S | Timme) (_P | Timmar)</SimpleValue>
+            <SimpleValue>Timme</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1245,79 +1245,79 @@
             <SimpleValue>MIN</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>(_S | Minute) (_P | Minutes)</SimpleValue>
+            <SimpleValue>Minute</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>(_S | Минута) (_P | Минути)</SimpleValue>
+            <SimpleValue>Минута</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>(_S | Minuta) (_P | Minuty)</SimpleValue>
+            <SimpleValue>Minuta</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>(_S | Minut) (_P | Minutter)</SimpleValue>
+            <SimpleValue>Minut</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>(_S | Minute) (_P | Minuten)</SimpleValue>
+            <SimpleValue>Minute</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>(_S | Λεπτό) (_P | Λεπτά)</SimpleValue>
+            <SimpleValue>Λεπτό</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>(_S | Minute) (_P | Minutes)</SimpleValue>
+            <SimpleValue>Minute</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>(_S | Minuto) (_P | Minutos)</SimpleValue>
+            <SimpleValue>Minuto</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>(_S | Minut) (_P | Minutid)</SimpleValue>
+            <SimpleValue>Minut</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>(_S | Minuutti) (_P | Minuutit)</SimpleValue>
+            <SimpleValue>Minuutti</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>(_S | Minute) (_P | Minutes)</SimpleValue>
+            <SimpleValue>Minute</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>(_S | Nóiméad) (_P | Nóiméad)</SimpleValue>
+            <SimpleValue>Nóiméad</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>(_S | Minuta) (_P | Minute)</SimpleValue>
+            <SimpleValue>Minuta</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>(_S | Perc) (_P | Percek)</SimpleValue>
+            <SimpleValue>Perc</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>(_S | Minuto) (_P | Minuti)</SimpleValue>
+            <SimpleValue>Minuto</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>(_S | Minutė) (_P | Minutės)</SimpleValue>
+            <SimpleValue>Minutė</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>(_S | Minūte) (_P | Minūtes)</SimpleValue>
+            <SimpleValue>Minūte</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>(_S | Minuta) (_P | Minuti)</SimpleValue>
+            <SimpleValue>Minuta</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>(_S | Minuut) (_P | Minuten)</SimpleValue>
+            <SimpleValue>Minuut</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>(_S | Minuta) (_P | Minuty)</SimpleValue>
+            <SimpleValue>Minuta</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>(_S | Minuto) (_P | Minutos)</SimpleValue>
+            <SimpleValue>Minuto</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>(_S | Minut) (_P | Minute)</SimpleValue>
+            <SimpleValue>Minut</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>(_S | Minúta) (_P | Minúty)</SimpleValue>
+            <SimpleValue>Minúta</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>(_S | Minuta) (_D | Minuti) (_P | Minute)</SimpleValue>
+            <SimpleValue>Minuta</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>(_S | Minut) (_P | Minuter)</SimpleValue>
+            <SimpleValue>Minut</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1405,79 +1405,79 @@
             <SimpleValue>MONTH</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>(_S | Month) (_P | Months)</SimpleValue>
+            <SimpleValue>Month</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>(_S | Месец) (_P | Месеци)</SimpleValue>
+            <SimpleValue>Месец</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>(_S | Měsíc) (_P | Měsíce)</SimpleValue>
+            <SimpleValue>Měsíc</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>(_S | Måned) (_P | Måneder)</SimpleValue>
+            <SimpleValue>Måned</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>(_S | Monat) (_P | Monate)</SimpleValue>
+            <SimpleValue>Monat</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>(_S | Μήνας) (_P | Μήνες)</SimpleValue>
+            <SimpleValue>Μήνας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>(_S | Month) (_P | Months)</SimpleValue>
+            <SimpleValue>Month</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>(_S | Mes) (_P | Meses)</SimpleValue>
+            <SimpleValue>Mes</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>(_S | Kuu) (_P | Kuud)</SimpleValue>
+            <SimpleValue>Kuu</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>(_S | Kuukausi) (_P | Kuukaudet)</SimpleValue>
+            <SimpleValue>Kuukausi</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>(_S | Mois) (_P | Mois)</SimpleValue>
+            <SimpleValue>Mois</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>(_S | Mí) (_P | Míonna)</SimpleValue>
+            <SimpleValue>Mí</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>(_S | Mjesec) (_P | Mjeseci)</SimpleValue>
+            <SimpleValue>Mjesec</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>(_S | Hónap) (_P | Hónapok)</SimpleValue>
+            <SimpleValue>Hónap</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>(_S | Mese) (_P | Mesi)</SimpleValue>
+            <SimpleValue>Mese</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>(_S | Mėnuo) (_P | Mėnesiai)</SimpleValue>
+            <SimpleValue>Mėnuo</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>(_S | Mēnesis) (_P | Mēneši)</SimpleValue>
+            <SimpleValue>Mēnesis</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>(_S | Xahar) (_P | Xhur)</SimpleValue>
+            <SimpleValue>Xahar</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>(_S | Maand) (_P | Maanden)</SimpleValue>
+            <SimpleValue>Maand</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>(_S | Miesiąc) (_P | Miesiące)</SimpleValue>
+            <SimpleValue>Miesiąc</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>(_S | Mês) (_P | Meses)</SimpleValue>
+            <SimpleValue>Mês</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>(_S | Lună) (_P | Luni)</SimpleValue>
+            <SimpleValue>Lună</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>(_S | Mesiac) (_P | Mesiace)</SimpleValue>
+            <SimpleValue>Mesiac</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>(_S | Mesec) (_P | Meseci)</SimpleValue>
+            <SimpleValue>Mesec</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>(_S | Månad) (_P | Månader)</SimpleValue>
+            <SimpleValue>Månad</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1805,79 +1805,79 @@
             <SimpleValue>SEC</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>(_S | Second) (_P | Seconds)</SimpleValue>
+            <SimpleValue>Second</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>(_S | Секунда) (_P | Секунди)</SimpleValue>
+            <SimpleValue>Секунда</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>(_S | Sekunda) (_P | Sekundy)</SimpleValue>
+            <SimpleValue>Sekunda</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>(_S | Sekund) (_P | Sekunder)</SimpleValue>
+            <SimpleValue>Sekund</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>(_S | Sekunde) (_P | Sekunden)</SimpleValue>
+            <SimpleValue>Sekunde</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>(_S | Δευτερόλεπτο) (_P | Δευτερόλεπτα)</SimpleValue>
+            <SimpleValue>Δευτερόλεπτο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>(_S | Second) (_P | Seconds)</SimpleValue>
+            <SimpleValue>Second</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>(_S | Segundo) (_P | Segundos)</SimpleValue>
+            <SimpleValue>Segundo</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>(_S | Sekund) (_P | Sekundid)</SimpleValue>
+            <SimpleValue>Sekund</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>(_S | Sekunti) (_P | Sekunnit)</SimpleValue>
+            <SimpleValue>Sekunti</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>(_S | Seconde) (_P | Secondes)</SimpleValue>
+            <SimpleValue>Seconde</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>(_S | Soicind) (_P | Soicind)</SimpleValue>
+            <SimpleValue>Soicind</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>(_S | Sekunda) (_P | Sekunde)</SimpleValue>
+            <SimpleValue>Sekunda</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>(_S | Másodperc) (_P | Másodpercek)</SimpleValue>
+            <SimpleValue>Másodperc</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>(_S | Secondo) (_P | Secondi)</SimpleValue>
+            <SimpleValue>Secondo</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>(_S | Sekundė) (_P | Sekundės)</SimpleValue>
+            <SimpleValue>Sekundė</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>(_S | Sekunde) (_P | Sekundes)</SimpleValue>
+            <SimpleValue>Sekunde</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>(_S | Sekonda) (_P | Sekondi)</SimpleValue>
+            <SimpleValue>Sekonda</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>(_S | Seconde) (_P | Seconden)</SimpleValue>
+            <SimpleValue>Seconde</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>(_S | Sekunda) (_P | Sekundy)</SimpleValue>
+            <SimpleValue>Sekunda</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>(_S | Segundo) (_P | Segundos)</SimpleValue>
+            <SimpleValue>Segundo</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>(_S | Secundă) (_P | Secunde)</SimpleValue>
+            <SimpleValue>Secundă</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>(_S | Sekunda) (_P | Sekundy)</SimpleValue>
+            <SimpleValue>Sekunda</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>(_S | Sekunda) (_D | Sekundi) (_P | Sekunde)</SimpleValue>
+            <SimpleValue>Sekunda</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>(_S | Sekund) (_P | Sekunder)</SimpleValue>
+            <SimpleValue>Sekund</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2431,7 +2431,7 @@
             <SimpleValue>Necunoscut</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nevedno</SimpleValue>
+            <SimpleValue>Neznámy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Neznano</SimpleValue>
@@ -2845,79 +2845,79 @@
             <SimpleValue>YEAR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>(_S | Year) (_P | Years)</SimpleValue>
+            <SimpleValue>Year</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>(_S | Година) (_P | Години)</SimpleValue>
+            <SimpleValue>Година</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>(_S | Rok) (_P | Roky)</SimpleValue>
+            <SimpleValue>Rok</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>(_S | År) (_P | År)</SimpleValue>
+            <SimpleValue>År</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>(_S | Jahr) (_P | Jahre)</SimpleValue>
+            <SimpleValue>Jahr</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>(_S | Έτος) (_P | Έτη)</SimpleValue>
+            <SimpleValue>Έτος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>(_S | Year) (_P | Years)</SimpleValue>
+            <SimpleValue>Year</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>(_S | Año) (_P | Años)</SimpleValue>
+            <SimpleValue>Año</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>(_S | Aasta) (_P | Aastad)</SimpleValue>
+            <SimpleValue>Aasta</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>(_S | Vuosi) (_P | Vuodet)</SimpleValue>
+            <SimpleValue>Vuosi</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>(_S | An) (_P | Ans)</SimpleValue>
+            <SimpleValue>An</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>(_S | Bliain) (_P | Bliana)</SimpleValue>
+            <SimpleValue>Bliain</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>(_S | Godina) (_P | Godine)</SimpleValue>
+            <SimpleValue>Godina</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>(_S | Év) (_P | Évek)</SimpleValue>
+            <SimpleValue>Év</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>(_S | Anno) (_P | Anni)</SimpleValue>
+            <SimpleValue>Anno</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>(_S | Metai) (_P | Metai)</SimpleValue>
+            <SimpleValue>Metai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>(_S | Gads) (_P | Gadi)</SimpleValue>
+            <SimpleValue>Gads</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>(_S | Sena) (_P | Snin)</SimpleValue>
+            <SimpleValue>Sena</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>(_S | Jaar) (_P | Jaren)</SimpleValue>
+            <SimpleValue>Jaar</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>(_S | Rok) (_P | Lata)</SimpleValue>
+            <SimpleValue>Rok</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>(_S | Ano) (_P | Anos)</SimpleValue>
+            <SimpleValue>Ano</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>(_S | An) (_P | Ani)</SimpleValue>
+            <SimpleValue>An</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>(_S | Rok) (_P | Roky)</SimpleValue>
+            <SimpleValue>Rok</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>(_S | Leto) (_P | Leta)</SimpleValue>
+            <SimpleValue>Leto</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>(_S | År) (_P | År)</SimpleValue>
+            <SimpleValue>År</SimpleValue>
          </Value>
       </Row>
       <Row>

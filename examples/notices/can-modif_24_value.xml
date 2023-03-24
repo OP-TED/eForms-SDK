@@ -9,7 +9,7 @@
 					<efac:ContractModification>
 						<efbc:ChangedNoticeIdentifier>342558-2018</efbc:ChangedNoticeIdentifier>
 						<efac:Change>
-							<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
+							<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
 							<efbc:ChangeDescription languageID="ENG">Increase in framework value</efbc:ChangeDescription>
 						</efac:Change>
 						<efac:ChangeReason>
@@ -34,6 +34,7 @@
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<cbc:RankCode>1</cbc:RankCode>
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<cac:LegalMonetaryTotal>
 								<cbc:PayableAmount currencyID="GBP">6430000</cbc:PayableAmount>
 							</cac:LegalMonetaryTotal>
@@ -93,7 +94,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>
@@ -104,7 +105,7 @@
 							<efac:TouchPoint>
 								<cbc:WebsiteURI>https://www.lsbu.ac.uk</cbc:WebsiteURI>
 								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Head of Procurement</cbc:Name>
@@ -143,7 +144,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -213,7 +214,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">3572a106-eb30-4c7a-8ac5-b3502f71742a</cbc:ID>
 	<cbc:ContractFolderID>8e8b5cf4-595b-4562-85b0-7c79922cb330</cbc:ContractFolderID>
 	<cbc:IssueDate>2018-08-02+01:00</cbc:IssueDate>
@@ -259,7 +260,7 @@
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID schemeName="organization">TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 				<cac:MediationParty>

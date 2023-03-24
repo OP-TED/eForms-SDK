@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.1.0",
+  "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.1.0",
-    "createdOn" : "2022-09-14T16:05:55"
+    "version" : "1.6.0",
+    "createdOn" : "2023-02-17T12:00:00"
   },
   "noticeId" : "1",
   "metadata" : [ {
@@ -55,6 +55,7 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Dispatch Date",
     "_label" : "field|name|BT-05(a)-notice",
+    "_presetValue" : "{NOW}",
     "hidden" : true
   }, {
     "id" : "BT-05(b)-notice",
@@ -62,12 +63,13 @@
     "displayType" : "TEXTBOX",
     "description" : "Notice Dispatch Time",
     "_label" : "field|name|BT-05(b)-notice",
+    "_presetValue" : "{NOW}",
     "hidden" : true
   }, {
     "id" : "BT-738-notice",
     "contentType" : "field",
     "displayType" : "TEXTBOX",
-    "description" : "Notice Publication Date Preferred",
+    "description" : "Notice Preferred Publication Date",
     "_label" : "field|name|BT-738-notice",
     "hidden" : true
   }, {
@@ -114,13 +116,13 @@
     "hidden" : true
   } ],
   "content" : [ {
-    "id" : "GR-ContractingAuthority",
+    "id" : "GR-Buyer",
     "contentType" : "group",
     "displayType" : "SECTION",
-    "description" : "Contracting Authority",
-    "_label" : "group|name|GR-ContractingAuthority",
+    "description" : "Contracting Party and Provider related Information",
+    "_label" : "group|name|GR-Buyer",
     "content" : [ {
-      "id" : "GR-ContractingAuthority-Buyer",
+      "id" : "GR-ContractingAuthority",
       "contentType" : "group",
       "nodeId" : "ND-ContractingParty",
       "displayType" : "GROUP",
@@ -128,54 +130,59 @@
       "_label" : "group|name|ND-ContractingParty",
       "_repeatable" : true,
       "content" : [ {
-        "id" : "OPT-300-Procedure-Buyer",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Buyer Technical Identifier Reference",
-        "_label" : "field|name|OPT-300-Procedure-Buyer",
-        "_idSchemes" : [ "ORG" ],
-        "_repeatable" : true
+        "id" : "GR-ContractingAuthority-Buyer",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
+        "_label" : "group|name|GR-ContractingAuthority-Buyer",
+        "content" : [ {
+          "id" : "OPT-300-Procedure-Buyer",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Buyer Technical Identifier Reference",
+          "_label" : "field|name|OPT-300-Procedure-Buyer",
+          "_idSchemes" : [ "ORG" ]
+        }, {
+          "id" : "BT-11-Procedure-Buyer",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Buyer Legal Type",
+          "_label" : "field|name|BT-11-Procedure-Buyer"
+        }, {
+          "id" : "BT-10-Procedure-Buyer",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Activity Authority",
+          "_label" : "field|name|BT-10-Procedure-Buyer"
+        }, {
+          "id" : "BT-508-Procedure-Buyer",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Buyer Profile URL",
+          "_label" : "field|name|BT-508-Procedure-Buyer"
+        } ]
       }, {
-        "id" : "BT-11-Procedure-Buyer",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Buyer Legal Type",
-        "_label" : "field|name|BT-11-Procedure-Buyer"
-      }, {
-        "id" : "BT-10-Procedure-Buyer",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Activity Authority",
-        "_label" : "field|name|BT-10-Procedure-Buyer"
-      }, {
-        "id" : "BT-508-Procedure-Buyer",
-        "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Buyer Profile URL",
-        "_label" : "field|name|BT-508-Procedure-Buyer"
-      } ]
-    }, {
-      "id" : "GR-Procedure-SProvider",
-      "contentType" : "group",
-      "nodeId" : "ND-ServiceProviderParty",
-      "displayType" : "GROUP",
-      "description" : "Provided Service (code) and Provider (Reference to Organization)",
-      "_label" : "group|name|ND-ServiceProviderParty",
-      "_repeatable" : true,
-      "content" : [ {
-        "id" : "OPT-300-Procedure-SProvider",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Service Provider Technical Identifier Reference",
-        "_label" : "field|name|OPT-300-Procedure-SProvider",
-        "_idSchemes" : [ "ORG" ],
-        "_repeatable" : true
-      }, {
-        "id" : "OPT-030-Procedure-SProvider",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Provided Service Type",
-        "_label" : "field|name|OPT-030-Procedure-SProvider"
+        "id" : "GR-Procedure-SProvider",
+        "contentType" : "group",
+        "nodeId" : "ND-ServiceProviderParty",
+        "displayType" : "GROUP",
+        "description" : "Provided Service (code) and Provider (Reference to Organization)",
+        "_label" : "group|name|ND-ServiceProviderParty",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPT-300-Procedure-SProvider",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Service Provider Technical Identifier Reference",
+          "_label" : "field|name|OPT-300-Procedure-SProvider",
+          "_idSchemes" : [ "ORG" ]
+        }, {
+          "id" : "OPT-030-Procedure-SProvider",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Provided Service Type",
+          "_label" : "field|name|OPT-030-Procedure-SProvider"
+        } ]
       } ]
     } ]
   }, {
@@ -204,18 +211,19 @@
           "_label" : "field|name|BT-01-notice"
         } ]
       }, {
-        "id" : "GR-Procedure-LocalCrossBorderLaw",
+        "id" : "GR-Procedure-LocalLegalBasisWithID",
         "contentType" : "group",
+        "nodeId" : "ND-LocalLegalBasisWithID",
         "displayType" : "GROUP",
-        "description" : "Local Law",
-        "_label" : "group|name|GR-Procedure-LocalCrossBorderLaw",
+        "description" : "Legislation impacting the procurement and for which an ID is known",
+        "_label" : "group|name|ND-LocalLegalBasisWithID",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01(c)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (ID)",
-          "_label" : "field|name|BT-01(c)-Procedure",
-          "_repeatable" : true
+          "_label" : "field|name|BT-01(c)-Procedure"
         }, {
           "id" : "BT-01(d)-Procedure",
           "contentType" : "field",
@@ -305,8 +313,7 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Additional Classification Code",
-            "_label" : "field|name|BT-263-Procedure",
-            "_repeatable" : true
+            "_label" : "field|name|BT-263-Procedure"
           } ]
         } ]
       }, {
@@ -421,18 +428,6 @@
       "_label" : "field|name|BT-758-notice",
       "readOnly" : true
     }, {
-      "id" : "BT-718-notice",
-      "contentType" : "field",
-      "displayType" : "RADIO",
-      "description" : "Change Procurement Documents",
-      "_label" : "field|name|BT-718-notice"
-    }, {
-      "id" : "BT-719-notice",
-      "contentType" : "field",
-      "displayType" : "TEXTBOX",
-      "description" : "Change Procurement Documents Date",
-      "_label" : "field|name|BT-719-notice"
-    }, {
       "id" : "GR-ChangeSections",
       "contentType" : "group",
       "nodeId" : "ND-Change",
@@ -453,6 +448,18 @@
         "displayType" : "TEXTAREA",
         "description" : "Change Description",
         "_label" : "field|name|BT-141(a)-notice"
+      }, {
+        "id" : "BT-718-notice",
+        "contentType" : "field",
+        "displayType" : "RADIO",
+        "description" : "Change Procurement Documents",
+        "_label" : "field|name|BT-718-notice"
+      }, {
+        "id" : "BT-719-notice",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Change Procurement Documents Date",
+        "_label" : "field|name|BT-719-notice"
       } ]
     } ]
   }, {
@@ -475,16 +482,18 @@
         "description" : "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
         "_label" : "group|name|ND-Organization",
         "_idScheme" : "ORG",
+        "_schemeName" : "organization",
         "_identifierFieldId" : "OPT-200-Organization-Company",
+        "_captionFieldId" : "BT-500-Organization-Company",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-200-Organization-Company",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
-          "description" : "Company Technical Identifier",
+          "description" : "Organisation Technical Identifier",
           "_label" : "field|name|OPT-200-Organization-Company",
           "_idScheme" : "ORG",
-          "_repeatable" : true,
+          "_schemeName" : "organization",
           "hidden" : true
         }, {
           "id" : "BT-633-Organization",
@@ -496,7 +505,7 @@
           "id" : "GR-Company",
           "contentType" : "group",
           "displayType" : "GROUP",
-          "description" : "Company",
+          "description" : "Organisation",
           "_label" : "group|name|GR-Company",
           "content" : [ {
             "id" : "BT-500-Organization-Company",
@@ -534,7 +543,7 @@
           "id" : "GR-Company-Address",
           "contentType" : "group",
           "displayType" : "GROUP",
-          "description" : "Company Address",
+          "description" : "Organisation Address",
           "_label" : "group|name|GR-Company-Address",
           "content" : [ {
             "id" : "BT-510(a)-Organization-Company",
@@ -583,7 +592,7 @@
           "id" : "GR-Company-Contact",
           "contentType" : "group",
           "displayType" : "GROUP",
-          "description" : "Company Contact",
+          "description" : "Organisation Contact",
           "_label" : "group|name|GR-Company-Contact",
           "content" : [ {
             "id" : "BT-502-Organization-Company",
@@ -618,7 +627,9 @@
           "description" : "Contact details associated to a given role",
           "_label" : "group|name|ND-Touchpoint",
           "_idScheme" : "TPO",
+          "_schemeName" : "touchpoint",
           "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
+          "_captionFieldId" : "BT-500-Organization-TouchPoint",
           "_repeatable" : true,
           "content" : [ {
             "id" : "OPT-201-Organization-TouchPoint",
@@ -627,6 +638,7 @@
             "description" : "TouchPoint Technical Identifier",
             "_label" : "field|name|OPT-201-Organization-TouchPoint",
             "_idScheme" : "TPO",
+            "_schemeName" : "touchpoint",
             "hidden" : true
           }, {
             "id" : "BT-500-Organization-TouchPoint",

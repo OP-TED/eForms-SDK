@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsHunLvl3</ShortName>
       <LongName>nuts-hun-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Budapest</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU120</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Pest</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Fejér</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU212</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Komárom-Esztergom</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Veszprém</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU221</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Győr-Moson-Sopron</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vas</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU223</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zala</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Baranya</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU232</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Somogy</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tolna</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU311</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Heves</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU313</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Nógrád</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Hajdú-Bihar</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU322</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HU331</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bács-Kiskun</SimpleValue>
          </Value>
       </Row>
@@ -272,6 +326,9 @@
          <Value ColumnRef="Name">
             <SimpleValue>Békés</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -280,12 +337,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Csongrád</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HUZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

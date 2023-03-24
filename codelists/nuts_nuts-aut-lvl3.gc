@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsAutLvl3</ShortName>
       <LongName>nuts-aut-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mittelburgenland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mittelburgenland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT112</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Nordburgenland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Nordburgenland</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Südburgenland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Südburgenland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT121</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Mostviertel-Eisenwurzen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Mostviertel-Eisenwurzen</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Niederösterreich-Süd</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Niederösterreich-Süd</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT123</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Sankt Pölten</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Sankt Pölten</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Waldviertel</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Waldviertel</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT125</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Weinviertel</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Weinviertel</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Wiener Umland/Nordteil</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Wiener Umland/Nordteil</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT127</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Wiener Umland/Südteil</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Wiener Umland/Südteil</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Wien</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Wien</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT211</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Klagenfurt-Villach</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Klagenfurt-Villach</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Oberkärnten</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Oberkärnten</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT213</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Unterkärnten</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Unterkärnten</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Graz</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Graz</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT222</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Liezen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Liezen</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Östliche Obersteiermark</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Östliche Obersteiermark</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT224</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Oststeiermark</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Oststeiermark</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>West- und Südsteiermark</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>West- und Südsteiermark</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT226</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Westliche Obersteiermark</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Westliche Obersteiermark</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Innviertel</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Innviertel</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT312</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Linz-Wels</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Linz-Wels</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mühlviertel</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mühlviertel</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT314</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Steyr-Kirchdorf</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Steyr-Kirchdorf</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Traunviertel</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Traunviertel</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Lungau</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Lungau</SimpleValue>
          </Value>
       </Row>
@@ -336,12 +414,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pinzgau-Pongau</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pinzgau-Pongau</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT323</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Salzburg und Umgebung</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Salzburg und Umgebung</SimpleValue>
          </Value>
       </Row>
@@ -352,12 +436,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Außerfern</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Außerfern</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT332</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Innsbruck</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Innsbruck</SimpleValue>
          </Value>
       </Row>
@@ -368,12 +458,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Osttirol</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Osttirol</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT334</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Tiroler Oberland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Tiroler Oberland</SimpleValue>
          </Value>
       </Row>
@@ -384,12 +480,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tiroler Unterland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tiroler Unterland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AT341</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Bludenz-Bregenzer Wald</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Bludenz-Bregenzer Wald</SimpleValue>
          </Value>
       </Row>
@@ -400,12 +502,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Rheintal-Bodenseegebiet</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rheintal-Bodenseegebiet</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ATZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

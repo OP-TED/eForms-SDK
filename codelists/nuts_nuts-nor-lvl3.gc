@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsNorLvl3</ShortName>
       <LongName>nuts-nor-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Innlandet</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Innlandet</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NO060</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Trøndelag</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Trøndelag</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Nordland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Nordland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NO074</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Troms og Finnmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Troms og Finnmark</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Oslo</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Oslo</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NO082</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Viken</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Viken</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vestfold og Telemark</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vestfold og Telemark</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NO092</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Agder</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Agder</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Rogaland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Rogaland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NO0A2</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vestland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vestland</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Møre og Romsdal</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Møre og Romsdal</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NO0B1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Jan Mayen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Jan Mayen</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Svalbard</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Svalbard</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NOZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>Duration</ShortName>
-      <LongName>duration</LongName>
-      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/timeperiod</LongName>
-      <LongName Identifier="eFormsParentId">timeperiods</LongName>
-      <Version>1.1.0</Version>
+      <ShortName>LegalBasis35</ShortName>
+      <LongName>legal-basis-35</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/legal-basis</LongName>
+      <LongName Identifier="eFormsParentId">legal-basis</LongName>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -123,162 +123,82 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>UNKNOWN</SimpleValue>
+            <SimpleValue>32014L0023</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Unknown</SimpleValue>
+            <SimpleValue>Directive 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Hеизвестен</SimpleValue>
+            <SimpleValue>Директива 2014/23/ЕС</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Neznámý</SimpleValue>
+            <SimpleValue>Směrnice 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Ukendt</SimpleValue>
+            <SimpleValue>Direktiv 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Unbekannt</SimpleValue>
+            <SimpleValue>Richtlinie 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Αγνωστος</SimpleValue>
+            <SimpleValue>Οδηγία 2014/23/ΕΕ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Unknown</SimpleValue>
+            <SimpleValue>Directive 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Desconocido</SimpleValue>
+            <SimpleValue>Directiva 2014/23/UE</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Teadmata</SimpleValue>
+            <SimpleValue>Direktiiv 2014/23/EL</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Tuntematon</SimpleValue>
+            <SimpleValue>Direktiivi 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Inconnu</SimpleValue>
+            <SimpleValue>Directive 2014/23/UE</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Anaithnid</SimpleValue>
+            <SimpleValue>Treoir 2014/23/AE</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Nepoznat</SimpleValue>
+            <SimpleValue>Direktiva 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Ismeretlen</SimpleValue>
+            <SimpleValue>2014/23/EU irányelv</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Sconosciuto</SimpleValue>
+            <SimpleValue>Direttiva 2014/23/UE</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Nežinomas</SimpleValue>
+            <SimpleValue>Direktyva 2014/23/ES</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Nezināms</SimpleValue>
+            <SimpleValue>Direktīva 2014/23/ES</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Mhux magħruf</SimpleValue>
+            <SimpleValue>Direttiva 2014/23/UE</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Onbekend</SimpleValue>
+            <SimpleValue>Richtlijn 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Nieznany</SimpleValue>
+            <SimpleValue>Dyrektywa 2014/23/UE</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Desconhecido</SimpleValue>
+            <SimpleValue>Diretiva 2014/23/UE</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Necunoscut</SimpleValue>
+            <SimpleValue>Directiva 2014/23/UE</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nevedno</SimpleValue>
+            <SimpleValue>Smernica 2014/23/EÚ</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Neznano</SimpleValue>
+            <SimpleValue>Direktiva 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Okänd</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>UNLIMITED</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Unlimited</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Hеограничен</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Neomezený</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Ubegrænset</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unbegrenzt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Απεριόριστος</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Unlimited</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Ilimitado</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Piiramatu</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Rajoittamaton</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Illimité</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Neamhtheoranta</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Neograničen</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Korlátlan</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Illimitato</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Neribotas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Neierobežots</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Illimitat</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Onbeperkt</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Nieograniczony</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Ilimitado</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Nelimitat</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Neobmedzený</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Neomejeno</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Obegränsat</SimpleValue>
+            <SimpleValue>Direktiv 2014/23/EU</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

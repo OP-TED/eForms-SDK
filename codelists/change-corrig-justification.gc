@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>ChangeCorrigJustification</ShortName>
       <LongName>change-corrig-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/change-corrig-justification</LongName>
-      <Version>20200923-0</Version>
+      <Version>20220928-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/change-corrig-justification</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -125,79 +125,79 @@
             <SimpleValue>cancel</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Cancellation</SimpleValue>
+            <SimpleValue>Notice cancelled</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Отмяна</SimpleValue>
+            <SimpleValue>Анулирано обявление</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Zrušení</SimpleValue>
+            <SimpleValue>Oznámení zrušeno</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Annullering</SimpleValue>
+            <SimpleValue>Meddelelse annulleret</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Annullierung</SimpleValue>
+            <SimpleValue>Bekanntmachung annulliert</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ακύρωση</SimpleValue>
+            <SimpleValue>Ακύρωση της προκήρυξης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Cancellation</SimpleValue>
+            <SimpleValue>Notice cancelled</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Cancelación</SimpleValue>
+            <SimpleValue>Anulación de la notificación</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Tühistamine</SimpleValue>
+            <SimpleValue>Teade tühistati</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Peruutus</SimpleValue>
+            <SimpleValue>Ilmoitus peruutettu</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Annulation</SimpleValue>
+            <SimpleValue>Avis annulé</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Cur ar ceal</SimpleValue>
+            <SimpleValue>Fógra curtha ar ceal</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Poništenje</SimpleValue>
+            <SimpleValue>Otkazana obavijest</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Törlés</SimpleValue>
+            <SimpleValue>Értesítés törlése</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Annullamento</SimpleValue>
+            <SimpleValue>Avviso annullato</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Atšaukimas</SimpleValue>
+            <SimpleValue>Pranešimas atšauktas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Atcelšana</SimpleValue>
+            <SimpleValue>Paziņojums atcelts</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Kanċellazzjoni</SimpleValue>
+            <SimpleValue>Avviż ikkanċellat</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Geannuleerd</SimpleValue>
+            <SimpleValue>Aankondiging geannuleerd</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Anulowanie</SimpleValue>
+            <SimpleValue>Ogłoszenie anulowane</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Cancelamento</SimpleValue>
+            <SimpleValue>Anúncio cancelado</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Anulare</SimpleValue>
+            <SimpleValue>Notificare anulată</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Zrušenie</SimpleValue>
+            <SimpleValue>Oznámenie zrušené</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Preklic</SimpleValue>
+            <SimpleValue>Obvestilo preklicano</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Inställt</SimpleValue>
+            <SimpleValue>Annullerat meddelande</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -525,79 +525,79 @@
             <SimpleValue>info-release</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Availability information</SimpleValue>
+            <SimpleValue>Information now available</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Наличие на информация</SimpleValue>
+            <SimpleValue>Информацията вече е налична</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Dostupnost informací</SimpleValue>
+            <SimpleValue>Informace jsou nyní k dispozici</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Oplysningernes tilgængelighed</SimpleValue>
+            <SimpleValue>Der foreligger nu oplysninger</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Verfügbarkeit von Informationen</SimpleValue>
+            <SimpleValue>Informationen sind jetzt verfügbar</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Διαθεσιμότητα πληροφοριών</SimpleValue>
+            <SimpleValue>Οι πληροφορίες είναι πλέον διαθέσιμες</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Availability information</SimpleValue>
+            <SimpleValue>Information now available</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Disponibilidad de información</SimpleValue>
+            <SimpleValue>Información disponible ahora</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Teabe kättesaadavus</SimpleValue>
+            <SimpleValue>Teave on nüüd kättesaadav</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Tietojen saatavuus</SimpleValue>
+            <SimpleValue>Nyt saatavilla olevat tiedot</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Disponibilité d’informations</SimpleValue>
+            <SimpleValue>Informations désormais disponibles</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Infhaighteacht faisnéise</SimpleValue>
+            <SimpleValue>Eolas ar fáil anois</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Dostupnost informacija</SimpleValue>
+            <SimpleValue>Sada dostupne informacije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Az információ elérhetősége</SimpleValue>
+            <SimpleValue>Az információk már rendelkezésre állnak</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Disponibilità di informazioni</SimpleValue>
+            <SimpleValue>Informazioni ora disponibili</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Informacijos paskelbimas</SimpleValue>
+            <SimpleValue>Dabar turima informacija</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Informācijas pieejamība</SimpleValue>
+            <SimpleValue>Informācija tagad ir pieejama</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Disponibbiltà tal-informazzjoni</SimpleValue>
+            <SimpleValue>L-informazzjoni issa hija disponibbli</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Beschikbaarheid van informatie</SimpleValue>
+            <SimpleValue>Informatie nu beschikbaar</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Dostępność informacji</SimpleValue>
+            <SimpleValue>Obecnie dostępne informacje</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Disponibilidade de informações</SimpleValue>
+            <SimpleValue>Informações agora disponíveis</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Disponibilitatea informațiilor</SimpleValue>
+            <SimpleValue>Informații disponibile acum</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Dostupnosť informácií</SimpleValue>
+            <SimpleValue>Informácie sú teraz k dispozícii</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Razpoložljivost informacij</SimpleValue>
+            <SimpleValue>Informacije so zdaj na voljo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Tillgång till information</SimpleValue>
+            <SimpleValue>Information nu tillgänglig</SimpleValue>
          </Value>
       </Row>
       <Row>

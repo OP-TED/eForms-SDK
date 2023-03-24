@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsAlbLvl3</ShortName>
       <LongName>nuts-alb-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Dibër</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Dibër</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AL012</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Durrës</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Durrës</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Kukës</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Kukës</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AL014</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Lezhë</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Lezhë</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Shkodër</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Shkodër</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AL021</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Elbasan</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Elbasan</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tiranë</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tiranë</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AL031</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Berat</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Berat</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Fier</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Fier</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>AL033</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Gjirokastër</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Gjirokastër</SimpleValue>
          </Value>
       </Row>
@@ -208,6 +238,9 @@
          <Value ColumnRef="Name">
             <SimpleValue>Korcë</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Korcë</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -216,12 +249,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vlorë</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vlorë</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ALZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

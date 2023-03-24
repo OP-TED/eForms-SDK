@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>Criterion</ShortName>
+      <LongName>criterion</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/criterion</LongName>
+      <Version>20210616-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/criterion</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>autorisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For service contracts: authorisation of particular organisation needed</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For service contracts: authorisation of particular organisation needed</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>aver-year-to</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Average yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Average yearly turnover</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>bankr-nat</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Analogous situation like bankruptcy under national law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Analogous situation like bankruptcy under national law</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>bankruptcy</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bankruptcy</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bankruptcy</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>chain-manage</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Supply chain management</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Supply chain management</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>corruption</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Corruption</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Corruption</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cred-arran</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Arrangement with creditors</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arrangement with creditors</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>crime-org</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>distorsion</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>envir-certif-indep</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Certificates by independent bodies about environmental management systems or standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Certificates by independent bodies about environmental management systems or standards</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>envir-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>envir-measure</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Environmental management measures</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Environmental management measures</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>eo-group</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Economic operator together with others</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Economic operator together with others</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>finan-laund</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>finan-rat</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Financial ratio</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Financial ratio</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>finan-requ</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Other economic or financial requirements</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Other economic or financial requirements</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>fraud</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fraud</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Fraud</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>gen-year-to</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>General yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>General yearly turnover</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>human-traffic</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Child labour and other forms of trafficking in human beings</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Child labour and other forms of trafficking in human beings</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>indem-insu</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Professional risk indemnity insurance</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Professional risk indemnity insurance</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>insolvency</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Insolvency</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Insolvency</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>labour-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>liq-admin</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>manage-staff</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Number of managerial staff</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Number of managerial staff</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>membership</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For service contracts: membership of particular organisation needed</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For service contracts: membership of particular organisation needed</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>misinterpr</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>nati-ground</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Purely national exclusion grounds</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Purely national exclusion grounds</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>partic-confl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>prep-confl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>prof-misconduct</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Guilty of grave professional misconduct</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Guilty of grave professional misconduct</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>prof-regist</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Enrolment in a relevant professional register</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Enrolment in a relevant professional register</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>qa-certif-inst</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For supply contracts: certificates by quality control institutes</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For supply contracts: certificates by quality control institutes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>qu-certif-indep</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Certificates by independent bodies about quality assurance standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Certificates by independent bodies about quality assurance standards</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>qual-cont-tech</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Technicians or technical bodies for quality control</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Technicians or technical bodies for quality control</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>qual-facil</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Technical facilities and measures for ensuring quality</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Technical facilities and measures for ensuring quality</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>qualification</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Educational and professional qualifications</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Educational and professional qualifications</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>registered</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Economic operator registered in a pre qualification system</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Economic operator registered in a pre qualification system</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>relied</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Relied on entities</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Relied on entities</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>research-fac</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Study and research facilities</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Study and research facilities</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sanction</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Early termination, damages or other comparable sanctions</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Early termination, damages or other comparable sanctions</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>service-perform</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For service contracts: performance of services of the specified type</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For service contracts: performance of services of the specified type</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>shelt-worksh</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Economic operator is a sheltered workshop</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Economic operator is a sheltered workshop</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sme</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Economic operator micro, small or medium-sized enterprise</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Economic operator micro, small or medium-sized enterprise</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>socsec-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>socsec-pay</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Payment of social security contributions</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Payment of social security contributions</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>spec-aver-to</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Specific average turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Specific average turnover</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>spec-req-check</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Special requierements check</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Special requierements check</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>spec-year-to</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Specific yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Specific yearly turnover</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>staff-red</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Reduction of the number of qualified candidates</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Reduction of the number of qualified candidates</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>subco-ent</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracted entities</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Subcontracted entities</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>suncont-port</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting proportion</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Subcontracting proportion</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>supply-perform</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For supply contracts: performance of deliveries of the specified type</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For supply contracts: performance of deliveries of the specified type</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>susp-act</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Business activities are suspended</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Business activities are suspended</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>tax-pay</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Payment of taxes</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Payment of taxes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>tech-equip</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tools, plant or technical equipment</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tools, plant or technical equipment</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>terr-offence</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>trade-regist</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Enrolment in a trade register</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Enrolment in a trade register</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>w-autent</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For supply contracts: samples, descriptions or photographs with certification of authenticity</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For supply contracts: samples, descriptions or photographs with certification of authenticity</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>wo-autent</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For supply contracts: samples, descriptions or photographs without certification of authenticity</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For supply contracts: samples, descriptions or photographs without certification of authenticity</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>work-perform</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For works contracts: performance of works of the specified type</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For works contracts: performance of works of the specified type</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>work-tech</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>For works contracts: technicians or technical bodies to carry out the work</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>For works contracts: technicians or technical bodies to carry out the work</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>year-manpower</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Average annual manpower</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Average annual manpower</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

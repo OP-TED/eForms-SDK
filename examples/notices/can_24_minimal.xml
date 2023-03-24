@@ -31,6 +31,7 @@ But with the minimal amount of information while still valid
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<cbc:RankCode>1</cbc:RankCode>
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<cac:LegalMonetaryTotal>
 								<cbc:PayableAmount currencyID="EUR">95414</cbc:PayableAmount>
 							</cac:LegalMonetaryTotal>
@@ -90,7 +91,7 @@ But with the minimal amount of information while still valid
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 235156161</cbc:Telephone>
@@ -115,7 +116,7 @@ But with the minimal amount of information while still valid
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 232081270</cbc:Telephone>
@@ -145,7 +146,7 @@ But with the minimal amount of information while still valid
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="SIREN">326 912 557</cbc:CompanyID>
+									<cbc:CompanyID>326 912 557</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 2 35 67 82 82</cbc:Telephone>
@@ -165,7 +166,7 @@ But with the minimal amount of information while still valid
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">65667997-031a-4198-bd25-7225449ef479</cbc:ID>
 	<cbc:ContractFolderID>022d0ef9-6338-42d9-afa4-a87709128061</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-10-23+01:00</cbc:IssueDate>

@@ -23,9 +23,6 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID></cbc:ID>
-							<efac:SubcontractingTerm>
-								<efbc:TermCode></efbc:TermCode>
-							</efac:SubcontractingTerm>
 							<efac:TenderingParty>
 								<cbc:ID></cbc:ID>
 							</efac:TenderingParty>
@@ -55,7 +52,6 @@
 					<efac:Organizations>
 						<efac:Organization>
 							<efac:Company>
-								<efbc:CompanySizeCode></efbc:CompanySizeCode>
 								<cac:PartyIdentification>
 									<cbc:ID></cbc:ID>
 								</cac:PartyIdentification>
@@ -83,7 +79,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id"></cbc:ID>
 	<cbc:ContractFolderID></cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-23+01:00</cbc:IssueDate>
@@ -103,14 +99,6 @@
 			<cac:PartyIdentification>
 				<cbc:ID></cbc:ID>
 			</cac:PartyIdentification>
-			<cac:ServiceProviderParty>
-				<cbc:ServiceTypeCode></cbc:ServiceTypeCode>
-				<cac:Party>
-					<cac:PartyIdentification>
-						<cbc:ID></cbc:ID>
-					</cac:PartyIdentification>
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
@@ -145,11 +133,6 @@
 						<cbc:ID></cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
-				<cac:MediationParty>
-					<cac:PartyIdentification>
-						<cbc:ID></cbc:ID>
-					</cac:PartyIdentification>
-				</cac:MediationParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>

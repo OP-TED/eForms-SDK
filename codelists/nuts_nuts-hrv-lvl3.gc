@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsHrvLvl3</ShortName>
       <LongName>nuts-hrv-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bjelovarsko-bilogorska županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bjelovarsko-bilogorska županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR022</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Virovitičko-podravska županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Virovitičko-podravska županija</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Požeško-slavonska županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Požeško-slavonska županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR024</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Brodsko-posavska županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Brodsko-posavska županija</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Osječko-baranjska županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Osječko-baranjska županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR026</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Vukovarsko-srijemska županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Vukovarsko-srijemska županija</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Karlovačka županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Karlovačka županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR028</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Sisačko-moslavačka županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Sisačko-moslavačka županija</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Primorsko-goranska županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Primorsko-goranska županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR032</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Ličko-senjska županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Ličko-senjska županija</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zadarska županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zadarska županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR034</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Šibensko-kninska županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Šibensko-kninska županija</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Splitsko-dalmatinska županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Splitsko-dalmatinska županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR036</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Istarska županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Istarska županija</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Dubrovačko-neretvanska županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Dubrovačko-neretvanska županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR050</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Grad Zagreb</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Grad Zagreb</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Međimurska županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Međimurska županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR062</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Varaždinska županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Varaždinska županija</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Koprivničko-križevačka županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Koprivničko-križevačka županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HR064</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Krapinsko-zagorska županija</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Krapinsko-zagorska županija</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zagrebačka županija</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zagrebačka županija</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>HRZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

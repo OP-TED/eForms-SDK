@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>EformsBuyerLegalType</ShortName>
+      <LongName>eforms-buyer-legal-type</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/buyer-legal-type</LongName>
+      <LongName Identifier="eFormsParentId">buyer-legal-type</LongName>
+      <Version>1.6.0</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>body-pl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Body governed by public law</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Публичноправна организация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veřejnoprávní subjekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentligretligt organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Einrichtung des öffentlichen Rechts</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός δημοσίου δικαίου</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Body governed by public law</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organismo de Derecho público</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Avalik-õiguslik isik</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkisoikeudellinen yhteisö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisme de droit public</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Comhlacht dlí phoiblí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tijelo koje se uređuje javnim pravom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Közjogi intézmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organismo di diritto pubblico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Viešosios teisės reglamentuojama įstaiga</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publisko tiesību subjekts</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Korp irregolat bil-liġi pubblika</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Publiekrechtelijke instelling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podmiot prawa publicznego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organismo de direito público</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organism de drept public</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verejnoprávna inštitúcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oseba javnega prava</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Offentligrättsligt organ</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>body-pl-cga</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Body governed by public law, controlled by a central government authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Публичноправна организация, контролирана от орган на централната власт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veřejnoprávní subjekt ovládaný ústředním orgánem státní správy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentligretligt organ, der styres af en central regeringsmyndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Von einer zentralen Regierungsbehörde kontrollierte Einrichtung des öffentlichen Rechts</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός δημοσίου δικαίου που τελεί υπό τον έλεγχο αρχής της κεντρικής κυβέρνησης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Body governed by public law, controlled by a central government authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organismo de Derecho público bajo el control de una autoridad estatal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskvalitsusasutuse kontrollitav avalik-õiguslik isik</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkisoikeudellinen yhteisö, joka on keskushallinnon viranomaisen määräysvallassa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisme de droit public, contrôlé par une autorité publique centrale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Comhlacht dlí phoiblí atá faoi rialú údaráis de chuid an rialtais láir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tijelo koje se uređuje javnim pravom, koje nadzire središnje tijelo državne uprave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Központi kormányzati szerv által ellenőrzött közjogi intézmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organismo di diritto pubblico controllato da un'autorità governativa centrale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Viešosios teisės reglamentuojama įstaiga, kontroliuojama centrinės valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publisko tiesību subjekts, ko kontrolē centrālās pārvaldes iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Korp irregolat bil-liġi pubblika, ikkontrollat minn awtorità tal-gvern ċentrali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Publiekrechtelijke instelling onder zeggenschap van een centrale overheidsinstantie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podmiot prawa publicznego kontrolowany przez instytucję administracji centralnej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organismo de direito público, controlado por uma autoridade da administração central</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organism de drept public, controlat de o autoritate guvernamentală centrală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verejnoprávna inštitúcia pod kontrolou orgánu ústrednej štátnej správy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oseba javnega prava, ki jo obvladuje osrednji državni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Offentligrättsligt organ som kontrolleras av en statlig myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>body-pl-la</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Body governed by public law, controlled by a local authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Публичноправна организация, контролирана от местен орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veřejnoprávní subjekt ovládaný místním orgánem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentligretligt organ, der styres af en lokal myndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Von einer lokalen Gebietskörperschaft kontrollierte Einrichtung des öffentlichen Rechts</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός δημοσίου δικαίου που τελεί υπό τον έλεγχο τοπικής αρχής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Body governed by public law, controlled by a local authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organismo de Derecho público bajo el control de una autoridad local</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kohaliku omavalitsuse kontrollitav avalik-õiguslik isik</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkisoikeudellinen yhteisö, joka on paikallisviranomaisen määräysvallassa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisme de droit public, contrôlé par une autorité locale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Comhlacht dlí phoiblí atá faoi rialú údaráis áitiúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tijelo koje se uređuje javnim pravom, koje nadzire lokalno tijelo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Helyi szerv által ellenőrzött közjogi intézmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organismo di diritto pubblico controllato da un'autorità locale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Viešosios teisės reglamentuojama įstaiga, kontroliuojama vietos valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publisko tiesību subjekts, ko kontrolē vietējās pārvaldes iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Korp irregolat bil-liġi pubblika, ikkontrollat minn awtorità lokali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Publiekrechtelijke instelling onder zeggenschap van een lokale overheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podmiot prawa publicznego kontrolowany przez instytucję lokalną</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organismo de direito público, controlado por uma autoridade local</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organism de drept public, controlat de o autoritate locală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verejnoprávna inštitúcia pod kontrolou miestneho orgánu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oseba javnega prava, ki jo obvladuje lokalni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Offentligrättsligt organ som kontrolleras av en lokal myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>body-pl-ra</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Body governed by public law, controlled by a regional authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Публичноправна организация, контролирана от регионален орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veřejnoprávní subjekt ovládaný regionálním orgánem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentligretligt organ, der styres af en regional myndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Von einer regionalen Gebietskörperschaft kontrollierte Einrichtung des öffentlichen Rechts</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός δημοσίου δικαίου που τελεί υπό τον έλεγχο περιφερειακής αρχής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Body governed by public law, controlled by a regional authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organismo de Derecho público bajo el control de una autoridad regional</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Piirkondliku omavalitsuse kontrollitav avalik-õiguslik isik</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkisoikeudellinen yhteisö, joka on alueviranomaisen määräysvallassa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisme de droit public, contrôlé par une autorité régionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Comhlacht dlí phoiblí atá faoi rialú údaráis réigiúnaigh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tijelo koje se uređuje javnim pravom, koje nadzire regionalno tijelo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Regionális szerv által ellenőrzött közjogi intézmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organismo di diritto pubblico controllato da un'autorità regionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Viešosios teisės reglamentuojama įstaiga, kontroliuojama regioninės valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publisko tiesību subjekts, ko kontrolē reģionālās pārvaldes iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Korp irregolat bil-liġi pubblika, ikkontrollat minn awtorità reġjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Publiekrechtelijke instelling onder zeggenschap van een regionale overheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podmiot prawa publicznego kontrolowany przez instytucję regionalną</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organismo de direito público, controlado por uma autoridade regional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organism de drept public, controlat de o autoritate regională</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verejnoprávna inštitúcia pod kontrolou regionálneho orgánu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oseba javnega prava, ki jo obvladuje regionalni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Offentligrättsligt organ som kontrolleras av en regional myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cga</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Central government authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Орган на централната власт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ústřední orgán státní správy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Central regeringsmyndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zentrale Regierungsbehörde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αρχή κεντρικής κυβέρνησης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Central government authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Autoridad estatal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskvalitsusasutus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Keskushallinnon viranomainen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autorité publique centrale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Údarás de chuid an rialtais láir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Središnje tijelo državne uprave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Központi kormányzati szerv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Autorità governativa centrale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Centrinės valdžios institucija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Centrālās pārvaldes iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Awtorità tal-gvern ċentrali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Centrale overheidsinstantie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Instytucja administracji centralnej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Autoridade da administração central</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Autoritate guvernamentală centrală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Orgán ústrednej štátnej správy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Osrednji državni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Statlig myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>def-cont</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Defence contractor</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изпълнител от областта на отбраната</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zadavatel, zhotovitel, dodavatel nebo poskytovatel služeb v oblasti obrany</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Entreprenør på forsvarsområdet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Auftragnehmer im Bereich Verteidigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανάδοχος στον τομέα της άμυνας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Defence contractor</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Contratista de defensa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kaitsevaldkonna töövõtja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Puolustusalan toimeksisaaja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Contractant du secteur de la défense</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Conraitheoir cosanta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ugovaratelj u području obrane</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Védelmi vállalkozó</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Appaltatore nel settore della difesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Gynybos sektoriaus rangovas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Aizsardzības darbuzņēmējs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kuntrattur tad-difiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Contractant op defensiegebied</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kontrahent w sektorze obronności</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Contratante do domínio da defesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Contractant din domeniul apărării</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dodávateľ v oblasti obrany</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Izvajalec na področju obrambe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Uppdragstagare på försvarsområdet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>eu-ins-bod-ag</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>EU institution, body or agency</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Институция, орган или агенция на ЕС</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Instituce, orgán nebo agentura EU</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>EU-institution, organ eller agentur</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>EU-Institution, -Einrichtung oder -Agentur</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Θεσμικό όργανο, όργανο ή οργανισμός της ΕΕ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>EU institution, body or agency</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Institución, órgano o agencia de la UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>ELi institutsioon, organ või amet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>EU:n toimielin, elin tai virasto</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Institution, organe ou agence de l’UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>﻿Institiúid, comhlact nó gníomhaireacht de chuid an AE</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Institucija, tijelo ili agencija EU-a</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>EU-intézmény, -szerv vagy -ügynökség</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Istituzione, organo o agenzia dell’UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>ES institucija, įstaiga ar agentūra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>ES iestāde, struktūra vai aģentūra</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Istituzzjoni, korp jew aġenzija tal-UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>EU-instelling, -orgaan of -agentschapp</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Instytucja, organ lub agencja UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Instituição, órgão ou agência da UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Instituție, organ sau agenție a UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Inštitúcia, orgán alebo agentúra EÚ</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Institucija, organ ali agencija EU</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>EU-institution, organ eller byrå</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>grp-p-aut</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Group of public authorities</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Група от публични органи</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Skupina orgánů veřejné moci</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gruppe af offentlige myndigheder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gruppe öffentlicher Stellen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ομάδα δημόσιων αρχών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Group of public authorities</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Grupo de autoridades públicas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ametiasutuste rühm</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Viranomaisten ryhmittymä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Groupement d’autorités publiques</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Grúpa údarás poiblí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Skupina javnih tijela</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Hatóságok csoportja</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gruppo di autorità pubbliche</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Valdžios institucijų grupė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Valsts iestāžu grupa</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Grupp ta’ awtoritajiet pubbliċi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Groep overheidsinstanties</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Grupa organów publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Grupo de autoridades públicas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Grup de autorități publice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Skupina verejných orgánov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Skupina javnih organov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Grupp av offentliga organ</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>int-org</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>International organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Международна организация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Mezinárodní organizace</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>International organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Internationale Organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Διεθνής οργανισμός</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>International organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización internacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rahvusvaheline organisatsioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kansainvälinen järjestö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation internationale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht idirnáisiúnta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Međunarodna organizacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nemzetközi szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione internazionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tarptautinė organizacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Starptautiska organizācija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni internazzjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Internationale organisatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja międzynarodowa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização internacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizație internațională</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Medzinárodná organizácia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Mednarodna organizacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Internationell organisation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>la</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Local authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Местен орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Místní orgán</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lokal myndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Lokale Gebietskörperschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τοπική αρχή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Local authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Autoridad local</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kohalik omavalitsus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Paikallisviranomainen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autorité locale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Údarás áitiúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Lokalno tijelo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Helyi hatóság</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Autorità locale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vietos valdžios institucija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vietējās pārvaldes iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Awtorità lokali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lokale overheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Instytucja lokalna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Autoridade local</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Autoritate locală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Miestny orgán</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lokalni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Lokal myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>org-sub</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation awarding a contract subsidised by a contracting authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация, която възлага поръчка, субсидирана от възлагащ орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace zadávající zakázku dotovanou veřejným zadavatelem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation, der tildeler en kontrakt, som modtager subsidier fra en ordregivende myndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Organisation, die einen durch einen öffentlichen Auftraggeber subventionierten Auftrag vergibt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός που αναθέτει σύμβαση επιδοτούμενη από αναθέτουσα αρχή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation awarding a contract subsidised by a contracting authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización que concede un contrato subvencionado por un poder adjudicador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija subsideeritavat lepingut sõlmiv organisatsioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintaviranomaisen subventoiman sopimuksen tekevä organisaatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation qui passe un marché subventionné par un pouvoir adjudicateur</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás conarthachta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija koja dodjeljuje ugovor koji subvencionira javni naručitelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlatkérő szerv által támogatott szerződést odaítélő szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione che aggiudica un appalto sovvenzionato da un'amministrazione aggiudicatrice</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Organizacija, skirianti sutartį, subsidijuojamą perkančiosios organizacijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Organizācija, kas piešķir līgumslēdzējas iestādes subsidētu līgumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni li tagħti kuntratt issussidjat minn awtorità kontraenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie die een door een aanbestedende dienst gesubsidieerde opdracht gunt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja udzielająca zamówienia dotowanego przez instytucję zamawiającą</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização que adjudica um contrato subvencionado por uma autoridade adjudicante</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizație care atribuie un contract subvenționat de o autoritate contractantă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia, ktorá zadáva zákazku subvencovanú verejným obstarávateľom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacijo, ki oddaja naročilo, subvencionira javni naročnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Organisation som tilldelar ett kontrakt som subventioneras av en upphandlande myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>org-sub-cga</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation awarding a contract subsidised by a central government authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация, която възлага поръчка, субсидирана от орган на централната власт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace zadávající zakázku dotovanou ústředním orgánem státní správy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation, der tildeler en kontrakt, som modtager subsidier fra central regeringsmyndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Organisation, die einen durch eine zentrale Regierungsbehörde subventionierten Auftrag vergibt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός που αναθέτει σύμβαση επιδοτούμενη από αρχή της κεντρικής κυβέρνησης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation awarding a contract subsidised by a central government authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización que concede un contrato subvencionado por una autoridad estatal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskvalitsusasutuse subsideeritavat lepingut sõlmiv organisatsioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Keskushallinnon viranomaisen subventoiman sopimuksen tekevä organisaatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation qui passe un marché subventionné par une autorité publique centrale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás stáit</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija koja dodjeljuje ugovor koji subvencionira središnje tijelo državne uprave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Központi kormányzati szerv által támogatott szerződést odaítélő szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione che aggiudica un appalto sovvenzionato da un'autorità governativa centrale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Organizacija, skirianti sutartį, subsidijuojamą centrinės valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Organizācija, kas piešķir centrālās pārvaldes iestādes subsidētu līgumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni li tagħti kuntratt issussidjat minn awtorità tal-gvern ċentrali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie die een door een centrale overheidsinstantie gesubsidieerde opdracht gunt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja udzielająca zamówienia dotowanego przez instytucję administracji centralnej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização que adjudica um contrato subvencionado por uma autoridade da administração central</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizație care atribuie un contract subvenționat de o autoritate guvernamentală centrală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia, ktorá zadáva zákazku subvencovanú orgánom ústrednej štátnej správy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacijo, ki oddaja naročilo, subvencionira osrednji državni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Organisation som tilldelar ett kontrakt som subventioneras av en statlig myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>org-sub-la</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation awarding a contract subsidised by a local authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация, която възлага поръчка, субсидирана от местен орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace zadávající zakázku dotovanou místním orgánem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation, der tildeler en kontrakt, som modtager subsidier fra lokal regeringsmyndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Organisation, die einen durch eine lokale Gebietskörperschaft subventionierten Auftrag vergibt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός που αναθέτει σύμβαση επιδοτούμενη από τοπική αρχή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation awarding a contract subsidised by a local authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización que concede un contrato subvencionado por una autoridad local</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kohaliku omavalitsuse subsideeritavat lepingut sõlmiv organisatsioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Paikallisviranomaisen subventoiman sopimuksen tekevä organisaatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation qui passe un marché subventionné par une autorité locale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás áitiúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija koja dodjeljuje ugovor koji subvencionira lokalno tijelo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Helyi kormányzati szerv által támogatott szerződést odaítélő szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione che aggiudica un appalto sovvenzionato da un'autorità locale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Organizacija, skirianti sutartį, subsidijuojamą vietos valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Organizācija, kas piešķir vietējas iestādes subsidētu līgumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni li tagħti kuntratt issussidjat minn awtorità lokali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie die een door een lokale overheid gesubsidieerde opdracht gunt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja udzielająca zamówienia dotowanego przez instytucję administracji lokalnej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização que adjudica um contrato subvencionado por uma autoridade local</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizație care atribuie un contract subvenționat de o autoritate locală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia, ktorá zadáva zákazku subvencovanú miestnym orgánom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacijo, ki oddaja naročilo, subvencionira lokalni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Organisation som tilldelar ett kontrakt som subventioneras av en lokal myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>org-sub-ra</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Organisation awarding a contract subsidised by a regional authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Организация, която възлага поръчка, субсидирана от регионален орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Organizace zadávající zakázku dotovanou regionálním orgánem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Organisation, der tildeler en kontrakt, som modtager subsidier fra regional regeringsmyndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Organisation, die einen durch eine regionale Gebietskörperschaft subventionierten Auftrag vergibt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός που αναθέτει σύμβαση επιδοτούμενη από περιφερειακή αρχή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Organisation awarding a contract subsidised by a regional authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Organización que concede un contrato subvencionado por una autoridad regional</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Piirkondliku omavalitsuse subsideeritavat lepingut sõlmiv organisatsioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alueviranomaisen subventoiman sopimuksen tekevä organisaatio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Organisation qui passe un marché subventionné par une autorité régionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás réigiúnach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Organizacija koja dodjeljuje ugovor koji subvencionira regionalno tijelo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Regionális kormányzati szerv által támogatott szerződést odaítélő szervezet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Organizzazione che aggiudica un appalto sovvenzionato da un'autorità regionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Organizacija, skirianti sutartį, subsidijuojamą regioninės valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Organizācija, kas piešķir reģionālas iestādes subsidētu līgumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Organizzazzjoni li tagħti kuntratt issussidjat minn awtorità reġjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Organisatie die een door een regionale overheid gesubsidieerde opdracht gunt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Organizacja udzielająca zamówienia dotowanego przez instytucję administracji regionalnej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Organização que adjudica um contrato subvencionado por uma autoridade regional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Organizație care atribuie un contract subvenționat de o autoritate regională</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Organizácia, ktorá zadáva zákazku subvencovanú regionálnym orgánom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organizacijo, ki oddaja naročilo, subvencionira regionalni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Organisation som tilldelar ett kontrakt som subventioneras av en regional myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pub-undert</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Public undertaking</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Публично предприятие</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veřejný podnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentlig virksomhed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Öffentliches Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δηµόσια επιχείρηση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Public undertaking</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Empresa pública</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Riigi osalusega äriühing</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkinen yritys</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Entreprise publique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gnóthas poiblí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Javno poduzeće</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Közvállalkozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Impresa pubblica</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Valstybinė įmonė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publiskais uzņēmums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Impriża pubblika</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Overheidsonderneming</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przedsiębiorstwo publiczne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Empresa pública</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Întreprindere de stat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verejný podnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Javno podjetje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Offentligt företag</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pub-undert-cga</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Public undertaking, controlled by a central government authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Публично предприятие, контролирано от орган на централната власт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veřejný podnik ovládaný ústředním orgánem státní správy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentlig virksomhed, der styres af en central regeringsmyndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Von einer zentralen Regierungsbehörde kontrolliertes öffentliches Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δημόσια επιχείρηση που τελεί υπό τον έλεγχο αρχής της κεντρικής κυβέρνησης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Public undertaking, controlled by a central government authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Empresa pública bajo el control de una autoridad estatal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskvalitsusasutuse kontrollitav riigi osalusega äriühing</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkinen yritys, joka on keskushallinnon viranomaisen määräysvallassa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Entreprise publique, contrôlée par une autorité publique centrale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gnóthas poiblí atá faoi rialú údaráis stáit</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Javno poduzeće koje nadzire središnje tijelo državne uprave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Központi kormányzati szerv által ellenőrzött közvállalkozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Impresa pubblica controllata da un'autorità governativa centrale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Valstybinė įmonė, kontroliuojama centrinės valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publisks uzņēmums, ko kontrolē centrālās pārvaldes iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Impriża pubblika, ikkontrollata minn awtorità tal-gvern ċentrali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Overheidsonderneming onder zeggenschap van een centrale overheidsinstantie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przedsiębiorstwo publiczne kontrolowane przez instytucję administracji centralnej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Empresa pública, controlada por uma autoridade da administração central</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Întreprindere de stat, controlată de o autoritate guvernamentală centrală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verejný podnik pod kontrolou orgánu ústrednej štátnej správy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Javno podjetje, ki ga obvladuje osrednji državni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Offentligt företag som kontrolleras av en statlig myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pub-undert-la</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Public undertaking, controlled by a local authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Публично предприятие, контролирано от местен орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veřejný podnik ovládaný místním orgánem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentlig virksomhed, der styres af en lokal myndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Von einer lokalen Gebietskörperschaft kontrolliertes öffentliches Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δημόσια επιχείρηση που τελεί υπό τον έλεγχο τοπικής αρχής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Public undertaking, controlled by a local authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Empresa pública bajo el control de una autoridad local</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kohaliku omavalitsuse kontrollitav riigi osalusega äriühing</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkinen yritys, joka on paikallisviranomaisen määräysvallassa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Entreprise publique, contrôlée par une autorité locale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gnóthas poiblí atá faoi rialú údaráis áitiúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Javno poduzeće koje nadzire lokalno tijelo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Helyi szerv által ellenőrzött közvállalkozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Impresa pubblica controllata da un'autorità locale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Valstybinė įmonė, kontroliuojama vietos valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publisks uzņēmums, ko kontrolē vietējās pārvaldes iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Impriża pubblika, ikkontrollata minn awtorità lokali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Overheidsonderneming onder zeggenschap van een lokale overheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przedsiębiorstwo publiczne kontrolowane przez instytucję lokalną</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Empresa pública, controlada por uma autoridade local</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Întreprindere de stat, controlată de o autoritate locală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verejný podnik pod kontrolou miestneho orgánu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Javno podjetje, ki ga obvladuje lokalni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Offentligt företag som kontrolleras av en lokal myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pub-undert-ra</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Public undertaking, controlled by a regional authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Публично предприятие, контролирано от регионален орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veřejný podnik ovládaný regionálním orgánem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentlig virksomhed, der styres af en regional myndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Von einer regionalen Gebietskörperschaft kontrolliertes öffentliches Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δημόσια επιχείρηση που τελεί υπό τον έλεγχο περιφερειακής αρχής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Public undertaking, controlled by a regional authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Empresa pública bajo el control de una autoridad regional</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Piirkondliku omavalitsuse kontrollitav riigi osalusega äriühing</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkinen yritys, joka on alueviranomaisen määräysvallassa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Entreprise publique, contrôlée par une autorité régionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gnóthas poiblí atá faoi rialú údaráis réigiúnaigh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Javno poduzeće koje nadzire regionalno tijelo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Regionális szerv által ellenőrzött közvállalkozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Impresa pubblica controllata da un'autorità regionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Valstybinė įmonė, kontroliuojama regioninės valdžios institucijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Publisks uzņēmums, ko kontrolē reģionālās pārvaldes iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Impriża pubblika, ikkontrollata minn awtorità reġjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Overheidsonderneming onder zeggenschap van een regionale overheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przedsiębiorstwo publiczne kontrolowane przez instytucję regionalną</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Empresa pública, controlada por uma autoridade regional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Întreprindere de stat, controlată de o autoritate regională</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verejný podnik pod kontrolou regionálneho orgánu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Javno podjetje, ki ga obvladuje regionalni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Offentligt företag som kontrolleras av en regional myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ra</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Regional authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Регионален орган</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Regionální orgán</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Regional myndighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Regionale Gebietskörperschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Περιφερειακή αρχή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Regional authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Autoridad regional</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Piirkondlik omavalitsus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alueviranomainen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autorité régionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Údarás réigiúnach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Regionalno tijelo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Regionális hatóság</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Autorità regionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Regioninės valdžios institucija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Reģionāla iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Awtorità reġjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Regionale overheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Instytucja regionalna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Autoridade regional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Autoritate regională</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Regionálny orgán</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Regionalni organ</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Regional myndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>spec-rights-entity</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Entity with special or exclusive rights</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Образувание със специални или изключителни права</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Subjekt se zvláštními nebo výhradními právy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Enhed med særlige eller eksklusive rettigheder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Organisation mit besonderen oder ausschließlichen Rechten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Φορέας με ειδικά ή αποκλειστικά δικαιώματα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Entity with special or exclusive rights</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Entidad con derechos especiales o exclusivos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Eri- või ainuõigustega üksus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Yksikkö, jolla on erityis- tai yksinoikeuksia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Entité disposant de droits spéciaux ou exclusifs</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eintiteas a bhfuil cearta speisialta nó eisiacha aige</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Subjekt s posebnim ili isključivim pravima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Különleges vagy kizárólagos jogokkal rendelkező jogi személy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ente dotato di diritti speciali o esclusivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Subjektai, turintys specialiųjų ar išskirtinių teisių</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Subjekts ar īpašām vai ekskluzīvām tiesībām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Entità bi drittijiet speċjali jew esklużivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Entiteit met bijzondere of uitsluitende rechten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podmiot, któremu przysługują prawa specjalne lub wyłączne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Entidade com direitos especiais ou exclusivos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Entitate cu drepturi speciale sau exclusive</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Subjekt s osobitnými alebo výlučnými právami</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Subjekt s posebnimi ali izključnimi pravicami</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Enhet med särskilda eller exklusiva rättigheter</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

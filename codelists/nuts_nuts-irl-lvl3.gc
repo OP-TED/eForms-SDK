@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsIrlLvl3</ShortName>
       <LongName>nuts-irl-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Border</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>IE042</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>West</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mid-West</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>IE052</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>South-East</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>South-West</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>IE061</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Dublin</SimpleValue>
          </Value>
       </Row>
@@ -176,6 +194,9 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mid-East</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -184,12 +205,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Midland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>IEZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

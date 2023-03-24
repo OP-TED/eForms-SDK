@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>EformsCountry</ShortName>
+      <ShortName>LawfulCountry</ShortName>
       <LongName>lawful-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -606,73 +606,73 @@
             <SimpleValue>CZE</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Czech Republic</SimpleValue>
+            <SimpleValue>Czechia</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Чешка република</SimpleValue>
+            <SimpleValue>Чехия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Česká republika</SimpleValue>
+            <SimpleValue>Česko</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tjekkiet</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Tschechische Republik</SimpleValue>
+            <SimpleValue>Tschechien</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Τσεχική Δημοκρατία</SimpleValue>
+            <SimpleValue>Τσεχία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Czech Republic</SimpleValue>
+            <SimpleValue>Czechia</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Chequia</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Tšehhi Vabariik</SimpleValue>
+            <SimpleValue>Tšehhi</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Tšekki</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>République tchèque</SimpleValue>
+            <SimpleValue>Tchéquie</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Poblacht na Seice</SimpleValue>
+            <SimpleValue>An tSeicia</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Češka</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Cseh Köztársaság</SimpleValue>
+            <SimpleValue>Csehország</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Repubblica ceca</SimpleValue>
+            <SimpleValue>Cechia</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Čekija</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Čehijas Republika</SimpleValue>
+            <SimpleValue>Čehija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Ir-Repubblika Ċeka</SimpleValue>
+            <SimpleValue>Iċ-Ċekja</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Tsjechië</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Republika Czeska</SimpleValue>
+            <SimpleValue>Czechy</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>República Checa</SimpleValue>
+            <SimpleValue>Chéquia</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Republica Cehă</SimpleValue>
+            <SimpleValue>Cehia</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Česká republika</SimpleValue>
+            <SimpleValue>Česko</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Češka</SimpleValue>
@@ -1217,7 +1217,7 @@
             <SimpleValue>Grieķija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Greċja</SimpleValue>
+            <SimpleValue>Il-Greċja</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Griekenland</SimpleValue>
@@ -2046,79 +2046,79 @@
             <SimpleValue>MKD</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Former Yugoslav Republic of Macedonia</SimpleValue>
+            <SimpleValue>North Macedonia</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Бивша югославска република Македония</SimpleValue>
+            <SimpleValue>Северна Македония</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Bývalá jugoslávská republika Makedonie</SimpleValue>
+            <SimpleValue>Severní Makedonie</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Tidligere jugoslaviske republik Makedonien</SimpleValue>
+            <SimpleValue>Nordmakedonien</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Ehemalige jugoslawische Republik Mazedonien</SimpleValue>
+            <SimpleValue>Nordmazedonien</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας</SimpleValue>
+            <SimpleValue>Βόρεια Μακεδονία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Former Yugoslav Republic of Macedonia</SimpleValue>
+            <SimpleValue>North Macedonia</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Antigua República Yugoslava de Macedonia</SimpleValue>
+            <SimpleValue>Macedonia del Norte</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Endine Jugoslaavia Makedoonia vabariik</SimpleValue>
+            <SimpleValue>Põhja-Makedoonia</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Entinen Jugoslavian tasavalta Makedonia</SimpleValue>
+            <SimpleValue>Pohjois-Makedonia</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Ancienne République yougoslave de Macédoine</SimpleValue>
+            <SimpleValue>Macédoine du Nord</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Poblacht iar-Iúgslavach na Macadóine</SimpleValue>
+            <SimpleValue>An Mhacadóin Thuaidh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Bivša Jugoslavenska Republika Makedonija</SimpleValue>
+            <SimpleValue>Sjeverna Makedonija</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Macedónia Volt Jugoszláv Köztársaság</SimpleValue>
+            <SimpleValue>Észak-Macedónia</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Ex Repubblica iugoslava di Macedonia</SimpleValue>
+            <SimpleValue>Macedonia del Nord</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Buvusioji Jugoslavijos Respublika Makedonija</SimpleValue>
+            <SimpleValue>Šiaurės Makedonija</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Bijusī Dienvidslāvijas Maķedonijas Republika</SimpleValue>
+            <SimpleValue>Ziemeļmaķedonija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Dik li kienet ir-Repubblika Jugoslava tal-Maċedonja</SimpleValue>
+            <SimpleValue>Il-Maċedonja ta’ Fuq</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Voormalige Joegoslavische Republiek Macedonië</SimpleValue>
+            <SimpleValue>Noord-Macedonië</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Była jugosłowiańska republika Macedonii</SimpleValue>
+            <SimpleValue>Macedonia Północna</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Antiga República jugoslava da Macedónia</SimpleValue>
+            <SimpleValue>Macedónia do Norte</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Fosta Republică iugoslavă a Macedoniei</SimpleValue>
+            <SimpleValue>Macedonia de Nord</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Bývalá Juhoslovanská republika Macedónsko</SimpleValue>
+            <SimpleValue>Severné Macedónsko</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Nekdanja jugoslovanska republika Makedonija</SimpleValue>
+            <SimpleValue>Severna Makedonija</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>F. d. jugoslaviska republiken Makedonien</SimpleValue>
+            <SimpleValue>Nordmakedonien</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3006,7 +3006,7 @@
             <SimpleValue>TUR</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Turkey</SimpleValue>
+            <SimpleValue>Türkiye</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Typция</SimpleValue>
@@ -3024,7 +3024,7 @@
             <SimpleValue>Τουρκία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Turkey</SimpleValue>
+            <SimpleValue>Türkiye</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Turquía</SimpleValue>

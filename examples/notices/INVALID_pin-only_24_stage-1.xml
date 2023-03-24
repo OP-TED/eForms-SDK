@@ -15,6 +15,12 @@
 								<cac:PartyIdentification>
 									<cbc:ID></cbc:ID>
 								</cac:PartyIdentification>
+								<cac:PostalAddress>
+
+								</cac:PostalAddress>
+								<cac:Contact>
+
+								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 					</efac:Organizations>
@@ -39,15 +45,13 @@
 		</cac:ContractingActivity>
 		<cac:Party>
 			
-			<cac:ServiceProviderParty>
-				<cac:Party>
-
-				</cac:Party>
-			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
 
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName=""></cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Part"></cbc:ID>
@@ -56,15 +60,12 @@
 				<cac:AppealReceiverParty>
 
 				</cac:AppealReceiverParty>
-				<cac:MediationParty>
-					
-				</cac:MediationParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
 
 			<cac:MainCommodityClassification>
-				
+				<cbc:ItemClassificationCode listName=""></cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>

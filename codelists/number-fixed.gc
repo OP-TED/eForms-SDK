@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NumberFixed</ShortName>
       <LongName>number-fixed</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/number-fixed</LongName>
-      <Version>20220316-0</Version>
+      <Version>20220615-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/number-fixed</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -125,64 +125,64 @@
             <SimpleValue>fix-tot</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Fixed (total)</SimpleValue>
+            <SimpleValue>Fixed value (total)</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Фиксирано (общо)</SimpleValue>
+            <SimpleValue>Фиксирана стойност (общо)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Pevná hodnota (celková)</SimpleValue>
+            <SimpleValue>Pevná hodnota (celkem)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Fast værdi (samlet)</SimpleValue>
+            <SimpleValue>Fast værdi (i alt)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Festgelegte Anzahl (insgesamt)</SimpleValue>
+            <SimpleValue>Fester Wert (insgesamt)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Σταθερός (σύνολο)</SimpleValue>
+            <SimpleValue>Σταθερή αξία (σύνολο)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Fixed (total)</SimpleValue>
+            <SimpleValue>Fixed value (total)</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Fijo (total)</SimpleValue>
+            <SimpleValue>Valor fijo (total)</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Fikseeritud (kokku)</SimpleValue>
+            <SimpleValue>Fikseeritud väärtus (kokku)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kiinteä (yhteensä)</SimpleValue>
+            <SimpleValue>Kiinteä arvo (yhteensä)</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Valeur fixe (total)</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Socraithe (iomlán)</SimpleValue>
+            <SimpleValue>Luach seasta (iomlán)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Fiksno (ukupno)</SimpleValue>
+            <SimpleValue>Fiksna vrijednost (ukupno)</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Rögzített (összesen)</SimpleValue>
+            <SimpleValue>Rögzített érték (összesen)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Stabilito (totale)</SimpleValue>
+            <SimpleValue>Valore fisso (totale)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Fiksuotoji (bendra)</SimpleValue>
+            <SimpleValue>Fiksuota vertė (iš viso)</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Fiksēts (kopā)</SimpleValue>
+            <SimpleValue>Fiksētā vērtība (kopā)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Fiss (it-total)</SimpleValue>
+            <SimpleValue>Valur fiss (total)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Vast (totaal)</SimpleValue>
+            <SimpleValue>Vaste waarde (totaal)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Stała (całkowita)</SimpleValue>
+            <SimpleValue>Stała wartość (całkowita)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Valor fixo (total)</SimpleValue>
@@ -191,10 +191,10 @@
             <SimpleValue>Valoare fixă (total)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Pevná hodnota (celková)</SimpleValue>
+            <SimpleValue>Pevná hodnota (spolu)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Fiksno (skupno)</SimpleValue>
+            <SimpleValue>Fiksna vrednost (skupaj)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Fast värde (totalt)</SimpleValue>
@@ -205,76 +205,76 @@
             <SimpleValue>fix-unit</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Fixed (per unit)</SimpleValue>
+            <SimpleValue>Fixed value (per unit)</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Фиксирано (за единица)</SimpleValue>
+            <SimpleValue>Фиксирана стойност (за единица)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Pevná hodnota (jednotková)</SimpleValue>
+            <SimpleValue>Pevná hodnota (za jednotku)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Fast værdi (pr. enhed)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Festgelegte Anzahl (pro Einheit)</SimpleValue>
+            <SimpleValue>Fester Wert (pro Einheit)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Σταθερός (ανά μονάδα)</SimpleValue>
+            <SimpleValue>Σταθερή αξία (ανά μονάδα)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Fixed (per unit)</SimpleValue>
+            <SimpleValue>Fixed value (per unit)</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Fijo (por unidad)</SimpleValue>
+            <SimpleValue>Valor fijo (por unidad)</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Fikseeritud (ühiku kohta)</SimpleValue>
+            <SimpleValue>Fikseeritud väärtus (ühiku kohta)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kiinteä (yksikköä kohti)</SimpleValue>
+            <SimpleValue>Kiinteä arvo (yksikköä kohti)</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Valeur fixe (par unité)</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Socraithe (in aghaidh an aonaid)</SimpleValue>
+            <SimpleValue>Luach seasta (in aghaidh an aonaid)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Fiksno (po jedinici)</SimpleValue>
+            <SimpleValue>Fiksna vrijednost (po jedinici)</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Rögzített (egységenként)</SimpleValue>
+            <SimpleValue>Rögzített érték (egységenként)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Stabilito (per unità)</SimpleValue>
+            <SimpleValue>Valore fisso (per unità)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Fiksuotoji (už vienetą)</SimpleValue>
+            <SimpleValue>Fiksuota vertė (vienetui)</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Fiksēts (par vienību)</SimpleValue>
+            <SimpleValue>Fiksētā vērtība (par vienību)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Fiss (għal kull unità)</SimpleValue>
+            <SimpleValue>Valur fiss (għal kull unità)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Vast (per eenheid)</SimpleValue>
+            <SimpleValue>Vaste waarde (per eenheid)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Stała (na jednostkę)</SimpleValue>
+            <SimpleValue>Stała wartość (na jednostkę)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Valor fixo (por unidade)</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Valoare fixă (per unitate)</SimpleValue>
+            <SimpleValue>Valoare fixă (pe unitate)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Pevná hodnota (jednotková)</SimpleValue>
+            <SimpleValue>Pevná hodnota (na jednotku)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Fiksno (na enoto)</SimpleValue>
+            <SimpleValue>Stalna vrednost (na enoto)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Fast värde (per enhet)</SimpleValue>

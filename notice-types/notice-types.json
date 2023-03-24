@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.1.0",
+  "sdkVersion" : "1.6.0",
   "metadataDatabase" : {
-    "version" : "1.1.0",
-    "createdOn" : "2022-09-14T16:05:55"
+    "version" : "1.6.0",
+    "createdOn" : "2023-02-17T12:00:00"
   },
   "noticeSubTypes" : [ {
     "documentType" : "PIN",
@@ -378,7 +378,7 @@
     "documentType" : "PIN",
     "legalBasis" : "32007R1370",
     "formType" : "planning",
-    "type" : "pin-rtl",
+    "type" : "pin-tran",
     "description" : "Planning notice for public passenger transport services by rail and by road",
     "subTypeId" : "T01",
     "_label" : "notice|name|T01",
@@ -387,7 +387,7 @@
     "documentType" : "CAN",
     "legalBasis" : "32007R1370",
     "formType" : "result",
-    "type" : "can-social",
+    "type" : "can-tran",
     "description" : "Result notice for public passenger transport services by rail and by road",
     "subTypeId" : "T02",
     "_label" : "notice|name|T02",
@@ -395,7 +395,7 @@
   }, {
     "documentType" : "BRIN",
     "legalBasis" : "31985R2137",
-    "formType" : "bsri",
+    "formType" : "bri",
     "type" : "brin-eeig",
     "description" : "Notice containing information relevant to Formation or Completion of the liquidation of a EEIG.",
     "subTypeId" : "X01",
@@ -404,7 +404,7 @@
   }, {
     "documentType" : "BRIN",
     "legalBasis" : "32001R2157",
-    "formType" : "bsri",
+    "formType" : "bri",
     "type" : "brin-ecs",
     "description" : "Notice containing information about Registration, Deletion, Transfer-registration or Transfer-deletion of a European Company or European Cooperative Society",
     "subTypeId" : "X02",
@@ -414,18 +414,122 @@
   "documentTypes" : [ {
     "id" : "BRIN",
     "namespace" : "http://data.europa.eu/p27/eforms-business-registration-information-notice/1",
-    "rootElement" : "BusinessRegistrationInformationNotice"
+    "rootElement" : "BusinessRegistrationInformationNotice",
+    "schemaLocation" : "schemas/maindoc/EFORMS-BusinessRegistrationInformationNotice.xsd",
+    "additionalNamespaces" : [ {
+      "prefix" : "cac",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonAggregateComponents-2.3.xsd"
+    }, {
+      "prefix" : "cbc",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonBasicComponents-2.3.xsd"
+    }, {
+      "prefix" : "ext",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonExtensionComponents-2.3.xsd"
+    }, {
+      "prefix" : "efext",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extensions/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionApex-2.3.xsd"
+    }, {
+      "prefix" : "efac",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd"
+    }, {
+      "prefix" : "efbc",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionBasicComponents-2.3.xsd"
+    } ]
   }, {
     "id" : "CAN",
     "namespace" : "urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2",
-    "rootElement" : "ContractAwardNotice"
+    "rootElement" : "ContractAwardNotice",
+    "schemaLocation" : "schemas/maindoc/UBL-ContractAwardNotice-2.3.xsd",
+    "additionalNamespaces" : [ {
+      "prefix" : "cac",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonAggregateComponents-2.3.xsd"
+    }, {
+      "prefix" : "cbc",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonBasicComponents-2.3.xsd"
+    }, {
+      "prefix" : "ext",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonExtensionComponents-2.3.xsd"
+    }, {
+      "prefix" : "efext",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extensions/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionApex-2.3.xsd"
+    }, {
+      "prefix" : "efac",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd"
+    }, {
+      "prefix" : "efbc",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionBasicComponents-2.3.xsd"
+    } ]
   }, {
     "id" : "CN",
     "namespace" : "urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2",
-    "rootElement" : "ContractNotice"
+    "rootElement" : "ContractNotice",
+    "schemaLocation" : "schemas/maindoc/UBL-ContractNotice-2.3.xsd",
+    "additionalNamespaces" : [ {
+      "prefix" : "cac",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonAggregateComponents-2.3.xsd"
+    }, {
+      "prefix" : "cbc",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonBasicComponents-2.3.xsd"
+    }, {
+      "prefix" : "ext",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonExtensionComponents-2.3.xsd"
+    }, {
+      "prefix" : "efext",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extensions/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionApex-2.3.xsd"
+    }, {
+      "prefix" : "efac",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd"
+    }, {
+      "prefix" : "efbc",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionBasicComponents-2.3.xsd"
+    } ]
   }, {
     "id" : "PIN",
     "namespace" : "urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2",
-    "rootElement" : "PriorInformationNotice"
+    "rootElement" : "PriorInformationNotice",
+    "schemaLocation" : "schemas/maindoc/UBL-PriorInformationNotice-2.3.xsd",
+    "additionalNamespaces" : [ {
+      "prefix" : "cac",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonAggregateComponents-2.3.xsd"
+    }, {
+      "prefix" : "cbc",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonBasicComponents-2.3.xsd"
+    }, {
+      "prefix" : "ext",
+      "uri" : "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
+      "schemaLocation" : "schemas/common/UBL-CommonExtensionComponents-2.3.xsd"
+    }, {
+      "prefix" : "efext",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extensions/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionApex-2.3.xsd"
+    }, {
+      "prefix" : "efac",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd"
+    }, {
+      "prefix" : "efbc",
+      "uri" : "http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1",
+      "schemaLocation" : "schemas/common/EFORMS-ExtensionBasicComponents-2.3.xsd"
+    } ]
   } ]
 }

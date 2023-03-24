@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.1.0 created on the 2022-09-14T16:05:55-->
+<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsNldLvl3</ShortName>
       <LongName>nuts-nld-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.1.0</Version>
+      <Version>1.6.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,12 +128,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Oost-Groningen</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL112</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Delfzijl en omgeving</SimpleValue>
          </Value>
       </Row>
@@ -144,12 +150,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL124</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Noord-Friesland</SimpleValue>
          </Value>
       </Row>
@@ -160,12 +172,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidwest-Friesland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL126</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zuidoost-Friesland</SimpleValue>
          </Value>
       </Row>
@@ -176,12 +194,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Noord-Drenthe</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL132</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zuidoost-Drenthe</SimpleValue>
          </Value>
       </Row>
@@ -192,12 +216,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidwest-Drenthe</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL211</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Noord-Overijssel</SimpleValue>
          </Value>
       </Row>
@@ -208,12 +238,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidwest-Overijssel</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL213</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Twente</SimpleValue>
          </Value>
       </Row>
@@ -224,12 +260,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Veluwe</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL224</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zuidwest-Gelderland</SimpleValue>
          </Value>
       </Row>
@@ -240,12 +282,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Achterhoek</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL226</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Arnhem/Nijmegen</SimpleValue>
          </Value>
       </Row>
@@ -256,12 +304,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Flevoland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL310</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Utrecht</SimpleValue>
          </Value>
       </Row>
@@ -272,12 +326,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Kop van Noord-Holland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL323</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>IJmond</SimpleValue>
          </Value>
       </Row>
@@ -288,12 +348,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Agglomeratie Haarlem</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL325</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zaanstreek</SimpleValue>
          </Value>
       </Row>
@@ -304,12 +370,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL328</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Alkmaar en omgeving</SimpleValue>
          </Value>
       </Row>
@@ -320,12 +392,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL332</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
          </Value>
       </Row>
@@ -336,12 +414,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Delft en Westland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL337</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
          </Value>
       </Row>
@@ -352,12 +436,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL33B</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Oost-Zuid-Holland</SimpleValue>
          </Value>
       </Row>
@@ -368,12 +458,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Groot-Rijnmond</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL341</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
          </Value>
       </Row>
@@ -384,12 +480,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Overig Zeeland</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
       </Row>
@@ -400,12 +502,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Midden-Noord-Brabant</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL413</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
          </Value>
       </Row>
@@ -416,12 +524,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NL421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Noord-Limburg</SimpleValue>
          </Value>
       </Row>
@@ -432,6 +546,9 @@
          <Value ColumnRef="Name">
             <SimpleValue>Midden-Limburg</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
@@ -440,12 +557,18 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuid-Limburg</SimpleValue>
          </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>NLZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

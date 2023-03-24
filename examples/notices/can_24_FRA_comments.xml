@@ -146,6 +146,8 @@
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<!--BT-171 Tender Rank-->
 							<cbc:RankCode>1</cbc:RankCode>
+							<!--BT-1711	Tender Ranked-->
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--BT-193 Tender Variant-->
 							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
 							<!--BT-720 Tender Value for lots & group of lots all together-->
@@ -174,6 +176,8 @@
 							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							<!--BT-171 Tender Rank-->
 							<cbc:RankCode>1</cbc:RankCode>
+							<!--BT-1711	Tender Ranked-->
+							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--BT-193 Tender Variant-->
 							<efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
 							<!--BT-720 Tender Value for lots & group of lots all together-->
@@ -291,8 +295,8 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<!--BT-501 using ISO ICD list - Peppol codelist -->
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<!--BT-501 Organisation Identifier -->
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502 Organization Contact Point (Role or Department preferred, Individual name only when strictly necessary)-->
@@ -331,7 +335,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="002">123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>123 456 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
@@ -363,7 +367,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID schemeID="123">111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>111 222 333</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -397,8 +401,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501 Organisation Identifier -->
-									<cbc:CompanyID schemeID="SIREN">326 912 557</cbc:CompanyID>
-									<!-- Beneficial owner of the winning organisation-->
+									<cbc:CompanyID>326 912 557</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 2 35 67 82 82</cbc:Telephone>
@@ -432,7 +435,7 @@
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501 using ISO ICD list - Peppol codelist -->
-									<cbc:CompanyID schemeID="002">339 609 661</cbc:CompanyID>
+									<cbc:CompanyID>339 609 661</cbc:CompanyID>
 									<!-- Beneficial owner of the winning organisation-->
 								</cac:PartyLegalEntity>
 								<cac:Contact>
@@ -462,7 +465,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.1</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
 	<cbc:ID schemeName="notice-id">df45f4d1-2208-47cb-bc7a-9c7edcf8d2b8</cbc:ID>
 	<!--BT-04 Procedure Identifier-->
@@ -473,7 +476,7 @@
 	<!-- Notive Version number, to distinguish versions of a same notice within a same procedure -->
 	<!--BT-757 Version Identifier-->
 	<cbc:VersionID>01</cbc:VersionID>
-	<cbc:RequestedPublicationDate>2020-01-22+01:00</cbc:RequestedPublicationDate>
+	<cbc:RequestedPublicationDate>2019-12-21+01:00</cbc:RequestedPublicationDate>
 	<!--BT-01 Procedure Legal Basis -->
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<!--BT-03 Form Type / BT-02 Notice Type-->
@@ -540,7 +543,6 @@
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -672,7 +674,6 @@
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>
-					<cbc:CalculationExpression languageID="FRA">Le calcul du score prix-qualité est basé sur …</cbc:CalculationExpression>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
 							<ext:UBLExtension>
@@ -688,7 +689,7 @@
 						</ext:UBLExtensions>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
 						<cbc:Name languageID="FRA">Prix</cbc:Name>
-						<cbc:Description languageID="FRA">Le prix contribue for 60 % …</cbc:Description>
+						<cbc:Description languageID="FRA">Le prix contribue pour 60 % …</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
@@ -705,7 +706,7 @@
 						</ext:UBLExtensions>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
 						<cbc:Name languageID="FRA">Qualité</cbc:Name>
-						<cbc:Description languageID="FRA">La valeur technique participle pour 40 % …</cbc:Description>
+						<cbc:Description languageID="FRA">La valeur technique est évaluée selon …</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 				</cac:AwardingCriterion>
 			</cac:AwardingTerms>
