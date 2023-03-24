@@ -92,8 +92,22 @@ expressionBlock
  * a field-identifier or a node-identifier followed by an optional predicate.
  */
 contextDeclarationBlock
-    : StartExpression fieldContext EndExpression
-    | StartExpression nodeContext EndExpression
+    : StartExpression contextDeclaration (Comma templateVariableList)? (Comma parameterList)? EndExpression
+    ;
+
+contextDeclaration: contextVariableInitializer | fieldContext | nodeContext;
+
+templateVariableList: templateVariableIntializer (Comma templateVariableIntializer)*;
+
+contextVariableInitializer: ContextTypeCast Variable Assignment fieldContext;
+
+templateVariableIntializer
+    : TextTypeCast Variable Assignment stringExpression           # stringVariableInitializer
+    | BooleanTypeCast Variable Assignment booleanExpression       # booleanVariableInitializer
+    | NumericTypeCast Variable Assignment numericExpression       # numericVariableInitializer
+    | DateTypeCast Variable Assignment dateExpression             # dateVariableInitializer 
+    | TimeTypeCast Variable Assignment timeExpression             # timeVariableInitializer
+    | DurationTypeCast Variable Assignment durationExpression     # durationVariableInitializer
     ;
 
 /*

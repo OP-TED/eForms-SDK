@@ -74,6 +74,9 @@ SWS: [ \t]+ -> skip, mode(TEMPLATE);
 
 mode TEMPLATE;
 
+// Python-style line joining. The backslash at the end of a line is used to join the following line
+LineJoining: '\\'  Whitespace* CRLF+ Whitespace* -> skip;
+
 // A newline terminates the TEMPLATE mode and switches back to DEFAULT mode.
 CRLF: ('\r'? '\n' | '\r' | '\f') -> popMode;
 
@@ -298,7 +301,7 @@ ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
 
 
 // Operators ------------------------------------------------------------------------------------------------
-
+Assignment: '=';
 Comparison: '==' | '!=' | '>' | '>=' | '<' | '<=';
 Star: '*';
 Slash: '/';
