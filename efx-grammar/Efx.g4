@@ -92,7 +92,7 @@ expressionBlock
  * a field-identifier or a node-identifier followed by an optional predicate.
  */
 contextDeclarationBlock
-    : StartExpression contextDeclaration (Comma templateVariableList)? (Comma parameterList)? EndExpression
+    : StartExpression contextDeclaration (Comma templateVariableList)? EndExpression
     ;
 
 contextDeclaration: contextVariableInitializer | fieldContext | nodeContext;
