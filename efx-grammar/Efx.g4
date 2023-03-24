@@ -291,7 +291,7 @@ timeSequenceFromIteration: For iteratorList Return timeExpression;
 durationSequence
     : OpenParenthesis durationExpression (Comma durationExpression)* CloseParenthesis   # durationList
     | durationSequenceFromIteration                                                     # durationsFromIteration
-    | OpenParenthesis durationSequenceFromIteration CloseParenthesis                    # parenthesizedDurationsFromITeration
+    | OpenParenthesis durationSequenceFromIteration CloseParenthesis                    # parenthesizedDurationsFromIteration
     | DurationTypeCast? sequenceFromReference                                           # durationTypeCastFieldReference
     ;
 
