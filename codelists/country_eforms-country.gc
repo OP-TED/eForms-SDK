@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.6.71 created on the 2023-03-27T17:27:44-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>EformsCountry</ShortName>
       <LongName>eforms-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.6.71</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -18639,7 +18639,7 @@
             <SimpleValue>État de la Cité du Vatican</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Cathair na Vatacáine</SimpleValue>
+            <SimpleValue>Stát Chathair na Vatacáine</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Država Vatikanskoga Grada</SimpleValue>
