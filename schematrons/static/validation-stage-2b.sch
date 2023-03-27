@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00.-->
+<!--File generated from metadata database version 1.6.22 created on the 2023-03-15T14:25:34.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -295,6 +295,7 @@
 		<assert id="BT-95-Lot_C" role="ERROR" diagnostics="BT-95-Lot" test="(every $lg in (cbc:RecurringProcurementDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:RecurringProcurementDescription) = 0">rule|text|BT-95-Lot_C</assert>
 		<assert id="BT-98-Lot_R" role="ERROR" diagnostics="BT-98-Lot" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) &lt; 2">rule|text|BT-98-Lot_R</assert>
 		<assert id="OPA-98-Lot-Number_R" role="ERROR" diagnostics="OPA-98-Lot-Number" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) &lt; 2">rule|text|OPA-98-Lot-Number_R</assert>
+		<assert id="OPT-060-Lot_R" role="ERROR" diagnostics="OPT-060-Lot" test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='conditions']) &lt; 2">rule|text|OPT-060-Lot_R</assert>
 		<assert id="OPT-301-Lot-AddInfo_R" role="ERROR" diagnostics="OPT-301-Lot-AddInfo" test="count(cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-Lot-AddInfo_R</assert>
 		<assert id="OPT-301-Lot-DocProvider_R" role="ERROR" diagnostics="OPT-301-Lot-DocProvider" test="count(cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-Lot-DocProvider_R</assert>
 		<assert id="OPT-301-Lot-TenderEval_R" role="ERROR" diagnostics="OPT-301-Lot-TenderEval" test="count(cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-Lot-TenderEval_R</assert>

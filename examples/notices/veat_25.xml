@@ -212,7 +212,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">b9762d53-76dc-427b-9eb8-68e330f854f1</cbc:ID>
 	<cbc:ContractFolderID>7fd26aef-6e07-44a4-9935-1c123fafb47f</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-30+01:00</cbc:IssueDate>
@@ -292,6 +292,7 @@
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
+			<cbc:ID>1</cbc:ID>
 			<cbc:Name languageID="ENG">5,640,000</cbc:Name>
 			<cbc:Description languageID="ENG">This is a voluntary ex ante transparency (VEAT) notice. This notice is to indicate that Network Rail intends to contract with Elektrotechnische werke fritz Driescher and söhne gmbh, Morris Line Engineering and SDCEM, for the purchase of 25 kV AC disconnector motor mechanisms and remote securing modules to be retrofitted onto existing devices on the UK railway network.</cbc:Description>	
 			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>

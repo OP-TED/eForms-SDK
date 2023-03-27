@@ -429,7 +429,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">14549263-b47b-4e59-96a1-2d0d13e19343</cbc:ID>
 	<!--BT-04-->
@@ -921,8 +921,9 @@
 				<cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>
-				<!--BT-70-->
+				<!--OPT-060-->
 				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<!--BT-70-->
 				<cbc:Description languageID="ENG">Terms Performance ---</cbc:Description>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>
@@ -1472,8 +1473,9 @@
 				<cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>
-				<!--BT-70-->
+				<!--OPT-060-->
 				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<!--BT-70-->
 				<cbc:Description languageID="ENG">Terms Performance ---</cbc:Description>
 			</cac:ContractExecutionRequirement>
 			<cac:ContractExecutionRequirement>

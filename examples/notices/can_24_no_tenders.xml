@@ -57,7 +57,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">da7ec2b4-ff04-4838-8e28-489a3b5c573c</cbc:ID>
 	<cbc:ContractFolderID>084ecda3-0409-427a-a623-1212174063da</cbc:ContractFolderID>
 	<cbc:IssueDate>2015-02-02+01:00</cbc:IssueDate>
@@ -127,6 +127,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
+			<cbc:ID>1</cbc:ID>
 			<cbc:Name languageID="ENG">foo</cbc:Name>
 			<cbc:Description languageID="ENG">foo</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

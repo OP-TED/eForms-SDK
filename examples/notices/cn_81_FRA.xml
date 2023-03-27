@@ -69,7 +69,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">866bf88e-f381-45c8-a085-43a6148d0ab7</cbc:ID>
 	<cbc:ContractFolderID>82c626cc-83e1-4644-9cf1-6ed82b3e3dbc</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
@@ -244,7 +244,7 @@ En tout état de cause, le mandataire doit être solidaire de tous les membres d
 				<cbc:SubcontractingConditionsCode listName="subcontracting-obligation">subc-chng</cbc:SubcontractingConditionsCode>
 			</cac:AllowedSubcontractTerms>
 			<cac:ContractExecutionRequirement>
-				<cbc:ExecutionRequirementCode listName="conditions">yes</cbc:ExecutionRequirementCode>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
 				<cbc:Description languageID="FRA">
 					Ce marché est un marché « Confidentiel défense — CD » au sens de l’arrêté du 30.11.2011 portant approbation de l’instruction générale interministérielle no 1300 sur la protection du secret de la défense nationale. Ce marché donne accès à des informations classifiées intéressant la défense nationale. Il ne nécessite pas la détention d’informations et/ou de supports classifiés « Confidentiel défense — CD » par le titulaire dans ses locaux.
 					En conséquence, le dossier de candidature doit contenir sous enveloppe séparée:

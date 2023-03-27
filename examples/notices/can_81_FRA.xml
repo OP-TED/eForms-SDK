@@ -295,7 +295,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">f71da99f-763b-43bd-a1bb-f54bf9560fd6</cbc:ID>
 	<!--BT-04-->
@@ -501,6 +501,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
+			<cbc:ID>1</cbc:ID>
 			<cbc:Name languageID="FRA">
 			Assistance à maîtrise d’œuvre en suivi de réalisation dans le cadre du projet de construction d’un poste de garde et d’un parking sur plusieurs niveaux sur le site CEA de Cadarache pour le compte du CEA DAM
 		</cbc:Name>

@@ -323,6 +323,14 @@ cbc:AuctionConstraintIndicator</svrl:diagnostic-reference>
       <svrl:diagnostic-reference diagnostic="BT-21-Lot" see="field:BT-21-Lot">
 cbc:Name</svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-00022-0189"
+                       location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cbc:ID) &gt; 0">
+      <svrl:text>rule|text|BR-BT-00022-0189</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-22-Lot" see="field:BT-22-Lot">
+cbc:ID</svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00023-0138"
                        location="/ContractAwardNotice/cac:ProcurementProjectLot/cac:ProcurementProject"
                        role="ERROR"
