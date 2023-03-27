@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00.-->
+<!--File generated from metadata database version 1.6.69 created on the 2023-03-27T16:18:56.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -90,8 +90,8 @@
 		<diagnostic id="BT-144-LotResult" see="field:BT-144-LotResult">efac:DecisionReason/efbc:DecisionReasonCode</diagnostic>
 		<diagnostic id="BT-145-Contract" see="field:BT-145-Contract">cbc:IssueDate</diagnostic>
 		<diagnostic id="BT-1451-Contract" see="field:BT-1451-Contract">cbc:AwardDate</diagnostic>
-		<diagnostic id="BT-15-Lot" see="field:BT-15-Lot">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
-		<diagnostic id="BT-15-Part" see="field:BT-15-Part">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
+		<diagnostic id="BT-15-Lot" see="field:BT-15-Lot">cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI</diagnostic>
+		<diagnostic id="BT-15-Part" see="field:BT-15-Part">cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="BT-150-Contract" see="field:BT-150-Contract">efac:ContractReference/cbc:ID</diagnostic>
 		<diagnostic id="BT-1501_n_-Contract" see="field:BT-1501(n)-Contract">efbc:ChangedNoticeIdentifier</diagnostic>
 		<diagnostic id="BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efbc:ChangedSectionIdentifier</diagnostic>
@@ -459,8 +459,8 @@
 		<diagnostic id="BT-610-Procedure-Buyer" see="field:BT-610-Procedure-Buyer">cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']</diagnostic>
 		<diagnostic id="BT-6110-Contract" see="field:BT-6110-Contract">cbc:Description</diagnostic>
 		<diagnostic id="BT-6140-Lot" see="field:BT-6140-Lot">cbc:Description</diagnostic>
-		<diagnostic id="BT-615-Lot" see="field:BT-615-Lot">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
-		<diagnostic id="BT-615-Part" see="field:BT-615-Part">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
+		<diagnostic id="BT-615-Lot" see="field:BT-615-Lot">cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI</diagnostic>
+		<diagnostic id="BT-615-Part" see="field:BT-615-Part">cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="BT-625-Lot" see="field:BT-625-Lot">cbc:EstimatedOverallContractQuantity/@unitCode</diagnostic>
 		<diagnostic id="BT-63-Lot" see="field:BT-63-Lot">cbc:VariantConstraintCode</diagnostic>
 		<diagnostic id="BT-630_d_-Lot" see="field:BT-630(d)-Lot">cbc:EndDate</diagnostic>
