@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.6.71 created on the 2023-03-27T17:27:44-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>WinnerSelectionStatus</ShortName>
       <LongName>winner-selection-status</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/winner-selection-status</LongName>
-      <Version>20220316-0</Version>
+      <Version>20230315-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/winner-selection-status</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -149,7 +149,7 @@
             <SimpleValue>No se ha escogido a ningún ganador y la licitación está cerrada.</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Edukas pakkuja on välja valitud ja hange lõpetatud.</SimpleValue>
+            <SimpleValue>Edukat pakkujat välja ei valitud ja hange on lõpetatud.</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Voittajaa ei valittu ja kilpailu on suljettu.</SimpleValue>
