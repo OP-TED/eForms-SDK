@@ -162,6 +162,11 @@
     "description" : "List of codes used to specify the main and additional natures of a purchase",
     "_label" : "codelist|name|contract-nature"
   }, {
+    "id" : "corporate-body",
+    "filename" : "corporate-body.gc",
+    "description" : "The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.",
+    "_label" : "codelist|name|corporate-body"
+  }, {
     "id" : "corr",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_corr.gc",
