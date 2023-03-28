@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.7.0",
   "metadataDatabase" : {
-    "version" : "1.6.75",
-    "createdOn" : "2023-03-28T12:07:31"
+    "version" : "1.6.76",
+    "createdOn" : "2023-03-28T16:40:43"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -415,7 +415,7 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion",
     "xpathRelative" : "cac:AwardingCriterion",
     "xsdSequenceOrder" : [ { "cac:AwardingCriterion" : 12 } ],
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-LotAwardCriterion",
     "parentId" : "ND-LotAwardCriteria",
@@ -718,7 +718,7 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion",
     "xpathRelative" : "cac:AwardingCriterion",
     "xsdSequenceOrder" : [ { "cac:AwardingCriterion" : 12 } ],
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-LotsGroupAwardCriterion",
     "parentId" : "ND-LotsGroupAwardCriteria",
