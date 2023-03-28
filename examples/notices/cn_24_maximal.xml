@@ -1164,7 +1164,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-776-->
-				<cbc:ProcurementTypeCode listName="innovative-acquisition">buy-eff</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="innovative-acquisition">proc-innov</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-06-->
@@ -1714,7 +1714,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-776-->
-				<cbc:ProcurementTypeCode listName="innovative-acquisition">buy-eff</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="innovative-acquisition">proc-innov</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--BT-06-->
