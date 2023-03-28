@@ -355,7 +355,7 @@ cbc:Name</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:VariantConstraintCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']/cac:Attachment/cac:ExternalReference/cbc:URI"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']"/>
@@ -403,7 +403,7 @@ cbc:Name</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:VariantConstraintCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]/cac:Attachment/cac:ExternalReference/cbc:URI"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]"/>
    <svrl:failed-assert id="BR-BT-00708-0102"
@@ -412,7 +412,7 @@ cbc:Name</svrl:diagnostic-reference>
                        test="normalize-space(.) = ('AFR', 'AMH', 'ARA', 'ARO', 'AYM', 'AYO', 'AZE', 'BEL', 'BEN', 'BIS', 'BOD', 'BOS', 'BRE', 'BRG', 'BUL', 'CAL', 'CAO', 'CAS', 'CAT', 'CAV', 'CAW', 'CAX', 'CAZ', 'CES', 'CHA', 'CKB', 'CMN', 'CNR', 'COR', 'COS', 'CRS', 'CYB', 'CYM', 'DAN', 'DEU', 'DIV', 'DZO', 'ELL', 'ENG', 'EPO', 'ESE', 'EST', 'EUS', 'EWE', 'FAO', 'FAS', 'FIJ', 'FIL', 'FIN', 'FRA', 'FRY', 'GLA', 'GLE', 'GLG', 'GLV', 'GRN', 'GUG', 'GYR', 'HAT', 'HBS', 'HCA', 'HEB', 'HIF', 'HIN', 'HMO', 'HRV', 'HSB', 'HUN', 'HYE', 'IBO', 'IGN', 'INA', 'IND', 'ISL', 'ITA', 'ITE', 'ITO', 'JPN', 'KAL', 'KAT', 'KAZ', 'KHM', 'KIN', 'KIR', 'KMR', 'KON', 'KOR', 'KUR', 'KXD', 'LAO', 'LAT', 'LAV', 'LEC', 'LIN', 'LIT', 'LTZ', 'LUA', 'MAH', 'MAN', 'MIN', 'MIS', 'MKD', 'MLG', 'MLT', 'MNK', 'MOL', 'MON', 'MPD', 'MRI', 'MSA', 'MTP', 'MUL', 'MYA', 'MZP', 'NAU', 'NBL', 'NEP', 'NIU', 'NLD', 'NNO', 'NOB', 'NOR', 'NSO', 'NYA', 'OCI', 'OSS', 'PAN', 'PAP', 'PAU', 'PCP', 'PIH', 'POL', 'POR', 'PRS', 'PSM', 'PUQ', 'PUS', 'QUE', 'RAR', 'REY', 'ROH', 'ROM', 'RON', 'RUN', 'RUS', 'SAG', 'SCO', 'SDH', 'SIN', 'SIP', 'SLK', 'SLV', 'SME', 'SMO', 'SOM', 'SOT', 'SPA', 'SQI', 'SRP', 'SRQ', 'SSW', 'SWA', 'SWB', 'SWE', 'TAM', 'TET', 'TGK', 'THA', 'TIR', 'TKL', 'TNA', 'TNO', 'TON', 'TPI', 'TPJ', 'TRN', 'TSN', 'TSO', 'TUK', 'TUR', 'TVL', 'UKR', 'UND', 'URD', 'URE', 'UZB', 'VEN', 'VIE', 'VLS', 'WLN', 'WOL', 'XHO', 'YAA', 'YID', 'YUE', 'YUQ', 'YUZ', 'ZHO', 'ZLM', 'ZUL', 'ZXX')">
       <svrl:text>rule|text|BR-BT-00708-0102</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']/cac:Attachment/cac:ExternalReference/cbc:URI"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI"/>
    <svrl:failed-assert id="BR-BT-00615-0112"
                        location="/ContractNotice/cac:ProcurementProjectLot[2]/cac:TenderingTerms/cac:CallForTendersDocumentReference[2]/cac:Attachment/cac:ExternalReference/cbc:URI"
                        role="ERROR"
@@ -446,6 +446,11 @@ cbc:Name</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4" name="EFORMS-validation-stage-4"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5" name="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
@@ -460,14 +465,6 @@ cbc:Name</svrl:diagnostic-reference>
    <svrl:fired-rule context="/*/cac:TenderingProcess"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']"/>
-   <svrl:failed-assert id="BR-BT-00137-0200"
-                       location="/ContractNotice/cac:ProcurementProjectLot[1]"
-                       role="ERROR"
-                       test="(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','E4') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'sui-act') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'ef-stand') and (cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'tp-abil')) or ((../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = 'E4') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'sui-act') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'ef-stand') and not(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:CriterionTypeCode[@listName='selection-criterion']/normalize-space(text()) = 'tp-abil')) or (not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','E4')))">
-      <svrl:text>rule|text|BR-BT-00137-0200</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-137-Lot" see="field:BT-137-Lot">
-cbc:ID</svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms"/>
    <svrl:failed-assert id="BR-BT-00743-0100"
                        location="/ContractNotice/cac:ProcurementProjectLot[1]/cac:TenderingTerms"
