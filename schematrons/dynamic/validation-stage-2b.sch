@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.6.68 created on the 2023-03-27T16:15:51.-->
+<!--File generated from metadata database version 1.6.101 created on the 2023-03-28T17:13:18.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -1017,7 +1017,7 @@
 		<assert id="BT-197_BT-156_-NoticeResult_R" role="ERROR" diagnostics="BT-197_BT-156_-NoticeResult" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-156_-NoticeResult_R</assert>
 		<assert id="BT-198_BT-156_-NoticeResult_R" role="ERROR" diagnostics="BT-198_BT-156_-NoticeResult" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-156_-NoticeResult_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']">
 		<assert id="BT-195_BT-1561_-NoticeResult_R" role="ERROR" diagnostics="BT-195_BT-1561_-NoticeResult" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-1561_-NoticeResult_R</assert>
 		<assert id="BT-196_BT-1561_-NoticeResult_A" role="ERROR" diagnostics="BT-196_BT-1561_-NoticeResult" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-1561_-NoticeResult_A</assert>
 		<assert id="BT-196_BT-1561_-NoticeResult_B" role="ERROR" diagnostics="BT-196_BT-1561_-NoticeResult" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-1561_-NoticeResult_B</assert>
@@ -1109,6 +1109,14 @@
 		<assert id="BT-196_BT-709_-LotResult_C" role="ERROR" diagnostics="BT-196_BT-709_-LotResult" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-709_-LotResult_C</assert>
 		<assert id="BT-197_BT-709_-LotResult_R" role="ERROR" diagnostics="BT-197_BT-709_-LotResult" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-709_-LotResult_R</assert>
 		<assert id="BT-198_BT-709_-LotResult_R" role="ERROR" diagnostics="BT-198_BT-709_-LotResult" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-709_-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']">
+		<assert id="BT-195_BT-660_-LotResult_R" role="ERROR" diagnostics="BT-195_BT-660_-LotResult" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-660_-LotResult_R</assert>
+		<assert id="BT-196_BT-660_-LotResult_A" role="ERROR" diagnostics="BT-196_BT-660_-LotResult" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-660_-LotResult_A</assert>
+		<assert id="BT-196_BT-660_-LotResult_B" role="ERROR" diagnostics="BT-196_BT-660_-LotResult" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-660_-LotResult_B</assert>
+		<assert id="BT-196_BT-660_-LotResult_C" role="ERROR" diagnostics="BT-196_BT-660_-LotResult" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-660_-LotResult_C</assert>
+		<assert id="BT-197_BT-660_-LotResult_R" role="ERROR" diagnostics="BT-197_BT-660_-LotResult" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-660_-LotResult_R</assert>
+		<assert id="BT-198_BT-660_-LotResult_R" role="ERROR" diagnostics="BT-198_BT-660_-LotResult" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-660_-LotResult_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics">
 		<assert id="BT-759-LotResult_R" role="ERROR" diagnostics="BT-759-LotResult" test="count(efbc:StatisticsNumeric) &lt; 2">rule|text|BT-759-LotResult_R</assert>
@@ -1469,7 +1477,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea']/efbc:ReasonDescription">
 		<assert id="BT-196_BT-144_-LotResult_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-144_-LotResult_D</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']/efbc:ReasonDescription">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']/efbc:ReasonDescription">
 		<assert id="BT-196_BT-1561_-NoticeResult_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-1561_-NoticeResult_D</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val']/efbc:ReasonDescription">
@@ -1555,6 +1563,9 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-typ']/efbc:ReasonDescription">
 		<assert id="BT-196_BT-636_-LotResult_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-636_-LotResult_D</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']/efbc:ReasonDescription">
+		<assert id="BT-196_BT-660_-LotResult_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-660_-LotResult_D</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val']/efbc:ReasonDescription">
 		<assert id="BT-196_BT-709_-LotResult_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-709_-LotResult_D</assert>
