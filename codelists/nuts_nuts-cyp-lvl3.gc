@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.6.74 created on the 2023-03-28T11:17:29-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsCypLvl3</ShortName>
       <LongName>nuts-cyp-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.6.74</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -126,10 +126,10 @@
             <SimpleValue>CY000</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κύπρος (Kypros)</SimpleValue>
+            <SimpleValue>Κύπρος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κύπρος (Kypros)</SimpleValue>
+            <SimpleValue>Κύπρος</SimpleValue>
          </Value>
       </Row>
       <Row>
