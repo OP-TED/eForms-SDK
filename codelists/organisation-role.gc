@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.6.74 created on the 2023-03-28T11:17:29-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>OrganisationRole</ShortName>
       <LongName>organisation-role</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/organisation-role</LongName>
-      <Version>20220928-0</Version>
+      <Version>20230322-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/organisation-role</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -1317,7 +1317,7 @@
             <SimpleValue>Zmagovalec</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Verklig ägare</SimpleValue>
+            <SimpleValue>Vinnare</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
