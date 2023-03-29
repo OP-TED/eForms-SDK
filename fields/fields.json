@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.7.0",
   "metadataDatabase" : {
-    "version" : "1.6.103",
-    "createdOn" : "2023-03-29T11:56:30"
+    "version" : "1.6.105",
+    "createdOn" : "2023-03-29T13:33:22"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -1171,6 +1171,13 @@
     "xsdSequenceOrder" : [ { "efac:Change" : 2 } ],
     "repeatable" : true
   }, {
+    "id" : "ND-ChangedSection",
+    "parentId" : "ND-Change",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efac:ChangedSection",
+    "xpathRelative" : "efac:ChangedSection",
+    "xsdSequenceOrder" : [ { "efac:ChangedSection" : 4 } ],
+    "repeatable" : true
+  }, {
     "id" : "ND-ChangeReason",
     "parentId" : "ND-Changes",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason",
@@ -1189,6 +1196,13 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change",
     "xpathRelative" : "efac:Change",
     "xsdSequenceOrder" : [ { "efac:Change" : 2 } ],
+    "repeatable" : true
+  }, {
+    "id" : "ND-ModifiedSection",
+    "parentId" : "ND-Modification",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection",
+    "xpathRelative" : "efac:ChangedSection",
+    "xsdSequenceOrder" : [ { "efac:ChangedSection" : 4 } ],
     "repeatable" : true
   }, {
     "id" : "ND-ModificationReason",
@@ -3753,16 +3767,16 @@
     }
   }, {
     "id" : "BT-13716-notice",
-    "parentNodeId" : "ND-Change",
+    "parentNodeId" : "ND-ChangedSection",
     "name" : "Change Previous Section Identifier",
     "btId" : "BT-13716",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ChangedSectionIdentifier",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier",
     "xpathRelative" : "efbc:ChangedSectionIdentifier",
     "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
     "type" : "id",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -3979,7 +3993,7 @@
     "btId" : "BT-141",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ChangeDescription",
     "xpathRelative" : "efbc:ChangeDescription",
-    "xsdSequenceOrder" : [ { "efbc:ChangeDescription" : 2 } ],
+    "xsdSequenceOrder" : [ { "efbc:ChangeDescription" : 1 } ],
     "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
@@ -4321,16 +4335,16 @@
     }
   }, {
     "id" : "BT-1501(s)-Contract",
-    "parentNodeId" : "ND-Modification",
+    "parentNodeId" : "ND-ModifiedSection",
     "name" : "Modification Previous Notice Section Identifier",
     "btId" : "BT-1501",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangedSectionIdentifier",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier",
     "xpathRelative" : "efbc:ChangedSectionIdentifier",
     "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
     "type" : "id",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -11724,7 +11738,7 @@
     "btId" : "BT-202",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangeDescription",
     "xpathRelative" : "efbc:ChangeDescription",
-    "xsdSequenceOrder" : [ { "efbc:ChangeDescription" : 2 } ],
+    "xsdSequenceOrder" : [ { "efbc:ChangeDescription" : 1 } ],
     "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
@@ -18192,7 +18206,7 @@
     "btId" : "BT-718",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ProcurementDocumentsChangeIndicator",
     "xpathRelative" : "efbc:ProcurementDocumentsChangeIndicator",
-    "xsdSequenceOrder" : [ { "efbc:ProcurementDocumentsChangeIndicator" : 4 } ],
+    "xsdSequenceOrder" : [ { "efbc:ProcurementDocumentsChangeIndicator" : 3 } ],
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "repeatable" : {
@@ -18215,7 +18229,7 @@
     "btId" : "BT-719",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ProcurementDocumentsChangeDate",
     "xpathRelative" : "efbc:ProcurementDocumentsChangeDate",
-    "xsdSequenceOrder" : [ { "efbc:ProcurementDocumentsChangeDate" : 3 } ],
+    "xsdSequenceOrder" : [ { "efbc:ProcurementDocumentsChangeDate" : 2 } ],
     "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
