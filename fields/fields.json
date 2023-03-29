@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.7.0",
   "metadataDatabase" : {
-    "version" : "1.6.76",
-    "createdOn" : "2023-03-28T16:40:43"
+    "version" : "1.6.103",
+    "createdOn" : "2023-03-29T11:56:30"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -16668,7 +16668,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-NoticeResultGroupFA} ${BT-556-NoticeResult in /BT-137-LotsGroup}",
+        "value" : "{BT-556-NoticeResult} ${BT-556-NoticeResult in /BT-137-LotsGroup}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00556-0100"
       } ]

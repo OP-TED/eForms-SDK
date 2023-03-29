@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.6.102 created on the 2023-03-29T10:00:16.-->
+<!--File generated from metadata database version 1.6.103 created on the 2023-03-29T11:56:30.-->
 <pattern id="EFORMS-validation-stage-5" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BR-BT-00002-0100" role="ERROR" diagnostics="BT-02-notice" test="((cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023') and (cbc:NoticeTypeCode/normalize-space(text()) = ('pin-cfc-social','cn-standard','veat','can-standard','can-social'))) or not(cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023')">rule|text|BR-BT-00002-0100</assert>
@@ -341,9 +341,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val']">
 		<assert id="BR-BT-00198-4012" role="ERROR" diagnostics="BT-198_BT-161_-NoticeResult" test="((../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','33','34','35','E5')) and (boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(efbc:PublicationDate/xs:date(text()) - ../../../../../../cbc:IssueDate/xs:date(text())) &lt; $T + xs:yearMonthDuration('P10Y')))) and (boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(efbc:PublicationDate/xs:date(text()) - ../../../../../../cbc:IssueDate/xs:date(text())) >= $T + xs:dayTimeDuration('P2D'))))) or not(../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','33','34','35','E5'))">rule|text|BR-BT-00198-4012</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework">
-		<assert id="BR-BT-00556-0100" role="ERROR" diagnostics="BT-556-NoticeResult" test="efac:TenderLot/cbc:ID/normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cbc:ID">rule|text|BR-BT-00556-0100</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide']">
 		<assert id="BR-BT-00198-4035" role="ERROR" diagnostics="BT-198_BT-556_-NoticeResult" test="((../../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','33','34','35','E5')) and (boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(efbc:PublicationDate/xs:date(text()) - ../../../../../../../cbc:IssueDate/xs:date(text())) &lt; $T + xs:yearMonthDuration('P10Y')))) and (boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(efbc:PublicationDate/xs:date(text()) - ../../../../../../../cbc:IssueDate/xs:date(text())) >= $T + xs:dayTimeDuration('P2D'))))) or not(../../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','33','34','35','E5'))">rule|text|BR-BT-00198-4035</assert>
 	</rule>
@@ -352,6 +349,9 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']">
 		<assert id="BR-BT-00198-4356" role="ERROR" diagnostics="BT-198_BT-1561_-NoticeResult" test="((../../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','33','34','35','E5')) and (boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(efbc:PublicationDate/xs:date(text()) - ../../../../../../../cbc:IssueDate/xs:date(text())) &lt; $T + xs:yearMonthDuration('P10Y')))) and (boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(efbc:PublicationDate/xs:date(text()) - ../../../../../../../cbc:IssueDate/xs:date(text())) >= $T + xs:dayTimeDuration('P2D'))))) or not(../../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('25','26','27','28','29','30','31','32','E4','33','34','35','E5'))">rule|text|BR-BT-00198-4356</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:TenderLot/cbc:ID">
+		<assert id="BR-BT-00556-0100" role="ERROR" test="./normalize-space(text()) = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cbc:ID">rule|text|BR-BT-00556-0100</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult">
 		<assert id="BR-BT-00710-0100" role="ERROR" diagnostics="BT-710-LotResult" test="(cbc:LowerTenderAmount/@currencyID = cbc:HigherTenderAmount/@currencyID) or not((cbc:LowerTenderAmount) and (cbc:HigherTenderAmount))">rule|text|BR-BT-00710-0100</assert>
