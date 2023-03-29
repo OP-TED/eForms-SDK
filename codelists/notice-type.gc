@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.71 created on the 2023-03-27T17:27:44-->
+<!--File generated from metadata database version 1.6.107 created on the 2023-03-29T13:50:28-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NoticeType</ShortName>
@@ -647,7 +647,7 @@
             <SimpleValue>Személyszállítási közszolgáltatási szerződés odaítélésére vonatkozó tájékoztató</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue> Avviso di aggiudicazione per i servizi di trasporto pubblico di passeggeri</SimpleValue>
+            <SimpleValue>Avviso di aggiudicazione per i servizi di trasporto pubblico di passeggeri</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Skelbimas apie viešojo keleivinio transporto paslaugų sutarties skyrimą</SimpleValue>
