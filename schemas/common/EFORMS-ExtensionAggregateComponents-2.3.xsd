@@ -33,6 +33,7 @@
 	<xsd:element name="Change" type="ChangeType"/>
 	<xsd:element name="Changes" type="ChangesType"/>
 	<xsd:element name="ChangeReason" type="ReasonType"/>
+	<xsd:element name="ChangedSection" type="ChangedSectionType"/>
 	<xsd:element name="Company" type="CompanyType"/>
 	<xsd:element name="ConcessionRevenue" type="ConcessionRevenueType"/>
 	<xsd:element name="ContractAggregatedAmounts" type="ContractAggregatedAmountsType"/>
@@ -188,10 +189,10 @@
 	</xsd:complexType>
 	<xsd:complexType name="ChangeType">
 		<xsd:sequence>
-			<xsd:element ref="efbc:ChangedSectionIdentifier" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:ChangeDescription" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:ProcurementDocumentsChangeDate" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:ProcurementDocumentsChangeIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:ChangedSection" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="ChangesType">
@@ -199,6 +200,11 @@
 			<xsd:element ref="efbc:ChangedNoticeIdentifier" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:Change" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:ChangeReason" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ChangedSectionType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:ChangedSectionIdentifier" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="CompanyType">
