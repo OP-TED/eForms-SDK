@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.6.107 created on the 2023-03-29T13:50:28.-->
+<!--File generated from metadata database version 1.6.110 created on the 2023-03-29T15:48:30.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -1468,10 +1468,10 @@
 		<assert id="BR-BT-00078-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-00078-0052</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
-		<assert id="BR-BT-00125-0154" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">rule|text|BR-BT-00125-0154</assert>
+		<assert id="BR-BT-00125-0154" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-BT-00125-0154</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
-		<assert id="BR-BT-00125-0155" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">rule|text|BR-BT-00125-0155</assert>
+		<assert id="BR-BT-00125-0155" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-BT-00125-0155</assert>
 	</rule>
 	<rule context="/*/cbc:PlannedDate">
 		<assert id="BR-BT-00127-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-00127-0052</assert>
@@ -1705,7 +1705,7 @@
 		<assert id="BR-BT-00757-0052" role="ERROR" test="matches(normalize-space(.),'^(0[1-9]|[1-9]\d)$')">rule|text|BR-BT-00757-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efbc:ChangedNoticeIdentifier">
-		<assert id="BR-BT-00758-0052" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">rule|text|BR-BT-00758-0052</assert>
+		<assert id="BR-BT-00758-0052" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-BT-00758-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealedItem/cbc:ID">
 		<assert id="BR-BT-00786-0051" role="ERROR" test="matches(normalize-space(.),'^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG)-\d{4}))$')">rule|text|BR-BT-00786-0051</assert>
@@ -1741,7 +1741,7 @@
 		<assert id="BR-BT-01451-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-01451-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier">
-		<assert id="BR-BT-01501-0102" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">rule|text|BR-BT-01501-0102</assert>
+		<assert id="BR-BT-01501-0102" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-BT-01501-0102</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID">
 		<assert id="BR-BT-03202-0051" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-BT-03202-0051</assert>
@@ -1756,7 +1756,7 @@
 		<assert id="BR-BT-13716-0051" role="ERROR" test="matches(normalize-space(.),'^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG)-\d{4}))$')">rule|text|BR-BT-13716-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Publication/efbc:NoticePublicationID[@schemeName='ojs-notice-id']">
-		<assert id="BR-OPP-00010-0052" role="ERROR" test="matches(normalize-space(.),'^[1-9](\d{0,7})-(19|20)\d\d$')">rule|text|BR-OPP-00010-0052</assert>
+		<assert id="BR-OPP-00010-0052" role="ERROR" test="matches(normalize-space(.),'^(\d{1,8})-(19|20)\d\d$')">rule|text|BR-OPP-00010-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Publication/efbc:GazetteID[@schemeName='ojs-id']">
 		<assert id="BR-OPP-00011-0052" role="ERROR" test="matches(normalize-space(.),'^[1-9]\d{0,2}/(19|20)\d\d$')">rule|text|BR-OPP-00011-0052</assert>
@@ -1765,7 +1765,7 @@
 		<assert id="BR-OPP-00012-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-OPP-00012-0052</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
-		<assert id="BR-OPP-00090-0051" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">rule|text|BR-OPP-00090-0051</assert>
+		<assert id="BR-OPP-00090-0051" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-OPP-00090-0051</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cbc:RegistrationDate">
 		<assert id="BR-OPP-00113-0052" role="ERROR" test="matches(normalize-space(.),'^(?:(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\d)\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-OPP-00113-0052</assert>
@@ -1780,7 +1780,7 @@
 		<assert id="BR-OPT-00002-0052" role="ERROR" test="matches(normalize-space(.),'^eforms-sdk-\d\.\d$')">rule|text|BR-OPT-00002-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:NoticeDocumentReference/cbc:ID">
-		<assert id="BR-OPT-00100-0052" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|[1-9](\d{0,7})-(19|20)\d\d)$')">rule|text|BR-OPT-00100-0052</assert>
+		<assert id="BR-OPT-00100-0052" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-OPT-00100-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00200-0051" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00200-0051</assert>
