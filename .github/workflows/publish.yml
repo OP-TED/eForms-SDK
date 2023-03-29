@@ -1,6 +1,10 @@
 name: Publish package to the Maven Central Repository
 
 on:
+  push:
+    branches:
+      - 'develop'
+
   release:
     types: [created]
 
