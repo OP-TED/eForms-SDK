@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.6.110 created on the 2023-03-29T15:48:30.-->
+<!--File generated from metadata database version 1.6.115 created on the 2023-03-29T17:56:09.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -69,7 +69,7 @@
 		<assert id="BR-BT-00065-0051" role="ERROR" test="normalize-space(.) = ('none', 'subc-chng', 'subc-min', 'subc-oblig-2009-81')">rule|text|BR-BT-00065-0051</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='exclusion-ground']">
-		<assert id="BR-BT-00067-0104" role="ERROR" test="normalize-space(.) = ('bankr-nat', 'bankruptcy', 'corruption', 'cred-arran', 'crime-org', 'distorsion', 'envir-law', 'finan-laund', 'fraud', 'human-traffic', 'insolvency', 'labour-law', 'liq-admin', 'misinterpr', 'nati-ground', 'partic-confl', 'prep-confl', 'prof-misconduct', 'sanction', 'socsec-law', 'socsec-pay', 'susp-act', 'tax-pay', 'terr-offence')">rule|text|BR-BT-00067-0104</assert>
+		<assert id="BR-BT-00067-0104" role="ERROR" test="normalize-space(.) = ('bankr-nat', 'bankruptcy', 'corruption', 'cred-arran', 'crime-org', 'distorsion', 'envir-law', 'finan-laund', 'fraud', 'human-traffic', 'insolvency', 'labour-law', 'liq-admin', 'misrepresent', 'nati-ground', 'partic-confl', 'prep-confl', 'prof-misconduct', 'sanction', 'socsec-law', 'socsec-pay', 'susp-act', 'tax-pay', 'terr-offence')">rule|text|BR-BT-00067-0104</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']">
 		<assert id="BR-BT-00071-0101" role="ERROR" test="normalize-space(.) = ('none', 'res-pub-ser', 'res-ws')">rule|text|BR-BT-00071-0101</assert>

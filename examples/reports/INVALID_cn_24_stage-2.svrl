@@ -592,7 +592,7 @@
    <svrl:failed-assert id="BR-BT-00067-0104"
                        location="/ContractNotice/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode"
                        role="ERROR"
-                       test="normalize-space(.) = ('bankr-nat', 'bankruptcy', 'corruption', 'cred-arran', 'crime-org', 'distorsion', 'envir-law', 'finan-laund', 'fraud', 'human-traffic', 'insolvency', 'labour-law', 'liq-admin', 'misinterpr', 'nati-ground', 'partic-confl', 'prep-confl', 'prof-misconduct', 'sanction', 'socsec-law', 'socsec-pay', 'susp-act', 'tax-pay', 'terr-offence')">
+                       test="normalize-space(.) = ('bankr-nat', 'bankruptcy', 'corruption', 'cred-arran', 'crime-org', 'distorsion', 'envir-law', 'finan-laund', 'fraud', 'human-traffic', 'insolvency', 'labour-law', 'liq-admin', 'misrepresent', 'nati-ground', 'partic-confl', 'prep-confl', 'prof-misconduct', 'sanction', 'socsec-law', 'socsec-pay', 'susp-act', 'tax-pay', 'terr-offence')">
       <svrl:text>rule|text|BR-BT-00067-0104</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:Description"/>
