@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.6.0",
+  "sdkVersion" : "1.7.0",
   "metadataDatabase" : {
-    "version" : "1.6.0",
-    "createdOn" : "2023-02-23T10:00:00"
+    "version" : "1.6.121",
+    "createdOn" : "2023-03-31T10:57:28"
   },
   "noticeId" : "23",
   "metadata" : [ {
@@ -1072,7 +1072,6 @@
         "displayType" : "GROUP",
         "description" : "Award Criteria related information (Description, Justification, Individual Criterion …) for a Lot",
         "_label" : "group|name|ND-LotAwardCriteria",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "GR-Lot-AwardCriteria-Criterion",
           "contentType" : "group",
@@ -1669,7 +1668,6 @@
         "displayType" : "GROUP",
         "description" : "Award Criteria related information (Description, Justification, Individual Criterion …) for a Group of Lots",
         "_label" : "group|name|ND-LotsGroupAwardCriteria",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "GR-LotsGroup-AwardCriteria-Criterion",
           "contentType" : "group",
@@ -1704,6 +1702,7 @@
               "displayType" : "GROUP",
               "description" : "Group of Lots Award Criterion Parameter (Value and associated Code)",
               "_label" : "group|name|ND-LotsGroupAwardCriterionParameter",
+              "_repeatable" : true,
               "content" : [ {
                 "id" : "BT-541-LotsGroup",
                 "contentType" : "field",
@@ -1787,12 +1786,20 @@
       "_label" : "group|name|ND-Change",
       "_repeatable" : true,
       "content" : [ {
-        "id" : "BT-13716-notice",
-        "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Change Previous Section Identifier",
-        "_label" : "field|name|BT-13716-notice",
-        "_repeatable" : true
+        "id" : "GR-ChangedSectionIdentifiers",
+        "contentType" : "group",
+        "nodeId" : "ND-ChangedSection",
+        "displayType" : "GROUP",
+        "description" : "Section subject to change",
+        "_label" : "group|name|ND-ChangedSection",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-13716-notice",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Change Previous Section Identifier",
+          "_label" : "field|name|BT-13716-notice"
+        } ]
       }, {
         "id" : "BT-141(a)-notice",
         "contentType" : "field",
@@ -1846,12 +1853,6 @@
           "_idScheme" : "ORG",
           "_schemeName" : "organization",
           "hidden" : true
-        }, {
-          "id" : "BT-633-Organization",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Organisation Natural Person",
-          "_label" : "field|name|BT-633-Organization"
         }, {
           "id" : "GR-Company",
           "contentType" : "group",

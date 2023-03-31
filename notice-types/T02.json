@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.6.0",
+  "sdkVersion" : "1.7.0",
   "metadataDatabase" : {
-    "version" : "1.6.0",
-    "createdOn" : "2023-02-17T12:00:00"
+    "version" : "1.6.121",
+    "createdOn" : "2023-03-31T10:57:28"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -1275,12 +1275,20 @@
       "_label" : "group|name|ND-Change",
       "_repeatable" : true,
       "content" : [ {
-        "id" : "BT-13716-notice",
-        "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Change Previous Section Identifier",
-        "_label" : "field|name|BT-13716-notice",
-        "_repeatable" : true
+        "id" : "GR-ChangedSectionIdentifiers",
+        "contentType" : "group",
+        "nodeId" : "ND-ChangedSection",
+        "displayType" : "GROUP",
+        "description" : "Section subject to change",
+        "_label" : "group|name|ND-ChangedSection",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-13716-notice",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Change Previous Section Identifier",
+          "_label" : "field|name|BT-13716-notice"
+        } ]
       }, {
         "id" : "BT-141(a)-notice",
         "contentType" : "field",
@@ -1334,12 +1342,6 @@
           "_idScheme" : "ORG",
           "_schemeName" : "organization",
           "hidden" : true
-        }, {
-          "id" : "BT-633-Organization",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Organisation Natural Person",
-          "_label" : "field|name|BT-633-Organization"
         }, {
           "id" : "GR-Company",
           "contentType" : "group",
@@ -1478,6 +1480,12 @@
           "description" : "Economic Operator Exclusive",
           "_label" : "group|name|GR-Company-EconomicOperatorExclusive",
           "content" : [ {
+            "id" : "BT-633-Organization",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Organisation Natural Person",
+            "_label" : "field|name|BT-633-Organization"
+          }, {
             "id" : "OPT-302-Organization",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
@@ -1485,6 +1493,12 @@
             "_label" : "field|name|OPT-302-Organization",
             "_idSchemes" : [ "UBO" ],
             "_repeatable" : true
+          }, {
+            "id" : "BT-165-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Winner Size",
+            "_label" : "field|name|BT-165-Organization-Company"
           }, {
             "id" : "BT-746-Organization",
             "contentType" : "field",
