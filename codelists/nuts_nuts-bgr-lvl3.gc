@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.6.74 created on the 2023-03-28T11:17:29-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsBgrLvl3</ShortName>
       <LongName>nuts-bgr-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.6.74</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -126,10 +126,10 @@
             <SimpleValue>BG311</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Видин (Vidin)</SimpleValue>
+            <SimpleValue>Видин</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Видин (Vidin)</SimpleValue>
+            <SimpleValue>Видин</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,10 +137,10 @@
             <SimpleValue>BG312</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Монтана (Montana)</SimpleValue>
+            <SimpleValue>Монтана</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Монтана (Montana)</SimpleValue>
+            <SimpleValue>Монтана</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,10 +148,10 @@
             <SimpleValue>BG313</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Враца (Vratsa)</SimpleValue>
+            <SimpleValue>Враца</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Враца (Vratsa)</SimpleValue>
+            <SimpleValue>Враца</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,10 +159,10 @@
             <SimpleValue>BG314</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Плевен (Pleven)</SimpleValue>
+            <SimpleValue>Плевен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Плевен (Pleven)</SimpleValue>
+            <SimpleValue>Плевен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,10 +170,10 @@
             <SimpleValue>BG315</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ловеч (Lovech)</SimpleValue>
+            <SimpleValue>Ловеч</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ловеч (Lovech)</SimpleValue>
+            <SimpleValue>Ловеч</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,10 +181,10 @@
             <SimpleValue>BG321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Велико Търново (Veliko Tarnovo)</SimpleValue>
+            <SimpleValue>Велико Търново</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Велико Търново (Veliko Tarnovo)</SimpleValue>
+            <SimpleValue>Велико Търново</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -192,10 +192,10 @@
             <SimpleValue>BG322</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Габрово (Gabrovo)</SimpleValue>
+            <SimpleValue>Габрово</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Габрово (Gabrovo)</SimpleValue>
+            <SimpleValue>Габрово</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -203,10 +203,10 @@
             <SimpleValue>BG323</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Русе (Ruse)</SimpleValue>
+            <SimpleValue>Русе</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Русе (Ruse)</SimpleValue>
+            <SimpleValue>Русе</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -214,10 +214,10 @@
             <SimpleValue>BG324</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Разград (Razgrad)</SimpleValue>
+            <SimpleValue>Разград</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Разград (Razgrad)</SimpleValue>
+            <SimpleValue>Разград</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -225,10 +225,10 @@
             <SimpleValue>BG325</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Силистра (Silistra)</SimpleValue>
+            <SimpleValue>Силистра</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Силистра (Silistra)</SimpleValue>
+            <SimpleValue>Силистра</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -236,10 +236,10 @@
             <SimpleValue>BG331</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Варна (Varna)</SimpleValue>
+            <SimpleValue>Варна</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Варна (Varna)</SimpleValue>
+            <SimpleValue>Варна</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -247,10 +247,10 @@
             <SimpleValue>BG332</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Добрич (Dobrich)</SimpleValue>
+            <SimpleValue>Добрич</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Добрич (Dobrich)</SimpleValue>
+            <SimpleValue>Добрич</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -258,10 +258,10 @@
             <SimpleValue>BG333</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Шумен (Shumen)</SimpleValue>
+            <SimpleValue>Шумен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Шумен (Shumen)</SimpleValue>
+            <SimpleValue>Шумен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -269,10 +269,10 @@
             <SimpleValue>BG334</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Търговище (Targovishte)</SimpleValue>
+            <SimpleValue>Търговище</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Търговище (Targovishte)</SimpleValue>
+            <SimpleValue>Търговище</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -280,10 +280,10 @@
             <SimpleValue>BG341</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Бургас (Burgas)</SimpleValue>
+            <SimpleValue>Бургас</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Бургас (Burgas)</SimpleValue>
+            <SimpleValue>Бургас</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -291,10 +291,10 @@
             <SimpleValue>BG342</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Сливен (Sliven)</SimpleValue>
+            <SimpleValue>Сливен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Сливен (Sliven)</SimpleValue>
+            <SimpleValue>Сливен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -302,10 +302,10 @@
             <SimpleValue>BG343</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ямбол (Yambol)</SimpleValue>
+            <SimpleValue>Ямбол</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ямбол (Yambol)</SimpleValue>
+            <SimpleValue>Ямбол</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -313,10 +313,10 @@
             <SimpleValue>BG344</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Стара Загора (Stara Zagora)</SimpleValue>
+            <SimpleValue>Стара Загора</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Стара Загора (Stara Zagora)</SimpleValue>
+            <SimpleValue>Стара Загора</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -324,10 +324,10 @@
             <SimpleValue>BG411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>София (столица) (Sofia (stolitsa))</SimpleValue>
+            <SimpleValue>София (столица)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>София (столица) (Sofia (stolitsa))</SimpleValue>
+            <SimpleValue>София (столица)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -335,10 +335,10 @@
             <SimpleValue>BG412</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>София (Sofia)</SimpleValue>
+            <SimpleValue>София</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>София (Sofia)</SimpleValue>
+            <SimpleValue>София</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -346,10 +346,10 @@
             <SimpleValue>BG413</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Благоевград (Blagoevgrad)</SimpleValue>
+            <SimpleValue>Благоевград</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Благоевград (Blagoevgrad)</SimpleValue>
+            <SimpleValue>Благоевград</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -357,10 +357,10 @@
             <SimpleValue>BG414</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Перник (Pernik)</SimpleValue>
+            <SimpleValue>Перник</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Перник (Pernik)</SimpleValue>
+            <SimpleValue>Перник</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -368,10 +368,10 @@
             <SimpleValue>BG415</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Кюстендил (Kyustendil)</SimpleValue>
+            <SimpleValue>Кюстендил</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Кюстендил (Kyustendil)</SimpleValue>
+            <SimpleValue>Кюстендил</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -379,10 +379,10 @@
             <SimpleValue>BG421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пловдив (Plovdiv)</SimpleValue>
+            <SimpleValue>Пловдив</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пловдив (Plovdiv)</SimpleValue>
+            <SimpleValue>Пловдив</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -390,10 +390,10 @@
             <SimpleValue>BG422</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Хасково (Haskovo)</SimpleValue>
+            <SimpleValue>Хасково</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Хасково (Haskovo)</SimpleValue>
+            <SimpleValue>Хасково</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -401,10 +401,10 @@
             <SimpleValue>BG423</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пазарджик (Pazardzhik)</SimpleValue>
+            <SimpleValue>Пазарджик</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пазарджик (Pazardzhik)</SimpleValue>
+            <SimpleValue>Пазарджик</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -412,10 +412,10 @@
             <SimpleValue>BG424</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Смолян (Smolyan)</SimpleValue>
+            <SimpleValue>Смолян</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Смолян (Smolyan)</SimpleValue>
+            <SimpleValue>Смолян</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -423,10 +423,10 @@
             <SimpleValue>BG425</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Кърджали (Kardzhali)</SimpleValue>
+            <SimpleValue>Кърджали</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Кърджали (Kardzhali)</SimpleValue>
+            <SimpleValue>Кърджали</SimpleValue>
          </Value>
       </Row>
       <Row>

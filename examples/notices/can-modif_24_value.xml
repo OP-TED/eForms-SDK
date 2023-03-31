@@ -9,8 +9,10 @@
 					<efac:ContractModification>
 						<efbc:ChangedNoticeIdentifier>342558-2018</efbc:ChangedNoticeIdentifier>
 						<efac:Change>
-							<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
 							<efbc:ChangeDescription languageID="ENG">Increase in framework value</efbc:ChangeDescription>
+							<efac:ChangedSection>
+								<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
+							</efac:ChangedSection>
 						</efac:Change>
 						<efac:ChangeReason>
 							<cbc:ReasonCode listName="modification-justification">add-wss</cbc:ReasonCode>

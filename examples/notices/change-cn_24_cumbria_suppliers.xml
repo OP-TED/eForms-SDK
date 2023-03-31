@@ -9,16 +9,20 @@
 					<efac:Changes>
 						<efbc:ChangedNoticeIdentifier>6bc75979-ce6c-46eb-81a6-eee543697dec-01</efbc:ChangedNoticeIdentifier>
 						<efac:Change>
-							<efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
 							<efbc:ChangeDescription languageID="ENG">Short description modified</efbc:ChangeDescription>
 							<efbc:ProcurementDocumentsChangeDate>2020-04-14+02:00</efbc:ProcurementDocumentsChangeDate>
 							<efbc:ProcurementDocumentsChangeIndicator>true</efbc:ProcurementDocumentsChangeIndicator>
+							<efac:ChangedSection>
+								<efbc:ChangedSectionIdentifier>PROCEDURE</efbc:ChangedSectionIdentifier>
+							</efac:ChangedSection>
 						</efac:Change>
 						<efac:Change>
-							<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
 							<efbc:ChangeDescription languageID="ENG">Description of the procurement modified</efbc:ChangeDescription>
 							<efbc:ProcurementDocumentsChangeDate>2020-04-14+02:00</efbc:ProcurementDocumentsChangeDate>
 							<efbc:ProcurementDocumentsChangeIndicator>true</efbc:ProcurementDocumentsChangeIndicator>
+							<efac:ChangedSection>
+								<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
+							</efac:ChangedSection>
 						</efac:Change>
 						<efac:ChangeReason>
 							<cbc:ReasonCode listName="change-corrig-justification">cor-buy</cbc:ReasonCode>

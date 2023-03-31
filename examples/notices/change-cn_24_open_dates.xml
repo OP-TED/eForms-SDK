@@ -9,12 +9,16 @@
 					<efac:Changes>
 						<efbc:ChangedNoticeIdentifier>c4c415ee-ac08-4465-8fa6-57568cf69462-01</efbc:ChangedNoticeIdentifier>
 						<efac:Change>
-							<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
 							<efbc:ChangeDescription languageID="ENG">Time limit for receipt of tenders or requests to participate</efbc:ChangeDescription>
+							<efac:ChangedSection>
+								<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
+							</efac:ChangedSection>
 						</efac:Change>
 						<efac:Change>
-							<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
 							<efbc:ChangeDescription languageID="ENG">Conditions for opening of tenders</efbc:ChangeDescription>
+							<efac:ChangedSection>
+								<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
+							</efac:ChangedSection>
 						</efac:Change>
 						<efac:ChangeReason>
 							<cbc:ReasonCode listName="change-corrig-justification">update-add</cbc:ReasonCode>

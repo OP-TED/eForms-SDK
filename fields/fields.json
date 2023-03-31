@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.7.0",
   "metadataDatabase" : {
-    "version" : "1.6.26",
-    "createdOn" : "2023-03-17T11:13:11"
+    "version" : "1.6.116",
+    "createdOn" : "2023-03-30T14:23:06"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -415,7 +415,7 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion",
     "xpathRelative" : "cac:AwardingCriterion",
     "xsdSequenceOrder" : [ { "cac:AwardingCriterion" : 12 } ],
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-LotAwardCriterion",
     "parentId" : "ND-LotAwardCriteria",
@@ -508,20 +508,6 @@
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference",
     "xpathRelative" : "cac:CallForTendersDocumentReference",
-    "xsdSequenceOrder" : [ { "cac:CallForTendersDocumentReference" : 32 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-LotRestrictedDocuments",
-    "parentId" : "ND-LotTenderingTerms",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']",
-    "xpathRelative" : "cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']",
-    "xsdSequenceOrder" : [ { "cac:CallForTendersDocumentReference" : 32 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-LotDocumentsReference",
-    "parentId" : "ND-LotTenderingTerms",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]",
-    "xpathRelative" : "cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]",
     "xsdSequenceOrder" : [ { "cac:CallForTendersDocumentReference" : 32 } ],
     "repeatable" : true
   }, {
@@ -732,7 +718,7 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion",
     "xpathRelative" : "cac:AwardingCriterion",
     "xsdSequenceOrder" : [ { "cac:AwardingCriterion" : 12 } ],
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-LotsGroupAwardCriterion",
     "parentId" : "ND-LotsGroupAwardCriteria",
@@ -752,7 +738,7 @@
     "parentId" : "ND-LotsGroupAwardCriterionParameters",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter",
     "xpathRelative" : "efac:AwardCriterionParameter",
-    "repeatable" : false
+    "repeatable" : true
   }, {
     "id" : "ND-LotsGroupAwardCriterionNumberFixUnpublish",
     "parentId" : "ND-LotsGroupAwardCriterionParameters",
@@ -932,20 +918,6 @@
     "parentId" : "ND-PartTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference",
     "xpathRelative" : "cac:CallForTendersDocumentReference",
-    "xsdSequenceOrder" : [ { "cac:CallForTendersDocumentReference" : 32 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-PartRestrictedDocuments",
-    "parentId" : "ND-PartTenderingTerms",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']",
-    "xpathRelative" : "cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']",
-    "xsdSequenceOrder" : [ { "cac:CallForTendersDocumentReference" : 32 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-PartDocumentsReference",
-    "parentId" : "ND-PartTenderingTerms",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]",
-    "xpathRelative" : "cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]",
     "xsdSequenceOrder" : [ { "cac:CallForTendersDocumentReference" : 32 } ],
     "repeatable" : true
   }, {
@@ -1199,6 +1171,13 @@
     "xsdSequenceOrder" : [ { "efac:Change" : 2 } ],
     "repeatable" : true
   }, {
+    "id" : "ND-ChangedSection",
+    "parentId" : "ND-Change",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efac:ChangedSection",
+    "xpathRelative" : "efac:ChangedSection",
+    "xsdSequenceOrder" : [ { "efac:ChangedSection" : 4 } ],
+    "repeatable" : true
+  }, {
     "id" : "ND-ChangeReason",
     "parentId" : "ND-Changes",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason",
@@ -1217,6 +1196,13 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change",
     "xpathRelative" : "efac:Change",
     "xsdSequenceOrder" : [ { "efac:Change" : 2 } ],
+    "repeatable" : true
+  }, {
+    "id" : "ND-ModifiedSection",
+    "parentId" : "ND-Modification",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection",
+    "xpathRelative" : "efac:ChangedSection",
+    "xsdSequenceOrder" : [ { "efac:ChangedSection" : 4 } ],
     "repeatable" : true
   }, {
     "id" : "ND-ModificationReason",
@@ -1276,8 +1262,8 @@
   }, {
     "id" : "ND-GroupReestimatedValueUnpublish",
     "parentId" : "ND-NoticeResultGroupFA",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']",
-    "xpathRelative" : "efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']",
+    "xpathRelative" : "efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']",
     "xsdSequenceOrder" : [ { "efac:FieldsPrivacy" : 1 } ],
     "repeatable" : false
   }, {
@@ -1364,6 +1350,13 @@
     "parentId" : "ND-LotResultFAValues",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val']",
     "xpathRelative" : "efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val']",
+    "xsdSequenceOrder" : [ { "efac:FieldsPrivacy" : 1 } ],
+    "repeatable" : false
+  }, {
+    "id" : "ND-ReestimatedValueUnpublish",
+    "parentId" : "ND-LotResultFAValues",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']",
+    "xpathRelative" : "efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']",
     "xsdSequenceOrder" : [ { "efac:FieldsPrivacy" : 1 } ],
     "repeatable" : false
   }, {
@@ -2761,7 +2754,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|[1-9](\\d{0,7})-(19|20)\\d\\d)$",
+      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|(\\d{1,8})-(19|20)\\d\\d)$",
       "severity" : "ERROR"
     }
   }, {
@@ -2788,7 +2781,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|[1-9](\\d{0,7})-(19|20)\\d\\d)$",
+      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|(\\d{1,8})-(19|20)\\d\\d)$",
       "severity" : "ERROR"
     }
   }, {
@@ -3083,6 +3076,11 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "10", "11", "12", "13", "14", "15", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "9", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-LotTenderingProcess} ${BT-1311(d)-Lot is present}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "mandatory" : {
@@ -3090,6 +3088,11 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "8" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-LotTenderingProcess} ${BT-105-Procedure == 'open' or (BT-105-Procedure == 'oth-mult' and (BT-1311(d)-Lot is not present)) or (BT-105-Procedure == 'oth-single' and (BT-1311(d)-Lot is not present))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3134,13 +3137,18 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "10", "11", "12", "13", "14", "15", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "9", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-LotTenderingProcess} ${BT-131(d)-Lot is not present}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "mandatory" : {
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "8" ],
+        "noticeTypes" : [ "7", "8", "9", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3168,6 +3176,21 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "8", "10", "11", "12", "13", "14", "15", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "9", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-LotTenderingProcess} ${BT-131(d)-Lot is present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-LotTenderingProcess} ${(BT-105-Procedure == 'oth-mult' and (BT-131(d)-Lot is not present)) or (BT-105-Procedure == 'oth-single' and (BT-131(d)-Lot is not present))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3217,6 +3240,20 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "8", "10", "11", "12", "13", "14", "15", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "9", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-LotTenderingProcess} ${BT-1311(d)-Lot is not present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "9", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -3242,6 +3279,20 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "18", "19", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "16", "17", "20", "21" ],
+        "condition" : "{ND-PublicOpening} ${not(BT-105-Procedure == 'open')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "16", "17" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3284,6 +3335,20 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "18", "19", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "16", "17", "20", "21" ],
+        "condition" : "{ND-PublicOpening} ${not(BT-105-Procedure == 'open')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "16", "17" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3481,10 +3546,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Lot} ${(OPP-070-notice in ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','E4') and (BT-747-Lot == 'sui-act') and (BT-747-Lot == 'ef-stand') and (BT-747-Lot == 'tp-abil')) or ((OPP-070-notice == 'E4') and not(BT-747-Lot == 'sui-act') and not(BT-747-Lot == 'ef-stand') and not(BT-747-Lot == 'tp-abil')) or (not(OPP-070-notice in ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','E4')))}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00137-0200"
-      }, {
         "value" : "{ND-Lot} ${BT-137-Lot is unique in /BT-137-Lot}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0201"
@@ -3706,16 +3767,16 @@
     }
   }, {
     "id" : "BT-13716-notice",
-    "parentNodeId" : "ND-Change",
+    "parentNodeId" : "ND-ChangedSection",
     "name" : "Change Previous Section Identifier",
     "btId" : "BT-13716",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ChangedSectionIdentifier",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier",
     "xpathRelative" : "efbc:ChangedSectionIdentifier",
     "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
     "type" : "id",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -3932,7 +3993,7 @@
     "btId" : "BT-141",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ChangeDescription",
     "xpathRelative" : "efbc:ChangeDescription",
-    "xsdSequenceOrder" : [ { "efbc:ChangeDescription" : 2 } ],
+    "xsdSequenceOrder" : [ { "efbc:ChangeDescription" : 1 } ],
     "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
@@ -4122,11 +4183,11 @@
     }
   }, {
     "id" : "BT-15-Lot",
-    "parentNodeId" : "ND-LotDocumentsReference",
+    "parentNodeId" : "ND-LotProcurementDocument",
     "name" : "Documents URL",
     "btId" : "BT-15",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]/cac:Attachment/cac:ExternalReference/cbc:URI",
-    "xpathRelative" : "cac:Attachment/cac:ExternalReference/cbc:URI",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI",
+    "xpathRelative" : "cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI",
     "xsdSequenceOrder" : [ { "cac:Attachment" : 16 }, { "cac:ExternalReference" : 4 }, { "cbc:URI" : 2 } ],
     "type" : "url",
     "legalType" : "URL",
@@ -4142,6 +4203,20 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
+        "condition" : "{ND-LotProcurementDocument} ${not(BT-14-Lot == 'non-restricted-document')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -4150,11 +4225,11 @@
     }
   }, {
     "id" : "BT-15-Part",
-    "parentNodeId" : "ND-PartDocumentsReference",
+    "parentNodeId" : "ND-PartProcurementDocument",
     "name" : "Documents URL",
     "btId" : "BT-15",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[not(cbc:DocumentType/text()='restricted-document')]/cac:Attachment/cac:ExternalReference/cbc:URI",
-    "xpathRelative" : "cac:Attachment/cac:ExternalReference/cbc:URI",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI",
+    "xpathRelative" : "cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI",
     "xsdSequenceOrder" : [ { "cac:Attachment" : 16 }, { "cac:ExternalReference" : 4 }, { "cbc:URI" : 2 } ],
     "type" : "url",
     "legalType" : "URL",
@@ -4168,6 +4243,20 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "4", "5", "6" ],
+        "condition" : "{ND-PartProcurementDocument} ${not(BT-14-Part == 'non-restricted-document')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "4", "5", "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4241,21 +4330,21 @@
       } ]
     },
     "pattern" : {
-      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|[1-9](\\d{0,7})-(19|20)\\d\\d)$",
+      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|(\\d{1,8})-(19|20)\\d\\d)$",
       "severity" : "ERROR"
     }
   }, {
     "id" : "BT-1501(s)-Contract",
-    "parentNodeId" : "ND-Modification",
+    "parentNodeId" : "ND-ModifiedSection",
     "name" : "Modification Previous Notice Section Identifier",
     "btId" : "BT-1501",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangedSectionIdentifier",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier",
     "xpathRelative" : "efbc:ChangedSectionIdentifier",
     "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
     "type" : "id",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
-      "value" : true,
+      "value" : false,
       "severity" : "ERROR"
     },
     "forbidden" : {
@@ -4358,7 +4447,7 @@
     "type" : "amount",
     "legalType" : "VALUE",
     "privacy" : {
-      "code" : "not-ree-val",
+      "code" : "gro-ree-val",
       "unpublishedFieldId" : "BT-195(BT-1561)-NoticeResult",
       "reasonCodeFieldId" : "BT-197(BT-1561)-NoticeResult",
       "reasonDescriptionFieldId" : "BT-196(BT-1561)-NoticeResult",
@@ -5201,11 +5290,11 @@
     "parentNodeId" : "ND-GroupReestimatedValueUnpublish",
     "name" : "Unpublished Identifier",
     "btId" : "BT-195",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']/efbc:FieldIdentifierCode",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']/efbc:FieldIdentifierCode",
     "xpathRelative" : "efbc:FieldIdentifierCode",
     "xsdSequenceOrder" : [ { "efbc:FieldIdentifierCode" : 1 } ],
     "type" : "code",
-    "presetValue" : "not-ree-val",
+    "presetValue" : "gro-ree-val",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -6065,6 +6154,37 @@
       "severity" : "ERROR"
     }
   }, {
+    "id" : "BT-195(BT-660)-LotResult",
+    "parentNodeId" : "ND-ReestimatedValueUnpublish",
+    "name" : "Unpublished Identifier",
+    "btId" : "BT-195",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']/efbc:FieldIdentifierCode",
+    "xpathRelative" : "efbc:FieldIdentifierCode",
+    "xsdSequenceOrder" : [ { "efbc:FieldIdentifierCode" : 1 } ],
+    "type" : "code",
+    "presetValue" : "ree-val",
+    "legalType" : "IDENTIFIER",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-identifier",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
+    }
+  }, {
     "id" : "BT-195(BT-709)-LotResult",
     "parentNodeId" : "ND-MaximalValueUnpublish",
     "name" : "Unpublished Identifier",
@@ -6822,7 +6942,7 @@
     "parentNodeId" : "ND-GroupReestimatedValueUnpublish",
     "name" : "Unpublished Justification Description",
     "btId" : "BT-196",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']/efbc:ReasonDescription",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']/efbc:ReasonDescription",
     "xpathRelative" : "efbc:ReasonDescription",
     "xsdSequenceOrder" : [ { "efbc:ReasonDescription" : 3 } ],
     "type" : "text-multilingual",
@@ -7485,6 +7605,30 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "BT-196(BT-660)-LotResult",
+    "parentNodeId" : "ND-ReestimatedValueUnpublish",
+    "name" : "Unpublished Justification Description",
+    "btId" : "BT-196",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']/efbc:ReasonDescription",
+    "xpathRelative" : "efbc:ReasonDescription",
+    "xsdSequenceOrder" : [ { "efbc:ReasonDescription" : 3 } ],
+    "type" : "text-multilingual",
+    "legalType" : "TEXT",
+    "maxLength" : 6000,
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -8214,7 +8358,7 @@
     "parentNodeId" : "ND-GroupReestimatedValueUnpublish",
     "name" : "Unpublished Justification Code",
     "btId" : "BT-197",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']/cbc:ReasonCode",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']/cbc:ReasonCode",
     "xpathRelative" : "cbc:ReasonCode",
     "xsdSequenceOrder" : [ { "cbc:ReasonCode" : 2 } ],
     "type" : "code",
@@ -9038,6 +9182,36 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
+    }
+  }, {
+    "id" : "BT-197(BT-660)-LotResult",
+    "parentNodeId" : "ND-ReestimatedValueUnpublish",
+    "name" : "Unpublished Justification Code",
+    "btId" : "BT-197",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']/cbc:ReasonCode",
+    "xpathRelative" : "cbc:ReasonCode",
+    "xsdSequenceOrder" : [ { "cbc:ReasonCode" : 2 } ],
+    "type" : "code",
+    "legalType" : "CODE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -9932,7 +10106,7 @@
     "parentNodeId" : "ND-GroupReestimatedValueUnpublish",
     "name" : "Unpublished Access Date",
     "btId" : "BT-198",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-ree-val']/efbc:PublicationDate",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']/efbc:PublicationDate",
     "xpathRelative" : "efbc:PublicationDate",
     "xsdSequenceOrder" : [ { "efbc:PublicationDate" : 4 } ],
     "type" : "date",
@@ -10910,6 +11084,42 @@
       } ]
     }
   }, {
+    "id" : "BT-198(BT-660)-LotResult",
+    "parentNodeId" : "ND-ReestimatedValueUnpublish",
+    "name" : "Unpublished Access Date",
+    "btId" : "BT-198",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']/efbc:PublicationDate",
+    "xpathRelative" : "efbc:PublicationDate",
+    "xsdSequenceOrder" : [ { "efbc:PublicationDate" : 4 } ],
+    "type" : "date",
+    "legalType" : "DATE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "32", "35", "36", "37", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "pattern" : {
+      "value" : "^(?:(?:(?:(?:1[6-9]|[2-9]\\d)\\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\\d)\\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$",
+      "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{ND-ReestimatedValueUnpublish} ${((OPP-070-notice in ('25','26','27','28','29','30','31','32','E4','33','34','35','E5')) and ((BT-198(BT-660)-LotResult - BT-05(a)-notice) < P10Y) and ((BT-198(BT-660)-LotResult - BT-05(a)-notice) >= P2D)) or not(OPP-070-notice in ('25','26','27','28','29','30','31','32','E4','33','34','35','E5'))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00198-4720"
+      } ]
+    }
+  }, {
     "id" : "BT-198(BT-709)-LotResult",
     "parentNodeId" : "ND-MaximalValueUnpublish",
     "name" : "Unpublished Access Date",
@@ -11528,7 +11738,7 @@
     "btId" : "BT-202",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangeDescription",
     "xpathRelative" : "efbc:ChangeDescription",
-    "xsdSequenceOrder" : [ { "efbc:ChangeDescription" : 2 } ],
+    "xsdSequenceOrder" : [ { "efbc:ChangeDescription" : 1 } ],
     "type" : "text-multilingual",
     "legalType" : "TEXT",
     "maxLength" : 6000,
@@ -11672,7 +11882,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -12453,7 +12663,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -16472,7 +16682,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-NoticeResultGroupFA} ${BT-556-NoticeResult in /BT-137-LotsGroup}",
+        "value" : "{BT-556-NoticeResult} ${BT-556-NoticeResult in /BT-137-LotsGroup}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00556-0100"
       } ]
@@ -16689,11 +16899,11 @@
     }
   }, {
     "id" : "BT-615-Lot",
-    "parentNodeId" : "ND-LotRestrictedDocuments",
+    "parentNodeId" : "ND-LotProcurementDocument",
     "name" : "Documents Restricted URL",
     "btId" : "BT-615",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']/cac:Attachment/cac:ExternalReference/cbc:URI",
-    "xpathRelative" : "cac:Attachment/cac:ExternalReference/cbc:URI",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI",
+    "xpathRelative" : "cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI",
     "xsdSequenceOrder" : [ { "cac:Attachment" : 16 }, { "cac:ExternalReference" : 4 }, { "cbc:URI" : 2 } ],
     "type" : "url",
     "legalType" : "URL",
@@ -16709,6 +16919,25 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
+        "condition" : "{ND-LotProcurementDocument} ${not(BT-14-Lot == 'restricted-document')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7" ],
+        "condition" : "{ND-LotProcurementDocument} ${not(BT-14-Lot == 'non-restricted-document')}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -16717,11 +16946,11 @@
     }
   }, {
     "id" : "BT-615-Part",
-    "parentNodeId" : "ND-PartRestrictedDocuments",
+    "parentNodeId" : "ND-PartProcurementDocument",
     "name" : "Documents Restricted URL",
     "btId" : "BT-615",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']/cac:Attachment/cac:ExternalReference/cbc:URI",
-    "xpathRelative" : "cac:Attachment/cac:ExternalReference/cbc:URI",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI",
+    "xpathRelative" : "cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI",
     "xsdSequenceOrder" : [ { "cac:Attachment" : 16 }, { "cac:ExternalReference" : 4 }, { "cbc:URI" : 2 } ],
     "type" : "url",
     "legalType" : "URL",
@@ -16735,6 +16964,20 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "4", "5", "6" ],
+        "condition" : "{ND-PartProcurementDocument} ${not(BT-14-Part == 'restricted-document')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "4", "5", "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -17251,6 +17494,13 @@
     "xsdSequenceOrder" : [ { "efbc:ReestimatedValueAmount" : 3 } ],
     "type" : "amount",
     "legalType" : "VALUE",
+    "privacy" : {
+      "code" : "ree-val",
+      "unpublishedFieldId" : "BT-195(BT-660)-LotResult",
+      "reasonCodeFieldId" : "BT-197(BT-660)-LotResult",
+      "reasonDescriptionFieldId" : "BT-196(BT-660)-LotResult",
+      "publicationDateFieldId" : "BT-198(BT-660)-LotResult"
+    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -17529,10 +17779,10 @@
     }
   }, {
     "id" : "BT-707-Lot",
-    "parentNodeId" : "ND-LotRestrictedDocuments",
+    "parentNodeId" : "ND-LotProcurementDocument",
     "name" : "Documents Restricted Justification",
     "btId" : "BT-707",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']/cbc:DocumentTypeCode",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentTypeCode",
     "xpathRelative" : "cbc:DocumentTypeCode",
     "xsdSequenceOrder" : [ { "cbc:DocumentTypeCode" : 7 } ],
     "type" : "code",
@@ -17548,6 +17798,20 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
+        "condition" : "{ND-LotProcurementDocument} ${not(BT-14-Lot == 'restricted-document')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "CEI" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "codeList" : {
@@ -17559,10 +17823,10 @@
     }
   }, {
     "id" : "BT-707-Part",
-    "parentNodeId" : "ND-PartRestrictedDocuments",
+    "parentNodeId" : "ND-PartProcurementDocument",
     "name" : "Documents Restricted Justification",
     "btId" : "BT-707",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference[cbc:DocumentType/text()='restricted-document']/cbc:DocumentTypeCode",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentTypeCode",
     "xpathRelative" : "cbc:DocumentTypeCode",
     "xsdSequenceOrder" : [ { "cbc:DocumentTypeCode" : 7 } ],
     "type" : "code",
@@ -17576,6 +17840,11 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "4", "5", "6" ],
+        "condition" : "{ND-PartProcurementDocument} ${not(BT-14-Part == 'restricted-document')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -17937,7 +18206,7 @@
     "btId" : "BT-718",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ProcurementDocumentsChangeIndicator",
     "xpathRelative" : "efbc:ProcurementDocumentsChangeIndicator",
-    "xsdSequenceOrder" : [ { "efbc:ProcurementDocumentsChangeIndicator" : 4 } ],
+    "xsdSequenceOrder" : [ { "efbc:ProcurementDocumentsChangeIndicator" : 3 } ],
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "repeatable" : {
@@ -17960,7 +18229,7 @@
     "btId" : "BT-719",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efbc:ProcurementDocumentsChangeDate",
     "xpathRelative" : "efbc:ProcurementDocumentsChangeDate",
-    "xsdSequenceOrder" : [ { "efbc:ProcurementDocumentsChangeDate" : 3 } ],
+    "xsdSequenceOrder" : [ { "efbc:ProcurementDocumentsChangeDate" : 2 } ],
     "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
@@ -19506,7 +19775,7 @@
       "severity" : "ERROR"
     },
     "pattern" : {
-      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|[1-9](\\d{0,7})-(19|20)\\d\\d)$",
+      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|(\\d{1,8})-(19|20)\\d\\d)$",
       "severity" : "ERROR"
     }
   }, {
@@ -21352,7 +21621,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^[1-9](\\d{0,7})-(19|20)\\d\\d$",
+      "value" : "^(\\d{1,8})-(19|20)\\d\\d$",
       "severity" : "ERROR"
     }
   }, {
@@ -21925,7 +22194,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|[1-9](\\d{0,7})-(19|20)\\d\\d)$",
+      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|(\\d{1,8})-(19|20)\\d\\d)$",
       "severity" : "ERROR"
     }
   }, {
@@ -22068,6 +22337,20 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "X01", "X02" ],
+        "condition" : "{ND-RegistrarAddress} ${BT-501-Business-European is not present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -22687,7 +22970,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|[1-9](\\d{0,7})-(19|20)\\d\\d)$",
+      "value" : "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|(\\d{1,8})-(19|20)\\d\\d)$",
       "severity" : "ERROR"
     }
   }, {

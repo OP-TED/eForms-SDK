@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.6.71 created on the 2023-03-27T17:27:44-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Competition</ShortName>
       <LongName>competition</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
       <LongName Identifier="eFormsParentId">notice-type</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.6.71</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -177,7 +177,7 @@
             <SimpleValue>Paziņojums par metu konkursu</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż tal-konkors tad-disinn</SimpleValue>
+            <SimpleValue>Avviż dwar konkors ta’ disinn</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Aankondiging van een prijsvraag voor ontwerpen</SimpleValue>
@@ -346,7 +346,7 @@
             <SimpleValue>Ogłoszenie o zamówieniu lub ogłoszenie o koncesji – tryb standardowy</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Anúncio de adjudicação de contrato ou de concessão — regime normal</SimpleValue>
+            <SimpleValue>Anúncio de concurso ou de concessão – regime normal</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Anunț de participare sau de concesionare - regim standard</SimpleValue>

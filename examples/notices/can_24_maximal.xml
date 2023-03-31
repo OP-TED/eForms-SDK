@@ -1599,7 +1599,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-776-Lot","Innovative Procurement"-->
-				<cbc:ProcurementTypeCode listName="innovative-acquisition">buy-eff</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="innovative-acquisition">proc-innov</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-06-Lot","name": "Strategic Procurement"-->
@@ -1886,7 +1886,7 @@
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-776-Lot","Innovative Procurement"-->
-				<cbc:ProcurementTypeCode listName="innovative-acquisition">buy-eff</cbc:ProcurementTypeCode>
+				<cbc:ProcurementTypeCode listName="innovative-acquisition">proc-innov</cbc:ProcurementTypeCode>
 			</cac:ProcurementAdditionalType>
 			<cac:ProcurementAdditionalType>
 				<!--"id": "BT-06-Lot","name": "Strategic Procurement"-->

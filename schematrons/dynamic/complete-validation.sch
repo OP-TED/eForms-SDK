@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00.-->
+<!--File generated from metadata database version 1.6.107 created on the 2023-03-29T13:50:28.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -93,8 +93,8 @@
 		<diagnostic id="BT-144-LotResult" see="field:BT-144-LotResult">efac:DecisionReason/efbc:DecisionReasonCode</diagnostic>
 		<diagnostic id="BT-145-Contract" see="field:BT-145-Contract">cbc:IssueDate</diagnostic>
 		<diagnostic id="BT-1451-Contract" see="field:BT-1451-Contract">cbc:AwardDate</diagnostic>
-		<diagnostic id="BT-15-Lot" see="field:BT-15-Lot">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
-		<diagnostic id="BT-15-Part" see="field:BT-15-Part">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
+		<diagnostic id="BT-15-Lot" see="field:BT-15-Lot">cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI</diagnostic>
+		<diagnostic id="BT-15-Part" see="field:BT-15-Part">cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="BT-150-Contract" see="field:BT-150-Contract">efac:ContractReference/cbc:ID</diagnostic>
 		<diagnostic id="BT-1501_n_-Contract" see="field:BT-1501(n)-Contract">efbc:ChangedNoticeIdentifier</diagnostic>
 		<diagnostic id="BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efbc:ChangedSectionIdentifier</diagnostic>
@@ -153,6 +153,7 @@
 		<diagnostic id="BT-195_BT-556_-NoticeResult" see="field:BT-195(BT-556)-NoticeResult">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-635_-LotResult" see="field:BT-195(BT-635)-LotResult">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-636_-LotResult" see="field:BT-195(BT-636)-LotResult">efbc:FieldIdentifierCode</diagnostic>
+		<diagnostic id="BT-195_BT-660_-LotResult" see="field:BT-195(BT-660)-LotResult">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-709_-LotResult" see="field:BT-195(BT-709)-LotResult">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-710_-LotResult" see="field:BT-195(BT-710)-LotResult">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-711_-LotResult" see="field:BT-195(BT-711)-LotResult">efbc:FieldIdentifierCode</diagnostic>
@@ -208,6 +209,7 @@
 		<diagnostic id="BT-196_BT-556_-NoticeResult" see="field:BT-196(BT-556)-NoticeResult">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-635_-LotResult" see="field:BT-196(BT-635)-LotResult">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-636_-LotResult" see="field:BT-196(BT-636)-LotResult">efbc:ReasonDescription</diagnostic>
+		<diagnostic id="BT-196_BT-660_-LotResult" see="field:BT-196(BT-660)-LotResult">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-709_-LotResult" see="field:BT-196(BT-709)-LotResult">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-710_-LotResult" see="field:BT-196(BT-710)-LotResult">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-711_-LotResult" see="field:BT-196(BT-711)-LotResult">efbc:ReasonDescription</diagnostic>
@@ -263,6 +265,7 @@
 		<diagnostic id="BT-197_BT-556_-NoticeResult" see="field:BT-197(BT-556)-NoticeResult">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-635_-LotResult" see="field:BT-197(BT-635)-LotResult">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-636_-LotResult" see="field:BT-197(BT-636)-LotResult">cbc:ReasonCode</diagnostic>
+		<diagnostic id="BT-197_BT-660_-LotResult" see="field:BT-197(BT-660)-LotResult">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-709_-LotResult" see="field:BT-197(BT-709)-LotResult">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-710_-LotResult" see="field:BT-197(BT-710)-LotResult">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-711_-LotResult" see="field:BT-197(BT-711)-LotResult">cbc:ReasonCode</diagnostic>
@@ -318,6 +321,7 @@
 		<diagnostic id="BT-198_BT-556_-NoticeResult" see="field:BT-198(BT-556)-NoticeResult">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-635_-LotResult" see="field:BT-198(BT-635)-LotResult">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-636_-LotResult" see="field:BT-198(BT-636)-LotResult">efbc:PublicationDate</diagnostic>
+		<diagnostic id="BT-198_BT-660_-LotResult" see="field:BT-198(BT-660)-LotResult">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-709_-LotResult" see="field:BT-198(BT-709)-LotResult">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-710_-LotResult" see="field:BT-198(BT-710)-LotResult">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-711_-LotResult" see="field:BT-198(BT-711)-LotResult">efbc:PublicationDate</diagnostic>
@@ -462,8 +466,8 @@
 		<diagnostic id="BT-610-Procedure-Buyer" see="field:BT-610-Procedure-Buyer">cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']</diagnostic>
 		<diagnostic id="BT-6110-Contract" see="field:BT-6110-Contract">cbc:Description</diagnostic>
 		<diagnostic id="BT-6140-Lot" see="field:BT-6140-Lot">cbc:Description</diagnostic>
-		<diagnostic id="BT-615-Lot" see="field:BT-615-Lot">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
-		<diagnostic id="BT-615-Part" see="field:BT-615-Part">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
+		<diagnostic id="BT-615-Lot" see="field:BT-615-Lot">cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI</diagnostic>
+		<diagnostic id="BT-615-Part" see="field:BT-615-Part">cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="BT-625-Lot" see="field:BT-625-Lot">cbc:EstimatedOverallContractQuantity/@unitCode</diagnostic>
 		<diagnostic id="BT-63-Lot" see="field:BT-63-Lot">cbc:VariantConstraintCode</diagnostic>
 		<diagnostic id="BT-630_d_-Lot" see="field:BT-630(d)-Lot">cbc:EndDate</diagnostic>
@@ -629,7 +633,7 @@
 		<diagnostic id="ND-ConcessionRevenue" see="node:ND-ConcessionRevenue">efac:ConcessionRevenue</diagnostic>
 		<diagnostic id="ND-ContractEUFunds" see="node:ND-ContractEUFunds">efac:Funding</diagnostic>
 		<diagnostic id="ND-ContractModification" see="node:ND-ContractModification">efac:ContractModification</diagnostic>
-		<diagnostic id="ND-ContractModification_BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efac:Change/efbc:ChangedSectionIdentifier</diagnostic>
+		<diagnostic id="ND-ContractModification_BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier</diagnostic>
 		<diagnostic id="ND-ContractingParty" see="node:ND-ContractingParty">cac:ContractingParty</diagnostic>
 		<diagnostic id="ND-CountryOriginUnpublish" see="node:ND-CountryOriginUnpublish">efac:Origin/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-CrossBorderLawUnpublish" see="node:ND-CrossBorderLawUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
@@ -724,6 +728,7 @@
 		<diagnostic id="ND-LotsGroupValueEstimate" see="node:ND-LotsGroupValueEstimate">cac:RequestedTenderTotal</diagnostic>
 		<diagnostic id="ND-Modification" see="node:ND-Modification">efac:Change</diagnostic>
 		<diagnostic id="ND-ModificationReason" see="node:ND-ModificationReason">efac:ChangeReason</diagnostic>
+		<diagnostic id="ND-ModifiedSection" see="node:ND-ModifiedSection">efac:ChangedSection</diagnostic>
 		<diagnostic id="ND-NonEsubmission" see="node:ND-NonEsubmission">cac:ProcessJustification</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms" see="node:ND-NonUBLTenderingTerms">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms_BT-5010-Lot" see="field:BT-5010-Lot">efac:Funding/efbc:FinancingIdentifier</diagnostic>

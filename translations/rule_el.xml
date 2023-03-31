@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>rule in Greek. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>rule in Greek. File generated from metadata database.</comment>
 <entry key="rule|template|mandatory">${field.id} είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο ${notice.id}</entry>
 <entry key="rule|text|BR-BT-00001-0001">BT-01-notice είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο X01</entry>
 <entry key="rule|text|BR-BT-00001-0002">BT-01-notice είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο X02</entry>
@@ -339,6 +339,9 @@
 <entry key="rule|text|BR-BT-00021-0044">BT-21-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 35</entry>
 <entry key="rule|text|BR-BT-00021-0045">BT-21-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 36</entry>
 <entry key="rule|text|BR-BT-00021-0046">BT-21-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 37</entry>
+<entry key="rule|text|BR-BT-00021-0047">BT-21-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 38</entry>
+<entry key="rule|text|BR-BT-00021-0048">BT-21-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 39</entry>
+<entry key="rule|text|BR-BT-00021-0049">BT-21-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 40</entry>
 <entry key="rule|text|BR-BT-00021-0059">BT-21-Part είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 4</entry>
 <entry key="rule|text|BR-BT-00021-0060">BT-21-Part είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 5</entry>
 <entry key="rule|text|BR-BT-00021-0061">BT-21-Part είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 6</entry>
@@ -407,6 +410,40 @@
 <entry key="rule|text|BR-BT-00021-0200">BT-21-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 35</entry>
 <entry key="rule|text|BR-BT-00021-0201">BT-21-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 36</entry>
 <entry key="rule|text|BR-BT-00021-0202">BT-21-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 37</entry>
+<entry key="rule|text|BR-BT-00022-0165">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 7</entry>
+<entry key="rule|text|BR-BT-00022-0166">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 8</entry>
+<entry key="rule|text|BR-BT-00022-0167">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 9</entry>
+<entry key="rule|text|BR-BT-00022-0168">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 10</entry>
+<entry key="rule|text|BR-BT-00022-0169">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 11</entry>
+<entry key="rule|text|BR-BT-00022-0171">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 12</entry>
+<entry key="rule|text|BR-BT-00022-0172">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 13</entry>
+<entry key="rule|text|BR-BT-00022-0173">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 14</entry>
+<entry key="rule|text|BR-BT-00022-0174">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 15</entry>
+<entry key="rule|text|BR-BT-00022-0175">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 16</entry>
+<entry key="rule|text|BR-BT-00022-0176">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 17</entry>
+<entry key="rule|text|BR-BT-00022-0177">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 18</entry>
+<entry key="rule|text|BR-BT-00022-0178">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 19</entry>
+<entry key="rule|text|BR-BT-00022-0180">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 20</entry>
+<entry key="rule|text|BR-BT-00022-0181">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 21</entry>
+<entry key="rule|text|BR-BT-00022-0182">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 22</entry>
+<entry key="rule|text|BR-BT-00022-0183">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 23</entry>
+<entry key="rule|text|BR-BT-00022-0184">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 24</entry>
+<entry key="rule|text|BR-BT-00022-0185">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 25</entry>
+<entry key="rule|text|BR-BT-00022-0186">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 26</entry>
+<entry key="rule|text|BR-BT-00022-0187">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 27</entry>
+<entry key="rule|text|BR-BT-00022-0188">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 28</entry>
+<entry key="rule|text|BR-BT-00022-0189">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 29</entry>
+<entry key="rule|text|BR-BT-00022-0190">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 30</entry>
+<entry key="rule|text|BR-BT-00022-0191">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 31</entry>
+<entry key="rule|text|BR-BT-00022-0192">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 32</entry>
+<entry key="rule|text|BR-BT-00022-0195">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 33</entry>
+<entry key="rule|text|BR-BT-00022-0196">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 34</entry>
+<entry key="rule|text|BR-BT-00022-0197">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 35</entry>
+<entry key="rule|text|BR-BT-00022-0198">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 36</entry>
+<entry key="rule|text|BR-BT-00022-0199">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 37</entry>
+<entry key="rule|text|BR-BT-00022-0200">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 38</entry>
+<entry key="rule|text|BR-BT-00022-0201">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 39</entry>
+<entry key="rule|text|BR-BT-00022-0202">BT-22-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 40</entry>
 <entry key="rule|text|BR-BT-00023-0004">BT-23-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 1</entry>
 <entry key="rule|text|BR-BT-00023-0005">BT-23-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 2</entry>
 <entry key="rule|text|BR-BT-00023-0006">BT-23-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 3</entry>
@@ -920,6 +957,9 @@
 <entry key="rule|text|BR-BT-00262-0044">BT-262-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 35</entry>
 <entry key="rule|text|BR-BT-00262-0045">BT-262-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 36</entry>
 <entry key="rule|text|BR-BT-00262-0046">BT-262-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 37</entry>
+<entry key="rule|text|BR-BT-00262-0047">BT-262-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 38</entry>
+<entry key="rule|text|BR-BT-00262-0048">BT-262-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 39</entry>
+<entry key="rule|text|BR-BT-00262-0049">BT-262-Procedure είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 40</entry>
 <entry key="rule|text|BR-BT-00262-0057">BT-262-Part είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 4</entry>
 <entry key="rule|text|BR-BT-00262-0058">BT-262-Part είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 5</entry>
 <entry key="rule|text|BR-BT-00262-0059">BT-262-Part είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 6</entry>
@@ -1708,6 +1748,9 @@
 <entry key="rule|text|BR-OPT-00030-0048">OPT-030-Procedure-SProvider είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 39</entry>
 <entry key="rule|text|BR-OPT-00030-0049">OPT-030-Procedure-SProvider είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 40</entry>
 <entry key="rule|text|BR-OPT-00036-0068">OPA-36-Lot-Number είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο CEI</entry>
+<entry key="rule|text|BR-OPT-00060-0023">OPT-060-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 17</entry>
+<entry key="rule|text|BR-OPT-00060-0024">OPT-060-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 18</entry>
+<entry key="rule|text|BR-OPT-00060-0029">OPT-060-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 22</entry>
 <entry key="rule|text|BR-OPT-00071-0041">OPT-071-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο T02</entry>
 <entry key="rule|text|BR-OPT-00072-0041">OPT-072-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο T02</entry>
 <entry key="rule|text|BR-OPT-00150-0017">OPT-150-Lot είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο CEI</entry>
@@ -1817,8 +1860,6 @@
 <entry key="rule|text|BR-OPT-00301-0210">OPT-301-Part-FiscalLegis είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 6</entry>
 <entry key="rule|text|BR-OPT-00301-0260">OPT-301-Part-EnvironLegis είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 6</entry>
 <entry key="rule|text|BR-OPT-00301-0310">OPT-301-Part-EmployLegis είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 6</entry>
-<entry key="rule|text|BR-OPT-00301-0358">OPT-301-Part-AddInfo είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 4</entry>
-<entry key="rule|text|BR-OPT-00301-0359">OPT-301-Part-AddInfo είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 5</entry>
 <entry key="rule|text|BR-OPT-00301-0460">OPT-301-Part-TenderReceipt είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 4</entry>
 <entry key="rule|text|BR-OPT-00301-0461">OPT-301-Part-TenderReceipt είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 5</entry>
 <entry key="rule|text|BR-OPT-00301-0562">OPT-301-Part-ReviewOrg είναι υποχρεωτικό για μια ανακοίνωση με τον υποτύπο 4</entry>

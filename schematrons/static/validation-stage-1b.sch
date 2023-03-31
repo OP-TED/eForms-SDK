@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.6.35 created on the 2023-03-21T16:13:38.-->
+<!--File generated from metadata database version 1.6.105 created on the 2023-03-29T13:33:22.-->
 <pattern id="EFORMS-validation-stage-1b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-GazetteReference-1" role="ERROR" diagnostics="ND-GazetteReference" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-1</assert>
@@ -2948,6 +2948,15 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification[$noticeSubType = '40']">
 		<assert id="ND-Modification-40" role="ERROR" diagnostics="ND-Modification" test="count(efac:Change) &gt; 0">rule|text|ND-Modification-40</assert>
 		<assert id="ND-ModificationReason-40" role="ERROR" diagnostics="ND-ModificationReason" test="count(efac:ChangeReason) &gt; 0">rule|text|ND-ModificationReason-40</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change[$noticeSubType = '38']">
+		<assert id="ND-ModifiedSection-38" role="ERROR" diagnostics="ND-ModifiedSection" test="count(efac:ChangedSection) &gt; 0">rule|text|ND-ModifiedSection-38</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change[$noticeSubType = '39']">
+		<assert id="ND-ModifiedSection-39" role="ERROR" diagnostics="ND-ModifiedSection" test="count(efac:ChangedSection) &gt; 0">rule|text|ND-ModifiedSection-39</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change[$noticeSubType = '40']">
+		<assert id="ND-ModifiedSection-40" role="ERROR" diagnostics="ND-ModifiedSection" test="count(efac:ChangedSection) &gt; 0">rule|text|ND-ModifiedSection-40</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '25']">
 		<assert id="ND-SettledContract-25" role="ERROR" diagnostics="ND-SettledContract" test="count(efac:SettledContract) &gt; 0">rule|text|ND-SettledContract-25</assert>
