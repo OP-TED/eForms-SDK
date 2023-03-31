@@ -6,7 +6,7 @@ This release of the SDK does not contain any backwards incompatible changes: sof
 
 A new property was added in fields.json, named "xsdSequenceOrder", in order to help create XML files that are valid against the schema. It indicates, for each XML element in the field's relative XPath, the position of this element among its siblings. This information is extracted automatically from the definition of the corresponding complex type in the XSD files.
 
-For codelists that have a tree-like structure (currently CPV and NUTS), a new column was added in the corresponding Genericode file, to indicate the parent code of each code. This allows to display the structure of those codelists without having to using information outside of the eForms SDK.
+For codelists that have a tree-like structure (currently CPV and NUTS), a new column was added in the corresponding Genericode file, to indicate the parent code of each code. This allows the display of the structure of those codelists without having to using information outside of the eForms SDK.
 
 ## Updated metadata content
 
