@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>expression in English. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>expression in English. File generated from metadata database.</comment>
 <entry key="expression|name|1">the value chosen for the indicator of BT-740-Procedure-Buyer is 'NO'</entry>
 <entry key="expression|name|100">BT-541-Lot is present and BT-5421-Lot is not present and BT-5423-Lot is not present</entry>
 <entry key="expression|name|101">BT-541-Lot is present and BT-5421-Lot is not present and BT-5422-Lot is not present</entry>
@@ -65,7 +65,7 @@
 <entry key="expression|name|157">Award Criterion Number (BT-541) is not present or Award Criterion Number Fixed (BT-5422) is present or Award Criterion Number Weight (BT-5421) is present</entry>
 <entry key="expression|name|158">Lots All Required (BT-763) is true</entry>
 <entry key="expression|name|159">Lots All Required (BT-763) is true or there is more than a Lot in the notice</entry>
-<entry key="expression|name|16">BT-541-Lot is empty</entry>
+<entry key="expression|name|16">BT-541-Lot is not empty</entry>
 <entry key="expression|name|160">there are not multiple lots</entry>
 <entry key="expression|name|161">Main Classification Code (BT-262-Lot) is not present</entry>
 <entry key="expression|name|162">Main Classification Code (BT-262-Part) is not present</entry>
@@ -84,10 +84,10 @@
 <entry key="expression|name|174">Main Nature (BT-23-Lot) is not present</entry>
 <entry key="expression|name|175">Main Nature (BT-23-Part) is not present</entry>
 <entry key="expression|name|176">Deadline Receipt Tenders (BT-131(d)-Lot) or Deadline Receipt Requests (BT-1311(d)-Lot) exists</entry>
-<entry key="expression|name|177">a Tender (OPT-321-Tender) exists</entry>
-<entry key="expression|name|178">a Tenderer (OPT-300-Tenderer) exists</entry>
+<entry key="expression|name|177">no Tender (OPT-321-Tender) exists</entry>
+<entry key="expression|name|178">no Tenderer (OPT-300-Tenderer) exist</entry>
 <entry key="expression|name|179">a Main Contractor (OPT-301-Tenderer-MainCont) is not present</entry>
-<entry key="expression|name|18">BT-541-LotsGroup is empty</entry>
+<entry key="expression|name|18">BT-541-LotsGroup is not empty</entry>
 <entry key="expression|name|180">Company Organization Name (BT-500-Organization-Company) is not present</entry>
 <entry key="expression|name|181">TouchPoint Name (BT-500-Organization-TouchPoint) is not present</entry>
 <entry key="expression|name|182">Organization country (BT-514-Organization-Company) is not a country with NUTS codes</entry>
@@ -107,7 +107,7 @@
 <entry key="expression|name|195">Review Request Withdrawn (BT-796-Review) is not "true".</entry>
 <entry key="expression|name|196">Review Identifier (BT-784-Review) is not present</entry>
 <entry key="expression|name|197">Previous Planning Identifier (BT-125(i)-Lot) is not present</entry>
-<entry key="expression|name|198">Previous Planning Identifier (BT-125(i)-Part) exists</entry>
+<entry key="expression|name|198">Previous Planning Identifier (BT-125(i)-Part) does not exist</entry>
 <entry key="expression|name|199">Duration Period (BT-36-Lot) and Duration End Date (BT-537-Lot) are not present</entry>
 <entry key="expression|name|2">the value chosen for the indicator of BT-740-Procedure-Buyer is 'YES'</entry>
 <entry key="expression|name|20">BT-5141-Lot is not empty</entry>
@@ -119,7 +119,6 @@
 <entry key="expression|name|205">Procedure Type (BT-105-Procedure) value is different from "Negotiated without prior call for competition" and Procedure Legal Basis (BT-01-notice) value is different from "Financial regulation" and there is at least one Contract Tender Identified (BT-3202-Contract)</entry>
 <entry key="expression|name|206">Contract does not occur within a Contract Framework Agreement (BT-768-Contract)</entry>
 <entry key="expression|name|207">Tender Identifier (BT-3201-Tender) exists</entry>
-<entry key="expression|name|208">the notice is not of "Change" form type (BT-03-notice)</entry>
 <entry key="expression|name|209">Change Notice Version Identifier (BT-758-notice) is not present</entry>
 <entry key="expression|name|21">BT-5071-Lot is present</entry>
 <entry key="expression|name|210">Change Previous Notice Section Identifier (BT-13716-notice) is not present</entry>
@@ -187,7 +186,7 @@
 <entry key="expression|name|267">Unpublished Identifier (BT-195(BT-106)-Procedure) is not present</entry>
 <entry key="expression|name|268">Unpublished Identifier (BT-195(BT-118)-NoticeResult) is not present</entry>
 <entry key="expression|name|269">Unpublished Identifier (BT-195(BT-1252)-Procedure) is not present</entry>
-<entry key="expression|name|27">the value chosen for BT-11 Procedure Buyer is not equal to: 'Body governed by public law', 'Body governed by public law, controlled by a central government authority', 'Body governed by public law, controlled by a local authority', 'Body governed by public law, controlled by a regional authority', 'Central government authority', 'Defence contractor', 'EU institution, body or agency', 'European Institution/Agency or International Organisation', 'International organisation', 'Local authority', 'Organisation awarding a contract subsidised by a central government authority', 'Organisation awarding a contract subsidised by a local authority', 'Organisation awarding a contract subsidised by a regional authority', 'Public undertaking', 'Public undertaking, controlled by a central government authority', 'Public undertaking, controlled by a local authority', 'Public undertaking, controlled by a regional authority', 'Regional authority' or 'Regional or local authority'</entry>
+<entry key="expression|name|27">the value chosen for BT-11 Procedure Buyer is not equal to: 'Body governed by public law', 'Body governed by public law, controlled by a central government authority', 'Body governed by public law, controlled by a local authority', 'Body governed by public law, controlled by a regional authority', 'Central government authority', 'Defence contractor', 'EU institution, body or agency', 'International organisation', 'Local authority', 'Organisation awarding a contract subsidised by a central government authority', 'Organisation awarding a contract subsidised by a local authority', 'Organisation awarding a contract subsidised by a regional authority', 'Public undertaking', 'Public undertaking, controlled by a central government authority', 'Public undertaking, controlled by a local authority', 'Public undertaking, controlled by a regional authority' or 'Regional authority'</entry>
 <entry key="expression|name|270">Unpublished Identifier (BT-195(BT-135)-Procedure) is not present</entry>
 <entry key="expression|name|271">Unpublished Identifier (BT-195(BT-1351)-Procedure) is not present</entry>
 <entry key="expression|name|272">Unpublished Identifier (BT-195(BT-136)-Procedure) is not present</entry>
@@ -256,14 +255,14 @@
 <entry key="expression|name|329">Submission Electronic (BT-17-Lot) is not equal to 'not-allowed'</entry>
 <entry key="expression|name|33">BT-661-Lot is not equal to 'TRUE'</entry>
 <entry key="expression|name|330">Buyer Legal Type (BT-11-Procedure-Buyer) is not "Public undertaking", "Public undertaking, controlled by a central government authority", "Public undertaking, controlled by a local authority", "Public undertaking, controlled by a regional authority" or "Entity with special or exclusive rights".</entry>
-<entry key="expression|name|331">Buyer Legal Type (BT-11-Procedure-Buyer) is not "Body governed by public law", "Body governed by public law, controlled by a central government authority", "Body governed by public law, controlled by a local authority", "Body governed by public law, controlled by a regional authority", "Central government authority", "Defence contractor", "EU institution, body or agency", "European Institution/Agency or International Organisation", "Group of public authorities", "International organisation", "Local authority", "Organisation awarding a contract subsidised by a contracting authority", "Organisation awarding a contract subsidised by a central government authority", "Organisation awarding a contract subsidised by a local authority", "Organisation awarding a contract subsidised by a regional authority", "Regional authority" or "Regional or local authority"</entry>
+<entry key="expression|name|331">Buyer Legal Type (BT-11-Procedure-Buyer) is not "Body governed by public law", "Body governed by public law, controlled by a central government authority", "Body governed by public law, controlled by a local authority", "Body governed by public law, controlled by a regional authority", "Central government authority", "Defence contractor", "EU institution, body or agency", "Group of public authorities", "International organisation", "Local authority", "Organisation awarding a contract subsidised by a contracting authority", "Organisation awarding a contract subsidised by a central government authority", "Organisation awarding a contract subsidised by a local authority", "Organisation awarding a contract subsidised by a regional authority" or "Regional authority"</entry>
 <entry key="expression|name|332">the procedure for the lot is over and has not been awarded.</entry>
 <entry key="expression|name|333">the tender was submitted for a lot which has been awarded, it led to a contract and neither Tender Value Lowest/Highest, nor Framework Maximum/Estimated Value are specified.</entry>
 <entry key="expression|name|334">No framework agreement is involved or no winner was chosen</entry>
 <entry key="expression|name|335">the value chosen for Framework Agreement (BT-765-Lot) is equal to one of the following:"Framework agreement, partly without reopening and partly with reopening of competition";"Framework agreement, with reopening of competition";"Framework agreement, without reopening of competition",and the value chosen for Winner Chosen (BT-142-LotResult) is equal to "At least one winner was chosen." and Framework Maximum Value (BT-709-LotResult) does not exist.</entry>
 <entry key="expression|name|336">the value chosen for Framework Agreement (BT-765-Lot) is equal to one of the following:"Framework agreement, partly without reopening and partly with reopening of competition";"Framework agreement, with reopening of competition";"Framework agreement, without reopening of competition",and the value chosen for Winner Chosen (BT-142-LotResult) is equal to "At least one winner was chosen." and Framework Maximum Value (BT-660-LotResult) does not exist.</entry>
-<entry key="expression|name|337">no framework agreement is involved or both Framework Maximum Value (BT-709-LotResult) and Framework Estimated Value (BT-660-LotResult) are not present</entry>
-<entry key="expression|name|338">no winner was chosen or no framework agreement was involved or both Framework Maximum Value (BT-709-LotResult) and Framework Estimated Value (BT-660-LotResult) are not present</entry>
+<entry key="expression|name|337">no framework agreement is involved or Framework Maximum Value (BT-709-LotResult) is not present</entry>
+<entry key="expression|name|338">no winner was chosen or no framework agreement was involved, or Framework Maximum Value (BT-709-LotResult) is not present</entry>
 <entry key="expression|name|339">no winner was selected or a framework agreement is involved</entry>
 <entry key="expression|name|34">the value chosen for BT-105-Procedure is either 'Competitive dialogue', 'Innovation partnership' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|340">no dynamic purchasing system is involved</entry>
@@ -308,13 +307,13 @@
 <entry key="expression|name|379">the organization is not a Service Provider, and is not a Tenderer or Subcontractor which is not on a regulated market.</entry>
 <entry key="expression|name|380">the Organization is not a Service Provider</entry>
 <entry key="expression|name|381">Exclusion Grounds Code (BT-67(a)-Procedure) is not present</entry>
-<entry key="expression|name|382">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
-<entry key="expression|name|383">Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
-<entry key="expression|name|384">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
-<entry key="expression|name|385">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
-<entry key="expression|name|386">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist</entry>
+<entry key="expression|name|382">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists</entry>
+<entry key="expression|name|383">Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists</entry>
+<entry key="expression|name|384">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists</entry>
+<entry key="expression|name|385">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists</entry>
+<entry key="expression|name|386">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists</entry>
 <entry key="expression|name|387">Organization Country Code (BT-514-Organization-TouchPoint) is not present</entry>
-<entry key="expression|name|388">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) do not exist</entry>
+<entry key="expression|name|388">Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists</entry>
 <entry key="expression|name|389">the Business Country (BT-514-Business) is not a Country with NUTS codes</entry>
 <entry key="expression|name|390">Business City (BT-513-Business) is not present</entry>
 <entry key="expression|name|391">Business address line (BT-510(a)-Business) is not present</entry>
@@ -337,9 +336,9 @@
 <entry key="expression|name|49">the value chosen for BT-105-Lot is not equal to 'Open'</entry>
 <entry key="expression|name|5">there is a value chosen for BT-5141-Procedure</entry>
 <entry key="expression|name|50">the value chosen for BT-105-Lot is not equal to 'Open'</entry>
-<entry key="expression|name|500">The Description is relative to a Legislation for which no identifier is known</entry>
-<entry key="expression|name|501">Lot Award Criterion Type (BT-539-Lot) exists</entry>
-<entry key="expression|name|502">LotsGroup Award Criterion Type (BT-539-LotsGroup) exists</entry>
+<entry key="expression|name|500">BT-01(e)-Procedure does not exist</entry>
+<entry key="expression|name|501">Lot Award Criterion Type (BT-539-Lot) does not exist</entry>
+<entry key="expression|name|502">LotsGroup Award Criterion Type (BT-539-LotsGroup) does not exist</entry>
 <entry key="expression|name|503">Buyer Review Requests Count (BT-635-LotResult) is not present</entry>
 <entry key="expression|name|504">Buyer Review Requests Irregularity Type (BT-636-LotResult) is not present</entry>
 <entry key="expression|name|505">Unpublished Identifier (BT-195(BT-635)-LotResult) is not present</entry>
@@ -393,6 +392,9 @@
 <entry key="expression|name|557">LotsGroup Purpose Lot ID is not present</entry>
 <entry key="expression|name|558">the Service Provider is not identified</entry>
 <entry key="expression|name|56">the value chosen for BT-766-Lot is either 'Dynamic purchasing system, also usable by buyers not listed in this notice' or 'Dynamic purchasing system, only usable by buyers listed in this notice'</entry>
+<entry key="expression|name|560">Framework Reestimated Value (BT-660-LotResult) is not present</entry>
+<entry key="expression|name|561">Unpublished Identifier (BT-195(BT-660)-LotResult) is not present</entry>
+<entry key="expression|name|568">OPT-060-Lot is not present</entry>
 <entry key="expression|name|57">BT-765-Lot is equal to 'None'</entry>
 <entry key="expression|name|58">The value chosen for the field BT-765-Lot is either 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition' or 'Framework agreement, without reopening of competition'</entry>
 <entry key="expression|name|59">the value chosen for the field BT-105-Procedure is not 'Negotiated without prior call for competition'</entry>
@@ -403,7 +405,7 @@
 <entry key="expression|name|63">the value chosen for BT-765-Lot is either 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition', 'Framework agreement, without reopening of competition and the value of BT-142-LotResult is 'At least one winner was chosen'</entry>
 <entry key="expression|name|64">the value chosen for BT-765-Lot is either 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition', 'Framework agreement, without reopening of competition and the value of BT-142-LotResult is 'At least one winner was chosen'</entry>
 <entry key="expression|name|65">the value chosen for BT-142-LotResult is 'At least one winner was chosen'</entry>
-<entry key="expression|name|66">the value chosen for BT-142-LotResult is not 'At least one winner was chosen'</entry>
+<entry key="expression|name|66">the value chosen for BT-142-LotResult is not 'At least one winner was chosen' or LotResult Technical ID (OPT-322) does not exist</entry>
 <entry key="expression|name|67">the value chosen for BT-773-Tender is not equal to 'YES'</entry>
 <entry key="expression|name|68">the value chosen for BT-730-Tender is not equal to 'TRUE'</entry>
 <entry key="expression|name|69">the value chosen for BT-773-Tender is not equal to 'YES'</entry>
@@ -411,14 +413,13 @@
 <entry key="expression|name|70">Subcontracting Percentage Known (BT-731-Tender) is not equal to 'TRUE'</entry>
 <entry key="expression|name|71">the value chosen for BT-773-Tender is equal to 'YES'</entry>
 <entry key="expression|name|72">no winner is selected or the value of BT-765-Lot does not correspond to framework agreement</entry>
-<entry key="expression|name|74">the value chosen for BT-02-Notice is not equal to 'Change notice'</entry>
+<entry key="expression|name|74">there is no reference to a changed notice (BT-758-notice)</entry>
 <entry key="expression|name|76">BT-644-Lot is not present</entry>
 <entry key="expression|name|77">the value chosen for BT-105-Procedure is either 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Other multiple stage procedure', 'Restricted'</entry>
 <entry key="expression|name|78">the value chosen for BT-105-Procedure is not 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|79">BT-630(d)-Lot is not present</entry>
 <entry key="expression|name|8">BT-5071-Part is present</entry>
 <entry key="expression|name|80">BT-105-Lot is either 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Other multiple stage procedure' or 'Restricted'</entry>
-<entry key="expression|name|82">the value chosen for BT-02-Notice is equal to 'Change notice'</entry>
 <entry key="expression|name|83">BT-779-Tender is not present</entry>
 <entry key="expression|name|84">OPP-020-Contract is not equal to 'TRUE'</entry>
 <entry key="expression|name|85">OPP-020-Contract is not equal to 'TRUE'</entry>
