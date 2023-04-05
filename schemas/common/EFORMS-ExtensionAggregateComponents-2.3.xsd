@@ -517,6 +517,7 @@
 	<xsd:complexType name="TenderingPartyType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="cbc:Name" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:Tenderer" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:SubContractor" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
