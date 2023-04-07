@@ -264,6 +264,7 @@ StringLengthFunction: 'string-length';
 SumFunction: 'sum';
 FormatNumberFunction: 'format-number';
 ConcatFunction: 'concat';
+StringJoinFunction: 'string-join';
 DateFunction: 'date';
 TimeFunction: 'time';
 DayTimeDurationFunction: 'day-time-duration';

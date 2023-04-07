@@ -412,6 +412,7 @@ stringFunction
     : SubstringFunction OpenParenthesis stringExpression Comma start=numericExpression (Comma length=numericExpression)? CloseParenthesis     # substringFunction
     | StringFunction OpenParenthesis numericExpression CloseParenthesis                                                                       # toStringFunction
     | ConcatFunction OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis                                              # concatFunction
+    | StringJoinFunction OpenParenthesis stringSequence Comma stringExpression CloseParenthesis                                               # stringJoinFunction
     | FormatNumberFunction OpenParenthesis numericExpression (Comma format=stringExpression)? CloseParenthesis                                # formatNumberFunction
     ;
 
