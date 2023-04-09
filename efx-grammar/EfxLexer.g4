@@ -277,17 +277,32 @@ IntersectFunction: 'value-intersect';
 ExceptFunction: 'value-except';
 SequenceEqualFunction: 'sequence-equal';
 
-BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
-FieldId: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
-NodeId: 'ND' '-' [a-zA-Z0-9]+;
-
-Variable: '$' IdentifierPart;
-
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
 // Therefore duration literals must be declared before Identifier. 
 DayTimeDurationLiteral: '-'? 'P' INTEGER ('W' | 'D');
 YearMonthDurationLiteral: '-'? 'P' INTEGER ('Y' | 'M');
+
+
+FieldId: FieldIdentifier | FieldAlias;
+NodeId: NodeIdentifier | NodeAlias;
+
+VariablePrefix: '$';
+AttributePrefix: '@';
+CodelistPrefix: 'codelist:';
+
+Variable: VariablePrefix IdentifierPart;
+Attribute: AttributePrefix Identifier;
+CodelistId: CodelistPrefix Identifier;
+
+BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
+FieldIdentifier: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
+NodeIdentifier: 'ND' '-' [a-zA-Z0-9]+;
+FieldAlias: CamelCase ('_' CamelCase)*;
+NodeAlias: PascalCase ('_' PascalCase)*;
+fragment CamelCase: [a-z] [a-z0-9]+ PascalCase*;
+fragment PascalCase: [A-Z] [a-z0-9]+ PascalCase*;
+
 
 Identifier: IdentifierPart ('-' IdentifierPart)*;
 IdentifierPart: LETTER (LETTER | DIGIT)*;
@@ -311,7 +326,6 @@ Plus: '+';
 Minus: '-';
 Comma: ',';
 
-SlashAt: '/@';
 Colon: ':';
 
 fragment HEX4: HEX HEX HEX HEX;

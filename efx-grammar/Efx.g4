@@ -363,7 +363,7 @@ contextVariableSpecifier: variable=variableReference ColonColon;
  * We chose to specify the grammar for field references and node references in a slightly different style to avoid left recursion of grammar rules.
  * It looks more "complicated" but it is necessary for parsing (see fieldReferenceWithFieldContextOverride). 
  */
-attributeReference:fieldReference SlashAt Identifier;
+attributeReference:fieldReference Slash Attribute;
 fieldReference: fieldReferenceWithFieldContextOverride | fieldReferenceInOtherNotice | absoluteFieldReference;
 fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithVariableContextOverride;
 fieldReferenceWithVariableContextOverride: contextVariableSpecifier? reference=fieldReferenceWithNodeContextOverride;
@@ -384,8 +384,7 @@ simpleNodeReference: NodeId;
 
 noticeReference: Notice OpenParenthesis noticeId=stringExpression CloseParenthesis;
 
-codelistReference: OpenParenthesis codeListId=codelistId CloseParenthesis;
-codelistId: Identifier;
+codelistReference: CodelistId;
 
 axis: Axis ColonColon;
 
