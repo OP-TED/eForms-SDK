@@ -97,11 +97,11 @@ contextDeclarationBlock
 
 contextDeclaration: contextVariableInitializer | fieldContext | nodeContext;
 
-templateVariableList: templateVariableIntializer (Comma templateVariableIntializer)*;
+templateVariableList: templateVariableInitializer (Comma templateVariableInitializer)*;
 
 contextVariableInitializer: ContextTypeCast Variable Assignment fieldContext;
 
-templateVariableIntializer
+templateVariableInitializer
     : TextTypeCast Variable Assignment stringExpression           # stringVariableInitializer
     | BooleanTypeCast Variable Assignment booleanExpression       # booleanVariableInitializer
     | NumericTypeCast Variable Assignment numericExpression       # numericVariableInitializer
