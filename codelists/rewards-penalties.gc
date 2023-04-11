@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>RewardsPenalties</ShortName>
@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Rewards and penalties</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Информация за възнаграждения и глоби</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Údaje o odměnách a pokutách</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Information om belønninger og sanktioner</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Angaben zu Belohnungen und Sanktionen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πληροφορίες σχετικά με τις ανταμοιβές και τις κυρώσεις</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Rewards and penalties</SimpleValue>
+            <SimpleValue>Information on rewards and penalties</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Información sobre recompensas y sanciones</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teave hüvitiste ja trahvide kohta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tiedot kannustimista ja sanktioista</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Informations sur les primes et les pénalités</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Faisnéis faoi luaíochtaí agus pionóis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Podaci o nagradama i kaznama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A jutalmakkal és szankciókkal kapcsolatos információ</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Informazioni su premi e penalità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Informacija apie atlygį ir sankcijas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Informācija par atlīdzībām un sankcijām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tagħrif dwar premjijiet u pieni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Inlichtingen over beloningen en sancties</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Informacja na temat nagród i kar</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Informação sobre recompensas e penalizações</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Informații privind recompensele și penalitățile</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Informácie o odmenách a sankciách</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Informacije o nagradah in kaznih</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Information om belöningar och straff</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

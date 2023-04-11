@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Nda</ShortName>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>False</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>не</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>ne</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>nej</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>nein</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>όχι</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>False</SimpleValue>
+            <SimpleValue>no</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>no</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>ei</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>ei</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>non</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>níl</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>ne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>nem</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>no</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>ne</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>nē</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>le</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>neen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>não</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>nu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>ne</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>nej</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>True</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>да</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>ano</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>ja</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>ja</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>ναι</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>True</SimpleValue>
+            <SimpleValue>yes</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>sí</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>jah</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>kyllä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>oui</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>tá</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>da</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>igen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>sì</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>taip</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>jā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>iva</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>ja</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>tak</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>sim</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>da</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>áno</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>da</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ja</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

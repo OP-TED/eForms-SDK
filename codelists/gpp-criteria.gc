@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>GppCriteria</ShortName>
@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>EU GPP criteria</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерии на ЕС за екологосъобразни обществени поръчки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritéria EU pro zelené veřejné zakázky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>EU's kriterier for grønne offentlige indkøb</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>EU-Kriterien für ein umweltorientiertes öffentliches Beschaffungswesen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κριτήρια της ΕΕ για τις πράσινες δημόσιες συμβάσεις</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>EU GPP criteria</SimpleValue>
+            <SimpleValue>EU Green Public Procurement criteria</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterios de contratación pública ecológica de la UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>ELi keskkonnahoidlike avalike hangete kriteeriumid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ympäristöä säästäviä julkisia hankintoja koskevat EU:n kriteerit</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critères de l’UE en matière de marchés publics écologiques</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéir an Aontais maidir le Soláthar Poiblí Glas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriteriji EU-a za zelenu javnu nabavu</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A zöld közbeszerzésre vonatkozó uniós kritériumok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criteri dell'UE in materia di appalti pubblici verdi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>ES žaliųjų viešųjų pirkimų kriterijai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>ES zaļā publiskā iepirkuma kritēriji</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-kriterji tal-Akkwist Pubbliku Ekoloġiku tal-UE</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>EU-criteria voor groene overheidsopdrachten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Unijne kryteria zielonych zamówień publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Critérios da UE em matéria de contratos públicos ecológicos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criteriile UE privind achizițiile publice ecologice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritériá zeleného verejného obstarávania EÚ</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Merila EU za zelena javna naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>EU:s kriterier för miljöanpassad offentlig upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>National GPP criteria</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Национални критерии за екологосъобразни обществени поръчки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Vnitrostátní kritéria pro zelené veřejné zakázky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Nationale kriterier for grønne offentlige indkøb</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nationale Kriterien für die umweltgerechte Vergabe öffentlicher Aufträge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθνικά κριτήρια πράσινων δημόσιων συμβάσεων</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>National GPP criteria</SimpleValue>
+            <SimpleValue>National Green Public Procurement criteria</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterios nacionales de contratación pública ecológica</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskkonnahoidlike avalike hangete riiklikud kriteeriumid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ympäristöä säästäviä julkisia hankintoja koskevat kansalliset kriteerit</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critères nationaux applicables aux marchés publics écologiques</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéir Náisiúnta maidir le Soláthar Poiblí Glas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nacionalni kriteriji za zelenu javnu nabavu</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nemzeti zöld közbeszerzési kritériumok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criteri nazionali per gli appalti pubblici verdi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nacionaliniai žaliųjų viešųjų pirkimų kriterijai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Valsts zaļā publiskā iepirkuma kritēriji</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kriterji nazzjonali tal-Akkwist Pubbliku Ekoloġiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Nationale criteria voor groene overheidsopdrachten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Krajowe kryteria zielonych zamówień publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Critérios nacionais em matéria de contratos públicos ecológicos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criterii naționale privind achizițiile publice ecologice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Vnútroštátne kritériá zeleného verejného obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nacionalna merila za zelena javna naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Nationella kriterier för miljöanpassad offentlig upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,8 +286,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>No GPP criteria</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Липса на критерии за екологосъобразни обществени поръчки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Žádná kritéria pro zelené veřejné zakázky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ingen kriterier for grønne offentlige indkøb</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Keine Kriterien für die umweltgerechte Vergabe öffentlicher Aufträge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δεν υπάρχουν κριτήρια για τις πράσινες δημόσιες συμβάσεις</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>No GPP criteria</SimpleValue>
+            <SimpleValue>No Green Public Procurement criteria</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ausencia de criterios de contratación pública ecológica</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskkonnahoidlike avalike hangete kriteeriumid puuduvad</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ei ympäristöä säästäviä julkisia hankintoja koskevia perusteita</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Pas de critères relatifs aux marchés publics écologiques</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan aon chritéir maidir le Soláthar Poiblí Glas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nema kriterija zelene javne nabave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nincsenek zöld közbeszerzési kritériumok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nessun criterio per gli appalti pubblici verdi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Žaliųjų viešųjų pirkimų kriterijų nėra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav zaļā publiskā iepirkuma kritēriju</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-ebda kriterju tal-Akkwist Pubbliku Ekoloġiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geen criteria voor groene overheidsopdrachten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak kryteriów zielonych zamówień publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ausência de critérios em matéria de contratos públicos ecológicos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nu există criterii privind achizițiile publice ecologice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Žiadne kritériá zeleného verejného obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ni meril za zelena javna naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inga kriterier för miljöanpassad offentlig upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,8 +366,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Other GPP criteria</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Други критерии за екологосъобразни обществени поръчки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Další kritéria pro zadávání zelených veřejných zakázek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andre kriterier for grønne offentlige indkøb</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstige Kriterien für die umweltgerechte Vergabe öffentlicher Aufträge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλα κριτήρια για τις πράσινες δημόσιες συμβάσεις</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Other GPP criteria</SimpleValue>
+            <SimpleValue>Other Green Public Procurement criteria</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otros criterios de contratación pública ecológica</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muud keskkonnahoidlike avalike hangete kriteeriumid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muut ympäristöä säästäviä julkisia hankintoja koskevat kriteerit</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autres critères relatifs aux marchés publics écologiques</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéir eile maidir le Soláthar Poiblí Glas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostali kriteriji zelene javne nabave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A zöld közbeszerzés egyéb kritériumai</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altri criteri per gli appalti pubblici verdi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kiti žaliųjų viešųjų pirkimų kriterijai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Citi zaļā publiskā iepirkuma kritēriji</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kriterji oħra tal-Akkwist Pubbliku Ekoloġiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere criteria voor groene overheidsopdrachten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne kryteria zielonych zamówień publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outros critérios de contratação pública ecológica</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Alte criterii privind achizițiile publice ecologice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ďalšie kritériá zeleného verejného obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Druga merila za zelena javna naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Andra kriterier för miljöanpassad offentlig upphandling</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>CustomerService</ShortName>
@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Assistance for persons with reduced mobility</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Помощ за лица с намалена подвижност</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pomoc osobám se sníženou pohyblivostí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Hjælp til bevægelseshæmmede personer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Betreuung von Personen mit eingeschränkter Mobilität</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Βοήθεια για άτομα με μειωμένη κινητικότητα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Assistance for persons with reduced mobility</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Asistencia para personas con movilidad reducida</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Liikumispuudega isikutele antav abi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Apu liikuntarajoitteisille henkilöille</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Assistance aux personnes à mobilité réduite</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cúnamh do dhaoine a bhfuil a soghluaisteacht laghdaithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pomoć osobama smanjene pokretljivosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Segítségnyújtás a csökkent mozgásképességű személyek számára</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Assistenza alle persone con mobilità ridotta</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pagalba ribotos judėsenos asmenims</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Palīdzība personām ar ierobežotām pārvietošanās spējām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Assistenza pprovduta lill-persuni b'mobbiltà mnaqqsa</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bijstand aan personen met beperkte mobiliteit</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Pomoc świadczona osobom o ograniczonej sprawności ruchowej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Assistência para pessoas com mobilidade reduzida</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Asistenţa acordată persoanelor cu mobilitate redusă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Pomoc osobám so zníženou pohyblivosťou</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Pomoč za osebe z omejeno mobilnostjo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Stöd till personer med begränsad rörlighet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cancellations of services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Анулирания на услуги</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zrušení služeb</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Aflysninger af tjenester</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zugausfälle</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ακυρώσεις δρομολογίων</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cancellations of services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anulaciones de los servicios</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teenuste tühistamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Palvelujen peruutukset</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Annulations de services</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí cealaithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Otkazivanje usluga</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Járatkimaradások</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Soppressione di servizi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Paslaugų atšaukimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pakalpojumu atcelšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kanċellazzjonijiet tas-servizzi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Uitvallen van diensten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odwoływanie połączeń</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anulações de serviços</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anularea serviciilor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zrušenie služieb</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Odpoved storitev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Annullering av tjänster</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,8 +286,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cleanliness of rolling stock and station facilities</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Чистота на подвижния състав и гаровите съоръжения</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Čistota železničního parku a nádražních zařízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Renlighed af rullende materiel og stationsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sauberkeit des Fahrzeugmaterials und der Bahnhofseinrichtungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Καθαριότητα του τροχαίου υλικού και των εγκαταστάσεων σταθμών</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cleanliness of rolling stock and station facilities</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Limpieza de material rodante y de las instalaciones de la estación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Veeremi ja raudteejaamade puhtus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Liikkuvan kaluston ja asematilojen puhtaus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Propreté du matériel roulant et des équipements des gares</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Glaineacht Rothstoic agus saoráidí Stáisiún</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Čistoća tračničkih vozila i stanica</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A gördülőállomány és az állomás létesítményeinek tisztasága</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Pulizia del materiale rotabile e delle stazioni</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Riedmenų ir stoties patalpų švara</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ritošā sastāva un stacijas telpu tīrība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-indafa tal-Vaguni tal-Ferrovija u tal-faċiltajiet fl-Istazzjon</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Netheid van rollend materieel en netheid van stationsfaciliteiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Czystość taboru i obiektów stacyjnych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Limpeza do Material Circulante e das instalações da Estação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Stadiul de curăţenie a materialului rulant şi a echipamentelor gărilor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Čistota vozového parku a staničných zariadení</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Čistost železniškega voznega parka in postaj</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Renlighet hos rullande materiel och stationsanläggningar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,8 +366,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Complaint handling</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обработване на оплаквания</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Řešení stížností</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Klagehåndtering</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Beschwerdebearbeitung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Χειρισμός παραπόνων</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Complaint handling</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Tratamiento de reclamaciones</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kaebustega tegelemine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Valitusten käsittely</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Traitement des plaintes</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Láimhseáil gearán</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Rješavanje pritužbi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Panaszkezelés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Trattamento dei reclami</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skundų nagrinėjimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sūdzību risināšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>It-trattament tal-ilmenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Klachtenafhandeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Obsługa skarg</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Tratamento de queixas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tratarea plângerilor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Vybavovanie reklamácií</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obravnava pritožb</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Hantering av klagomål</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,8 +446,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Information</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Информация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Informace</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Oplysninger</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Informationen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πληροφορίες</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Información</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Info</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tiedoksi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Informations</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eolas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Informacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Információk</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Informazioni</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Informacijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Informācijas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Informazzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Informatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Informacji</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Informação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Informații</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Informácie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Informacij</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Upplysningar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,8 +526,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Other quality targets</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Други цели за качество</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Další cíle v oblasti kvality</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andre kvalitetsmålsætninger</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstige Qualitätsziele</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλοι ποιοτικοί στόχοι</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Other quality targets</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otras metas de calidad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muud kvaliteediga seotud eesmärgid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lisälaatutavoitteet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autres cibles de qualité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Spriocanna cáilíochta eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostali ciljevi kvalitete</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb minőségi célok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altri obiettivi di qualità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kiti kokybės tikslai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Citi kvalitātes mērķi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Miri tal-kwalità oħrajn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere kwaliteitsdoelstellingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne cele jakościowe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outros objetivos de qualidade</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Alte obiective de calitate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ďalšie ciele kvality</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Drugi cilji v zvezi s kakovostjo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Andra kvalitetsmål</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -192,8 +606,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Punctuality and reliability</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Точност и надеждност</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přesnost a spolehlivost</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Punktlighed og pålidelighed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Pünktlichkeit und Zuverlässigkeit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ακρίβεια και αξιοπιστία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Punctuality and reliability</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Puntualidad y fiabilidad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Täpsus ja usaldusväärsus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Täsmällisyys ja luotettavuus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ponctualité et fiabilité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Poncúlacht agus iontaofacht</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Točnost i pouzdanost</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Pontosság és megbízhatóság</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Puntualità e affidabilità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Punktualumas ir patikimumas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Precizitāte un ticamība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-puntwalità u kemm tista' torbot fuq is-servizz</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Punctualiteit en betrouwbaarheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Punktualność i niezawodność</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Pontualidade e fiabilidade</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Punctualitatea şi fiabilitatea</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Presnosť a spoľahlivosť</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Točnost in zanesljivost</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Punktlighet och tillförlitlighet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -203,8 +686,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Customer Satisfaction Survey</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Проучване за удовлетвореност на клиентите</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Průzkum spokojenosti zákazníka</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Brugertilfredshedsundersøgelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Befragung zur Kundenzufriedenheit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Έρευνα ικανοποίησης πελατών</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Customer Satisfaction Survey</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Encuesta de satisfacción del cliente</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kliendi rahulolu uuring</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Asiakastyytyväisyyskysely</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Enquête de satisfaction de la clientèle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Suirbhé Sástachta Custaiméirí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Anketa o zadovoljstvu klijenata</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ügyfél-elégedettségi felmérés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Indagine sul grado di soddisfazione della clientela</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Klientų apklausa apie paslaugos kokybę</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Klientu apmierinātības aptauja</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sondaġġ dwar is-Sodisfazzjon tal-Konsumatur</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Klantentevredenheidsonderzoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Badanie opinii klientów</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Inquérito de Satisfação do Cliente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Evaluarea satisfacţiei clienţilor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prieskum spokojnosti zákazníkov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Spremljanje zadovoljstva strank</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Undersökning om kundtillfredsställelse</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -214,8 +766,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tickets</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Билети</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Vstupenky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Billetter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Fahrkarten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εισιτήρια</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Tickets</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Billetes</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Piletid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lipunmyynti</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Des billets</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ticéid</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Karte</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jegyek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Biglietti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bilietai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Biļetes</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Biljetti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vervoersbewijzen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bilety</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Bilhetes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Bilete de călătorie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prepravné doklady</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vozovnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Biljetter</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

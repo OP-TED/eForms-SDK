@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>ContractDetail</ShortName>
@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Allocation of revenues of sales from tickets</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Разпределяне на приходи от продажби на билети</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Rozdělení výnosů z prodeje jízdenek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Fordeling af indtægter fra billetsalg</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuteilung der Erträge aus dem Verkauf von Fahrscheinen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κατανομή των εσόδων από την πώληση εισιτηρίων</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Allocation of revenues of sales from tickets</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Distribución de los ingresos derivados de la venta de los títulos de transporte</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Piletimüügist saadava tulu jaotamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Matkalippujen myynnistä saatavien tulojen jakaminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Affectation des recettes provenant de la vente des titres de transport</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Leithdháileadh an ioncaim ó dhíolachán ticéad</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dodjela prihoda od prodaje karata</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A jegyértékesítésből származó bevételek megosztása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ripartizione dei ricavi dalla vendita di biglietti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pajamų, gautų pardavus bilietus, paskirstymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Biļešu pārdošanā iegūto ieņēmumu sadale</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-allokazzjoni tad-dħul mill-bejgħ tal-biljetti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verdeelsleutel voor de ontvangsten uit de verkoop van vervoerbewijzen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podział przychodów ze sprzedaży biletów</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Repartição das receitas ligadas à venda de títulos de transporte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Alocarea veniturilor încasate din vânzarea de bilete</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Vyčlenenie výnosov z predaja lístkov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Razporeditev prihodkov iz prodaje vozovnic</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tilldelning av inkomster från biljettförsäljning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cost parameters for compensation payments</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ценови параметри за компенсационните плащания</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Parametry nákladů pro splátky kompenzace</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Omkostningsparametre for kompensationsbetalinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kostenparameter für Ausgleichszahlungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παράμετροι κόστους για πληρωμές αποζημιώσεων</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Cost parameters for compensation payments</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Parámetros de coste para el pago de compensaciones</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hüvitise maksumuse näitajad</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Korvausten kustannusperusteet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Paramètres de coût pour compensations</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Paraiméadair costais le haghaidh íocaíochtaí cúitimh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Troškovni parametri za plaćanja naknade</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az ellentételezés költségparaméterei</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Parametri di costo per le compensazioni</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kompensacinėms išmokoms taikomi išlaidų parametrai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Izmaksu parametri attiecībā uz kompensāciju maksājumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-parametri tal-ispejjeż biex isiru l-ħlasijiet ta' kumpens</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Parameters voor kosten voor compensaties</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Parametry kosztów w celu obliczenia rekompensaty</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Parâmetros de custo para compensações</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Parametri de cost pentru plata compensaţiilor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nákladové parametre pre platby úhrady</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Stroškovni parametri za nadomestila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Kostnadsparametrar för betalningar av kompensation</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,8 +286,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Exclusive rights are granted</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Предоставени са изключителни права</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Výlučná práva jsou udělena</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Der ydes enerettigheder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ausschließliche Rechte werden eingeräumt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Χορηγούνται αποκλειστικά δικαιώματα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Exclusive rights are granted</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Se otorgan derechos exclusivos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Antud on ainuõigused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Yksinoikeudet myönnetään</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Des droits exclusifs sont octroyés</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Deonaítear cearta eisiacha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Isključiva prava se dodjeljuju</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kizárólagos jogok biztosítottak</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sono concessi diritti di esclusiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Suteiktos išskirtinės teisės</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķirtas ekskluzīvas tiesības</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Qegħdin jingħataw drittijiet esklussivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Exclusieve rechten zijn toegekend</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przyznano wyłączne prawa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>São atribuídos direitos exclusivos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Drepturile exclusive sunt acordate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Výlučné práva sú udelené</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Izključne pravice so dodeljene</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ensamrätt beviljas</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,8 +366,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Other particular conditions</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Други специфични условия</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Další zvláštní podmínky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andre særlige vilkår</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstige besondere Bedingungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλοι ειδικοί όροι</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Other particular conditions</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otras condiciones particulares</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muud eritingimused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muut erityisehdot</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autres conditions particulières</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Coinníollacha sonracha eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostali posebni uvjeti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb különleges feltételek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altre condizioni particolari</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kitos specifinės sąlygos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Citi konkrēti nosacījumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kundizzjonijiet partikolari oħrajn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere bijzondere voorwaarden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne szczególne warunki</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outras condições especiais</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Alte condiții speciale</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ďalšie osobitné podmienky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Drugi posebni pogoji</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Andra särskilda villkor</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,8 +446,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Public service obligations</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Задължения, свързани с общесвената услуга</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Závazky veřejné služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Offentlige serviceforpligtelser</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gemeinwirtschaftliche Verpflichtungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υποχρεώσεις παροχής δημόσιας υπηρεσίας</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Public service obligations</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Obligaciones de servicio público</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Avaliku teenindamise kohustused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Julkisia palveluja koskevat velvoitteet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Obligations de service public</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Oibleagáidí Seirbhíse Poiblí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obveze javnih usluga</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Közszolgáltatási kötelezettségek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Obblighi di servizio pubblico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Įsipareigojimai teikti viešąsias paslaugas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sabiedrisko pakalpojumu sniegšanas saistības</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-Obbligi ta' Servizz Pubbliku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Openbaredienstverplichtingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zobowiązania do świadczenia usług publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Obrigações de Serviço Público</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Obligaţii de serviciu public</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Záväzky vyplývajúce zo služieb vo verejnom záujme</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obveznosti javne službe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Skyldigheter avseende offentliga tjänster</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,8 +526,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Social standards</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Социални стандарти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Sociální normy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Sociale standarder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Soziale Standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κοινωνικά πρότυπα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Social standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Normas sociales</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sotsiaalsed standardid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Työehtoihin liittyvät vaatimukset</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Normes sociales</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Caighdeáin shóisialta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Socijalni standardi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szociális normák</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Standard sociali</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Socialiniai standartai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sociālie standarti</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Standards soċjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Sociale normen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Standardy socjalne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Padrões sociais</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Standarde sociale</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Sociálne normy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Socialni standardi</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Sociala normer</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

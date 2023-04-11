@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PinBuyer</ShortName>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>1</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за публикуването на обявление за предварителна информация в профил на купувача – Общата директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o uveřejnění předběžného oznámení na profilu kupujícího – obecná směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om offentliggørelse af en forhåndsmeddelelse i en køberprofil – det generelle direktiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung der Veröffentlichung einer Vorinformation in einem Beschafferprofil – allgemeine Richtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση της δημοσίευσης προκαταρκτικής προκήρυξης στο «προφίλ αγοραστή» – γενική οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>1</SimpleValue>
+            <SimpleValue>Notice of the publication of a prior information notice on a buyer profile – general directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de la publicación de un anuncio de información previa en un perfil de comprador. Directiva general.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teade eelteate avaldamise kohta hankija profiilis – ülddirektiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus ennakkoilmoituksen julkaisemisesta hankkijaprofiilissa – yleisdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis annonçant la publication d’un avis de préinformation sur un profil d’acheteur – directive générale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le fógra réamhfhaisnéise a fhoilsiú maidir le próifíl ceannaitheora — treoir ghinearálta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o objavi prethodne informacijske obavijesti na profilu kupca – opća direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Előzetes tájékoztató felhasználói oldalon történő közzétételéről szóló hirdetmény – általános irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di pubblicazione di un avviso di preinformazione relativo al profilo di committente – direttiva generale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie išankstinio informacinio skelbimo paskelbimą pirkėjo profilyje; bendroji direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par iepriekšēja informatīva paziņojuma publicēšanu pircēja profilā – Vispārīgā iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-pubblikazzjoni ta’ avviż informattiv minn qabel fuq profil ta’ xerrej – Direttiva ġenerali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van de bekendmaking van een vooraankondiging via een kopersprofiel – algemene richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o publikacji wstępnego ogłoszenia informacyjnego na profilu nabywcy – dyrektywa ogólna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio relativo à publicação de um anúncio de pré-informação sobre um perfil de adquirente – diretiva geral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind publicarea unui anunț de intenție pe un profil de cumpărător – directivă generală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o uverejnení predbežného oznámenia v profile kupujúceho – všeobecná smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o objavi predhodnega informativnega obvestila v profilu kupca – splošna direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om offentliggörande av ett förhandsmeddelande på en upphandlarprofil – klassiska direktivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>2</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за публикуването на периодично индикативно обявление в профил на купувача – Секторната директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o uveřejnění pravidelného předběžného oznámení na profilu kupujícího – odvětvová směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om offentliggørelse af en vejledende periodisk bekendtgørelse i en køberprofil – sektordirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung der Veröffentlichung einer regelmäßigen nicht verbindlichen Bekanntmachung in einem Beschafferprofil – Sektorenrichtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση της δημοσίευσης περιοδικής ενδεικτικής προκήρυξης στο «προφίλ αγοραστή» – τομεακή οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>2</SimpleValue>
+            <SimpleValue>Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de la publicación de un anuncio periódico indicativo en un perfil de comprador. Directiva sectorial.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teade perioodilise eelteate avaldamise kohta hankija profiilis –</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus ohjeellisen kausi-ilmoituksen julkaisemisesta hankkijaprofiilissa – toimialakohtainen direktiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis annonçant la publication d’un avis périodique indicatif sur un profil d’acheteur – directive sectorielle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le foilsiú fógra tháscaigh thréimhsiúil maidir le próifíl ceannaitheora — treoir earnála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o objavi periodične indikativne obavijesti na profilu kupca – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Időszakos előzetes tájékoztató felhasználói oldalon történő közzétételéről szóló hirdetmény – ágazati irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di pubblicazione di un avviso periodico indicativo relativo al profilo di committente – direttiva settoriale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie reguliaraus orientacinio skelbimo paskelbimą pirkėjo profilyje; sektoriaus direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par periodiska informatīva paziņojuma publicēšanu pircēja profilā – Komunālo pakalpojumu direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-pubblikazzjoni ta’ avviż indikattiv perjodiku fuq profil ta’ xerrej – Direttiva settorjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van de bekendmaking van een periodieke indicatieve aankondiging via een kopersprofiel – sectorale richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o publikacji okresowego ogłoszenia informacyjnego na profilu nabywcy – dyrektywa sektorowa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio relativo à publicação de um anúncio periódico indicativo sobre um perfil de adquirente – diretiva setorial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind publicarea unui anunț orientativ periodic pe un profil de cumpărător – directivă sectorială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o uverejnení pravidelného informatívneho oznámenia v profile kupujúceho – sektorová smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o objavi periodičnega informativnega obvestila v profilu kupca – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om offentliggörande av ett förhandsmeddelande på en upphandlarprofil – försörjningsdirektivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,8 +287,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за публикуването на обявление за предварителна информация в профил на купувача – Директивата за отбраната</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zveřejnění oznámení předběžných informací na profilu kupujícího – směrnice o zadávání zakázek v oblasti obrany</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om offentliggørelse af en forhåndsmeddelelse i en køberprofil – forsvarsdirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung der Veröffentlichung einer Vorinformation in einem Beschafferprofil – Richtlinie für Beschaffung im Bereich Verteidigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση της δημοσίευσης προκαταρκτικής προκήρυξης στο «προφίλ αγοραστή» – οδηγία για την άμυνα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>3</SimpleValue>
+            <SimpleValue>Notice of the publication of a prior information notice on a buyer profile – defence directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de la publicación de un anuncio de información previa en un perfil de comprador. Directiva de defensa.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teade eelteate avaldamise kohta hankija profiilis – kaitsealane direktiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus ennakkoilmoituksen julkaisemisesta hankkijaprofiilissa – puolustusdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis annonçant la publication d’un avis de préinformation sur un profil d’acheteur – directive «défense»</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le fógra réamhfhaisnéise a fhoilsiú maidir le próifíl ceannaitheora — treoir maidir le cosaint</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o objavi prethodne informativne obavijesti na profilu kupca – direktiva u području obrane</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Előzetes tájékoztató felhasználói oldalon történő közzétételéről szóló hirdetmény – védelmi irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di pubblicazione di un avviso di preinformazione relativo al profilo di committente – direttiva per il settore della difesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie išankstinio informacinio skelbimo paskelbimą pirkėjo profilyje; gynybos direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par iepriekšēja informatīva paziņojuma publicēšanu pircēja profilā – Aizsardzības iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-pubblikazzjoni ta’ avviż informattiv minn qabel fuq profil ta’ xerrej – Direttiva dwar id-difiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van de bekendmaking van een vooraankondiging via een kopersprofiel – defensierichtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o publikacji wstępnego ogłoszenia informacyjnego na profilu nabywcy – dyrektywa obronna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio relativo à publicação de um anúncio de pré-informação sobre um perfil de adquirente – Diretiva Defesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind publicarea unui anunț de intenție pe un profil de cumpărător – directivă privind apărarea</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o uverejnení predbežného informatívneho oznámenia v profile kupujúceho – smernica o zákazkách v oblasti obrany a bezpečnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o objavi predhodnega informativnega obvestila v profilu kupca – direktiva na področju obrambe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om offentliggörande av ett förhandsmeddelande på en upphandlarprofil – försvars- och säkerhetsdirektivet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

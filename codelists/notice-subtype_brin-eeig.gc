@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>BrinEeig</ShortName>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>X01</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Европейско обединение по икономически интереси</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Evropské hospodářské zájmové uskupení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Europæisk økonomisk firmagruppe</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Europäische wirtschaftliche Interessenvereinigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ευρωπαϊκός Όμιλος Οικονομικού Σκοπού</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>X01</SimpleValue>
+            <SimpleValue>European Economic Interest Grouping</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Agrupación Europea de Interés Económico</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Euroopa majandushuviühing</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Eurooppalainen taloudellinen etuyhtymä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Groupement européen d’intérêt économique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ghrúpáil Eorpach um Leas Eacnamaíoch</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Europsko gospodarsko interesno udruženje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Európai gazdasági érdekcsoportosítás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gruppo europeo di interesse economico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Europos ekonominių interesų grupė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Eiropas Ekonomisko interešu grupa</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Grupp Ewropew ta’ Interess Ekonomiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Europese economische belangengroepering</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Europejskie ugrupowanie interesów gospodarczych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Agrupamento Europeu de Interesse Económico</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Gruparea Europeană de Interes Economic</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Európske zoskupenie hospodárskych záujmov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Evropsko gospodarsko interesno združenje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Europeiska ekonomiska intressegruppering</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

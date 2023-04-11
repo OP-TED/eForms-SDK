@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>TransportService</ShortName>
@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bus transport services (urban/regional)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Услуги по превоз с автобус (градски / регионален)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Služby autobusové dopravy (městské / regionální)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjenesteydelser vedrørende trafikbetjening med bus (i byområder / på regionalplan)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Busverkehr (innerstädtisch / regional)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπηρεσίες μεταφορών με λεωφορεία (αστικά / περιφερειακά)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bus transport services (urban/regional)</SimpleValue>
+            <SimpleValue>Bus transport services (urban / regional)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Servicios de transporte en autobús (urbano / regional)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Bussitranspordi teenused (linnas / piirkondlik)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Linja-autoliikenteen palvelut (kaupunkiliikenne / alueliikenne)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Services de transport par autobus (urbain / régional)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí iompair bus (uirbeacha / réigiúnacha)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Autobusni prijevoz (gradski / regionalni)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Busszal végzett szállítási szolgáltatások (városi / regionális)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Servizi di trasporto mediante autobus (urbano / regionale)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Autobusų transporto paslaugos (miestų / regionų)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Autobusu transporta pakalpojumi (pilsētas / reģionālie)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi tat-trasport bix-xarabank (urbani / reġjonali)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Diensten inzake busvervoer (stedelijk / regionaal)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Usługi transportu autobusowego (miejskie / regionalne)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Serviços de transporte por autocarro (urbano / regional)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Servicii de transport cu autobuzul (urban / regional)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Služby autobusovej dopravy (mestská / regionálna)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Storitve avtobusnega prevoza (mestnega / regionalnega)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjänster avseende busstransport (stadsbuss / regionalbuss)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Coach transport services (long-distance)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Услуги по туристически превози (на дълги разстояния)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Služby autobusové dopravy (dálkové)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjenesteydelser vedrørende trafikbetjening med rutebil (langdistance)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Reisebusverkehr (Fernverkehr)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπηρεσίες μεταφορών με πούλμαν (μεγάλες αποστάσεις)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Coach transport services (long-distance)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Servicios de transporte en autocar (larga distancia)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kaugbussitranspordi teenused (pikad vahemaad)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Linja-autoliikenteen palvelut (kaukoliikenne)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Services de transport par autocar (longue distance)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí iompair cóiste (fadraoin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Autobusni prijevoz (međugradski)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Távolsági busszal végzett szállítási szolgáltatások (távolsági)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Servizi di trasporto mediante autobus (lunga distanza)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Miesto ir tolimojo susisiekimo autobusų transporto paslaugos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Autobusu transporta pakalpojumi (tālsatiksmes)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi tat-trasport bil-kowċ (fuq distanza twila)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Diensten inzake touringcarvervoer (lange afstand)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Usługi transportu autokarowego (długodystansowe)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Serviços de transporte por autocarro de turismo (longa distância)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Servicii de transport cu autocarul (pe distanţă lungă)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Služby autokarovej dopravy (diaľková)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Storitve avtobusnega prevoza (dolge proge)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjänster avseende personvagnstransport (långdistans)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,8 +286,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Light rail transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Услуги по превози по теснолинейни железопътни линии</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dopravní služby nadzemní dráhy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjenesteydelser vedrørende trafikbetjening med letbane</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Stadt- und Regionalbahnsysteme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπηρεσίες μεταφορών με ελαφρύ σιδηρόδρομο</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Light rail transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Servicios de transporte en ferrocarril ligero</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kergraudteeranspordi teenused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kevyen raideliikenteen palvelut</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Services de transport par système de rail léger</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí iompair iarnród éadrom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge prijevoza gradskom željeznicom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Helyiérdekű vasúttal végzett szállítási szolgáltatások</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Servizi di trasporto mediante metropolitana leggera</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Lengvojo geležinkelio transporto paslaugos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vieglā dzelzceļa transporta pakalpojumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi tat-trasport bil-ferrovija ħafifa</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Diensten inzake lightrailvervoer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Usługi transportu koleją lekką</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Serviços de transporte por caminho-de-ferro ligeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Servicii de transport cu metroul uşor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Služby ľahkej koľajovej dopravy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Storitve prevoza z lahko železnico</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjänster avseende transport snabbspårvägstransport</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,8 +366,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Metro transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Услуги по превоз с метро</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dopravní služby metra</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjenesteydelser vedrørende trafikbetjening med metro</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>U-Bahnverkehr</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπηρεσίες μεταφορών με μετρό</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Metro transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Servicios de transporte en metro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Metrootranspordi teenused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Metroliikenteen palvelut</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Services de transport par métro</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí iompair meitreo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge prijevoza podzemnom željeznicom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Metróval végzett szállítási szolgáltatások</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Servizi di trasporto mediante metropolitana</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Metro transporto paslaugos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Metro transporta pakalpojumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi tat-trasport bil-metro</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Diensten inzake metrovervoer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Usługi transportu metrem</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Serviços de transporte por metro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Servicii de transport cu metroul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Služby metro dopravy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Storitve prevoza s podzemno železnico</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjänster avseende tunnelbanetransport</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,8 +446,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Other transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Други услуги по превоз</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Další dopravní služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Øvrige transporttjenester</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonstige Beförderungsdienste</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλες υπηρεσίες μεταφορών</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Other transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otros servicios de transporte</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muud transporditeenused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muut liikennepalvelut</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autres services de transport</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí iompair eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostale usluge prijevoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb szállítási szolgáltatások</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altri servizi di trasporto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kito transporto paslaugos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Citu veidu transporta pakalpojumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi oħra tat-trasport</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere vervoersdiensten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne usługi transportowe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outros serviços de transporte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Alte servicii de transport</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Iné dopravné služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Druge storitve prevoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Övriga transporttjänster</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,8 +526,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Inland waterway and maritime transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Услуги по превоз по вътрешни водни пътища и морски пътища</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dopravní služby na námořních a vnitrozemských vodních cestách</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjenesteydelser i forbindelse med transport ad indre vandveje og søtransport</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Binnenschifffahrtswege und Seeverkehr</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπηρεσίες εσωτερικών πλωτών και θαλάσσιων μεταφορών</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Inland waterway and maritime transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Servicios de transporte marítimo y por vías navegables interiores</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sise- ja mereveeteede transpordi teenused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sisävesi- ja meriliikenteen palvelut</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Services de transport maritime et par voie navigable</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>seirbhísí iompair uiscebhealaí intíre agus muirí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge pomorskog prijevoza i prijevoza unutarnjim plovnim putevima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Belvízi és tengeri szállítási szolgáltatások</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Servizi di trasporto marittimo e per via navigabile</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vidaus vandenų ir jūrų transporto paslaugos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iekšējo ūdensceļu un jūras transporta pakalpojumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi tat-trasport fuq passaġġ tal-ilma intern u marittimi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Diensten inzake vervoer over zee en binnenwateren</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Usługi transportu wodnego śródlądowego oraz morskiego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Serviços de transporte marítimo e por via navegável interior</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Servicii de transport maritim şi pe căi navigabile interioare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Služby vnútrozemskej a námornej vodnej dopravy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Storitve prevoza po celinskih vodnih poteh in morju</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjänster avseende sjötransport och transport på inre vattenvägar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -192,8 +606,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Rail transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Услуги на железопътния транспорт</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Služby železniční dopravy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jernbanetransport</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Eisenbahnverkehr</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπηρεσίες σιδηροδρομικών μεταφορών</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Rail transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Servicios de transporte por ferrocarril</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Raudteetransporditeenused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rautatiekuljetuspalvelut</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Services de transports ferroviaires</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí iompar ar iarnród</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge željezničkog prijevoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Vasúti szállítási szolgáltatások</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Servizi di trasporto per ferrovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Geležinkelio transporto paslaugos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dzelzceļa transporta pakalpojumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi ta’ trasport ferrovjarju</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Spoorwegvervoerdiensten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Usługi transportu kolejowego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Serviços de transporte ferroviário</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Servicii de transport feroviar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Služby železničnej dopravy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Storitve železniškega prevoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Järnvägstransport</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -203,8 +686,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tram transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Услуги по превоз с трамвай</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Tramvajové dopravní služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjenesteydelser vedrørende trafikbetjening med sporvogn</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Straßenbahnverkehr</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπηρεσίες μεταφορών με τραμ</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Tram transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Servicios de transporte en tranvía</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Trammitranspordi teenused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Raitiotieliikenteen palvelut</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Services de transport par tramway</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí iompair tramanna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge tramvajskog prijevoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Villamossal végzett szállítási szolgáltatások</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Servizi di trasporto mediante tram</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tramvajų transporto paslaugos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tramvaju transporta pakalpojumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi tat-trasport bit-tramm</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Diensten inzake tramvervoer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Usługi transportu tramwajowego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Serviços de transporte por eléctrico</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Servicii de transport cu tramvaiul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Služby električkovej dopravy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Storitve prevoza s tramvaji</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjänster avseende spårvagnstransport</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -214,8 +766,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Trolleybus transport services</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Услуги по превоз с тролейбус</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Trolejbusové dopravní služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tjenesteydelser vedrørende trafikbetjening med trolleybus</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Oberleitungsbusverkehr</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπηρεσίες μεταφορών με λεωφορεία τρόλεϊ</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Trolleybus transport services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Servicios de transporte en trolebús</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Trollitranspordi teenused</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Johdinautoliikenteen palvelut</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Services de transport par trolleybus</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Seirbhísí iompair busanna tralaí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge prijevoza trolejbusom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Trolibusszal végzett szállítási szolgáltatások</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Servizi di trasporto mediante filobus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Troleibusų transporto paslaugos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Trolejbusu transporta pakalpojumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Servizzi tat-trasport bix-xarabank li taħdem bl-elettriku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Diensten inzake trolleybusvervoer</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Usługi transportu trolejbusowego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Serviços de transporte por troleicarro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Servicii de transport cu troleibuzul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Služby trolejbusovej dopravy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Storitve prevoza s trolejbusi</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tjänster avseende trådbusstransport</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

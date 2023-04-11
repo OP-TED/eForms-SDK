@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PinRtl</ShortName>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>7</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация, използвано за съкращаване на сроковете за получаване на офертите – Общата директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek – obecná směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse anvendt til at afkorte fristerne for modtagelse af tilbud – det generelle direktiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation zum Zweck der Verkürzung der Frist für den Eingang der Angebote – allgemeine Richtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη που χρησιμοποιείται για τη σύντμηση των προθεσμιών για την παραλαβή των προσφορών – γενική οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>7</SimpleValue>
+            <SimpleValue>Prior information notice used to shorten time limits for receipt of tenders – general directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa usado para reducir los plazos de recepción de las ofertas. Directiva general.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Perioodiline eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks – valdkondlik direktiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus tarjousten vastaanottamisen määräaikojen lyhentämiseksi – yleisdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation utilisé pour raccourcir les délais de réception des offres – directive générale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise a úsáidtear chun na teorainneacha ama maidir le tairiscintí a fháil a ghiorrú — treoir ghinearálta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest upotrijebljena za skraćivanje rokova za zaprimanje ponuda – opća direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló előzetes tájékoztató – általános irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione utilizzato per abbreviare i termini per la ricezione delle offerte – direttiva generale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas, kuriuo sutrumpinamas pasiūlymų priėmimo laikotarpis; bendroji direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums, ko izmanto, lai saīsinātu piedāvājumu saņemšanas termiņu – Vispārīgā iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel li jintuża biex jitqassru l-limiti ta’ żmien għat-tressiq tal-offerti – Direttiva ġenerali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging gebruikt om termijnen voor ontvangst van inschrijvingen te verkorten – algemene richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne wykorzystywane do skrócenia terminów składania ofert – dyrektywa ogólna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação utilizado para encurtar os prazos de receção das propostas – diretiva geral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție utilizat pentru scurtarea termenelor de primire a ofertelor - directivă generală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>predbežné oznámenie použité na skrátenie lehoty na prijímanie ponúk – všeobecná smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>predhodno informativno obvestilo kot sredstvo za skrajšanje rokov za prejem ponudb – splošna direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud – klassiska direktivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>8</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Периодично индикативно обявление, използвано за съкращаване на сроковете за получаване на офертите – Секторната директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pravidelné předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek – odvětvová směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Vejledende periodisk bekendtgørelse anvendt til at afkorte fristerne for modtagelse af tilbud – sektordirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Regelmäßige nicht verbindliche Bekanntmachung zum Zweck der Verkürzung der Frist für den Eingang der Angebote – Sektorenrichtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται για τη σύντμηση των προθεσμιών για την παραλαβή των προσφορών – τομεακή οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>8</SimpleValue>
+            <SimpleValue>Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio periódico indicativo usado para reducir los plazos de recepción de las ofertas. Directiva sectorial.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks – kaitsealane direktiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ohjeellinen kausi-ilmoitus tarjousten vastaanottamisen määräaikojen lyhentämiseksi – toimialakohtainen direktiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis périodique indicatif utilisé pour raccourcir les délais de réception des offres – directive sectorielle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra táscach tréimhsiúil a úsáidtear chun teorainneacha ama a ghiorrú chun tairiscintí a fháil — treoir earnála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Periodična indikativna obavijest upotrijebljena za skraćivanje rokova za zaprimanje ponuda – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló időszakos előzetes tájékoztató – ágazati irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione utilizzato per abbreviare i termini per la ricezione delle offerte – direttiva settoriale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Reguliarus orientacinis skelbimas, kuriuo sutrumpinamas pasiūlymų priėmimo laikotarpis; sektoriaus direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Periodisks informatīvs paziņojums, ko izmanto, lai saīsinātu piedāvājumu saņemšanas termiņu – Komunālo pakalpojumu direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż indikattiv perjodiku li jintuża biex jitqassru l-limiti ta’ żmien għat-tressiq tal-offerti – Direttiva settorjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Periodieke indicatieve aankondiging gebruikt om termijnen voor ontvangst van inschrijvingen te verkorten – sectorale richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Okresowe ogłoszenie informacyjne wykorzystane do skrócenia terminów składania ofert – dyrektywa sektorowa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio periódico indicativo utilizado para encurtar os prazos de receção das propostas – diretiva setorial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț orientativ periodic utilizat pentru scurtarea termenelor de primire a ofertelor - directivă sectorială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>pravidelné informatívne oznámenie použité na skrátenie lehoty na prijímanie ponúk – sektorová smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>periodično informativno obvestilo kot sredstvo za skrajšanje rokov za prejem ponudb – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud – försörjningsdirektivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,8 +287,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>9</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация, използвано за съкращаване на сроковете за получаване на офертите – Директивата за отбраната</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek – směrnice o zadávání zakázek v oblasti obrany</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse anvendt til at afkorte fristerne for modtagelse af tilbud – forsvarsdirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation zum Zweck der Verkürzung der Frist für den Eingang der Angebote – Richtlinie für die Beschaffung im Bereich Verteidigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη που χρησιμοποιείται για τη συντόμευση των προθεσμιών για την παραλαβή των προσφορών – οδηγία για την άμυνα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>9</SimpleValue>
+            <SimpleValue>Prior information notice used to shorten time limits for receipt of tenders – defence directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa usado para reducir los plazos de recepción de las ofertas. Directiva de defensa.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke väljakuulutamiseks kasutatav eelteade – ülddirektiiv, üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus tarjousten vastaanottamisen määräaikojen lyhentämiseksi – puolustusdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation utilisé pour raccourcir les délais de réception des offres – directive «défense»</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise a úsáidtear chun na teorainneacha ama maidir le tairiscintí a fháil a ghiorrú — treoir maidir le cosaint</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informativna obavijest upotrijebljena za skraćivanje rokova za zaprimanje ponuda – direktiva u području obrane</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló előzetes tájékoztató – védelmi irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione utilizzato per abbreviare i termini per la ricezione delle offerte – direttiva per il settore della difesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas, kuriuo sutrumpinamas pasiūlymų priėmimo laikotarpis; gynybos direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums, ko izmanto, lai saīsinātu piedāvājumu saņemšanas termiņu – Aizsardzības iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel li jintuża biex jitqassru l-limiti ta’ żmien għat-tressiq tal-offerti – Direttiva dwar id-difiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging gebruikt om termijnen voor ontvangst van inschrijvingen te verkorten – defensierichtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne wykorzystywane do skrócenia terminów składania ofert – dyrektywa obronna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação utilizado para encurtar os prazos de receção das propostas – Diretiva Defesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție utilizat pentru scurtarea termenelor de primire a ofertelor - directivă privind apărarea</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>predbežné oznámenie použité na skrátenie lehoty na prijímanie ponúk – smernica o zákazkách v oblasti obrany a bezpečnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>predhodno informativno obvestilo kot sredstvo za skrajšanje rokov za prejem ponudb – direktiva na področju obrambe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud – försvars- och säkerhetsdirektivet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
