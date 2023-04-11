@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Teade</entry>
 <entry key="group|name|GR-Buyer">Lepinguosaline ja teenuseosutaja</entry>
 <entry key="group|name|GR-Change">Kliimamuutus</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Alajaotus, mida muudetakse</entry>
 <entry key="group|name|GR-Company">Organisatsioon</entry>
 <entry key="group|name|GR-Company-Address">Aadress</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Üksnes ostjaga seotud teave</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Pakkumistingimused</entry>
 <entry key="group|name|GR-Metadata">Metaandmed</entry>
 <entry key="group|name|GR-Modification">Muutmine</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Alajaotus, mida muudetakse</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Tulemus</entry>
 <entry key="group|name|GR-Organisations">Teates nimetatud organisatsioonid</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Lepingus kasutatud ELi vahendid</entry>
 <entry key="group|name|ND-ContractModification">Muutmine</entry>
 <entry key="group|name|ND-ContractingParty">Ostja</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Piiriülene õigus</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Otselepingu sõlmimise põhjenduse kood (avaldatud hiljem)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Otselepingute sõlmimist õigustava eelmise menetluse ID (avaldatud hiljem)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Otselepingu sõlmimise põhjendus (avaldatud hiljem)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Muud tingimused peale tulude jaotamise</entry>
 <entry key="group|name|ND-Part">Osaliselt</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Täiendav liigitus</entry>
+<entry key="group|name|ND-PartMainClassification">Osa peamise kauba klassifitseerimine</entry>
 <entry key="group|name|ND-PartPlacePerformance">Täitmise koht</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Eelmine planeerimisviide</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserveeritud hange</entry>

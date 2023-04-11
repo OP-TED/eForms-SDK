@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Parte</entry>
 <entry key="field|name|BT-13713-LotResult">Identificatorul lotului de rezultate</entry>
 <entry key="field|name|BT-13714-Tender">Identificatorul lotului sau al grupului de loturi</entry>
-<entry key="field|name|BT-13716-notice">Secțiunea căreia i se aplică modificarea</entry>
+<entry key="field|name|BT-13716-notice">Identificatorul secțiunii</entry>
 <entry key="field|name|BT-1375-Procedure">Loturi incluse</entry>
 <entry key="field|name|BT-14-Lot">Accesul la anumite documente de achiziție este restricționat</entry>
 <entry key="field|name|BT-14-Part">Accesul la anumite documente de achiziție este restricționat</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Unde se găsesc documentele achiziției</entry>
 <entry key="field|name|BT-15-Part">Unde se găsesc documentele achiziției</entry>
 <entry key="field|name|BT-150-Contract">Identificatorul contractului</entry>
-<entry key="field|name|BT-1501(n)-Contract">Identificatorul secțiunii care trebuie modificată într-un anunț anterior</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identificatorul secțiunii care trebuie modificată într-un anunț anterior</entry>
+<entry key="field|name|BT-1501(n)-Contract">Identificatorul secțiunii</entry>
+<entry key="field|name|BT-1501(s)-Contract">Identificatorul secțiunii</entry>
 <entry key="field|name|BT-151-Contract">Adresa contractului</entry>
 <entry key="field|name|BT-156-NoticeResult">Valoarea maximă a acordurilor-cadru din acest grup de loturi</entry>
 <entry key="field|name|BT-1561-NoticeResult">Valoarea reestimată a acordurilor-cadru în cadrul unui grup de loturi</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Număr de înregistrare</entry>
 <entry key="field|name|BT-501-Business-National">Număr de înregistrare</entry>
 <entry key="field|name|BT-501-Organization-Company">Număr de înregistrare</entry>
-<entry key="field|name|BT-5010-Lot">Identificator</entry>
+<entry key="field|name|BT-5010-Lot">Identificatorul fondurilor UE</entry>
 <entry key="field|name|BT-5011-Contract">Identificatorul fondurilor UE</entry>
 <entry key="field|name|BT-502-Business">Punct de contact</entry>
 <entry key="field|name|BT-502-Organization-Company">Punct de contact</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Numărul maxim de reînnoiri</entry>
 <entry key="field|name|BT-60-Lot">Achiziția publică este finanțată cel puțin parțial din fonduri ale Uniunii Europene</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Activitatea entității contractante</entry>
-<entry key="field|name|BT-6110-Contract">Descriere</entry>
-<entry key="field|name|BT-6140-Lot">Informații suplimentare cu privire la programul sau proiectul Uniunii utilizat cel puțin parțial pentru finanțarea achizițiilor publice</entry>
+<entry key="field|name|BT-6110-Contract">Detalii suplimentare privind fondurile UE</entry>
+<entry key="field|name|BT-6140-Lot">Detalii suplimentare privind fondurile UE</entry>
 <entry key="field|name|BT-615-Lot">Unde se găsesc informații despre documentele restricționate</entry>
 <entry key="field|name|BT-615-Part">Unde se găsesc informații despre documentele restricționate</entry>
 <entry key="field|name|BT-625-Lot">Unitate</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Valoarea rezultatului</entry>
 <entry key="field|name|BT-721-Contract">Titlu</entry>
 <entry key="field|name|BT-722-Contract">Denumirea proiectului sau a programului finanțat de UE</entry>
-<entry key="field|name|BT-7220-Lot">Programul fondurilor Uniunii utilizat pentru a finanța cel puțin parțial contractul</entry>
+<entry key="field|name|BT-7220-Lot">Programul Fonduri UE</entry>
 <entry key="field|name|BT-723-LotResult">Categoria de vehicule care intră în domeniul de aplicare al Directivei 2009/33/CE, inclusiv: Vehicule ușoare (M1, M2, N1); Autobuz (M3); Camion (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Această procedură de achiziții publice este adecvată și pentru întreprinderile mici și mijlocii (IMM-uri)</entry>
 <entry key="field|name|BT-726-LotsGroup">Această procedură de achiziții publice este adecvată și pentru întreprinderile mici și mijlocii (IMM-uri)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Tipul de serviciu furnizat</entry>
 <entry key="field|name|OPT-050-Lot">Statutul documentului</entry>
 <entry key="field|name|OPT-050-Part">Statutul documentului</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Codul cerinței de executare</entry>
 <entry key="field|name|OPT-070-Lot">Executarea serviciului este rezervată unei anumite profesii. Trimitere la actele cu putere de lege și actele administrative relevante</entry>
 <entry key="field|name|OPT-071-Lot">Cod țintă de calitate</entry>
 <entry key="field|name|OPT-072-Lot">Descrierea obiectivului de calitate</entry>

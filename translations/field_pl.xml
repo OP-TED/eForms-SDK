@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Część</entry>
 <entry key="field|name|BT-13713-LotResult">Wynik Identyfikator partii</entry>
 <entry key="field|name|BT-13714-Tender">Identyfikator części zamówienia lub grupy części</entry>
-<entry key="field|name|BT-13716-notice">Sekcja, w której wprowadzono zmianę</entry>
+<entry key="field|name|BT-13716-notice">Identyfikator sekcji</entry>
 <entry key="field|name|BT-1375-Procedure">Uwzględnione części zamówienia</entry>
 <entry key="field|name|BT-14-Lot">Dostęp do niektórych dokumentów zamówienia jest ograniczony</entry>
 <entry key="field|name|BT-14-Part">Dostęp do niektórych dokumentów zamówienia jest ograniczony</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Adres dokumentów zamówienia</entry>
 <entry key="field|name|BT-15-Part">Adres dokumentów zamówienia</entry>
 <entry key="field|name|BT-150-Contract">Identyfikator zamówienia</entry>
-<entry key="field|name|BT-1501(n)-Contract">Identyfikator sekcji w poprzednim ogłoszeniu, która jest modyfikowana</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identyfikator sekcji w poprzednim ogłoszeniu, która jest modyfikowana</entry>
+<entry key="field|name|BT-1501(n)-Contract">Identyfikator sekcji</entry>
+<entry key="field|name|BT-1501(s)-Contract">Identyfikator sekcji</entry>
 <entry key="field|name|BT-151-Contract">Adres zamówienia</entry>
 <entry key="field|name|BT-156-NoticeResult">Maksymalna wartość umów ramowych w tej grupie części</entry>
 <entry key="field|name|BT-1561-NoticeResult">Ponowna szacunkowa wartość umów ramowych w ramach grupy części</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Numer rejestracyjny</entry>
 <entry key="field|name|BT-501-Business-National">Numer rejestracyjny</entry>
 <entry key="field|name|BT-501-Organization-Company">Numer rejestracyjny</entry>
-<entry key="field|name|BT-5010-Lot">Identyfikator</entry>
+<entry key="field|name|BT-5010-Lot">Identyfikator funduszy UE</entry>
 <entry key="field|name|BT-5011-Contract">Identyfikator funduszy UE</entry>
 <entry key="field|name|BT-502-Business">Punkt kontaktowy</entry>
 <entry key="field|name|BT-502-Organization-Company">Punkt kontaktowy</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Maksymalna liczba wznowień</entry>
 <entry key="field|name|BT-60-Lot">Zamówienie jest przynajmniej częściowo finansowane ze środków Unii Europejskiej</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Sektor działalności podmiotu zamawiającego</entry>
-<entry key="field|name|BT-6110-Contract">Opis</entry>
-<entry key="field|name|BT-6140-Lot">Dalsze informacje na temat unijnego programu lub projektu wykorzystanego co najmniej częściowo finansują zamówienia</entry>
+<entry key="field|name|BT-6110-Contract">Więcej informacji na temat funduszy UE</entry>
+<entry key="field|name|BT-6140-Lot">Więcej informacji na temat funduszy UE</entry>
 <entry key="field|name|BT-615-Lot">Informacje o zastrzeżonych dokumentach są dostępne pod adresem</entry>
 <entry key="field|name|BT-615-Part">Informacje o zastrzeżonych dokumentach są dostępne pod adresem</entry>
 <entry key="field|name|BT-625-Lot">Jednostka</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Wartość wyniku</entry>
 <entry key="field|name|BT-721-Contract">Tytuł</entry>
 <entry key="field|name|BT-722-Contract">Nazwa projektu lub programu finansowanego przez UE</entry>
-<entry key="field|name|BT-7220-Lot">Program funduszy unijnych wykorzystany do przynajmniej częściowego finansowania umowy</entry>
+<entry key="field|name|BT-7220-Lot">Program funduszy UE</entry>
 <entry key="field|name|BT-723-LotResult">Kategorii pojazdów objętych zakresem dyrektywy 2009/33/WE, w tym: Pojazdy lekkie (M1, M2, N1); Autobus (M3); Ciężarówka (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Przedmiotowe zamówienie jest odpowiednie również dla małych i średnich przedsiębiorstw (MŚP)</entry>
 <entry key="field|name|BT-726-LotsGroup">Przedmiotowe zamówienie jest odpowiednie również dla małych i średnich przedsiębiorstw (MŚP)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Rodzaj świadczonej usługi</entry>
 <entry key="field|name|OPT-050-Lot">Status dokumentu</entry>
 <entry key="field|name|OPT-050-Part">Status dokumentu</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Kod wymogu wykonania</entry>
 <entry key="field|name|OPT-070-Lot">Wykonanie usługi jest zastrzeżone dla określonego zawodu. Odniesienie do odpowiednich przepisów ustawowych, wykonawczych lub procedur administracyjnych</entry>
 <entry key="field|name|OPT-071-Lot">Kod docelowy jakości</entry>
 <entry key="field|name|OPT-072-Lot">Opis celu w zakresie jakości</entry>

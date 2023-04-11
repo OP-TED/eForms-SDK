@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Avis</entry>
 <entry key="group|name|GR-Buyer">Partie contractante et prestataire de services</entry>
 <entry key="group|name|GR-Change">Changement</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Section à laquelle s’applique la modification</entry>
 <entry key="group|name|GR-Company">Organisation</entry>
 <entry key="group|name|GR-Company-Address">Adresse</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informations relatives exclusivement à l’acheteur</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Conditions de l’appel d’offres</entry>
 <entry key="group|name|GR-Metadata">Métadonnées</entry>
 <entry key="group|name|GR-Modification">De la modification</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Section à laquelle s’applique la modification</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Résultat</entry>
 <entry key="group|name|GR-Organisations">Organisations mentionnées dans l’avis</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Fonds de l’UE utilisés dans le contrat</entry>
 <entry key="group|name|ND-ContractModification">De la modification</entry>
 <entry key="group|name|ND-ContractingParty">L’acheteur.</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Droit transfrontalier</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Code de justification de l’attribution directe (publié ultérieurement)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Identifiant de la procédure précédente justifiant l’attribution directe (publié ultérieurement)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justification de l’attribution directe (publiée ultérieurement)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Conditions autres que l’affectation des recettes</entry>
 <entry key="group|name|ND-Part">Partielle</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Classification supplémentaire</entry>
+<entry key="group|name|ND-PartMainClassification">Classification de la principale marchandise d’une partie</entry>
 <entry key="group|name|ND-PartPlacePerformance">Lieu d’exécution des tâches</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Référence de planification antérieure</entry>
 <entry key="group|name|ND-PartReservedProcurement">Marchés réservés</entry>

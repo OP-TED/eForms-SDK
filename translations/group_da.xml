@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Meddelelse</entry>
 <entry key="group|name|GR-Buyer">Kontraherende part og tjenesteyder</entry>
 <entry key="group|name|GR-Change">Ændring</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Afsnit, som ændringen gælder for</entry>
 <entry key="group|name|GR-Company">Tilrettelæggelse</entry>
 <entry key="group|name|GR-Company-Address">Adresse</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Oplysninger, der udelukkende vedrører køberen</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Udbudsbetingelser</entry>
 <entry key="group|name|GR-Metadata">Metadata</entry>
 <entry key="group|name|GR-Modification">Ændring</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Afsnit, som ændringen gælder for</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Resultat</entry>
 <entry key="group|name|GR-Organisations">Organisationer, der er nævnt i meddelelsen</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">EU-midler anvendt i kontrakten</entry>
 <entry key="group|name|ND-ContractModification">Ændring</entry>
 <entry key="group|name|ND-ContractingParty">Køber</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Lovgivning på tværs af grænserne</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Kode for begrundelse for direkte tildeling (offentliggjort senere)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID for den tidligere procedure for direkte tildeling (offentliggjort senere)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Begrundelse for direkte tildeling (offentliggjort senere)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Andre betingelser end indtægtsfordeling</entry>
 <entry key="group|name|ND-Part">Delvis</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Tillægsklassificering</entry>
+<entry key="group|name|ND-PartMainClassification">Klassifikation af en dels hovedvare</entry>
 <entry key="group|name|ND-PartPlacePerformance">Opfyldelsessted</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Tidligere planlægningsreference</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserverede udbud</entry>

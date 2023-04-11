@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Идентификатор на резултата</entry>
 <entry key="business-term|name|BT-13714">Идентификатор на обособена позиция или група обособени позиции</entry>
 <entry key="business-term|name|BT-13715">Допълнителна информация Идентификатор на лот</entry>
-<entry key="business-term|name|BT-13716">Раздел, за който се отнася промяната</entry>
+<entry key="business-term|name|BT-13716">Идентификатор на раздела</entry>
 <entry key="business-term|name|BT-13717">Идентификатор на лота</entry>
 <entry key="business-term|name|BT-13718">Идентификатор на документи Лот</entry>
 <entry key="business-term|name|BT-13719">Идентификатор на партидата за подаване</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Дата, на която е избран победителят</entry>
 <entry key="business-term|name|BT-15">Адрес на документацията за обществената поръчка</entry>
 <entry key="business-term|name|BT-150">Идентификатор на договора</entry>
-<entry key="business-term|name|BT-1501">Идентификатор на раздела, който трябва да бъде променен в предишно обявление</entry>
+<entry key="business-term|name|BT-1501">Идентификатор на раздела</entry>
 <entry key="business-term|name|BT-151">Адрес на договора</entry>
 <entry key="business-term|name|BT-156">Максимална стойност на рамковите споразумения в тази група обособени позиции</entry>
 <entry key="business-term|name|BT-1561">Преоценена стойност на рамковите споразумения в рамките на група обособени позиции</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Минимален брой кандидати, които да бъдат поканени за втория етап на процедурата</entry>
 <entry key="business-term|name|BT-500">Официално наименование</entry>
 <entry key="business-term|name|BT-501">Регистрационен номер</entry>
-<entry key="business-term|name|BT-5010">Идентификатор</entry>
+<entry key="business-term|name|BT-5010">Идентификатор на средствата от ЕС</entry>
 <entry key="business-term|name|BT-5011">Идентификатор на средствата от ЕС</entry>
 <entry key="business-term|name|BT-502">Звено за контакт</entry>
 <entry key="business-term|name|BT-503">Телефон</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Максимален брой подновявания</entry>
 <entry key="business-term|name|BT-60">Обществената поръчка е поне частично финансирана със средства на Европейския съюз</entry>
 <entry key="business-term|name|BT-610">Дейност на възложителя</entry>
-<entry key="business-term|name|BT-6110">Описание</entry>
-<entry key="business-term|name|BT-6140">Допълнителна информация за използваната програма или проект на Съюза за поне частично финансиране на обществената поръчка</entry>
+<entry key="business-term|name|BT-6110">Допълнителни подробности за фондовете на ЕС</entry>
+<entry key="business-term|name|BT-6140">Допълнителни подробности за фондовете на ЕС</entry>
 <entry key="business-term|name|BT-615">Информация за документи с ограничен достъп може да бъде намерена на адрес</entry>
 <entry key="business-term|name|BT-625">Единица</entry>
 <entry key="business-term|name|BT-63">Варианти</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Стойност на резултата</entry>
 <entry key="business-term|name|BT-721">Заглавие</entry>
 <entry key="business-term|name|BT-722">Наименование на финансирания от ЕС проект или програма</entry>
-<entry key="business-term|name|BT-7220">Програмата на фондовете на Съюза, използвани за поне частично финансиране на договора</entry>
+<entry key="business-term|name|BT-7220">Програма на фондовете на ЕС</entry>
 <entry key="business-term|name|BT-723">Категорията на превозното средство, попадащо в обхвата на Директива 2009/33/ЕО, включително: Лекотоварни превозни средства (M1, M2, N1); Автобус (M3); Камион (N2, N3); М1; М2; N1; N2; НА 3-ТИ ПЪТ</entry>
 <entry key="business-term|name|BT-724">Използва се ad hoc инструмент за комуникация</entry>
 <entry key="business-term|name|BT-725">Брой тежкотоварни превозни средства с нулеви емисии</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Вид на предоставяната услуга</entry>
 <entry key="business-term|name|OPT-050">Статус на документа</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Код на изискването за изпълнение</entry>
 <entry key="business-term|name|OPT-070">Изпълнението на услугата е запазено за определена професия. Позоваване на съответния закон, подзаконов акт или административна процедура</entry>
 <entry key="business-term|name|OPT-071">Целеви код за качество</entry>
 <entry key="business-term|name|OPT-072">Описание на целта за качество</entry>

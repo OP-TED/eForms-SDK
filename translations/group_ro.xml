@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Anunț</entry>
 <entry key="group|name|GR-Buyer">Parte contractantă și prestator de servicii</entry>
 <entry key="group|name|GR-Change">Variație</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Secțiunea căreia i se aplică modificarea</entry>
 <entry key="group|name|GR-Company">Organizație</entry>
 <entry key="group|name|GR-Company-Address">Adresă</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informații care se referă exclusiv la cumpărător</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Condiții de participare la licitație</entry>
 <entry key="group|name|GR-Metadata">Metadate</entry>
 <entry key="group|name|GR-Modification">Modificare</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Secțiunea căreia i se aplică modificarea</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Rezultatul</entry>
 <entry key="group|name|GR-Organisations">Organizații menționate în anunț</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Fondurile UE utilizate în contract</entry>
 <entry key="group|name|ND-ContractModification">Modificare</entry>
 <entry key="group|name|ND-ContractingParty">Cumpărător</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Dreptul transfrontalier</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Codul de justificare a atribuirii directe (publicat ulterior)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Identificatorul procedurii anterioare care justifică atribuirea directă (publicat ulterior)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justificarea atribuirii directe (publicată ulterior)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Alte condiții decât alocarea veniturilor</entry>
 <entry key="group|name|ND-Part">Parțial</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Clasificare suplimentară</entry>
+<entry key="group|name|ND-PartMainClassification">Clasificarea mărfii principale a unei părți</entry>
 <entry key="group|name|ND-PartPlacePerformance">Locul executării</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Referința planificării anterioare</entry>
 <entry key="group|name|ND-PartReservedProcurement">Achiziții publice rezervate</entry>

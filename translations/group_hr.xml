@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Obavijest</entry>
 <entry key="group|name|GR-Buyer">Ugovorna stranka i pružatelj usluga</entry>
 <entry key="group|name|GR-Change">Promjena</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Odjeljak na koji se odnosi izmjena</entry>
 <entry key="group|name|GR-Company">Ustrojstvo</entry>
 <entry key="group|name|GR-Company-Address">Adresa</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informacije koje se odnose isključivo na kupca</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Uvjeti natječaja</entry>
 <entry key="group|name|GR-Metadata">Metapodaci</entry>
 <entry key="group|name|GR-Modification">Izmjena</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Odjeljak na koji se odnosi izmjena</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Rezultat</entry>
 <entry key="group|name|GR-Organisations">Organizacije navedene u obavijesti</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Sredstva EU-a upotrijebljena u ugovoru</entry>
 <entry key="group|name|ND-ContractModification">Izmjena</entry>
 <entry key="group|name|ND-ContractingParty">Kupac</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Prekogranično pravo</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Šifra obrazloženja izravne dodjele (objavljena kasnije)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Identifikacijska oznaka prethodnog postupka kojim se opravdava izravna dodjela (objavljena kasnije)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Obrazloženje za izravnu dodjelu (objavljeno kasnije)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Uvjeti osim raspodjele prihoda</entry>
 <entry key="group|name|ND-Part">Dijelom</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Dodatna klasifikacija</entry>
+<entry key="group|name|ND-PartMainClassification">Razvrstavanje za glavnu robu dijela</entry>
 <entry key="group|name|ND-PartPlacePerformance">Mjesto izvršenja</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Prethodna referenca za planiranje</entry>
 <entry key="group|name|ND-PartReservedProcurement">Rezervirana nabava</entry>

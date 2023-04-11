@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Ergebnis Lot Identifier</entry>
 <entry key="business-term|name|BT-13714">Kennung des Loses oder der Gruppe von Losen</entry>
 <entry key="business-term|name|BT-13715">Zusätzliche Informationen Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Abschnitt, für den die Änderung gilt</entry>
+<entry key="business-term|name|BT-13716">Identifikator des Abschnitts</entry>
 <entry key="business-term|name|BT-13717">Begriffe Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Dokumente Lot Identifier</entry>
 <entry key="business-term|name|BT-13719">Einreichung Los-Identifikator</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Datum der Auswahl des Gewinners</entry>
 <entry key="business-term|name|BT-15">Internetadresse der Auftragsunterlagen</entry>
 <entry key="business-term|name|BT-150">Kennung des Auftrags</entry>
-<entry key="business-term|name|BT-1501">Kennung des in einer früheren Bekanntmachung zu ändernden Abschnitts</entry>
+<entry key="business-term|name|BT-1501">Identifikator des Abschnitts</entry>
 <entry key="business-term|name|BT-151">Internetadresse des Auftrags</entry>
 <entry key="business-term|name|BT-156">Höchstwert der Rahmenvereinbarungen in dieser Gruppe von Losen</entry>
 <entry key="business-term|name|BT-1561">Neu geschätzter Wert der Rahmenvereinbarungen innerhalb einer Losgruppe</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Mindestzahl der zur zweiten Phase des Verfahrens einzuladenden Bewerber</entry>
 <entry key="business-term|name|BT-500">Offizielle Bezeichnung</entry>
 <entry key="business-term|name|BT-501">Registrierungsnummer</entry>
-<entry key="business-term|name|BT-5010">Identifikator</entry>
+<entry key="business-term|name|BT-5010">Kennung der EU-Mittel</entry>
 <entry key="business-term|name|BT-5011">Kennung der EU-Mittel</entry>
 <entry key="business-term|name|BT-502">Kontaktperson</entry>
 <entry key="business-term|name|BT-503">Telefon</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Maximale Verlängerungen</entry>
 <entry key="business-term|name|BT-60">Die Auftragsvergabe wird zumindest teilweise aus Mitteln der Europäischen Union finanziert</entry>
 <entry key="business-term|name|BT-610">Tätigkeit des Auftraggebers</entry>
-<entry key="business-term|name|BT-6110">Beschreibung</entry>
-<entry key="business-term|name|BT-6140">Weitere Informationen über das Programm oder Projekt der Union, das die Auftragsvergabe zumindest teilweise finanziert</entry>
+<entry key="business-term|name|BT-6110">Weitere Einzelheiten zu den EU-Mittel</entry>
+<entry key="business-term|name|BT-6140">Weitere Einzelheiten zu den EU-Mittel</entry>
 <entry key="business-term|name|BT-615">Informationen über zugangsbeschränkte Dokumente einsehbar unter</entry>
 <entry key="business-term|name|BT-625">Einheit</entry>
 <entry key="business-term|name|BT-63">Varianten</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Wert des Ergebnisses</entry>
 <entry key="business-term|name|BT-721">Titel</entry>
 <entry key="business-term|name|BT-722">Bezeichnung des von der EU finanzierten Projekts oder Programms</entry>
-<entry key="business-term|name|BT-7220">Das Programm der Unionsmittel, die zur zumindest teilweisen Finanzierung des Vertrags verwendet werden</entry>
+<entry key="business-term|name|BT-7220">EU-Mittel Programm</entry>
 <entry key="business-term|name|BT-723">Die Fahrzeugklasse, die in den Anwendungsbereich der Richtlinie 2009/33/EG fällt, einschließlich: Leichte Nutzfahrzeuge (M1, M2, N1); Bus (M3); LKW (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Ad-hoc-Kommunikationsinstrument wird eingesetzt</entry>
 <entry key="business-term|name|BT-725">Zahl der emissionsfreien schweren Nutzfahrzeuge</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Art der erbrachten Dienstleistung</entry>
 <entry key="business-term|name|OPT-050">Status des Dokuments</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Code für die Anforderung an die Ausführung</entry>
 <entry key="business-term|name|OPT-070">Die Erbringung der Dienstleistung ist einem bestimmten Beruf vorbehalten. Verweis auf das einschlägige Rechts- oder Verwaltungsverfahren</entry>
 <entry key="business-term|name|OPT-071">Qualitätszielcode</entry>
 <entry key="business-term|name|OPT-072">Beschreibung des Qualitätsziels</entry>

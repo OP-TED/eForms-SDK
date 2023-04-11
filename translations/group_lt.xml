@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Pranešimas</entry>
 <entry key="group|name|GR-Buyer">Susitariančioji šalis ir paslaugų teikėjas</entry>
 <entry key="group|name|GR-Change">Pokytis</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Skirsnis, kuriam taikomas pakeitimas</entry>
 <entry key="group|name|GR-Company">Organizavimas</entry>
 <entry key="group|name|GR-Company-Address">Adresas</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informacija, susijusi tik su pirkėju</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Konkurso sąlygos</entry>
 <entry key="group|name|GR-Metadata">Metaduomenys</entry>
 <entry key="group|name|GR-Modification">Pakeitimas</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Skirsnis, kuriam taikomas pakeitimas</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Rezultatas</entry>
 <entry key="group|name|GR-Organisations">Pranešime nurodytos organizacijos</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Sutartyje naudojamos ES lėšos</entry>
 <entry key="group|name|ND-ContractModification">Pakeitimas</entry>
 <entry key="group|name|ND-ContractingParty">Pirkėjas</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Tarpvalstybinė teisė</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Tiesioginio sutarties skyrimo pagrindimo kodas (paskelbtas vėliau)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Ankstesnės procedūros, pateisinančios tiesioginį sutarties skyrimą, ID (paskelbta vėliau)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Tiesioginio sutarties sudarymo pagrindimas (paskelbtas vėliau)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Kitos sąlygos, išskyrus pajamų paskirstymą</entry>
 <entry key="group|name|ND-Part">Dalį</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Papildoma klasifikacija</entry>
+<entry key="group|name|ND-PartMainClassification">Dalies pagrindinės prekės klasifikavimas</entry>
 <entry key="group|name|ND-PartPlacePerformance">Vykdymo vieta</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Ankstesnio planavimo nuoroda</entry>
 <entry key="group|name|ND-PartReservedProcurement">Rezervuoti viešieji pirkimai</entry>

@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Part</entry>
 <entry key="field|name|BT-13713-LotResult">Result Lot Identifier</entry>
 <entry key="field|name|BT-13714-Tender">Identifier of lot or group of lots</entry>
-<entry key="field|name|BT-13716-notice">Section to which the change applies</entry>
+<entry key="field|name|BT-13716-notice">Section identifier</entry>
 <entry key="field|name|BT-1375-Procedure">Lots included</entry>
 <entry key="field|name|BT-14-Lot">Access to certain procurement documents is restricted</entry>
 <entry key="field|name|BT-14-Part">Access to certain procurement documents is restricted</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Address of the procurement documents</entry>
 <entry key="field|name|BT-15-Part">Address of the procurement documents</entry>
 <entry key="field|name|BT-150-Contract">Identifier of the contract</entry>
-<entry key="field|name|BT-1501(n)-Contract">Identifier of the section to be modified in a previous notice</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifier of the section to be modified in a previous notice</entry>
+<entry key="field|name|BT-1501(n)-Contract">Section identifier</entry>
+<entry key="field|name|BT-1501(s)-Contract">Section identifier</entry>
 <entry key="field|name|BT-151-Contract">Address of the contract</entry>
 <entry key="field|name|BT-156-NoticeResult">Maximum value of the framework agreements in this group of lots</entry>
 <entry key="field|name|BT-1561-NoticeResult">Re-estimated value of the framework agreements within a group of lots</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Registration number</entry>
 <entry key="field|name|BT-501-Business-National">Registration number</entry>
 <entry key="field|name|BT-501-Organization-Company">Registration number</entry>
-<entry key="field|name|BT-5010-Lot">Identifier</entry>
+<entry key="field|name|BT-5010-Lot">Identifier of EU funds</entry>
 <entry key="field|name|BT-5011-Contract">Identifier of EU funds</entry>
 <entry key="field|name|BT-502-Business">Contact point</entry>
 <entry key="field|name|BT-502-Organization-Company">Contact point</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Maximum renewals</entry>
 <entry key="field|name|BT-60-Lot">The procurement is at least partially financed by European Union funds</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Activity of the contracting entity</entry>
-<entry key="field|name|BT-6110-Contract">Description</entry>
-<entry key="field|name|BT-6140-Lot">Further information about the Union programme or project used at least partially finance the procurement</entry>
+<entry key="field|name|BT-6110-Contract">Further details of EU funds</entry>
+<entry key="field|name|BT-6140-Lot">Further details of EU funds</entry>
 <entry key="field|name|BT-615-Lot">Information about restricted documents is available at</entry>
 <entry key="field|name|BT-615-Part">Information about restricted documents is available at</entry>
 <entry key="field|name|BT-625-Lot">Unit</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Value of the result</entry>
 <entry key="field|name|BT-721-Contract">Title</entry>
 <entry key="field|name|BT-722-Contract">Name of EU-financed project or programme</entry>
-<entry key="field|name|BT-7220-Lot">The programme of the Union funds used to at least partially finance the contract</entry>
+<entry key="field|name|BT-7220-Lot">EU funds programme</entry>
 <entry key="field|name|BT-723-LotResult">The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">This procurement is also suitable for small and medium-sized enterprises (SMEs)</entry>
 <entry key="field|name|BT-726-LotsGroup">This procurement is also suitable for small and medium-sized enterprises (SMEs)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Provided service type</entry>
 <entry key="field|name|OPT-050-Lot">Document status</entry>
 <entry key="field|name|OPT-050-Part">Document status</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Execution requirement code</entry>
 <entry key="field|name|OPT-070-Lot">Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure</entry>
 <entry key="field|name|OPT-071-Lot">Quality target code</entry>
 <entry key="field|name|OPT-072-Lot">Quality target description</entry>

@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Hirdetmény</entry>
 <entry key="group|name|GR-Buyer">Szerződő fél és szolgáltató</entry>
 <entry key="group|name|GR-Change">Változás</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">A változtatással érintett szakasz</entry>
 <entry key="group|name|GR-Company">Szervezet</entry>
 <entry key="group|name|GR-Company-Address">Cím</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Kizárólag a vevőre vonatkozó információk</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">A pályázati feltételek</entry>
 <entry key="group|name|GR-Metadata">Metaadatok</entry>
 <entry key="group|name|GR-Modification">Módosítás</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">A változtatással érintett szakasz</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Eredmény</entry>
 <entry key="group|name|GR-Organisations">A hirdetményben említett szervezetek</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">A szerződésben felhasznált uniós források</entry>
 <entry key="group|name|ND-ContractModification">Módosítás</entry>
 <entry key="group|name|ND-ContractingParty">Vevő</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">A határokon átnyúló jog</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">A közvetlen odaítélés indokolásának kódja (később közzétéve)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">A közvetlen odaítélést indokoló korábbi eljárás azonosítója (a későbbiekben tették közzé)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">A közvetlen odaítélés indokolása (később közzétéve)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">A bevételek elosztásától eltérő feltételek</entry>
 <entry key="group|name|ND-Part">Rész</entry>
 <entry key="group|name|ND-PartAdditionalClassification">További osztályozás</entry>
+<entry key="group|name|ND-PartMainClassification">Egy alkatrész fő árujának osztályozása</entry>
 <entry key="group|name|ND-PartPlacePerformance">A teljesítés helye</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Korábbi tervezési hivatkozási szám</entry>
 <entry key="group|name|ND-PartReservedProcurement">Fenntartott beszerzés</entry>

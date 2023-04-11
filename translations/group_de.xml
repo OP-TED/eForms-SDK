@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Bekanntmachung</entry>
 <entry key="group|name|GR-Buyer">Vertragspartei und Dienstleister</entry>
 <entry key="group|name|GR-Change">Ändern</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Abschnitt, für den die Änderung gilt</entry>
 <entry key="group|name|GR-Company">Organisation</entry>
 <entry key="group|name|GR-Company-Address">Adresse</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informationen, die sich ausschließlich auf den Käufer beziehen</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Ausschreibungsbedingungen</entry>
 <entry key="group|name|GR-Metadata">Metadaten</entry>
 <entry key="group|name|GR-Modification">Änderung</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Abschnitt, für den die Änderung gilt</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Ergebnis</entry>
 <entry key="group|name|GR-Organisations">In der Bekanntmachung genannte Organisationen</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Für den Vertrag verwendete EU-Mittel</entry>
 <entry key="group|name|ND-ContractModification">Änderung</entry>
 <entry key="group|name|ND-ContractingParty">Käufer</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Grenzüberschreitendes Recht</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Code für die Begründung der Direktvergabe (zu einem späteren Zeitpunkt veröffentlicht)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID des früheren Verfahrens zur Begründung der Direktvergabe (zu einem späteren Zeitpunkt veröffentlicht)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Begründung der Direktvergabe (zu einem späteren Zeitpunkt veröffentlicht)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Andere Bedingungen als die Zuweisung von Einnahmen</entry>
 <entry key="group|name|ND-Part">Teil</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Zusätzliche Klassifikation</entry>
+<entry key="group|name|ND-PartMainClassification">Einreihung der Hauptware eines Teils</entry>
 <entry key="group|name|ND-PartPlacePerformance">Ort der Leistungserbringung</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Frühere Planungsreferenz</entry>
 <entry key="group|name|ND-PartReservedProcurement">Vorbehaltene Beschaffung</entry>

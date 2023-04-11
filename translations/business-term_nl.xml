@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Resultaat Lot Identifier</entry>
 <entry key="business-term|name|BT-13714">Identificatiecode van het perceel of de groep percelen</entry>
 <entry key="business-term|name|BT-13715">Aanvullende informatie Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Afdeling waarop de wijziging van toepassing is</entry>
+<entry key="business-term|name|BT-13716">Identificatiecode van de afdeling</entry>
 <entry key="business-term|name|BT-13717">Voorwaarden Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Documenten Lot Identifier</entry>
 <entry key="business-term|name|BT-13719">Identificatiecode voor inzendingsloten</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Datum waarop de winnaar is gekozen</entry>
 <entry key="business-term|name|BT-15">Adres van de aanbestedingsstukken</entry>
 <entry key="business-term|name|BT-150">Identificatiecode van het contract</entry>
-<entry key="business-term|name|BT-1501">Identificatiecode van de afdeling die in een eerdere aankondiging moet worden gewijzigd</entry>
+<entry key="business-term|name|BT-1501">Identificatiecode van de afdeling</entry>
 <entry key="business-term|name|BT-151">Adres van de opdracht</entry>
 <entry key="business-term|name|BT-156">Maximumwaarde van de raamovereenkomsten in deze groep percelen</entry>
 <entry key="business-term|name|BT-1561">Herschatting van de waarde van de raamovereenkomsten binnen een groep percelen</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Minimumaantal gegadigden dat voor de tweede fase van de procedure moet worden uitgenodigd</entry>
 <entry key="business-term|name|BT-500">Officiële naam</entry>
 <entry key="business-term|name|BT-501">Registratienummer</entry>
-<entry key="business-term|name|BT-5010">Identificator</entry>
+<entry key="business-term|name|BT-5010">Identificatiecode van EU-middelen</entry>
 <entry key="business-term|name|BT-5011">Identificatiecode van EU-middelen</entry>
 <entry key="business-term|name|BT-502">Contactpunt</entry>
 <entry key="business-term|name|BT-503">Telefoon</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Maximumaantal verlengingen</entry>
 <entry key="business-term|name|BT-60">De aanbesteding wordt ten minste gedeeltelijk gefinancierd uit middelen van de Europese Unie</entry>
 <entry key="business-term|name|BT-610">Activiteit van de aanbestedende instantie</entry>
-<entry key="business-term|name|BT-6110">Beschrijving</entry>
-<entry key="business-term|name|BT-6140">Nadere informatie over het programma of het project van de Unie dat ten minste gedeeltelijk is gebruikt voor de financiering van de aanbesteding</entry>
+<entry key="business-term|name|BT-6110">Nadere gegevens over de EU-fondsen</entry>
+<entry key="business-term|name|BT-6140">Nadere gegevens over de EU-fondsen</entry>
 <entry key="business-term|name|BT-615">Informatie over beperkt toegankelijke documenten is beschikbaar op</entry>
 <entry key="business-term|name|BT-625">Eenheid</entry>
 <entry key="business-term|name|BT-63">Varianten</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Waarde van het resultaat</entry>
 <entry key="business-term|name|BT-721">Titel</entry>
 <entry key="business-term|name|BT-722">Naam van door de EU gefinancierd project of programma</entry>
-<entry key="business-term|name|BT-7220">Het programma van de fondsen van de Unie dat is gebruikt om het contract ten minste gedeeltelijk te financieren</entry>
+<entry key="business-term|name|BT-7220">EU-fondsenprogramma</entry>
 <entry key="business-term|name|BT-723">De voertuigcategorie die binnen het toepassingsgebied van Richtlijn 2009/33/EG valt, met inbegrip van: Lichte voertuigen (M1, M2, N1); Bus (M3); Vrachtwagen (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Ad hoc communicatie-instrument wordt gebruikt</entry>
 <entry key="business-term|name|BT-725">Aantal emissievrije zware bedrijfsvoertuigen</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Soort verleende dienst</entry>
 <entry key="business-term|name|OPT-050">Status van het document</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Code uitvoeringsvereiste</entry>
 <entry key="business-term|name|OPT-070">De uitvoering van de dienst is voorbehouden aan een bepaald beroep. Verwijzing naar de toepasselijke wettelijke, bestuursrechtelijke of administratieve procedure</entry>
 <entry key="business-term|name|OPT-071">Code kwaliteitsdoelstelling</entry>
 <entry key="business-term|name|OPT-072">Beschrijving van het kwaliteitsdoel</entry>

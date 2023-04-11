@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Известие</entry>
 <entry key="group|name|GR-Buyer">Договаряща страна и доставчик на услуги</entry>
 <entry key="group|name|GR-Change">Промяна</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Раздел, за който се отнася промяната</entry>
 <entry key="group|name|GR-Company">Организация</entry>
 <entry key="group|name|GR-Company-Address">Адрес</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Информация, свързана изключително с купувача</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Тръжни условия</entry>
 <entry key="group|name|GR-Metadata">Метаданни</entry>
 <entry key="group|name|GR-Modification">Модификация Изтегляне</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Раздел, за който се отнася промяната</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Резултат</entry>
 <entry key="group|name|GR-Organisations">Организации, посочени в обявлението</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Средства на ЕС, използвани в договора</entry>
 <entry key="group|name|ND-ContractModification">Модификация Изтегляне</entry>
 <entry key="group|name|ND-ContractingParty">Купувач</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Трансгранично право</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Код на обосновката за пряко възлагане (публикуван по-късно)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Идентификационен номер на предишната процедура, обосноваваща прякото възлагане (публикуван по-късно)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Обосновка за прякото възлагане (публикувано по-късно)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Условия, различни от разпределението на приходите</entry>
 <entry key="group|name|ND-Part">Частичен</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Допълнително класифициране</entry>
+<entry key="group|name|ND-PartMainClassification">Класификация на основната стока на част</entry>
 <entry key="group|name|ND-PartPlacePerformance">Място на изпълнение</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Референтен номер на предишното планиране</entry>
 <entry key="group|name|ND-PartReservedProcurement">Запазени поръчки</entry>

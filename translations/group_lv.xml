@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Paziņojums</entry>
 <entry key="group|name|GR-Buyer">Līgumslēdzēja puse un pakalpojumu sniedzējs</entry>
 <entry key="group|name|GR-Change">Izmaiņas</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Sadaļa, uz kuru attiecas izmaiņas</entry>
 <entry key="group|name|GR-Company">Organizācija</entry>
 <entry key="group|name|GR-Company-Address">Adrese</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informācija, kas attiecas tikai uz pircēju</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Konkursa noteikumi</entry>
 <entry key="group|name|GR-Metadata">Metadati</entry>
 <entry key="group|name|GR-Modification">Izmaiņas</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Sadaļa, uz kuru attiecas izmaiņas</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Rezultāts</entry>
 <entry key="group|name|GR-Organisations">Paziņojumā minētās organizācijas</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Līgumā izmantotie ES līdzekļi</entry>
 <entry key="group|name|ND-ContractModification">Izmaiņas</entry>
 <entry key="group|name|ND-ContractingParty">Pircējs</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Pārrobežu tiesības</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Tiešās piešķiršanas pamatojuma kods (publicēts vēlāk)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Iepriekšējās procedūras ID, kas pamato tiešo piešķiršanu (publicēts vēlāk)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Tiešas piešķiršanas pamatojums (publicēts vēlāk)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Nosacījumi, kas nav ieņēmumu sadale</entry>
 <entry key="group|name|ND-Part">Daļēja</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Papildu klasifikācija</entry>
+<entry key="group|name|ND-PartMainClassification">Daļas galvenās preces klasifikācija</entry>
 <entry key="group|name|ND-PartPlacePerformance">Izpildes vieta</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Iepriekšējā plānošanas atsauce</entry>
 <entry key="group|name|ND-PartReservedProcurement">Rezervēts iepirkums</entry>

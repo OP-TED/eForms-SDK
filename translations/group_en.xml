@@ -10,6 +10,7 @@
 <entry key="group|name|GR-Business-Section">Notice</entry>
 <entry key="group|name|GR-Buyer">Contracting party and service provider</entry>
 <entry key="group|name|GR-Change">Change</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Section to which the change applies</entry>
 <entry key="group|name|GR-Company">Organisation</entry>
 <entry key="group|name|GR-Company-Address">Address</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Information related exclusively to the buyer</entry>
@@ -102,6 +103,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Tendering terms</entry>
 <entry key="group|name|GR-Metadata">Metadata</entry>
 <entry key="group|name|GR-Modification">Modification</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Section to which the change applies</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Result</entry>
 <entry key="group|name|GR-Organisations">Organisations mentioned in the notice</entry>
@@ -316,7 +318,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Conditions other than revenue allocation</entry>
 <entry key="group|name|ND-Part">Part</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Additional classification</entry>
-<entry key="group|name|ND-PartMainClassification">Classification for the Main Commodity of a Part</entry>
+<entry key="group|name|ND-PartMainClassification">Classification for the main commodity of a part</entry>
 <entry key="group|name|ND-PartPlacePerformance">Place of performance</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Previous planning reference</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserved procurement</entry>

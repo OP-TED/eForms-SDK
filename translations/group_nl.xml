@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Aankondiging</entry>
 <entry key="group|name|GR-Buyer">Contractpartij en dienstverlener</entry>
 <entry key="group|name|GR-Change">Wijzigen</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Afdeling waarop de wijziging van toepassing is</entry>
 <entry key="group|name|GR-Company">Organisatie</entry>
 <entry key="group|name|GR-Company-Address">Adres</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informatie die uitsluitend betrekking heeft op de koper</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Aanbestedingsvoorwaarden</entry>
 <entry key="group|name|GR-Metadata">Metagegevens</entry>
 <entry key="group|name|GR-Modification">Wijziging</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Afdeling waarop de wijziging van toepassing is</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Resultaat</entry>
 <entry key="group|name|GR-Organisations">In de aankondiging genoemde organisaties</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">In het contract gebruikte EU-middelen</entry>
 <entry key="group|name|ND-ContractModification">Wijziging</entry>
 <entry key="group|name|ND-ContractingParty">De koper</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Grensoverschrijdend recht</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Code rechtvaardiging onderhandse gunning (later gepubliceerd)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID van de vorige procedure die onderhandse gunning rechtvaardigt (later gepubliceerd)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Rechtvaardiging voor onderhandse gunning (later gepubliceerd)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Andere voorwaarden dan bestemming van de ontvangsten</entry>
 <entry key="group|name|ND-Part">Deel</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Verplichte aanvullende verklaring</entry>
+<entry key="group|name|ND-PartMainClassification">Indeling van de hoofdgrondstof van een deel</entry>
 <entry key="group|name|ND-PartPlacePerformance">Plaats van uitvoering</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Eerdere verwijzing naar de planning</entry>
 <entry key="group|name|ND-PartReservedProcurement">Voorbehouden aanbestedingen</entry>

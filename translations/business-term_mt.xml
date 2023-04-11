@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Identifikatur tal-Lott tar-Riżultati</entry>
 <entry key="business-term|name|BT-13714">Identifikatur tal-lott jew tal-grupp ta’ lottijiet</entry>
 <entry key="business-term|name|BT-13715">Identifikatur tal-Lott ta’ Informazzjoni Addizzjonali</entry>
-<entry key="business-term|name|BT-13716">Taqsima li għaliha tapplika l-bidla</entry>
+<entry key="business-term|name|BT-13716">Identifikatur tas-sezzjoni</entry>
 <entry key="business-term|name|BT-13717">Identifikatur tat-Termini Lott</entry>
 <entry key="business-term|name|BT-13718">Identifikatur tal-Lott ta’ Dokumenti</entry>
 <entry key="business-term|name|BT-13719">Identifikatur tal-Lott ta’ Sottomissjoni</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Data li fiha ntgħażel ir-rebbieħ</entry>
 <entry key="business-term|name|BT-15">Indirizz tad-dokumenti tal-akkwist</entry>
 <entry key="business-term|name|BT-150">Identifikatur tal-kuntratt</entry>
-<entry key="business-term|name|BT-1501">Identifikatur tat-taqsima li għandha tiġi mmodifikata f’avviż preċedenti</entry>
+<entry key="business-term|name|BT-1501">Identifikatur tas-sezzjoni</entry>
 <entry key="business-term|name|BT-151">Indirizz tal-kuntratt</entry>
 <entry key="business-term|name|BT-156">Il-valur massimu tal-ftehimiet qafas f’dan il-grupp ta’ lottijiet</entry>
 <entry key="business-term|name|BT-1561">Valur stmat mill-ġdid tal-ftehimiet qafas fi ħdan grupp ta’ lottijiet</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Numru minimu ta’ kandidati li għandhom jiġu mistiedna għat-tieni stadju tal-proċedura</entry>
 <entry key="business-term|name|BT-500">Isem uffiċjali</entry>
 <entry key="business-term|name|BT-501">Numru tar-reġistrazzjoni</entry>
-<entry key="business-term|name|BT-5010">Identifikatur</entry>
+<entry key="business-term|name|BT-5010">Identifikatur tal-fondi tal-UE</entry>
 <entry key="business-term|name|BT-5011">Identifikatur tal-fondi tal-UE</entry>
 <entry key="business-term|name|BT-502">Punt ta’ kuntatt</entry>
 <entry key="business-term|name|BT-503">Telefown</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Numru massimu ta’ tiġdid</entry>
 <entry key="business-term|name|BT-60">L-akkwist huwa mill-inqas parzjalment iffinanzjat mill-fondi tal-Unjoni Ewropea</entry>
 <entry key="business-term|name|BT-610">Attività tal-entità kontraenti</entry>
-<entry key="business-term|name|BT-6110">Deskrizzjoni</entry>
-<entry key="business-term|name|BT-6140">Aktar informazzjoni dwar il-programm jew il-proġett tal-Unjoni użat mill-inqas parzjalment jiffinanzja l-akkwist</entry>
+<entry key="business-term|name|BT-6110">Aktar dettalji dwar il-Fondi tal-UE</entry>
+<entry key="business-term|name|BT-6140">Aktar dettalji dwar il-Fondi tal-UE</entry>
 <entry key="business-term|name|BT-615">Informazzjoni dwar id-dokumenti ristretti hija disponibbli fuq</entry>
 <entry key="business-term|name|BT-625">Unità</entry>
 <entry key="business-term|name|BT-63">Varjanti</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Valur tar-riżultat</entry>
 <entry key="business-term|name|BT-721">Titlu</entry>
 <entry key="business-term|name|BT-722">Isem il-proġett jew il-programm iffinanzjat mill-UE</entry>
-<entry key="business-term|name|BT-7220">Il-programm tal-fondi tal-Unjoni użat biex mill-inqas jiffinanzja parzjalment il-kuntratt</entry>
+<entry key="business-term|name|BT-7220">Programm ta’ Fondi tal-UE</entry>
 <entry key="business-term|name|BT-723">Il-kategorija ta’ vettura li taqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE, inkluż: Vetturi ħfief (M1, M2, N1); Xarabank (M3); Trakk (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Tintuża għodda ta’ komunikazzjoni ad hoc</entry>
 <entry key="business-term|name|BT-725">Numru ta’ vetturi tqal b’emissjonijiet żero</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Tip ta’ servizz ipprovdut</entry>
 <entry key="business-term|name|OPT-050">Status tad-dokument</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Kodiċi tar-rekwiżit tal-eżekuzzjoni</entry>
 <entry key="business-term|name|OPT-070">L-eżekuzzjoni tas-servizz hija riżervata għal professjoni partikolari. Referenza għal-liġi, regolament jew proċedura amministrattiva rilevanti</entry>
 <entry key="business-term|name|OPT-071">Kodiċi tal-mira ta’ kwalità</entry>
 <entry key="business-term|name|OPT-072">Deskrizzjoni tal-mira tal-kwalità</entry>
