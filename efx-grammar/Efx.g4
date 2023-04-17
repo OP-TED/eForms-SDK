@@ -171,6 +171,7 @@ booleanExpression
     | (Every | Some) iteratorList Satisfies booleanExpression                   # quantifiedExpression
     | booleanLiteral                                                            # booleanLiteralExpression
     | booleanFunction                                                           # booleanFunctionExpression
+    | booleanSequence OpenBracket indexer CloseBracket                          # booleanAtSequenceIndex
     | BooleanTypeCast lateBoundExpression                                       # booleanCastExpression
     | lateBoundExpression                                                       # untypedBooleanExpression
     ;
@@ -179,6 +180,7 @@ stringExpression
     : If booleanExpression Then stringExpression Else stringExpression     # conditionalStringExpression
     | stringLiteral                                                        # stringLiteralExpression
     | stringFunction                                                       # stringFunctionExpression
+    | stringSequence OpenBracket indexer CloseBracket                      # stringAtSequenceIndex
     | TextTypeCast lateBoundExpression                                     # stringCastExpression
     | lateBoundExpression                                                  # untypedStringExpression
     ;
@@ -190,6 +192,7 @@ numericExpression
     | If booleanExpression Then numericExpression Else numericExpression     # conditionalNumericExpression
     | numericLiteral                                                         # numericLiteralExpression
     | numericFunction                                                        # numericFunctionExpression
+    | numericSequence OpenBracket indexer CloseBracket                       # numericAtSequenceIndex
     | NumericTypeCast lateBoundExpression                                    # numericCastExpression
     | lateBoundExpression                                                    # untypedNumericExpression
     ;
@@ -200,6 +203,7 @@ dateExpression
     : If booleanExpression Then dateExpression Else dateExpression          # conditionalDateExpression
     | dateLiteral                                                           # dateLiteralExpression
     | dateFunction                                                          # dateFunctionExpression
+    | dateSequence OpenBracket indexer CloseBracket                         # dateAtSequenceIndex
     | DateTypeCast lateBoundExpression                                      # dateCastExpression
     | lateBoundExpression                                                   # untypedDateExpression
     ;
@@ -208,6 +212,7 @@ timeExpression
     : If booleanExpression Then timeExpression Else timeExpression          # conditionalTimeExpression
     | timeLiteral                                                           # timeLiteralExpression
     | timeFunction                                                          # timeFunctionExpression
+    | timeSequence OpenBracket indexer CloseBracket                         # timeAtSequenceIndex
     | TimeTypeCast lateBoundExpression                                      # timeCastExpression
     | lateBoundExpression                                                   # untypedTimeExpression
     ;
@@ -222,6 +227,7 @@ durationExpression
     | If booleanExpression Then durationExpression Else durationExpression      # conditionalDurationExpression
     | durationLiteral                                                           # durationLiteralExpression
     | durationFunction                                                          # durationFunctionExpression
+    | durationSequence OpenBracket indexer CloseBracket                         # durationAtSequenceIndex
     | DurationTypeCast lateBoundExpression                                      # durationCastExpression
     | lateBoundExpression                                                       # untypedDurationExpression
     ;
@@ -241,6 +247,8 @@ sequenceExpression
     | durationSequence 
     | sequenceFunction
     ;
+
+indexer: numericExpression;
 
 stringSequence
     : OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis           # stringList
