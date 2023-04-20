@@ -42,8 +42,10 @@
 				<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:Funding" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:InterestExpressionReceptionPeriod" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="efac:NonOfficialLanguages" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:NoticeResult" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:NoticeSubType" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="efac:OfficialLanguages" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:Organizations" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:Publication" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:SelectionCriteria" minOccurs="0" maxOccurs="unbounded"/>
