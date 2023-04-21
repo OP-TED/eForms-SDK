@@ -828,6 +828,13 @@
           "description" : "Reserved Execution",
           "_label" : "field|name|BT-736-Lot"
         }, {
+          "id" : "OPT-060-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Execution Requirement Factor",
+          "_label" : "field|name|OPT-060-Lot",
+          "_presetValue" : "performance"
+        }, {
           "id" : "BT-70-Lot",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
