@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.7.0",
   "metadataDatabase" : {
-    "version" : "1.7.0",
-    "createdOn" : "2023-03-31T15:30:00"
+    "version" : "1.7.2",
+    "createdOn" : "2023-04-24T13:02:22"
   },
   "noticeId" : "10",
   "metadata" : [ {
@@ -1450,7 +1450,7 @@
           "id" : "OPT-060-Lot",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
-          "description" : "Execution Requirement Factor",
+          "description" : "Execution Requirements Factor",
           "_label" : "field|name|OPT-060-Lot",
           "_presetValue" : "performance"
         }, {
