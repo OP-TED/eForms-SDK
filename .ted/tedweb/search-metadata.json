@@ -79,10 +79,6 @@
 		"efx": "{ND-Root} ${value-union(/BT-702(a)-notice, /BT-702(b)-notice)}",
 		"comment": "(OL) Original language"
 	},
-	"OPP-090-Procedure": {
-		"efx": "{ND-Root} ${/OPP-090-Procedure}",
-		"comment": "Previous Notice Identifier - used to to identify a TED-schema notice in the absence of the procedure identifier"
-	},
 	"PC": {
 		"efx": "{ND-Root} ${value-union(value-union(value-union(value-union(value-union(/BT-262-Procedure, /BT-263-Procedure), /BT-262-Lot), /BT-262-Part), /BT-263-Lot), /BT-263-Part)}",
 		"comment": "(PC) Common procurement vocabulary (CPV)"
