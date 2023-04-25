@@ -6,7 +6,7 @@
 <!-- Notice dispatch date -->
 <rule context="/*/cbc:IssueDate">
 	<!-- BT-05(a)-notice Dispatch date is with one day of current date -->
-	<assert role="ERROR" test="((current-date() - xs:date(text())) le xs:dayTimeDuration('P1D')) and ((current-date() - xs:date(text())) ge xs:dayTimeDuration('-P1D'))">
+	<assert role="ERROR" test="(/*/cbc:IssueDate) and (/*/cbc:IssueTime) and (fn:timezone-from-date(/*/cbc:IssueDate/text()) = fn:timezone-from-time(/*/cbc:IssueTime/text())) and ((fn:current-dateTime() - fn:dateTime(/*/cbc:IssueDate/text(),/*/cbc:IssueTime/text())) < xs:dayTimeDuration('P1D')) and ((fn:current-dateTime() - fn:dateTime(/*/cbc:IssueDate/text(),/*/cbc:IssueTime/text())) >= xs:dayTimeDuration('P0D'))">
 		Notice Dispatch Date must be between 0 and 24 hours before the current date.
 	</assert>
 </rule>
