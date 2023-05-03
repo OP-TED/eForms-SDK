@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.7.0",
+  "sdkVersion" : "eforms-sdk-1.8.0",
   "metadataDatabase" : {
-    "version" : "1.7.1",
-    "createdOn" : "2023-04-24T12:34:54"
+    "version" : "1.7.28",
+    "createdOn" : "2023-05-03T13:55:34"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -107,13 +107,6 @@
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:MainCommodityClassification",
     "xpathRelative" : "cac:MainCommodityClassification",
     "xsdSequenceOrder" : [ { "cac:MainCommodityClassification" : 16 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-ProcedureMainClassificationCode",
-    "parentId" : "ND-ProcedureMainClassification",
-    "xpathAbsolute" : "/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode",
-    "xpathRelative" : "cbc:ItemClassificationCode",
-    "xsdSequenceOrder" : [ { "cbc:ItemClassificationCode" : 5 } ],
     "repeatable" : false
   }, {
     "id" : "ND-ProcedurePlacePerformanceAdditionalInformation",
@@ -186,13 +179,6 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification",
     "xpathRelative" : "cac:MainCommodityClassification",
     "xsdSequenceOrder" : [ { "cac:MainCommodityClassification" : 16 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-LotMainClassificationCode",
-    "parentId" : "ND-LotMainClassification",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode",
-    "xpathRelative" : "cbc:ItemClassificationCode",
-    "xsdSequenceOrder" : [ { "cbc:ItemClassificationCode" : 5 } ],
     "repeatable" : false
   }, {
     "id" : "ND-LotDuration",
@@ -821,13 +807,6 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification",
     "xpathRelative" : "cac:MainCommodityClassification",
     "xsdSequenceOrder" : [ { "cac:MainCommodityClassification" : 16 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-PartMainClassificationCode",
-    "parentId" : "ND-PartMainClassification",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode",
-    "xpathRelative" : "cbc:ItemClassificationCode",
-    "xsdSequenceOrder" : [ { "cbc:ItemClassificationCode" : 5 } ],
     "repeatable" : false
   }, {
     "id" : "ND-PartDuration",
@@ -12379,11 +12358,12 @@
     }
   }, {
     "id" : "BT-26(m)-Lot",
-    "parentNodeId" : "ND-LotMainClassificationCode",
+    "parentNodeId" : "ND-LotMainClassification",
     "name" : "Classification Type (e.g. CPV)",
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName",
-    "xpathRelative" : "@listName",
+    "xpathRelative" : "cbc:ItemClassificationCode/@listName",
+    "xsdSequenceOrder" : [ { "cbc:ItemClassificationCode" : 5 } ],
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
@@ -12417,11 +12397,12 @@
     }
   }, {
     "id" : "BT-26(m)-Part",
-    "parentNodeId" : "ND-PartMainClassificationCode",
+    "parentNodeId" : "ND-PartMainClassification",
     "name" : "Classification Type (e.g. CPV)",
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName",
-    "xpathRelative" : "@listName",
+    "xpathRelative" : "cbc:ItemClassificationCode/@listName",
+    "xsdSequenceOrder" : [ { "cbc:ItemClassificationCode" : 5 } ],
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
@@ -12455,11 +12436,12 @@
     }
   }, {
     "id" : "BT-26(m)-Procedure",
-    "parentNodeId" : "ND-ProcedureMainClassificationCode",
+    "parentNodeId" : "ND-ProcedureMainClassification",
     "name" : "Classification Type (e.g. CPV)",
     "btId" : "BT-26",
     "xpathAbsolute" : "/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName",
-    "xpathRelative" : "@listName",
+    "xpathRelative" : "cbc:ItemClassificationCode/@listName",
+    "xsdSequenceOrder" : [ { "cbc:ItemClassificationCode" : 5 } ],
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
