@@ -323,13 +323,6 @@
   }, {
     "id" : "ND-NonEsubmission",
     "parentId" : "ND-LotTenderingProcess",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification",
-    "xpathRelative" : "cac:ProcessJustification",
-    "xsdSequenceOrder" : [ { "cac:ProcessJustification" : 24 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-NoESubmission",
-    "parentId" : "ND-LotTenderingProcess",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification']",
     "xpathRelative" : "cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification']",
     "xsdSequenceOrder" : [ { "cac:ProcessJustification" : 24 } ],
@@ -4820,7 +4813,7 @@
     "parentNodeId" : "ND-NonEsubmission",
     "name" : "Submission Nonelectronic Justification",
     "btId" : "BT-19",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification']/cbc:ProcessReasonCode[@listName='no-esubmission-justification']",
     "xpathRelative" : "cbc:ProcessReasonCode[@listName='no-esubmission-justification']",
     "xsdSequenceOrder" : [ { "cbc:ProcessReasonCode" : 3 } ],
     "type" : "code",
@@ -19327,7 +19320,7 @@
     }
   }, {
     "id" : "BT-745-Lot",
-    "parentNodeId" : "ND-NoESubmission",
+    "parentNodeId" : "ND-NonEsubmission",
     "name" : "Submission Nonelectronic Description",
     "btId" : "BT-745",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification']/cbc:Description",
