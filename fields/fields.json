@@ -193,7 +193,7 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']",
     "xpathRelative" : "cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']",
     "xsdSequenceOrder" : [ { "cac:ProcurementAdditionalType" : 14 } ],
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-LotGreenCriteria",
     "parentId" : "ND-LotProcurementScope",
