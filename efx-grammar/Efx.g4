@@ -57,6 +57,7 @@ whitespace: Whitespace+;
  */
 labelBlock
     : StartLabel assetType Pipe labelType Pipe assetId EndLabel    # standardLabelReference
+    | StartLabel expressionBlock EndLabel                          # computedLabelReference
     | StartLabel labelType Pipe BtId EndLabel                      # shorthandBtLabelReference
     | StartLabel labelType Pipe FieldId EndLabel                   # shorthandFieldLabelReference
     | StartLabel FieldId EndLabel                                  # shorthandIndirectLabelReference
