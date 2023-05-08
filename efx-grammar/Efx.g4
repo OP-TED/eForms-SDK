@@ -99,15 +99,15 @@ contextDeclaration: contextVariableInitializer | fieldContext | nodeContext;
 
 templateVariableList: templateVariableInitializer (Comma templateVariableInitializer)*;
 
-contextVariableInitializer: ContextTypeCast Variable Assignment fieldContext;
+contextVariableInitializer: ContextType Colon Variable Assignment fieldContext;
 
 templateVariableInitializer
-    : TextTypeCast Variable Assignment stringExpression           # stringVariableInitializer
-    | BooleanTypeCast Variable Assignment booleanExpression       # booleanVariableInitializer
-    | NumericTypeCast Variable Assignment numericExpression       # numericVariableInitializer
-    | DateTypeCast Variable Assignment dateExpression             # dateVariableInitializer 
-    | TimeTypeCast Variable Assignment timeExpression             # timeVariableInitializer
-    | DurationTypeCast Variable Assignment durationExpression     # durationVariableInitializer
+    : Text      Colon Variable Assignment (stringExpression   | lateBoundExpression)    # stringVariableInitializer
+    | Indicator Colon Variable Assignment (booleanExpression  | lateBoundExpression)    # booleanVariableInitializer
+    | Number    Colon Variable Assignment (numericExpression  | lateBoundExpression)    # numericVariableInitializer
+    | Date      Colon Variable Assignment (dateExpression     | lateBoundExpression)    # dateVariableInitializer 
+    | Time      Colon Variable Assignment (timeExpression     | lateBoundExpression)    # timeVariableInitializer
+    | Measure   Colon Variable Assignment (durationExpression | lateBoundExpression)    # durationVariableInitializer
     ;
 
 /*
@@ -117,12 +117,12 @@ templateVariableInitializer
 parameterList: parameterDeclaration (Comma parameterDeclaration)*;
 
 parameterDeclaration
-    : TextTypeCast Variable         # stringParameterDeclaration 
-    | NumericTypeCast Variable      # numericParameterDeclaration 
-    | BooleanTypeCast Variable      # booleanParameterDeclaration 
-    | DateTypeCast Variable         # dateParameterDeclaration
-    | TimeTypeCast Variable         # timeParameterDeclaration
-    | DurationTypeCast Variable     # durationParameterDeclaration 
+    : Text      Colon Variable      # stringParameterDeclaration 
+    | Number    Colon Variable      # numericParameterDeclaration 
+    | Indicator Colon Variable      # booleanParameterDeclaration 
+    | Date      Colon Variable      # dateParameterDeclaration
+    | Time      Colon Variable      # timeParameterDeclaration
+    | Measure   Colon Variable      # durationParameterDeclaration 
     ;
 
 // Parameter values are not part of an EFX expression. 
@@ -140,81 +140,134 @@ parameterValue: StartExpression (stringLiteral | numericLiteral | dateLiteral | 
 expression: lateBoundExpression | numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression | sequenceExpression;
 
 lateBoundExpression
-    : If booleanExpression Then lateBoundExpression Else lateBoundExpression            # untypedConditionalExpression
-    | scalarFromReference                                                               # untypedFieldReferenceExpression 
+    : OpenParenthesis lateBoundExpression CloseParenthesis                              
+    | lateBoundExpression (Plus | Minus) lateBoundExpression                   
+    | lateBoundExpression (Star | Slash | Percent) lateBoundExpression         
+    | lateBoundExpression OpenBracket indexer CloseBracket                              
+    | lateBoundSequenceFromIteration
+    | untypedReference                                                                  
+    ;
+
+untypedReference
+    : scalarFromReference                                                               # untypedFieldReferenceExpression 
     | sequenceFromReference                                                             # untypedSequenceExpression
     | variableReference                                                                 # untypedVariableExpression
     ;
+
+lateBoundSequenceFromIteration: For iteratorList Return lateBoundExpression;
 
 booleanExpression
     : OpenParenthesis booleanExpression CloseParenthesis                        # parenthesizedBooleanExpression
     | booleanExpression     operator=And booleanExpression                      # logicalAndCondition
     | booleanExpression     operator=Or booleanExpression                       # logicalOrCondition
-    | stringExpression      modifier=Not? In stringSequence                     # stringInListCondition
-    | booleanExpression     modifier=Not? In booleanSequence                    # booleanInListCondition
-    | numericExpression     modifier=Not? In numericSequence                    # numberInListCondition
-    | dateExpression        modifier=Not? In dateSequence                       # dateInListCondition
-    | timeExpression        modifier=Not? In timeSequence                       # timeInListCondition
-    | durationExpression    modifier=Not? In durationSequence                   # durationInListCondition
+    | stringExpression      modifier=Not? In (stringSequence    | sequenceFromReference)       # stringInListCondition
+    | booleanExpression     modifier=Not? In (booleanSequence   | sequenceFromReference)       # booleanInListCondition
+    | numericExpression     modifier=Not? In (numericSequence   | sequenceFromReference)       # numberInListCondition
+    | dateExpression        modifier=Not? In (dateSequence      | sequenceFromReference)       # dateInListCondition
+    | timeExpression        modifier=Not? In (timeSequence      | sequenceFromReference)       # timeInListCondition
+    | durationExpression    modifier=Not? In (durationSequence  | sequenceFromReference)       # durationInListCondition
     | stringExpression      modifier=Not? Like pattern=STRING                   # likePatternCondition
     | stringExpression      Is modifier=Not? Empty                              # emptinessCondition
     | pathFromReference     Is modifier=Not? Present                            # presenceCondition
     | pathFromReference     Is modifier=Not? Unique In absoluteFieldReference   # uniqueValueCondition
-    | lateBoundExpression   operator=Comparison lateBoundExpression             # fieldValueComparison
     | booleanExpression     operator=Comparison booleanExpression               # booleanComparison
     | numericExpression     operator=Comparison numericExpression               # numericComparison
     | stringExpression      operator=Comparison stringExpression                # stringComparison
     | dateExpression        operator=Comparison dateExpression                  # dateComparison
     | timeExpression        operator=Comparison timeExpression                  # timeComparison
     | durationExpression    operator=Comparison durationExpression              # durationComparison
-    | If booleanExpression Then booleanExpression Else booleanExpression        # conditionalBooleanExpression
+    | If   (booleanExpression | lateBoundExpression) 
+      Then (booleanExpression | lateBoundExpression) 
+      Else (booleanExpression | lateBoundExpression)                            # conditionalBooleanExpression
     | (Every | Some) iteratorList Satisfies booleanExpression                   # quantifiedExpression
     | booleanLiteral                                                            # booleanLiteralExpression
     | booleanFunction                                                           # booleanFunctionExpression
     | booleanSequence OpenBracket indexer CloseBracket                          # booleanAtSequenceIndex
-    | BooleanTypeCast lateBoundExpression                                       # booleanCastExpression
-    | lateBoundExpression                                                       # untypedBooleanExpression
+    | booleanTypeCast untypedReference                                          # booleanCastExpression
+    // Rules for the pre-processor to cast late-bound expressions appropriately ---------------------------------------
+    | booleanExpression     And lateBoundExpression                             # ppLogicalAndConditionRight
+    | lateBoundExpression   And booleanExpression                               # ppLogicalAndConditionLeft
+    | lateBoundExpression   And lateBoundExpression                             # ppLateBoundLogicalAndCondition
+    | booleanExpression     Or lateBoundExpression                              # ppLogicalOrConditionRight
+    | lateBoundExpression   Or booleanExpression                                # ppLogicalOrConditionLeft
+    | lateBoundExpression   Or lateBoundExpression                              # ppLateBoundLogicalOrCondition
+    | lateBoundExpression   Comparison booleanExpression                        # ppLateBoundToBooleanComparison
+    | lateBoundExpression   Comparison numericExpression                        # ppLateBoundToNumericComparison
+    | lateBoundExpression   Comparison stringExpression                         # ppLateBoundToStringComparison
+    | lateBoundExpression   Comparison dateExpression                           # ppLateBoundToDateComparison
+    | lateBoundExpression   Comparison timeExpression                           # ppLateBoundToTimeComparison
+    | lateBoundExpression   Comparison durationExpression                       # ppLateBoundToDurationComparison
+    | booleanExpression     Comparison lateBoundExpression                      # ppBooleanToLateBoundComparison
+    | numericExpression     Comparison lateBoundExpression                      # ppNumericToLateBoundComparison
+    | stringExpression      Comparison lateBoundExpression                      # ppStringToLateBoundComparison
+    | dateExpression        Comparison lateBoundExpression                      # ppDateToLateBoundComparison
+    | timeExpression        Comparison lateBoundExpression                      # ppTimeToLateBoundComparison
+    | durationExpression    Comparison lateBoundExpression                      # ppDurationToLateBoundComparison
+    | lateBoundExpression   Comparison lateBoundExpression                      # ppFieldValueComparison
+    | lateBoundExpression   Is Not? Empty                                       # ppLateBoundEmptinessCondition
+    | stringExpression      Not? In lateBoundExpression                         # ppStringInLateBoundListCondition
+    | booleanExpression     Not? In lateBoundExpression                         # ppBooleanInLateBoundListCondition
+    | numericExpression     Not? In lateBoundExpression                         # ppNumberInLateBoundListCondition
+    | dateExpression        Not? In lateBoundExpression                         # ppDateInLateBoundListCondition
+    | timeExpression        Not? In lateBoundExpression                         # ppTimeInLateBoundListCondition
+    | durationExpression    Not? In lateBoundExpression                         # ppDurationInLateBoundListCondition
+    | lateBoundExpression   Not? In (stringSequence   | sequenceFromReference)  # ppLateBoundInStringListCondition
+    | lateBoundExpression   Not? In (booleanSequence  | sequenceFromReference)  # ppLateBoundInBooleanListCondition
+    | lateBoundExpression   Not? In (numericSequence  | sequenceFromReference)  # ppLateBoundInNumberListCondition
+    | lateBoundExpression   Not? In (dateSequence     | sequenceFromReference)  # ppLateBoundInDateListCondition
+    | lateBoundExpression   Not? In (timeSequence     | sequenceFromReference)  # ppLateBoundInTimeListCondition
+    | lateBoundExpression   Not? In (durationSequence | sequenceFromReference)  # ppLateBoundInDurationListCondition
+    | (Every | Some) iteratorList Satisfies lateBoundExpression                 # ppLateBoundQuantifiedExpression
     ;
     
 stringExpression
-    : If booleanExpression Then stringExpression Else stringExpression     # conditionalStringExpression
-    | stringLiteral                                                        # stringLiteralExpression
-    | stringFunction                                                       # stringFunctionExpression
-    | stringSequence OpenBracket indexer CloseBracket                      # stringAtSequenceIndex
-    | TextTypeCast lateBoundExpression                                     # stringCastExpression
-    | lateBoundExpression                                                  # untypedStringExpression
+    : If   (booleanExpression | lateBoundExpression) 
+      Then (stringExpression  | lateBoundExpression) 
+      Else (stringExpression  | lateBoundExpression)        # conditionalStringExpression
+    | stringLiteral                                         # stringLiteralExpression
+    | stringFunction                                        # stringFunctionExpression
+    | stringSequence OpenBracket indexer CloseBracket       # stringAtSequenceIndex
+    | textTypeCast untypedReference                         # stringCastExpression
     ;
 
 numericExpression
     : OpenParenthesis numericExpression CloseParenthesis                     # parenthesizedNumericExpression
     | numericExpression operator=(Star | Slash | Percent) numericExpression  # multiplicationExpression
     | numericExpression operator=(Plus | Minus) numericExpression            # additionExpression
-    | If booleanExpression Then numericExpression Else numericExpression     # conditionalNumericExpression
+    | If   (booleanExpression | lateBoundExpression) 
+      Then (numericExpression | lateBoundExpression) 
+      Else (numericExpression | lateBoundExpression)                         # conditionalNumericExpression
     | numericLiteral                                                         # numericLiteralExpression
     | numericFunction                                                        # numericFunctionExpression
     | numericSequence OpenBracket indexer CloseBracket                       # numericAtSequenceIndex
-    | NumericTypeCast lateBoundExpression                                    # numericCastExpression
-    | lateBoundExpression                                                    # untypedNumericExpression
+    | numericTypeCast untypedReference                                       # numericCastExpression
+    // Rules for the pre-processor to cast late-bound expressions appropriately ---------------------------------------
+    | numericExpression   (Star | Slash | Percent) lateBoundExpression       # ppMultiplicationExpressionLeft
+    | lateBoundExpression (Star | Slash | Percent) numericExpression         # ppMultiplicationExpressionRight
+    | numericExpression   (Plus | Minus) lateBoundExpression                 # ppAdditionExpressionLeft
+    | lateBoundExpression (Plus | Minus) numericExpression                   # ppAdditionExpressionRight
     ;
 
 
 
 dateExpression
-    : If booleanExpression Then dateExpression Else dateExpression          # conditionalDateExpression
+    : If   (booleanExpression | lateBoundExpression) 
+      Then (dateExpression    | lateBoundExpression) 
+      Else (dateExpression    | lateBoundExpression)                        # conditionalDateExpression
     | dateLiteral                                                           # dateLiteralExpression
     | dateFunction                                                          # dateFunctionExpression
     | dateSequence OpenBracket indexer CloseBracket                         # dateAtSequenceIndex
-    | DateTypeCast lateBoundExpression                                      # dateCastExpression
-    | lateBoundExpression                                                   # untypedDateExpression
+    | dateTypeCast untypedReference                                         # dateCastExpression
     ;
 
 timeExpression
-    : If booleanExpression Then timeExpression Else timeExpression          # conditionalTimeExpression
+    : If   (booleanExpression | lateBoundExpression) 
+      Then (timeExpression    | lateBoundExpression) 
+      Else (timeExpression    | lateBoundExpression)                        # conditionalTimeExpression
     | timeLiteral                                                           # timeLiteralExpression
     | timeFunction                                                          # timeFunctionExpression
     | timeSequence OpenBracket indexer CloseBracket                         # timeAtSequenceIndex
-    | TimeTypeCast lateBoundExpression                                      # timeCastExpression
-    | lateBoundExpression                                                   # untypedTimeExpression
+    | timeTypeCast untypedReference                                         # timeCastExpression
     ;
 
 durationExpression
@@ -224,12 +277,22 @@ durationExpression
     | durationExpression Star numericExpression                                 # durationRightMultiplicationExpression
     | durationExpression Plus durationExpression                                # durationAdditionExpression
     | durationExpression Minus durationExpression                               # durationSubtractionExpression
-    | If booleanExpression Then durationExpression Else durationExpression      # conditionalDurationExpression
+    | If (booleanExpression | lateBoundExpression) 
+        Then (durationExpression | lateBoundExpression) 
+        Else (durationExpression | lateBoundExpression)                         # conditionalDurationExpression
     | durationLiteral                                                           # durationLiteralExpression
     | durationFunction                                                          # durationFunctionExpression
     | durationSequence OpenBracket indexer CloseBracket                         # durationAtSequenceIndex
-    | DurationTypeCast lateBoundExpression                                      # durationCastExpression
-    | lateBoundExpression                                                       # untypedDurationExpression
+    | durationTypeCast untypedReference                                         # durationCastExpression
+    // Rules for the pre-processor to cast late-bound expressions appropriately ---------------------------------------
+    | durationExpression Plus lateBoundExpression                               # ppLateBoundDurationAdditionExpressionRight
+    | durationExpression Minus lateBoundExpression                              # ppLateBoundDurationSubtractionExpressionRight                          
+    | lateBoundExpression Plus durationExpression                               # ppLateBoundDurationAdditionExpressionLeft
+    | lateBoundExpression Minus durationExpression                              # ppLateBoundDurationSubtractionExpressionLeft
+    | lateBoundExpression Star durationExpression                               # ppLateBoundDurationMultiplicationExpressionLeft
+    | numericExpression Star lateBoundExpression                                # ppLateBoundDurationMultiplicationExpressionRight
+    | dateExpression Minus lateBoundExpression                                  # ppLateBoundDateSubtractionExpressionRight
+    | lateBoundExpression Minus dateExpression                                  # ppLateBoundDateSubtractionExpressionLeft
     ;
 
 
@@ -251,56 +314,56 @@ sequenceExpression
 indexer: numericExpression;
 
 stringSequence
-    : OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis           # stringList
+    : OpenParenthesis (stringExpression | lateBoundExpression) (Comma (stringExpression | lateBoundExpression))* CloseParenthesis   # stringList
     | stringSequenceFromIteration                                                           # stringsFromIteration
     | OpenParenthesis stringSequenceFromIteration CloseParenthesis                          # parenthesizedStringsFromIteration
     | codelistReference                                                                     # codeList
-    | TextTypeCast? sequenceFromReference                                                   # stringTypeCastFieldReference      
+    | textTypeCast sequenceFromReference                                                    # stringTypeCastFieldReference      
     ;
 
 stringSequenceFromIteration: For iteratorList Return stringExpression;
 
 booleanSequence
-    : OpenParenthesis booleanExpression (Comma booleanExpression)* CloseParenthesis     # booleanList
+    : OpenParenthesis (booleanExpression | lateBoundExpression) (Comma (booleanExpression | lateBoundExpression))* CloseParenthesis     # booleanList
     | booleanSequenceFromIteration                                                      # booleansFromIteration
     | OpenParenthesis booleanSequenceFromIteration CloseParenthesis                     # parenthesizedBooleansFromIteration
-    | BooleanTypeCast? sequenceFromReference                                            # booleanTypeCastFieldReference
+    | booleanTypeCast sequenceFromReference                                             # booleanTypeCastFieldReference
     ;
 
 booleanSequenceFromIteration: For iteratorList Return booleanExpression;
 
 numericSequence
-    : OpenParenthesis numericExpression (Comma numericExpression)* CloseParenthesis     # numericList
+    : OpenParenthesis (numericExpression | lateBoundExpression) (Comma (numericExpression | lateBoundExpression))* CloseParenthesis     # numericList
     | numericSequenceFromIteration                                                      # numbersFromIteration
     | OpenParenthesis numericSequenceFromIteration CloseParenthesis                     # parenthesizedNumbersFromIteration
-    | NumericTypeCast? sequenceFromReference                                            # numericTypeCastFieldReference
+    | numericTypeCast sequenceFromReference                                             # numericTypeCastFieldReference
     ;
 
 numericSequenceFromIteration: For iteratorList Return numericExpression;
 
 dateSequence
-    : OpenParenthesis dateExpression (Comma dateExpression)* CloseParenthesis   # dateList
+    : OpenParenthesis (dateExpression | lateBoundExpression) (Comma (dateExpression | lateBoundExpression))* CloseParenthesis   # dateList
     | dateSequenceFromIteration                                                 # datesFromIteration
     | OpenParenthesis dateSequenceFromIteration CloseParenthesis                # parenthesizedDatesFromIteration
-    | DateTypeCast? sequenceFromReference                                       # dateTypeCastFieldReference
+    | dateTypeCast sequenceFromReference                                        # dateTypeCastFieldReference
     ;
 
 dateSequenceFromIteration: For iteratorList Return dateExpression;
 
 timeSequence
-    : OpenParenthesis timeExpression (Comma timeExpression)* CloseParenthesis   # timeList
+    : OpenParenthesis (timeExpression | lateBoundExpression) (Comma (timeExpression | lateBoundExpression))* CloseParenthesis   # timeList
     | timeSequenceFromIteration                                                 # timesFromIteration
     | OpenParenthesis timeSequenceFromIteration CloseParenthesis                # parenthesizedTimesFromIteration
-    | TimeTypeCast? sequenceFromReference                                       # timeTypeCastFieldReference
+    | timeTypeCast sequenceFromReference                                        # timeTypeCastFieldReference
     ;
 
 timeSequenceFromIteration: For iteratorList Return timeExpression;
 
 durationSequence
-    : OpenParenthesis durationExpression (Comma durationExpression)* CloseParenthesis   # durationList
+    : OpenParenthesis (durationExpression | lateBoundExpression) (Comma (durationExpression | lateBoundExpression))* CloseParenthesis   # durationList
     | durationSequenceFromIteration                                                     # durationsFromIteration
     | OpenParenthesis durationSequenceFromIteration CloseParenthesis                    # parenthesizedDurationsFromIteration
-    | DurationTypeCast? sequenceFromReference                                           # durationTypeCastFieldReference
+    | durationTypeCast sequenceFromReference                                            # durationTypeCastFieldReference
     ;
 
 durationSequenceFromIteration: For iteratorList Return durationExpression;
@@ -310,13 +373,13 @@ predicate: booleanExpression;
 iteratorList: iteratorExpression (Comma iteratorExpression)*;
 iteratorExpression: stringIteratorExpression | booleanIteratorExpression | numericIteratorExpression | dateIteratorExpression | timeIteratorExpression | durationIteratorExpression | contextIteratorExpression;
 
-stringIteratorExpression: stringVariableDeclaration In stringSequence;
-booleanIteratorExpression: booleanVariableDeclaration In booleanSequence;
-numericIteratorExpression: numericVariableDeclaration In numericSequence;
-dateIteratorExpression: dateVariableDeclaration In dateSequence;
-timeIteratorExpression: timeVariableDeclaration In timeSequence;
-durationIteratorExpression: durationVariableDeclaration In durationSequence;
-contextIteratorExpression: contextVariableDeclaration In (fieldContext | nodeContext);
+stringIteratorExpression:   stringVariableDeclaration   In (stringSequence   | sequenceFromReference);
+booleanIteratorExpression:  booleanVariableDeclaration  In (booleanSequence  | sequenceFromReference);
+numericIteratorExpression:  numericVariableDeclaration  In (numericSequence  | sequenceFromReference);
+dateIteratorExpression:     dateVariableDeclaration     In (dateSequence     | sequenceFromReference);
+timeIteratorExpression:     timeVariableDeclaration     In (timeSequence     | sequenceFromReference);
+durationIteratorExpression: durationVariableDeclaration In (durationSequence | sequenceFromReference);
+contextIteratorExpression:  contextVariableDeclaration  In (fieldContext     | nodeContext);
 
 /*
  * Literals
@@ -336,13 +399,21 @@ durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
  * References
  */
 
-stringVariableDeclaration: TextTypeCast Variable;
-booleanVariableDeclaration: BooleanTypeCast Variable;
-numericVariableDeclaration: NumericTypeCast Variable;
-dateVariableDeclaration: DateTypeCast Variable;
-timeVariableDeclaration: TimeTypeCast Variable;
-durationVariableDeclaration: DurationTypeCast Variable;
-contextVariableDeclaration: ContextTypeCast Variable;
+textTypeCast:       OpenParenthesis Text        CloseParenthesis;
+booleanTypeCast:    OpenParenthesis Indicator   CloseParenthesis;
+numericTypeCast:    OpenParenthesis Number      CloseParenthesis;
+dateTypeCast:       OpenParenthesis Date        CloseParenthesis;
+timeTypeCast:       OpenParenthesis Time        CloseParenthesis;
+durationTypeCast:   OpenParenthesis Measure     CloseParenthesis;
+contextTypeCast:    OpenParenthesis ContextType CloseParenthesis;
+
+stringVariableDeclaration:      Text        Colon Variable;
+booleanVariableDeclaration:     Indicator   Colon Variable;
+numericVariableDeclaration:     Number      Colon Variable;
+dateVariableDeclaration:        Date        Colon Variable;
+timeVariableDeclaration:        Time        Colon Variable;
+durationVariableDeclaration:    Measure     Colon Variable;
+contextVariableDeclaration:     ContextType Colon Variable;
 
 variableReference: Variable;
 
@@ -401,42 +472,42 @@ axis: Axis ColonColon;
  */
 
 booleanFunction
-    : Not OpenParenthesis booleanExpression CloseParenthesis                                                           # notFunction
-    | ContainsFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis        # containsFunction
-    | StartsWithFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis      # startsWithFunction
-    | EndsWithFunction OpenParenthesis haystack=stringExpression Comma needle=stringExpression CloseParenthesis        # endsWithFunction
-    | SequenceEqualFunction OpenParenthesis left=sequenceExpression Comma right=sequenceExpression CloseParenthesis    # sequenceEqualFunction
+    : Not                   OpenParenthesis (booleanExpression         | lateBoundExpression) CloseParenthesis                                                          # notFunction
+    | ContainsFunction      OpenParenthesis (haystack=stringExpression | lateBoundExpression) Comma (needle=stringExpression | lateBoundExpression) CloseParenthesis    # containsFunction
+    | StartsWithFunction    OpenParenthesis (haystack=stringExpression | lateBoundExpression) Comma (needle=stringExpression | lateBoundExpression) CloseParenthesis    # startsWithFunction
+    | EndsWithFunction      OpenParenthesis (haystack=stringExpression | lateBoundExpression) Comma (needle=stringExpression | lateBoundExpression) CloseParenthesis    # endsWithFunction
+    | SequenceEqualFunction OpenParenthesis left=sequenceExpression Comma right=sequenceExpression CloseParenthesis                                                     # sequenceEqualFunction
     ;
 
 numericFunction
-    : CountFunction OpenParenthesis sequenceExpression CloseParenthesis         # countFunction
-    | NumberFunction OpenParenthesis stringExpression CloseParenthesis          # numberFunction
-    | SumFunction OpenParenthesis numericSequence CloseParenthesis              # sumFunction
-    | StringLengthFunction OpenParenthesis stringExpression CloseParenthesis    # stringLengthFunction
+    : CountFunction         OpenParenthesis sequenceExpression CloseParenthesis                             # countFunction
+    | Number                OpenParenthesis (stringExpression | lateBoundExpression)    CloseParenthesis    # numberFunction
+    | SumFunction           OpenParenthesis (numericSequence  | sequenceFromReference)  CloseParenthesis    # sumFunction
+    | StringLengthFunction  OpenParenthesis (stringExpression | lateBoundExpression)    CloseParenthesis    # stringLengthFunction
     ;
 
 stringFunction
-    : SubstringFunction OpenParenthesis stringExpression Comma start=numericExpression (Comma length=numericExpression)? CloseParenthesis     # substringFunction
-    | StringFunction OpenParenthesis numericExpression CloseParenthesis                                                                       # toStringFunction
-    | ConcatFunction OpenParenthesis stringExpression (Comma stringExpression)* CloseParenthesis                                              # concatFunction
-    | StringJoinFunction OpenParenthesis stringSequence Comma stringExpression CloseParenthesis                                               # stringJoinFunction
-    | FormatNumberFunction OpenParenthesis numericExpression (Comma format=stringExpression)? CloseParenthesis                                # formatNumberFunction
+    : SubstringFunction     OpenParenthesis (stringExpression   | lateBoundExpression)   Comma (start=numericExpression | lateBoundExpression) (Comma (length=numericExpression | lateBoundExpression))? CloseParenthesis   # substringFunction
+    | StringFunction        OpenParenthesis (numericExpression  | lateBoundExpression)   CloseParenthesis                                                                                                                   # toStringFunction
+    | ConcatFunction        OpenParenthesis (stringExpression   | lateBoundExpression)  (Comma (stringExpression        | lateBoundExpression))* CloseParenthesis                                                           # concatFunction
+    | StringJoinFunction    OpenParenthesis (stringSequence     | sequenceFromReference) Comma (stringExpression        | lateBoundExpression)   CloseParenthesis                                                           # stringJoinFunction
+    | FormatNumberFunction  OpenParenthesis (numericExpression  | lateBoundExpression)  (Comma (format=stringExpression | lateBoundExpression))? CloseParenthesis                                                           # formatNumberFunction
     ;
 
 
 dateFunction
-    : DateFunction OpenParenthesis stringExpression CloseParenthesis                              # dateFromStringFunction
-    | AddMeasure OpenParenthesis dateExpression Comma durationExpression CloseParenthesis         # datePlusMeasureFunction
-    | SubtractMeasure OpenParenthesis dateExpression Comma durationExpression CloseParenthesis    # dateMinusMeasureFunction
+    : Date              OpenParenthesis (stringExpression   | lateBoundExpression) CloseParenthesis                                                 # dateFromStringFunction
+    | AddMeasure        OpenParenthesis (dateExpression     | lateBoundExpression) Comma (timeExpression | lateBoundExpression) CloseParenthesis    # datePlusMeasureFunction
+    | SubtractMeasure   OpenParenthesis (dateExpression     | lateBoundExpression) Comma (timeExpression | lateBoundExpression) CloseParenthesis    # dateMinusMeasureFunction
     ;
 
 timeFunction
-    : TimeFunction OpenParenthesis stringExpression CloseParenthesis                # timeFromStringFunction
+    : Time OpenParenthesis (stringExpression | lateBoundExpression) CloseParenthesis                        # timeFromStringFunction
     ;
 
 durationFunction
-    : DayTimeDurationFunction OpenParenthesis stringExpression CloseParenthesis     # dayTimeDurationFromStringFunction
-    | YearMonthDurationFunction OpenParenthesis stringExpression CloseParenthesis   # yearMonthDurationFromStringFunction
+    : DayTimeDurationFunction   OpenParenthesis (stringExpression | lateBoundExpression) CloseParenthesis   # dayTimeDurationFromStringFunction
+    | YearMonthDurationFunction OpenParenthesis (stringExpression | lateBoundExpression) CloseParenthesis   # yearMonthDurationFromStringFunction
     ;
 
 sequenceFunction

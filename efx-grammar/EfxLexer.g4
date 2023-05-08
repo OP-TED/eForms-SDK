@@ -62,7 +62,7 @@ mode SKIP_WHITESPACE;
 
 // Just skip all whitespace and directly switch to TEMPLATE mode. Notice that we do not use
 // pushMode(); we simply change the current mode from SKIP_WHITESPACE to TEMPLATE.
-SWS: [ \t]+ -> skip, mode(TEMPLATE);
+SWS: [ \t]+ -> channel(WHITESPACE), mode(TEMPLATE);
 
 
 /*
@@ -142,10 +142,10 @@ ASSET_TYPE_FIELD: 'field';
 ASSET_TYPE_NODE: 'node';
 ASSET_TYPE_DISPLAY_GROUP: 'group';
 ASSET_TYPE_VIEW_TEMPLATE: 'view';
-ASSET_TYPE_NOTICE: 'notice';
-ASSET_TYPE_CODE_LIST: 'codelist';
-ASSET_TYPE_CODE: 'code';
-ASSET_TYPE_INDICATOR: 'indicator';
+ASSET_TYPE_NOTICE: Notice -> type(Notice);
+ASSET_TYPE_CODE_LIST: Codelist -> type(Codelist);
+ASSET_TYPE_CODE: Code -> type(Code);
+ASSET_TYPE_INDICATOR: Indicator -> type(Indicator);
 ASSET_TYPE_AUXILIARY: 'auxiliary';
 ASSET_TYPE_RULE: 'rule';
 ASSET_TYPE_EXPRESSION: 'expression';
@@ -167,7 +167,7 @@ LABEL_TYPE_WHEN_TRUE: 'when-true';
 LABEL_TYPE_WHEN_FALSE: 'when-false';
 LABEL_TYPE_DESCRIPTION: 'description';
 LABEL_TYPE_TOOLTIP: 'hint';
-LABEL_TYPE_TEXT: 'text';
+LABEL_TYPE_TEXT: Text -> type(Text);
 LABEL_TYPE_TEMPLATE: 'template';
 
 FieldAssetId: FieldId -> type(FieldId);
@@ -220,18 +220,24 @@ True: 'TRUE';
 False: 'FALSE';
 Notice: 'notice';
 Codelist: 'codelist';
-
+Code: 'code';
+Text: 'text';
+Number: 'number';
+Indicator: 'indicator';
+Date: 'date';
+Time: 'time';
+Measure: 'measure';
 
 // Data types ------------------------------------------------------------------------------------------------
 
-BooleanTypeCast: 'indicator:';
-NumericTypeCast: 'number:';
-TextTypeCast: 'text:';
-CodeTypeCast: 'code:';
-DateTypeCast: 'date:';
-TimeTypeCast: 'time:';
-DurationTypeCast: 'measure:';
-ContextTypeCast: 'context:';
+BooleanType: Indicator -> type(Indicator);
+NumericType: Number -> type(Number);
+TextType: Text -> type(Text);
+CodeType: Code -> type(Code);
+DateType: Date -> type(Date);
+TimeType: Time -> type(Time);
+DurationType: Measure -> type(Measure);
+ContextType: 'context';
 
 
 // Axes ------------------------------------------------------------------------------------------------
@@ -256,7 +262,7 @@ Not: 'not';
 CountFunction: 'count';
 SubstringFunction: 'substring';
 StringFunction: 'string';
-NumberFunction: 'number';
+NumberFunction: Number -> type(Number);
 ContainsFunction: 'contains';
 StartsWithFunction: 'starts-with';
 EndsWithFunction: 'ends-with';
@@ -265,8 +271,8 @@ SumFunction: 'sum';
 FormatNumberFunction: 'format-number';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
-DateFunction: 'date';
-TimeFunction: 'time';
+DateFunction: Date -> type(Date);
+TimeFunction: Time -> type(Time);
 DayTimeDurationFunction: 'day-time-duration';
 YearMonthDurationFunction: 'year-month-duration';
 AddMeasure: 'add-measure';
