@@ -80,6 +80,8 @@ LineJoining: '\\'  Whitespace* CRLF+ Whitespace* -> skip;
 // A newline terminates the TEMPLATE mode and switches back to DEFAULT mode.
 CRLF: ('\r'? '\n' | '\r' | '\f') -> popMode;
 
+NewLine: '\\n';
+
 FreeText: CharSequence+;
 fragment CharSequence: Char+;
 fragment Char: ~[\r\n\f\t #$}{];
