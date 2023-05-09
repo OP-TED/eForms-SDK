@@ -330,8 +330,10 @@ Slash: '/';
 Percent: '%';
 Plus: '+';
 Minus: '-';
-Comma: ',';
 
+Comma: ',';
+Dot: '.';
+DotDot: '..';
 Colon: ':';
 
 fragment HEX4: HEX HEX HEX HEX;

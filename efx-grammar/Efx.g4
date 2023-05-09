@@ -96,7 +96,7 @@ contextDeclarationBlock
     : StartExpression contextDeclaration (Comma templateVariableList)? EndExpression
     ;
 
-contextDeclaration: contextVariableInitializer | fieldContext | nodeContext;
+contextDeclaration: contextVariableInitializer | fieldContext | nodeContext | shortcut=(Dot | DotDot | Slash);
 
 templateVariableList: templateVariableInitializer (Comma templateVariableInitializer)*;
 
