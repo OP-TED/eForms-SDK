@@ -39,15 +39,15 @@ template: templateFragment;
  * Whitespace is significant within the template, but is ignored when present at its beginning or end.
  */
 templateFragment
-    : textBlock templateFragment?              # textTemplate
-    | labelBlock templateFragment?             # labelTemplate
-    | expressionBlock templateFragment?        # expressionTemplate
+    : lineBreak templateFragment?                   # secondaryTemplate
+    | textBlock templateFragment?                   # textTemplate
+    | labelBlock templateFragment?                  # labelTemplate
+    | expressionBlock templateFragment?             # expressionTemplate
     ;
 
+lineBreak: Whitespace* NewLine Whitespace*;
 
-textBlock: whitespace | FreeText+ textBlock*;
-
-whitespace: Whitespace+;
+textBlock: (Whitespace | FreeText)+ textBlock*;
 
 /*** Labels are matched when the lexical analyser is in LABEL mode ***/
 
@@ -96,7 +96,7 @@ contextDeclarationBlock
     : StartExpression contextDeclaration (Comma templateVariableList)? EndExpression
     ;
 
-contextDeclaration: contextVariableInitializer | fieldContext | nodeContext;
+contextDeclaration: contextVariableInitializer | fieldContext | nodeContext | shortcut=(Dot | DotDot | Slash);
 
 templateVariableList: templateVariableInitializer (Comma templateVariableInitializer)*;
 
