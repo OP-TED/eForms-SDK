@@ -56,13 +56,13 @@ textBlock: (Whitespace | FreeText)+ textBlock*;
  * A label-block starts with a # and contains a label identifier inside curly braces.
  */
 labelBlock
-    : StartLabel assetType Pipe labelType Pipe assetId EndLabel    # standardLabelReference
-    | StartLabel expressionBlock EndLabel                          # computedLabelReference
-    | StartLabel labelType Pipe BtId EndLabel                      # shorthandBtLabelReference
-    | StartLabel labelType Pipe FieldId EndLabel                   # shorthandFieldLabelReference
-    | StartLabel FieldId EndLabel                                  # shorthandIndirectLabelReference
-    | StartLabel LabelType EndLabel                                # shorthandLabelReferenceFromContext
-    | ShorthandIndirectLabelReferenceFromContextField              # shorthandIndirectLabelReferenceFromContextField
+    : StartLabel assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndLabel     # standardLabelReference
+    | StartLabel expressionBlock (Semicolon pluraliser)? EndLabel                           # computedLabelReference
+    | StartLabel labelType Pipe BtId (Semicolon pluraliser)? EndLabel                       # shorthandBtLabelReference
+    | StartLabel labelType Pipe FieldId (Semicolon pluraliser)? EndLabel                    # shorthandFieldLabelReference
+    | StartLabel FieldId (Semicolon pluraliser)? EndLabel                                   # shorthandIndirectLabelReference
+    | StartLabel LabelType (Semicolon pluraliser)? EndLabel                                 # shorthandLabelReferenceFromContext
+    | ShorthandIndirectLabelReferenceFromContextField                                       # shorthandIndirectLabelReferenceFromContextField
     ;
 
 assetType: AssetType | expressionBlock;
@@ -76,6 +76,8 @@ assetId
 
 // We allow otherAssetId to be any identifier, including the ones used for AssetType or LabelType
 otherAssetId: OtherAssetId | AssetType | LabelType;
+
+pluraliser: expressionBlock;
 
 /*** Expressions are matched when the lexical analyser is in EXPRESSION mode ***/
 

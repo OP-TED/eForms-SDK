@@ -116,6 +116,7 @@ Whitespace: [\t ];
 mode LABEL;
 
 Pipe: '|';
+Semicolon: ';';
 
 EndLabel: '}' -> popMode;
 
