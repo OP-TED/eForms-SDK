@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>CnStandard</ShortName>
       <LongName>cn-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.7.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>16</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за поръчка – Общата директива, стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zahájení zadávacího řízení – obecná směrnice, standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbudsbekendtgørelse – det generelle direktiv, standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Auftragsbekanntmachung – allgemeine Richtlinie, Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη σύμβασης – γενική οδηγία, τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>16</SimpleValue>
+            <SimpleValue>Contract notice – general directive, standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de licitación. Directiva general, régimen normal.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanketeade – kaitsealane direktiiv, üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoitus – yleisdirektiivi, vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de marché – directive générale, régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra conartha — treoir ghinearálta, an gnáthchóras</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o nadmetanju – opća direktiva, standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Eljárást megindító hirdetmény – általános irányelv, klasszikus ajánlatkérőkre vonatkozó szabályok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bando di gara – direttiva generale, regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie viešąjį pirkimą; bendroji direktyva, įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līgumu – Vispārīgā iepirkuma direktīva, standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ kuntratt – Direttiva ġenerali, reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een opdracht – algemene richtlijn, standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o zamówieniu – dyrektywa ogólna, tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concurso – diretiva geral, regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de participare - directivă generală, regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o vyhlásení verejného obstarávania – všeobecná smernica, štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o javnem naročilu – splošna direktiva, standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om upphandling – klassiska direktivet, standardsystem</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>17</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за поръчка – Секторната директива, стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zahájení zadávacího řízení – odvětvová směrnice, standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbudsbekendtgørelse – sektordirektivet, standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Auftragsbekanntmachung – Sektorenrichtlinie, Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη σύμβασης – τομεακή οδηγία, τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>17</SimpleValue>
+            <SimpleValue>Contract notice – sectoral directive, standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de licitación. Directiva sectorial, régimen normal.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kontsessiooniteade – kontsessioonidirektiiv, üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoitus – toimialakohtainen direktiivi, vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de marché – directive sectorielle, régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra conartha — treoir earnála, gnáthchóras</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o nadmetanju – sektorska direktiva, standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Eljárást megindító hirdetmény – ágazati irányelv, általános rész</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bando di gara – direttiva settoriale, regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie viešąjį pirkimą; bendroji direktyva, įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līgumu – Komunālo pakalpojumu direktīva, standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ kuntratt – Direttiva settorjali, reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een opdracht – sectorale richtlijn, standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o zamówieniu – dyrektywa sektorowa, tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concurso – diretiva setorial, regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de participare - directivă sectorială, regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o vyhlásení obstarávania – sektorová smernica, štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o javnem naročilu – sektorska direktiva, standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om upphandling – försörjningsdirektivet, standardsystem</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,8 +287,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>18</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за поръчка – Директивата за отбраната, стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zahájení koncesního řízení – směrnice o zadávání zakázek v oblasti obrany, standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbudsbekendtgørelse – forsvarsdirektivet, standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Auftragsbekanntmachung – Richtlinie für Beschaffung im Bereich Verteidigung, Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη σύμβασης – οδηγία για την άμυνα, τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>18</SimpleValue>
+            <SimpleValue>Contract notice – defence directive, standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de licitación. Directiva de defensa, régimen normal.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanketeade – ülddirektiiv, lihtsustatud kord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintailmoitus – puolustusdirektiivi, vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de marché – directive «défense», régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra conartha — treoir maidir le cosaint, an gnáthchóras</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Poziv na nadmetanje – direktiva u području obrane, standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Eljárást megindító hirdetmény – védelmi irányelv, általános rész</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bando di gara – direttiva per il settore della difesa, regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie viešąjį pirkimą; gynybos direktyva, įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līgumu – Aizsardzības iepirkuma direktīva, standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ kuntratt – Direttiva dwar id-difiża, reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een opdracht – defensierichtlijn, standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o zamówieniu – dyrektywa obronna, tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concurso – Diretiva Defesa, regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de participare - directivă privind apărarea, regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o vyhlásení verejného obstarávania – smernica o zákazkách v oblasti obrany a bezpečnosti, štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o javnem naročilu – direktiva na področju obrambe, standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Koncessionsmeddelande – försvars- och säkerhetsdirektivet, standardsystem</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -160,8 +367,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>19</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за концесия – Директивата за концесиите, стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zahájení koncesního řízení – směrnice o udělování koncesí, standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Koncessionsbekendtgørelse – koncessionsdirektivet, standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Konzessionsbekanntmachung – Richtlinie für Beschaffung im Bereich Verteidigung, Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη σύμβασης παραχώρησης – οδηγία για την άμυνα, τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>19</SimpleValue>
+            <SimpleValue>Concession notice – concessions directive, standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de concesión. Directiva de concesiones, régimen normal.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanketeade – valdkondlik direktiiv, lihtsustatud kord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Käyttöoikeussopimuksia koskeva ilmoitus – käyttöoikeussopimusdirektiivi, vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de concession – directive «concessions», régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra lamháltais — an treoir lamháltais, an córas caighdeánach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o koncesiji – koncesijska direktiva, standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Koncessziós hirdetmény – koncessziós irányelv, általános rész</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bando di concessione - direttiva sulle concessioni, regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie koncesiją; koncesijų direktyva, įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par koncesiju – Koncesiju direktīva, standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ konċessjoni – Direttiva dwar il-konċessjonijiet, reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Concessieaankondiging – concessierichtlijn, standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o koncesji – dyrektywa w sprawie koncesji, tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concessão – Diretiva Concessões, regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de concesionare - directivă privind concesiunile, regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o koncesii – smernica o koncesiách, štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o koncesiji – direktiva o koncesijah, standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Koncessionsmeddelande – koncessionsdirektivet, standardsystem</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -171,8 +447,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Общо обявление за обществена поръчка под прага (ОП)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zahájení zadávacího řízení pod prahovou hodnotou (KN) obecně</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbudsbekendtgørelse under tærskelværdien (KN) generelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Allgemeine Auftragsbekanntmachung (CN) unterhalb des Schwellenwerts</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κάτω από το κατώτατο όριο της προκήρυξης διαγωνισμού (ΣΟ)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>E3</SimpleValue>
+            <SimpleValue>Below threshold contract notice (CN) general</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Por debajo del umbral general del anuncio de licitación (CN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Piirmäärast allapoole jääv hanketeade (CN) üldine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kynnysarvon alittava hankintailmoitus (CN) yleinen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de marché en dessous du seuil général (NC)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra conartha ginearálta faoi bhun na tairsí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Poziv na nadmetanje ispod praga općenito</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Küszöbérték alatti hirdetmény (KN) általános</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bando di gara al di sotto della soglia (CN) generale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Mažesnės nei ribinės vertės skelbimas apie pirkimą (KN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līgumu, kas ir mazāks par robežvērtību (CN), vispārīgs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ kuntratt taħt il-limitu (NM) ġenerali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Algemene aankondiging van een opdracht onder de drempelwaarde (GN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogólne ogłoszenie o zamówieniu poniżej progu (CN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concurso (CN) abaixo do limiar geral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de participare sub prag (CN) general</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Podlimitné oznámenie o vyhlásení verejného obstarávania (KN) všeobecne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o javnem naročilu pod mejno vrednostjo (KN) splošno</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Allmänt meddelande om upphandling under tröskelvärdet (KN)</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

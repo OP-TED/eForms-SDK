@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>QuSy</ShortName>
       <LongName>qu-sy</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.7.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>15</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за съществуването на квалификационна система – Секторната директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zavedení systému kvalifikace – odvětvová směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om anvendelse af en kvalifikationsordning – sektordirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung über das Bestehen eines Qualifizierungssystems – Sektorenrichtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση για την ύπαρξη συστήματος προεπιλογής – τομεακή οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>15</SimpleValue>
+            <SimpleValue>Notice on the existence of a qualification system – sectoral directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de la existencia de un sistema de calificación. Directiva sectorial</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanketeade – valdkondlik direktiiv, üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus kelpuuttamisjärjestelmästä – toimialakohtainen direktiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis sur l’existence d’un système de qualification – directive sectorielle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le córas cáilíochta a bheith ann — treoir earnála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o postojanju kvalifikacijskog sustava – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Előminősítési rendszerről szóló hirdetmény – ágazati irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso sull’esistenza di un sistema di qualificazione – direttiva settoriale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie kvalifikacijos reikalavimų sistemą; sektoriaus direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par kvalifikācijas sistēmu – Komunālo pakalpojumu direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż dwar l-eżistenza ta’ sistema ta’ kwalifika – Direttiva settorjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging inzake het bestaan van een erkenningsregeling – sectorale richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o istnieniu systemu kwalifikowania – dyrektywa sektorowa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio sobre a existência de um sistema de qualificação – diretiva setorial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț privind existența unui sistem de calificare - directivă sectorială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o existencii kvalifikačného systému – sektorová smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o vzpostavitvi kvalifikacijskega sistema – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om att det finns ett kvalificeringssystem – försörjningsdirektivet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -1,6 +1,6 @@
 // View 3
 // sdkVersion='1.7.0'
-// File generated from metadata database version 1.6.116 created on the 2023-03-30T14:23:06
+// File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name

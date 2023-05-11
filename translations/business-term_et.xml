@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Tulemus - osa ID</entry>
 <entry key="business-term|name|BT-13714">Osa või osade rühma tunnus</entry>
 <entry key="business-term|name|BT-13715">Lisainfo Loti identifikaator</entry>
-<entry key="business-term|name|BT-13716">Punkt, mille suhtes muudatust kohaldatakse</entry>
+<entry key="business-term|name|BT-13716">Jao identifikaator</entry>
 <entry key="business-term|name|BT-13717">Tingimused Loti identifikaator</entry>
 <entry key="business-term|name|BT-13718">Dokumendid Loti identifikaator</entry>
 <entry key="business-term|name|BT-13719">Esitamise partii identifikaator</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Võitja valimise kuupäev</entry>
 <entry key="business-term|name|BT-15">Hankedokumentide aadress</entry>
 <entry key="business-term|name|BT-150">Lepingu tunnus</entry>
-<entry key="business-term|name|BT-1501">Eelmises teates muudetava osa tunnus</entry>
+<entry key="business-term|name|BT-1501">Jao identifikaator</entry>
 <entry key="business-term|name|BT-151">Lepingu aadress</entry>
 <entry key="business-term|name|BT-156">Raamlepingute maksimaalne maksumus selle osade rühma kohta</entry>
 <entry key="business-term|name|BT-1561">Raamlepingute ümberhinnatud väärtus osade rühmas</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Menetluse teise etappi kutsutavate kandidaatide miinimumarv</entry>
 <entry key="business-term|name|BT-500">Ametlik nimi</entry>
 <entry key="business-term|name|BT-501">Registreerimisnumber</entry>
-<entry key="business-term|name|BT-5010">Identifikaator</entry>
+<entry key="business-term|name|BT-5010">ELi vahendite tunnus</entry>
 <entry key="business-term|name|BT-5011">ELi vahendite tunnus</entry>
 <entry key="business-term|name|BT-502">Kontaktpunkt</entry>
 <entry key="business-term|name|BT-503">Telefon</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Maksimaalne uuendamiste arv</entry>
 <entry key="business-term|name|BT-60">Hankeid rahastatakse vähemalt osaliselt Euroopa Liidu vahenditest</entry>
 <entry key="business-term|name|BT-610">Võrgustiku sektori hankija tegevus</entry>
-<entry key="business-term|name|BT-6110">Kirjeldus</entry>
-<entry key="business-term|name|BT-6140">Lisateave liidu programmi või projekti kohta, mida kasutati vähemalt osaliselt hanke rahastamiseks</entry>
+<entry key="business-term|name|BT-6110">Lisateave ELi vahendite kohta</entry>
+<entry key="business-term|name|BT-6140">Lisateave ELi vahendite kohta</entry>
 <entry key="business-term|name|BT-615">Teave piiratud juurdepääsuga dokumentide kohta on kättesaadav aadressil</entry>
 <entry key="business-term|name|BT-625">Üksus</entry>
 <entry key="business-term|name|BT-63">Variandid</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Tulemuse väärtus</entry>
 <entry key="business-term|name|BT-721">Pealkiri</entry>
 <entry key="business-term|name|BT-722">ELi rahastatud projekti või programmi nimi</entry>
-<entry key="business-term|name|BT-7220">Liidu rahaliste vahendite programm, mida kasutatakse vähemalt osaliselt lepingu rahastamiseks</entry>
+<entry key="business-term|name|BT-7220">ELi vahendite programm</entry>
 <entry key="business-term|name|BT-723">Direktiivi 2009/33/EÜ reguleerimisalasse kuuluvate sõidukite kategooria, sealhulgas: Kergsõidukid (M1, M2, N1); Buss (M3); Veoauto (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Kasutatakse ad hoc kommunikatsioonivahendit</entry>
 <entry key="business-term|name|BT-725">Heiteta raskeveokite arv</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Osutatud teenuse liik</entry>
 <entry key="business-term|name|OPT-050">Dokumendi staatus</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Täitmisnõude kood</entry>
 <entry key="business-term|name|OPT-070">Teenuse osutamine on reserveeritud konkreetsele kutsealale. Viide asjakohasele seadusele, määrusele või haldusmenetlusele</entry>
 <entry key="business-term|name|OPT-071">Kvaliteedi sihtkood</entry>
 <entry key="business-term|name|OPT-072">Kvaliteedieesmärgi kirjeldus</entry>

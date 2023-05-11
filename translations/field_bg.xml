@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Част</entry>
 <entry key="field|name|BT-13713-LotResult">Идентификатор на резултата</entry>
 <entry key="field|name|BT-13714-Tender">Идентификатор на обособена позиция или група обособени позиции</entry>
-<entry key="field|name|BT-13716-notice">Раздел, за който се отнася промяната</entry>
+<entry key="field|name|BT-13716-notice">Идентификатор на раздела</entry>
 <entry key="field|name|BT-1375-Procedure">Включени обособени позиции</entry>
 <entry key="field|name|BT-14-Lot">Достъпът до определени документи за обществената поръчка е ограничен</entry>
 <entry key="field|name|BT-14-Part">Достъпът до определени документи за обществената поръчка е ограничен</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Адрес на документацията за обществената поръчка</entry>
 <entry key="field|name|BT-15-Part">Адрес на документацията за обществената поръчка</entry>
 <entry key="field|name|BT-150-Contract">Идентификатор на договора</entry>
-<entry key="field|name|BT-1501(n)-Contract">Идентификатор на раздела, който трябва да бъде променен в предишно обявление</entry>
-<entry key="field|name|BT-1501(s)-Contract">Идентификатор на раздела, който трябва да бъде променен в предишно обявление</entry>
+<entry key="field|name|BT-1501(n)-Contract">Идентификатор на раздела</entry>
+<entry key="field|name|BT-1501(s)-Contract">Идентификатор на раздела</entry>
 <entry key="field|name|BT-151-Contract">Адрес на договора</entry>
 <entry key="field|name|BT-156-NoticeResult">Максимална стойност на рамковите споразумения в тази група обособени позиции</entry>
 <entry key="field|name|BT-1561-NoticeResult">Преоценена стойност на рамковите споразумения в рамките на група обособени позиции</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Регистрационен номер</entry>
 <entry key="field|name|BT-501-Business-National">Регистрационен номер</entry>
 <entry key="field|name|BT-501-Organization-Company">Регистрационен номер</entry>
-<entry key="field|name|BT-5010-Lot">Идентификатор</entry>
+<entry key="field|name|BT-5010-Lot">Идентификатор на средствата от ЕС</entry>
 <entry key="field|name|BT-5011-Contract">Идентификатор на средствата от ЕС</entry>
 <entry key="field|name|BT-502-Business">Звено за контакт</entry>
 <entry key="field|name|BT-502-Organization-Company">Звено за контакт</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Максимален брой подновявания</entry>
 <entry key="field|name|BT-60-Lot">Обществената поръчка е поне частично финансирана със средства на Европейския съюз</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Дейност на възложителя</entry>
-<entry key="field|name|BT-6110-Contract">Описание</entry>
-<entry key="field|name|BT-6140-Lot">Допълнителна информация за използваната програма или проект на Съюза за поне частично финансиране на обществената поръчка</entry>
+<entry key="field|name|BT-6110-Contract">Допълнителни подробности за фондовете на ЕС</entry>
+<entry key="field|name|BT-6140-Lot">Допълнителни подробности за фондовете на ЕС</entry>
 <entry key="field|name|BT-615-Lot">Информация за документи с ограничен достъп може да бъде намерена на адрес</entry>
 <entry key="field|name|BT-615-Part">Информация за документи с ограничен достъп може да бъде намерена на адрес</entry>
 <entry key="field|name|BT-625-Lot">Единица</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Стойност на резултата</entry>
 <entry key="field|name|BT-721-Contract">Заглавие</entry>
 <entry key="field|name|BT-722-Contract">Наименование на финансирания от ЕС проект или програма</entry>
-<entry key="field|name|BT-7220-Lot">Програмата на фондовете на Съюза, използвани за поне частично финансиране на договора</entry>
+<entry key="field|name|BT-7220-Lot">Програма на фондовете на ЕС</entry>
 <entry key="field|name|BT-723-LotResult">Категорията на превозното средство, попадащо в обхвата на Директива 2009/33/ЕО, включително: Лекотоварни превозни средства (M1, M2, N1); Автобус (M3); Камион (N2, N3); М1; М2; N1; N2; НА 3-ТИ ПЪТ</entry>
 <entry key="field|name|BT-726-Lot">Тази обществена поръчка е подходяща и за малки и средни предприятия (МСП)</entry>
 <entry key="field|name|BT-726-LotsGroup">Тази обществена поръчка е подходяща и за малки и средни предприятия (МСП)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Вид на предоставяната услуга</entry>
 <entry key="field|name|OPT-050-Lot">Статус на документа</entry>
 <entry key="field|name|OPT-050-Part">Статус на документа</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Код на изискването за изпълнение</entry>
 <entry key="field|name|OPT-070-Lot">Изпълнението на услугата е запазено за определена професия. Позоваване на съответния закон, подзаконов акт или административна процедура</entry>
 <entry key="field|name|OPT-071-Lot">Целеви код за качество</entry>
 <entry key="field|name|OPT-072-Lot">Описание на целта за качество</entry>

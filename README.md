@@ -1,4 +1,4 @@
-**[:memo: Latest Release Notes](CHANGELOG.md)** | **[:package: Latest Release Artifacts](https://central.sonatype.com/search?q=eforms-sdk&namespace=eu.europa.ted.eforms)**
+**[:memo: Latest Release Notes](CHANGELOG.md)** | **[:package: Latest Release Artifacts](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk)**
 
 ---
 
@@ -20,7 +20,7 @@ The adopted approach is to keep the whole set of UBL elements but only support t
 - `translations`: Translations of various labels and short texts used in eForms notices.
 
 You can download the latest release from Maven Central.  
-[![Maven Central](https://img.shields.io/maven-central/v/eu.europa.ted.eforms/eforms-sdk.svg?label=Download)](https://search.maven.org/search?q=g:%22eu.europa.ted.eforms%22%20AND%20a:%22eforms-sdk%22)
+[![Maven Central](https://img.shields.io/maven-central/v/eu.europa.ted.eforms/eforms-sdk.svg?label=Download)](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk)
 
 The documentation is available at https://docs.ted.europa.eu/eforms/latest.
 

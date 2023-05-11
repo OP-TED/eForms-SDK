@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Cuid</entry>
 <entry key="field|name|BT-13713-LotResult">Aitheantóir Lot Torthaí</entry>
 <entry key="field|name|BT-13714-Tender">Aitheantóir luchtóige nó grúpa luchtóg</entry>
-<entry key="field|name|BT-13716-notice">An rannóg lena mbaineann an t-athrú</entry>
+<entry key="field|name|BT-13716-notice">Aitheantóir rannóige</entry>
 <entry key="field|name|BT-1375-Procedure">Na luchtóga atá san áireamh</entry>
 <entry key="field|name|BT-14-Lot">Tá srian ar rochtain ar dhoiciméid soláthair áirithe</entry>
 <entry key="field|name|BT-14-Part">Tá srian ar rochtain ar dhoiciméid soláthair áirithe</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Seoladh na ndoiciméad soláthair</entry>
 <entry key="field|name|BT-15-Part">Seoladh na ndoiciméad soláthair</entry>
 <entry key="field|name|BT-150-Contract">Aitheantóir an chonartha</entry>
-<entry key="field|name|BT-1501(n)-Contract">Aitheantóir na rannóige atá le modhnú i bhfógra a bhí ann roimhe seo</entry>
-<entry key="field|name|BT-1501(s)-Contract">Aitheantóir na rannóige atá le modhnú i bhfógra a bhí ann roimhe seo</entry>
+<entry key="field|name|BT-1501(n)-Contract">Aitheantóir rannóige</entry>
+<entry key="field|name|BT-1501(s)-Contract">Aitheantóir rannóige</entry>
 <entry key="field|name|BT-151-Contract">Seoladh an chonartha</entry>
 <entry key="field|name|BT-156-NoticeResult">Luach uasta na gcreat-chomhaontuithe sa ghrúpa beart seo</entry>
 <entry key="field|name|BT-1561-NoticeResult">Luach athmheasta na gcreat-chomhaontuithe laistigh de ghrúpa beart</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Uimhir chlárúcháin</entry>
 <entry key="field|name|BT-501-Business-National">Uimhir chlárúcháin</entry>
 <entry key="field|name|BT-501-Organization-Company">Uimhir chlárúcháin</entry>
-<entry key="field|name|BT-5010-Lot">Aitheantóir</entry>
+<entry key="field|name|BT-5010-Lot">Aitheantóir chistí an Aontais</entry>
 <entry key="field|name|BT-5011-Contract">Aitheantóir chistí an Aontais</entry>
 <entry key="field|name|BT-502-Business">Pointe teagmhála</entry>
 <entry key="field|name|BT-502-Organization-Company">Pointe teagmhála</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Athnuachaintí uasta</entry>
 <entry key="field|name|BT-60-Lot">Is le cistí an Aontais Eorpaigh a mhaoinítear an soláthar i bpáirt ar a laghad</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Gníomhaíocht an eintitis chonarthaigh</entry>
-<entry key="field|name|BT-6110-Contract">Cur síos</entry>
-<entry key="field|name|BT-6140-Lot">Tuilleadh faisnéise faoi chlár nó faoi thionscadal an Aontais a úsáideadh chun an soláthar a mhaoiniú i bpáirt ar a laghad</entry>
+<entry key="field|name|BT-6110-Contract">Tuilleadh sonraí faoi Chistí an AE</entry>
+<entry key="field|name|BT-6140-Lot">Tuilleadh sonraí faoi Chistí an AE</entry>
 <entry key="field|name|BT-615-Lot">Tá eolas faoi dhoiciméid shrianta le fáil ag</entry>
 <entry key="field|name|BT-615-Part">Tá eolas faoi dhoiciméid shrianta le fáil ag</entry>
 <entry key="field|name|BT-625-Lot">Aonad</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Luach an toraidh</entry>
 <entry key="field|name|BT-721-Contract">Teideal</entry>
 <entry key="field|name|BT-722-Contract">Ainm an tionscadail nó an chláir a fuair maoiniú ón Aontas</entry>
-<entry key="field|name|BT-7220-Lot">Clár chistí an Aontais a úsáidtear chun an conradh a mhaoiniú i bpáirt ar a laghad</entry>
+<entry key="field|name|BT-7220-Lot">Clár Chistí an AE</entry>
 <entry key="field|name|BT-723-LotResult">Catagóir na feithicle a thagann faoi raon feidhme Threoir 2009/33/CE, lena n-áirítear: Feithiclí saothair éadroim (M1, M2, N1); Bus (M3); Trucail (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Tá an soláthar sin oiriúnach freisin d’fhiontair bheaga agus mheánmhéide (FBManna)</entry>
 <entry key="field|name|BT-726-LotsGroup">Tá an soláthar sin oiriúnach freisin d’fhiontair bheaga agus mheánmhéide (FBManna)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Cineál seirbhíse curtha ar fáil</entry>
 <entry key="field|name|OPT-050-Lot">Stádas na Cáipéise</entry>
 <entry key="field|name|OPT-050-Part">Stádas na Cáipéise</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Cód an cheanglais forghníomhaithe</entry>
 <entry key="field|name|OPT-070-Lot">Tá forghníomhú na seirbhíse forchoimeádta do ghairm áirithe. Tagairt don dlí, don rialachán nó don nós imeachta riaracháin ábhartha</entry>
 <entry key="field|name|OPT-071-Lot">Spriocchód cáilíochta</entry>
 <entry key="field|name|OPT-072-Lot">Cur síos ar sprioc cáilíochta</entry>

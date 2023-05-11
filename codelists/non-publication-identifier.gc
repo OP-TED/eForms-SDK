@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.71 created on the 2023-03-27T17:27:44-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NonPublicationIdentifier</ShortName>
@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criteria Complicated (BT-543)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Описание на метода, който трябва да се използва, ако претеглянето не може да бъде изразено по критерии (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Popis metody, která se použije v případě, že vážení nelze vyjádřit pomocí kritérií (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Περιγραφή της μεθόδου που πρέπει να χρησιμοποιείται εάν η στάθμιση δεν μπορεί να εκφραστεί με κριτήρια (BT-543)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criteria Complicated (BT-543)</SimpleValue>
+            <SimpleValue>Description of the method to be used if weighting cannot be expressed by criteria (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Descrizione del metodo da utilizzare se la ponderazione non può essere espressa da criteri (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Deskrizzjoni tal-metodu li għandu jintuża jekk il-koeffiċjent tal-korrezzjoni ma jistax jiġi espress permezz ta’ kriterji (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Beschrijving van de methode die moet worden gebruikt als de weging niet aan de hand van criteria kan worden uitgedrukt (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Descrição do método a utilizar se a ponderação não puder ser expressa por critérios (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Descrierea metodei care trebuie utilizată dacă ponderarea nu poate fi exprimată prin criterii (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Opis metódy, ktorá sa má použiť, keď váhu nemožno vyjadriť pomocou kritérií (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Opis metode, ki jo je treba uporabiti, če se ponderiranje ne more izraziti z merili (BT-543)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna (BT-543)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criterion Description (BT-540)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерий за възлагане – Описание (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritérium pro zadání zakázky – Popis (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tildelingskriterium – Beskrivelse (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuschlagskriterium – Beschreibung (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κριτήριο ανάθεσης – Περιγραφή (BT-540)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criterion Description (BT-540)</SimpleValue>
+            <SimpleValue>Award criterion – Description (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterio de adjudicación – Descripción (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise kriteerium – Kirjeldus (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Myöntämisperuste – Kuvaus (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critère d’attribution – Description (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéar dámhachtana – Cur síos (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriterij za dodjelu – Opis (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Odaítélési kritérium – Leírás (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criterio di aggiudicazione – Descrizione (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties sudarymo kriterijus – Aprašymas (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas kritērijs – Apraksts (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kriterju tal-għoti – Deskrizzjoni (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gunningscriterium – Beschrijving (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryterium udzielenia zamówienia – Opis (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Critério de adjudicação – Descrição (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criteriul de atribuire – Descriere (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritérium na vyhodnotenie ponúk – Opis (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Merilo za oddajo naročila – Opis (BT-540)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tilldelningskriterium – Beskrivning (BT-540)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,8 +286,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criterion Number Fixed (BT-5422)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерий за възлагане – Числото е фиксирана стойност (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritérium pro zadání zakázky – Číslo je pevná hodnota (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tildelingskriterium – Nummeret er en fast værdi (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuschlagskriterium – Zahl ist ein fester Wert (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κριτήριο ανάθεσης – Ο αριθμός είναι μια σταθερή τιμή (BT-5422)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criterion Number Fixed (BT-5422)</SimpleValue>
+            <SimpleValue>Award criterion – Number is a fixed value (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterio de adjudicación – El número es un valor fijo (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise kriteerium – Arv on fikseeritud väärtus (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Myöntämisperuste – Numero on kiinteä arvo (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critère d’attribution – Nombre est une valeur fixe (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéar dámhachtana – Is ionann uimhir agus luach seasta (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriterij za dodjelu – Broj je fiksna vrijednost (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Odaítélési kritérium – A szám egy fix érték (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criterio di aggiudicazione – Il numero è un valore fisso (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties sudarymo kriterijus – Skaičius yra fiksuota vertė (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas kritērijs – Skaitlis ir fiksēta vērtība (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kriterju tal-għoti – In-numru huwa valur fiss (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gunningscriterium – Getal is een vaste waarde (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryterium udzielenia zamówienia – Liczba jest stałą wartością (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Critério de adjudicação – O número é um valor fixo (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criteriul de atribuire – Numărul este o valoare fixă (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritérium na vyhodnotenie ponúk – Číslo je pevná hodnota (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Merilo za oddajo naročila – Število je fiksna vrednost (BT-5422)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tilldelningskriterium – Tal är ett fast värde (BT-5422)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,8 +366,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criterion Name (BT-734)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерий за възлагане – Наименование (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritérium pro zadání zakázky – Jméno/název (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tildelingskriterium – Navn (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuschlagskriterium – Bezeichnung (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κριτήριο ανάθεσης – Ονομασία (BT-734)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criterion Name (BT-734)</SimpleValue>
+            <SimpleValue>Award criterion – Name (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterio de adjudicación – Nombre (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise kriteerium – Nimi (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Myöntämisperuste – Nimi (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critère d’attribution – Nom (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéar dámhachtana – Ainm (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriterij za dodjelu – Naziv (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Odaítélési kritérium – Megnevezés (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criterio di aggiudicazione – Nome (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties sudarymo kriterijus – Pavadinimas (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas kritērijs – Nosaukums (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kriterju tal-għoti – Isem (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gunningscriterium – Naam (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryterium udzielenia zamówienia – Nazwa (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Critério de adjudicação – Nome (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criteriul de atribuire – Denumire (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritérium na vyhodnotenie ponúk – Názov (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Merilo za oddajo naročila – Ime (BT-734)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tilldelningskriterium – Namn (BT-734)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,8 +446,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criterion Number (BT-541)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Номер на критерия за възлагане (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Číslo kritéria pro zadání zakázky (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tildelingskriterium nummer (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nummer des Zuschlagskriteriums (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αριθμός κριτηρίου ανάθεσης (BT-541)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criterion Number (BT-541)</SimpleValue>
+            <SimpleValue>Award criterion number (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Número del criterio de adjudicación (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise kriteeriumi number (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Myöntämisperusteen numero (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Numéro du critère d’attribution (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Uimhir an chritéir dámhachtana (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Broj kriterija za dodjelu (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az odaítélési kritérium száma (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Numero del criterio di aggiudicazione (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties sudarymo kriterijaus numeris (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas kritērija numurs (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Numru tal-kriterju tal-għoti (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Nummer van het gunningscriterium (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Numer kryterium udzielenia zamówienia (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Número do critério de adjudicação (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Numărul criteriului de atribuire (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Číslo kritéria na vyhodnotenie ponúk (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Številka merila za dodelitev (BT-541)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tilldelningskriterium (BT-541)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,8 +526,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criteria Order Justification (BT-733)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обосновка за непосочване на тежестта на критериите за възлагане (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odůvodnění neuvedení váhy kritérií pro zadání (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Begrundelse for ikke at angive vægtningen af tildelingskriterierne (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Begründung, warum die Gewichtung der Zuschlagskriterien nicht angegeben wurde (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αιτιολόγηση της μη αναγραφής της στάθμισης των κριτηρίων ανάθεσης (BT-733)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criteria Order Justification (BT-733)</SimpleValue>
+            <SimpleValue>Justification for not indicating the weighting of the award criteria (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Justificación de la no indicación de la ponderación de los criterios de adjudicación (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumuste hindamise kriteeriumide osakaalu märkimata jätmise põhjendus (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Perustelu myöntämisperusteiden painotuksen ilmoittamatta jättämiselle (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Justification de l’absence d’indication de la pondération des critères d’attribution (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An bonn cirt le gan ualú na gcritéar dámhachtana a léiriú (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obrazloženje nenavođenja ponderiranja kriterija za dodjelu (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Annak indoklása, hogy az odaítélési szempontok súlyozását miért nem tüntették fel (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Giustificazione della mancata indicazione della ponderazione dei criteri di aggiudicazione (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pagrindimas, kodėl nenurodomas sutarties skyrimo kriterijų lyginamasis svoris (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pamatojums tam, kāpēc nav norādīts piešķiršanas kritēriju svērums (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ġustifikazzjoni għan-nuqqas ta’ indikazzjoni tal-koeffiċjent tal-korrezzjoni tal-kriterji tal-għoti (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Rechtvaardiging voor het niet vermelden van de weging van de gunningscriteria (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Uzasadnienie, dlaczego nie określono wagi kryteriów udzielenia zamówienia (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Justificação para não indicar a ponderação dos critérios de adjudicação (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Justificare pentru neindicarea ponderii criteriilor de atribuire (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Odôvodnenie neuvedenia váhy pri kritériách na vyhodnotenie ponúk (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Utemeljitev, zakaj ponderiranje merila za oddajo ni navedeno (BT-733)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Motivering varför viktningen av tilldelningskriterierna inte har uppgetts (BT-733)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -192,8 +606,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criterion Number Threshold (BT-5423)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерий за възлагане – Числото е вид праг (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritérium pro zadání zakázky – Číslo je druh prahové hodnoty (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tildelingskriterium – Antal er en type tærskel (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuschlagskriterium – Zahl ist eine Art von Schwellenwert (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κριτήριο ανάθεσης – Ο αριθμός είναι ένα είδος κατωφλίου (BT-5423)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criterion Number Threshold (BT-5423)</SimpleValue>
+            <SimpleValue>Award criterion – Number is a type of threshold (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterio de adjudicación – El número es un tipo de umbral (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise kriteerium – Number on läve tüüp (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Myöntämisperuste – Numero on kynnystyyppi (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critère d’attribution – Le nombre est un type de seuil (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéar dámhachtana – Is cineál tairsí í an uimhir (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriterij za dodjelu – Broj je vrsta praga (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Odaítélési kritérium – A szám a küszöb típusa (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criterio di aggiudicazione – Il numero è un tipo di soglia (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties sudarymo kriterijus – Skaičius yra slenksčio tipas (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas kritērijs – Skaits ir sliekšņa veids (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kriterju tal-għoti – In-numru huwa tip ta’ limitu (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gunningscriterium – Getal is een soort drempelwaarde (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryterium udzielenia zamówienia – Liczba jest rodzajem progu (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Critério de adjudicação – O número é um tipo de limiar (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criteriul de atribuire – Numărul este un tip de prag (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritérium na vyhodnotenie ponúk – Číslo je druh prahovej hodnoty (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Merilo za oddajo naročila – Število je vrsta praga (BT-5423)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tilldelningskriterium – Antal är en typ av tröskel (BT-5423)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -203,8 +686,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criterion Type (BT-539)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерий за възлагане – Вид (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritérium pro zadání zakázky – Typ (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tildelingskriterium – Type (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuschlagskriterium – Art (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κριτήριο ανάθεσης – Είδος (BT-539)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criterion Type (BT-539)</SimpleValue>
+            <SimpleValue>Award criterion – Type (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterio de adjudicación – Tipo (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise kriteerium – Liik (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Myöntämisperuste – Tyyppi (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critère d’attribution – Type (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéar dámhachtana – Cineál (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriterij za dodjelu – Vrsta (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Odaítélési kritérium – Típus (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criterio di aggiudicazione – Tipo (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties sudarymo kriterijus – Rūšis (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas kritērijs – Veids (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kriterju tal-għoti – Tip (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gunningscriterium – Type (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryterium udzielenia zamówienia – Rodzaj (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Critério de adjudicação – Tipo (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criteriul de atribuire – Tip (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritérium na vyhodnotenie ponúk – Typ (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Merilo za oddajo naročila – Vrsta (BT-539)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tilldelningskriterium – Typ (BT-539)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -214,8 +766,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Award Criterion Number Weight (BT-5421)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Критерий за възлагане – Числото е вид тегло (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kritérium pro zadání zakázky – Číslo je druh hmotnosti (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tildelingskriterium – Tal er en type vægt (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuschlagskriterium – Zahl ist eine Art Gewicht (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κριτήριο ανάθεσης – Ο αριθμός είναι ένα είδος βάρους (BT-5421)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Award Criterion Number Weight (BT-5421)</SimpleValue>
+            <SimpleValue>Award criterion – Number is a type of weight (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Criterio de adjudicación – El número es un tipo de peso (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu sõlmimise kriteerium – Number on kaalu tüüp (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Myöntämisperuste – Numero on painotyyppi (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Critère d’attribution – Le nombre est un type de poids (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Critéar dámhachtana – Is éard is uimhir ann ná cineál meáchain (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriterij za dodjelu – Broj je vrsta težine (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Odaítélési kritérium – A szám a súly típusa (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Criterio di aggiudicazione – Il numero è un tipo di peso (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties sudarymo kriterijus – Skaičius yra svorio rūšis (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piešķiršanas kritērijs – Skaitlis ir svara veids (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kriterju tal-għoti – In-numru huwa tip ta’ piż (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gunningscriterium – Nummer is een soort gewicht (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kryterium udzielenia zamówienia – Liczba jest rodzajem wagi (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Critério de adjudicação – Número é um tipo de peso (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Criteriul de atribuire – Numărul este un tip de greutate (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kritérium na vyhodnotenie ponúk – Číslo je typ hmotnosti (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Merilo za oddajo naročila – Število je vrsta teže (BT-5421)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tilldelningskriterium – Antal är en typ av vikt (BT-5421)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -225,8 +846,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Buyer Review Requests Count (BT-635)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Брой искания за преглед на купувача (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Počet žádostí o přezkum kupujícího (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Antal anmodninger om undersøgelse af køber (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anzahl der Kundenbewertungsanfragen (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αριθμός αιτημάτων επανεξέτασης αγοραστών (BT-635)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Buyer Review Requests Count (BT-635)</SimpleValue>
+            <SimpleValue>Number of buyer review requests (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Número de solicitudes de revisión del comprador (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ostjate läbivaatamise taotluste arv (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ostajan tarkistuspyyntöjen lukumäärä (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Nombre de demandes d’examen de l’acheteur (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Líon na n-iarrataí ar athbhreithniú ceannaitheora (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Broj zahtjeva za reviziju kupca (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Vevői felülvizsgálati kérelmek száma (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Numero di richieste di revisione dell'acquirente (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjo prašymų atlikti peržiūrą skaičius (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircēja pārskatīšanas pieprasījumu skaits (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Għadd ta’ talbiet għal rieżami tax-xerrej (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aantal kopersbeoordelingsverzoeken (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Liczba zapytań kupujących (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Número de pedidos de revisão do comprador (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Numărul de cereri de revizuire a cumpărătorului (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Počet žiadostí o preskúmanie kupujúceho (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Število zahtev za pregled kupca (BT-635)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Antal förfrågningar om köparens granskning (BT-635)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -236,8 +926,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Buyer Review Requests Irregularity Type (BT-636)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Вид на предполагаемата нередност (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Druh údajné nesrovnalosti (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Typen af påstået uregelmæssighed (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Art der angeblichen Unregelmäßigkeit (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Είδος εικαζόμενης παρατυπίας (BT-636)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Buyer Review Requests Irregularity Type (BT-636)</SimpleValue>
+            <SimpleValue>Type of alleged irregularity (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Tipo de presunta irregularidad (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Väidetava eeskirjade eiramise liik (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Väitetyn sääntöjenvastaisuuden tyyppi (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Type d’irrégularité alléguée (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cineál na neamhrialtachta líomhnaithe (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vrsta navodne nepravilnosti (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az állítólagos szabálytalanság típusa (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tipo di presunta irregolarità (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Įtariamo pažeidimo rūšis (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iespējamā pārkāpuma veids (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tip ta’ irregolarità allegata (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Type vermeende onregelmatigheid (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rodzaj domniemanej nieprawidłowości (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Tipo de alegada irregularidade (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tipul presupusei nereguli (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Druh údajnej nezrovnalosti (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrsta domnevne nepravilnosti (BT-636)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Typ av påstådd oegentlighet (BT-636)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -247,8 +1006,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Concession Revenue Buyer (BT-160)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Прогнозни приходи от купувача, който е предоставил концесията (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odhadované příjmy od kupujícího, který udělil koncesi (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anslået værdi af den indtægt, som kommer fra den køber, der meddelte koncessionen (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Schätzung der Einnahmen, die vom Erwerber stammen, der die Konzession erteilt hat (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εκτιμώμενα έσοδα προερχόμενα από τον αγοραστή που παραχώρησε τη σύμβαση παραχώρησης (BT-160)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Concession Revenue Buyer (BT-160)</SimpleValue>
+            <SimpleValue>Estimated revenue coming from the buyer who granted the concession (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ingresos estimados procedentes del comprador que adjudicó la concesión (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kontsessiooni andnud hankijalt saadav eeldatav tulu (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arvioidut tulot käyttöoikeuden myöntäneeltä ostajalta (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Recettes estimées provenant de l’acheteur ayant attribué la concession (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ioncam measta an cheannaitheora a dheonaigh an lamháltas (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Procijenjeni prihodi od kupca koji je dodijelio koncesiju (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A koncessziót megadó ajánlatkérő szervezettől származó becsült bevétel (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ricavo previsto proveniente dal committente che ha aggiudicato la concessione (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Numatomos pajamos iš koncesiją suteikusio pirkėjo (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Aplēstie ieņēmumi no pircēja, kas piešķīris koncesiju (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dħul stmat li ġej mix-xerrej li ta l-konċessjoni (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geraamde inkomsten afkomstig van de koper die de concessie verleende (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Szacowane przychody od nabywcy, który udzielił koncesji (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Estimativa das receitas provenientes do adquirente que concedeu a concessão (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Venituri estimate provenite de la achizitorul care a atribuit concesiunea (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predpokladané príjmy plynúce od kupujúceho, ktorý udelil koncesiu (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Načrtovani prihodki, ki prihajajo od kupca, ki je podelil koncesijo (BT-160)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Beräknade inkomster som kommer från köparen som meddelade koncessionen (BT-160)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -258,8 +1086,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Concession Revenue User (BT-162)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Прогнозни приходи от ползвателите на концесията (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odhadované příjmy od uživatelů koncese (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anslået værdi af den indtægt, der kommer fra brugerne af koncessionen (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Schätzung der Einnahmen, die von den Nutzern der Konzession stammen (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εκτιμώμενα έσοδα προερχόμενα από τους χρήστες της σύμβασης παραχώρησης (BT-162)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Concession Revenue User (BT-162)</SimpleValue>
+            <SimpleValue>Estimated revenue coming from the users of the concession (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ingresos estimados procedentes de los usuarios de la concesión (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kontsessiooni kasutajatelt saadav eeldatav tulu (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arvioidut tulot käyttöoikeuden käyttäjiltä (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Recettes estimées provenant des utilisateurs de la concession (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ioncam measta úsáideoirí an lamháltais (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Procijenjeni prihodi od korisnika koncesije (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A koncesszió felhasználóitól származó becsült bevétel (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ricavo previsto proveniente dagli utenti della concessione (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Numatomos pajamos iš koncesijos vartotojų (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Aplēstie ieņēmumi no koncesijas lietotājiem (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dħul stmat li ġej mill-utenti tal-konċessjoni (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geraamde inkomsten afkomstig van de gebruikers van de concessie (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Szacowane przychody od użytkowników koncesji (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Estimativa das receitas provenientes dos utilizadores da concessão (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Venituri estimate provenite de la utilizatorii concesiunii (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predpokladané príjmy plynúce od používateľov koncesie (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Načrtovani prihodki, ki prihajajo od uporabnikov koncesije (BT-162)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Beräknade inkomster som kommer från koncessionens användare (BT-162)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -269,8 +1166,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Country Origin (BT-191)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Държава на произход на стоката или услугата (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Země původu výrobku nebo služby (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Produktets eller tjenesteydelsens oprindelsesland (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ursprungsland des Produkts oder der Dienstleistung (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Χώρα καταγωγής του προϊόντος ή της υπηρεσίας (BT-191)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Country Origin (BT-191)</SimpleValue>
+            <SimpleValue>Country of origin of the product or the service (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>País de origen del producto o servicio (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Toote või teenuse päritoluriik (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tuotteen tai palvelun alkuperämaa (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Pays d’origine du produit ou du service (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tír thionscnaimh an táirge nó na seirbhíse (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zemlja podrijetla proizvoda ili usluge (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az áru vagy a szolgáltatás származási országa (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Paese di origine del prodotto o del servizio (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Produkto ar paslaugos kilmės šalis (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Produkta vai pakalpojuma izcelsmes valsts (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Pajjiż tal-oriġini tal-prodott jew tas-servizz (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Land van oorsprong van het product of de dienst (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kraj pochodzenia produktu lub usługi (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>País de origem do produto ou serviço (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Țara de origine a produsului sau a serviciului (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Krajina pôvodu výrobku alebo služby (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Država porekla proizvoda ali storitve (BT-191)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Produktens eller tjänstens ursprungsland (BT-191)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -280,8 +1246,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cross Border Law (BT-09)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Приложимо трансгранично право (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Použitelné přeshraniční právo (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gældende lovgivning på tværs af grænserne (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anzuwendende grenzübergreifende Rechtsvorschrift (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εφαρμοστέο διασυνοριακό δίκαιο (BT-09)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Cross Border Law (BT-09)</SimpleValue>
+            <SimpleValue>Applicable cross-border law (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Legislación transfronteriza aplicable (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kohaldatav piiriülene õigus (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sovellettava rajat ylittävä lainsäädäntö (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Droit transnational applicable (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An dlí trasteorann is infheidhme (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Primjenjivo prekogranično pravo (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A határokon átnyúlóan alkalmazandó jog (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Diritto transfrontaliero applicabile (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Taikoma tarpvalstybinė teisė (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pārrobežu situācijās piemērojamie tiesību akti (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Liġi transfruntiera applikabbli (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Toepasselijk grensoverschrijdend recht (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Właściwe prawo transgraniczne (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Legislação transfronteiriça aplicável (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Legislația transfrontalieră aplicabilă (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Uplatniteľné cezhraničné právne predpisy (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Čezmejni zakon, ki se uporablja (BT-09)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tillämplig gränsöverskridande lagstiftning (BT-09)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -291,8 +1326,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Direct Award Justification Code (BT-136)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обосновка за пряко възлагане (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odůvodnění přímého zadání zakázky (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Begrundelse for direkte tildeling (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Begründung der Direktvergabe (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αιτιολόγηση της απευθείας ανάθεσης (BT-136)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Direct Award Justification Code (BT-136)</SimpleValue>
+            <SimpleValue>Justification for direct award (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Justificación de la adjudicación directa (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Otselepingu sõlmimise põhjendus (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Perustelu sopimuksen tekemiselle suorahankintana (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Justification de l’attribution directe (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An bonn cirt le dámhachtain dhíreach (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obrazloženje izravne dodjele ugovora (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A közvetlen odaítélés indoklása (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Giustificazione dell'aggiudicazione diretta (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tiesioginio skyrimo pagrindimas (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tiešas piešķiršanas pamatojums (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ġustifikazzjoni għall-għoti dirett (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Rechtvaardiging voor onderhandse gunning (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Uzasadnienie bezpośredniego udzielenia zamówienia (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Justificação da adjudicação direta (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Justificarea atribuirii directe (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Odôvodnenie zámeru uzavrieť zmluvu (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obrazložitev neposredne dodelitve (BT-136)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Motivering av direkttilldelning (BT-136)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -302,8 +1406,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Direct Award Justification Previous (BT-1252)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Идентификатор на предходната процедура, оправдаваща прякото възлагане (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Identifikátor předchozího řízení, které odůvodňuje přímé zadání zakázky (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Identifikator for den tidligere procedure, der begrunder direkte tildeling (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kennung des vorherigen Verfahrens, das die Direktvergabe rechtfertigt (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αναγνωριστικό της προηγούμενης διαδικασίας που δικαιολογεί την απευθείας ανάθεση (BT-1252)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Direct Award Justification Previous (BT-1252)</SimpleValue>
+            <SimpleValue>Identifier of the previous procedure that justifies direct award (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Identificador del procedimiento anterior que justifica la adjudicación directa (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Otselepingu sõlmimist õigustava varasema menetluse tunnus (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tunniste edelliselle menettelylle, jolla perustellaan sopimuksen tekeminen suorahankintana (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Identifiant de la procédure antérieure justifiant l’attribution directe (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Aitheantóir an nóis imeachta roimhe sin lena dtugtar bonn cirt le dámhachtain dhíreach (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Identifikacijska oznaka prethodnog postupka kojim se obrazlaže izravna dodjela (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A közvetlen odaítélést indokló korábbi eljárás azonosítója (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Identificativo della procedura precedente che giustifica l'aggiudicazione diretta (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ankstesnės procedūros, kuria pagrindžiamas tiesioginis skyrimas, identifikatorius (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tādas iepriekšējas procedūras identifikators, kas attaisno tiešu piešķiršanu (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Identifikatur tal-proċedura preċedenti li jiġġustifika l-għoti dirett (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Identificatiecode van de eerdere procedure die onderhandse gunning rechtvaardigt (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Identyfikator poprzedniego postępowania uzasadniającego bezpośrednie udzielenie zamówienia (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Identificador do procedimento anterior que justifica a adjudicação direta (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Identificatorul procedurii anterioare care justifică atribuirea directă (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Identifikátor predchádzajúceho postupu odôvodňujúceho zámer uzavrieť zmluvu (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Identifikator predhodnega postopka, ki upravičuje neposredno dodelitev (BT-1252)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Identifierare av ett tidigare förfarande som motiverar direkttilldelning (BT-1252)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -313,8 +1486,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Direct Award Justification Text (BT-135)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Пряко възлагане – Друга обосновка (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přímé zadání zakázky – Jiné odůvodnění (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Direkte tildeling – Anden begrundelse (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Direktvergabe – Sonstige Begründung (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απευθείας ανάθεση – Άλλη αιτιολόγηση (BT-135)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Direct Award Justification Text (BT-135)</SimpleValue>
+            <SimpleValue>Direct award – Other justification (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Adjudicación directa – Otra justificación (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Otselepingu sõlmimine – Muu põhjendus (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimuksen tekeminen ilman tarjouskilpailua – Muu perustelu (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Attribution directe – Autre justification (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dámhachtain dhíreach – Bonn cirt eile (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Izravna dodjela ugovora – Drugo obrazloženje (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Közvetlen odaítélés – Egyéb indoklás (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Aggiudicazione diretta – Altra giustificazione (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tiesioginis skyrimas – Kitas pagrindimas (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tieša piešķiršana – Cits pamatojums (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Għoti dirett – Ġustifikazzjoni oħra (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onderhandse gunning – Andere rechtvaardiging (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Adjudicação direta – Bezpośrednie udzielenie zamówienia – Inne uzasadnienie (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Atribuire directă – Outra justificação (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zámer uzavrieť zmluvu – Altă justificare (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Neposredna dodelitev – Iné odôvodnenie (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Druga obrazložitev (BT-135)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Direkttilldelning – Annan motivering (BT-135)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -324,8 +1566,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Group Maximum Value Lot Identifier (BT-556)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Групова рамка стойност лот идентификатор (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Identifikátor skupinového rámcového hodnotového Lotu (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Grupperammeværdi Lot Identifier (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gruppenrahmenwert Lot Identifier (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αναγνωριστικός κωδικός παρτίδας-πλαισίου ομάδας (BT-556)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Group Maximum Value Lot Identifier (BT-556)</SimpleValue>
+            <SimpleValue>Group Framework Value Lot Identifier (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Identificador del lote del valor del marco del grupo (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rühma raamväärtuse partii identifikaator (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Group Framework Value Lot Identifier (ryhmäkehysarvo) (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Identificateur de lot de valeur du cadre de groupe (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Grúpa an tAitheantóir Luacha Lot (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Identifikator grupe okvirne vrijednosti (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csoport-keretérték tételazonosító (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Group Framework Value Lot Identifier (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Grupės bendrosios vertės dalies identifikatorius (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Grupas pamatvērtības daļas identifikators (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Identifikatur tal-Lott tal-Valur tal-Qafas tal-Grupp (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Groep Framework Value Lot Identifier (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Grupowy identyfikator wartości ramowej partii (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Identificador de lote do valor do quadro de grupo (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Identificatorul lotului cu valoare-cadru de grup (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Identifikátor skupinovej rámcovej hodnoty (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Identifikator skupine okvirnih vrednosti lota (BT-556)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Identifieringskod för gruppramvärde Lot (BT-556)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -335,8 +1646,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Group Maximum Value (BT-156)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Прогнозна стойност на рамковите споразумения в групата обособени позиции (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odhadovaná hodnota rámcových dohod ve skupině částí (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anslået værdi af rammeaftalen for gruppen af delkontrakter (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Geschätzter Wert der Rahmenvereinbarung innerhalb der Gruppe von Losen (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εκτιμώμενη αξία των συμφωνιών-πλαισίων στη ομάδα παρτίδων (BT-156)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Group Maximum Value (BT-156)</SimpleValue>
+            <SimpleValue>Estimated value of the framework agreements in the group of lots (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor estimado de los acuerdos marco del grupo de lotes (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Raamlepingute eeldatav maksumus osade rühma lõikes (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Puitejärjestelyjen arvioitu arvo erien ryhmässä (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur estimée des accords-cadres dans le groupe de lots (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach measta na gcreat-chomhaontuithe sa ghrúpa luchtóg (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Procijenjena vrijednost okvirnih sporazuma unutar skupine grupâ (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A részcsoporton belüli keretmegállapodás becsült értéke (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore stimato degli accordi quadro per il gruppo di lotti (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkimo dalių grupės numatoma vertė pagal preliminariąsias sutartis (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pamatnolīgumu paredzamā summa daļu grupā (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur stmat tal-ftehimiet qafas fi ħdan il-grupp ta’ lottijiet (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geraamde waarde van de raamovereenkomsten in de groep percelen (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Szacowana wartość umów ramowych w grupie części zamówienia (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor estimado dos acordos-quadro no grupo de lotes (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea estimată a acordurilor-cadru pentru grupul de loturi (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predpokladaná hodnota rámcových dohôd v skupine častí (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predvidena vrednost okvirnih sporazumov v skupini sklopov (BT-156)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Uppskattat värde för den grupp delar som avser ramavtalet (BT-156)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -357,8 +1737,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Maximum Value (BT-709)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Максимална стойност на рамковото споразумение (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Maximální hodnota rámcové dohody (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Den maksimale værdi for rammeaftalen (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Höchstwert der Rahmenvereinbarung (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μέγιστη αξία της συμφωνίας-πλαισίου (BT-709)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Maximum Value (BT-709)</SimpleValue>
+            <SimpleValue>Maximum value of the framework agreement (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor máximo del acuerdo marco (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Raamlepingu maksimaalne maksumus (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Puitejärjestelyn enimmäisarvo (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur maximale de l’accord-cadre (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach uasta an chreat-chomhaontaithe (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Maksimalna vrijednost okvirnog sporazuma (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A keretmegállapodás maximális értéke (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore massimo dell'accordo quadro (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Preliminariosios sutarties didžiausia vertė (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pamatnolīguma maksimālā vērtība (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur massimu tal-ftehim qafas (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Maximumwaarde van de raamovereenkomst (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Maksymalna wartość umowy ramowej (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor máximo do acordo-quadro (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea maximă a acordului-cadru (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Maximálna hodnota rámcovej dohody (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Najvišja vrednost okvirnega sporazuma (BT-709)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Högsta värde på ramavtalet (BT-709)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -368,8 +1817,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Not Awarded Reason (BT-144)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Причината, поради която не е избран победител (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Důvod, proč nebyl vybrán vítěz (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Begrundelsen for ikke at udvælge en vinder (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Grund, warum kein Gewinner ausgewählt wurde (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Λόγος για τον οποίο δεν επελέγη ο νικητής (BT-144)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Not Awarded Reason (BT-144)</SimpleValue>
+            <SimpleValue>The reason why a winner was not chosen (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Motivo por el que no se eligió un ganador (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Põhjus, miks võitjat ei valitud (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Syy, miksi voittajaa ei ole valittu (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La raison pour laquelle un lauréat n’a pas été choisi (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An fáth nár roghnaíodh aon bhuaiteoir (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Razlog zbog kojeg nije odabran pobjednik (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Annak oka, hogy miért nem választották ki a nyertest (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Motivo per cui un vincitore non è stato scelto (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Priežastis, dėl kurios laimėtojas nebuvo pasirinktas (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iemesls, kāpēc netika izraudzīts uzvarētājs (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ir-raġuni għaliex ma ntgħażilx rebbieħ (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De reden waarom geen winnaar is gekozen (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Powód, dla którego nie wyłoniono zwycięzcy (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A razão pela qual um vencedor não foi escolhido (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Motivul pentru care nu a fost ales un câștigător (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dôvod, prečo víťaz nebol vybraný (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Razlog, da ni bil izbran noben ponudnik (BT-144)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Skälet till att en vinnare inte utsågs (BT-144)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -379,8 +1897,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Notice Framework Approximate Value (BT-1118)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Приблизителна стойност на рамковите споразумения (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přibližná hodnota rámcových dohod (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Rammeaftalernes omtrentlige værdi (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ungefährer Wert der Rahmenvereinbarungen (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κατά προσέγγιση αξία των συμφωνιών-πλαισίων (BT-1118)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Notice Framework Approximate Value (BT-1118)</SimpleValue>
+            <SimpleValue>Approximate value of the framework agreements (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor aproximado de los acuerdos marco (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Raamlepingute ligikaudne väärtus (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Puitesopimusten likimääräinen arvo (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur approximative des accords-cadres (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Neasluach na gcreat-chomhaontuithe (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Približna vrijednost okvirnih sporazuma (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A keretmegállapodások hozzávetőleges értéke (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore approssimativo degli accordi quadro (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Preliminariųjų susitarimų apytikslė vertė (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pamatnolīgumu aptuvenā vērtība (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur approssimattiv tal-ftehim qafas (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geschatte waarde van de raamovereenkomsten (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przybliżona wartość umów ramowych (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor aproximado dos acordos-quadro (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea aproximativă a acordurilor-cadru (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Približná hodnota rámcových dohôd (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Približna vrednost okvirnih sporazumov (BT-1118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ramavtalens ungefärliga värde (BT-1118)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -390,8 +1977,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Notice Dispatch Date (BT-05)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Дата на изпращане на известието (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Datum odeslání oznámení (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Afsendelsesdato for bekendtgørelsen (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Datum der Übermittlung der Bekanntmachung (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ημερομηνία αποστολής της προκήρυξης (BT-05)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Notice Dispatch Date (BT-05)</SimpleValue>
+            <SimpleValue>Notice dispatch date (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Fecha de envío del anuncio (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teate saatmise kuupäev (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoituksen lähetyspäivä (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Date d’envoi de l’avis (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dáta seolta an fhógra (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Datum slanja obavijesti (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A hirdetmény megküldésének dátuma (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Data di trasmissione dell'avviso (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimo išsiuntimo data (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojuma nosūtīšanas datums (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Data ta’ meta ntbagħat l-avviż (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verzenddatum van de aankondiging (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie – data wysłania (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Data de envio do anúncio (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Data notificării expedierii (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dátum odoslania oznámenia (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Datum pošiljanja obvestila (BT-05)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Avsändningsdatum för meddelandet (BT-05)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -401,8 +2057,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Notice Maximum Value (BT-118)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Прогнозна стойност на рамковите споразумения в тази процедура (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odhadovaná hodnota rámcových dohod v tomto řízení (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anslået værdi af rammeaftalen i denne procedure (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Geschätzter Wert der Rahmenvereinbarungen in diesem Verfahren (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εκτιμώμενη αξία των συμφωνιών-πλαισίων στην παρούσα διαδικασία (BT-118)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Notice Maximum Value (BT-118)</SimpleValue>
+            <SimpleValue>Estimated value of the framework agreements in this procedure (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor estimado de los acuerdos marco del presente procedimiento (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Raamlepingute hinnanguline maksumus selles hankemenetluses (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Puitejärjestelyjen arvioitu arvo tässä menettelyssä (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur estimée des accords-cadres dans la procédure en question (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach measta na gcreat-chomhaontuithe sa nós imeachta seo (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Procijenjena vrijednost okvirnih sporazuma u ovom postupku (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A keretmegállapodás becsült értéke ebben az eljárásban (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore stimato dell'accordo quadro in questa procedura (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Numatoma šios procedūros preliminariųjų sutarčių vertė (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Šajā procedūrā piešķiramo pamatnolīgumu paredzamā vērtība (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur stmat tal-ftehimiet qafas f’din il-proċedura (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geraamde waarde van de raamovereenkomsten in deze procedure (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Szacowana wartość umów ramowych w tym postępowaniu (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor estimado dos acordos-quadro no âmbito deste procedimento (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea estimată a acordurilor-cadru din cadrul acestei proceduri (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predpokladaná hodnota rámcových dohôd v tomto postupe (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ocenjena vrednost okvirnih sporazumov v tem postopku (BT-118)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Beräknat värde på ramavtalen i det här förfarandet (BT-118)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -412,8 +2137,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Notice Publication Date Preferred (BT-738)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Предпочитана дата на публикуване (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Preferované datum zveřejnění (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Foretrukne udgivelsesdato (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bevorzugtes Veröffentlichungsdatum (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προτιμώμενη ημερομηνία δημοσίευσης (BT-738)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Notice Publication Date Preferred (BT-738)</SimpleValue>
+            <SimpleValue>Preferred publication date (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Fecha de publicación preferida (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Eelistatud avaldamiskuupäev (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Suositeltava julkaisupäivä (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Date de publication préférée (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dáta foilsithe na tosaíochta (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Željeni datum objave (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Előnyben részesített közzétételi dátum (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Data di pubblicazione preferita (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pageidaujama paskelbimo data (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vēlamais publicēšanas datums (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Data preferuta tal-pubblikazzjoni (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Voorkeursdatum van publicatie (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Preferowana data publikacji (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Data de publicação preferida (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Data de publicare preferată (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Preferovaný dátum zverejnenia (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Prednostni datum objave (BT-738)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Föredraget publiceringsdatum (BT-738)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -423,8 +2217,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Notice Value (BT-161)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Стойност на всички поръчки, възложени в рамките на тази процедура (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hodnota všech zakázek zadaných v tomto řízení (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Værdien af alle de kontrakter, der tildeles i denne bekendtgørelse (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wert aller im Rahmen dieses Verfahrens vergebenen Aufträge (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αξία όλων των συμβάσεων που ανατέθηκαν στο πλαίσιο της παρούσας διαδικασίας (BT-161)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Notice Value (BT-161)</SimpleValue>
+            <SimpleValue>Value of all contracts awarded in this procedure (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor de todos los contratos adjudicados en el presente procedimiento (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kõigi selle menetluse käigus sõlmitud lepingute maksumus (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kaikkien tässä menettelyssä tehtyjen hankintasopimusten arvo (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur de tous les marchés attribués dans le cadre de la procédure en question (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach na gconarthaí go léir a dámhadh sa nós imeachta seo (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vrijednost svih ugovora dodijeljenih u ovom postupku (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az ebben az eljárásban odaítélt valamennyi szerződés értéke (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore di tutti gli appalti aggiudicati nell'ambito della presente procedura (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Visų pagal šią procedūrą skiriamų sutarčių vertė (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Visu šajā procedūrā piešķirto līgumu vērtība (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur tal-kuntratti kollha mogħtija f’din il-proċedura (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Waarde van alle in het kader van deze procedure gegunde opdrachten (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wartość wszystkich zamówień udzielonych w ramach tego postępowania (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor de todos os contratos adjudicados no âmbito deste procedimento (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea tuturor contractelor atribuite în cadrul acestei proceduri (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hodnota všetkých zákaziek zadaných v tomto postupe (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrednost vseh javnih naročil, oddanih v tem postopku (BT-161)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Värdet av alla de kontrakt som tilldelas i det här förfarandet (BT-161)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -434,8 +2297,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Procedure Accelerated (BT-106)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Процедурата се ускорява (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Řízení se zrychlí (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Proceduren er en hasteprocedure (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Das Verfahren wird beschleunigt (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η διαδικασία επιταχύνεται (BT-106)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Procedure Accelerated (BT-106)</SimpleValue>
+            <SimpleValue>The procedure is accelerated (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El procedimiento está acelerado (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Menetlust kiirendatakse (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Menettely on nopeutettu (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La procédure est accélérée (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá an nós imeachta á bhrostú (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Postupak je ubrzan (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az eljárás gyorsított (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>La procedura è accelerata (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Procedūra pagreitinta (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Procedūra ir paātrināta (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-proċedura hija aċċellerata (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De procedure wordt versneld (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Procedura jest przyspieszona (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O procedimento é acelerado (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Procedura este accelerată (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Postup je zrýchlený (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Postopek je pospešen (BT-106)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förfarandet är påskyndat (BT-106)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -445,8 +2377,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Procedure Accelerated Justification (BT-1351)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обосновка на ускорената процедура (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odůvodnění zrychleného řízení (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Begrundelse for hasteproceduren (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Begründung des beschleunigten Verfahrens (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αιτιολόγηση για την επιτάχυνση της διαδικασίας (BT-1351)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Procedure Accelerated Justification (BT-1351)</SimpleValue>
+            <SimpleValue>Justification for the accelerated procedure (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Justificación del procedimiento acelerado (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kiirendatud menetluse põhjendus (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Perustelu nopeutetun menettelyn käytölle (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Justification de la procédure accélérée (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An bonn cirt leis an nós imeachta brostaithe (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obrazloženje ubrzanog postupka (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A gyorsított eljárás indoklása (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Giustificazione della procedura accelerata (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pagreitintos procedūros pagrindimas (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paātrinātās procedūras izmantošanas pamatojums (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ġustifikazzjoni għall-proċedura aċċellerata (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Rechtvaardiging voor de versnelde procedure (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Uzasadnienie procedury przyspieszonej (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Justificação do procedimento acelerado (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Justificarea procedurii accelerate (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Odôvodnenie zrýchleného postupu (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obrazložitev za pospešen postopek (BT-1351)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Motivering för det påskyndade förfarandet (BT-1351)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -456,8 +2457,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Procedure Features (BT-88)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Главните характеристики на процедурата (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hlavní rysy řízení (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De vigtigste kendetegn ved proceduren (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die wichtigsten Merkmale des Verfahrens (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τα κύρια χαρακτηριστικά της διαδικασίαςβάσεις (BT-88)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Procedure Features (BT-88)</SimpleValue>
+            <SimpleValue>Main features of the procedure (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las principales características del procedimiento (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Menetluse peamised põhimõtted (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Menettelyn tärkeimmät piirteet (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Principales caractéristiques de la procédure (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Príomhghnéithe an nós imeachta (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Glavne značajke postupka (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az eljárás fő jellemzői (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Caratteristiche principali della procedura (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pagrindiniai procedūros ypatumai (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Procedūras galvenās iezīmes (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-karatteristiki prinċipali tal-proċedura (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De belangrijkste kenmerken van de procedure (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Główne aspekty procedury (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>As principais características do processo (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Principalele caracteristici ale procedurii (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hlavné charakteristiky postupu (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Glavne značilnosti postopka (BT-88)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De viktigaste kännetecknen för förfarandet (BT-88)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -467,8 +2537,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Procedure Type (BT-105)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Вид процедура (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Typ řízení (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Type af procedure (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verfahrensart (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Είδος διαδικασίας (BT-105)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Procedure Type (BT-105)</SimpleValue>
+            <SimpleValue>Type of procedure (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Tipo de procedimiento (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Menetluse liik (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Menettelyn tyyppi (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Type de procédure (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An cineál nóis imeachta (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vrsta postupka (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az eljárás típusa (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tipo di procedura (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkimo būdas (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Procedūras veids (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tip ta’ proċedura (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Type procedure (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rodzaj procedury (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Tipo de procedimento (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tip de procedură (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Druh postupu (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrsta postopka (BT-105)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Typ av förfarande (BT-105)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -478,8 +2617,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Received Submissions Count (BT-759)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Брой на получените оферти или заявления за участие (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Počet doručených nabídek nebo žádostí o účast (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Antal modtagne tilbud og ansøgninger om deltagelse (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anzahl der eingegangenen Angebote oder Teilnahmeanträge (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αριθμός προσφορών ή αιτήσεων συμμετοχής που παραλήφθηκαν (BT-759)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Received Submissions Count (BT-759)</SimpleValue>
+            <SimpleValue>Number of tenders or requests to participate received (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Número de ofertas o solicitudes de participación recibidas (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Esitatud pakkumuste või osalemistaotluste arv (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vastaanotettujen tarjousten tai osallistumishakemusten lukumäärä (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Nombre d’offres ou de demandes de participation reçues (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Broj primljenih ponuda ili zahtjeva za sudjelovanje (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beérkezett ajánlatok vagy részvételi jelentkezések száma (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Numero di offerte o domande di partecipazione ricevute (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Gautų pasiūlymų ar dalyvavimo prašymų skaičius (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Saņemto piedāvājumu vai dalības pieprasījumu skaits (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Numru ta’ offerti jew talbiet riċevuti għall-parteċipazzjoni (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aantal ontvangen inschrijvingen of verzoeken tot deelname (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Liczba otrzymanych ofert lub wniosków o dopuszczenie do udziału (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Número de propostas ou pedidos de participação recebidos (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Numărul de oferte/ cereri de participare primite (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Počet prijatých ponúk alebo žiadostí o účasť (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Število prejetih ponudb ali prijav za sodelovanje (BT-759)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Antal inkomna anbud eller intresseanmälningar (BT-759)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -489,8 +2697,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Received Submissions Type (BT-760)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Вид на получените заявления (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Druh obdržených podání (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Type af modtagne indlæg (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Art der eingegangenen Einreichungen (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Είδος των παραληφθέντων υποβολών (BT-760)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Received Submissions Type (BT-760)</SimpleValue>
+            <SimpleValue>Type of received submissions (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Tipo de comunicaciones recibidas (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Saadud esildiste liik (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vastaanotettujen ilmoitusten tyyppi (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Type de soumissions reçues (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cineál na n-aighneachtaí a fuarthas (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vrsta zaprimljenih podnesaka (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beérkezett beadványok típusa (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tipo di presentazione ricevuta (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Gautų paraiškų rūšis (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Saņemto iesniegumu veids (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tip ta’ sottomissjonijiet riċevuti (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Soort ontvangen inzendingen (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rodzaj otrzymanych zgłoszeń (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Tipo de propostas recebidas (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tipul de depuneri primite (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Druh prijatých podaní (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrsta prejetih vlog (BT-760)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Typ av mottagna inlämningar (BT-760)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -511,8 +2788,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Review Requests (BT-712)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Брой на жалбоподателите (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Počet žadatelů/stěžovatelů (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Antal klagere (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anzahl der Beschwerdeführer (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αριθμός καταγγελλόντων (BT-712)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Review Requests (BT-712)</SimpleValue>
+            <SimpleValue>Number of complainants (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Número de reclamantes (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kaebuse esitajate arv (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Valituksen tekijöiden lukumäärä (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Nombre de plaignants (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Líon na ngearánach (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Broj podnositelja pritužbe (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A panaszosok száma (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Numero di denuncianti (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prašymų pateikėjų skaičius (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sūdzību skaits (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Numru ta’ lmentaturi (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aantal klagers (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Liczba odwołujących się (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Número de requerentes dos recursos (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Număr de reclamanți (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Počet sťažovateľov (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Število pritožnikov (BT-712)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Antal klagomål (BT-712)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -522,8 +2868,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Subcontracting (BT-773)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Възлагане на подизпълнители (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Subdodávky (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Underentreprise (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vergabe von Unteraufträgen (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπεργολαβία (BT-773)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Subcontracting (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Subcontratación (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Alltöövõtt (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alihankinta (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sous-traitance (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fochonraitheoireacht (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Podugovaranje (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Alvállalkozás (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Subappalto (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Subranga (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Apakšuzņēmēju piesaiste (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sottokuntrattar (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onderaanneming (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podwykonawstwo (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Subcontratação (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Subcontractare (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zadávanie zákaziek subdodávateľom (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oddaja naročil podizvajalcem (BT-773)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Anlitande av underleverantör (BT-773)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -533,8 +2948,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Subcontracting Description (BT-554)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Възлагане на подизпълнители – Описание (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Subdodávky – Popis (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Underentreprise – Beskrivelse (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vergabe von Unteraufträgen – Beschreibung (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Υπεργολαβία – Περιγραφή (BT-554)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Subcontracting Description (BT-554)</SimpleValue>
+            <SimpleValue>Subcontracting – Description (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Subcontratación – Descripción (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Alltöövõtt – Kirjeldus (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alihankinta – Kuvaus (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sous-traitance – Description (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fochonraitheoireacht – Cur síos (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Podugovaranje – Opis (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Alvállalkozás – Leírás (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Subappalto – Descrizione (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Subranga – Aprašymas (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Apakšuzņēmēju piesaiste – Apraksts (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sottokuntrattar – Deskrizzjoni (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onderaanneming – Beschrijving (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Podwykonawstwo – Opis (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Subcontratação – Descrição (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Subcontractare – Descriere (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zadávanie zákaziek subdodávateľom – Opis (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oddaja naročil podizvajalcem – Opis (BT-554)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Anlitande av underleverantör – Beskrivning (BT-554)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -544,8 +3028,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Subcontracting Percentage (BT-555)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Процент на подизпълнителите (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Procento subdodávek (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Procentdel af underleverancer (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Prozentsatz der Unteraufträge (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ποσοστό υπεργολαβίας (BT-555)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Subcontracting Percentage (BT-555)</SimpleValue>
+            <SimpleValue>Percentage of subcontracting (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Porcentaje de subcontratación (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Alltöövõtu protsent (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alihankinnan prosenttiosuus (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Pourcentage de sous-traitance (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Céatadán na fochonraitheoireachta (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Postotak podugovaranja (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az alvállalkozók százalékos aránya (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Percentuale di subappalto (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Subrangos procentinė dalis (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Apakšuzņēmuma līgumu slēgšanas procentuālā daļa (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Perċentwal ta’ sottokuntrattar (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Percentage onderaanneming (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Procent podwykonawstwa (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Percentagem de subcontratação (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Procentajul subcontractării (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Percentuálny podiel subdodávok (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Odstotek oddaje naročil podizvajalcem (BT-555)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Procentandel av underentreprenader (BT-555)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -555,8 +3108,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Subcontracting Percentage Known (BT-731)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Прогнозен процент от договора, който изпълнителят ще възложи на трети страни за подизпълнение, в сравнение с целия договор (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odhadovaný procentní podíl zakázky, kterou dodavatel/poskytovatel zadá třetím stranám, ve srovnání s celou zakázkou (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Den anslåede procentdel af kontrakten, som entreprenøren vil give i underentreprise til tredjeparter (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Geschätzter Prozentsatz des Auftrags, den der Auftragnehmer an Dritte weitervergeben wird, im Vergleich zum gesamten Auftrag (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εκτιμώμενο ποσοστό της σύμβασης που ο ανάδοχος θα αναθέσει υπεργολαβικά σε τρίτους, σε σύγκριση με το σύνολο της σύμβασης (BT-731)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Subcontracting Percentage Known (BT-731)</SimpleValue>
+            <SimpleValue>Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Porcentaje estimado del contrato que el contratista subcontratará a terceros en comparación con la totalidad del contrato (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Eeldatav protsendimäär lepingu kogumahust, mille suhtes töövõtja sõlmib allhankelepingud kolmandate isikutega (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arvioitu prosenttiosuus, jonka toimeksisaaja teettää sopimuksesta alihankintana kolmansilla osapuolilla verrattuna koko sopimukseen (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Pourcentage estimé du marché que le contractant sous-traitera à des tiers par rapport à l’ensemble du marché (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An céatadán measta den chonradh a ligfidh an conraitheoir ar fochonradh do thríú páirtithe, i gcomparáid leis an gconradh iomlán (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Procijenjeni postotak ugovora koji će ugovaratelj podugovoriti s trećim stranama (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vállalkozó a teljes szerződés kb. ennyi százalékát fogja alvállalkozásba adni harmadik feleknek (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Percentuale stimata dell'appalto che l'appaltatore subappalterà a terzi rispetto al totale dell'appalto (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Numatoma visos sutarties procentinė dalis, dėl kurios rangovas su trečiosiomis šalimis sudarys subrangos sutartį (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paredzamā līguma procentuālā daļa, ko, rēķinot no visa līguma, darbuzņēmējs nodos izpildei trešām personām (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Perċentwal stmat tal-kuntratt li l-kuntrattur se jissottokuntratta lil partijiet terzi, meta mqabbel mal-kuntratt kollu (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geraamd percentage van de opdracht dat de contractant aan derden in onderaanneming zal geven in verhouding tot de hele opdracht (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Szacunkowa wartość procentowa części zamówienia, której realizację wykonawca zleci osobom trzecim, w stosunku do całej umowy (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Percentagem estimada do contrato que o contratante irá subcontratar a terceiros, em comparação com a totalidade do contrato (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Procentul estimat din contract pe care contractantul îl va subcontracta unor terți, în raport cu întregul contract (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predpokladaný percentuálny podiel zákazky, ktorý dodávateľ zadá tretím stranám v porovnaní s celou zákazkou (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predvideni delež javnega naročila, ki ga bo izvajalec oddal tretjim osebam v primerjavi s celotnim javnim naročilom (BT-731)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Den uppskattade procentandel av kontraktet som leverantören kommer att lägga ut på tredje part jämfört med hela kontraktet (BT-731)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -566,8 +3188,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Subcontracting Value (BT-553)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Стойност на възлагането на подизпълнители (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hodnota subdodávek (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Værdi af underleverancer (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wert der Unterauftragsvergabe (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αξία της υπεργολαβίας (BT-553)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Subcontracting Value (BT-553)</SimpleValue>
+            <SimpleValue>Value of subcontracting (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor de la subcontratación (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Alltöövõtu väärtus (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alihankinnan arvo (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur de la sous-traitance (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach na fochonraitheoireachta (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vrijednost podugovaranja (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az alvállalkozói szerződések értéke (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore del subappalto (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Subrangos vertė (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Apakšuzņēmuma līguma vērtība (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur tas-sottokuntrattar (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Waarde van onderaanneming (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wartość podwykonawstwa (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor da subcontratação (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea subcontractării (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hodnota subdodávok (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrednost oddajanja podizvajalskih naročil (BT-553)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Värdet av underleverantörsavtal (BT-553)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -577,8 +3268,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Subcontracting Value Known (BT-730)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Прогнозна стойност на частта от договора, която изпълнителят ще възложи на трети страни (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odhadovaná hodnota podílu zakázky, kterou dodavatel/poskytovatel zadá třetím stranám (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anslået værdi af den del af kontrakten, som entreprenøren vil give i underentreprise til tredjeparter (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Geschätzter Wert des Teils des Auftrags, den der Auftragnehmer an Dritte weitervergeben wird (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εκτιμώμενη αξία του μέρους της σύμβασης που ο ανάδοχος θα αναθέσει υπεργολαβικά σε τρίτους (BT-730)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Subcontracting Value Known (BT-730)</SimpleValue>
+            <SimpleValue>Estimated value of the part of the contract that the contractor will subcontract to third parties (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor estimado de la parte del contrato que el contratista subcontratará con terceros (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu selle osa eeldatav maksumus, mille suhtes töövõtja sõlmib allhankelepinguid kolmandate isikutega (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sopimuksen sen osan arvioitu arvo, jonka toimeksisaaja teettää alihankintana kolmansilla osapuolilla (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur estimée de la partie du marché que le contractant sous-traitera à des tiers (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach measta na coda den chonradh a ligfidh an conraitheoir ar fochonradh do thríú páirtithe (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Procijenjena vrijednost dijela ugovora koji će ugovaratelj podugovoriti s trećim stranama (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szerződés vállalkozó által harmadik feleknek alvállalkozásba adott részének becsült értéke (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore stimato della parte dell'appalto che l'appaltatore subappalterà a terzi (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Numatoma sutarties dalies, dėl kurios rangovas su trečiosiomis šalimis sudarys subrangos sutartį, vertė (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tās līguma daļas paredzamā vērtība, ko darbuzņēmējs nodos izpildei trešām personām (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur stmat tal-parti tal-kuntratt li l-kuntrattur se jissottokuntratta lil partijiet terzi (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geraamde waarde van het deel van de opdracht dat de contractant aan derden in onderaanneming zal geven (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Szacunkowa wartość części zamówienia, której realizację wykonawca zleci osobom trzecim (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor estimado da parte do contrato que o contratante irá subcontratar a terceiros (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea estimată a părții din contract pe care contractantul o va subcontracta unor terți (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predpokladaná hodnota časti zákazky, ktorú dodávateľ zadá tretím stranám (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ocenjena vrednost dela javnega naročila, ki ga bo izvajalec oddal v podizvajanje tretjim osebam (BT-730)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Det uppskattade värdet av den del av kontraktet som leverantören kommer att lägga ut på tredje part (BT-730)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -588,8 +3348,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tender Rank (BT-171)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Класиране в списъка на победителите (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Řazení na seznamu vítězů (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Rangfølge på listen over vindere (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Rang in der Liste der Gewinner (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κατάταξη στον κατάλογο των νικητών (BT-171)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tender Rank (BT-171)</SimpleValue>
+            <SimpleValue>Rank in the list of winners (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Clasificación en la lista de ganadores (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Koht võitjate nimekirjas (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sijoitus voittajien luettelossa (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Place sur la liste des lauréats (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rangaigh i liosta na mbuaiteoirí (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Mjesto na ljestvici pobjednika (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Helyezés a nyertesek listáján (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Classificazione nell'elenco dei vincitori (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vieta laimėtojų sąraše (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vieta uzvarētāju sarakstā (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Klassifikazzjoni fil-lista tar-rebbieħa (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Plaats op de ranglijst van winnaars (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Miejsce na liście zwycięzców (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Classificação na lista de vencedores (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Locul pe lista câștigătorilor (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Poradie v zozname víťazov (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Razvrstitev na seznamu zmagovalcev (BT-171)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Anbudets placering i tävlingen (BT-171)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -599,8 +3428,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tender Value Highest (BT-711)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Стойност на най-високата допустима оферта (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hodnota nejvyšší přípustné nabídky (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Værdien af det antagne tilbud med den højeste værdi (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wert des höchsten zulässigen Angebots (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αξία της υψηλότερης αποδεκτής προσφοράς (BT-711)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tender Value Highest (BT-711)</SimpleValue>
+            <SimpleValue>Value of the highest admissible tender (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor de la oferta más alta admisible (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kalleima vastuvõetava pakkumuse maksumus (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Korkein hyväksyttävän tarjouksen arvo (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur de l’offre recevable la plus élevée (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach na tairisceana is airde atá inghlactha (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vrijednost najviše prihvatljive ponude (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A legmagasabb érvényes ajánlat értéke (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore dell'offerta ammissibile più alta (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Priimtino pasiūlymo, kurio vertė didžiausia, vertė (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Augstākā pieņemamā piedāvājuma vērtība (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur tal-ogħla offerta ammissibbli (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Waarde van de hoogste ontvankelijke inschrijving (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wartość najwyższej dopuszczalnej oferty (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor da proposta admissível mais elevada (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea celei mai mari oferte admisibile (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hodnota najvyššej prípustnej ponuky (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrednost najvišje dopustne ponudbe (BT-711)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Värdet för anbudet med det högsta värdet som också var godtagbart (BT-711)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -610,8 +3508,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tender Value Lowest (BT-710)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Стойност на най-ниската допустима оферта (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hodnota nejnižší přípustné nabídky (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Værdien af det antagne tilbud med den laveste værdi (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wert des niedrigsten zulässigen Angebots (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αξία της χαμηλότερης αποδεκτής προσφοράς (BT-710)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tender Value Lowest (BT-710)</SimpleValue>
+            <SimpleValue>Value of the lowest admissible tender (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor de la oferta más baja admisible (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Madalaima vastuvõetava pakkumuse väärtus (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alhaisin hyväksyttävän tarjouksen arvo (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur de l’offre recevable la plus basse (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach na tairisceana is ísle atá inghlactha (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vrijednost najniže prihvatljive ponude (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A legalacsonyabb érvényes ajánlat értéke (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore dell'offerta ammissibile più bassa (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Priimtino pasiūlymo, kurio vertė mažiausia, vertė (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zemākā pieņemamā piedāvājuma vērtība (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur tal-inqas offerta ammissibbli (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Waarde van de laagste ontvankelijke inschrijving (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wartość najniższej dopuszczalnej oferty (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor da proposta admissível mais baixa (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea celei mai mici oferte admisibile (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hodnota najnižšej prípustnej ponuky (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrednost najnižje dopustne ponudbe (BT-710)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Värdet för anbudet med det lägsta värdet som också var godtagbart (BT-710)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -621,8 +3588,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Value Concession Description (BT-163)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Метод, използван за изчисляване на прогнозната стойност на концесията (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Metoda použitá pro výpočet odhadované hodnoty koncese (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Metode, der er anvendt til at beregne den anslåede værdi af koncessionen (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Methode zur Berechnung des geschätzten Konzessionswerts (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μέθοδος που χρησιμοποιήθηκε για τον υπολογισμό της εκτιμώμενης αξίας της σύμβασης παραχώρησης (BT-163)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Value Concession Description (BT-163)</SimpleValue>
+            <SimpleValue>Method used for calculating the estimated value of the concession (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Método utilizado para calcular el valor estimado de la concesión (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kontsessiooni eeldatava maksumuse arvutamise meetod (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Käyttöoikeuden ennakoidun arvon laskentamenetelmä (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Méthode utilisée pour calculer la valeur estimée de la concession (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An modh a úsáidtear chun luach measta an lamháltais a ríomh (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Metoda za izračun procijenjene vrijednosti koncesije (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A koncesszió becsült értékének kiszámításához használt módszer (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Metodo utilizzato per calcolare il valore stimato della concessione (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Koncesijos metodas, kuriuo apskaičiuojama numatoma vertė (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Koncesijas paredzamās vērtības aprēķināšanai izmantotā metode (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Metodu użat għall-kalkolu tal-valur stmat tal-konċessjoni (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Voor de berekening van de geraamde waarde van de concessie gebruikte methode (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Metoda stosowana do obliczenia szacunkowej wartości koncesji (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Método utilizado para calcular o valor estimado da concessão (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Metoda utilizată pentru calcularea valorii estimate a concesiunii (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Metóda použitá na výpočet predpokladanej hodnoty koncesie (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Metoda, ki se uporablja za izračun načrtovane vrednosti koncesije (BT-163)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Metod som används för att få fram det beräknade värdet för koncessionen (BT-163)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -632,8 +3668,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Winner Chosen (BT-142)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Статус на избор на победител (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Status vítěze (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Status for valg af vinder (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gewinnerauswahlstatus (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κατάσταση επιλογής νικητή (BT-142)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Winner Chosen (BT-142)</SimpleValue>
+            <SimpleValue>Winner selection status (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Estado de selección de ganadores (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Võitja valiku staatus (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Voittajan valinnan tila (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Statut de la sélection des gagnants (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Stádas roghnúcháin na mbuaiteoirí (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Status odabira pobjednika (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A nyertes kiválasztásának státusza (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Stato di selezione dei vincitori (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Laimėtojo atrankos statusas (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Uzvarētāja atlases statuss (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Status tal-għażla tar-rebbieħ (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Winnaar selectie status (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Status wyboru zwycięzcy (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Status de seleção do vencedor (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Statutul selecției câștigătorului (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Stav výberu víťaza (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Status izbora zmagovalcev (BT-142)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Status för val av vinnare (BT-142)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -643,8 +3748,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Winning Tender Value (BT-720)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Стойност на резултата (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hodnota výsledku (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Værdien af resultatet (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wert des Ergebnisses (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αξία του αποτελέσματος (BT-720)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Winning Tender Value (BT-720)</SimpleValue>
+            <SimpleValue>Value of the result (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor del resultado (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tulemuse väärtus (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tuloksen arvo (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur du résultat (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach an toraidh (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vrijednost ishoda (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az eredmény értéke (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore del risultato (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rezultato vertė (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Rezultāta vērtība (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur tar-riżultat (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Waarde van het resultaat (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wartość wyniku (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor do resultado (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea rezultatului (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hodnota výsledku (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vrednost rezultata (BT-720)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Anbudsvärde (BT-720)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -654,8 +3828,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Winning Tender Variant (BT-193)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Офертата е вариант (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nabídka je variantou (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilbuddet er et alternativt tilbud (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bei dem Angebot handelt es sich um eine Variante (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η προσφορά αποτελεί παραλλαγή (BT-193)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Winning Tender Variant (BT-193)</SimpleValue>
+            <SimpleValue>The tender is a variant (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>La oferta es una variante (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumus on alternatiivne lahendus (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarjous on vaihtoehtotarjous (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L’offre est une variante (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Leagan malartach is ea an tairiscint (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Riječ je o alternativnoj ponudi (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az ajánlat az egyik változat (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'offerta è una variante (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Šis pasiūlymas yra alternatyvus (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piedāvājums ir variants (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-offerta hija varjant (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De inschrijving is een variant (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Oferta jest ofertą wariantową (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A proposta é uma variante (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Oferta este o variantă (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ponuka je variantné riešenie (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ponudba je variantna (BT-193)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Anbudet är ett alternativt anbud (BT-193)</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

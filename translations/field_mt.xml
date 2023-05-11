@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Parti</entry>
 <entry key="field|name|BT-13713-LotResult">Identifikatur tal-Lott tar-Riżultati</entry>
 <entry key="field|name|BT-13714-Tender">Identifikatur tal-lott jew tal-grupp ta’ lottijiet</entry>
-<entry key="field|name|BT-13716-notice">Taqsima li għaliha tapplika l-bidla</entry>
+<entry key="field|name|BT-13716-notice">Identifikatur tas-sezzjoni</entry>
 <entry key="field|name|BT-1375-Procedure">Lottijiet inklużi</entry>
 <entry key="field|name|BT-14-Lot">L-aċċess għal ċerti dokumenti tal-akkwist huwa ristrett</entry>
 <entry key="field|name|BT-14-Part">L-aċċess għal ċerti dokumenti tal-akkwist huwa ristrett</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Indirizz tad-dokumenti tal-akkwist</entry>
 <entry key="field|name|BT-15-Part">Indirizz tad-dokumenti tal-akkwist</entry>
 <entry key="field|name|BT-150-Contract">Identifikatur tal-kuntratt</entry>
-<entry key="field|name|BT-1501(n)-Contract">Identifikatur tat-taqsima li għandha tiġi mmodifikata f’avviż preċedenti</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifikatur tat-taqsima li għandha tiġi mmodifikata f’avviż preċedenti</entry>
+<entry key="field|name|BT-1501(n)-Contract">Identifikatur tas-sezzjoni</entry>
+<entry key="field|name|BT-1501(s)-Contract">Identifikatur tas-sezzjoni</entry>
 <entry key="field|name|BT-151-Contract">Indirizz tal-kuntratt</entry>
 <entry key="field|name|BT-156-NoticeResult">Il-valur massimu tal-ftehimiet qafas f’dan il-grupp ta’ lottijiet</entry>
 <entry key="field|name|BT-1561-NoticeResult">Valur stmat mill-ġdid tal-ftehimiet qafas fi ħdan grupp ta’ lottijiet</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Numru tar-reġistrazzjoni</entry>
 <entry key="field|name|BT-501-Business-National">Numru tar-reġistrazzjoni</entry>
 <entry key="field|name|BT-501-Organization-Company">Numru tar-reġistrazzjoni</entry>
-<entry key="field|name|BT-5010-Lot">Identifikatur</entry>
+<entry key="field|name|BT-5010-Lot">Identifikatur tal-fondi tal-UE</entry>
 <entry key="field|name|BT-5011-Contract">Identifikatur tal-fondi tal-UE</entry>
 <entry key="field|name|BT-502-Business">Punt ta’ kuntatt</entry>
 <entry key="field|name|BT-502-Organization-Company">Punt ta’ kuntatt</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Numru massimu ta’ tiġdid</entry>
 <entry key="field|name|BT-60-Lot">L-akkwist huwa mill-inqas parzjalment iffinanzjat mill-fondi tal-Unjoni Ewropea</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Attività tal-entità kontraenti</entry>
-<entry key="field|name|BT-6110-Contract">Deskrizzjoni</entry>
-<entry key="field|name|BT-6140-Lot">Aktar informazzjoni dwar il-programm jew il-proġett tal-Unjoni użat mill-inqas parzjalment jiffinanzja l-akkwist</entry>
+<entry key="field|name|BT-6110-Contract">Aktar dettalji dwar il-Fondi tal-UE</entry>
+<entry key="field|name|BT-6140-Lot">Aktar dettalji dwar il-Fondi tal-UE</entry>
 <entry key="field|name|BT-615-Lot">Informazzjoni dwar id-dokumenti ristretti hija disponibbli fuq</entry>
 <entry key="field|name|BT-615-Part">Informazzjoni dwar id-dokumenti ristretti hija disponibbli fuq</entry>
 <entry key="field|name|BT-625-Lot">Unità</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Valur tar-riżultat</entry>
 <entry key="field|name|BT-721-Contract">Titlu</entry>
 <entry key="field|name|BT-722-Contract">Isem il-proġett jew il-programm iffinanzjat mill-UE</entry>
-<entry key="field|name|BT-7220-Lot">Il-programm tal-fondi tal-Unjoni użat biex mill-inqas jiffinanzja parzjalment il-kuntratt</entry>
+<entry key="field|name|BT-7220-Lot">Programm ta’ Fondi tal-UE</entry>
 <entry key="field|name|BT-723-LotResult">Il-kategorija ta’ vettura li taqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE, inkluż: Vetturi ħfief (M1, M2, N1); Xarabank (M3); Trakk (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Dan l-akkwist huwa adattat ukoll għall-intrapriżi żgħar u ta’ daqs medju (SMEs)</entry>
 <entry key="field|name|BT-726-LotsGroup">Dan l-akkwist huwa adattat ukoll għall-intrapriżi żgħar u ta’ daqs medju (SMEs)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Tip ta’ servizz ipprovdut</entry>
 <entry key="field|name|OPT-050-Lot">Status tad-dokument</entry>
 <entry key="field|name|OPT-050-Part">Status tad-dokument</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Kodiċi tar-rekwiżit tal-eżekuzzjoni</entry>
 <entry key="field|name|OPT-070-Lot">L-eżekuzzjoni tas-servizz hija riżervata għal professjoni partikolari. Referenza għal-liġi, regolament jew proċedura amministrattiva rilevanti</entry>
 <entry key="field|name|OPT-071-Lot">Kodiċi tal-mira ta’ kwalità</entry>
 <entry key="field|name|OPT-072-Lot">Deskrizzjoni tal-mira tal-kwalità</entry>

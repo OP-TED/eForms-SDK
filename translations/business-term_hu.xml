@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Eredmény tétel azonosító</entry>
 <entry key="business-term|name|BT-13714">A rész vagy a részcsoport azonosítója</entry>
 <entry key="business-term|name|BT-13715">További információk Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">A változtatással érintett szakasz</entry>
+<entry key="business-term|name|BT-13716">A szakasz azonosítója</entry>
 <entry key="business-term|name|BT-13717">Feltételek Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Dokumentumok Lot Identifier</entry>
 <entry key="business-term|name|BT-13719">A benyújtási tétel azonosítója</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">A nyertes kiválasztásának időpontja</entry>
 <entry key="business-term|name|BT-15">A közbeszerzési dokumentumok címe</entry>
 <entry key="business-term|name|BT-150">A szerződés azonosítója</entry>
-<entry key="business-term|name|BT-1501">Az előző hirdetményben módosítandó rész azonosítója</entry>
+<entry key="business-term|name|BT-1501">A szakasz azonosítója</entry>
 <entry key="business-term|name|BT-151">A szerződés címe</entry>
 <entry key="business-term|name|BT-156">Az ebbe a tételcsoportba tartozó keretmegállapodások maximális értéke</entry>
 <entry key="business-term|name|BT-1561">A keretmegállapodások újrabecsült értéke egy tételcsoporton belül</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Az eljárás második szakaszára min. ennyi jelentkezőt kell meghívni</entry>
 <entry key="business-term|name|BT-500">Hivatalos név</entry>
 <entry key="business-term|name|BT-501">Regisztrációs szám</entry>
-<entry key="business-term|name|BT-5010">Azonosító</entry>
+<entry key="business-term|name|BT-5010">Az uniós alapok azonosítója</entry>
 <entry key="business-term|name|BT-5011">Az uniós alapok azonosítója</entry>
 <entry key="business-term|name|BT-502">Kapcsolattartó pont</entry>
 <entry key="business-term|name|BT-503">Telefonszám</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">A megújítások maximális száma</entry>
 <entry key="business-term|name|BT-60">A közbeszerzést legalább részben európai uniós forrásokból finanszírozzák</entry>
 <entry key="business-term|name|BT-610">A közszolgáltató ajánlatkérő tevékenysége</entry>
-<entry key="business-term|name|BT-6110">Leírás</entry>
-<entry key="business-term|name|BT-6140">További információk a közbeszerzést legalább részben finanszírozó uniós programról vagy projektről</entry>
+<entry key="business-term|name|BT-6110">További részletek az uniós alapokról</entry>
+<entry key="business-term|name|BT-6140">További részletek az uniós alapokról</entry>
 <entry key="business-term|name|BT-615">A korlátozott hozzáférésű dokumentumokra vonatkozó információk elérhetők itt</entry>
 <entry key="business-term|name|BT-625">Egység</entry>
 <entry key="business-term|name|BT-63">Változatok</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Az eredmény értéke</entry>
 <entry key="business-term|name|BT-721">Cím</entry>
 <entry key="business-term|name|BT-722">Az uniós finanszírozású projekt vagy program neve</entry>
-<entry key="business-term|name|BT-7220">A szerződés legalább részleges finanszírozására felhasznált uniós alapok programja</entry>
+<entry key="business-term|name|BT-7220">Az uniós alapok programja</entry>
 <entry key="business-term|name|BT-723">A 2009/33/EK irányelv hatálya alá tartozó járművek kategóriája, beleértve a következőket: Könnyű haszongépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Ad hoc kommunikációs eszköz használata</entry>
 <entry key="business-term|name|BT-725">A nulla kibocsátású nehézgépjárművek száma</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">A nyújtott szolgáltatás típusa</entry>
 <entry key="business-term|name|OPT-050">A dokumentum státusza</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">A végrehajtási követelmény kódja</entry>
 <entry key="business-term|name|OPT-070">A szolgáltatás teljesítése egy adott szakma számára van fenntartva. Hivatkozás a vonatkozó törvényi, rendeleti vagy közigazgatási eljárásra</entry>
 <entry key="business-term|name|OPT-071">Minőségi célkód</entry>
 <entry key="business-term|name|OPT-072">A minőségi célleírás</entry>

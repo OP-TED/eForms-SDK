@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Avviż</entry>
 <entry key="group|name|GR-Buyer">Parti kontraenti u fornitur ta’ servizz</entry>
 <entry key="group|name|GR-Change">Fil-klima</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Taqsima li għaliha tapplika l-bidla</entry>
 <entry key="group|name|GR-Company">Organizzazzjoni</entry>
 <entry key="group|name|GR-Company-Address">Indirizz</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informazzjoni relatata esklussivament max-xerrej</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Termini tal-offerti</entry>
 <entry key="group|name|GR-Metadata">Metadata</entry>
 <entry key="group|name|GR-Modification">Modifika</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Taqsima li għaliha tapplika l-bidla</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Riżultat</entry>
 <entry key="group|name|GR-Organisations">Organizzazzjonijiet imsemmija fl-avviż</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Fondi tal-UE użati fil-kuntratt</entry>
 <entry key="group|name|ND-ContractModification">Modifika</entry>
 <entry key="group|name|ND-ContractingParty">Xerrej</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Liġi transkonfinali</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Kodiċi tal-ġustifikazzjoni tal-għoti dirett (ippubblikat aktar tard)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Id tal-proċedura preċedenti li tiġġustifika l-għoti dirett (ippubblikata aktar tard)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Ġustifikazzjoni għall-għoti dirett (ippubblikata aktar tard)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Kundizzjonijiet minbarra l-allokazzjoni tad-dħul</entry>
 <entry key="group|name|ND-Part">L-oħra</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Klassifikazzjoni addizzjonali</entry>
+<entry key="group|name|ND-PartMainClassification">Klassifikazzjoni għall-komodità ewlenija ta’ parti</entry>
 <entry key="group|name|ND-PartPlacePerformance">Post ta’ eżekuzzjoni</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Referenza tal-ippjanar preċedenti</entry>
 <entry key="group|name|ND-PartReservedProcurement">Akkwist riżervat</entry>

@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Identificateur de lot de résultat</entry>
 <entry key="business-term|name|BT-13714">Identifiant du lot ou groupe de lots</entry>
 <entry key="business-term|name|BT-13715">Informations supplémentaires Identificateur de lot</entry>
-<entry key="business-term|name|BT-13716">Section à laquelle s’applique la modification</entry>
+<entry key="business-term|name|BT-13716">Identifiant de la section</entry>
 <entry key="business-term|name|BT-13717">Termes Identificateur de lot</entry>
 <entry key="business-term|name|BT-13718">Identifiant de lot de documents</entry>
 <entry key="business-term|name|BT-13719">Identificateur de lot de soumission</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Date à laquelle le lauréat a été choisi</entry>
 <entry key="business-term|name|BT-15">Adresse des documents de marché</entry>
 <entry key="business-term|name|BT-150">Identifiant du marché</entry>
-<entry key="business-term|name|BT-1501">Identifiant de la section à modifier dans un avis antérieur</entry>
+<entry key="business-term|name|BT-1501">Identifiant de la section</entry>
 <entry key="business-term|name|BT-151">Adresse du marché</entry>
 <entry key="business-term|name|BT-156">Valeur maximale des accords-cadres dans ce groupe de lots</entry>
 <entry key="business-term|name|BT-1561">Valeur réévaluée des accords-cadres au sein d’un groupe de lots</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</entry>
 <entry key="business-term|name|BT-500">Nom officiel</entry>
 <entry key="business-term|name|BT-501">Numéro d’enregistrement</entry>
-<entry key="business-term|name|BT-5010">Identifiant</entry>
+<entry key="business-term|name|BT-5010">Identifiant des fonds de l’UE</entry>
 <entry key="business-term|name|BT-5011">Identifiant des fonds de l’UE</entry>
 <entry key="business-term|name|BT-502">Point de contact</entry>
 <entry key="business-term|name|BT-503">Téléphone</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Nombre maximal de renouvellements</entry>
 <entry key="business-term|name|BT-60">Le marché est au moins partiellement financé par des fonds de l’Union européenne</entry>
 <entry key="business-term|name|BT-610">Activité de l’entité adjudicatrice</entry>
-<entry key="business-term|name|BT-6110">Description</entry>
-<entry key="business-term|name|BT-6140">Plus d’informations sur le programme ou le projet de l’Union utilisé pour financer au moins partiellement la passation de marchés</entry>
+<entry key="business-term|name|BT-6110">Plus de détails sur les fonds de l’UE</entry>
+<entry key="business-term|name|BT-6140">Plus de détails sur les fonds de l’UE</entry>
 <entry key="business-term|name|BT-615">Des informations sur les documents restreints sont disponibles à l’adresse suivante</entry>
 <entry key="business-term|name|BT-625">Unité</entry>
 <entry key="business-term|name|BT-63">Variantes</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Valeur du résultat</entry>
 <entry key="business-term|name|BT-721">Titre</entry>
 <entry key="business-term|name|BT-722">Nom du projet ou programme financé par l’UE</entry>
-<entry key="business-term|name|BT-7220">Le programme des fonds de l’Union utilisés pour financer au moins partiellement le contrat</entry>
+<entry key="business-term|name|BT-7220">Programme de fonds de l’UE</entry>
 <entry key="business-term|name|BT-723">La catégorie de véhicules relevant du champ d’application de la directive 2009/33/CE, y compris: Véhicules légers (M1, M2, N1); Autobus (M3); Camion (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Un outil de communication ad hoc est utilisé</entry>
 <entry key="business-term|name|BT-725">Nombre de véhicules lourds à émissions nulles</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Type de service fourni</entry>
 <entry key="business-term|name|OPT-050">Statut du document</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Code des exigences d’exécution</entry>
 <entry key="business-term|name|OPT-070">L’exécution du service est réservée à une profession particulière. Référence à la législation, à la réglementation ou à la procédure administrative pertinente</entry>
 <entry key="business-term|name|OPT-071">Code cible de qualité</entry>
 <entry key="business-term|name|OPT-072">Description de l’objectif de qualité</entry>

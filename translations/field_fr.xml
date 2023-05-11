@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Partie</entry>
 <entry key="field|name|BT-13713-LotResult">Identificateur de lot de résultat</entry>
 <entry key="field|name|BT-13714-Tender">Identifiant du lot ou groupe de lots</entry>
-<entry key="field|name|BT-13716-notice">Section à laquelle s’applique la modification</entry>
+<entry key="field|name|BT-13716-notice">Identifiant de la section</entry>
 <entry key="field|name|BT-1375-Procedure">Lots inclus</entry>
 <entry key="field|name|BT-14-Lot">L’accès à certains documents de marché est limité</entry>
 <entry key="field|name|BT-14-Part">L’accès à certains documents de marché est limité</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Adresse des documents de marché</entry>
 <entry key="field|name|BT-15-Part">Adresse des documents de marché</entry>
 <entry key="field|name|BT-150-Contract">Identifiant du marché</entry>
-<entry key="field|name|BT-1501(n)-Contract">Identifiant de la section à modifier dans un avis antérieur</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifiant de la section à modifier dans un avis antérieur</entry>
+<entry key="field|name|BT-1501(n)-Contract">Identifiant de la section</entry>
+<entry key="field|name|BT-1501(s)-Contract">Identifiant de la section</entry>
 <entry key="field|name|BT-151-Contract">Adresse du marché</entry>
 <entry key="field|name|BT-156-NoticeResult">Valeur maximale des accords-cadres dans ce groupe de lots</entry>
 <entry key="field|name|BT-1561-NoticeResult">Valeur réévaluée des accords-cadres au sein d’un groupe de lots</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Numéro d’enregistrement</entry>
 <entry key="field|name|BT-501-Business-National">Numéro d’enregistrement</entry>
 <entry key="field|name|BT-501-Organization-Company">Numéro d’enregistrement</entry>
-<entry key="field|name|BT-5010-Lot">Identifiant</entry>
+<entry key="field|name|BT-5010-Lot">Identifiant des fonds de l’UE</entry>
 <entry key="field|name|BT-5011-Contract">Identifiant des fonds de l’UE</entry>
 <entry key="field|name|BT-502-Business">Point de contact</entry>
 <entry key="field|name|BT-502-Organization-Company">Point de contact</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Nombre maximal de renouvellements</entry>
 <entry key="field|name|BT-60-Lot">Le marché est au moins partiellement financé par des fonds de l’Union européenne</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Activité de l’entité adjudicatrice</entry>
-<entry key="field|name|BT-6110-Contract">Description</entry>
-<entry key="field|name|BT-6140-Lot">Plus d’informations sur le programme ou le projet de l’Union utilisé pour financer au moins partiellement la passation de marchés</entry>
+<entry key="field|name|BT-6110-Contract">Plus de détails sur les fonds de l’UE</entry>
+<entry key="field|name|BT-6140-Lot">Plus de détails sur les fonds de l’UE</entry>
 <entry key="field|name|BT-615-Lot">Des informations sur les documents restreints sont disponibles à l’adresse suivante</entry>
 <entry key="field|name|BT-615-Part">Des informations sur les documents restreints sont disponibles à l’adresse suivante</entry>
 <entry key="field|name|BT-625-Lot">Unité</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Valeur du résultat</entry>
 <entry key="field|name|BT-721-Contract">Titre</entry>
 <entry key="field|name|BT-722-Contract">Nom du projet ou programme financé par l’UE</entry>
-<entry key="field|name|BT-7220-Lot">Le programme des fonds de l’Union utilisés pour financer au moins partiellement le contrat</entry>
+<entry key="field|name|BT-7220-Lot">Programme de fonds de l’UE</entry>
 <entry key="field|name|BT-723-LotResult">La catégorie de véhicules relevant du champ d’application de la directive 2009/33/CE, y compris: Véhicules légers (M1, M2, N1); Autobus (M3); Camion (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Le marché en question convient aussi aux petites et moyennes entreprises (PME)</entry>
 <entry key="field|name|BT-726-LotsGroup">Le marché en question convient aussi aux petites et moyennes entreprises (PME)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Type de service fourni</entry>
 <entry key="field|name|OPT-050-Lot">Statut du document</entry>
 <entry key="field|name|OPT-050-Part">Statut du document</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Code des exigences d’exécution</entry>
 <entry key="field|name|OPT-070-Lot">L’exécution du service est réservée à une profession particulière. Référence à la législation, à la réglementation ou à la procédure administrative pertinente</entry>
 <entry key="field|name|OPT-071-Lot">Code cible de qualité</entry>
 <entry key="field|name|OPT-072-Lot">Description de l’objectif de qualité</entry>

@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Identificatorul lotului de rezultate</entry>
 <entry key="business-term|name|BT-13714">Identificatorul lotului sau al grupului de loturi</entry>
 <entry key="business-term|name|BT-13715">Informații suplimentare Identificator Lot</entry>
-<entry key="business-term|name|BT-13716">Secțiunea căreia i se aplică modificarea</entry>
+<entry key="business-term|name|BT-13716">Identificatorul secțiunii</entry>
 <entry key="business-term|name|BT-13717">Termeni Identificator Lot</entry>
 <entry key="business-term|name|BT-13718">Identificatorul lotului de documente</entry>
 <entry key="business-term|name|BT-13719">Identificatorul lotului de depunere</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Data la care a fost ales câștigătorul</entry>
 <entry key="business-term|name|BT-15">Unde se găsesc documentele achiziției</entry>
 <entry key="business-term|name|BT-150">Identificatorul contractului</entry>
-<entry key="business-term|name|BT-1501">Identificatorul secțiunii care trebuie modificată într-un anunț anterior</entry>
+<entry key="business-term|name|BT-1501">Identificatorul secțiunii</entry>
 <entry key="business-term|name|BT-151">Adresa contractului</entry>
 <entry key="business-term|name|BT-156">Valoarea maximă a acordurilor-cadru din acest grup de loturi</entry>
 <entry key="business-term|name|BT-1561">Valoarea reestimată a acordurilor-cadru în cadrul unui grup de loturi</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Numărul minim de candidați care urmează să fie invitați în a doua etapă a procedurii</entry>
 <entry key="business-term|name|BT-500">Denumire oficială</entry>
 <entry key="business-term|name|BT-501">Număr de înregistrare</entry>
-<entry key="business-term|name|BT-5010">Identificator</entry>
+<entry key="business-term|name|BT-5010">Identificatorul fondurilor UE</entry>
 <entry key="business-term|name|BT-5011">Identificatorul fondurilor UE</entry>
 <entry key="business-term|name|BT-502">Punct de contact</entry>
 <entry key="business-term|name|BT-503">Telefon</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Numărul maxim de reînnoiri</entry>
 <entry key="business-term|name|BT-60">Achiziția publică este finanțată cel puțin parțial din fonduri ale Uniunii Europene</entry>
 <entry key="business-term|name|BT-610">Activitatea entității contractante</entry>
-<entry key="business-term|name|BT-6110">Descriere</entry>
-<entry key="business-term|name|BT-6140">Informații suplimentare cu privire la programul sau proiectul Uniunii utilizat cel puțin parțial pentru finanțarea achizițiilor publice</entry>
+<entry key="business-term|name|BT-6110">Detalii suplimentare privind fondurile UE</entry>
+<entry key="business-term|name|BT-6140">Detalii suplimentare privind fondurile UE</entry>
 <entry key="business-term|name|BT-615">Unde se găsesc informații despre documentele restricționate</entry>
 <entry key="business-term|name|BT-625">Unitate</entry>
 <entry key="business-term|name|BT-63">Variante</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Valoarea rezultatului</entry>
 <entry key="business-term|name|BT-721">Titlu</entry>
 <entry key="business-term|name|BT-722">Denumirea proiectului sau a programului finanțat de UE</entry>
-<entry key="business-term|name|BT-7220">Programul fondurilor Uniunii utilizat pentru a finanța cel puțin parțial contractul</entry>
+<entry key="business-term|name|BT-7220">Programul Fonduri UE</entry>
 <entry key="business-term|name|BT-723">Categoria de vehicule care intră în domeniul de aplicare al Directivei 2009/33/CE, inclusiv: Vehicule ușoare (M1, M2, N1); Autobuz (M3); Camion (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Se utilizează un instrument de comunicare ad hoc</entry>
 <entry key="business-term|name|BT-725">Numărul de vehicule grele cu emisii zero</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Tipul de serviciu furnizat</entry>
 <entry key="business-term|name|OPT-050">Statutul documentului</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Codul cerinței de executare</entry>
 <entry key="business-term|name|OPT-070">Executarea serviciului este rezervată unei anumite profesii. Trimitere la actele cu putere de lege și actele administrative relevante</entry>
 <entry key="business-term|name|OPT-071">Cod țintă de calitate</entry>
 <entry key="business-term|name|OPT-072">Descrierea obiectivului de calitate</entry>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>CanTran</ShortName>
       <LongName>can-tran</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.7.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>T02</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за информация за възлагане на обществена поръчка за услуги</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení informací o zadání veřejné zakázky na služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om indgåelse af offentlig tjenesteydelseskontrakt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung über vergebene öffentliche Dienstleistungsaufträge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση ανάθεσης σύμβασης παροχής δημόσιας υπηρεσίας</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>T02</SimpleValue>
+            <SimpleValue>Information notice for award of public service contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información para la adjudicación de un contrato de servicio público</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Avaliku teenindamise lepingu teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus julkisia palveluhankintoja koskevan sopimuksen tekemisestä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis d'information relatif à l'attribution d'un contrat de service public</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra faisnéise maidir le conradh seirbhíse poiblí a dhámhachtain</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Informacijska obavijest za sklapanje ugovora o javnim uslugama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Közszolgáltatási szerződés odaítélésére vonatkozó tájékoztató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di informazione relativo all'aggiudicazione di un contratto di servizio pubblico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Informacinis skelbimas dėl viešųjų paslaugų sutarties sudarymo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Informatīvs paziņojums par pakalpojumu valsts līguma piešķiršanu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta' tagħrif dwar l-għoti ta' kuntratt ta' servizz pubbliku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging voor gunning van een openbaredienstcontract</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie informacyjne w celu udzielenia zamówienia prowadzącego do zawarcia umowy o świadczenie usług publicznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de informação para a adjudicação de um contrato de serviço público</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunţ de informare privind atribuirea unui contract de servicii publice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o zadaní zmlúv o službách vo verejnom záujme</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Informativno obvestilo za sklenitev pogodbe o izvajanju javne službe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Informationsmeddelande om tilldelning av offentligt tjänstekontrakt</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

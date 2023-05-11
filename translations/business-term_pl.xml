@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Wynik Identyfikator partii</entry>
 <entry key="business-term|name|BT-13714">Identyfikator części zamówienia lub grupy części</entry>
 <entry key="business-term|name|BT-13715">Dodatkowe informacje Identyfikator partii</entry>
-<entry key="business-term|name|BT-13716">Sekcja, w której wprowadzono zmianę</entry>
+<entry key="business-term|name|BT-13716">Identyfikator sekcji</entry>
 <entry key="business-term|name|BT-13717">Warunki Identyfikator partii</entry>
 <entry key="business-term|name|BT-13718">Dokumenty Identyfikator partii</entry>
 <entry key="business-term|name|BT-13719">Identyfikator partii składania</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Data wyboru zwycięzcy</entry>
 <entry key="business-term|name|BT-15">Adres dokumentów zamówienia</entry>
 <entry key="business-term|name|BT-150">Identyfikator zamówienia</entry>
-<entry key="business-term|name|BT-1501">Identyfikator sekcji w poprzednim ogłoszeniu, która jest modyfikowana</entry>
+<entry key="business-term|name|BT-1501">Identyfikator sekcji</entry>
 <entry key="business-term|name|BT-151">Adres zamówienia</entry>
 <entry key="business-term|name|BT-156">Maksymalna wartość umów ramowych w tej grupie części</entry>
 <entry key="business-term|name|BT-1561">Ponowna szacunkowa wartość umów ramowych w ramach grupy części</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Minimalna liczba kandydatów, którzy zostaną zaproszeni do udziału w drugim etapie procedury</entry>
 <entry key="business-term|name|BT-500">Oficjalna nazwa</entry>
 <entry key="business-term|name|BT-501">Numer rejestracyjny</entry>
-<entry key="business-term|name|BT-5010">Identyfikator</entry>
+<entry key="business-term|name|BT-5010">Identyfikator funduszy UE</entry>
 <entry key="business-term|name|BT-5011">Identyfikator funduszy UE</entry>
 <entry key="business-term|name|BT-502">Punkt kontaktowy</entry>
 <entry key="business-term|name|BT-503">Telefon</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Maksymalna liczba wznowień</entry>
 <entry key="business-term|name|BT-60">Zamówienie jest przynajmniej częściowo finansowane ze środków Unii Europejskiej</entry>
 <entry key="business-term|name|BT-610">Sektor działalności podmiotu zamawiającego</entry>
-<entry key="business-term|name|BT-6110">Opis</entry>
-<entry key="business-term|name|BT-6140">Dalsze informacje na temat unijnego programu lub projektu wykorzystanego co najmniej częściowo finansują zamówienia</entry>
+<entry key="business-term|name|BT-6110">Więcej informacji na temat funduszy UE</entry>
+<entry key="business-term|name|BT-6140">Więcej informacji na temat funduszy UE</entry>
 <entry key="business-term|name|BT-615">Informacje o zastrzeżonych dokumentach są dostępne pod adresem</entry>
 <entry key="business-term|name|BT-625">Jednostka</entry>
 <entry key="business-term|name|BT-63">Oferty wariantowe</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Wartość wyniku</entry>
 <entry key="business-term|name|BT-721">Tytuł</entry>
 <entry key="business-term|name|BT-722">Nazwa projektu lub programu finansowanego przez UE</entry>
-<entry key="business-term|name|BT-7220">Program funduszy unijnych wykorzystany do przynajmniej częściowego finansowania umowy</entry>
+<entry key="business-term|name|BT-7220">Program funduszy UE</entry>
 <entry key="business-term|name|BT-723">Kategorii pojazdów objętych zakresem dyrektywy 2009/33/WE, w tym: Pojazdy lekkie (M1, M2, N1); Autobus (M3); Ciężarówka (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Wykorzystywane jest narzędzie komunikacji ad hoc</entry>
 <entry key="business-term|name|BT-725">Liczba bezemisyjnych pojazdów ciężkich</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Rodzaj świadczonej usługi</entry>
 <entry key="business-term|name|OPT-050">Status dokumentu</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Kod wymogu wykonania</entry>
 <entry key="business-term|name|OPT-070">Wykonanie usługi jest zastrzeżone dla określonego zawodu. Odniesienie do odpowiednich przepisów ustawowych, wykonawczych lub procedur administracyjnych</entry>
 <entry key="business-term|name|OPT-071">Kod docelowy jakości</entry>
 <entry key="business-term|name|OPT-072">Opis celu w zakresie jakości</entry>

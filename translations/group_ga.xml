@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Fógra</entry>
 <entry key="group|name|GR-Buyer">Páirtí conarthach agus soláthraí seirbhíse</entry>
 <entry key="group|name|GR-Change">Athraigh</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">An rannóg lena mbaineann an t-athrú</entry>
 <entry key="group|name|GR-Company">Eagraíocht</entry>
 <entry key="group|name|GR-Company-Address">Seoladh</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Faisnéis a bhaineann go heisiach leis an gceannaitheoir</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Téarmaí tairisceana</entry>
 <entry key="group|name|GR-Metadata">Meiteashonraí</entry>
 <entry key="group|name|GR-Modification">Modhnú</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">An rannóg lena mbaineann an t-athrú</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Toradh</entry>
 <entry key="group|name|GR-Organisations">Eagraíochtaí a luaitear san fhógra</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Cistí AE a úsáidtear sa chonradh</entry>
 <entry key="group|name|ND-ContractModification">Modhnú</entry>
 <entry key="group|name|ND-ContractingParty">Ceannaitheoir</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Dlí trasteorann</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Cód dlisteanaithe dámhachtana dírí (a foilsíodh níos déanaí)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Aitheantas an nós imeachta roimhe sin lena dtugtar údar maith le dámhachtain dhíreach (a foilsíodh níos déanaí)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">An t-údar atá le dámhachtain dhíreach (arna fhoilsiú níos déanaí)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Coinníollacha seachas leithdháileadh ioncaim</entry>
 <entry key="group|name|ND-Part">Cuid</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Aicmiú breise</entry>
+<entry key="group|name|ND-PartMainClassification">Aicmiú don phríomh-tráchtearra de chuid</entry>
 <entry key="group|name|ND-PartPlacePerformance">Áit taibhithe</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Tagairt pleanála roimhe seo</entry>
 <entry key="group|name|ND-PartReservedProcurement">Soláthar forchoimeádta</entry>

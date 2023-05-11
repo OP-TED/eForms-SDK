@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Iedaļa</entry>
 <entry key="field|name|BT-13713-LotResult">Rezultāts Lot Identifier</entry>
 <entry key="field|name|BT-13714-Tender">Daļas vai daļu grupas identifikators</entry>
-<entry key="field|name|BT-13716-notice">Sadaļa, uz kuru attiecas izmaiņas</entry>
+<entry key="field|name|BT-13716-notice">Iedaļas identifikators</entry>
 <entry key="field|name|BT-1375-Procedure">Iekļautās daļas</entry>
 <entry key="field|name|BT-14-Lot">Piekļuve konkrētiem iepirkuma procedūras dokumentiem ir ierobežota</entry>
 <entry key="field|name|BT-14-Part">Piekļuve konkrētiem iepirkuma procedūras dokumentiem ir ierobežota</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Adrese, kur pieejami iepirkuma dokumenti</entry>
 <entry key="field|name|BT-15-Part">Adrese, kur pieejami iepirkuma dokumenti</entry>
 <entry key="field|name|BT-150-Contract">Līguma identifikators</entry>
-<entry key="field|name|BT-1501(n)-Contract">Grozāmās sadaļas identifikators iepriekšējā paziņojumā</entry>
-<entry key="field|name|BT-1501(s)-Contract">Grozāmās sadaļas identifikators iepriekšējā paziņojumā</entry>
+<entry key="field|name|BT-1501(n)-Contract">Iedaļas identifikators</entry>
+<entry key="field|name|BT-1501(s)-Contract">Iedaļas identifikators</entry>
 <entry key="field|name|BT-151-Contract">Līguma adrese</entry>
 <entry key="field|name|BT-156-NoticeResult">Pamatnolīgumu maksimālā vērtība šajā daļu grupā</entry>
 <entry key="field|name|BT-1561-NoticeResult">Pamatnolīgumu pārvērtētā vērtība daļu grupas ietvaros</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Reģistrācijas numurs</entry>
 <entry key="field|name|BT-501-Business-National">Reģistrācijas numurs</entry>
 <entry key="field|name|BT-501-Organization-Company">Reģistrācijas numurs</entry>
-<entry key="field|name|BT-5010-Lot">Identifikācijas numurs</entry>
+<entry key="field|name|BT-5010-Lot">ES finansējuma identifikators</entry>
 <entry key="field|name|BT-5011-Contract">ES finansējuma identifikators</entry>
 <entry key="field|name|BT-502-Business">Kontaktpunkts</entry>
 <entry key="field|name|BT-502-Organization-Company">Kontaktpunkts</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Maksimālais pārjaunojumu skaits</entry>
 <entry key="field|name|BT-60-Lot">Iepirkumu vismaz daļēji finansē no Eiropas Savienības līdzekļiem</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Līgumslēdzēja darbības joma</entry>
-<entry key="field|name|BT-6110-Contract">Apraksts</entry>
-<entry key="field|name|BT-6140-Lot">Papildu informācija par Savienības programmu vai projektu, kas vismaz daļēji izmantots iepirkuma finansēšanai</entry>
+<entry key="field|name|BT-6110-Contract">Sīkāka informācija par ES fondiem</entry>
+<entry key="field|name|BT-6140-Lot">Sīkāka informācija par ES fondiem</entry>
 <entry key="field|name|BT-615-Lot">Adrese, kur pieejama informācija par dokumentiem ar ierobežotu piekļuvi</entry>
 <entry key="field|name|BT-615-Part">Adrese, kur pieejama informācija par dokumentiem ar ierobežotu piekļuvi</entry>
 <entry key="field|name|BT-625-Lot">Mērvienība</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Rezultāta vērtība</entry>
 <entry key="field|name|BT-721-Contract">Nosaukums</entry>
 <entry key="field|name|BT-722-Contract">ES finansētā projekta vai programmas nosaukums</entry>
-<entry key="field|name|BT-7220-Lot">Savienības līdzekļu programma, ko izmanto, lai vismaz daļēji finansētu līgumu</entry>
+<entry key="field|name|BT-7220-Lot">ES fondu programma</entry>
 <entry key="field|name|BT-723-LotResult">Transportlīdzekļu kategorija, kas ietilpst Direktīvas 2009/33/EK darbības jomā, tostarp: Mazas noslodzes transportlīdzekļi (M1, M2, N1); Autobuss (M3); Kravas automašīna (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Šis iepirkums ir piemērots arī maziem un vidējiem uzņēmumiem (MVU)</entry>
 <entry key="field|name|BT-726-LotsGroup">Šis iepirkums ir piemērots arī maziem un vidējiem uzņēmumiem (MVU)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Sniegtā pakalpojuma veids</entry>
 <entry key="field|name|OPT-050-Lot">Dokumenta statuss</entry>
 <entry key="field|name|OPT-050-Part">Dokumenta statuss</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Izpildes prasības kods</entry>
 <entry key="field|name|OPT-070-Lot">Pakalpojuma izpilde ir rezervēta konkrētai profesijai. Atsauce uz attiecīgajiem normatīvajiem vai administratīvajiem aktiem</entry>
 <entry key="field|name|OPT-071-Lot">Kvalitātes mērķa kods</entry>
 <entry key="field|name|OPT-072-Lot">Kvalitātes mērķa apraksts</entry>

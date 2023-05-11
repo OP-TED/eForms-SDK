@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Resultat Lot Identifier</entry>
 <entry key="business-term|name|BT-13714">Identifikator for delkontrakt eller gruppe af delkontrakter</entry>
 <entry key="business-term|name|BT-13715">Supplerende oplysninger Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Afsnit, som ændringen gælder for</entry>
+<entry key="business-term|name|BT-13716">Afsnitsidentifikator</entry>
 <entry key="business-term|name|BT-13717">Termer Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Dokumenter Lot Identifier</entry>
 <entry key="business-term|name|BT-13719">Identifikation af indsendelsespartiet</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Datoen for udvælgelsen af det vindende tilbud</entry>
 <entry key="business-term|name|BT-15">Adresse på udbudsdokumenterne</entry>
 <entry key="business-term|name|BT-150">Identifikator for kontrakten</entry>
-<entry key="business-term|name|BT-1501">Identifikator for det afsnit, der skal ændres i en tidligere bekendtgørelse</entry>
+<entry key="business-term|name|BT-1501">Afsnitsidentifikator</entry>
 <entry key="business-term|name|BT-151">Kontraktens adresse</entry>
 <entry key="business-term|name|BT-156">Maksimumsværdien af rammeaftalerne i denne gruppe af delkontrakter</entry>
 <entry key="business-term|name|BT-1561">Omvurderet værdi af rammeaftalerne inden for en gruppe af delkontrakter</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Mindsteantallet af ansøgere, som skal opfordres til at deltage i anden fase af proceduren</entry>
 <entry key="business-term|name|BT-500">Officielt navn</entry>
 <entry key="business-term|name|BT-501">Registreringsnummer</entry>
-<entry key="business-term|name|BT-5010">Identifikator</entry>
+<entry key="business-term|name|BT-5010">Identifikator for EU-støtte</entry>
 <entry key="business-term|name|BT-5011">Identifikator for EU-støtte</entry>
 <entry key="business-term|name|BT-502">Kontaktpunkt</entry>
 <entry key="business-term|name|BT-503">Telefon</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Højeste antal fornyelser</entry>
 <entry key="business-term|name|BT-60">Udbuddet er som minimum delvist finansieret ved hjælp af EU-støtte</entry>
 <entry key="business-term|name|BT-610">Den ordregivende enheds aktiviteter</entry>
-<entry key="business-term|name|BT-6110">Beskrivelse</entry>
-<entry key="business-term|name|BT-6140">Yderligere oplysninger om det EU-program eller -projekt, der i det mindste delvist finansierer udbuddet</entry>
+<entry key="business-term|name|BT-6110">Yderligere oplysninger om EU-fondene</entry>
+<entry key="business-term|name|BT-6140">Yderligere oplysninger om EU-fondene</entry>
 <entry key="business-term|name|BT-615">Oplysninger om begrænsede dokumenter findes på</entry>
 <entry key="business-term|name|BT-625">Enhed</entry>
 <entry key="business-term|name|BT-63">Varianter</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Værdien af resultatet</entry>
 <entry key="business-term|name|BT-721">Titel</entry>
 <entry key="business-term|name|BT-722">Navn på EU-finansieret projekt eller program</entry>
-<entry key="business-term|name|BT-7220">Programmet for de EU-midler, der anvendes til i det mindste delvis at finansiere kontrakten</entry>
+<entry key="business-term|name|BT-7220">EU-fondsprogrammet</entry>
 <entry key="business-term|name|BT-723">Den køretøjsklasse, der er omfattet af direktiv 2009/33/EF, herunder: Lette køretøjer (M1, M2, N1) Bus (M3) Lastbil (N2, N3) M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Ad hoc-kommunikationsværktøj anvendes</entry>
 <entry key="business-term|name|BT-725">Antal tunge nulemissionskøretøjer</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Type leveret tjeneste</entry>
 <entry key="business-term|name|OPT-050">Dokumentstatus</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Kode for udførelseskrav</entry>
 <entry key="business-term|name|OPT-070">Udførelsen af tjenesteydelsen er forbeholdt et bestemt erhverv. Henvisning til de relevante love, forskrifter eller administrative procedurer</entry>
 <entry key="business-term|name|OPT-071">Kvalitetsmålkode</entry>
 <entry key="business-term|name|OPT-072">Beskrivelse af kvalitetsmål</entry>

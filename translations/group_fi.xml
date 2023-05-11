@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Ilmoitus</entry>
 <entry key="group|name|GR-Buyer">Sopimuspuoli ja palveluntarjoaja</entry>
 <entry key="group|name|GR-Change">Muutos</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Kohta, jota muutos koskee</entry>
 <entry key="group|name|GR-Company">Järjestö</entry>
 <entry key="group|name|GR-Company-Address">Osoite</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Yksinomaan ostajaan liittyvät tiedot</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Tarjouskilpailun ehdot</entry>
 <entry key="group|name|GR-Metadata">Metatiedot</entry>
 <entry key="group|name|GR-Modification">Muutosvaiheessa</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Kohta, jota muutos koskee</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Tulos</entry>
 <entry key="group|name|GR-Organisations">Ilmoituksessa mainitut organisaatiot</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Sopimuksessa käytetyt EU:n varat</entry>
 <entry key="group|name|ND-ContractModification">Muutosvaiheessa</entry>
 <entry key="group|name|ND-ContractingParty">Ostaja</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Rajat ylittävä lainsäädäntö</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Suorahankinnan perustelukoodi (julkaistu myöhemmin)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Suorahankinnan perusteena olleen aiemman menettelyn tunnus (julkaistu myöhemmin)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Suorahankinnan perustelut (julkaistu myöhemmin)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Muut edellytykset kuin tulojen jakaminen</entry>
 <entry key="group|name|ND-Part">Osittain</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Lisäluokitus</entry>
+<entry key="group|name|ND-PartMainClassification">Osan päähyödykkeen luokitus</entry>
 <entry key="group|name|ND-PartPlacePerformance">Täytäntöönpanopaikka</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Edellinen suunnitteluviite</entry>
 <entry key="group|name|ND-PartReservedProcurement">Varattu hankinta</entry>

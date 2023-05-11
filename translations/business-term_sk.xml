@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Výsledok Lot Identifier</entry>
 <entry key="business-term|name|BT-13714">Identifikátor časti alebo skupiny častí</entry>
 <entry key="business-term|name|BT-13715">Ďalšie informácie Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Oddiel, na ktorý sa zmena vzťahuje</entry>
+<entry key="business-term|name|BT-13716">Identifikátor oddielu</entry>
 <entry key="business-term|name|BT-13717">Podmienky Identifikátor lotu</entry>
 <entry key="business-term|name|BT-13718">Zoznam dokladov Identifikátor lotu</entry>
 <entry key="business-term|name|BT-13719">Identifikátor predkladanej časti</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Dátum výberu víťaza</entry>
 <entry key="business-term|name|BT-15">Adresa súťažných podkladov</entry>
 <entry key="business-term|name|BT-150">Identifikátor zmluvy</entry>
-<entry key="business-term|name|BT-1501">Identifikátor oddielu, ktorý sa má upraviť v predchádzajúcom oznámení</entry>
+<entry key="business-term|name|BT-1501">Identifikátor oddielu</entry>
 <entry key="business-term|name|BT-151">Adresa zmluvy</entry>
 <entry key="business-term|name|BT-156">Maximálna hodnota rámcových dohôd v tejto skupine častí</entry>
 <entry key="business-term|name|BT-1561">Prehodnotená hodnota rámcových dohôd v rámci skupiny častí</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Minimálny počet záujemcov, ktorí budú pozvaní do druhej fázy postupu</entry>
 <entry key="business-term|name|BT-500">Úradný názov</entry>
 <entry key="business-term|name|BT-501">Registračné číslo</entry>
-<entry key="business-term|name|BT-5010">Identifikátor</entry>
+<entry key="business-term|name|BT-5010">Identifikátor finančných prostriedkov EÚ</entry>
 <entry key="business-term|name|BT-5011">Identifikátor finančných prostriedkov EÚ</entry>
 <entry key="business-term|name|BT-502">Kontaktné miesto</entry>
 <entry key="business-term|name|BT-503">Telefón</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Maximálny počet obnovení</entry>
 <entry key="business-term|name|BT-60">Verejné obstarávanie sa aspoň čiastočne financuje z finančných prostriedkov Európskej únie</entry>
 <entry key="business-term|name|BT-610">Činnosť obstarávateľa</entry>
-<entry key="business-term|name|BT-6110">Opis</entry>
-<entry key="business-term|name|BT-6140">Ďalšie informácie o programe alebo projekte Únie, ktoré sa použili aspoň čiastočne na financovanie obstarávania</entry>
+<entry key="business-term|name|BT-6110">Ďalšie podrobnosti o fondoch EÚ</entry>
+<entry key="business-term|name|BT-6140">Ďalšie podrobnosti o fondoch EÚ</entry>
 <entry key="business-term|name|BT-615">Informácie o súťažných podkladoch sú dostupné na</entry>
 <entry key="business-term|name|BT-625">Oddelenie</entry>
 <entry key="business-term|name|BT-63">Varianty</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Hodnota výsledku</entry>
 <entry key="business-term|name|BT-721">Názov</entry>
 <entry key="business-term|name|BT-722">Názov projektu alebo programu financovaného z prostriedkov EÚ</entry>
-<entry key="business-term|name|BT-7220">Program finančných prostriedkov Únie použitých na aspoň čiastočné financovanie zákazky</entry>
+<entry key="business-term|name|BT-7220">Program fondov EÚ</entry>
 <entry key="business-term|name|BT-723">Kategória vozidiel, ktoré patria do rozsahu pôsobnosti smernice 2009/33/ES, vrátane: Ľahké úžitkové vozidlá (M1, M2, N1); Autobus (M3); Nákladné vozidlo (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Používa sa ad hoc komunikačný nástroj</entry>
 <entry key="business-term|name|BT-725">Počet ťažkých úžitkových vozidiel s nulovými emisiami</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Druh poskytovanej služby</entry>
 <entry key="business-term|name|OPT-050">Stav dokumentu</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Kód požiadavky na vykonanie</entry>
 <entry key="business-term|name|OPT-070">Výkon služby je vyhradený pre určité povolanie. Odkaz na príslušný zákon, iný právny predpis alebo správne konanie</entry>
 <entry key="business-term|name|OPT-071">Kvalitatívny cieľový kód</entry>
 <entry key="business-term|name|OPT-072">Opis cieľa kvality</entry>

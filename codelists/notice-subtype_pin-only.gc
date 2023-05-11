@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PinOnly</ShortName>
       <LongName>pin-only</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.7.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>4</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация, използвано само за информация – Общата директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení použité pouze pro informační účely – obecná směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse kun anvendt til informationsformål – det generelle direktiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation nur zu Informationszwecken – allgemeine Richtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη που χρησιμοποιείται μόνο για πληροφορίες – γενική οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>4</SimpleValue>
+            <SimpleValue>Prior information notice used only for information – general directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa usado solo para información. Directiva general</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Üksnes teavitamise eesmärgil kasutatav eelteade – ülddirektiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus vain tietotarkoituksiin – yleisdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation utilisé uniquement à titre d’information – directive générale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise nach n-úsáidtear ach mar eolas — treoir ghinearálta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest upotrijebljena samo u informativne svrhe – opća direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kizárólag tájékoztatás céljából használt előzetes tájékoztató – általános irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione a fini unicamente informativi – direttiva generale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas, naudojamas tik informavimui; bendroji direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums, ko izmanto tikai informācijai – Vispārīgā iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel li jintuża biss għall-informazzjoni – Direttiva ġenerali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging die alleen ter informatie wordt gebruikt – algemene richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne wykorzystywane wyłącznie do celów informacyjnych – dyrektywa ogólna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação utilizado apenas a título informativo – diretiva geral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție utilizat numai pentru informare - directivă generală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>predbežné oznámenie použité len na informačné účely – všeobecná smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>predhodno informativno obvestilo, ki se uporablja samo za informiranje – splošna direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som endast används i informationssyfte – klassiska direktivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>5</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Периодично индикативно обявление, използвано само за информация – Секторната директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pravidelné předběžné oznámení použité pouze pro informační účely – odvětvová směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Vejledende periodisk bekendtgørelse kun anvendt til informationsformål – sektordirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Regelmäßige nicht verbindliche Bekanntmachung nur zu Informationszwecken – Sektorenrichtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για πληροφορίες – τομεακή οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>5</SimpleValue>
+            <SimpleValue>Periodic indicative notice used only for information – sectoral directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio periódico indicativo usado solo para información. Directiva sectorial</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Üksnes teavitamise eesmärgil kasutatav perioodiline eelteade – valdkondlik direktiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ohjeellinen kausi-ilmoitus vain tietotarkoituksiin – toimialakohtainen direktiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis périodique indicatif utilisé uniquement à titre d’information – directive sectorielle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra táscach tréimhsiúil a úsáidtear le haghaidh faisnéise amháin — treoir earnála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Periodična indikativna obavijest upotrijebljena samo u informativne svrhe – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kizárólag tájékoztatás céljából használt időszakos előzetes tájékoztató – ágazati irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso periodico indicativo a fini unicamente informativi – direttiva settoriale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Reguliarus orientacinis skelbimas, naudojamas tik informavimui; sektoriaus direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Periodisks informatīvs paziņojums, ko izmanto tikai informācijai – Vispārīgā iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż indikattiv perjodiku li jintuża biss għall-informazzjoni – Direttiva settorjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Periodieke indicatieve aankondiging die alleen ter informatie wordt gebruikt – sectorale richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Okresowe ogłoszenie informacyjne wykorzystywane wyłącznie do celów informacyjnych – dyrektywa sektorowa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio periódico indicativo utilizado apenas a título informativo – diretiva setorial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț orientativ periodic utilizat numai pentru informare - directivă sectorială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>pravidelné informatívne oznámenie použité len na informačné účely – sektorová smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>periodično informativno obvestilo, ki se uporablja samo za informiranje – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som endast används i informationssyfte – försörjningsdirektivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,8 +287,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>6</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация, използвано само за информация – Директивата за отбраната</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zveřejnění oznámení předběžných informací použitých pouze pro informační účely – směrnice o zadávání zakázek v oblasti obrany</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse kun anvendt til informationsformål – forsvarsdirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation nur zu Informationszwecken – Richtlinie für Beschaffung im Bereich Verteidigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη που χρησιμοποιείται μόνο για πληροφορίες – οδηγία για την άμυνα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>6</SimpleValue>
+            <SimpleValue>Prior information notice used only for information – defence directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa usado solo para información. Directiva de defensa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Üksnes teavitamise eesmärgil kasutatav eelteade – kaitsealane direktiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkotietoilmoitus vain tietotarkoituksiin – puolustusdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation utilisé uniquement à titre d’information – directive «défense»</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise a úsáidtear le haghaidh faisnéise amháin — treoir maidir le cosaint</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informativna obavijest upotrijebljena samo u informativne svrhe – direktiva u području obrane</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kizárólag tájékoztatás céljából használt előzetes tájékoztató – védelmi irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione a fini unicamente informativi – direttiva per il settore della difesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas, naudojamas tik informavimui; gynybos direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums, ko izmanto tikai informācijai – Aizsardzības iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel li jintuża biss għall-informazzjoni – Direttiva dwar id-difiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging die alleen ter informatie wordt gebruikt – defensierichtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne wykorzystywane wyłącznie do celów informacyjnych – dyrektywa obronna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação utilizado apenas a título informativo – Diretiva Defesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție utilizat numai pentru informare - directivă privind apărarea</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>predbežné informatívne oznámenie použité len na informačné účely – smernica o zákazkách v oblasti obrany a bezpečnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>predhodno informativno obvestilo, ki se uporablja samo za informiranje – direktiva na področju obrambe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som endast används i informationssyfte – försvars- och säkerhetsdirektivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -160,8 +367,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E2</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Само обявление за предварителна информация под прага (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pouze oznámení předběžných informací pod prahovou hodnotou (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Kun forhåndsmeddelelse under tærskelværdien (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nur Vorinformation unterhalb des Schwellenwerts (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μόνο προκήρυξη προκαταρκτικής ενημέρωσης κάτω από το κατώτατο όριο (PIN)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>E2</SimpleValue>
+            <SimpleValue>Below threshold prior information notice (PIN) only</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Solo por debajo del umbral del anuncio de información previa (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ainult alla künnise jääva eelteate (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vain kynnysarvon alittava ennakkoilmoitus (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation (PIN) inférieur au seuil uniquement</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Faoi bhun na tairsí fógra réamhfhaisnéise (PIN) amháin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Samo prethodna informacijska obavijest ispod praga (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Küszöbérték alatti előzetes tájékoztató (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Solo avviso di preinformazione al di sotto della soglia (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tik žemiau ribinės vertės išankstiniame informaciniame skelbime (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tikai par robežvērtību mazāks nekā iepriekšējs informatīvs paziņojums (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ informazzjoni minn qabel taħt il-limitu minimu (PIN) biss</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Alleen vooraankondiging onder de drempelwaarde (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Jedynie wstępne ogłoszenie informacyjne poniżej progu (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Apenas abaixo do limiar do anúncio de pré-informação (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Numai anunțul de informare prealabilă (PIN) sub prag</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Len predbežné oznámenie pod prahovou hodnotou (PIN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Samo predhodno informativno obvestilo (PIN) pod mejno vrednostjo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Endast förhandsmeddelande under tröskelvärdet (PIN)</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
