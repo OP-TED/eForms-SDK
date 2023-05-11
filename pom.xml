@@ -50,6 +50,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.outputTimestamp>2023-03-14T16:02:14Z</project.build.outputTimestamp>
 
+    <sonatype.server.url>s01.oss.sonatype.org</sonatype.server.url>
+
+    <!-- Versions eForms -->
     <version.eforms-sdk-analyzer>1.6.0-SNAPSHOT</version.eforms-sdk-analyzer>
 
     <!-- Versions - Plugins -->
@@ -57,6 +60,7 @@
     <version.exec.plugin>3.1.0</version.exec.plugin>
     <version.install.plugin>2.5.2</version.install.plugin>
     <version.jar.plugin>3.3.0</version.jar.plugin>
+    <version.nexus-staging.plugin>1.6.7</version.nexus-staging.plugin>
   </properties>
 
   <build>
@@ -105,6 +109,11 @@
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
           <version>${version.exec.plugin}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.sonatype.plugins</groupId>
+          <artifactId>nexus-staging-maven-plugin</artifactId>
+          <version>${version.nexus-staging.plugin}</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -208,6 +217,16 @@
               </gpgArguments>
             </configuration>
           </plugin>
+           <plugin>
+              <groupId>org.sonatype.plugins</groupId>
+              <artifactId>nexus-staging-maven-plugin</artifactId>
+              <extensions>true</extensions>
+              <configuration>
+                <serverId>ossrh</serverId>
+                <nexusUrl>https://${sonatype.server.url}/</nexusUrl>
+                <autoReleaseAfterClose>true</autoReleaseAfterClose>
+              </configuration>
+           </plugin>
         </plugins>
       </build>
     </profile>
