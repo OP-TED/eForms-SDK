@@ -10,16 +10,45 @@ For codelists that have a tree-like structure (currently CPV and NUTS), a new co
 
 ## Updated metadata content
 
-* The content of codelists was updated.
-  * Aligned with the latest official codelists with EU Vocabularies.
-  * The codelist "corporate-body" was added.
-* Schematron rules were added and updated.
-  * Some conditional rules were added back, in particular on dates and deadlines.
-* Examples were updated accordingly, along with their validation reports.
-* The node structure was corrected, along with the definitions of corresponding fields. The definitions of several fields were corrected and a few fields were added.
+This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency. The following is an overview of the main changes:
+
+* The schema XSD was changed to add a parent element for BT-13716-notice (Changed section identifier).
+
+* The content of codelists was updated, aligning with the latest official codelists on EU Vocabularies, including these changes:
+  * "criterion": "autorisation" replaced by "authorisation", "misinterpr" replaced by "misrepresent"
+  * "currency": removed Kuna (welcome Croatia to the eurozone!), added new Leone (code SLE; old Leone code SLL is still legal tender in Sierra Leone)
+  * "non-publication-identifier": added "gro-ree-val" and "ree-val", removed "not-ree-val"
+  * "innovative-acquisition": removed "buy-eff", "fp-requ", "org-nov", "other"
+  * Corrected labels for "notice-type", "organisation-role", "eu-programme", "country", "winner-selection-status", "nuts"
+  * The codelist "corporate-body" was added (used by EU institutions)
+  
+* Schematron rules were added and updated, including these changes:
+  * Some conditional rules (removed in SDK 1.3) were added back, for dates BT-131 Deadline Receipt Tenders, BT-1311 Deadline Receipt Requests and BT-132 Public Opening Date, as well as for OPP-112 place of registration in notice subtypes X01 and X02
+  * New dynamic rule added to ensure that BT-05(a)-notice Dispatch date is -2 days or +1 day from current date
+  * Pattern PublicationNumber allows up to 8 digits including leading zeros (nnnnnnnn-yyyy to link to TED-XML notices)
+  * Made BT-22 Internal Identifier mandatory to ensure buyers can refer to a lot or group of lots throughout the procedure
+  * Made BT-21 Title and BT-262 Classification mandatory for notice subtypes 38/39/40
+  * Added Contract Modification ("can-modif") as a valid notice type for legal basis Directive 2014/23/EU
+  * Forbid BT-531 Additional Nature in notice subtypes 4/5/6
+  * Forbid economic operator organisation fields BT-633/OPT-302/BT-165/BT-746 in notice subtypes 1-24/38/39/40/T01/CEI/X01/X02; the fields are only valid in DAP and Result notices
+  * Corrected CPV checks for BT-262 Classification
+  
+* Example notices were updated accordingly, along with their validation reports.
+
+* The node structure was corrected, along with the definitions of corresponding fields. The definitions of several fields were corrected and a few fields were added, including OPT-060 for cbc:ExecutionRequirementCode (next to BT-70) and BT-195/BT-196/BT-197/BT-198 fields to allow to unpublish BT-660 Framework Re-estimated Value
+  * BT-31 Lots Max Allowed and BT-33 Lots Max Awarded were defined as integer instead of number
+  * Changed nodes included: ND-LotTenderingTerms, ND-PartTenderingTerms, ND-LotsGroupAwardCriterionParameter, ND-LotAwardCriteria, ND-LotAwardCriterion, ND-ChangedSection, ND-ModifiedSection, ND-GroupReestimatedValueUnpublish, ND-ReestimatedValueUnpublish, ND-LotProcurementDocument, ND-PartProcurementDocument
+
 * All notice type definitions were updated and corrected.
-* View templates were corrected and updated.
-* Translations were added and corrected for various asset types.
+
+* Many view templates were corrected and updated, including the addition of fields from the 2022 regulation amendment.
+
+* Translations were added and corrected to ensure that all but two asset types are available in 24 languages, including:
+  * Added (machine) translations for technical codelists and for view and notice asset types
+  * Improved group labels for NTDs and auxiliary labels for view templates
+  * Added several business-term|hint and field|hint labels
+  * Filled field|description labels (almost always the same as business_term|description)
+  * The translations for the rule and expression labels will be added in the next SDK version
 
 As new rules were added, a notice that was valid with SDK 1.6.x might not be valid with this version.
 
