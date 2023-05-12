@@ -1,8 +1,8 @@
 // View X01
-// sdkVersion='1.6.0'
-// File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00
+// sdkVersion='1.6.1'
+// File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30
 9 {ND-Root} #{auxiliary|text|object} // 9. Object
-	0 {ND-Root} #{auxiliary|text|legal-basis} // Legal basis
+	0 {ND-Root} #{auxiliary|text|legal-basis}: // Legal basis
 		{BT-01-notice} #{BT-01-notice} // Regulation reference
 		{OPP-100-Business} #{name|OPP-100}: #{OPP-100-Business} // This notice contains information relevant to
 	1 {BT-500-Business} #{name|BT-500-grouping} // 9.1 Name of the grouping: European Group of Lobbyists
