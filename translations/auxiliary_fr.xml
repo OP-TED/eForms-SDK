@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in French. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>auxiliary in French. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Base juridique</entry>
 <entry key="auxiliary|text|BT-08">Rôle de l’organisation</entry>
 <entry key="auxiliary|text|BT-36">Durée</entry>
@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Autorité compétente</entry>
 <entry key="auxiliary|text|change">Modification</entry>
 <entry key="auxiliary|text|company">Nom et adresse de l’entreprise/la société</entry>
-<entry key="auxiliary|text|concession-value">Concession</entry>
+<entry key="auxiliary|text|concession-value">Valeur de la concession</entry>
 <entry key="auxiliary|text|conditions-contract">Conditions relatives au marché</entry>
 <entry key="auxiliary|text|conditions-participation">Conditions de participation</entry>
 <entry key="auxiliary|text|contract-information">Informations relatives au marché</entry>
@@ -31,7 +31,7 @@
 <entry key="auxiliary|text|envisaged-start-duration-contract">Date de début et durée du marché envisagées</entry>
 <entry key="auxiliary|text|essential-assets">Actifs essentiels</entry>
 <entry key="auxiliary|text|estimated-duration">Durée estimée</entry>
-<entry key="auxiliary|text|eu-funds-used">Informations sur les fonds de l’Union européenne utilisés pour financer le marché</entry>
+<entry key="auxiliary|text|eu-funds-used">Information sur les fonds de l'Union européenne</entry>
 <entry key="auxiliary|text|exclusion-grounds">Motifs d’exclusion</entry>
 <entry key="auxiliary|text|framework-agreement">Accord-cadre</entry>
 <entry key="auxiliary|text|further-info">Informations complémentaires, médiation et révision</entry>
@@ -57,11 +57,11 @@
 <entry key="auxiliary|text|organisation-paying">Organisation qui exécute le paiement</entry>
 <entry key="auxiliary|text|organisation-processing-requests-participate">Organisation qui traite les demandes de participation</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organisation qui traite les offres</entry>
-<entry key="auxiliary|text|organisation-providing-docs">Organisation qui fournit un accès hors-ligne aux documents de marché</entry>
+<entry key="auxiliary|text|organisation-providing-docs">Organisation qui fournit un accès hors ligne aux documents de marché</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection du travail et de conditions de travail, est applicable au lieu où la prestation doit être réalisée</entry>
 <entry key="auxiliary|text|organisation-providing-info-environment">Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection de l’environnement, est applicable au lieu où la prestation doit être réalisée</entry>
 <entry key="auxiliary|text|organisation-providing-info-procedure">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</entry>
-<entry key="auxiliary|text|organisation-providing-info-review">Organisation qui fournit des précisions concernant l'introduction des recours</entry>
+<entry key="auxiliary|text|organisation-providing-info-review">Organisation qui fournit des précisions concernant l’introduction des recours</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de fiscalité, est applicable au lieu où la prestation doit être réalisée</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Prestataire de services de passation de marché</entry>
 <entry key="auxiliary|text|organisation-receiving-tenders">Organisation qui reçoit les offres</entry>
