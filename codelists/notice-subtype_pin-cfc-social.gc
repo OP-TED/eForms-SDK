@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PinCfcSocial</ShortName>
       <LongName>pin-cfc-social</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.7.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>12</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация, използвано като покана за участие в състезателна процедура – Общата директива, облекчен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení použité jako výzva k účasti v soutěži – obecná směrnice, zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse anvendt som indkaldelse af tilbud – det generelle direktiv, den lempelige ordning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation als Aufruf zum Wettbewerb – allgemeine Richtlinie, Sonderregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη που χρησιμοποιείται ως προκήρυξη διαγωνισμού – γενική οδηγία, απλοποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>12</SimpleValue>
+            <SimpleValue>Prior information notice used as a call for competition – general directive, light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa usado como convocatoria de licitación. Directiva general, régimen simplificado.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke väljakuulutamiseks kasutatav perioodiline eelteade – valdkondlik direktiiv, lihtsustatud kord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus kutsuna tarjouskilpailuun – yleisdirektiivi, kevennetty järjestely</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation utilisé comme appel à la concurrence – directive générale, régime assoupli</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise á úsáid mar ghlao ar iomaíocht — treoir ghinearálta, córas éadrom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest upotrijebljena kao poziv na nadmetanje – opća direktiva, blagi režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlati/részvételi felhívásként használt előzetes tájékoztató – általános irányelv, enyhébb szabályozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione utilizzato come avviso di indizione di gara – direttiva generale, regime alleggerito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas, kuriuo kviečiama dalyvauti konkurse; bendroji direktyva, paprastesnis režimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums, ko izmanto iepirkuma izsludināšanai – Vispārīgā iepirkuma direktīva, atvieglotais režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel li jintuża bħala sejħa għall-kompetizzjoni – Direttiva ġenerali, reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging gebruikt als oproep tot mededinging – algemene richtlijn, lichte regeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – dyrektywa ogólna, tryb uproszczony</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação utilizado como anúncio de concurso – diretiva geral, regime simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție utilizat ca invitație la procedura concurențială de ofertare – directivă generală, regim simplificat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>predbežné oznámenie použité ako výzva na vyhlásenie verejného obstarávania – všeobecná smernica, zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>predhodno informativno obvestilo kot sredstvo za objavo javnega razpisa – splošna direktiva, enostavnejša ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används som anbudsinfordran – klassiska direktivet, enklare systemet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>13</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Периодично индикативно обявление, използвано като покана за участие в състезателна процедура – Секторната директива, облекчен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pravidelné předběžné oznámení použité jako výzva k účasti v soutěži – odvětvová směrnice, zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Vejledende periodisk bekendtgørelse anvendt som indkaldelse af tilbud – sektordirektivet, den lempelige ordning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Regelmäßige nicht verbindliche Bekanntmachung als Aufruf zum Wettbewerb – Sektorenrichtlinie, Sonderregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται ως προκήρυξη διαγωνισμού – τομεακή οδηγία, απλοποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>13</SimpleValue>
+            <SimpleValue>Periodic indicative notice used as a call for competition – sectoral directive, light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio periódico indicativo usado como convocatoria de licitación. Directiva general, régimen simplificado.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke väljakuulutamiseks kasutatav eelteade – kontsessioonidirektiiv, lihtsustatud kord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ohjeellinen kausi-ilmoitus kutsuna tarjouskilpailuun – toimialakohtainen direktiivi, kevennetty järjestely</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis périodique indicatif utilisé comme appel à la concurrence – directive sectorielle, régime assoupli</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra táscach tréimhsiúil a úsáidtear mar ghlao ar iomaíocht — treoir earnála, córas éadrom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Periodična indikativna obavijest upotrijebljena kao poziv na nadmetanje – sektorska direktiva, blagi režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlati/részvételi felhívásként használt időszakos tájékoztató – ágazati irányelv, enyhébb szabályozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bando periodico indicativo utilizzato come avviso di indizione di gara – direttiva settoriale, regime alleggerito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Reguliarus orientacinis skelbimas, kuriuo kviečiama dalyvauti konkurse; sektoriaus direktyva, paprastesnis režimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Periodisks informatīvs paziņojums, ko izmanto iepirkuma izsludināšanai – Komunālo pakalpojumu direktīva, atvieglotais režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż indikattiv perjodiku li jintuża bħala sejħa għall-kompetizzjoni – Direttiva settorjali, reġim issimplifikat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – sectorale richtlijn, lichte regeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Okresowe ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – dyrektywa sektorowa, tryb uproszczony</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio periódico indicativo utilizado como anúncio de concurso – diretiva setorial, regime simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț orientativ periodic utilizat ca invitație la procedura concurențială de ofertare – directivă sectorială, regim simplificat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>pravidelné informatívne oznámenie použité ako výzva na vyhlásenie verejného obstarávania – sektorová smernica, zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>periodično informativno obvestilo kot sredstvo za objavo javnega razpisa – sektorska direktiva, enostavnejša ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används som anbudsinfordran – försörjningsdirektivet, enklare systemet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,8 +287,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>14</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация, използвано като покана за участие в състезателна процедура – Директивата за концесиите, облекчен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení použité jako výzva k účasti v soutěži – směrnice o udělování koncesí, zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse anvendt som indkaldelse af tilbud– koncessionsdirektivet, den lempelige ordning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation als Aufruf zum Wettbewerb – Konzessionsrichtlinie, Sonderregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη που χρησιμοποιείται ως προκήρυξη διαγωνισμού – οδηγία για τις συμβάσεις παραχώρησης, απλοποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>14</SimpleValue>
+            <SimpleValue>Prior information notice used as a call for competition – concessions directive, light regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa usado como convocatoria de licitación. Directiva de concesiones, régimen simplificado.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanketeade – ülddirektiiv, üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus kutsuna tarjouskilpailuun – käyttöoikeussopimusdirektiivi, kevennetty järjestely</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation utilisé comme appel à la concurrence – directive «concessions», régime assoupli</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise á úsáid mar ghlao ar iomaíocht — an treoir maidir le lamháltais, an córas éadrom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest upotrijebljena kao poziv na nadmetanje – koncesijska direktiva, blagi režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlati/részvételi felhívásként használt előzetes tájékoztató – koncessziós irányelv, enyhébb szabályozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione utilizzato come avviso di indizione di gara – direttiva sulle concessioni, regime alleggerito</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas, kuriuo kviečiama dalyvauti konkurse; koncesijų direktyva, paprastesnis režimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums, ko izmanto iepirkuma izsludināšanai – Koncesiju direktīva, atvieglotais režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel li jintuża bħala sejħa għall-kompetizzjoni – Direttiva dwar il-konċessjonijiet, reġim issimplifikat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging gebruikt als oproep tot mededinging – concessierichtlijn, lichte regeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – dyrektywa w sprawie koncesji, tryb uproszczony</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação utilizado como anúncio de concurso – Diretiva Concessões, regime simplificado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție utilizat ca invitație la procedura concurențială de ofertare – directivă privind concesiunile, regim simplificat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>predbežné oznámenie použité ako výzva na vyhlásenie verejného obstarávania – smernica o koncesiách, zjednodušený režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>predhodno informativno obvestilo kot sredstvo za objavo javnega razpisa – direktiva o koncesijah, enostavnejša ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används som anbudsinfordran – koncessionsdirektivet, enklare systemet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

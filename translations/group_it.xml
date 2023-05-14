@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Avviso</entry>
 <entry key="group|name|GR-Buyer">Parte contraente e prestatore di servizi</entry>
 <entry key="group|name|GR-Change">Variazione</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Sezione cui si applica la modifica</entry>
 <entry key="group|name|GR-Company">Organizzazione</entry>
 <entry key="group|name|GR-Company-Address">Indirizzo</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informazioni relative esclusivamente all'acquirente</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Condizioni di gara</entry>
 <entry key="group|name|GR-Metadata">Metadati</entry>
 <entry key="group|name|GR-Modification">Modifica</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Sezione cui si applica la modifica</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Risultato</entry>
 <entry key="group|name|GR-Organisations">Organizzazioni menzionate nell'avviso</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Fondi UE utilizzati nel contratto</entry>
 <entry key="group|name|ND-ContractModification">Modifica</entry>
 <entry key="group|name|ND-ContractingParty">Acquirente</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Diritto transfrontaliero</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Codice della giustificazione dell'aggiudicazione diretta (pubblicato successivamente)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID della procedura precedente che giustifica l'aggiudicazione diretta (pubblicata successivamente)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Giustificazione dell'aggiudicazione diretta (pubblicazione successiva)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Condizioni diverse dalla destinazione delle entrate</entry>
 <entry key="group|name|ND-Part">Parziale</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Classificazione aggiuntiva</entry>
+<entry key="group|name|ND-PartMainClassification">Classificazione della merce principale di una parte</entry>
 <entry key="group|name|ND-PartPlacePerformance">Luogo di esecuzione</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Riferimento della pianificazione precedente</entry>
 <entry key="group|name|ND-PartReservedProcurement">Appalti riservati</entry>

@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Identifikator lota rezultata</entry>
 <entry key="business-term|name|BT-13714">Identifikacijska oznaka grupe ili skupine grupâ</entry>
 <entry key="business-term|name|BT-13715">Dodatne informacije Identifikator lota</entry>
-<entry key="business-term|name|BT-13716">Odjeljak na koji se odnosi izmjena</entry>
+<entry key="business-term|name|BT-13716">Identifikacijska oznaka odjeljka</entry>
 <entry key="business-term|name|BT-13717">Pojmovi Identifikator Lot</entry>
 <entry key="business-term|name|BT-13718">Identifikacijska oznaka lota dokumenata</entry>
 <entry key="business-term|name|BT-13719">Identifikacijska oznaka grupe za podnošenje</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Datum odabira pobjednika</entry>
 <entry key="business-term|name|BT-15">Adresa dokumentacije o nabavi</entry>
 <entry key="business-term|name|BT-150">Identifikacijska oznaka ugovora</entry>
-<entry key="business-term|name|BT-1501">Identifikacijska oznaka odjeljka prethodne obavijesti koji se mijenja</entry>
+<entry key="business-term|name|BT-1501">Identifikacijska oznaka odjeljka</entry>
 <entry key="business-term|name|BT-151">Adresa ugovora</entry>
 <entry key="business-term|name|BT-156">Najveća vrijednost okvirnih sporazuma u ovoj skupini grupa</entry>
 <entry key="business-term|name|BT-1561">Ponovno procijenjena vrijednost okvirnih sporazuma unutar skupine grupa</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Minimalan broj natjecatelja koji će biti pozvani u drugu fazu postupka</entry>
 <entry key="business-term|name|BT-500">Službeno ime</entry>
 <entry key="business-term|name|BT-501">Registracijski broj</entry>
-<entry key="business-term|name|BT-5010">Identifikacijska oznaka</entry>
+<entry key="business-term|name|BT-5010">Identifikacijska oznaka fondova EU-a</entry>
 <entry key="business-term|name|BT-5011">Identifikacijska oznaka fondova EU-a</entry>
 <entry key="business-term|name|BT-502">Kontaktna točka</entry>
 <entry key="business-term|name|BT-503">Tel.</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Maksimalan broj obnavljanja</entry>
 <entry key="business-term|name|BT-60">Javna nabava barem se djelomično financira sredstvima Europske unije</entry>
 <entry key="business-term|name|BT-610">Djelatnost naručitelja</entry>
-<entry key="business-term|name|BT-6110">Opis</entry>
-<entry key="business-term|name|BT-6140">Dodatne informacije o programu ili projektu Unije kojim se barem djelomično financira javna nabava</entry>
+<entry key="business-term|name|BT-6110">Dodatne pojedinosti o fondovima EU-a</entry>
+<entry key="business-term|name|BT-6140">Dodatne pojedinosti o fondovima EU-a</entry>
 <entry key="business-term|name|BT-615">Informacije o dokumentima s ograničenim pristupom dostupne su ovdje</entry>
 <entry key="business-term|name|BT-625">Jedinica</entry>
 <entry key="business-term|name|BT-63">Varijante</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Vrijednost ishoda</entry>
 <entry key="business-term|name|BT-721">Naslov</entry>
 <entry key="business-term|name|BT-722">Naziv projekta ili programa koji financira EU</entry>
-<entry key="business-term|name|BT-7220">Program sredstava Unije korišten za barem djelomično financiranje ugovora</entry>
+<entry key="business-term|name|BT-7220">Program fondova EU-a</entry>
 <entry key="business-term|name|BT-723">Kategoriju vozila obuhvaćenog područjem primjene Direktive 2009/33/EZ, uključujući: Laka vozila (M1, M2, N1); Autobus (M3); Kamion (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Upotrebljava se ad hoc komunikacijski alat</entry>
 <entry key="business-term|name|BT-725">Broj teških vozila s nultim emisijama</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Vrsta pružene usluge</entry>
 <entry key="business-term|name|OPT-050">Status isprave</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Šifra zahtjeva u pogledu izvršenja</entry>
 <entry key="business-term|name|OPT-070">Pružanje usluge rezervirano je za određenu profesiju. Upućivanje na relevantni zakon, propis ili upravni postupak</entry>
 <entry key="business-term|name|OPT-071">Oznaka cilja kvalitete</entry>
 <entry key="business-term|name|OPT-072">Opis cilja kvalitete</entry>

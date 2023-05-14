@@ -401,14 +401,14 @@
 <entry key="business-term|name|BT-13712">Communication Lot Identifier</entry>
 <entry key="business-term|name|BT-13713">Result Lot Identifier</entry>
 <entry key="business-term|name|BT-13714">Identifier of lot or group of lots</entry>
-<entry key="business-term|name|BT-13715">Additional Information Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Section to which the change applies</entry>
+<entry key="business-term|name|BT-13715">Additional Information Lot ID</entry>
+<entry key="business-term|name|BT-13716">Section identifier</entry>
 <entry key="business-term|name|BT-13717">Terms Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Documents Lot Identifier</entry>
 <entry key="business-term|name|BT-13719">Submission Lot Identifier</entry>
 <entry key="business-term|name|BT-1372">Place Performance Lot Identifier</entry>
 <entry key="business-term|name|BT-13720">Organisation Notice Section Identifier</entry>
-<entry key="business-term|name|BT-13721">Strategic Procurement Notice Section Identifier</entry>
+<entry key="business-term|name|BT-13721">Strategic procurement notice section identifier</entry>
 <entry key="business-term|name|BT-13722">Buyer Review Lot Identifier</entry>
 <entry key="business-term|name|BT-1373">Duration Lot Identifier</entry>
 <entry key="business-term|name|BT-1374">Funds Lot Identifier</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Date on which the winner was chosen</entry>
 <entry key="business-term|name|BT-15">Address of the procurement documents</entry>
 <entry key="business-term|name|BT-150">Identifier of the contract</entry>
-<entry key="business-term|name|BT-1501">Identifier of the section to be modified in a previous notice</entry>
+<entry key="business-term|name|BT-1501">Section identifier</entry>
 <entry key="business-term|name|BT-151">Address of the contract</entry>
 <entry key="business-term|name|BT-156">Maximum value of the framework agreements in this group of lots</entry>
 <entry key="business-term|name|BT-1561">Re-estimated value of the framework agreements within a group of lots</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Minimum number of candidates to be invited for the second stage of the procedure</entry>
 <entry key="business-term|name|BT-500">Official name</entry>
 <entry key="business-term|name|BT-501">Registration number</entry>
-<entry key="business-term|name|BT-5010">Identifier</entry>
+<entry key="business-term|name|BT-5010">Identifier of EU funds</entry>
 <entry key="business-term|name|BT-5011">Identifier of EU funds</entry>
 <entry key="business-term|name|BT-502">Contact point</entry>
 <entry key="business-term|name|BT-503">Telephone</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Maximum renewals</entry>
 <entry key="business-term|name|BT-60">The procurement is at least partially financed by European Union funds</entry>
 <entry key="business-term|name|BT-610">Activity of the contracting entity</entry>
-<entry key="business-term|name|BT-6110">Description</entry>
-<entry key="business-term|name|BT-6140">Further information about the Union programme or project used at least partially finance the procurement</entry>
+<entry key="business-term|name|BT-6110">Further details of EU funds</entry>
+<entry key="business-term|name|BT-6140">Further details of EU funds</entry>
 <entry key="business-term|name|BT-615">Information about restricted documents is available at</entry>
 <entry key="business-term|name|BT-625">Unit</entry>
 <entry key="business-term|name|BT-63">Variants</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Value of the result</entry>
 <entry key="business-term|name|BT-721">Title</entry>
 <entry key="business-term|name|BT-722">Name of EU-financed project or programme</entry>
-<entry key="business-term|name|BT-7220">The programme of the Union funds used to at least partially finance the contract</entry>
+<entry key="business-term|name|BT-7220">EU funds programme</entry>
 <entry key="business-term|name|BT-723">The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Ad hoc communication tool is used</entry>
 <entry key="business-term|name|BT-725">Number of zero-emission heavy-duty vehicles</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Provided service type</entry>
 <entry key="business-term|name|OPT-050">Document status</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Execution requirement code</entry>
 <entry key="business-term|name|OPT-070">Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure</entry>
 <entry key="business-term|name|OPT-071">Quality target code</entry>
 <entry key="business-term|name|OPT-072">Quality target description</entry>

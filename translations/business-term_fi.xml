@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Tulos Lot Identifier</entry>
 <entry key="business-term|name|BT-13714">Erän tai erien ryhmän tunniste</entry>
 <entry key="business-term|name|BT-13715">Lisätietoja Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Kohta, jota muutos koskee</entry>
+<entry key="business-term|name|BT-13716">Osion tunniste</entry>
 <entry key="business-term|name|BT-13717">Ehdot Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Asiakirjat Lot Identifier</entry>
 <entry key="business-term|name|BT-13719">Lähetyserätunniste</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Voittajien valintapäivä</entry>
 <entry key="business-term|name|BT-15">Hankinta-asiakirjojen osoite</entry>
 <entry key="business-term|name|BT-150">Sopimuksen tunniste</entry>
-<entry key="business-term|name|BT-1501">Edellisen ilmoituksen muutettavan kohdan tunniste</entry>
+<entry key="business-term|name|BT-1501">Osion tunniste</entry>
 <entry key="business-term|name|BT-151">Sopimuksen osoite</entry>
 <entry key="business-term|name|BT-156">Puitejärjestelyjen enimmäisarvo tässä eräryhmässä</entry>
 <entry key="business-term|name|BT-1561">Puitejärjestelyjen uudelleen arvioitu arvo eräryhmässä</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Menettelyn jälkimmäiseen vaiheeseen kutsuttavien ehdokkaiden vähimmäismäärä</entry>
 <entry key="business-term|name|BT-500">Virallinen nimi</entry>
 <entry key="business-term|name|BT-501">Rekisterinumero</entry>
-<entry key="business-term|name|BT-5010">Tunniste</entry>
+<entry key="business-term|name|BT-5010">EU:n varojen tunniste</entry>
 <entry key="business-term|name|BT-5011">EU:n varojen tunniste</entry>
 <entry key="business-term|name|BT-502">Yhteyspiste</entry>
 <entry key="business-term|name|BT-503">Puhelin</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Uusimisten enimmäismäärä</entry>
 <entry key="business-term|name|BT-60">Hankinta rahoitetaan ainakin osittain Euroopan unionin varoista</entry>
 <entry key="business-term|name|BT-610">Hankintayksikön toiminta</entry>
-<entry key="business-term|name|BT-6110">Kuvaus</entry>
-<entry key="business-term|name|BT-6140">Lisätietoja ainakin osittain hankinnan rahoituksesta käytetystä unionin ohjelmasta tai hankkeesta</entry>
+<entry key="business-term|name|BT-6110">Lisätietoja EU:n rahastoista</entry>
+<entry key="business-term|name|BT-6140">Lisätietoja EU:n rahastoista</entry>
 <entry key="business-term|name|BT-615">Tietoa asiakirjojen saatavuuden rajoittamisesta on osoitteessa</entry>
 <entry key="business-term|name|BT-625">Yksikkö</entry>
 <entry key="business-term|name|BT-63">Vaihtoehdot</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Tuloksen arvo</entry>
 <entry key="business-term|name|BT-721">Otsikko</entry>
 <entry key="business-term|name|BT-722">EU:n rahoittaman hankkeen tai ohjelman nimi</entry>
-<entry key="business-term|name|BT-7220">Vähintään osittain sopimuksen rahoittamiseen käytetty unionin varojen ohjelma</entry>
+<entry key="business-term|name|BT-7220">EU:n rahasto-ohjelma</entry>
 <entry key="business-term|name|BT-723">Direktiivin 2009/33/EY soveltamisalaan kuuluva ajoneuvoluokka, mukaan lukien: Kevyet hyötyajoneuvot (M1, M2, N1) Linja-auto (M3); Kuorma-auto (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Käytetään ad hoc -viestintävälinettä</entry>
 <entry key="business-term|name|BT-725">Päästöttömien raskaiden hyötyajoneuvojen määrä</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Tarjotun palvelun tyyppi</entry>
 <entry key="business-term|name|OPT-050">Asiakirjan tila</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Toteutusvaatimuksen koodi</entry>
 <entry key="business-term|name|OPT-070">Palvelun suorittaminen on varattu tietylle ammatille. Viittaus asiaa koskeviin lakeihin, asetuksiin tai hallinnollisiin menettelyihin</entry>
 <entry key="business-term|name|OPT-071">Laadun tavoitekoodi</entry>
 <entry key="business-term|name|OPT-072">Laatutavoitteen kuvaus</entry>

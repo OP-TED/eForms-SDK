@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Resultat Lot Identifier</entry>
 <entry key="business-term|name|BT-13714">Identifierare för del eller grupp av delar</entry>
 <entry key="business-term|name|BT-13715">Ytterligare information Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Avsnitt som ändringen gäller</entry>
+<entry key="business-term|name|BT-13716">Sektionsidentifierare</entry>
 <entry key="business-term|name|BT-13717">Termer Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Dokument Lot Identifier</entry>
 <entry key="business-term|name|BT-13719">Identifieringskod för inlämningsparti</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Datum då vinnaren utsågs</entry>
 <entry key="business-term|name|BT-15">Adress till upphandlingsdokumenten</entry>
 <entry key="business-term|name|BT-150">Identifierare för kontraktet</entry>
-<entry key="business-term|name|BT-1501">Identifierare för det avsnitt som ska ändras i det föregående meddelandet</entry>
+<entry key="business-term|name|BT-1501">Sektionsidentifierare</entry>
 <entry key="business-term|name|BT-151">Kontraktets adress</entry>
 <entry key="business-term|name|BT-156">Högsta värde för ramavtalen i denna grupp av delkontrakt</entry>
 <entry key="business-term|name|BT-1561">Omvärderat värde av ramavtalen inom en grupp av delar</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Minsta antalet anbudssökande som inbjuds att delta i andra steget i förfarandet</entry>
 <entry key="business-term|name|BT-500">Officiellt namn</entry>
 <entry key="business-term|name|BT-501">Registreringsnummer</entry>
-<entry key="business-term|name|BT-5010">Identifierare</entry>
+<entry key="business-term|name|BT-5010">Identifierare för EU-medel</entry>
 <entry key="business-term|name|BT-5011">Identifierare för EU-medel</entry>
 <entry key="business-term|name|BT-502">Kontaktpunkt</entry>
 <entry key="business-term|name|BT-503">Tfn</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Högst antal förlängningar</entry>
 <entry key="business-term|name|BT-60">Upphandlingen finansieras åtminstone delvis av EU-medel</entry>
 <entry key="business-term|name|BT-610">Den upphandlande enhetens verksamhet</entry>
-<entry key="business-term|name|BT-6110">Beskrivning</entry>
-<entry key="business-term|name|BT-6140">Ytterligare information om det unionsprogram eller det unionsprojekt som används åtminstone delvis finansierar upphandlingen</entry>
+<entry key="business-term|name|BT-6110">Närmare uppgifter om EU-fonderna</entry>
+<entry key="business-term|name|BT-6140">Närmare uppgifter om EU-fonderna</entry>
 <entry key="business-term|name|BT-615">Information om begränsade dokument finns på</entry>
 <entry key="business-term|name|BT-625">Enheter</entry>
 <entry key="business-term|name|BT-63">Alternativa anbud</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Anbudsvärde</entry>
 <entry key="business-term|name|BT-721">Titel</entry>
 <entry key="business-term|name|BT-722">Namnet på det EU-finansierade projektet eller programmet</entry>
-<entry key="business-term|name|BT-7220">Det program för unionsmedel som används för att åtminstone delvis finansiera avtalet</entry>
+<entry key="business-term|name|BT-7220">EU:s fondprogram</entry>
 <entry key="business-term|name|BT-723">Den fordonskategori som omfattas av direktiv 2009/33/EG, inbegripet Lätta fordon (M1, M2, N1). Buss (M3). Lastbil (N2, N3). M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Ad hoc-kommunikationsverktyg används</entry>
 <entry key="business-term|name|BT-725">Antal utsläppsfria tunga fordon</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Typ av tjänst</entry>
 <entry key="business-term|name|OPT-050">Dokumentets status</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Kod för krav på utförande</entry>
 <entry key="business-term|name|OPT-070">Utförandet av tjänsten är förbehållet ett visst yrke. Hänvisning till relevanta lagar och andra författningar eller administrativa förfaranden</entry>
 <entry key="business-term|name|OPT-071">Kod för kvalitetsmål</entry>
 <entry key="business-term|name|OPT-072">Beskrivning av kvalitetsmål</entry>

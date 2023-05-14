@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Dalis</entry>
 <entry key="field|name|BT-13713-LotResult">Rezultato dalies identifikatorius</entry>
 <entry key="field|name|BT-13714-Tender">Pirkimo dalies arba pirkimo dalių grupės identifikatorius</entry>
-<entry key="field|name|BT-13716-notice">Skirsnis, kuriam taikomas pakeitimas</entry>
+<entry key="field|name|BT-13716-notice">Skirsnio identifikatorius</entry>
 <entry key="field|name|BT-1375-Procedure">Įtrauktos pirkimo dalys</entry>
 <entry key="field|name|BT-14-Lot">Galimybė susipažinti su tam tikrais pirkimo dokumentais yra ribojama</entry>
 <entry key="field|name|BT-14-Part">Galimybė susipažinti su tam tikrais pirkimo dokumentais yra ribojama</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Pirkimo dokumentų adresas</entry>
 <entry key="field|name|BT-15-Part">Pirkimo dokumentų adresas</entry>
 <entry key="field|name|BT-150-Contract">Sutarties identifikatorius</entry>
-<entry key="field|name|BT-1501(n)-Contract">Ankstesnio skelbimo keistino skirsnio identifikatorius</entry>
-<entry key="field|name|BT-1501(s)-Contract">Ankstesnio skelbimo keistino skirsnio identifikatorius</entry>
+<entry key="field|name|BT-1501(n)-Contract">Skirsnio identifikatorius</entry>
+<entry key="field|name|BT-1501(s)-Contract">Skirsnio identifikatorius</entry>
 <entry key="field|name|BT-151-Contract">Sutarties adresas</entry>
 <entry key="field|name|BT-156-NoticeResult">Didžiausia preliminariųjų susitarimų vertė šioje pirkimo dalių grupėje</entry>
 <entry key="field|name|BT-1561-NoticeResult">Iš naujo įvertinta preliminariųjų susitarimų vertė pirkimo dalių grupėje</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Registracijos numeris</entry>
 <entry key="field|name|BT-501-Business-National">Registracijos numeris</entry>
 <entry key="field|name|BT-501-Organization-Company">Registracijos numeris</entry>
-<entry key="field|name|BT-5010-Lot">Identifikatorius</entry>
+<entry key="field|name|BT-5010-Lot">ES fondų identifikatorius</entry>
 <entry key="field|name|BT-5011-Contract">ES fondų identifikatorius</entry>
 <entry key="field|name|BT-502-Business">Ryšių centras</entry>
 <entry key="field|name|BT-502-Organization-Company">Ryšių centras</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Daugiausiai atnaujinimų</entry>
 <entry key="field|name|BT-60-Lot">Bent dalis pirkimo yra iš dalies finansuojama iš Europos Sąjungos fondų</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Perkančiojo subjekto veiklos sritis</entry>
-<entry key="field|name|BT-6110-Contract">Aprašymas</entry>
-<entry key="field|name|BT-6140-Lot">Daugiau informacijos apie Sąjungos programą arba projektą, kuriais bent iš dalies finansuojamas viešasis pirkimas</entry>
+<entry key="field|name|BT-6110-Contract">Išsamesnė informacija apie ES fondus</entry>
+<entry key="field|name|BT-6140-Lot">Išsamesnė informacija apie ES fondus</entry>
 <entry key="field|name|BT-615-Lot">Informacija apie ribotos prieigos pirkimo dokumentus pateikiama adresu</entry>
 <entry key="field|name|BT-615-Part">Informacija apie ribotos prieigos pirkimo dokumentus pateikiama adresu</entry>
 <entry key="field|name|BT-625-Lot">Vienetas</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Rezultato vertė</entry>
 <entry key="field|name|BT-721-Contract">Pavadinimas</entry>
 <entry key="field|name|BT-722-Contract">ES finansuojamo projekto arba programos pavadinimas</entry>
-<entry key="field|name|BT-7220-Lot">Sąjungos fondų, naudojamų bent iš dalies sutarčiai finansuoti, programa</entry>
+<entry key="field|name|BT-7220-Lot">ES fondų programa</entry>
 <entry key="field|name|BT-723-LotResult">Transporto priemonių, kurioms taikoma Direktyva 2009/33/EB, kategorija, įskaitant: Lengvosioms transporto priemonėms (M1, M2, N1); Autobusas (M3); Sunkvežimis (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Šis viešasis pirkimas taip pat tinkamas mažosioms ir vidutinėms įmonėms (MVĮ)</entry>
 <entry key="field|name|BT-726-LotsGroup">Šis viešasis pirkimas taip pat tinkamas mažosioms ir vidutinėms įmonėms (MVĮ)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Teikiamos paslaugos rūšis</entry>
 <entry key="field|name|OPT-050-Lot">Dokumento būsena</entry>
 <entry key="field|name|OPT-050-Part">Dokumento būsena</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Vykdymo reikalavimo kodas</entry>
 <entry key="field|name|OPT-070-Lot">Paslaugas gali teikti tik tam tikra profesija. Nuoroda į atitinkamą įstatymą, kitą teisės aktą ar administracinę procedūrą</entry>
 <entry key="field|name|OPT-071-Lot">Kokybės siektinos reikšmės kodas</entry>
 <entry key="field|name|OPT-072-Lot">Kokybės siektinos reikšmės aprašymas</entry>

@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Teil</entry>
 <entry key="field|name|BT-13713-LotResult">Ergebnis Lot Identifier</entry>
 <entry key="field|name|BT-13714-Tender">Kennung des Loses oder der Gruppe von Losen</entry>
-<entry key="field|name|BT-13716-notice">Abschnitt, für den die Änderung gilt</entry>
+<entry key="field|name|BT-13716-notice">Identifikator des Abschnitts</entry>
 <entry key="field|name|BT-1375-Procedure">Eingeschlossene Lose</entry>
 <entry key="field|name|BT-14-Lot">Der Zugang zu bestimmten Auftragsunterlagen ist eingeschränkt</entry>
 <entry key="field|name|BT-14-Part">Der Zugang zu bestimmten Auftragsunterlagen ist eingeschränkt</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Internetadresse der Auftragsunterlagen</entry>
 <entry key="field|name|BT-15-Part">Internetadresse der Auftragsunterlagen</entry>
 <entry key="field|name|BT-150-Contract">Kennung des Auftrags</entry>
-<entry key="field|name|BT-1501(n)-Contract">Kennung des in einer früheren Bekanntmachung zu ändernden Abschnitts</entry>
-<entry key="field|name|BT-1501(s)-Contract">Kennung des in einer früheren Bekanntmachung zu ändernden Abschnitts</entry>
+<entry key="field|name|BT-1501(n)-Contract">Identifikator des Abschnitts</entry>
+<entry key="field|name|BT-1501(s)-Contract">Identifikator des Abschnitts</entry>
 <entry key="field|name|BT-151-Contract">Internetadresse des Auftrags</entry>
 <entry key="field|name|BT-156-NoticeResult">Höchstwert der Rahmenvereinbarungen in dieser Gruppe von Losen</entry>
 <entry key="field|name|BT-1561-NoticeResult">Neu geschätzter Wert der Rahmenvereinbarungen innerhalb einer Losgruppe</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Registrierungsnummer</entry>
 <entry key="field|name|BT-501-Business-National">Registrierungsnummer</entry>
 <entry key="field|name|BT-501-Organization-Company">Registrierungsnummer</entry>
-<entry key="field|name|BT-5010-Lot">Identifikator</entry>
+<entry key="field|name|BT-5010-Lot">Kennung der EU-Mittel</entry>
 <entry key="field|name|BT-5011-Contract">Kennung der EU-Mittel</entry>
 <entry key="field|name|BT-502-Business">Kontaktperson</entry>
 <entry key="field|name|BT-502-Organization-Company">Kontaktperson</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Maximale Verlängerungen</entry>
 <entry key="field|name|BT-60-Lot">Die Auftragsvergabe wird zumindest teilweise aus Mitteln der Europäischen Union finanziert</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Tätigkeit des Auftraggebers</entry>
-<entry key="field|name|BT-6110-Contract">Beschreibung</entry>
-<entry key="field|name|BT-6140-Lot">Weitere Informationen über das Programm oder Projekt der Union, das die Auftragsvergabe zumindest teilweise finanziert</entry>
+<entry key="field|name|BT-6110-Contract">Weitere Einzelheiten zu den EU-Mittel</entry>
+<entry key="field|name|BT-6140-Lot">Weitere Einzelheiten zu den EU-Mittel</entry>
 <entry key="field|name|BT-615-Lot">Informationen über zugangsbeschränkte Dokumente einsehbar unter</entry>
 <entry key="field|name|BT-615-Part">Informationen über zugangsbeschränkte Dokumente einsehbar unter</entry>
 <entry key="field|name|BT-625-Lot">Einheit</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Wert des Ergebnisses</entry>
 <entry key="field|name|BT-721-Contract">Titel</entry>
 <entry key="field|name|BT-722-Contract">Bezeichnung des von der EU finanzierten Projekts oder Programms</entry>
-<entry key="field|name|BT-7220-Lot">Das Programm der Unionsmittel, die zur zumindest teilweisen Finanzierung des Vertrags verwendet werden</entry>
+<entry key="field|name|BT-7220-Lot">EU-Mittel Programm</entry>
 <entry key="field|name|BT-723-LotResult">Die Fahrzeugklasse, die in den Anwendungsbereich der Richtlinie 2009/33/EG fällt, einschließlich: Leichte Nutzfahrzeuge (M1, M2, N1); Bus (M3); LKW (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Diese Auftragsvergabe ist auch für kleine und mittlere Unternehmen (KMU) geeignet</entry>
 <entry key="field|name|BT-726-LotsGroup">Diese Auftragsvergabe ist auch für kleine und mittlere Unternehmen (KMU) geeignet</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Art der erbrachten Dienstleistung</entry>
 <entry key="field|name|OPT-050-Lot">Status des Dokuments</entry>
 <entry key="field|name|OPT-050-Part">Status des Dokuments</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Code für die Anforderung an die Ausführung</entry>
 <entry key="field|name|OPT-070-Lot">Die Erbringung der Dienstleistung ist einem bestimmten Beruf vorbehalten. Verweis auf das einschlägige Rechts- oder Verwaltungsverfahren</entry>
 <entry key="field|name|OPT-071-Lot">Qualitätszielcode</entry>
 <entry key="field|name|OPT-072-Lot">Beschreibung des Qualitätsziels</entry>

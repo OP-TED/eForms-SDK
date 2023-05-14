@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>BrinEcs</ShortName>
       <LongName>brin-ecs</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.7.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>X02</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Европейско дружество / Европейско кооперативно дружество</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Evropská společnost / Evropská družstevní společnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Det europæiske selskab / Det europæiske andelsselskab</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Europäische Gesellschaft / Europäische Genossenschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ευρωπαϊκή Εταιρεία / Ευρωπαϊκή Συνεταιριστική Εταιρεία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>X02</SimpleValue>
+            <SimpleValue>European Company / European Cooperative Society</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Sociedad Europea / Sociedad Cooperativa Europea</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Euroopa äriühing / Euroopa ühistu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Eurooppayhtiö / Eurooppalainen osuuskunta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Société européenne / Société coopérative européenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Chuideachta Eorpach/an Comharchumann Eorpach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Europska tvrtka / Europska zadrug</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Európai Társaság / Európai Szövetkezeti Társaság</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Società europea / Società cooperativa europea</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Europos bendrovė / Europos kooperatinė bendrovė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Eiropas uzņēmējsabiedrība / Eiropas kooperatīvā sabiedrība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Europese vennootschap / Europese coöperatieve vennootschap</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przedsiębiorstwo europejskie / Europejskie towarzystwo spółdzielcze</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Sociedade Europeia / Sociedade Cooperativa Europeia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Societatea europeană / Societatea cooperativă europeană</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Európska spoločnosť / Európske družstvo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Evropska družba / Evropska zadruga</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Europabolag / Europeiska kooperativa föreningar</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

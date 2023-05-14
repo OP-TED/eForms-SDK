@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Časť</entry>
 <entry key="field|name|BT-13713-LotResult">Výsledok Lot Identifier</entry>
 <entry key="field|name|BT-13714-Tender">Identifikátor časti alebo skupiny častí</entry>
-<entry key="field|name|BT-13716-notice">Oddiel, na ktorý sa zmena vzťahuje</entry>
+<entry key="field|name|BT-13716-notice">Identifikátor oddielu</entry>
 <entry key="field|name|BT-1375-Procedure">Zahrnuté časti</entry>
 <entry key="field|name|BT-14-Lot">Prístup k určitým súťažným podkladom je obmedzený</entry>
 <entry key="field|name|BT-14-Part">Prístup k určitým súťažným podkladom je obmedzený</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Adresa súťažných podkladov</entry>
 <entry key="field|name|BT-15-Part">Adresa súťažných podkladov</entry>
 <entry key="field|name|BT-150-Contract">Identifikátor zmluvy</entry>
-<entry key="field|name|BT-1501(n)-Contract">Identifikátor oddielu, ktorý sa má upraviť v predchádzajúcom oznámení</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifikátor oddielu, ktorý sa má upraviť v predchádzajúcom oznámení</entry>
+<entry key="field|name|BT-1501(n)-Contract">Identifikátor oddielu</entry>
+<entry key="field|name|BT-1501(s)-Contract">Identifikátor oddielu</entry>
 <entry key="field|name|BT-151-Contract">Adresa zmluvy</entry>
 <entry key="field|name|BT-156-NoticeResult">Maximálna hodnota rámcových dohôd v tejto skupine častí</entry>
 <entry key="field|name|BT-1561-NoticeResult">Prehodnotená hodnota rámcových dohôd v rámci skupiny častí</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Registračné číslo</entry>
 <entry key="field|name|BT-501-Business-National">Registračné číslo</entry>
 <entry key="field|name|BT-501-Organization-Company">Registračné číslo</entry>
-<entry key="field|name|BT-5010-Lot">Identifikátor</entry>
+<entry key="field|name|BT-5010-Lot">Identifikátor finančných prostriedkov EÚ</entry>
 <entry key="field|name|BT-5011-Contract">Identifikátor finančných prostriedkov EÚ</entry>
 <entry key="field|name|BT-502-Business">Kontaktné miesto</entry>
 <entry key="field|name|BT-502-Organization-Company">Kontaktné miesto</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Maximálny počet obnovení</entry>
 <entry key="field|name|BT-60-Lot">Verejné obstarávanie sa aspoň čiastočne financuje z finančných prostriedkov Európskej únie</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Činnosť obstarávateľa</entry>
-<entry key="field|name|BT-6110-Contract">Opis</entry>
-<entry key="field|name|BT-6140-Lot">Ďalšie informácie o programe alebo projekte Únie, ktoré sa použili aspoň čiastočne na financovanie obstarávania</entry>
+<entry key="field|name|BT-6110-Contract">Ďalšie podrobnosti o fondoch EÚ</entry>
+<entry key="field|name|BT-6140-Lot">Ďalšie podrobnosti o fondoch EÚ</entry>
 <entry key="field|name|BT-615-Lot">Informácie o súťažných podkladoch sú dostupné na</entry>
 <entry key="field|name|BT-615-Part">Informácie o súťažných podkladoch sú dostupné na</entry>
 <entry key="field|name|BT-625-Lot">Oddelenie</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Hodnota výsledku</entry>
 <entry key="field|name|BT-721-Contract">Názov</entry>
 <entry key="field|name|BT-722-Contract">Názov projektu alebo programu financovaného z prostriedkov EÚ</entry>
-<entry key="field|name|BT-7220-Lot">Program finančných prostriedkov Únie použitých na aspoň čiastočné financovanie zákazky</entry>
+<entry key="field|name|BT-7220-Lot">Program fondov EÚ</entry>
 <entry key="field|name|BT-723-LotResult">Kategória vozidiel, ktoré patria do rozsahu pôsobnosti smernice 2009/33/ES, vrátane: Ľahké úžitkové vozidlá (M1, M2, N1); Autobus (M3); Nákladné vozidlo (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Toto verejné obstarávanie je vhodné aj pre malé a stredné podniky (MSP)</entry>
 <entry key="field|name|BT-726-LotsGroup">Toto verejné obstarávanie je vhodné aj pre malé a stredné podniky (MSP)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Druh poskytovanej služby</entry>
 <entry key="field|name|OPT-050-Lot">Stav dokumentu</entry>
 <entry key="field|name|OPT-050-Part">Stav dokumentu</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Kód požiadavky na vykonanie</entry>
 <entry key="field|name|OPT-070-Lot">Výkon služby je vyhradený pre určité povolanie. Odkaz na príslušný zákon, iný právny predpis alebo správne konanie</entry>
 <entry key="field|name|OPT-071-Lot">Kvalitatívny cieľový kód</entry>
 <entry key="field|name|OPT-072-Lot">Opis cieľa kvality</entry>

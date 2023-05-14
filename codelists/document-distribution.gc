@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>DocumentDistribution</ShortName>
@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Not Restricted Document</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Няма ограничения за достъп до документи</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Bez omezení přístupu k dokumentům</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ingen begrænsninger i adgangen til dokumenter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Keine Einschränkungen des Zugangs zu Dokumenten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δεν υπάρχουν περιορισμοί στην πρόσβαση σε έγγραφα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Not Restricted Document</SimpleValue>
+            <SimpleValue>No restrictions to access documents</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>No hay restricciones de acceso a los documentos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Dokumentidele juurdepääsu piirangud puuduvad</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ei rajoituksia asiakirjojen saatavuudelle</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Pas de restriction à l’accès aux documents</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gan aon srian a chur ar rochtain ar dhoiciméid</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nema ograničenja pristupa dokumentima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nincs korlátozás a dokumentumokhoz való hozzáférésre vonatkozóan</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nessuna restrizione all'accesso ai documenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Apribojimų susipažinti su dokumentais nėra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nav ierobežojumu piekļuvei dokumentiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-ebda restrizzjoni għall-aċċess għad-dokumenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Geen beperkingen op de toegang tot documenten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Brak ograniczeń w dostępie do dokumentów</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Sem restrições de acesso aos documentos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nu există restricții privind accesul la documente</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Žiadne obmedzenia prístupu k dokumentom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Brez omejitev dostopa do dokumentov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inga begränsningar av tillgången till handlingar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Restricted Document</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Достъпът до определени документи за обществената поръчка е ограничен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přístup k některé zadávací dokumentaci je omezen</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Adgangen til visse udbudsdokumenter er begrænset</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Zugang zu bestimmten Auftragsunterlagen ist beschränkt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η πρόσβαση σε ορισμένα έγγραφα της σύμβασης είναι περιορισμένη</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Restricted Document</SimpleValue>
+            <SimpleValue>Access to certain procurement documents is restricted</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El acceso a determinados pliegos de la contratación está restringido</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Juurdepääs teatavatele hankedokumentidele on piiratud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tiettyjen hankinta-asiakirjojen saatavuutta on rajoitettu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L’accès à certains documents de marché est limité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá srian ar rochtain ar dhoiciméid soláthair áirithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ograničen je pristup određenoj dokumentaciji o nabavi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'accesso a determinati documenti di gara è limitato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Galimybė susipažinti su tam tikrais pirkimo dokumentais ribojama</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piekļuve konkrētiem iepirkuma procedūras dokumentiem ir ierobežota</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-aċċess għal ċerti dokumenti tal-akkwist huwa ristrett</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De toegang tot bepaalde aanbestedingsstukken is beperkt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dostęp do niektórych dokumentów zamówienia jest ograniczony</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O acesso a determinados documentos do concurso é limitado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Accesul la anumite documente ale achiziției este restricționat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prístup k určitým súťažným podkladom je obmedzený</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dostop do nekaterih dokumentov v zvezi z oddajo javnega naročila je omejen</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tillgången till vissa upphandlingsdokument är begränsad</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">L'identificatore del lotto di risultato</entry>
 <entry key="business-term|name|BT-13714">Identificativo del lotto o gruppo di lotti</entry>
 <entry key="business-term|name|BT-13715">Informazioni aggiuntive Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Sezione cui si applica la modifica</entry>
+<entry key="business-term|name|BT-13716">Identificatore della sezione</entry>
 <entry key="business-term|name|BT-13717">Termini Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Documenti Identificatore del lotto</entry>
 <entry key="business-term|name|BT-13719">Identificazione del lotto di presentazione</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Data di selezione del vincitore</entry>
 <entry key="business-term|name|BT-15">Indirizzo dei documenti di gara</entry>
 <entry key="business-term|name|BT-150">Identificativo dell'appalto</entry>
-<entry key="business-term|name|BT-1501">Identificativo della sezione da modificare in un precedente avviso o bando</entry>
+<entry key="business-term|name|BT-1501">Identificatore della sezione</entry>
 <entry key="business-term|name|BT-151">Indirizzo dell'appalto</entry>
 <entry key="business-term|name|BT-156">Valore massimo degli accordi quadro in questo gruppo di lotti</entry>
 <entry key="business-term|name|BT-1561">Valore rivalutato degli accordi quadro all'interno di un gruppo di lotti</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Numero minimo di candidati da invitare alla seconda fase della procedura</entry>
 <entry key="business-term|name|BT-500">Nome ufficiale</entry>
 <entry key="business-term|name|BT-501">Numero di registrazione</entry>
-<entry key="business-term|name|BT-5010">Identificatore</entry>
+<entry key="business-term|name|BT-5010">Identificativo dei fondi UE</entry>
 <entry key="business-term|name|BT-5011">Identificativo dei fondi UE</entry>
 <entry key="business-term|name|BT-502">Referente</entry>
 <entry key="business-term|name|BT-503">Telefono</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Rinnovi massimi</entry>
 <entry key="business-term|name|BT-60">L'appalto è finanziato almeno in parte da fondi dell'Unione europea</entry>
 <entry key="business-term|name|BT-610">Attività dell'ente aggiudicatore</entry>
-<entry key="business-term|name|BT-6110">Descrizione</entry>
-<entry key="business-term|name|BT-6140">Ulteriori informazioni sul programma o sul progetto dell'Unione utilizzati almeno parzialmente per finanziare l'appalto</entry>
+<entry key="business-term|name|BT-6110">Ulteriori dettagli sui fondi dell'UE</entry>
+<entry key="business-term|name|BT-6140">Ulteriori dettagli sui fondi dell'UE</entry>
 <entry key="business-term|name|BT-615">Le informazioni sui documenti riservati sono disponibili all'indirizzo seguente</entry>
 <entry key="business-term|name|BT-625">Unità</entry>
 <entry key="business-term|name|BT-63">Varianti</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Valore del risultato</entry>
 <entry key="business-term|name|BT-721">Titolo</entry>
 <entry key="business-term|name|BT-722">Nome del progetto o programma finanziato dall'UE</entry>
-<entry key="business-term|name|BT-7220">Il programma dei fondi dell'Unione utilizzati per finanziare almeno parzialmente il contratto</entry>
+<entry key="business-term|name|BT-7220">Programma dei fondi dell'UE</entry>
 <entry key="business-term|name|BT-723">La categoria di veicoli che rientra nell'ambito di applicazione della direttiva 2009/33/CE, tra cui: Veicoli leggeri (M1, M2, N1); Autobus (M3); Camion (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Viene utilizzato uno strumento di comunicazione ad hoc</entry>
 <entry key="business-term|name|BT-725">Numero di veicoli pesanti a emissioni zero</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Tipo di servizio fornito</entry>
 <entry key="business-term|name|OPT-050">Stato del documento</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Codice del requisito di esecuzione</entry>
 <entry key="business-term|name|OPT-070">L'esecuzione del servizio è riservata a una determinata professione. Riferimento alla legge, al regolamento o alla procedura amministrativa pertinente</entry>
 <entry key="business-term|name|OPT-071">Codice obiettivo di qualità</entry>
 <entry key="business-term|name|OPT-072">Descrizione dell'obiettivo di qualità</entry>

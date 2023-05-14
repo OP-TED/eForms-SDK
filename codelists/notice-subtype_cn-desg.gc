@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>CnDesg</ShortName>
       <LongName>cn-desg</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.7.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>23</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за конкурс за проект – Общата директива, проекти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o soutěži o návrh – obecná směrnice, návrh</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om projektkonkurrence – det generelle direktiv, projektering</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wettbewerbsbekanntmachung – allgemeine Richtlinie, Wettbewerb</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη διαγωνισμού μελετών – γενική οδηγία, διαγωνισμός μελετών</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>23</SimpleValue>
+            <SimpleValue>Design contest notice – general directive, design</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de concurso de proyectos. Directiva general, proyecto.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik eelnev avalikustamisteade – ülddirektiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Suunnittelukilpailua koskeva ilmoitus – yleisdirektiivi, suunnittelu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de concours – directive générale, concours</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le comórtas dearaidh — treoir ghinearálta, dearadh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o projektnom natječaju – opća direktiva, projekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tervpályázati hirdetmény – általános irányelv, tervezés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso o bando di concorso di progettazione – direttiva generale, progettazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie projekto konkursą – bendroji direktyva, projektas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par metu konkursu – Vispārīgā iepirkuma direktīva, metu konkursa regulējums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż dwar konkors ta’ disinn – Direttiva ġenerali, id-disinn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een prijsvraag voor ontwerpen – algemene richtlijn, ontwerp</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o konkursie – dyrektywa ogólna, prace projektowe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concurso para trabalhos de conceção – diretiva geral, conceção</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de concurs de proiecte – directivă generală, proiect</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o vyhlásení súťaže návrhov – všeobecná smernica, návrh</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o projektnem natečaju – splošna direktiva, projektni natečaj</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om projekttävling – klassiska direktivet, projekttävling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>24</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за конкурс за проект – Секторната директива, проекти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o zahájení soutěže o návrh – odvětvová směrnice, návrh</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om projektkonkurrencer – sektordirektivet, projektering</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wettbewerbsbekanntmachung – Sektorenrichtlinie, Wettbewerb</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη διαγωνισμού μελετών – τομεακή οδηγία, διαγωνισμός μελετών</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>24</SimpleValue>
+            <SimpleValue>Design contest notice – sectoral directive, design</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de concurso de proyectos. Directiva sectorial, proyecto.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik eelnev avalikustamisteade – valdkondlik direktiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Suunnittelukilpailua koskeva ilmoitus – toimialakohtainen direktiivi, suunnittelu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de concours – directive sectorielle, concours</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le comórtas dearaidh — treoir earnála, dearadh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o projektnom natječaju – sektorska direktiva, projekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tervpályázati hirdetmény – ágazati irányelv, tervezés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di concorso di progettazione – direttiva settoriale, progettazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie projekto konkursą – sektoriaus direktyva, projektas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par metu konkursu – Komunālo pakalpojumu direktīva, metu konkursa regulējums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż dwar konkors ta’ disinn – Direttiva settorjali, id-disinn</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een prijsvraag voor ontwerpen – sectorale richtlijn, ontwerp</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o konkursie – dyrektywa sektorowa, prace projektowe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de concurso para trabalhos de conceção – diretiva setorial, conceção</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de concurs de proiecte – directivă sectorială, proiect</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o vyhlásení súťaže návrhov – sektorová smernica, návrh</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o projektnem natečaju – sektorska direktiva, projektni natečaj</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om projekttävling – försörjningsdirektivet, projekttävling</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

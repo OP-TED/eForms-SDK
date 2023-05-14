@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Oznámenie</entry>
 <entry key="group|name|GR-Buyer">Zmluvná strana a poskytovateľ služieb</entry>
 <entry key="group|name|GR-Change">Zmeny</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Oddiel, na ktorý sa zmena vzťahuje</entry>
 <entry key="group|name|GR-Company">Organizácia</entry>
 <entry key="group|name|GR-Company-Address">Adresa</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Informácie týkajúce sa výlučne kupujúceho</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Podmienky verejnej súťaže</entry>
 <entry key="group|name|GR-Metadata">Metaúdaje</entry>
 <entry key="group|name|GR-Modification">Úpravy</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Oddiel, na ktorý sa zmena vzťahuje</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Výsledok</entry>
 <entry key="group|name|GR-Organisations">Organizácie uvedené v oznámení</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Finančné prostriedky EÚ použité v zmluve</entry>
 <entry key="group|name|ND-ContractModification">Úpravy</entry>
 <entry key="group|name|ND-ContractingParty">Nakupujúci</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Cezhraničné právo</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Kód odôvodnenia priameho zadania zákazky (uverejnený neskôr)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Identifikácia predchádzajúceho postupu odôvodňujúceho priame zadanie zákazky (uverejnené neskôr)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Odôvodnenie priameho zadania zákazky (uverejnené neskôr)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Iné podmienky ako rozdelenie príjmov</entry>
 <entry key="group|name|ND-Part">Čiastočné</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Doplnková klasifikácia</entry>
+<entry key="group|name|ND-PartMainClassification">Klasifikácia hlavnej komodity časti</entry>
 <entry key="group|name|ND-PartPlacePerformance">Miesto výkonu</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Odkaz na predchádzajúce plánovanie</entry>
 <entry key="group|name|ND-PartReservedProcurement">Vyhradené verejné obstarávanie</entry>

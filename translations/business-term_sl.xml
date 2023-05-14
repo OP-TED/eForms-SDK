@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Identifikator serije rezultata</entry>
 <entry key="business-term|name|BT-13714">Identifikator sklopa ali skupine sklopov</entry>
 <entry key="business-term|name|BT-13715">Dodatne informacije Identifikator lota</entry>
-<entry key="business-term|name|BT-13716">Oddelek, v katerem se sprememba uporabi</entry>
+<entry key="business-term|name|BT-13716">Identifikator oddelka</entry>
 <entry key="business-term|name|BT-13717">Pogoji Identifikator lota</entry>
 <entry key="business-term|name|BT-13718">Identifikator lota dokumentov</entry>
 <entry key="business-term|name|BT-13719">Identifikator sklopa predložitve</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Datum izbire zmagovalca</entry>
 <entry key="business-term|name|BT-15">Naslov dokumentov v zvezi z oddajo javnega naročila</entry>
 <entry key="business-term|name|BT-150">Identifikator javnega naročila</entry>
-<entry key="business-term|name|BT-1501">Identifikator oddelka, ki se spremeni v prejšnjem obvestilu</entry>
+<entry key="business-term|name|BT-1501">Identifikator oddelka</entry>
 <entry key="business-term|name|BT-151">Naslov javnega naročila</entry>
 <entry key="business-term|name|BT-156">Najvišja vrednost okvirnih sporazumov v tej skupini sklopov</entry>
 <entry key="business-term|name|BT-1561">Ponovno ocenjena vrednost okvirnih sporazumov v skupini sklopov</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Najmanjše število kandidatov, ki se povabijo k sodelovanju v drugi stopnji postopka</entry>
 <entry key="business-term|name|BT-500">Uradno ime</entry>
 <entry key="business-term|name|BT-501">Registrska številka</entry>
-<entry key="business-term|name|BT-5010">Identifikator</entry>
+<entry key="business-term|name|BT-5010">Identifikator sredstev EU</entry>
 <entry key="business-term|name|BT-5011">Identifikator sredstev EU</entry>
 <entry key="business-term|name|BT-502">Kontaktna točka</entry>
 <entry key="business-term|name|BT-503">Tel.</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Največje število podaljšanj</entry>
 <entry key="business-term|name|BT-60">Javno naročilo se vsaj delno financira iz skladov Evropske unije</entry>
 <entry key="business-term|name|BT-610">Dejavnost naročnika</entry>
-<entry key="business-term|name|BT-6110">Opis</entry>
-<entry key="business-term|name|BT-6140">Dodatne informacije o programu ali projektu Unije, ki se vsaj delno financira iz javnega naročanja</entry>
+<entry key="business-term|name|BT-6110">Več podrobnosti o skladih EU</entry>
+<entry key="business-term|name|BT-6140">Več podrobnosti o skladih EU</entry>
 <entry key="business-term|name|BT-615">Informacije o zaupnih dokumentih so na voljo na</entry>
 <entry key="business-term|name|BT-625">Enota</entry>
 <entry key="business-term|name|BT-63">Variantne ponudbe</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Vrednost rezultata</entry>
 <entry key="business-term|name|BT-721">Naslov</entry>
 <entry key="business-term|name|BT-722">Ime projekta ali programa, ki ga financira EU</entry>
-<entry key="business-term|name|BT-7220">Program sredstev Unije, ki se uporabljajo za vsaj delno financiranje pogodbe</entry>
+<entry key="business-term|name|BT-7220">Program skladov EU</entry>
 <entry key="business-term|name|BT-723">Kategorijo vozil, ki spadajo na področje uporabe Direktive 2009/33/ES, vključno z: Lahka vozila (M1, M2, N1); Avtobus (M3); Tovornjak (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Uporablja se ad hoc komunikacijsko orodje</entry>
 <entry key="business-term|name|BT-725">Število brezemisijskih težkih vozil</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Vrsta zagotovljene storitve</entry>
 <entry key="business-term|name|OPT-050">Status dokumenta</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Oznaka zahteve za izvršitev</entry>
 <entry key="business-term|name|OPT-070">Opravljanje storitve je rezervirano za določen poklic. Sklicevanje na ustrezni zakon, predpis ali upravni postopek</entry>
 <entry key="business-term|name|OPT-071">Koda cilja kakovosti</entry>
 <entry key="business-term|name|OPT-072">Opis cilja kakovosti</entry>

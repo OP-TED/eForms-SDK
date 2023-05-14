@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Meddelande</entry>
 <entry key="group|name|GR-Buyer">Avtalspart och tjänsteleverantör</entry>
 <entry key="group|name|GR-Change">Förändring</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Avsnitt som ändringen gäller</entry>
 <entry key="group|name|GR-Company">Organisation</entry>
 <entry key="group|name|GR-Company-Address">Adress</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Information som uteslutande rör köparen</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Anbudsvillkor</entry>
 <entry key="group|name|GR-Metadata">Metadata</entry>
 <entry key="group|name|GR-Modification">Ändring</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Avsnitt som ändringen gäller</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Resultat</entry>
 <entry key="group|name|GR-Organisations">Organisationer som nämns i meddelandet</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">EU-medel som används i kontraktet</entry>
 <entry key="group|name|ND-ContractModification">Ändring</entry>
 <entry key="group|name|ND-ContractingParty">Köpare</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Gränsöverskridande lagstiftning</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Kod för motivering av direkttilldelning (offentliggjord senare)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID för det föregående förfarandet som motiverar direkttilldelning (offentliggjord senare)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Motivering till direkttilldelning (offentliggjord senare)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Andra villkor än inkomstfördelning</entry>
 <entry key="group|name|ND-Part">Delvis</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Tilläggsklassificering</entry>
+<entry key="group|name|ND-PartMainClassification">Klassificering för huvudvaran i en del</entry>
 <entry key="group|name|ND-PartPlacePerformance">Uppfyllelseort</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Tidigare planeringsreferens</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserverad upphandling</entry>

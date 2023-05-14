@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database version 1.7.0 created on the 2023-04-11T16:00-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PinCfcStandard</ShortName>
       <LongName>pin-cfc-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.7.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>10</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предварителна информация, използвано като покана за участие в състезателна процедура – Общата директива, стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předběžné oznámení použité jako výzva k účasti v soutěži – obecná směrnice, standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forhåndsmeddelelse anvendt som indkaldelse af tilbud – det generelle direktiv, standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorinformation als Aufruf zum Wettbewerb – allgemeine Richtlinie, Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκαταρκτική προκήρυξη που χρησιμοποιείται ως προκήρυξη διαγωνισμού – γενική οδηγία, τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>10</SimpleValue>
+            <SimpleValue>Prior information notice used as a call for competition – general directive, standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de información previa usado como convocatoria de licitación. Directiva general, régimen normal.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke väljakuulutamiseks kasutatav perioodiline eelteade – valdkondlik direktiiv, üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakkoilmoitus kutsuna tarjouskilpailuun – yleisdirektiivi, vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de préinformation utilisé comme appel à la concurrence – directive générale, régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra réamhfhaisnéise a úsáidtear mar ghlao ar iomaíocht — treoir ghinearálta, gnáthchóras</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prethodna informacijska obavijest upotrijebljena kao poziv na nadmetanje – opća direktiva, standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlati/részvételi felhívásként használt előzetes tájékoztató – általános irányelv, klasszikus ajánlatkérőkre vonatkozó szabályok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di preinformazione utilizzato come avviso di indizione di gara – direttiva generale, regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išankstinis informacinis skelbimas, kuriuo kviečiama dalyvauti konkurse; bendroji direktyva, įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējs informatīvs paziņojums, ko izmanto iepirkuma izsludināšanai – Vispārīgā iepirkuma direktīva, standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż informattiv minn qabel li jintuża bħala sejħa għall-kompetizzjoni – Direttiva ġenerali, reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vooraankondiging gebruikt als oproep tot mededinging – algemene richtlijn, standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wstępne ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – dyrektywa ogólna, tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de pré-informação utilizado como anúncio de concurso – diretiva geral, regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de intenție utilizat ca invitație la procedura concurențială de ofertare – directivă generală, regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>predbežné oznámenie použité ako výzva na vyhlásenie verejného obstarávania – všeobecná smernica, štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>predhodno informativno obvestilo kot sredstvo za objavo javnega razpisa – splošna direktiva, standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används som anbudsinfordran – klassiska direktivet, standardsystem</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>11</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Периодично индикативно обявление, използвано като покана за участие в състезателна процедура – Секторната директива, стандартен режим</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pravidelné předběžné oznámení použité jako výzva k účasti v soutěži – odvětvová směrnice, standardní režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Vejledende periodisk bekendtgørelse anvendt som indkaldelse af tilbud – sektordirektivet, standardordningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Regelmäßige nicht verbindliche Bekanntmachung als Aufruf zum Wettbewerb – Sektorenrichtlinie, Standardregelung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται ως προκήρυξη διαγωνισμού – τομεακή οδηγία, τυποποιημένο καθεστώς</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>11</SimpleValue>
+            <SimpleValue>Periodic indicative notice used as a call for competition – sectoral directive, standard regime</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio periódico indicativo usado como convocatoria de licitación. Directiva sectorial, régimen normal.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke väljakuulutamiseks kasutatav eelteade – ülddirektiiv, lihtsustatud kord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ohjeellinen kausi-ilmoitus kutsuna tarjouskilpailuun – toimialakohtainen direktiivi, vakiojärjestelmä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis périodique indicatif utilisé comme appel à la concurrence – directive sectorielle, régime ordinaire</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra táscach tréimhsiúil a úsáidtear mar ghlao ar iomaíocht — treoir earnála, córas caighdeánach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Periodična indikativna obavijest upotrijebljena kao poziv na nadmetanje – sektorska direktiva, standardni režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ajánlati/részvételi felhívásként használt időszakos tájékoztató – ágazati irányelv, klasszikus ajánlatkérőkre vonatkozó szabályok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso periodico indicativo utilizzato come avviso di indizione di gara – direttiva settoriale, regime ordinario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Reguliarus orientacinis skelbimas, kuriuo kviečiama dalyvauti konkurse; sektoriaus direktyva, įprasta tvarka</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Periodisks informatīvs paziņojums, ko izmanto iepirkuma izsludināšanai – Komunālo pakalpojumu direktīva, standarta režīms</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż indikattiv perjodiku li jintuża bħala sejħa għall-kompetizzjoni – Direttiva settorjali, reġim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – sectorale richtlijn, standaardregeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Okresowe ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – dyrektywa sektorowa, tryb standardowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio periódico indicativo utilizado como anúncio de concurso – diretiva setorial, regime normal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț orientativ periodic utilizat ca invitație la procedura concurențială de ofertare – directivă sectorială, regim standard</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>pravidelné informatívne oznámenie použité ako výzva na vyhlásenie verejného obstarávania – sektorová smernica, štandardný režim</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>periodično informativno obvestilo kot sredstvo za objavo javnega razpisa – sektorska direktiva, standardna ureditev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förhandsmeddelande som används som anbudsinfordran – försörjningsdirektivet, standardsystem</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,8 +287,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>CEI</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Покана за изразяване на интерес</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Výzva k vyjádření zájmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Indkaldelse af interessetilkendegivelser</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Aufforderung zur Interessenbekundung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πρόσκληση εκδήλωσης ενδιαφέροντος</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>CEI</SimpleValue>
+            <SimpleValue>Call for expressions of interest</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Convocatoria de manifestaciones de interés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kutse osalemise huvist teatamiseks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kiinnostuksenilmaisupyyntö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Appel à manifestation d’intérêt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Glao ar léiriú spéise</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Poziv na iskaz interesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Pályázati felhívás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Invito a manifestazione d’interesse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kvietimas pareikšti susidomėjimą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Uzaicinājums izteikt ieinteresētību</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sejħa għal espressjoni ta’ interess</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Oproep tot het indienen van blijken van belangstelling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zaproszenie do wyrażenia zainteresowania</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Convite à manifestação de interesse</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cerere de exprimare a interesului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Výzva na vyjadrenie záujmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Razpis za prijavo interesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inbjudan till intresseanmälan</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

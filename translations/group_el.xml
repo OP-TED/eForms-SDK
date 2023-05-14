@@ -9,6 +9,7 @@
 <entry key="group|name|GR-Business-Section">Ανακοίνωση</entry>
 <entry key="group|name|GR-Buyer">Συμβαλλόμενο μέρος και πάροχος υπηρεσιών</entry>
 <entry key="group|name|GR-Change">Αλλαγή</entry>
+<entry key="group|name|GR-ChangedSectionIdentifiers">Τμήμα στο οποίο εφαρμόζεται η αλλαγή</entry>
 <entry key="group|name|GR-Company">Οργάνωση</entry>
 <entry key="group|name|GR-Company-Address">Διεύθυνση</entry>
 <entry key="group|name|GR-Company-BuyerExclusive">Πληροφορίες που αφορούν αποκλειστικά τον αγοραστή</entry>
@@ -101,6 +102,7 @@
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Όροι υποβολής προσφορών</entry>
 <entry key="group|name|GR-Metadata">Μεταδεδομένα</entry>
 <entry key="group|name|GR-Modification">Τροποποίηση</entry>
+<entry key="group|name|GR-ModificationSectionIdentifiers">Τμήμα στο οποίο εφαρμόζεται η αλλαγή</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Αποτέλεσμα</entry>
 <entry key="group|name|GR-Organisations">Οργανισμοί που αναφέρονται στην προκήρυξη</entry>
@@ -249,7 +251,7 @@
 <entry key="group|name|ND-ContractEUFunds">Κονδύλια της ΕΕ που χρησιμοποιήθηκαν στη σύμβαση</entry>
 <entry key="group|name|ND-ContractModification">Τροποποίηση</entry>
 <entry key="group|name|ND-ContractingParty">Αγοραστής</entry>
-<entry key="group|name|ND-CrossBorderLaw">Cross-border law</entry>
+<entry key="group|name|ND-CrossBorderLaw">Διασυνοριακό δίκαιο</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Κωδικός αιτιολόγησης απευθείας ανάθεσης (δημοσιεύθηκε αργότερα)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Αναγνωριστικό της προηγούμενης διαδικασίας που δικαιολογεί την απευθείας ανάθεση (δημοσιεύθηκε αργότερα)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Αιτιολόγηση της απευθείας ανάθεσης (δημοσιεύθηκε αργότερα)</entry>
@@ -313,6 +315,7 @@
 <entry key="group|name|ND-OtherContractExecutionConditions">Όροι εκτός από τη διάθεση των εσόδων</entry>
 <entry key="group|name|ND-Part">Μερική</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Πρόσθετη ταξινόμηση</entry>
+<entry key="group|name|ND-PartMainClassification">Ταξινόμηση του κύριου εμπορεύματος ενός μέρους</entry>
 <entry key="group|name|ND-PartPlacePerformance">Τόπος εκτέλεσης</entry>
 <entry key="group|name|ND-PartPreviousPlanning">ΠΡΟΗΓΟΥΜΕΝΟ ΑΝΑΦΟΡΑ ΣΧΕΔΙΑΣΜ@@</entry>
 <entry key="group|name|ND-PartReservedProcurement">Κατ’ αποκλειστικότητα ανάθεση σύμβασης</entry>

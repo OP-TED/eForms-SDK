@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Rész</entry>
 <entry key="field|name|BT-13713-LotResult">Eredmény tétel azonosító</entry>
 <entry key="field|name|BT-13714-Tender">A rész vagy a részcsoport azonosítója</entry>
-<entry key="field|name|BT-13716-notice">A változtatással érintett szakasz</entry>
+<entry key="field|name|BT-13716-notice">A szakasz azonosítója</entry>
 <entry key="field|name|BT-1375-Procedure">A feltüntetett részek</entry>
 <entry key="field|name|BT-14-Lot">Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott</entry>
 <entry key="field|name|BT-14-Part">Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">A közbeszerzési dokumentumok címe</entry>
 <entry key="field|name|BT-15-Part">A közbeszerzési dokumentumok címe</entry>
 <entry key="field|name|BT-150-Contract">A szerződés azonosítója</entry>
-<entry key="field|name|BT-1501(n)-Contract">Az előző hirdetményben módosítandó rész azonosítója</entry>
-<entry key="field|name|BT-1501(s)-Contract">Az előző hirdetményben módosítandó rész azonosítója</entry>
+<entry key="field|name|BT-1501(n)-Contract">A szakasz azonosítója</entry>
+<entry key="field|name|BT-1501(s)-Contract">A szakasz azonosítója</entry>
 <entry key="field|name|BT-151-Contract">A szerződés címe</entry>
 <entry key="field|name|BT-156-NoticeResult">Az ebbe a tételcsoportba tartozó keretmegállapodások maximális értéke</entry>
 <entry key="field|name|BT-1561-NoticeResult">A keretmegállapodások újrabecsült értéke egy tételcsoporton belül</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Regisztrációs szám</entry>
 <entry key="field|name|BT-501-Business-National">Regisztrációs szám</entry>
 <entry key="field|name|BT-501-Organization-Company">Regisztrációs szám</entry>
-<entry key="field|name|BT-5010-Lot">Azonosító</entry>
+<entry key="field|name|BT-5010-Lot">Az uniós alapok azonosítója</entry>
 <entry key="field|name|BT-5011-Contract">Az uniós alapok azonosítója</entry>
 <entry key="field|name|BT-502-Business">Kapcsolattartó pont</entry>
 <entry key="field|name|BT-502-Organization-Company">Kapcsolattartó pont</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">A megújítások maximális száma</entry>
 <entry key="field|name|BT-60-Lot">A közbeszerzést legalább részben európai uniós forrásokból finanszírozzák</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">A közszolgáltató ajánlatkérő tevékenysége</entry>
-<entry key="field|name|BT-6110-Contract">Leírás</entry>
-<entry key="field|name|BT-6140-Lot">További információk a közbeszerzést legalább részben finanszírozó uniós programról vagy projektről</entry>
+<entry key="field|name|BT-6110-Contract">További részletek az uniós alapokról</entry>
+<entry key="field|name|BT-6140-Lot">További részletek az uniós alapokról</entry>
 <entry key="field|name|BT-615-Lot">A korlátozott hozzáférésű dokumentumokra vonatkozó információk elérhetők itt</entry>
 <entry key="field|name|BT-615-Part">A korlátozott hozzáférésű dokumentumokra vonatkozó információk elérhetők itt</entry>
 <entry key="field|name|BT-625-Lot">Egység</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Az eredmény értéke</entry>
 <entry key="field|name|BT-721-Contract">Cím</entry>
 <entry key="field|name|BT-722-Contract">Az uniós finanszírozású projekt vagy program neve</entry>
-<entry key="field|name|BT-7220-Lot">A szerződés legalább részleges finanszírozására felhasznált uniós alapok programja</entry>
+<entry key="field|name|BT-7220-Lot">Az uniós alapok programja</entry>
 <entry key="field|name|BT-723-LotResult">A 2009/33/EK irányelv hatálya alá tartozó járművek kategóriája, beleértve a következőket: Könnyű haszongépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Ebben a közbeszerzésben kis- és középvállalkozások (kkv-k) is részt vehetnek</entry>
 <entry key="field|name|BT-726-LotsGroup">Ebben a közbeszerzésben kis- és középvállalkozások (kkv-k) is részt vehetnek</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">A nyújtott szolgáltatás típusa</entry>
 <entry key="field|name|OPT-050-Lot">A dokumentum státusza</entry>
 <entry key="field|name|OPT-050-Part">A dokumentum státusza</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">A végrehajtási követelmény kódja</entry>
 <entry key="field|name|OPT-070-Lot">A szolgáltatás teljesítése egy adott szakma számára van fenntartva. Hivatkozás a vonatkozó törvényi, rendeleti vagy közigazgatási eljárásra</entry>
 <entry key="field|name|OPT-071-Lot">Minőségi célkód</entry>
 <entry key="field|name|OPT-072-Lot">A minőségi célleírás</entry>

@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Rezultāts Lot Identifier</entry>
 <entry key="business-term|name|BT-13714">Daļas vai daļu grupas identifikators</entry>
 <entry key="business-term|name|BT-13715">Papildus informācija Lot Identifier</entry>
-<entry key="business-term|name|BT-13716">Sadaļa, uz kuru attiecas izmaiņas</entry>
+<entry key="business-term|name|BT-13716">Iedaļas identifikators</entry>
 <entry key="business-term|name|BT-13717">Termini Lot Identifier</entry>
 <entry key="business-term|name|BT-13718">Dokumentu partijas identifikators</entry>
 <entry key="business-term|name|BT-13719">Iesniegšanas daļas identifikators</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Datums, kad tika izraudzīts uzvarētājs</entry>
 <entry key="business-term|name|BT-15">Adrese, kur pieejami iepirkuma dokumenti</entry>
 <entry key="business-term|name|BT-150">Līguma identifikators</entry>
-<entry key="business-term|name|BT-1501">Grozāmās sadaļas identifikators iepriekšējā paziņojumā</entry>
+<entry key="business-term|name|BT-1501">Iedaļas identifikators</entry>
 <entry key="business-term|name|BT-151">Līguma adrese</entry>
 <entry key="business-term|name|BT-156">Pamatnolīgumu maksimālā vērtība šajā daļu grupā</entry>
 <entry key="business-term|name|BT-1561">Pamatnolīgumu pārvērtētā vērtība daļu grupas ietvaros</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Minimālais kandidātu skaits, ko paredzēts uzaicināt uz procedūras otro posmu</entry>
 <entry key="business-term|name|BT-500">Oficiālais nosaukums</entry>
 <entry key="business-term|name|BT-501">Reģistrācijas numurs</entry>
-<entry key="business-term|name|BT-5010">Identifikācijas numurs</entry>
+<entry key="business-term|name|BT-5010">ES finansējuma identifikators</entry>
 <entry key="business-term|name|BT-5011">ES finansējuma identifikators</entry>
 <entry key="business-term|name|BT-502">Kontaktpunkts</entry>
 <entry key="business-term|name|BT-503">Tālrunis</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Maksimālais pārjaunojumu skaits</entry>
 <entry key="business-term|name|BT-60">Iepirkumu vismaz daļēji finansē no Eiropas Savienības līdzekļiem</entry>
 <entry key="business-term|name|BT-610">Līgumslēdzēja darbības joma</entry>
-<entry key="business-term|name|BT-6110">Apraksts</entry>
-<entry key="business-term|name|BT-6140">Papildu informācija par Savienības programmu vai projektu, kas vismaz daļēji izmantots iepirkuma finansēšanai</entry>
+<entry key="business-term|name|BT-6110">Sīkāka informācija par ES fondiem</entry>
+<entry key="business-term|name|BT-6140">Sīkāka informācija par ES fondiem</entry>
 <entry key="business-term|name|BT-615">Adrese, kur pieejama informācija par dokumentiem ar ierobežotu piekļuvi</entry>
 <entry key="business-term|name|BT-625">Mērvienība</entry>
 <entry key="business-term|name|BT-63">Varianti</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Rezultāta vērtība</entry>
 <entry key="business-term|name|BT-721">Nosaukums</entry>
 <entry key="business-term|name|BT-722">ES finansētā projekta vai programmas nosaukums</entry>
-<entry key="business-term|name|BT-7220">Savienības līdzekļu programma, ko izmanto, lai vismaz daļēji finansētu līgumu</entry>
+<entry key="business-term|name|BT-7220">ES fondu programma</entry>
 <entry key="business-term|name|BT-723">Transportlīdzekļu kategorija, kas ietilpst Direktīvas 2009/33/EK darbības jomā, tostarp: Mazas noslodzes transportlīdzekļi (M1, M2, N1); Autobuss (M3); Kravas automašīna (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Tiek izmantots ad hoc saziņas rīks</entry>
 <entry key="business-term|name|BT-725">Bezemisiju lielas noslodzes transportlīdzekļu skaits</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Sniegtā pakalpojuma veids</entry>
 <entry key="business-term|name|OPT-050">Dokumenta statuss</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Izpildes prasības kods</entry>
 <entry key="business-term|name|OPT-070">Pakalpojuma izpilde ir rezervēta konkrētai profesijai. Atsauce uz attiecīgajiem normatīvajiem vai administratīvajiem aktiem</entry>
 <entry key="business-term|name|OPT-071">Kvalitātes mērķa kods</entry>
 <entry key="business-term|name|OPT-072">Kvalitātes mērķa apraksts</entry>

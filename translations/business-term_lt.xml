@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Rezultato dalies identifikatorius</entry>
 <entry key="business-term|name|BT-13714">Pirkimo dalies arba pirkimo dalių grupės identifikatorius</entry>
 <entry key="business-term|name|BT-13715">Papildomos informacijos dalies identifikatorius</entry>
-<entry key="business-term|name|BT-13716">Skirsnis, kuriam taikomas pakeitimas</entry>
+<entry key="business-term|name|BT-13716">Skirsnio identifikatorius</entry>
 <entry key="business-term|name|BT-13717">Terminai Loto identifikatorius</entry>
 <entry key="business-term|name|BT-13718">Dokumentų partijos identifikatorius</entry>
 <entry key="business-term|name|BT-13719">Pateikimo dalies identifikatorius</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">Data, kurią buvo pasirinktas laimėtojas</entry>
 <entry key="business-term|name|BT-15">Pirkimo dokumentų adresas</entry>
 <entry key="business-term|name|BT-150">Sutarties identifikatorius</entry>
-<entry key="business-term|name|BT-1501">Ankstesnio skelbimo keistino skirsnio identifikatorius</entry>
+<entry key="business-term|name|BT-1501">Skirsnio identifikatorius</entry>
 <entry key="business-term|name|BT-151">Sutarties adresas</entry>
 <entry key="business-term|name|BT-156">Didžiausia preliminariųjų susitarimų vertė šioje pirkimo dalių grupėje</entry>
 <entry key="business-term|name|BT-1561">Iš naujo įvertinta preliminariųjų susitarimų vertė pirkimo dalių grupėje</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">Mažiausias į antrąjį procedūros etapą kviečiamų kandidatų skaičius</entry>
 <entry key="business-term|name|BT-500">Oficialus pavadinimas</entry>
 <entry key="business-term|name|BT-501">Registracijos numeris</entry>
-<entry key="business-term|name|BT-5010">Identifikatorius</entry>
+<entry key="business-term|name|BT-5010">ES fondų identifikatorius</entry>
 <entry key="business-term|name|BT-5011">ES fondų identifikatorius</entry>
 <entry key="business-term|name|BT-502">Ryšių centras</entry>
 <entry key="business-term|name|BT-503">Telefono numeris</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Daugiausiai atnaujinimų</entry>
 <entry key="business-term|name|BT-60">Bent dalis pirkimo yra iš dalies finansuojama iš Europos Sąjungos fondų</entry>
 <entry key="business-term|name|BT-610">Perkančiojo subjekto veiklos sritis</entry>
-<entry key="business-term|name|BT-6110">Aprašymas</entry>
-<entry key="business-term|name|BT-6140">Daugiau informacijos apie Sąjungos programą arba projektą, kuriais bent iš dalies finansuojamas viešasis pirkimas</entry>
+<entry key="business-term|name|BT-6110">Išsamesnė informacija apie ES fondus</entry>
+<entry key="business-term|name|BT-6140">Išsamesnė informacija apie ES fondus</entry>
 <entry key="business-term|name|BT-615">Informacija apie ribotos prieigos pirkimo dokumentus pateikiama adresu</entry>
 <entry key="business-term|name|BT-625">Vienetas</entry>
 <entry key="business-term|name|BT-63">Alternatyvūs pasiūlymai</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Rezultato vertė</entry>
 <entry key="business-term|name|BT-721">Pavadinimas</entry>
 <entry key="business-term|name|BT-722">ES finansuojamo projekto arba programos pavadinimas</entry>
-<entry key="business-term|name|BT-7220">Sąjungos fondų, naudojamų bent iš dalies sutarčiai finansuoti, programa</entry>
+<entry key="business-term|name|BT-7220">ES fondų programa</entry>
 <entry key="business-term|name|BT-723">Transporto priemonių, kurioms taikoma Direktyva 2009/33/EB, kategorija, įskaitant: Lengvosioms transporto priemonėms (M1, M2, N1); Autobusas (M3); Sunkvežimis (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Naudojama ad hoc komunikacijos priemonė</entry>
 <entry key="business-term|name|BT-725">Visai netaršių sunkiųjų transporto priemonių skaičius</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Teikiamos paslaugos rūšis</entry>
 <entry key="business-term|name|OPT-050">Dokumento būsena</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Vykdymo reikalavimo kodas</entry>
 <entry key="business-term|name|OPT-070">Paslaugas gali teikti tik tam tikra profesija. Nuoroda į atitinkamą įstatymą, kitą teisės aktą ar administracinę procedūrą</entry>
 <entry key="business-term|name|OPT-071">Kokybės siektinos reikšmės kodas</entry>
 <entry key="business-term|name|OPT-072">Kokybės siektinos reikšmės aprašymas</entry>

@@ -402,7 +402,7 @@
 <entry key="business-term|name|BT-13713">Aitheantóir Lot Torthaí</entry>
 <entry key="business-term|name|BT-13714">Aitheantóir luchtóige nó grúpa luchtóg</entry>
 <entry key="business-term|name|BT-13715">Aitheantóir Lot Eolais Breise</entry>
-<entry key="business-term|name|BT-13716">An rannóg lena mbaineann an t-athrú</entry>
+<entry key="business-term|name|BT-13716">Aitheantóir rannóige</entry>
 <entry key="business-term|name|BT-13717">Téarmaí Aitheantóir Lot</entry>
 <entry key="business-term|name|BT-13718">Doiciméid Aitheantóir Lot</entry>
 <entry key="business-term|name|BT-13719">An tAitheantóir Lot Aighneachta</entry>
@@ -426,7 +426,7 @@
 <entry key="business-term|name|BT-1451">An dáta a roghnaíodh an buaiteoir</entry>
 <entry key="business-term|name|BT-15">Seoladh na ndoiciméad soláthair</entry>
 <entry key="business-term|name|BT-150">Aitheantóir an chonartha</entry>
-<entry key="business-term|name|BT-1501">Aitheantóir na rannóige atá le modhnú i bhfógra a bhí ann roimhe seo</entry>
+<entry key="business-term|name|BT-1501">Aitheantóir rannóige</entry>
 <entry key="business-term|name|BT-151">Seoladh an chonartha</entry>
 <entry key="business-term|name|BT-156">Luach uasta na gcreat-chomhaontuithe sa ghrúpa beart seo</entry>
 <entry key="business-term|name|BT-1561">Luach athmheasta na gcreat-chomhaontuithe laistigh de ghrúpa beart</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-50">An líon íosta iarrthóirí a dtabharfar cuireadh dóibh chuig an dara céim den nós imeachta</entry>
 <entry key="business-term|name|BT-500">Ainm oifigiúil</entry>
 <entry key="business-term|name|BT-501">Uimhir chlárúcháin</entry>
-<entry key="business-term|name|BT-5010">Aitheantóir</entry>
+<entry key="business-term|name|BT-5010">Aitheantóir chistí an Aontais</entry>
 <entry key="business-term|name|BT-5011">Aitheantóir chistí an Aontais</entry>
 <entry key="business-term|name|BT-502">Pointe teagmhála</entry>
 <entry key="business-term|name|BT-503">Teil.</entry>
@@ -521,8 +521,8 @@
 <entry key="business-term|name|BT-58">Athnuachaintí uasta</entry>
 <entry key="business-term|name|BT-60">Is le cistí an Aontais Eorpaigh a mhaoinítear an soláthar i bpáirt ar a laghad</entry>
 <entry key="business-term|name|BT-610">Gníomhaíocht an eintitis chonarthaigh</entry>
-<entry key="business-term|name|BT-6110">Cur síos</entry>
-<entry key="business-term|name|BT-6140">Tuilleadh faisnéise faoi chlár nó faoi thionscadal an Aontais a úsáideadh chun an soláthar a mhaoiniú i bpáirt ar a laghad</entry>
+<entry key="business-term|name|BT-6110">Tuilleadh sonraí faoi Chistí an AE</entry>
+<entry key="business-term|name|BT-6140">Tuilleadh sonraí faoi Chistí an AE</entry>
 <entry key="business-term|name|BT-615">Tá eolas faoi dhoiciméid shrianta le fáil ag</entry>
 <entry key="business-term|name|BT-625">Aonad</entry>
 <entry key="business-term|name|BT-63">Leaganacha malartacha</entry>
@@ -559,7 +559,7 @@
 <entry key="business-term|name|BT-720">Luach an toraidh</entry>
 <entry key="business-term|name|BT-721">Teideal</entry>
 <entry key="business-term|name|BT-722">Ainm an tionscadail nó an chláir a fuair maoiniú ón Aontas</entry>
-<entry key="business-term|name|BT-7220">Clár chistí an Aontais a úsáidtear chun an conradh a mhaoiniú i bpáirt ar a laghad</entry>
+<entry key="business-term|name|BT-7220">Clár Chistí an AE</entry>
 <entry key="business-term|name|BT-723">Catagóir na feithicle a thagann faoi raon feidhme Threoir 2009/33/CE, lena n-áirítear: Feithiclí saothair éadroim (M1, M2, N1); Bus (M3); Trucail (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="business-term|name|BT-724">Úsáidtear uirlis chumarsáide ad hoc</entry>
 <entry key="business-term|name|BT-725">Líon na bhfeithiclí tromshaothair astaíochtaí nialasacha</entry>
@@ -689,7 +689,7 @@
 <entry key="business-term|name|OPT-002">Customisation ID (UBL)</entry>
 <entry key="business-term|name|OPT-030">Cineál seirbhíse curtha ar fáil</entry>
 <entry key="business-term|name|OPT-050">Stádas na Cáipéise</entry>
-<entry key="business-term|name|OPT-060">ToDo</entry>
+<entry key="business-term|name|OPT-060">Cód an cheanglais forghníomhaithe</entry>
 <entry key="business-term|name|OPT-070">Tá forghníomhú na seirbhíse forchoimeádta do ghairm áirithe. Tagairt don dlí, don rialachán nó don nós imeachta riaracháin ábhartha</entry>
 <entry key="business-term|name|OPT-071">Spriocchód cáilíochta</entry>
 <entry key="business-term|name|OPT-072">Cur síos ar sprioc cáilíochta</entry>

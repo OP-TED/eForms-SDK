@@ -689,7 +689,7 @@
 <entry key="field|name|BT-137-Part">Del</entry>
 <entry key="field|name|BT-13713-LotResult">Identifikator serije rezultata</entry>
 <entry key="field|name|BT-13714-Tender">Identifikator sklopa ali skupine sklopov</entry>
-<entry key="field|name|BT-13716-notice">Oddelek, v katerem se sprememba uporabi</entry>
+<entry key="field|name|BT-13716-notice">Identifikator oddelka</entry>
 <entry key="field|name|BT-1375-Procedure">Vključeni sklopi</entry>
 <entry key="field|name|BT-14-Lot">Dostop do nekaterih dokumentov v zvezi z oddajo javnega naročila je omejen</entry>
 <entry key="field|name|BT-14-Part">Dostop do nekaterih dokumentov v zvezi z oddajo javnega naročila je omejen</entry>
@@ -702,8 +702,8 @@
 <entry key="field|name|BT-15-Lot">Naslov dokumentov v zvezi z oddajo javnega naročila</entry>
 <entry key="field|name|BT-15-Part">Naslov dokumentov v zvezi z oddajo javnega naročila</entry>
 <entry key="field|name|BT-150-Contract">Identifikator javnega naročila</entry>
-<entry key="field|name|BT-1501(n)-Contract">Identifikator oddelka, ki se spremeni v prejšnjem obvestilu</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifikator oddelka, ki se spremeni v prejšnjem obvestilu</entry>
+<entry key="field|name|BT-1501(n)-Contract">Identifikator oddelka</entry>
+<entry key="field|name|BT-1501(s)-Contract">Identifikator oddelka</entry>
 <entry key="field|name|BT-151-Contract">Naslov javnega naročila</entry>
 <entry key="field|name|BT-156-NoticeResult">Najvišja vrednost okvirnih sporazumov v tej skupini sklopov</entry>
 <entry key="field|name|BT-1561-NoticeResult">Ponovno ocenjena vrednost okvirnih sporazumov v skupini sklopov</entry>
@@ -1010,7 +1010,7 @@
 <entry key="field|name|BT-501-Business-European">Registrska številka</entry>
 <entry key="field|name|BT-501-Business-National">Registrska številka</entry>
 <entry key="field|name|BT-501-Organization-Company">Registrska številka</entry>
-<entry key="field|name|BT-5010-Lot">Identifikator</entry>
+<entry key="field|name|BT-5010-Lot">Identifikator sredstev EU</entry>
 <entry key="field|name|BT-5011-Contract">Identifikator sredstev EU</entry>
 <entry key="field|name|BT-502-Business">Kontaktna točka</entry>
 <entry key="field|name|BT-502-Organization-Company">Kontaktna točka</entry>
@@ -1113,8 +1113,8 @@
 <entry key="field|name|BT-58-Lot">Največje število podaljšanj</entry>
 <entry key="field|name|BT-60-Lot">Javno naročilo se vsaj delno financira iz skladov Evropske unije</entry>
 <entry key="field|name|BT-610-Procedure-Buyer">Dejavnost naročnika</entry>
-<entry key="field|name|BT-6110-Contract">Opis</entry>
-<entry key="field|name|BT-6140-Lot">Dodatne informacije o programu ali projektu Unije, ki se vsaj delno financira iz javnega naročanja</entry>
+<entry key="field|name|BT-6110-Contract">Več podrobnosti o skladih EU</entry>
+<entry key="field|name|BT-6140-Lot">Več podrobnosti o skladih EU</entry>
 <entry key="field|name|BT-615-Lot">Informacije o zaupnih dokumentih so na voljo na</entry>
 <entry key="field|name|BT-615-Part">Informacije o zaupnih dokumentih so na voljo na</entry>
 <entry key="field|name|BT-625-Lot">Enota</entry>
@@ -1159,7 +1159,7 @@
 <entry key="field|name|BT-720-Tender">Vrednost rezultata</entry>
 <entry key="field|name|BT-721-Contract">Naslov</entry>
 <entry key="field|name|BT-722-Contract">Ime projekta ali programa, ki ga financira EU</entry>
-<entry key="field|name|BT-7220-Lot">Program sredstev Unije, ki se uporabljajo za vsaj delno financiranje pogodbe</entry>
+<entry key="field|name|BT-7220-Lot">Program skladov EU</entry>
 <entry key="field|name|BT-723-LotResult">Kategorijo vozil, ki spadajo na področje uporabe Direktive 2009/33/ES, vključno z: Lahka vozila (M1, M2, N1); Avtobus (M3); Tovornjak (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">To javno naročilo je primerno tudi za mala in srednja podjetja (MSP)</entry>
 <entry key="field|name|BT-726-LotsGroup">To javno naročilo je primerno tudi za mala in srednja podjetja (MSP)</entry>
@@ -1310,7 +1310,7 @@
 <entry key="field|name|OPT-030-Procedure-SProvider">Vrsta zagotovljene storitve</entry>
 <entry key="field|name|OPT-050-Lot">Status dokumenta</entry>
 <entry key="field|name|OPT-050-Part">Status dokumenta</entry>
-<entry key="field|name|OPT-060-Lot">ToDo</entry>
+<entry key="field|name|OPT-060-Lot">Oznaka zahteve za izvršitev</entry>
 <entry key="field|name|OPT-070-Lot">Opravljanje storitve je rezervirano za določen poklic. Sklicevanje na ustrezni zakon, predpis ali upravni postopek</entry>
 <entry key="field|name|OPT-071-Lot">Koda cilja kakovosti</entry>
 <entry key="field|name|OPT-072-Lot">Opis cilja kakovosti</entry>
