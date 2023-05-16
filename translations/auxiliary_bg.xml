@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Bulgarian. File generated from metadata database version 1.5.0 created on the 2022-12-14T11:00</comment>
+<comment>auxiliary in Bulgarian. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Правно основание</entry>
 <entry key="auxiliary|text|BT-08">Роля на организацията</entry>
 <entry key="auxiliary|text|BT-36">Продължителност</entry>
@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Компетентен орган</entry>
 <entry key="auxiliary|text|change">Промяна</entry>
 <entry key="auxiliary|text|company">Наименование и адрес на дружеството/компанията</entry>
-<entry key="auxiliary|text|concession-value">Концесия</entry>
+<entry key="auxiliary|text|concession-value">Стойност на концесията</entry>
 <entry key="auxiliary|text|conditions-contract">Условия във връзка с договора</entry>
 <entry key="auxiliary|text|conditions-participation">Условия за участие</entry>
 <entry key="auxiliary|text|contract-information">Информация за договора</entry>
@@ -31,7 +31,7 @@
 <entry key="auxiliary|text|envisaged-start-duration-contract">Предвидена начална дата и срок на договора</entry>
 <entry key="auxiliary|text|essential-assets">Основни активи</entry>
 <entry key="auxiliary|text|estimated-duration">Очаквана продължителност</entry>
-<entry key="auxiliary|text|eu-funds-used">Информация за средствата от Европейския съюз, използвани за финансиране на договора</entry>
+<entry key="auxiliary|text|eu-funds-used">Информация относно средства от Европейския съюз</entry>
 <entry key="auxiliary|text|exclusion-grounds">Основания за изключване</entry>
 <entry key="auxiliary|text|framework-agreement">Рамково споразумение</entry>
 <entry key="auxiliary|text|further-info">Допълнителна информация, медиация и преглед</entry>
