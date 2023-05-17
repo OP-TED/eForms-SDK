@@ -710,7 +710,7 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter",
     "xpathRelative" : "efac:CriterionParameter",
     "xsdSequenceOrder" : [ { "efac:CriterionParameter" : 15 } ],
-    "repeatable" : false
+    "repeatable" : true
   }, {
     "id" : "ND-StrategicProcurementLot",
     "parentId" : "ND-NonUBLTenderingTerms",
