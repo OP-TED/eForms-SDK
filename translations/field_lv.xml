@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Visu šajā paziņojumā iekļauto piešķirto līgumu vērtība, ieskaitot fakultatīvās iespējas un pārjaunojumus.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Iepirkuma procedūras vai daļas paredzamā summa visā darbības laikā, ieskaitot fakultatīvās iespējas un pārjaunojumus.</entry>
 <entry key="field|description|OPA-36-Lot-Number">(Paredzamais) ilgums no līguma, pamatnolīguma, dinamiskās iepirkumu sistēmas vai kvalifikācijas sistēmas sākuma līdz beigām. Tam ir jāietver visas iespējas un pārjaunojumi.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">(Paredzamais) ilgums no līguma, pamatnolīguma, dinamiskās iepirkumu sistēmas vai kvalifikācijas sistēmas sākuma līdz beigām. Tam ir jāietver visas iespējas un pārjaunojumi.</entry>
 <entry key="field|description|OPA-36-Part-Number">(Paredzamais) ilgums no līguma, pamatnolīguma, dinamiskās iepirkumu sistēmas vai kvalifikācijas sistēmas sākuma līdz beigām. Tam ir jāietver visas iespējas un pārjaunojumi.</entry>
+<entry key="field|description|OPA-36-Part-Unit">(Paredzamais) ilgums no līguma, pamatnolīguma, dinamiskās iepirkumu sistēmas vai kvalifikācijas sistēmas sākuma līdz beigām. Tam ir jāietver visas iespējas un pārjaunojumi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Laikposms no piedāvājumu iesniegšanas termiņa, kurā piedāvājumiem jābūt derīgiem.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Laikposms no piedāvājumu iesniegšanas termiņa, kurā piedāvājumiem jābūt derīgiem.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Piemērojamie tiesību akti, ja iepirkumā ir iesaistīti pircēji no dažādām valstīm</entry>
 <entry key="field|hint|BT-1375-Procedure">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="field|hint|BT-22-Lot">Ja savai procedūrai un daļām izmantojat iekšējo identifikatoru, aizpildiet to. Lūdzu, izmantojiet atšķirīgus identifikatorus katrai partijai.</entry>
@@ -627,7 +630,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Šis lauks var norādīt uz konkursa specifikācijām</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Izvēlieties vienu vai vairākus izslēgšanas iemeslus</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Aizpildiet vai nu ilguma datumus VAI ilguma periodu</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Aizpildiet vai nu ilguma datumus VAI ilguma periodu</entry>
 <entry key="field|hint|OPA-36-Part-Number">Aizpildiet vai nu ilguma datumus VAI ilguma periodu</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Aizpildiet vai nu ilguma datumus VAI ilguma periodu</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Vispirms izveidojiet organizāciju sadaļā “Organizācijas”, tad atlasiet to nolaižamajā izvēlnē.</entry>
 <entry key="field|hint|OPT-300-Procedure-Buyer">Vispirms izveidojiet organizāciju sadaļā “Organizācijas”, tad atlasiet to nolaižamajā izvēlnē.</entry>
 <entry key="field|hint|OPT-300-Procedure-SProvider">Vispirms izveidojiet organizāciju sadaļā “Organizācijas”, tad atlasiet to nolaižamajā izvēlnē.</entry>
@@ -1272,8 +1277,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Visu šajā procedūrā piešķirto līgumu vērtība</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Paredzamā vērtība bez PVN</entry>
 <entry key="field|name|OPA-36-Lot-Number">Ilgums</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Ilgums</entry>
 <entry key="field|name|OPA-36-Part-Number">Ilgums</entry>
+<entry key="field|name|OPA-36-Part-Unit">Ilgums</entry>
 <entry key="field|name|OPA-98-Lot-Number">Datums, līdz kuram piedāvājumam jāpaliek spēkā</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Datums, līdz kuram piedāvājumam jāpaliek spēkā</entry>
 <entry key="field|name|OPP-010-notice">Paziņojuma publikācijas numurs</entry>
 <entry key="field|name|OPP-011-notice">OV S sērijas izdevuma numurs</entry>
 <entry key="field|name|OPP-012-notice">Publicēšanas datums</entry>
