@@ -22324,6 +22324,38 @@
       } ]
     }
   }, {
+    "id" : "OPA-36-Lot-Unit",
+    "parentNodeId" : "ND-LotDuration",
+    "name" : "Duration Period unit",
+    "btId" : "BT-36",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode",
+    "xpathRelative" : "cbc:DurationMeasure/@unitCode",
+    "xsdSequenceOrder" : [ { "cbc:DurationMeasure" : 6 } ],
+    "type" : "code",
+    "legalType" : "DURATION",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "36", "37", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "CEI" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
     "id" : "OPA-36-Part-Number",
     "parentNodeId" : "ND-PartDuration",
     "name" : "Numeric value of the duration period",
@@ -22347,6 +22379,29 @@
       } ]
     }
   }, {
+    "id" : "OPA-36-Part-Unit",
+    "parentNodeId" : "ND-PartDuration",
+    "name" : "Duration Period unit",
+    "btId" : "BT-36",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode",
+    "xpathRelative" : "cbc:DurationMeasure/@unitCode",
+    "xsdSequenceOrder" : [ { "cbc:DurationMeasure" : 6 } ],
+    "type" : "code",
+    "legalType" : "DURATION",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
     "id" : "OPA-98-Lot-Number",
     "parentNodeId" : "ND-LotTenderingTerms",
     "name" : "Numeric value of the tender validity deadline",
@@ -22355,6 +22410,29 @@
     "xpathRelative" : "cac:TenderValidityPeriod/cbc:DurationMeasure",
     "xsdSequenceOrder" : [ { "cac:TenderValidityPeriod" : 46 }, { "cbc:DurationMeasure" : 6 } ],
     "type" : "number",
+    "legalType" : "DURATION",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "OPA-98-Lot-Unit",
+    "parentNodeId" : "ND-LotTenderingTerms",
+    "name" : "Tender Validity Deadline unit",
+    "btId" : "BT-98",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure/@unitCode",
+    "xpathRelative" : "cac:TenderValidityPeriod/cbc:DurationMeasure/@unitCode",
+    "xsdSequenceOrder" : [ { "cac:TenderValidityPeriod" : 46 }, { "cbc:DurationMeasure" : 6 } ],
+    "type" : "code",
     "legalType" : "DURATION",
     "repeatable" : {
       "value" : false,
