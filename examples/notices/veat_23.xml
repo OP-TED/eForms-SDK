@@ -178,6 +178,9 @@
 		<cac:RealizedLocation>
 			<cac:Address>
 				<cbc:CountrySubentityCode listName="nuts">DE128</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
