@@ -1,3 +1,9 @@
+# SDK 1.3.4 Release Notes
+
+This release includes only updated translations and updated notice visualisation templates.
+
+A comprehensive list of changes between SDK 1.3.3 and SDK 1.3.4 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.3.3...1.3.4>
+
 # SDK 1.3.3 Release Notes
 
 This release includes only updated translations and updated notice visualisation templates.
