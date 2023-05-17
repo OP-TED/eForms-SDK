@@ -1,7 +1,7 @@
 // View 40
-// sdkVersion='1.7.0'
-// File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30
-1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
+// sdkVersion='1.8.0'
+// File generated from metadata database version 1.7.62 created on the 2023-05-17T15:49:39
+1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} SDK1.1 // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
 2 {ND-Root} #{auxiliary|text|procedure}  // 2. Procedure
@@ -49,7 +49,8 @@
 			{BT-262-Lot[BT-26(m)-Lot == 'cpv']} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} #{BT-262-Lot} // Main classification (CPV)
 			{BT-262-Lot[BT-26(m)-Lot != 'cpv']} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} // Main classification (non-CPV)
 			{BT-263-Lot[BT-26(a)-Lot == 'cpv']} #{name|BT-263} (${BT-26(a)-Lot}): ${BT-263-Lot} #{BT-263-Lot} // Additional classification (CPV)
-			{BT-25-Lot} #{name|BT-25}: ${BT-25-Lot} #{BT-625-Lot} // Quantity
+			{BT-263-Lot[BT-26(a)-Lot != 'cpv']} #{name|BT-263} (${BT-26(a)-Lot}): ${BT-263-Lot} // Additional classification (Non-CPV)
+			{BT-25-Lot} #{name|BT-25}: ${format-number(BT-25-Lot,  '###,##0.###,###,###')} #{BT-625-Lot} // Quantity
 			0 {BT-54-Lot} #{auxiliary|text|options}: // Options
 				{BT-54-Lot} #{name|BT-54}: ${BT-54-Lot} // The buyer reserves the right for additional purchases, described here, from the contractor
 		2 {ND-LotPlacePerformance} #{auxiliary|text|place-performance} // 5.1.2 Place of performance
@@ -63,7 +64,7 @@
 		3 {ND-LotDuration} #{auxiliary|text|estimated-duration} // 5.1.3 Estimated duration
 			{BT-536-Lot} #{name|BT-536}: ${BT-536-Lot} // Start date
 			{BT-537-Lot} #{name|BT-537}: ${BT-537-Lot} // End date
-			{BT-36-Lot} #{name|BT-36}: ${OPA-36-Lot-Number} ${BT-36-Lot/@unitCode} // Duration
+			{BT-36-Lot} #{name|BT-36}: ${format-number(OPA-36-Lot-Number,  '###,##0.###,###,###')} ${BT-36-Lot/@unitCode} // Duration
 			{BT-538-Lot} #{name|BT-538-Lot}: #{BT-538-Lot} // Planned Period (Unlimited)
 		4 {ND-OptionsAndRenewals[(BT-57-Lot is present) or (BT-58-Lot is present)]} #{auxiliary|text|renewal} // 5.1.4 Renewal
 			{BT-58-Lot} #{name|BT-58}: ${BT-58-Lot} // Maximum renewals
@@ -104,18 +105,18 @@
 			{BT-137-Lot[some text:$orgid in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgid != '']} #{auxiliary|text|organisation-paying}: ${for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2], text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $orgid2) or (OPT-201-Organization-TouchPoint == $orgid2)] return concat('[ ', $orgname, ' ] --- ')} // Paying Organisation (LotResult)
 			{BT-137-Lot[some text:$orgid in (for text:$lotid1 in BT-137-Lot, text:$conid1 in OPT-315-LotResult[BT-13713-LotResult == $lotid1], text:$orgid1 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid1] return $orgid1) satisfies $orgid != '']} #{auxiliary|text|organisation-signing-contract}: ${distinct-values(for text:$lotid2 in BT-137-Lot, text:$conid2 in OPT-315-LotResult[BT-13713-LotResult == $lotid2], text:$orgid2 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid2], text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $orgid2) or (OPT-201-Organization-TouchPoint == $orgid2)] return concat('[ ', $orgname, ' ] --- '))} // Contract Signatory (LotResult)
 6 {ND-Root[(BT-13713-LotResult is present)]} #{auxiliary|text|results} // 6. Results
-	0 {BT-161-NoticeResult} #{name}: $value ${BT-161-NoticeResult[BT-161-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Notice Value (Value of all contracts awarded in this procedure)
+	0 {BT-161-NoticeResult} #{name}: ${if (contains(string(BT-161-NoticeResult), '.')) then format-number(BT-161-NoticeResult,  '###,##0.00') else format-number(BT-161-NoticeResult, '###,##0')} ${BT-161-NoticeResult[BT-161-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Notice Value (Value of all contracts awarded in this procedure)
 		{BT-197(BT-161)-NoticeResult} #{name|BT-197(BT-161)-NoticeResult}: #{BT-197(BT-161)-NoticeResult} // Unpublished Justification Code
 		{BT-196(BT-161)-NoticeResult} #{name|BT-196(BT-161)-NoticeResult}: ${BT-196(BT-161)-NoticeResult} // Unpublished Justification Description
 		{BT-198(BT-161)-NoticeResult} #{name|BT-198(BT-161)-NoticeResult}: ${BT-198(BT-161)-NoticeResult} // Unpublished Access Date
 	1 {ND-LotResult}   #{name|BT-13713-LotResult}: ${BT-13713-LotResult} // 6.1 Result Lot Identifier (LOT-XXXX)
-		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement} // Framework agreement
+		0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement}: // Framework agreement
 		2 {BT-142-LotResult[(BT-142-LotResult == 'selec-w' or BT-142-LotResult == 'unpublished') and OPT-320-LotResult is present and OPT-315-LotResult is present]} #{auxiliary|text|winner-info}  // 6.1.2. Winning tenders
 			0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]])>0]}  #{auxiliary|text|winner}: // Winner
-				{OPT-320-LotResult[count(for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]])>0]} #{auxiliary|text|organisation-tenderer} // Tender
+				{OPT-320-LotResult[count(for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]])>0]} #{auxiliary|text|organisation-tenderer}: // Tender
 				{OPT-320-LotResult} #{business-term|name|BT-3201}: ${for text:$tender in OPT-320-LotResult return BT-3201-Tender[OPT-321-Tender == $tender]} // Tender identifier
 				{OPT-320-LotResult} #{business-term|name|BT-13714}: ${for text:$tender in OPT-320-LotResult return BT-13714-Tender[OPT-321-Tender == $tender]}  // Identifier of lot or group of lots
-				0 {OPT-320-LotResult} #{field|name|BT-720-Tender}: ${for text:$tender in OPT-320-LotResult return string(BT-720-Tender[OPT-321-Tender == $tender])} ${for text:$tender1 in OPT-320-LotResult return BT-720-Tender[BT-720-Tender[OPT-321-Tender == $tender1] != -1]/@currencyID } // Value of the tender
+				0 {OPT-320-LotResult} #{field|name|BT-720-Tender}: ${for text:$tender in OPT-320-LotResult, number:$tendervalue in BT-720-Tender[OPT-321-Tender == $tender] return if (contains(string($tendervalue), '.')) then format-number($tendervalue,  '###,##0.00') else format-number($tendervalue, '###,##0')} ${for text:$tender1 in OPT-320-LotResult return BT-720-Tender[BT-720-Tender[OPT-321-Tender == $tender1] != -1]/@currencyID } // Value of the tender
 					{OPT-320-LotResult[BT-197(BT-720)-Tender is present]} #{name|BT-197(BT-720)-Tender}: ${for text:$tender1 in OPT-320-LotResult return BT-197(BT-720)-Tender[OPT-321-Tender == $tender1]} // Unpublished Justification Code
 					{OPT-320-LotResult[BT-196(BT-720)-Tender is present]} #{name|BT-196(BT-720)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-720)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ') } // Unpublished Justification Description
 					{OPT-320-LotResult[BT-198(BT-720)-Tender is present]} #{name|BT-198(BT-720)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-720)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
@@ -125,11 +126,11 @@
 					{OPT-320-LotResult[some text:$code in (for text:$tender in OPT-320-LotResult return BT-197(BT-171)-Tender[OPT-321-Tender == $tender]) satisfies $code !='']} #{name|BT-196(BT-171)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-171)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ')} // Unpublished Justification Description
 					{OPT-320-LotResult[some text:$code in (for text:$tender in OPT-320-LotResult return BT-197(BT-171)-Tender[OPT-321-Tender == $tender]) satisfies $code !='']} #{name|BT-198(BT-171)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-171)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
 				0 {OPT-320-LotResult[some text:$tenderref in (for text:$tenderref1 in OPT-320-LotResult return OPT-321-Tender[OPT-321-Tender[BT-160-Tender is present or BT-162-Tender is present or BT-163-Tender is present] == $tenderref1]) satisfies $tenderref != '']} #{auxiliary|text|concession-value} // Concession value (Tender)
-					0 {OPT-320-LotResult} #{name|BT-162-Tender}: ${for text:$tender in OPT-320-LotResult return string(BT-162-Tender[OPT-321-Tender == $tender])} ${for text:$tender1 in OPT-320-LotResult return BT-162-Tender[OPT-321-Tender == $tender1]/@currencyID} // Concession Revenue User 
+					0 {OPT-320-LotResult} #{name|BT-162-Tender}: ${for text:$tender in OPT-320-LotResult, number:$revenue in BT-162-Tender[OPT-321-Tender == $tender] return if (contains(string($revenue), '.')) then format-number($revenue,  '###,##0.00') else format-number($revenue, '###,##0')} ${for text:$tender1 in OPT-320-LotResult return BT-162-Tender[OPT-321-Tender == $tender1]/@currencyID} // Concession Revenue User 
 						{OPT-320-LotResult[some text:$code in (for text:$tender in OPT-320-LotResult return BT-197(BT-162)-Tender[OPT-321-Tender == $tender]) satisfies $code !='']} #{name|BT-197(BT-162)-Tender}: ${for text:$tender1 in OPT-320-LotResult return BT-197(BT-162)-Tender[OPT-321-Tender == $tender1]} // Unpublished Justification Code
 						{OPT-320-LotResult[some text:$code in (for text:$tender in OPT-320-LotResult return BT-197(BT-162)-Tender[OPT-321-Tender == $tender]) satisfies $code !='']} #{name|BT-196(BT-162)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-162)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ')} // Unpublished Justification Description
 						{OPT-320-LotResult[some text:$code in (for text:$tender in OPT-320-LotResult return BT-197(BT-162)-Tender[OPT-321-Tender == $tender]) satisfies $code !='']} #{name|BT-198(BT-162)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-162)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
-					0 {OPT-320-LotResult} #{name|BT-160-Tender}: ${for text:$tender in OPT-320-LotResult return string(BT-160-Tender[OPT-321-Tender == $tender])} ${for text:$tender1 in OPT-320-LotResult return BT-160-Tender[OPT-321-Tender == $tender1]/@currencyID} // Concession Revenue Buyer (Tender)
+					0 {OPT-320-LotResult} #{name|BT-160-Tender}: ${for text:$tender in OPT-320-LotResult, number:$revenue in BT-160-Tender[OPT-321-Tender == $tender] return if (contains(string($revenue), '.')) then format-number($revenue,  '###,##0.00') else format-number($revenue, '###,##0')} ${for text:$tender1 in OPT-320-LotResult return BT-160-Tender[OPT-321-Tender == $tender1]/@currencyID} // Concession Revenue Buyer (Tender)
 						{OPT-320-LotResult[some text:$code in (for text:$tender in OPT-320-LotResult return BT-197(BT-160)-Tender[OPT-321-Tender == $tender]) satisfies $code !='']} #{name|BT-197(BT-160)-Tender}: ${for text:$tender1 in OPT-320-LotResult return BT-197(BT-160)-Tender[OPT-321-Tender == $tender1]} // Unpublished Justification Code
 						{OPT-320-LotResult[some text:$code in (for text:$tender in OPT-320-LotResult return BT-197(BT-160)-Tender[OPT-321-Tender == $tender]) satisfies $code !='']} #{name|BT-196(BT-160)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-160)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ')} // Unpublished Justification Description
 						{OPT-320-LotResult[some text:$code in (for text:$tender in OPT-320-LotResult return BT-197(BT-160)-Tender[OPT-321-Tender == $tender]) satisfies $code !='']} #{name|BT-198(BT-160)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-160)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
@@ -145,7 +146,7 @@
 					{OPT-320-LotResult[BT-197(BT-730)-Tender is present]} #{name|BT-197(BT-730)-Tender}: ${for text:$tender1 in OPT-320-LotResult return BT-197(BT-730)-Tender[OPT-321-Tender == $tender1]} // Unpublished Justification Code
 					{OPT-320-LotResult[BT-196(BT-730)-Tender is present]} #{name|BT-196(BT-730)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-730)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ') } // Unpublished Justification Description
 					{OPT-320-LotResult[BT-198(BT-730)-Tender is present]} #{name|BT-198(BT-730)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-730)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
-				0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult return number:BT-553-Tender[OPT-321-Tender == $tender]) > 0]} #{field|name|BT-553-Tender}:   ${for text:$tender1 in OPT-320-LotResult return string(BT-553-Tender[OPT-321-Tender == $tender1])}  ${for text:$tender2 in OPT-320-LotResult return BT-553-Tender[OPT-321-Tender == $tender2]/@currencyID} // Estimated value of the part of the contract that the contractor will subcontract to third parties
+				0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult return number:BT-553-Tender[OPT-321-Tender == $tender]) > 0]} #{field|name|BT-553-Tender}:   ${for text:$tender1 in OPT-320-LotResult, number:$subconvalue in BT-553-Tender[OPT-321-Tender == $tender1] return if (contains(string($subconvalue), '.')) then format-number($subconvalue,  '###,##0.00') else format-number($subconvalue, '###,##0')}  ${for text:$tender2 in OPT-320-LotResult return BT-553-Tender[OPT-321-Tender == $tender2]/@currencyID} // Estimated value of the part of the contract that the contractor will subcontract to third parties
 					{OPT-320-LotResult[BT-197(BT-553)-Tender is present]} #{name|BT-197(BT-553)-Tender}: ${for text:$tender1 in OPT-320-LotResult return BT-197(BT-553)-Tender[OPT-321-Tender == $tender1]} // Unpublished Justification Code
 					{OPT-320-LotResult[BT-196(BT-553)-Tender is present]} #{name|BT-196(BT-553)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-553)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ')} // Unpublished Justification Description
 					{OPT-320-LotResult[BT-198(BT-553)-Tender is present]} #{name|BT-198(BT-553)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-553)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
@@ -153,7 +154,7 @@
 					{OPT-320-LotResult[BT-197(BT-731)-Tender is present]} #{name|BT-197(BT-731)-Tender}: ${for text:$tender1 in OPT-320-LotResult return BT-197(BT-731)-Tender[OPT-321-Tender == $tender1]} // Unpublished Justification Code
 					{OPT-320-LotResult[BT-196(BT-731)-Tender is present]} #{name|BT-196(BT-731)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-731)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ') } // Unpublished Justification Description
 					{OPT-320-LotResult[BT-198(BT-731)-Tender is present]} #{name|BT-198(BT-731)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-731)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
-				0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult return number:BT-555-Tender[OPT-321-Tender == $tender]) > 0]} #{field|name|BT-555-Tender}: ${for text:$tender1 in OPT-320-LotResult return format-number(BT-555-Tender[OPT-321-Tender == $tender1], '0.##')} // Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract
+				0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult return number:BT-555-Tender[OPT-321-Tender == $tender]) > 0]} #{field|name|BT-555-Tender}: ${for text:$tender1 in OPT-320-LotResult return format-number(BT-555-Tender[OPT-321-Tender == $tender1], '###,##0.###,###,###')} // Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract
 					{OPT-320-LotResult[BT-197(BT-555)-Tender is present]} #{name|BT-197(BT-555)-Tender}: ${for text:$tender1 in OPT-320-LotResult return BT-197(BT-555)-Tender[OPT-321-Tender == $tender1]} // Unpublished Justification Code
 					{OPT-320-LotResult[BT-196(BT-555)-Tender is present]} #{name|BT-196(BT-555)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-555)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ')} // Unpublished Justification Description
 					{OPT-320-LotResult[BT-198(BT-555)-Tender is present]} #{name|BT-198(BT-555)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-555)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
@@ -161,7 +162,7 @@
 					{OPT-320-LotResult[BT-197(BT-554)-Tender is present]} #{name|BT-197(BT-554)-Tender}: ${for text:$tender1 in OPT-320-LotResult return BT-197(BT-554)-Tender[OPT-321-Tender == $tender1]} // Unpublished Justification Code
 					{OPT-320-LotResult[BT-196(BT-554)-Tender is present]} #{name|BT-196(BT-554)-Tender}: ${for text:$tender1 in OPT-320-LotResult, text:$desc1 in BT-196(BT-554)-Tender[OPT-321-Tender == $tender1] return concat('[', $desc1, '] --- ')} // Unpublished Justification Description
 					{OPT-320-LotResult[BT-198(BT-554)-Tender is present]} #{name|BT-198(BT-554)-Tender}: ${for text:$tender1 in OPT-320-LotResult return date:BT-198(BT-554)-Tender[OPT-321-Tender == $tender1]} // Unpublished Access Date
-				0 {OPT-320-LotResult} #{auxiliary|text|contract-information} // Contract info for this tender
+				0 {OPT-320-LotResult} #{auxiliary|text|contract-information}: // Contract info for this tender
 					{OPT-320-LotResult} #{field|name|BT-150-Contract}: ${for text:$tender in OPT-320-LotResult return BT-150-Contract[BT-3202-Contract == $tender]} // Contract identifier
 					{OPT-320-LotResult[some text:$title in (for text:$tender in OPT-320-LotResult return BT-721-Contract[BT-3202-Contract == $tender]) satisfies $title != '']} #{field|name|BT-721-Contract}: ${for text:$tender1 in OPT-320-LotResult, text:$title1 in BT-721-Contract[BT-3202-Contract == $tender1] return concat('[ ', $title1, ' ] --- ')} // Contract title
 					{OPT-320-LotResult[some date:$date in (for text:$tender in OPT-320-LotResult return BT-1451-Contract[BT-3202-Contract == $tender]) satisfies $date > 0000-01-01Z ]} #{field|name|BT-1451-Contract}:  ${for text:$tender1 in OPT-320-LotResult return date:BT-1451-Contract[BT-3202-Contract == $tender1]} // Winning Decision date
@@ -173,17 +174,24 @@
 						{OPT-320-LotResult[some text:$eufunddesc in (for text:$tender in OPT-320-LotResult return BT-6110-Contract[BT-3202-Contract == $tender]) satisfies $eufunddesc != '']} #{field|name|BT-6110-Contract}: ${for text:$tender1 in OPT-320-LotResult, text:$details in BT-6110-Contract[BT-3202-Contract == $tender1] return concat('[ ', $details, ' ] --- ')} // Contract EU Funds Details
 					{OPT-320-LotResult} #{auxiliary|text|organisation-signing-contract}: ${for text:$tender in OPT-320-LotResult, text:$orgid in OPT-300-Contract-Signatory[BT-3202-Contract == $tender], text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return concat('[', $orgname, '] --- ')} // Organisation signing the contract 
 		4 {OPT-322-LotResult[(BT-712(a)-LotResult is present) or (BT-636-LotResult is present) or (BT-760-LotResult is present) or (BT-710-LotResult is present) or (BT-710-LotResult is present) or (BT-735-LotResult is present)]} #{auxiliary|text|statistical-information} // 6.1.4. Statistical information
-			0 {OPT-322-LotResult[BT-712(a)-LotResult is present]} #{auxiliary|text|review-requests-summary} // Summary of the review requests the buyer received
+			0 {OPT-322-LotResult[BT-712(a)-LotResult is present]} #{auxiliary|text|review-requests-summary}: // Summary of the review requests the buyer received
 				0 {BT-712(a)-LotResult} #{name|BT-712}: ${BT-712(b)-LotResult} // Buyer Review Complainants
 					{BT-197(BT-712)-LotResult} #{name|BT-197(BT-712)-LotResult}: #{BT-197(BT-712)-LotResult} // Unpublished Justification Code
 					{BT-196(BT-712)-LotResult} #{name|BT-196(BT-712)-LotResult}: ${BT-196(BT-712)-LotResult} // Unpublished Justification Description
 					{BT-198(BT-712)-LotResult} #{name|BT-198(BT-712)-LotResult}: ${BT-198(BT-712)-LotResult} // Unpublished Access Date
-			0 {OPT-322-LotResult} #{auxiliary|text|review-requests-irregularity-type} // Type of alleged irregularity
-			0 {OPT-322-LotResult[BT-760-LotResult is present]} #{auxiliary|text|received-submissions} // Received tenders or requests to participate
-			0 {ND-StrategicProcurementLotResult} #{auxiliary|text|statistics-strategic} // Statistics about strategic procurement
+			0 {OPT-322-LotResult} #{auxiliary|text|review-requests-irregularity-type}: // TODELETE Type of alleged irregularity
+				0 {BT-636-LotResult} #{BT-636-LotResult} ${BT-635-LotResult} // TODELETE Buyer Review Requests Irregularity Type and Buyer Review Requests Count
+					{BT-197(BT-636)-LotResult} #{name|BT-197(BT-636)-LotResult}: #{BT-197(BT-636)-LotResult} // TODELETE Unpublished Justification Code
+					{BT-196(BT-636)-LotResult} #{name|BT-196(BT-636)-LotResult}: ${BT-196(BT-636)-LotResult} // TODELETE Unpublished Justification Description
+					{BT-198(BT-636)-LotResult} #{name|BT-198(BT-636)-LotResult}: ${BT-198(BT-636)-LotResult} // TODELETE Unpublished Access Date
+					{BT-196(BT-635)-LotResult} #{name|BT-196(BT-635)-LotResult}: ${BT-196(BT-635)-LotResult} // TODELETE Unpublished Justification Description
+					{BT-198(BT-635)-LotResult} #{name|BT-198(BT-635)-LotResult}: ${BT-198(BT-635)-LotResult} // TODELETE Unpublished Access Date
+					{BT-197(BT-635)-LotResult} #{name|BT-197(BT-635)-LotResult}: #{BT-197(BT-635)-LotResult} // TODELETE Unpublished Justification Code
+			0 {OPT-322-LotResult[BT-760-LotResult is present]} #{auxiliary|text|received-submissions}: // TODELETE Received tenders or requests to participate
+			0 {ND-StrategicProcurementLotResult} #{auxiliary|text|statistics-strategic}: // Statistics about strategic procurement
 				0 {BT-735-LotResult} #{field|name|BT-735-LotResult}: #value  // The type of contract of the procurement procedure within the scope of Clean Vehicles Directive 2009/33/EC.
 					0 {BT-723-LotResult} #{field|name|BT-723-LotResult}: #value // The category of vehicle falling within the scope of Directive 2009/33/EC.
-						{OPT-155-LotResult} #{OPT-155-LotResult}: ${OPT-156-LotResult} // Vehicle category and number
+						{OPT-155-LotResult} #{OPT-155-LotResult}: ${format-number(OPT-156-LotResult, '###,##0')} // Vehicle category and number
 7 {ND-Root[BT-1501(n)-Contract is present]} #{auxiliary|text|modification} // 7. Modifications
 	{BT-1501(n)-Contract} #{field|name|BT-1501(n)-Contract}: ${BT-1501(n)-Contract} // Modification Previous Notice Identifier
 	{BT-200-Contract} #{name|BT-200}: #{BT-200-Contract} // Modification Reason Code
