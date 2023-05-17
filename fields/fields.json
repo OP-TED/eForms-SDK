@@ -4095,14 +4095,6 @@
       "value" : "^LOT-\\d{4}$",
       "severity" : "ERROR"
     },
-    "inChangeNotice" : {
-      "value" : {
-        "canAdd" : false,
-        "canModify" : false,
-        "canRemove" : false
-      },
-      "severity" : "ERROR"
-    },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
