@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30.-->
+<!--File generated from metadata database version 1.7.60 created on the 2023-05-17T15:46:58.-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 
 	<rule context="/*/cbc:RegulatoryDomain">
@@ -29,7 +29,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']">
 		<assert id="BR-BT-00017-0052" role="ERROR" test="normalize-space(.) = ('allowed', 'not-allowed', 'required')">rule|text|BR-BT-00017-0052</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification']/cbc:ProcessReasonCode[@listName='no-esubmission-justification']">
 		<assert id="BR-BT-00019-0052" role="ERROR" test="normalize-space(.) = ('ipr-iss', 'phy-mod', 'sen-info', 'sp-of-eq', 'tdf-non-av')">rule|text|BR-BT-00019-0052</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cbc:ProcurementTypeCode">
@@ -101,7 +101,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efbc:DecisionReasonCode">
 		<assert id="BR-BT-00144-0052" role="ERROR" test="normalize-space(.) = ('all-rej', 'chan-need', 'ins-fund', 'no-rece', 'no-signed', 'one-admis', 'other', 'rev-body', 'rev-buyer', 'tch-pr-error')">rule|text|BR-BT-00144-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[(cac:PartyIdentification/cbc:ID/text() = //efac:TenderingParty/efac:Tenderer/cbc:ID/text()) or (cac:PartyIdentification/cbc:ID/text() = //efac:TenderingParty/efac:Subcontractor/cbc:ID/text())]/efbc:CompanySizeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/efbc:CompanySizeCode">
 		<assert id="BR-BT-00165-0052" role="ERROR" test="normalize-space(.) = ('large', 'medium', 'micro', 'small', 'sme')">rule|text|BR-BT-00165-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin/efbc:AreaCode">
@@ -488,13 +488,13 @@
 	<rule context="/*/cac:BusinessParty/cac:PostalAddress/cac:Country/cbc:IdentificationCode">
 		<assert id="BR-BT-00514-0208" role="ERROR" test="normalize-space(.) = ('1A0', 'ABW', 'AFG', 'AGO', 'AIA', 'ALA', 'ALB', 'AND', 'ARE', 'ARG', 'ARM', 'ASM', 'ATA', 'ATG', 'AUS', 'AUT', 'AZE', 'BDI', 'BEL', 'BEN', 'BES', 'BFA', 'BGD', 'BGR', 'BHR', 'BHS', 'BIH', 'BLM', 'BLR', 'BLZ', 'BMU', 'BOL', 'BRA', 'BRB', 'BRN', 'BTN', 'BVT', 'BWA', 'CAF', 'CAN', 'CCK', 'CHE', 'CHL', 'CHN', 'CIV', 'CMR', 'COD', 'COG', 'COK', 'COL', 'COM', 'CPT', 'CPV', 'CRI', 'CUB', 'CUW', 'CXR', 'CYM', 'CYP', 'CZE', 'DEU', 'DJI', 'DMA', 'DNK', 'DOM', 'DZA', 'ECU', 'EGY', 'ERI', 'ESH', 'ESP', 'EST', 'ETH', 'FIN', 'FJI', 'FLK', 'FRA', 'FRO', 'FSM', 'GAB', 'GBR', 'GEO', 'GGY', 'GHA', 'GIB', 'GIN', 'GMB', 'GNB', 'GNQ', 'GRC', 'GRD', 'GRL', 'GTM', 'GUM', 'HKG', 'HMD', 'HND', 'HRV', 'HTI', 'HUN', 'IDN', 'IMN', 'IND', 'IOT', 'IRL', 'IRN', 'IRQ', 'ISL', 'ISR', 'ITA', 'JAM', 'JEY', 'JOR', 'JPN', 'KAZ', 'KEN', 'KGZ', 'KHM', 'KIR', 'KNA', 'KOR', 'KWT', 'LAO', 'LBN', 'LBR', 'LBY', 'LCA', 'LIE', 'LKA', 'LSO', 'LTU', 'LUX', 'LVA', 'MAC', 'MAF', 'MAR', 'MCO', 'MDA', 'MDG', 'MDV', 'MEX', 'MHL', 'MKD', 'MLI', 'MLT', 'MMR', 'MNE', 'MNG', 'MNP', 'MOZ', 'MRT', 'MSR', 'MUS', 'MWI', 'MYS', 'NAM', 'NCL', 'NER', 'NFK', 'NGA', 'NIC', 'NIU', 'NLD', 'NOR', 'NPL', 'NRU', 'NZL', 'OMN', 'PAK', 'PAN', 'PCN', 'PER', 'PHL', 'PLW', 'PNG', 'POL', 'PRI', 'PRK', 'PRT', 'PRY', 'PSE', 'PYF', 'QAT', 'ROU', 'RUS', 'RWA', 'SAU', 'SDN', 'SEN', 'SGP', 'SGS', 'SHN', 'SJM', 'SLB', 'SLE', 'SLV', 'SMR', 'SOM', 'SPM', 'SRB', 'SSD', 'STP', 'SUR', 'SVK', 'SVN', 'SWE', 'SWZ', 'SXM', 'SYC', 'SYR', 'TCA', 'TCD', 'TGO', 'THA', 'TJK', 'TKL', 'TKM', 'TLS', 'TON', 'TTO', 'TUN', 'TUR', 'TUV', 'TWN', 'TZA', 'UGA', 'UKR', 'UMI', 'URY', 'USA', 'UZB', 'VAT', 'VCT', 'VEN', 'VGB', 'VIR', 'VNM', 'VUT', 'WLF', 'WSM', 'YEM', 'ZAF', 'ZMB', 'ZWE')">rule|text|BR-BT-00514-0208</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[not(@listName='transport-service')]">
+	<rule context="/*/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='contract-nature']/cbc:ProcurementTypeCode[@listName='contract-nature']">
 		<assert id="BR-BT-00531-0151" role="ERROR" test="normalize-space(.) = ('services', 'supplies', 'works')">rule|text|BR-BT-00531-0151</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='contract-nature']/cbc:ProcurementTypeCode[@listName='contract-nature']">
 		<assert id="BR-BT-00531-0152" role="ERROR" test="normalize-space(.) = ('services', 'supplies', 'works')">rule|text|BR-BT-00531-0152</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='contract-nature']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='contract-nature']/cbc:ProcurementTypeCode[@listName='contract-nature']">
 		<assert id="BR-BT-00531-0153" role="ERROR" test="normalize-space(.) = ('services', 'supplies', 'works')">rule|text|BR-BT-00531-0153</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DescriptionCode">
@@ -638,13 +638,13 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode">
 		<assert id="BR-BT-00773-0052" role="ERROR" test="normalize-space(.) = ('no', 'not-known', 'yes')">rule|text|BR-BT-00773-0052</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='environmental-impact']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='environmental-impact']/cbc:ProcurementTypeCode[@listName='environmental-impact']">
 		<assert id="BR-BT-00774-0051" role="ERROR" test="normalize-space(.) = ('biodiv-eco', 'circ-econ', 'clim-adapt', 'clim-mitig', 'other', 'pollu-prev', 'water-mar')">rule|text|BR-BT-00774-0051</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='social-objective']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='social-objective']/cbc:ProcurementTypeCode[@listName='social-objective']">
 		<assert id="BR-BT-00775-0051" role="ERROR" test="normalize-space(.) = ('acc-all', 'et-eq', 'gen-eq', 'hum-right', 'opp', 'other', 'work-cond')">rule|text|BR-BT-00775-0051</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='innovative-acquisition']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='innovative-acquisition']/cbc:ProcurementTypeCode[@listName='innovative-acquisition']">
 		<assert id="BR-BT-00776-0051" role="ERROR" test="normalize-space(.) = ('mar-nov', 'proc-innov', 'prod-innov', 'rd-act')">rule|text|BR-BT-00776-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageCode">
@@ -725,7 +725,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']/efbc:TermCode">
 		<assert id="BR-OPP-00033-0052" role="ERROR" test="normalize-space(.) = ('rew-pen')">rule|text|BR-OPP-00033-0052</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProject/cac:ProcurementAdditionalType/cbc:ProcurementTypeCode[@listName='transport-service']">
+	<rule context="/*/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='transport-service']/cbc:ProcurementTypeCode[@listName='transport-service']">
 		<assert id="BR-OPP-00040-0051" role="ERROR" test="normalize-space(.) = ('bus-s', 'coach-s', 'lrail-s', 'metro-s', 'other', 'port-s', 'rail-s', 'tram-s', 'trolley-s')">rule|text|BR-OPP-00040-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode">
@@ -1734,7 +1734,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndTime">
 		<assert id="BR-BT-01311-0104" role="ERROR" test="matches(normalize-space(.),'^(([01]\d|2[0-3])((:[0-5]\d){1,2}(\.\d+)?)?)(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-01311-0104</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference/cbc:ID[@schemeName='Lot']">
+	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference[cbc:ID/@schemeName='Lot']/cbc:ID[@schemeName='Lot']">
 		<assert id="BR-BT-01375-0051" role="ERROR" test="matches(normalize-space(.),'^LOT-\d{4}$')">rule|text|BR-BT-01375-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:AwardDate">

@@ -40,6 +40,9 @@
    <svrl:active-pattern id="EFORMS-validation-stage-2b"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference"/>
+   <svrl:fired-rule context="/*/cac:BusinessCapability"/>
+   <svrl:fired-rule context="/*/cac:BusinessCapability"/>
+   <svrl:fired-rule context="/*/cac:BusinessCapability"/>
    <svrl:fired-rule context="/*/cac:BusinessParty"/>
    <svrl:fired-rule context="/*/cac:BusinessParty/cac:Contact"/>
    <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']"/>
@@ -92,6 +95,7 @@
    <svrl:fired-rule context="/*/cbc:CustomizationID"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4"/>
    <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = 'X02']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = 'X02']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
