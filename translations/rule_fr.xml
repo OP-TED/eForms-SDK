@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>rule in French. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>rule in French. File generated from metadata database.</comment>
 <entry key="rule|template|mandatory">${field.id} est obligatoire pour une notice avec le subtype ${notice.id}</entry>
 <entry key="rule|template|mandatory_condition">${field.id} est obligatoire pour une notice avec le subtype ${notice.id} sous la condition: ${condition}</entry>
 <entry key="rule|template|max_length">${field.id} ne peut pas contenir plus de ${field.maxLength} caractères</entry>
@@ -554,6 +554,9 @@
 <entry key="rule|text|BR-BT-00021-0044">BT-21-Procedure est obligatoire pour une notice avec le subtype 35</entry>
 <entry key="rule|text|BR-BT-00021-0045">BT-21-Procedure est obligatoire pour une notice avec le subtype 36</entry>
 <entry key="rule|text|BR-BT-00021-0046">BT-21-Procedure est obligatoire pour une notice avec le subtype 37</entry>
+<entry key="rule|text|BR-BT-00021-0047">BT-21-Procedure est obligatoire pour une notice avec le subtype 38</entry>
+<entry key="rule|text|BR-BT-00021-0048">BT-21-Procedure est obligatoire pour une notice avec le subtype 39</entry>
+<entry key="rule|text|BR-BT-00021-0049">BT-21-Procedure est obligatoire pour une notice avec le subtype 40</entry>
 <entry key="rule|text|BR-BT-00021-0059">BT-21-Part est obligatoire pour une notice avec le subtype 4</entry>
 <entry key="rule|text|BR-BT-00021-0060">BT-21-Part est obligatoire pour une notice avec le subtype 5</entry>
 <entry key="rule|text|BR-BT-00021-0061">BT-21-Part est obligatoire pour une notice avec le subtype 6</entry>
@@ -622,6 +625,40 @@
 <entry key="rule|text|BR-BT-00021-0200">BT-21-Lot est obligatoire pour une notice avec le subtype 35</entry>
 <entry key="rule|text|BR-BT-00021-0201">BT-21-Lot est obligatoire pour une notice avec le subtype 36</entry>
 <entry key="rule|text|BR-BT-00021-0202">BT-21-Lot est obligatoire pour une notice avec le subtype 37</entry>
+<entry key="rule|text|BR-BT-00022-0165">BT-22-Lot est obligatoire pour une notice avec le subtype 7</entry>
+<entry key="rule|text|BR-BT-00022-0166">BT-22-Lot est obligatoire pour une notice avec le subtype 8</entry>
+<entry key="rule|text|BR-BT-00022-0167">BT-22-Lot est obligatoire pour une notice avec le subtype 9</entry>
+<entry key="rule|text|BR-BT-00022-0168">BT-22-Lot est obligatoire pour une notice avec le subtype 10</entry>
+<entry key="rule|text|BR-BT-00022-0169">BT-22-Lot est obligatoire pour une notice avec le subtype 11</entry>
+<entry key="rule|text|BR-BT-00022-0171">BT-22-Lot est obligatoire pour une notice avec le subtype 12</entry>
+<entry key="rule|text|BR-BT-00022-0172">BT-22-Lot est obligatoire pour une notice avec le subtype 13</entry>
+<entry key="rule|text|BR-BT-00022-0173">BT-22-Lot est obligatoire pour une notice avec le subtype 14</entry>
+<entry key="rule|text|BR-BT-00022-0174">BT-22-Lot est obligatoire pour une notice avec le subtype 15</entry>
+<entry key="rule|text|BR-BT-00022-0175">BT-22-Lot est obligatoire pour une notice avec le subtype 16</entry>
+<entry key="rule|text|BR-BT-00022-0176">BT-22-Lot est obligatoire pour une notice avec le subtype 17</entry>
+<entry key="rule|text|BR-BT-00022-0177">BT-22-Lot est obligatoire pour une notice avec le subtype 18</entry>
+<entry key="rule|text|BR-BT-00022-0178">BT-22-Lot est obligatoire pour une notice avec le subtype 19</entry>
+<entry key="rule|text|BR-BT-00022-0180">BT-22-Lot est obligatoire pour une notice avec le subtype 20</entry>
+<entry key="rule|text|BR-BT-00022-0181">BT-22-Lot est obligatoire pour une notice avec le subtype 21</entry>
+<entry key="rule|text|BR-BT-00022-0182">BT-22-Lot est obligatoire pour une notice avec le subtype 22</entry>
+<entry key="rule|text|BR-BT-00022-0183">BT-22-Lot est obligatoire pour une notice avec le subtype 23</entry>
+<entry key="rule|text|BR-BT-00022-0184">BT-22-Lot est obligatoire pour une notice avec le subtype 24</entry>
+<entry key="rule|text|BR-BT-00022-0185">BT-22-Lot est obligatoire pour une notice avec le subtype 25</entry>
+<entry key="rule|text|BR-BT-00022-0186">BT-22-Lot est obligatoire pour une notice avec le subtype 26</entry>
+<entry key="rule|text|BR-BT-00022-0187">BT-22-Lot est obligatoire pour une notice avec le subtype 27</entry>
+<entry key="rule|text|BR-BT-00022-0188">BT-22-Lot est obligatoire pour une notice avec le subtype 28</entry>
+<entry key="rule|text|BR-BT-00022-0189">BT-22-Lot est obligatoire pour une notice avec le subtype 29</entry>
+<entry key="rule|text|BR-BT-00022-0190">BT-22-Lot est obligatoire pour une notice avec le subtype 30</entry>
+<entry key="rule|text|BR-BT-00022-0191">BT-22-Lot est obligatoire pour une notice avec le subtype 31</entry>
+<entry key="rule|text|BR-BT-00022-0192">BT-22-Lot est obligatoire pour une notice avec le subtype 32</entry>
+<entry key="rule|text|BR-BT-00022-0195">BT-22-Lot est obligatoire pour une notice avec le subtype 33</entry>
+<entry key="rule|text|BR-BT-00022-0196">BT-22-Lot est obligatoire pour une notice avec le subtype 34</entry>
+<entry key="rule|text|BR-BT-00022-0197">BT-22-Lot est obligatoire pour une notice avec le subtype 35</entry>
+<entry key="rule|text|BR-BT-00022-0198">BT-22-Lot est obligatoire pour une notice avec le subtype 36</entry>
+<entry key="rule|text|BR-BT-00022-0199">BT-22-Lot est obligatoire pour une notice avec le subtype 37</entry>
+<entry key="rule|text|BR-BT-00022-0200">BT-22-Lot est obligatoire pour une notice avec le subtype 38</entry>
+<entry key="rule|text|BR-BT-00022-0201">BT-22-Lot est obligatoire pour une notice avec le subtype 39</entry>
+<entry key="rule|text|BR-BT-00022-0202">BT-22-Lot est obligatoire pour une notice avec le subtype 40</entry>
 <entry key="rule|text|BR-BT-00023-0004">BT-23-Procedure est obligatoire pour une notice avec le subtype 1</entry>
 <entry key="rule|text|BR-BT-00023-0005">BT-23-Procedure est obligatoire pour une notice avec le subtype 2</entry>
 <entry key="rule|text|BR-BT-00023-0006">BT-23-Procedure est obligatoire pour une notice avec le subtype 3</entry>
@@ -2534,6 +2571,7 @@
 <entry key="rule|text|BR-BT-00198-4341">BT-198(BT-1561)-NoticeResult est obligatoire pour une notice avec le subtype 31 sous la condition: expression|name|547</entry>
 <entry key="rule|text|BR-BT-00198-4343">BT-198(BT-1561)-NoticeResult est obligatoire pour une notice avec le subtype 33 sous la condition: expression|name|547</entry>
 <entry key="rule|text|BR-BT-00198-4344">BT-198(BT-1561)-NoticeResult est obligatoire pour une notice avec le subtype 34 sous la condition: expression|name|547</entry>
+<entry key="rule|text|BR-BT-00198-4719">La valeur du champ BT-198(BT-660)-LotResult doit correspondre au motif 'Date'</entry>
 <entry key="rule|text|BR-BT-00200-0047">BT-200-Contract est obligatoire pour une notice avec le subtype 38</entry>
 <entry key="rule|text|BR-BT-00200-0048">BT-200-Contract est obligatoire pour une notice avec le subtype 39</entry>
 <entry key="rule|text|BR-BT-00200-0049">BT-200-Contract est obligatoire pour une notice avec le subtype 40</entry>
@@ -2583,6 +2621,9 @@
 <entry key="rule|text|BR-BT-00262-0044">BT-262-Procedure est obligatoire pour une notice avec le subtype 35</entry>
 <entry key="rule|text|BR-BT-00262-0045">BT-262-Procedure est obligatoire pour une notice avec le subtype 36</entry>
 <entry key="rule|text|BR-BT-00262-0046">BT-262-Procedure est obligatoire pour une notice avec le subtype 37</entry>
+<entry key="rule|text|BR-BT-00262-0047">BT-262-Procedure est obligatoire pour une notice avec le subtype 38</entry>
+<entry key="rule|text|BR-BT-00262-0048">BT-262-Procedure est obligatoire pour une notice avec le subtype 39</entry>
+<entry key="rule|text|BR-BT-00262-0049">BT-262-Procedure est obligatoire pour une notice avec le subtype 40</entry>
 <entry key="rule|text|BR-BT-00262-0057">BT-262-Part est obligatoire pour une notice avec le subtype 4</entry>
 <entry key="rule|text|BR-BT-00262-0058">BT-262-Part est obligatoire pour une notice avec le subtype 5</entry>
 <entry key="rule|text|BR-BT-00262-0059">BT-262-Part est obligatoire pour une notice avec le subtype 6</entry>
@@ -5427,6 +5468,9 @@
 <entry key="rule|text|BR-OPT-00036-0076">OPA-36-Lot-Number est obligatoire pour une notice avec le subtype 19 sous la condition: expression|name|108</entry>
 <entry key="rule|text|BR-OPT-00036-0080">OPA-36-Lot-Number est obligatoire pour une notice avec le subtype 22 sous la condition: expression|name|108</entry>
 <entry key="rule|text|BR-OPT-00036-0092">OPA-36-Lot-Number est obligatoire pour une notice avec le subtype T02 sous la condition: expression|name|108</entry>
+<entry key="rule|text|BR-OPT-00060-0023">OPT-060-Lot est obligatoire pour une notice avec le subtype 17</entry>
+<entry key="rule|text|BR-OPT-00060-0024">OPT-060-Lot est obligatoire pour une notice avec le subtype 18</entry>
+<entry key="rule|text|BR-OPT-00060-0029">OPT-060-Lot est obligatoire pour une notice avec le subtype 22</entry>
 <entry key="rule|text|BR-OPT-00070-0067">OPT-070-Lot est obligatoire pour une notice avec le subtype CEI sous la condition: expression|name|87</entry>
 <entry key="rule|text|BR-OPT-00071-0041">OPT-071-Lot est obligatoire pour une notice avec le subtype T02</entry>
 <entry key="rule|text|BR-OPT-00072-0041">OPT-072-Lot est obligatoire pour une notice avec le subtype T02</entry>
@@ -5993,6 +6037,7 @@
 <entry key="rule|text|BT-196_BT-556_-NoticeResult_length">BT-196(BT-556)-NoticeResult ne peut pas contenir plus de 6 000 caractères</entry>
 <entry key="rule|text|BT-196_BT-635_-LotResult_length">BT-196(BT-635)-LotResult ne peut pas contenir plus de 6 000 caractères</entry>
 <entry key="rule|text|BT-196_BT-636_-LotResult_length">BT-196(BT-636)-LotResult ne peut pas contenir plus de 6 000 caractères</entry>
+<entry key="rule|text|BT-196_BT-660_-LotResult_length">BT-196(BT-660)-LotResult ne peut pas contenir plus de 6 000 caractères</entry>
 <entry key="rule|text|BT-196_BT-709_-LotResult_length">BT-196(BT-709)-LotResult ne peut pas contenir plus de 6 000 caractères</entry>
 <entry key="rule|text|BT-196_BT-710_-LotResult_length">BT-196(BT-710)-LotResult ne peut pas contenir plus de 6 000 caractères</entry>
 <entry key="rule|text|BT-196_BT-711_-LotResult_length">BT-196(BT-711)-LotResult ne peut pas contenir plus de 6 000 caractères</entry>
