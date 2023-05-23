@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.8.0",
   "metadataDatabase" : {
-    "version" : "1.7.64",
-    "createdOn" : "2023-05-23T13:51:48"
+    "version" : "1.7.65",
+    "createdOn" : "2023-05-23T16:29:37"
   },
   "noticeId" : "32",
   "metadata" : [ {
@@ -3408,10 +3408,10 @@
           }, {
             "id" : "GR-SettledContractTenderReference",
             "contentType" : "group",
-            "nodeId" : "ND-LotTenderOriginCountry",
+            "nodeId" : "ND-SettledContractTenderReference",
             "displayType" : "GROUP",
-            "description" : "Origin country of the product or service",
-            "_label" : "group|name|ND-LotTenderOriginCountry",
+            "description" : "Tender leading to the contract",
+            "_label" : "group|name|ND-SettledContractTenderReference",
             "_repeatable" : true,
             "content" : [ {
               "id" : "BT-3202-Contract",
