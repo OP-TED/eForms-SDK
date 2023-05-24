@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.8.0",
   "metadataDatabase" : {
-    "version" : "1.7.58",
-    "createdOn" : "2023-05-12T17:43:11"
+    "version" : "1.7.67",
+    "createdOn" : "2023-05-23T19:52:38"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -1528,13 +1528,6 @@
     "repeatable" : true,
     "identifierFieldId" : "OPT-321-Tender",
     "captionFieldId" : "BT-3201-Tender"
-  }, {
-    "id" : "ND-LotTenderPaidAmounts",
-    "parentId" : "ND-LotTender",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts",
-    "xpathRelative" : "efac:AggregatedAmounts",
-    "xsdSequenceOrder" : [ { "efac:AggregatedAmounts" : 8 } ],
-    "repeatable" : false
   }, {
     "id" : "ND-TenderAggregatedAmounts",
     "parentId" : "ND-LotTender",
@@ -21257,7 +21250,7 @@
     }
   }, {
     "id" : "BT-780-Tender",
-    "parentNodeId" : "ND-LotTenderPaidAmounts",
+    "parentNodeId" : "ND-TenderAggregatedAmounts",
     "name" : "Tender Payment Value Additional Information",
     "btId" : "BT-780",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PaidAmountDescription",
