@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Vrijednost svih ugovora dodijeljenih u toj obavijesti, uključujući opcije i produljenja.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Procijenjena vrijednost postupka javne nabave ili grupe tijekom cijelog trajanja sporazuma, uključujući opcije i produljenja.</entry>
 <entry key="field|description|OPA-36-Lot-Number">(Predviđeno) razdoblje od početka do kraja ugovora, okvirnog sporazuma, dinamičkog sustava nabave ili kvalifikacijskog sustava. Moraju biti obuhvaćene sve opcije i produljenja.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">(Predviđeno) razdoblje od početka do kraja ugovora, okvirnog sporazuma, dinamičkog sustava nabave ili kvalifikacijskog sustava. Moraju biti obuhvaćene sve opcije i produljenja.</entry>
 <entry key="field|description|OPA-36-Part-Number">(Predviđeno) razdoblje od početka do kraja ugovora, okvirnog sporazuma, dinamičkog sustava nabave ili kvalifikacijskog sustava. Moraju biti obuhvaćene sve opcije i produljenja.</entry>
+<entry key="field|description|OPA-36-Part-Unit">(Predviđeno) razdoblje od početka do kraja ugovora, okvirnog sporazuma, dinamičkog sustava nabave ili kvalifikacijskog sustava. Moraju biti obuhvaćene sve opcije i produljenja.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Razdoblje, od roka za podnošenje ponuda, tijekom kojeg ponude moraju biti valjane.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Razdoblje, od roka za podnošenje ponuda, tijekom kojeg ponude moraju biti valjane.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo koje se primjenjuje ako nabava uključuje kupce iz različitih zemalja</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
 <entry key="field|hint|BT-22-Lot">Ako za svoj postupak i grupe upotrebljavate internu identifikacijsku oznaku, ispunite je. Upotrijebite različite identifikacijske oznake za svaku grupu.</entry>
@@ -627,7 +630,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Ovo polje može upućivati na natječajne specifikacije</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Odaberite jednu ili više osnova za isključenje</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Ispunite datume trajanja ILI razdoblja trajanja</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Ispunite datume trajanja ILI razdoblja trajanja</entry>
 <entry key="field|hint|OPA-36-Part-Number">Ispunite datume trajanja ILI razdoblja trajanja</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Ispunite datume trajanja ILI razdoblja trajanja</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Prvo kreirajte organizaciju u odjeljku „Organizacije”, a zatim je odaberite u padajućem izborniku.</entry>
 <entry key="field|hint|OPT-300-Procedure-Buyer">Prvo kreirajte organizaciju u odjeljku „Organizacije”, a zatim je odaberite u padajućem izborniku.</entry>
 <entry key="field|hint|OPT-300-Procedure-SProvider">Prvo kreirajte organizaciju u odjeljku „Organizacije”, a zatim je odaberite u padajućem izborniku.</entry>
@@ -1272,8 +1277,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Vrijednost svih ugovora dodijeljenih u ovom postupku</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Procijenjena vrijednost bez PDV-a</entry>
 <entry key="field|name|OPA-36-Lot-Number">Trajanje</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Trajanje</entry>
 <entry key="field|name|OPA-36-Part-Number">Trajanje</entry>
+<entry key="field|name|OPA-36-Part-Unit">Trajanje</entry>
 <entry key="field|name|OPA-98-Lot-Number">Rok do kojeg ponuda mora ostati valjana</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Rok do kojeg ponuda mora ostati valjana</entry>
 <entry key="field|name|OPP-010-notice">Broj objave obavijesti</entry>
 <entry key="field|name|OPP-011-notice">Broj izdanja SL S-a</entry>
 <entry key="field|name|OPP-012-notice">Datum objave</entry>

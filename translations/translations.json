@@ -1,0 +1,99 @@
+{
+  "languages" : [ {
+    "twoLetterCode" : "bg",
+    "threeLetterCode" : "bul",
+    "description" : "Bulgarian"
+  }, {
+    "twoLetterCode" : "cs",
+    "threeLetterCode" : "ces",
+    "description" : "Czech"
+  }, {
+    "twoLetterCode" : "da",
+    "threeLetterCode" : "dan",
+    "description" : "Danish"
+  }, {
+    "twoLetterCode" : "de",
+    "threeLetterCode" : "deu",
+    "description" : "German"
+  }, {
+    "twoLetterCode" : "el",
+    "threeLetterCode" : "ell",
+    "description" : "Greek"
+  }, {
+    "twoLetterCode" : "en",
+    "threeLetterCode" : "eng",
+    "description" : "English"
+  }, {
+    "twoLetterCode" : "es",
+    "threeLetterCode" : "spa",
+    "description" : "Spanish"
+  }, {
+    "twoLetterCode" : "et",
+    "threeLetterCode" : "est",
+    "description" : "Estonian"
+  }, {
+    "twoLetterCode" : "fi",
+    "threeLetterCode" : "fin",
+    "description" : "Finnish"
+  }, {
+    "twoLetterCode" : "fr",
+    "threeLetterCode" : "fra",
+    "description" : "French"
+  }, {
+    "twoLetterCode" : "ga",
+    "threeLetterCode" : "gle",
+    "description" : "Irish"
+  }, {
+    "twoLetterCode" : "hr",
+    "threeLetterCode" : "hrv",
+    "description" : "Croatian"
+  }, {
+    "twoLetterCode" : "hu",
+    "threeLetterCode" : "hun",
+    "description" : "Hungarian"
+  }, {
+    "twoLetterCode" : "it",
+    "threeLetterCode" : "ita",
+    "description" : "Italian"
+  }, {
+    "twoLetterCode" : "lt",
+    "threeLetterCode" : "lit",
+    "description" : "Lithuanian"
+  }, {
+    "twoLetterCode" : "lv",
+    "threeLetterCode" : "lav",
+    "description" : "Latvian"
+  }, {
+    "twoLetterCode" : "mt",
+    "threeLetterCode" : "mlt",
+    "description" : "Maltese"
+  }, {
+    "twoLetterCode" : "nl",
+    "threeLetterCode" : "nld",
+    "description" : "Dutch"
+  }, {
+    "twoLetterCode" : "pl",
+    "threeLetterCode" : "pol",
+    "description" : "Polish"
+  }, {
+    "twoLetterCode" : "pt",
+    "threeLetterCode" : "por",
+    "description" : "Portuguese"
+  }, {
+    "twoLetterCode" : "ro",
+    "threeLetterCode" : "ron",
+    "description" : "Romanian"
+  }, {
+    "twoLetterCode" : "sk",
+    "threeLetterCode" : "slk",
+    "description" : "Slovak"
+  }, {
+    "twoLetterCode" : "sl",
+    "threeLetterCode" : "slv",
+    "description" : "Slovenian"
+  }, {
+    "twoLetterCode" : "sv",
+    "threeLetterCode" : "swe",
+    "description" : "Swedish"
+  } ]
+}

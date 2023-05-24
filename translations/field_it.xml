@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Il valore di tutti gli appalti aggiudicati in base all'avviso o bando in questione, comprese le opzioni e i rinnovi.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Il valore stimato della procedura di appalto o del lotto nel corso della sua durata complessiva, comprese le opzioni e i rinnovi.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Il periodo (stimato) che intercorre tra l'inizio e la fine dell'appalto, dell'accordo quadro, del sistema dinamico di acquisizione o del sistema di qualificazione. Sono compresi tutte le opzioni e tutti i rinnovi.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Il periodo (stimato) che intercorre tra l'inizio e la fine dell'appalto, dell'accordo quadro, del sistema dinamico di acquisizione o del sistema di qualificazione. Sono compresi tutte le opzioni e tutti i rinnovi.</entry>
 <entry key="field|description|OPA-36-Part-Number">Il periodo (stimato) che intercorre tra l'inizio e la fine dell'appalto, dell'accordo quadro, del sistema dinamico di acquisizione o del sistema di qualificazione. Sono compresi tutte le opzioni e tutti i rinnovi.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Il periodo (stimato) che intercorre tra l'inizio e la fine dell'appalto, dell'accordo quadro, del sistema dinamico di acquisizione o del sistema di qualificazione. Sono compresi tutte le opzioni e tutti i rinnovi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Il periodo successivo al termine di presentazione dell'offerta nel quale le offerte devono rimanere valide.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Il periodo successivo al termine di presentazione dell'offerta nel quale le offerte devono rimanere valide.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">La legge applicabile se l'appalto coinvolge acquirenti di paesi diversi</entry>
 <entry key="field|hint|BT-1375-Procedure">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-22-Lot">Se si utilizza un identificatore interno per la procedura e i lotti, compilarlo. Si prega di utilizzare identificatori diversi per ciascun lotto.</entry>
@@ -627,7 +630,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Questo campo può indicare il capitolato d'oneri.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Selezionare uno o più motivi di esclusione</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Inserire le date di durata o il periodo di durata</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Inserire le date di durata o il periodo di durata</entry>
 <entry key="field|hint|OPA-36-Part-Number">Inserire le date di durata o il periodo di durata</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Inserire le date di durata o il periodo di durata</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Prima creare l'organizzazione nella sezione "Organizzazioni" e poi selezionarla nell'elenco a discesa.</entry>
 <entry key="field|hint|OPT-300-Procedure-Buyer">Prima creare l'organizzazione nella sezione "Organizzazioni" e poi selezionarla nell'elenco a discesa.</entry>
 <entry key="field|hint|OPT-300-Procedure-SProvider">Prima creare l'organizzazione nella sezione "Organizzazioni" e poi selezionarla nell'elenco a discesa.</entry>
@@ -1272,8 +1277,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Valore di tutti gli appalti aggiudicati nell'ambito della presente procedura</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Valore stimato al netto dell'IVA</entry>
 <entry key="field|name|OPA-36-Lot-Number">Durata</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Durata</entry>
 <entry key="field|name|OPA-36-Part-Number">Durata</entry>
+<entry key="field|name|OPA-36-Part-Unit">Durata</entry>
 <entry key="field|name|OPA-98-Lot-Number">Termine entro il quale l'offerta deve rimanere valida</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Termine entro il quale l'offerta deve rimanere valida</entry>
 <entry key="field|name|OPP-010-notice">Numero di pubblicazione dell'avviso</entry>
 <entry key="field|name|OPP-011-notice">Numero dell'edizione della GU S</entry>
 <entry key="field|name|OPP-012-notice">Data di pubblicazione</entry>

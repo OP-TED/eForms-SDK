@@ -1,7 +1,7 @@
 // View 15
-// sdkVersion='1.7.0'
-// File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30
-1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
+// sdkVersion='1.8.0'
+// File generated from metadata database version 1.7.68 created on the 2023-05-24T10:05:17
+1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
 		{BT-11-Procedure-Buyer} #{name|BT-11}: #value // Legal type of the buyer
@@ -49,9 +49,9 @@
 				0 {BT-539-LotsGroup} #{name|BT-539}: #{BT-539-LotsGroup} // Type
 				0 {BT-734-LotsGroup} #{name|BT-734}: ${BT-734-LotsGroup} // Name
 				0 {BT-540-LotsGroup} #{name|BT-540}: ${BT-540-LotsGroup} // Description
-				0 {BT-5421-LotsGroup} #{BT-5421-LotsGroup}: ${BT-541-LotsGroup} // Award Criterion Number Weight / Award Criterion Number
-				0 {BT-5422-LotsGroup} #{BT-5422-LotsGroup}: ${BT-541-LotsGroup} // Award Criterion Number Fixed / Award Criterion Number
-				0 {BT-5423-LotsGroup} #{BT-5423-LotsGroup}: ${BT-541-LotsGroup} // Award Criterion Number Threshold / Award Criterion Number
+				0 {BT-5421-LotsGroup} #{BT-5421-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+				0 {BT-5422-LotsGroup} #{BT-5422-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {BT-5423-LotsGroup} #{BT-5423-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 			0 {BT-543-LotsGroup} #{name|BT-543}: ${BT-543-LotsGroup} // Award Criteria Complicated
 			0 {BT-733-LotsGroup} #{name|BT-733}: ${BT-733-LotsGroup} // Award Criteria Order Justification
 5 {ND-Root[BT-24-Lot is present]} #{auxiliary|text|lot} // 5. Lots
@@ -65,6 +65,7 @@
 			{BT-262-Lot[BT-26(m)-Lot == 'cpv']} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} #{BT-262-Lot} // Main classification (CPV)
 			{BT-262-Lot[BT-26(m)-Lot != 'cpv']} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} // Main classification (non-CPV)
 			{BT-263-Lot[BT-26(a)-Lot == 'cpv']} #{name|BT-263} (${BT-26(a)-Lot}): ${BT-263-Lot} #{BT-263-Lot} // Additional classification (CPV)
+			{BT-263-Lot[BT-26(a)-Lot != 'cpv']} #{name|BT-263} (${BT-26(a)-Lot}): ${BT-263-Lot} // Additional classification (Non-CPV)
 		2 {ND-LotPlacePerformance} #{auxiliary|text|place-performance} // 5.1.2 Place of performance
 			{BT-5101(a)-Lot}  #{name|BT-510}:  ${BT-5101(a)-Lot} ${BT-5101(b)-Lot}  ${BT-5101(c)-Lot}  // Postal address
 			{BT-5131-Lot}  #{name|BT-5131}:  $value  // Town
@@ -76,7 +77,7 @@
 		3 {ND-LotDuration} #{auxiliary|text|estimated-duration} // 5.1.3 Estimated duration
 			{BT-536-Lot} #{name|BT-536}: ${BT-536-Lot} // Start date
 			{BT-537-Lot} #{name|BT-537}: ${BT-537-Lot} // End date
-			{BT-36-Lot} #{name|BT-36}: ${OPA-36-Lot-Number} ${BT-36-Lot/@unitCode} // Duration
+			{BT-36-Lot} #{name|BT-36}: ${format-number(OPA-36-Lot-Number,  '###,##0.###,###,###')} ${BT-36-Lot/@unitCode} // Duration
 			{BT-538-Lot} #{name|BT-538-Lot}: #{BT-538-Lot} // Planned Period (Unlimited)
 		4 {ND-OptionsAndRenewals[(BT-57-Lot is present) or (BT-58-Lot is present)]} #{auxiliary|text|renewal} // 5.1.4 Renewal
 			{BT-58-Lot} #{name|BT-58}: ${BT-58-Lot} // Maximum renewals
@@ -117,16 +118,16 @@
 				{BT-750-Lot} #{name|BT-750}: ${BT-750-Lot} // Description
 				{BT-748-Lot} #{name|BT-748}: #{BT-748-Lot} // Use of this criterion
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{name|BT-40} // Selection Criteria Second Stage Invite
-				{BT-7531-Lot} #{BT-7531-Lot}: ${BT-752-Lot} // Number Weight
-				{BT-7532-Lot} #{BT-7532-Lot}: ${BT-752-Lot} // Number Threshold
+				{BT-7531-Lot} #{BT-7531-Lot}: ${format-number(BT-752-Lot, '###,##0.###,###,###')} // Number Weight
+				{BT-7532-Lot} #{BT-7532-Lot}: ${format-number(BT-752-Lot, '###,##0.###,###,###')} // Number Threshold
 		10 {ND-LotAwardCriteria} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria
 			0 {BT-539-Lot} #{auxiliary|text|criterion}: // Award Criterion
 				0 {BT-539-Lot} #{name|BT-539}: #{BT-539-Lot} // Type
 				0 {BT-734-Lot} #{name|BT-734}: ${BT-734-Lot} // Name
 				0 {BT-540-Lot} #{name|BT-540}: ${BT-540-Lot} // Award Criterion Description
-				0 {BT-5421-Lot} #{BT-5421-Lot}: ${BT-541-Lot} // Award Criterion Number Weight / Award Criterion Number
-				0 {BT-5422-Lot} #{BT-5422-Lot}: ${BT-541-Lot} // Award Criterion Number Fixed / Award Criterion Number
-				0 {BT-5423-Lot} #{BT-5423-Lot} - ${BT-541-Lot} // Award Criterion Number Threshold / Award Criterion Number
+				0 {BT-5421-Lot} #{BT-5421-Lot}: ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+				0 {BT-5422-Lot} #{BT-5422-Lot}: ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {BT-5423-Lot} #{BT-5423-Lot} - ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 			0 {BT-543-Lot} #{name|BT-543}: ${BT-543-Lot} // Award Criteria Complicated
 			0 {BT-733-Lot} #{name|BT-733}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
 		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
@@ -153,10 +154,10 @@
 				{BT-137-Lot[BT-97-Lot is present]} #{name|BT-97}: #{BT-97-Lot}  //  Languages in which tenders, requests to participate, or expressions of interest may be submitted
 				{BT-764-Lot} #{name|BT-764}: #{BT-764-Lot} // Electronic catalogue
 				{BT-744-Lot[BT-744-Lot == 'true']} #{name|BT-744} // Advanced or qualified electronic signature or seal (as defined in Regulation (EU) No 910/2014) is required. (true/false)
-				{BT-63-Lot} #{name|BT-63}: #{BT-63-Lot} // Variants
 				{BT-769-Lot[BT-769-Lot == 'allowed']} #{name|BT-769} // Tenderers may submit more than one tender.
 				{BT-751-Lot[BT-75-Lot is present]} #{name|BT-75}: ${for text:$fgdesc in BT-75-Lot return concat('[ ', $fgdesc, ' ] --- ')} // Financial Guarantee Description
 				{BT-630(d)-Lot} #{name|BT-630}: ${BT-630(d)-Lot} ${BT-630(t)-Lot} // Deadline for receipt of expressions of interest
+				{BT-98-Lot} #{name|BT-98}: ${OPA-98-Lot-Number} ${BT-98-Lot/@unitCode} // Deadline until which the tender must remain valid
 			0 {BT-137-Lot[(BT-771-Lot is present) and (BT-772-Lot is present)]} #{auxiliary|text|late-tenderer-info}: // Information that can be supplemented after the submission deadline
 				{BT-771-Lot} #{BT-771-Lot} // Late Tenderer Information
 				{BT-772-Lot} #{name|BT-772}: ${BT-772-Lot} // Late Tenderer Information Description

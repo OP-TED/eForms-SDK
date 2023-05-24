@@ -1,7 +1,7 @@
 // View 24
-// sdkVersion='1.7.0'
-// File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30
-1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
+// sdkVersion='1.8.0'
+// File generated from metadata database version 1.7.68 created on the 2023-05-24T10:05:17
+1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
 		{BT-11-Procedure-Buyer} #{name|BT-11}: #value // Legal type of the buyer
@@ -13,7 +13,7 @@
 		{BT-24-Procedure} #{name|BT-24}: $value // Procedure Description
 		{BT-04-notice} #{name|BT-04}: $value // Procedure identifier
 		{BT-22-Procedure} #{name|BT-22}: $value // Internal identifier
-		0 {BT-105-Procedure} #{name|BT-105}: #value // Type of the procedure
+		0 {BT-105-Procedure} #{name|BT-105}: ${BT-105-Procedure} // Type of the procedure
 		0 {BT-88-Procedure} #{name|BT-88}: ${BT-88-Procedure} // Procedure Features / Description of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
 			{BT-23-Procedure} #{name|BT-23}: #value // Nature of the contract
@@ -40,10 +40,10 @@
 			0 {BT-09(b)-Procedure} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Description
 		5 {ND-LotDistribution} #{auxiliary|text|procurement-terms} // 2.1.5  Procurement terms  ND-LotDistribution   ND-ProcedureProcurementScope
 			0 {ND-LotDistribution} #{auxiliary|text|submission-terms}: // Terms of submission
-				{BT-31-Procedure} #{name|BT-31}: ${BT-31-Procedure} // Maximum number of lots for which one tenderer can submit tenders
+				{BT-31-Procedure} #{name|BT-31}: ${format-number(BT-31-Procedure, '###,##0')} // Maximum number of lots for which one tenderer can submit tenders
 				{BT-763-Procedure [BT-763-Procedure == 'all']} #{name|BT-763} // The tenderer must submit tenders for all lots. (indicator all)
 			0 {ND-LotDistribution} #{auxiliary|text|contract-terms}: // Terms of contract
-				{BT-33-Procedure} #{name|BT-33}: ${BT-33-Procedure} // Maximum number of lots for which contracts can be awarded to one tenderer
+				{BT-33-Procedure} #{name|BT-33}: ${format-number(BT-33-Procedure, '###,##0')} // Maximum number of lots for which contracts can be awarded to one tenderer
 		6 {ND-ProcedureProcurementScope[(BT-67(a)-Procedure is present)]} #{auxiliary|text|exclusion-grounds} // 2.1.6 Exclusion grounds
 			{BT-67(a)-Procedure} #{name|BT-67}: ${for text:$egdesc in BT-67(b)-Procedure return concat('[ ', $egdesc, ' ] --- ')} // Description
 4 {ND-Root[BT-137-LotsGroup is present]} #{auxiliary|text|group-of-lots} // 4. Group of lots
@@ -59,9 +59,9 @@
 				0 {BT-539-LotsGroup} #{name|BT-539}: #{BT-539-LotsGroup} // Type
 				0 {BT-734-LotsGroup} #{name|BT-734}: ${BT-734-LotsGroup} // Name
 				0 {BT-540-LotsGroup} #{name|BT-540}: ${BT-540-LotsGroup} // Description
-				0 {BT-5421-LotsGroup} #{BT-5421-LotsGroup}: ${BT-541-LotsGroup} // Award Criterion Number Weight / Award Criterion Number
-				0 {BT-5422-LotsGroup} #{BT-5422-LotsGroup}: ${BT-541-LotsGroup} // Award Criterion Number Fixed / Award Criterion Number
-				0 {BT-5423-LotsGroup} #{BT-5423-LotsGroup}: ${BT-541-LotsGroup} // Award Criterion Number Threshold / Award Criterion Number
+				0 {BT-5421-LotsGroup} #{BT-5421-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+				0 {BT-5422-LotsGroup} #{BT-5422-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {BT-5423-LotsGroup} #{BT-5423-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 			0 {BT-543-LotsGroup} #{name|BT-543}: ${BT-543-LotsGroup} // Award Criteria Complicated
 			0 {BT-733-LotsGroup} #{name|BT-733}: ${BT-733-LotsGroup} // Award Criteria Order Justification
 5 {ND-Root[BT-24-Lot is present]} #{auxiliary|text|lot} // 5. Lots
@@ -75,7 +75,8 @@
 			{BT-262-Lot[BT-26(m)-Lot == 'cpv']} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} #{BT-262-Lot} // Main classification (CPV)
 			{BT-262-Lot[BT-26(m)-Lot != 'cpv']} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} // Main classification (non-CPV)
 			{BT-263-Lot[BT-26(a)-Lot == 'cpv']} #{name|BT-263} (${BT-26(a)-Lot}): ${BT-263-Lot} #{BT-263-Lot} // Additional classification (CPV)
-			{BT-25-Lot} #{name|BT-25}: ${BT-25-Lot} #{BT-625-Lot} // Quantity
+			{BT-263-Lot[BT-26(a)-Lot != 'cpv']} #{name|BT-263} (${BT-26(a)-Lot}): ${BT-263-Lot} // Additional classification (Non-CPV)
+			{BT-25-Lot} #{name|BT-25}: ${format-number(BT-25-Lot,  '###,##0.###,###,###')} #{BT-625-Lot} // Quantity
 		2 {ND-LotPlacePerformance} #{auxiliary|text|place-performance} // 5.1.2 Place of performance
 			{BT-5101(a)-Lot}  #{name|BT-510}:  ${BT-5101(a)-Lot} ${BT-5101(b)-Lot}  ${BT-5101(c)-Lot}  // Postal address
 			{BT-5131-Lot}  #{name|BT-5131}:  $value  // Town
@@ -112,8 +113,8 @@
 				{BT-750-Lot} #{name|BT-750}: ${BT-750-Lot} // Description
 				{BT-748-Lot} #{name|BT-748}: #{BT-748-Lot} // Use of this criterion
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{name|BT-40} // Selection Criteria Second Stage Invite
-				{BT-7531-Lot} #{BT-7531-Lot}: ${BT-752-Lot} // Number Weight
-				{BT-7532-Lot} #{BT-7532-Lot}: ${BT-752-Lot} // Number Threshold
+				{BT-7531-Lot} #{BT-7531-Lot}: ${format-number(BT-752-Lot, '###,##0.###,###,###')} // Number Weight
+				{BT-7532-Lot} #{BT-7532-Lot}: ${format-number(BT-752-Lot, '###,##0.###,###,###')} // Number Threshold
 			0 {ND-SecondStage[(BT-50-Lot is present) or (BT-51-Lot is present) or (BT-52-Lot == TRUE) or (BT-120-Lot == TRUE)]} #{auxiliary|text|second-stage}: // Information about the second stage of a two-stage procedure
 				{BT-50-Lot[BT-50-Lot is present]} #{name|BT-50}: ${BT-50-Lot} // Minimum Candidates
 				{BT-661-Lot[BT-51-Lot is present]} #{name|BT-51}: ${BT-51-Lot} // Maximum Candidates
@@ -124,9 +125,9 @@
 				0 {BT-539-Lot} #{name|BT-539}: #{BT-539-Lot} // Type
 				0 {BT-734-Lot} #{name|BT-734}: ${BT-734-Lot} // Name
 				0 {BT-540-Lot} #{name|BT-540}: ${BT-540-Lot} // Award Criterion Description
-				0 {BT-5421-Lot} #{BT-5421-Lot}: ${BT-541-Lot} // Award Criterion Number Weight / Award Criterion Number
-				0 {BT-5422-Lot} #{BT-5422-Lot}: ${BT-541-Lot} // Award Criterion Number Fixed / Award Criterion Number
-				0 {BT-5423-Lot} #{BT-5423-Lot} - ${BT-541-Lot} // Award Criterion Number Threshold / Award Criterion Number
+				0 {BT-5421-Lot} #{BT-5421-Lot}: ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+				0 {BT-5422-Lot} #{BT-5422-Lot}: ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {BT-5423-Lot} #{BT-5423-Lot} - ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 			0 {BT-543-Lot} #{name|BT-543}: ${BT-543-Lot} // Award Criteria Complicated
 			0 {BT-733-Lot} #{name|BT-733}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
 		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
@@ -147,7 +148,10 @@
 				{BT-42-Lot[BT-42-Lot == TRUE]} #{name|BT-42} // The decision of the jury is binding on the buyer. (true/false)
 				{BT-46-Lot} #{name|BT-46}: ${BT-46-Lot} // Members of the jury
 				{BT-47-Lot} #{name|BT-47}: ${BT-47-Lot} // Participants already selected
-				{BT-644-Lot} #{name|BT-644}: ${BT-644-Lot} ${BT-644-Lot/@currencyID} // Value of the prize
+				0 {BT-644-Lot} Prize information // Prize information
+					{BT-644-Lot} #{name|BT-644}: ${if (contains(string(BT-644-Lot), '.')) then format-number(BT-644-Lot,  '###,##0.00') else format-number(BT-644-Lot, '###,##0')} ${BT-644-Lot/@currencyID} // Value of the prize
+					{BT-44-Lot} #{name|BT-44}: ${BT-44-Lot} // Place receiving the prize
+				{BT-644-Lot} #{name|BT-644}: ${if (contains(string(BT-644-Lot), '.')) then format-number(BT-644-Lot,  '###,##0.00') else format-number(BT-644-Lot, '###,##0')} ${BT-644-Lot/@currencyID} // Value of the prize
 				{BT-44-Lot} #{name|BT-44}: ${BT-44-Lot} // Place receiving the prize
 				{BT-41-Lot[BT-41-Lot == TRUE]} #{name|BT-41} // Any service contract following the contest will be awarded to one of the winners of the contest. (true/false)
 				{BT-45-Lot} #{name|BT-45}: ${BT-45-Lot} // Additional information

@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Värdet av alla de kontrakt som tilldelas i detta meddelande, inklusive optioner och förlängningar.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Det beräknade värdet för upphandlingsförfarandet eller delkontraktet under hela dess varaktighet, inklusive optioner och förlängningar.</entry>
 <entry key="field|description|OPA-36-Lot-Number">(Beräknad) tidsperiod från start- till slutdatum för kontraktet, ramavtalet, det dynamiska inköpssystemet eller kvalificeringssystemet. Detta ska omfatta alla optioner och förlängningar.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">(Beräknad) tidsperiod från start- till slutdatum för kontraktet, ramavtalet, det dynamiska inköpssystemet eller kvalificeringssystemet. Detta ska omfatta alla optioner och förlängningar.</entry>
 <entry key="field|description|OPA-36-Part-Number">(Beräknad) tidsperiod från start- till slutdatum för kontraktet, ramavtalet, det dynamiska inköpssystemet eller kvalificeringssystemet. Detta ska omfatta alla optioner och förlängningar.</entry>
+<entry key="field|description|OPA-36-Part-Unit">(Beräknad) tidsperiod från start- till slutdatum för kontraktet, ramavtalet, det dynamiska inköpssystemet eller kvalificeringssystemet. Detta ska omfatta alla optioner och förlängningar.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Den period från sista anbudsdag, under vilken anbud ska fortsätta att vara giltiga.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Den period från sista anbudsdag, under vilken anbud ska fortsätta att vara giltiga.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Tillämplig lag om upphandlingen omfattar köpare från olika länder</entry>
 <entry key="field|hint|BT-1375-Procedure">Lägg till så många delar som du vill inkludera i gruppen av delar.</entry>
 <entry key="field|hint|BT-22-Lot">Om du använder en intern identifierare för ditt förfarande och dina delar, fyll i den. Använd olika identifieringskoder för varje del.</entry>
@@ -627,7 +630,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Detta fält kan hänvisa till kravspecifikationerna.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Välj ett eller flera skäl för uteslutning</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Fyll i antingen löptiderna ELLER varaktigheten</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Fyll i antingen löptiderna ELLER varaktigheten</entry>
 <entry key="field|hint|OPA-36-Part-Number">Fyll i antingen löptiderna ELLER varaktigheten</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Fyll i antingen löptiderna ELLER varaktigheten</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Skapa först organisationen i avsnittet ”Organisationer” och välj sedan i rullgardinsmenyn.</entry>
 <entry key="field|hint|OPT-300-Procedure-Buyer">Skapa först organisationen i avsnittet ”Organisationer” och välj sedan i rullgardinsmenyn.</entry>
 <entry key="field|hint|OPT-300-Procedure-SProvider">Skapa först organisationen i avsnittet ”Organisationer” och välj sedan i rullgardinsmenyn.</entry>
@@ -1272,8 +1277,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Värdet av alla de kontrakt som tilldelas i det här förfarandet</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Beräknat värde exklusive moms</entry>
 <entry key="field|name|OPA-36-Lot-Number">Varaktighet</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Varaktighet</entry>
 <entry key="field|name|OPA-36-Part-Number">Varaktighet</entry>
+<entry key="field|name|OPA-36-Part-Unit">Varaktighet</entry>
 <entry key="field|name|OPA-98-Lot-Number">Tidsfrist för anbudets giltighet</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Tidsfrist för anbudets giltighet</entry>
 <entry key="field|name|OPP-010-notice">Meddelandets publiceringsnummer</entry>
 <entry key="field|name|OPP-011-notice">EUT S-nummer</entry>
 <entry key="field|name|OPP-012-notice">Publiceringsdatum</entry>

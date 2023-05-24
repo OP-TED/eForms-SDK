@@ -12,16 +12,16 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.8</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">3b3b619b-f67b-48cb-982c-803a5ac6d519</cbc:ID>
 	<cbc:IssueDate>2020-11-26Z</cbc:IssueDate>
 	<cbc:IssueTime>15:12:24Z</cbc:IssueTime>
+	<!-- Additional information -->
+	<cbc:Note languageID="ENG">The registrant declares ...</cbc:Note>
 	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>31985R2137</cbc:RegulatoryDomain>
 	<cbc:NoticeTypeCode listName="bri">brin-eeig</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
-	<!-- Additional information -->
-	<cbc:Note languageID="ENG">The registrant declares ...</cbc:Note>
 	<cac:SenderParty>
 		<cac:Contact>
 			<cbc:ElectronicMail>sender.example@example.com</cbc:ElectronicMail>
