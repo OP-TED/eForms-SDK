@@ -386,9 +386,9 @@
 	</xsd:complexType>
 	<xsd:complexType name="OrganizationType">
 		<xsd:sequence>
+			<xsd:element ref="efbc:GroupLeadIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:AcquiringCPBIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:AwardingCPBIndicator" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="efbc:GroupLeadIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:ListedOnRegulatedMarketIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:NaturalPersonIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:UltimateBeneficialOwner" minOccurs="0" maxOccurs="unbounded"/>
