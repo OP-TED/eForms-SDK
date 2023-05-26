@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.8.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.7.68",
-    "createdOn" : "2023-05-24T10:05:17"
+    "version" : "1.7.75",
+    "createdOn" : "2023-05-26T11:18:44"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -22329,15 +22329,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "CEI" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
     }
   }, {
     "id" : "OPA-36-Lot-Unit",
@@ -22358,15 +22349,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "36", "37", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "CEI" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
