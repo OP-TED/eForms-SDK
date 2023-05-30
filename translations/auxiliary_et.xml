@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Estonian. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>auxiliary in Estonian. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Õiguslik alus</entry>
 <entry key="auxiliary|text|BT-08">Organisatsiooni roll</entry>
 <entry key="auxiliary|text|BT-36">Kestus</entry>
@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Pädev asutus</entry>
 <entry key="auxiliary|text|change">Muudatus</entry>
 <entry key="auxiliary|text|company">Äriühingu/ühingu nimi ja aadress</entry>
-<entry key="auxiliary|text|concession-value">Kontsessioon</entry>
+<entry key="auxiliary|text|concession-value">Kontsessiooni maksumus</entry>
 <entry key="auxiliary|text|conditions-contract">Lepinguga seotud tingimused</entry>
 <entry key="auxiliary|text|conditions-participation">Osalemise tingimused</entry>
 <entry key="auxiliary|text|contract-information">Teave lepingu kohta</entry>
@@ -31,7 +31,7 @@
 <entry key="auxiliary|text|envisaged-start-duration-contract">Lepingu kavandatav alguskuupäev ja kestus</entry>
 <entry key="auxiliary|text|essential-assets">Põhivarad</entry>
 <entry key="auxiliary|text|estimated-duration">Eeldatav kestus</entry>
-<entry key="auxiliary|text|eu-funds-used">Teave lepingu rahastamiseks kasutatud Euroopa Liidu vahendite kohta</entry>
+<entry key="auxiliary|text|eu-funds-used">Teave Euroopa Liidu vahendite kohta</entry>
 <entry key="auxiliary|text|exclusion-grounds">Kõrvalejätmise alused</entry>
 <entry key="auxiliary|text|framework-agreement">Raamleping</entry>
 <entry key="auxiliary|text|further-info">Lisateave, vahendamine ja läbivaatamine</entry>
@@ -95,7 +95,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Hankemenetluse tulemus</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Väidetava eeskirjade eiramise liik</entry>
 <entry key="auxiliary|text|review-requests-summary">Ostjale esitatud läbivaatamistaotluste kokkuvõte</entry>
-<entry key="auxiliary|text|roles">Selle organisatsiooni rollidRollid</entry>
+<entry key="auxiliary|text|roles">Selle organisatsiooni rollid</entry>
 <entry key="auxiliary|text|second-stage">Teave kaheetapilise menetluse teise etapi kohta</entry>
 <entry key="auxiliary|text|selection-criteria">Valikukriteeriumid</entry>
 <entry key="auxiliary|text|start-duration-contract">Lepingu alguskuupäev ja kestus</entry>

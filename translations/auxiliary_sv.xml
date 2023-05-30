@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Swedish. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>auxiliary in Swedish. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Rättslig grund</entry>
 <entry key="auxiliary|text|BT-08">Organisationens roll</entry>
 <entry key="auxiliary|text|BT-36">Varaktighet</entry>
@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Behörig myndighet</entry>
 <entry key="auxiliary|text|change">Ändring</entry>
 <entry key="auxiliary|text|company">Företagets/bolagets namn och adress</entry>
-<entry key="auxiliary|text|concession-value">Koncession</entry>
+<entry key="auxiliary|text|concession-value">Koncessionsvärde</entry>
 <entry key="auxiliary|text|conditions-contract">Villkor som gäller kontraktet</entry>
 <entry key="auxiliary|text|conditions-participation">Villkor för deltagande</entry>
 <entry key="auxiliary|text|contract-information">Information om kontraktet</entry>
@@ -31,7 +31,7 @@
 <entry key="auxiliary|text|envisaged-start-duration-contract">Kontraktets beräknade startdatum och löptid</entry>
 <entry key="auxiliary|text|essential-assets">Väsentliga tillgångar</entry>
 <entry key="auxiliary|text|estimated-duration">Uppskattad löptid</entry>
-<entry key="auxiliary|text|eu-funds-used">Information om EU-medel som används för att finansiera kontraktet</entry>
+<entry key="auxiliary|text|eu-funds-used">Information om EU-medel</entry>
 <entry key="auxiliary|text|exclusion-grounds">Uteslutningsgrunder</entry>
 <entry key="auxiliary|text|framework-agreement">Ramavtal</entry>
 <entry key="auxiliary|text|further-info">Ytterligare information, medling och översyn</entry>

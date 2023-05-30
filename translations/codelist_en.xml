@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>codelist in English. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>codelist in English. File generated from metadata database.</comment>
 <entry key="codelist|name|accelerated-procedure">List of codes to specify whether a procedure is accelerated or not.</entry>
 <entry key="codelist|name|accessibility">This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.</entry>
 <entry key="codelist|name|applicability">This table provides a list of the options pertinent to be chosen for a matter concerning the applicability of predefined fields. It is designed for but not restricted to the context of public procurement.</entry>
@@ -30,6 +30,7 @@
 <entry key="codelist|name|cont-modif">List of allowed Notice Type codes for a notice of Contract Modification Form Type</entry>
 <entry key="codelist|name|contract-detail">This table provides a framework to represent data relating to procurement.</entry>
 <entry key="codelist|name|contract-nature">List of codes used to specify the main and additional natures of a purchase</entry>
+<entry key="codelist|name|corporate-body">The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.</entry>
 <entry key="codelist|name|corr">List of allowed Notice Subtype codes for a notice of CN Design Notice Type.</entry>
 <entry key="codelist|name|country">List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.</entry>
 <entry key="codelist|name|cpv">List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.</entry>
@@ -167,7 +168,7 @@
 <entry key="codelist|name|nuts-lux-lvl3">List of level 3 NUTS codes for Luxembourg</entry>
 <entry key="codelist|name|nuts-lva-lvl3">List of level 3 NUTS codes for Latvia</entry>
 <entry key="codelist|name|nuts-lvl3">List of all level 3 NUTS codes</entry>
-<entry key="codelist|name|nuts-mkd-lvl3">List of level 3 NUTS codes for Former Yugoslav Republic of Macedonia</entry>
+<entry key="codelist|name|nuts-mkd-lvl3">List of level 3 NUTS codes for North Macedonia</entry>
 <entry key="codelist|name|nuts-mlt-lvl3">List of level 3 NUTS codes for Malta</entry>
 <entry key="codelist|name|nuts-mne-lvl3">List of level 3 NUTS codes for Montenegro</entry>
 <entry key="codelist|name|nuts-nld-lvl3">List of level 3 NUTS codes for Netherlands</entry>
