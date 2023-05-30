@@ -38,11 +38,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+      <url>https://${sonatype.server.url}/content/repositories/snapshots</url>
     </snapshotRepository>
     <repository>
       <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://${sonatype.server.url}/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
 
@@ -129,16 +129,6 @@
           <version>${version.eforms-sdk-analyzer}</version>
         </dependency>
       </dependencies>
-      <repositories>
-        <repository>
-          <id>github</id>
-          <name>Github Packages</name>
-          <url>https://public:${env.GITHUB_TOKEN}@maven.pkg.github.com/OP-TED/*</url>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
-        </repository>
-      </repositories>
       <build>
         <plugins>
           <plugin>
