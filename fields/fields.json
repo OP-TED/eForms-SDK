@@ -1632,10 +1632,10 @@
     "repeatable" : true
   }, {
     "id" : "ND-CountryOriginUnpublish",
-    "parentId" : "ND-LotTender",
+    "parentId" : "ND-LotTenderOriginCountry",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori']",
-    "xpathRelative" : "efac:Origin/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori']",
-    "xsdSequenceOrder" : [ { "efac:Origin" : 11 }, { "efac:FieldsPrivacy" : 1 } ],
+    "xpathRelative" : "efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori']",
+    "xsdSequenceOrder" : [ { "efac:FieldsPrivacy" : 1 } ],
     "repeatable" : false
   }, {
     "id" : "ND-SubcontractedActivity",
