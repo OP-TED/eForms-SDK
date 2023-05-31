@@ -1,6 +1,6 @@
 // View T02
-// sdkVersion='1.8.0'
-// File generated from metadata database version 1.7.62 created on the 2023-05-17T15:49:39
+// sdkVersion='1.8.0-SNAPSHOT'
+// File generated from metadata database version 1.7.100 created on the 2023-05-31T15:59:01
 1 {ND-Root} #{auxiliary|text|buyer-competent} // 1. Competent authority (T01, T02)
 	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer-competent} // 1.1 Buyer (T01, T02)
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -10,7 +10,7 @@
 		{BT-21-Procedure} #{name|BT-21}: $value // Procedure Title
 		{BT-04-notice} #{name|BT-04}: $value // Procedure identifier
 		{BT-22-Procedure} #{name|BT-22}: $value // Internal identifier
-		0 {BT-105-Procedure} #{name|BT-105}: ${BT-105-Procedure} // Type of the procedure
+		0 {BT-105-Procedure} #{name|BT-105}: #{BT-105-Procedure} // Type of the procedure
 			{BT-197(BT-105)-Procedure} #{name|BT-197(BT-105)-Procedure}: #{BT-197(BT-105)-Procedure} // Unpublished Justification Code
 			{BT-196(BT-105)-Procedure} #{name|BT-196(BT-105)-Procedure}: ${BT-196(BT-105)-Procedure} // Unpublished Justification Description
 			{BT-198(BT-105)-Procedure} #{name|BT-198(BT-105)-Procedure}: ${BT-198(BT-105)-Procedure} // Unpublished Access Date
