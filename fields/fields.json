@@ -913,13 +913,6 @@
     "xsdSequenceOrder" : [ { "cac:PlannedPeriod" : 19 } ],
     "repeatable" : false
   }, {
-    "id" : "ND-PartAdditionalNature",
-    "parentId" : "ND-PartProcurementScope",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType",
-    "xpathRelative" : "cac:ProcurementAdditionalType",
-    "xsdSequenceOrder" : [ { "cac:ProcurementAdditionalType" : 14 } ],
-    "repeatable" : true
-  }, {
     "id" : "ND-PartContractAdditionalNature",
     "parentId" : "ND-PartProcurementScope",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='contract-nature']",
