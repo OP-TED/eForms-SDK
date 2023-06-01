@@ -1,6 +1,6 @@
 // View 16
 // sdkVersion='1.8.0-SNAPSHOT'
-// File generated from metadata database version 1.7.100 created on the 2023-05-31T15:59:01
+// File generated from metadata database version 1.7.105 created on the 2023-06-01T14:07:43
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -13,7 +13,7 @@
 		{BT-04-notice} #{name|BT-04}: $value // Procedure identifier
 		{BT-22-Procedure} #{name|BT-22}: $value // Internal identifier
 		0 {BT-105-Procedure} #{name|BT-105}: #{BT-105-Procedure} // Type of the procedure
-		0 {BT-106-Procedure} #{name|BT-106}: ${if (BT-106-Procedure == 'true') then 'yes' else if (BT-106-Procedure == 'false') then 'No' else BT-106-Procedure} // The procedure is accelerated. (true/false)
+		0 {BT-106-Procedure} #{name|BT-106}: ${if (BT-106-Procedure == 'true') then 'Yes' else if (BT-106-Procedure == 'false') then 'No' else BT-106-Procedure} // The procedure is accelerated. (true/false)
 		0 {BT-1351-Procedure} #{name|BT-1351}: ${BT-1351-Procedure} // Justification for the accelerated procedure
 		0 {BT-88-Procedure} #{name|BT-88}: ${BT-88-Procedure} // Procedure Features / Description of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose

@@ -1,6 +1,6 @@
 // View 29
 // sdkVersion='1.8.0-SNAPSHOT'
-// File generated from metadata database version 1.7.100 created on the 2023-05-31T15:59:01
+// File generated from metadata database version 1.7.105 created on the 2023-06-01T14:07:43
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -16,7 +16,7 @@
 			{BT-197(BT-105)-Procedure} #{name|BT-197(BT-105)-Procedure}: #{BT-197(BT-105)-Procedure} // Unpublished Justification Code
 			{BT-196(BT-105)-Procedure} #{name|BT-196(BT-105)-Procedure}: ${BT-196(BT-105)-Procedure} // Unpublished Justification Description
 			{BT-198(BT-105)-Procedure} #{name|BT-198(BT-105)-Procedure}: ${BT-198(BT-105)-Procedure} // Unpublished Access Date
-		0 {BT-106-Procedure} #{name|BT-106}: ${if (BT-106-Procedure == 'true') then 'yes' else if (BT-106-Procedure == 'false') then 'No' else BT-106-Procedure} // The procedure is accelerated. (true/false)
+		0 {BT-106-Procedure} #{name|BT-106}: ${if (BT-106-Procedure == 'true') then 'Yes' else if (BT-106-Procedure == 'false') then 'No' else BT-106-Procedure} // The procedure is accelerated. (true/false)
 			{BT-197(BT-106)-Procedure} #{name|BT-197(BT-106)-Procedure}: #{BT-197(BT-106)-Procedure} // Unpublished Justification Code
 			{BT-196(BT-106)-Procedure} #{name|BT-196(BT-106)-Procedure}: ${BT-196(BT-106)-Procedure} // Unpublished Justification Description
 			{BT-198(BT-106)-Procedure} #{name|BT-198(BT-106)-Procedure}: ${BT-198(BT-106)-Procedure} // Unpublished Access Date
