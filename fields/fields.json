@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.8.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.7.104",
-    "createdOn" : "2023-06-01T10:57:04"
+    "version" : "1.7.105",
+    "createdOn" : "2023-06-01T14:07:43"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -17332,13 +17332,13 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0194"
       }, {
-        "condition" : "{ND-LotAwardCriteria} ${BT-541-Lot[BT-5421-Lot == 'ord-imp'] is present}",
-        "value" : "{ND-LotAwardCriteria} ${every number:$ordImp in BT-541-Lot[BT-5421-Lot == 'ord-imp'] satisfies (format-number($ordImp, '#') == string($ordImp))}",
+        "condition" : "{ND-LotAwardCriteria} ${BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] is present}",
+        "value" : "{ND-LotAwardCriteria} ${every number:$ordImp in BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] satisfies (format-number($ordImp, '#') == string($ordImp))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0196"
       }, {
-        "condition" : "{ND-LotAwardCriteria} ${BT-541-Lot[BT-5421-Lot == 'ord-imp'] is present}",
-        "value" : "{ND-LotAwardCriteria} ${every number:$ordImp in BT-541-Lot[BT-5421-Lot == 'ord-imp'] satisfies($ordImp <= count(BT-541-Lot[BT-5421-Lot == 'ord-imp']))}",
+        "condition" : "{ND-LotAwardCriteria} ${BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] is present}",
+        "value" : "{ND-LotAwardCriteria} ${every number:$ordImp in BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] satisfies($ordImp <= count(BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp']))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0197"
       } ]
@@ -17388,18 +17388,18 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0195"
       }, {
-        "condition" : "{ND-LotsGroupAwardCriteria} ${BT-541-LotsGroup[BT-5421-LotsGroup == 'ord-imp'] is present}",
-        "value" : "{ND-LotsGroupAwardCriteria} ${every number:$ordImp in BT-541-LotsGroup[BT-5421-LotsGroup == 'ord-imp'] satisfies (format-number($ordImp, '#') == string($ordImp))}",
+        "condition" : "{ND-LotsGroupAwardCriteria} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is present}",
+        "value" : "{ND-LotsGroupAwardCriteria} ${every number:$ordImp in BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] satisfies (format-number($ordImp, '#') == string($ordImp))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0204"
       }, {
-        "condition" : "{ND-LotsGroupAwardCriteria} ${BT-541-LotsGroup[BT-5421-LotsGroup == 'ord-imp'] is present}",
-        "value" : "{ND-LotsGroupAwardCriteria} ${every number:$ordImp in BT-541-LotsGroup[BT-5421-LotsGroup == 'ord-imp'] satisfies($ordImp <= count(BT-541-LotsGroup[BT-5421-LotsGroup == 'ord-imp']))}",
+        "condition" : "{ND-LotsGroupAwardCriteria} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is present}",
+        "value" : "{ND-LotsGroupAwardCriteria} ${every number:$ordImp in BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] satisfies($ordImp <= count(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp']))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0205"
       }, {
-        "condition" : "{BT-539-LotsGroup} ${BT-541-LotsGroup[BT-5421-LotsGroup == 'ord-imp'] is present}",
-        "value" : "{BT-539-LotsGroup} ${BT-541-LotsGroup[BT-5421-LotsGroup == 'ord-imp'] is unique in /BT-541-LotsGroup[BT-5421-LotsGroup == 'ord-imp']}",
+        "condition" : "{BT-539-LotsGroup} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is present}",
+        "value" : "{BT-539-LotsGroup} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is unique in /BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp']}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0206"
       } ]
@@ -18139,11 +18139,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriteria} ${sum(number:BT-541-Lot[BT-5421-Lot == 'per-exa']) == 100 or not(BT-541-Lot[BT-5421-Lot == 'per-exa'] is present)}",
+        "value" : "{ND-LotAwardCriteria} ${sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa']) == 100 or not(BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0200"
       }, {
-        "value" : "{ND-LotAwardCriteria} ${sum(number:BT-541-Lot[BT-5421-Lot == 'dec-exa']) == 1 or not(BT-541-Lot[BT-5421-Lot == 'dec-exa'] is present)}",
+        "value" : "{ND-LotAwardCriteria} ${sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa']) == 1 or not(BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0201"
       } ]
@@ -18183,11 +18183,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriteria} ${sum(number:BT-541-LotsGroup[BT-5421-LotsGroup == 'per-exa']) == 100 or not(BT-541-LotsGroup[BT-5421-LotsGroup == 'per-exa'] is present)}",
+        "value" : "{ND-LotsGroupAwardCriteria} ${sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa']) == 100 or not(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0202"
       }, {
-        "value" : "{ND-LotsGroupAwardCriteria} ${sum(number:BT-541-LotsGroup[BT-5421-LotsGroup == 'dec-exa']) == 1 or not(BT-541-LotsGroup[BT-5421-LotsGroup == 'dec-exa'] is present)}",
+        "value" : "{ND-LotsGroupAwardCriteria} ${sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa']) == 1 or not(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0203"
       } ]
