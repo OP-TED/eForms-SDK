@@ -23971,7 +23971,7 @@
     "btId" : "OPP-070",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode",
     "xpathRelative" : "efac:NoticeSubType/cbc:SubTypeCode",
-    "xsdSequenceOrder" : [ { "cbc:SubTypeCode" : 1 } ],
+    "xsdSequenceOrder" : [ { "efac:NoticeSubType" : 17 }, { "cbc:SubTypeCode" : 1 } ],
     "type" : "code",
     "repeatable" : {
       "value" : false,
