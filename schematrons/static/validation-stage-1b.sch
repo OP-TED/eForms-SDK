@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.7.105 created on the 2023-06-01T14:07:43.-->
+<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00.-->
 <pattern id="EFORMS-validation-stage-1b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '1']">
 		<assert id="ND-GazetteReference-1" role="ERROR" diagnostics="ND-GazetteReference" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-1</assert>
