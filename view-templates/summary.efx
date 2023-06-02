@@ -1,13 +1,13 @@
 // Summary
-// sdkVersion='1.8.0'
-// File generated from metadata database version 1.7.68 created on the 2023-05-24T10:05:17
+// sdkVersion='1.8.0-SNAPSHOT'
+// File generated from metadata database version 1.7.100 created on the 2023-05-31T15:59:01
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
 2 {ND-Root} #{auxiliary|text|procedure}  // 2. Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{BT-21-Procedure} #{name|BT-21}: $value // Procedure Title
-		0 {BT-105-Procedure} #{name|BT-105}: ${BT-105-Procedure} // Type of the procedure
+		0 {BT-105-Procedure} #{name|BT-105}: #{BT-105-Procedure} // Type of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
 			{BT-262-Procedure[BT-26(m)-Procedure == 'cpv']} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure}  // Main classification (CPV)
 			{BT-262-Procedure[BT-26(m)-Procedure != 'cpv']} #{name|BT-262} (${BT-26(m)-Procedure}): ${BT-262-Procedure} // Main classification (non-CPV)

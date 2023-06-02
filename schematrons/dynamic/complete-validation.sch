@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.7.62 created on the 2023-05-17T15:49:39.-->
+<!--File generated from metadata database version 1.7.105 created on the 2023-06-01T14:07:43.-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
@@ -137,8 +137,12 @@
 		<diagnostic id="BT-195_BT-539_-LotsGroup" see="field:BT-195(BT-539)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-540_-Lot" see="field:BT-195(BT-540)-Lot">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-540_-LotsGroup" see="field:BT-195(BT-540)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-		<diagnostic id="BT-195_BT-541_-Lot" see="field:BT-195(BT-541)-Lot">efbc:FieldIdentifierCode</diagnostic>
-		<diagnostic id="BT-195_BT-541_-LotsGroup" see="field:BT-195(BT-541)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
+		<diagnostic id="BT-195_BT-541_-Lot-Fixed" see="field:BT-195(BT-541)-Lot-Fixed">efbc:FieldIdentifierCode</diagnostic>
+		<diagnostic id="BT-195_BT-541_-Lot-Threshold" see="field:BT-195(BT-541)-Lot-Threshold">efbc:FieldIdentifierCode</diagnostic>
+		<diagnostic id="BT-195_BT-541_-Lot-Weight" see="field:BT-195(BT-541)-Lot-Weight">efbc:FieldIdentifierCode</diagnostic>
+		<diagnostic id="BT-195_BT-541_-LotsGroup-Fixed" see="field:BT-195(BT-541)-LotsGroup-Fixed">efbc:FieldIdentifierCode</diagnostic>
+		<diagnostic id="BT-195_BT-541_-LotsGroup-Threshold" see="field:BT-195(BT-541)-LotsGroup-Threshold">efbc:FieldIdentifierCode</diagnostic>
+		<diagnostic id="BT-195_BT-541_-LotsGroup-Weight" see="field:BT-195(BT-541)-LotsGroup-Weight">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-5421_-Lot" see="field:BT-195(BT-5421)-Lot">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-5421_-LotsGroup" see="field:BT-195(BT-5421)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
 		<diagnostic id="BT-195_BT-5422_-Lot" see="field:BT-195(BT-5422)-Lot">efbc:FieldIdentifierCode</diagnostic>
@@ -193,8 +197,12 @@
 		<diagnostic id="BT-196_BT-539_-LotsGroup" see="field:BT-196(BT-539)-LotsGroup">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-540_-Lot" see="field:BT-196(BT-540)-Lot">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-540_-LotsGroup" see="field:BT-196(BT-540)-LotsGroup">efbc:ReasonDescription</diagnostic>
-		<diagnostic id="BT-196_BT-541_-Lot" see="field:BT-196(BT-541)-Lot">efbc:ReasonDescription</diagnostic>
-		<diagnostic id="BT-196_BT-541_-LotsGroup" see="field:BT-196(BT-541)-LotsGroup">efbc:ReasonDescription</diagnostic>
+		<diagnostic id="BT-196_BT-541_-Lot-Fixed" see="field:BT-196(BT-541)-Lot-Fixed">efbc:ReasonDescription</diagnostic>
+		<diagnostic id="BT-196_BT-541_-Lot-Threshold" see="field:BT-196(BT-541)-Lot-Threshold">efbc:ReasonDescription</diagnostic>
+		<diagnostic id="BT-196_BT-541_-Lot-Weight" see="field:BT-196(BT-541)-Lot-Weight">efbc:ReasonDescription</diagnostic>
+		<diagnostic id="BT-196_BT-541_-LotsGroup-Fixed" see="field:BT-196(BT-541)-LotsGroup-Fixed">efbc:ReasonDescription</diagnostic>
+		<diagnostic id="BT-196_BT-541_-LotsGroup-Threshold" see="field:BT-196(BT-541)-LotsGroup-Threshold">efbc:ReasonDescription</diagnostic>
+		<diagnostic id="BT-196_BT-541_-LotsGroup-Weight" see="field:BT-196(BT-541)-LotsGroup-Weight">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-5421_-Lot" see="field:BT-196(BT-5421)-Lot">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-5421_-LotsGroup" see="field:BT-196(BT-5421)-LotsGroup">efbc:ReasonDescription</diagnostic>
 		<diagnostic id="BT-196_BT-5422_-Lot" see="field:BT-196(BT-5422)-Lot">efbc:ReasonDescription</diagnostic>
@@ -249,8 +257,12 @@
 		<diagnostic id="BT-197_BT-539_-LotsGroup" see="field:BT-197(BT-539)-LotsGroup">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-540_-Lot" see="field:BT-197(BT-540)-Lot">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-540_-LotsGroup" see="field:BT-197(BT-540)-LotsGroup">cbc:ReasonCode</diagnostic>
-		<diagnostic id="BT-197_BT-541_-Lot" see="field:BT-197(BT-541)-Lot">cbc:ReasonCode</diagnostic>
-		<diagnostic id="BT-197_BT-541_-LotsGroup" see="field:BT-197(BT-541)-LotsGroup">cbc:ReasonCode</diagnostic>
+		<diagnostic id="BT-197_BT-541_-Lot-Fixed" see="field:BT-197(BT-541)-Lot-Fixed">cbc:ReasonCode</diagnostic>
+		<diagnostic id="BT-197_BT-541_-Lot-Threshold" see="field:BT-197(BT-541)-Lot-Threshold">cbc:ReasonCode</diagnostic>
+		<diagnostic id="BT-197_BT-541_-Lot-Weight" see="field:BT-197(BT-541)-Lot-Weight">cbc:ReasonCode</diagnostic>
+		<diagnostic id="BT-197_BT-541_-LotsGroup-Fixed" see="field:BT-197(BT-541)-LotsGroup-Fixed">cbc:ReasonCode</diagnostic>
+		<diagnostic id="BT-197_BT-541_-LotsGroup-Threshold" see="field:BT-197(BT-541)-LotsGroup-Threshold">cbc:ReasonCode</diagnostic>
+		<diagnostic id="BT-197_BT-541_-LotsGroup-Weight" see="field:BT-197(BT-541)-LotsGroup-Weight">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-5421_-Lot" see="field:BT-197(BT-5421)-Lot">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-5421_-LotsGroup" see="field:BT-197(BT-5421)-LotsGroup">cbc:ReasonCode</diagnostic>
 		<diagnostic id="BT-197_BT-5422_-Lot" see="field:BT-197(BT-5422)-Lot">cbc:ReasonCode</diagnostic>
@@ -305,8 +317,12 @@
 		<diagnostic id="BT-198_BT-539_-LotsGroup" see="field:BT-198(BT-539)-LotsGroup">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-540_-Lot" see="field:BT-198(BT-540)-Lot">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-540_-LotsGroup" see="field:BT-198(BT-540)-LotsGroup">efbc:PublicationDate</diagnostic>
-		<diagnostic id="BT-198_BT-541_-Lot" see="field:BT-198(BT-541)-Lot">efbc:PublicationDate</diagnostic>
-		<diagnostic id="BT-198_BT-541_-LotsGroup" see="field:BT-198(BT-541)-LotsGroup">efbc:PublicationDate</diagnostic>
+		<diagnostic id="BT-198_BT-541_-Lot-Fixed" see="field:BT-198(BT-541)-Lot-Fixed">efbc:PublicationDate</diagnostic>
+		<diagnostic id="BT-198_BT-541_-Lot-Threshold" see="field:BT-198(BT-541)-Lot-Threshold">efbc:PublicationDate</diagnostic>
+		<diagnostic id="BT-198_BT-541_-Lot-Weight" see="field:BT-198(BT-541)-Lot-Weight">efbc:PublicationDate</diagnostic>
+		<diagnostic id="BT-198_BT-541_-LotsGroup-Fixed" see="field:BT-198(BT-541)-LotsGroup-Fixed">efbc:PublicationDate</diagnostic>
+		<diagnostic id="BT-198_BT-541_-LotsGroup-Threshold" see="field:BT-198(BT-541)-LotsGroup-Threshold">efbc:PublicationDate</diagnostic>
+		<diagnostic id="BT-198_BT-541_-LotsGroup-Weight" see="field:BT-198(BT-541)-LotsGroup-Weight">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-5421_-Lot" see="field:BT-198(BT-5421)-Lot">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-5421_-LotsGroup" see="field:BT-198(BT-5421)-LotsGroup">efbc:PublicationDate</diagnostic>
 		<diagnostic id="BT-198_BT-5422_-Lot" see="field:BT-198(BT-5422)-Lot">efbc:PublicationDate</diagnostic>
@@ -445,8 +461,12 @@
 		<diagnostic id="BT-54-Lot" see="field:BT-54-Lot">cbc:OptionsDescription</diagnostic>
 		<diagnostic id="BT-540-Lot" see="field:BT-540-Lot">cbc:Description</diagnostic>
 		<diagnostic id="BT-540-LotsGroup" see="field:BT-540-LotsGroup">cbc:Description</diagnostic>
-		<diagnostic id="BT-541-Lot" see="field:BT-541-Lot">efbc:ParameterNumeric</diagnostic>
-		<diagnostic id="BT-541-LotsGroup" see="field:BT-541-LotsGroup">efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="BT-541-Lot-FixedNumber" see="field:BT-541-Lot-FixedNumber">efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="BT-541-Lot-ThresholdNumber" see="field:BT-541-Lot-ThresholdNumber">efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="BT-541-Lot-WeightNumber" see="field:BT-541-Lot-WeightNumber">efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="BT-541-LotsGroup-FixedNumber" see="field:BT-541-LotsGroup-FixedNumber">efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="BT-541-LotsGroup-ThresholdNumber" see="field:BT-541-LotsGroup-ThresholdNumber">efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="BT-541-LotsGroup-WeightNumber" see="field:BT-541-LotsGroup-WeightNumber">efbc:ParameterNumeric</diagnostic>
 		<diagnostic id="BT-5421-Lot" see="field:BT-5421-Lot">efbc:ParameterCode[@listName='number-weight']</diagnostic>
 		<diagnostic id="BT-5421-LotsGroup" see="field:BT-5421-LotsGroup">efbc:ParameterCode[@listName='number-weight']</diagnostic>
 		<diagnostic id="BT-5422-Lot" see="field:BT-5422-Lot">efbc:ParameterCode[@listName='number-fixed']</diagnostic>
@@ -638,7 +658,6 @@
 		<diagnostic id="ND-ContractModification" see="node:ND-ContractModification">efac:ContractModification</diagnostic>
 		<diagnostic id="ND-ContractModification_BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier</diagnostic>
 		<diagnostic id="ND-ContractingParty" see="node:ND-ContractingParty">cac:ContractingParty</diagnostic>
-		<diagnostic id="ND-CountryOriginUnpublish" see="node:ND-CountryOriginUnpublish">efac:Origin/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-CrossBorderLawUnpublish" see="node:ND-CrossBorderLawUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-ExclusionGrounds" see="node:ND-ExclusionGrounds">cac:SpecificTendererRequirement</diagnostic>
 		<diagnostic id="ND-ExecutionRequirements" see="node:ND-ExecutionRequirements">cac:ContractExecutionRequirement</diagnostic>
@@ -654,8 +673,9 @@
 		<diagnostic id="ND-LotAwardCriteria" see="node:ND-LotAwardCriteria">cac:AwardingCriterion</diagnostic>
 		<diagnostic id="ND-LotAwardCriteria_BT-539-Lot" see="field:BT-539-Lot">cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
 		<diagnostic id="ND-LotAwardCriterionNumberComplicatedUnpublish" see="node:ND-LotAwardCriterionNumberComplicatedUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
-		<diagnostic id="ND-LotAwardCriterionNumberUnpublish" see="node:ND-LotAwardCriterionNumberUnpublish">efac:FieldsPrivacy</diagnostic>
-		<diagnostic id="ND-LotAwardCriterionParameters_BT-541-Lot" see="field:BT-541-Lot">efac:AwardCriterionParameter/efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="ND-LotAwardCriterionParameters_BT-541-Lot-FixedNumber" see="field:BT-541-Lot-FixedNumber">efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="ND-LotAwardCriterionParameters_BT-541-Lot-ThresholdNumber" see="field:BT-541-Lot-ThresholdNumber">efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="ND-LotAwardCriterionParameters_BT-541-Lot-WeightNumber" see="field:BT-541-Lot-WeightNumber">efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric</diagnostic>
 		<diagnostic id="ND-LotAwardCriterionTypeUnpublish" see="node:ND-LotAwardCriterionTypeUnpublish">efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-LotDistribution" see="node:ND-LotDistribution">cac:LotDistribution</diagnostic>
 		<diagnostic id="ND-LotDistribution_BT-330-Procedure" see="field:BT-330-Procedure">cac:LotsGroup/cbc:LotsGroupID</diagnostic>
@@ -701,6 +721,7 @@
 		<diagnostic id="ND-LotReviewTerms" see="node:ND-LotReviewTerms">cac:AppealTerms</diagnostic>
 		<diagnostic id="ND-LotReviewTerms_BT-99-Lot" see="field:BT-99-Lot">cac:PresentationPeriod/cbc:Description</diagnostic>
 		<diagnostic id="ND-LotTender" see="node:ND-LotTender">efac:LotTender</diagnostic>
+		<diagnostic id="ND-LotTenderOriginCountry" see="node:ND-LotTenderOriginCountry">efac:Origin</diagnostic>
 		<diagnostic id="ND-LotTender_BT-191-Tender" see="field:BT-191-Tender">efac:Origin/efbc:AreaCode</diagnostic>
 		<diagnostic id="ND-LotTender_BT-779-Tender" see="field:BT-779-Tender">efac:AggregatedAmounts/cbc:PaidAmount</diagnostic>
 		<diagnostic id="ND-LotTender_BT-780-Tender" see="field:BT-780-Tender">efac:AggregatedAmounts/efbc:PaidAmountDescription</diagnostic>
@@ -732,11 +753,12 @@
 		<diagnostic id="ND-LotValueEstimate" see="node:ND-LotValueEstimate">cac:RequestedTenderTotal</diagnostic>
 		<diagnostic id="ND-LotsGroupAwardCriteria_BT-539-LotsGroup" see="field:BT-539-LotsGroup">cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
 		<diagnostic id="ND-LotsGroupAwardCriterionNumberComplicatedUnpublish" see="node:ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
-		<diagnostic id="ND-LotsGroupAwardCriterionNumberUnpublish" see="node:ND-LotsGroupAwardCriterionNumberUnpublish">efac:FieldsPrivacy</diagnostic>
-		<diagnostic id="ND-LotsGroupAwardCriterionParameters_BT-541-LotsGroup" see="field:BT-541-LotsGroup">efac:AwardCriterionParameter/efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="ND-LotsGroupAwardCriterionParameters_BT-541-LotsGroup-FixedNumber" see="field:BT-541-LotsGroup-FixedNumber">efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="ND-LotsGroupAwardCriterionParameters_BT-541-LotsGroup-ThresholdNumber" see="field:BT-541-LotsGroup-ThresholdNumber">efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="ND-LotsGroupAwardCriterionParameters_BT-541-LotsGroup-WeightNumber" see="field:BT-541-LotsGroup-WeightNumber">efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric</diagnostic>
 		<diagnostic id="ND-LotsGroupAwardCriterionTypeUnpublish" see="node:ND-LotsGroupAwardCriterionTypeUnpublish">efac:FieldsPrivacy</diagnostic>
-		<diagnostic id="ND-LotsGroupAwardingTerms" see="node:ND-LotsGroupAwardingTerms">cac:TenderingTerms/cac:AwardingTerms</diagnostic>
 		<diagnostic id="ND-LotsGroupFA" see="node:ND-LotsGroupFA">cac:TenderingProcess/cac:FrameworkAgreement</diagnostic>
+		<diagnostic id="ND-LotsGroupProcurementScope" see="node:ND-LotsGroupProcurementScope">cac:ProcurementProject</diagnostic>
 		<diagnostic id="ND-LotsGroupProcurementScope_BT-271-LotsGroup" see="field:BT-271-LotsGroup">cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount</diagnostic>
 		<diagnostic id="ND-LotsGroupValueEstimate" see="node:ND-LotsGroupValueEstimate">cac:RequestedTenderTotal</diagnostic>
 		<diagnostic id="ND-Modification" see="node:ND-Modification">efac:Change</diagnostic>

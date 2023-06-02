@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.8.0",
+  "sdkVersion" : "1.8.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.7.64",
-    "createdOn" : "2023-05-23T13:51:48"
+    "version" : "1.7.104",
+    "createdOn" : "2023-06-01T10:57:04"
   },
   "noticeId" : "35",
   "metadata" : [ {
@@ -1344,55 +1344,53 @@
             "description" : "Non UBL Native Subordinate Award Criteria elements for a Lot",
             "_label" : "group|name|ND-LotAwardCriterionParameters",
             "content" : [ {
-              "id" : "GR-Lot-AwardCriteria-Criterion-Parameter",
+              "id" : "GR-Lot-AwardCriteria-WeightCriterion-Parameter",
               "contentType" : "group",
-              "nodeId" : "ND-LotAwardCriterionParameter",
+              "nodeId" : "ND-LotAwardWeightCriterionParameter",
               "displayType" : "GROUP",
-              "description" : "Lot Award Criterion Parameter (Value and associated Code)",
-              "_label" : "group|name|ND-LotAwardCriterionParameter",
-              "_repeatable" : true,
+              "description" : "Lot Award Weight Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotAwardWeightCriterionParameter",
               "content" : [ {
-                "id" : "BT-541-Lot",
+                "id" : "BT-541-Lot-WeightNumber",
                 "contentType" : "field",
                 "displayType" : "TEXTBOX",
-                "description" : "Award Criterion Number",
-                "_label" : "field|name|BT-541-Lot",
-                "unpublishGroupId" : "GR-Unpublish-BT-541-Lot",
-                "unpublishFieldId" : "BT-195(BT-541)-Lot",
+                "description" : "Award Criterion Weight Number",
+                "_label" : "field|name|BT-541-Lot-WeightNumber",
+                "unpublishGroupId" : "GR-Unpublish-BT-541-Lot-WeightNumber",
+                "unpublishFieldId" : "BT-195(BT-541)-Lot-Weight",
                 "unpublishCode" : "awa-cri-num"
               }, {
-                "id" : "GR-Unpublish-BT-541-Lot",
+                "id" : "GR-Unpublish-BT-541-Lot-WeightNumber",
                 "contentType" : "group",
-                "nodeId" : "ND-LotAwardCriterionNumberUnpublish",
+                "nodeId" : "ND-LotAwardCriterionWeightNumberUnpublish",
                 "displayType" : "GROUP",
-                "description" : "Not Immediately Published (LotAwardCriterionNumber)",
-                "_label" : "group|name|ND-LotAwardCriterionNumberUnpublish",
-                "collapsed" : true,
+                "description" : "Not Immediately Published (LotAwardCriterionWeightNumber)",
+                "_label" : "group|name|ND-LotAwardCriterionWeightNumberUnpublish",
                 "content" : [ {
-                  "id" : "BT-195(BT-541)-Lot",
+                  "id" : "BT-195(BT-541)-Lot-Weight",
                   "contentType" : "field",
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
-                  "_label" : "field|name|BT-195(BT-541)-Lot",
+                  "_label" : "field|name|BT-195(BT-541)-Lot-Weight",
                   "_presetValue" : "awa-cri-num"
                 }, {
-                  "id" : "BT-196(BT-541)-Lot",
+                  "id" : "BT-196(BT-541)-Lot-Weight",
                   "contentType" : "field",
                   "displayType" : "TEXTAREA",
                   "description" : "Unpublished Justification Description",
-                  "_label" : "field|name|BT-196(BT-541)-Lot"
+                  "_label" : "field|name|BT-196(BT-541)-Lot-Weight"
                 }, {
-                  "id" : "BT-197(BT-541)-Lot",
+                  "id" : "BT-197(BT-541)-Lot-Weight",
                   "contentType" : "field",
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Justification Code",
-                  "_label" : "field|name|BT-197(BT-541)-Lot"
+                  "_label" : "field|name|BT-197(BT-541)-Lot-Weight"
                 }, {
-                  "id" : "BT-198(BT-541)-Lot",
+                  "id" : "BT-198(BT-541)-Lot-Weight",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
                   "description" : "Unpublished Access Date",
-                  "_label" : "field|name|BT-198(BT-541)-Lot"
+                  "_label" : "field|name|BT-198(BT-541)-Lot-Weight"
                 } ]
               }, {
                 "id" : "BT-5421-Lot",
@@ -1410,7 +1408,6 @@
                 "displayType" : "GROUP",
                 "description" : "Not Immediately Published (LotAwardCriterionNumberWeight)",
                 "_label" : "group|name|ND-LotAwardCriterionNumberWeightUnpublish",
-                "collapsed" : true,
                 "content" : [ {
                   "id" : "BT-195(BT-5421)-Lot",
                   "contentType" : "field",
@@ -1437,6 +1434,56 @@
                   "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5421)-Lot"
                 } ]
+              } ]
+            }, {
+              "id" : "GR-Lot-AwardCriteria-FixedCriterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotAwardFixedCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Lot Award Fixed Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotAwardFixedCriterionParameter",
+              "content" : [ {
+                "id" : "BT-541-Lot-FixedNumber",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Fixed Number",
+                "_label" : "field|name|BT-541-Lot-FixedNumber",
+                "unpublishGroupId" : "GR-Unpublish-BT-541-Lot-FixedNumber",
+                "unpublishFieldId" : "BT-195(BT-541)-Lot-Fixed",
+                "unpublishCode" : "awa-cri-num"
+              }, {
+                "id" : "GR-Unpublish-BT-541-Lot-FixedNumber",
+                "contentType" : "group",
+                "nodeId" : "ND-LotAwardCriterionFixNumberUnpublish",
+                "displayType" : "GROUP",
+                "description" : "Not Immediately Published (LotAwardCriterionFixNumber)",
+                "_label" : "group|name|ND-LotAwardCriterionFixNumberUnpublish",
+                "content" : [ {
+                  "id" : "BT-195(BT-541)-Lot-Fixed",
+                  "contentType" : "field",
+                  "displayType" : "COMBOBOX",
+                  "description" : "Unpublished Identifier",
+                  "_label" : "field|name|BT-195(BT-541)-Lot-Fixed",
+                  "_presetValue" : "awa-cri-num"
+                }, {
+                  "id" : "BT-196(BT-541)-Lot-Fixed",
+                  "contentType" : "field",
+                  "displayType" : "TEXTAREA",
+                  "description" : "Unpublished Justification Description",
+                  "_label" : "field|name|BT-196(BT-541)-Lot-Fixed"
+                }, {
+                  "id" : "BT-197(BT-541)-Lot-Fixed",
+                  "contentType" : "field",
+                  "displayType" : "COMBOBOX",
+                  "description" : "Unpublished Justification Code",
+                  "_label" : "field|name|BT-197(BT-541)-Lot-Fixed"
+                }, {
+                  "id" : "BT-198(BT-541)-Lot-Fixed",
+                  "contentType" : "field",
+                  "displayType" : "TEXTBOX",
+                  "description" : "Unpublished Access Date",
+                  "_label" : "field|name|BT-198(BT-541)-Lot-Fixed"
+                } ]
               }, {
                 "id" : "BT-5422-Lot",
                 "contentType" : "field",
@@ -1449,11 +1496,9 @@
               }, {
                 "id" : "GR-Unpublish-BT-5422-Lot",
                 "contentType" : "group",
-                "nodeId" : "ND-LotAwardCriterionNumberFixUnpublish",
                 "displayType" : "GROUP",
-                "description" : "Not Immediately Published (LotAwardCriterionNumberFix)",
-                "_label" : "group|name|ND-LotAwardCriterionNumberFixUnpublish",
-                "collapsed" : true,
+                "description" : "Unpublish BT-5422-Lot",
+                "_label" : "group|name|GR-Unpublish-BT-5422-Lot",
                 "content" : [ {
                   "id" : "BT-195(BT-5422)-Lot",
                   "contentType" : "field",
@@ -1480,6 +1525,57 @@
                   "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5422)-Lot"
                 } ]
+              } ]
+            }, {
+              "id" : "GR-Lot-AwardCriteria-ThresholdCriterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotAwardThresholdCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Lot Award Threshold Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotAwardThresholdCriterionParameter",
+              "_repeatable" : true,
+              "content" : [ {
+                "id" : "BT-541-Lot-ThresholdNumber",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Threshold Number",
+                "_label" : "field|name|BT-541-Lot-ThresholdNumber",
+                "unpublishGroupId" : "GR-Unpublish-BT-541-Lot-ThresholdNumber",
+                "unpublishFieldId" : "BT-195(BT-541)-Lot-Threshold",
+                "unpublishCode" : "awa-cri-num"
+              }, {
+                "id" : "GR-Unpublish-BT-541-Lot-ThresholdNumber",
+                "contentType" : "group",
+                "nodeId" : "ND-LotAwardCriterionThresholdNumberUnpublish",
+                "displayType" : "GROUP",
+                "description" : "Not Immediately Published (LotAwardCriterionThresholdNumber)",
+                "_label" : "group|name|ND-LotAwardCriterionThresholdNumberUnpublish",
+                "content" : [ {
+                  "id" : "BT-195(BT-541)-Lot-Threshold",
+                  "contentType" : "field",
+                  "displayType" : "COMBOBOX",
+                  "description" : "Unpublished Identifier",
+                  "_label" : "field|name|BT-195(BT-541)-Lot-Threshold",
+                  "_presetValue" : "awa-cri-num"
+                }, {
+                  "id" : "BT-196(BT-541)-Lot-Threshold",
+                  "contentType" : "field",
+                  "displayType" : "TEXTAREA",
+                  "description" : "Unpublished Justification Description",
+                  "_label" : "field|name|BT-196(BT-541)-Lot-Threshold"
+                }, {
+                  "id" : "BT-197(BT-541)-Lot-Threshold",
+                  "contentType" : "field",
+                  "displayType" : "COMBOBOX",
+                  "description" : "Unpublished Justification Code",
+                  "_label" : "field|name|BT-197(BT-541)-Lot-Threshold"
+                }, {
+                  "id" : "BT-198(BT-541)-Lot-Threshold",
+                  "contentType" : "field",
+                  "displayType" : "TEXTBOX",
+                  "description" : "Unpublished Access Date",
+                  "_label" : "field|name|BT-198(BT-541)-Lot-Threshold"
+                } ]
               }, {
                 "id" : "BT-5423-Lot",
                 "contentType" : "field",
@@ -1496,7 +1592,6 @@
                 "displayType" : "GROUP",
                 "description" : "Not Immediately Published (LotAwardCriterionNumberThreshold)",
                 "_label" : "group|name|ND-LotAwardCriterionNumberThresholdUnpublish",
-                "collapsed" : true,
                 "content" : [ {
                   "id" : "BT-195(BT-5423)-Lot",
                   "contentType" : "field",
@@ -1962,55 +2057,53 @@
             "description" : "Non UBL Native Subordinate Award Criteria elements for a Group of Lots",
             "_label" : "group|name|ND-LotsGroupAwardCriterionParameters",
             "content" : [ {
-              "id" : "GR-LotsGroup-AwardCriteria-Criterion-Parameter",
+              "id" : "GR-LotsGroup-AwardCriteria-WeightCriterion-Parameter",
               "contentType" : "group",
-              "nodeId" : "ND-LotsGroupAwardCriterionParameter",
+              "nodeId" : "ND-LotsGroupAwardWeightCriterionParameter",
               "displayType" : "GROUP",
-              "description" : "Group of Lots Award Criterion Parameter (Value and associated Code)",
-              "_label" : "group|name|ND-LotsGroupAwardCriterionParameter",
-              "_repeatable" : true,
+              "description" : "Group of Lots Award Weight Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotsGroupAwardWeightCriterionParameter",
               "content" : [ {
-                "id" : "BT-541-LotsGroup",
+                "id" : "BT-541-LotsGroup-WeightNumber",
                 "contentType" : "field",
                 "displayType" : "TEXTBOX",
-                "description" : "Award Criterion Number",
-                "_label" : "field|name|BT-541-LotsGroup",
-                "unpublishGroupId" : "GR-Unpublish-BT-541-LotsGroup",
-                "unpublishFieldId" : "BT-195(BT-541)-LotsGroup",
+                "description" : "Award Criterion Weight Number",
+                "_label" : "field|name|BT-541-LotsGroup-WeightNumber",
+                "unpublishGroupId" : "GR-Unpublish-BT-541-LotsGroup-WeightNumber",
+                "unpublishFieldId" : "BT-195(BT-541)-LotsGroup-Weight",
                 "unpublishCode" : "awa-cri-num"
               }, {
-                "id" : "GR-Unpublish-BT-541-LotsGroup",
+                "id" : "GR-Unpublish-BT-541-LotsGroup-WeightNumber",
                 "contentType" : "group",
-                "nodeId" : "ND-LotsGroupAwardCriterionNumberUnpublish",
+                "nodeId" : "ND-LotsGroupAwardCriterionWeightNumberUnpublish",
                 "displayType" : "GROUP",
-                "description" : "Not Immediately Published (LotsGroupAwardCriterionNumber)",
-                "_label" : "group|name|ND-LotsGroupAwardCriterionNumberUnpublish",
-                "collapsed" : true,
+                "description" : "Not Immediately Published (LotsGroupAwardCriterionWeightNumber)",
+                "_label" : "group|name|ND-LotsGroupAwardCriterionWeightNumberUnpublish",
                 "content" : [ {
-                  "id" : "BT-195(BT-541)-LotsGroup",
+                  "id" : "BT-195(BT-541)-LotsGroup-Weight",
                   "contentType" : "field",
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
-                  "_label" : "field|name|BT-195(BT-541)-LotsGroup",
+                  "_label" : "field|name|BT-195(BT-541)-LotsGroup-Weight",
                   "_presetValue" : "awa-cri-num"
                 }, {
-                  "id" : "BT-196(BT-541)-LotsGroup",
+                  "id" : "BT-196(BT-541)-LotsGroup-Weight",
                   "contentType" : "field",
                   "displayType" : "TEXTAREA",
                   "description" : "Unpublished Justification Description",
-                  "_label" : "field|name|BT-196(BT-541)-LotsGroup"
+                  "_label" : "field|name|BT-196(BT-541)-LotsGroup-Weight"
                 }, {
-                  "id" : "BT-197(BT-541)-LotsGroup",
+                  "id" : "BT-197(BT-541)-LotsGroup-Weight",
                   "contentType" : "field",
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Justification Code",
-                  "_label" : "field|name|BT-197(BT-541)-LotsGroup"
+                  "_label" : "field|name|BT-197(BT-541)-LotsGroup-Weight"
                 }, {
-                  "id" : "BT-198(BT-541)-LotsGroup",
+                  "id" : "BT-198(BT-541)-LotsGroup-Weight",
                   "contentType" : "field",
                   "displayType" : "TEXTBOX",
                   "description" : "Unpublished Access Date",
-                  "_label" : "field|name|BT-198(BT-541)-LotsGroup"
+                  "_label" : "field|name|BT-198(BT-541)-LotsGroup-Weight"
                 } ]
               }, {
                 "id" : "BT-5421-LotsGroup",
@@ -2028,7 +2121,6 @@
                 "displayType" : "GROUP",
                 "description" : "Not Immediately Published (LotsGroupAwardCriterionNumberWeight)",
                 "_label" : "group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish",
-                "collapsed" : true,
                 "content" : [ {
                   "id" : "BT-195(BT-5421)-LotsGroup",
                   "contentType" : "field",
@@ -2055,6 +2147,56 @@
                   "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5421)-LotsGroup"
                 } ]
+              } ]
+            }, {
+              "id" : "GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotsGroupAwardFixedCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Group of Lots Award Fixed Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotsGroupAwardFixedCriterionParameter",
+              "content" : [ {
+                "id" : "BT-541-LotsGroup-FixedNumber",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Fixed Number",
+                "_label" : "field|name|BT-541-LotsGroup-FixedNumber",
+                "unpublishGroupId" : "GR-Unpublish-BT-541-LotsGroup-FixedNumber",
+                "unpublishFieldId" : "BT-195(BT-541)-LotsGroup-Fixed",
+                "unpublishCode" : "awa-cri-num"
+              }, {
+                "id" : "GR-Unpublish-BT-541-LotsGroup-FixedNumber",
+                "contentType" : "group",
+                "nodeId" : "ND-LotsGroupAwardCriterionFixNumberUnpublish",
+                "displayType" : "GROUP",
+                "description" : "Not Immediately Published (LotsGroupAwardCriterionFixNumber)",
+                "_label" : "group|name|ND-LotsGroupAwardCriterionFixNumberUnpublish",
+                "content" : [ {
+                  "id" : "BT-195(BT-541)-LotsGroup-Fixed",
+                  "contentType" : "field",
+                  "displayType" : "COMBOBOX",
+                  "description" : "Unpublished Identifier",
+                  "_label" : "field|name|BT-195(BT-541)-LotsGroup-Fixed",
+                  "_presetValue" : "awa-cri-num"
+                }, {
+                  "id" : "BT-196(BT-541)-LotsGroup-Fixed",
+                  "contentType" : "field",
+                  "displayType" : "TEXTAREA",
+                  "description" : "Unpublished Justification Description",
+                  "_label" : "field|name|BT-196(BT-541)-LotsGroup-Fixed"
+                }, {
+                  "id" : "BT-197(BT-541)-LotsGroup-Fixed",
+                  "contentType" : "field",
+                  "displayType" : "COMBOBOX",
+                  "description" : "Unpublished Justification Code",
+                  "_label" : "field|name|BT-197(BT-541)-LotsGroup-Fixed"
+                }, {
+                  "id" : "BT-198(BT-541)-LotsGroup-Fixed",
+                  "contentType" : "field",
+                  "displayType" : "TEXTBOX",
+                  "description" : "Unpublished Access Date",
+                  "_label" : "field|name|BT-198(BT-541)-LotsGroup-Fixed"
+                } ]
               }, {
                 "id" : "BT-5422-LotsGroup",
                 "contentType" : "field",
@@ -2067,11 +2209,9 @@
               }, {
                 "id" : "GR-Unpublish-BT-5422-LotsGroup",
                 "contentType" : "group",
-                "nodeId" : "ND-LotsGroupAwardCriterionNumberFixUnpublish",
                 "displayType" : "GROUP",
-                "description" : "Not Immediately Published (LotsGroupAwardCriterionNumberFix)",
-                "_label" : "group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish",
-                "collapsed" : true,
+                "description" : "Unpublish BT-5422-LotsGroup",
+                "_label" : "group|name|GR-Unpublish-BT-5422-LotsGroup",
                 "content" : [ {
                   "id" : "BT-195(BT-5422)-LotsGroup",
                   "contentType" : "field",
@@ -2098,6 +2238,57 @@
                   "description" : "Unpublished Access Date",
                   "_label" : "field|name|BT-198(BT-5422)-LotsGroup"
                 } ]
+              } ]
+            }, {
+              "id" : "GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotsGroupAwardThresholdCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Group of Lots Award Threshold Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotsGroupAwardThresholdCriterionParameter",
+              "_repeatable" : true,
+              "content" : [ {
+                "id" : "BT-541-LotsGroup-ThresholdNumber",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Threshold Number",
+                "_label" : "field|name|BT-541-LotsGroup-ThresholdNumber",
+                "unpublishGroupId" : "GR-Unpublish-BT-541-LotsGroup-ThresholdNumber",
+                "unpublishFieldId" : "BT-195(BT-541)-LotsGroup-Threshold",
+                "unpublishCode" : "awa-cri-num"
+              }, {
+                "id" : "GR-Unpublish-BT-541-LotsGroup-ThresholdNumber",
+                "contentType" : "group",
+                "nodeId" : "ND-LotsGroupAwardCriterionThresholdNumberUnpublish",
+                "displayType" : "GROUP",
+                "description" : "Not Immediately Published (LotsGroupAwardCriterionThresholdNumber)",
+                "_label" : "group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish",
+                "content" : [ {
+                  "id" : "BT-195(BT-541)-LotsGroup-Threshold",
+                  "contentType" : "field",
+                  "displayType" : "COMBOBOX",
+                  "description" : "Unpublished Identifier",
+                  "_label" : "field|name|BT-195(BT-541)-LotsGroup-Threshold",
+                  "_presetValue" : "awa-cri-num"
+                }, {
+                  "id" : "BT-196(BT-541)-LotsGroup-Threshold",
+                  "contentType" : "field",
+                  "displayType" : "TEXTAREA",
+                  "description" : "Unpublished Justification Description",
+                  "_label" : "field|name|BT-196(BT-541)-LotsGroup-Threshold"
+                }, {
+                  "id" : "BT-197(BT-541)-LotsGroup-Threshold",
+                  "contentType" : "field",
+                  "displayType" : "COMBOBOX",
+                  "description" : "Unpublished Justification Code",
+                  "_label" : "field|name|BT-197(BT-541)-LotsGroup-Threshold"
+                }, {
+                  "id" : "BT-198(BT-541)-LotsGroup-Threshold",
+                  "contentType" : "field",
+                  "displayType" : "TEXTBOX",
+                  "description" : "Unpublished Access Date",
+                  "_label" : "field|name|BT-198(BT-541)-LotsGroup-Threshold"
+                } ]
               }, {
                 "id" : "BT-5423-LotsGroup",
                 "contentType" : "field",
@@ -2114,7 +2305,6 @@
                 "displayType" : "GROUP",
                 "description" : "Not Immediately Published (LotsGroupAwardCriterionNumberThreshold)",
                 "_label" : "group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish",
-                "collapsed" : true,
                 "content" : [ {
                   "id" : "BT-195(BT-5423)-LotsGroup",
                   "contentType" : "field",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.7.59 created on the 2023-05-17T15:46:55.-->
+<!--File generated from metadata database version 1.7.105 created on the 2023-06-01T14:07:43.-->
 <pattern id="EFORMS-validation-stage-2b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BT-01-notice_R" role="ERROR" diagnostics="BT-01-notice" test="count(cbc:RegulatoryDomain) &lt; 2">rule|text|BT-01-notice_R</assert>
@@ -367,19 +367,9 @@
 		<assert id="BT-734-Lot_B" role="ERROR" diagnostics="BT-734-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Name/@languageID = $lg) or count(cbc:Name) = 0">rule|text|BT-734-Lot_B</assert>
 		<assert id="BT-734-Lot_C" role="ERROR" diagnostics="BT-734-Lot" test="(every $lg in (cbc:Name/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Name) = 0">rule|text|BT-734-Lot_C</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter">
-		<assert id="BT-541-Lot_R" role="ERROR" diagnostics="BT-541-Lot" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-541-Lot_R</assert>
-		<assert id="BT-5421-Lot_R" role="ERROR" diagnostics="BT-5421-Lot" test="count(efbc:ParameterCode[@listName='number-weight']) &lt; 2">rule|text|BT-5421-Lot_R</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']">
+		<assert id="BT-541-Lot-FixedNumber_R" role="ERROR" diagnostics="BT-541-Lot-FixedNumber" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-541-Lot-FixedNumber_R</assert>
 		<assert id="BT-5422-Lot_R" role="ERROR" diagnostics="BT-5422-Lot" test="count(efbc:ParameterCode[@listName='number-fixed']) &lt; 2">rule|text|BT-5422-Lot_R</assert>
-		<assert id="BT-5423-Lot_R" role="ERROR" diagnostics="BT-5423-Lot" test="count(efbc:ParameterCode[@listName='number-threshold']) &lt; 2">rule|text|BT-5423-Lot_R</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']">
-		<assert id="BT-195_BT-541_-Lot_R" role="ERROR" diagnostics="BT-195_BT-541_-Lot" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-541_-Lot_R</assert>
-		<assert id="BT-196_BT-541_-Lot_A" role="ERROR" diagnostics="BT-196_BT-541_-Lot" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-541_-Lot_A</assert>
-		<assert id="BT-196_BT-541_-Lot_B" role="ERROR" diagnostics="BT-196_BT-541_-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-Lot_B</assert>
-		<assert id="BT-196_BT-541_-Lot_C" role="ERROR" diagnostics="BT-196_BT-541_-Lot" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-Lot_C</assert>
-		<assert id="BT-197_BT-541_-Lot_R" role="ERROR" diagnostics="BT-197_BT-541_-Lot" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-541_-Lot_R</assert>
-		<assert id="BT-198_BT-541_-Lot_R" role="ERROR" diagnostics="BT-198_BT-541_-Lot" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-541_-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix']">
 		<assert id="BT-195_BT-5422_-Lot_R" role="ERROR" diagnostics="BT-195_BT-5422_-Lot" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-5422_-Lot_R</assert>
@@ -389,6 +379,26 @@
 		<assert id="BT-197_BT-5422_-Lot_R" role="ERROR" diagnostics="BT-197_BT-5422_-Lot" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-5422_-Lot_R</assert>
 		<assert id="BT-198_BT-5422_-Lot_R" role="ERROR" diagnostics="BT-198_BT-5422_-Lot" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-5422_-Lot_R</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']">
+		<assert id="BT-195_BT-541_-Lot-Fixed_R" role="ERROR" diagnostics="BT-195_BT-541_-Lot-Fixed" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-541_-Lot-Fixed_R</assert>
+		<assert id="BT-196_BT-541_-Lot-Fixed_A" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Fixed" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-541_-Lot-Fixed_A</assert>
+		<assert id="BT-196_BT-541_-Lot-Fixed_B" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Fixed" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-Lot-Fixed_B</assert>
+		<assert id="BT-196_BT-541_-Lot-Fixed_C" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Fixed" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-Lot-Fixed_C</assert>
+		<assert id="BT-197_BT-541_-Lot-Fixed_R" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Fixed" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-541_-Lot-Fixed_R</assert>
+		<assert id="BT-198_BT-541_-Lot-Fixed_R" role="ERROR" diagnostics="BT-198_BT-541_-Lot-Fixed" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-541_-Lot-Fixed_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']">
+		<assert id="BT-541-Lot-ThresholdNumber_R" role="ERROR" diagnostics="BT-541-Lot-ThresholdNumber" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-541-Lot-ThresholdNumber_R</assert>
+		<assert id="BT-5423-Lot_R" role="ERROR" diagnostics="BT-5423-Lot" test="count(efbc:ParameterCode[@listName='number-threshold']) &lt; 2">rule|text|BT-5423-Lot_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']">
+		<assert id="BT-195_BT-541_-Lot-Threshold_R" role="ERROR" diagnostics="BT-195_BT-541_-Lot-Threshold" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-541_-Lot-Threshold_R</assert>
+		<assert id="BT-196_BT-541_-Lot-Threshold_A" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Threshold" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-541_-Lot-Threshold_A</assert>
+		<assert id="BT-196_BT-541_-Lot-Threshold_B" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Threshold" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-Lot-Threshold_B</assert>
+		<assert id="BT-196_BT-541_-Lot-Threshold_C" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Threshold" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-Lot-Threshold_C</assert>
+		<assert id="BT-197_BT-541_-Lot-Threshold_R" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Threshold" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-541_-Lot-Threshold_R</assert>
+		<assert id="BT-198_BT-541_-Lot-Threshold_R" role="ERROR" diagnostics="BT-198_BT-541_-Lot-Threshold" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-541_-Lot-Threshold_R</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr']">
 		<assert id="BT-195_BT-5423_-Lot_R" role="ERROR" diagnostics="BT-195_BT-5423_-Lot" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-5423_-Lot_R</assert>
 		<assert id="BT-196_BT-5423_-Lot_A" role="ERROR" diagnostics="BT-196_BT-5423_-Lot" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-5423_-Lot_A</assert>
@@ -396,6 +406,18 @@
 		<assert id="BT-196_BT-5423_-Lot_C" role="ERROR" diagnostics="BT-196_BT-5423_-Lot" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-5423_-Lot_C</assert>
 		<assert id="BT-197_BT-5423_-Lot_R" role="ERROR" diagnostics="BT-197_BT-5423_-Lot" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-5423_-Lot_R</assert>
 		<assert id="BT-198_BT-5423_-Lot_R" role="ERROR" diagnostics="BT-198_BT-5423_-Lot" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-5423_-Lot_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']">
+		<assert id="BT-541-Lot-WeightNumber_R" role="ERROR" diagnostics="BT-541-Lot-WeightNumber" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-541-Lot-WeightNumber_R</assert>
+		<assert id="BT-5421-Lot_R" role="ERROR" diagnostics="BT-5421-Lot" test="count(efbc:ParameterCode[@listName='number-weight']) &lt; 2">rule|text|BT-5421-Lot_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']">
+		<assert id="BT-195_BT-541_-Lot-Weight_R" role="ERROR" diagnostics="BT-195_BT-541_-Lot-Weight" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-541_-Lot-Weight_R</assert>
+		<assert id="BT-196_BT-541_-Lot-Weight_A" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Weight" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-541_-Lot-Weight_A</assert>
+		<assert id="BT-196_BT-541_-Lot-Weight_B" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Weight" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-Lot-Weight_B</assert>
+		<assert id="BT-196_BT-541_-Lot-Weight_C" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Weight" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-Lot-Weight_C</assert>
+		<assert id="BT-197_BT-541_-Lot-Weight_R" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Weight" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-541_-Lot-Weight_R</assert>
+		<assert id="BT-198_BT-541_-Lot-Weight_R" role="ERROR" diagnostics="BT-198_BT-541_-Lot-Weight" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-541_-Lot-Weight_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']">
 		<assert id="BT-195_BT-5421_-Lot_R" role="ERROR" diagnostics="BT-195_BT-5421_-Lot" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-5421_-Lot_R</assert>
@@ -616,19 +638,9 @@
 		<assert id="BT-734-LotsGroup_B" role="ERROR" diagnostics="BT-734-LotsGroup" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Name/@languageID = $lg) or count(cbc:Name) = 0">rule|text|BT-734-LotsGroup_B</assert>
 		<assert id="BT-734-LotsGroup_C" role="ERROR" diagnostics="BT-734-LotsGroup" test="(every $lg in (cbc:Name/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Name) = 0">rule|text|BT-734-LotsGroup_C</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter">
-		<assert id="BT-541-LotsGroup_R" role="ERROR" diagnostics="BT-541-LotsGroup" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-541-LotsGroup_R</assert>
-		<assert id="BT-5421-LotsGroup_R" role="ERROR" diagnostics="BT-5421-LotsGroup" test="count(efbc:ParameterCode[@listName='number-weight']) &lt; 2">rule|text|BT-5421-LotsGroup_R</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']">
+		<assert id="BT-541-LotsGroup-FixedNumber_R" role="ERROR" diagnostics="BT-541-LotsGroup-FixedNumber" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-541-LotsGroup-FixedNumber_R</assert>
 		<assert id="BT-5422-LotsGroup_R" role="ERROR" diagnostics="BT-5422-LotsGroup" test="count(efbc:ParameterCode[@listName='number-fixed']) &lt; 2">rule|text|BT-5422-LotsGroup_R</assert>
-		<assert id="BT-5423-LotsGroup_R" role="ERROR" diagnostics="BT-5423-LotsGroup" test="count(efbc:ParameterCode[@listName='number-threshold']) &lt; 2">rule|text|BT-5423-LotsGroup_R</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']">
-		<assert id="BT-195_BT-541_-LotsGroup_R" role="ERROR" diagnostics="BT-195_BT-541_-LotsGroup" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-541_-LotsGroup_R</assert>
-		<assert id="BT-196_BT-541_-LotsGroup_A" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-541_-LotsGroup_A</assert>
-		<assert id="BT-196_BT-541_-LotsGroup_B" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-LotsGroup_B</assert>
-		<assert id="BT-196_BT-541_-LotsGroup_C" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-LotsGroup_C</assert>
-		<assert id="BT-197_BT-541_-LotsGroup_R" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-541_-LotsGroup_R</assert>
-		<assert id="BT-198_BT-541_-LotsGroup_R" role="ERROR" diagnostics="BT-198_BT-541_-LotsGroup" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-541_-LotsGroup_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix']">
 		<assert id="BT-195_BT-5422_-LotsGroup_R" role="ERROR" diagnostics="BT-195_BT-5422_-LotsGroup" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-5422_-LotsGroup_R</assert>
@@ -638,6 +650,26 @@
 		<assert id="BT-197_BT-5422_-LotsGroup_R" role="ERROR" diagnostics="BT-197_BT-5422_-LotsGroup" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-5422_-LotsGroup_R</assert>
 		<assert id="BT-198_BT-5422_-LotsGroup_R" role="ERROR" diagnostics="BT-198_BT-5422_-LotsGroup" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-5422_-LotsGroup_R</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']">
+		<assert id="BT-195_BT-541_-LotsGroup-Fixed_R" role="ERROR" diagnostics="BT-195_BT-541_-LotsGroup-Fixed" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-541_-LotsGroup-Fixed_R</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Fixed_A" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Fixed" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-541_-LotsGroup-Fixed_A</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Fixed_B" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Fixed" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-LotsGroup-Fixed_B</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Fixed_C" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Fixed" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-LotsGroup-Fixed_C</assert>
+		<assert id="BT-197_BT-541_-LotsGroup-Fixed_R" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Fixed" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-541_-LotsGroup-Fixed_R</assert>
+		<assert id="BT-198_BT-541_-LotsGroup-Fixed_R" role="ERROR" diagnostics="BT-198_BT-541_-LotsGroup-Fixed" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-541_-LotsGroup-Fixed_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']">
+		<assert id="BT-541-LotsGroup-ThresholdNumber_R" role="ERROR" diagnostics="BT-541-LotsGroup-ThresholdNumber" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-541-LotsGroup-ThresholdNumber_R</assert>
+		<assert id="BT-5423-LotsGroup_R" role="ERROR" diagnostics="BT-5423-LotsGroup" test="count(efbc:ParameterCode[@listName='number-threshold']) &lt; 2">rule|text|BT-5423-LotsGroup_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']">
+		<assert id="BT-195_BT-541_-LotsGroup-Threshold_R" role="ERROR" diagnostics="BT-195_BT-541_-LotsGroup-Threshold" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-541_-LotsGroup-Threshold_R</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Threshold_A" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Threshold" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-541_-LotsGroup-Threshold_A</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Threshold_B" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Threshold" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-LotsGroup-Threshold_B</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Threshold_C" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Threshold" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-LotsGroup-Threshold_C</assert>
+		<assert id="BT-197_BT-541_-LotsGroup-Threshold_R" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Threshold" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-541_-LotsGroup-Threshold_R</assert>
+		<assert id="BT-198_BT-541_-LotsGroup-Threshold_R" role="ERROR" diagnostics="BT-198_BT-541_-LotsGroup-Threshold" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-541_-LotsGroup-Threshold_R</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr']">
 		<assert id="BT-195_BT-5423_-LotsGroup_R" role="ERROR" diagnostics="BT-195_BT-5423_-LotsGroup" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-5423_-LotsGroup_R</assert>
 		<assert id="BT-196_BT-5423_-LotsGroup_A" role="ERROR" diagnostics="BT-196_BT-5423_-LotsGroup" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-5423_-LotsGroup_A</assert>
@@ -645,6 +677,18 @@
 		<assert id="BT-196_BT-5423_-LotsGroup_C" role="ERROR" diagnostics="BT-196_BT-5423_-LotsGroup" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-5423_-LotsGroup_C</assert>
 		<assert id="BT-197_BT-5423_-LotsGroup_R" role="ERROR" diagnostics="BT-197_BT-5423_-LotsGroup" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-5423_-LotsGroup_R</assert>
 		<assert id="BT-198_BT-5423_-LotsGroup_R" role="ERROR" diagnostics="BT-198_BT-5423_-LotsGroup" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-5423_-LotsGroup_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']">
+		<assert id="BT-541-LotsGroup-WeightNumber_R" role="ERROR" diagnostics="BT-541-LotsGroup-WeightNumber" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-541-LotsGroup-WeightNumber_R</assert>
+		<assert id="BT-5421-LotsGroup_R" role="ERROR" diagnostics="BT-5421-LotsGroup" test="count(efbc:ParameterCode[@listName='number-weight']) &lt; 2">rule|text|BT-5421-LotsGroup_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']">
+		<assert id="BT-195_BT-541_-LotsGroup-Weight_R" role="ERROR" diagnostics="BT-195_BT-541_-LotsGroup-Weight" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-541_-LotsGroup-Weight_R</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Weight_A" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Weight" test="count(efbc:ReasonDescription[@languageID = preceding-sibling::efbc:ReasonDescription/@languageID]) = 0">rule|text|BT-196_BT-541_-LotsGroup-Weight_A</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Weight_B" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Weight" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ReasonDescription/@languageID = $lg) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-LotsGroup-Weight_B</assert>
+		<assert id="BT-196_BT-541_-LotsGroup-Weight_C" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Weight" test="(every $lg in (efbc:ReasonDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ReasonDescription) = 0">rule|text|BT-196_BT-541_-LotsGroup-Weight_C</assert>
+		<assert id="BT-197_BT-541_-LotsGroup-Weight_R" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Weight" test="count(cbc:ReasonCode) &lt; 2">rule|text|BT-197_BT-541_-LotsGroup-Weight_R</assert>
+		<assert id="BT-198_BT-541_-LotsGroup-Weight_R" role="ERROR" diagnostics="BT-198_BT-541_-LotsGroup-Weight" test="count(efbc:PublicationDate) &lt; 2">rule|text|BT-198_BT-541_-LotsGroup-Weight_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']">
 		<assert id="BT-195_BT-5421_-LotsGroup_R" role="ERROR" diagnostics="BT-195_BT-5421_-LotsGroup" test="count(efbc:FieldIdentifierCode) &lt; 2">rule|text|BT-195_BT-5421_-LotsGroup_R</assert>
@@ -1602,11 +1646,23 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des']/efbc:ReasonDescription">
 		<assert id="BT-196_BT-540_-LotsGroup_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-540_-LotsGroup_D</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
-		<assert id="BT-196_BT-541_-Lot_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-541_-Lot_D</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
+		<assert id="BT-196_BT-541_-Lot-Fixed_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-541_-Lot-Fixed_D</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
-		<assert id="BT-196_BT-541_-LotsGroup_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-541_-LotsGroup_D</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
+		<assert id="BT-196_BT-541_-Lot-Threshold_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-541_-Lot-Threshold_D</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
+		<assert id="BT-196_BT-541_-Lot-Weight_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-541_-Lot-Weight_D</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
+		<assert id="BT-196_BT-541_-LotsGroup-Fixed_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-541_-LotsGroup-Fixed_D</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
+		<assert id="BT-196_BT-541_-LotsGroup-Threshold_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-541_-LotsGroup-Threshold_D</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:ReasonDescription">
+		<assert id="BT-196_BT-541_-LotsGroup-Weight_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-541_-LotsGroup-Weight_D</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']/efbc:ReasonDescription">
 		<assert id="BT-196_BT-5421_-Lot_D" role="ERROR" test="@languageID">rule|text|BT-196_BT-5421_-Lot_D</assert>

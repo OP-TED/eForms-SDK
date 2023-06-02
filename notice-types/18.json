@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.8.0",
+  "sdkVersion" : "1.8.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.7.62",
-    "createdOn" : "2023-05-17T15:49:39"
+    "version" : "1.7.104",
+    "createdOn" : "2023-06-01T10:57:04"
   },
   "noticeId" : "18",
   "metadata" : [ {
@@ -1325,31 +1325,59 @@
             "description" : "Non UBL Native Subordinate Award Criteria elements for a Lot",
             "_label" : "group|name|ND-LotAwardCriterionParameters",
             "content" : [ {
-              "id" : "GR-Lot-AwardCriteria-Criterion-Parameter",
+              "id" : "GR-Lot-AwardCriteria-WeightCriterion-Parameter",
               "contentType" : "group",
-              "nodeId" : "ND-LotAwardCriterionParameter",
+              "nodeId" : "ND-LotAwardWeightCriterionParameter",
               "displayType" : "GROUP",
-              "description" : "Lot Award Criterion Parameter (Value and associated Code)",
-              "_label" : "group|name|ND-LotAwardCriterionParameter",
-              "_repeatable" : true,
+              "description" : "Lot Award Weight Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotAwardWeightCriterionParameter",
               "content" : [ {
-                "id" : "BT-541-Lot",
+                "id" : "BT-541-Lot-WeightNumber",
                 "contentType" : "field",
                 "displayType" : "TEXTBOX",
-                "description" : "Award Criterion Number",
-                "_label" : "field|name|BT-541-Lot"
+                "description" : "Award Criterion Weight Number",
+                "_label" : "field|name|BT-541-Lot-WeightNumber"
               }, {
                 "id" : "BT-5421-Lot",
                 "contentType" : "field",
                 "displayType" : "COMBOBOX",
                 "description" : "Award Criterion Number Weight",
                 "_label" : "field|name|BT-5421-Lot"
+              } ]
+            }, {
+              "id" : "GR-Lot-AwardCriteria-FixedCriterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotAwardFixedCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Lot Award Fixed Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotAwardFixedCriterionParameter",
+              "content" : [ {
+                "id" : "BT-541-Lot-FixedNumber",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Fixed Number",
+                "_label" : "field|name|BT-541-Lot-FixedNumber"
               }, {
                 "id" : "BT-5422-Lot",
                 "contentType" : "field",
                 "displayType" : "COMBOBOX",
                 "description" : "Award Criterion Number Fixed",
                 "_label" : "field|name|BT-5422-Lot"
+              } ]
+            }, {
+              "id" : "GR-Lot-AwardCriteria-ThresholdCriterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotAwardThresholdCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Lot Award Threshold Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotAwardThresholdCriterionParameter",
+              "_repeatable" : true,
+              "content" : [ {
+                "id" : "BT-541-Lot-ThresholdNumber",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Threshold Number",
+                "_label" : "field|name|BT-541-Lot-ThresholdNumber"
               }, {
                 "id" : "BT-5423-Lot",
                 "contentType" : "field",
@@ -2133,31 +2161,59 @@
             "description" : "Non UBL Native Subordinate Award Criteria elements for a Group of Lots",
             "_label" : "group|name|ND-LotsGroupAwardCriterionParameters",
             "content" : [ {
-              "id" : "GR-LotsGroup-AwardCriteria-Criterion-Parameter",
+              "id" : "GR-LotsGroup-AwardCriteria-WeightCriterion-Parameter",
               "contentType" : "group",
-              "nodeId" : "ND-LotsGroupAwardCriterionParameter",
+              "nodeId" : "ND-LotsGroupAwardWeightCriterionParameter",
               "displayType" : "GROUP",
-              "description" : "Group of Lots Award Criterion Parameter (Value and associated Code)",
-              "_label" : "group|name|ND-LotsGroupAwardCriterionParameter",
-              "_repeatable" : true,
+              "description" : "Group of Lots Award Weight Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotsGroupAwardWeightCriterionParameter",
               "content" : [ {
-                "id" : "BT-541-LotsGroup",
+                "id" : "BT-541-LotsGroup-WeightNumber",
                 "contentType" : "field",
                 "displayType" : "TEXTBOX",
-                "description" : "Award Criterion Number",
-                "_label" : "field|name|BT-541-LotsGroup"
+                "description" : "Award Criterion Weight Number",
+                "_label" : "field|name|BT-541-LotsGroup-WeightNumber"
               }, {
                 "id" : "BT-5421-LotsGroup",
                 "contentType" : "field",
                 "displayType" : "COMBOBOX",
                 "description" : "Award Criterion Number Weight",
                 "_label" : "field|name|BT-5421-LotsGroup"
+              } ]
+            }, {
+              "id" : "GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotsGroupAwardFixedCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Group of Lots Award Fixed Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotsGroupAwardFixedCriterionParameter",
+              "content" : [ {
+                "id" : "BT-541-LotsGroup-FixedNumber",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Fixed Number",
+                "_label" : "field|name|BT-541-LotsGroup-FixedNumber"
               }, {
                 "id" : "BT-5422-LotsGroup",
                 "contentType" : "field",
                 "displayType" : "COMBOBOX",
                 "description" : "Award Criterion Number Fixed",
                 "_label" : "field|name|BT-5422-LotsGroup"
+              } ]
+            }, {
+              "id" : "GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter",
+              "contentType" : "group",
+              "nodeId" : "ND-LotsGroupAwardThresholdCriterionParameter",
+              "displayType" : "GROUP",
+              "description" : "Group of Lots Award Threshold Criterion Parameter (Value and associated Code)",
+              "_label" : "group|name|ND-LotsGroupAwardThresholdCriterionParameter",
+              "_repeatable" : true,
+              "content" : [ {
+                "id" : "BT-541-LotsGroup-ThresholdNumber",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Award Criterion Threshold Number",
+                "_label" : "field|name|BT-541-LotsGroup-ThresholdNumber"
               }, {
                 "id" : "BT-5423-LotsGroup",
                 "contentType" : "field",

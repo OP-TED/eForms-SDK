@@ -279,6 +279,7 @@
 <entry key="group|name|ND-LotAwardCriteriaOrderJustificationUnpublish">Lot award criteria order justification (published later)</entry>
 <entry key="group|name|ND-LotAwardCriterion">Award criterion</entry>
 <entry key="group|name|ND-LotAwardCriterionDescriptionUnpublish">Lot award criterion description (published later)</entry>
+<entry key="group|name|ND-LotAwardCriterionFixNumberUnpublish">Not Immediately Published (LotAwardCriterionFixNumber)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Lot award criterion number complicated (published later)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Lot award criterion is a fixed number (published later)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Lot award criterion number is a threshold (published later)</entry>
@@ -286,7 +287,12 @@
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Lot award criterion number weight (published later)</entry>
 <entry key="group|name|ND-LotAwardCriterionParameter">Award criterion parameter</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Award criteria parameters</entry>
+<entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Not Immediately Published (LotAwardCriterionThresholdNumber)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Lot award criterion type (published later)</entry>
+<entry key="group|name|ND-LotAwardCriterionWeightNumberUnpublish">Not Immediately Published (LotAwardCriterionWeightNumber)</entry>
+<entry key="group|name|ND-LotAwardFixedCriterionParameter">Lot Award Fixed Criterion Parameter (Value and associated Code)</entry>
+<entry key="group|name|ND-LotAwardThresholdCriterionParameter">Lot Award Threshold Criterion Parameter (Value and associated Code)</entry>
+<entry key="group|name|ND-LotAwardWeightCriterionParameter">Lot Award Weight Criterion Parameter (Value and associated Code)</entry>
 <entry key="group|name|ND-LotContractAdditionalNature">Additional contract nature for the Lot</entry>
 <entry key="group|name|ND-LotDistribution">Lot distribution</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Environmental impact procurement type</entry>
@@ -310,6 +316,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriteriaOrderJustificationUnpublish">Group of lots award criteria order justification (published later)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterion">Award criteria</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionDescriptionUnpublish">Group of lots award criterion description (published later)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionFixNumberUnpublish">Not Immediately Published (LotsGroupAwardCriterionFixNumber)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Group of lots award criteria number complicated (published later)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Group of lots award criterion is a fixed number (published later)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Group of lots award criterion number is a threshold (published later)</entry>
@@ -317,7 +324,12 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Group of lots award criteria number weight (published later)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameter">Award criterion parameter</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Award criterion parameters</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Not Immediately Published (LotsGroupAwardCriterionThresholdNumber)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Group of lots award criterion type (published later)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionWeightNumberUnpublish">Not Immediately Published (LotsGroupAwardCriterionWeightNumber)</entry>
+<entry key="group|name|ND-LotsGroupAwardFixedCriterionParameter">Group of Lots Award Fixed Criterion Parameter (Value and associated Code)</entry>
+<entry key="group|name|ND-LotsGroupAwardThresholdCriterionParameter">Group of Lots Award Threshold Criterion Parameter (Value and associated Code)</entry>
+<entry key="group|name|ND-LotsGroupAwardWeightCriterionParameter">Group of Lots Award Weight Criterion Parameter (Value and associated Code)</entry>
 <entry key="group|name|ND-MaximalValueUnpublish">Maximal value (published later)</entry>
 <entry key="group|name|ND-Modification">Contract modification</entry>
 <entry key="group|name|ND-ModificationReason">Reason for contract modification</entry>

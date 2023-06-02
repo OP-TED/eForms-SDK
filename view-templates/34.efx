@@ -1,6 +1,6 @@
 // View 34
-// sdkVersion='1.8.0'
-// File generated from metadata database version 1.7.68 created on the 2023-05-24T10:05:17
+// sdkVersion='1.8.0-SNAPSHOT'
+// File generated from metadata database version 1.7.105 created on the 2023-06-01T14:07:43
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -13,7 +13,7 @@
 		{BT-24-Procedure} #{name|BT-24}: $value // Procedure Description
 		{BT-04-notice} #{name|BT-04}: $value // Procedure identifier
 		{BT-22-Procedure} #{name|BT-22}: $value // Internal identifier
-		0 {BT-105-Procedure} #{name|BT-105}: ${BT-105-Procedure} // Type of the procedure
+		0 {BT-105-Procedure} #{name|BT-105}: #{BT-105-Procedure} // Type of the procedure
 			{BT-197(BT-105)-Procedure} #{name|BT-197(BT-105)-Procedure}: #{BT-197(BT-105)-Procedure} // Unpublished Justification Code
 			{BT-196(BT-105)-Procedure} #{name|BT-196(BT-105)-Procedure}: ${BT-196(BT-105)-Procedure} // Unpublished Justification Description
 			{BT-198(BT-105)-Procedure} #{name|BT-198(BT-105)-Procedure}: ${BT-198(BT-105)-Procedure} // Unpublished Access Date
@@ -77,15 +77,15 @@
 					{BT-197(BT-540)-LotsGroup} #{name|BT-197(BT-540)-LotsGroup}: #{BT-197(BT-540)-LotsGroup} // Unpublished Justification Code
 					{BT-196(BT-540)-LotsGroup} #{name|BT-196(BT-540)-LotsGroup}: ${BT-196(BT-540)-LotsGroup} // Unpublished Justification Description
 					{BT-198(BT-540)-LotsGroup} #{name|BT-198(BT-540)-LotsGroup}: ${BT-198(BT-540)-LotsGroup} // Unpublished Access Date
-				0 {BT-5421-LotsGroup} #{BT-5421-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+				0 {BT-5421-LotsGroup} #{BT-5421-LotsGroup}: ${format-number(BT-541-LotsGroup-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
 					{BT-197(BT-5421)-LotsGroup} #{name|BT-197(BT-5421)-LotsGroup}: #{BT-197(BT-5421)-LotsGroup} // Unpublished Justification Code
 					{BT-196(BT-5421)-LotsGroup} #{name|BT-196(BT-5421)-LotsGroup}: ${BT-196(BT-5421)-LotsGroup} // Unpublished Justification Description
 					{BT-198(BT-5421)-LotsGroup} #{name|BT-198(BT-5421)-LotsGroup}: ${BT-198(BT-5421)-LotsGroup} // Unpublished Access Date
-				0 {BT-5422-LotsGroup} #{BT-5422-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {BT-5422-LotsGroup} #{BT-5422-LotsGroup}: ${format-number(BT-541-LotsGroup-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
 					{BT-197(BT-5422)-LotsGroup} #{name|BT-197(BT-5422)-LotsGroup}: #{BT-197(BT-5422)-LotsGroup} // Unpublished Justification Code
 					{BT-196(BT-5422)-LotsGroup} #{name|BT-196(BT-5422)-LotsGroup}: ${BT-196(BT-5422)-LotsGroup} // Unpublished Justification Description
 					{BT-198(BT-5422)-LotsGroup} #{name|BT-198(BT-5422)-LotsGroup}: ${BT-198(BT-5422)-LotsGroup} // Unpublished Access Date
-				0 {BT-5423-LotsGroup} #{BT-5423-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
+				0 {BT-5423-LotsGroup} #{BT-5423-LotsGroup}: ${format-number(BT-541-LotsGroup-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 					{BT-197(BT-5423)-LotsGroup} #{name|BT-197(BT-5423)-LotsGroup}: #{BT-197(BT-5423)-LotsGroup} // Unpublished Justification Code
 					{BT-196(BT-5423)-LotsGroup} #{name|BT-196(BT-5423)-LotsGroup}: ${BT-196(BT-5423)-LotsGroup} // Unpublished Justification Description
 					{BT-198(BT-5423)-LotsGroup} #{name|BT-198(BT-5423)-LotsGroup}: ${BT-198(BT-5423)-LotsGroup} // Unpublished Access Date
@@ -163,15 +163,15 @@
 					{BT-197(BT-540)-Lot} #{name|BT-197(BT-540)-Lot}: #{BT-197(BT-540)-Lot} // Unpublished Justification Code
 					{BT-196(BT-540)-Lot} #{name|BT-196(BT-540)-Lot}: ${BT-196(BT-540)-Lot} // Unpublished Justification Description
 					{BT-198(BT-540)-Lot} #{name|BT-198(BT-540)-Lot}: ${BT-198(BT-540)-Lot} // Unpublished Access Date
-				0 {BT-5421-Lot} #{BT-5421-Lot}: ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+				0 {BT-5421-Lot} #{BT-5421-Lot}: ${format-number(BT-541-Lot-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
 					{BT-197(BT-5421)-Lot} #{name|BT-197(BT-5421)-Lot}: #{BT-197(BT-5421)-Lot} // Unpublished Justification Code
 					{BT-196(BT-5421)-Lot} #{name|BT-196(BT-5421)-Lot}: ${BT-196(BT-5421)-Lot} // Unpublished Justification Description
 					{BT-198(BT-5421)-Lot} #{name|BT-198(BT-5421)-Lot}: ${BT-198(BT-5421)-Lot} // Unpublished Access Date
-				0 {BT-5422-Lot} #{BT-5422-Lot}: ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {BT-5422-Lot} #{BT-5422-Lot}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
 					{BT-197(BT-5422)-Lot} #{name|BT-197(BT-5422)-Lot}: #{BT-197(BT-5422)-Lot} // Unpublished Justification Code
 					{BT-196(BT-5422)-Lot} #{name|BT-196(BT-5422)-Lot}: ${BT-196(BT-5422)-Lot} // Unpublished Justification Description
 					{BT-198(BT-5422)-Lot} #{name|BT-198(BT-5422)-Lot}: ${BT-198(BT-5422)-Lot} // Unpublished Access Date
-				0 {BT-5423-Lot} #{BT-5423-Lot} - ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
+				0 {BT-5423-Lot} #{BT-5423-Lot} - ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 					{BT-197(BT-5423)-Lot} #{name|BT-197(BT-5423)-Lot}: #{BT-197(BT-5423)-Lot} // Unpublished Justification Code
 					{BT-196(BT-5423)-Lot} #{name|BT-196(BT-5423)-Lot}: ${BT-196(BT-5423)-Lot} // Unpublished Justification Description
 					{BT-198(BT-5423)-Lot} #{name|BT-198(BT-5423)-Lot}: ${BT-198(BT-5423)-Lot} // Unpublished Access Date

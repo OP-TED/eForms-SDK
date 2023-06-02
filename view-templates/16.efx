@@ -1,6 +1,6 @@
 // View 16
-// sdkVersion='1.8.0'
-// File generated from metadata database version 1.7.68 created on the 2023-05-24T10:05:17
+// sdkVersion='1.8.0-SNAPSHOT'
+// File generated from metadata database version 1.7.105 created on the 2023-06-01T14:07:43
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
@@ -12,8 +12,8 @@
 		{BT-24-Procedure} #{name|BT-24}: $value // Procedure Description
 		{BT-04-notice} #{name|BT-04}: $value // Procedure identifier
 		{BT-22-Procedure} #{name|BT-22}: $value // Internal identifier
-		0 {BT-105-Procedure} #{name|BT-105}: ${BT-105-Procedure} // Type of the procedure
-		0 {BT-106-Procedure} #{name|BT-106}: ${if (BT-106-Procedure == 'true') then 'yes' else if (BT-106-Procedure == 'false') then 'No' else BT-106-Procedure} // The procedure is accelerated. (true/false)
+		0 {BT-105-Procedure} #{name|BT-105}: #{BT-105-Procedure} // Type of the procedure
+		0 {BT-106-Procedure} #{name|BT-106}: ${if (BT-106-Procedure == 'true') then 'Yes' else if (BT-106-Procedure == 'false') then 'No' else BT-106-Procedure} // The procedure is accelerated. (true/false)
 		0 {BT-1351-Procedure} #{name|BT-1351}: ${BT-1351-Procedure} // Justification for the accelerated procedure
 		0 {BT-88-Procedure} #{name|BT-88}: ${BT-88-Procedure} // Procedure Features / Description of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
@@ -67,9 +67,9 @@
 				0 {BT-539-LotsGroup} #{name|BT-539}: #{BT-539-LotsGroup} // Type
 				0 {BT-734-LotsGroup} #{name|BT-734}: ${BT-734-LotsGroup} // Name
 				0 {BT-540-LotsGroup} #{name|BT-540}: ${BT-540-LotsGroup} // Description
-				0 {BT-5421-LotsGroup} #{BT-5421-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
-				0 {BT-5422-LotsGroup} #{BT-5422-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
-				0 {BT-5423-LotsGroup} #{BT-5423-LotsGroup}: ${format-number(BT-541-LotsGroup, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
+				0 {BT-5421-LotsGroup} #{BT-5421-LotsGroup}: ${format-number(BT-541-LotsGroup-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+				0 {BT-5422-LotsGroup} #{BT-5422-LotsGroup}: ${format-number(BT-541-LotsGroup-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {BT-5423-LotsGroup} #{BT-5423-LotsGroup}: ${format-number(BT-541-LotsGroup-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 			0 {BT-543-LotsGroup} #{name|BT-543}: ${BT-543-LotsGroup} // Award Criteria Complicated
 			0 {BT-733-LotsGroup} #{name|BT-733}: ${BT-733-LotsGroup} // Award Criteria Order Justification
 5 {ND-Root[BT-24-Lot is present]} #{auxiliary|text|lot} // 5. Lots
@@ -155,9 +155,9 @@
 				0 {BT-539-Lot} #{name|BT-539}: #{BT-539-Lot} // Type
 				0 {BT-734-Lot} #{name|BT-734}: ${BT-734-Lot} // Name
 				0 {BT-540-Lot} #{name|BT-540}: ${BT-540-Lot} // Award Criterion Description
-				0 {BT-5421-Lot} #{BT-5421-Lot}: ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
-				0 {BT-5422-Lot} #{BT-5422-Lot}: ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
-				0 {BT-5423-Lot} #{BT-5423-Lot} - ${format-number(BT-541-Lot, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
+				0 {BT-5421-Lot} #{BT-5421-Lot}: ${format-number(BT-541-Lot-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+				0 {BT-5422-Lot} #{BT-5422-Lot}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {BT-5423-Lot} #{BT-5423-Lot} - ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 			0 {BT-543-Lot} #{name|BT-543}: ${BT-543-Lot} // Award Criteria Complicated
 			0 {BT-733-Lot} #{name|BT-733}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
 		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
