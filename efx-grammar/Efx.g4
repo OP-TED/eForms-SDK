@@ -60,8 +60,11 @@ labelBlock
     | StartLabel expressionBlock (Semicolon pluraliser)? EndLabel                           # computedLabelReference
     | StartLabel labelType Pipe BtId (Semicolon pluraliser)? EndLabel                       # shorthandBtLabelReference
     | StartLabel labelType Pipe FieldId (Semicolon pluraliser)? EndLabel                    # shorthandFieldLabelReference
-    | StartLabel FieldId (Semicolon pluraliser)? EndLabel                                   # shorthandIndirectLabelReference
     | StartLabel LabelType (Semicolon pluraliser)? EndLabel                                 # shorthandLabelReferenceFromContext
+    // Indirect Label References ----------------------------------------------------------------------------------------------
+    // If the labelType is not specified, then the label reference is an indirect label reference.
+    // Indirect label references derive the label text from the type and value of the field.
+    | StartLabel FieldId (Semicolon pluraliser)? EndLabel                                   # shorthandIndirectLabelReference
     | ShorthandIndirectLabelReferenceFromContextField                                       # shorthandIndirectLabelReferenceFromContextField
     ;
 
@@ -477,6 +480,8 @@ stringFunction
     | ConcatFunction        OpenParenthesis (stringExpression   | lateBoundScalar)  (Comma (stringExpression        | lateBoundScalar))* CloseParenthesis                                                           # concatFunction
     | StringJoinFunction    OpenParenthesis (stringSequence     | lateBoundSequence) Comma (stringExpression        | lateBoundScalar)   CloseParenthesis                                                           # stringJoinFunction
     | FormatNumberFunction  OpenParenthesis (numericExpression  | lateBoundScalar)  (Comma (format=stringExpression | lateBoundScalar))? CloseParenthesis                                                           # formatNumberFunction
+    | UpperCaseFunction     OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                               # upperCaseFunction
+    | LowerCaseFunction     OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                               # lowerCaseFunction
     ;
 
 

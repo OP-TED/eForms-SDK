@@ -272,6 +272,8 @@ EndsWithFunction: 'ends-with';
 StringLengthFunction: 'string-length';
 SumFunction: 'sum';
 FormatNumberFunction: 'format-number';
+UpperCaseFunction: 'upper-case';
+LowerCaseFunction: 'lower-case';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
