@@ -287,6 +287,8 @@ UnionFunction: 'value-union';
 IntersectFunction: 'value-intersect';
 ExceptFunction: 'value-except';
 SequenceEqualFunction: 'sequence-equal';
+PreferredLanguageFunction: 'preferred-language';
+PreferredLanguageTextFunction: 'preferred-language-text';
 
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.

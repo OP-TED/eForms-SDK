@@ -476,13 +476,15 @@ numericFunction
     ;
 
 stringFunction
-    : SubstringFunction     OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis       # substringFunction
-    | StringFunction        OpenParenthesis (numericExpression  | lateBoundScalar)   CloseParenthesis                                                                                                               # toStringFunction
-    | ConcatFunction        OpenParenthesis (stringExpression   | lateBoundScalar)  (Comma (stringExpression        | lateBoundScalar))* CloseParenthesis                                                           # concatFunction
-    | StringJoinFunction    OpenParenthesis (stringSequence     | lateBoundSequence) Comma (stringExpression        | lateBoundScalar)   CloseParenthesis                                                           # stringJoinFunction
-    | FormatNumberFunction  OpenParenthesis (numericExpression  | lateBoundScalar)  (Comma (format=stringExpression | lateBoundScalar))? CloseParenthesis                                                           # formatNumberFunction
-    | UpperCaseFunction     OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                               # upperCaseFunction
-    | LowerCaseFunction     OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                               # lowerCaseFunction
+    : SubstringFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis   # substringFunction
+    | StringFunction                 OpenParenthesis (numericExpression  | lateBoundScalar)   CloseParenthesis                                                                                                           # toStringFunction
+    | ConcatFunction                 OpenParenthesis (stringExpression   | lateBoundScalar)  (Comma (stringExpression        | lateBoundScalar))* CloseParenthesis                                                       # concatFunction
+    | StringJoinFunction             OpenParenthesis (stringSequence     | lateBoundSequence) Comma (stringExpression        | lateBoundScalar)   CloseParenthesis                                                       # stringJoinFunction
+    | FormatNumberFunction           OpenParenthesis (numericExpression  | lateBoundScalar)  (Comma (format=stringExpression | lateBoundScalar))? CloseParenthesis                                                       # formatNumberFunction
+    | UpperCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                           # upperCaseFunction
+    | LowerCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                           # lowerCaseFunction
+    | PreferredLanguageFunction      OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                           # preferredLanguageFunction
+    | PreferredLanguageTextFunction  OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                           # preferredLanguageTextFunction
     ;
 
 
