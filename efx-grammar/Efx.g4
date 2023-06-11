@@ -191,6 +191,7 @@ booleanExpression
     | timeExpression        Comparison lateBoundScalar                          # ppTimeToLateBoundComparison
     | durationExpression    Comparison lateBoundScalar                          # ppDurationToLateBoundComparison
     | lateBoundScalar       Comparison lateBoundScalar                          # ppFieldValueComparison
+    | lateBoundExpression   Not? Like pattern=STRING                            # pplikePatternCondition
     | lateBoundExpression   Is Not? Empty                                       # ppLateBoundEmptinessCondition
     | stringExpression      Not? In lateBoundSequence                           # ppStringInLateBoundListCondition
     | numericExpression     Not? In lateBoundSequence                           # ppNumberInLateBoundListCondition
