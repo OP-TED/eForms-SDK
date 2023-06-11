@@ -417,8 +417,8 @@ contextVariableDeclaration:     ContextType Colon Variable;
 
 
 pathFromReference
-    : fieldReference
-    | attributeReference
+    : attributeReference
+    |fieldReference 
     ;
 
 contextFieldSpecifier: field=fieldContext ColonColon;
@@ -527,9 +527,9 @@ lateBoundSequence
 lateBoundSequenceFromIteration: For iteratorList Return lateBoundScalar;
 
 lateBoundSequenceReference
-    : fieldReference                                    # sequenceFromFieldReference
-    | attributeReference                                # sequenceFromAttributeReference 
-    | variableReference                                 # untypedSequenceVariableExpression
+    : attributeReference        # sequenceFromAttributeReference 
+    | fieldReference            # sequenceFromFieldReference
+    | variableReference         # untypedSequenceVariableExpression
     ;
 
 lateBoundScalar
@@ -540,9 +540,9 @@ lateBoundScalar
     ;
 
 lateBoundScalarReference
-    : fieldReference        # scalarFromFieldReference
-    | attributeReference    # scalarFromAttributeReference 
-    | variableReference                                                                 # untypedVariableExpression
+    : attributeReference        # scalarFromAttributeReference 
+    | fieldReference            # scalarFromFieldReference
+    | variableReference         # untypedVariableExpression
     ;
 
 variableReference: Variable;
