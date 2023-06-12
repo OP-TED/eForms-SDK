@@ -191,6 +191,7 @@ booleanExpression
     | timeExpression        Comparison lateBoundScalar                          # ppTimeToLateBoundComparison
     | durationExpression    Comparison lateBoundScalar                          # ppDurationToLateBoundComparison
     | lateBoundScalar       Comparison lateBoundScalar                          # ppFieldValueComparison
+    | lateBoundExpression   Not? Like pattern=STRING                            # pplikePatternCondition
     | lateBoundExpression   Is Not? Empty                                       # ppLateBoundEmptinessCondition
     | stringExpression      Not? In lateBoundSequence                           # ppStringInLateBoundListCondition
     | numericExpression     Not? In lateBoundSequence                           # ppNumberInLateBoundListCondition
@@ -416,8 +417,8 @@ contextVariableDeclaration:     ContextType Colon Variable;
 
 
 pathFromReference
-    : fieldReference
-    | attributeReference
+    : attributeReference
+    |fieldReference 
     ;
 
 contextFieldSpecifier: field=fieldContext ColonColon;
@@ -475,13 +476,15 @@ numericFunction
     ;
 
 stringFunction
-    : SubstringFunction     OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis       # substringFunction
-    | StringFunction        OpenParenthesis (numericExpression  | lateBoundScalar)   CloseParenthesis                                                                                                               # toStringFunction
-    | ConcatFunction        OpenParenthesis (stringExpression   | lateBoundScalar)  (Comma (stringExpression        | lateBoundScalar))* CloseParenthesis                                                           # concatFunction
-    | StringJoinFunction    OpenParenthesis (stringSequence     | lateBoundSequence) Comma (stringExpression        | lateBoundScalar)   CloseParenthesis                                                           # stringJoinFunction
-    | FormatNumberFunction  OpenParenthesis (numericExpression  | lateBoundScalar)  (Comma (format=stringExpression | lateBoundScalar))? CloseParenthesis                                                           # formatNumberFunction
-    | UpperCaseFunction     OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                               # upperCaseFunction
-    | LowerCaseFunction     OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                               # lowerCaseFunction
+    : SubstringFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis   # substringFunction
+    | StringFunction                 OpenParenthesis (numericExpression  | lateBoundScalar)   CloseParenthesis                                                                                                           # toStringFunction
+    | ConcatFunction                 OpenParenthesis (stringExpression   | lateBoundScalar)  (Comma (stringExpression        | lateBoundScalar))* CloseParenthesis                                                       # concatFunction
+    | StringJoinFunction             OpenParenthesis (stringSequence     | lateBoundSequence) Comma (stringExpression        | lateBoundScalar)   CloseParenthesis                                                       # stringJoinFunction
+    | FormatNumberFunction           OpenParenthesis (numericExpression  | lateBoundScalar)  (Comma (format=stringExpression | lateBoundScalar))? CloseParenthesis                                                       # formatNumberFunction
+    | UpperCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                           # upperCaseFunction
+    | LowerCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                           # lowerCaseFunction
+    | PreferredLanguageFunction      OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                           # preferredLanguageFunction
+    | PreferredLanguageTextFunction  OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                           # preferredLanguageTextFunction
     ;
 
 
@@ -526,9 +529,9 @@ lateBoundSequence
 lateBoundSequenceFromIteration: For iteratorList Return lateBoundScalar;
 
 lateBoundSequenceReference
-    : fieldReference                                    # sequenceFromFieldReference
-    | attributeReference                                # sequenceFromAttributeReference 
-    | variableReference                                 # untypedSequenceVariableExpression
+    : attributeReference        # sequenceFromAttributeReference 
+    | fieldReference            # sequenceFromFieldReference
+    | variableReference         # untypedSequenceVariableExpression
     ;
 
 lateBoundScalar
@@ -539,9 +542,9 @@ lateBoundScalar
     ;
 
 lateBoundScalarReference
-    : fieldReference        # scalarFromFieldReference
-    | attributeReference    # scalarFromAttributeReference 
-    | variableReference                                                                 # untypedVariableExpression
+    : attributeReference        # scalarFromAttributeReference 
+    | fieldReference            # scalarFromFieldReference
+    | variableReference         # untypedVariableExpression
     ;
 
 variableReference: Variable;
