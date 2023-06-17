@@ -175,7 +175,7 @@ LABEL_TYPE_TEMPLATE: 'template';
 
 FieldAssetId: FieldId -> type(FieldId);
 BtAssetId: BtId -> type(BtId);
-OtherAssetId: [a-z]+ ('-' [a-z0-9]*)*;
+OtherAssetId: [a-z]+ ([-.] [a-z0-9]+)*;
 
 /*
  * EXPRESSION mode
