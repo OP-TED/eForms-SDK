@@ -461,7 +461,7 @@ absoluteNodeReference: Slash nodeReferenceWithPredicate;
 nodeReferenceWithPredicate: simpleNodeReference (OpenBracket predicate CloseBracket)?;
 simpleNodeReference: NodeId;
 
-noticeReference: Notice OpenParenthesis noticeId=stringExpression CloseParenthesis;
+noticeReference: Notice OpenParenthesis (noticeId=stringExpression | lateBoundScalar) CloseParenthesis;
 
 codelistReference: CodelistId;
 
