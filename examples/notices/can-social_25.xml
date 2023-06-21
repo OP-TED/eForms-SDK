@@ -11,6 +11,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
+						<cbc:TotalAmount currencyID="EUR">123456.78</cbc:TotalAmount>
 						<efac:LotResult>
 							<cbc:ID>RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">open-nw</cbc:TenderResultCode>
@@ -55,6 +56,9 @@
 							<efac:ContractReference>
 								<cbc:ID>2020/001</cbc:ID>
 							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
 						</efac:SettledContract>
 						<efac:TenderingParty>
 							<cbc:ID>TPA-0001</cbc:ID>
@@ -118,6 +122,7 @@
 							</efac:TouchPoint>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<cac:PartyIdentification>
 									<cbc:ID>ORG-0002</cbc:ID>

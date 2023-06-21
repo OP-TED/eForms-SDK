@@ -46,6 +46,9 @@
 							<efac:ContractReference>
 								<cbc:ID>d1cc5b48-fefc-405f-b888-b0727cd632a0-01</cbc:ID>
 							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
 						</efac:SettledContract>
 						<efac:TenderingParty>
 							<cbc:ID>TPA-0001</cbc:ID>
@@ -109,6 +112,7 @@
 							</efac:TouchPoint>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<cac:PartyIdentification>
 									<cbc:ID>ORG-0002</cbc:ID>
