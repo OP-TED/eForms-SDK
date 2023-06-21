@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database version 1.8.37 created on the 2023-06-21T15:32:21.-->
+<!--File generated from metadata database-->
 <pattern id="EFORMS-validation-stage-5" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*">
 		<assert id="BR-BT-00002-0100" role="ERROR" diagnostics="BT-02-notice" test="((cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023') and (cbc:NoticeTypeCode/normalize-space(text()) = ('pin-cfc-social','cn-standard','veat','can-standard','can-social','can-modif'))) or not(cbc:RegulatoryDomain/normalize-space(text()) = '32014L0023')">rule|text|BR-BT-00002-0100</assert>

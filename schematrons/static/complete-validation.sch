@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--File generated from metadata database version 1.8.37 created on the 2023-06-21T15:32:21.-->
+<!--File generated from metadata database-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
