@@ -395,6 +395,8 @@
 						<efac:TenderingParty>
 							<!--"id" : "OPT-210-Tenderer", "name" : "Tendering Party ID -->
 							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							<!--"id" : "OPT-211-Tenderer", "name" : "Tendering Party Name -->
+							<cbc:Name languageID="ENG">Gyro and Others Consortium</cbc:Name>
 							<efac:Tenderer>
 								<!--"id" : "OPT-300-Tenderer", "name" : "Tenderer ID Reference "-->
 								<cbc:ID schemeName="organization">ORG-0008</cbc:ID>
@@ -426,6 +428,8 @@
 						<efac:TenderingParty>
 							<!--"id" : "OPT-210-Tenderer", "name" : "Tendering Party ID -->
 							<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+							<!--"id" : "OPT-211-Tenderer", "name" : "Tendering Party Name -->
+							<cbc:Name languageID="ENG">Competitor</cbc:Name>
 							<efac:Tenderer>
 								<!--"id" : "OPT-300-Tenderer", "name" : "Tenderer ID Reference "-->
 								<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
