@@ -27148,11 +27148,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "28", "CEI", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T02" ],
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T02" ],
         "condition" : "{ND-LotResult} ${(OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(BT-13714-Tender in BT-13713-LotResult) and not(BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present)) or (BT-142-LotResult == 'open-nw')}",
         "value" : true,
         "severity" : "ERROR"
