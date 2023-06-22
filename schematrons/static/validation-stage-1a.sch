@@ -12,9 +12,7 @@
 		<assert id="P-0004" role="ERROR" test="@schemeName">
 			rule|text|P-0004
 		</assert>
-	</rule>
-	<rule context="cac:ProcurementProjectLot/cbc:ID/@schemeName">
-		<assert id="P-0005" role="ERROR" test="normalize-space(.) = ('Part', 'Lot', 'LotsGroup')">
+		<assert id="P-0005" role="ERROR" test="not(@schemeName) or normalize-space(.) = ('Part', 'Lot', 'LotsGroup')">
 			rule|text|P-0005
 		</assert>
 	</rule>
