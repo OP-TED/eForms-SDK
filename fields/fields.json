@@ -5116,6 +5116,25 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "25", "26", "27", "28", "38", "39", "40" ],
+        "condition" : "{ND-NoticeResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) and not(BT-768-Contract == TRUE)}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35" ],
+        "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') and not(BT-768-Contract == TRUE)}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     }
   }, {
@@ -5358,6 +5377,20 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
+        "condition" : "{ND-LotTenderingTerms} ${BT-17-Lot == 'not-allowed'}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "10", "11", "16", "17", "CEI" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -5383,6 +5416,20 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-NonEsubmission} ${not(BT-17-Lot == 'not-allowed')}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -14348,6 +14395,20 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T02" ],
+        "condition" : "{ND-SettledContract} ${(OPT-316-Contract is not present) or (OPT-321-Tender is not present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T02" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -21245,6 +21306,21 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-NonEsubmission} ${BT-17-Lot == 'required'}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24" ],
+        "condition" : "{ND-NonEsubmission} ${BT-17-Lot == 'not-allowed'}",
         "value" : true,
         "severity" : "ERROR"
       } ]
