@@ -4488,7 +4488,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-SettledContract} ${(BT-145-Contract is present) and (BT-05(a)-notice is present) and (OPP-070-notice in ('29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5'))}",
-        "value" : "{ND-SettledContract} ${BT-145-Contract < BT-05(a)-notice}",
+        "value" : "{ND-SettledContract} ${BT-145-Contract <= BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00145-0100"
       } ]
