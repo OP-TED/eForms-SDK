@@ -93,7 +93,6 @@ But with the minimal amount of information while still valid
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
