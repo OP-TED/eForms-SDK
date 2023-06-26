@@ -274,10 +274,22 @@
 			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>ENG</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>TenderDocID1</cbc:ID>
 				<cbc:DocumentTypeCode listName="communication-justification">tdf-non-av</cbc:DocumentTypeCode>
 				<cbc:DocumentType>restricted-document</cbc:DocumentType>
-				<cbc:LanguageID>ENG</cbc:LanguageID>
 				<cac:Attachment>
 					<cac:ExternalReference>
 						<cbc:URI>https://hmlandregistry.force.com</cbc:URI>

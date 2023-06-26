@@ -220,9 +220,21 @@
 				<cbc:Description languageID="ENG">Scottish Water reserves the right to require deposits, guarantees, bonds or other forms of appropriate security.</cbc:Description>
 			</cac:RequiredFinancialGuarantee>
 			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>ENG</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>SomeTenderDocID1</cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
-				<cbc:LanguageID>ENG</cbc:LanguageID>
 				<cac:Attachment>
 					<cac:ExternalReference>
 						<cbc:URI>https://www.delta-esourcing.com/tenders/UK-UK-Glasgow:-Repair-and-maintenance-services./Z9Q7MGAEA8</cbc:URI>

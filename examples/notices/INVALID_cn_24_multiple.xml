@@ -264,9 +264,21 @@
 				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
 			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>invalid</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>invalid</cbc:ID>
 				<cbc:DocumentType>restricted-document</cbc:DocumentType>
-				<cbc:LanguageID>invalid</cbc:LanguageID>
 				<cac:Attachment>
 					<cac:ExternalReference>
 						<cbc:URI>invalid url</cbc:URI>
