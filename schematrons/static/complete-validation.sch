@@ -369,6 +369,7 @@
 		<diagnostic id="BT-24-Part" see="field:BT-24-Part">cbc:Description</diagnostic>
 		<diagnostic id="BT-24-Procedure" see="field:BT-24-Procedure">cbc:Description</diagnostic>
 		<diagnostic id="BT-25-Lot" see="field:BT-25-Lot">cbc:EstimatedOverallContractQuantity</diagnostic>
+		<diagnostic id="BT-262-Procedure" see="field:BT-262-Procedure">cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="BT-263-Lot" see="field:BT-263-Lot">cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="BT-263-Part" see="field:BT-263-Part">cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="BT-263-Procedure" see="field:BT-263-Procedure">cbc:ItemClassificationCode</diagnostic>
