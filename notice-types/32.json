@@ -54,6 +54,7 @@
     "displayType" : "COMBOBOX",
     "description" : "Notice Official Language",
     "_label" : "field|name|BT-702(b)-notice",
+    "_repeatable" : true,
     "hidden" : true
   }, {
     "id" : "BT-05(a)-notice",

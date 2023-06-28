@@ -26,9 +26,6 @@
 		<assert id="OPP-122-Business_R" role="ERROR" diagnostics="OPP-122-Business" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &lt; 2">rule|text|OPP-122-Business_R</assert>
 		<assert id="OPP-123-Business_R" role="ERROR" diagnostics="OPP-123-Business" test="count(cbc:IssueDate) &lt; 2">rule|text|OPP-123-Business_R</assert>
 	</rule>
-	<rule context="/*/cac:AdditionalNoticeLanguage">
-		<assert id="BT-702_b_-notice_R" role="ERROR" diagnostics="BT-702_b_-notice" test="count(cbc:ID) &lt; 2">rule|text|BT-702_b_-notice_R</assert>
-	</rule>
 	<rule context="/*/cac:BusinessCapability">
 		<assert id="OPP-105-Business_R" role="ERROR" diagnostics="OPP-105-Business" test="count(cbc:CapabilityTypeCode) &lt; 2">rule|text|OPP-105-Business_R</assert>
 	</rule>

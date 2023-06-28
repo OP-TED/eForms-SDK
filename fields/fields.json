@@ -18,13 +18,6 @@
     "xsdSequenceOrder" : [ { "cac:AdditionalDocumentReference" : 34 } ],
     "repeatable" : false
   }, {
-    "id" : "ND-AdditionalLanguage",
-    "parentId" : "ND-Root",
-    "xpathAbsolute" : "/*/cac:AdditionalNoticeLanguage",
-    "xpathRelative" : "cac:AdditionalNoticeLanguage",
-    "xsdSequenceOrder" : [ { "cac:AdditionalNoticeLanguage" : 22 } ],
-    "repeatable" : true
-  }, {
     "id" : "ND-BusinessCapability",
     "parentId" : "ND-Root",
     "xpathAbsolute" : "/*/cac:BusinessCapability",
@@ -19383,16 +19376,16 @@
     }
   }, {
     "id" : "BT-702(b)-notice",
-    "parentNodeId" : "ND-AdditionalLanguage",
+    "parentNodeId" : "ND-Root",
     "name" : "Notice Official Language",
     "btId" : "BT-702",
     "xpathAbsolute" : "/*/cac:AdditionalNoticeLanguage/cbc:ID",
-    "xpathRelative" : "cbc:ID",
-    "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
+    "xpathRelative" : "cac:AdditionalNoticeLanguage/cbc:ID",
+    "xsdSequenceOrder" : [ { "cac:AdditionalNoticeLanguage" : 22 }, { "cbc:ID" : 2 } ],
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : {
-      "value" : false,
+      "value" : true,
       "severity" : "ERROR"
     },
     "codeList" : {

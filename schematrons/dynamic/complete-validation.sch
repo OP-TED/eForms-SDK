@@ -511,7 +511,6 @@
 		<diagnostic id="BT-70-Lot" see="field:BT-70-Lot">cbc:Description</diagnostic>
 		<diagnostic id="BT-701-notice" see="field:BT-701-notice">cbc:ID[@schemeName='notice-id']</diagnostic>
 		<diagnostic id="BT-702_a_-notice" see="field:BT-702(a)-notice">cbc:NoticeLanguageCode</diagnostic>
-		<diagnostic id="BT-702_b_-notice" see="field:BT-702(b)-notice">cbc:ID</diagnostic>
 		<diagnostic id="BT-706-UBO" see="field:BT-706-UBO">cbc:NationalityID</diagnostic>
 		<diagnostic id="BT-707-Lot" see="field:BT-707-Lot">cbc:DocumentTypeCode</diagnostic>
 		<diagnostic id="BT-707-Part" see="field:BT-707-Part">cbc:DocumentTypeCode</diagnostic>
