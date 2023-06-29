@@ -18205,15 +18205,6 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{ND-LotTenderingTerms} ${(OPP-070-notice in ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','38','39','40') and (BT-743-Lot == 'required')) or not(OPP-070-notice in ('7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','38','39','40')) or not(BT-743-Lot is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00743-0100"
-      } ]
     }
   }, {
     "id" : "BT-744-Lot",
