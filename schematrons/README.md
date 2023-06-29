@@ -1,4 +1,4 @@
-# eForms Schematron rules
+# The `schematrons` folder
 
 The Schematron rules used to validate eForms notices.
 
@@ -29,3 +29,7 @@ The URL of this service is configured by a variable defined in the file `config.
 The schematron rules can be executed via any standard Schematron implementation, using the file `complete-validation.sch`.
 
 If you use the XSLT implementation at https://github.com/Schematron/schematron, you must implement the following fix so that rules on attributes are fired: https://github.com/Schematron/schematron/issues/29.
+
+## SDK 2: Backwards compatibility
+
+:heavy_check_mark: **No breaking changes** in the metadata provided in this folder have been introduced by SDK 2. Metadata driven applications built on top of SDK 1 should be able to use the metadata provided in this folder without any changes.
