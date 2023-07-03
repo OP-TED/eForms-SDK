@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.120",
-    "createdOn" : "2023-06-29T11:57:45"
+    "version" : "1.8.122",
+    "createdOn" : "2023-06-30T12:29:11"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -2350,6 +2350,10 @@
         "value" : "{ND-Root} ${(BT-05(a)-notice < BT-738-notice) or not(BT-738-notice is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00005-0150"
+      }, {
+        "value" : "{ND-Root} ${((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice in ('cancel','cancel-intent'))) or not((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00005-0151"
       } ]
     }
   }, {
