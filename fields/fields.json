@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.122",
-    "createdOn" : "2023-06-30T12:29:11"
+    "version" : "1.8.126",
+    "createdOn" : "2023-07-03T16:42:11"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -654,13 +654,6 @@
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']",
     "xpathRelative" : "cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']",
-    "xsdSequenceOrder" : [ { "cac:ContractExecutionRequirement" : 38 } ],
-    "repeatable" : false
-  }, {
-    "id" : "ND-ReservedExecution",
-    "parentId" : "ND-LotTenderingTerms",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution']",
-    "xpathRelative" : "cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution']",
     "xsdSequenceOrder" : [ { "cac:ContractExecutionRequirement" : 38 } ],
     "repeatable" : false
   }, {
@@ -26520,7 +26513,7 @@
     }
   }, {
     "id" : "OPT-070-Lot",
-    "parentNodeId" : "ND-ReservedExecution",
+    "parentNodeId" : "ND-LotReservedExecution",
     "name" : "Reserved Execution justification",
     "btId" : "OPT-070",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution']/cbc:Description",
