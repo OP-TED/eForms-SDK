@@ -26482,64 +26482,6 @@
       "severity" : "ERROR"
     }
   }, {
-    "id" : "OPT-050-Lot",
-    "parentNodeId" : "ND-LotProcurementDocument",
-    "name" : "Document Status",
-    "btId" : "OPT-050",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentStatusCode",
-    "xpathRelative" : "cbc:DocumentStatusCode",
-    "xsdSequenceOrder" : [ { "cbc:DocumentStatusCode" : 14 } ],
-    "type" : "code",
-    "repeatable" : {
-      "value" : false,
-      "severity" : "ERROR"
-    },
-    "forbidden" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "codeList" : {
-      "value" : {
-        "id" : "document-status",
-        "type" : "flat"
-      },
-      "severity" : "ERROR"
-    }
-  }, {
-    "id" : "OPT-050-Part",
-    "parentNodeId" : "ND-PartProcurementDocument",
-    "name" : "Document Status",
-    "btId" : "OPT-050",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentStatusCode",
-    "xpathRelative" : "cbc:DocumentStatusCode",
-    "xsdSequenceOrder" : [ { "cbc:DocumentStatusCode" : 14 } ],
-    "type" : "code",
-    "repeatable" : {
-      "value" : false,
-      "severity" : "ERROR"
-    },
-    "forbidden" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "codeList" : {
-      "value" : {
-        "id" : "document-status",
-        "type" : "flat"
-      },
-      "severity" : "ERROR"
-    }
-  }, {
     "id" : "OPT-060-Lot",
     "parentNodeId" : "ND-ExecutionRequirements",
     "name" : "Execution Requirements Factor",
