@@ -1181,8 +1181,8 @@
   }, {
     "id" : "ND-GroupCompositionLotReference",
     "parentId" : "ND-GroupComposition",
-    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference[cbc:ID/@schemeName='Lot']",
-    "xpathRelative" : "cac:ProcurementProjectLotReference[cbc:ID/@schemeName='Lot']",
+    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference",
+    "xpathRelative" : "cac:ProcurementProjectLotReference",
     "xsdSequenceOrder" : [ { "cac:ProcurementProjectLotReference" : 3 } ],
     "repeatable" : true
   }, {
@@ -4128,7 +4128,7 @@
     "parentNodeId" : "ND-GroupCompositionLotReference",
     "name" : "Group Lot Identifier",
     "btId" : "BT-1375",
-    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference[cbc:ID/@schemeName='Lot']/cbc:ID[@schemeName='Lot']",
+    "xpathAbsolute" : "/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference/cbc:ID[@schemeName='Lot']",
     "xpathRelative" : "cbc:ID[@schemeName='Lot']",
     "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
     "type" : "id-ref",

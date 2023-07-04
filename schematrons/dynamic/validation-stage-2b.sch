@@ -933,7 +933,7 @@
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup">
 		<assert id="BT-330-Procedure_R" role="ERROR" diagnostics="BT-330-Procedure" test="count(cbc:LotsGroupID) &lt; 2">rule|text|BT-330-Procedure_R</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference[cbc:ID/@schemeName='Lot']">
+	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference">
 		<assert id="BT-1375-Procedure_R" role="ERROR" diagnostics="BT-1375-Procedure" test="count(cbc:ID[@schemeName='Lot']) &lt; 2">rule|text|BT-1375-Procedure_R</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']">
