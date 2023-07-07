@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.126",
-    "createdOn" : "2023-07-03T16:42:11"
+    "version" : "1.8.154",
+    "createdOn" : "2023-07-07T15:03:30"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -4167,14 +4167,6 @@
         "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 't-no-eea'] <= BT-759-LotResult[BT-760-LotResult == 'tenders']) or not(BT-759-LotResult[BT-760-LotResult == 't-no-eea'] is present) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0105"
-      }, {
-        "value" : "{ND-LotResult} ${every context:$highestBid in ND-LotResult[BT-711-LotResult is present], context:$lot in ND-Lot[BT-137-Lot in $highestBid::BT-13713-LotResult] satisfies (($highestBid::BT-711-LotResult <= (100 * $lot::BT-27-Lot)) and ($lot::BT-137-Lot == $highestBid::BT-13713-LotResult)) or not($lot::BT-137-Lot == $highestBid::BT-13713-LotResult) or not($lot::BT-27-Lot is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-13713-0106"
-      }, {
-        "value" : "{ND-LotResult} ${every context:$result in ND-LotResult[OPT-315-LotResult is present], context:$lot in ND-Lot[BT-137-Lot in $result::BT-13713-LotResult], context:$tender in ND-LotTender[(OPT-321-Tender in $result::OPT-320-LotResult) and (BT-720-Tender is present)] satisfies (($tender::BT-720-Tender <= (100 * $lot::BT-27-Lot)) and ($lot::BT-137-Lot == $result::BT-13713-LotResult) and ($tender::OPT-321-Tender == $result::OPT-320-LotResult)) or not($lot::BT-137-Lot == $tender::BT-13714-Tender) or not($tender::OPT-321-Tender == $result::OPT-320-LotResult) or not($lot::BT-27-Lot is present) or not ($tender::BT-720-Tender is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-13713-0108"
       }, {
         "value" : "{ND-LotResult} ${BT-13713-LotResult in /BT-137-Lot}",
         "severity" : "ERROR",
