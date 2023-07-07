@@ -130,7 +130,7 @@
             <SimpleValue>Оферентът трябва да подаде оферти за всички обособени позиции</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Uchazeč musí předložit nabídky pro všechny části</SimpleValue>
+            <SimpleValue>Uchazeč musí podat nabídky pro všechny části</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tilbudsgiveren skal afgive bud for alle delkontrakter</SimpleValue>
@@ -145,19 +145,19 @@
             <SimpleValue>The tenderer must submit tenders for all lots</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>El licitador deberá presentar ofertas para todos los lotes</SimpleValue>
+            <SimpleValue>El licitador debe presentar ofertas para todos los lotes</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Pakkuja peab esitama pakkumused kõigi osade kohta</SimpleValue>
+            <SimpleValue>Pakkuja peab esitama pakkumused kõikide osade kohta</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Tarjouksen tekijän on jätettävä tarjous kaikista eristä</SimpleValue>
+            <SimpleValue>Tarjouksen tekijän on esitettävä tarjoukset kaikista eristä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Le soumissionnaire doit soumettre une offre pour tous les lots</SimpleValue>
+            <SimpleValue>Le soumissionnaire doit présenter une offre pour l’ensemble des lots</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Ní mór don tairgeoir tairiscintí a chur isteach do gach luchtóg</SimpleValue>
+            <SimpleValue>Ní mór don tairgeoir tairiscint a chur isteach i leith gach birt</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Ponuditelj mora dostaviti ponude za sve grupe</SimpleValue>
@@ -169,28 +169,28 @@
             <SimpleValue>L'offerente deve presentare offerte per tutti i lotti</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Konkurso dalyvis turi pateikti pasiūlymus dėl visų dalių</SimpleValue>
+            <SimpleValue>Dalyvis privalo pateikti pasiūlymus dėl visų pirkimo dalių</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Pretendentam jāiesniedz piedāvājumi par visām daļām</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-offerent għandu jissottometti offerti għal-lottijiet kollha</SimpleValue>
+            <SimpleValue>L-offerent irid iressaq offerti għal-lottijiet kollha</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>De inschrijver moet voor alle percelen inschrijvingen indienen</SimpleValue>
+            <SimpleValue>De inschrijver moet op alle percelen inschrijven</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oferent musi złożyć oferty w odniesieniu do wszystkich części zamówienia</SimpleValue>
+            <SimpleValue>Oferent musi złożyć oferty dotyczące wszystkich części zamówienia</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>O proponente deve apresentar propostas para todos os lotes</SimpleValue>
+            <SimpleValue>O proponente tem de apresentar propostas para todos os lotes</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Ofertantul trebuie să depună oferte pentru toate loturile</SimpleValue>
+            <SimpleValue>Ofertantul trebuie să prezinte oferte pentru toate loturile.</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Uchádzač musí predložiť ponuky na všetky časti</SimpleValue>
+            <SimpleValue>Uchádzač musí predložiť ponuky pre všetky časti</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Ponudnik mora predložiti ponudbe za vse sklope</SimpleValue>

@@ -5,7 +5,7 @@
       <ShortName>PinOnly</ShortName>
       <LongName>pin-only</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.8.104</Version>
+      <Version>1.8.161</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -368,73 +368,73 @@
             <SimpleValue>E2</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Само обявление за предварителна информация под прага (PIN)</SimpleValue>
+            <SimpleValue>Обявление за предварителна информация, използвано само за информация, под прага</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Pouze oznámení předběžných informací pod prahovou hodnotou (PIN)</SimpleValue>
+            <SimpleValue>Pouze předběžná oznámení pro podlimitní zakázky</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Kun forhåndsmeddelelse under tærskelværdien (PIN)</SimpleValue>
+            <SimpleValue>Kun under tærskel for forhåndsmeddelelse (PIN)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Nur Vorinformation unterhalb des Schwellenwerts (PIN)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Μόνο προκήρυξη προκαταρκτικής ενημέρωσης κάτω από το κατώτατο όριο (PIN)</SimpleValue>
+            <SimpleValue>Μόνο προκαταρκτική προκήρυξη (PIN) κάτω από το κατώτατο όριο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Below threshold prior information notice (PIN) only</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Solo por debajo del umbral del anuncio de información previa (PIN)</SimpleValue>
+            <SimpleValue>Solo anuncio de información previa por debajo del umbral</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Ainult alla künnise jääva eelteate (PIN)</SimpleValue>
+            <SimpleValue>Üksnes piirmäärast allapoole jääv eelteade (PIN)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Vain kynnysarvon alittava ennakkoilmoitus (PIN)</SimpleValue>
+            <SimpleValue>Kynnysarvon alittava ennakkoilmoitus</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Avis de préinformation (PIN) inférieur au seuil uniquement</SimpleValue>
+            <SimpleValue>Seuil non atteint avis de préinformation uniquement</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Faoi bhun na tairsí fógra réamhfhaisnéise (PIN) amháin</SimpleValue>
+            <SimpleValue>Faoi bhun thairseach an fhógra réamhfhaisnéise (PIN) amháin</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Samo prethodna informacijska obavijest ispod praga (PIN)</SimpleValue>
+            <SimpleValue>Samo prethodna informacijska obavijest (PIN) ispod granične vrijednosti</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Küszöbérték alatti előzetes tájékoztató (PIN)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Solo avviso di preinformazione al di sotto della soglia (PIN)</SimpleValue>
+            <SimpleValue>Avviso o bando di preinformazione (PIN) a fini unicamente informativi al di sotto della soglia</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Tik žemiau ribinės vertės išankstiniame informaciniame skelbime (PIN)</SimpleValue>
+            <SimpleValue>Finansinės vertės ribos nesiekiantys viešieji pirkimai: tik išankstinis informacinis skelbimas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Tikai par robežvērtību mazāks nekā iepriekšējs informatīvs paziņojums (PIN)</SimpleValue>
+            <SimpleValue>Zem sliekšņa, iepriekšējs informatīvs paziņojums, ko izmanto tikai informācijai (publicēts vēlāk)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Avviż ta’ informazzjoni minn qabel taħt il-limitu minimu (PIN) biss</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Alleen vooraankondiging onder de drempelwaarde (PIN)</SimpleValue>
+            <SimpleValue>Alleen vooraankondiging onder de drempelwaarde</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Jedynie wstępne ogłoszenie informacyjne poniżej progu (PIN)</SimpleValue>
+            <SimpleValue>Tylko wstępne ogłoszenie informacyjne (PIN) o zamówieniu poniżej progu</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Apenas abaixo do limiar do anúncio de pré-informação (PIN)</SimpleValue>
+            <SimpleValue>Abaixo do limiar para anúncio de pré-informação (API) apenas</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Numai anunțul de informare prealabilă (PIN) sub prag</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Len predbežné oznámenie pod prahovou hodnotou (PIN)</SimpleValue>
+            <SimpleValue>Len predbežné oznámenie (PIN) pod prahovou hodnotou</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Samo predhodno informativno obvestilo (PIN) pod mejno vrednostjo</SimpleValue>
+            <SimpleValue>Samo predhodno informativno obvestilo o naročilu pod pragom</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Endast förhandsmeddelande under tröskelvärdet (PIN)</SimpleValue>

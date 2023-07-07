@@ -5,7 +5,7 @@
       <ShortName>DpsUsage</ShortName>
       <LongName>dps-usage</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/dps-usage</LongName>
-      <Version>20220316-0</Version>
+      <Version>20230614-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/dps-usage</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -197,7 +197,7 @@
             <SimpleValue>Dinamični nabavni sistem, ki ga lahko uporabljajo samo kupci, navedeni v tem obvestilu</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Dynamiskt inköpssystem som endast kan användas av upphandlare som förtecknas i detta meddelande</SimpleValue>
+            <SimpleValue>Dynamiskt inköpssystem som endast kan användas av köpare som förtecknas i detta meddelande</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -277,7 +277,7 @@
             <SimpleValue>Dinamični nabavni sistem, ki ga lahko uporabljajo tudi kupci, ki niso navedeni v tem obvestilu</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Dynamiskt inköpssystem som också kan användas av upphandlare som inte förtecknas i detta meddelande</SimpleValue>
+            <SimpleValue>Dynamiskt inköpssystem som också kan användas av köpare som inte förtecknas i detta meddelande</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -285,79 +285,79 @@
             <SimpleValue>none</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>None</SimpleValue>
+            <SimpleValue>No dynamic purchase system</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Няма</SimpleValue>
+            <SimpleValue>Няма динамична система за покупки</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Žádná z možností</SimpleValue>
+            <SimpleValue>Žádný dynamický nákupní systém</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Ingen</SimpleValue>
+            <SimpleValue>Intet dynamisk indkøbssystem</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Entfällt</SimpleValue>
+            <SimpleValue>Kein dynamisches Beschaffungssystem</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κανένα</SimpleValue>
+            <SimpleValue>Κανένα δυναμικό σύστημα αγορών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>None</SimpleValue>
+            <SimpleValue>No dynamic purchase system</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Ninguno</SimpleValue>
+            <SimpleValue>Ningún sistema dinámico de adquisición</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Ei kohaldata</SimpleValue>
+            <SimpleValue>Ei kohaldata dünaamilist hankesüsteemi</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Ei sovelleta</SimpleValue>
+            <SimpleValue>Ei dynaamista hankintajärjestelmää</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Aucun</SimpleValue>
+            <SimpleValue>Pas de système d’acquisition dynamique</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Ceann ar bith</SimpleValue>
+            <SimpleValue>Níl feidhm ag córas ceannaigh dinimiciúil</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ne primjenjuje se</SimpleValue>
+            <SimpleValue>Nema dinamičkog sustava nabave</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Nincs</SimpleValue>
+            <SimpleValue>Nem dinamikus beszerzési rendszer</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Nulla</SimpleValue>
+            <SimpleValue>Nessun sistema dinamico di acquisizione</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Netaikoma</SimpleValue>
+            <SimpleValue>Dinaminės pirkimo sistemos nėra</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Nav</SimpleValue>
+            <SimpleValue>Nav dinamiskās iepirkumu sistēmas</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-ebda</SimpleValue>
+            <SimpleValue>Ebda sistema dinamika ta’ xiri</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Geen</SimpleValue>
+            <SimpleValue>Geen dynamisch aankoopsysteem</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Brak</SimpleValue>
+            <SimpleValue>Brak dynamicznego systemu zakupów</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Nenhum</SimpleValue>
+            <SimpleValue>Inexistência de sistema de aquisição dinâmico</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Niciunul</SimpleValue>
+            <SimpleValue>Nu există un sistem dinamic de achiziție</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Žiadny</SimpleValue>
+            <SimpleValue>Žiadny dynamický nákupný systém</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ne obstaja</SimpleValue>
+            <SimpleValue>Ni dinamičnega nabavnega sistema</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Inget</SimpleValue>
+            <SimpleValue>Upphandlingen avser inte ett dynamiskt inköpssystem</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
