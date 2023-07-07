@@ -46,6 +46,9 @@
 							<efac:ContractReference>
 								<cbc:ID>d1cc5b48-fefc-405f-b888-b0727cd632a0-01</cbc:ID>
 							</efac:ContractReference>
+							<efac:LotTender>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							</efac:LotTender>
 						</efac:SettledContract>
 						<efac:TenderingParty>
 							<cbc:ID>TPA-0001</cbc:ID>
@@ -109,6 +112,7 @@
 							</efac:TouchPoint>
 						</efac:Organization>
 						<efac:Organization>
+							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<cac:PartyIdentification>
 									<cbc:ID>ORG-0002</cbc:ID>
@@ -134,7 +138,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.8</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">cbe9e7b7-6860-4bb1-a200-b3ada0ff6fbe</cbc:ID>
 	<cbc:ContractFolderID>75db4bef-aae6-41f1-a593-d5dc62abd907</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>

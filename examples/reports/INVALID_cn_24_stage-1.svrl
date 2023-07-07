@@ -224,19 +224,19 @@
    <svrl:failed-assert id="BR-BT-00765-0073"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
                        role="ERROR"
-                       test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']) &gt; 0">
+                       test="count(cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode[@listName='framework-agreement']) &gt; 0">
       <svrl:text>rule|text|BR-BT-00765-0073</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-765-Lot" see="field:BT-765-Lot">
-         <svrl:text>cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='framework-agreement']</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-LotTenderingProcess_BT-765-Lot" see="field:BT-765-Lot">
+         <svrl:text>cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode[@listName='framework-agreement']</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00766-0022"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
                        role="ERROR"
-                       test="count(cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']) &gt; 0">
+                       test="count(cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage']/cbc:ContractingSystemTypeCode[@listName='dps-usage']) &gt; 0">
       <svrl:text>rule|text|BR-BT-00766-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-766-Lot" see="field:BT-766-Lot">
-         <svrl:text>cac:ContractingSystem/cbc:ContractingSystemTypeCode[@listName='dps-usage']</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-LotTenderingProcess_BT-766-Lot" see="field:BT-766-Lot">
+         <svrl:text>cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage']/cbc:ContractingSystemTypeCode[@listName='dps-usage']</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
@@ -271,28 +271,28 @@
    <svrl:failed-assert id="BR-BT-00736-0073"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
-                       test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']) &gt; 0">
+                       test="count(cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution']/cbc:ExecutionRequirementCode[@listName='reserved-execution']) &gt; 0">
       <svrl:text>rule|text|BR-BT-00736-0073</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-736-Lot" see="field:BT-736-Lot">
-         <svrl:text>cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-LotTenderingTerms_BT-736-Lot" see="field:BT-736-Lot">
+         <svrl:text>cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution']/cbc:ExecutionRequirementCode[@listName='reserved-execution']</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00743-0022"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
-                       test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']) &gt; 0">
+                       test="count(cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='einvoicing']/cbc:ExecutionRequirementCode[@listName='einvoicing']) &gt; 0">
       <svrl:text>rule|text|BR-BT-00743-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-743-Lot" see="field:BT-743-Lot">
-         <svrl:text>cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-LotTenderingTerms_BT-743-Lot" see="field:BT-743-Lot">
+         <svrl:text>cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='einvoicing']/cbc:ExecutionRequirementCode[@listName='einvoicing']</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00764-0022"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
-                       test="count(cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']) &gt; 0">
+                       test="count(cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='ecatalog-submission']/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']) &gt; 0">
       <svrl:text>rule|text|BR-BT-00764-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-764-Lot" see="field:BT-764-Lot">
-         <svrl:text>cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-LotTenderingTerms_BT-764-Lot" see="field:BT-764-Lot">
+         <svrl:text>cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='ecatalog-submission']/cbc:ExecutionRequirementCode[@listName='ecatalog-submission']</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
@@ -373,15 +373,6 @@
       <svrl:text>rule|text|BR-BT-00067-0022</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-67_a_-Procedure" see="field:BT-67(a)-Procedure">
          <svrl:text>cbc:TendererRequirementTypeCode[@listName='exclusion-ground']</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="BR-BT-00067-0073"
-                       location="/cn:ContractNotice/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement"
-                       role="ERROR"
-                       test="count(cbc:Description) &gt; 0">
-      <svrl:text>rule|text|BR-BT-00067-0073</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-67_b_-Procedure" see="field:BT-67(b)-Procedure">
-         <svrl:text>cbc:Description</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
@@ -681,6 +672,15 @@
    <svrl:active-pattern id="EFORMS-validation-stage-4"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:failed-assert id="BR-BT-00018-0022"
+                       location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
+                       role="ERROR"
+                       test="count(cac:TenderRecipientParty/cbc:EndpointID) &gt; 0 or (../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">
+      <svrl:text>rule|text|BR-BT-00018-0022</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-LotTenderingTerms_BT-18-Lot" see="field:BT-18-Lot">
+         <svrl:text>cac:TenderRecipientParty/cbc:EndpointID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:failed-assert id="BR-OPT-00140-0123"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:CallForTendersDocumentReference"
@@ -691,6 +691,7 @@
          <svrl:text>cbc:ID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>

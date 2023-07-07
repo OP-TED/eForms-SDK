@@ -429,7 +429,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.8</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">14549263-b47b-4e59-96a1-2d0d13e19343</cbc:ID>
 	<!--BT-04-->
@@ -837,13 +837,33 @@
 				</cac:IssuerParty>
 			</cac:EmploymentLegislationDocumentReference>
 			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:NonOfficialLanguages>
+									<cac:Language>
+										<!--BT-737-->
+										<cbc:ID>CAT</cbc:ID>
+									</cac:Language>
+								</efac:NonOfficialLanguages>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<!--BT-708-->
+										<cbc:ID>ENG</cbc:ID>
+									</cac:Language>
+									<cac:Language>
+										<!--BT-708-->
+										<cbc:ID>FRA</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>Doc1</cbc:ID>
 				<!--BT-14-->
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
-				<!--BT-708-->
-				<cbc:LanguageID>ENG</cbc:LanguageID>
-				<!--OPT-050-->
-				<cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
 				<cac:Attachment>
 					<cac:ExternalReference>
 						<!--BT-15-->
@@ -852,36 +872,30 @@
 				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
 			<cac:CallForTendersDocumentReference>
-				<cbc:ID>Doc1</cbc:ID>
-				<!--BT-14-->
-				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
-				<!--BT-708-->
-				<cbc:LanguageID>FRA</cbc:LanguageID>
-				<!--OPT-050-->
-				<cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
-				<cac:Attachment>
-					<cac:ExternalReference>
-						<!--BT-15-->
-						<cbc:URI>http://nonrestricteddocuments.com</cbc:URI>
-					</cac:ExternalReference>
-				</cac:Attachment>
-			</cac:CallForTendersDocumentReference>
-			<cac:CallForTendersDocumentReference>
-				<cbc:ID>Doc1</cbc:ID>
-				<!--BT-14-->
-				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
-				<!--BT-737-->
-				<cbc:LanguageID>CAT</cbc:LanguageID>
-				<!--OPT-050-->
-				<cbc:DocumentStatusCode listName="document-status">non-official</cbc:DocumentStatusCode>
-				<cac:Attachment>
-					<cac:ExternalReference>
-						<!--BT-15-->
-						<cbc:URI>http://nonrestricteddocuments.com</cbc:URI>
-					</cac:ExternalReference>
-				</cac:Attachment>
-			</cac:CallForTendersDocumentReference>
-			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:NonOfficialLanguages>
+									<cac:Language>
+										<!--BT-737-->
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:NonOfficialLanguages>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<!--BT-708-->
+										<cbc:ID>ENG</cbc:ID>
+									</cac:Language>
+									<cac:Language>
+										<!--BT-708-->
+										<cbc:ID>FRA</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>Doc2</cbc:ID>
 				<!--BT-14-->
 				<cbc:DocumentType>restricted-document</cbc:DocumentType>
@@ -1389,13 +1403,33 @@
 				</cac:IssuerParty>
 			</cac:EmploymentLegislationDocumentReference>
 			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:NonOfficialLanguages>
+									<cac:Language>
+										<!--BT-737-->
+										<cbc:ID>CAT</cbc:ID>
+									</cac:Language>
+								</efac:NonOfficialLanguages>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<!--BT-708-->
+										<cbc:ID>ENG</cbc:ID>
+									</cac:Language>
+									<cac:Language>
+										<!--BT-708-->
+										<cbc:ID>FRA</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>Doc1</cbc:ID>
 				<!--BT-14-->
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
-				<!--BT-708-->
-				<cbc:LanguageID>ENG</cbc:LanguageID>
-				<!--OPT-050-->
-				<cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
 				<cac:Attachment>
 					<cac:ExternalReference>
 						<!--BT-15-->
@@ -1404,36 +1438,30 @@
 				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
 			<cac:CallForTendersDocumentReference>
-				<cbc:ID>Doc1</cbc:ID>
-				<!--BT-14-->
-				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
-				<!--BT-708-->
-				<cbc:LanguageID>FRA</cbc:LanguageID>
-				<!--OPT-050-->
-				<cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
-				<cac:Attachment>
-					<cac:ExternalReference>
-						<!--BT-15-->
-						<cbc:URI>http://nonrestricteddocuments.com</cbc:URI>
-					</cac:ExternalReference>
-				</cac:Attachment>
-			</cac:CallForTendersDocumentReference>
-			<cac:CallForTendersDocumentReference>
-				<cbc:ID>Doc1</cbc:ID>
-				<!--BT-14-->
-				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
-				<!--BT-737-->
-				<cbc:LanguageID>CAT</cbc:LanguageID>
-				<!--OPT-050-->
-				<cbc:DocumentStatusCode listName="document-status">non-official</cbc:DocumentStatusCode>
-				<cac:Attachment>
-					<cac:ExternalReference>
-						<!--BT-15-->
-						<cbc:URI>http://nonrestricteddocuments.com</cbc:URI>
-					</cac:ExternalReference>
-				</cac:Attachment>
-			</cac:CallForTendersDocumentReference>
-			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:NonOfficialLanguages>
+									<cac:Language>
+										<!--BT-737-->
+										<cbc:ID>DEU</cbc:ID>
+									</cac:Language>
+								</efac:NonOfficialLanguages>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<!--BT-708-->
+										<cbc:ID>ENG</cbc:ID>
+									</cac:Language>
+									<cac:Language>
+										<!--BT-708-->
+										<cbc:ID>FRA</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>Doc2</cbc:ID>
 				<!--BT-14-->
 				<cbc:DocumentType>restricted-document</cbc:DocumentType>
