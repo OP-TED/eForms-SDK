@@ -2,10 +2,6 @@
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.7.0 should also be able to use this version.
 
-## Additional information
-
-In the `translations` folder, 2 new files were added to provide information on the languages for which we provide translations: 2-letter and 3-letter code, and the language name in English. This is provided in 2 formats: JSON (`translations.json`) and XML (`translations.xml`).
-
 ## Updated metadata content
 
 This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency. The following is an overview of the main changes:
