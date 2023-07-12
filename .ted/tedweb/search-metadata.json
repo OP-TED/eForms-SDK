@@ -144,7 +144,7 @@
 		"comment": "(TV) Total value of the procurement"
 	},
 	"TVEC": {
-		"efx": "{ND-Root} ${value-union(value-union(/OPA-27-Procedure-Currency, /OPA-161-NoticeResult-Currency), /OPA-118-NoticeResult-Currency)}",
+		"efx": "{ND-Root} ${value-union(value-union(/BT-27-Procedure-Currency, /BT-161-NoticeResult-Currency), /BT-118-NoticeResult-Currency)}",
 		"comment": "(TV_CUR) Currency of the estimated/total value of the procurement"
 	},
 	"TVL": {
