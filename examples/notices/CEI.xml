@@ -257,7 +257,6 @@ Applicants must provide evidence of their ability, skills, experience and compet
 				</ext:UBLExtension>
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
-			<cbc:RequiredCurriculaIndicator>true</cbc:RequiredCurriculaIndicator>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>Dummy ID</cbc:ID>
 				<!--<cbc:DocumentTypeCode listName="communication-justification">ipr-iss</cbc:DocumentTypeCode>-->
