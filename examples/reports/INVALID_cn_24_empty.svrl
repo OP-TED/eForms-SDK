@@ -52,17 +52,6 @@
          <svrl:text>cac:TenderingTerms</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
-   <svrl:failed-assert id="ND-ProcedureMainClassification-16"
-                       location="/cn:ContractNotice/cac:ProcurementProject"
-                       role="ERROR"
-                       test="count(cac:MainCommodityClassification) &gt; 0">
-      <svrl:text>rule|text|ND-ProcedureMainClassification-16</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-ProcedureMainClassification"
-                                 see="node:ND-ProcedureMainClassification">
-         <svrl:text>cac:MainCommodityClassification</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:failed-assert id="ND-Organizations-16"
                        location="/cn:ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
