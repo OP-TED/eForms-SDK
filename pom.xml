@@ -53,7 +53,7 @@
     <sonatype.server.url>s01.oss.sonatype.org</sonatype.server.url>
 
     <!-- Versions eForms -->
-    <version.eforms-sdk-analyzer>1.8.0-SNAPSHOT</version.eforms-sdk-analyzer>
+    <version.eforms-sdk-analyzer>1.8.0</version.eforms-sdk-analyzer>
 
     <!-- Versions - Plugins -->
     <version.dependency.plugin>3.5.0</version.dependency.plugin>
