@@ -127,46 +127,46 @@
             <SimpleValue>Decision has been made by the Review Body regarding the current request.</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Решението е взето от преразглеждащия орган по отношение на настоящото искане</SimpleValue>
+            <SimpleValue>Органът за преразглеждане (обжалване) е взел решение относно настоящото искане</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Orgán příslušný k přezkumu rozhodl o této žádosti</SimpleValue>
+            <SimpleValue>O této žádosti rozhodl orgán příslušný k přezkumu</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Klageorganet har truffet afgørelse om den aktuelle anmodning</SimpleValue>
+            <SimpleValue>En beslutning er blevet truffet af gennemgangsorganet vedrørende den aktuelle anmodning</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Die Überprüfungsstelle hat über den vorliegenden Antrag entschieden</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Έχει ληφθεί απόφαση από το όργανο προσφυγής σχετικά με την τρέχουσα αίτηση</SimpleValue>
+            <SimpleValue>Έχει ληφθεί απόφαση από το όργανο προσφυγής σχετικά με την τρέχουσα προδικαστική προσφυγή</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Decision has been made by the review body regarding the current request</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>El órgano de recurso ha tomado una decisión sobre la presente solicitud.</SimpleValue>
+            <SimpleValue>El órgano de recurso ha tomado una decisión sobre la presente solicitud</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Läbivaatamisasutus on teinud otsuse käesoleva taotluse kohta.</SimpleValue>
+            <SimpleValue>Läbivaatamisasutus on teinud käesoleva taotluse kohta otsuse</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Muutoksenhakuelin on tehnyt päätöksen käsiteltävänä olevasta pyynnöstä</SimpleValue>
+            <SimpleValue>Muutoksenhakuelin on tehnyt päätöksen käsillä olevasta pyynnöstä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>La présente demande a fait l’objet d’une décision de l’organe de recours.</SimpleValue>
+            <SimpleValue>La présente demande a fait l’objet d’une décision de l’instance chargée des procédures de recours</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Tá cinneadh déanta ag an gcomhlacht athbhreithnithe maidir leis an iarratas reatha</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Tijelo nadležno za pravnu zaštitu donijelo je odluku o trenutačnom zahtjevu</SimpleValue>
+            <SimpleValue>Tijelo nadležno za pravnu zaštitu (preispitivanje) donijelo je odluku o trenutačnom zahtjevu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>A felülvizsgálati szerv határozatot hozott a jelen kérelemről</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>L'organo di ricorso ha preso una decisione in merito alla presente richiesta.</SimpleValue>
+            <SimpleValue>L'organo competente per i ricorsi ha preso una decisione in merito alla richiesta.</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Peržiūros institucija priėmė sprendimą dėl dabartinio prašymo</SimpleValue>
@@ -178,22 +178,22 @@
             <SimpleValue>Ittieħdet deċiżjoni mill-korp ta’ rieżami dwar it-talba attwali</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>De beroepsinstantie heeft een besluit genomen over het huidige verzoek.</SimpleValue>
+            <SimpleValue>De beroepsinstantie heeft een besluit genomen over het huidige verzoek</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Organ odwoławczy podjął decyzję w sprawie obecnego wniosku</SimpleValue>
+            <SimpleValue>Decyzję dotyczącą bieżącego odwołania podjął organ odwoławczy</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>A instância de recurso tomou uma decisão sobre o presente pedido</SimpleValue>
+            <SimpleValue>O órgão de recurso tomou uma decisão relativamente ao presente pedido</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Organismul de soluționare a căilor de atac a luat o decizie cu privire la cererea actuală</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Orgán zodpovedný za preskúmanie prijal rozhodnutie v súvislosti s touto žiadosťou</SimpleValue>
+            <SimpleValue>Orgán zodpovedný za preskúmanie prijal rozhodnutie v súvislosti s danou žiadosťou</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Revizijski organ je sprejel odločitev v zvezi s trenutnim zahtevkom.</SimpleValue>
+            <SimpleValue>Revizijski organ je sprejel odločitev v zvezi z aktualnim zahtevkom</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Prövningsorganet har fattat beslut om den aktuella begäran</SimpleValue>
@@ -207,73 +207,73 @@
             <SimpleValue>Review has been requested and is still under process</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Прегледът е поискан и все още е в процес на разглеждане</SimpleValue>
+            <SimpleValue>Поискано е преразглеждане (обжалване), което все още продължава</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Přezkum byl vyžádán a stále probíhá.</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Der er anmodet om revision, som stadig er under behandling</SimpleValue>
+            <SimpleValue>Der er anmodet om gennemgang, og anmodningen behandles stadig</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Überprüfung wurde beantragt und ist noch im Gange</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Η επανεξέταση έχει ζητηθεί και βρίσκεται ακόμη στο στάδιο της διαδικασίας</SimpleValue>
+            <SimpleValue>Έχει υποβληθεί προσφυγή η οποία βρίσκεται ακόμη υπό εξέταση</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Review has been requested and is still under process</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Se ha solicitado la revisión y aún está en curso</SimpleValue>
+            <SimpleValue>Se ha solicitado un recurso y aún está en curso</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
             <SimpleValue>Läbivaatamist on taotletud ja see on veel pooleli</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Uudelleentarkastelua on pyydetty, ja sitä valmistellaan edelleen.</SimpleValue>
+            <SimpleValue>Muutosta on haettu, ja sen käsittely on kesken.</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Un réexamen a été demandé et est toujours en cours</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Iarradh athbhreithniú agus tá sé fós á phróiseáil</SimpleValue>
+            <SimpleValue>Tá an t-athbhreithniú iarrtha agus tá sé á phróiseáil go fóill</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Preispitivanje je zatraženo i još je u tijeku</SimpleValue>
+            <SimpleValue>Pravna zaštita (preispitivanje) je zatražena, zahtjev je u obradi</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Felülvizsgálatot kértek, és jelenleg is folyamatban van</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Il riesame è stato richiesto ed è ancora in corso</SimpleValue>
+            <SimpleValue>Il ricorso è stato presentato e la procedura è ancora in corso</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Peržiūros buvo paprašyta ir ji vis dar nagrinėjama</SimpleValue>
+            <SimpleValue>Buvo paprašyta peržiūros ir ji tebevyksta</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Pārskatīšana ir pieprasīta un joprojām turpinās</SimpleValue>
+            <SimpleValue>Pārskatīšana ir pieprasīta, bet lēmums vēl nav pieņemts</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Intalab rieżami u għadu qed jiġi pproċessat</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Herziening is aangevraagd en loopt nog steeds</SimpleValue>
+            <SimpleValue>Beroep is aangevraagd en wordt nog steeds verwerkt</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Zwrócono się o dokonanie przeglądu i jest on nadal w toku</SimpleValue>
+            <SimpleValue>Złożono wniosek o odwołanie i jest on nadal rozpatrywany</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>A revisão foi solicitada e está ainda em curso</SimpleValue>
+            <SimpleValue>O recurso foi pedido e ainda está em curso</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Revizuirea a fost solicitată și este încă în curs de desfășurare</SimpleValue>
+            <SimpleValue>Cererea de soluționare a căilor de atac a fost introdusă și procedura este în curs</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Preskúmanie bolo vyžiadané a stále prebieha</SimpleValue>
+            <SimpleValue>Požiadalo sa o preskúmanie, ktoré stále prebieha</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Zahtevan je bil pregled, ki je še v postopku</SimpleValue>
+            <SimpleValue>Revizija je bila zahtevana in še vedno poteka</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Översyn har begärts och pågår fortfarande</SimpleValue>

@@ -6,7 +6,7 @@
       <LongName>no-esubmission-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/communication-justification</LongName>
       <LongName Identifier="eFormsParentId">communication-justification</LongName>
-      <Version>1.8.104</Version>
+      <Version>1.8.161</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -438,7 +438,7 @@
             <SimpleValue>Kupec bi potreboval specializirano pisarniško opremo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Upphandlaren behöver särskild kontorsutrustning</SimpleValue>
+            <SimpleValue>Köparen behöver särskild kontorsutrustning</SimpleValue>
          </Value>
       </Row>
       <Row>

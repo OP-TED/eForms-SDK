@@ -2,8 +2,8 @@
 <!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>ReviewType</ShortName>
-      <LongName>review-type</LongName>
+      <ShortName>TenderedObject</ShortName>
+      <LongName>tendered-object</LongName>
       <Version>1.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
@@ -121,82 +121,24 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>complainants</SimpleValue>
+            <SimpleValue>Lot</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Complainants</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Жалбоподатели</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Stěžovatelé</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Klagere</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Beschwerdeführer</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Καταγγέλλοντες</SimpleValue>
+            <SimpleValue>The Object Technical ID or its reference is of type "Lot".</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Complainants</SimpleValue>
+            <SimpleValue>The Object Technical ID or its reference is of type "Lot".</SimpleValue>
          </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Recurrentes</SimpleValue>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>LotsGroup</SimpleValue>
          </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Kaebuse esitajad</SimpleValue>
+         <Value ColumnRef="Name">
+            <SimpleValue>The Object Technical ID or its reference is of type "Group of lots".</SimpleValue>
          </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Muutosta hakeneet</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Plaignants</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Gearánaigh</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Podnositelji pritužbi</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Panaszosok</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Denuncianti</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Peržiūros prašymų pateikėjai</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Pārskatīšanas pieprasījumu iesniedzēji</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Ilmentaturi</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Klagers</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Skarżący</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Requerentes de recurso</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Reclamanți</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Sťažovatelia</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Pritožniki</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Klagande</SimpleValue>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The Object Technical ID or its reference is of type "Group of lots".</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

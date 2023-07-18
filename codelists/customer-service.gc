@@ -453,7 +453,7 @@
             <SimpleValue>Informace</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Oplysninger</SimpleValue>
+            <SimpleValue>Information</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Informationen</SimpleValue>
@@ -468,10 +468,10 @@
             <SimpleValue>Información</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Info</SimpleValue>
+            <SimpleValue>Teave</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Tiedoksi</SimpleValue>
+            <SimpleValue>Tiedotus</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Informations</SimpleValue>
@@ -480,19 +480,19 @@
             <SimpleValue>Eolas</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Informacija</SimpleValue>
+            <SimpleValue>Informacije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Információk</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Informazioni</SimpleValue>
+            <SimpleValue>Informazione</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Informacijos</SimpleValue>
+            <SimpleValue>Informacija</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Informācijas</SimpleValue>
+            <SimpleValue>Informācija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Informazzjoni</SimpleValue>
@@ -501,19 +501,19 @@
             <SimpleValue>Informatie</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Informacji</SimpleValue>
+            <SimpleValue>Informacje</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Informação</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Informații</SimpleValue>
+            <SimpleValue>Informare</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>Informácie</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Informacij</SimpleValue>
+            <SimpleValue>Informacije</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Upplysningar</SimpleValue>
@@ -770,7 +770,7 @@
             <SimpleValue>Билети</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Vstupenky</SimpleValue>
+            <SimpleValue>Jízdenky</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Billetter</SimpleValue>
@@ -791,10 +791,10 @@
             <SimpleValue>Piletid</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Lipunmyynti</SimpleValue>
+            <SimpleValue>Liput</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Des billets</SimpleValue>
+            <SimpleValue>Billets</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Ticéid</SimpleValue>
@@ -806,7 +806,7 @@
             <SimpleValue>Jegyek</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Biglietti</SimpleValue>
+            <SimpleValue>Ticket</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Bilietai</SimpleValue>
@@ -818,19 +818,19 @@
             <SimpleValue>Biljetti</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Vervoersbewijzen</SimpleValue>
+            <SimpleValue>Vervoerbewijzen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>Bilety</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Bilhetes</SimpleValue>
+            <SimpleValue>Senhas</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Bilete de călătorie</SimpleValue>
+            <SimpleValue>Bilete</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Prepravné doklady</SimpleValue>
+            <SimpleValue>Podnet</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Vozovnice</SimpleValue>

@@ -130,16 +130,16 @@
             <SimpleValue>Проект за възлагане на обществена поръчка, финансиран изцяло или частично със средства от ЕС</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Projekt zadávání veřejných zakázek plně nebo částečně financovaný z fondů EU</SimpleValue>
+            <SimpleValue>Projekt veřejných zakázek plně nebo částečně financovaný z prostředků EU</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Indkøbsprojekter, der finansieres helt eller delvist med EU-midler</SimpleValue>
+            <SimpleValue>Offentligt udbudsprojekt, der finansieres helt eller delvist med EU-midler</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Ganz oder teilweise aus EU-Mitteln finanziertes Beschaffungsprojekt</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Έργα δημόσιων συμβάσεων που χρηματοδοτούνται εν όλω ή εν μέρει με κονδύλια της ΕΕ</SimpleValue>
+            <SimpleValue>Έργο δημόσιων συμβάσεων που χρηματοδοτείται εν όλω ή εν μέρει από τα ταμεία της ΕΕ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Procurement Project fully or partially financed with EU Funds.</SimpleValue>
@@ -148,19 +148,19 @@
             <SimpleValue>Proyecto de contratación pública financiado total o parcialmente con fondos de la UE</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Hankeprojekti rahastatakse täielikult või osaliselt ELi fondidest</SimpleValue>
+            <SimpleValue>Hankeprojekt, mida rahastatakse täielikult või osaliselt ELi vahenditest</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kokonaan tai osittain EU:n rahastoista rahoitetut hankintahankkeet</SimpleValue>
+            <SimpleValue>Hankinta on kokonaan tai osittain rahoitettu EU:n varoista</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Projet de passation de marchés financés en totalité ou en partie par des fonds de l’UE</SimpleValue>
+            <SimpleValue>Projet de passation de marché financé en totalité ou en partie par des fonds de l’UE</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tionscadal soláthair maoinithe go hiomlán nó i bpáirt le Cistí AE</SimpleValue>
+            <SimpleValue>Tionscadal soláthair a mhaoinítear go hiomlán nó i bpáirt le cistí an Aontais</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Projekt javne nabave koji se u cijelosti ili djelomično financira sredstvima EU-a</SimpleValue>
+            <SimpleValue>Projekt javne nabave u cijelosti se ili djelomično financira sredstvima EU-a</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Részben vagy egészben uniós forrásokból finanszírozott közbeszerzési projekt</SimpleValue>
@@ -169,19 +169,19 @@
             <SimpleValue>Progetto di appalto finanziato in tutto o in parte con fondi UE</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Viešųjų pirkimų projektas, visiškai arba iš dalies finansuojamas ES lėšomis</SimpleValue>
+            <SimpleValue>Pirkimo projektas, visiškai arba iš dalies finansuojamas iš ES fondų</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Iepirkuma projekts, ko pilnībā vai daļēji finansē no ES fondiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Proġett ta’ akkwist iffinanzjat kompletament jew parzjalment bil-Fondi tal-UE</SimpleValue>
+            <SimpleValue>Proġett ta’ akkwist iffinanzjat kompletament jew parzjalment mill-Fondi tal-UE</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Aanbestedingsproject dat geheel of gedeeltelijk met EU-middelen wordt gefinancierd</SimpleValue>
+            <SimpleValue>Aanbestedingsproject dat geheel of gedeeltelijk uit EU-fondsen wordt gefinancierd</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Projekt zamówień publicznych w całości lub w części finansowany z funduszy UE</SimpleValue>
+            <SimpleValue>Projekt zamówienia w pełni lub częściowo finansowany z funduszy UE</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Projeto de contratação pública total ou parcialmente financiado por fundos da UE</SimpleValue>
@@ -190,10 +190,10 @@
             <SimpleValue>Proiect de achiziții publice finanțat integral sau parțial din fonduri UE</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Projekt verejného obstarávania úplne alebo čiastočne financovaný z fondov EÚ</SimpleValue>
+            <SimpleValue>Projekt verejného obstarávania úplne alebo čiastočne financovaný z prostriedkov EÚ</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Projekt javnega naročanja, ki se v celoti ali delno financira iz skladov EU</SimpleValue>
+            <SimpleValue>Projekt javnega naročanja se v celoti ali delno financira s sredstvi EU</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Upphandlingsprojekt som helt eller delvis finansieras med EU-medel</SimpleValue>
@@ -210,16 +210,16 @@
             <SimpleValue>Проект за възлагане на обществена поръчка, който не е финансиран със средства от ЕС</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Projekt zadávání veřejných zakázek, který není financován z fondů EU</SimpleValue>
+            <SimpleValue>Projekt veřejných zakázek, který není financován z prostředků EU</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Indkøbsprojekter, der ikke finansieres med EU-midler</SimpleValue>
+            <SimpleValue>Indkøbsprojekt, der ikke finansieres med EU-midler</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Nicht mit EU-Mitteln finanziertes Beschaffungsprojekt</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Έργο δημόσιων συμβάσεων που δεν χρηματοδοτείται από κονδύλια της ΕΕ</SimpleValue>
+            <SimpleValue>Έργο δημόσιων συμβάσεων που δεν χρηματοδοτείται από τα ταμεία της ΕΕ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Procurement Project not financed with EU Funds.</SimpleValue>
@@ -228,19 +228,19 @@
             <SimpleValue>Proyecto de contratación pública no financiado con fondos de la UE</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Hankeprojekti ei rahastata ELi vahenditest</SimpleValue>
+            <SimpleValue>Hankeprojekt, mida ei rahastata ELi vahenditest</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Hankintahanke, jota ei rahoiteta EU:n rahastoista</SimpleValue>
+            <SimpleValue>Hankintaa ei ole rahoitettu EU:n varoista</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Projet de passation de marchés non financé par des fonds de l’UE</SimpleValue>
+            <SimpleValue>Projet de passation de marché non financé par des fonds de l’UE</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tionscadal soláthair nach maoinítear le Cistí an AE</SimpleValue>
+            <SimpleValue>Tionscadal soláthair nach maoinítear le cistí an Aontais</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Projekt javne nabave koji se ne financira sredstvima EU-a</SimpleValue>
+            <SimpleValue>Projekt javne nabave ne financira se sredstvima EU-a</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Nem uniós forrásokból finanszírozott közbeszerzési projekt</SimpleValue>
@@ -249,7 +249,7 @@
             <SimpleValue>Progetto di appalto non finanziato con fondi UE</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>ES lėšomis nefinansuojamas viešųjų pirkimų projektas</SimpleValue>
+            <SimpleValue>Iš ES fondų nefinansuojamas pirkimo projektas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Iepirkuma projekts, kas netiek finansēts no ES fondiem</SimpleValue>
@@ -258,22 +258,22 @@
             <SimpleValue>Proġett ta’ akkwist mhux iffinanzjat mill-Fondi tal-UE</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Aanbestedingsproject dat niet met EU-middelen wordt gefinancierd</SimpleValue>
+            <SimpleValue>Aanbestedingsproject dat niet uit EU-fondsen wordt gefinancierd</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Projekt dotyczący zamówień publicznych niefinansowany z funduszy UE</SimpleValue>
+            <SimpleValue>Projekt zamówienia niefinansowany z funduszy UE</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Projeto de contratação pública não financiado por fundos da UE</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Proiect de achiziții care nu este finanțat din fonduri UE</SimpleValue>
+            <SimpleValue>Proiect de achiziții publice nefinanțat din fonduri UE</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Projekt verejného obstarávania, ktorý nie je financovaný z fondov EÚ</SimpleValue>
+            <SimpleValue>Projekt verejného obstarávania nie je financovaný z prostriedkov EÚ</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Projekt javnega naročanja, ki se ne financira s sredstvi EU</SimpleValue>
+            <SimpleValue>Projekt javnega naročanja se ne financira s sredstvi EU</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Upphandlingsprojekt som inte finansieras med EU-medel</SimpleValue>
