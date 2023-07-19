@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.186",
-    "createdOn" : "2023-07-13T13:58:06"
+    "version" : "1.8.194",
+    "createdOn" : "2023-07-18T16:44:47"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -788,13 +788,6 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria",
     "xpathRelative" : "efac:SelectionCriteria",
     "xsdSequenceOrder" : [ { "efac:SelectionCriteria" : 22 } ],
-    "repeatable" : true
-  }, {
-    "id" : "ND-SecondStageCriterionParameter",
-    "parentId" : "ND-SelectionCriteria",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter",
-    "xpathRelative" : "efac:CriterionParameter",
-    "xsdSequenceOrder" : [ { "efac:CriterionParameter" : 15 } ],
     "repeatable" : true
   }, {
     "id" : "ND-SecondStageThresholdCriterionParameter",
@@ -30301,20 +30294,6 @@
     "attributeOf" : "BT-751-Lot",
     "presetValue" : "tender-guarantee-required",
     "legalType" : "INDICATOR",
-    "repeatable" : {
-      "value" : false,
-      "severity" : "ERROR"
-    }
-  }, {
-    "id" : "BT-752-Lot",
-    "parentNodeId" : "ND-SecondStageCriterionParameter",
-    "name" : "Selection Criteria Second Stage Invite Number",
-    "btId" : "BT-752",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter/efbc:ParameterNumeric",
-    "xpathRelative" : "efbc:ParameterNumeric",
-    "xsdSequenceOrder" : [ { "efbc:ParameterNumeric" : 2 } ],
-    "type" : "number",
-    "legalType" : "NUMBER",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
