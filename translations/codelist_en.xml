@@ -18,7 +18,6 @@
 <entry key="codelist|name|can-social">List of allowed Notice Subtype codes for a notice of CAN Social Notice Type .</entry>
 <entry key="codelist|name|can-standard">List of allowed Notice Subtype codes for a notice of CAN Standard Notice Type .</entry>
 <entry key="codelist|name|can-tran">List of allowed Notice Subtype codes for a notice of CAN Public Transport Service Notice Type .</entry>
-<entry key="codelist|name|change">List of allowed Notice Subtype codes for a notice of Change Notice Type .</entry>
 <entry key="codelist|name|change-corrig-justification">This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.</entry>
 <entry key="codelist|name|classification-type">List of commodity classifications</entry>
 <entry key="codelist|name|cn-desg">List of allowed Notice Subtype codes for a notice of CN Design Notice Type.</entry>
@@ -31,7 +30,6 @@
 <entry key="codelist|name|contract-detail">This table provides a framework to represent data relating to procurement.</entry>
 <entry key="codelist|name|contract-nature">List of codes used to specify the main and additional natures of a purchase</entry>
 <entry key="codelist|name|corporate-body">The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.</entry>
-<entry key="codelist|name|corr">List of allowed Notice Subtype codes for a notice of CN Design Notice Type.</entry>
 <entry key="codelist|name|country">List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.</entry>
 <entry key="codelist|name|cpv">List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.</entry>
 <entry key="codelist|name|criterion">This table provides criteria used for public procurement procedures.</entry>
@@ -136,6 +134,7 @@
 <entry key="codelist|name|non-publication-identifier">List of codes for the identification of the information whose publication shall be delayed.</entry>
 <entry key="codelist|name|non-publication-justification">This table provides codes and values for the main reasons for not immediately publishing a notice within the context of public procurement.</entry>
 <entry key="codelist|name|notice-purpose">List of codes to specify the purpose of the Business Register Information Notice</entry>
+<entry key="codelist|name|notice-reference">Notice reference type</entry>
 <entry key="codelist|name|notice-subtype">List of possible Notice Subtype codes for a Notice of type Business Registration Information Notice.</entry>
 <entry key="codelist|name|notice-type">This table provides a list of public procurement notices according to procurement legislation published once a project is approved.</entry>
 <entry key="codelist|name|number-fixed">This table provides the codes linked to fix values within the context of public procurement.</entry>
@@ -192,6 +191,7 @@
 <entry key="codelist|name|pin-rtl">List of allowed Notice Subtype codes for a notice of PIN Reduced Time Limit Notice Type.</entry>
 <entry key="codelist|name|pin-tran">List of allowed Notice Subtype codes for a notice of PIN for Public Transportation Service Contract Notice Type.</entry>
 <entry key="codelist|name|planning">List of allowed Notice Type codes for a Planning Form Type</entry>
+<entry key="codelist|name|player-type">Type of role/subrole player</entry>
 <entry key="codelist|name|postcode-country">List of country codes for countries having postcodes and requiring their use</entry>
 <entry key="codelist|name|procedure-type-10">Allowed procedure type for notice subtype 10</entry>
 <entry key="codelist|name|procedure-type-11">Allowed procedure type for notice subtype 11</entry>
@@ -255,6 +255,7 @@
 <entry key="codelist|name|subcontracting-indication">This table provides the list of codes and values used to indicate information regarding the share of parts of a contract to third parties. The share may refer to the portion of work, services or supplies and/or to the subject matter being subcontracted.</entry>
 <entry key="codelist|name|subcontracting-obligation">This table provides the list of codes and values used for the obligation of the economic operator of sharing parts of the original contract to third parties. The share may refer to the portion of work, services or supplies.</entry>
 <entry key="codelist|name|tender-guarantee-required">List of codes to specify whether a Tender Guarantee is required or not.</entry>
+<entry key="codelist|name|tendered-object">Object type covered by the tender (lot, group of lots)</entry>
 <entry key="codelist|name|tenderlot-presentation">List of codes to specify whether the submission should deal with all the defined lots.</entry>
 <entry key="codelist|name|timeperiod">List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.</entry>
 <entry key="codelist|name|timeperiods">List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.</entry>

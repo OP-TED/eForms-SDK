@@ -34,7 +34,7 @@
 <entry key="auxiliary|text|eu-funds-used">Podaci o fondovima Europske unije</entry>
 <entry key="auxiliary|text|exclusion-grounds">Razlozi za isključenje</entry>
 <entry key="auxiliary|text|framework-agreement">Okvirni sporazum</entry>
-<entry key="auxiliary|text|further-info">Dodatne informacije, posredovanje i preispitivanje</entry>
+<entry key="auxiliary|text|further-info">Dodatne informacije, posredovanje i pravna zaštita (preispitivanje)</entry>
 <entry key="auxiliary|text|general-information">Opće informacije</entry>
 <entry key="auxiliary|text|group-framework-value">Procijenjena vrijednost okvirnih sporazuma unutar skupine grupâ</entry>
 <entry key="auxiliary|text|group-of-lots">Skupina grupâ</entry>
@@ -79,6 +79,7 @@
 <entry key="auxiliary|text|place-performance">Mjesto izvršenja</entry>
 <entry key="auxiliary|text|place-registration">Mjesto registracije</entry>
 <entry key="auxiliary|text|previous-planning">Informacije o prethodnim obavijestima</entry>
+<entry key="auxiliary|text|prize-information">Nagrada</entry>
 <entry key="auxiliary|text|procedure">Postupak</entry>
 <entry key="auxiliary|text|procedure-terms">Uvjeti postupka</entry>
 <entry key="auxiliary|text|procurement-documents">Dokumentacija o nabavi</entry>
@@ -95,7 +96,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">Ishod postupka nabave</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Vrsta navodne nepravilnosti</entry>
 <entry key="auxiliary|text|review-requests-summary">Sažetak zahtjeva za preispitivanje koje je kupac primio</entry>
-<entry key="auxiliary|text|roles">Uloga ove organizacije</entry>
+<entry key="auxiliary|text|roles">Uloge ove organizacije</entry>
 <entry key="auxiliary|text|second-stage">Informacije o drugoj fazi postupka u dvije faze</entry>
 <entry key="auxiliary|text|selection-criteria">Kriteriji za odabir</entry>
 <entry key="auxiliary|text|start-duration-contract">Datum početka i trajanje ugovora</entry>
@@ -106,10 +107,10 @@
 <entry key="auxiliary|text|submission-terms">Uvjeti podnošenja</entry>
 <entry key="auxiliary|text|techniques">Tehnike</entry>
 <entry key="auxiliary|text|tender">Ponuda</entry>
-<entry key="auxiliary|text|unpublished">neobjavljen</entry>
+<entry key="auxiliary|text|unpublished">objavljeni sadržaj povučen</entry>
 <entry key="auxiliary|text|value">Vrijednost</entry>
 <entry key="auxiliary|text|winner">Pobjednik natječaja</entry>
 <entry key="auxiliary|text|winner-info">Informacije o pobjednicima</entry>
-<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
+<entry key="auxiliary|text|winner-lots">Pobjednik tih grupa</entry>
 <entry key="auxiliary|text|winner-subcontractor">Podugovaratelji pobjednika</entry>
 </properties>
