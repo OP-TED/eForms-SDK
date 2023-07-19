@@ -136,7 +136,7 @@
             <SimpleValue>Offentligt udbudsprojekt, der finansieres helt eller delvist med EU-midler</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Ganz oder teilweise aus EU-Mitteln finanziertes Beschaffungsprojekt</SimpleValue>
+            <SimpleValue>Auftragsvergabeprojekt ganz oder teilweise aus EU-Mitteln finanziert</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Έργο δημόσιων συμβάσεων που χρηματοδοτείται εν όλω ή εν μέρει από τα ταμεία της ΕΕ</SimpleValue>
@@ -216,7 +216,7 @@
             <SimpleValue>Indkøbsprojekt, der ikke finansieres med EU-midler</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Nicht mit EU-Mitteln finanziertes Beschaffungsprojekt</SimpleValue>
+            <SimpleValue>Auftragsvergabeprojekt nicht aus EU-Mitteln finanziert</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Έργο δημόσιων συμβάσεων που δεν χρηματοδοτείται από τα ταμεία της ΕΕ</SimpleValue>

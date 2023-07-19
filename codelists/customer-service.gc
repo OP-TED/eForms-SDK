@@ -456,7 +456,7 @@
             <SimpleValue>Information</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Informationen</SimpleValue>
+            <SimpleValue>Information</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Πληροφορίες</SimpleValue>
@@ -483,7 +483,7 @@
             <SimpleValue>Informacije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Információk</SimpleValue>
+            <SimpleValue>Információ</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Informazione</SimpleValue>
@@ -516,7 +516,7 @@
             <SimpleValue>Informacije</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Upplysningar</SimpleValue>
+            <SimpleValue>Information</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -776,7 +776,7 @@
             <SimpleValue>Billetter</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Fahrkarten</SimpleValue>
+            <SimpleValue>Tickets</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Εισιτήρια</SimpleValue>
@@ -803,7 +803,7 @@
             <SimpleValue>Karte</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Jegyek</SimpleValue>
+            <SimpleValue>Hibajegyek</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Ticket</SimpleValue>

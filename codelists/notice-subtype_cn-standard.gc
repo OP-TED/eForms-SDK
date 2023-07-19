@@ -5,7 +5,7 @@
       <ShortName>CnStandard</ShortName>
       <LongName>cn-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.8.161</Version>
+      <Version>1.8.196</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -457,7 +457,7 @@
             <SimpleValue>Generelt under tærskel for udbudsbekendtgørelse</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Allgemeine Auftragsbekanntmachung (CN) unterhalb des Schwellenwerts</SimpleValue>
+            <SimpleValue>Unterhalb des Schwellenwerts – Auftragsbekanntmachung (CN) allgemein</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Γενική προκήρυξη σύμβασης (CN) κάτω από το κατώτατο όριο</SimpleValue>
@@ -484,7 +484,7 @@
             <SimpleValue>Obavijest o nadmetanju ispod granične vrijednosti – općenito</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti hirdetmény (KN) általános</SimpleValue>
+            <SimpleValue>Küszöbérték alatti eljárást megindító hirdetmény – általános</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Avviso o bando di gara generale al di sotto della soglia</SimpleValue>
@@ -517,7 +517,7 @@
             <SimpleValue>Obvestilo o naročilu pod pragom – splošno</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Allmänt meddelande om upphandling under tröskelvärdet (KN)</SimpleValue>
+            <SimpleValue>Under tröskelvärdet – allmänt meddelande om upphandling (CN)</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -136,7 +136,7 @@
             <SimpleValue>En beslutning er blevet truffet af gennemgangsorganet vedrørende den aktuelle anmodning</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Die Überprüfungsstelle hat über den vorliegenden Antrag entschieden</SimpleValue>
+            <SimpleValue>Die Nachprüfungsstelle hat über den vorliegenden Antrag entschieden.</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Έχει ληφθεί απόφαση από το όργανο προσφυγής σχετικά με την τρέχουσα προδικαστική προσφυγή</SimpleValue>
@@ -196,7 +196,7 @@
             <SimpleValue>Revizijski organ je sprejel odločitev v zvezi z aktualnim zahtevkom</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Prövningsorganet har fattat beslut om den aktuella begäran</SimpleValue>
+            <SimpleValue>Beslut har fattats av prövningsorganet om den aktuella ansökan</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -216,7 +216,7 @@
             <SimpleValue>Der er anmodet om gennemgang, og anmodningen behandles stadig</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Überprüfung wurde beantragt und ist noch im Gange</SimpleValue>
+            <SimpleValue>Nachprüfung wurde beantragt und ist noch anhängig</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Έχει υποβληθεί προσφυγή η οποία βρίσκεται ακόμη υπό εξέταση</SimpleValue>
@@ -243,7 +243,7 @@
             <SimpleValue>Pravna zaštita (preispitivanje) je zatražena, zahtjev je u obradi</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Felülvizsgálatot kértek, és jelenleg is folyamatban van</SimpleValue>
+            <SimpleValue>Felülvizsgálatot kértek, és a felülvizsgálat jelenleg is folyamatban van</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Il ricorso è stato presentato e la procedura è ancora in corso</SimpleValue>
@@ -276,7 +276,7 @@
             <SimpleValue>Revizija je bila zahtevana in še vedno poteka</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Översyn har begärts och pågår fortfarande</SimpleValue>
+            <SimpleValue>Ansökan om prövning har gjorts och prövning pågår</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -136,7 +136,7 @@
             <SimpleValue>Ingen begrænsninger af adgang til dokumenter</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Keine Einschränkungen des Zugangs zu Dokumenten</SimpleValue>
+            <SimpleValue>Keine Beschränkungen des Zugangs zu Dokumenten</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Δεν υπάρχουν περιορισμοί στην πρόσβαση σε έγγραφα</SimpleValue>
@@ -163,7 +163,7 @@
             <SimpleValue>Nema ograničenja pristupa dokumentima</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Nincs korlátozás a dokumentumokhoz való hozzáférésre vonatkozóan</SimpleValue>
+            <SimpleValue>A dokumentumokhoz való hozzáférés nincs korlátozva</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Nessuna restrizione all'accesso ai documenti</SimpleValue>
@@ -196,7 +196,7 @@
             <SimpleValue>Ni omejitev za dostop do dokumentov</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Inga begränsningar av tillgången till handlingar</SimpleValue>
+            <SimpleValue>Inga begränsningar för åtkomst till upphandlingsdokument</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -216,7 +216,7 @@
             <SimpleValue>Adgangen til visse udbudsdokumenter er begrænset</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Der Zugang zu bestimmten Auftragsunterlagen ist beschränkt.</SimpleValue>
+            <SimpleValue>Zugang zu bestimmten Auftragsunterlagen ist beschränkt</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Η πρόσβαση σε ορισμένα έγγραφα της σύμβασης είναι περιορισμένη</SimpleValue>
@@ -243,7 +243,7 @@
             <SimpleValue>Pristup nekim dokumentima javne nabave je ograničen</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott</SimpleValue>
+            <SimpleValue>Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>L'accesso a determinati documenti di gara è limitato</SimpleValue>
@@ -276,7 +276,7 @@
             <SimpleValue>Dostop do nekaterih dokumentov v zvezi z oddajo javnega naročila je omejen</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Tillgången till vissa upphandlingsdokument är begränsad</SimpleValue>
+            <SimpleValue>Åtkomsten till vissa upphandlingsdokument är begränsad</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

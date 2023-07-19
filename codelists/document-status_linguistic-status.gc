@@ -5,7 +5,7 @@
       <ShortName>LinguisticStatus</ShortName>
       <LongName>linguistic-status</LongName>
       <LongName Identifier="eFormsParentId">document-status</LongName>
-      <Version>1.8.161</Version>
+      <Version>1.8.196</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -137,7 +137,7 @@
             <SimpleValue>Uofficiel sprogudgave</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Inoffizielle Sprachfassung</SimpleValue>
+            <SimpleValue>Nicht amtliche Sprachfassung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ανεπίσημη γλωσσική έκδοση</SimpleValue>

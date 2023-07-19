@@ -163,7 +163,7 @@
             <SimpleValue>Rezultat</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Teljesítmény</SimpleValue>
+            <SimpleValue>Teljesítés</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Prestazioni</SimpleValue>
@@ -196,7 +196,7 @@
             <SimpleValue>Izvedba</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Resultat</SimpleValue>
+            <SimpleValue>Genomförande</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -5,7 +5,7 @@
       <ShortName>PinOnly</ShortName>
       <LongName>pin-only</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.8.161</Version>
+      <Version>1.8.196</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -377,7 +377,7 @@
             <SimpleValue>Kun under tærskel for forhåndsmeddelelse (PIN)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Nur Vorinformation unterhalb des Schwellenwerts (PIN)</SimpleValue>
+            <SimpleValue>Unterhalb des Schwellenwerts – nur Vorinformation (PIN)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Μόνο προκαταρκτική προκήρυξη (PIN) κάτω από το κατώτατο όριο</SimpleValue>
@@ -404,7 +404,7 @@
             <SimpleValue>Samo prethodna informacijska obavijest (PIN) ispod granične vrijednosti</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti előzetes tájékoztató (PIN)</SimpleValue>
+            <SimpleValue>Küszöbérték alatti, kizárólag tájékoztatás céljából használt előzetes tájékoztató</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Avviso o bando di preinformazione (PIN) a fini unicamente informativi al di sotto della soglia</SimpleValue>
@@ -437,7 +437,7 @@
             <SimpleValue>Samo predhodno informativno obvestilo o naročilu pod pragom</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Endast förhandsmeddelande under tröskelvärdet (PIN)</SimpleValue>
+            <SimpleValue>Under tröskelvärdet – enbart förhandsmeddelande (PIN)</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
