@@ -136,7 +136,7 @@
             <SimpleValue>Køberen er en ordregiver</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Der Beschaffer ist ein Auftraggeber.</SimpleValue>
+            <SimpleValue>Beschaffer fungiert als ein Auftraggeber</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ο αγοραστής είναι αναθέτων φορέας</SimpleValue>
@@ -163,7 +163,7 @@
             <SimpleValue>Kupac je naručitelj</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A vevő ajánlatkérő szerv</SimpleValue>
+            <SimpleValue>A vevő közszolgáltató ajánlatkérő</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Il committente è un ente aggiudicatore</SimpleValue>
@@ -216,7 +216,7 @@
             <SimpleValue>Køberen er ikke en ordregiver</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Der Beschaffer ist kein Auftraggeber.</SimpleValue>
+            <SimpleValue>Beschaffer fungiert nicht als ein Auftraggeber.</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ο αγοραστής δεν είναι αναθέτων φορέας</SimpleValue>
@@ -243,7 +243,7 @@
             <SimpleValue>Kupac nije naručitelj</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A vevő nem ajánlatkérő szerv</SimpleValue>
+            <SimpleValue>A vevő nem közszolgáltató ajánlatkérő</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Il committente non è un ente aggiudicatore</SimpleValue>

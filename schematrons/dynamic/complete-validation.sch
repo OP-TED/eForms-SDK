@@ -565,7 +565,6 @@
 		<diagnostic id="BT-749-Lot" see="field:BT-749-Lot">cbc:Name</diagnostic>
 		<diagnostic id="BT-75-Lot" see="field:BT-75-Lot">cbc:Description</diagnostic>
 		<diagnostic id="BT-750-Lot" see="field:BT-750-Lot">cbc:Description</diagnostic>
-		<diagnostic id="BT-752-Lot" see="field:BT-752-Lot">efbc:ParameterNumeric</diagnostic>
 		<diagnostic id="BT-752-Lot-ThresholdNumber" see="field:BT-752-Lot-ThresholdNumber">efbc:ParameterNumeric</diagnostic>
 		<diagnostic id="BT-752-Lot-WeightNumber" see="field:BT-752-Lot-WeightNumber">efbc:ParameterNumeric</diagnostic>
 		<diagnostic id="BT-7531-Lot" see="field:BT-7531-Lot">efbc:ParameterCode</diagnostic>
@@ -860,7 +859,9 @@
 		<diagnostic id="ND-Root_OPP-105-Business" see="field:OPP-105-Business">cac:BusinessCapability/cbc:CapabilityTypeCode</diagnostic>
 		<diagnostic id="ND-Root_OPT-300-Procedure-Buyer" see="field:OPT-300-Procedure-Buyer">cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</diagnostic>
 		<diagnostic id="ND-SecondStage" see="node:ND-SecondStage">cac:EconomicOperatorShortList</diagnostic>
+		<diagnostic id="ND-SecondStageWeightCriterionParameter" see="node:ND-SecondStageWeightCriterionParameter">efac:CriterionParameter</diagnostic>
 		<diagnostic id="ND-SecurityClearanceTerms" see="node:ND-SecurityClearanceTerms">cac:SecurityClearanceTerm</diagnostic>
+		<diagnostic id="ND-SelectionCriteria" see="node:ND-SelectionCriteria">efac:SelectionCriteria</diagnostic>
 		<diagnostic id="ND-SelectionCriteria_BT-752-Lot-ThresholdNumber" see="field:BT-752-Lot-ThresholdNumber">efac:CriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efbc:ParameterNumeric</diagnostic>
 		<diagnostic id="ND-SelectionCriteria_BT-752-Lot-WeightNumber" see="field:BT-752-Lot-WeightNumber">efac:CriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric</diagnostic>
 		<diagnostic id="ND-SenderContact" see="node:ND-SenderContact">cac:SenderParty/cac:Contact</diagnostic>

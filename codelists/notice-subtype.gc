@@ -3496,7 +3496,7 @@
             <SimpleValue>Kun under tærskel for forhåndsmeddelelse (PIN)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Nur Vorinformation unterhalb des Schwellenwerts (PIN)</SimpleValue>
+            <SimpleValue>Unterhalb des Schwellenwerts – nur Vorinformation (PIN)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Μόνο προκαταρκτική προκήρυξη (PIN) κάτω από το κατώτατο όριο</SimpleValue>
@@ -3523,7 +3523,7 @@
             <SimpleValue>Samo prethodna informacijska obavijest (PIN) ispod granične vrijednosti</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti előzetes tájékoztató (PIN)</SimpleValue>
+            <SimpleValue>Küszöbérték alatti, kizárólag tájékoztatás céljából használt előzetes tájékoztató</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Avviso o bando di preinformazione (PIN) a fini unicamente informativi al di sotto della soglia</SimpleValue>
@@ -3556,7 +3556,7 @@
             <SimpleValue>Samo predhodno informativno obvestilo o naročilu pod pragom</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Endast förhandsmeddelande under tröskelvärdet (PIN)</SimpleValue>
+            <SimpleValue>Under tröskelvärdet – enbart förhandsmeddelande (PIN)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3576,7 +3576,7 @@
             <SimpleValue>Generelt under tærskel for udbudsbekendtgørelse</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Allgemeine Auftragsbekanntmachung (CN) unterhalb des Schwellenwerts</SimpleValue>
+            <SimpleValue>Unterhalb des Schwellenwerts – Auftragsbekanntmachung (CN) allgemein</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Γενική προκήρυξη σύμβασης (CN) κάτω από το κατώτατο όριο</SimpleValue>
@@ -3603,7 +3603,7 @@
             <SimpleValue>Obavijest o nadmetanju ispod granične vrijednosti – općenito</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti hirdetmény (KN) általános</SimpleValue>
+            <SimpleValue>Küszöbérték alatti eljárást megindító hirdetmény – általános</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Avviso o bando di gara generale al di sotto della soglia</SimpleValue>
@@ -3636,7 +3636,7 @@
             <SimpleValue>Obvestilo o naročilu pod pragom – splošno</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Allmänt meddelande om upphandling under tröskelvärdet (KN)</SimpleValue>
+            <SimpleValue>Under tröskelvärdet – allmänt meddelande om upphandling (CN)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3656,7 +3656,7 @@
             <SimpleValue>Generelt under tærskel for bekendtgørelse om indgåede kontrakter</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Allgemeine Vergabebekanntmachung (CAN) unterhalb des Schwellenwerts</SimpleValue>
+            <SimpleValue>Unterhalb des Schwellenwerts – Vergabebekanntmachung (CAN) allgemein</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Γενική γνωστοποίηση ανάθεσης σύμβασης (CAN) κάτω από το κατώτατο όριο</SimpleValue>
@@ -3683,7 +3683,7 @@
             <SimpleValue>Obavijest o dodjeli ugovora ispod granične vrijednosti – općenito</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti szerződés odaítéléséről szóló tájékoztató (CAN) általános</SimpleValue>
+            <SimpleValue>Küszöbérték alatti szerződés odaítéléséről szóló tájékoztató – általános</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Avviso di aggiudicazione generale di importo sottosoglia</SimpleValue>
@@ -3716,7 +3716,7 @@
             <SimpleValue>Obvestilo o oddaji naročila pod pragom – splošno</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Meddelande om tilldelning av kontrakt under tröskelvärdet (CAN) allmänt</SimpleValue>
+            <SimpleValue>Under tröskelvärdet – allmänt meddelande om tilldelning av kontrakt (CAN)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3736,7 +3736,7 @@
             <SimpleValue>Bekendtgørelse om gennemførelse af kontrakt</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Bekanntmachung über die Vertragserfüllung</SimpleValue>
+            <SimpleValue>Bekanntmachung der Auftragsausführung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Γνωστοποίηση ολοκλήρωσης της σύμβασης</SimpleValue>
@@ -3763,7 +3763,7 @@
             <SimpleValue>Obavijest o izvršenju ugovora</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Hirdetmény a szerződés teljesítéséről</SimpleValue>
+            <SimpleValue>A szerződés teljesítéséről szóló hirdetmény</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Avviso di completamento di un appalto</SimpleValue>
@@ -3796,7 +3796,7 @@
             <SimpleValue>Obvestilo o zaključku naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Meddelande om slutförande av kontrakt</SimpleValue>
+            <SimpleValue>Meddelande om genomfört kontrakt</SimpleValue>
          </Value>
       </Row>
       <Row>

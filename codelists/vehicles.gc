@@ -136,7 +136,7 @@
             <SimpleValue>Antallet af alle køretøjer, der er omfattet af anvendelsesområdet for direktivet om renere køretøjer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Anzahl aller Fahrzeuge, die in den Anwendungsbereich der Richtlinie über Ausgleichszölle fallen</SimpleValue>
+            <SimpleValue>Zahl aller Fahrzeuge, die in den Anwendungsbereich CVD fallen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ο αριθμός όλων των οχημάτων που εμπίπτουν στο πεδίο εφαρμογής της οδηγίας για τα καθαρά οχήματα</SimpleValue>
@@ -163,7 +163,7 @@
             <SimpleValue>Broj svih vozila koja su obuhvaćena područjem primjene Direktive o čistim vozilima</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A CVD-irányelv hatálya alá tartozó valamennyi jármű száma</SimpleValue>
+            <SimpleValue>A tiszta járművekről szóló irányelv hatálya alá tartozó valamennyi jármű száma</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Numero di tutti i veicoli che rientrano nel campo di applicazione della direttiva sui veicoli puliti</SimpleValue>
@@ -196,7 +196,7 @@
             <SimpleValue>Število vseh vozil, ki spadajo na področje uporabe direktive o čistih vozilih</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Antalet fordon som omfattas av direktivet om utjämningstullar</SimpleValue>
+            <SimpleValue>Totalt antal fordon som omfattas av direktivet om rena fordon</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -216,7 +216,7 @@
             <SimpleValue>Antallet af renere køretøjer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Zahl der sauberen Fahrzeuge</SimpleValue>
+            <SimpleValue>Zahl sauberer Fahrzeuge</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ο αριθμός καθαρών οχημάτων</SimpleValue>
@@ -276,7 +276,7 @@
             <SimpleValue>Število čistih vozil</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Antalet rena fordon</SimpleValue>
+            <SimpleValue>Antal rena fordon</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -296,7 +296,7 @@
             <SimpleValue>Antallet af tunge nulemissionskøretøjer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Anzahl emissionsfreier schwerer Nutzfahrzeuge</SimpleValue>
+            <SimpleValue>Zahl emissionsfreier schwerer Nutzfahrzeuge</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ο αριθμός βαρέων επαγγελματικών οχημάτων μηδενικών εκπομπών</SimpleValue>
@@ -323,7 +323,7 @@
             <SimpleValue>Broj teških vozila s nultim emisijama</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A kibocsátásmentes nehézgépjárművek száma</SimpleValue>
+            <SimpleValue>A nulla kibocsátású nehézgépjárművek száma</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Il numero di veicoli pesanti a emissioni zero</SimpleValue>

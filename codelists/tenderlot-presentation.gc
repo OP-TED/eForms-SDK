@@ -136,7 +136,7 @@
             <SimpleValue>Tilbudsgiveren skal afgive bud for alle delkontrakter</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Der Bieter muss Angebote für alle Lose einreichen</SimpleValue>
+            <SimpleValue>Der Bieter muss Angebote für alle Lose einreichen.</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ο προσφέρων πρέπει να υποβάλει προσφορές για όλες τις παρτίδες</SimpleValue>
@@ -163,7 +163,7 @@
             <SimpleValue>Ponuditelj mora dostaviti ponude za sve grupe</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Az ajánlattevőnek minden tételre be kell nyújtania ajánlatát</SimpleValue>
+            <SimpleValue>Az ajánlattevőnek az összes részre be kell nyújtania ajánlatot</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>L'offerente deve presentare offerte per tutti i lotti</SimpleValue>
@@ -196,7 +196,7 @@
             <SimpleValue>Ponudnik mora predložiti ponudbe za vse sklope</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Anbudsgivaren ska lämna anbud för samtliga delar</SimpleValue>
+            <SimpleValue>Anbudsgivaren ska lämna in anbud för alla delkontrakt</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

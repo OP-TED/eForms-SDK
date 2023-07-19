@@ -136,7 +136,7 @@
             <SimpleValue>EU's kriterier for grønne offentlige udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>EU-Kriterien für ein umweltorientiertes öffentliches Beschaffungswesen</SimpleValue>
+            <SimpleValue>Kriterien der EU für ein umweltorientiertes öffentliches Beschaffungswesen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Κριτήρια της ΕΕ για πράσινες δημόσιες συμβάσεις</SimpleValue>
@@ -196,7 +196,7 @@
             <SimpleValue>Merila za zelena javna naročila EU</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>EU:s kriterier för miljöanpassad offentlig upphandling</SimpleValue>
+            <SimpleValue>EU-kriterier för grön upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -216,7 +216,7 @@
             <SimpleValue>Nationale kriterier for grønne offentlige udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Nationale Kriterien für die umweltgerechte Vergabe öffentlicher Aufträge</SimpleValue>
+            <SimpleValue>Nationale Kriterien für ein umweltorientiertes öffentliches Beschaffungswesen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Εθνικά κριτήρια για πράσινες δημόσιες συμβάσεις</SimpleValue>
@@ -243,7 +243,7 @@
             <SimpleValue>Nacionalni kriteriji za zelenu javnu nabavu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Nemzeti zöld közbeszerzési kritériumok</SimpleValue>
+            <SimpleValue>A zöld közbeszerzésre vonatkozó nemzeti kritériumok</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Criteri nazionali degli appalti pubblici verdi</SimpleValue>
@@ -276,7 +276,7 @@
             <SimpleValue>Nacionalna merila za zelena javna naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Nationella kriterier för miljöanpassad offentlig upphandling</SimpleValue>
+            <SimpleValue>Nationella kriterier för grön upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -296,7 +296,7 @@
             <SimpleValue>Ingen kriterier for grønne offentlige udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Keine Kriterien für die umweltgerechte Vergabe öffentlicher Aufträge</SimpleValue>
+            <SimpleValue>Keine Kriterien für ein umweltorientiertes öffentliches Beschaffungswesen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Δεν υπάρχουν κριτήρια για πράσινες δημόσιες συμβάσεις</SimpleValue>
@@ -323,7 +323,7 @@
             <SimpleValue>Nema kriterija za zelenu javnu nabavu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Nincsenek zöld közbeszerzési kritériumok</SimpleValue>
+            <SimpleValue>Nincs zöld közbeszerzésre vonatkozó kritérium</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Nessun criterio per gli appalti pubblici verdi</SimpleValue>
@@ -356,7 +356,7 @@
             <SimpleValue>Ni meril za zelena javna naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Inga kriterier för miljöanpassad offentlig upphandling</SimpleValue>
+            <SimpleValue>Inga kriterier för grön upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -376,7 +376,7 @@
             <SimpleValue>Andre kriterier for grønne offentlige udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Sonstige Kriterien für die umweltgerechte Vergabe öffentlicher Aufträge</SimpleValue>
+            <SimpleValue>Sonstige Kriterien für ein umweltorientiertes öffentliches Beschaffungswesen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Άλλα κριτήρια για πράσινες δημόσιες συμβάσεις</SimpleValue>
@@ -403,7 +403,7 @@
             <SimpleValue>Drugi kriteriji za zelenu javnu nabavu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A zöld közbeszerzés egyéb kritériumai</SimpleValue>
+            <SimpleValue>Egyéb zöld közbeszerzésre vonatkozó kritériumok</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Altri criteri degli appalti pubblici verdi</SimpleValue>
@@ -436,7 +436,7 @@
             <SimpleValue>Druga merila za zelena javna naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Andra kriterier för miljöanpassad offentlig upphandling</SimpleValue>
+            <SimpleValue>Andra kriterier för grön upphandling</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

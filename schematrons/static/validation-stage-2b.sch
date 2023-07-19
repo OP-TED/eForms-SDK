@@ -579,9 +579,6 @@
 		<assert id="BT-750-Lot_B" role="ERROR" diagnostics="BT-750-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-750-Lot_B</assert>
 		<assert id="BT-750-Lot_C" role="ERROR" diagnostics="BT-750-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-750-Lot_C</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter">
-		<assert id="BT-752-Lot_R" role="ERROR" diagnostics="BT-752-Lot" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-752-Lot_R</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter[efbc:ParameterCode/@listName='number-threshold']">
 		<assert id="BT-752-Lot-ThresholdNumber_R" role="ERROR" diagnostics="BT-752-Lot-ThresholdNumber" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-752-Lot-ThresholdNumber_R</assert>
 		<assert id="BT-7532-Lot_R" role="ERROR" diagnostics="BT-7532-Lot" test="count(efbc:ParameterCode) &lt; 2">rule|text|BT-7532-Lot_R</assert>
