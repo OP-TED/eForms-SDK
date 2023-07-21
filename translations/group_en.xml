@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Content</entry>
 <entry key="group|name|GR-ContractingAuthority">Contracting authority</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Buyer</entry>
+<entry key="group|name|GR-EU-Registration">Eu Registration Number</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation providing additional information</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Additional information</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Terms of the auction</entry>
@@ -33,6 +34,7 @@
 <entry key="group|name|GR-Lot-Description">Description of the lot</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organisation providing documents</entry>
 <entry key="group|name|GR-Lot-EUFunds">Use of EU funds</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">EU Funds Indicator</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Participants already selected</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Electronic catalogue</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Electronic signature</entry>
@@ -246,6 +248,7 @@
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Description of the procedure (published later)</entry>
 <entry key="group|name|GR-Winner">Winner</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justification for absence of accessibility criteria</entry>
+<entry key="group|name|ND-AllowedSubcontracting">Condition on subcontractinng</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jury member</entry>
 <entry key="group|name|ND-BusinessCapability">Business activity</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Requests to review</entry>
@@ -263,10 +266,12 @@
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Direct award justification code (published later)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID of the previous procedure justifying direct award (published later)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justification for direct award (published later)</entry>
+<entry key="group|name|ND-EuEntity">Properties of the EU Entity (Registration ID)</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
 <entry key="group|name|ND-ExecutionRequirements">Terms of performance)</entry>
 <entry key="group|name|ND-FinancingParty">Financing organisation</entry>
 <entry key="group|name|ND-Funding">EU funds</entry>
+<entry key="group|name|ND-GazetteReference">Reference to the Gazette where Publication took place (Date, Name, URL …)</entry>
 <entry key="group|name|ND-GroupComposition">Composition of a group of lots</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Lot belonging to the group</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Group maximal value identifier (published later)</entry>
@@ -304,6 +309,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Procurement documents in unofficial language</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Procurement documents in official language</entry>
 <entry key="group|name|ND-LotECatalog">eCatalogue</entry>
+<entry key="group|name|ND-LotEInvoicing">Lot eInvoicing</entry>
 <entry key="group|name|ND-LotESignature">eSignature</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Environmental impact of the procurement</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Framework agreement</entry>
@@ -349,6 +355,7 @@
 <entry key="group|name|ND-ModifiedSection">Section to be modified</entry>
 <entry key="group|name|ND-NDA">Description of the NDA</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">The reason why a winner was not chosen (published later)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Not Immediately Published (NoticeApproximateValue)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Notice maximum value (published later)</entry>
 <entry key="group|name|ND-NoticeResult">Result</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximum value of group of lots</entry>
@@ -393,6 +400,8 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Received submission count (published later)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Received submission type (published later)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Received submissions statististics</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Not Immediately Published (ReestimatedValue)</entry>
+<entry key="group|name|ND-RevenueAllocation">Revenue allocation in percentage</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistics about review requests</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Review request irregularity count (published later)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Review request irregularity type (published later)</entry>
@@ -411,12 +420,15 @@
 <entry key="group|name|ND-SubContractorTakerReference">Main contractor</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Subcontracting description (published later)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Subcontracting</entry>
+<entry key="group|name|ND-SubcontractingObligation">Obligation associated to Subcontracting</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Subcontracting percentage is known (published later)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Subcontracting percentage (published later)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Subcontracting (published later)</entry>
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Subcontracting value is known (published later)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Subcontracting value (published later)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Rank of tender (published later)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Not Immediately Published (TenderValueHighest)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Not Immediately Published (TenderValueLowest)</entry>
 <entry key="group|name|ND-Tenderer">Tendering parties</entry>
 <entry key="group|name|ND-TenderingParty">Tendering party</entry>
 <entry key="group|name|ND-Touchpoint">Specific contact points</entry>
