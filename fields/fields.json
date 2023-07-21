@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.207",
-    "createdOn" : "2023-07-20T17:39:43"
+    "version" : "1.8.210",
+    "createdOn" : "2023-07-21T14:06:08"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -14387,6 +14387,10 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
         "condition" : "{ND-LotAwardCriterionFixNumberUnpublish} ${BT-195(BT-541)-Lot-Fixed is not present}",
         "value" : true,
@@ -14445,6 +14449,10 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
         "condition" : "{ND-LotAwardCriterionThresholdNumberUnpublish} ${BT-195(BT-541)-Lot-Threshold is not present}",
         "value" : true,
@@ -14565,6 +14573,10 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
         "condition" : "{ND-LotsGroupAwardCriterionFixNumberUnpublish} ${BT-195(BT-541)-LotsGroup-Fixed is not present}",
         "value" : true,
@@ -14623,6 +14635,10 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
         "condition" : "{ND-LotsGroupAwardCriterionThresholdNumberUnpublish} ${BT-195(BT-541)-LotsGroup-Threshold is not present}",
         "value" : true,
@@ -37894,16 +37910,6 @@
       }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "T02" ],
         "condition" : "{ND-Organization} ${(not(OPT-200-Organization-Company in OPT-300-Tenderer) and not(OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)) or (BT-633-Organization == TRUE) or (BT-746-Organization == TRUE)}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "T02" ],
-        "condition" : "{ND-Organization} ${((OPT-200-Organization-Company in OPT-300-Tenderer[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]]) or (OPT-200-Organization-Company in OPT-301-Tenderer-SubCont[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]])) and (BT-746-Organization == FALSE) and not(BT-633-Organization == TRUE)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
