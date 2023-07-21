@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.196",
-    "createdOn" : "2023-07-19T09:56:41"
+    "version" : "1.8.212",
+    "createdOn" : "2023-07-21T14:07:13"
   },
   "noticeId" : "39",
   "metadata" : [ {
@@ -830,37 +830,17 @@
           "_label" : "field|name|BT-115-Lot"
         } ]
       }, {
-        "id" : "GR-Lot-EUFunds",
+        "id" : "GR-Lot-EUFunds-Indicator",
         "contentType" : "group",
-        "nodeId" : "ND-Funding",
         "displayType" : "GROUP",
-        "description" : "Funding for a given Lot",
-        "_label" : "group|name|ND-Funding",
-        "_repeatable" : true,
+        "description" : "EU Funds Indicator",
+        "_label" : "group|name|GR-Lot-EUFunds-Indicator",
         "content" : [ {
           "id" : "BT-60-Lot",
           "contentType" : "field",
-          "displayType" : "COMBOBOX",
+          "displayType" : "TEXTBOX",
           "description" : "EU Funds",
           "_label" : "field|name|BT-60-Lot"
-        }, {
-          "id" : "BT-7220-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "EU Funds Programme",
-          "_label" : "field|name|BT-7220-Lot"
-        }, {
-          "id" : "BT-5010-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "EU Funds Financing Identifier",
-          "_label" : "field|name|BT-5010-Lot"
-        }, {
-          "id" : "BT-6140-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "EU Funds Details",
-          "_label" : "field|name|BT-6140-Lot"
         } ]
       }, {
         "id" : "GR-Lot-FiscalLegis",
@@ -1040,6 +1020,20 @@
             "description" : "Terms Performance",
             "_label" : "field|name|BT-70-Lot"
           } ]
+        } ]
+      }, {
+        "id" : "GR-Lot-EInvoicing",
+        "contentType" : "group",
+        "nodeId" : "ND-LotEInvoicing",
+        "displayType" : "GROUP",
+        "description" : "Lot eInvoicing",
+        "_label" : "group|name|ND-LotEInvoicing",
+        "content" : [ {
+          "id" : "BT-743-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Electronic Invoicing",
+          "_label" : "field|name|BT-743-Lot"
         } ]
       }, {
         "id" : "GR-Lot-PostAwardProcess",
@@ -1351,9 +1345,10 @@
       }, {
         "id" : "GR-Unpublish-BT-1118",
         "contentType" : "group",
+        "nodeId" : "ND-NoticeApproximateValueUnpublish",
         "displayType" : "GROUP",
-        "description" : "Unpublish - BT-1118",
-        "_label" : "group|name|GR-Unpublish-BT-1118",
+        "description" : "Not Immediately Published (NoticeApproximateValue)",
+        "_label" : "group|name|ND-NoticeApproximateValueUnpublish",
         "collapsed" : true,
         "content" : [ {
           "id" : "BT-195(BT-1118)-NoticeResult",
@@ -2224,6 +2219,104 @@
               "description" : "Contract Identifier Reference",
               "_label" : "field|name|OPT-315-LotResult",
               "_idSchemes" : [ "CON" ]
+            } ]
+          } ]
+        }, {
+          "id" : "GR-LotResult-2",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "LotResult 2",
+          "_label" : "group|name|GR-LotResult-2",
+          "content" : [ {
+            "id" : "BT-119-LotResult",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Dynamic Purchasing System Termination",
+            "_label" : "field|name|BT-119-LotResult"
+          }, {
+            "id" : "BT-660-LotResult",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Framework Re-estimated Value",
+            "_label" : "field|name|BT-660-LotResult",
+            "unpublishGroupId" : "GR-Unpublish-BT-660-LotResult",
+            "unpublishFieldId" : "BT-195(BT-660)-LotResult",
+            "unpublishCode" : "ree-val"
+          }, {
+            "id" : "GR-Unpublish-BT-660-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-ReestimatedValueUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (ReestimatedValue)",
+            "_label" : "group|name|ND-ReestimatedValueUnpublish",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-660)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-660)-LotResult",
+              "_presetValue" : "ree-val"
+            }, {
+              "id" : "BT-196(BT-660)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-660)-LotResult"
+            }, {
+              "id" : "BT-197(BT-660)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-660)-LotResult"
+            }, {
+              "id" : "BT-198(BT-660)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Access Date",
+              "_label" : "field|name|BT-198(BT-660)-LotResult"
+            } ]
+          }, {
+            "id" : "BT-709-LotResult",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Framework Maximum Value",
+            "_label" : "field|name|BT-709-LotResult",
+            "unpublishGroupId" : "GR-Unpublish-BT-709",
+            "unpublishFieldId" : "BT-195(BT-709)-LotResult",
+            "unpublishCode" : "max-val"
+          }, {
+            "id" : "GR-Unpublish-BT-709",
+            "contentType" : "group",
+            "displayType" : "GROUP",
+            "description" : "Unpublish - BT-709",
+            "_label" : "group|name|GR-Unpublish-BT-709",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-709)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-709)-LotResult",
+              "_presetValue" : "max-val"
+            }, {
+              "id" : "BT-196(BT-709)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-709)-LotResult"
+            }, {
+              "id" : "BT-197(BT-709)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-709)-LotResult"
+            }, {
+              "id" : "BT-198(BT-709)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Access Date",
+              "_label" : "field|name|BT-198(BT-709)-LotResult"
             } ]
           } ]
         }, {

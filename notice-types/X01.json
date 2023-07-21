@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.196",
-    "createdOn" : "2023-07-19T09:56:41"
+    "version" : "1.8.212",
+    "createdOn" : "2023-07-21T14:07:13"
   },
   "noticeId" : "X01",
   "metadata" : [ {
@@ -192,9 +192,10 @@
     }, {
       "id" : "GR-Business-Publication",
       "contentType" : "group",
+      "nodeId" : "ND-GazetteReference",
       "displayType" : "GROUP",
-      "description" : "Publication",
-      "_label" : "group|name|GR-Business-Publication",
+      "description" : "Reference to the Gazette where Publication took place (Date, Name, URL …)",
+      "_label" : "group|name|ND-GazetteReference",
       "content" : [ {
         "id" : "OPP-120-Business",
         "contentType" : "field",
@@ -219,6 +220,12 @@
         "displayType" : "TEXTBOX",
         "description" : "Date of publication",
         "_label" : "field|name|OPP-123-Business"
+      }, {
+        "id" : "OPP-124-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Gazette Issue Identifier",
+        "_label" : "field|name|OPP-124-Business"
       } ]
     }, {
       "id" : "OPP-130-Business",

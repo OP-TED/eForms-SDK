@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.196",
-    "createdOn" : "2023-07-19T09:56:41"
+    "version" : "1.8.212",
+    "createdOn" : "2023-07-21T14:07:13"
   },
   "noticeId" : "14",
   "metadata" : [ {
@@ -483,9 +483,10 @@
       }, {
         "id" : "GR-Procedure-CrossBorderLaw",
         "contentType" : "group",
+        "nodeId" : "ND-CrossBorderLaw",
         "displayType" : "GROUP",
         "description" : "Cross Border Law",
-        "_label" : "group|name|GR-Procedure-CrossBorderLaw",
+        "_label" : "group|name|ND-CrossBorderLaw",
         "content" : [ {
           "id" : "BT-09(a)-Procedure",
           "contentType" : "field",
@@ -994,6 +995,19 @@
           "_label" : "field|name|BT-123-Lot"
         } ]
       }, {
+        "id" : "GR-Lot-EUFunds-Indicator",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "EU Funds Indicator",
+        "_label" : "group|name|GR-Lot-EUFunds-Indicator",
+        "content" : [ {
+          "id" : "BT-60-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "EU Funds",
+          "_label" : "field|name|BT-60-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-EUFunds",
         "contentType" : "group",
         "nodeId" : "ND-Funding",
@@ -1002,12 +1016,6 @@
         "_label" : "group|name|ND-Funding",
         "_repeatable" : true,
         "content" : [ {
-          "id" : "BT-60-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "EU Funds",
-          "_label" : "field|name|BT-60-Lot"
-        }, {
           "id" : "BT-7220-Lot",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
@@ -1426,6 +1434,20 @@
             "description" : "Terms Performance",
             "_label" : "field|name|BT-70-Lot"
           } ]
+        } ]
+      }, {
+        "id" : "GR-Lot-EInvoicing",
+        "contentType" : "group",
+        "nodeId" : "ND-LotEInvoicing",
+        "displayType" : "GROUP",
+        "description" : "Lot eInvoicing",
+        "_label" : "group|name|ND-LotEInvoicing",
+        "content" : [ {
+          "id" : "BT-743-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Electronic Invoicing",
+          "_label" : "field|name|BT-743-Lot"
         } ]
       }, {
         "id" : "GR-Lot-Requirements2SecurityClearance1",

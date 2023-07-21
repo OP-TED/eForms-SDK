@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.196",
-    "createdOn" : "2023-07-19T09:56:41"
+    "version" : "1.8.212",
+    "createdOn" : "2023-07-21T14:07:13"
   },
   "noticeId" : "CEI",
   "metadata" : [ {
@@ -449,9 +449,10 @@
       }, {
         "id" : "GR-Procedure-CrossBorderLaw",
         "contentType" : "group",
+        "nodeId" : "ND-CrossBorderLaw",
         "displayType" : "GROUP",
         "description" : "Cross Border Law",
-        "_label" : "group|name|GR-Procedure-CrossBorderLaw",
+        "_label" : "group|name|ND-CrossBorderLaw",
         "content" : [ {
           "id" : "BT-09(a)-Procedure",
           "contentType" : "field",
@@ -496,9 +497,10 @@
       "content" : [ {
         "id" : "GR-Procedure-Procedure",
         "contentType" : "group",
+        "nodeId" : "ND-ProcedureTenderingProcess",
         "displayType" : "GROUP",
-        "description" : "Procedure",
-        "_label" : "group|name|GR-Procedure-Procedure",
+        "description" : "Properties (Type, Relaunch, Termination, tendering for all lots) of the Tendering Process of the Procurement Procedure as a whole",
+        "_label" : "group|name|ND-ProcedureTenderingProcess",
         "content" : [ {
           "id" : "BT-105-Procedure",
           "contentType" : "field",
@@ -749,6 +751,19 @@
           "_label" : "field|name|BT-36-Lot"
         } ]
       }, {
+        "id" : "GR-Lot-EUFunds-Indicator",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "EU Funds Indicator",
+        "_label" : "group|name|GR-Lot-EUFunds-Indicator",
+        "content" : [ {
+          "id" : "BT-60-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "EU Funds",
+          "_label" : "field|name|BT-60-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-EUFunds",
         "contentType" : "group",
         "nodeId" : "ND-Funding",
@@ -757,12 +772,6 @@
         "_label" : "group|name|ND-Funding",
         "_repeatable" : true,
         "content" : [ {
-          "id" : "BT-60-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "EU Funds",
-          "_label" : "field|name|BT-60-Lot"
-        }, {
           "id" : "BT-7220-Lot",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
@@ -903,11 +912,19 @@
         "description" : "Subcontract Terms",
         "_label" : "group|name|GR-Lot-SubcontractTerms",
         "content" : [ {
-          "id" : "OPT-150-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Subcontracting Allowed",
-          "_label" : "field|name|OPT-150-Lot"
+          "id" : "GR-Lot-Subcontract-Allowed",
+          "contentType" : "group",
+          "nodeId" : "ND-AllowedSubcontracting",
+          "displayType" : "GROUP",
+          "description" : "Condition on subcontractinng",
+          "_label" : "group|name|ND-AllowedSubcontracting",
+          "content" : [ {
+            "id" : "OPT-150-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Subcontracting Allowed",
+            "_label" : "field|name|OPT-150-Lot"
+          } ]
         }, {
           "id" : "BT-729-Lot",
           "contentType" : "field",
