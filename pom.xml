@@ -143,6 +143,7 @@
                 <configuration>
                   <executable>java</executable>
                   <arguments>
+                    <argument>-Xmx5g</argument>
                     <argument>-classpath</argument>
                     <classpath/>
                     <argument>eu.europa.ted.eforms.sdk.analysis.Application</argument>

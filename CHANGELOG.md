@@ -1,57 +1,74 @@
-# SDK 1.7.0 Release Notes
+# SDK 1.8.0 Release Notes
 
-This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.6.0 should also be able to use this version.
-
-## Additional information
-
-A new property was added in fields.json, named "xsdSequenceOrder", in order to help create XML files that are valid against the schema. It indicates, for each XML element in the field's relative XPath, the position of this element among its siblings. This information is extracted automatically from the definition of the corresponding complex type in the XSD files.
-
-For codelists that have a tree-like structure (currently CPV and NUTS), a new column was added in the corresponding Genericode file, to indicate the parent code of each code. This allows the display of the structure of those codelists without having to using information outside of the eForms SDK.
+This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.7.0 should also be able to use this version.
 
 ## Updated metadata content
 
-This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency. The following is an overview of the main changes:
+This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency. The following sections contain an overview of the main changes.
 
-* The schema XSD was changed to add a parent element for BT-13716-notice (Changed section identifier).
+## Schema, nodes, fields and notice type definitions (NTDs)
 
-* The content of codelists was updated, aligning with the latest official codelists on EU Vocabularies, including these changes:
-  * "criterion": "autorisation" replaced by "authorisation", "misinterpr" replaced by "misrepresent"
-  * "currency": removed Kuna (welcome Croatia to the eurozone!), added new Leone (code SLE; old Leone code SLL is still legal tender in Sierra Leone)
-  * "non-publication-identifier": added "gro-ree-val" and "ree-val", removed "not-ree-val"
-  * "innovative-acquisition": removed "buy-eff", "fp-requ", "org-nov", "other"
-  * Corrected labels for "notice-type", "organisation-role", "eu-programme", "country", "winner-selection-status", "nuts"
-  * The codelist "corporate-body" was added (used by EU institutions)
-  
-* Schematron rules were added and updated, including these changes:
-  * Some conditional rules (removed in SDK 1.3) were added back, for dates BT-131 Deadline Receipt Tenders, BT-1311 Deadline Receipt Requests and BT-132 Public Opening Date, as well as for OPP-112 place of registration in notice subtypes X01 and X02
-  * New dynamic rule added to ensure that BT-05(a)-notice Dispatch date is -2 days or +1 day from current date
-  * Pattern PublicationNumber allows up to 8 digits including leading zeros (nnnnnnnn-yyyy to link to TED-XML notices)
-  * Made BT-22 Internal Identifier mandatory to ensure buyers can refer to a lot or group of lots throughout the procedure
-  * Made BT-21 Title and BT-262 Classification mandatory for notice subtypes 38/39/40
-  * Added Contract Modification ("can-modif") as a valid notice type for legal basis Directive 2014/23/EU
-  * Forbid BT-531 Additional Nature in notice subtypes 4/5/6
-  * Forbid economic operator organisation fields BT-633/OPT-302/BT-165/BT-746 in notice subtypes 1-24/38/39/40/T01/CEI/X01/X02; the fields are only valid in DAP and Result notices
-  * Corrected CPV checks for BT-262 Classification
-  
-* Example notices were updated accordingly, along with their validation reports.
+* Schema: removed xsd:choice that was making some organisation elements mutually exclusive for buyers and tenderers. This makes the schema more permissive, so it does not affect the validity of XML notices. The corresponding checks are now done as validation rules.
+* Schema: changed order of cbc:Note and cbc:BriefDescription in EFORMS-BusinessRegistrationInformationNotice.xsd (forms X01, X02) to align with other document types.
+* Added new fields OPA-36-Lot-Unit, OPA-36-Part-Unit, OPA-98-Lot-Unit for time duration fields that were @unitCode attributes for BT-36-Part, BT-36-Lot, and BT-98-Lot.
+* For nodes and fields, missing "xsdSequenceOrder" properties were added, and some values were corrected.
+* Simplified predicates in XPaths for several fields.
+* Added "unpublish" properties for fields in notice type definitions.
+* Added BT-13714 (Tender Lot Identifier) to form T02.
+* For repeatable fields, many associated nodes were created for the repeatable ancestor element.
+* Added nodes for award criteria and created six different fields for BT-541 instead of two fields; also leading to updates for related rules, unpublished fields and GR-Lot-AwardCriteria-Criterion-Parameter.
+* Nodes ND-ProcedureMainClassification, ND-LotMainClassification and ND-PartMainClassification and BT-262 (Main Classification Code) no longer repeatable (as CPV is currently the only available classification type).
+* Node ND-SecondStageCriterionParameter (containing BT-752-Lot, BT-7531-Lot, BT-7532-Lot) made repeatable.
+* Node ND-AccessibilityJustification (containing BT-754-Lot and BT-755-Lot) no longer repeatable.
+* Removed nodes ND-NoESubmission, ND-LostTenderPaidAmount, ND-PartAdditionalNature.
+* Removed predicate from the parent node for BT-1375-Procedure.
+* Reworked group GR-Lot-PlannedDuration.
+* Removed group GR-OptionsDescription and renamed GR-Lot-ContractExtension to "Renewals and Options".
+* Removed group GR-Organisation-Subsection.
+* Corrected display type to combobox for BT-722-Contract.
 
-* The node structure was corrected, along with the definitions of corresponding fields. The definitions of several fields were corrected and a few fields were added, including OPT-060 for cbc:ExecutionRequirementCode (next to BT-70) and BT-195/BT-196/BT-197/BT-198 fields to allow to unpublish BT-660 Framework Re-estimated Value
-  * BT-31 Lots Max Allowed and BT-33 Lots Max Awarded were defined as integer instead of number
-  * Changed nodes included: ND-LotTenderingTerms, ND-PartTenderingTerms, ND-LotsGroupAwardCriterionParameter, ND-LotAwardCriteria, ND-LotAwardCriterion, ND-ChangedSection, ND-ModifiedSection, ND-GroupReestimatedValueUnpublish, ND-ReestimatedValueUnpublish, ND-LotProcurementDocument, ND-PartProcurementDocument
+## Rules
 
-* All notice type definitions were updated and corrected.
+* Added back many conditional mandatory/forbidden rules (which had been removed in SDK 1.3) related to:
+  * Duration BT-36 Period, BT-536 Start date, BT-537 End date, BT-538 Other
+  * Place of performance BT-5071 Country subdivision (NUTS), BT-5101 Street, BT-5121 Post code, BT-5131 City, BT-5141 Country, BT-727 Services other, BT-728 Additional information
+  * Accelerated procedure BT-106, BT-1351
+  * Buyer activity BT-10, BT-610
+  * Deadline Receipt Expressions BT-630
+  * Main Contractor ID Reference OPT-301
+  * Notice Framework Maximum Value BT-118
+  * Procurement documents BT-708 Official language, BT-737 Unofficial language, OPT-140 ID
+  * Lot result fields BT-144 Not awarded reason, BT-13713 Result lot ID, OPT-315 Contract ID reference, OPT-320 Tender ID reference
+  * Tender BT-160 Concession Revenue Buyer, BT-162 Concession Revenue User, BT-163 Concession Value Description, BT-3201 Tender ID, OPT-310 Tendering party ID reference and BT-773 Subcontracting, OPT-321 Tender technical ID, BT-13714 Tender lot ID
+  * Contract fields BT-145 Contract conclusion date, BT-151 Contract URL and BT-721 Contract title, BT-1451 Winner decision date, BT-150 Contract ID and OPP-020 Assets related contract extension indicator,  OPT-316 Contract technical ID
+  * eSender dispatch BT-803 time mandatory if BT-803 date is present
+* Other rule changes:
+  * Removed rules that made BT-70 Contract Terms Performance mandatory for notice subtype 16 and most other competition forms; BT-70 is now only mandatory for subtypes 17, 18 and 22.
+  * BT-754 Accessibility is made non-repeatable (as the codelist values are mutually exclusive).
 
-* Many view templates were corrected and updated, including the addition of fields from the 2022 regulation amendment.
+## View templates
 
-* Translations were added and corrected to ensure that all but two asset types are available in 24 languages, including:
-  * Added (machine) translations for technical codelists and for view and notice asset types
-  * Improved group labels for NTDs and auxiliary labels for view templates
-  * Added several business-term|hint and field|hint labels
-  * Filled field|description labels (almost always the same as business_term|description)
-  * The translations for the rule and expression labels will be added in the next SDK version
+* Applied uniform format-number function to all numbers.
+* Grouped pairs of values and rank for multiple prizes.
+* Fixed display of BT-170-Tenderer for Group lead indicator.
+* Removed BT-541-LotsGroup field.
 
-As new rules were added, a notice that was valid with SDK 1.6.x might not be valid with this version.
+## Labels and translations
+
+* Rule and expression labels reviewed and harmonised in English, and translated into all languages.
+* Added the labels and translations for tailored codelists, with the same values as their parent codelists.
+
+## Examples
+
+* 18 new example notices were added, for notice subtypes that were not represented in existing examples.
+* Validation reports were updated using the same Schematron implementation as CVS. This changes the formatting of the files, not the information they contain.
+
+## Documentation
+
+* Improved metadata downloads as CSV files for rules, fields and nodes are available for download at <https://docs.ted.europa.eu/eforms/latest/reference/index.html#_downloads>
+
+As new rules were added, a notice that was valid with SDK 1.7.x might not be valid with this version.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
-A comprehensive list of changes between SDK 1.6.0 and SDK 1.7.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.6.0...1.7.0>
+A comprehensive list of changes between SDK 1.7.0 and SDK 1.8.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.7.0...1.8.0>
