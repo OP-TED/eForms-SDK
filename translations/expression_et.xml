@@ -12,6 +12,7 @@
 <entry key="expression|name|106">'Kestus' (BT-36-Lot) või 'Lõppkuupäev' (BT-537-Lot) on täidetud</entry>
 <entry key="expression|name|107">'Kestus' (BT-36-Lot) või 'Muu kestus' (BT-538-Lot) on täidetud</entry>
 <entry key="expression|name|108">'Lõppkuupäev' (BT-537-Lot) või 'Muu kestus' (BT-538-Lot) on täidetud</entry>
+<entry key="expression|name|109">'Menetluse liik' (BT-105) ei ole 'Otselepingu sõlmimine'</entry>
 <entry key="expression|name|11">'Alguskuupäev' (BT-536-Part) ei ole täidetud</entry>
 <entry key="expression|name|110">'Menetluse liik' (BT-105) on 'Avatud'; 'Menetluse liik' (BT-105) on 'Muu üheetapiline menetlus' ja 'Osalemistaotluste esitamise tähtaeg' (BT-1311) ei ole täidetud; 'Menetluse liik' (BT-105) peab olema 'Muu mitmeetapiline menetlus' ja 'Osalemistaotluste esitamise tähtaeg' (BT-1311) ei ole täidetud</entry>
 <entry key="expression|name|111">'Menetluse liik' (BT-105) on 'Muu üheetapiline menetlus' ja 'Pakkumuste esitamise tähtaeg' (BT-131) ei ole täidetud; 'Menetluse liik' (BT-105) on 'Muu mitmeetapiline menetlus' ja 'Osalemistaotluste esitamise tähtaeg' (BT-131) ei ole täidetud</entry>
@@ -44,7 +45,7 @@
 <entry key="expression|name|139">'Muud täitmiskohale seatud piirangud' (BT-727) ja 'Riik' (BT-5141) ei ole täidetud</entry>
 <entry key="expression|name|14">'Juurdepääs teatavatele hankedokumentidele on piiratud' (BT-14-Part) ei ole täidetud</entry>
 <entry key="expression|name|140">'Lisateave' (BT-728) ja BT-5142 (BT-5142) ei ole täidetud</entry>
-<entry key="expression|name|141">'Lepingu maksumuse maksimaalne protsendimäär, mille ulatuses töövõtja võib sõlmida allhankelepingud' (BT-729) ja BT-5143 (BT-5143) ei ole täidetud</entry>
+<entry key="expression|name|141">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727) ja 'Riik' (BT-5141) ei ole täidetud</entry>
 <entry key="expression|name|142">'Omaniku kodakondsus' (BT-706) ei ole täidetud</entry>
 <entry key="expression|name|143">'Ametlik nimi' (BT-500-UBO) ei ole täidetud</entry>
 <entry key="expression|name|144">'Riik' (BT-514-UBO) on NUTSi koodideta</entry>

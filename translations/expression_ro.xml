@@ -12,6 +12,7 @@
 <entry key="expression|name|106">'Durata' (BT-36-Lot) sau 'Data de încheiere' (BT-537-Lot) este completat</entry>
 <entry key="expression|name|107">'Durata' (BT-36-Lot) sau 'Altă durată' (BT-538-Lot) este completat</entry>
 <entry key="expression|name|108">'Data de încheiere' (BT-537-Lot) sau 'Altă durată' (BT-538-Lot) este completat</entry>
+<entry key="expression|name|109">'Tip de procedură' (BT-105) nu este 'Atribuire directă'</entry>
 <entry key="expression|name|11">'Data începerii' (BT-536-Part) nu este completat</entry>
 <entry key="expression|name|110">'Tip de procedură' (BT-105) este 'Deschisă'; 'Tip de procedură' (BT-105)este 'Altă procedură cu o singură etapă' și 'Termenul-limită pentru primirea cererilor de participare' (BT-1311)nu este completat; 'Tip de procedură' (BT-105) trebuie să fie 'Altă procedură cu mai multe etape' și 'Termenul-limită pentru primirea cererilor de participare' (BT-1311) nu este completat</entry>
 <entry key="expression|name|111">'Tip de procedură' (BT-105) este 'Altă procedură cu o singură etapă' și 'Termenul-limită pentru primirea ofertelor' (BT-131) nu este completat; 'Tip de procedură' (BT-105)este 'Altă procedură cu mai multe etape' și 'Termenul-limită pentru primirea cererilor de participare' (BT-131) nu este completat</entry>
@@ -44,7 +45,7 @@
 <entry key="expression|name|139">'Alte restricții privind locul de executare' (BT-727) și 'Țara' (BT-5141) nu sunt completate</entry>
 <entry key="expression|name|14">'Accesul la anumite documente de achiziție este restricționat' (BT-14-Part) nu este completat</entry>
 <entry key="expression|name|140">'Informații suplimentare' (BT-728) și BT-5142 (BT-5142) nu sunt completate</entry>
-<entry key="expression|name|141">'Procentul maxim din valoarea contractului pe care contractantul îl poate subcontracta' (BT-729) și BT-5143 (BT-5143) nu sunt completate</entry>
+<entry key="expression|name|141">'Alte restricții privind locul de executare' (BT-727) și 'Țara' (BT-5141) nu sunt completate</entry>
 <entry key="expression|name|142">'Naționalitatea proprietarului' (BT-706) nu este completat</entry>
 <entry key="expression|name|143">'Denumire oficială' (BT-500-UBO) nu este completat</entry>
 <entry key="expression|name|144">'Țara' (BT-514-UBO) nu are coduri NUTS</entry>

@@ -12,7 +12,7 @@
 <entry key="expression|name|106">'Duration' (BT-36-Lot) or 'End date' (BT-537-Lot) is filled in</entry>
 <entry key="expression|name|107">'Duration' (BT-36-Lot) or 'Other duration' (BT-538-Lot) is filled in</entry>
 <entry key="expression|name|108">'End date' (BT-537-Lot) or 'Other duration' (BT-538-Lot) is filled in</entry>
-<entry key="expression|name|109">Procedure Type (BT-105) value is not equal to "Direct award"</entry>
+<entry key="expression|name|109">'Type of procedure' (BT-105) is not 'Direct award'</entry>
 <entry key="expression|name|11">'Start date' (BT-536-Part) is not filled in</entry>
 <entry key="expression|name|110">'Type of procedure' (BT-105) is 'Open'; 'Type of procedure' (BT-105) is 'Other single stage procedure' and 'Deadline for receipt of requests to participate' (BT-1311) is not filled in; 'Type of procedure' (BT-105) must be 'Other multiple stage procedure' and 'Deadline for receipt of requests to participate' (BT-1311) is not filled in</entry>
 <entry key="expression|name|111">'Type of procedure' (BT-105) is 'Other single stage procedure' and 'Deadline for receipt of tenders' (BT-131) is not filled in; 'Type of procedure' (BT-105) is 'Other multiple stage procedure' and 'Deadline for receipt of requests to participate' (BT-131) is not filled in</entry>
@@ -45,7 +45,7 @@
 <entry key="expression|name|139">'Other restrictions on the place of performance' (BT-727) and 'Country' (BT-5141) are not filled in</entry>
 <entry key="expression|name|14">'Access to certain procurement documents is restricted' (BT-14-Part) is not filled in</entry>
 <entry key="expression|name|140">'Additional information' (BT-728) and BT-5142 (BT-5142) are not filled in</entry>
-<entry key="expression|name|141">'Maximum percentage of the contract value that the contractor may subcontract' (BT-729) and BT-5143 (BT-5143) are not filled in</entry>
+<entry key="expression|name|141">'Other restrictions on the place of performance' (BT-727) and 'Country' (BT-5141) are not filled in</entry>
 <entry key="expression|name|142">'Nationality of the owner' (BT-706) is not filled in</entry>
 <entry key="expression|name|143">'Official name' (BT-500-UBO) is not filled in</entry>
 <entry key="expression|name|144">'Country' (BT-514-UBO) does not have NUTS codes</entry>

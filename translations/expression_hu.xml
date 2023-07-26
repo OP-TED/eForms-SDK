@@ -12,6 +12,7 @@
 <entry key="expression|name|106">'Időtartam' (BT-36-Lot) vagy 'Záró időpont' (BT-537-Lot) ki van töltve</entry>
 <entry key="expression|name|107">'Időtartam' (BT-36-Lot) vagy 'Egyéb időtartam' (BT-538-Lot) ki van töltve</entry>
 <entry key="expression|name|108">'Záró időpont' (BT-537-Lot) vagy 'Egyéb időtartam' (BT-538-Lot) ki van töltve</entry>
+<entry key="expression|name|109">'Az eljárás típusa' (BT-105) nem 'Közvetlen odaítélés'</entry>
 <entry key="expression|name|11">'Kezdő időpont' (BT-536-Part) nincs kitöltve</entry>
 <entry key="expression|name|110">'Az eljárás típusa' (BT-105) = 'Nyitott'; 'Az eljárás típusa' (BT-105) = 'Egyéb egyszakaszos eljárás', és 'A részvételi jelentkezések beérkezésének határideje' (BT-1311) nincs kitöltve; 'Az eljárás típusa' (BT-105) mindenképpen 'Egyéb többszakaszos eljárás' legyen, és 'A részvételi jelentkezések beérkezésének határideje' (BT-1311) nincs kitöltve</entry>
 <entry key="expression|name|111">'Az eljárás típusa' (BT-105) = 'Egyéb egyszakaszos eljárás', és 'Az ajánlatok beérkezésének határideje' (BT-131) nincs kitöltve; 'Az eljárás típusa' (BT-105) = 'Egyéb többszakaszos eljárás', és 'A részvételi jelentkezések beérkezésének határideje' (BT-131) nincs kitöltve</entry>
@@ -44,7 +45,7 @@
 <entry key="expression|name|139">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) és 'Ország' (BT-5141) nincs kitöltve</entry>
 <entry key="expression|name|14">'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Part) nincs kitöltve</entry>
 <entry key="expression|name|140">'További információk' (BT-728) és BT-5142 (BT-5142) nincs kitöltve</entry>
-<entry key="expression|name|141">'A vállalakozó a szerződés értékének max. ennyi százalékát adhatja alvállalkozásba' (BT-729) és BT-5143 (BT-5143) nincs kitöltve</entry>
+<entry key="expression|name|141">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) és 'Ország' (BT-5141) nincs kitöltve</entry>
 <entry key="expression|name|142">'A tulajdonos állampolgársága' (BT-706) nincs kitöltve</entry>
 <entry key="expression|name|143">'Hivatalos név' (BT-500-UBO) nincs kitöltve</entry>
 <entry key="expression|name|144">'Ország' (BT-514-UBO) nem rendelkezik NUTS-kódokkal</entry>

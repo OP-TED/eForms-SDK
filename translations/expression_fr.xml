@@ -12,6 +12,7 @@
 <entry key="expression|name|106">'Durée' (BT-36-Lot) ou 'Date de fin' (BT-537-Lot) est rempli</entry>
 <entry key="expression|name|107">'Durée' (BT-36-Lot) ou 'Autres durées' (BT-538-Lot) est rempli</entry>
 <entry key="expression|name|108">'Date de fin' (BT-537-Lot) ou 'Autres durées' (BT-538-Lot) est rempli</entry>
+<entry key="expression|name|109">'Type de procédure' (BT-105) n’est pas 'Attribution directe'</entry>
 <entry key="expression|name|11">'Date de début' (BT-536-Part) n’est pas rempli</entry>
 <entry key="expression|name|110">'Type de procédure' (BT-105) est 'Ouverte'; 'Type de procédure' (BT-105) est 'Autre procédure en une seule étape' et 'Date limite de réception des demandes de participation' (BT-1311) n’est pas rempli; 'Type de procédure' (BT-105) doit être 'Autre procédure en plusieurs étapes' et 'Date limite de réception des demandes de participation' (BT-1311) n’est pas rempli</entry>
 <entry key="expression|name|111">'Type de procédure' (BT-105) est 'Autre procédure en une seule étape' et 'Date limite de réception des offres' (BT-131) n’est pas rempli; 'Type de procédure' (BT-105) est 'Autre procédure en plusieurs étapes' et 'Date limite de réception des demandes de participation' (BT-131) n’est pas rempli</entry>
@@ -44,7 +45,7 @@
 <entry key="expression|name|139">'Autres restrictions sur le lieu d’exécution' (BT-727) et 'Pays' (BT-5141) ne sont pas remplis</entry>
 <entry key="expression|name|14">'L’accès à certains documents de marché est limité' (BT-14-Part) n’est pas rempli</entry>
 <entry key="expression|name|140">'Informations complémentaires' (BT-728) et BT-5142 (BT-5142) ne sont pas remplis</entry>
-<entry key="expression|name|141">'Pourcentage maximal de la valeur du marché que le contractant peut sous-traiter' (BT-729) et BT-5143 (BT-5143) ne sont pas remplis</entry>
+<entry key="expression|name|141">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727) et 'Pays' (BT-5141) ne sont pas remplis</entry>
 <entry key="expression|name|142">'Nationalité du propriétaire' (BT-706) n’est pas rempli</entry>
 <entry key="expression|name|143">'Nom officiel' (BT-500-UBO) n’est pas rempli</entry>
 <entry key="expression|name|144">'Pays' (BT-514-UBO) ne possède pas de codes NUTS</entry>

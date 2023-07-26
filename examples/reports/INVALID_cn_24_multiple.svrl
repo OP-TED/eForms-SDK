@@ -317,8 +317,8 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:VariantConstraintCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cbc:VariantConstraintCode"/>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='exclusion-ground']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode[@listName='reserved-procurement']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:Language/cbc:ID"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:Language/cbc:ID"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess/cbc:ProcedureCode"/>
@@ -330,13 +330,6 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cac:Country/cbc:IdentificationCode"/>
    <svrl:fired-rule context="/*/cbc:NoticeLanguageCode"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:LanguageID[not(../cbc:DocumentStatusCode/text()='non-official')]"/>
-   <svrl:failed-assert id="BR-BT-00708-0102"
-                       location="/cn:ContractNotice/cac:ProcurementProjectLot[2]/cac:TenderingTerms/cac:CallForTendersDocumentReference[2]/cbc:LanguageID"
-                       role="ERROR"
-                       test="normalize-space(.) = ('AFR', 'AMH', 'ARA', 'ARO', 'AYM', 'AYO', 'AZE', 'BEL', 'BEN', 'BIS', 'BOD', 'BOS', 'BRE', 'BRG', 'BUL', 'CAL', 'CAO', 'CAS', 'CAT', 'CAV', 'CAW', 'CAX', 'CAZ', 'CES', 'CHA', 'CKB', 'CMN', 'CNR', 'COR', 'COS', 'CRS', 'CYB', 'CYM', 'DAN', 'DEU', 'DIV', 'DZO', 'ELL', 'ENG', 'EPO', 'ESE', 'EST', 'EUS', 'EWE', 'FAO', 'FAS', 'FIJ', 'FIL', 'FIN', 'FRA', 'FRY', 'GLA', 'GLE', 'GLG', 'GLV', 'GRN', 'GUG', 'GYR', 'HAT', 'HBS', 'HCA', 'HEB', 'HIF', 'HIN', 'HMO', 'HRV', 'HSB', 'HUN', 'HYE', 'IBO', 'IGN', 'INA', 'IND', 'ISL', 'ITA', 'ITE', 'ITO', 'JPN', 'KAL', 'KAT', 'KAZ', 'KHM', 'KIN', 'KIR', 'KMR', 'KON', 'KOR', 'KUR', 'KXD', 'LAO', 'LAT', 'LAV', 'LEC', 'LIN', 'LIT', 'LTZ', 'LUA', 'MAH', 'MAN', 'MIN', 'MIS', 'MKD', 'MLG', 'MLT', 'MNK', 'MOL', 'MON', 'MPD', 'MRI', 'MSA', 'MTP', 'MUL', 'MYA', 'MZP', 'NAU', 'NBL', 'NEP', 'NIU', 'NLD', 'NNO', 'NOB', 'NOR', 'NSO', 'NYA', 'OCI', 'OSS', 'PAN', 'PAP', 'PAU', 'PCP', 'PIH', 'POL', 'POR', 'PRS', 'PSM', 'PUQ', 'PUS', 'QUE', 'RAR', 'REY', 'ROH', 'ROM', 'RON', 'RUN', 'RUS', 'SAG', 'SCO', 'SDH', 'SIN', 'SIP', 'SLK', 'SLV', 'SME', 'SMO', 'SOM', 'SOT', 'SPA', 'SQI', 'SRP', 'SRQ', 'SSW', 'SWA', 'SWB', 'SWE', 'TAM', 'TET', 'TGK', 'THA', 'TIR', 'TKL', 'TNA', 'TNO', 'TON', 'TPI', 'TPJ', 'TRN', 'TSN', 'TSO', 'TUK', 'TUR', 'TVL', 'UKR', 'UND', 'URD', 'URE', 'UZB', 'VEN', 'VIE', 'VLS', 'WLN', 'WOL', 'XHO', 'YAA', 'YID', 'YUE', 'YUQ', 'YUZ', 'ZHO', 'ZLM', 'ZUL', 'ZXX')">
-      <svrl:text>rule|text|BR-BT-00708-0102</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='reserved-execution']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement/cbc:ExecutionRequirementCode[@listName='einvoicing']"/>
@@ -378,7 +371,7 @@
       <svrl:text>rule|text|BR-BT-07532-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
-   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[not(../cbc:DocumentType/text()='restricted-document')]/cac:ExternalReference/cbc:URI"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cbc:EndpointID"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cbc:EndpointID"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Name"/>

@@ -12,6 +12,7 @@
 <entry key="expression|name|106">'Duração' (BT-36-Lot) ou 'Data de termo' (BT-537-Lot) está preenchido</entry>
 <entry key="expression|name|107">'Duração' (BT-36-Lot) ou 'Outra duração' (BT-538-Lot) está preenchido</entry>
 <entry key="expression|name|108">'Data de termo' (BT-537-Lot) ou 'Outra duração' (BT-538-Lot) está preenchido</entry>
+<entry key="expression|name|109">'Tipo de procedimento' (BT-105) não é 'Adjudicação direta'</entry>
 <entry key="expression|name|11">'Data de início' (BT-536-Part) não está preenchido</entry>
 <entry key="expression|name|110">'Tipo de procedimento' (BT-105) é 'Aberto'; 'Tipo de procedimento' (BT-105) é 'Outro processo de fase única' e 'Prazo para a receção dos pedidos de participação' (BT-1311) não está preenchido; 'Tipo de procedimento' (BT-105) deve ser 'Outro processo em múltiplas fases' e 'Prazo para a receção dos pedidos de participação' (BT-1311) não está preenchido</entry>
 <entry key="expression|name|111">'Tipo de procedimento' (BT-105) é 'Outro processo de fase única' e 'Prazo para a receção das propostas' (BT-131) não está preenchido; 'Tipo de procedimento' (BT-105) é 'Outro processo em múltiplas fases' e 'Prazo para a receção dos pedidos de participação' (BT-131) não está preenchido</entry>
@@ -44,7 +45,7 @@
 <entry key="expression|name|139">'Outras restrições ao local de cumprimento' (BT-727) e 'País' (BT-5141) não estão preenchidos</entry>
 <entry key="expression|name|14">'O acesso a determinados documentos do concurso é limitado' (BT-14-Part) não está preenchido</entry>
 <entry key="expression|name|140">'Informações adicionais' (BT-728) e BT-5142 (BT-5142) não estão preenchidos</entry>
-<entry key="expression|name|141">'Percentagem máxima do valor do contrato que o contratante pode subcontratar' (BT-729) e BT-5143 (BT-5143) não estão preenchidos</entry>
+<entry key="expression|name|141">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727) e 'País' (BT-5141) não estão preenchidos</entry>
 <entry key="expression|name|142">'Nacionalidade do titular' (BT-706) não está preenchido</entry>
 <entry key="expression|name|143">'Nome oficial' (BT-500-UBO) não está preenchido</entry>
 <entry key="expression|name|144">'País' (BT-514-UBO) não tem códigos NUTS</entry>

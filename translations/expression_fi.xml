@@ -12,6 +12,7 @@
 <entry key="expression|name|106">'Kesto' (BT-36-Lot) tai 'Päättymispäivä' (BT-537-Lot) on täytetty</entry>
 <entry key="expression|name|107">'Kesto' (BT-36-Lot) tai 'Muu kesto' (BT-538-Lot) on täytetty</entry>
 <entry key="expression|name|108">'Päättymispäivä' (BT-537-Lot) tai 'Muu kesto' (BT-538-Lot) on täytetty</entry>
+<entry key="expression|name|109">'Menettelyn tyyppi' (BT-105) ei ole 'Sopimuksen tekeminen ilman tarjouskilpailua'</entry>
 <entry key="expression|name|11">'Alkamispäivä' (BT-536-Part) ei ole täytetty</entry>
 <entry key="expression|name|110">'Menettelyn tyyppi' (BT-105) on 'Avoin', 'Menettelyn tyyppi' (BT-105) on 'Muu yksivaiheinen menettely' ja 'Osallistumishakemusten vastaanottamisen määräaika' (BT-1311) ei ole täytetty, 'Menettelyn tyyppi' (BT-105) on oltava 'Muu monivaiheinen menettely' ja 'Osallistumishakemusten vastaanottamisen määräaika' (BT-1311) ei ole täytetty</entry>
 <entry key="expression|name|111">'Menettelyn tyyppi' (BT-105) on 'Muu yksivaiheinen menettely' ja 'Tarjousten vastaanottamisen määräaika' (BT-131) ei ole täytetty, 'Menettelyn tyyppi' (BT-105) on 'Muu monivaiheinen menettely' ja 'Osallistumishakemusten vastaanottamisen määräaika' (BT-131) ei ole täytetty</entry>
@@ -44,7 +45,7 @@
 <entry key="expression|name|139">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727) ja 'Maa' (BT-5141) ei ole täytetty</entry>
 <entry key="expression|name|14">'Tiettyjen hankinta-asiakirjojen saatavuutta on rajoitettu' (BT-14-Part) ei ole täytetty</entry>
 <entry key="expression|name|140">'Lisätiedot' (BT-728) ja BT-5142 (BT-5142) ei ole täytetty</entry>
-<entry key="expression|name|141">'Enimmäisprosenttiosuus sopimuksen arvosta, jonka toimeksisaaja voi teettää alihankintana' (BT-729) ja BT-5143 (BT-5143) ei ole täytetty</entry>
+<entry key="expression|name|141">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727) ja 'Maa' (BT-5141) ei ole täytetty</entry>
 <entry key="expression|name|142">'Omistajan kansalaisuus' (BT-706) ei ole täytetty</entry>
 <entry key="expression|name|143">'Virallinen nimi' (BT-500-UBO) ei ole täytetty</entry>
 <entry key="expression|name|144">'Maa' (BT-514-UBO) ei ole NUTS-koodeja</entry>

@@ -12,6 +12,7 @@
 <entry key="expression|name|106">'Trajanje' (BT-36-Lot) ili 'Datum završetka' (BT-537-Lot) je popunjeno</entry>
 <entry key="expression|name|107">'Trajanje' (BT-36-Lot) ili 'Ostalo trajanje' (BT-538-Lot) je popunjeno</entry>
 <entry key="expression|name|108">'Datum završetka' (BT-537-Lot) ili 'Ostalo trajanje' (BT-538-Lot) je popunjeno</entry>
+<entry key="expression|name|109">'Vrsta postupka' (BT-105) nije 'Izravna dodjela ugovora'</entry>
 <entry key="expression|name|11">'Datum početka' (BT-536-Part) nije popunjeno</entry>
 <entry key="expression|name|110">'Vrsta postupka' (BT-105) je 'Otvoren'; 'Vrsta postupka' (BT-105) je 'Ostali postupci od jedne faze' i 'Rok za primitak zahtjeva za sudjelovanje' (BT-1311) nije popunjeno; 'Vrsta postupka' (BT-105) mora biti 'Ostali postupci u više faza' i 'Rok za primitak zahtjeva za sudjelovanje' (BT-1311) nije popunjeno</entry>
 <entry key="expression|name|111">'Vrsta postupka' (BT-105) je 'Ostali postupci od jedne faze'; i 'Rok za zaprimanje ponuda' (BT-131) nije popunjeno; 'Vrsta postupka' (BT-105) je 'Ostali postupci u više faza' i 'Rok za primitak zahtjeva za sudjelovanje' (BT-131) nije popunjeno</entry>
@@ -44,7 +45,7 @@
 <entry key="expression|name|139">'Ostala ograničenja u pogledu mjesta izvršenja' (BT-727) i 'Zemlja' (BT-5141)nisu popunjeni</entry>
 <entry key="expression|name|14">'Pristup određenim dokumentima o nabavi ograničen je' (BT-14-Part) nije popunjeno</entry>
 <entry key="expression|name|140">'Dodatne informacije' (BT-728) i BT-5142 (BT-5142)nisu popunjeni</entry>
-<entry key="expression|name|141">'Maksimalan postotak vrijednosti ugovora koji ugovaratelj može podugovoriti' (BT-729) i BT-5143 (BT-5143)nisu popunjeni</entry>
+<entry key="expression|name|141">'Druga ograničenja koja se odnose na mjesto izvršenja' (BT-727) i 'Zemlja' (BT-5141)nisu popunjeni</entry>
 <entry key="expression|name|142">'Državljanstvo vlasnika' (BT-706) nije popunjeno</entry>
 <entry key="expression|name|143">'Službeno ime' (BT-500-UBO) nije popunjeno</entry>
 <entry key="expression|name|144">'Zemlja' (BT-514-UBO) nema NUTS kôdove</entry>

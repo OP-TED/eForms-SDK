@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.8.0",
   "metadataDatabase" : {
-    "version" : "1.7.64",
-    "createdOn" : "2023-05-23T13:51:48"
+    "version" : "1.8.0",
+    "createdOn" : "2023-06-02T14:00:00"
   },
   "noticeId" : "39",
   "metadata" : [ {
@@ -54,6 +54,7 @@
     "displayType" : "COMBOBOX",
     "description" : "Notice Official Language",
     "_label" : "field|name|BT-702(b)-notice",
+    "_repeatable" : true,
     "hidden" : true
   }, {
     "id" : "BT-05(a)-notice",

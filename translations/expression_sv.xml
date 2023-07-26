@@ -12,6 +12,7 @@
 <entry key="expression|name|106">'Varaktighet' (BT-36-Lot) eller 'Slutdatum' (BT-537-Lot) fylls i</entry>
 <entry key="expression|name|107">'Varaktighet' (BT-36-Lot) eller 'Övrig varaktighet' (BT-538-Lot) fylls i</entry>
 <entry key="expression|name|108">'Slutdatum' (BT-537-Lot) eller 'Övrig varaktighet' (BT-538-Lot) fylls i</entry>
+<entry key="expression|name|109">'Typ av förfarande' (BT-105) är inte 'Direkttilldelning'</entry>
 <entry key="expression|name|11">'Startdatum' (BT-536-Part) fylls inte i</entry>
 <entry key="expression|name|110">'Typ av förfarande' (BT-105) är 'Öppet'; 'Typ av förfarande' (BT-105) är 'Annat förfarande i ett steg' och 'Tidsfrist för mottagande av anbudsansökningar' (BT-1311) fylls inte i; 'Typ av förfarande' (BT-105) måste vara 'Annat förfarande i flera steg' och 'Tidsfrist för mottagande av anbudsansökningar' (BT-1311) fylls inte i</entry>
 <entry key="expression|name|111">'Typ av förfarande' (BT-105) är 'Annat förfarande i ett steg' och 'Tidsfrist för mottagande av anbud' (BT-131) fylls inte i; 'Typ av förfarande' (BT-105) är 'Annat förfarande i flera steg' och 'Tidsfrist för mottagande av anbudsansökningar' (BT-131) fylls inte i</entry>
@@ -44,7 +45,7 @@
 <entry key="expression|name|139">'Andra begränsningar av uppfyllelseorten' (BT-727) och 'Land' (BT-5141) fylls inte i</entry>
 <entry key="expression|name|14">'Tillgången till vissa upphandlingsdokument är begränsad' (BT-14-Part) fylls inte i</entry>
 <entry key="expression|name|140">'Kompletterande information' (BT-728) och BT-5142 (BT-5142) fylls inte i</entry>
-<entry key="expression|name|141">'Den högsta procentandel av kontraktets värde som leverantören får lägga ut på underleverantörer' (BT-729) och BT-5143 (BT-5143) fylls inte i</entry>
+<entry key="expression|name|141">'Andra begränsningar av uppfyllelseorten' (BT-727) och 'Land' (BT-5141) fylls inte i</entry>
 <entry key="expression|name|142">'Nationalitet på verklig huvudman' (BT-706) fylls inte i</entry>
 <entry key="expression|name|143">'Officiellt namn' (BT-500-UBO) fylls inte i</entry>
 <entry key="expression|name|144">'Land' (BT-514-UBO) saknar NUTS-koder</entry>
