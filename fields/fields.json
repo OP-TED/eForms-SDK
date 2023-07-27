@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.210",
-    "createdOn" : "2023-07-21T14:06:08"
+    "version" : "1.8.220",
+    "createdOn" : "2023-07-27T14:05:13"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -2490,13 +2490,6 @@
     "type" : "id",
     "presetValue" : "CrossBorderLaw",
     "legalType" : "TEXT",
-    "privacy" : {
-      "code" : "cro-bor-law",
-      "unpublishedFieldId" : "BT-195(BT-09)-Procedure",
-      "reasonCodeFieldId" : "BT-197(BT-09)-Procedure",
-      "reasonDescriptionFieldId" : "BT-196(BT-09)-Procedure",
-      "publicationDateFieldId" : "BT-198(BT-09)-Procedure"
-    },
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
