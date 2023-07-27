@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.212",
-    "createdOn" : "2023-07-21T14:07:13"
+    "version" : "1.8.220",
+    "createdOn" : "2023-07-27T14:05:13"
   },
   "noticeId" : "9",
   "metadata" : [ {
@@ -1721,9 +1721,11 @@
       }, {
         "id" : "GR-Lot-SubcontractRequest",
         "contentType" : "group",
+        "nodeId" : "ND-SubcontractingIndication",
         "displayType" : "GROUP",
-        "description" : "Subcontract Request",
-        "_label" : "group|name|GR-Lot-SubcontractRequest",
+        "description" : "Tender subcontracting indication",
+        "_label" : "group|name|ND-SubcontractingIndication",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-651-Lot",
           "contentType" : "field",

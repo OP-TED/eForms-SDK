@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.212",
-    "createdOn" : "2023-07-21T14:07:13"
+    "version" : "1.8.220",
+    "createdOn" : "2023-07-27T14:05:13"
   },
   "noticeId" : "26",
   "metadata" : [ {
@@ -3477,12 +3477,6 @@
           "description" : "LotResult 2",
           "_label" : "group|name|GR-LotResult-2",
           "content" : [ {
-            "id" : "BT-119-LotResult",
-            "contentType" : "field",
-            "displayType" : "RADIO",
-            "description" : "Dynamic Purchasing System Termination",
-            "_label" : "field|name|BT-119-LotResult"
-          }, {
             "id" : "BT-660-LotResult",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
@@ -3537,9 +3531,10 @@
           }, {
             "id" : "GR-Unpublish-BT-709",
             "contentType" : "group",
+            "nodeId" : "ND-MaximalValueUnpublish",
             "displayType" : "GROUP",
-            "description" : "Unpublish - BT-709",
-            "_label" : "group|name|GR-Unpublish-BT-709",
+            "description" : "Not Immediately Published (MaximalValue)",
+            "_label" : "group|name|ND-MaximalValueUnpublish",
             "collapsed" : true,
             "content" : [ {
               "id" : "BT-195(BT-709)-LotResult",

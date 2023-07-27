@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.212",
-    "createdOn" : "2023-07-21T14:07:13"
+    "version" : "1.8.220",
+    "createdOn" : "2023-07-27T14:05:13"
   },
   "noticeId" : "18",
   "metadata" : [ {
@@ -540,9 +540,23 @@
           "description" : "Procedure Type",
           "_label" : "field|name|BT-105-Procedure"
         }, {
-          "id" : "BT-106-Procedure",
+          "id" : "BT-763-Procedure",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
+          "description" : "Lots All Required",
+          "_label" : "field|name|BT-763-Procedure"
+        } ]
+      }, {
+        "id" : "GR-Procedure-Accelerated",
+        "contentType" : "group",
+        "nodeId" : "ND-AcceleratedProcedure",
+        "displayType" : "GROUP",
+        "description" : "Accelerated Procedure (or not) and Justification",
+        "_label" : "group|name|ND-AcceleratedProcedure",
+        "content" : [ {
+          "id" : "BT-106-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
           "description" : "Procedure Accelerated",
           "_label" : "field|name|BT-106-Procedure"
         }, {
@@ -551,12 +565,6 @@
           "displayType" : "TEXTAREA",
           "description" : "Procedure Accelerated Justification",
           "_label" : "field|name|BT-1351-Procedure"
-        }, {
-          "id" : "BT-763-Procedure",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Lots All Required",
-          "_label" : "field|name|BT-763-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-AdditionalInformation",
